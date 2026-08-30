@@ -1,0 +1,106 @@
+{
+  "issuer": "p2_puma",
+  "reports": [
+    {
+      "document_id": "PUM.DE_FQ1_2025",
+      "issuer": "p2_puma",
+      "company": "Puma",
+      "ticker": "PUM.DE",
+      "sector": "Consumer Cyclical/Footwear & Accessories",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-07",
+      "release_date": "2025-05-07",
+      "release_date_source": "PUMA IR calendar",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/puma/CY2025-Q1/Q1_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/puma/CY2025-Q1/Q1_2025_Earnings_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PUM.DE_FQ3_2025",
+      "issuer": "p2_puma",
+      "company": "Puma",
+      "ticker": "PUM.DE",
+      "sector": "Consumer Cyclical/Footwear & Accessories",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-30",
+      "release_date": "2025-10-30",
+      "release_date_source": "PUMA IR calendar",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/puma/CY2025-Q3/Q3_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/puma/CY2025-Q3/Q3_2025_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Summary (Aide Memoire)",
+          "source_pdf": "docs/puma/CY2025-Q3/Q3_2025_Aide_Memoire.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PUM.DE_FQ4_2025",
+      "issuer": "p2_puma",
+      "company": "Puma",
+      "ticker": "PUM.DE",
+      "sector": "Consumer Cyclical/Footwear & Accessories",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-26",
+      "release_date": "2026-02-26",
+      "release_date_source": "PUMA IR calendar",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/puma/CY2025-Q4/Q4_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/puma/CY2025-Q4/Q4_2025_Earnings_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "PUM.DE_FQ1_2026",
+      "issuer": "p2_puma",
+      "company": "Puma",
+      "ticker": "PUM.DE",
+      "sector": "Consumer Cyclical/Footwear & Accessories",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-30",
+      "release_date": "2026-04-30",
+      "release_date_source": "PUMA IR calendar",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/puma/CY2026-Q1/Q1_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/puma/CY2026-Q1/Q1_2026_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/puma/CY2026-Q1/Q1_2026_Earnings_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "PUMA IR calendar: Q1 and Q3 2025 state \"8 am CET Quarterly Statement\". 08:00 CET precedes 09:00 XETRA open. Regular quarterly statements only; PUMA Q2 2025 is not in the dataset.",
+    "retrieval_date": "2026-08-12"
+  }
+}

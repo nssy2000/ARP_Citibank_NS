@@ -1,0 +1,190 @@
+{
+  "document_id": "F_FQ2_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "Full-year adjusted EBIT guidance was reduced from $7.0-$8.5 billion (initial February guidance, withdrawn in May) to $6.5-$7.5 billion, a clear downward revision. The reduction is explicitly attributed to a net tariff headwind of about $2 billion, which is a structural, ongoing risk (not a one-time item). While management highlights cost improvement and strong underlying performance, the guidance cut and the magnitude of the tariff headwind dominate the forward outlook, warranting a moderately bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record $50.2 billion in Q2 2025, up 5% year-over-year.",
+    "eps": "GAAP diluted EPS was -$0.01 (net loss of $36 million). Adjusted diluted EPS was $0.37.",
+    "guidance": "Full-year 2025 adjusted EBIT guidance reduced to $6.5-$7.5 billion (from initial $7.0-$8.5 billion), including a net tariff headwind of about $2 billion. Adjusted free cash flow guidance of $3.5-$4.5 billion and capital spending of about $9 billion were maintained.",
+    "margin": "Company adjusted EBIT margin was 4.3% in Q2 2025, down from 5.8% in Q2 2024.",
+    "key_risks": [
+      "Net tariff headwind of about $2 billion for full year 2025.",
+      "Ongoing recall costs, particularly for older vehicles, with FSA costs having a longer arc to improvement.",
+      "Potential negative impact from the phase-out of consumer EV tax credits in September.",
+      "Structural shift to regional trade blocs with higher tariffs, which could be long-term."
+    ],
+    "key_opportunities": [
+      "Cost improvement: targeting $1 billion net improvement in 2025, excluding tariffs, with progress in manufacturing efficiency and negotiated parts costs.",
+      "Ford Pro growth: high-margin software and services (17% of Pro EBIT), growing paid subscriptions (24% YoY), and capital reallocation towards Pro.",
+      "Easing U.S. emissions regulations: potential multi-billion dollar opportunity over next two years from reduced compliance burden and mix flexibility.",
+      "Next-generation EV platform (Skunkworks) with LFP battery technology, aiming to compete with Chinese OEMs."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in cost execution and Ford Pro's trajectory ('The Ford team delivered a solid second quarter'), but the tone is cautious and defensive regarding tariffs and the forward outlook, as evidenced by the guidance cut and repeated emphasis on the $2 billion tariff headwind."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year adjusted EBIT guidance was reduced from $7.0-$8.5 billion to $6.5-$7.5 billion.",
+      "quote": "Ford now anticipates full-year adjusted EBIT of $6.5 billion to $7.5 billion... In February, the company initially provided adjusted EBIT guidance for the year of $7.0 billion to $8.5 billion and then withdrew that guidance in May due to tariff-related uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance reduction is explicitly attributed to a net tariff headwind of about $2 billion.",
+      "quote": "Our updated guidance reflects the strong underlying first half performance... The net tariff-related headwind of about $2 billion reflects a $3 billion gross adverse adjusted EBIT impact, offset partially by $1 billion of recovery actions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue was a record $50.2 billion, up 5% year-over-year.",
+      "quote": "Second-quarter revenue reached a record $50.2 billion... Second-quarter revenue of $50.2 billion, a 5% increase from the same period a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS was -$0.01 (net loss of $36 million).",
+      "quote": "Net loss was $36 million... EPS (Diluted) $ 0.46 $ (0.01) $ (0.47).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $0.37.",
+      "quote": "Adjusted Earnings Per Share – Diluted (Non-GAAP) $ 0.47 $ 0.37 $ (0.10).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company adjusted EBIT margin was 4.3% in Q2 2025, down from 5.8% in Q2 2024.",
+      "quote": "Company Adj. EBIT Margin (%) 5.8 % 4.3 % (1.5) ppts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in cost execution and Ford Pro's trajectory.",
+      "quote": "The Ford team delivered a solid second quarter, including a record 50 billion in revenue that underscores the strength of our incredible products and services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious and defensive regarding tariffs and the forward outlook.",
+      "quote": "We expect tariffs to be a net headwind of about $2 billion this year, and we'll continue to monitor the developments closely and engage with policymakers to ensure U.S. auto workers and customers are not disadvantaged by policy change.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost improvement is a key opportunity, targeting $1 billion net improvement in 2025.",
+      "quote": "We are still targeting to deliver a net improvement of $1 billion this year, excluding the impact of tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Pro's high-margin software and services contributed 17% of Pro EBIT.",
+      "quote": "Over the past 12 months, aftermarket, which includes parts and software and services, contributed 17% of Pro's EBIT closing in on that 20% target for next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Easing U.S. emissions regulations present a potential multi-billion dollar opportunity.",
+      "quote": "Further changes will balance standards and customer choice and has the potential to unlock a multi-billion dollar opportunity over the next two years, primarily in Ford Blue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing recall costs, particularly for older vehicles, are a key risk.",
+      "quote": "We are not satisfied with the current level of recalls or the number of vehicles impacted... most of our recent FSA costs are tied to vehicles engineered several years ago before we made all the robust process changes across our industrial system.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The phase-out of consumer EV tax credits could negatively impact EV sales.",
+      "quote": "If we look at the EV business, we know the consumer credit is going away in September, that probably means some, maybe a stronger Q3, but then Q4 is negatively impacted.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural shift to regional trade blocs with higher tariffs could be long-term.",
+      "quote": "We increasingly see Europe, North America, and Asia becoming regional businesses with tariff rates that are aligned for those three or four regions. And I believe that is a very long-term change.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance cut is clear, but the magnitude of the tariff headwind ($2B) is partially offset by $1B in recovery actions and strong underlying cost performance. The score of -0.30 reflects a moderate bearish view; a reviewer may consider a slightly less negative score if they weigh the cost improvements more heavily."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "F_Bundled Earnings Report_2025-07-30",
+  "report_metadata": {
+    "issuer": "p2_ford",
+    "company": "Ford",
+    "ticker": "F",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q2\\Ford-Q2-2025-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q2\\Ford-Q2-2025-Press-Release-SEC-8K-Exhibit.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "F_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173142Z",
+    "timestamp": "2026-07-30T17:32:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q2\\Ford-Q2-2025-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ford\\extracted\\F_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q2\\Ford-Q2-2025-Earnings-Call-Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 53067,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q2\\Ford-Q2-2025-Press-Release-SEC-8K-Exhibit.htm",
+        "page_count": 1,
+        "extracted_characters": 44672,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ford\\extracted\\F_FQ2_2025.txt"
+  }
+}

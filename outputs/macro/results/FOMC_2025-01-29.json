@@ -1,0 +1,38 @@
+{
+  "document_id": "FOMC_2025-01-29",
+  "meeting_dates": "2025-01-28/29",
+  "minutes_release_date": "2025-02-19",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The FOMC held the federal funds rate steady at 4.25-4.50% and continued balance sheet runoff, with no change in forward guidance. Inflation remains 'somewhat elevated' and progress has slowed, while the vast majority of participants see risks to the dual mandate as roughly balanced. The cautious, data-dependent tone and lack of any easing signal produce a neutral score for equity investors."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band"
+  },
+  "cost_log": {
+    "run_id": "20260702T132530Z",
+    "timestamp": "2026-07-02T13:25:45Z",
+    "status": "success",
+    "document_id": "FOMC_2025-01-29",
+    "issuer": "macro",
+    "company": "Federal Open Market Committee",
+    "ticker": "FOMC",
+    "fiscal_period": "2025-01-28/29",
+    "report_date": "2025-02-19",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\macro\\fomc_minutes\\2025-01-29.html",
+    "model": "deepseek-v4-flash",
+    "input_tokens": 14258,
+    "output_tokens": 1834,
+    "total_tokens": 16092,
+    "cached_input": false,
+    "estimated_cost_usd": 0.005867,
+    "latency_seconds": 14.88,
+    "signal": "HOLD",
+    "sentiment_score": 0.0,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

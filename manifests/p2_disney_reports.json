@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_disney",
+  "reports": [
+    {
+      "document_id": "DIS_FQ1_2025",
+      "issuer": "p2_disney",
+      "company": "Disney",
+      "ticker": "DIS",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-02-05",
+      "release_date": "2025-02-05",
+      "release_date_source": "EDGAR 8-K Item 2.02, dis-20250205.htm, acc 0001744489-25-000066",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/disney/phase2/CY2025-Q1/q1-fy25-earnings-transcriptpdf.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/disney/phase2/CY2025-Q1/fy2025_q2xprxex991.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "DIS_FQ3_2025",
+      "issuer": "p2_disney",
+      "company": "Disney",
+      "ticker": "DIS",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-08-05",
+      "release_date": "2025-08-06",
+      "release_date_source": "EDGAR 8-K Item 2.02, dis-20250806.htm, acc 0001744489-25-000135",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/disney/phase2/CY2025-Q3/q3-fy25-earnings-transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/disney/phase2/CY2025-Q3/fy2025_q3xprxex991.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "DIS_FQ4_2025",
+      "issuer": "p2_disney",
+      "company": "Disney",
+      "ticker": "DIS",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-11-12",
+      "release_date": "2025-11-13",
+      "release_date_source": "EDGAR 8-K Item 2.02, dis-20251113.htm, acc 0001744489-25-000154",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/disney/phase2/CY2025-Q4/q4-fy25-earnings-transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/disney/phase2/CY2025-Q4/fy2025_q4xprxex991.txt"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

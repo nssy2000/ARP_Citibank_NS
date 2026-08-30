@@ -1,0 +1,202 @@
+{
+  "document_id": "UBER_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong Q2 results with all-time highs in trips, gross bookings, adjusted EBITDA, GAAP operating income, and free cash flow. Guidance for Q3 is raised: gross bookings growth of 17% to 21% YoY on a constant currency basis (consistent with Q2's 18% growth) and adjusted EBITDA growth of 30% to 36% YoY, which is a meaningful raise from the prior quarter's performance. Management expresses high confidence in continued momentum, citing 'more of the same strong performance in Q3' and a new $20 billion share repurchase authorization. The score is capped at +0.30 because the guidance raise is not dramatically above prior expectations (it maintains high-teens growth) and the document does not explicitly state a prior guidance figure to compare against, but the combination of record results, raised guidance, and confident forward language justifies a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$12.7 billion, up 18% year-over-year (18% on a constant currency basis).",
+    "eps": "Net income attributable to Uber Technologies, Inc. was $1.4 billion; diluted EPS was $0.63, up from $0.47 in Q2 2024.",
+    "guidance": "Q3 2025: Gross Bookings of $48.25 billion to $49.75 billion (17% to 21% YoY constant currency growth); Adjusted EBITDA of $2.19 billion to $2.29 billion (30% to 36% YoY growth).",
+    "margin": "Adjusted EBITDA margin as a percentage of Gross Bookings was 4.5%, up from 3.9% in Q2 2024. Income from operations margin was 11.5% ($1.45B / $12.65B), up from 7.4% in Q2 2024.",
+    "key_risks": [
+      "Insurance pricing pressures moderating but still a factor in US mobility pricing growth deceleration.",
+      "Autonomous vehicle investments are not yet profitable and require upfront capital.",
+      "Competition from Tesla and other AV players; no winner-take-all market expected.",
+      "Foreign exchange rate fluctuations could impact reported growth (guidance assumes neutral to modestly positive FX impact)."
+    ],
+    "key_opportunities": [
+      "Cross-platform strategy: fewer than 1 in 5 consumers use both Mobility and Delivery; cross-platform users have 35% higher retention, 3x gross bookings and profits.",
+      "Uber One membership: 36 million members, growing 60% YoY; members spend 3x more.",
+      "Autonomous vehicle partnerships: 20 partners globally, including Waymo, Baidu, Lucid, Nuro; Waymo utilization is at 99th percentile of drivers.",
+      "Lower-cost products (Moto, UberX Share) and premium products (Reserve, Uber for Business) expanding audience.",
+      "Externalizing tech capabilities: advertising business, Uber AI solutions for data labeling and AI training."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Dara Khosrowshahi states 'we've never been more excited about what Uber is delivering today or the many opportunities ahead' and Prashanth Mahendra-Rajah describes the $20 billion buyback as 'a reflection of how great we feel about the cash flow generation that's in front of us.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $12.7 billion, up 18% year-over-year.",
+      "quote": "Revenue grew 18% YoY to $12.7 billion, and 18% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.63, up from $0.47 in Q2 2024.",
+      "quote": "Net income attributable to Uber Technologies, Inc. was $1.4 billion... Diluted $0.63",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 guidance: Gross Bookings $48.25B-$49.75B (17%-21% constant currency growth); Adjusted EBITDA $2.19B-$2.29B (30%-36% YoY growth).",
+      "quote": "For Q3 2025, we anticipate: Gross Bookings of $48.25 billion to $49.75 billion, representing growth of 17% to 21% YoY on a constant currency basis... Adjusted EBITDA of $2.19 billion to $2.29 billion, which represents 30% to 36% YoY growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin improved to 4.5% of Gross Bookings from 3.9% in Q2 2024.",
+      "quote": "Adjusted EBITDA margin as a percentage of Gross Bookings was 4.5%, up from 3.9% in Q2 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Income from operations margin improved to 11.5% from 7.4%.",
+      "quote": "Income from operations grew 82% YoY to $1.5 billion... Revenue $12.7 billion.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We've never been more excited about what Uber is delivering today or the many opportunities ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cross-platform users have 35% higher retention and 3x gross bookings and profits.",
+      "quote": "Those who kind of use both sides, both mobility and delivery, their retention rates are higher, they are 35% higher than single-business consumers. They generate 3 times the gross bookings and profits than single-business consumers as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uber One has 36 million members, growing 60% YoY.",
+      "quote": "Uber One 36 million members... Uber One, we've been very, very happy about growing 60%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Waymo utilization is at 99th percentile of drivers.",
+      "quote": "The average Waymo is busier than 99% of our drivers in terms of completed trips per day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New $20 billion share repurchase authorization announced.",
+      "quote": "Today, we announced a new $20 billion share repurchase authorization as part of our sustained focus on value creation for our shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 was another quarter of new records for Uber with all-time highs in audience, frequency, trips, gross bookings, adjusted EBITDA, GAAP operating income, and free cash flow.",
+      "quote": "Q2 was another quarter of new records for Uber as we achieved all-time highs in both audience and frequency. This powered robust growth in trips and gross bookings, both up 18%. We also reached new highs for adjusted EBITDA, GAAP operating income and free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects 'more of the same strong performance in Q3' with high-teens gross bookings growth and low to mid-30s EBITDA growth.",
+      "quote": "We're expecting more of the same strong performance in Q3 with another quarter of high teens gross bookings growth and low to mid-30s EBITDA growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Autonomous vehicle investments are not yet profitable.",
+      "quote": "AVs today are not profitable. That has been a pretty consistent investment approach for Uber as we go into markets and go into products starting at a loss, we build scale, we build our experience.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Insurance pricing pressures are moderating, leading to improved consumer response.",
+      "quote": "What we're seeing in the US is that there are some session benefits or in-session benefit, but there's a delayed benefit to consumers then coming back to the app more and that's absolutely showing up in July, where transaction growth accelerated nicely versus Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fewer than 1 in 5 consumers use both Mobility and Delivery.",
+      "quote": "Today, fewer than 1 in 5 of our consumers are active across both Mobility and Delivery, and we believe this can and will go much higher over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is not explicitly compared to prior guidance in the document; the score relies on inference that Q3 guidance represents a raise relative to Q2's performance. A human reviewer should verify that the guidance is indeed a raise versus the company's own prior expectations."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "Income from operations margin is calculated from reported figures ($1.45B / $12.65B) but not explicitly stated in the document. The document only provides the absolute income from operations figure and the revenue figure."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UBER_Bundled Earnings Report_2025-08-05",
+  "report_metadata": {
+    "issuer": "p2_uber",
+    "company": "Uber",
+    "ticker": "UBER",
+    "sector": "Technology/Transportation",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q2\\uber-q2-25-earnings-call-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q2\\Uber-Q2-25-Earnings-Press-Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UBER_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T175227Z",
+    "timestamp": "2026-07-30T17:53:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q2\\uber-q2-25-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q2\\uber-q2-25-earnings-call-transcript.pdf",
+        "page_count": 14,
+        "extracted_characters": 53706,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q2\\Uber-Q2-25-Earnings-Press-Release.pdf",
+        "page_count": 11,
+        "extracted_characters": 26473,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ2_2025.txt"
+  }
+}

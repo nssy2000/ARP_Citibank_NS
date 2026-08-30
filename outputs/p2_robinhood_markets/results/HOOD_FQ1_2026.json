@@ -1,0 +1,224 @@
+{
+  "document_id": "HOOD_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company raised its full-year 2026 Adjusted Operating Expenses and SBC outlook by $100 million to $2.7-$2.825 billion, but this was explicitly to fund the Trump Accounts project, which is contracted on a cost-plus basis with a small margin, so revenues are expected to exceed costs. This is a genuine forward investment with a clear return expectation, not a pure cost increase, and management expressed high confidence in the opportunity, stating 'we believe there are massive opportunities ahead.' However, the guidance raise is tied to a specific new project rather than an organic acceleration of the core business, and the company also flagged a 'more challenging' macro backdrop at the start of the year, which tempers the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total net revenues increased 15% year-over-year to $1.07 billion.",
+    "eps": "Diluted EPS increased 3% year-over-year to $0.38.",
+    "guidance": "Updated 2026 outlook for Adjusted Operating Expenses and SBC is $2.7 billion to $2.825 billion, up $100 million from the prior outlook of $2.6 billion to $2.725 billion, to fund Trump Accounts. The work is contracted on a cost-plus basis with a small margin, so revenues are expected to exceed costs.",
+    "margin": "Adjusted EBITDA Margin was 50% in Q1 2026, down from 59% in Q4 2025 and 51% in Q1 2025.",
+    "key_risks": [
+      "Crypto Notional Trading Volumes decreased 47% year-over-year to $134 million in revenue.",
+      "Securities lending, net decreased 83% year-over-year to $4 million.",
+      "The macro backdrop was 'more challenging' at the start of the year, including a government shutdown, software selloff, and global conflict.",
+      "The company faces potential regulatory matters and litigation, including state concerns over prediction markets.",
+      "The company is unable to predict the impact of certain items on total operating expenses for 2026, including provision for credit losses and significant regulatory expenses."
+    ],
+    "key_opportunities": [
+      "Trump Accounts: Robinhood will be the broker and sole initial trustee, with over 5.5 million American children already signed up, representing a new public sector business.",
+      "Robinhood Banking grew 5x since the last earnings, with over $2 billion in deposits and a 40% direct deposit rate.",
+      "Robinhood Gold Subscribers grew 36% year-over-year to a record 4.3 million, with 40% of new customers in Q1 joining Gold.",
+      "International expansion is picking up, including in-principle approval in Singapore and plans to launch crypto in Canada.",
+      "New trading products (Index Options, Futures, Event Contracts) reached new quarterly records.",
+      "AI initiatives are driving efficiency and new customer-facing products like Cortex Assistant."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed strong confidence in the future, stating 'we believe there are massive opportunities ahead as we invest for the long term, ship products faster than ever to customers, and deliver value for shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total net revenues increased 15% year-over-year to $1.07 billion.",
+      "quote": "Total net revenue s increased 15% y ear-over-year to $1.07 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS increased 3% year-over-year to $0.38.",
+      "quote": "Diluted earnings per share (“EPS”) increased 3% to $0.38, compared to Q1 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its 2026 Adjusted Operating Expenses and SBC outlook by $100 million to $2.7-$2.825 billion.",
+      "quote": "We now anticipate investing an additional $100 million to build and support the user interface for Trump Accounts, which was not included in our prior outlook. ... As a result, our updated outlook for 2026 Adjusted Operating Expenses and SBC is $2.7 billion to $2.825 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Trump Accounts project is contracted on a cost-plus basis with a small margin, so revenues are expected to exceed costs.",
+      "quote": "Our work for Trump Accounts is contracted on a cost plus basis with a small margin, so we expect revenues to exceed costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA Margin was 50% in Q1 2026.",
+      "quote": "Adjusted EBITDA Margin (non-GAAP) % % % ... 50%",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote is from a table with missing values, but the presentation slide explicitly states 'Adjusted EBITDA Margin 50%'."
+    },
+    {
+      "claim": "Crypto transaction-based revenues decreased 47% year-over-year.",
+      "quote": "cryptocurrencies revenue of $134 million, down 47%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Securities lending, net decreased 83% year-over-year.",
+      "quote": "Securities lending, net $23 $54 $87 $26 $4 (83%) (85%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The macro backdrop was more challenging at the start of the year.",
+      "quote": "Even with the macro backdrop, which was more challenging at the start of the year, customers remain engaged, they deposit on the platform, and they're rapidly adopting our new products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robinhood will be the broker and sole initial trustee for Trump Accounts, with over 5.5 million children signed up.",
+      "quote": "We announced a few weeks ago that Robinhood will be the broker and sole initial trustee for the Trump Accounts, under the direction of the US Department of the Treasury. And over 5.5 million American children are already signed up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robinhood Banking grew 5x since the last earnings, with over $2 billion in deposits and a 40% direct deposit rate.",
+      "quote": "Robinhood Banking grew 5x since the last earnings. ... Over $2 billion in net deposits, over 125,000 funded customers, and, I think most interestingly, a 40% direct deposit rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robinhood Gold Subscribers grew 36% year-over-year to a record 4.3 million.",
+      "quote": "Robinhood Gold Subscribers grew 36% year-over-year to a record 4.3 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International expansion is picking up, including in-principle approval in Singapore.",
+      "quote": "International traction is picking up as Robinhood expands its global footprint, most recently securing in-principle approval from the Monetary Authority of Singapore to offer a comprehensive suite of brokerage services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New trading products (Index Options, Futures, Event Contracts) reached new quarterly records.",
+      "quote": "New trading products continue to scale, as Index Options, Futures, and Event Contracts reached new quarterly records in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed strong confidence in the future.",
+      "quote": "We believe there are massive opportunities ahead as we invest for the long term, ship products faster than ever to customers, and deliver value for shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces potential regulatory matters and litigation, including state concerns over prediction markets.",
+      "quote": "The possibility of adverse developments in pending litigation and regulatory investigations; the risk that the outcome of currently ongoing and potential future regulatory enforcement actions and litigation, as well as potential changes in federal or state law, could immediately or subsequently prevent us from offering, or continuing to offer, event contracts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is unable to predict the impact of certain items on total operating expenses for 2026.",
+      "quote": "We are not providing a 2026 outlook for total operating expenses and have not reconciled our 2026 outlook for Adjusted Operating Expenses and SBC to the most directly comparable GAAP financial measure, total operating expenses, because we are unable to predict with reasonable certainty the impact of certain items without unreasonable effort. These items include, but are not limited to, provision for credit losses and significant regulatory expenses which may be material and could have a significant impact on total operating expenses for 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is tied to a specific new project (Trump Accounts) with a cost-plus contract, not an organic acceleration of the core business. The score of 0.25 reflects this nuance, but a reviewer may want to weigh the 'massive opportunities' language against the 'challenging macro backdrop' more heavily."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "The margin figure was extracted from a table with missing values in the press release. The presentation slide explicitly states 'Adjusted EBITDA Margin 50%', but the evidence quote is marked UNCERTAIN due to the table formatting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 1,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HOOD_Bundled Earnings Report_2026-04-28",
+  "report_metadata": {
+    "issuer": "p2_robinhood_markets",
+    "company": "Robinhood Markets",
+    "ticker": "HOOD",
+    "sector": "Financial Services/Capital Markets",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2026-Q1\\HOOD_Q1_2026_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2026-Q1\\HOOD_Q1_2026_earnings_call_transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HOOD_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T102547Z",
+    "timestamp": "2026-08-09T10:27:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\extracted\\HOOD_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 41360,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2026-Q1\\HOOD_Q1_2026_earnings_presentation.pdf",
+        "page_count": 48,
+        "extracted_characters": 91682,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2026-Q1\\HOOD_Q1_2026_earnings_call_transcript.pdf",
+        "page_count": 28,
+        "extracted_characters": 78470,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\extracted\\HOOD_FQ1_2026.txt"
+  }
+}

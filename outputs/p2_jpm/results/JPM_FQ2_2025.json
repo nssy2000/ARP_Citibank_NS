@@ -1,0 +1,212 @@
+{
+  "document_id": "JPM_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Guidance was raised: NII ex. Markets guidance increased to approximately $92 billion (from prior implicit level), and total NII guidance raised to about $95.5 billion. The raise is organic, driven by changes in the forward curve, strong deposit growth, and balanced growth in Card. Management tone is confident but acknowledges ongoing uncertainty, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$45.7 billion, down $5.3 billion or 10% year-on-year.",
+    "eps": "$5.24, on net income of $15 billion.",
+    "guidance": "NII ex. Markets now expected to be approximately $92 billion; total NII guidance about $95.5 billion; adjusted expense about $95.5 billion; Card net charge-off rate expected to be approximately 3.6%.",
+    "margin": "ROTCE of 21%.",
+    "key_risks": [
+      "Impact of lower rates and deposit margin compression on NII.",
+      "Higher expenses driven by compensation, brokerage, distribution fees, and auto lease depreciation.",
+      "Net reserve build of $439 million driven by new lending activity and downgrades in C&I portfolio.",
+      "Uncertainty from tariffs, geopolitical events, and potential changes in the economic environment."
+    ],
+    "key_opportunities": [
+      "Higher asset management fees, auto lease income, investment banking fees, and Payments fees.",
+      "Strong net inflows in Asset & Wealth Management ($31 billion long-term, $5 billion liquidity).",
+      "Robust investment banking pipeline with notably more upbeat market tone and sentiment.",
+      "Opportunities to deploy capital organically across all businesses, including branches, bankers, and international expansion.",
+      "Potential regulatory simplification (SLR, G-SIB, CCAR, Basel III) that could increase lending and reduce costs."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management raised guidance and described the pipeline as 'robust' with a 'notably more upbeat' outlook, while also acknowledging ongoing uncertainty."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $45.7 billion, down 10% year-on-year.",
+      "quote": "The Firm reported revenue of $45.7 billion, down $5.3 billion, or 10% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $5.24 on net income of $15 billion.",
+      "quote": "the Firm reported net income of $15 billion, EPS of $5.24 on revenue of $45.7 billion, with an ROTCE of 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex. Markets guidance raised to approximately $92 billion.",
+      "quote": "First, we now expect NII ex. Markets to be approximately $92 billion, with the increase driven by changes in the forward curve and strong deposit growth in Payments, Securities Services as well as balanced growth in Card.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total NII guidance raised to about $95.5 billion.",
+      "quote": "Total NII guidance is now about $95.5 billion, implying $3.5 billion of Markets NII.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted expense guidance is about $95.5 billion.",
+      "quote": "Second, on adjusted expense, we now expect it to be about $95.5 billion, primarily driven by the impact of the weaker dollar, which is largely bottom line neutral.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card net charge-off rate expected to be approximately 3.6%.",
+      "quote": "And finally, on credit, we continue to expect the Card net charge-off rate to be approximately 3.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE was 21%.",
+      "quote": "the Firm reported net income of $15 billion, EPS of $5.24 on revenue of $45.7 billion, with an ROTCE of 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net reserve build of $439 million.",
+      "quote": "And credit costs were $2.8 billion, with net charge-offs of $2.4 billion and a net reserve build of $439 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking pipeline is robust with notably more upbeat outlook.",
+      "quote": "Our pipeline remains robust, and the outlook, along with the market tone and sentiment, is notably more upbeat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asset & Wealth Management had long-term net inflows of $31 billion.",
+      "quote": "Long-term net inflows were $31 billion for the quarter, led by Fixed Income and Equities. In liquidity, we saw net inflows of $5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our pipeline remains robust, and the outlook, along with the market tone and sentiment, is notably more upbeat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: impact of lower rates and deposit margin compression.",
+      "quote": "NII ex. Markets was down $185 million or 1%, driven by the impact of lower rates and deposit margin compression, predominantly offset by higher wholesale deposits, higher revolving balances in Card, as well as the impact of securities activity, including from prior quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: higher expenses driven by compensation and other costs.",
+      "quote": "Expenses of $23.8 billion were up $66 million; and excluding last year's Visa stock contribution to the Firm's foundation, was up $1.1 billion or 5%, primarily driven by compensation, higher brokerage and distribution fees, as well as higher auto lease depreciation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: net reserve build from new lending and downgrades.",
+      "quote": "The build was driven by new lending activity, largely offset by a decrease in the probabilities that we attached to the adverse scenarios in the allowance estimation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: uncertainty from tariffs and geopolitical events.",
+      "quote": "I think the initial liberation day – now there's more talk, there's more things getting done, a couple have been announced, a couple have been delayed. That reduces that risk a little bit. And hopefully, they'll get done. There's still risk out there...",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: higher asset management fees, investment banking fees, and Payments fees.",
+      "quote": "NIR ex. Markets was down $6.3 billion or 31%, and excluding the net gain related to Visa shares and net investment securities losses in the prior year, was up $1 billion or 8%, driven by higher asset management fees, higher auto lease income, higher investment banking fees, and higher Payments fees.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: strong net inflows in AWM.",
+      "quote": "Long-term net inflows were $31 billion for the quarter, led by Fixed Income and Equities. In liquidity, we saw net inflows of $5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: robust investment banking pipeline.",
+      "quote": "Our pipeline remains robust, and the outlook, along with the market tone and sentiment, is notably more upbeat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: organic growth across businesses.",
+      "quote": "I think it's a very big plus that we can grow organically in every business we're in without having to stretch.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: potential regulatory simplification.",
+      "quote": "I actually believe that you can make the system simpler, cheaper, more effective, more transparent and safer. ... I think you can create more lending, more liquidity, more flexibility and reduce the risk in the system.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is clear, but the score of 0.30 is somewhat subjective; a reviewer may consider whether the expense guidance increase (attributed to FX) and ongoing uncertainty warrant a slightly lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-07-15",
+  "report_metadata": {
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q2\\jpm-2q25-earnings-call-transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JPM_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213919Z",
+    "timestamp": "2026-07-18T21:39:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q2\\jpm-2q25-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q2\\jpm-2q25-earnings-call-transcript.pdf",
+        "page_count": 25,
+        "extracted_characters": 110990,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ2_2025.txt"
+  }
+}

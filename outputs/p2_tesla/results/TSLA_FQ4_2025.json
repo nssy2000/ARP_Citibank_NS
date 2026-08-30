@@ -1,0 +1,216 @@
+{
+  "document_id": "TSLA_FQ4_2025",
+  "sentiment": {
+    "score": 0.6,
+    "rationale": "The document shows a clear positive inflection in automotive margins (excluding credits improved from 15.4% to 17.9% sequentially) and total gross margin reached 20.1%, the best in over two years, despite lower deliveries. Forward guidance is not formally raised in dollar terms, but management expresses strong confidence in the autonomous future, with CyberCab production starting in April and robotaxi fleet doubling monthly. However, the score is tempered by explicit risks: energy margin compression from competition and tariffs, short-term automotive margin pressure from the FSD subscription shift, and a massive $20B+ capex plan that will burn cash."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Energy revenue reached nearly $12.8 billion for the year, increasing 26.6% year over year. Automotive revenue not explicitly stated as a single figure, but deliveries were 16% lower sequentially.",
+    "eps": "Not disclosed",
+    "guidance": "CapEx for 2026 forecasted to exceed $20 billion, with spending targeted at six factories, AI compute infrastructure, and fleet expansion. CyberCab production expected to start in April. Model S and X production winding down next quarter. Energy margin compression expected from competition, policy uncertainty, and tariffs. Short-term automotive margin pressure from FSD subscription shift.",
+    "margin": "Automotive gross margin excluding credits improved sequentially from 15.4% to 17.9%. Total gross margin exceeded 20.1%, the highest in over two years. Services and other margin declined from 10.5% to 8.8%.",
+    "key_risks": [
+      "Energy margin compression from increased low-cost competition, policy uncertainty, and tariffs.",
+      "Short-term automotive margin pressure from the transition to a subscription-based FSD sales model.",
+      "Net income negatively impacted by a 23% depreciation of Bitcoin holdings and unfavorable foreign exchange from intercompany borrowings.",
+      "Long-term chip supply constraint without domestic fab investment (TerraFab).",
+      "Battery supply constraint described as the biggest global constraint."
+    ],
+    "key_opportunities": [
+      "Record deliveries in smaller markets and a bigger year-end backlog than recent years.",
+      "Robotaxi fleet exceeding 500 vehicles and doubling monthly, with paid unsupervised rides in Austin.",
+      "CyberCab production start in April, expected to become the highest-volume model long-term.",
+      "Energy revenue growing 26.6% with record gross profit and strong global demand.",
+      "Optimus robot factory planned with a million-unit annual capacity goal.",
+      "FSD paid customers reached nearly 1.1 million globally."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Elon Musk updated the mission to 'amazing abundance' and stated 'the future is more exciting than you can imagine,' while Vaibhav Taneja described 2026 as 'the most exciting change in Tesla, Inc.'s history.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Automotive gross margin excluding credits improved sequentially from 15.4% to 17.9%.",
+      "quote": "automotive margins, excluding credits, improved sequentially from 15.4% to 17.9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total gross margin exceeded 20.1%, the highest in over two years.",
+      "quote": "On total gross margin front, we ended the quarter with over 20.1%, something which we haven't achieved for over the last two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Energy revenue reached nearly $12.8 billion for the year, increasing 26.6% year over year.",
+      "quote": "ended the year with nearly $12.8 billion in revenue, a 26.6% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CapEx for 2026 forecasted to exceed $20 billion.",
+      "quote": "At the moment, we are expecting that CapEx would be in excess of $20 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CyberCab production expected to start in April.",
+      "quote": "We expect to start production in April for CyberCab",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Model S and X production winding down next quarter.",
+      "quote": "We expect to wind down S and X production next quarter and basically stop production of Model S and X next quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Energy margin compression expected from competition, policy uncertainty, and tariffs.",
+      "quote": "However, we expect margin compression from the increased low-cost competition impacts to market from policy uncertainty, and the cost of tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Short-term automotive margin pressure from FSD subscription shift.",
+      "quote": "Therefore, net additions to this figure will primarily be via subscription model and, in the short term, will impact automotive margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income negatively impacted by 23% depreciation of Bitcoin holdings.",
+      "quote": "Net income was negatively impacted from mark-to-market charges on a Bitcoin holding, which depreciated 23% as compared to the last quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term chip supply constraint without domestic fab investment.",
+      "quote": "if we don't do the Tesla TerraFab, we're going to be limited by supplier output of chips",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Battery supply constraint described as the biggest global constraint.",
+      "quote": "Our biggest constraint globally continues to be on the battery pack front.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record deliveries in smaller markets and a bigger year-end backlog than recent years.",
+      "quote": "We therefore ended 2025 with a bigger backlog than in recent years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robotaxi fleet exceeding 500 vehicles and doubling monthly.",
+      "quote": "I think we're well over 500 at this point between the Bay Area and Austin. ... This will probably double every month type of thing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FSD paid customers reached nearly 1.1 million globally.",
+      "quote": "FSD adoption continued to improve in the quarter, reaching nearly 1,100,000 paid customers globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "I have updated the Tesla, Inc. mission to amazing abundance, and this is intended to send a message of optimism about the future. ... The future is more exciting than you can imagine.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services and other margin declined from 10.5% to 8.8%.",
+      "quote": "Services and others margin declined from 10.5% to 8.8% primarily from higher employee-related costs for service centers",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Optimus robot factory planned with a million-unit annual capacity goal.",
+      "quote": "We are going to take the Model S and X production space in our Fremont factory and convert that into an Optimus factory with a long-term goal of having a million units a year of Optimus robots",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.60 is based on the margin inflection and confident forward language, but the document also contains significant risk disclosures (energy margin compression, FSD subscription margin pressure, $20B+ capex) that could justify a lower score. A human reviewer should verify the balance."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS was not disclosed in the document; this is a notable omission for an earnings report."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "TSLA_Bundled Earnings Report_2026-01-28",
+  "report_metadata": {
+    "issuer": "p2_tesla",
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q4\\21 tesla q4 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q4\\Tesla-Q4-2025-Earnings-Call-Transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TSLA_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T175143Z",
+    "timestamp": "2026-07-30T17:52:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q4\\21 tesla q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q4\\21 tesla q4 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6246,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2025-Q4\\Tesla-Q4-2025-Earnings-Call-Transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 58212,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ4_2025.txt"
+  }
+}

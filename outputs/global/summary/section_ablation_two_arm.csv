@@ -1,0 +1,8 @@
+# Section ablation two-arm comparison (full bundle vs press release)
+# Run ID: 20260812T131110Z
+# Grading band is provisional pending anchor correction
+# N=200 (events with press_release available, after exclusions)
+#
+arm,label,n_events,trades_overnight,correct_overnight,accuracy_overnight,mean_net_per_trade_overnight,point_diff_vs_full,ci_low,ci_high,p_value,run_id
+full_bundle,two_arm,200,138,46,0.3333333333333333,0.016465231884057973,,,,,20260812T131110Z
+press_release,two_arm,200,106,35,0.330188679245283,0.016029792452830188,0.01020408163265306,0.0,0.030612244897959183,0.7316,20260812T131110Z

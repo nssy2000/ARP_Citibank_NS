@@ -1,0 +1,193 @@
+{
+  "document_id": "PEP_FQ1_2023",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Full-year 2023 organic revenue guidance was raised from 6% to 8%, and core constant currency EPS growth guidance was raised from 8% to 9%. The raise is attributed to better-than-expected elasticities and productivity, not one-time items or FX. Management expressed confidence in the outlook, though noted some remaining uncertainties (consumer trajectory, geopolitics, certain currencies). This constitutes a meaningful upward revision to forward guidance, warranting a score of +0.50."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported net revenue of $17,846 million, up 10.2% year-over-year. Organic revenue growth was 14.3%.",
+    "eps": "Reported diluted EPS of $1.40, down 54% year-over-year. Core EPS of $1.50, up 18% on a constant currency basis.",
+    "guidance": "Full-year 2023 organic revenue growth now expected to be 8% (previously 6%). Core constant currency EPS growth now expected to be 9% (previously 8%). Implied 2023 core EPS of $7.27 (previously $7.20).",
+    "margin": "Core gross margin grew 89 basis points. Core operating margin grew 47 basis points.",
+    "key_risks": [
+      "Uncertainty about consumer trajectory in the second half of 2023",
+      "Geopolitical risks that could impact the business",
+      "Currency volatility in certain emerging and developing markets (e.g., Argentina, Turkey, Egypt)",
+      "Potential need for additional pricing in highly inflationary markets",
+      "Private label growth in some categories, though from a low base"
+    ],
+    "key_opportunities": [
+      "Strong consumer demand and resilient categories globally",
+      "Improving operational metrics (labor availability, material flow, transportation)",
+      "Innovation and brand building driving market share gains (e.g., Frito-Lay gaining share at fastest pace in ~10 years)",
+      "Pepsi Zero Sugar reformulation performing well (60% growth in Q1)",
+      "Expansion into adjacent categories (e.g., low alcohol, Cheetos Mac and Cheese)",
+      "Strong performance in China with consumer optimism"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Ramon Laguarta stated, 'We are very pleased with our performance and business momentum as our categories and geographies remained resilient during the first quarter,' and the company raised full-year guidance, indicating confidence in the outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2023 organic revenue guidance was raised from 6% to 8%.",
+      "quote": "Given our strong start to the year, we now expect our full-year 2023 organic revenue to increase 8 percent (previously 6 percent) and core constant currency EPS to increase 9 percent (previously 8 percent).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2023 core constant currency EPS growth guidance was raised from 8% to 9%.",
+      "quote": "Given our strong start to the year, we now expect our full-year 2023 organic revenue to increase 8 percent (previously 6 percent) and core constant currency EPS to increase 9 percent (previously 8 percent).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported net revenue was $17,846 million, up 10.2% year-over-year.",
+      "quote": "Net Revenue $ 17,846 $ 16,200 ... First-Quarter Net revenue growth 10.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue growth was 14.3%.",
+      "quote": "First-Quarter Organic revenue growth 14.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was $1.40, down 54% year-over-year.",
+      "quote": "Earnings per share (EPS) $1.40 ... EPS change (54)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core EPS was $1.50, up 18% on a constant currency basis.",
+      "quote": "Core EPS $1.50 ... Core constant currency EPS change 18%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Implied 2023 core EPS is $7.27, previously $7.20.",
+      "quote": "This assumption and the guidance above imply 2023 core EPS of $7.27 (previously $7.20), a 7 percent increase (previously 6 percent) compared to 2022 core EPS of $6.79.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core gross margin grew 89 basis points.",
+      "quote": "Core gross margin growth, non-GAAP measure (a) 89 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin grew 47 basis points.",
+      "quote": "Core operating margin growth, non-GAAP measure (a) 47 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the outlook.",
+      "quote": "We are very pleased with our performance and business momentum as our categories and geographies remained resilient during the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise was attributed to better elasticities and productivity, not one-time items or FX.",
+      "quote": "We're seeing both better elasticities than some of the worst-case scenarios we were planning for. And also, we're seeing the teams delivering better productivity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include consumer trajectory uncertainty, geopolitics, and currency volatility.",
+      "quote": "There are a few things we're still concerned about. One is where is the consumer going to be in second half of the year. ... The second one, geopolitics and that might impact the business ... And the third one, as I mentioned earlier, there are some currencies in some emerging and developing markets that we don't know where some of those markets will go in the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Frito-Lay is gaining market share at the fastest pace in ~10 years.",
+      "quote": "Frito-Lay is — I think it's growing share of market at the fastest pace that we've seen in the last, maybe 10 years, if I recall, as a consequence of the great work the team is doing in terms of execution, but mostly innovation and brand building.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pepsi Zero Sugar grew 60% in Q1.",
+      "quote": "The brand is growing 60%, if I remember correctly, in the first quarter, and that's driven a little bit by distribution, but it's mostly velocity.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The speaker says 'if I remember correctly,' indicating some uncertainty about the exact figure."
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "evidence",
+      "reason": "One evidence item for Pepsi Zero Sugar growth is flagged as UNCERTAIN due to the speaker's hedging language ('if I remember correctly'). A human reviewer may wish to verify the exact figure from other sources."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 1,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2023-04-25",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-04-25",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q1\\PEP-8K-EX99.1-2023-Q1-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q1\\PEP-Q1-2023-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ1_2023"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:45:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q1\\PEP-8K-EX99.1-2023-Q1-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q1\\PEP-8K-EX99.1-2023-Q1-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 34404,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q1\\PEP-Q1-2023-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 38460,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ1_2023.txt"
+  }
+}

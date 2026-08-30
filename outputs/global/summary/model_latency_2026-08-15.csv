@@ -1,0 +1,39 @@
+# model_latency_2026-08-15.csv
+# Generated: 2026-08-15
+# Source: outputs/p2_*/logs/first_run_costs.jsonl  (all 91 issuers with a JSONL log)
+# Scope: status==success AND latency_seconds IS NOT NULL
+# Micro-layer calls only (one call per scored document bundle).
+# Extension events identified via outputs/global/summary/global_outcome_calibration_extension_2026_08_13.csv
+# Section ablation data: outputs/global/summary/section_ablation_results.csv and section_ablation_extension_results.csv
+# Section ablation outlier threshold: 200s (2 outliers excluded from ablation arm stats)
+#   Excluded: UNH_FQ4_2025/full_bundle=1280.83s, PUM.DE_FQ1_2025/full_bundle=638.25s
+#   UNH_FQ3_2025/prepared_remarks=129.09s is below threshold and retained (appears as max in that arm row)
+# Human arm reference (from outputs/global/summary/information_set_comparison_2026-08-15.csv):
+#   full arm mean time per document: 29.8 min = 1788s
+#   pooled mean time per document (all info sets): 27.9 min = 1674s
+#   human time per correct call (full arm): 5668/39 = 145.3 min
+# Runtime was NEVER logged in individual result JSONs, api_cost_ledger.csv, or batch_metadata.json.
+# The 8-second placeholder used in the Efficiency sheet appears in NO committed file.
+# The published multiples of 212x and 118x were computed on that placeholder and are superseded here.
+# group: label for the event group or ablation arm
+# n: number of calls
+# mean_s, median_s, min_s, max_s: latency in seconds
+# q1_s, q3_s: 25th and 75th percentile
+# iqr_s: interquartile range (q3-q1)
+# notes: additional context
+group,n,mean_s,median_s,min_s,max_s,q1_s,q3_s,iqr_s,notes
+all_micro,624,15.92,15.0,7.52,126.99,12.95,17.31,4.36,All micro-layer success calls across 91 issuers; includes phase2 and extension
+phase2_N523,523,15.86,15.1,7.52,100.65,13.03,17.82,4.79,Phase2 events only (document_id not in extension calibration)
+extension_N101,101,16.23,14.25,9.89,126.99,12.82,15.68,2.86,Extension events only (document_id in global_outcome_calibration_extension_2026_08_13.csv)
+ablation_N119_SetA_full_bundle,198,16.36,15.31,9.8,45.11,13.38,17.26,3.88,Section ablation Set A; outliers >200s excluded (see header)
+ablation_N119_SetA_press_release,200,14.14,13.07,7.71,66.42,11.54,15.13,3.59,Section ablation Set A; outliers >200s excluded (see header)
+ablation_N119_SetA_prepared_remarks,119,15.34,13.99,6.75,129.09,12.47,15.83,3.36,Section ablation Set A; outliers >200s excluded (see header)
+ablation_N119_SetA_qa_only,119,13.47,13.19,6.93,21.96,11.68,14.88,3.2,Section ablation Set A; outliers >200s excluded (see header)
+ablation_N56_SetB_full_bundle,93,17.53,15.41,10.68,164.61,13.68,17.13,3.45,Section ablation Set B extension; no outliers
+ablation_N56_SetB_press_release,93,13.32,13.03,8.72,28.39,11.06,15.02,3.96,Section ablation Set B extension; no outliers
+ablation_N56_SetB_prepared_remarks,56,12.52,12.09,8.16,19.2,10.88,14.43,3.55,Section ablation Set B extension; no outliers
+ablation_N56_SetB_qa_only,56,13.73,13.21,9.48,20.32,11.94,15.64,3.7,Section ablation Set B extension; no outliers
+token_latency_regression,624,14.0793,0.076704,14.85,17.91,15.61,16.38,0.4414,"OLS: latency=intercept+slope*tokens. mean_s=intercept(s), median_s=slope per 1000 tokens, min_s=predicted@10k_tokens, max_s=predicted@50k_tokens, q1_s=predicted@20k_tokens, q3_s=predicted@30k_tokens, iqr_s=Spearman_rho(input_tokens,latency)=0.4414"
+speed_multiple_per_document_vs_full_arm,,112.0,119.0,103.0,138.0,,,,"Human full arm 29.8min=1788s / model latency. mean_s=multiple at model-mean, median_s=at model-median, min_s=at model-Q3 (lower bound), max_s=at model-Q1 (upper bound). Honest range 103x–138x (IQR-based)"
+speed_multiple_per_document_vs_pooled_arm,,,,97.0,129.0,,,,"Human pooled mean 27.9min=1674s / model latency. min_s=lower bound (model Q3), max_s=upper bound (model Q1). Range 97x–129x"
+speed_multiple_per_correct_call,,65.0,,,,,,,Human full arm: 5668min/39correct = 145.3min per correct call. Model phase2: 8293s/62correct = 133.8s=2.2min per correct call. Speed multiple = 65x. Note: human and model cover different events; this is efficiency comparison only.

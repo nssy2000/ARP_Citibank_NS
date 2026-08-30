@@ -1,0 +1,197 @@
+{
+  "document_id": "NFLX_FQ1_2026",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports a strong Q1 with EPS of $1.23 beating consensus of $0.77 (a 59.74% surprise) and revenue of $12,249.76M slightly above consensus. However, full-year guidance is maintained at 12%-14% revenue growth and 31.5% operating margin, not raised. Management expresses confidence in the business, citing record member quality metrics, strong retention, and growth in advertising (doubling to ~$3B). The score is mildly positive due to genuine operational momentum (record engagement metric, strong APAC growth, advertiser base up 70% YoY) and confident forward language, but not higher because guidance was reaffirmed, not raised."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FQ1 2026 revenue of $12,249.76M, slightly above consensus of $12,173.11M (0.63% surprise). Full-year 2026 revenue growth guidance of 12% to 14%.",
+    "eps": "FQ1 2026 EPS normalized of $1.23, beating consensus of $0.77 (59.74% surprise).",
+    "guidance": "Maintaining full-year 2026 guidance: revenue growth of 12% to 14%, operating margin at 31.5%, advertising revenue roughly doubling to about $3 billion.",
+    "margin": "Full-year 2026 operating margin guidance of 31.5%.",
+    "key_risks": [
+      "Warner Bros. deal costs pulled forward into 2026, though no material impact on operating margin outlook.",
+      "Nielsen methodology change may reduce reported streaming viewership, but management states it does not affect actual viewing or ad revenue.",
+      "Competition for great projects remains intense, but management notes they are landing competitive projects."
+    ],
+    "key_opportunities": [
+      "Advertising business: doubling to ~$3B in 2026, advertiser base grew over 70% YoY to more than 4,000 advertisers.",
+      "Live events: World Baseball Classic drove largest single sign-up day ever in Japan and Japan's highest quarter of paid net adds.",
+      "Games: significant market opportunity (~$150B consumer spend ex China/Russia), new kids gaming app 'Playground' launched.",
+      "AI: acquisition of InterPositive to accelerate GenAI capabilities for content creation and recommendation.",
+      "Podcasting: gaining incremental engagement, especially daytime and mobile viewing.",
+      "Pricing: recent U.S. price increase early signals in line with expectations, retention industry-leading."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'really great about the business,' 'tons of room for growth,' 'we are just as energized as ever,' and 'we feel great about the organic growth opportunity ahead.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FQ1 2026 revenue was $12,249.76M, slightly above consensus.",
+      "quote": "Revenue (mm) 12173.11 12249.76 0.63",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ1 2026 EPS normalized was $1.23, beating consensus of $0.77 by 59.74%.",
+      "quote": "EPS Normalized 0.77 1.23 59.74",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance is maintained: revenue growth 12%-14%, operating margin 31.5%.",
+      "quote": "we are maintaining our guidance, our strong outlook for organic growth that we established for 2026. That's revenue growth of 12% to 14%, operating margin at 31.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue is expected to roughly double to about $3 billion in 2026.",
+      "quote": "That includes roughly doubling the advertising business to about USD 3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertiser base grew over 70% year-over-year to more than 4,000 advertisers.",
+      "quote": "Our advertiser base grew over 70% year-to-year in 2025 to be more than 4,000 advertisers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "World Baseball Classic drove the largest single sign-up day ever in Japan and Japan's highest quarter of paid net adds.",
+      "quote": "the WBC drove the largest single sign-up day ever in Japan and Japan led our Q1 member growth around the world. And Japan had its highest quarter of paid net adds in our history.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Primary member quality metric hit another all-time high in Q1 2026.",
+      "quote": "in Q1, that primary member quality metric that you referenced, it hit another all-time high.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Retention improved year-over-year across every region in Q1.",
+      "quote": "the retention that we're seeing in the business... we saw it across the board this quarter. Every region was better year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we really feel great about the business, about the organic growth opportunity ahead, and we are just as energized as ever to achieve our mission to entertain the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Warner Bros. deal costs pulled forward into 2026 but no material impact on operating margin.",
+      "quote": "some that we were planning to carry into '27 were pulled forward into 2026... There's no material impact on our operating margin outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nielsen methodology change does not affect actual viewing or ad revenue.",
+      "quote": "Nielsen's methodology change in the gauge reporting is a change in how they calculate the national TV universe. So it's not a change in how people actually watch TV... none of this changes our effectiveness or our aspirations in the ad space.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games represent a significant market opportunity of about $150 billion in consumer spend.",
+      "quote": "It's about $150 billion in consumer spend ex China, ex Russia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI acquisition InterPositive accelerates GenAI capabilities for filmmaking.",
+      "quote": "With our acquisition vendor-positive we think it accelerates our GenAI capabilities because it's a proprietary technology that was created specifically for filmmakers and specifically for film making.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Podcasting is gaining incremental engagement, especially daytime and mobile.",
+      "quote": "what we're seeing is some data that would indicate that we're gaining incremental engagement to the platform... podcast consumption indexes to daytime hours on Netflix... it indexes much more mobile.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recent U.S. price increase early signals are in line with expectations.",
+      "quote": "the early signals we're seeing are in line with our expectations or similar to the performance that we've observed historically with price changes in the United States.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is mildly positive (0.20) based on operational momentum and confident language, but guidance was not raised. A reviewer may want to assess whether the beat and momentum warrant a higher score or if the reaffirmed guidance caps it appropriately."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "ensemble": {
+    "n_runs": 3,
+    "scores": [
+      0.2,
+      0.2,
+      0.2
+    ],
+    "signals": [
+      "BUY",
+      "BUY",
+      "BUY"
+    ],
+    "mean_score": 0.2,
+    "score_range": 0.0,
+    "signal_agreement": true
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2026-04-16",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-16",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ1 26.pdf"
+      }
+    ],
+    "document_id": "NFLX_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260702T193131Z",
+    "timestamp": "2026-07-02T19:34:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ1 26.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix_ensemble3\\extracted\\NFLX_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ1 26.pdf",
+        "page_count": 15,
+        "extracted_characters": 51508,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix_ensemble3\\extracted\\NFLX_FQ1_2026.txt"
+  }
+}

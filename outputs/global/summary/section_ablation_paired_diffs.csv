@@ -1,0 +1,32 @@
+# Section ablation paired differences vs full bundle
+# Run ID: 20260812T131110Z
+# Corrected: 2026-08-12T16:30:02.678444+00:00
+# Model: deepseek-v4-flash
+# Grading: pre-registered ±2% raw overnight band
+# Paired MDE: ~±12pp.
+#
+# NOTE: 'strict' pairs only events where BOTH arms breach the band.
+# On those events the arms always agree (same signal), so strict diff = 0.
+# 'inclusive' scores ungraded events at 0.5 and preserves the 17-21 events
+# where one arm trades+breaches and the other does not.
+#
+# FINDING SUMMARY (press_release vs full_bundle):
+# The full bundle wins marginally: 6.8pp at p=0.055 on the inclusive test,
+# almost entirely by trading 17 events the press release passes on.
+# The strict test being exactly zero on 45 events is itself informative:
+# when both arms commit, they commit identically. The difference lives in
+# whether an arm commits at all.
+# Deployment trade-off: 6.8pp for 2.3x the tokens. Cost per correct call
+# $0.046 (full bundle) vs $0.029 (press release only) on all-events N=200;
+# $0.036 vs $0.023 on four-arm N=119. Source: section_ablation_cost_per_correct.csv.
+# Prepared_remarks is arguably the better deployment arm: cheapest at
+# ~10,287 tokens, 4.0pp behind on the inclusive test, and agreeing with
+# the full bundle on 85.7% of signals.
+#
+comparison,set,method,n_paired,point_diff,ci_low,ci_high,p_value,note,metric,run_id
+press_release vs full_bundle,four_arm,strict (both graded),45,0.0,0.0,0.0,1.0,All 45 events where both arms breach ±2% have identical signals — zero information,accuracy_overnight,20260812T131110Z
+press_release vs full_bundle,four_arm,"inclusive (either graded, ungraded=0.5)",66,-0.0682,-0.1212,-0.0152,0.0548,Full bundle outperforms by 6.8pp when ungraded events scored at 0.5,accuracy_overnight,20260812T131110Z
+prepared_remarks vs full_bundle,four_arm,strict (both graded),53,-0.0189,-0.0566,0.0,0.7284,,accuracy_overnight,20260812T131110Z
+prepared_remarks vs full_bundle,four_arm,"inclusive (either graded, ungraded=0.5)",62,-0.0403,-0.0887,0.0081,0.201,,accuracy_overnight,20260812T131110Z
+qa_only vs full_bundle,four_arm,strict (both graded),43,-0.0233,-0.093,0.0465,0.7934,,accuracy_overnight,20260812T131110Z
+qa_only vs full_bundle,four_arm,"inclusive (either graded, ungraded=0.5)",66,-0.053,-0.1288,0.0227,0.2686,,accuracy_overnight,20260812T131110Z

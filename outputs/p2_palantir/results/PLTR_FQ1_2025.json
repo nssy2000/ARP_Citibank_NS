@@ -1,0 +1,228 @@
+{
+  "document_id": "PLTR_FQ1_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Palantir raised its full-year 2025 revenue guidance to 36% Y/Y growth and U.S. commercial revenue guidance to at least 68% Y/Y growth, both above prior guidance, with management expressing strong confidence in accelerating adoption. The quarter's results also showed significant operational momentum, including a Rule of 40 score of 83% and a 44% adjusted operating margin, but the score is tempered because the guidance raise is partly a reflection of the strong Q1 performance and the document does not disclose the prior guidance figures for direct comparison. The improvement appears organic, driven by U.S. commercial acceleration, with no mention of FX or one-time items affecting the guidance."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q1 2025 revenue of $884 million, up 39% Y/Y and 7% Q/Q; U.S. revenue of $628 million, up 55% Y/Y; U.S. commercial revenue of $255 million, up 71% Y/Y.",
+    "eps": "GAAP EPS of $0.08 diluted; adjusted EPS of $0.13 diluted.",
+    "guidance": "Q2 2025 revenue expected between $934–938 million; FY 2025 revenue guidance raised to $3.890–3.902 billion (36% Y/Y growth); U.S. commercial revenue guidance raised to at least $1.178 billion (68% Y/Y growth); FY 2025 adjusted income from operations guidance raised to $1.711–1.723 billion; FY 2025 adjusted free cash flow guidance raised to $1.6–1.8 billion.",
+    "margin": "GAAP operating margin of 20%; adjusted operating margin of 44%; adjusted free cash flow margin of 42%; GAAP net income margin of 24%.",
+    "key_risks": [
+      "Contracts are subject to termination provisions, including for convenience, and there is no guarantee that contract options will be exercised.",
+      "Forward-looking statements are subject to risks including macroeconomic events, geopolitical conflicts, interest rates, tariffs, and AI-related issues.",
+      "The company's long and unpredictable sales cycle could affect future revenue."
+    ],
+    "key_opportunities": [
+      "U.S. commercial revenue growth of 71% Y/Y, surpassing a $1 billion annual run rate.",
+      "U.S. commercial TCV of $810 million, up 183% Y/Y, highest quarter ever.",
+      "U.S. commercial RDV of $2.32 billion, up 127% Y/Y.",
+      "Customer count grew 39% Y/Y.",
+      "Partnerships with companies like Wendy's, Heineken, R1 RCM, Citi, AIG, and Archer Aviation demonstrate expanding adoption."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Alex Karp states, 'We are in the middle of a tectonic shift in the adoption of our software,' and the company raised full-year guidance, reflecting strong confidence in future growth."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2025 revenue was $884 million, up 39% year-over-year.",
+      "quote": "Revenue grew 39% year-over-year and 7% quarter-over-quarter to $884 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. revenue grew 55% year-over-year to $628 million.",
+      "quote": "U.S. revenue grew 55% year-over-year and 13% quarter-over-quarter to $628 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial revenue grew 71% year-over-year to $255 million.",
+      "quote": "U.S. commercial revenue grew 71% year-over-year and 19% quarter-over-quarter to $255 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $0.08 diluted.",
+      "quote": "GAAP earnings per share (“EPS”) of $0.08",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $0.13 diluted.",
+      "quote": "Adjusted EPS of $0.13",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance was raised to $3.890–3.902 billion, representing 36% Y/Y growth.",
+      "quote": "We are raising our full-year guidance for total revenue growth to 36% ... We are raising our revenue guidance to between $3.890 – $3.902 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial revenue guidance was raised to at least $1.178 billion, representing at least 68% Y/Y growth.",
+      "quote": "We are raising our U.S. commercial revenue guidance to in excess of $1.178 billion, representing a growth rate of at least 68%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin was 44% in Q1 2025.",
+      "quote": "Adjusted income from operations of $391 million, representing a 44% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was 20% in Q1 2025.",
+      "quote": "GAAP income from operations of $176 million, representing a 20% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted free cash flow margin was 42% in Q1 2025.",
+      "quote": "Adjusted free cash flow of $370 million, representing a 42% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net income margin was 24% in Q1 2025.",
+      "quote": "GAAP net income of $214 million, representing a 24% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rule of 40 score was 83% in Q1 2025.",
+      "quote": "Rule of 40 score of 83%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial TCV was $810 million, up 183% Y/Y.",
+      "quote": "Booked our highest quarter of U.S. commercial total contract value (“TCV”) of $810 million, up 183% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial RDV was $2.32 billion, up 127% Y/Y.",
+      "quote": "U.S. commercial remaining deal value (“RDV”) of $2.32 billion, up 127% year-over-year and 30% quarter-over-quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer count grew 39% Y/Y.",
+      "quote": "Customer count grew 39% year-over-year and 8% quarter-over-quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, citing a 'tectonic shift' in adoption.",
+      "quote": "We are in the middle of a tectonic shift in the adoption of our software, particularly in the U.S. where our revenue soared 55% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Contracts are subject to termination provisions, a risk to future revenue.",
+      "quote": "the majority of our contracts are subject to termination provisions, including for convenience, and there can be no guarantee that contracts are not terminated or that contract options will be exercised.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward-looking statements are subject to risks including macroeconomic and geopolitical events.",
+      "quote": "the impact of recent or future global macroeconomic and geopolitical events, such as the ongoing Russia-Ukraine, and Israel and broader Middle East conflicts, heightened interest rates, monetary policy changes, foreign currency fluctuations, or the imposition of tariffs or other impacts on trade relations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a long and unpredictable sales cycle.",
+      "quote": "our long and unpredictable sales cycle",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Partnerships with Wendy's and Heineken demonstrate adoption.",
+      "quote": "Palantir software has redefined Wendy’s supply chain agility ... With Palantir, Heineken is transforming its supply chain using AI agents to optimize delivery and shipping.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise is explicit, but prior guidance figures are not disclosed in the document, so the magnitude of the raise relative to prior guidance is inferred from the language 'raising' and the stated new targets. A human reviewer may want to verify the prior guidance from external sources."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PLTR_Bundled Earnings Report_2025-05-05",
+  "report_metadata": {
+    "issuer": "p2_palantir",
+    "company": "Palantir",
+    "ticker": "PLTR",
+    "sector": "Technology/Software - Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q1\\PLTR_Q1_2025_presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PLTR_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T101647Z",
+    "timestamp": "2026-08-09T10:17:03Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_palantir\\extracted\\PLTR_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 22507,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q1\\PLTR_Q1_2025_presentation.pdf",
+        "page_count": 40,
+        "extracted_characters": 25383,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_palantir\\extracted\\PLTR_FQ1_2025.txt"
+  }
+}

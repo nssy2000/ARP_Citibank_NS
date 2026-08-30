@@ -1,0 +1,168 @@
+{
+  "document_id": "JPM_FQ3_2022",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document reports a solid quarter with net income of $9.7 billion and managed revenue up 10% YoY, but forward guidance is not raised; management reaffirms a CET1 target of 13% for 1Q23 and hopes to resume buybacks 'early next year,' which is hedged. CEO Jamie Dimon explicitly flags 'significant headwinds immediately in front of us' including inflation, quantitative tightening, the war in Ukraine, and fragile oil supply, creating a cautious forward outlook. The net reserve build of $808 million and net investment securities losses of $959 million further temper the positive backward-looking results, resulting in a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $32.7 billion; managed revenue of $33.5 billion, up 10% YoY.",
+    "eps": "Earnings per share of $3.12, down 17% YoY ($0.62 decrease).",
+    "guidance": "Expect 4Q22 net interest income of ~$19B and FY2022 of ~$66B; FY2022 adjusted expense of ~$77B; FY2022 Card NCO rate of ~1.5%. CET1 ratio target of 13% for 1Q23. Hope to resume stock buybacks early next year.",
+    "margin": "Reported overhead ratio of 59%; managed overhead ratio of 57%. ROE 15%; ROTCE 18%.",
+    "key_risks": [
+      "Stubbornly high inflation leading to higher global interest rates",
+      "Uncertain impacts of quantitative tightening",
+      "War in Ukraine increasing all geopolitical risks",
+      "Fragile state of oil supply and prices",
+      "Net investment securities losses of $959 million",
+      "Net reserve build of $808 million reflecting updates to macroeconomic scenarios",
+      "Potential changes in capital requirements due to completion of Basel III"
+    ],
+    "key_opportunities": [
+      "Consumer spending remains solid with solid balance sheets and plentiful job openings",
+      "Businesses remain healthy",
+      "Average loans up 7% YoY; average deposits up 3% YoY",
+      "Fixed Income Markets revenue up 22% YoY",
+      "Debit and credit card sales volume up 13%",
+      "Active mobile customers up 10%",
+      "Continued investments in technology and marketing"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "CEO Jamie Dimon describes 'solid performance' and healthy consumer/business conditions, but immediately follows with 'significant headwinds immediately in front of us' and states 'we always remain vigilant and are prepared for bad outcomes,' blending confidence in current results with caution about the future."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $32.7 billion; managed revenue was $33.5 billion, up 10% YoY.",
+      "quote": "Net revenue - reported $32,716 ... Net revenue - managed $33,491 ... Net revenue was $33.5 billion, up 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share was $3.12, down 17% YoY.",
+      "quote": "Earnings per share - diluted $3.12 ... Net income was $9.7 billion, down 17% ... EPS $3.12 ... ($0.62) (17)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance includes 4Q22 NII of ~$19B, FY2022 NII of ~$66B, FY2022 adjusted expense of ~$77B, and FY2022 Card NCO rate of ~1.5%.",
+      "quote": "Expect 4Q22 net interest income of ~$19B and FY2022 of ~$66B, market dependent ... Expect FY2022 adjusted expense of ~$77B, market dependent ... Expect FY2022 Card NCO rate of ~1.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio was 59%; managed overhead ratio was 57%. ROE 15%; ROTCE 18%.",
+      "quote": "reported overhead ratio of 59%; managed overhead ratio of 57% ... ROE 15% ... ROTCE 18%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include stubbornly high inflation, quantitative tightening, the war in Ukraine, and fragile oil supply.",
+      "quote": "However, there are significant headwinds immediately in front of us – stubbornly high inflation leading to higher global interest rates, the uncertain impacts of quantitative tightening, the war in Ukraine, which is increasing all geopolitical risks, and the fragile state of oil supply and prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net investment securities losses of $959 million and net reserve build of $808 million are significant items.",
+      "quote": "3Q22 results included: $959 million net investment securities losses in Corporate ... Credit costs of $1.5 billion included an $808 million net reserve build",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Opportunities include solid consumer spending, healthy businesses, loan growth, and Fixed Income Markets revenue growth.",
+      "quote": "In the U.S., consumers continue to spend with solid balance sheets, job openings are plentiful and businesses remain healthy ... Average loans up 7% ... Fixed Income Markets revenue of $4.5 billion, up 22%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident about current performance but cautious about the future.",
+      "quote": "JPMorgan Chase delivered solid performance across our businesses ... However, there are significant headwinds immediately in front of us ... we always remain vigilant and are prepared for bad outcomes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.00 because forward guidance was not raised and management flagged significant headwinds.",
+      "quote": "Expect 4Q22 net interest income of ~$19B and FY2022 of ~$66B, market dependent ... However, there are significant headwinds immediately in front of us",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.00 is based on the absence of a formal guidance raise and the presence of explicit headwinds. A human reviewer should confirm that the cautious language and lack of guidance raise outweigh the solid backward-looking results."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 9,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2022-10-14",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2022",
+    "report_date": "2022-10-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q3\\jpm-3q22-press-release.html",
+        "pub_date": "2022-10-14"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q3\\jpm-3q22-presentation.html",
+        "pub_date": "2022-10-14"
+      }
+    ],
+    "document_id": "JPM_FQ3_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144020Z",
+    "timestamp": "2026-07-09T14:42:22Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q3\\jpm-3q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q3\\jpm-3q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 23834,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q3\\jpm-3q22-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 18929,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2022.txt"
+  }
+}

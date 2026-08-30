@@ -1,0 +1,247 @@
+{
+  "document_id": "WMT_FQ3_2025",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Guidance was raised materially: full-year constant-currency net sales guidance increased from 3.75%-4.75% to 4.8%-5.1%, and adjusted operating income guidance increased from unchanged to 4.8%-5.5%. The raise is organic, driven by strong operational momentum across segments, eCommerce growth of 27%, and market share gains. Management language is confident, with no meaningful risks raised that would offset the positive forward signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$179.5 billion, up 5.8% (6.0% in constant currency).",
+    "eps": "GAAP EPS of $0.77; Adjusted EPS of $0.62, up 6.9%.",
+    "guidance": "Full-year constant-currency net sales growth raised to 4.8%-5.1% (from 3.75%-4.75%). Full-year constant-currency adjusted operating income growth raised to 4.8%-5.5% (from unchanged). Adjusted EPS expected to be $2.58-$2.63.",
+    "margin": "Consolidated gross profit rate was 24.2%, up 2 bps. Adjusted operating income grew 8.0% in constant currency, faster than sales growth of 5.9%.",
+    "key_risks": [
+      "Lower-income households under additional pressure, with some moderation in spending.",
+      "Merchandise category mix headwind to gross margin, as grocery and health & wellness outpace general merchandise.",
+      "Maximum fair pricing legislation effective January 2026 will affect health & wellness/pharmacy business comp.",
+      "Approximately 150 bps of headwinds from VIZIO acquisition and lapping leap year.",
+      "Higher than expected claims expense."
+    ],
+    "key_opportunities": [
+      "eCommerce growth of 27% globally, with each segment above 20%.",
+      "Global advertising business grew 53% (including VIZIO); Walmart Connect US up 33%.",
+      "Membership income grew 17% globally; Walmart+ net adds strongest on record.",
+      "Supply chain automation: >50% of eCommerce fulfillment center volume automated, driving lower shipping costs.",
+      "AI and technology driving efficiency; partnership with OpenAI for ChatGPT checkout.",
+      "Market share gains across grocery, general merchandise, and higher-income households.",
+      "International segment strong, led by Flipkart, China, and Walmex."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'strong quarter,' 'well positioned to finish the year with momentum,' and 'we're playing offense,' and raised guidance, reflecting clear confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $179.5 billion, up 5.8% (6.0% in constant currency).",
+      "quote": "Total revenues reached $179.5 billion... Total revenues (cc) increased +6.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS of $0.77; Adjusted EPS of $0.62, up 6.9%.",
+      "quote": "Adjusted EPS1 of $0.62, up 6.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year constant-currency net sales guidance raised to 4.8%-5.1%.",
+      "quote": "Full year sales in constant currency is expected to grow between 4.8% and 5.1%, up from 3.75% to 4.75% prior.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year constant-currency adjusted operating income guidance raised to 4.8%-5.5%.",
+      "quote": "For operating income, we expect full year growth in a range of 4.8% to 5.5% on a constant currency basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS guidance raised to $2.58-$2.63.",
+      "quote": "For adjusted EPS, we expect the full year to be in a range of $2.58 to $2.63",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consolidated gross profit rate was 24.2%, up 2 bps.",
+      "quote": "Gross profit rate +2 bps to 24.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating income grew 8.0% in constant currency, faster than sales.",
+      "quote": "Adjusted operating income (cc)1 up +8.0% relative to +5.9% growth in net sales (cc)1",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower-income households under additional pressure.",
+      "quote": "while lower income families have been under additional pressure of late",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Merchandise category mix headwind to gross margin.",
+      "quote": "Merchandise category mix in Walmart US remains a headwind, as sales growth in grocery, and health and wellness outpaced general merchandise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Maximum fair pricing legislation will affect health & wellness business.",
+      "quote": "the maximum fair pricing legislation is, was enacted and goes into effect in January will affect our health and wellness business, specifically our pharmacy business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately 150 bps of headwinds from VIZIO acquisition and lapping leap year.",
+      "quote": "despite 150 basis points of headwinds from the VIZIO acquisition and lapping leap year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher than expected claims expense.",
+      "quote": "higher than expected claims expense",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "eCommerce growth of 27% globally.",
+      "quote": "eCommerce was a highlight again in Q3, up 27% in total.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global advertising business grew 53%.",
+      "quote": "Globally, advertising grew 53%, including VIZIO",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Membership income grew 17% globally.",
+      "quote": "membership income was up 17%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain automation: >50% of eCommerce fulfillment center volume automated.",
+      "quote": "more than 50% of our eCommerce fulfillment center volume is now automated",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI and technology driving efficiency; partnership with OpenAI.",
+      "quote": "Our recent announcement with OpenAI is an example. This new partnership will allow customers and members to purchase items from Walmart, and Sam's Club directly through ChatGPT.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Market share gains across grocery, general merchandise, and higher-income households.",
+      "quote": "We drove positive transaction counts in unit volumes, and we're gaining market share in grocery, and general merchandise, including here in the US, where we saw strength across income cohorts, and especially with higher income households.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International segment strong, led by Flipkart, China, and Walmex.",
+      "quote": "International drove the strongest performance with a sales increase of 11.4% in constant currency, and adjusted operating income grew 16.9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "The team delivered another strong quarter. Our associates have us well positioned to finish the year with momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.50 is based on a clear guidance raise, but the raise is partially attributed to the timing shift of Flipkart's Big Billion Days event, which may not be fully organic. A human reviewer should confirm the magnitude of the organic component."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "WMT_Bundled Earnings Report_2025-11-20",
+  "report_metadata": {
+    "issuer": "p2_walmart",
+    "company": "Walmart",
+    "ticker": "WMT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-19",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q3\\q3-fy26-earnings-call-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q3\\q3-fy26-earnings-presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q3\\q3-fy26-earnings-release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "WMT_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T215335Z",
+    "timestamp": "2026-07-18T21:54:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q3\\q3-fy26-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_walmart\\extracted\\WMT_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q3\\q3-fy26-earnings-call-transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 86229,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q3\\q3-fy26-earnings-presentation.pdf",
+        "page_count": 37,
+        "extracted_characters": 56442,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\walmart\\CY2025-Q3\\q3-fy26-earnings-release.pdf",
+        "page_count": 19,
+        "extracted_characters": 46486,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_walmart\\extracted\\WMT_FQ3_2025.txt"
+  }
+}

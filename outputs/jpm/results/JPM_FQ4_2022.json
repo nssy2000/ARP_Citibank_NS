@@ -1,0 +1,209 @@
+{
+  "document_id": "JPM_FQ4_2022",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports strong Q4 2022 results with net income of $11.0B and ROTCE of 20%, and management provides explicit forward guidance: NII ex. Markets expected at ~$74B for 2023, adjusted expense ~$81B, and Card Services NCO rate ~2.60%. While the guidance is not raised above prior expectations (this is the first explicit 2023 outlook), the tone is confident and the outlook shows continued operational momentum. However, the guidance includes cautious language about deposit reprice uncertainty and a mild recession in the central case, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $34.5 billion; managed revenue of $35.6 billion, up 17% YoY.",
+    "eps": "Diluted EPS of $3.57, up 7% YoY ($0.24 increase).",
+    "guidance": "FY2023 NII ex. Markets expected ~$74B; adjusted expense ~$81B; Card Services NCO rate ~2.60%.",
+    "margin": "ROTCE of 20% for Q4 2022; managed overhead ratio of 53%.",
+    "key_risks": [
+      "Geopolitical tensions including the war in Ukraine",
+      "Vulnerable state of energy and food supplies",
+      "Persistent inflation eroding purchasing power and pushing interest rates higher",
+      "Unprecedented quantitative tightening",
+      "Deposit reprice path remains uncertain",
+      "Modest deterioration in macroeconomic outlook, now reflecting a mild recession in the central case"
+    ],
+    "key_opportunities": [
+      "Higher rates driving net interest income growth (NII ex. Markets up 72% YoY)",
+      "Continued loan growth including credit card revolving balances returning to pre-pandemic levels",
+      "Strong market position: #1 in U.S. retail deposits, credit cards, business banking, Payments, Markets, investment banking, multifamily lending",
+      "Ability to resume stock buybacks in Q1 2023",
+      "Investments in technology, bankers, advisors, branches, and marketing"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jamie Dimon states 'JPMorgan Chase reported strong results' and 'the Firm is in a position of strength as the market leader,' while also acknowledging headwinds and remaining 'vigilant and prepared.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $34.5 billion; managed revenue of $35.6 billion, up 17% YoY.",
+      "quote": "Net revenue - managed $35,566 ... $ O/(U) 4Q21 % 17%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $3.57, up 7% YoY ($0.24 increase).",
+      "quote": "Earnings per share - diluted $3.57 ... $ O/(U) 4Q21 $0.24 7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2023 NII ex. Markets expected ~$74B; adjusted expense ~$81B; Card Services NCO rate ~2.60%.",
+      "quote": "Expect FY2023 net interest income excluding Markets of ~$74B ... Expect FY2023 adjusted expense of ~$81B ... Expect FY2023 Card Services NCO rate of ~2.60%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 20% for Q4 2022; managed overhead ratio of 53%.",
+      "quote": "ROTCE 20% ... managed overhead ratio of 53%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical tensions including the war in Ukraine are a key risk.",
+      "quote": "we still do not know the ultimate effect of the headwinds coming from geopolitical tensions including the war in Ukraine",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Vulnerable state of energy and food supplies is a key risk.",
+      "quote": "the vulnerable state of energy and food supplies",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Persistent inflation eroding purchasing power and pushing interest rates higher is a key risk.",
+      "quote": "persistent inflation that is eroding purchasing power and has pushed interest rates higher",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unprecedented quantitative tightening is a key risk.",
+      "quote": "the unprecedented quantitative tightening",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit reprice path remains uncertain.",
+      "quote": "Deposit reprice path remains uncertain4 ... 4 Future reprice trajectory included for illustrative purposes; the size of the range and timing of impact is undetermined",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Modest deterioration in macroeconomic outlook, now reflecting a mild recession in the central case.",
+      "quote": "driven by a modest deterioration in the Firm’s macroeconomic outlook, now reflecting a mild recession in the central case",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher rates driving net interest income growth (NII ex. Markets up 72% YoY).",
+      "quote": "Net interest income (NII) was $20.3 billion, up 48%. NII excluding Markets1 was $20.0 billion, up 72%, driven by higher rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued loan growth including credit card revolving balances returning to pre-pandemic levels.",
+      "quote": "card loans were up 19% with total revolving balances now back to pre-pandemic levels",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong market position: #1 in U.S. retail deposits, credit cards, business banking, Payments, Markets, investment banking, multifamily lending.",
+      "quote": "the Firm is in a position of strength as the market leader in U.S. retail deposits, credit cards, business banking, Payments, Markets, investment banking and multifamily lending",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ability to resume stock buybacks in Q1 2023.",
+      "quote": "we have the ability to resume stock buybacks this quarter, as we deem appropriate",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investments in technology, bankers, advisors, branches, and marketing.",
+      "quote": "continued investments in the business, including technology and marketing ... Technology ... Bankers, Advisors & Branches ... Marketing",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "JPMorgan Chase reported strong results ... the Firm is in a position of strength as the market leader",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on forward guidance being provided for the first time (not raised), and the cautious language about deposit reprice and recession may warrant a lower score. A human reviewer should verify the interpretation of guidance as 'operational momentum' versus 'in-line.'"
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2023-01-13",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2022",
+    "report_date": "2023-01-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q4\\jpm-4q22-press-release.pdf",
+        "pub_date": "2023-01-13"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q4\\jpm-4q22-presentation.pdf",
+        "pub_date": "2023-01-13"
+      }
+    ],
+    "document_id": "JPM_FQ4_2022"
+  },
+  "run_meta": {
+    "run_id": "20260708T131706Z",
+    "timestamp": "2026-07-08T13:17:23Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q4\\jpm-4q22-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q4\\jpm-4q22-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 25751,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q4\\jpm-4q22-presentation.pdf",
+        "page_count": 21,
+        "extracted_characters": 26727,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2022.txt"
+  }
+}

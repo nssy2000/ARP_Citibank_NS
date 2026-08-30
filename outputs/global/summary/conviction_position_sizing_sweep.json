@@ -1,0 +1,162 @@
+{
+  "n_documents": 131,
+  "window_trading_days": 1,
+  "exit_on_open": true,
+  "objective": "total_return",
+  "cost_bps": 10.0,
+  "short_borrow_bps": 0.0,
+  "weights_held_fixed_at": [
+    0.8,
+    0.0,
+    0.2,
+    0.0
+  ],
+  "hold_upper": 0.25,
+  "hold_lower": -0.25,
+  "sizing_grid": {
+    "slopes": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      1.75,
+      2.0,
+      2.25,
+      2.5,
+      2.75,
+      3.0,
+      3.25,
+      3.5,
+      3.75,
+      4.0
+    ],
+    "size_maxes": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0
+    ],
+    "size_min": 1.0
+  },
+  "combos": 85,
+  "n_trials_corrected_for_dsr": 85,
+  "global_best": {
+    "total_return_pct": 320.39,
+    "avg_net_per_trade_pct": 3.8661,
+    "sharpe_per_trade": 2.178,
+    "n_trades": 44,
+    "slope": 4.0,
+    "size_max": 3.0,
+    "size_min": 1.0,
+    "n_tied": 1,
+    "deflated_sharpe": {
+      "sr0_expected_max_under_null": 0.2581,
+      "skew": 3.1692,
+      "kurtosis": 13.8114,
+      "psr": 1.0,
+      "n_trials_corrected_for": 85
+    }
+  },
+  "top_k": [
+    {
+      "slope": 4.0,
+      "size_max": 3.0,
+      "total_return_pct": 320.39,
+      "sharpe_per_trade": 2.178,
+      "n_trades": 44
+    },
+    {
+      "slope": 4.0,
+      "size_max": 2.5,
+      "total_return_pct": 315.08,
+      "sharpe_per_trade": 2.163,
+      "n_trades": 44
+    },
+    {
+      "slope": 3.75,
+      "size_max": 3.0,
+      "total_return_pct": 311.36,
+      "sharpe_per_trade": 2.196,
+      "n_trades": 44
+    },
+    {
+      "slope": 4.0,
+      "size_max": 2.0,
+      "total_return_pct": 309.77,
+      "sharpe_per_trade": 2.146,
+      "n_trades": 44
+    },
+    {
+      "slope": 3.75,
+      "size_max": 2.5,
+      "total_return_pct": 306.16,
+      "sharpe_per_trade": 2.18,
+      "n_trades": 44
+    },
+    {
+      "slope": 3.5,
+      "size_max": 3.0,
+      "total_return_pct": 302.41,
+      "sharpe_per_trade": 2.214,
+      "n_trades": 44
+    },
+    {
+      "slope": 3.75,
+      "size_max": 2.0,
+      "total_return_pct": 300.97,
+      "sharpe_per_trade": 2.163,
+      "n_trades": 44
+    },
+    {
+      "slope": 3.5,
+      "size_max": 2.5,
+      "total_return_pct": 297.33,
+      "sharpe_per_trade": 2.198,
+      "n_trades": 44
+    },
+    {
+      "slope": 3.25,
+      "size_max": 3.0,
+      "total_return_pct": 293.07,
+      "sharpe_per_trade": 2.231,
+      "n_trades": 44
+    },
+    {
+      "slope": 3.5,
+      "size_max": 2.0,
+      "total_return_pct": 292.25,
+      "sharpe_per_trade": 2.18,
+      "n_trades": 44
+    }
+  ],
+  "loocv_total_return_pct": 309.77,
+  "loocv_avg_net_per_trade_pct": 3.804,
+  "loocv_hit_rate": 0.5909,
+  "loocv_n_trades": 44,
+  "loocv_sharpe_per_trade": 2.146,
+  "control_total_return_pct": 172.75,
+  "control_avg_net_per_trade_pct": 2.5063,
+  "control_sharpe_per_trade": 2.484,
+  "control_n_trades": 44,
+  "n": 131,
+  "n_net_clipped_at_floor": 0,
+  "significance": {
+    "permutation_p_vs_gap_shuffles": 0.001,
+    "note": "Sizes held fixed, overnight gap shuffled across documents 5000x; p = fraction of shuffles whose best achievable total return >= the observed best."
+  },
+  "vs_fixed_size_backtest": {
+    "backtest_py_reported": {
+      "n_trades": 44,
+      "total_return_pct": 172.62,
+      "avg_net_per_trade_pct": 2.5051,
+      "sharpe_per_trade": 2.483,
+      "max_drawdown_pct": 6.54
+    },
+    "self_check_match": true
+  },
+  "deployment_note": "Candidate output only - backtest.py's simulate() keeps fixed +-1 sizing untouched pending review; must not be promoted unless it clears all four gates (in-sample win, LOOCV, permutation, DSR), consistent with every other lever tried in this project."
+}

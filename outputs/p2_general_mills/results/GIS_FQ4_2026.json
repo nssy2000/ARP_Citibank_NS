@@ -1,0 +1,223 @@
+{
+  "document_id": "GIS_FQ4_2026",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "Forward guidance was reduced: fiscal 2027 adjusted operating profit is expected to decline 13% to 8% in constant currency, and adjusted diluted EPS is guided to $3.00-$3.20, down from $3.55 in fiscal 2026. Management's language is hedged, citing a 'challenging consumer backdrop' and 'elevated inflation,' and the company's own fiscal 2027 organic net sales guidance ranges from down 1.5% to up 0.5%, indicating no clear improvement. While the fourth quarter beat backward-looking comparisons, the forward outlook is explicitly weaker, warranting a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Fiscal 2026 net sales were $18.4 billion, down 5 percent; fourth-quarter net sales were $4.6 billion, up 1 percent. Organic net sales were down 2 percent for the full year and flat in the fourth quarter.",
+    "eps": "Fiscal 2026 diluted loss per share was $0.16 compared to EPS of $4.10 last year; adjusted diluted EPS was $3.55, down 16 percent in constant currency. Fourth-quarter diluted loss per share was $3.74; adjusted diluted EPS was $0.95, up 27 percent in constant currency.",
+    "guidance": "Fiscal 2027 outlook: organic net sales expected to range between down 1.5 percent and up 0.5 percent; adjusted operating profit expected to be down 13 percent to down 8 percent in constant currency; adjusted diluted EPS expected between $3.00 and $3.20; free cash flow conversion approximately 95 percent of adjusted after-tax earnings. The company targets $3 billion in cumulative cost savings by fiscal 2030, with $750 million expected in fiscal 2027.",
+    "margin": "Fiscal 2026 adjusted gross margin was 33.5 percent, down 100 basis points; adjusted operating profit margin was 15.3 percent, down 190 basis points. Fourth-quarter adjusted gross margin was 34.2 percent, up 150 basis points; adjusted operating profit margin was 15.3 percent, up 160 basis points.",
+    "key_risks": [
+      "Elevated input cost inflation (4% to 5% of COGS expected in fiscal 2027)",
+      "Challenging consumer backdrop and weaker consumer sentiment",
+      "Approximately 9 points of headwinds on adjusted operating profit and 11 points on EPS in fiscal 2027 from lapping the 53rd week, normalizing corporate incentive expense, and the impact of fiscal 2026 divestitures",
+      "Non-cash goodwill and brand intangible asset charges driven by an increase in discount rates",
+      "Non-cash valuation loss related to the planned divestiture of the Brazil business",
+      "Potential impact of tariffs and supply chain disruptions"
+    ],
+    "key_opportunities": [
+      "$750 million in cost savings expected in fiscal 2027 from HMM, global transformation initiative, and other efficiency efforts",
+      "Targeting $3 billion in cumulative cost savings by fiscal 2030",
+      "Increased innovation and renovation centered on consumer benefits (better-for-you, bold flavors, fun and indulgence, pet humanization)",
+      "Favorable net price realization and mix",
+      "Growth in International segment (Brazil, Europe, India, China)"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in long-term plans ('I'm confident we're on the path to restoring profitable growth') but simultaneously acknowledges significant headwinds and a challenging environment ('driven by a continued challenging consumer backdrop')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Fiscal 2026 net sales were $18.4 billion, down 5 percent.",
+      "quote": "Net sales of $18.4 billion were down 5 percent, including a 6-point headwind from the net impact of divestitures and acquisitions and a 2-point benefit from the 53rd week; organic net sales¹ were down 2 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter net sales were $4.6 billion, up 1 percent.",
+      "quote": "Net sales of $4.6 billion were up 1 percent; organic net sales¹ were in line with last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 diluted loss per share was $0.16 compared to EPS of $4.10 last year.",
+      "quote": "Diluted loss per share totaled $0.16 compared to EPS of $4.10 last year; adjusted diluted EPS of $3.55 was down 16 percent in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter diluted loss per share was $3.74; adjusted diluted EPS was $0.95, up 27 percent in constant currency.",
+      "quote": "Diluted loss per share totaled $3.74 compared to earnings per share (EPS) of $0.53 last year; adjusted diluted EPS of $0.95 was up 27 percent in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2027 adjusted operating profit is expected to decline 13% to 8% in constant currency.",
+      "quote": "Adjusted operating profit is expected to be down 13 percent to down 8 percent in constant currency from the base of $2.8 billion reported in fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2027 adjusted diluted EPS is guided to $3.00-$3.20, down from $3.55 in fiscal 2026.",
+      "quote": "Adjusted diluted earnings are expected to be between $3.00 and $3.20 per share, including an immaterial impact from foreign currency exchange.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2027 organic net sales guidance ranges from down 1.5% to up 0.5%.",
+      "quote": "Organic net sales are expected to range between down 1.5 percent and up 0.5 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 adjusted gross margin was 33.5 percent, down 100 basis points.",
+      "quote": "Adjusted gross margin was down 100 basis points to 33.5 percent of net sales, both driven by higher input costs, partially offset by the favorable impact of net price realization and mix to gross margin, including the product mix benefit from the North American Yogurt divestitures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 adjusted operating profit margin was 15.3 percent, down 190 basis points.",
+      "quote": "Adjusted operating profit margin was down 190 basis points to 15.3 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter adjusted gross margin was 34.2 percent, up 150 basis points.",
+      "quote": "Adjusted gross margin increased 150 basis points to 34.2 percent of net sales, driven by favorable net price realization and mix, partially offset by higher input costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter adjusted operating profit margin was 15.3 percent, up 160 basis points.",
+      "quote": "Adjusted operating profit margin increased 160 basis points to 15.3 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company targets $3 billion in cumulative cost savings by fiscal 2030, with $750 million expected in fiscal 2027.",
+      "quote": "We’re targeting $3 billion in cumulative cost savings by fiscal 2030, primarily through our Holistic Margin Management productivity program and our global transformation initiative, with $750 million expected to be delivered in fiscal 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledges a challenging consumer backdrop.",
+      "quote": "For fiscal 2027, the company expects category growth to be consistent with recent trends and below its long-term historical growth rate, driven by a continued challenging consumer backdrop.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in long-term plans.",
+      "quote": "With plans to strengthen our remarkability and a sharp focus on efficiency and capital discipline, I’m confident we’re on the path to restoring profitable growth and driving shareholder value over the long term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2027 faces headwinds from lapping the 53rd week, incentive expense, and divestitures.",
+      "quote": "In addition to those factors, the company expects headwinds of approximately 9 points on operating profit and 11 points on EPS in fiscal 2027 from lapping the 53rd week in fiscal 2026, normalizing corporate incentive expense, and the impact of fiscal 2026 divestitures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects elevated input cost inflation in fiscal 2027.",
+      "quote": "HEADWINDS • Input Cost Inflation: 4% to 5% of COGS",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans increased innovation and renovation centered on consumer benefits.",
+      "quote": "With its base price investment actions completed in fiscal 2026, the company expects to shift its focus in fiscal 2027 to product innovation and renovation news centered on the benefits that matter most to today’s consumers, including better-for-you benefits like protein and fiber, bold flavors, fun and indulgence, and pet humanization.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The International segment grew organically by 3% in fiscal 2026.",
+      "quote": "For the full year, International net sales were up 9 percent to $3.0 billion, including a 4-point benefit from foreign currency exchange and a 2-point benefit from the 53rd week. Organic net sales were up 3 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based on the explicit reduction in fiscal 2027 guidance (adjusted operating profit down 13-8%, EPS down to $3.00-$3.20 from $3.55). A human reviewer should verify this interpretation against the company's own prior guidance, which is not fully stated in the document."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The list includes risks explicitly stated in the document, but the severity and materiality of each risk (e.g., tariffs, supply chain) are not quantified. A human reviewer may want to assess the relative weight of these risks."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GIS_Bundled Earnings Report_2026-07-01",
+  "report_metadata": {
+    "issuer": "p2_general_mills",
+    "company": "General Mills",
+    "ticker": "GIS",
+    "sector": "Consumer Defensive/Packaged Foods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2026",
+    "report_date": "2026-07-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q4\\GIS_Q4_2026_Presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GIS_FQ4_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100338Z",
+    "timestamp": "2026-08-09T10:04:23Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_general_mills\\extracted\\GIS_FQ4_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 70820,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q4\\GIS_Q4_2026_Presentation.pdf",
+        "page_count": 53,
+        "extracted_characters": 20812,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_general_mills\\extracted\\GIS_FQ4_2026.txt"
+  }
+}

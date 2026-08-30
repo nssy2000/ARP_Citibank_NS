@@ -1,0 +1,58 @@
+{
+  "document_id": "SCHW_FQ4_2025_QUANT",
+  "base_document_id": "SCHW_FQ4_2025",
+  "issuer": "p2_charles_schwab",
+  "ticker": "SCHW",
+  "sector": "Financials",
+  "report_date": "2026-01-21",
+  "sentiment": {
+    "score": 0.141283
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.045337,
+      "window_start_date": "2025-12-17",
+      "window_end_date": "2026-01-20",
+      "score": 0.293366,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.211322,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -0.27,
+      "matched_earnings_date": "2026-01-21",
+      "score": -0.0108,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.9,
+      "vix_score": 0.139092,
+      "tnx_change": 0.137,
+      "tnx_score": -0.267342,
+      "score": -0.064125,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.24,
+      "ffr_score": 0.446244,
+      "ffr_as_of": "2026-01-20",
+      "curve_spread": 0.7,
+      "curve_score": 0.604368,
+      "curve_as_of": "2026-01-20",
+      "score": 0.525306,
+      "available": true
+    },
+    "quant_score": 0.141283,
+    "quant_score_with_macro": 0.038579,
+    "quant_score_with_fred": 0.333295,
+    "quant_score_with_macro_fred": 0.200821
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,94 @@
+company,ticker,year,quarter,event_key,us_non_us,folder_path,filename,doc_types_needed,manifest_exists,docs_on_disk
+Adobe,ADBE,2025,Q3,ADBE_FQ3_2025,US,docs/adobe/CY2025-Q3/,ADBE_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Adobe,ADBE,2025,Q4,ADBE_FQ4_2025,US,docs/adobe/CY2025-Q4/,ADBE_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Adobe,ADBE,2026,Q1,ADBE_FQ1_2026,US,docs/adobe/CY2026-Q1/,ADBE_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Adobe,ADBE,2026,Q2,ADBE_FQ2_2026,US,docs/adobe/CY2026-Q2/,ADBE_Q2_2026_Press_Release.htm,Press Release,NO,NO
+American Express,AXP,2025,Q2,AXP_FQ2_2025,US,docs/american_express/CY2025-Q2/,AXP_Q2_2025_Press_Release.htm,Press Release,NO,NO
+American Express,AXP,2025,Q3,AXP_FQ3_2025,US,docs/american_express/CY2025-Q3/,AXP_Q3_2025_Press_Release.htm,Press Release,NO,NO
+American Express,AXP,2025,Q4,AXP_FQ4_2025,US,docs/american_express/CY2025-Q4/,AXP_Q4_2025_Press_Release.htm,Press Release,NO,NO
+American Express,AXP,2026,Q1,AXP_FQ1_2026,US,docs/american_express/CY2026-Q1/,AXP_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Colgate-Palmolive,CL,2025,Q3,CL_FQ3_2025,US,docs/colgate_palmolive/CY2025-Q3/,CL_Q3_2025_Press_Release.htm,Press Release,YES,YES
+Colgate-Palmolive,CL,2025,Q4,CL_FQ4_2025,US,docs/colgate_palmolive/CY2025-Q4/,CL_Q4_2025_Press_Release.htm,Press Release,YES,YES
+Colgate-Palmolive,CL,2026,Q1,CL_FQ1_2026,US,docs/colgate_palmolive/CY2026-Q1/,CL_Q1_2026_Press_Release.htm,Press Release,YES,YES
+Colgate-Palmolive,CL,2026,Q2,CL_FQ2_2026,US,docs/colgate_palmolive/CY2026-Q2/,CL_Q2_2026_Press_Release.htm,Press Release,YES,YES
+Costco,COST,2025,Q4,COST_FQ4_2025,US,docs/costco/CY2025-Q4/,COST_Q4_2025_Press_Release.htm,Press Release,YES,YES
+Costco,COST,2026,Q1,COST_FQ1_2026,US,docs/costco/CY2026-Q1/,COST_Q1_2026_Press_Release.htm,Press Release,YES,YES
+Costco,COST,2026,Q2,COST_FQ2_2026,US,docs/costco/CY2026-Q2/,COST_Q2_2026_Press_Release.htm,Press Release,YES,YES
+Costco,COST,2026,Q3,COST_FQ3_2026,US,docs/costco/CY2026-Q3/,COST_Q3_2026_Press_Release.htm,Press Release,YES,NO
+Chevron,CVX,2025,Q2,CVX_FQ2_2025,US,docs/chevron/CY2025-Q2/,CVX_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Chevron,CVX,2025,Q3,CVX_FQ3_2025,US,docs/chevron/CY2025-Q3/,CVX_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Chevron,CVX,2025,Q4,CVX_FQ4_2025,US,docs/chevron/CY2025-Q4/,CVX_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Chevron,CVX,2026,Q1,CVX_FQ1_2026,US,docs/chevron/CY2026-Q1/,CVX_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Datadog,DDOG,2025,Q2,DDOG_FQ2_2025,US,docs/datadog/CY2025-Q2/,DDOG_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Datadog,DDOG,2025,Q3,DDOG_FQ3_2025,US,docs/datadog/CY2025-Q3/,DDOG_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Datadog,DDOG,2025,Q4,DDOG_FQ4_2025,US,docs/datadog/CY2025-Q4/,DDOG_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Datadog,DDOG,2026,Q1,DDOG_FQ1_2026,US,docs/datadog/CY2026-Q1/,DDOG_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2023,Q1,DUK_FQ1_2023,US,docs/duke_energy/CY2023-Q1/,DUK_Q1_2023_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2023,Q2,DUK_FQ2_2023,US,docs/duke_energy/CY2023-Q2/,DUK_Q2_2023_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2023,Q3,DUK_FQ3_2023,US,docs/duke_energy/CY2023-Q3/,DUK_Q3_2023_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2023,Q4,DUK_FQ4_2023,US,docs/duke_energy/CY2023-Q4/,DUK_Q4_2023_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2024,Q1,DUK_FQ1_2024,US,docs/duke_energy/CY2024-Q1/,DUK_Q1_2024_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2024,Q2,DUK_FQ2_2024,US,docs/duke_energy/CY2024-Q2/,DUK_Q2_2024_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2024,Q3,DUK_FQ3_2024,US,docs/duke_energy/CY2024-Q3/,DUK_Q3_2024_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2024,Q4,DUK_FQ4_2024,US,docs/duke_energy/CY2024-Q4/,DUK_Q4_2024_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2025,Q1,DUK_FQ1_2025,US,docs/duke_energy/CY2025-Q1/,DUK_Q1_2025_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2025,Q2,DUK_FQ2_2025,US,docs/duke_energy/CY2025-Q2/,DUK_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2025,Q3,DUK_FQ3_2025,US,docs/duke_energy/CY2025-Q3/,DUK_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2025,Q4,DUK_FQ4_2025,US,docs/duke_energy/CY2025-Q4/,DUK_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Duke Energy,DUK,2026,Q1,DUK_FQ1_2026,US,docs/duke_energy/CY2026-Q1/,DUK_Q1_2026_Press_Release.htm,Press Release,NO,NO
+eBay,EBAY,2025,Q1,EBAY_FQ1_2025,US,docs/ebay/CY2025-Q1/,EBAY_Q1_2025_Press_Release.htm,Press Release,NO,NO
+eBay,EBAY,2025,Q2,EBAY_FQ2_2025,US,docs/ebay/CY2025-Q2/,EBAY_Q2_2025_Press_Release.htm,Press Release,NO,NO
+eBay,EBAY,2025,Q3,EBAY_FQ3_2025,US,docs/ebay/CY2025-Q3/,EBAY_Q3_2025_Press_Release.htm,Press Release,NO,NO
+eBay,EBAY,2026,Q1,EBAY_FQ1_2026,US,docs/ebay/CY2026-Q1/,EBAY_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Freeport-McMoRan,FCX,2025,Q2,FCX_FQ2_2025,US,docs/freeport_mcmoran/CY2025-Q2/,FCX_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Freeport-McMoRan,FCX,2025,Q4,FCX_FQ4_2025,US,docs/freeport_mcmoran/CY2025-Q4/,FCX_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Freeport-McMoRan,FCX,2026,Q1,FCX_FQ1_2026,US,docs/freeport_mcmoran/CY2026-Q1/,FCX_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Home Depot,HD,2025,Q2,HD_FQ2_2025,US,docs/home_depot/CY2025-Q2/,HD_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Home Depot,HD,2025,Q3,HD_FQ3_2025,US,docs/home_depot/CY2025-Q3/,HD_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Home Depot,HD,2025,Q4,HD_FQ4_2025,US,docs/home_depot/CY2025-Q4/,HD_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Home Depot,HD,2026,Q1,HD_FQ1_2026,US,docs/home_depot/CY2026-Q1/,HD_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Heineken,HEIA.AS,2024,Q1,HEINY_FQ1_2024,non-US,docs/heineken/CY2024-Q1/,HEINY_Q1_2024_Press_Release.htm,Press Release,NO,NO
+Heineken,HEIA.AS,2024,Q2,HEINY_FQ2_2024,non-US,docs/heineken/CY2024-Q2/,HEINY_Q2_2024_Press_Release.htm,Press Release,NO,NO
+Heineken,HEIA.AS,2024,Q3,HEINY_FQ3_2024,non-US,docs/heineken/CY2024-Q3/,HEINY_Q3_2024_Press_Release.htm,Press Release,NO,NO
+Heineken,HEIA.AS,2025,Q3,HEINY_FQ3_2025,non-US,docs/heineken/CY2025-Q3/,HEINY_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Intel,INTC,2025,Q2,INTC_FQ2_2025,US,docs/intel/CY2025-Q2/,INTC_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Intel,INTC,2025,Q3,INTC_FQ3_2025,US,docs/intel/CY2025-Q3/,INTC_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Intel,INTC,2025,Q4,INTC_FQ4_2025,US,docs/intel/CY2025-Q4/,INTC_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Intel,INTC,2026,Q1,INTC_FQ1_2026,US,docs/intel/CY2026-Q1/,INTC_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Mastercard,MA,2025,Q2,MA_FQ2_2025,US,docs/mastercard/CY2025-Q2/,MA_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Mastercard,MA,2025,Q3,MA_FQ3_2025,US,docs/mastercard/CY2025-Q3/,MA_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Mastercard,MA,2025,Q4,MA_FQ4_2025,US,docs/mastercard/CY2025-Q4/,MA_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Mastercard,MA,2026,Q1,MA_FQ1_2026,US,docs/mastercard/CY2026-Q1/,MA_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Nestle,NSRGY,2024,Q3,NSRGY_FQ3_2024,non-US,docs/nestle/CY2024-Q3/,NSRGY_Q3_2024_Press_Release.htm,Press Release,NO,NO
+Nestle,NSRGY,2026,Q1,NSRGY_FQ1_2026,non-US,docs/nestle/CY2026-Q1/,NSRGY_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Hermes,RMSP.XC,2025,Q1,RMS_FQ1_2025,non-US,docs/hermes/CY2025-Q1/,RMS_Q1_2025_Press_Release.htm,Press Release,NO,NO
+Hermes,RMSP.XC,2025,Q2,RMS_FQ2_2025,non-US,docs/hermes/CY2025-Q2/,RMS_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Hermes,RMSP.XC,2025,Q3,RMS_FQ3_2025,non-US,docs/hermes/CY2025-Q3/,RMS_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Hermes,RMSP.XC,2025,Q4,RMS_FQ4_2025,non-US,docs/hermes/CY2025-Q4/,RMS_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Shell,SHEL,2025,Q2,SHEL_FQ2_2025,non-US,docs/shell/CY2025-Q2/,SHEL_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Shell,SHEL,2025,Q3,SHEL_FQ3_2025,non-US,docs/shell/CY2025-Q3/,SHEL_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Shell,SHEL,2025,Q4,SHEL_FQ4_2025,non-US,docs/shell/CY2025-Q4/,SHEL_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Shell,SHEL,2026,Q1,SHEL_FQ1_2026,non-US,docs/shell/CY2026-Q1/,SHEL_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Shopify,SHOP,2025,Q3,SHOP_FQ3_2025,US,docs/shopify/CY2025-Q3/,SHOP_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Shopify,SHOP,2025,Q4,SHOP_FQ4_2025,US,docs/shopify/CY2025-Q4/,SHOP_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Shopify,SHOP,2026,Q1,SHOP_FQ1_2026,US,docs/shopify/CY2026-Q1/,SHOP_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Sony,SONY,2025,Q2,SONY_FQ2_2025,non-US,docs/sony/CY2025-Q2/,SONY_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Sony,SONY,2025,Q3,SONY_FQ3_2025,non-US,docs/sony/CY2025-Q3/,SONY_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Sony,SONY,2026,Q1,SONY_FQ1_2026,non-US,docs/sony/CY2026-Q1/,SONY_Q1_2026_Press_Release.htm,Press Release,NO,NO
+Union Pacific,UNP,2025,Q2,UNP_FQ2_2025,US,docs/union_pacific/CY2025-Q2/,UNP_Q2_2025_Press_Release.htm,Press Release,NO,NO
+Union Pacific,UNP,2025,Q3,UNP_FQ3_2025,US,docs/union_pacific/CY2025-Q3/,UNP_Q3_2025_Press_Release.htm,Press Release,NO,NO
+Union Pacific,UNP,2025,Q4,UNP_FQ4_2025,US,docs/union_pacific/CY2025-Q4/,UNP_Q4_2025_Press_Release.htm,Press Release,NO,NO
+Union Pacific,UNP,2026,Q1,UNP_FQ1_2026,US,docs/union_pacific/CY2026-Q1/,UNP_Q1_2026_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2023,Q1,XOM_FQ1_2023,US,docs/exxonmobil/CY2023-Q1/,XOM_Q1_2023_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2023,Q2,XOM_FQ2_2023,US,docs/exxonmobil/CY2023-Q2/,XOM_Q2_2023_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2023,Q3,XOM_FQ3_2023,US,docs/exxonmobil/CY2023-Q3/,XOM_Q3_2023_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2023,Q4,XOM_FQ4_2023,US,docs/exxonmobil/CY2023-Q4/,XOM_Q4_2023_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2024,Q1,XOM_FQ1_2024,US,docs/exxonmobil/CY2024-Q1/,XOM_Q1_2024_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2024,Q2,XOM_FQ2_2024,US,docs/exxonmobil/CY2024-Q2/,XOM_Q2_2024_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2024,Q3,XOM_FQ3_2024,US,docs/exxonmobil/CY2024-Q3/,XOM_Q3_2024_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2024,Q4,XOM_FQ4_2024,US,docs/exxonmobil/CY2024-Q4/,XOM_Q4_2024_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2025,Q1,XOM_FQ1_2025,US,docs/exxonmobil/CY2025-Q1/,XOM_Q1_2025_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2025,Q2,XOM_FQ2_2025,US,docs/exxonmobil/CY2025-Q2/,XOM_Q2_2025_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2025,Q3,XOM_FQ3_2025,US,docs/exxonmobil/CY2025-Q3/,XOM_Q3_2025_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2025,Q4,XOM_FQ4_2025,US,docs/exxonmobil/CY2025-Q4/,XOM_Q4_2025_Press_Release.htm,Press Release,NO,NO
+ExxonMobil,XOM,2026,Q1,XOM_FQ1_2026,US,docs/exxonmobil/CY2026-Q1/,XOM_Q1_2026_Press_Release.htm,Press Release,NO,NO

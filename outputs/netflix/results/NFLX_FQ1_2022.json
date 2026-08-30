@@ -1,0 +1,160 @@
+{
+  "document_id": "NFLX_FQ1_2022",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was materially reduced: Q2'22 paid net additions forecast is -2.0m vs +1.5m in the year-ago quarter, and full-year revenue growth guidance is held at ~10% with no raise. Management explicitly acknowledges 'revenue growth has slowed considerably' and cites structural headwinds including high household penetration, account sharing, and competition. The tone is defensive and cautious, with no positive inflection in forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q1'22 revenue $7,868 million, up 9.8% year-over-year (Y/Y growth slowed from 24.2% in Q1'21).",
+    "eps": "Diluted EPS $3.53 vs $3.75 a year ago, including a $162 million non-cash unrealized gain from FX remeasurement on Euro debt.",
+    "guidance": "Q2'22 forecast revenue ~$8,053 million (~10% Y/Y growth), paid net additions -2.0m (vs +1.5m a year ago), full-year 2022 operating margin target 19%-20%.",
+    "margin": "Q1'22 operating margin 25.1% (down from 27.4% a year ago); full-year 2022 target 19%-20%.",
+    "key_risks": [
+      "Revenue growth has slowed considerably due to high household penetration, account sharing, and competition.",
+      "Q1'22 paid net additions were -0.2m vs guidance of 2.5m, with soft acquisition across all regions.",
+      "Russia suspension and Ukraine invasion impacted EMEA membership (-0.7m net adds).",
+      "Macro factors including sluggish economic growth, inflation, and geopolitical events are likely having an impact.",
+      "Account sharing with over 100m additional households creates monetization challenges."
+    ],
+    "key_opportunities": [
+      "Monetizing account sharing: over 100m households using another household's account represent a large short- to mid-term opportunity.",
+      "International growth: well over half of the world's broadband homes don't yet pay for Netflix, representing huge future growth potential.",
+      "Content strength: big Q1'22 hits like Bridgerton season 2 (627m hours viewed) and Inventing Anna (512m hours).",
+      "Non-English language content success: three out of six most popular TV seasons ever are non-English titles (Squid Game, La Casa de Papel Part 4, All Of Us Are Dead)."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management states 'our revenue growth has slowed considerably' and 'we're not growing revenue as fast as we'd like,' while guiding for negative paid net additions in Q2, reflecting a cautious and defensive posture."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue growth has slowed considerably.",
+      "quote": "Our revenue growth has slowed considerably as our results and forecast below show.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1'22 revenue was $7,868 million, up 9.8% year-over-year.",
+      "quote": "Q1'22 Revenue $ 7,868 ... Y/Y % Growth 9.8 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $3.53 vs $3.75 a year ago.",
+      "quote": "Diluted EPS $ 3.53 $ 3.00 ... $ 3.75",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2'22 paid net additions forecast is -2.0m.",
+      "quote": "For Q2'22, we forecast paid net additions of -2.0m vs. +1.5m in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2022 operating margin target is 19%-20%.",
+      "quote": "We still target a 19%-20% operating margin for the full year 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1'22 operating margin was 25.1%.",
+      "quote": "Operating Margin 25.1 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Account sharing with over 100m additional households is a headwind and opportunity.",
+      "quote": "in addition to our 222m paying households, we estimate that Netflix is being shared with over 100m additional households, including over 30m in the UCAN region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macro factors including sluggish economic growth, inflation, and geopolitical events are impacting results.",
+      "quote": "macro factors, including sluggish economic growth, increasing inflation, geopolitical events such as Russia’s invasion of Ukraine, and some continued disruption from COVID are likely having an impact as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International growth potential remains large.",
+      "quote": "while hundreds of millions of homes pay for Netflix, well over half of the world’s broadband homes don’t yet, representing huge future growth potential.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content hits include Bridgerton season 2 with 627 million hours viewed.",
+      "quote": "big Q1’22 TV hits like Bridgerton (627 million hours viewed for season 2 *, our biggest English language series in our history)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "Our revenue growth has slowed considerably ... we’re not growing revenue as fast as we’d like.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on guidance reduction and cautious tone; however, the document also mentions positive opportunities (monetizing sharing, international growth) that could offset some bearishness. A human reviewer should confirm the weight given to these positives."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2022-04-19",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2022",
+    "report_date": "2022-04-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q1\\nflx-1q22-press-release.html",
+        "pub_date": "2022-04-19"
+      }
+    ],
+    "document_id": "NFLX_FQ1_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:54:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q1\\nflx-1q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q1\\nflx-1q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 27770,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2022.txt"
+  }
+}

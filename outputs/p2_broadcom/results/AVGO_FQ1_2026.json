@@ -1,0 +1,242 @@
+{
+  "document_id": "AVGO_FQ1_2026",
+  "sentiment": {
+    "score": 0.85,
+    "rationale": "Forward guidance was raised materially above the company's own prior expectations. Q1 AI revenue of $8.4 billion grew 106% year-over-year, 'above our forecast,' and Q2 guidance calls for AI semiconductor revenue of $10.7 billion, up approximately 140% year-over-year, with consolidated revenue growth accelerating to 47%. Management provided highly confident forward language, including 'line of sight to achieve AI revenue from chips, just chips, in excess of $100 billion in 2027,' and disclosed secured supply capacity through 2028, indicating a genuine and substantial upward trajectory in forward expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$19,311 million for Q1 FY2026, up 29% year-over-year. Semiconductor solutions revenue was $12,515 million, up 52%; infrastructure software revenue was $6,796 million, up 1%.",
+    "eps": "GAAP diluted EPS of $1.50, up 32% year-over-year; Non-GAAP diluted EPS of $2.05, up 28% year-over-year.",
+    "guidance": "Q2 FY2026 revenue guidance of approximately $22.0 billion, up 47% year-over-year. Q2 AI semiconductor revenue expected to be $10.7 billion, up approximately 140% year-over-year. Q2 Adjusted EBITDA guidance of approximately 68% of projected revenue. Management also stated line of sight to achieve AI revenue from chips in excess of $100 billion in 2027.",
+    "margin": "Q1 Adjusted EBITDA was $13,128 million, or 68% of revenue. Consolidated gross margin was 77%. Semiconductor Solutions gross margin was approximately 68%; Infrastructure Software gross margin was 93%. Q2 Adjusted EBITDA guidance is approximately 68% of revenue.",
+    "key_risks": [
+      "Global economic conditions and uncertainty.",
+      "Government regulations, trade restrictions and trade tensions.",
+      "Any loss of significant customers and fluctuations in the timing and volume of significant customer demand.",
+      "Dependence on contract manufacturing and outsourced supply chain.",
+      "Cyclicality in the semiconductor industry.",
+      "Dependence on a limited number of suppliers.",
+      "Potential tax liabilities as a result of acquiring VMware.",
+      "Significant indebtedness and the need to generate sufficient cash flows to service and repay such debt."
+    ],
+    "key_opportunities": [
+      "Robust demand for custom AI accelerators and AI networking, with Q1 AI revenue of $8.4 billion growing 106% year-over-year.",
+      "AI revenue growth accelerating, with Q2 AI semiconductor revenue expected to be $10.7 billion, up approximately 140% year-over-year.",
+      "AI networking revenue growing 60% year-over-year, with Tomahawk 6 switch and 200G SerDes capturing hyperscaler demand.",
+      "Secured capacity for key components (leading-edge wafers, high bandwidth memory, substrates) through 2028.",
+      "Line of sight to achieve AI revenue from chips in excess of $100 billion in 2027.",
+      "Infrastructure software growth, with VMware revenue up 13% and annual recurring revenue up 19%.",
+      "New $10 billion share repurchase program."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly confident and forward-looking language, stating 'Our AI revenue growth is accelerating' and 'we have line of sight to achieve AI revenue from chips, just chips, in excess of $100 billion in 2027.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 revenue was $19,311 million, up 29% year-over-year.",
+      "quote": "Revenue of $19,311 million for the first quarter, up 29 percent from the prior year period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 GAAP diluted EPS was $1.50, up 32% year-over-year.",
+      "quote": "GAAP diluted EPS of $1.50 for the first quarter; Non-GAAP diluted EPS of $2.05 for the first quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 Non-GAAP diluted EPS was $2.05, up 28% year-over-year.",
+      "quote": "GAAP diluted EPS of $1.50 for the first quarter; Non-GAAP diluted EPS of $2.05 for the first quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 revenue guidance is approximately $22.0 billion, up 47% year-over-year.",
+      "quote": "Second quarter fiscal year 2026 revenue guidance of approximately $22.0 billion, an increase of 47 percent from the prior year period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 AI semiconductor revenue is expected to be $10.7 billion, up approximately 140% year-over-year.",
+      "quote": "we expect AI semiconductor revenue to be $10.7 billion in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 Adjusted EBITDA was $13,128 million, or 68% of revenue.",
+      "quote": "Adjusted EBITDA of $13,128 million for the first quarter, or 68 percent of revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 Adjusted EBITDA guidance is approximately 68% of projected revenue.",
+      "quote": "Second quarter fiscal year 2026 Adjusted EBITDA guidance of approximately 68 percent of projected revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 AI revenue was $8.4 billion, up 106% year-over-year, above forecast.",
+      "quote": "Q1 AI revenue of $8.4 billion grew 106% year-over-year, above our forecast, driven by robust demand for custom AI accelerators and AI networking",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management has line of sight to achieve AI revenue from chips in excess of $100 billion in 2027.",
+      "quote": "Today, in fact, we have line of sight to achieve AI revenue from chips, just chips, in excess of $100 billion in 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management has secured capacity for key components through 2028.",
+      "quote": "we have fully secured capacity of these components for 2026 through 2028.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Semiconductor Solutions gross margin was approximately 68%.",
+      "quote": "Gross margin for our Semiconductor Solutions segment was up 30 basis points year on year to approximately 68%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Infrastructure Software gross margin was 93%.",
+      "quote": "Gross margin for infrastructure software was 93% in the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consolidated gross margin was 77%.",
+      "quote": "Gross margin was 77% of revenue in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "VMware revenue grew 13% year-over-year.",
+      "quote": "VMware revenue grew 13% year on year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "VMware annual recurring revenue grew 19% year-over-year.",
+      "quote": "sustaining an annual recurring revenue growth of 19% year on year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A new $10 billion share repurchase program was authorized.",
+      "quote": "The Board of Directors of Broadcom has authorized a new share repurchase program to repurchase up to $10 billion of its common stock through December 31, 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our AI revenue growth is accelerating, and we expect AI semiconductor revenue to be $10.7 billion in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include global economic conditions, trade restrictions, and loss of significant customers.",
+      "quote": "Particular uncertainties that could materially affect future results include risks associated with: global economic conditions and uncertainty; government regulations, trade restrictions and trade tensions; ... any loss of our significant customers and fluctuations in the timing and volume of significant customer demand;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include robust demand for custom AI accelerators and AI networking.",
+      "quote": "Q1 AI revenue of $8.4 billion grew 106% year-over-year, above our forecast, driven by robust demand for custom AI accelerators and AI networking.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.85 is based on a very strong forward guidance raise and highly confident management language. Verify that the magnitude of the guidance raise (AI revenue from $8.4B to $10.7B, and the $100B 2027 target) is considered material enough for a score above 0.7."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AVGO_Bundled Earnings Report_2026-03-04",
+  "report_metadata": {
+    "issuer": "p2_broadcom",
+    "company": "Broadcom",
+    "ticker": "AVGO",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-03-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2026-Q1\\earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2026-Q1\\transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AVGO_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T095143Z",
+    "timestamp": "2026-08-09T09:52:28Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_broadcom\\extracted\\AVGO_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 23131,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2026-Q1\\earnings_presentation.pdf",
+        "page_count": 7,
+        "extracted_characters": 23718,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2026-Q1\\transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 52113,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_broadcom\\extracted\\AVGO_FQ1_2026.txt"
+  }
+}

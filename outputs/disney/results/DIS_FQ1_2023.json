@@ -1,0 +1,237 @@
+{
+  "document_id": "DIS_FQ1_2023",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document contains a significant forward-looking transformation plan including $5.5B in cost savings and a target for Disney+ profitability by end of fiscal 2024, which represents a genuine operational inflection. However, full-year revenue and segment operating income guidance is reaffirmed at 'high single-digit percentage range' rather than raised, and the Q2 DTC improvement is expected to be smaller than previously guided ($200M vs larger improvement). The score reflects the positive structural changes but is tempered by reaffirmed guidance and cautious near-term DTC and linear network outlooks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$23,512 million, up 8% from $21,819 million in prior-year quarter.",
+    "eps": "Diluted EPS from continuing operations $0.70, up 11% from $0.63. Diluted EPS excluding certain items $0.99, down 7% from $1.06.",
+    "guidance": "Fiscal 2023 revenue and segment operating income growth expected in high single-digit percentage range. Disney+ expected to achieve profitability by end of fiscal 2024. Targeting $5.5B in cost savings ($2.5B non-content, $3B content). Workforce reduction of ~7,000 jobs. Dividend reinstatement expected by end of calendar year.",
+    "margin": "Not disclosed as a specific margin percentage. Segment operating income margin commentary: Parks segment operating income increased 25% to $3.1B; DMED segment operating loss of $10M vs income of $808M prior year.",
+    "key_risks": [
+      "Linear Networks operating income expected to decrease ~$1B year-over-year in Q2, with ESPN accounting for ~half.",
+      "Direct-to-Consumer operating loss increased $460M year-over-year to $1.1B.",
+      "International Channels revenue down 21% and operating income down 64%.",
+      "Content Sales/Licensing operating loss increased $114M to $212M.",
+      "Cash used in operations increased to $974M from $209M, driven by collateral payments and lower DMED operating income.",
+      "Free cash flow negative $2,155M, down 81%.",
+      "Macroeconomic challenges, competitive pressures, and foreign exchange impacts cited as headwinds.",
+      "Disney+ core subscriber growth expected to be modest in Q2, similar to Q1 pace.",
+      "Q2 DTC operating improvement expected to be ~$200M, smaller than previously guided larger improvement.",
+      "Addressable advertising headwinds noted for Q2."
+    ],
+    "key_opportunities": [
+      "Parks segment operating income up 25% to $3.1B, with strong demand and guest spending growth.",
+      "Disney+ on track for profitability by end of fiscal 2024, with sequential DTC loss improvement of $400M in Q1.",
+      "Cost savings target of $5.5B ($2.5B non-content, $3B content) expected to improve margins.",
+      "Dividend reinstatement planned by end of calendar year.",
+      "Strong content pipeline including Avatar sequels, new Marvel, Pixar, and franchise films.",
+      "ESPN+ subscriber and ARPU growth, with ARPU up 14% sequentially.",
+      "Disney+ ad tier launch receiving strong advertiser demand.",
+      "New organizational structure aimed at improving accountability and cost efficiency.",
+      "International parks recovery, particularly Disneyland Paris."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Bob Iger states 'we are embarking on a significant transformation' and 'we believe the work we are doing... will lead to sustained growth and profitability,' and Christine McCarthy reaffirms Disney+ profitability by end of fiscal 2024, indicating confidence in the forward plan despite acknowledging challenges."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $23,512 million, up 8% from $21,819 million in the prior-year quarter.",
+      "quote": "Revenues for the quarter grew 8%. ... Quarter Ended December 31, January 1, Change Revenues $ 23,512 $ 21,819 8 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS from continuing operations was $0.70, up 11% from $0.63. Diluted EPS excluding certain items was $0.99, down 7% from $1.06.",
+      "quote": "Diluted earnings per share (EPS) from continuing operations for the quarter increased to $0.70 from $0.63 in the prior-year quarter. ... Excluding certain items, diluted EPS for the quarter decreased to $0.99 from $1.06 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2023 revenue and segment operating income growth expected in high single-digit percentage range.",
+      "quote": "we still expect that revenue and segment operating income growth for this fiscal year will be in the high single-digit percentage range",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ expected to achieve profitability by end of fiscal 2024.",
+      "quote": "Our current forecasts indicate Disney+ will hit profitability by the end of fiscal 2024, and achieving that remains our goal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Targeting $5.5B in cost savings: $2.5B non-content and $3B content.",
+      "quote": "we are targeting $5.5 billion of cost savings across the company. First, reductions to our noncontent costs will total roughly $2.5 billion... On the content side, we expect to deliver approximately $3 billion in savings over the next few years, excluding sports.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Workforce reduction of approximately 7,000 jobs.",
+      "quote": "To help achieve this, we will be reducing our workforce by approximately 7,000 jobs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dividend reinstatement expected by end of calendar year.",
+      "quote": "we intend to ask the board to approve the reinstatement of a dividend by the end of the calendar year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Linear Networks operating income expected to decrease ~$1B year-over-year in Q2.",
+      "quote": "Looking ahead to the fiscal second quarter, we expect Linear Networks operating income will decrease year over year by approximately $1 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct-to-Consumer operating loss increased $460M year-over-year to $1.1B.",
+      "quote": "Direct-to-Consumer revenues for the quarter increased 13% to $5.3 billion and operating loss increased $0.5 billion to $1.1 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Parks segment operating income up 25% to $3.1B.",
+      "quote": "Disney Parks, Experiences and Products revenues for the quarter increased 21% to $8.7 billion and segment operating income increased 25% to $3.1 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 DTC operating improvement expected to be ~$200M, smaller than previously guided larger improvement.",
+      "quote": "We now expect Q2 DTC operating results to improve sequentially by approximately $200 million as improvements in the first quarter materialized more quickly than previously expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Bob Iger states 'we are embarking on a significant transformation' and 'we believe the work we are doing... will lead to sustained growth and profitability for our streaming business'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash used in operations increased to $974M from $209M.",
+      "quote": "Cash used in operations increased by $765 million from $209 million in the prior-year quarter to $974 million in the current quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow negative $2,155M, down 81%.",
+      "quote": "Free cash flow (1) $ (2,155) $ (1,190) (81) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International Channels revenue down 21% and operating income down 64%.",
+      "quote": "International Channels revenues for the quarter decreased 21% to $1.2 billion and operating income decreased 64% to $131 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content Sales/Licensing operating loss increased $114M to $212M.",
+      "quote": "Content Sales/Licensing and Other revenues for the quarter increased 1% to $2.5 billion and operating loss increased by $114 million to a loss of $212 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ core subscriber growth expected to be modest in Q2, similar to Q1 pace.",
+      "quote": "core Disney+ subs may grow only modestly in Q2 at a similar pace to the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Addressable advertising headwinds noted for Q2.",
+      "quote": "our view on Q2 now incorporates more challenging addressable advertising headwinds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sequential DTC loss improvement of $400M in Q1.",
+      "quote": "we delivered a significant improvement on a quarter-over-quarter basis at our Direct-to-Consumer business as we progress on our path toward profitability, with Q1 operating losses improving sequentially by over $400 million from Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN+ ARPU up 14% sequentially.",
+      "quote": "The average monthly revenue per paid subscriber for ESPN+ increased from $4.84 to $5.53 due to an increase in retail pricing",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a balance between positive structural transformation and reaffirmed guidance. A reviewer may wish to assess whether the cost savings and profitability target warrant a higher score given the lack of formal guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2023-02-08",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-02-08",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q1\\dis-1q23-press-release.html",
+        "pub_date": "2023-02-08"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q1\\dis-1q23-transcript.html",
+        "pub_date": "2023-02-08"
+      }
+    ],
+    "document_id": "DIS_FQ1_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:42:17Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q1\\dis-1q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q1\\dis-1q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 39067,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q1\\dis-1q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 58063,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2023.txt"
+  }
+}

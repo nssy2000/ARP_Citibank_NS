@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_fedex",
+  "reports": [
+    {
+      "document_id": "FDX_FQ1_2026",
+      "issuer": "p2_fedex",
+      "company": "FedEx",
+      "ticker": "FDX",
+      "sector": "Industrials/Logistics",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-09-18",
+      "release_date": "2025-09-18",
+      "release_date_source": "EDGAR 8-K Item 2.02, fdx-20250918.htm, acc 0001048911-25-000042",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/fedex/CY2026-Q1/FDX-8K-EX99.1-FQ1-2026-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/fedex/CY2026-Q1/FDX-FQ1-2026-earnings-call-transcript-IR.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "FDX_FQ2_2026",
+      "issuer": "p2_fedex",
+      "company": "FedEx",
+      "ticker": "FDX",
+      "sector": "Industrials/Logistics",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2025-12-18",
+      "release_date": "2025-12-18",
+      "release_date_source": "EDGAR 8-K Item 2.02, fdx-20251218.htm, acc 0001048911-25-000076",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/fedex/CY2026-Q2/FDX-8K-EX99.1-FQ2-2026-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/fedex/CY2026-Q2/FDX-FQ2-2026-earnings-call-transcript-IR.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "FDX_FQ3_2026",
+      "issuer": "p2_fedex",
+      "company": "FedEx",
+      "ticker": "FDX",
+      "sector": "Industrials/Logistics",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "2026-03-19",
+      "release_date": "2026-03-19",
+      "release_date_source": "EDGAR 8-K Item 2.02, fdx-20260319.htm, acc 0001048911-26-000010",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/fedex/CY2026-Q3/FDX-8K-EX99.1-FQ3-2026-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/fedex/CY2026-Q3/FDX-FQ3-2026-earnings-call-transcript-IR.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "FDX_FQ4_2026",
+      "issuer": "p2_fedex",
+      "company": "FedEx",
+      "ticker": "FDX",
+      "sector": "Industrials/Logistics",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2026",
+      "report_date": "2026-06-23",
+      "release_date": "2026-06-23",
+      "release_date_source": "EDGAR 8-K Item 2.02, fdx-20260623.htm, acc 0001048911-26-000050",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/fedex/CY2026-Q4/FDX-8K-EX99.1-FQ4-2026-PressRelease.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/fedex/CY2026-Q4/FDX-FQ4-2026-earnings-call-transcript-IR.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

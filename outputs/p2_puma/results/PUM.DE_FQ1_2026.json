@@ -1,0 +1,258 @@
+{
+  "document_id": "PUM.DE_FQ1_2026",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The company reported a solid Q1 with EBIT up 19.6% and gross margin up 60bps, but this was driven by one-time inventory reserve reversals and lower freight costs, not organic demand. Full-year guidance was confirmed unchanged (sales decline low-to-mid single digits, EBIT -€50m to -€150m), and management explicitly flagged significant forward risks including the Middle East conflict, US tariffs, and a Q2 sales decline expected to be 'clearly below' Q1. The forward outlook is flat-to-cautious, with no guidance raise, offsetting the positive backward-looking results."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "€1,863.8 million, down 1.0% currency-adjusted and down 6.3% reported year-over-year.",
+    "eps": "€0.18 per share from continuing operations (Q1 2025: €0.00).",
+    "guidance": "FY 2026 outlook confirmed: currency-adjusted sales decline in low-to-mid single-digit percentage range; EBIT between €-50 million and €-150 million; CAPEX around €200 million. Q2 2026 sales growth expected to be 'clearly below' Q1.",
+    "margin": "Gross profit margin up 60 basis points to 47.7%; EBIT margin up 60 basis points to 2.8%; adjusted EBIT margin up 40 basis points to 3.5%.",
+    "key_risks": [
+      "Ongoing geopolitical and macroeconomic uncertainties, including the Middle East conflict and US Supreme Court ruling on US tariffs (dated Feb 20, 2026), not accounted for in outlook.",
+      "Weaker underlying demand in EMEA region, with sales down 10.4% currency-adjusted.",
+      "Currency headwinds, especially US Dollar, Turkish Lira, and Argentine Peso, causing reported sales decline of 6.3%.",
+      "Q2 2026 sales growth expected to be 'clearly below' Q1 due to more pronounced impact of reset activities (reduction of undesirable business).",
+      "Elevated net debt of €1,357.6 million, with deleveraging a top priority.",
+      "Potential input cost inflation from oil prices and freight surcharges due to Middle East crisis.",
+      "Uncertainty on US tariff refunds and potential impact on consumer sentiment."
+    ],
+    "key_opportunities": [
+      "Inventory clearance progressing ahead of plan, with inventories expected to normalize by end of 2026.",
+      "DTC business growing 3.8% currency-adjusted, with DTC share increasing to 28.3%.",
+      "Strong growth in Latin America (10.5% ca) and Asia/Pacific (7.9% ca), including Greater China up 9.0% ca.",
+      "Strong demand for low profile category, especially Speedcat family, across multiple markets.",
+      "NITRO platform driving growth in Running and Training, including HYROX products.",
+      "11 teams qualified for FIFA World Cup 2026, driving football apparel sales.",
+      "Cost efficiency program delivering OPEX savings, with 450 of 900 additional positions already executed.",
+      "Sufficient financial headroom of €1,104.7 million (cash plus unutilised credit lines) for strategic priorities."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management describes a 'solid start to the transition year' and states 'we remain confident on our track to achieve our plans for this year and beyond,' while also acknowledging significant uncertainties and confirming unchanged guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was €1,863.8 million, down 1.0% currency-adjusted and down 6.3% reported.",
+      "quote": "In the first quarter, currency-adjusted sales were down by 1.0% to € 1,863.8 million (Q1 2025: € 1,989.8 million). Currencies, especially U.S. Dollar, Turkish Lira and Argentine Peso were a headwind, causing a reported sales decline of 6.3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS from continuing operations was €0.18, up from €0.00 in Q1 2025.",
+      "quote": "Consequently, profit from continuing operations amounted to € 26.5 million (Q1 2025: € 1.1 million) and earnings per share from continuing operations came in at € 0.18 (Q1 2025: € 0.00).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance was confirmed unchanged, with sales decline of low-to-mid single digits and EBIT between -€50m and -€150m.",
+      "quote": "PUMA reiterates its full-year outlook, as originally published on February 26, 2026, supported by a solid performance at the beginning of the year. The anticipated currency-adjusted sales decline in the low- to mid-single-digit percentage range... The company projects an operating result (EBIT) between € -50 million and € -150 million, including one-time effects related to the implemented cost efficiency program.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross profit margin improved 60 basis points to 47.7%.",
+      "quote": "The gross profit margin increased by 60 basis points to 47.7% (Q1 2025: 47.1%) supported by reversals of inventory reserves, lower freight costs, and a higher DTC share, partially offset by wholesale promotions, product and regional mix effects as well as currency effects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EBIT margin improved to 2.8% from 2.2%.",
+      "quote": "As a result, the EBIT came in at € 51.9 million, up 19.6% from € 43.4 million in the previous year period, resulting in an EBIT margin of 2.8%, (Q1 2025: 2.2%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 sales growth is expected to be clearly below Q1.",
+      "quote": "We expect Q2 to come in clearly below the Q1 result in terms of sales growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Middle East conflict and US tariffs are not accounted for in the outlook.",
+      "quote": "The current outlook does not account for potential effects arising from the conflict in the Middle East or the U.S. Supreme Court’s decision regarding U.S. tariffs dated February 20, 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA sales declined 10.4% currency-adjusted due to weaker demand.",
+      "quote": "EMEA sales decreased by 10.4% (ca) to € 774.5 million (Q1 2025: € 891.7 million). The decline was driven by a weaker underlying demand in the region, a muted wholesale performance due to the reduction of undesirable business and lower sales in the Middle East amid ongoing conflict in the region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net debt rose to €1,357.6 million, with deleveraging a top priority.",
+      "quote": "Net debt rose seasonally to € 1,357.6 million at the end of Q1 2026, up from € 994.9 million at the end of Q1 2025... Given the currently elevated level of net debt, deleveraging is a top priority and we target to reduce net debt over the coming years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory clearance is progressing ahead of plan, with normalization expected by end of 2026.",
+      "quote": "We have managed to reduce our inventory levels faster than planned, streamlined our product portfolio and addressed operational inefficiencies... PUMA expects inventories to normalise by end of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC business grew 3.8% currency-adjusted, with DTC share increasing to 28.3%.",
+      "quote": "PUMA's Direct-to-Consumer (DTC) business grew by 3.8% (ca), reaching €528.1 million... The DTC share for PUMA increased to 28.3% in Q1 2026, up from 27.5% during the previous year period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America grew 10.5% and Asia/Pacific grew 7.9% currency-adjusted.",
+      "quote": "Latin America saw a growth rate of 10.5% (ca), supported by improving underlying demand, while North American sales rose by 2.3% (ca)... Sales in Asia/Pacific were up by 7.9% (ca) to € 433.8 million (Q1 2025: € 430.5 million), also benefitting from inventory clearance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong demand for low profile category, especially Speedcat, across multiple markets.",
+      "quote": "This was further supported by a robust Chinese New Year performance in addition to sustained strong demand for low profile, especially the Speedcat family... We do see significant traction of the business continuously in pretty much all Asian markets, that is Korea, that is Japan, but specifically Southeast Asia... however, also on the other side of the globe, in North America, we do see customers... we do see significant results to the tune that PUMA at this point-in-time with some retailers is the Number Two brand from a sell-out perspective.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NITRO platform driving growth in Running and Training, including HYROX.",
+      "quote": "However, both Running and Training saw strong growth, driven by NITRO™ styles and the rapid expansion of HYROX products... The NITRO platform will be relevant across most performance categories in PUMA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "11 teams qualified for FIFA World Cup 2026, driving football apparel sales.",
+      "quote": "Football also demonstrated robust performance, driven by the sale of PUMA jerseys of the eleven football teams - including Portugal - that have qualified for the upcoming FIFA World Cup 2026™ in the USA, Canada, and Mexico.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost efficiency program delivering OPEX savings, with 450 of 900 additional positions already executed.",
+      "quote": "Operating expenses (OPEX), adjusted for one-time effects, decreased by 5.5% to € 848.5 million from € 897.9 million in Q1 2025, due to positive effects of the cost efficiency programme... 50%, i.e., 450 positions, were already identified, communicated, and executed, i.e., the effective employees have already left the organization latest by the end of Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Financial headroom of €1,104.7 million is sufficient for strategic priorities.",
+      "quote": "Cash and cash equivalents, together with unutilised credit lines, provide sufficient financial headroom of € 1,104.7 million to invest in strategic priorities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic, describing a solid start and confidence in plans.",
+      "quote": "Operationally, we were off to a solid start to our transition year in 2026... Despite the macroeconomic and geopolitical uncertainties, we do remain confident on our track to achieve our plans for this year and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The gross margin improvement was partly driven by one-time inventory reserve reversals and lower freight costs, not purely organic.",
+      "quote": "The gross profit margin increased by 60 basis points to 47.7% (Q1 2025: 47.1%) supported by reversals of inventory reserves, lower freight costs, and a higher DTC share, partially offset by wholesale promotions, product and regional mix effects as well as currency effects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential input cost inflation from oil prices and freight surcharges due to Middle East crisis.",
+      "quote": "If you look at the market with the oil prices and you know and I think how the mechanisms are in those contracts, there are surcharges. And I think then also what we've seen I think since the start of the Middle East crisis also that there have been bunker and fuel surcharges being raised, so that's actually where we see of course, also then an impact also from the Middle East crisis I think then also to, to come through.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertainty on US tariff refunds and potential impact on consumer sentiment.",
+      "quote": "On tariffs, following the Supreme Court ruling, overall U.S. tariffs have come down. That said, visibility on refunds is still limited and the situation may shift quickly again... The greater uncertainty, however, lies in broader consumer sentiment in response to the evolving economic and geopolitical environment globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) despite positive backward-looking results, because guidance was held flat and forward risks were emphasized. A reviewer should verify this interpretation aligns with the guidance-change framework."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance was confirmed unchanged, but the document also states Q2 sales will be 'clearly below' Q1, which is a notable forward caution that may warrant emphasis."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PUM.DE_Bundled Earnings Report_2026-04-30",
+  "report_metadata": {
+    "issuer": "p2_puma",
+    "company": "Puma",
+    "ticker": "PUM.DE",
+    "sector": "Consumer Cyclical/Footwear & Accessories",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2026-Q1\\Q1_2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2026-Q1\\Q1_2026_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2026-Q1\\Q1_2026_Earnings_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PUM.DE_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T102302Z",
+    "timestamp": "2026-08-09T10:25:10Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2026-Q1\\Q1_2026_Press_Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_puma\\extracted\\PUM.DE_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2026-Q1\\Q1_2026_Press_Release.pdf",
+        "page_count": 10,
+        "extracted_characters": 18010,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2026-Q1\\Q1_2026_Earnings_Presentation.pdf",
+        "page_count": 37,
+        "extracted_characters": 9396,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2026-Q1\\Q1_2026_Earnings_Transcript.pdf",
+        "page_count": 23,
+        "extracted_characters": 52140,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_puma\\extracted\\PUM.DE_FQ1_2026.txt"
+  }
+}

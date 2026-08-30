@@ -1,0 +1,36 @@
+{
+  "label": "production_n131",
+  "n_total_rows": 131,
+  "n_missing_surprise_data": 0,
+  "n_used": 131,
+  "dropped_tickers_missing_surprise": [],
+  "regression": {
+    "surprise_only": {
+      "coeffs_intercept_surprise": [
+        0.003737,
+        -0.010632
+      ],
+      "r2": 0.00707
+    },
+    "surprise_plus_score": {
+      "coeffs_intercept_surprise_score": [
+        0.002239,
+        -0.021823,
+        0.067541
+      ],
+      "r2": 0.0622
+    },
+    "r2_lift_from_score": 0.05513,
+    "permutation_p_lift": 0.0078,
+    "permutations": 5000
+  },
+  "accuracy": {
+    "n": 131,
+    "llm_only_accuracy": 0.4656,
+    "llm_only_accuracy_stored_column_check": 0.4656,
+    "surprise_only_accuracy": 0.3053,
+    "combined_accuracy": 0.313,
+    "majority_baseline_label": "HOLD",
+    "majority_baseline_accuracy": 0.3817
+  }
+}

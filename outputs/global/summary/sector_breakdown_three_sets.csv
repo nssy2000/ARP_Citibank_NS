@@ -1,0 +1,40 @@
+# sector_breakdown_three_sets.csv
+# Generated: 2026-08-14
+# Coverage accuracy = n_correct / n_graded (denominator = all events with |ret_overnight|>2%, regardless of model call; HOLD=wrong convention)
+# n_correct = events where model called BUY/SELL AND |ret_overnight|>2% AND direction was correct
+# Graded counts are prominent: accuracy suppressed where n_graded < 3.
+# Sector groupings are broad (6-8 categories) to give adequate per-sector sample sizes.
+# Set A sectors sourced from phase2/build_manifests.py SECTORS dict + returns_matrix.csv + global_outcome_calibration_phase2.csv (N=233 clean events).
+# Set B sectors sourced from finbert_extension_results.csv + manual ticker-sector mapping.
+# Set C = Set A + Set B combined by sector.
+#
+sector,event_set,n_events,n_graded,n_correct_coverage,accuracy_coverage,notes
+# ---- SET A (N=233 clean phase2) -------------------------------------------
+Technology,Set A — N=233 phase2,36,31,12,38.7%,"Includes AAPL AVGO DELL GOOGL IBM LNVGY MU MSFT ORCL PLTR UBER WDAY (broad Technology grouping)"
+Consumer,Set A — N=233 phase2,86,50,23,46.0%,"Largest sector by N. Includes ABNB BKNG CMG COST CL EXPE F GIS HLT KHC KO LOW LULU MAR MCD NKE PEP PUM.DE RMSP.XC SBUX TGT TSLA WMT etc."
+Financials,Set A — N=233 phase2,49,22,8,36.4%,"Includes BAC BCS C COIN GS HOOD JPM MET PYPL SCHW STAN.L UNH V AXP ALV.DE"
+Industrials,Set A — N=233 phase2,26,17,7,41.2%,"Includes AMKBY BA CAT DAL FDX LMT SIE.DE UAL"
+Communication Services,Set A — N=233 phase2,19,18,6,33.3%,"Includes CMCSA DIS META NFLX PINS (note: META/NFLX worksheet-excluded pairs removed)"
+Healthcare,Set A — N=233 phase2,14,9,6,66.7%,"Includes CVS JNJ LMT NVO PFE UNH; n_graded=9 — interpret cautiously"
+Materials,Set A — N=233 phase2,3,0,0,n<3,"LIN only in clean set; 0 graded events in ±2% band"
+Total,Set A — N=233 phase2,233,147,62,42.2%,"Coverage accuracy: 62/147. Selectivity (HOLD-excluded, n=95 graded+traded): 65.3% (62/95)."
+# ---- SET B (N=93 extension — pure eval) -----------------------------------
+Technology,Set B — N=93 extension,18,15,5,33.3%,"ADBE DDOG INTC SHOP SONY; n_graded=15 — largest graded count in Set B"
+Consumer,Set B — N=93 extension,26,11,2,18.2%,"CL COST EBAY HD HEIA.AS NSRGY RMSP.XC; n_graded=11 (updated 2026-08-14: RMS_FQ1_2025 +5.7% and RMS_FQ4_2025 -6.0% now graded; both HOLD decisions so n_correct unchanged at 2)"
+Utilities,Set B — N=93 extension,13,0,0,—,"DUK only (13 events, all HOLD outcomes)"
+Energy,Set B — N=93 extension,21,1,0,n<3,"CVX XOM SHEL; only 1 graded event in ±2% band"
+Financials,Set B — N=93 extension,8,2,2,n<3,"AXP MA; only 2 graded events — not reportable"
+Materials,Set B — N=93 extension,3,2,1,n<3,"FCX; only 2 graded events — not reportable"
+Industrials,Set B — N=93 extension,4,0,0,—,"UNP; 0 graded events"
+Total,Set B — N=93 extension,93,31,10,32.3%,"Coverage accuracy: 10/31. Selectivity (HOLD-excluded, n=14 graded+traded): 71.4% (10/14). Extension is pure eval. (updated 2026-08-14: n_graded 29→31)"
+# ---- SET C (N=326 combined — sector sums A+B) ----------------------------------------
+Technology,Set C — N=326 combined,54,46,17,37.0%,"Set A (36/31/12) + Set B (18/15/5)"
+Consumer,Set C — N=326 combined,112,61,25,41.0%,"Set A (86/50/23) + Set B (26/11/2) (updated 2026-08-14: Set B Consumer n_graded 9→11)"
+Financials,Set C — N=326 combined,57,24,10,41.7%,"Set A (49/22/8) + Set B (8/2/2)"
+Industrials,Set C — N=326 combined,30,17,7,41.2%,"Set A (26/17/7) + Set B (4/0/0)"
+Communication Services,Set C — N=326 combined,19,18,6,33.3%,"Set A only (19/18/6); no Set B events in this sector"
+Healthcare,Set C — N=326 combined,14,9,6,66.7%,"Set A only (14/9/6); n_graded=9 — interpret cautiously"
+Energy,Set C — N=326 combined,21,1,0,n<3,"Set B only (21/1/0)"
+Utilities,Set C — N=326 combined,13,0,0,—,"Set B only (13/0/0)"
+Materials,Set C — N=326 combined,6,2,1,n<3,"Set A (3/0/0) + Set B (3/2/1)"
+Total,Set C — N=326 combined,326,178,72,40.4%,"Coverage accuracy: 72/178. In-sample walk-forward accuracy on graded+traded: 66.1% (72/109, deployed thresholds). (updated 2026-08-14: n_graded 176→178)"

@@ -1,0 +1,209 @@
+{
+  "document_id": "ORCL_FQ3_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Oracle delivered a strong quarter with revenue and EPS growth exceeding expectations, and management raised fiscal 2027 revenue guidance to $90 billion from a prior forecast, indicating a material upward revision in forward expectations. The RPO surged 325% year-over-year to $553 billion, and management expressed high confidence in meeting or exceeding FY27 growth forecasts, supported by strong demand and a clear execution plan. While the quarter benefited from FX tailwinds (4 percentage points on revenue), the core growth was organic, driven by cloud infrastructure and AI demand, justifying a score above 0.5 but not at the maximum due to the FX attribution and the capital-intensive nature of the expansion."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $17.2 billion, up 22% in USD and up 18% in constant currency. Cloud revenue (IaaS plus SaaS) was $8.9 billion, up 44% in USD and up 41% in constant currency. Cloud Infrastructure Revenue (IaaS) was $4.9 billion, up 84% in USD and up 81% in constant currency.",
+    "eps": "GAAP earnings per share was $1.27, up 24% in USD and up 16% in constant currency. Non-GAAP earnings per share was $1.79, up 21% in USD and up 16% in constant currency. Non-GAAP EPS exceeded expectations of $1.70.",
+    "guidance": "For Q4 FY26, total revenues expected to grow 18-20% in constant currency and 19-21% in USD; total Cloud revenue expected to grow 44-48% in constant currency and 46-50% in USD; non-GAAP EPS expected to be $1.92-$1.96 in constant currency and $1.96-$2.00 in USD. For FY26, revenue expected to be $67 billion and capital expenditures $50 billion. For FY27, total revenue guidance raised to $90 billion.",
+    "margin": "Q3 GAAP operating margin was 32%; non-GAAP operating margin was 43%. AI infrastructure gross margin for delivered capacity was 32%, above the 30% guidance. OCI database services margins are in the 60-80% range.",
+    "key_risks": [
+      "Capital-intensive nature of AI infrastructure investments, with capital expenditures of $50 billion for FY26.",
+      "Potential need for additional funding, though management states they do not expect to issue additional bonds beyond the $50 billion financing program in calendar year 2026.",
+      "Execution risks related to data center construction, supply chain, and technology sourcing, including GPUs.",
+      "Structural risks from competition and the 'SaaS apocalypse' thesis, though management argues they are well-positioned.",
+      "Regulatory and legal risks, including tariffs and trade wars, as mentioned in the Safe Harbor statement."
+    ],
+    "key_opportunities": [
+      "RPO of $553 billion, up 325% year-over-year, indicating strong future revenue visibility.",
+      "Multicloud database revenue grew 531% year-over-year, with global region coverage in partner clouds.",
+      "AI infrastructure revenue grew 243% year-over-year, with demand exceeding supply.",
+      "Over 10 gigawatts of power and data capacity secured over the next three years, with greater than 90% fully funded through partners.",
+      "Halo effect on applications business, with over 2,000 customers going live in Q3 and strong wins over competitors.",
+      "Sovereign AI and Alloy model providing differentiated full-stack solutions."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used language like 'exceptional quarter,' 'tremendous quarter that exceeded expectations across the board,' and 'we are extremely confident in both the capacity we delivered and the continuing increase in profitability of our AI business.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $17.2 billion, up 22% in USD and 18% in constant currency.",
+      "quote": "Total quarterly revenues were up 22% in USD, and up 18% in constant currency to $17.2 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $1.79, up 21% in USD, and exceeded expectations of $1.70.",
+      "quote": "Non-GAAP earnings per share was $1.79, up 21% in USD and up 16% in constant currency. ... Oracle Corporation beats earnings expectations. Reported EPS is $1.79, expectations were $1.7.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2027 revenue guidance was raised to $90 billion.",
+      "quote": "For fiscal year 2027, we are raising total revenue guidance to $90 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RPO increased to $553 billion, up 325% year-over-year.",
+      "quote": "Remaining Performance Obligations, or RPO, ended the quarter at $553 billion, up 325% from last year and up $29 billion from last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cloud infrastructure revenue grew 84% in USD.",
+      "quote": "Q3 Cloud Infrastructure Revenue (IaaS) $4.9 billion, up 84% in USD and up 81% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in meeting or exceeding FY27 growth forecasts.",
+      "quote": "These market dynamics enable Oracle to comfortably meet and likely exceed our revenue growth rate forecast for FY27 and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX contributed 4 percentage points to total revenue growth.",
+      "quote": "Movements in international currencies relative to the United States dollar during the three months ended February 28, 2026 compared with the corresponding prior year period increased our total revenues by 4 percentage points, total operating expenses by 2 percentage points and operating income by 6 percentage points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI infrastructure gross margin was 32%, above the 30% guidance.",
+      "quote": "Looking at the AI capacity we delivered in Q3, our gross margin for that remained above our 30% guidance at 32%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Multicloud database revenue grew 531% year-over-year.",
+      "quote": "Multicloud database revenue grew 531% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We had a tremendous quarter that exceeded expectations across the board. Our momentum continues to accelerate...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital expenditures for FY26 are expected to be $50 billion.",
+      "quote": "For fiscal year 2026, we expect revenue of $67 billion and capital expenditures of $50 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management does not expect to issue additional bonds beyond the $50 billion financing program in calendar year 2026.",
+      "quote": "In February, we announced our intent to raise up to $50 billion dollars in debt and equity financing, along with the statement that we do not expect to issue any additional bonds beyond this amount in calendar year 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over 10 gigawatts of power and data capacity secured over the next three years.",
+      "quote": "Through our partners, we have secured more than 10 gigawatts of power and data capacity coming online over the next three years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Greater than 90% of the secured capacity is fully funded through partners.",
+      "quote": "Those infrastructure investments also need funding, and greater than 90% of that capacity is fully funded through our partners, with the remainder planned to finish this month.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over 2,000 customers went live in Q3.",
+      "quote": "In the quarter, we had over 2,000 customers go live in Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Oracle holds a 15% equity stake in the new TikTok US company.",
+      "quote": "In January, TikTok US completed the separation of its US data operations from ByteDance into an independent company in which Oracle Corporation now holds a 15% equity stake along with a seat on the board.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 is above the 0.5 anchor for 'meaningfully raised guidance' but below 0.7; verify that the FY27 guidance raise and RPO growth justify this level given FX attribution and capital intensity."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document includes a Safe Harbor statement with broad risks; ensure the listed risks are directly stated and not inferred from external knowledge."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ORCL_Bundled Earnings Report_2026-03-10",
+  "report_metadata": {
+    "issuer": "p2_oracle",
+    "company": "Oracle",
+    "ticker": "ORCL",
+    "sector": "Technology/Software - Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-03-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q3\\ORCL_Q3_2026_earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ORCL_FQ3_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T101517Z",
+    "timestamp": "2026-08-09T10:16:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_oracle\\extracted\\ORCL_FQ3_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 34786,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q3\\ORCL_Q3_2026_earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 46386,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_oracle\\extracted\\ORCL_FQ3_2026.txt"
+  }
+}

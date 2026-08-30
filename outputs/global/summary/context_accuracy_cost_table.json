@@ -1,0 +1,1813 @@
+{
+  "generated_at": "2026-07-06T10:48:15Z",
+  "source_outcome_csv": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\global\\summary\\global_outcome_calibration.csv",
+  "rows": [
+    {
+      "configuration": "micro_only",
+      "description": "Current earnings-document layer only",
+      "n_documents": 24,
+      "loocv_accuracy": 0.5,
+      "correct": 12,
+      "estimated_cost_usd": 0.200423,
+      "estimated_cost_per_doc_usd": 0.008351,
+      "modal_weights": "{\"micro\": 1.0}",
+      "modal_sentiment_hold_threshold": 0.3
+    },
+    {
+      "configuration": "micro_plus_macro",
+      "description": "Earnings documents plus latest public FOMC minutes",
+      "n_documents": 24,
+      "loocv_accuracy": 0.5,
+      "correct": 12,
+      "estimated_cost_usd": 0.244296,
+      "estimated_cost_per_doc_usd": 0.010179,
+      "modal_weights": "{\"macro\": 0.0, \"micro\": 1.0}",
+      "modal_sentiment_hold_threshold": 0.3
+    },
+    {
+      "configuration": "micro_plus_news",
+      "description": "Earnings documents plus pre-earnings news digest",
+      "n_documents": 24,
+      "loocv_accuracy": 0.625,
+      "correct": 15,
+      "estimated_cost_usd": 0.265588,
+      "estimated_cost_per_doc_usd": 0.011066,
+      "modal_weights": "{\"micro\": 0.8, \"news\": 0.2}",
+      "modal_sentiment_hold_threshold": 0.25
+    },
+    {
+      "configuration": "micro_plus_macro_plus_news",
+      "description": "Earnings documents plus macro plus news",
+      "n_documents": 24,
+      "loocv_accuracy": 0.625,
+      "correct": 15,
+      "estimated_cost_usd": 0.309461,
+      "estimated_cost_per_doc_usd": 0.012894,
+      "modal_weights": "{\"macro\": 0.0, \"micro\": 0.8, \"news\": 0.2}",
+      "modal_sentiment_hold_threshold": 0.25
+    },
+    {
+      "configuration": "macro_only",
+      "description": "Latest public FOMC minutes only",
+      "n_documents": 23,
+      "loocv_accuracy": 0.4783,
+      "correct": 11,
+      "estimated_cost_usd": 0.043873,
+      "estimated_cost_per_doc_usd": 0.001908,
+      "modal_weights": "{\"macro\": 1.0}",
+      "modal_sentiment_hold_threshold": 0.3
+    },
+    {
+      "configuration": "news_only",
+      "description": "Pre-earnings news digest only",
+      "n_documents": 24,
+      "loocv_accuracy": 0.4167,
+      "correct": 10,
+      "estimated_cost_usd": 0.065165,
+      "estimated_cost_per_doc_usd": 0.002715,
+      "modal_weights": "{\"news\": 1.0}",
+      "modal_sentiment_hold_threshold": 0.25
+    }
+  ],
+  "details": {
+    "micro_only": {
+      "n_documents": 24,
+      "accuracy": 0.5,
+      "correct": 12,
+      "modal_weights": {
+        "micro": 1.0
+      },
+      "modal_threshold": 0.3,
+      "folds": [
+        {
+          "document_id": "BA_FQ1_2025",
+          "issuer": "boeing",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ2_2025",
+          "issuer": "boeing",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ3_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "SELL",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ4_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ1_2025",
+          "issuer": "jpm",
+          "outcome_label": "SELL",
+          "prediction": "SELL",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ2_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ3_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ4_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ1_2026",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ2_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ3_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ4_2025",
+          "issuer": "netflix",
+          "outcome_label": "HOLD",
+          "prediction": "BUY",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ1_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ2_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ3_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ4_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "BUY",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ1_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ2_2025",
+          "issuer": "disney",
+          "outcome_label": "BUY",
+          "prediction": "BUY",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ3_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ4_2025",
+          "issuer": "disney",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ1_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ1_2026",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ2_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ3_2025",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "micro": 1.0
+          },
+          "threshold": 0.3
+        }
+      ]
+    },
+    "micro_plus_macro": {
+      "n_documents": 24,
+      "accuracy": 0.5,
+      "correct": 12,
+      "modal_weights": {
+        "macro": 0.0,
+        "micro": 1.0
+      },
+      "modal_threshold": 0.3,
+      "folds": [
+        {
+          "document_id": "BA_FQ1_2025",
+          "issuer": "boeing",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ2_2025",
+          "issuer": "boeing",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ3_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "SELL",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ4_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ1_2025",
+          "issuer": "jpm",
+          "outcome_label": "SELL",
+          "prediction": "SELL",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ2_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ3_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ4_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ1_2026",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ2_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ3_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ4_2025",
+          "issuer": "netflix",
+          "outcome_label": "HOLD",
+          "prediction": "BUY",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ1_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ2_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ3_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ4_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "BUY",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ1_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ2_2025",
+          "issuer": "disney",
+          "outcome_label": "BUY",
+          "prediction": "BUY",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ3_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ4_2025",
+          "issuer": "disney",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ1_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ1_2026",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ2_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ3_2025",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "micro": 1.0,
+            "macro": 0.0
+          },
+          "threshold": 0.3
+        }
+      ]
+    },
+    "micro_plus_news": {
+      "n_documents": 24,
+      "accuracy": 0.625,
+      "correct": 15,
+      "modal_weights": {
+        "micro": 0.8,
+        "news": 0.2
+      },
+      "modal_threshold": 0.25,
+      "folds": [
+        {
+          "document_id": "BA_FQ1_2025",
+          "issuer": "boeing",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BA_FQ2_2025",
+          "issuer": "boeing",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BA_FQ3_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "SELL",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BA_FQ4_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ1_2025",
+          "issuer": "jpm",
+          "outcome_label": "SELL",
+          "prediction": "SELL",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ2_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ3_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ4_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ1_2026",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ2_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ3_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ4_2025",
+          "issuer": "netflix",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ1_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ2_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ3_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ4_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ1_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ2_2025",
+          "issuer": "disney",
+          "outcome_label": "BUY",
+          "prediction": "BUY",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ3_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ4_2025",
+          "issuer": "disney",
+          "outcome_label": "SELL",
+          "prediction": "BUY",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ1_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ1_2026",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "BUY",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ2_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ3_2025",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        }
+      ]
+    },
+    "micro_plus_macro_plus_news": {
+      "n_documents": 24,
+      "accuracy": 0.625,
+      "correct": 15,
+      "modal_weights": {
+        "macro": 0.0,
+        "micro": 0.8,
+        "news": 0.2
+      },
+      "modal_threshold": 0.25,
+      "folds": [
+        {
+          "document_id": "BA_FQ1_2025",
+          "issuer": "boeing",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BA_FQ2_2025",
+          "issuer": "boeing",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BA_FQ3_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "SELL",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BA_FQ4_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ1_2025",
+          "issuer": "jpm",
+          "outcome_label": "SELL",
+          "prediction": "SELL",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ2_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ3_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ4_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ1_2026",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ2_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ3_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ4_2025",
+          "issuer": "netflix",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ1_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ2_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ3_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ4_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ1_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ2_2025",
+          "issuer": "disney",
+          "outcome_label": "BUY",
+          "prediction": "BUY",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ3_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ4_2025",
+          "issuer": "disney",
+          "outcome_label": "SELL",
+          "prediction": "BUY",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ1_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ1_2026",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "BUY",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ2_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ3_2025",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "micro": 0.8,
+            "macro": 0.0,
+            "news": 0.2
+          },
+          "threshold": 0.25
+        }
+      ]
+    },
+    "macro_only": {
+      "n_documents": 23,
+      "accuracy": 0.4782608695652174,
+      "correct": 11,
+      "modal_weights": {
+        "macro": 1.0
+      },
+      "modal_threshold": 0.3,
+      "folds": [
+        {
+          "document_id": "BA_FQ1_2025",
+          "issuer": "boeing",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ2_2025",
+          "issuer": "boeing",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ3_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ4_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ1_2025",
+          "issuer": "jpm",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ2_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ3_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "JPM_FQ4_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ1_2026",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ2_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ3_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ4_2025",
+          "issuer": "netflix",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ1_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ2_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ3_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BAC_FQ4_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ2_2025",
+          "issuer": "disney",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ3_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "DIS_FQ4_2025",
+          "issuer": "disney",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ1_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ1_2026",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ2_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "TGT_FQ3_2025",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "macro": 1.0
+          },
+          "threshold": 0.3
+        }
+      ]
+    },
+    "news_only": {
+      "n_documents": 24,
+      "accuracy": 0.4166666666666667,
+      "correct": 10,
+      "modal_weights": {
+        "news": 1.0
+      },
+      "modal_threshold": 0.25,
+      "folds": [
+        {
+          "document_id": "BA_FQ1_2025",
+          "issuer": "boeing",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "BA_FQ2_2025",
+          "issuer": "boeing",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BA_FQ3_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "BUY",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BA_FQ4_2025",
+          "issuer": "boeing",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ1_2025",
+          "issuer": "jpm",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ2_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ3_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "JPM_FQ4_2025",
+          "issuer": "jpm",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ1_2026",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ2_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.3
+        },
+        {
+          "document_id": "NFLX_FQ3_2025",
+          "issuer": "netflix",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "NFLX_FQ4_2025",
+          "issuer": "netflix",
+          "outcome_label": "HOLD",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ1_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "BUY",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ2_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ3_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "BAC_FQ4_2025",
+          "issuer": "bank_of_america",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ1_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ2_2025",
+          "issuer": "disney",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ3_2025",
+          "issuer": "disney",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "DIS_FQ4_2025",
+          "issuer": "disney",
+          "outcome_label": "SELL",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ1_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ1_2026",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "HOLD",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ2_2025",
+          "issuer": "target",
+          "outcome_label": "HOLD",
+          "prediction": "HOLD",
+          "correct": true,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        },
+        {
+          "document_id": "TGT_FQ3_2025",
+          "issuer": "target",
+          "outcome_label": "BUY",
+          "prediction": "SELL",
+          "correct": false,
+          "weights": {
+            "news": 1.0
+          },
+          "threshold": 0.25
+        }
+      ]
+    }
+  }
+}

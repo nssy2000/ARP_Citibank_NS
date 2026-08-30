@@ -1,0 +1,298 @@
+# Section Boundary Audit (amended definitions)
+# Run ID: 20260820T150023Z
+# Timestamp: 2026-08-20T15:00:25.293668+00:00
+# Minimum half word count: 100
+# Minimum prepared fraction: 10%
+#
+# Exclusion rule (fixed before timing classification was visible):
+# Events whose release timing cannot be sourced from a documented public
+# timestamp are excluded from grading, as are events with intraday timing.
+# This rule was fixed before the timing classification was visible.
+# Timestamp: 2026-08-11T23:00:00Z
+#
+# Amended boundary definitions:
+# 1. Press Release: Content delimited by === PRESS RELEASE === header.
+# 2. Prepared Remarks: Within transcript, operator opening through Q&A transition.
+#    Strict precedence: (a) FactSet QUESTION AND ANSWER SECTION header,
+#    (b) natural-language transition phrase, (c) if neither: manual.
+#    [Operator Instructions] NOT used as primary marker.
+# 3. Guidance Passage: Untestable (mechanically infeasible).
+# 4. Q&A: From transition marker through end of transcript block.
+#
+# Known recoverable losses (not recovered, 3 weeks to deadline):
+#   WDAY x3: IR boilerplate transition phrase in intro (InsiderMonkey/Globe and Mail)
+#   NFLX x6: InsiderMonkey moderator intro transition phrase
+#   These are per-source formatting issues, recoverable with source-specific markers.
+#
+# Transcript/marker reconciliation: 231 have transcript, 6 have no marker
+#   (3 truncated LLY, 2 raw-HTML PEP, 1 misattributed SPOT).
+#
+document_id,ticker,issuer,report_date,press_release,prepared_remarks,qa,transcript_split_marker,min_half_wordcount,doc_types_present,has_human_worksheet,notes,run_id
+ABNB_FQ1_2026,ABNB,p2_airbnb,2026-05-07,available,available,available,factset_header,2927,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+ABNB_FQ2_2025,ABNB,p2_airbnb,2025-08-06,available,available,available,factset_header,1848,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+ABNB_FQ3_2025,ABNB,p2_airbnb,2025-11-06,available,available,available,factset_header,2864,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+ABNB_FQ4_2025,ABNB,p2_airbnb,2026-02-12,available,available,available,factset_header,3344,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+AMZN_FQ1_2026,AMZN,p2_amazon,2026-04-29,absent,available,available,transition_phrase,4199,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+AMZN_FQ3_2025,AMZN,p2_amazon,2025-10-30,absent,available,available,transition_phrase,3961,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+AMZN_FQ4_2025,AMZN,p2_amazon,2026-02-05,absent,available,available,transition_phrase,4412,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+AMD_FQ1_2026,AMD,p2_amd,2026-05-05,absent,available,available,transition_phrase,3715,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+AMD_FQ2_2025,AMD,p2_amd,2025-08-05,absent,available,available,transition_phrase,3843,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+AMD_FQ4_2025,AMD,p2_amd,2026-02-03,absent,available,available,transition_phrase,3469,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+AAPL_FQ1_2026,AAPL,p2_apple,2026-01-29,available,available,available,transition_phrase,4041,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+AAPL_FQ3_2025,AAPL,p2_apple,2025-07-31,available,available,available,transition_phrase,4076,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+AAPL_FQ4_2025,AAPL,p2_apple,2025-10-30,available,available,available,transition_phrase,4152,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+CVS_FQ1_2026,CVS,p2_cvs_health,2026-05-06,available,available,available,factset_header,3174,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+CVS_FQ2_2025,CVS,p2_cvs_health,2025-07-31,available,available,available,factset_header,3936,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+CVS_FQ3_2025,CVS,p2_cvs_health,2025-10-29,available,available,available,transition_phrase,3969,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+CVS_FQ4_2025,CVS,p2_cvs_health,2026-02-10,available,available,available,factset_header,4584,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+SCHW_FQ1_2025,SCHW,p2_charles_schwab,2025-04-16,available,available,available,transition_phrase,4429,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+SCHW_FQ1_2026,SCHW,p2_charles_schwab,2026-04-15,available,available,available,transition_phrase,3561,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+SCHW_FQ2_2025,SCHW,p2_charles_schwab,2025-07-17,available,available,available,transition_phrase,4270,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+SCHW_FQ3_2025,SCHW,p2_charles_schwab,2025-10-15,available,available,available,transition_phrase,4004,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+SCHW_FQ4_2025,SCHW,p2_charles_schwab,2026-01-20,available,available,available,transition_phrase,5142,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+C_FQ1_2025,C,p2_citigroup,2025-04-15,available,absent,absent,none,,SUPPLEMENTAL INFORMATION; PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+C_FQ2_2025,C,p2_citigroup,2025-07-15,available,absent,absent,none,,SUPPLEMENTAL INFORMATION; PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+C_FQ3_2025,C,p2_citigroup,2025-10-14,available,absent,absent,none,,SUPPLEMENTAL INFORMATION; PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+C_FQ4_2025,C,p2_citigroup,2026-01-14,available,absent,absent,none,,SUPPLEMENTAL INFORMATION; PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS PRESENTATION; SUPPLEMENTAL INFORMATION,False,no transcript section,20260820T150023Z
+KO_FQ1_2026,KO,p2_coca_cola,2026-04-28,available,available,available,transition_phrase,3045,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+KO_FQ2_2025,KO,p2_coca_cola,2025-07-22,available,available,available,transition_phrase,3262,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+KO_FQ4_2025,KO,p2_coca_cola,2026-02-10,available,available,available,transition_phrase,3449,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+COIN_FQ1_2026,COIN,p2_coinbase,2026-05-07,absent,available,available,transition_phrase,2815,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+COIN_FQ3_2025,COIN,p2_coinbase,2025-10-30,absent,available,available,transition_phrase,1664,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+COIN_FQ4_2025,COIN,p2_coinbase,2026-02-12,absent,available,available,transition_phrase,2363,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+LLY_FQ1_2026,LLY,p2_eli_lilly,2026-04-29,absent,manual,manual,none,,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,no Q&A transition marker found,20260820T150023Z
+LLY_FQ3_2025,LLY,p2_eli_lilly,2025-10-29,absent,manual,manual,none,,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,no Q&A transition marker found,20260820T150023Z
+LLY_FQ4_2025,LLY,p2_eli_lilly,2026-02-03,absent,manual,manual,none,,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,no Q&A transition marker found,20260820T150023Z
+GS_FQ1_2025,GS,p2_goldman_sachs,2025-04-11,available,available,available,transition_phrase,2669,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+GS_FQ1_2026,GS,p2_goldman_sachs,2026-04-10,available,available,available,transition_phrase,3620,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+GS_FQ2_2025,GS,p2_goldman_sachs,2025-07-15,available,available,available,transition_phrase,3975,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+GS_FQ2_2026,GS,p2_goldman_sachs,2026-07-13,available,available,available,transition_phrase,3355,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+GS_FQ3_2025,GS,p2_goldman_sachs,2025-10-13,available,available,available,transition_phrase,2786,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+GS_FQ4_2025,GS,p2_goldman_sachs,2026-01-14,available,available,available,transition_phrase,5230,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+IBM_FQ1_2026,IBM,p2_ibm,2026-04-22,absent,available,available,transition_phrase,3731,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+IBM_FQ2_2025,IBM,p2_ibm,2025-07-23,absent,available,available,transition_phrase,3460,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+IBM_FQ4_2025,IBM,p2_ibm,2026-01-28,absent,available,available,transition_phrase,4590,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+LOW_FQ1_2025,LOW,p2_lowes,2026-05-21,available,available,available,transition_phrase,4195,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+LOW_FQ1_2026,LOW,p2_lowes,2026-05-20,available,available,available,transition_phrase,4099,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+LOW_FQ2_2025,LOW,p2_lowes,2025-08-20,available,available,available,transition_phrase,4678,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+LOW_FQ3_2025,LOW,p2_lowes,2025-11-19,available,available,available,transition_phrase,4601,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+LOW_FQ4_2025,LOW,p2_lowes,2026-02-25,available,available,available,transition_phrase,4782,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+LULU_FQ1_2026,LULU,p2_lululemon,2026-06-04,available,available,available,transition_phrase,1340,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+LULU_FQ3_2025,LULU,p2_lululemon,2025-12-11,available,available,available,transition_phrase,2001,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+LULU_FQ4_2025,LULU,p2_lululemon,2026-03-17,available,available,available,transition_phrase,1595,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+AMKBY_FQ1_2025,AMKBY,p2_maersk,2025-05-07,absent,available,available,transition_phrase,3706,EARNINGS DOCUMENT; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+AMKBY_FQ2_2025,AMKBY,p2_maersk,2025-08-07,absent,available,available,transition_phrase,3482,EARNINGS DOCUMENT; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+AMKBY_FQ3_2025,AMKBY,p2_maersk,2025-11-05,absent,available,available,transition_phrase,3760,EARNINGS DOCUMENT; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+AMKBY_FQ4_2025,AMKBY,p2_maersk,2026-02-05,available,available,available,transition_phrase,4582,EARNINGS PRESENTATION; PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MCD_FQ1_2026,MCD,p2_mcdonalds,2026-05-07,absent,available,available,transition_phrase,3464,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,False,,20260820T150023Z
+MCD_FQ4_2024,MCD,p2_mcdonalds,2025-02-10,absent,manual,manual,transition_phrase,58,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,False,"min-half wordcount 58 < 100 (prepared=58, qa=11024); marker was transition_phrase",20260820T150023Z
+MCD_FQ4_2025,MCD,p2_mcdonalds,2026-02-11,absent,available,available,transition_phrase,4755,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+META_FQ1_2026,META,p2_meta,2026-04-29,absent,available,available,transition_phrase,3993,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+META_FQ3_2025,META,p2_meta,2025-10-29,absent,available,available,transition_phrase,3938,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+META_FQ4_2025,META,p2_meta,2026-01-28,absent,available,available,transition_phrase,4045,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+NKE_FQ1_2025,NKE,p2_nike,2024-10-01,absent,available,available,transition_phrase,4013,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+NKE_FQ2_2025,NKE,p2_nike,2024-12-19,absent,manual,manual,transition_phrase,59,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,"min-half wordcount 59 < 100 (prepared=59, qa=10624); marker was transition_phrase",20260820T150023Z
+NKE_FQ3_2025,NKE,p2_nike,2025-03-20,absent,manual,manual,transition_phrase,58,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,"min-half wordcount 58 < 100 (prepared=58, qa=10180); marker was transition_phrase",20260820T150023Z
+NVDA_FQ1_2025,NVDA,p2_nvidia,2025-02-26,absent,manual,manual,transition_phrase,461,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,True,"prepared fraction 5.2% < 10% (prepared=461, transcript=8799); marker was transition_phrase",20260820T150023Z
+NVDA_FQ2_2025,NVDA,p2_nvidia,2025-05-28,absent,available,available,transition_phrase,4029,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,True,,20260820T150023Z
+NVDA_FQ3_2025,NVDA,p2_nvidia,2025-08-27,absent,available,available,transition_phrase,3346,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,True,,20260820T150023Z
+NVDA_FQ4_2025,NVDA,p2_nvidia,2025-11-19,absent,available,available,transition_phrase,4637,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,True,,20260820T150023Z
+TSLA_FQ1_2026,TSLA,p2_tesla,2026-04-22,absent,available,available,transition_phrase,3113,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+TSLA_FQ3_2025,TSLA,p2_tesla,2025-10-22,absent,available,available,transition_phrase,4525,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+TSLA_FQ4_2025,TSLA,p2_tesla,2026-01-28,absent,available,available,transition_phrase,3738,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,,20260820T150023Z
+UBER_FQ1_2025,UBER,p2_uber,2025-05-06,available,available,available,factset_header,828,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+UBER_FQ1_2026,UBER,p2_uber,2026-05-05,available,available,available,factset_header,852,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+UBER_FQ2_2025,UBER,p2_uber,2025-08-05,available,available,available,factset_header,787,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+UBER_FQ4_2025,UBER,p2_uber,2026-02-03,available,available,available,factset_header,1281,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+WMT_FQ1_2025,WMT,p2_walmart,2025-05-14,absent,available,available,factset_header,4205,EARNINGS CALL TRANSCRIPT; EARNINGS PRESENTATION; EARNINGS DOCUMENT,False,,20260820T150023Z
+WMT_FQ1_2026,WMT,p2_walmart,2026-05-20,absent,available,available,factset_header,3375,EARNINGS CALL TRANSCRIPT; EARNINGS PRESENTATION; EARNINGS DOCUMENT,False,,20260820T150023Z
+WMT_FQ2_2025,WMT,p2_walmart,2025-08-20,absent,manual,manual,transition_phrase,326,EARNINGS CALL TRANSCRIPT; EARNINGS PRESENTATION; EARNINGS DOCUMENT,False,"prepared fraction 2.7% < 10% (prepared=326, transcript=12085); marker was transition_phrase",20260820T150023Z
+WMT_FQ3_2025,WMT,p2_walmart,2025-11-19,absent,available,available,factset_header,3928,EARNINGS CALL TRANSCRIPT; EARNINGS PRESENTATION; EARNINGS DOCUMENT,False,,20260820T150023Z
+WMT_FQ4_2025,WMT,p2_walmart,2026-02-18,absent,available,available,factset_header,3262,EARNINGS CALL TRANSCRIPT; EARNINGS PRESENTATION; EARNINGS DOCUMENT,False,,20260820T150023Z
+BAC_FQ1_2025,BAC,p2_bank_of_america,2025-04-15,available,absent,absent,none,,EARNINGS PRESENTATION; PRESS RELEASE; SUPPLEMENTAL INFORMATION,False,no transcript section,20260820T150023Z
+BAC_FQ2_2025,BAC,p2_bank_of_america,2025-07-15,available,absent,absent,none,,EARNINGS PRESENTATION; PRESS RELEASE; SUPPLEMENTAL INFORMATION,False,no transcript section,20260820T150023Z
+BAC_FQ3_2025,BAC,p2_bank_of_america,2025-10-14,available,absent,absent,none,,EARNINGS PRESENTATION; PRESS RELEASE; SUPPLEMENTAL INFORMATION,False,no transcript section,20260820T150023Z
+BAC_FQ4_2025,BAC,p2_bank_of_america,2026-01-13,available,absent,absent,none,,EARNINGS PRESENTATION; PRESS RELEASE; SUPPLEMENTAL INFORMATION,False,no transcript section,20260820T150023Z
+BA_FQ1_2025,BA,p2_boeing,2025-04-23,available,available,available,factset_header,3904,EARNINGS PRESENTATION; PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+BA_FQ2_2025,BA,p2_boeing,2025-07-29,available,absent,absent,none,,EARNINGS PRESENTATION; PRESS RELEASE,False,no transcript section,20260820T150023Z
+BA_FQ3_2025,BA,p2_boeing,2025-10-29,available,absent,absent,none,,EARNINGS PRESENTATION; PRESS RELEASE,False,no transcript section,20260820T150023Z
+BA_FQ4_2025,BA,p2_boeing,2026-01-26,available,available,available,transition_phrase,4124,EARNINGS DOCUMENT; EARNINGS PRESENTATION; PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+DIS_FQ1_2025,DIS,p2_disney,2025-02-05,available,manual,manual,transition_phrase,83,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"min-half wordcount 83 < 100 (prepared=83, qa=6110); marker was transition_phrase",20260820T150023Z
+DIS_FQ3_2025,DIS,p2_disney,2025-08-05,available,manual,manual,transition_phrase,378,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 4.9% < 10% (prepared=378, transcript=7714); marker was transition_phrase",20260820T150023Z
+DIS_FQ4_2025,DIS,p2_disney,2025-11-12,available,manual,manual,transition_phrase,380,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 4.9% < 10% (prepared=380, transcript=7754); marker was transition_phrase",20260820T150023Z
+JPM_FQ1_2025,JPM,p2_jpm,2025-04-10,absent,available,available,transition_phrase,1730,EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+JPM_FQ1_2026,JPM,p2_jpm,2026-04-14,available,available,available,transition_phrase,1312,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+JPM_FQ2_2025,JPM,p2_jpm,2025-07-15,absent,available,available,transition_phrase,1368,EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+JPM_FQ3_2025,JPM,p2_jpm,2025-10-14,absent,available,available,transition_phrase,1063,EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+JPM_FQ4_2025,JPM,p2_jpm,2026-01-13,absent,available,available,transition_phrase,1552,EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+NFLX_FQ1_2025,NFLX,p2_netflix,2025-04-17,absent,manual,manual,transition_phrase,128,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,False,"prepared fraction 1.9% < 10% (prepared=128, transcript=6805); marker was transition_phrase",20260820T150023Z
+NFLX_FQ1_2026,NFLX,p2_netflix,2026-04-16,absent,manual,manual,transition_phrase,208,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,False,"prepared fraction 2.4% < 10% (prepared=208, transcript=8658); marker was transition_phrase",20260820T150023Z
+NFLX_FQ2_2025,NFLX,p2_netflix,2025-07-17,absent,manual,manual,transition_phrase,123,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,False,"prepared fraction 1.7% < 10% (prepared=123, transcript=7128); marker was transition_phrase",20260820T150023Z
+NFLX_FQ3_2025,NFLX,p2_netflix,2025-10-21,absent,manual,manual,transition_phrase,154,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,"prepared fraction 2.0% < 10% (prepared=154, transcript=7660); marker was transition_phrase",20260820T150023Z
+NFLX_FQ4_2024,NFLX,p2_netflix,2025-01-21,absent,manual,manual,transition_phrase,152,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,"prepared fraction 2.2% < 10% (prepared=152, transcript=6920); marker was transition_phrase",20260820T150023Z
+NFLX_FQ4_2025,NFLX,p2_netflix,2026-01-20,absent,manual,manual,transition_phrase,206,EARNINGS DOCUMENT; EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,True,"prepared fraction 2.6% < 10% (prepared=206, transcript=7816); marker was transition_phrase",20260820T150023Z
+TGT_FQ1_2025,TGT,p2_target,2025-05-21,available,available,available,transition_phrase,4262,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+TGT_FQ1_2026,TGT,p2_target,2026-05-20,available,available,available,transition_phrase,5302,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+TGT_FQ2_2025,TGT,p2_target,2025-08-20,available,available,available,transition_phrase,5507,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+TGT_FQ3_2025,TGT,p2_target,2025-11-19,available,available,available,transition_phrase,5638,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+BCS_FQ1_2026,BCS,p2_barclays,2026-04-28,available,manual,manual,transition_phrase,724,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 7.6% < 10% (prepared=724, transcript=9504); marker was transition_phrase",20260820T150023Z
+BCS_FQ2_2025,BCS,p2_barclays,2025-07-29,available,manual,manual,transition_phrase,685,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 7.2% < 10% (prepared=685, transcript=9455); marker was transition_phrase",20260820T150023Z
+BCS_FQ3_2025,BCS,p2_barclays,2025-10-22,available,manual,manual,transition_phrase,988,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 9.9% < 10% (prepared=988, transcript=10012); marker was transition_phrase",20260820T150023Z
+F_FQ1_2026,F,p2_ford,2026-04-29,available,available,available,transition_phrase,2377,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+F_FQ2_2025,F,p2_ford,2025-07-30,available,manual,manual,transition_phrase,276,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 3.0% < 10% (prepared=276, transcript=9087); marker was transition_phrase",20260820T150023Z
+F_FQ4_2025,F,p2_ford,2026-02-10,available,available,available,transition_phrase,3216,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,,20260820T150023Z
+MSFT_FQ1_2025,MSFT,p2_microsoft,2024-10-30,absent,manual,manual,transition_phrase,458,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 4.3% < 10% (prepared=458, transcript=10671); marker was transition_phrase",20260820T150023Z
+MSFT_FQ1_2026,MSFT,p2_microsoft,2025-10-29,absent,available,available,transition_phrase,4786,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MSFT_FQ2_2025,MSFT,p2_microsoft,2025-01-29,absent,manual,manual,transition_phrase,458,EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 4.6% < 10% (prepared=458, transcript=10017); marker was transition_phrase",20260820T150023Z
+PFE_FQ1_2025,PFE,p2_pfizer,2025-04-28,available,manual,manual,transition_phrase,353,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 2.7% < 10% (prepared=353, transcript=13183); marker was transition_phrase",20260820T150023Z
+PFE_FQ1_2026,PFE,p2_pfizer,2026-05-04,available,manual,manual,transition_phrase,349,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 4.1% < 10% (prepared=349, transcript=8490); marker was transition_phrase",20260820T150023Z
+PFE_FQ2_2025,PFE,p2_pfizer,2025-08-04,available,manual,manual,transition_phrase,384,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 3.0% < 10% (prepared=384, transcript=12673); marker was transition_phrase",20260820T150023Z
+PFE_FQ4_2025,PFE,p2_pfizer,2026-02-02,available,manual,manual,transition_phrase,404,EARNINGS CALL TRANSCRIPT; PRESS RELEASE,False,"prepared fraction 3.2% < 10% (prepared=404, transcript=12556); marker was transition_phrase",20260820T150023Z
+UAL_FQ1_2025,UAL,p2_united_airlines,2025-04-15,absent,available,available,transition_phrase,3885,EARNINGS DOCUMENT; EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,False,,20260820T150023Z
+UAL_FQ2_2025,UAL,p2_united_airlines,2025-07-16,absent,available,available,transition_phrase,4219,EARNINGS DOCUMENT; EARNINGS DOCUMENT; EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,False,,20260820T150023Z
+UAL_FQ3_2025,UAL,p2_united_airlines,2025-10-15,absent,manual,manual,transition_phrase,316,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT; EARNINGS DOCUMENT,False,"prepared fraction 2.4% < 10% (prepared=316, transcript=13195); marker was transition_phrase",20260820T150023Z
+UAL_FQ4_2025,UAL,p2_united_airlines,2026-01-20,absent,manual,manual,transition_phrase,374,EARNINGS CALL TRANSCRIPT; EARNINGS DOCUMENT,False,"prepared fraction 2.9% < 10% (prepared=374, transcript=12909); marker was transition_phrase",20260820T150023Z
+PEP_FQ1_2023,PEP,p2_pepsico,2023-04-25,available,manual,manual,transition_phrase,515,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 8.0% < 10% (prepared=515, transcript=6438); marker was transition_phrase",20260820T150023Z
+PEP_FQ1_2024,PEP,p2_pepsico,2024-04-23,available,absent,absent,none,,PRESS RELEASE,False,no transcript section,20260820T150023Z
+PEP_FQ1_2025,PEP,p2_pepsico,2025-04-24,available,manual,manual,transition_phrase,526,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 5.9% < 10% (prepared=526, transcript=8917); marker was transition_phrase",20260820T150023Z
+PEP_FQ1_2026,PEP,p2_pepsico,2026-04-16,available,manual,manual,none,,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,no Q&A transition marker found,20260820T150023Z
+PEP_FQ2_2023,PEP,p2_pepsico,2023-07-13,available,manual,manual,transition_phrase,542,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 7.6% < 10% (prepared=542, transcript=7106); marker was transition_phrase",20260820T150023Z
+PEP_FQ2_2024,PEP,p2_pepsico,2024-07-11,available,manual,manual,transition_phrase,521,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 6.1% < 10% (prepared=521, transcript=8524); marker was transition_phrase",20260820T150023Z
+PEP_FQ2_2025,PEP,p2_pepsico,2025-07-17,available,manual,manual,transition_phrase,501,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 5.6% < 10% (prepared=501, transcript=8902); marker was transition_phrase",20260820T150023Z
+PEP_FQ2_2026,PEP,p2_pepsico,2026-07-09,available,available,available,transition_phrase,1692,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+PEP_FQ3_2023,PEP,p2_pepsico,2023-10-10,available,manual,manual,transition_phrase,557,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 8.9% < 10% (prepared=557, transcript=6244); marker was transition_phrase",20260820T150023Z
+PEP_FQ3_2024,PEP,p2_pepsico,2024-10-08,available,manual,manual,transition_phrase,460,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 6.2% < 10% (prepared=460, transcript=7441); marker was transition_phrase",20260820T150023Z
+PEP_FQ3_2025,PEP,p2_pepsico,2025-10-09,available,manual,manual,none,,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,no Q&A transition marker found,20260820T150023Z
+PEP_FQ4_2023,PEP,p2_pepsico,2024-02-09,available,manual,manual,transition_phrase,621,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 7.5% < 10% (prepared=621, transcript=8239); marker was transition_phrase",20260820T150023Z
+PEP_FQ4_2024,PEP,p2_pepsico,2025-02-04,available,manual,manual,transition_phrase,460,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 5.7% < 10% (prepared=460, transcript=8132); marker was transition_phrase",20260820T150023Z
+PEP_FQ4_2025,PEP,p2_pepsico,2026-02-03,available,manual,manual,transition_phrase,497,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 6.3% < 10% (prepared=497, transcript=7860); marker was transition_phrase",20260820T150023Z
+FDX_FQ1_2026,FDX,p2_fedex,2025-09-18,available,available,available,factset_header,3905,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+FDX_FQ2_2026,FDX,p2_fedex,2025-12-18,available,available,available,factset_header,4121,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+FDX_FQ3_2026,FDX,p2_fedex,2026-03-19,available,available,available,factset_header,4040,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+FDX_FQ4_2026,FDX,p2_fedex,2026-06-23,available,available,available,factset_header,4042,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+LMT_FQ1_2025,LMT,p2_lockheed_martin,2025-04-22,available,available,available,transition_phrase,3621,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+LMT_FQ2_2025,LMT,p2_lockheed_martin,2025-07-22,available,available,available,transition_phrase,4371,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+LMT_FQ3_2025,LMT,p2_lockheed_martin,2025-10-21,available,available,available,transition_phrase,2219,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+LMT_FQ4_2025,LMT,p2_lockheed_martin,2026-01-29,available,available,available,transition_phrase,3018,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+NVO_FQ1_2025,NVO,p2_novo_nordisk,2025-05-07,available,available,available,transition_phrase,4656,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+NVO_FQ2_2025,NVO,p2_novo_nordisk,2025-08-06,available,available,available,transition_phrase,4541,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+NVO_FQ3_2025,NVO,p2_novo_nordisk,2025-11-05,available,available,available,transition_phrase,4340,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+NVO_FQ4_2025,NVO,p2_novo_nordisk,2026-02-03,available,available,available,transition_phrase,4891,PRESS RELEASE; EARNINGS CALL TRANSCRIPT; INVESTOR PRESENTATION,False,,20260820T150023Z
+HLT_FQ1_2025,HLT,p2_hilton,2025-04-29,available,manual,manual,transition_phrase,378,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 3.5% < 10% (prepared=378, transcript=10698); marker was transition_phrase",20260820T150023Z
+HLT_FQ1_2026,HLT,p2_hilton,2026-04-28,available,available,available,transition_phrase,2841,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+HLT_FQ2_2025,HLT,p2_hilton,2025-07-23,available,available,available,transition_phrase,2930,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+HLT_FQ3_2024,HLT,p2_hilton,2024-10-23,available,manual,manual,transition_phrase,270,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 3.0% < 10% (prepared=270, transcript=9096); marker was transition_phrase",20260820T150023Z
+HLT_FQ4_2025,HLT,p2_hilton,2026-02-11,available,available,available,transition_phrase,2717,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MC.PA_FQ2_2025,MC.PA,p2_lvmh,2025-07-24,available,absent,absent,none,,PRESS RELEASE,False,no transcript section,20260820T150023Z
+MC.PA_FQ4_2025,MC.PA,p2_lvmh,2026-01-27,available,absent,absent,none,,PRESS RELEASE; RESULTS PRESENTATION,False,no transcript section,20260820T150023Z
+MAR_FQ1_2026,MAR,p2_marriott,2026-05-06,available,available,available,transition_phrase,3109,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MAR_FQ2_2025,MAR,p2_marriott,2025-08-05,available,available,available,transition_phrase,2768,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MAR_FQ3_2025,MAR,p2_marriott,2025-11-04,available,available,available,transition_phrase,2341,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MAR_FQ4_2025,MAR,p2_marriott,2026-02-10,available,available,available,transition_phrase,4151,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+ALV.DE_FQ1_2025,ALV.DE,p2_allianz,2025-05-15,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION; PRESS RELEASE (PDF DUPLICATE),False,no transcript section,20260820T150023Z
+GOOGL_FQ1_2026,GOOGL,p2_alphabet,2026-04-29,available,available,available,transition_phrase,4881,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+GOOGL_FQ3_2025,GOOGL,p2_alphabet,2025-10-29,available,available,available,transition_phrase,4406,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+GOOGL_FQ4_2025,GOOGL,p2_alphabet,2026-02-04,available,available,available,transition_phrase,5014,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+BKNG_FQ2_2025,BKNG,p2_booking_holdings,2025-07-29,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+BKNG_FQ3_2025,BKNG,p2_booking_holdings,2025-10-28,available,available,available,factset_header,4355,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+BKNG_FQ4_2025,BKNG,p2_booking_holdings,2026-02-18,available,available,available,factset_header,4657,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+AVGO_FQ1_2026,AVGO,p2_broadcom,2026-03-04,available,available,available,transition_phrase,2944,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+AVGO_FQ3_2025,AVGO,p2_broadcom,2025-09-04,available,manual,manual,transition_phrase,393,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 4.2% < 10% (prepared=393, transcript=9439); marker was transition_phrase",20260820T150023Z
+AVGO_FQ4_2025,AVGO,p2_broadcom,2025-12-11,available,available,available,transition_phrase,3134,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CAT_FQ2_2025,CAT,p2_caterpillar,2025-08-04,available,available,available,transition_phrase,4614,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CAT_FQ3_2025,CAT,p2_caterpillar,2025-10-28,available,available,available,transition_phrase,4597,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CAT_FQ4_2025,CAT,p2_caterpillar,2026-01-28,available,available,available,transition_phrase,3898,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CMG_FQ1_2025,CMG,p2_chipotle,2025-04-23,available,manual,manual,transition_phrase,277,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 2.7% < 10% (prepared=277, transcript=10141); marker was transition_phrase",20260820T150023Z
+CMG_FQ2_2025,CMG,p2_chipotle,2025-07-23,available,manual,manual,transition_phrase,223,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 2.1% < 10% (prepared=223, transcript=10646); marker was transition_phrase",20260820T150023Z
+CMG_FQ3_2025,CMG,p2_chipotle,2025-10-29,available,manual,manual,transition_phrase,1,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"min-half wordcount 1 < 100 (prepared=1, qa=5718); marker was transition_phrase",20260820T150023Z
+CMG_FQ4_2025,CMG,p2_chipotle,2026-02-03,available,manual,manual,transition_phrase,282,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 3.4% < 10% (prepared=282, transcript=8330); marker was transition_phrase",20260820T150023Z
+CMCSA_FQ1_2025,CMCSA,p2_comcast_corporation,2025-04-23,available,available,available,transition_phrase,3640,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CMCSA_FQ1_2026,CMCSA,p2_comcast_corporation,2026-04-22,available,available,available,transition_phrase,3808,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CMCSA_FQ2_2025,CMCSA,p2_comcast_corporation,2025-07-30,available,available,available,transition_phrase,3739,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CMCSA_FQ4_2025,CMCSA,p2_comcast_corporation,2026-01-28,available,available,available,transition_phrase,4726,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+DELL_FQ1_2025,DELL,p2_dell,2025-05-29,available,available,available,transition_phrase,2935,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+DELL_FQ3_2025,DELL,p2_dell,2025-11-25,available,available,available,transition_phrase,2227,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+DELL_FQ4_2025,DELL,p2_dell,2026-02-26,available,available,available,transition_phrase,2914,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+DAL_FQ1_2025,DAL,p2_delta_air_lines,2025-04-09,available,available,available,factset_header,2383,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+DAL_FQ2_2025,DAL,p2_delta_air_lines,2025-07-10,available,available,available,factset_header,3307,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+DAL_FQ3_2025,DAL,p2_delta_air_lines,2025-10-09,available,available,available,factset_header,2618,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+DAL_FQ4_2025,DAL,p2_delta_air_lines,2026-01-13,available,available,available,factset_header,3519,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+EXPE_FQ1_2025,EXPE,p2_expedia,2025-05-08,available,available,available,transition_phrase,3076,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+EXPE_FQ1_2026,EXPE,p2_expedia,2026-05-07,available,manual,manual,transition_phrase,460,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 5.1% < 10% (prepared=460, transcript=9001); marker was transition_phrase",20260820T150023Z
+EXPE_FQ2_2025,EXPE,p2_expedia,2025-08-07,available,manual,manual,transition_phrase,463,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 5.4% < 10% (prepared=463, transcript=8599); marker was transition_phrase",20260820T150023Z
+EXPE_FQ4_2025,EXPE,p2_expedia,2026-02-12,available,manual,manual,transition_phrase,454,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 5.2% < 10% (prepared=454, transcript=8739); marker was transition_phrase",20260820T150023Z
+GIS_FQ2_2026,GIS,p2_general_mills,2025-12-17,available,available,available,transition_phrase,930,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+GIS_FQ3_2026,GIS,p2_general_mills,2026-03-18,available,manual,manual,transition_phrase,303,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 4.7% < 10% (prepared=303, transcript=6508); marker was transition_phrase",20260820T150023Z
+GIS_FQ4_2026,GIS,p2_general_mills,2026-07-01,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+JNJ_FQ1_2025,JNJ,p2_johnson_johnson,2025-04-14,available,available,available,transition_phrase,5564,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+JNJ_FQ2_2025,JNJ,p2_johnson_johnson,2025-07-15,available,available,available,transition_phrase,5099,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+JNJ_FQ3_2025,JNJ,p2_johnson_johnson,2025-10-13,available,available,available,transition_phrase,5648,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+KHC_FQ1_2025,KHC,p2_kraft_heinz,2026-02-11,available,available,available,transition_phrase,525,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+KHC_FQ1_2026,KHC,p2_kraft_heinz,2026-05-06,available,available,available,transition_phrase,173,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+KHC_FQ4_2024,KHC,p2_kraft_heinz,2025-02-12,available,available,available,transition_phrase,406,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+LNVGY_FQ1_2026,LNVGY,p2_lenovo,2025-08-14,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+LNVGY_FQ2_2026,LNVGY,p2_lenovo,2026-01-30,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+LNVGY_FQ3_2026,LNVGY,p2_lenovo,2026-02-12,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+LNVGY_FQ4_2026,LNVGY,p2_lenovo,2026-05-22,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+LIN_FQ1_2026,LIN,p2_linde,2026-05-01,available,available,available,transition_phrase,2159,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+LIN_FQ2_2025,LIN,p2_linde,2025-08-01,available,available,available,transition_phrase,1833,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+LIN_FQ3_2025,LIN,p2_linde,2025-10-31,available,available,available,transition_phrase,1913,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MET_FQ1_2026,MET,p2_metlife,2026-05-06,available,manual,manual,transition_phrase,4,PRESS RELEASE; EARNINGS CALL TRANSCRIPT; EARNINGS PRESENTATION,False,"min-half wordcount 4 < 100 (prepared=4, qa=4643); marker was transition_phrase",20260820T150023Z
+MET_FQ2_2024,MET,p2_metlife,2024-07-31,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+MET_FQ2_2025,MET,p2_metlife,2025-08-06,available,available,available,transition_phrase,3246,PRESS RELEASE; EARNINGS CALL TRANSCRIPT; EARNINGS PRESENTATION,False,,20260820T150023Z
+MET_FQ3_2024,MET,p2_metlife,2024-10-30,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+MET_FQ3_2025,MET,p2_metlife,2025-11-05,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+MET_FQ4_2025,MET,p2_metlife,2026-02-04,available,manual,manual,transition_phrase,3,PRESS RELEASE; EARNINGS CALL TRANSCRIPT; EARNINGS PRESENTATION,False,"min-half wordcount 3 < 100 (prepared=3, qa=4191); marker was transition_phrase",20260820T150023Z
+MU_FQ1_2026,MU,p2_micron,2025-12-17,available,available,available,transition_phrase,3546,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MU_FQ2_2026,MU,p2_micron,2026-03-18,available,available,available,transition_phrase,3581,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+MU_FQ4_2025,MU,p2_micron,2025-09-23,available,available,available,transition_phrase,3686,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+ORCL_FQ1_2026,ORCL,p2_oracle,2025-09-09,available,available,available,transition_phrase,2159,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+ORCL_FQ2_2026,ORCL,p2_oracle,2025-12-10,available,available,available,transition_phrase,3414,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+ORCL_FQ3_2026,ORCL,p2_oracle,2026-03-10,available,manual,manual,transition_phrase,351,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 4.6% < 10% (prepared=351, transcript=7701); marker was transition_phrase",20260820T150023Z
+PLTR_FQ1_2025,PLTR,p2_palantir,2025-05-05,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+PLTR_FQ2_2025,PLTR,p2_palantir,2025-08-04,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+PLTR_FQ3_2025,PLTR,p2_palantir,2025-11-03,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+PLTR_FQ4_2025,PLTR,p2_palantir,2026-02-02,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+PYPL_FQ1_2025,PYPL,p2_paypal,2025-04-29,available,available,available,factset_header,4226,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+PYPL_FQ1_2026,PYPL,p2_paypal,2026-05-05,available,available,available,factset_header,3906,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+PYPL_FQ2_2025,PYPL,p2_paypal,2025-07-29,available,available,available,factset_header,5066,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+PYPL_FQ3_2025,PYPL,p2_paypal,2025-10-28,available,available,available,factset_header,5253,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+PINS_FQ1_2026,PINS,p2_pinterest,2026-05-04,available,available,available,factset_header,4152,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+PINS_FQ4_2024,PINS,p2_pinterest,2025-02-06,available,manual,manual,transition_phrase,467,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 4.7% < 10% (prepared=467, transcript=9945); marker was transition_phrase",20260820T150023Z
+PINS_FQ4_2025,PINS,p2_pinterest,2026-02-12,available,available,available,transition_phrase,5740,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+PUM.DE_FQ1_2025,PUM.DE,p2_puma,2025-05-07,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+PUM.DE_FQ1_2026,PUM.DE,p2_puma,2026-04-30,available,manual,manual,transition_phrase,22,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"min-half wordcount 22 < 100 (prepared=22, qa=8873); marker was transition_phrase",20260820T150023Z
+PUM.DE_FQ3_2025,PUM.DE,p2_puma,2025-10-30,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL SUMMARY (AIDE MEMOIRE),False,no transcript section,20260820T150023Z
+PUM.DE_FQ4_2025,PUM.DE,p2_puma,2026-02-26,available,manual,manual,transition_phrase,74,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"min-half wordcount 74 < 100 (prepared=74, qa=10079); marker was transition_phrase",20260820T150023Z
+HOOD_FQ1_2025,HOOD,p2_robinhood_markets,2025-04-30,available,available,available,transition_phrase,1776,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+HOOD_FQ1_2026,HOOD,p2_robinhood_markets,2026-04-28,available,manual,manual,transition_phrase,232,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 1.9% < 10% (prepared=232, transcript=12366); marker was transition_phrase",20260820T150023Z
+HOOD_FQ2_2025,HOOD,p2_robinhood_markets,2025-07-30,available,available,available,transition_phrase,1668,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+HOOD_FQ3_2025,HOOD,p2_robinhood_markets,2025-11-05,available,available,available,transition_phrase,1996,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CRM_FQ2_2026,CRM,p2_salesforce,2025-09-03,available,available,available,transition_phrase,5004,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CRM_FQ3_2026,CRM,p2_salesforce,2025-12-03,available,available,available,transition_phrase,4971,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+CRM_FQ4_2026,CRM,p2_salesforce,2026-02-25,available,available,available,transition_phrase,4909,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+SIE.DE_FQ1_2026,SIE.DE,p2_siemens,2026-02-12,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+SIE.DE_FQ2_2026,SIE.DE,p2_siemens,2026-05-13,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+SIE.DE_FQ4_2025,SIE.DE,p2_siemens,2025-11-13,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+SPOT_FQ1_2026,SPOT,p2_spotify,2026-04-28,available,manual,manual,none,,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,no Q&A transition marker found,20260820T150023Z
+SPOT_FQ2_2025,SPOT,p2_spotify,2025-07-29,available,manual,manual,transition_phrase,333,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 3.0% < 10% (prepared=333, transcript=11196); marker was transition_phrase",20260820T150023Z
+SPOT_FQ3_2025,SPOT,p2_spotify,2025-11-04,available,manual,manual,transition_phrase,326,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 3.0% < 10% (prepared=326, transcript=10992); marker was transition_phrase",20260820T150023Z
+SPOT_FQ4_2025,SPOT,p2_spotify,2026-02-10,available,manual,manual,transition_phrase,333,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 2.7% < 10% (prepared=333, transcript=12258); marker was transition_phrase",20260820T150023Z
+STAN.L_FQ1_2025,STAN.L,p2_standard_chartered,2025-05-02,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+STAN.L_FQ2_2025,STAN.L,p2_standard_chartered,2025-07-31,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+STAN.L_FQ3_2025,STAN.L,p2_standard_chartered,2025-10-30,available,manual,manual,transition_phrase,81,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,"min-half wordcount 81 < 100 (prepared=81, qa=9136); marker was transition_phrase",20260820T150023Z
+STAN.L_FQ4_2025,STAN.L,p2_standard_chartered,2026-02-23,absent,manual,manual,transition_phrase,980,EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 8.1% < 10% (prepared=980, transcript=12079); marker was transition_phrase",20260820T150023Z
+SBUX_FQ1_2026,SBUX,p2_starbucks,2026-01-27,available,absent,absent,none,,PRESS RELEASE,False,no transcript section,20260820T150023Z
+SBUX_FQ3_2025,SBUX,p2_starbucks,2025-07-29,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+SBUX_FQ4_2025,SBUX,p2_starbucks,2025-10-29,available,available,available,factset_header,3977,PRESS RELEASE; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+UNH_FQ2_2025,UNH,p2_unitedhealth,2025-07-28,available,manual,manual,transition_phrase,1271,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 8.3% < 10% (prepared=1271, transcript=15362); marker was transition_phrase",20260820T150023Z
+UNH_FQ3_2025,UNH,p2_unitedhealth,2025-10-27,available,available,available,transition_phrase,4481,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+UNH_FQ4_2025,UNH,p2_unitedhealth,2026-01-26,available,available,available,transition_phrase,5040,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+V_FQ1_2025,V,p2_visa,2025-04-28,available,available,available,factset_header,4325,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+V_FQ1_2026,V,p2_visa,2026-04-28,available,available,available,factset_header,5526,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+V_FQ2_2025,V,p2_visa,2025-07-29,available,available,available,factset_header,4334,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+V_FQ3_2025,V,p2_visa,2025-10-28,available,available,available,factset_header,5286,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,,20260820T150023Z
+WDAY_FQ1_2025,WDAY,p2_workday,2025-05-22,available,absent,absent,none,,PRESS RELEASE; EARNINGS PRESENTATION,False,no transcript section,20260820T150023Z
+WDAY_FQ2_2025,WDAY,p2_workday,2025-08-21,available,manual,manual,transition_phrase,149,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 0.3% < 10% (prepared=149, transcript=51835); marker was transition_phrase",20260820T150023Z
+WDAY_FQ3_2025,WDAY,p2_workday,2025-11-25,available,manual,manual,transition_phrase,122,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 1.3% < 10% (prepared=122, transcript=9105); marker was transition_phrase",20260820T150023Z
+WDAY_FQ4_2025,WDAY,p2_workday,2026-02-24,available,manual,manual,transition_phrase,130,PRESS RELEASE; EARNINGS PRESENTATION; EARNINGS CALL TRANSCRIPT,False,"prepared fraction 0.2% < 10% (prepared=130, transcript=52010); marker was transition_phrase",20260820T150023Z

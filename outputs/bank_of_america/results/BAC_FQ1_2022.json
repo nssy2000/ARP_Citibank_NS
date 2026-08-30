@@ -1,0 +1,192 @@
+{
+  "document_id": "BAC_FQ1_2022",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a solid quarter with net income of $7.1B and EPS of $0.80, but forward guidance is not formally raised; management expresses confidence in future NII growth due to rising interest rates ('we anticipate realizing more of the benefit of our deposit franchise'), but also flags risks from the Russia-Ukraine conflict and an evolving rate environment. The score is slightly positive due to the explicit forward-looking NII benefit and strong loan/deposit growth, but tempered by the absence of a formal guidance raise and cautious language on geopolitical and market headwinds."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue, net of interest expense, increased 2% to $23.2 billion.",
+    "eps": "Diluted earnings per share of $0.80, down from $0.86 in Q1-21.",
+    "guidance": "Not disclosed. No formal forward guidance on revenue, earnings, or growth is provided in the document. Management states: 'Going forward, and with the forward curve expectation of rising interest rates, we anticipate realizing more of the benefit of our deposit franchise.'",
+    "margin": "Return on average common shareholders' equity ratio of 11.0%; return on average tangible common shareholders' equity ratio of 15.5%. Efficiency ratio of 66%.",
+    "key_risks": [
+      "Russia-Ukraine conflict: 'Our teams were able to assist clients and navigate through the complexities of the sanctions' and 'Provision for credit losses of $165 million, primarily reflects a reserve build driven by Russian exposure and loan growth'.",
+      "Lower investment banking revenue: 'Noninterest income declined $968 million, or 8%, to $11.7 billion, primarily driven by lower investment banking revenue'.",
+      "Net charge-offs increased from prior quarter: 'Total net charge-offs declined $431 million, or 52%, from Q1-21 and increased $30 million, or 8%, from the prior quarter to $392 million'.",
+      "Reserve build related to Russian exposure and loan growth: 'Provision for credit losses of $30 million driven primarily by asset quality improvement, offset by a reserve build related to Russian exposure and loan growth'."
+    ],
+    "key_opportunities": [
+      "Net interest income growth: 'Net interest income (NII) up $1.4 billion, or 13%, to $11.6 billion, driven by strong deposit growth and investment of excess liquidity, loan growth and benefits from higher long-end interest rates'.",
+      "Strong loan and deposit growth: 'Average loan and lease balances up $70 billion, or 8%, to $978 billion' and 'Average deposits up $240 billion, or 13%, to $2.0 trillion'.",
+      "Operating leverage: 'Third consecutive quarter of operating leverage'.",
+      "Digital adoption: '42.3 million active digital banking users, up 5%, or 2.0 million' and 'Record digital sales increased to 53% of total sales'."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan states: 'We achieved solid first-quarter results earning $7.1 billion, continuing the momentum from record net income in 2021.' CFO Alastair Borthwick adds: 'First quarter results were strong despite challenging markets and volatility, which we believe reflect the value of our Responsible Growth strategy.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue, net of interest expense, increased 2% to $23.2 billion.",
+      "quote": "Revenue, net of interest expense, increased 2% to $23.2 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted earnings per share of $0.80, down from $0.86 in Q1-21.",
+      "quote": "Net income of $7.1 billion, or $0.80 per diluted share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal forward guidance on revenue, earnings, or growth is provided.",
+      "quote": "Going forward, and with the forward curve expectation of rising interest rates, we anticipate realizing more of the benefit of our deposit franchise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average common shareholders' equity ratio of 11.0%; return on average tangible common shareholders' equity ratio of 15.5%.",
+      "quote": "Return on average common shareholders' equity ratio of 11.0%; return on average tangible common shareholders' equity ratio of 15.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio of 66%.",
+      "quote": "Efficiency ratio 66%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Russia-Ukraine conflict is a risk.",
+      "quote": "Provision for credit losses of $165 million, primarily reflects a reserve build driven by Russian exposure and loan growth, compared to a reserve release in Q1-21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower investment banking revenue is a risk.",
+      "quote": "Noninterest income declined $968 million, or 8%, to $11.7 billion, primarily driven by lower investment banking revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net charge-offs increased from prior quarter.",
+      "quote": "Total net charge-offs declined $431 million, or 52%, from Q1-21 and increased $30 million, or 8%, from the prior quarter to $392 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reserve build related to Russian exposure and loan growth.",
+      "quote": "Provision for credit losses of $30 million driven primarily by asset quality improvement, offset by a reserve build related to Russian exposure and loan growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income growth is an opportunity.",
+      "quote": "Net interest income (NII) up $1.4 billion, or 13%, to $11.6 billion, driven by strong deposit growth and investment of excess liquidity, loan growth and benefits from higher long-end interest rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong loan and deposit growth is an opportunity.",
+      "quote": "Average loan and lease balances up $70 billion, or 8%, to $978 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third consecutive quarter of operating leverage.",
+      "quote": "Third consecutive quarter of operating leverage",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital adoption is an opportunity.",
+      "quote": "42.3 million active digital banking users, up 5%, or 2.0 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We achieved solid first-quarter results earning $7.1 billion, continuing the momentum from record net income in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary of the HOLD/BUY threshold. The document lacks formal forward guidance, so the score relies on qualitative forward-looking statements about NII benefit and cautious language on risks. A human reviewer should confirm this calibration."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2022-04-18",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2022",
+    "report_date": "2022-04-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q1\\bac-1q22-press-release.html",
+        "pub_date": "2022-04-18"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q1\\bac-1q22-presentation.html",
+        "pub_date": "2022-04-18"
+      }
+    ],
+    "document_id": "BAC_FQ1_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144506Z",
+    "timestamp": "2026-07-09T14:46:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q1\\bac-1q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ1_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q1\\bac-1q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 58761,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q1\\bac-1q22-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 60856,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ1_2022.txt"
+  }
+}

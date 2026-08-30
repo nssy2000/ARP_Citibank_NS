@@ -1,0 +1,58 @@
+{
+  "document_id": "BAC_FQ2_2023_QUANT",
+  "base_document_id": "BAC_FQ2_2023",
+  "issuer": "bank_of_america",
+  "ticker": "BAC",
+  "sector": "Financials",
+  "report_date": "2023-07-18",
+  "sentiment": {
+    "score": 0.142551
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.009615,
+      "window_start_date": "2023-06-14",
+      "window_end_date": "2023-07-17",
+      "score": 0.064014,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.211613,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 5.62,
+      "matched_earnings_date": "2023-07-18",
+      "score": 0.221088,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 13.3,
+      "vix_score": 0.362707,
+      "tnx_change": 0.061,
+      "tnx_score": -0.121399,
+      "score": 0.120654,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 5.08,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2023-07-17",
+      "curve_spread": -0.93,
+      "curve_score": -0.730594,
+      "curve_as_of": "2023-07-17",
+      "score": -0.365297,
+      "available": true
+    },
+    "quant_score": 0.142551,
+    "quant_score_with_macro": 0.131603,
+    "quant_score_with_fred": -0.111373,
+    "quant_score_with_macro_fred": -0.034031
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "document_id": "TGT_FQ3_2024",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Guidance was reduced: Q4 GAAP and Adjusted EPS guidance of $1.85 to $2.45 and full-year range of $8.30 to $8.90 were lowered from prior expectations, with management explicitly stating 'it's disappointing that a deceleration in discretionary demand, combined with multiple cost pressures have caused us to take down our guidance after raising it last quarter.' The company also cited unique cost headwinds (port strike, healthcare, general liability) and cautious planning for Q4. This constitutes a clear downward revision in forward expectations, warranting a score of -0.50."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $25.7 billion in the third quarter was 1.1 percent higher than last year, reflecting a total sales increase of 0.9 percent and an 11.5 percent increase in other revenue.",
+    "eps": "Third quarter GAAP and Adjusted EPS of $1.85 was down 11.9 percent compared with last year ($2.10).",
+    "guidance": "For the fourth quarter, the Company expects approximately flat comparable sales and GAAP and Adjusted EPS of $1.85 to $2.45, translating to a full year expected GAAP and Adjusted EPS range of $8.30 to $8.90.",
+    "margin": "Third quarter gross margin rate was 27.2 percent, compared with 27.4 percent in 2023. Third quarter operating income margin rate was 4.6 percent in 2024, compared with 5.2 percent in 2023.",
+    "key_risks": [
+      "Higher digital fulfillment and supply chain costs due to managing higher inventory levels, increased digital sales volume, and new supply chain facilities coming online.",
+      "Higher SG&A expense rate reflecting higher team member pay and benefits and higher general liability expenses.",
+      "Softness in discretionary categories (apparel, home, hardlines) as consumers spend cautiously.",
+      "Unique cost pressures from East Coast/Gulf port strikes and receipt timing volatility.",
+      "Higher-than-expected healthcare and general liability costs.",
+      "Calendar headwinds: loss of 5 shopping days between Thanksgiving and Christmas and shift in fiscal calendar after last year's 53rd week."
+    ],
+    "key_opportunities": [
+      "Strong guest traffic growth of 2.4 percent, representing over 10 million incremental transactions.",
+      "Digital comparable sales growth of 10.8 percent, with same-day delivery (Target Circle 360) growing nearly 20 percent and Drive Up double-digit growth.",
+      "Beauty comparable sales growth of more than 6 percent, with continued market share gains.",
+      "Roundel advertising business delivering mid-teen growth, benefiting total revenue and gross margin rate.",
+      "Target Circle loyalty program enrolled nearly 3 million new members in Q3.",
+      "New store openings performing ahead of expectations, with robust pipeline for 2025."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in long-term strategy ('we remain confident in the underlying strength and fundamentals of our business') but also acknowledges significant near-term headwinds and takes a cautious approach to guidance ('we're focused on controlling what we can control and planning the business cautiously, given the volatility we've been seeing')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Guidance was reduced: Q4 EPS guidance of $1.85 to $2.45 and full-year range of $8.30 to $8.90 were lowered from prior expectations.",
+      "quote": "Our updated range for the fourth quarter, GAAP and adjusted EPS is $1.85 to $2.45, translating to an updated full-year range of $8.30 to $8.90 a share. This new full-year range brackets the lower end of our initial guidance back in March in light of the sales and profit headwinds that have emerged in the back end of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management explicitly acknowledged disappointment in having to reduce guidance after raising it last quarter.",
+      "quote": "Having outperformed our profit expectations through Q2 it's disappointing that a deceleration in discretionary demand, combined with multiple cost pressures have caused us to take down our guidance after raising it last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenue was $25.7 billion, up 1.1% year over year.",
+      "quote": "Total revenue of $25.7 billion in the third quarter was 1.1 percent higher than last year, reflecting a total sales increase of 0.9 percent and an 11.5 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP and Adjusted EPS was $1.85, down 11.9% from $2.10 last year.",
+      "quote": "Third quarter GAAP and Adjusted EPS of $1.85 was down 11.9 percent compared with last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin rate was 27.2%, down 0.2 percentage points from 27.4% last year.",
+      "quote": "Third quarter gross margin rate was 27.2 percent, compared with 27.4 percent in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income margin rate was 4.6%, down from 5.2% last year.",
+      "quote": "Third quarter operating income margin rate was 4.6 percent in 2024, compared with 5.2 percent in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include higher digital fulfillment and supply chain costs, higher SG&A expenses, softness in discretionary categories, port strike impacts, and calendar headwinds.",
+      "quote": "Third quarter gross margin rate was 27.2 percent, compared with 27.4 percent in 2023, reflecting higher digital fulfillment and supply chain costs due to the cost of managing higher inventory levels, increased digital sales volume, and new supply chain facilities coming online... Third quarter SG&A expense rate was 21.4 percent in 2024, compared with 20.9 percent in 2023, reflecting the combined impact of higher costs, including higher team member pay and benefits and higher general liability expenses... we encountered some unique challenges and cost pressures that impacted our bottom-line performance... the impacts from the port strikes and receipt timing volatility drove additional costs in the quarter... we estimate they could amount to nearly 1 percentage point headwind to our fourth quarter comps.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include strong traffic growth, digital sales growth, beauty category strength, Roundel growth, and new store performance.",
+      "quote": "Guest traffic grew 2.4 percent over the prior year... Digital comparable sales grew 10.8 percent reflecting nearly 20 percent growth in same-day delivery powered by Target Circle 360 TM and double digit growth in Drive Up... Beauty comparable sales grew more than 6 percent... Roundel delivered mid-teen growth in Q3... this portfolio of new stores is performing ahead of our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident in long-term strategy but cautious on near-term outlook.",
+      "quote": "We remain confident in the underlying strength and fundamentals of our business, and our ability to deliver on our longer-term financial goals... we're focused on controlling what we can control and planning the business cautiously, given the volatility we've been seeing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the explicit guidance reduction and cautious language. A reviewer may want to confirm that the magnitude of the reduction (full-year EPS range $8.30-$8.90 vs. prior guidance not explicitly stated in the document) is correctly interpreted as a material cut."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 9,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2024-11-20",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-11-20",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q3\\tgt-3q24-press-release.html",
+        "pub_date": "2024-11-20"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q3\\tgt-3q24-transcript.html",
+        "pub_date": "2024-11-20"
+      }
+    ],
+    "document_id": "TGT_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T144915Z",
+    "timestamp": "2026-07-08T14:51:56Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q3\\tgt-3q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q3\\tgt-3q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 20353,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q3\\tgt-3q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 77117,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ3_2024.txt"
+  }
+}

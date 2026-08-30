@@ -1,0 +1,192 @@
+{
+  "document_id": "KO_FQ4_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document shows a mixed forward outlook. Guidance for 2026 organic revenue growth of 4%-5% and comparable currency-neutral EPS growth of 5%-6% is in line with the long-term algorithm, not raised. Management explicitly flags headwinds including a new excise tax in Mexico, divestiture impacts, and weaker consumer demand in key markets like China and India. While there is some positive momentum (e.g., North America margin expansion, value share gains), the cautious guidance and explicit risk disclosures prevent a higher score. The score is slightly positive due to the maintained guidance and some operational momentum, but not above 0.15 because guidance was not raised and risks are clearly stated."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full year 2025 net revenues grew 2% to $47.9 billion; organic revenues grew 5%. Q4 net revenues grew 2% to $11.8 billion; organic revenues grew 5%.",
+    "eps": "Full year 2025 comparable EPS grew 4% to $3.00; Q4 comparable EPS grew 6% to $0.58.",
+    "guidance": "2026: organic revenue growth of 4%-5%; comparable currency-neutral EPS growth of 5%-6% (excluding M&A); comparable EPS growth of 7%-8% versus $3.00 in 2025. Expects 1-point currency tailwind to net revenues and 3-point tailwind to EPS. Divestitures expected to be a 4-point headwind to net revenues and 1-point headwind to EPS.",
+    "margin": "Full year 2025 comparable operating margin expanded approximately 50 basis points to 31.2% (from 30.0% in prior year). Q4 comparable operating margin was 24.4% versus 24.0% in prior year.",
+    "key_risks": [
+      "New excise tax in Mexico implemented at start of 2026, expected to pressure volume.",
+      "Divestitures (sale of Coca-Cola Beverages Africa and CHI Nigeria) expected to be a back-half weighted headwind to net revenue and EPS in 2026.",
+      "Consumer demand in major markets like China and India did not recover to pre-pandemic levels.",
+      "Revenue and profit declined in Asia Pacific during Q4 due to softer consumer spending and weaker industry performance.",
+      "Currency headwinds impacted 2025 results (5-point headwind to comparable EPS)."
+    ],
+    "key_opportunities": [
+      "North America achieved 30% operating margin for the first time, with volume, revenue, and operating income all increasing.",
+      "Value share gains for the nineteenth consecutive quarter in 2025.",
+      "Innovation and brand portfolio expansion (added 12 billion-dollar brands since 2017, totaling 32).",
+      "Expected currency tailwinds in 2026 (1-point to net revenues, 3-point to EPS).",
+      "Planned investments in innovation, digital, and capacity (e.g., fairlife, concentrate business)."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the long-term strategy ('our foundation today is as strong as it's ever been') but also adopts a cautious and realistic tone regarding near-term headwinds, explicitly calling out the Mexican tax as a 'headwind' and noting that consumer demand in key markets has not recovered."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full year 2025 net revenues grew 2% to $47.9 billion; organic revenues grew 5%.",
+      "quote": "For the full year, net revenues grew 2% to $47.9 billion, and organic revenues (non-GAAP) grew 5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 comparable EPS grew 4% to $3.00.",
+      "quote": "Full Year EPS Grew 23% to $3.04; Comparable EPS (Non-GAAP) Grew 4% to $3.00",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 comparable EPS grew 6% to $0.58.",
+      "quote": "Fourth Quarter EPS Grew 4% to $0.53; Comparable EPS (Non-GAAP) Grew 6% to $0.58",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance: organic revenue growth of 4%-5%; comparable currency-neutral EPS growth of 5%-6% (excluding M&A); comparable EPS growth of 7%-8% versus $3.00 in 2025.",
+      "quote": "We expect organic revenue growth of 4% to 5%... We also expect growth in comparable currency-neutral earnings per share, excluding acquisitions and divestitures, of 5% to 6%... All in, we expect comparable earnings per share growth of 7% to 8% versus $3 in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 comparable operating margin expanded approximately 50 basis points to 31.2%.",
+      "quote": "For the full year, operating margin was 28.7% versus 21.2% in the prior year, while comparable operating margin (non-GAAP) was 31.2% versus 30.0% in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New excise tax in Mexico is a headwind expected to pressure volume.",
+      "quote": "Henrique Braun explicitly identified the new excise tax in Mexico as a 'headwind,' implemented at the start of 2026, with expected volume pressure despite mitigation plans.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Divestitures expected to be a back-half weighted headwind to net revenue and EPS in 2026.",
+      "quote": "Management flagged that divestitures, particularly the sale of Coca-Cola Beverages Africa and CHI Nigeria, will be a back-half weighted headwind to net revenue and earnings per share in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer demand in major markets like China and India did not recover to pre-pandemic levels.",
+      "quote": "Management disclosed 'flat' unit case volume for 2025 and noted that consumer demand in major markets like China and India did not recover to pre-pandemic levels, potentially impacting short-term prospects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue and profit declined in Asia Pacific during Q4.",
+      "quote": "Revenue and profit declined in Asia Pacific during the quarter, with company citing 'softer consumer spending, weaker industry performance and cycling a strong growth in the prior year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America achieved 30% operating margin for the first time.",
+      "quote": "North America Segment -- Achieved 30% operating margin for the first time, with volume, revenue, and comparable operating income all increasing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Value share gains for the nineteenth consecutive quarter.",
+      "quote": "Gained value share for the nineteenth consecutive quarter in 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Added 12 billion-dollar brands since 2017, totaling 32.",
+      "quote": "We've added 12 billion-dollar brands to our total beverage portfolio, bringing our total to 32 billion-dollar brands.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expected currency tailwinds in 2026: 1-point to net revenues, 3-point to EPS.",
+      "quote": "Based on current rates and our hedge positions, we anticipate an approximate 1 point currency tailwind to comparable net revenues and an approximate 3-point currency tailwind to comparable earnings per share for full year 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident in long-term but cautious on near-term headwinds.",
+      "quote": "Our foundation today is as strong as it's ever been... Henrique Braun explicitly identified the new excise tax in Mexico as a 'headwind,' implemented at the start of 2026, with expected volume pressure despite mitigation plans.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary between HOLD and BUY. A reviewer may wish to assess whether the maintained guidance and explicit risks justify a slightly lower score, or whether the operational momentum (e.g., margin expansion, value share gains) justifies a slightly higher score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KO_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_coca_cola",
+    "company": "Coca-Cola",
+    "ticker": "KO",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q4\\a2025q4earningsreleaseex-9.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KO_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172550Z",
+    "timestamp": "2026-07-30T17:26:25Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 60235,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q4\\a2025q4earningsreleaseex-9.txt",
+        "page_count": 1,
+        "extracted_characters": 4857,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ4_2025.txt"
+  }
+}

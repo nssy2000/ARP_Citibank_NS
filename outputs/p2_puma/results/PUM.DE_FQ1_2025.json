@@ -1,0 +1,220 @@
+{
+  "document_id": "PUM.DE_FQ1_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "Forward guidance was held flat (low- to mid-single-digit sales growth, adjusted EBIT €520-600m) but management explicitly excluded the impact of U.S. tariffs, a major unresolved risk. Q1 results were weak (adjusted EBIT -52.4%, net income -99.5%) and management's tone was cautious, citing a 'challenging environment' and 'highly uncertain' tariff implications. The flat guidance with significant downside risk and weak current performance warrants a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "€2,076.0 million, -1.3% reported, +0.1% currency-adjusted",
+    "eps": "€0.00 (Q1 2025) vs €0.58 (Q1 2024), -99.5%",
+    "guidance": "FY2025: currency-adjusted sales growth low- to mid-single-digit; adjusted EBIT €520-600 million; CAPEX ~€300 million; excludes U.S. tariff impact",
+    "margin": "Gross profit margin 47.0% (-60 bps); EBIT margin 2.8% (-4.8 pp); adjusted EBIT margin 3.6% (-4.0 pp)",
+    "key_risks": [
+      "U.S. tariffs announced after initial outlook, highly uncertain implications",
+      "Decline in North America (-11.1% ca) and Greater China (-17.7% ca)",
+      "Gross profit margin decreased due to currency effects and prior-year inventory valuation effects",
+      "OPEX increased 7.1% due to DTC growth and higher D&A",
+      "Working capital increased 12.8% due to higher inventories (goods in transit)",
+      "Financial result decreased due to higher net interest expenses"
+    ],
+    "key_opportunities": [
+      "DTC business grew 12.0% ca, e-commerce +17.3% ca",
+      "Footwear sales +2.4% ca driven by Running, Basketball, Sportstyle",
+      "EMEA region +5.1% ca with double-digit growth in EEMEA",
+      "Latin America double-digit growth",
+      "nextlevel cost efficiency programme expected to generate up to €100 million additional EBIT in 2025",
+      "New CEO appointment and brand campaign 'Go Wild'"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly cites a 'challenging environment' and 'highly uncertain' tariff implications, while focusing on 'controllables' and maintaining guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was €2,076.0 million, down 1.3% reported but up 0.1% currency-adjusted.",
+      "quote": "Currency-adjusted sales up by 0.1% to € 2,076 million (-1.3% reported)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was €0.00, down 99.5% from €0.58.",
+      "quote": "Net income came in at € 0.5 million (Q1 2024: € 87.3 million) and earnings per share amounted to € 0.00 (Q1 2024: € 0.58)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 guidance: low- to mid-single-digit sales growth, adjusted EBIT €520-600 million, CAPEX ~€300 million, excluding U.S. tariff impact.",
+      "quote": "PUMA expects currency-adjusted sales to grow in the low- to mid -single-digit percentage range in the financial year 2025. ... adjusted EBIT in the range of € 520 million to € 600 million ... capital expenditures (CAPEX) of around € 300 million ... this outlook does not include potential implications from tariffs announced after PUMA’s initial outlook on 11 March 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross profit margin decreased by 60 basis points to 47.0%.",
+      "quote": "The gross profit margin decreased by 60 basis points to 47.0% (Q1 2024: 47.5%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EBIT margin was 2.8%, down from 7.6%.",
+      "quote": "the EBIT margin came in at 2.8% (Q1 2024: 7.6%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. tariffs are a key risk with highly uncertain implications.",
+      "quote": "Due to the highly uncertain implications from the U.S. tariffs, we are not quantifying the potential implications at this stage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America and Greater China declined significantly.",
+      "quote": "North America -11.1% ... Greater China -17.7% (from quarterly sales table)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC business grew 12.0% ca, e-commerce +17.3% ca.",
+      "quote": "Our Direct-to-Consumer (DTC) business grew by 12.0% (ca) to € 546.5 million, led by the e-commerce business which grew 17.3% (ca)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Footwear sales grew 2.4% ca.",
+      "quote": "Footwear sales increased by 2.4% (ca) to € 1,186.0 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA region grew 5.1% ca with double-digit growth in EEMEA.",
+      "quote": "Sales in the EMEA region increased by 5.1% (ca) to € 891.7 million, driven by double-digit growth in EEMEA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America recorded double-digit growth.",
+      "quote": "Latin America recorded double -digit growth during the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "nextlevel programme expected to generate up to €100 million additional EBIT in 2025.",
+      "quote": "In return, the company expects to generate additional EBIT of up to € 100 million in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "In the first quarter and despite a challenging environment ... Due to the highly uncertain implications from the U.S. tariffs, we are not quantifying the potential implications at this stage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OPEX increased 7.1%.",
+      "quote": "Operating expenses (OPEX), excluding nextlevel related one-time costs, increased by 7.1% to € 904.9 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Working capital increased 12.8%.",
+      "quote": "The working capital increased by 12.8% to € 2,081.6 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Financial result decreased due to higher net interest expenses.",
+      "quote": "The financial result decreased by 56.8% to € -42.0 million (Q1 2024: € -26.8 million) mainly due to higher net interest expenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New CEO Arthur Hoeld appointed effective 01 July 2025.",
+      "quote": "PUMA appoints Arthur Hoeld as CEO (effective 01 July 2025)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brand campaign 'Go Wild' launched.",
+      "quote": "PUMA launches “Go Wild”, its biggest brand campaign to date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is negative due to flat guidance and tariff risk; but some may argue the guidance was maintained, not cut, so the negative score might be debated. Review for consistency with the guidance-change framework."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PUM.DE_Bundled Earnings Report_2025-05-07",
+  "report_metadata": {
+    "issuer": "p2_puma",
+    "company": "Puma",
+    "ticker": "PUM.DE",
+    "sector": "Consumer Cyclical/Footwear & Accessories",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q1\\Q1_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q1\\Q1_2025_Earnings_Presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PUM.DE_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T102302Z",
+    "timestamp": "2026-08-09T10:23:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q1\\Q1_2025_Press_Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_puma\\extracted\\PUM.DE_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q1\\Q1_2025_Press_Release.pdf",
+        "page_count": 8,
+        "extracted_characters": 15036,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q1\\Q1_2025_Earnings_Presentation.pdf",
+        "page_count": 25,
+        "extracted_characters": 5817,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_puma\\extracted\\PUM.DE_FQ1_2025.txt"
+  }
+}

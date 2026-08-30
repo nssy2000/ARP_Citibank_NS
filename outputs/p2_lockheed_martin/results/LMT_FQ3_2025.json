@@ -1,0 +1,188 @@
+{
+  "document_id": "LMT_FQ3_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Guidance was raised materially: sales midpoint increased by $250M, segment operating profit midpoint raised by $50M, and EPS guidance raised to $22.15-$22.35 from $21.70-$22.00. The raise is organic, driven by solid year-to-date performance and improved clarity on production ramps, not attributed to one-time items or FX. Management language is confident, citing a record backlog of $179B and strong demand. The score is not higher because the guidance raise is modest in percentage terms and RMS guidance was lowered, creating a partial offset."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 sales of $18.6 billion, up 9% from $17.1 billion in Q3 2024.",
+    "eps": "Q3 2025 diluted EPS of $6.95, up from $6.80 in Q3 2024.",
+    "guidance": "2025 sales guidance raised to ~$74.25B - $74.75B (from ~$73.75B - $74.75B), segment operating profit raised to ~$6.675B - $6.725B (from ~$6.6B - $6.7B), diluted EPS raised to ~$22.15 - $22.35 (from ~$21.70 - $22.00). Free cash flow guidance narrowed to ~$6.6B (from ~$6.6B - $6.8B).",
+    "margin": "Q3 2025 total business segment operating margin of 10.9% (same as Q3 2024). Consolidated operating margin of 12.3% (vs 12.5% in Q3 2024).",
+    "key_risks": [
+      "Potential impacts of government shutdown or Executive Orders (excluded from outlook).",
+      "Uncertainty around tariffs and their impact on contracts.",
+      "Potential non-cash charges from conversion of pension annuity contracts as early as Q4 2025.",
+      "RMS sales forecast lowered by $500M due to lower expected volume and slower production ramps at Sikorsky.",
+      "Technical risk remains on the classified Aeronautics program (P95A) despite rebaselining."
+    ],
+    "key_opportunities": [
+      "Record backlog of $179B, more than 2.5 years of sales.",
+      "Major contract awards: PAC-3 ($9.8B), JASSM/LRASM ($9.5B), CH-53K ($10.9B), F-35 Lots 18-19 ($11B).",
+      "Golden Dome for America homeland defense initiative, with Lockheed Martin positioned as a leader.",
+      "Production ramp-ups across MFC (JASSM, LRASM, PAC-3) and Space (NGI, FBM).",
+      "F-35 sustainment contract ($15B) providing long-term revenue visibility.",
+      "International demand for F-35 (Belgium, Denmark expanding fleets) and other systems."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jim Taiclet stated 'strong demand from Lockheed Martin's customers...continues' and 'our record $179 billion backlog...underscores the trust our customers place in us and underpins our company's long-term growth prospects.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 sales were $18.6 billion, up 9% year-over-year.",
+      "quote": "Lockheed Martin Corporation today reported third quarter 2025 sales of $18.6 billion, compared to $17.1 billion in the third quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 diluted EPS was $6.95, up from $6.80 in Q3 2024.",
+      "quote": "Net earnings in the third quarter of 2025 were $1.6 billion, or $6.95 per share, compared to $1.6 billion, or $6.80 per share, in the third quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 sales guidance was raised to ~$74.25B - $74.75B from ~$73.75B - $74.75B.",
+      "quote": "We're tightening the sales guidance range to $74.25 billion to $74.75 billion up $250 million at the midpoint and implying 5% organic growth year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 segment operating profit guidance was raised to ~$6.675B - $6.725B from ~$6.6B - $6.7B.",
+      "quote": "We now expect segment operating profit to be in the range of $6.675 billion to $6.725 billion maintaining a midpoint margin of 9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 diluted EPS guidance was raised to ~$22.15 - $22.35 from ~$21.70 - $22.00.",
+      "quote": "On earnings per share, we are increasing our estimate to a range of $22.15 to $22.35 Incorporating the $50 million of incremental segment mark operating profit as well as lower estimated full-year tax rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is organic, driven by year-to-date performance and production ramps.",
+      "quote": "Three of the four business areas, aero, MSC, and space, are increasing their outlooks for sales by combined $750 million largely based on solid year-to-date performance and improved clarity on cost timing, production ramps, and throughput expectations in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RMS sales forecast was lowered by $500M due to lower volume at Sikorsky.",
+      "quote": "RMS is lowering its forecast for sales by $500 million due to lower expected cost volume and slower production ramps at Sikorsky.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record backlog of $179 billion.",
+      "quote": "Record backlog of $179 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Major contract awards include PAC-3 ($9.8B), JASSM/LRASM ($9.5B), CH-53K ($10.9B), and F-35 Lots 18-19 ($11B).",
+      "quote": "Multi-year awards on PAC-3, JASSM LARASM, and CH-53K totaled $30 billion in the quarter... we definitized the F-35 Lot 18 and 19 contract with the Department of War's Joint Program Office adding $11 billion of contract value and another 151 aircraft into backlog.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Based on the effectiveness and reliability of our products and systems, strong demand from Lockheed Martin's customers—both in the United States and among our allies—continues.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 total business segment operating margin was 10.9%.",
+      "quote": "Total business segment operating margin 10.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include government shutdown, tariffs, and RMS production issues.",
+      "quote": "The financial outlook for 2025 does not include potential impacts of government shutdown, or Executive Orders issued by the Administration... the company cannot predict how tariffs will evolve and the actual impacts may differ from the company's expectations... RMS is lowering its forecast for sales by $500 million due to lower expected cost volume and slower production ramps at Sikorsky.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include Golden Dome and international F-35 demand.",
+      "quote": "Major national-defense initiatives like the Golden Dome for America demand proven leadership in a wide range of skills... Lockheed Martin is the capable leader and integrator across industry for these types of initiatives... international demand for the jet remains strong with Belgium and Denmark both announcing intentions to expand their fleets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is modest in percentage terms and partially offset by RMS guidance reduction. A human reviewer should confirm the score appropriately balances these factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LMT_Bundled Earnings Report_2025-10-21",
+  "report_metadata": {
+    "issuer": "p2_lockheed_martin",
+    "company": "Lockheed Martin",
+    "ticker": "LMT",
+    "sector": "Industrials/Aerospace-Defense",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-21",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q3\\LMT-PressRelease-Q3-2025.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q3\\LMT-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LMT_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173512Z",
+    "timestamp": "2026-07-30T17:36:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q3\\LMT-PressRelease-Q3-2025.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lockheed_martin\\extracted\\LMT_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q3\\LMT-PressRelease-Q3-2025.pdf",
+        "page_count": 10,
+        "extracted_characters": 33860,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q3\\LMT-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 65475,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lockheed_martin\\extracted\\LMT_FQ3_2025.txt"
+  }
+}

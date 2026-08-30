@@ -1,0 +1,224 @@
+{
+  "document_id": "AVGO_FQ4_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Broadcom reported record Q4 revenue of $18.0 billion, up 28% year-over-year, and provided Q1 FY2026 guidance of $19.1 billion, also up 28% year-over-year, with AI semiconductor revenue expected to double to $8.2 billion. Management expressed strong confidence in accelerating AI demand, citing a record $73 billion AI backlog and 'never seen bookings of the nature that what we have seen over the past three months.' The guidance raise is organic, driven by AI and infrastructure software strength, not attributed to one-time items or FX, supporting a score above 0.5 but below the +1.0 threshold due to some mixed signals in non-AI semiconductor stability and gross margin dilution."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 FY2025 revenue of $18,015 million, up 28% year-over-year. FY2025 revenue of $63,887 million, up 24% year-over-year.",
+    "eps": "Q4 GAAP diluted EPS of $1.74, up 93% year-over-year; Non-GAAP diluted EPS of $1.95, up 37% year-over-year. FY2025 GAAP diluted EPS of $4.77, up 288%; Non-GAAP diluted EPS of $6.82, up 40%.",
+    "guidance": "Q1 FY2026 revenue guidance of approximately $19.1 billion, up 28% year-over-year; AI semiconductor revenue expected to double to $8.2 billion; Adjusted EBITDA guidance of 67% of revenue.",
+    "margin": "Q4 gross margin of 77.9% (non-GAAP), above guidance; Adjusted EBITDA margin of 68% of revenue; Semiconductor operating margin of 59%, up 250 bps year-over-year; Infrastructure software operating margin of 78%, up from 72% a year ago.",
+    "key_risks": [
+      "Non-AI semiconductor revenue expected to be 'stable' with enterprise spending subdued and only broadband showing recovery.",
+      "Gross margin expected to decline approximately 100 basis points sequentially in Q1 due to higher AI revenue mix, with further dilution from system sales and passthrough of third-party costs.",
+      "Non-GAAP tax rate expected to increase to approximately 6.5% due to global minimum tax and shift in geographic income mix.",
+      "Supply chain constraints, particularly in advanced packaging and leading-edge silicon, though management expressed confidence in mitigation.",
+      "Customer concentration risk, though diversifying with a fifth XPU customer added."
+    ],
+    "key_opportunities": [
+      "AI semiconductor revenue growth of 74% year-over-year in Q4, with Q1 FY2026 expected to double to $8.2 billion.",
+      "Record AI-related order backlog of $73 billion, deliverable over eighteen months, with bookings accelerating.",
+      "Infrastructure software revenue growth of 19% year-over-year, driven by VMware Cloud Foundation adoption, with backlog up to $73 billion from $49 billion a year ago.",
+      "New fifth XPU customer with a $1 billion order for late 2026 delivery, plus an additional $11 billion follow-on order from an existing customer.",
+      "AI switch order backlog exceeds $10 billion, led by Tomahawk 6 switch at 102 Tbps.",
+      "Expansion of advanced packaging capacity in Singapore to address supply chain security and technical complexity."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly confident language, e.g., 'We see the momentum continuing in Q1 and expect AI semiconductor revenue to double year-over-year to $8.2 billion,' and 'We have never seen bookings of the nature that what we have seen over the past three months.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenue was $18,015 million, up 28% year-over-year.",
+      "quote": "Revenue of $18,015 million for the fourth quarter, up 28 percent from the prior year period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP diluted EPS was $1.74, up 93% year-over-year.",
+      "quote": "GAAP diluted EPS of $1.74 for the fourth quarter; Non-GAAP diluted EPS of $1.95 for the fourth quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 FY2026 revenue guidance is approximately $19.1 billion, up 28% year-over-year.",
+      "quote": "First quarter fiscal year 2026 revenue guidance of approximately $19.1 billion, an increase of 28 percent from the prior year period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 FY2026 AI semiconductor revenue is expected to double year-over-year to $8.2 billion.",
+      "quote": "We see the momentum continuing in Q1 and expect AI semiconductor revenue to double year-over-year to $8.2 billion, driven by custom AI accelerators and Ethernet AI switches.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross margin was 77.9%, above guidance.",
+      "quote": "Gross margin was 77.9% of revenue in the quarter, better than we originally guided on higher software revenues and product mix within semiconductors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin was 68% of revenue in Q4.",
+      "quote": "Adjusted EBITDA of $12.12 billion or 68% of revenue was above our guidance of 67%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-AI semiconductor revenue is expected to be stable, with enterprise spending subdued.",
+      "quote": "Accordingly, in Q1, we forecast non-AI semiconductor revenue to be approximately $4.1 billion, flat from a year ago, down sequentially due to wireless seasonality.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin is expected to decline approximately 100 basis points sequentially in Q1 due to higher AI revenue mix.",
+      "quote": "For your modeling purposes, we expect Q1 consolidated gross margin to be down approximately 100 basis points sequentially, primarily reflecting a higher mix of AI revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP tax rate is expected to increase to approximately 6.5%.",
+      "quote": "We expect the non-GAAP tax rate for Q1 and fiscal year 2026 to increase from 14% to approximately 6.5% due to the impact of the global minimum tax and shift in geographic mix of income compared to that of fiscal year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-related order backlog exceeds $73 billion, deliverable over eighteen months.",
+      "quote": "All these components combined with our XPUs bring our total order on hand in excess of $73 billion today, which is almost half Broadcom's consolidated backlog of $162 billion. We expect this $73 billion in AI backlog to be delivered over the next eighteen months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Infrastructure software revenue grew 19% year-over-year in Q4, driven by VMware Cloud Foundation.",
+      "quote": "Q4 Infrastructure Software revenue of $6.9 billion was up 19% year on year, both and above our outlook of 6.7. Bookings continued to be strong, as total contract value booked in Q4 exceeded $10.4 billion versus $8.2 billion a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A fifth XPU customer was added with a $1 billion order for late 2026 delivery.",
+      "quote": "I am pleased today to report that during this quarter, we acquired a fifth XPU customer through a $1 billion order placed for delivery in late 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "An additional $11 billion follow-on order was received from an existing customer.",
+      "quote": "In this quarter Q4, we received an additional $11 billion order from this same customer for delivery in late 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI switch order backlog exceeds $10 billion, led by Tomahawk 6 switch.",
+      "quote": "Our current order backlog for AI switches exceeds $10 billion as our latest 102 terabyte terabit per second Tomahawk six switch, the first and only one of its capability out there, continues to book at record rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in accelerating AI demand.",
+      "quote": "We have never seen bookings of the nature that what we have seen over the past three months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advanced packaging capacity expansion in Singapore is being pursued to address supply chain security.",
+      "quote": "And building our Singapore fab is to really talk about partially insourcing those advanced packaging. We believe that we have enough demand we can literally insource not from the viewpoint of not just cost, but in the viewpoint of supply chain security and delivery.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 is based on strong guidance raise and confident language, but there are mixed signals (non-AI stability, gross margin dilution) that could warrant a slightly lower score. Reviewer should verify the balance."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Risk list includes items inferred from management commentary (e.g., supply chain constraints) that are not explicitly labeled as risks in the document. Reviewer should confirm these are adequately supported."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AVGO_Bundled Earnings Report_2025-12-11",
+  "report_metadata": {
+    "issuer": "p2_broadcom",
+    "company": "Broadcom",
+    "ticker": "AVGO",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-12-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q4\\earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q4\\transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AVGO_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095143Z",
+    "timestamp": "2026-08-09T09:52:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_broadcom\\extracted\\AVGO_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 25695,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q4\\earnings_presentation.pdf",
+        "page_count": 8,
+        "extracted_characters": 26579,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q4\\transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 50008,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_broadcom\\extracted\\AVGO_FQ4_2025.txt"
+  }
+}

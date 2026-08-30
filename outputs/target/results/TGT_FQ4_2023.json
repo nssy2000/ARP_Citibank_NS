@@ -1,0 +1,228 @@
+{
+  "document_id": "TGT_FQ4_2023",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: Q4 GAAP and Adjusted EPS of $2.98 beat the high end of management's own prior guidance range of $1.90 to $2.60, and full-year operating income grew nearly $2 billion, well above the company's own initial guidance of $1 billion or more. However, forward guidance for FY2024 is only for a modest increase in comparable sales (0% to 2%) and EPS of $8.60 to $9.60, which at the midpoint represents just under 2% growth versus 2023 (or mid-to-high single-digit on a 52-to-52-week basis), and management explicitly notes cautious top-line expectations and continued investments. The score reflects the strong beat and trajectory change but is tempered by the cautious, not raised, forward guidance."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 total revenue of $31.9 billion grew 1.7% versus 2022. Full-year sales decreased 1.7% to $105.8 billion from $107.6 billion last year.",
+    "eps": "Q4 GAAP and Adjusted EPS of $2.98, 57.6% higher than $1.89 in 2022. Full-year GAAP and Adjusted EPS of $8.94, nearly 50% higher than 2022.",
+    "guidance": "For Q1 2024, comparable sales decline of 3% to 5%, GAAP and Adjusted EPS of $1.70 to $2.10. For full-year 2024, comparable sales flat to up 2%, GAAP and Adjusted EPS of $8.60 to $9.60.",
+    "margin": "Q4 operating income margin rate was 5.8% versus 3.7% in 2022. Full-year operating income margin rate was 5.3% versus 3.5% in 2022. Q4 gross margin rate was 25.6% versus 22.7% in 2022. Full-year gross margin rate was 26.5% versus 23.6% in 2022.",
+    "key_risks": [
+      "Inventory shrink costs increased more than $500 million in 2023 versus 2022, representing about 50 basis points of incremental rate pressure.",
+      "Comparable sales declined 4.4% in Q4 and 3.7% for the full year.",
+      "SG&A expense rate increased to 18.9% in Q4 (from 18.1%) and 20.1% for the full year (from 18.9%) due to deleveraging from lower sales and continued investments.",
+      "Full-year 2024 guidance includes cautious top-line expectations and continued investments in long-term growth, likely causing some deleveraging on SG&A."
+    ],
+    "key_opportunities": [
+      "Same-day services (in-store pickup, Drive Up, Shipt) increased 13.6% in Q4, led by Drive Up.",
+      "Efficiency efforts delivered savings of more than $500 million in 2023, with a multiyear goal of $2 billion to $3 billion.",
+      "Roundel ad business grew more than 20% in 2023, contributing more than $1.5 billion in value.",
+      "New Target Circle loyalty program launching April 7, 2024, with unlimited same-day delivery (Target Circle 360) and automatic savings.",
+      "Plans to open more than 300 new stores over the next decade, expected to generate incremental sales of around $15 billion annually.",
+      "Full-year operating income grew nearly $2 billion in 2023, well above initial guidance of $1 billion or more."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Cornell stated: 'Our team's efforts changed the momentum of our business, further improving our sales and traffic trends in the fourth quarter while driving profitability well ahead of expectations.' and later said 'Target is not just a bigger company than it was 10 years ago. It's stronger, healthier, and more resilient, a company that's flipping the switch from go time to grow time.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 GAAP and Adjusted EPS of $2.98 beat the high end of management's prior guidance range of $1.90 to $2.60.",
+      "quote": "GAAP and Adjusted EPS of $2.98 was 57.6 percent higher than last year, and well-above the high end of the expected range of $1.90 to $2.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating income grew nearly $2 billion, well above initial guidance of $1 billion or more.",
+      "quote": "The Company's operating income margin rate of 5.3 percent was nearly two percentage points higher than last year. Operating income dollars grew by nearly $2 billion compared with 2022, well-above expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for FY2024 is for a modest increase in comparable sales (0% to 2%) and EPS of $8.60 to $9.60.",
+      "quote": "For the full year, the Company expects a modest increase in comparable sales in a range from flat to two percent. GAAP EPS and Adjusted EPS are both expected to range from $8.60 to $9.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses cautious top-line expectations for 2024.",
+      "quote": "On the top line, we're still planning cautiously given the consumer spending patterns we've seen for two full years now.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 total revenue of $31.9 billion grew 1.7% versus 2022.",
+      "quote": "Total revenue of $31.9 billion grew 1.7 percent in the fourth quarter compared with 2022, driven by sales growth of 1.6 percent and a 9.8 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year sales decreased 1.7% to $105.8 billion.",
+      "quote": "Full-year sales decreased 1.7 percent to $105.8 billion from $107.6 billion last year, reflecting a 3.7 percent decrease in comparable sales partially offset by sales from non-mature stores and an additional week in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP and Adjusted EPS of $2.98, 57.6% higher than $1.89 in 2022.",
+      "quote": "The Company reported fourth-quarter GAAP and Adjusted earnings per share (EPS) of $2.98, compared with $1.89 in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year GAAP and Adjusted EPS of $8.94, nearly 50% higher than 2022.",
+      "quote": "GAAP and Adjusted EPS were $8.94 for full-year 2023, compared with $5.98 in GAAP EPS and $6.02 in Adjusted EPS in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 operating income margin rate was 5.8% versus 3.7% in 2022.",
+      "quote": "Fourth quarter operating income margin rate was 5.8 percent in 2023 compared with 3.7 percent in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating income margin rate was 5.3% versus 3.5% in 2022.",
+      "quote": "The Company's operating income margin rate of 5.3 percent was nearly two percentage points higher than last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory shrink costs increased more than $500 million in 2023 versus 2022.",
+      "quote": "Last year, consistent with expectations, shrink cost increased more than $500 million compared with 2022, representing about 50 basis points of incremental rate pressure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day services increased 13.6% in Q4.",
+      "quote": "Same-day services (in-store pickup, Drive Up, and Shipt), which represent more than 10 percent of total sales, increased 13.6 percent in the quarter, led by growth in Drive Up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency efforts delivered savings of more than $500 million in 2023.",
+      "quote": "The Company's efficiency efforts delivered savings of more than $500 million in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Roundel ad business grew more than 20% in 2023, contributing more than $1.5 billion in value.",
+      "quote": "Growing more than 20% in 2023, Roundel is the powerful bridge between our guests and the brands they love. Roundel works with more than 2,600 vendors to deliver creative that is resonant and wholly consistent with the Target experience.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New Target Circle loyalty program launching April 7, 2024.",
+      "quote": "Guests will have access to the new Target Circle starting April 7th, and we can't wait for them to feel the difference.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Plans to open more than 300 new stores over the next decade, expected to generate incremental sales of around $15 billion annually.",
+      "quote": "Based on the opportunities we've already identified, we expect to open more than 300 additional stores over the next decade, meaningfully extending our reach into new neighborhoods. By the end of those 10 years, we expect those new stores will be generating incremental sales of around $15 billion annually.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our team's efforts changed the momentum of our business, further improving our sales and traffic trends in the fourth quarter while driving profitability well ahead of expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2024 guidance: comparable sales decline of 3% to 5%, EPS of $1.70 to $2.10.",
+      "quote": "For first quarter 2024, the Company expects a comparable sales decline of 3 to 5 percent. First quarter GAAP and Adjusted EPS are both expected to range from $1.70 to $2.10.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SG&A expense rate increased to 18.9% in Q4 and 20.1% for the full year.",
+      "quote": "Fourth quarter SG&A expense rate was 18.9 percent in 2023, compared with 18.1 percent in 2022. Full-year SG&A expense rate was 20.1 percent in 2023, compared with 18.9 percent in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales declined 4.4% in Q4 and 3.7% for the full year.",
+      "quote": "The Company's total comparable sales declined 4.4 percent in the fourth quarter... Full-year sales decreased 1.7 percent to $105.8 billion from $107.6 billion last year, reflecting a 3.7 percent decrease in comparable sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a strong beat and trajectory change, but forward guidance is only modest and cautious. A reviewer may wish to assess whether the beat is sufficiently organic (the extra week contributed $1.7 billion in sales) and whether the cautious forward language warrants a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2024-03-05",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2024-03-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q4\\tgt-4q23-press-release.html",
+        "pub_date": "2024-03-05"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q4\\tgt-4q23-transcript.html",
+        "pub_date": "2024-03-05"
+      }
+    ],
+    "document_id": "TGT_FQ4_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T144915Z",
+    "timestamp": "2026-07-08T14:50:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q4\\tgt-4q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q4\\tgt-4q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 23666,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q4\\tgt-4q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 130737,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2023.txt"
+  }
+}

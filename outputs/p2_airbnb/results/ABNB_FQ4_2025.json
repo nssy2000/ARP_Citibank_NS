@@ -1,0 +1,199 @@
+{
+  "document_id": "ABNB_FQ4_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The document shows strong Q4 results with revenue and GBV exceeding guidance, and management explicitly raised forward guidance: 'We expect revenue growth to accelerate to at least low-double digits in 2026.' This is a material upward revision from the prior trajectory, supported by organic product-driven momentum (Reserve Now, Pay Later, Project Y) rather than one-time items. The tone is confident and the outlook is specific, justifying a score above +0.5."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue $2.8 billion, up 12% year-over-year, exceeding the high end of guidance. Full-year 2025 revenue $12.2 billion, up 10% year-over-year.",
+    "eps": "Not disclosed (net income of $341 million in Q4, but EPS not explicitly stated in the document).",
+    "guidance": "Q1 2026 revenue expected $2.59B-$2.63B, 14%-16% YoY growth. Full-year 2026 revenue growth expected to accelerate to at least low-double digits. Adjusted EBITDA margin expected stable year-over-year.",
+    "margin": "Q4 2025 adjusted EBITDA margin 28% (vs 31% in Q4 2024). Full-year 2025 adjusted EBITDA margin 35%. 2026 adjusted EBITDA margin expected stable year-over-year.",
+    "key_risks": [
+      "Travel is influenced by currency, macroeconomic conditions, and global events (management acknowledges unpredictability).",
+      "Cancellation rates increased approximately 1% due to Reserve Now, Pay Later (from ~16% to ~17%).",
+      "Q4 net income negatively impacted by roughly $90 million of one-time non-income tax matters.",
+      "FX tailwinds expected to fade as 2026 progresses."
+    ],
+    "key_opportunities": [
+      "Reserve Now, Pay Later driving booking acceleration, expanding to new markets in 2026.",
+      "Project Y expected to deliver hundreds of millions more in revenue in 2026.",
+      "Pricing initiatives expected to drive as much revenue in 2026 as Project Y.",
+      "Major events: 2026 FIFA World Cup across 16 North American cities, Winter Olympics in Milan.",
+      "AI-powered customer support rolling out globally, AI search in testing.",
+      "Expansion into boutique/independent hotels, services/experiences, and new markets like Brazil, Japan, India.",
+      "Guest Favorites now nearly half of all bookings, driving higher satisfaction and repeat rates."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'we're seeing increased momentum,' 'we believe the opportunity ahead is even bigger than what you're seeing today,' and explicitly raises guidance, reflecting strong conviction."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenue was $2.8 billion, up 12% year-over-year, exceeding the high end of guidance.",
+      "quote": "Revenue grew 12% year-over-year to $2.8 billion, exceeding the high end of our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross booking value grew 16% year-over-year to $20.4 billion, the highest growth quarter in more than two years.",
+      "quote": "Gross booking value grew 16% year-over-year to $20.4 billion. This was our highest growth quarter in more than two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 revenue growth is expected to accelerate to at least low-double digits.",
+      "quote": "We expect revenue growth to accelerate to at least low-double digits in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guidance is $2.59B-$2.63B, representing 14%-16% year-over-year growth.",
+      "quote": "In Q1, we expect to generate revenue of $2.59 billion to $2.63 billion, representing year-over-year growth of 14% to 16%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin is expected to be stable year-over-year in 2026.",
+      "quote": "We expect our 2026 adjusted EBITDA margin to be stable year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 adjusted EBITDA margin was 28%, down from 31% in Q4 2024.",
+      "quote": "Q4 Adjusted EBITDA $786M (+3% YoY), 28% margin (vs 31% in Q4 2024).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reserve Now, Pay Later contributed to booking acceleration in Q4 and is expanding to new markets.",
+      "quote": "Reserve Now, Pay Later saw significant adoption among eligible guests in Q4. It's also led to longer booking lead times and a mix shift towards larger entire homes... We're now expanding this to new markets and is a key part of the strength we're seeing in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Project Y is expected to deliver hundreds of millions more in revenue in 2026.",
+      "quote": "And we believe Project Y will deliver hundreds of millions more this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cancellation rates increased approximately 1% due to Reserve Now, Pay Later.",
+      "quote": "I think one piece of perspective is that, in terms of the aggregate nominal increase in cancellations rate, it's approximately 1%, so an average of maybe 16% cancellation rates historically going to 17%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 net income was negatively impacted by roughly $90 million of one-time non-income tax matters.",
+      "quote": "Finally, net income was $341 million and was negatively impacted by roughly $90 million of onetime non-income tax.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "So you can see why we're so excited about the year ahead, and our guidance reflects that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guest Favorites now make up nearly half of all bookings on Airbnb.",
+      "quote": "And in Q4, Guest Favorites made up nearly half of all bookings on Airbnb.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-powered customer support resolves about a third of issues without a live agent.",
+      "quote": "It's already resolving a third of the support issues without needing a live specialist, and resolution times are significantly faster.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 free cash flow was $4.6 billion, representing a 38% margin.",
+      "quote": "In 2025, we generated $4.6 billion, representing a free cash flow margin of 38%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company repurchased $1.1 billion of common stock in Q4 2025.",
+      "quote": "Our strong balance sheet allowed us to repurchase $1.1 billion of our common stock in Q4, up from $857 million in Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.eps",
+      "reason": "EPS not explicitly stated in the document; net income is provided but diluted share count is not given for the quarter, so EPS cannot be calculated from the document alone."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "ABNB_Bundled Earnings Report_2026-02-12",
+  "report_metadata": {
+    "issuer": "p2_airbnb",
+    "company": "Airbnb",
+    "ticker": "ABNB",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-12",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q4\\Airbnb-Q4-25-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q4\\Airbnb-Q4-2025-Shareholder-Letter.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ABNB_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T171935Z",
+    "timestamp": "2026-07-30T17:20:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q4\\Airbnb-Q4-25-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_airbnb\\extracted\\ABNB_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q4\\Airbnb-Q4-25-Earnings-Call-Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 75928,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\airbnb\\CY2025-Q4\\Airbnb-Q4-2025-Shareholder-Letter.txt",
+        "page_count": 1,
+        "extracted_characters": 7778,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_airbnb\\extracted\\ABNB_FQ4_2025.txt"
+  }
+}

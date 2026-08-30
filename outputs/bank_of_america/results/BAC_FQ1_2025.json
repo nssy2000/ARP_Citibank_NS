@@ -1,0 +1,242 @@
+{
+  "document_id": "BAC_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a solid quarter with EPS up 18% YoY and revenue up 6%, but forward guidance is not formally raised; management provides a detailed NII outlook for 4Q25 that implies continued growth but also flags headwinds from lower interest rates and two fewer days. The tone is confident but cautious on the economy ('we potentially face a changing economy in the future'), and the NII outlook includes explicit assumptions about rate cuts. The score is mildly positive due to the organic momentum (12th consecutive quarter of sales and trading growth, 7th consecutive quarter of deposit growth) and the NII guidance, but not higher because guidance is not formally raised and risks are acknowledged."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Revenue, net of interest expense, of $27.4 billion ($27.5 billion FTE), up 6% YoY.",
+    "eps": "Diluted earnings per share of $0.90, up from $0.76 in 1Q24.",
+    "guidance": "The document provides a forward-looking NII outlook for 4Q25: '~$15.5B-$15.7B' on an FTE basis, up from $14.6B in 1Q25, driven by fixed-rate asset repricing, balance sheet growth, and the impact of assumed interest rate cuts, partially offset by day count headwinds.",
+    "margin": "Net interest yield of 1.99% (FTE), up 2 bps from 4Q24 and flat vs. 1Q24. Efficiency ratio of 64.93% (GAAP) and 64.59% (FTE). Return on average common shareholders' equity of 10.4%; return on average tangible common shareholders' equity of 13.9%.",
+    "key_risks": [
+      "Impact of lower interest rates on NII: 'partially offset by the impacts of lower interest rates'.",
+      "Two fewer days of interest accrual in 4Q25 vs. 1Q25: '~($250MM) from two fewer days of interest accrual'.",
+      "Potential changing economy: 'we potentially face a changing economy in the future'.",
+      "Credit card loss rate increased: 'Credit card loss rate of 4.05% in 1Q25 vs. 3.79% in 4Q24'.",
+      "Commercial reservable criticized utilized exposure increased: '$27.7 billion increased $1.2 billion from 4Q24'."
+    ],
+    "key_opportunities": [
+      "Fixed-rate asset repricing benefit: 'fixed-rate asset repricing' expected to add ~$550MM to NII by 4Q25.",
+      "Balance sheet growth: 'low-single-digit loan and deposit growth' expected to add ~$200MM to NII.",
+      "Global Markets NII growth: 'higher NII related to Global Markets activity' contributed to NII increase.",
+      "Consumer investment assets growth: 'Consumer investment assets of $498B, up 9% YoY'.",
+      "Record Equities revenue: 'Record Equities revenue of $2.2 billion increased 17%'."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan states 'we had a good first quarter' and 'we believe the disciplined investments we have made for high-quality growth... will remain a source of strength,' while CFO Alastair Borthwick says 'we believe we are well-positioned to continue delivering for our clients and shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $27.4 billion, up 6% YoY.",
+      "quote": "Revenue, net of interest expense, of $27.4 billion ($27.5 billion FTE),(A) up 6%, driven by noninterest income growth across all segments and higher net interest income (NII)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.90, up from $0.76 in 1Q24.",
+      "quote": "Net income of $7.4 billion, or $0.90 per diluted share, compared to $6.7 billion, or $0.76 per diluted share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII guidance for 4Q25 is ~$15.5B-$15.7B on an FTE basis.",
+      "quote": "1Q25 Day count Fixed-rate asset repricing Impact of interest rate cuts Global Markets NII Other balance sheet growth / mix 4Q25 ~$15.5B$15.7B $14.6B",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield was 1.99% (FTE), up 2 bps from 4Q24.",
+      "quote": "Net interest yield of 1.99% increased 2 bps from 4Q24 and was flat vs. 1Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio was 64.93% (GAAP) and 64.59% (FTE).",
+      "quote": "Efficiency ratio 64.93 66.23 65.02 64.26 66.77",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average common shareholders' equity was 10.4%.",
+      "quote": "Return on average common shareholders' equity 10.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average tangible common shareholders' equity was 13.9%.",
+      "quote": "Return on average tangible common shareholders' equity 13.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit card loss rate increased to 4.05% from 3.79%.",
+      "quote": "Credit card loss rate of 4.05% in 1Q25 vs. 3.79% in 4Q24 as seasonally-higher 4Q24 late stage delinquencies rolled through to charge-off",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial reservable criticized utilized exposure increased to $27.7 billion.",
+      "quote": "Commercial reservable criticized utilized exposure of $27.7 billion increased $1.2 billion from 4Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Brian Moynihan: 'We had a good first quarter... we believe the disciplined investments we have made for high-quality growth, our diverse set of businesses, and the team’s relentless focus on Responsible Growth will remain a source of strength.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance is not formally raised but NII outlook implies growth.",
+      "quote": "The document provides a detailed NII outlook slide but does not contain a formal raise of full-year EPS or revenue guidance. The NII outlook is presented as a forward-looking statement.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The document does not explicitly state 'guidance raised' or 'guidance reaffirmed'; the NII outlook is presented as a forward-looking estimate, not a formal guidance update."
+    },
+    {
+      "claim": "Management acknowledges potential changing economy.",
+      "quote": "Though we potentially face a changing economy in the future, we believe the disciplined investments we have made for high-quality growth... will remain a source of strength.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fixed-rate asset repricing expected to add ~$550MM to NII.",
+      "quote": "Fixed-rate asset repricing ~$550MM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Balance sheet growth expected to add ~$200MM to NII.",
+      "quote": "Low-single-digit loan and deposit growth ~$200MM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Markets NII contributed to NII increase.",
+      "quote": "higher NII related to Global Markets activity",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer investment assets grew 9% YoY to $498B.",
+      "quote": "Consumer investment assets of $498 billion, up 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equities revenue reached a record $2.2 billion, up 17%.",
+      "quote": "Record Equities revenue of $2.2 billion, up 17% including and excluding net DVA(E)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue grew for the 12th consecutive quarter.",
+      "quote": "12th consecutive quarter of year-over-year sales and trading revenue growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average deposits grew for the 7th consecutive quarter.",
+      "quote": "Average deposit balances of $1.96 trillion increased 3%, seven consecutive quarters of growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline; the NII outlook implies growth but is not a formal guidance raise, and management's cautious language on the economy could justify a slightly lower score. A human reviewer should confirm the calibration."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document does not contain a formal guidance statement; the NII outlook is presented as a forward-looking estimate. A human reviewer should verify that this qualifies as guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 1,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2025-04-15",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q1\\The Press Release_1Q25_ADA.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q1\\The Presentation Materials_1Q25_ADA.pdf"
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q1\\The Supplemental Information_1Q25_ADA.pdf"
+      }
+    ],
+    "document_id": "BAC_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260706T101345Z",
+    "timestamp": "2026-07-06T10:14:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q1\\The Press Release_1Q25_ADA.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q1\\The Press Release_1Q25_ADA.pdf",
+        "page_count": 18,
+        "extracted_characters": 58011,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q1\\The Presentation Materials_1Q25_ADA.pdf",
+        "page_count": 36,
+        "extracted_characters": 66255,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q1\\The Supplemental Information_1Q25_ADA.pdf",
+        "page_count": 30,
+        "extracted_characters": 76734,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ1_2025.txt"
+  }
+}

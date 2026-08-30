@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_amazon",
+  "reports": [
+    {
+      "document_id": "AMZN_FQ3_2025",
+      "issuer": "p2_amazon",
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "sector": "Consumer/Retail-Tech",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-30",
+      "release_date": "2025-10-30",
+      "release_date_source": "EDGAR 8-K Item 2.02, amzn-20251030.htm, acc 0001018724-25-000121",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amazon/CY2025-Q3/02 amazon q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amazon/CY2025-Q3/AMZN-Q3-2025-Earnings-Call-Transcript-InsiderMonkey.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "AMZN_FQ4_2025",
+      "issuer": "p2_amazon",
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "sector": "Consumer/Retail-Tech",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-05",
+      "release_date": "2026-02-05",
+      "release_date_source": "EDGAR 8-K Item 2.02, amzn-20260205.htm, acc 0001018724-26-000002",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amazon/CY2025-Q4/03 amazon q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amazon/CY2025-Q4/AMZN-Q4-2025-Earnings-Call-Transcript-InsiderMonkey.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "AMZN_FQ1_2026",
+      "issuer": "p2_amazon",
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "sector": "Consumer/Retail-Tech",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-29",
+      "release_date": "2026-04-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, amzn-20260429.htm, acc 0001018724-26-000012",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amazon/CY2026-Q1/01 amazon q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amazon/CY2026-Q1/AMZN-Q1-2026-Earnings-Call-Transcript-InsiderMonkey.txt"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

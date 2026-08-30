@@ -1,0 +1,261 @@
+{
+  "document_id": "BAC_FQ4_2022",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a solid quarter with revenue up 11% YoY and EPS up modestly, but forward guidance on NII is cautious: management guides Q1 2023 NII to ~$14.4B, down from Q4 2022's $14.8B, citing day count and deposit mix shifts. Management explicitly declines to give full-year NII guidance, citing uncertainty. The CET1 ratio improved, and operating leverage continued, but the cautious forward NII outlook and explicit uncertainty prevent a higher score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue, net of interest expense, was $24.5 billion for Q4 2022, up 11% from $22.1 billion in Q4 2021.",
+    "eps": "Diluted earnings per share of $0.85 for Q4 2022, compared to $0.82 in Q4 2021.",
+    "guidance": "For Q1 2023, NII is expected to be around $14.4 billion, down from Q4 2022's $14.8 billion. Management declined to provide full-year 2023 NII guidance, citing uncertainty. Expenses are expected to be around $16 billion in Q1 2023 due to seasonally elevated payroll taxes and higher FDIC insurance costs.",
+    "margin": "Efficiency ratio of 63% for Q4 2022, compared to 67% in Q4 2021. Pretax margin for Global Wealth and Investment Management was 29%.",
+    "key_risks": [
+      "Net interest income (NII) expected to decline in Q1 2023 due to day count and deposit mix shifts.",
+      "Provision for credit losses increased to $1.1 billion from a benefit of $489 million in Q4 2021, driven by a reserve build and higher net charge-offs.",
+      "Net charge-offs increased to $689 million from $362 million in Q4 2021, though still below pre-pandemic levels.",
+      "Commercial reservable criticized utilized exposure increased $1.6 billion from Q3 2022, driven by U.S. Commercial and Industrial and Commercial Real Estate.",
+      "Noninterest income declined 8% YoY due to lower investment banking and asset management fees.",
+      "Average deposits declined 5% YoY, with continued mix shift from noninterest-bearing to interest-bearing deposits.",
+      "Higher FDIC insurance costs will add $125 million per quarter starting in 2023.",
+      "Management cited uncertainty in forecasting NII due to the dynamic rate environment and deposit behavior."
+    ],
+    "key_opportunities": [
+      "Net interest income (NII) increased 29% YoY, driven by higher interest rates and loan growth.",
+      "Sixth consecutive quarter of operating leverage.",
+      "Record Q4 sales and trading revenue, up 27% YoY (excl. DVA).",
+      "Strong organic growth: added ~195,000 net new consumer checking accounts in Q4 2022; record 35.9 million consumer checking accounts.",
+      "Consumer investment accounts grew to a record 3.5 million, up 7%.",
+      "Global Transaction Services revenue grew 50% YoY.",
+      "CET1 ratio improved to 11.2%, up 25 bps from Q3 2022, providing capital flexibility.",
+      "Management expressed confidence in the franchise's ability to drive organic growth and manage expenses."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the franchise's organic growth and operating leverage ('We ended the year on a strong note...'), but is cautious on the forward NII outlook, explicitly declining to provide full-year guidance and citing uncertainty ('we're reluctant to go a whole lot further out... it's just a much more sensitive environment')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue, net of interest expense, was $24.5 billion for Q4 2022, up 11% from $22.1 billion in Q4 2021.",
+      "quote": "Total revenue, net of interest expense, increased 11% to $24.5 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted earnings per share of $0.85 for Q4 2022, compared to $0.82 in Q4 2021.",
+      "quote": "Net income of $7.1 billion, or $0.85 per diluted share, compared to $7.0 billion, or $0.82 per diluted share for Q4-21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For Q1 2023, NII is expected to be around $14.4 billion, down from Q4 2022's $14.8 billion.",
+      "quote": "So, we're expecting Q1 NII to be somewhere around 14.4 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management declined to provide full-year 2023 NII guidance, citing uncertainty.",
+      "quote": "we're reluctant to go a whole lot further out... it's just a much more sensitive environment when we're modeling when interest rates are 5% than when they were at 50 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expenses are expected to be around $16 billion in Q1 2023 due to seasonally elevated payroll taxes and higher FDIC insurance costs.",
+      "quote": "We expect these things will put expenses around 16 billion in the first quarter before expectations that they should trend back down again over the course of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio of 63% for Q4 2022, compared to 67% in Q4 2021.",
+      "quote": "Efficiency ratio 63%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pretax margin for Global Wealth and Investment Management was 29%.",
+      "quote": "Pretax margin of 29%, down from 30%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses increased to $1.1 billion from a benefit of $489 million in Q4 2021.",
+      "quote": "Provision for credit losses of $1.1 billion increased $1.6 billion – Net reserve build of $403 million vs. net reserve release of $851 million in Q4-21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net charge-offs increased to $689 million from $362 million in Q4 2021.",
+      "quote": "Net charge-offs of $689 million increased compared to prior year but remained well below pre-pandemic levels",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial reservable criticized utilized exposure increased $1.6 billion from Q3 2022.",
+      "quote": "Commercial reservable criticized utilized exposure of $19.3 billion increased $1.6 billion from Q3-22, primarily driven by U.S. Commercial and Industrial and Commercial Real Estate",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest income declined 8% YoY.",
+      "quote": "Noninterest income of $9.9 billion declined $799 million, or 8%, as declines in investment banking and asset management fees as well as lower service charges more than offset higher sales and trading revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average deposits declined 5% YoY.",
+      "quote": "Average deposits down $92 billion, or 5%, to $1.9 trillion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher FDIC insurance costs will add $125 million per quarter starting in 2023.",
+      "quote": "that will add 125 million to each of our quarterly costs or a total of 500 million for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income (NII) increased 29% YoY.",
+      "quote": "Net interest income (NII)(E) up $3.3 billion, or 29%, to $14.7 billion, driven by benefits from higher interest rates, including lower premium amortization expense, and solid loan growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sixth consecutive quarter of operating leverage.",
+      "quote": "Sixth Consecutive Quarter of Operating Leverage",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record Q4 sales and trading revenue, up 27% YoY (excl. DVA).",
+      "quote": "Excluding net DVA(H), sales and trading revenue up 27% to $3.7 billion; FICC up 49% to $2.3 billion; Equities up 1% to $1.4 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Added ~195,000 net new consumer checking accounts in Q4 2022.",
+      "quote": "Added ~195,000 net new Consumer checking accounts in Q4-22; 16th consecutive quarter of growth; added 1.1 million net new Consumer checking accounts in full-year 2022",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer investment accounts grew to a record 3.5 million, up 7%.",
+      "quote": "Consumer investment accounts of 3.5 million grew 7%; record client flows of $11 billion in Q4-22 and $28 billion in full-year 2022",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Transaction Services revenue grew 50% YoY.",
+      "quote": "Global Transaction Services revenue of $3.1 billion, up $1.0 billion, or 50%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio improved to 11.2%, up 25 bps from Q3 2022.",
+      "quote": "Common equity tier 1 (CET1) ratio of 11.2% (Standardized) increased 25 bps from Q3-22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the franchise's organic growth and operating leverage.",
+      "quote": "We ended the year on a strong note growing earnings year over year in the 4th quarter in an increasingly slowing economic environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is cautious on the forward NII outlook, explicitly declining to provide full-year guidance and citing uncertainty.",
+      "quote": "we're reluctant to go a whole lot further out... it's just a much more sensitive environment when we're modeling when interest rates are 5% than when they were at 50 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is near the HOLD/BUY boundary. The cautious NII guidance and explicit uncertainty about full-year 2023 could justify a slightly lower score, while the strong organic growth and operating leverage could justify a slightly higher score. A human reviewer should confirm the balance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2023-01-13",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2022",
+    "report_date": "2023-01-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q4\\bac-4q22-press-release.html",
+        "pub_date": "2023-01-13"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q4\\bac-4q22-presentation.html",
+        "pub_date": "2023-01-13"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q4\\bac-4q22-earnings-call-transcript.html",
+        "pub_date": "2023-01-13"
+      }
+    ],
+    "document_id": "BAC_FQ4_2022"
+  },
+  "run_meta": {
+    "run_id": "20260708T142324Z",
+    "timestamp": "2026-07-08T14:23:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q4\\bac-4q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q4\\bac-4q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 62302,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q4\\bac-4q22-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 71743,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q4\\bac-4q22-earnings-call-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 85318,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2022.txt"
+  }
+}

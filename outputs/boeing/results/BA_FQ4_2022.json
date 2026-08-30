@@ -1,0 +1,275 @@
+{
+  "document_id": "BA_FQ4_2022",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: Boeing swung from a full-year free cash flow usage of $4.4B in 2021 to a positive $2.3B in 2022, and Q4 free cash flow was $3.1B versus $0.5B a year ago. Management reaffirmed 2023 guidance (unchanged from November) and reiterated long-term 2025/2026 free cash flow target of ~$10B, with confident language about being 'well positioned' and 'on the right path.' However, guidance was not raised, and structural risks remain (supply chain instability, 787 abnormal costs, BDS execution challenges), preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2022 revenue $19,980 million, up 35% year-over-year. Full year 2022 revenue $66,608 million, up 7% year-over-year.",
+    "eps": "Q4 2022 GAAP loss per share ($1.06), core loss per share (non-GAAP) ($1.75). Full year 2022 GAAP loss per share ($8.30), core loss per share (non-GAAP) ($11.06).",
+    "guidance": "Reaffirming 2023 guidance: operating cash flow $4.5-$6.5 billion, free cash flow $3.0-$5.0 billion. Long-term 2025/2026 objectives unchanged: ~$100B revenue, ~10% operating margin, ~$10B free cash flow.",
+    "margin": "Q4 2022 GAAP operating margin (1.8)%, core operating margin (non-GAAP) (3.3)%. Full year 2022 GAAP operating margin (5.3)%, core operating margin (non-GAAP) (7.0)%.",
+    "key_risks": [
+      "Supply chain instability causing production stoppages and constraints.",
+      "787 abnormal costs increased by ~$600M to ~$2.8B total due to supplier constraint slowing production rate ramp.",
+      "BDS margins impacted by supply chain constraints, labor instability, and adverse cost accrual timing.",
+      "737 MAX 7 and 10 certification still ongoing; no exact certification dates provided.",
+      "China MAX deliveries uncertain; management will not predict timing.",
+      "BDS fixed-price development contract losses (e.g., $3.5B loss from operations for full year 2022)."
+    ],
+    "key_opportunities": [
+      "Strong demand across portfolio: 808 net orders in 2022, backlog grew to $404 billion.",
+      "737 MAX production rate planned to ramp to ~50/month in 2025/2026 timeframe.",
+      "787 production rate planned to ramp to 5/month in late 2023 and 10/month in 2025/2026.",
+      "Global Services strong performance with 13.9% operating margin in Q4, driven by commercial recovery.",
+      "China MAX returning to service; 100 airplanes in inventory for China customers.",
+      "Defense portfolio opportunities: autonomy, digital thread, T-7A, F-15EX, KC-46A tanker."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Dave Calhoun stated: 'We had a solid fourth quarter, and 2022 proved to be an important year in our recovery... we are well positioned and are on the right path to restoring our operational and financial strength.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2022 revenue was $19,980 million, up 35% year-over-year.",
+      "quote": "Revenues $19,980 $14,793 35%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2022 revenue was $66,608 million, up 7% year-over-year.",
+      "quote": "Revenues $66,608 $62,286 7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2022 GAAP loss per share was ($1.06).",
+      "quote": "Loss Per Share ($1.06) ($7.02) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2022 core loss per share (non-GAAP) was ($1.75).",
+      "quote": "Core Loss Per Share ($1.75) ($7.69)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2022 GAAP loss per share was ($8.30).",
+      "quote": "Loss Per Share ($8.30) ($7.15) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2022 core loss per share (non-GAAP) was ($11.06).",
+      "quote": "Core Loss Per Share ($11.06) ($9.44)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2023 guidance reaffirmed: operating cash flow $4.5-$6.5 billion, free cash flow $3.0-$5.0 billion.",
+      "quote": "Reaffirming guidance: $4.5-$6.5 billion of operating cash flow and $3.0-$5.0 billion free cash flow (non-GAAP)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term 2025/2026 objectives unchanged: ~$100B revenue, ~10% operating margin, ~$10B free cash flow.",
+      "quote": "2025 / 2026 financial objectives remain unchanged * ... Boeing ~$100B Revenue | ~10% Operating Margin ... Free Cash Flow (non-GAAP) ~$10B",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2022 GAAP operating margin was (1.8)%.",
+      "quote": "Operating Margin (1.8) % (28.2) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2022 core operating margin (non-GAAP) was (3.3)%.",
+      "quote": "Core Operating Margin (3.3) % (30.7) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2022 GAAP operating margin was (5.3)%.",
+      "quote": "Operating Margin (5.3) % (4.7) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2022 core operating margin (non-GAAP) was (7.0)%.",
+      "quote": "Core Operating Margin (7.0) % (6.5) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain instability causing production stoppages and constraints.",
+      "quote": "we continue to face a few too many stoppages in our lines, simply so that we do not travel to work as we run into supply chain shortfalls.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 abnormal costs increased by ~$600M to ~$2.8B total due to supplier constraint.",
+      "quote": "We're increasing the abnormal accounting estimate by about 600 million to roughly 2.8 billion in total as we will be under the five-per-month production rate a bit longer than expected due to a supplier constraint that has temporarily slowed production.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS margins impacted by supply chain constraints, labor instability, and adverse cost accrual timing.",
+      "quote": "Fourth-quarter operating margin of 1.8 percent reflects the continued operational impact of labor instability and supply chain disruption.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 MAX 7 and 10 certification still ongoing; no exact certification dates provided.",
+      "quote": "Certification efforts continue on 737-7 and 737-10 ... we're not going to tell you exact dates as to when we expect those certifications.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China MAX deliveries uncertain; management will not predict timing.",
+      "quote": "I'm not going to guess going forward when deliveries may or may not start. As everyone knows, in our guidance, we have de-risked for that possibility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS fixed-price development contract losses (full year 2022 loss from operations $3,544 million).",
+      "quote": "Defense, Space & Security ... (Loss)/earnings from Operations ($3,544) $1,544 NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong demand: 808 net orders in 2022, backlog grew to $404 billion.",
+      "quote": "Delivered 480 commercial airplanes and recorded 808 net orders ... Total company backlog grew to $404 billion; including over 4,500 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 MAX production rate planned to ramp to ~50/month in 2025/2026 timeframe.",
+      "quote": "The 737 program is stabilizing production rate at 31 per month with plans to ramp production to approximately 50 per month in the 2025/2026 timeframe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 production rate planned to ramp to 5/month in late 2023 and 10/month in 2025/2026.",
+      "quote": "the 787 program continues at a low production rate with plans to ramp production to five per month in late 2023 and to 10 per month in the 2025/2026 timeframe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services Q4 operating margin 13.9%, driven by commercial recovery.",
+      "quote": "Global Services fourth-quarter revenue of $4.6 billion and operating margin of 13.9 percent reflect higher commercial volume, partially offset by lower government volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China MAX returning to service; 100 airplanes in inventory for China customers.",
+      "quote": "737 MAX returning to service in China is another indication of this overall improvement in our business. ... we had 138 for customers in China.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We had a solid fourth quarter, and 2022 proved to be an important year in our recovery... we are well positioned and are on the right path to restoring our operational and financial strength.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of 0.20 reflects genuine operational momentum (swing to positive free cash flow) and reaffirmed guidance, but not a guidance raise.",
+      "quote": "Generated $3.5 billion of operating cash flow and $3.1 billion of free cash flow (non-GAAP) ... Reaffirming guidance: $4.5-$6.5 billion of operating cash flow and $3.0-$5.0 billion free cash flow (non-GAAP)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.20 is above the BUY threshold but near the boundary; the reaffirmed guidance (not raised) and structural risks (supply chain, 787 abnormal costs) could justify a lower score. Reviewer should confirm the balance between momentum and risks."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2023-01-25",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2022",
+    "report_date": "2023-01-25",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q4\\ba-4q22-press-release.pdf",
+        "pub_date": "2023-01-25"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q4\\ba-4q22-presentation.pdf",
+        "pub_date": "2023-01-25"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q4\\ba-4q22-transcript.html",
+        "pub_date": "2023-01-25"
+      }
+    ],
+    "document_id": "BA_FQ4_2022"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:35:12Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q4\\ba-4q22-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q4\\ba-4q22-press-release.pdf",
+        "page_count": 14,
+        "extracted_characters": 26996,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q4\\ba-4q22-presentation.pdf",
+        "page_count": 16,
+        "extracted_characters": 8029,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q4\\ba-4q22-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 61160,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2022.txt"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "document_id": "DIS_FQ2_2021",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: Direct-to-Consumer segment operating loss narrowed from $805M to $290M (64% improvement), Disney+ subscribers surged from 33.5M to 103.6M (>100% growth), and total segment operating income grew 2% despite a 13% revenue decline. However, no formal guidance raise is provided; management expresses cautious optimism ('encouraging signs of recovery') while noting ongoing COVID-19 impacts and estimated $1B in additional costs for fiscal 2021. The score reflects the inflection in streaming and recovery signs, tempered by the lack of explicit forward guidance and continued pandemic headwinds."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues for the quarter were $15,613 million, down 13% from $18,025 million in the prior-year quarter. For the six months, revenues were $31,862 million, down 18% from $38,902 million.",
+    "eps": "Diluted EPS from continuing operations for the quarter was $0.50, up 92% from $0.26 in the prior-year quarter. Excluding certain items, diluted EPS was $0.79, up 32% from $0.60.",
+    "guidance": "No formal forward guidance is provided. Management states: 'We’re pleased to see more encouraging signs of recovery across our businesses, and we remain focused on ramping up our operations while also fueling long-term growth for the Company.' The document notes estimated COVID-19 costs of approximately $1 billion in fiscal 2021.",
+    "margin": "Not disclosed as a separate metric. Operating income margin can be derived: total segment operating income was $2,465 million on revenues of $15,613 million (15.8% segment operating margin).",
+    "key_risks": [
+      "COVID-19 continues to adversely impact results, particularly at Disney Parks, Experiences and Products where parks operate at reduced capacity and cruise sailings are suspended.",
+      "Estimated additional COVID-19 costs of approximately $1 billion in fiscal 2021 for safety measures and government regulations.",
+      "Restructuring and impairment charges of $414 million in the quarter related to closure of an animation studio and Disney-branded retail stores.",
+      "Ongoing disruption to film and television production and live sporting events depending on local circumstances."
+    ],
+    "key_opportunities": [
+      "Direct-to-Consumer segment operating loss narrowed 64% to $290 million, driven by improved results at Hulu and ESPN+.",
+      "Disney+ paid subscribers grew to 103.6 million from 33.5 million, an increase of over 100% year-over-year.",
+      "Parks and resorts are reopening: Walt Disney World Resort and Shanghai Disney Resort were open in the quarter, and Hong Kong Disneyland Resort was open for approximately 30 days.",
+      "Content Sales/Licensing and Other segment swung from a loss of $25 million to income of $312 million, driven by higher TV/SVOD distribution results."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Bob Chapek states: 'We’re pleased to see more encouraging signs of recovery across our businesses, and we remain focused on ramping up our operations while also fueling long-term growth for the Company.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues for the quarter were $15,613 million, down 13% from $18,025 million in the prior-year quarter.",
+      "quote": "Quarter Ended April 3, 2021 Revenues $15,613; March 28, 2020 Revenues $18,025; Change (13)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS from continuing operations for the quarter was $0.50, up 92% from $0.26 in the prior-year quarter.",
+      "quote": "Diluted EPS from continuing operations for the quarter increased to $0.50 from $0.26 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding certain items, diluted EPS was $0.79, up 32% from $0.60.",
+      "quote": "Excluding certain items, diluted EPS for the quarter increased 32% to $0.79 from $0.60 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct-to-Consumer segment operating loss narrowed from $805 million to $290 million, a 64% improvement.",
+      "quote": "Direct-to-Consumer operating loss (290) (805) 64%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ paid subscribers grew to 103.6 million from 33.5 million, an increase of over 100% year-over-year.",
+      "quote": "Disney+ (2) 103.6 33.5 >100 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total segment operating income grew 2% despite a 13% revenue decline.",
+      "quote": "Total Segment Operating Income $2,465 $2,407 2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal forward guidance is provided; management expresses cautious optimism.",
+      "quote": "We’re pleased to see more encouraging signs of recovery across our businesses, and we remain focused on ramping up our operations while also fueling long-term growth for the Company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Estimated additional COVID-19 costs of approximately $1 billion in fiscal 2021.",
+      "quote": "We currently estimate these costs may total approximately $1 billion in fiscal 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restructuring and impairment charges of $414 million in the quarter.",
+      "quote": "During the current and prior-year quarters, the Company recorded charges totaling $414 million and $145 million, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content Sales/Licensing and Other segment swung from a loss of $25 million to income of $312 million.",
+      "quote": "Content Sales/Licensing and Other ... segment operating results increased from a loss of $25 million to income of $312 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We’re pleased to see more encouraging signs of recovery across our businesses, and we remain focused on ramping up our operations while also fueling long-term growth for the Company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 is based on operational momentum (streaming improvement, parks reopening) but no formal guidance raise is provided. A human reviewer should confirm that the inflection in streaming and recovery signs justifies a score above 0.15 given the lack of explicit forward guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2021-05-13",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2021",
+    "report_date": "2021-05-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q2\\dis-2q21-press-release.html",
+        "pub_date": "2021-05-13"
+      }
+    ],
+    "document_id": "DIS_FQ2_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144738Z",
+    "timestamp": "2026-07-09T14:48:08Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q2\\dis-2q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ2_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q2\\dis-2q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 40175,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ2_2021.txt"
+  }
+}

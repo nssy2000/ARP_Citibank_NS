@@ -1,0 +1,260 @@
+{
+  "document_id": "MET_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong operational momentum with adjusted EPS up 23% and growth across all segments, but management did not formally raise full-year guidance; instead, they reaffirmed confidence in existing New Frontier targets. While the quarter's results are robust, the forward outlook is characterized by reaffirmation rather than an explicit raise, and management flagged specific headwinds such as elevated disability claims and a flat yield curve, which tempers the score. The score reflects genuine operational momentum without a formal guidance raise, aligning with the +0.15 to +0.3 band."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Premiums, fees and other revenues (PFOs) increased 5% to $14.3 billion. Adjusted PFOs, excluding pension risk transfers (PRT), increased 10% to $13.3 billion.",
+    "eps": "Net income per share increased 36% to $1.74. Adjusted earnings per share increased 23% to $2.42.",
+    "guidance": "Management reaffirmed confidence in delivering against the ambitious financial targets laid out under New Frontier, including double-digit Adjusted EPS Growth, 15-17% Adjusted ROE, and $25B+ Free Cash Flow. No formal guidance raise was provided.",
+    "margin": "Direct expense ratio, excluding total notable items related to direct expenses and PRT, was 11.9%, compared to 12.0% in the prior-year quarter. Adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT, was 20.3%, compared to 20.6%.",
+    "key_risks": [
+      "Elevated disability claims from new state-mandated paid family leave programs, expected to moderate in the second half of the year.",
+      "Slightly elevated severity in LTD, though flat sequentially over the last three quarters.",
+      "Persistently flat yield curve with the short end higher, creating a headwind for RIS spreads.",
+      "Regulatory review in Japan regarding seconded employees, an industry-wide issue, with ongoing confidential discussions with the FSA.",
+      "Sun Life's alleged indemnity claim against MetLife, which management characterized as baseless and misleading.",
+      "Unfavorable tax-related items in Latin America, including the impact of the Mexico value-added tax change.",
+      "Potential impact from the Middle East conflict on EMEA operations, though not seen as material to date."
+    ],
+    "key_opportunities": [
+      "Strong sales growth across segments, including Group Benefits sales up 15%, Asia sales up 22%, and Latin America sales up 20% on a constant currency basis.",
+      "Growth in Retirement and Income Solutions (RIS) with adjusted PFOs excluding PRT up 58%, led by U.K. longevity reinsurance, post-retirement benefits, and structured settlements.",
+      "MetLife Investment Management (MIM) growth driven by the PineBridge acquisition, with total AUM up 22% and a strong pipeline for new flows.",
+      "Favorable working age mortality trends in Group Life, with potential for some portion to flow back into pricing if the favorability persists.",
+      "Expansion in high-growth international markets, with Asia and Latin America showing strong momentum.",
+      "Capital deployment opportunities with a free cash flow ratio of 65% to 75% and a strong RBC ratio of 379%."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management described the quarter as delivering 'exceptional performance' and expressed confidence in 'delivering against the ambitious financial targets we laid out under New Frontier,' while also acknowledging specific headwinds and areas of moderation."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adjusted earnings per share increased 23% to $2.42.",
+      "quote": "Adjusted earnings per share increased 23% to $2.42.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premiums, fees and other revenues (PFOs) increased 5% to $14.3 billion.",
+      "quote": "Premiums, fees and other revenues (PFOs) increased 5% to $14.3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted PFOs, excluding pension risk transfers (PRT), increased 10% to $13.3 billion.",
+      "quote": "Adjusted PFOs, excluding pension risk transfers (PRT), increased 10% to $13.3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income per share increased 36% to $1.74.",
+      "quote": "On a per-share basis, net income increased 36 percent to $1.74.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed confidence in delivering against New Frontier financial targets.",
+      "quote": "We remain confident in delivering against the ambitious financial targets we laid out under New Frontier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct expense ratio improved to 11.9% from 12.0%.",
+      "quote": "Direct expense ratio, excluding total notable items related to direct expenses and PRT, was 11.9 percent, compared to 12.0 percent in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted expense ratio improved to 20.3% from 20.6%.",
+      "quote": "Adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT 20.3% 20.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Elevated disability claims from new state-mandated paid family leave programs are a headwind.",
+      "quote": "For disability, we did experience higher disability claims. Those were coming from the impact of new state-mandated paid family leave programs. These new programs have a claim pattern with higher upfront claims that tend to normalize.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Slightly elevated severity in LTD is a headwind, though flat sequentially.",
+      "quote": "We did see slightly elevated severity in LTD. And it's important to note that while this was elevated on a year-to-year basis, when we look at it sequentially, it was actually flat over the last 3 quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A persistently flat yield curve is a headwind for RIS spreads.",
+      "quote": "We're also operating in an environment where the yield curve remains persistently flat with the short end higher than maybe relative to our outlook expectation of the curve steepening. So that actually puts a bit of a headwind on us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Japan regulatory review is an industry-wide issue with ongoing discussions.",
+      "quote": "We're in conversations with the FSA about lots of different things. The press release noted we had a reporting order, but all our discussions with the regulators continue to be confidential right now.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sun Life's claim against MetLife is considered baseless.",
+      "quote": "The claims made by Sun Life can best be characterized as baseless and misleading. MetLife was not named a defendant in the reference class action suit.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America faced unfavorable tax-related items.",
+      "quote": "Adjusted earnings were $229 million, up 5 percent on a reported basis and down 9 percent on a constant currency basis, reflecting unfavorable tax-related items, including the impact of the Mexico value-added tax change.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential impact from Middle East conflict on EMEA operations is a risk.",
+      "quote": "With regard to the situation in the Middle East, just to give you a sense of EMEA's earnings, about 2/3 come from Europe, 1/3 from the rest of the region. And about 50% of that 1/3 comes from Turkey and Egypt. So clearly, we've been keeping a close eye on what's happening in the region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group Benefits sales were up 15%.",
+      "quote": "Sales were up 15 percent, primarily driven by growth across both core and voluntary products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia sales were up 22% on a constant currency basis.",
+      "quote": "Sales were $766 million, up 22 percent on a constant currency basis, primarily driven by strong growth in Japan and Korea.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America sales were up 20% on a constant currency basis.",
+      "quote": "Sales were $521 million, up 20 percent on a constant currency basis, driven by growth across the region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RIS adjusted PFOs excluding PRT were up 58%.",
+      "quote": "Adjusted PFOs, excluding PRT, were $1.5 billion, up 58 percent, reflecting growth across most products, led by U.K. longevity reinsurance, post-retirement benefits and structured settlements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MIM total AUM grew 22% due to PineBridge acquisition.",
+      "quote": "Total assets under management were $736.3 billion, up 22 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Favorable working age mortality trends are an opportunity.",
+      "quote": "We are also seeing overall favorable working age mortality when you look at the CDC data. Look, there's a lot of different potential drivers for that favorability. Some include a pull-forward effect from a COVID perspective, some include the impact of GLP-1 drugs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong capital position with free cash flow ratio of 65-75%.",
+      "quote": "I mean, we continue to demonstrate a free cash flow ratio of 65% to 75% and remain confident to do that throughout New Frontier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "MetLife delivered exceptional performance in the first quarter, with adjusted earnings per share up 23 percent and widespread top-line growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects strong operational momentum without a formal guidance raise. A reviewer should verify that the absence of a formal guidance raise and the presence of specific headwinds (disability claims, flat yield curve) justify not scoring higher."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The Japan regulatory issue is described as an industry-wide matter with no specific impact on MetLife's results, but it remains a potential forward-looking risk. A reviewer should assess whether this should be weighted more heavily."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MET_Bundled Earnings Report_2026-05-06",
+  "report_metadata": {
+    "issuer": "p2_metlife",
+    "company": "Metlife",
+    "ticker": "MET",
+    "sector": "Financial Services/Insurance - Life",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2026-Q1\\earnings_call_transcript.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2026-Q1\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MET_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T101102Z",
+    "timestamp": "2026-08-09T10:12:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 57829,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2026-Q1\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 26950,
+        "extractor_used": "plain_text",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2026-Q1\\presentation.pdf",
+        "page_count": 45,
+        "extracted_characters": 63794,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ1_2026.txt"
+  }
+}

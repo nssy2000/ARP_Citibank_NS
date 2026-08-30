@@ -1,0 +1,45 @@
+{
+  "training_cutoff_verbatim": "October 2023",
+  "training_cutoff_parsed": "2023-10-01",
+  "pre_cutoff": {
+    "n": 2,
+    "accuracy": 0.0,
+    "spearman_rho": null,
+    "spearman_p": null
+  },
+  "post_cutoff": {
+    "n": 266,
+    "accuracy": 0.3684,
+    "spearman_rho": 0.0787,
+    "spearman_p": 0.201
+  },
+  "accuracy_diff_pre_minus_post": {
+    "n_a": 2,
+    "n_b": 266,
+    "n_resamples": 10000,
+    "seed": 20260709,
+    "ci_bounds": [
+      5,
+      95
+    ],
+    "point_diff": -0.3684210526315789,
+    "ci_low": -0.41729323308270677,
+    "ci_high": -0.31954887218045114,
+    "p_value": 0.0
+  },
+  "sector_split": [
+    {
+      "sector": "Consumer Staples",
+      "n_pre": 2,
+      "n_post": 15,
+      "accuracy_pre": 0.0,
+      "accuracy_post": 0.3333
+    }
+  ],
+  "recall_probe_n": 30,
+  "recall_probe_counts": {
+    "refused": 30
+  },
+  "confound_caveat": "Pre-cutoff quarters are also earlier quarters with a different volatility regime, so any pre/post accuracy gap is suggestive rather than a clean contamination test.",
+  "degenerate_split_caveat": "The pre-cutoff group has n=2 - the self-reported cutoff (October 2023) predates all but 2 of the 268 phase2 events, since the project deliberately scores 2024-2026 earnings. The pre/post accuracy diff and its bootstrap CI/p-value above are NOT a meaningful statistical test (n=2 vs n=266) and should not be cited as evidence of anything - reported for completeness only, not as a finding. LLM self-reported training cutoffs are also known to be imprecise; this is the model's own stated answer, taken at face value per the spec's own methodology, not independently verified."
+}

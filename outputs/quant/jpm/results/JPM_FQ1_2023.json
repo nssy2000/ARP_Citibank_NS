@@ -1,0 +1,58 @@
+{
+  "document_id": "JPM_FQ1_2023_QUANT",
+  "base_document_id": "JPM_FQ1_2023",
+  "issuer": "jpm",
+  "ticker": "JPM",
+  "sector": "Financials",
+  "report_date": "2023-04-14",
+  "sentiment": {
+    "score": 0.237691
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.034301,
+      "window_start_date": "2023-03-14",
+      "window_end_date": "2023-04-13",
+      "score": -0.224772,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.295911,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 21.69,
+      "matched_earnings_date": "2023-04-14",
+      "score": 0.700153,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.07,
+      "vix_score": 0.127961,
+      "tnx_change": 0.03,
+      "tnx_score": -0.059928,
+      "score": 0.034017,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.83,
+      "ffr_change": 0.26,
+      "ffr_score": -0.4777,
+      "ffr_as_of": "2023-04-13",
+      "curve_spread": -0.51,
+      "curve_score": -0.469945,
+      "curve_as_of": "2023-04-13",
+      "score": -0.473823,
+      "available": true
+    },
+    "quant_score": 0.237691,
+    "quant_score_with_macro": 0.135854,
+    "quant_score_with_fred": -0.118066,
+    "quant_score_with_macro_fred": -0.067372
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

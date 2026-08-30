@@ -1,0 +1,176 @@
+{
+  "document_id": "GIS_FQ3_2026",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "The company reaffirmed its full-year fiscal 2026 guidance, but the third-quarter results showed significant declines (organic net sales -3%, adjusted operating profit -32%, adjusted diluted EPS -37% in constant currency) and management's forward language, while confident about Q4 improvement, is hedged with multiple headwinds (tariffs, input cost inflation, supply chain disruptions). The guidance was not raised, and the reaffirmation is accompanied by cautious language about the consumer backdrop and category growth, indicating a flat-to-negative forward outlook relative to prior expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales of $4.4 billion, down 8% (including a 6-point headwind from divestitures/acquisitions and 1-point FX benefit); organic net sales down 3%.",
+    "eps": "Diluted EPS of $0.56, down 50%; adjusted diluted EPS of $0.64, down 37% in constant currency.",
+    "guidance": "Reaffirmed full-year fiscal 2026 targets: organic net sales down 1.5-2%, adjusted operating profit and adjusted diluted EPS down 16-20% in constant currency, free cash flow conversion at least 95% of adjusted after-tax earnings. Expects significant sequential improvement in Q4 driven by 53rd week, favorable timing, and market share momentum.",
+    "margin": "Gross margin down 310 bps to 30.8%; adjusted gross margin down 280 bps to 30.6%; operating profit margin down 660 bps to 11.8%; adjusted operating profit margin down 420 bps to 12.3%.",
+    "key_risks": [
+      "Higher input costs, including impact of tariffs",
+      "Unfavorable trade expense timing comparisons",
+      "Retailer inventory headwinds in NAR and Pet",
+      "Weather-related supply chain disruptions impacting service and cost structure",
+      "Divestitures (North American yogurt) reducing sales and profit",
+      "Higher effective tax rate",
+      "Consumer stress and category growth below long-term projections",
+      "Potential pre-tax loss on Brazil divestiture, including $622 million accumulated FX translation losses"
+    ],
+    "key_opportunities": [
+      "Improved brand remarkability driving volume and market share gains",
+      "Innovation pipeline (e.g., Cheerios Protein, Ghost Protein Bars, Love Made Fresh expansion)",
+      "HMM cost savings of 5% of COGS and $100 million transformation savings",
+      "53rd week benefit in Q4",
+      "Favorable timing comparisons in Q4",
+      "International growth in India and China",
+      "Portfolio shaping (Brazil divestiture) to improve margins and focus on global platforms"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses confidence in the strategy and forward outlook, stating 'we are confident in our ability to deliver improved organic sales results' and 'we expect to deliver a step up in organic sales trends and return to earnings growth' in Q4."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales were down 8% to $4.4 billion, with organic net sales down 3%.",
+      "quote": "Net sales of $4.4 billion were down 8 percent, including a 6-point headwind from the net impact of divestitures and acquisitions; organic net sales¹ were down 3 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was down 50% to $0.56; adjusted diluted EPS was down 37% in constant currency to $0.64.",
+      "quote": "Diluted earnings per share (EPS) of $0.56 were down 50 percent; adjusted diluted EPS of $0.64 was down 37 percent in constant currency",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year fiscal 2026 guidance was reaffirmed, not raised.",
+      "quote": "Based on the above assumptions, the Company reaffirmed its full-year fiscal 2026 financial targets²: • Organic net sales are expected to be down 1.5 to 2 percent. • Adjusted operating profit and adjusted diluted EPS are both expected to be down 16 to 20 percent in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin declined 310 basis points to 30.8%.",
+      "quote": "Gross margin was down 310 basis points to 30.8 percent of net sales, driven primarily by higher input costs, partially offset by the favorable impact of net price realization and mix to gross margin, including the product mix benefit from the North American Yogurt divestitures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects significant sequential improvement in Q4.",
+      "quote": "As we move to the fourth quarter, we expect to deliver a step up in organic sales trends and return to earnings growth, driven by favorable timing comparisons, the 53rd week, and our continued market share momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include higher input costs, tariffs, and supply chain disruptions.",
+      "quote": "In particular, our predictions about future net sales and earnings could be affected by a variety of factors, including: imposed and threatened tariffs by the United States and its trading partners; disruptions or inefficiencies in the supply chain; ... economic conditions, including changes in inflation rates, interest rates, tax rates, tariffs, or the availability of capital;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include innovation and cost savings.",
+      "quote": "We have really good innovation coming that is starting to ship this quarter, and we will support that with double-digit media investment, seasonal events, and really good in-store and online execution. ... We expect another year of industry-leading HMM at at least 4%.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "And as we look ahead to fiscal 2027, with our price investment work behind us, we are confident in our ability to deliver improved organic sales results while continuing to generate industry-leading cost efficiency through our Holistic Margin Management program and our global Transformation initiative.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is negative due to reaffirmed guidance and significant declines, but management's confident Q4 outlook could be seen as a positive; reviewer should weigh the hedged language and multiple headwinds."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 8,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GIS_Bundled Earnings Report_2026-03-18",
+  "report_metadata": {
+    "issuer": "p2_general_mills",
+    "company": "General Mills",
+    "ticker": "GIS",
+    "sector": "Consumer Defensive/Packaged Foods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-03-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q3\\GIS_Q3_2026_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q3\\GIS_Q3_2026_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GIS_FQ3_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100338Z",
+    "timestamp": "2026-08-09T10:04:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_general_mills\\extracted\\GIS_FQ3_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 58389,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q3\\GIS_Q3_2026_Presentation.pdf",
+        "page_count": 46,
+        "extracted_characters": 19595,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q3\\GIS_Q3_2026_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 37072,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_general_mills\\extracted\\GIS_FQ3_2026.txt"
+  }
+}

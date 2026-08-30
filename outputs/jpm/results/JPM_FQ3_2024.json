@@ -1,0 +1,211 @@
+{
+  "document_id": "JPM_FQ3_2024",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "The document reports a solid quarter with net income of $12.9 billion and revenue up 6% YoY, but forward guidance for NII ex. Markets was lowered to ~$91.5B for FY2024 (from a prior implied level), and management explicitly expects sequential declines in NII ex. Markets through mid-2025. CEO Jamie Dimon also highlighted significant geopolitical risks and stated that market levels are 'at least slightly inflated,' indicating caution on buybacks. The net effect is a mildly negative forward outlook, warranting a score near the lower boundary of neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Managed revenue of $43.3 billion, up 6% year-on-year.",
+    "eps": "Diluted EPS of $4.37, up 1% year-on-year.",
+    "guidance": "FY2024 NII ex. Markets expected to be ~$91.5B, total NII ~$92.5B; FY2024 adjusted expense ~$91.5B; FY2024 Card Services NCO rate ~3.4%. Management expects sequential declines in NII ex. Markets through mid-2025.",
+    "margin": "ROTCE of 19%; ROE of 16%; managed overhead ratio of 52%.",
+    "key_risks": [
+      "Geopolitical situation is 'treacherous and getting worse' with far-reaching effects on economic outcomes.",
+      "Large fiscal deficits, infrastructure needs, restructuring of trade, and remilitarization of the world.",
+      "Uncertainty around Basel III endgame, G-SIB surcharge, SCB, and CCAR rules.",
+      "Deposit margin compression across lines of business.",
+      "Credit normalization in Card Services with net charge-off rate expected to be ~3.4%.",
+      "Market levels are 'at least slightly inflated,' limiting buyback pace."
+    ],
+    "key_opportunities": [
+      "Investment banking fees up 31% YoY; #1 ranking for Global Investment Banking fees with 9.1% wallet share YTD.",
+      "AWM long-term net inflows of $72 billion (record) and AUM up 23%.",
+      "Strong account acquisition in Card Services (2.5 million new accounts).",
+      "Payments fees growing double-digits; investments fueling organic growth.",
+      "Opportunity to grow CCB deposit share (only ~25% of top 125 markets at 15% share).",
+      "AI investments expected to generate 'great stuff over time.'"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "CEO Jamie Dimon described geopolitical conditions as 'treacherous and getting worse' and stated 'we must be prepared for any environment,' while CFO Jeremy Barnum noted 'results will be somewhat challenged as normalization continues.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Managed revenue was $43.3 billion, up 6% year-on-year.",
+      "quote": "Net revenue - managed $43,315 ... $2,629 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $4.37, up 1% year-on-year.",
+      "quote": "Earnings per share - diluted $4.37 ... $0.04 1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2024 NII ex. Markets guidance lowered to ~$91.5B.",
+      "quote": "Expect FY2024 net interest income excluding Markets of ~$91.5B, market dependent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects sequential declines in NII ex. Markets through mid-2025.",
+      "quote": "we do see a pretty clear picture of sequential declines in NII ex. Markets, but the trough may be happening sometime in the middle of next year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE was 19%.",
+      "quote": "ROTCE2 19%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical situation is 'treacherous and getting worse.'",
+      "quote": "We have been closely monitoring the geopolitical situation for some time, and recent events show that conditions are treacherous and getting worse.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Market levels are 'at least slightly inflated,' limiting buyback pace.",
+      "quote": "given that market levels are at least slightly inflated, we maintain our modest pace of buybacks",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees up 31% YoY.",
+      "quote": "Investment Banking fees up 31% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM long-term net inflows of $72 billion (record).",
+      "quote": "long-term net inflows were a record $72 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card Services net charge-off rate expected to be ~3.4% for FY2024.",
+      "quote": "Expect FY2024 Card Services NCO rate of ~3.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "We have been closely monitoring the geopolitical situation for some time, and recent events show that conditions are treacherous and getting worse.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit margin compression is a headwind.",
+      "quote": "deposit margin compression across the lines of business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Payments fees growing double-digits.",
+      "quote": "Payments fees grew by double-digits as investments are fueling organic growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI investments expected to generate 'great stuff over time.'",
+      "quote": "AI is going to go up a little bit and I would put that as a category that just is going to generate great stuff over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of HOLD/SELL (-0.15). The guidance for NII ex. Markets was lowered, but the overall tone is not severely bearish. A human reviewer should confirm whether the cautious forward language and geopolitical risks justify a SELL signal or if the strong operational performance keeps it in HOLD."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2024-10-11",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-10-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\2024-Q3\\jpm-3q24-press-release.pdf",
+        "pub_date": "2024-10-11"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\2024-Q3\\jpm-3q24-presentation.pdf",
+        "pub_date": "2024-10-11"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\2024-Q3\\jpm-3q24-earnings-call-transcript.pdf",
+        "pub_date": "2024-10-11"
+      }
+    ],
+    "document_id": "JPM_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T131706Z",
+    "timestamp": "2026-07-08T13:20:04Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\2024-Q3\\jpm-3q24-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\2024-Q3\\jpm-3q24-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 24212,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\2024-Q3\\jpm-3q24-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 20063,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\2024-Q3\\jpm-3q24-earnings-call-transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 85450,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2024.txt"
+  }
+}

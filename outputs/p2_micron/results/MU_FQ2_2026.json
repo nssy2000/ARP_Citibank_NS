@@ -1,0 +1,198 @@
+{
+  "document_id": "MU_FQ2_2026",
+  "sentiment": {
+    "score": 0.85,
+    "rationale": "Guidance was raised dramatically: FQ3 revenue guidance of $33.5B is up ~40% sequentially from FQ2's $23.86B, and EPS guidance of $19.15 is up ~57% sequentially. Management language is highly confident, citing 'exceptional records' and 'unprecedented' opportunities, with no material risks raised beyond supply constraints. The improvement is organic, driven by AI demand and pricing, not FX or one-time items."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$23.86 billion for FQ2-26, up 75% sequentially and 196% year-over-year.",
+    "eps": "Non-GAAP diluted EPS of $12.20, up 155% sequentially and 682% year-over-year.",
+    "guidance": "FQ3-26 revenue guidance of $33.5 billion ± $750 million, gross margin approximately 81%, non-GAAP EPS of $19.15 ± $0.40.",
+    "margin": "Non-GAAP gross margin of 74.9% for FQ2-26, up 18 percentage points sequentially; operating margin of 69%.",
+    "key_risks": [
+      "Supply constraints limiting ability to meet customer demand (e.g., fulfilling only 50-66% of demand for some key customers).",
+      "Potential PC and smartphone unit declines in low-double-digits in calendar 2026 due to supply constraints.",
+      "Trade or geopolitical developments not included in guidance.",
+      "Higher capex and R&D investments could pressure future cash flows."
+    ],
+    "key_opportunities": [
+      "AI-driven demand for memory and storage across data center, PC, mobile, and automotive.",
+      "HBM4 volume shipments and HBM4E development for AI compute platforms.",
+      "Data center SSD market share growth and NAND demand exceeding supply.",
+      "Strategic customer agreements (SCAs) providing multi-year visibility and stability.",
+      "Expansion of global manufacturing footprint to address long-term demand."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'exceptional fiscal Q2,' 'stellar records,' and 'we anticipate exceptional records again in fiscal Q3,' reflecting strong confidence in the business outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for FQ2-26 was $23.86 billion, up 75% sequentially and 196% year-over-year.",
+      "quote": "Revenue of $23.86 billion versus $13.64 billion for the prior quarter and $8.05 billion for the same period last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP diluted EPS for FQ2-26 was $12.20, up 155% sequentially and 682% year-over-year.",
+      "quote": "Non-GAAP diluted earnings per share in fiscal Q2 was $12.20, with 155% sequential growth and 682% growth versus the year-ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ3-26 revenue guidance is $33.5 billion ± $750 million, with gross margin approximately 81% and non-GAAP EPS of $19.15 ± $0.40.",
+      "quote": "We expect fiscal Q3 revenue to be a record $33,500,000,000, plus or minus $750,000,000, gross margin to be approximately 81%, and operating expenses to be approximately $1,400,000,000. Based on a share count of 1,150,000,000 shares, we expect EPS to be a record $19.15 per share, plus or minus $0.40.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP gross margin for FQ2-26 was 74.9%, up 18 percentage points sequentially.",
+      "quote": "The consolidated gross margin for fiscal Q2 was 75%, up 18 percentage points sequentially. This improvement was driven primarily by higher pricing and also included favorable mix and cost performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the business outlook, citing 'exceptional' results and 'unprecedented' opportunities.",
+      "quote": "Micron delivered an exceptional fiscal Q2, with stellar records in revenue, gross margin, EPS and free cash flow. ... We see an unprecedented set of opportunities for memory and storage to enable the AI era across market segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply constraints are limiting ability to meet customer demand, with some key customers receiving only 50-66% of their demand.",
+      "quote": "What we have said in the last earnings call is that some of our key customers, we are able to fulfill only 50% to two-thirds of their demand in the medium term. And yes, that still remains the case.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PC and smartphone units may decline in low-double-digits in calendar 2026 due to supply constraints.",
+      "quote": "In calendar 2026, a number of factors, including DRAM and NAND supply constraints, could cause PC and smartphone units to decline in the low-double-digits percentage range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trade or geopolitical developments are not included in guidance.",
+      "quote": "Any impacts that may occur due to trade or geopolitical developments are not included in our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "HBM4 volume shipments have begun, and HBM4E development is underway.",
+      "quote": "At NVIDIA's GTC, we announced that Micron has begun volume shipments of its HBM4 36GB 12H in the first quarter of calendar year 2026 and is designed for the NVIDIA Vera Rubin. ... Development of HBM4E, our next-generation HBM product, is well underway, and we expect to ramp volume in calendar 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data center SSD market share increased for the fourth consecutive year, and NAND demand exceeds supply.",
+      "quote": "Our data center SSD market share increased for the fourth consecutive calendar year in 2025, to a new record. ... We are now seeing NAND demand significantly in excess of our available supply for the foreseeable future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strategic customer agreements (SCAs) provide multi-year visibility and stability.",
+      "quote": "We continue to work with customers on strategic customer agreements — or SCAs — that are different from prior LTAs and have specific commitments over a multi-year time horizon for improved visibility and stability in our business model. ... We are excited to have signed our first five-year SCA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capex for fiscal 2026 is expected to be above $25 billion, with construction spend increasing significantly.",
+      "quote": "We expect fiscal 2026 capex to be above $25 billion. ... We expect construction-related capex to increase by over $10 billion year-over-year in fiscal 2027 as we build out our global manufacturing sites to address long-term demand opportunities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is high (0.85) but within the range for a strong guidance raise; verify that the guidance increase is organic and not overstated."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Risk list includes supply constraints and potential unit declines; ensure these are not double-counted or overstated."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MU_Bundled Earnings Report_2026-03-18",
+  "report_metadata": {
+    "issuer": "p2_micron",
+    "company": "Micron",
+    "ticker": "MU",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-03-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q2\\MU_FY2026_Q2_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q2\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MU_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T101354Z",
+    "timestamp": "2026-08-09T10:14:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_micron\\extracted\\MU_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 16015,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q2\\MU_FY2026_Q2_Presentation.pdf",
+        "page_count": 45,
+        "extracted_characters": 29171,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q2\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 46110,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_micron\\extracted\\MU_FQ2_2026.txt"
+  }
+}

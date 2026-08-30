@@ -1,0 +1,227 @@
+{
+  "document_id": "BA_FQ3_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports a $4.9 billion charge on the 777X program and a delay in first delivery to 2027, which is a significant negative forward-looking event. While the company generated positive free cash flow in the quarter and raised 737 production rates, the 777X charge and schedule delay represent a major structural risk that overshadows these improvements. The company's guidance for 2025 free cash flow was updated to a usage of about $2.5 billion, which is better than the prior $3 billion usage, but this improvement is partly attributed to a DOJ payment shifting to Q4, not purely organic. The overall tone is mixed, with management expressing disappointment about the 777X delay, which is a clear negative signal for forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$23.3 billion, up 30% year-over-year, primarily reflecting 160 commercial deliveries.",
+    "eps": "GAAP loss per share of ($7.14) and core loss per share (non-GAAP) of ($7.47), primarily reflecting a $4.9 billion charge on the 777X program.",
+    "guidance": "2025 free cash flow usage updated to about $2.5 billion, better than prior $3 billion usage. 777X first delivery now expected in 2027. 737 production rate increased to 42 per month. 737-7 and 737-10 certification expected in 2026.",
+    "margin": "GAAP operating margin of (20.5)% and core operating margin (non-GAAP) of (21.7)%, impacted by the 777X charge.",
+    "key_risks": [
+      "777X certification delay and $4.9 billion charge, with first delivery now expected in 2027.",
+      "IAM-represented workforce strike in St. Louis.",
+      "Potential DOJ payment of $700 million in Q4.",
+      "Continued supply chain constraints, particularly for seats on the 787.",
+      "Uncertainty around certification of 737-7 and 737-10, though expected in 2026."
+    ],
+    "key_opportunities": [
+      "737 production rate increased to 42 per month, with potential for further increases.",
+      "787 production stabilizing at 7 per month, with plans to move to 8 and then 10.",
+      "Defense, Space & Security backlog grew to a record $76 billion.",
+      "Global Services continues to deliver strong performance with 17.5% operating margin.",
+      "Strong demand reflected in total company backlog of $636 billion."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses disappointment about the 777X delay ('While we are disappointed in the 777X schedule delay') but also highlights progress and confidence in other areas ('We're turning the corner... we're well aware of the work ahead')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $23.3 billion, up 30% year-over-year.",
+      "quote": "Revenue increased to $23.3 billion primarily reflecting 160 commercial deliveries.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($7.14) and core loss per share was ($7.47).",
+      "quote": "GAAP loss per share of ($7.14) and core loss per share (non-GAAP)* of ($7.47) primarily reflect a pre-tax earnings charge of $4.9 billion on the 777X program, which increased the loss per share by $6.45.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 free cash flow guidance was updated to a usage of about $2.5 billion.",
+      "quote": "Net-net, even with the higher CapEx, our better-than-expected performance year-to-date supports updating our 2025 outlook to a free cash flow usage of about $2.5 billion, barring the impact of a prolonged government shutdown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777X first delivery is now expected in 2027.",
+      "quote": "We now anticipate first delivery of the 777-9 will occur in 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (20.5)%.",
+      "quote": "Operating margins (20.5) % (32.3) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 777X program recorded a $4.9 billion charge.",
+      "quote": "Earnings reflects impact of $4.9 billion charge associated with updated 777X certification timing",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The IAM-represented workforce is on strike in St. Louis.",
+      "quote": "In St. Louis, we are executing our contingency plan, as our IAM-represented workforce remains on strike.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is a potential DOJ payment of $700 million in Q4.",
+      "quote": "And finally, we've got the DOJ payment. We've talked that in the past, which is about $700 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain constraints exist, particularly for seats on the 787.",
+      "quote": "I do think on 787, the move from 8 to 10 will be more challenging for us with the supply chain, particularly seats.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737-7 and 737-10 certification is expected in 2026.",
+      "quote": "As we previously shared, we anticipate certification for the 737-7 and the 737-10 to happen in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production rate was increased to 42 per month.",
+      "quote": "jointly agreed with FAA in October to increase to 42 per month",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security backlog grew to a record $76 billion.",
+      "quote": "Backlog at Defense, Space & Security grew to $76 billion with 20 percent representing orders from customers outside the U.S.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 17.5%.",
+      "quote": "Operating margin of 17.5 percent primarily reflects favorable commercial volume and mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog is $636 billion.",
+      "quote": "Total company backlog at quarter end was $636 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, expressing disappointment about 777X but highlighting progress elsewhere.",
+      "quote": "While we are disappointed in the 777X schedule delay, the airplane continues to perform well in flight testing, and we remain focused on the work ahead to complete our development programs and stabilize our operations in order to fully recover our company's performance and restore trust with all of our stakeholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is driven by the 777X charge and delay, but the company also reported positive free cash flow and a production rate increase. A reviewer should confirm that the negative weight on the 777X issue is appropriate relative to the positive operational momentum."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "ensemble": {
+    "n_runs": 3,
+    "scores": [
+      -0.5,
+      -0.5,
+      -0.5
+    ],
+    "signals": [
+      "SELL",
+      "SELL",
+      "SELL"
+    ],
+    "mean_score": -0.5,
+    "score_range": 0.0,
+    "signal_agreement": true
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q3\\3Q25-Press-Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q3\\3Q25-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q3\\Transcript.pdf"
+      }
+    ],
+    "document_id": "BA_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T192619Z",
+    "timestamp": "2026-07-02T19:29:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q3\\3Q25-Press-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing_ensemble3\\extracted\\BA_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q3\\3Q25-Press-Release.pdf",
+        "page_count": 13,
+        "extracted_characters": 27155,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q3\\3Q25-Presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 8794,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q3\\Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 78790,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing_ensemble3\\extracted\\BA_FQ3_2025.txt"
+  }
+}

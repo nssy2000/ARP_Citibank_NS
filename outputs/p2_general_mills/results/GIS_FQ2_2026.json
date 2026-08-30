@@ -1,0 +1,221 @@
+{
+  "document_id": "GIS_FQ2_2026",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The company reported Q2 results that were ahead of expectations, with organic volume flat and organic net sales down only 1%, and management expressed confidence in improving momentum. However, full-year guidance was reaffirmed, not raised, and management explicitly noted that the Q2 profit favorability is expected to unwind in Q3 due to timing. The forward outlook is cautiously optimistic but unchanged, so the score is modestly positive but below the threshold for a stronger signal."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 net sales of $4.9 billion, down 7% (organic net sales down 1%). Six-month net sales of $9.4 billion, down 7% (organic net sales down 2%).",
+    "eps": "Q2 diluted EPS of $0.78, down 45%; adjusted diluted EPS of $1.10, down 21% in constant currency. Six-month diluted EPS of $3.00, up 22%; adjusted diluted EPS of $1.96, down 21% in constant currency.",
+    "guidance": "Reaffirmed full-year fiscal 2026 targets: organic net sales growth between -1% and +1%; adjusted operating profit and adjusted diluted EPS down 10-15% in constant currency; free cash flow conversion at least 95% of adjusted after-tax earnings.",
+    "margin": "Q2 gross margin down 210 bps to 34.8%; adjusted gross margin down 150 bps to 34.8%. Q2 operating profit margin down 560 bps to 15.0%; adjusted operating profit margin down 290 bps to 17.4%.",
+    "key_risks": [
+      "Higher input costs, including tariffs, expected to pressure margins.",
+      "Unfavorable trade expense timing comparison from fiscal 2025.",
+      "Consumer weakness, particularly among households earning under $100,000.",
+      "Category growth below long-term projections, with cereal category still lagging.",
+      "Potential reversal of Q2 profit favorability in Q3.",
+      "Competitive dynamics and potential price reductions by peers.",
+      "Volatility in foreign currency exchange rates.",
+      "Supply chain disruptions or inefficiencies.",
+      "Changes in consumer behavior, including shifts to e-commerce in Pet.",
+      "Impairment charges and restructuring costs."
+    ],
+    "key_opportunities": [
+      "Investments in brand remarkability driving volume growth in North America Retail.",
+      "Innovation pipeline expected to generate 25% increase in sales from new products.",
+      "Strong performance in International segment, with growth in Brazil, China, India, and North Asia.",
+      "Launch of Love Made Fresh in fresh pet food, with strong early results.",
+      "Holistic Margin Management cost savings of 5% of COGS.",
+      "53rd week in fiscal 2026 providing a tailwind.",
+      "Improved pound share in 8 of top 10 U.S. categories in North America Retail.",
+      "Growth in North America Pet, with organic net sales up 1% in Q2."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in execution and momentum, stating 'Our team continued to execute exceptionally well in a volatile operating environment, delivering results ahead of our expectations in the second quarter,' and reaffirmed full-year outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 net sales were $4.9 billion, down 7%.",
+      "quote": "Net sales of $4.9 billion were down 7 percent, including a 6-point headwind from the net impact of divestitures and acquisitions; organic net sales¹ were down 1 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 diluted EPS was $0.78, down 45%.",
+      "quote": "Diluted earnings per share (EPS) of $0.78 were down 45 percent; adjusted diluted EPS of $1.10 was down 21 percent in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was reaffirmed.",
+      "quote": "Based on the above assumptions, the Company reaffirmed its full-year fiscal 2026 financial targets²: • Organic net sales are expected to range between down 1 percent and up 1 percent. • Adjusted operating profit and adjusted diluted EPS are both expected to be down 10 to 15 percent in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 gross margin decreased 210 basis points to 34.8%.",
+      "quote": "Gross margin was down 210 basis points to 34.8 percent of net sales, driven by higher input costs and unfavorable mark-to-market effects, partially offset by the favorable impact of net price realization and mix to gross margin, largely due to a product mix benefit from the North American Yogurt divestitures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 operating profit margin decreased 560 basis points to 15.0%.",
+      "quote": "Operating profit margin of 15.0 percent was down 560 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 results were ahead of expectations.",
+      "quote": "Our team continued to execute exceptionally well in a volatile operating environment, delivering results ahead of our expectations in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 profit favorability is expected to unwind in Q3.",
+      "quote": "We do expect all of those to reverse. So that favorability that we saw in the quarter against our expectations, we do expect to reverse in Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer weakness is a risk, particularly for lower-income households.",
+      "quote": "I mean, this is no surprise, I don't think, but continue to see consumer weakness, particularly for those making under $100,000 a year. Those in the kind of the middle and lower income range. We continue to see that consumer being stretched even as consumers in the higher end of the range are faring a lot better with the current stock market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Innovation is expected to drive a 25% increase in sales from new products.",
+      "quote": "This includes strong innovation plans that are expected to generate a 25 percent increase in sales from new products in fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America Retail grew pound share in 8 of top 10 categories.",
+      "quote": "Increased consumer value, innovation, and product news drove strong pound competitiveness in the quarter, with the segment holding or gaining pound share in 8 of its top 10 U.S. categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International segment grew organic net sales 4% in Q2.",
+      "quote": "Organic net sales were up 4 percent, driven by growth in Brazil, China, India, and North Asia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Love Made Fresh launch is progressing well.",
+      "quote": "Our Love Made Fresh launch has reached about 5% market share and our earliest first wave customers. We prioritize having plenty of inventory across our business in Love Made Fresh, because we know the trial is so important for our business. 4.8 out of 5 star ratings on our products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "HMM cost savings are expected to be 5% of COGS.",
+      "quote": "The Company expects the combination of these growth investments, input cost inflation (including the impact of tariffs), and normalization of corporate incentive expense will outpace its expectation for Holistic Margin Management cost savings of 5 percent of cost of goods sold, $100 million in global transformation and other efficiency savings, and benefits from a 53rd week in fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "53rd week provides a tailwind in Q4.",
+      "quote": "As you step into Q4, you have 2 big factors to keep in focus. We'll see about $100 million favorable tailwind from that trade expense timing due to the phasing impact of last year's investment and the 53rd week, which will also be a pretty significant tailwind.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "Our team continued to execute exceptionally well in a volatile operating environment, delivering results ahead of our expectations in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is slightly positive but below the BUY threshold; verify that the reaffirmed guidance and expected Q3 reversal justify not scoring higher."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GIS_Bundled Earnings Report_2025-12-17",
+  "report_metadata": {
+    "issuer": "p2_general_mills",
+    "company": "General Mills",
+    "ticker": "GIS",
+    "sector": "Consumer Defensive/Packaged Foods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2025-12-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q2\\GIS_Q2_2026_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q2\\GIS_Q2_2026_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GIS_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100338Z",
+    "timestamp": "2026-08-09T10:03:54Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_general_mills\\extracted\\GIS_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 55953,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q2\\GIS_Q2_2026_Presentation.pdf",
+        "page_count": 44,
+        "extracted_characters": 16897,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\general_mills\\CY2026-Q2\\GIS_Q2_2026_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 35096,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_general_mills\\extracted\\GIS_FQ2_2026.txt"
+  }
+}

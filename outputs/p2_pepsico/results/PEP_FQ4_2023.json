@@ -1,0 +1,198 @@
+{
+  "document_id": "PEP_FQ4_2023",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Guidance was lowered: organic revenue growth guidance was reduced to 'at least 4 percent' from a prior expectation of 'upper end' of the long-term algorithm, and core constant currency EPS growth was set at 'at least 8 percent', which implies 2024 core EPS of at least $8.15, a 7% increase versus 2023 core EPS of $7.62. Management explicitly cited a 'slowdown in the U.S.' and the Quaker recall as ongoing headwinds. The guidance reduction and cautious forward language drive a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2023 net revenue $27,850 million, a decrease of 0.5% reported; full-year 2023 net revenue $91,471 million, an increase of 5.9% reported. Organic revenue growth was 4.5% in Q4 and 9.5% for the full year.",
+    "eps": "Q4 2023 GAAP EPS $0.94, up 152% (prior year included impairment charges); core EPS $1.78, up 7% year-over-year. Full-year 2023 GAAP EPS $6.56, up 2%; core EPS $7.62, up 12%.",
+    "guidance": "For 2024, expects at least 4% organic revenue growth, at least 8% core constant currency EPS growth, a core annual effective tax rate of 20%, and total cash returns to shareholders of approximately $8.2 billion. Implies 2024 core EPS of at least $8.15, a 7% increase versus 2023 core EPS of $7.62.",
+    "margin": "Not disclosed as a standalone metric; core gross margin growth was 30 bps in Q4 and 60 bps for the full year; core operating margin growth was 30 bps in Q4 and 10 bps for the full year.",
+    "key_risks": [
+      "Quaker Foods North America voluntary recall of certain bars and cereals, expected to negatively impact unit volume, net revenue, and operating profit in 2024.",
+      "Slowdown in the U.S. food and beverage categories in Q4, partly due to pricing and disposable income pressures, expected to continue in 2024.",
+      "Geopolitical events impacting some international markets, potentially continuing in the first half of 2024.",
+      "Foreign exchange translation headwind of approximately 1 percentage point on reported net revenue and core EPS growth in 2024.",
+      "Higher commodity costs in certain divisions, e.g., cooking oil, seasoning ingredients, potatoes, sweeteners, packaging materials."
+    ],
+    "key_opportunities": [
+      "International business (approximately 40% of total revenue) expected to grow faster than the U.S. business in 2024.",
+      "Frito-Lay North America expected to return to profitable volume growth in 2024, with strong commercial plans and increased A&M investment.",
+      "PepsiCo Beverages North America margin improvement through portfolio optimization, supply chain digitalization, and G&A reduction.",
+      "Innovation and brand relaunches (e.g., Pepsi Zero, Mountain Dew Baja Blast, Starry, Gatorade ecosystem) expected to drive top-line growth.",
+      "Away-from-home channel growth as consumer mobility normalizes, with PepsiCo investing in distribution and specific solutions."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management lowered guidance and explicitly cited multiple headwinds (Quaker recall, U.S. slowdown, geopolitical events) while expressing confidence in long-term strategy, e.g., 'we now expect to deliver at least 4 percent organic revenue growth' and 'we are confident that our businesses will perform well in 2024 in the context of changing marketplace conditions.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Guidance was lowered: organic revenue growth guidance reduced to 'at least 4%' from prior expectation of 'upper end'.",
+      "quote": "For 2024, we now expect to deliver at least 4 percent organic revenue growth and at least 8 percent core constant currency EPS growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited a slowdown in the U.S. as a reason for the guidance reduction.",
+      "quote": "We're also seeing a bit of a slowdown in the U.S. both the food category and the beverage category in the Q4. Part of that is slowdown due to pricing and disposable income situation. ... We think that, that might continue in next year, so that's why we're lowering our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Quaker recall is expected to negatively impact results in 2024.",
+      "quote": "In 2024, unit volume, net revenue and operating profit will continue to be negatively impacted by the Quaker Recall due to lower sales and additional charges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 net revenue was $27,850 million, a decrease of 0.5% reported.",
+      "quote": "Net Revenue $ 27,850 $ 27,996 ... Net revenue performance (0.5)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2023 net revenue was $91,471 million, an increase of 5.9% reported.",
+      "quote": "Net Revenue $ 91,471 $ 86,392 ... Net revenue performance 5.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 GAAP EPS was $0.94, up 152%.",
+      "quote": "Earnings per share (EPS) $0.94 ... EPS change 152%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2023 GAAP EPS was $6.56, up 2%.",
+      "quote": "Earnings per share (EPS) $6.56 ... EPS change 2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core EPS for Q4 2023 was $1.78, up 7% year-over-year.",
+      "quote": "Core EPS $1.78 ... Core constant currency EPS change 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2023 core EPS was $7.62, up 12%.",
+      "quote": "Core EPS $7.62 ... Core constant currency EPS change 14%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 guidance implies core EPS of at least $8.15, a 7% increase.",
+      "quote": "This assumption and the guidance above imply 2024 core EPS of at least $8.15, a 7 percent increase compared to 2023 core EPS of $7.62.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core gross margin growth was 30 bps in Q4 and 60 bps for the full year.",
+      "quote": "Core gross margin growth, non-GAAP measure (a) 30 bps 60 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin growth was 30 bps in Q4 and 10 bps for the full year.",
+      "quote": "Core operating margin growth, non-GAAP measure (a) 30 bps 10 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business is approximately 40% of total revenue and expected to grow faster than the U.S.",
+      "quote": "40% of our business is now international. ... '24, we continue to think that international will grow faster than the U.S. business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Frito-Lay North America expected to return to profitable volume growth in 2024.",
+      "quote": "We're seeing the Frito business going back to profitable volume growth in '24. So that's how we're thinking about the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "We now expect to deliver at least 4 percent organic revenue growth ... we are confident that our businesses will perform well in 2024 in the context of changing marketplace conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the guidance reduction and cautious language. A reviewer may want to confirm that the guidance reduction is indeed a material change from prior guidance, as the document does not explicitly state the prior guidance figure for organic revenue growth, only that it was 'upper end' of the long-term algorithm."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2024-02-09",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2024-02-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q4\\PEP-8K-EX99.1-2023-Q4-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q4\\PEP-Q4-2023-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ4_2023"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:46:00Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q4\\PEP-8K-EX99.1-2023-Q4-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q4\\PEP-8K-EX99.1-2023-Q4-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 57572,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q4\\PEP-Q4-2023-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 48797,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ4_2023.txt"
+  }
+}

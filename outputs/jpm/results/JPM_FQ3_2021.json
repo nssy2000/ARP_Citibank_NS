@@ -1,0 +1,206 @@
+{
+  "document_id": "JPM_FQ3_2021",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document reports strong absolute results (net income $11.7B, EPS $3.74) and a net credit reserve release of $2.1B, but management explicitly states these reserve releases are 'not core or recurring profits' and 'may continue to introduce quarterly volatility.' Forward guidance is limited: FY2021 NII is expected to be ~$52.5B and adjusted expense ~$71B, both described as 'market dependent,' with no upward revision relative to prior guidance. The tone is confident on current performance but cautious on the sustainability of reserve-driven earnings, resulting in a neutral forward outlook."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $29.6 billion; managed revenue of $30.4 billion, up 2% YoY.",
+    "eps": "Reported EPS of $3.74 per share, up from $2.92 in 3Q20. Excluding significant items, EPS of $3.03.",
+    "guidance": "FY2021 net interest income expected to be ~$52.5B, market dependent. FY2021 adjusted expense expected to be ~$71B, market dependent. FY2021 Card NCO rate expected to be ~2.0%.",
+    "margin": "Reported overhead ratio of 58%; managed overhead ratio of 56%. ROE 18%, ROTCE 22% (18% excluding significant items).",
+    "key_risks": [
+      "Delta variant and supply chain disruptions dampening economic growth.",
+      "Credit reserve releases are not core or recurring profits and may introduce quarterly volatility.",
+      "Deposit margin compression across segments.",
+      "Lower net interest income in CIB Markets and Home Lending revenue decline.",
+      "Limited deployment opportunities for excess deposits in Corporate segment."
+    ],
+    "key_opportunities": [
+      "Strong investment banking fees driven by M&A and IPO activity.",
+      "Equity Markets revenue up 30% YoY with strong performance across products.",
+      "Consumer spending growth: debit and credit card sales volume up 26%.",
+      "Asset & Wealth Management AUM up 17% with strong net inflows.",
+      "Branch expansion into new U.S. markets and international digital retail bank launch in the U.K."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jamie Dimon stated 'JPMorgan Chase delivered strong results as the economy continues to show good growth,' and highlighted strategic investments and expansion, reflecting confidence in the firm's position."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $29.6 billion; managed revenue was $30.4 billion, up 2% YoY.",
+      "quote": "Net revenue - reported $29,647; Net revenue - managed $30,441; Net revenue was $30.4 billion, up 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $3.74, up from $2.92 in 3Q20.",
+      "quote": "Earnings per share - diluted $3.74; Net income was $11.7 billion, up $2.2 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2021 NII guidance is ~$52.5B, market dependent.",
+      "quote": "Expect FY2021 net interest income to be ~$52.5B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2021 adjusted expense guidance is ~$71B, market dependent.",
+      "quote": "Expect FY2021 adjusted expense of ~$71B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2021 Card NCO rate expected to be ~2.0%.",
+      "quote": "Expect FY2021 Card NCO rate of ~2.0%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio 58%; managed overhead ratio 56%.",
+      "quote": "3Q21 expense of $17.1 billion; reported overhead ratio of 58%; managed overhead ratio of 56%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE 18%, ROTCE 22% (18% excluding significant items).",
+      "quote": "ROE 18% ROTCE 22%; Excluding significant items: 3Q21 net income of $9.6 billion, EPS of $3.03 and ROTCE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit reserve releases are not core or recurring profits and may introduce quarterly volatility.",
+      "quote": "As we have said before, however, we do not consider these scenario-driven releases core or recurring profits. These reserve calculations... may continue to introduce quarterly volatility in our reserves.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Delta variant and supply chain disruptions are dampening economic growth.",
+      "quote": "JPMorgan Chase delivered strong results as the economy continues to show good growth - despite the dampening effect of the Delta variant and supply chain disruptions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit margin compression is a headwind across segments.",
+      "quote": "Consumer & Business Banking net revenue was $6.2 billion, up 8%, driven by growth in deposit balances and client investment assets as well as increased debit transactions, partially offset by deposit margin compression.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees were strong, driven by M&A and IPO activity.",
+      "quote": "In the Corporate & Investment Bank, Global IB fees were up 52% driven by a surge in M&A activity and our strong performance in IPOs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equity Markets revenue up 30% YoY.",
+      "quote": "Equity Markets revenue was $2.6 billion, up 30%, driven by strong performance across products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer spending growth: debit and credit card sales volume up 26%.",
+      "quote": "Debit and credit card sales volume up 26%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM AUM up 17% with strong net inflows.",
+      "quote": "Assets under management (AUM) of $3.0 trillion, up 17%, driven by higher market levels, as well as cumulative net inflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Branch expansion into new U.S. markets and international digital retail bank launch in the U.K.",
+      "quote": "We are more than halfway through our plan to open 400 branches in new markets by the end of 2022... We are also expanding our retail presence internationally, most recently launching our digital retail bank in the U.K.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "JPMorgan Chase delivered strong results as the economy continues to show good growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.00 despite strong absolute results because forward guidance is not raised and management explicitly cautions that reserve releases are non-recurring. A reviewer may wish to confirm that the neutral score is appropriate given the strong backward-looking performance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2021-10-13",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2021",
+    "report_date": "2021-10-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q3\\jpm-3q21-press-release.html",
+        "pub_date": "2021-10-13"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q3\\jpm-3q21-presentation.html",
+        "pub_date": "2021-10-13"
+      }
+    ],
+    "document_id": "JPM_FQ3_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144020Z",
+    "timestamp": "2026-07-09T14:41:23Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q3\\jpm-3q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q3\\jpm-3q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25166,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q3\\jpm-3q21-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 19047,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2021.txt"
+  }
+}

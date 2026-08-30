@@ -1,0 +1,190 @@
+{
+  "document_id": "NFLX_FQ1_2024",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: revenue grew 15% reported in Q1, full-year revenue guidance is healthy double-digit growth, and margin guidance was raised from 24% to 25%. Management expresses confidence in sustaining healthy double-digit revenue growth and growing margins each year. However, the guidance raise is modest (margin up 1 point) and management attributes some revenue deceleration to tough comps and FX headwinds, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "15% reported revenue growth in Q1 2024; full-year revenue growth guided at 13% to 15%.",
+    "eps": "Not disclosed",
+    "guidance": "Full-year revenue growth guided at 13% to 15%; margin target raised to 25% from 24%; management expects to sustain healthy double-digit revenue growth.",
+    "margin": "Operating margin target raised to 25% for 2024, up from 24% at the start of the year; 21% in 2023, up from 18% in 2022.",
+    "key_risks": [
+      "FX headwinds from strengthening dollar",
+      "Tough comps in the back half of 2024",
+      "Under-monetization of ads tier relative to supply",
+      "Plan mix shift and country mix shift pressuring ARM growth",
+      "Paid sharing impact on absolute view hours"
+    ],
+    "key_opportunities": [
+      "Hundreds of millions of homes not yet Netflix members",
+      "Advertising tier scaling rapidly (65% QoQ growth)",
+      "Opportunity to improve monetization of ads tier over time",
+      "Live programming (Jake Paul-Mike Tyson fight, WWE Raw) as new engagement driver",
+      "Continued content investment and licensing opportunities",
+      "Pricing power in mature markets"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'feel really good about where we are in our growth outlook' and 'we see a lot of runway to continue to grow profit and profit margin over the long term.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue grew 15% reported in Q1 2024.",
+      "quote": "15% reported revenue growth in the quarter, strong outlook for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year revenue guidance is 13% to 15% growth.",
+      "quote": "13% to 15% revenue growth through the full year compared with the 15% to 16% growth in the first and second quarters of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin target raised to 25% from 24%.",
+      "quote": "And now we're targeting 25% this year, which is up a tick from the start of the year when we were guiding to 24%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in sustaining healthy double-digit revenue growth.",
+      "quote": "We're going to work hard to sustain healthy double-digit revenue growth for our business. And we really like the kind of the opportunity ahead of us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX headwinds from strengthening dollar are a risk.",
+      "quote": "There's been some FX that -- with the strengthening dollar. That's a bit of a headwind, so we'll see where that goes throughout the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tough comps in the back half of 2024 are a risk.",
+      "quote": "Our growth in the back half of '24 is really kind of comping off of those hard comps.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Under-monetization of ads tier relative to supply is a risk.",
+      "quote": "We've been growing our inventory at quite a fast clip. And so, monetization hasn't fully kept up with that growth in scale and inventory as we're still early in building out our sales capabilities and our ad products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Plan mix shift and country mix shift are pressuring ARM growth.",
+      "quote": "We also have some country mix shifts. So, that whole combination of factors results in pretty modest ARM growth -- still some ARM growth but pretty modest in Q1 and probably throughout the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid sharing impact on absolute view hours is a risk.",
+      "quote": "When you see our next engagement report, you are going to see some impact to our overall absolute view hours as a result of that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hundreds of millions of homes not yet Netflix members is an opportunity.",
+      "quote": "There's still hundreds of millions of homes that are not Netflix members, and we're just getting started on advertising.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising tier scaling rapidly with 65% QoQ growth.",
+      "quote": "We're 65% up quarter to quarter this last quarter. That's after two quarters of about 70% quarter-over-quarter growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Opportunity to improve monetization of ads tier over time.",
+      "quote": "The revenue is going to follow engagement over time, and it's already kind of growing nicely, which is great just off a small base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live programming as new engagement driver.",
+      "quote": "We've got several nights of live comedy coming from the Netflix Is A Joke Festival next month. And starting in January, we've got 52 weeks of live sports with WWE Raw that's going to be coming to our members every week on Netflix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued content investment and licensing opportunities.",
+      "quote": "The floodgates have opened a little more on licensing for sure. But again, we're very focused on the ones that we think will drive the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pricing power in mature markets is an opportunity.",
+      "quote": "We don't have a set position on a ceiling. ... We see it as an opportunity to continue the process that we've been working on, which is let's continue to try and invest wisely, add more entertainment value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I feel really good about where we are in our growth outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on a modest margin guidance raise and confident language, but the revenue guidance deceleration and FX headwinds could justify a slightly lower score. Reviewer should confirm the balance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2024-04-18",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2024",
+    "report_date": "2024-04-18",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2024-Q1\\nflx-1q24-transcript.html",
+        "pub_date": "2024-04-18"
+      }
+    ],
+    "document_id": "NFLX_FQ1_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T145602Z",
+    "timestamp": "2026-07-08T14:57:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2024-Q1\\nflx-1q24-transcript.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2024-Q1\\nflx-1q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 53139,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2024.txt"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "document_id": "CL_FQ2_2026_QUANT",
+  "base_document_id": "CL_FQ2_2026",
+  "issuer": "p2_colgate_palmolive",
+  "ticker": "CL",
+  "sector": "Consumer Defensive/Household Products",
+  "report_date": "2026-07-31",
+  "sentiment": {
+    "score": 0.1058
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.004855,
+      "window_start_date": "2026-06-30",
+      "window_end_date": "2026-07-30",
+      "score": 0.032357,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.266793,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 4.53,
+      "matched_earnings_date": "2026-07-31",
+      "score": 0.179243,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 15.99,
+      "vix_score": 0.198016,
+      "tnx_change": 0.27,
+      "tnx_score": -0.492988,
+      "score": -0.147486,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.63,
+      "ffr_change": -0.01,
+      "ffr_score": 0.019997,
+      "ffr_as_of": "2026-07-07",
+      "curve_spread": 0.35,
+      "curve_score": 0.336376,
+      "curve_as_of": "2026-07-08",
+      "score": 0.178186,
+      "available": true
+    },
+    "quant_score": 0.1058,
+    "quant_score_with_macro": -0.020843,
+    "quant_score_with_fred": 0.141993,
+    "quant_score_with_macro_fred": 0.0455
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

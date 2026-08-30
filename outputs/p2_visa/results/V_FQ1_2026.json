@@ -1,0 +1,242 @@
+{
+  "document_id": "V_FQ1_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Visa raised its full-year net revenue and EPS guidance, with management explicitly stating 'we are increasing our total net revenue and EPS guide for the full year' and now expecting 'low-double-digit to low-teens' net revenue growth and 'low-teens' adjusted EPS growth. The strong Q2 results (net revenue up 17%, EPS up 20%) beat expectations, driven by organic factors like higher-than-expected volatility, stronger value-added services, and lower incentives, not primarily FX or one-time items. While the Middle East conflict introduces some near-term uncertainty, the overall forward outlook was meaningfully raised, supporting a score above the +0.5 anchor."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenue of $11.2 billion, an increase of 17% (16% on a constant-dollar basis) year-over-year.",
+    "eps": "GAAP EPS of $3.14, up 36%; non-GAAP EPS of $3.31, up 20%.",
+    "guidance": "Full-year 2026: net revenue growth expected at low-double-digit to low-teens; operating expense growth at low-double-digit to low-teens; adjusted EPS growth at low-teens. Q3 2026: net revenue growth expected at low-double-digits; operating expense growth at low-teens; EPS growth at mid-to-high-single-digits.",
+    "margin": "GAAP effective income tax rate was 16.1% for the quarter; non-GAAP effective income tax rate was 16.4%. No explicit gross or operating margin commentary provided.",
+    "key_risks": [
+      "Impact of the conflict in the Middle East on cross-border travel spend in the CEMEA region.",
+      "Potential for increased competition in Europe (e.g., Wero, digital euro).",
+      "Litigation provision associated with the interchange multidistrict litigation (MDL) case and other legal matters.",
+      "Complex and evolving global regulations, including increased scrutiny of the global payments industry.",
+      "Dependence on clients and sellers, which may be costly to win, retain, and develop."
+    ],
+    "key_opportunities": [
+      "Agentic commerce and AI, which are expected to expand Visa's addressable market and increase transactions.",
+      "Stablecoins and on-chain payments, with stablecoin card programs growing nearly 200% year-over-year and a $7 billion annual run rate of stablecoin settlement volume.",
+      "Value-added services (VAS), which grew 27% in constant dollars and now represent 30% of net revenue.",
+      "Commercial and money movement solutions (CMS), which grew 24% in constant dollars.",
+      "FIFA World Cup and Olympics sponsorships driving marketing services revenue and client engagement."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly confident language, such as 'Our business has incredible momentum' and 'We have deep conviction in our ability to grow revenue well into the future,' while also raising full-year guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenue was $11.2 billion, up 17% year-over-year.",
+      "quote": "Net revenue of $11.2B, an increase of 17%, or 16% on a constant-dollar basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $3.14, up 36%, and non-GAAP EPS was $3.31, up 20%.",
+      "quote": "GAAP net income of $6.0B or $3.14 per share and non-GAAP net income of $6.3B or $3.31 per share... GAAP Earnings Per Share $3.14 36%... Non-GAAP Earnings Per Share (1) $3.31 20%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 net revenue and EPS guidance was raised.",
+      "quote": "The key message is, we are increasing our total net revenue and EPS guide for the full year. For net revenue growth, we now expect low-double-digit to low-teens.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 adjusted EPS growth is expected to be in the low-teens.",
+      "quote": "This implies adjusted EPS growth in the low-teens, also revised up from our prior outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2026 net revenue growth is expected to be in the low-double-digits.",
+      "quote": "We expect Q3 net revenue growth in the low-double digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2026 EPS growth is expected to be in the mid-to-high-single digits.",
+      "quote": "As a result, we expect third quarter EPS growth to be in the mid- to high-single digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Q2 beat was driven by organic factors, including higher volatility, stronger VAS, and lower incentives.",
+      "quote": "Fiscal second quarter net revenue was up 17% year-over-year, with the outperformance largely driven by higher-than-expected volatility, stronger-than-expected value-added services revenue, and lower-than-expected incentives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Middle East conflict is a risk to cross-border travel spend.",
+      "quote": "The Middle East conflict has introduced some near-term uncertainty in particular to cross-border travel spend in the CEMEA region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Value-added services revenue grew 27% in constant dollars.",
+      "quote": "Value-added services revenue grew 27% year-over-year in constant dollars to $3.3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial and money movement solutions revenue grew 24% in constant dollars.",
+      "quote": "Commercial and money movement solutions revenue grew 24% year-over-year in constant dollars.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Stablecoin card programs are growing nearly 200% year-over-year.",
+      "quote": "And the payments volume continues to grow at a very strong rate, up nearly 200% year-over-year in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Stablecoin settlement volume has a $7 billion annual run rate.",
+      "quote": "We currently have a $7 billion annual run rate of stablecoin settlement volume, and it's growing fast, up more than 50% since last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our business has incredible momentum. Visa has become the leading hyperscaler of payments globally... We have deep conviction in our ability to grow revenue well into the future, not just for the next three to five years, but beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The GAAP effective income tax rate was 16.1% for the quarter.",
+      "quote": "GAAP effective income tax rate was 16.1% for the quarter ended March 31, 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The non-GAAP effective income tax rate was 16.4% for the quarter.",
+      "quote": "Excluding the related tax impacts from the non-GAAP items noted above, the non-GAAP effective income tax rate was 16.4% for the quarter ended March 31, 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Litigation provision is a risk due to the MDL case.",
+      "quote": "Current year's results included a special item of $311 million for a litigation provision associated with the interchange multidistrict litigation (\"MDL\") case and other legal matters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increased competition in Europe is a potential risk.",
+      "quote": "Our expectation is there's going to be more competition in Europe, not less. Just like we see around the world we're going to continue to kind of deliver what we do and do the best job we can and as a result of that, hopefully continue to win more than our fair share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentic commerce is a key opportunity.",
+      "quote": "We believe AI and agentic commerce will expand our addressable market in four important ways... We expect more transactions, more value-added services, and therefore, more revenue in the years ahead from agentic.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FIFA World Cup is driving marketing services revenue.",
+      "quote": "And with the first match less than 45 days away, the FIFA campaigns should continue to deliver value to our clients, their customers, and to Visa.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 is based on a clear guidance raise. However, the Q2 beat was partly attributed to 'higher-than-expected volatility' and 'lower-than-expected incentives,' which are not purely organic operational improvements. The reviewer should confirm the weight given to these factors versus the explicit guidance raise."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "The document provides effective tax rates but no explicit gross or operating margin commentary. The field was filled with tax rate information as the closest available margin-related data; a reviewer may prefer 'Not disclosed' for the margin field."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "V_Bundled Earnings Report_2026-04-28",
+  "report_metadata": {
+    "issuer": "p2_visa",
+    "company": "Visa",
+    "ticker": "V",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2026-Q1\\Visa-Q1-2026-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2026-Q1\\Visa-Q1-2026-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "V_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T103938Z",
+    "timestamp": "2026-08-09T10:41:19Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_visa\\extracted\\V_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 28706,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2026-Q1\\Visa-Q1-2026-Presentation.pdf",
+        "page_count": 24,
+        "extracted_characters": 25485,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2026-Q1\\Visa-Q1-2026-Transcript.pdf",
+        "page_count": 22,
+        "extracted_characters": 82804,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_visa\\extracted\\V_FQ1_2026.txt"
+  }
+}

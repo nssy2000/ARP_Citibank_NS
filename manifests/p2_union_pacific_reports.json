@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_union_pacific",
+  "reports": [
+    {
+      "document_id": "UNP_FQ2_2025",
+      "issuer": "p2_union_pacific",
+      "company": "Union Pacific",
+      "ticker": "UNP",
+      "sector": "Industrials/Railroads",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-21",
+      "release_date": "2025-08-21",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 100378, acc 0001437749-25-027486, filed 2025-08-21 12:30:12 ET (UNP releases before market open; EDGAR accepted mid-day)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/union_pacific/CY2025-Q2/UNP_Q2_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/union_pacific/CY2025-Q2/UNP_Q2_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "UNP_FQ3_2025",
+      "issuer": "p2_union_pacific",
+      "company": "Union Pacific",
+      "ticker": "UNP",
+      "sector": "Industrials/Railroads",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-05",
+      "release_date": "2025-11-05",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 100378, acc 0001437749-25-033136, filed 2025-11-05 13:30:09 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/union_pacific/CY2025-Q3/UNP_Q3_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/union_pacific/CY2025-Q3/UNP_Q3_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "UNP_FQ4_2025",
+      "issuer": "p2_union_pacific",
+      "company": "Union Pacific",
+      "ticker": "UNP",
+      "sector": "Industrials/Railroads",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-04",
+      "release_date": "2026-02-04",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 100378, acc 0001437749-26-002877, filed 2026-02-04 13:30:10 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/union_pacific/CY2025-Q4/UNP_Q4_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/union_pacific/CY2025-Q4/UNP_Q4_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "UNP_FQ1_2026",
+      "issuer": "p2_union_pacific",
+      "company": "Union Pacific",
+      "ticker": "UNP",
+      "sector": "Industrials/Railroads",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-06",
+      "release_date": "2026-05-06",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 100378, acc 0001437749-26-015030, filed 2026-05-06 12:30:25 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/union_pacific/CY2026-Q1/UNP_Q1_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/union_pacific/CY2026-Q1/UNP_Q1_2026_Earnings_Call_Transcript.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

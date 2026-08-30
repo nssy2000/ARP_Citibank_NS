@@ -1,0 +1,250 @@
+{
+  "document_id": "DAL_FQ2_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "Delta delivered June quarter results in line with its own April guidance, and restored full-year guidance with an EPS range of $5.25-$6.25 and free cash flow of $3-$4 billion, which management frames as consistent with long-term targets. While the guidance restoration is a positive forward signal, it is not a raise above prior guidance (guidance had been withdrawn), and management's language is confident but hedged, noting a 'dynamic and somewhat unpredictable environment' and that the upper end of the September outlook only positions earnings flat with 2024. The score reflects genuine operational momentum (record revenue, double-digit margins, restored guidance) without a formal guidance raise, landing in the +0.15 to +0.3 band."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record June quarter adjusted revenue of $15.5 billion, approximately 1% higher than prior year on 4% capacity growth. GAAP operating revenue was $16.6 billion.",
+    "eps": "Adjusted diluted EPS of $2.10 for the June quarter, down 11% year-over-year. GAAP diluted EPS was $3.27.",
+    "guidance": "September quarter EPS of $1.25-$1.75 with 9-11% operating margin and total revenue flat to up 4% year-over-year. Full-year 2025 EPS of $5.25-$6.25 and free cash flow of $3-$4 billion, with gross leverage less than 2.5x.",
+    "margin": "Adjusted operating margin of 13.2% for the June quarter, down 1.5 points year-over-year. GAAP operating margin was 12.6%. Adjusted pre-tax margin was 11.6%.",
+    "key_risks": [
+      "Softness in main cabin demand, particularly during off-peak periods",
+      "Unit revenue pressure in international markets through peak summer, especially TransAtlantic with softness in European outbound travel",
+      "Severe weather impacting operations, with irregular operation days more than 50% higher than last year",
+      "Dynamic and somewhat unpredictable demand environment",
+      "Potential tariffs on aircraft deliveries (management states they are not planning to pay any)"
+    ],
+    "key_opportunities": [
+      "Diverse, high-margin revenue streams contributing 59% of total revenue, growing mid-single digits",
+      "Premium revenue growing 5% year-over-year, outpacing main cabin",
+      "Loyalty revenue up 8% with record customer engagement",
+      "American Express remuneration of $2 billion, up 10% year-over-year, on track for ~$8 billion full-year",
+      "Industry capacity rationalization, particularly in domestic main cabin and off-peak",
+      "MRO revenue growth of 29% with potential to grow to $1-3 billion",
+      "AI-enhanced pricing solutions (Fetcherr) showing encouraging test results",
+      "New partnerships (WestJet, IndiGo) and expanded joint ventures (LATAM)"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses confidence in the business, restoring full-year guidance and stating 'Reflecting our confidence in the business, we are restoring financial guidance,' while also acknowledging a 'dynamic and somewhat unpredictable environment.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Delta delivered record June quarter adjusted revenue of $15.5 billion, approximately 1% higher than prior year.",
+      "quote": "Delta generated record June quarter revenue of $15.5 billion, approximately 1 percent higher than prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS for the June quarter was $2.10, down 11% year-over-year.",
+      "quote": "Diluted earnings per share 2.10 2.36 (0.26) (11) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 guidance was restored with EPS of $5.25-$6.25 and free cash flow of $3-$4 billion.",
+      "quote": "Reflecting our confidence in the business, we are restoring financial guidance with an expectation for earnings per share of $5.25 to $6.25 and free cash flow of $3 to $4 billion, consistent with our long-term free cash flow targets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "September quarter guidance is for EPS of $1.25-$1.75 with 9-11% operating margin.",
+      "quote": "Expect September quarter earnings per share of $1.25 to $1.75 with a 9 to 11 percent operating margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin for the June quarter was 13.2%, down 1.5 points year-over-year.",
+      "quote": "Operating margin 13.2 % 14.7 % (1.5) pts (10) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Main cabin revenue declined 5% year-over-year, while premium revenue grew 5%.",
+      "quote": "Ticket - Main cabin $ 6,347 $ 6,716 $ (369) (5) % ... Ticket - Premium products 5,899 5,633 266 5 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "American Express remuneration was $2 billion, up 10% year-over-year.",
+      "quote": "American Express remuneration was $2 billion, up 10 percent year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Severe weather impacted operations with irregular operation days more than 50% higher than last year.",
+      "quote": "Severe weather impacted operations throughout the quarter, with the number of irregular operation days more than 50% higher than last year and our historical average.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industry capacity rationalization is expected to improve unit revenue trends.",
+      "quote": "As the industry further rationalizes domestic supply, we expect unit revenue trends to improve through the back half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MRO revenue grew 29% year-over-year.",
+      "quote": "MRO revenue growth accelerated to 29% over prior year on higher volumes and work scopes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the business outlook.",
+      "quote": "Reflecting our confidence in the business, we are restoring financial guidance with an expectation for earnings per share of $5.25 to $6.25 and free cash flow of $3 to $4 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The environment remains dynamic and somewhat unpredictable.",
+      "quote": "In a dynamic and somewhat unpredictable environment, our team has stayed focused, controlling what we can control and executing with discipline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TransAtlantic unit revenue is under pressure in July and August due to softness in European outbound travel.",
+      "quote": "This is most pronounced in the TransAtlantic, where softness in European outbound travel is impacting July and August.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Delta is not planning to pay tariffs on aircraft deliveries.",
+      "quote": "We're not planning on paying any tariffs for aircraft deliveries, and that's a pretty strong point of view here on the Delta side.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diverse revenue streams contributed 59% of total revenue.",
+      "quote": "Diverse, high margin revenue streams contributed 59 percent of total revenue, underpinning Delta's differentiated business model.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loyalty revenue grew 8% year-over-year.",
+      "quote": "Loyalty revenue grew 8% as customer engagement reached new records, with millennial and Gen Z segments representing nearly 50% of our active member base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to pay down $3 billion of debt this year.",
+      "quote": "This free cash flow outlook is within our long-term target range, and enables us to pay down $3 billion of debt this year, while also returning cash to shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A 25% dividend increase was announced beginning in the September quarter.",
+      "quote": "Announced a 25 percent increase to dividend payment beginning in September quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted net debt was $16.3 billion at quarter end, down $1.7 billion from end of 2024.",
+      "quote": "Adjusted net debt of $16.3 billion at June quarter end, a reduction of $1.7 billion from the end of 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow for the June quarter was $733 million.",
+      "quote": "Free cash flow 733 1,274 (541) (42) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was restored rather than raised; the score of 0.25 reflects momentum and restored guidance, but a reviewer should confirm this is not over-weighted given the environment remains 'unpredictable' and September midpoint is flat to last year."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Tariff risk is mentioned in Q&A as a risk management is not planning to pay, but it is a forward-looking risk not fully quantified in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DAL_Bundled Earnings Report_2025-07-10",
+  "report_metadata": {
+    "issuer": "p2_delta_air_lines",
+    "company": "Delta Air Lines",
+    "ticker": "DAL",
+    "sector": "Industrials/Airlines",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q2\\Q2_2025_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q2\\Q2_2025_earnings_call_transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DAL_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095933Z",
+    "timestamp": "2026-08-09T10:00:14Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_delta_air_lines\\extracted\\DAL_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 42954,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q2\\Q2_2025_earnings_presentation.pdf",
+        "page_count": 17,
+        "extracted_characters": 43554,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q2\\Q2_2025_earnings_call_transcript.pdf",
+        "page_count": 24,
+        "extracted_characters": 97973,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_delta_air_lines\\extracted\\DAL_FQ2_2025.txt"
+  }
+}

@@ -1,0 +1,19 @@
+.env
+*.pyc
+__pycache__/
+.venv/
+.claude/
+.agents/
+.DS_Store
+
+# untracked working folders (teammate syncs, archived forks, local scratch)
+OneDrive_2026-07-18/
+_archive/
+data/quantitative/price_cache/
+data/quantitative/earnings_cache/
+data/quantitative/sheet_export_cache/
+
+# live group-sheet exports - real rater names, keep local only
+Human vs LLM results.xlsx
+Human vs LLM results.ods
+Human vs LLM results(Data Entry).csv

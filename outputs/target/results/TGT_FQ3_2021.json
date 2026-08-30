@@ -1,0 +1,146 @@
+{
+  "document_id": "TGT_FQ3_2021",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong backward-looking results (comparable sales +12.7%, GAAP EPS +51.6%) but forward guidance is only modestly raised: Q4 comparable sales guidance was raised to 'high-single digit to low-double digit growth' from 'high-single digit increase.' The full-year operating income margin rate guidance is reaffirmed at '8 percent or higher.' The guidance raise is modest and not accompanied by a material upward revision to earnings or margin expectations, so the score is mildly positive but not strongly so."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $25.7 billion grew 13.3 percent compared with last year, driven by total sales growth of 13.2 percent and a 22.3 percent increase in other revenue.",
+    "eps": "Third quarter GAAP EPS of $3.04 was 51.6 percent higher than last year, and Adjusted EPS of $3.03 was 8.7 percent higher than last year.",
+    "guidance": "For the fourth quarter 2021, the Company expects high-single digit to low-double digit growth in comparable sales, compared with the previous guidance for a high-single digit increase. The Company continues to expect its full-year operating income margin rate will be 8 percent or higher.",
+    "margin": "Third quarter operating income margin rate was 7.8 percent in 2021 compared with 8.5 percent in 2020. Third quarter gross margin rate was 28.0 percent, compared with 30.6 percent in 2020.",
+    "key_risks": [
+      "Higher merchandise and freight costs",
+      "Increased inventory shrink",
+      "Increased supply chain costs from increased compensation and headcount in the Company's distribution centers"
+    ],
+    "key_opportunities": [
+      "Comparable sales growth driven entirely by traffic",
+      "Same-day services (Order Pickup, Drive Up and Shipt) grew nearly 60 percent",
+      "All five core merchandise categories delivered double-digit comparable sales growth",
+      "Strong inventory position heading into the peak of the holiday season"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "The CEO states 'our team and our business are ready to serve our guests and poised to deliver continued, strong growth, through the holiday season and beyond,' indicating strong confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue grew 13.3% to $25.7 billion.",
+      "quote": "Total revenue of $25.7 billion grew 13.3 percent compared with last year, driven by total sales growth of 13.2 percent and a 22.3 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $3.04, up 51.6% year-over-year; Adjusted EPS was $3.03, up 8.7%.",
+      "quote": "Third quarter GAAP earnings per share (EPS) of $3.04, up 51.6 percent from $2.01 in 2020. Third quarter Adjusted EPS of $3.03 grew 8.7 percent compared with $2.79 in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 comparable sales guidance was raised to high-single digit to low-double digit growth from high-single digit.",
+      "quote": "For the fourth quarter 2021, the Company expects high-single digit to low-double digit growth in comparable sales, compared with the previous guidance for a high-single digit increase.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating income margin rate guidance is reaffirmed at 8% or higher.",
+      "quote": "The Company continues to expect its full-year operating income margin rate will be 8 percent or higher.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter operating income margin rate was 7.8%, down from 8.5% last year.",
+      "quote": "Third quarter operating income margin rate was 7.8 percent in 2021 compared with 8.5 percent in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter gross margin rate was 28.0%, down from 30.6% last year.",
+      "quote": "Third quarter gross margin rate was 28.0 percent, compared with 30.6 percent in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include higher merchandise and freight costs, increased inventory shrink, and increased supply chain costs.",
+      "quote": "This year's gross margin rate reflected pressure from higher merchandise and freight costs, increased inventory shrink, and increased supply chain costs from increased compensation and headcount in the Company's distribution centers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include traffic-driven comparable sales growth, strong same-day services growth, double-digit category growth, and strong inventory position.",
+      "quote": "Following comp growth of nearly 21 percent a year ago, our third quarter comp increase of 12.7 percent was driven entirely by traffic... Same-day services (Order Pickup, Drive Up and Shipt) grew nearly 60 percent this year... All five core merchandise categories delivered double-digit comparable sales growth... With a strong inventory position heading into the peak of the holiday season, our team and our business are ready to serve our guests and poised to deliver continued, strong growth, through the holiday season and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "With a strong inventory position heading into the peak of the holiday season, our team and our business are ready to serve our guests and poised to deliver continued, strong growth, through the holiday season and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is modest (from high-single digit to high-single digit to low-double digit) and the full-year margin guidance is only reaffirmed, not raised. The score of 0.25 may be slightly generous; a reviewer could argue for a lower score near 0.15 given the limited forward improvement."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 9,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2021-11-17",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2021",
+    "report_date": "2021-11-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q3\\tgt-3q21-press-release.html",
+        "pub_date": "2021-11-17"
+      }
+    ],
+    "document_id": "TGT_FQ3_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:51:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q3\\tgt-3q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ3_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q3\\tgt-3q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 20982,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ3_2021.txt"
+  }
+}

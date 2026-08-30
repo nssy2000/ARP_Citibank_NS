@@ -1,0 +1,108 @@
+{
+  "n_documents": 232,
+  "issuers_pooled": [
+    "boeing",
+    "jpm",
+    "netflix",
+    "bank_of_america",
+    "disney",
+    "target",
+    "p2_airbnb",
+    "p2_amazon",
+    "p2_amd",
+    "p2_apple",
+    "p2_cvs_health",
+    "p2_charles_schwab",
+    "p2_citigroup",
+    "p2_coca_cola",
+    "p2_coinbase",
+    "p2_eli_lilly",
+    "p2_goldman_sachs",
+    "p2_ibm",
+    "p2_lowes",
+    "p2_lululemon",
+    "p2_maersk",
+    "p2_mcdonalds",
+    "p2_meta",
+    "p2_nike",
+    "p2_nvidia",
+    "p2_tesla",
+    "p2_uber",
+    "p2_walmart",
+    "p2_bank_of_america",
+    "p2_boeing",
+    "p2_disney",
+    "p2_jpm",
+    "p2_netflix",
+    "p2_target"
+  ],
+  "issuers_skipped": [],
+  "window_trading_days": 5,
+  "outcome_thresholds": {
+    "outcome_upper": 0.03,
+    "outcome_lower": -0.03
+  },
+  "weight_step": 0.05,
+  "threshold_grid": {
+    "upper": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ],
+    "lower": [
+      -0.05,
+      -0.1,
+      -0.15,
+      -0.2,
+      -0.25,
+      -0.3,
+      -0.35,
+      -0.4
+    ],
+    "asymmetric": true
+  },
+  "combos": 113344,
+  "default_config": {
+    "weights": [
+      0.8,
+      0.0,
+      0.2,
+      0.0
+    ],
+    "hold_upper": 0.25,
+    "hold_lower": -0.25
+  },
+  "global_best": {
+    "accuracy": 0.4569,
+    "balanced_accuracy": 0.4227,
+    "weights": [
+      0.6,
+      0.0,
+      0.35,
+      0.05
+    ],
+    "hold_upper": 0.3,
+    "hold_lower": -0.25,
+    "n_tied": 7
+  },
+  "global_best_matches_deployed_default": false,
+  "loocv_tuned_accuracy": 0.3491,
+  "loocv_default_accuracy": 0.4353,
+  "loocv_tuned_balanced_accuracy": 0.3235,
+  "loocv_default_balanced_accuracy": 0.4148,
+  "significance_deployed_weights": {
+    "accuracy": 0.4353,
+    "n": 232,
+    "majority_label": "HOLD",
+    "majority_rate": 0.3793,
+    "binomial_p_vs_majority": 0.04623,
+    "permutation_p_vs_shuffled_labels": 0.0028,
+    "verdict": "blend 0.4353 vs majority 0.3793 - statistically significant (binomial p=0.04623, permutation p=0.0028) at N=232"
+  },
+  "interpretation": "If global_best_matches_deployed_default is true and LOOCV tuned/default accuracy are close, the original weights hold up under leave-one-out refitting at ~2x the N, i.e. real evidence they transfer to phase2's company mix rather than being an artifact of the original 6-issuer set. If a different combo wins here, or LOOCV tuned clearly beats LOOCV default, that is real evidence the deployed weights are stale for the broader universe - not proof from phase2 alone (which can't support this test at N=101), but from the pooled N which can."
+}

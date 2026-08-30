@@ -1,0 +1,204 @@
+{
+  "document_id": "UBER_FQ1_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: trips up 18% YoY, record adjusted EBITDA of $1.9B (+35% YoY), and free cash flow of $2.3B. Guidance for Q2 2025 implies continued strong growth (Gross Bookings +16-20% YoY constant currency, Adjusted EBITDA +29-35% YoY). While management did not formally raise full-year guidance, the Q2 outlook is above what the market might have expected given the strong Q1 beat, and management language is confident ('strong start', 'reliably deliver more of the same'). The score is capped at +0.30 because the guidance raise is only for Q2, not the full year, and there are no explicit upward revisions to long-term targets."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$11.5 billion, up 14% YoY (17% constant currency).",
+    "eps": "Net income attributable to Uber was $1.8 billion, or $0.85 basic and $0.83 diluted per share. Prior year was a net loss of $654 million.",
+    "guidance": "Q2 2025: Gross Bookings $45.75B-$47.25B (+16-20% YoY constant currency); Adjusted EBITDA $2.02B-$2.12B (+29-35% YoY).",
+    "margin": "Adjusted EBITDA margin as a percentage of Gross Bookings was 4.4%, up from 3.7% in Q1 2024. Delivery margins at 3.7% of GBs, up 70 bps YoY.",
+    "key_risks": [
+      "Insurance costs remain a headwind, though moderating (high-single digits in 2025).",
+      "Macroeconomic uncertainty from trade and economic policy headlines.",
+      "Highly competitive landscape across Mobility and Delivery globally.",
+      "Foreign exchange headwinds (roughly 1.5 ppt on total reported YoY growth in Q2)."
+    ],
+    "key_opportunities": [
+      "Autonomous vehicle partnerships (Waymo, five new AV partnerships announced).",
+      "Expansion into less dense (sparser) markets, which are growing faster than core urban areas.",
+      "Delivery margin expansion driven by advertising and scale leverage.",
+      "Membership program growth (30 million members, spending 3x more than non-members).",
+      "Grocery and retail business reaching breakeven and starting to accrete."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Dara Khosrowshahi stated 'We're off to a strong start this year' and 'I feel great about where we stand. We're on solid footing with a clear strategy and ambitions that have never been higher.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $11.5 billion, up 14% YoY (17% constant currency).",
+      "quote": "Revenue grew 14% YoY to $11.5 billion, or 17% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income attributable to Uber was $1.8 billion, or $0.85 basic and $0.83 diluted per share.",
+      "quote": "Net income attributable to Uber Technologies, Inc. was $1.8 billion... Net income (loss) per share attributable to Uber Technologies, Inc. common stockholders: Basic $0.85, Diluted $0.83.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 guidance: Gross Bookings $45.75B-$47.25B (+16-20% YoY constant currency); Adjusted EBITDA $2.02B-$2.12B (+29-35% YoY).",
+      "quote": "For Q2 2025, we anticipate: Gross Bookings of $45.75 billion to $47.25 billion, representing growth of 16% to 20% YoY on a constant currency basis... Adjusted EBITDA of $2.02 billion to $2.12 billion, which represents 29% to 35% YoY growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin as a percentage of Gross Bookings was 4.4%, up from 3.7% in Q1 2024.",
+      "quote": "Adjusted EBITDA margin as a percentage of Gross Bookings was 4.4%, up from 3.7% in Q1 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Delivery margins at 3.7% of GBs, up 70 bps YoY.",
+      "quote": "Delivery margins are at 3.7% of GBs. That's up 70 bps versus where it was just a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Insurance costs remain a headwind, though moderating (high-single digits in 2025).",
+      "quote": "We're thinking that it will continue to be a very modest headwind of high-single digits through 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macroeconomic uncertainty from trade and economic policy headlines.",
+      "quote": "We're off to a strong start this year against a dizzying backdrop of headlines on trade and economic policy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Highly competitive landscape across Mobility and Delivery globally.",
+      "quote": "These markets continue to be very competitive on a global basis. In terms of Mobility, we've got a strong competitor domestically here in Lyft... And then internationally, of course, we got Bolt in Europe and DiDi in Latin America.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange headwinds (roughly 1.5 ppt on total reported YoY growth in Q2).",
+      "quote": "Our outlook assumes a roughly 1.5 percentage point currency headwind to total reported YoY growth (including a roughly 3 percentage point currency headwind to Mobility).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Autonomous vehicle partnerships (Waymo, five new AV partnerships announced).",
+      "quote": "We launched with Waymo in Austin with around 100 cars... We announced five AV partnerships with deployments to come in the US, Europe and the Middle East.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion into less dense (sparser) markets, which are growing faster than core urban areas.",
+      "quote": "Sparser markets, which are growing at a faster rate than our core, represent about 20% on a trip basis for Mobility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Delivery margin expansion driven by advertising and scale leverage.",
+      "quote": "That margin expansion is primarily being driven by advertising and the leverage we're getting just from scale, the OpEx leverage that we get from scale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Membership program growth (30 million members, spending 3x more than non-members).",
+      "quote": "Members tend to have higher retention. They spend three times more than nonmembers as well. And our membership program now, with 30 million members, is delivering billions of discounts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Grocery and retail business reaching breakeven and starting to accrete.",
+      "quote": "We said in Q4 of last year, grocery and retail hit breakeven for variable contribution. And in Q1, it's now starting to accrete at variable contribution level.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We're off to a strong start this year... I feel great about where we stand. We're on solid footing with a clear strategy and ambitions that have never been higher.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sentiment score rationale: strong operational momentum and raised Q2 guidance.",
+      "quote": "Trips up 18%... record adjusted EBITDA of $1.9 billion, up 35% year-on-year and free cash flow of $2.3 billion... Q2 outlook should underscore our expectation to reliably deliver more of the same.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on strong Q1 results and a raised Q2 outlook, but the document does not contain a formal full-year guidance raise. The score may be slightly aggressive; a human reviewer should confirm whether the Q2 guidance raise alone justifies a score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UBER_Bundled Earnings Report_2025-05-06",
+  "report_metadata": {
+    "issuer": "p2_uber",
+    "company": "Uber",
+    "ticker": "UBER",
+    "sector": "Technology/Transportation",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-06",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q1\\uber-q1-25-earnings-call-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q1\\Uber-Q1-25-Earnings-Press-Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UBER_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T175227Z",
+    "timestamp": "2026-07-30T17:52:47Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q1\\uber-q1-25-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q1\\uber-q1-25-earnings-call-transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 63178,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q1\\Uber-Q1-25-Earnings-Press-Release.pdf",
+        "page_count": 11,
+        "extracted_characters": 24873,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ1_2025.txt"
+  }
+}

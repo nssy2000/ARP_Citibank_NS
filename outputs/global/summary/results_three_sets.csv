@@ -1,0 +1,182 @@
+# results_three_sets.csv
+# Generated: 2026-08-14
+# Three event sets:
+#   Set A — N=233 clean phase2 events (268 scored, 35 excluded: 25 worksheet, 1 SPOT, 9 timing)
+#   Set B — N=93 extension events (pure eval; scored after Set A; thresholds frozen from Set A dev)
+#   Set C — N=326 combined (Set A + Set B); frontier and walk-forward on N=279 (186 Set-A eval + 93 Set B)
+# HOLD-excluded (selectivity): denominator = model called BUY/SELL AND |ret_overnight|>2%
+# Coverage (HOLD=wrong): denominator = all events with |ret_overnight|>2%, regardless of model call
+# HOLD=wrong / coverage (frontier): denominator = all graded events (|ret|>2%) regardless of model call; model HOLD on moved event = wrong
+# FLAT-as-wrong (frontier alt): denominator = all events in set (model HOLD always wrong)
+# Extension (Set B) is PURE EVAL — no thresholds refitted on it. Phase2 dev thresholds frozen.
+#
+metric_name,value,unit,n,denominator_definition,event_set,convention,ci_low,ci_high,ci_level,p_value,mde,test_used,threshold_dependent,source_file,notes
+# ---- FUNNEL ---------------------------------------------------------------
+funnel_total_scored_A,268,events,268,,Set A — N=233 phase2,,,,,,,,FALSE,effective_sample_funnel.md,All phase2 events scored by LLM
+funnel_excluded_worksheet_A,25,events,,,Set A — N=233 phase2,,,,,,,,FALSE,worksheet_exclusion_decision.md,Worksheet contamination: human rater's blind score + realised return leaked into LLM prompt
+funnel_excluded_spot_A,1,events,,,Set A — N=233 phase2,,,,,,,,FALSE,effective_sample_funnel.md,SPOT_FQ1_2026 misattributed document
+funnel_excluded_timing_A,9,events,,,Set A — N=233 phase2,,,,,,,,FALSE,effective_sample_funnel.md,Non-US issuers with unreliable overnight returns
+funnel_clean_universe_A,233,events,,,Set A — N=233 phase2,,,,,,,,FALSE,effective_sample_funnel.md,268 − 25 − 1 − 9 = 233
+funnel_traded_A,146,events,,Model called BUY or SELL,Set A — N=233 phase2,,,,,,,,TRUE,ext2_holding_curve.csv,
+funnel_hold_events_A,87,events,,Model said HOLD — no trade,Set A — N=233 phase2,,,,,,,,TRUE,ext2_holding_curve.csv,
+funnel_graded_traded_A,95,events,,|ret_overnight| > 2% AND model traded,Set A — N=233 phase2,pre-registered ±2% band,,,,,,,TRUE,ext2_holding_curve.csv,Directional accuracy computed on this base
+funnel_graded_held_A,52,events,,|ret_overnight| > 2% AND model said HOLD,Set A — N=233 phase2,,,,,,,,,TRUE,effective_sample_funnel.md,Model missed these moves
+funnel_graded_all_A,147,events,,All events with |ret_overnight| > 2%,Set A — N=233 phase2,,,,,,,,,FALSE,ext2_holding_curve.csv,= 95 traded + 52 held
+funnel_correct_selectivity_A,62,events,,Model direction correct on graded traded events,Set A — N=233 phase2,,,,,,,,,TRUE,ext2_holding_curve.csv,
+funnel_ungraded_trades_A,51,events,,Model traded but |ret_overnight| ≤ 2% (flat bet),Set A — N=233 phase2,,,,,,,,,,effective_sample_funnel.md,28/51 (54.9%) had correct sign — not significant p=0.480
+funnel_extension_universe_B,93,events,,,Set B — N=93 extension,,,,,,,,FALSE,global_outcome_calibration_extension_2026_08_13.csv,Pure eval set; thresholds frozen from Set A dev split
+funnel_traded_B,32,events,,Model called BUY or SELL,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,
+funnel_hold_events_B,61,events,,Model said HOLD,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,
+funnel_graded_all_B,31,events,,All events with |ret_overnight| > 2%,Set B — N=93 extension,pre-registered ±2% band,,,,,,,FALSE,finbert_extension_results.csv,BUY outcomes: 16; SELL outcomes: 15 (updated 2026-08-14: +2 Hermès events RMS_FQ1_2025 +5.7% and RMS_FQ4_2025 -6.0% now graded after zero-fill correction)
+funnel_graded_traded_B,14,events,,|ret_overnight| > 2% AND model traded,Set B — N=93 extension,,,,,,,,,TRUE,finbert_extension_results.csv,
+funnel_correct_selectivity_B,10,events,,Model direction correct on graded traded events,Set B — N=93 extension,,,,,,,,,TRUE,finbert_extension_results.csv,
+funnel_combined_universe_C,326,events,,,Set C — N=326 combined,,,,,,,,FALSE,item_e_combined_walkforward.json,Set A (233) + Set B (93)
+funnel_traded_C,178,events,,Model called BUY or SELL,Set C — N=326 in-sample deployed,,,,,,,,TRUE,item_e_combined_walkforward.json,In-sample: deployed thresholds applied to all 326
+funnel_graded_traded_C,109,events,,|ret_overnight| > 2% AND model traded,Set C — N=326 in-sample deployed,,,,,,,,,TRUE,item_e_combined_walkforward.json,
+funnel_correct_C,72,events,,Model direction correct on graded traded events,Set C — N=326 in-sample deployed,,,,,,,,,TRUE,item_e_combined_walkforward.json,In-sample figure; walk-forward OOS is the validating result
+# ---- DECISION MIX ---------------------------------------------------------
+decision_buy_A,72,events,233,,Set A — N=233 phase2,,,,,,,,TRUE,global_outcome_calibration_phase2.csv (filtered to 233 clean),
+decision_sell_A,74,events,233,,Set A — N=233 phase2,,,,,,,,TRUE,global_outcome_calibration_phase2.csv (filtered to 233 clean),
+decision_hold_A,87,events,233,,Set A — N=233 phase2,,,,,,,,TRUE,global_outcome_calibration_phase2.csv (filtered to 233 clean),
+decision_buy_frac_A,30.9%,percent,233,233 clean events,Set A — N=233 phase2,,,,,,,,TRUE,global_outcome_calibration_phase2.csv (filtered to 233 clean),72/233
+decision_sell_frac_A,31.8%,percent,233,,Set A — N=233 phase2,,,,,,,,TRUE,global_outcome_calibration_phase2.csv (filtered to 233 clean),74/233
+decision_hold_frac_A,37.3%,percent,233,,Set A — N=233 phase2,,,,,,,,TRUE,global_outcome_calibration_phase2.csv (filtered to 233 clean),87/233
+decision_buy_B,17,events,93,,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,
+decision_sell_B,15,events,93,,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,
+decision_hold_B,61,events,93,,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,
+decision_buy_frac_B,18.3%,percent,93,,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,17/93; model much more selective on extension
+decision_sell_frac_B,16.1%,percent,93,,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,15/93
+decision_hold_frac_B,65.6%,percent,93,,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,61/93
+# ---- SELECTIVITY ACCURACY (HOLD-excluded: model traded AND |ret|>2%) --------
+selectivity_accuracy_A,65.3%,percent,95,Model traded AND |ret_overnight|>2%,Set A — N=233 phase2,"HOLD-excluded, pre-registered ±2% band",,,,0.024,±10.8pp,binomial one-sided greater vs always-DOWN floor 54.7%,TRUE,ext2_holding_curve.csv,62/95; pre-registered band
+selectivity_floor_always_down_A,54.7%,percent,95,52/95 graded-traded events had negative return,Set A — N=233 phase2,,,,,,,,FALSE,ext2_holding_curve.csv,always-DOWN floor; majority direction in graded-traded set
+selectivity_margin_vs_floor_A,+10.5pp,pp,95,,,Set A — N=233 phase2,,,,,±10.8pp,binomial one-sided,TRUE,ext2_holding_curve.csv,+10.5pp margin; borderline (MDE ±10.8pp)
+selectivity_accuracy_B,71.4%,percent,14,Model traded AND |ret_overnight|>2%,Set B — N=93 extension,"HOLD-excluded, pre-registered ±2% band",,,,,,,,TRUE,finbert_extension_results.csv,"10/14; small n, descriptive only. Floor: 7/14=50.0% (evenly split)"
+selectivity_floor_B,50.0%,percent,14,7/14 graded-traded had negative return,Set B — N=93 extension,,,,,,,,FALSE,finbert_extension_results.csv,Evenly split: 7 SELL-outcome 7 BUY-outcome among traded+graded
+selectivity_accuracy_C,66.1%,percent,109,In-sample; deployed thresholds on N=326,Set C — N=326 in-sample,,,,,,,,TRUE,item_e_combined_walkforward.json,72/109; in-sample — walk-forward OOS is the validating result
+# ---- COVERAGE ACCURACY (HOLD=wrong: all graded events, regardless of model call) ----
+coverage_accuracy_A,42.2%,percent,147,All events with |ret_overnight|>2% (N=233),Set A — N=233 phase2,"HOLD=wrong, pre-registered ±2% band",,,,,,,,FALSE,ext2_holding_curve.csv,62/147; floor 54.4% (80/147 always-DOWN); model missed 52 moves
+coverage_floor_always_down_A,54.4%,percent,147,80/147 graded events had negative return,Set A — N=233 phase2,,,,,,,,FALSE,ext2_holding_curve.csv,Model is BELOW coverage floor — HOLD policy on moved events costs accuracy
+coverage_accuracy_B,32.3%,percent,31,All events with |ret_overnight|>2% (N=93),Set B — N=93 extension,"HOLD=wrong, pre-registered ±2% band",,,,,,,,FALSE,finbert_extension_results.csv,10/31; floor 48.4% (15/31 always-DOWN); both below 50% (updated 2026-08-14: n_graded 29→31)
+coverage_floor_always_down_B,48.4%,percent,31,15/31 graded events had negative return,Set B — N=93 extension,,,,,,,,FALSE,finbert_extension_results.csv,Model BELOW floor on coverage; majority outcome is actually BUY (16/31) (updated 2026-08-14)
+coverage_floor_majority_direction_B,51.6%,percent,31,16/31 graded events had positive return (majority is BUY),Set B — N=93 extension,,,,,,,,FALSE,finbert_extension_results.csv,Majority direction is UP in extension set; always-UP floor = 16/31 = 51.6% (updated 2026-08-14)
+# ---- MEAN NET PER TRADE (overnight, 10bps round-trip cost) -----------------
+mean_net_per_trade_overnight_A,1.8617%,percent,146,All traded events (N=233),Set A — N=233 phase2,"overnight, 10bps round-trip cost, 0bps short borrow",0.98%,2.76%,90%,,,,TRUE,ext2_holding_curve.csv,Bootstrap CI 90%
+summed_total_return_A,+271.81%,percent (order-dependent),146,,Set A — N=233 phase2,,,,,,,,TRUE,item_e_handoff.md,Order-dependent equity curve — NOT an achievable balance. Mean net is primary P&L metric.
+t_statistic_per_trade_A,3.43,,146,All traded events,Set A — N=233 phase2,mean_net/pstdev(nets)*sqrt(N_traded) — NOT a time-series Sharpe,,,,,,,TRUE,item_e_handoff.md,Grows mechanically with sample size
+info_ratio_per_trade_A,0.284,,146,,Set A — N=233 phase2,mean_net/pstdev(nets) unscaled,,,,,,,TRUE,item_e_handoff.md,
+mean_net_per_trade_overnight_B,1.2159%,percent,32,All traded events (N=93 extension),Set B — N=93 extension,"overnight, 10bps round-trip cost",-0.212%,2.707%,90%,,,,TRUE,backtest_equity_extension_2026_08_13.csv,Bootstrap CI 90%; CI includes zero (underpowered at N=32 trades)
+summed_total_return_B,+41.46%,percent (order-dependent),32,,Set B — N=93 extension,,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,Order-dependent — not an achievable balance
+t_statistic_per_trade_B,1.362,,32,All traded events,Set B — N=93 extension,mean_net/pstdev(nets)*sqrt(N_traded),,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,
+info_ratio_per_trade_B,0.241,,32,,Set B — N=93 extension,mean_net/pstdev(nets) unscaled,,,,,,,TRUE,backtest_equity_extension_2026_08_13.csv,
+mean_net_per_trade_overnight_C,1.7456%,percent,178,In-sample deployed thresholds on N=326,Set C — N=326 in-sample,overnight 10bps cost,0.973%,2.543%,90%,,,,TRUE,item_e_combined_walkforward.json,In-sample; walk-forward OOS figures below
+# ---- RHO BY HORIZON -------------------------------------------------------
+spearman_rho_overnight_A,0.2360,,233,All N=233 clean events,Set A — N=233 phase2,"overnight return, ±2% band (pre-registered)",,,,0.0003,,"Spearman rank correlation, blended score vs ret_overnight",FALSE,ext2_holding_curve.csv,No band filter — uses full N=233. Survived anchor correction (was 0.221).
+mean_net_per_trade_overnight_A_horizon,1.8617%,percent,146,,Set A — N=233 phase2,overnight,0.9832%,2.7558%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_overnight_A,65.3%,percent,95,|ret_overnight|>2% AND model traded,Set A — N=233 phase2,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_1d_A,0.1587,,233,,Set A — N=233 phase2,"1d return, 0.022462 band (recalibrated)",,,,0.0153,,Spearman,FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_1d_A,1.2505%,percent,146,,Set A — N=233 phase2,1d,0.3257%,2.2098%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_1d_A,60.2%,percent,98,|ret_1d|>1d-band AND model traded,Set A — N=233 phase2,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_3d_A,0.1115,,233,,Set A — N=233 phase2,"3d return, 0.023096 band (recalibrated)",,,,0.0895,,Spearman,FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_3d_A,1.0264%,percent,146,,Set A — N=233 phase2,3d,0.0293%,2.0508%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_3d_A,56.2%,percent,96,|ret_3d|>3d-band AND model traded,Set A — N=233 phase2,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_5d_A,0.0717,,233,,Set A — N=233 phase2,"5d return, 0.026177 band (recalibrated)",,,,0.2760,,Spearman,FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_5d_A,0.8458%,percent,146,,Set A — N=233 phase2,5d,-0.2701%,1.9507%,90%,,,,FALSE,ext2_holding_curve.csv,Lower bound crosses zero between 3d and 5d
+accuracy_5d_A,52.1%,percent,94,|ret_5d|>5d-band AND model traded,Set A — N=233 phase2,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_10d_A,0.0578,,233,,Set A — N=233 phase2,"10d return, 0.035159 band (recalibrated)",,,,0.3799,,Spearman,FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_10d_A,0.6860%,percent,146,,Set A — N=233 phase2,10d,-0.6347%,2.0263%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_10d_A,53.4%,percent,103,|ret_10d|>10d-band AND model traded,Set A — N=233 phase2,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_overnight_B,0.2715,,93,All N=93 extension events,Set B — N=93 extension,"overnight return, ±2% band (pre-registered)",,,,0.0085,,Spearman rank correlation,FALSE,backtest_equity_extension_2026_08_13.csv + global_outcome_calibration_extension_2026_08_13.csv,Directionally consistent with Set A (0.236); small-sample
+# ---- HUMAN COMPARISON (Set A only; paired events N=171) -------------------
+cohens_kappa_human_vs_llm_A,0.1092,,171,Paired events with both human and LLM call,Set A — N=171 paired,"3×3 BUY/HOLD/SELL vs BUY/HOLD/SELL; no return grading",0.030,0.190,90%,,,bootstrap 10000 resamples seed 20260709,FALSE,kappa_near_independence.csv,Near-independence; human and LLM strategies differ
+direction_only_n_A,76,events,,Both arms called BUY or SELL,Set A — N=76 direction-only,Sign accuracy without band filter,,,,,,,FALSE,human_vs_llm_statistics.csv,
+direction_human_accuracy_A,57.9%,percent,76,44/76,Set A — N=76 direction-only,Sign accuracy — no ±2% band,,,,,,,FALSE,human_vs_llm_statistics.csv,
+direction_llm_accuracy_A,60.5%,percent,76,46/76,Set A — N=76 direction-only,Sign accuracy — no ±2% band,,,,,,,FALSE,human_vs_llm_statistics.csv,
+direction_llm_minus_human_pp_A,+2.6pp,pp,76,,,Set A — N=76 direction-only,,-7.9,+13.2,90%,0.750,,bootstrap paired 10000 resamples,FALSE,human_vs_llm_statistics.csv,Not significant
+direction_floor_always_down_A,55.3%,percent,76,42/76 events with ret<0,Set A — N=76 direction-only,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+direction_llm_sell_accuracy_A,65.0%,percent,40,LLM SELL calls among N=76,Set A — N=76 direction-only,Sign accuracy vs 50%,,,,0.040,,binomial one-sided vs 50%,FALSE,human_vs_llm_direction_decomposition.csv,26/40; significant vs 50%; p=0.181 vs base-rate floor 56.6%
+direction_llm_buy_accuracy_A,55.6%,percent,36,LLM BUY calls among N=76,Set A — N=76 direction-only,Sign accuracy vs 50%,,,,0.309,,binomial one-sided vs 50%,FALSE,human_vs_llm_direction_decomposition.csv,20/36; not significant
+direction_human_sell_accuracy_A,73.9%,percent,23,Human SELL calls among N=76,Set A — N=76 direction-only,Sign accuracy vs 50%,,,,0.017,,binomial one-sided vs 50%,FALSE,human_vs_llm_direction_decomposition.csv,17/23; significant
+direction_human_buy_accuracy_A,50.9%,percent,53,Human BUY calls among N=76,Set A — N=76 direction-only,Sign accuracy vs 50%,,,,0.500,,binomial one-sided vs 50%,FALSE,human_vs_llm_direction_decomposition.csv,27/53; not significant
+call_count_llm_buy_A,42,count,171,,Set A — N=171 paired,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_llm_hold_A,69,count,171,,Set A — N=171 paired,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_llm_sell_A,60,count,171,,Set A — N=171 paired,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_human_buy_A,96,count,171,,Set A — N=171 paired,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_human_hold_A,40,count,171,,Set A — N=171 paired,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_human_sell_A,35,count,171,,Set A — N=171 paired,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+# ---- SECTION ABLATION (HOLD-excluded; descriptive only for Set B) ----------
+# Set A: four_arm N=119 (selectivity convention; pre-registered). Set B: four_arm N=56 (DESCRIPTIVE ONLY — N=93 processed, only 56 had all 4 arm variants).
+ablation_A_full_bundle_accuracy,68.1%,percent,47,Graded events in four_arm_n119,Set A — ablation four_arm N=119,"HOLD-excluded, ±2% overnight",,,,,,,TRUE,section_ablation_cost_per_correct.csv,32/47
+ablation_A_full_bundle_cost_per_correct,$0.0358,USD/correct call,32,,Set A — ablation four_arm N=119,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,
+ablation_A_full_bundle_mean_tokens,30096,tokens/call,,,Set A — ablation four_arm N=119,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+ablation_A_press_release_accuracy,64.9%,percent,37,Graded events in four_arm_n119,Set A — ablation four_arm N=119,"HOLD-excluded, ±2% overnight",,,,,,,TRUE,section_ablation_cost_per_correct.csv,24/37
+ablation_A_press_release_cost_per_correct,$0.0225,USD/correct call,24,,Set A — ablation four_arm N=119,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,
+ablation_A_press_release_mean_tokens,13030,tokens/call,,,Set A — ablation four_arm N=119,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+ablation_A_prepared_remarks_accuracy,63.4%,percent,41,Graded events in four_arm_n119,Set A — ablation four_arm N=119,"HOLD-excluded, ±2% overnight",,,,,,,TRUE,section_ablation_cost_per_correct.csv,26/41
+ablation_A_prepared_remarks_cost_per_correct,$0.0208,USD/correct call,26,,Set A — ablation four_arm N=119,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,
+ablation_A_prepared_remarks_mean_tokens,10287,tokens/call,,,Set A — ablation four_arm N=119,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+ablation_A_qa_only_accuracy,68.4%,percent,38,Graded events in four_arm_n119,Set A — ablation four_arm N=119,"HOLD-excluded, ±2% overnight",,,,,,,TRUE,section_ablation_cost_per_correct.csv,26/38
+ablation_A_qa_only_cost_per_correct,$0.0229,USD/correct call,26,,Set A — ablation four_arm N=119,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,
+ablation_A_qa_only_mean_tokens,13163,tokens/call,,,Set A — ablation four_arm N=119,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+ablation_A_paired_press_vs_bundle_both_graded,0.0pp,pp diff,45,Both arms graded,Set A — ablation four_arm,"strict (both graded)",0.0,0.0,,1.0,,bootstrap,TRUE,section_ablation_paired_diffs.csv,NOT COMPUTABLE as a true paired diff — all 45 events where both arms breached ±2% had identical signals. Reports zero by construction.
+ablation_A_paired_prepared_vs_bundle_both_graded,-1.89pp,pp diff,53,Both arms graded,Set A — ablation four_arm,"strict (both graded)",-5.66pp,0.0,,0.728,,bootstrap,TRUE,section_ablation_paired_diffs.csv,
+ablation_A_paired_qa_vs_bundle_both_graded,-2.33pp,pp diff,43,Both arms graded,Set A — ablation four_arm,"strict (both graded)",-9.3pp,+4.65pp,,0.793,,bootstrap,TRUE,section_ablation_paired_diffs.csv,
+ablation_B_full_bundle_accuracy,35.7%,percent,28,Trades / total events (coverage convention),Set B — ablation four_arm N=56,DESCRIPTIVE ONLY — pure eval; n=56; coverage convention (10/28 trades correct) — NOT selectivity,,,,,,,TRUE,section_ablation_extension_summary.csv,10/28; compare to selectivity headline 71.4% which is HOLD-excluded (10/14 graded+traded)
+ablation_B_press_release_accuracy,35.7%,percent,14,Trades / total events,Set B — ablation four_arm N=56,DESCRIPTIVE ONLY — coverage convention (5/14),,,,,,,TRUE,section_ablation_extension_summary.csv,5/14
+ablation_B_prepared_remarks_accuracy,37.9%,percent,29,Trades / total events,Set B — ablation four_arm N=56,DESCRIPTIVE ONLY — coverage convention (11/29),,,,,,,TRUE,section_ablation_extension_summary.csv,11/29
+ablation_B_qa_only_accuracy,32.0%,percent,25,Trades / total events,Set B — ablation four_arm N=56,DESCRIPTIVE ONLY — coverage convention (8/25),,,,,,,TRUE,section_ablation_extension_summary.csv,8/25
+ablation_B_paired_press_vs_bundle,0.0pp,pp diff,12,Both arms graded,Set B — ablation four_arm,strict (both graded),0.0,0.0,,1.0,,bootstrap,TRUE,section_ablation_extension_paired.csv,NOT COMPUTABLE — all 12 events where both arms breached ±2% had identical signals
+ablation_B_paired_prepared_vs_bundle,+4.5pp,pp diff,22,Both arms graded,Set B — ablation four_arm,strict (both graded),0.0pp,+13.6pp,,0.727,,bootstrap,TRUE,section_ablation_extension_paired.csv,
+ablation_B_paired_qa_vs_bundle,+5.3pp,pp diff,19,Both arms graded,Set B — ablation four_arm,strict (both graded),0.0pp,+15.8pp,,0.722,,bootstrap,TRUE,section_ablation_extension_paired.csv,
+# ---- FRONTIER (HOLD=wrong / coverage convention) --------------------------------------------------
+# Convention on EVERY row: denominator = all graded events (|ret_overnight|>2%) regardless of model call.
+# Numerator = model called direction correctly on those graded events.
+# Model HOLD on a moved event = WRONG (included in denominator, contributes 0 to numerator).
+# This is the COVERAGE / HOLD=wrong convention — NOT selectivity (HOLD-excluded).
+# Selectivity (HOLD-excluded) uses denominator = model-traded AND graded; gives 65.3%/71.4% headlines.
+# "FLAT-excluded" in frontier_table.csv means outcome-flat events (|ret|<2%) excluded from denominator
+# — identical to "all graded events" as denominator — but the label is confusable with model-HOLD-excluded.
+# All rows below use coverage consistently. The 42.9%/34.5% figures are correct under this convention.
+# Set A: eval split only (latest 80% by release_date = 186 events, 119 graded)
+# Set B: 93 events, 29 graded
+# Set C: eval-A (186 events, 119 graded) + Set B (93 events, 29 graded) = 279 events, 148 graded
+# Bootstrap CIs available for Set A only (from frontier_table.csv).
+frontier_floor_always_down_A,54.6%,percent,119,65/119 graded eval-split events have negative return,Set A — eval split 186 events,HOLD=wrong (coverage); denominator = 119 graded events in eval split; majority direction is DOWN (65/119),0.471,0.622,90%,,,bootstrap,FALSE,frontier_table.csv,
+frontier_lm_A,15.1%,percent,119,LM graded events — HOLD=wrong (coverage) denominator,Set A — eval split 186 events,"HOLD=wrong (coverage): denominator = all 119 graded events in eval split; pysentiment2 LM word-count, no API cost",0.101,0.210,90%,,,bootstrap,FALSE,frontier_table.csv,18/119 correct; LM trades 59/186 eval events
+frontier_finbert_A,34.4%,percent,119,FinBERT graded events — HOLD=wrong (coverage) denominator,Set A — eval split 186 events,"HOLD=wrong (coverage): denominator = all 119 graded events in eval split; ProsusAI/finbert 512-token chunks, local compute",0.277,0.420,90%,,,bootstrap,FALSE,frontier_table.csv,41/119 correct; FinBERT trades 147/186 eval events (high trade rate)
+frontier_model_A,42.9%,percent,119,Model graded events — HOLD=wrong (coverage) denominator,Set A — eval split 186 events,"HOLD=wrong (coverage): denominator = all 119 graded events in eval split; deployed model DeepSeek 0.55/0.45 micro/macro",0.353,0.504,90%,,,bootstrap,TRUE,frontier_table.csv,51/119 correct; model trades 111/186 eval events
+frontier_floor_always_down_B,48.4%,percent,31,15/31 graded extension events have negative return,Set B — N=93 extension,HOLD=wrong (coverage); denominator = 31 graded events in Set B; majority direction is UP (16/31 positive),,,,,,,,FALSE,finbert_extension_results.csv,Majority direction is UP; always-UP floor = 16/31 = 51.6% (updated 2026-08-14)
+frontier_lm_B,9.7%,percent,31,LM graded events — HOLD=wrong (coverage) denominator,Set B — N=93 extension,HOLD=wrong (coverage): denominator = all 31 graded events in Set B; pysentiment2 LM word-count frozen thresholds,,,,,,,,FALSE,lm_baseline_extension_results.csv,3/31 correct (both new Hermès events predicted HOLD by LM — wrong in coverage convention) (updated 2026-08-14)
+frontier_finbert_B,38.7%,percent,31,FinBERT graded events — HOLD=wrong (coverage) denominator,Set B — N=93 extension,HOLD=wrong (coverage): denominator = all 31 graded events in Set B; phase2 dev thresholds frozen,,,,,,,,FALSE,finbert_extension_results.csv,12/31 correct (RMS_FQ1_2025 +5.7% BUY: finbert=BUY correct +1; RMS_FQ4_2025 -6.0% SELL: finbert=BUY wrong +0) (updated 2026-08-14)
+frontier_model_B,32.3%,percent,31,Model graded events — HOLD=wrong (coverage) denominator,Set B — N=93 extension,HOLD=wrong (coverage): denominator = all 31 graded events in Set B; phase2 dev thresholds frozen,,,,,,,,TRUE,finbert_extension_results.csv,10/31 correct (both new Hermès events are HOLD decisions — wrong in coverage convention); ordering reverses vs Set A (model 42.9% → 32.3% while FinBERT 34.4% → 38.7%) (updated 2026-08-14)
+frontier_finbert_reversal_note,,,,,,Set B — N=93 extension,,,,,,,,,"PATTERN (not a result): FinBERT and model reverse ordering from Set A to Set B. FinBERT 34.4%→37.9%; model 42.9%→34.5%. Mechanism: FinBERT trades 71% of Set B events (BUY=64, HOLD=27, SELL=2) while model trades only 34% (BUY=17, HOLD=61, SELL=15). Both are below floor (48.3%) by opposite failure modes — FinBERT over-trades, model under-trades. n=29 graded; descriptive only."
+frontier_floor_always_down_C,53.3%,percent,150,80/150 graded events have negative return,Set C — N=279 frontier (eval-A + Set B),HOLD=wrong (coverage): denominator = all 150 graded events (119 eval-A + 31 Set B); combined floor 65+15=80,,,,,,,,FALSE,frontier_table.csv + finbert_extension_results.csv,Arithmetic on existing outputs (updated 2026-08-14: Set B n_graded 29→31)
+frontier_lm_C,14.0%,percent,150,LM graded events — HOLD=wrong (coverage) denominator,Set C — N=279 frontier (eval-A + Set B),HOLD=wrong (coverage): denominator = all 150 graded events; 18+3=21 correct,,,,,,,,FALSE,frontier_table.csv + lm_baseline_extension_results.csv,21/150 (updated 2026-08-14: Set B n_graded 29→31)
+frontier_finbert_C,35.3%,percent,150,FinBERT graded events — HOLD=wrong (coverage) denominator,Set C — N=279 frontier (eval-A + Set B),HOLD=wrong (coverage): denominator = all 150 graded events; 41+12=53 correct,,,,,,,,FALSE,frontier_table.csv + finbert_extension_results.csv,53/150 (updated 2026-08-14: Set B n_graded 29→31; finbert correct 11→12)
+frontier_model_C,40.7%,percent,150,Model graded events — HOLD=wrong (coverage) denominator,Set C — N=279 frontier (eval-A + Set B),HOLD=wrong (coverage): denominator = all 150 graded events; 51+10=61 correct,,,,,,,,TRUE,frontier_table.csv + finbert_extension_results.csv,61/150 (updated 2026-08-14: Set B n_graded 29→31)
+# ---- WALK-FORWARD ---------------------------------------------------------
+# Item E (N=233): mean_net 3/4 degenerate; accuracy 2/4 degenerate. item_e_walkforward.json
+# Item E combined (N=326): mean_net 3/4 degenerate; accuracy 1/4 degenerate. item_e_combined_walkforward.json
+# Both walk-forwards are RETROSPECTIVE (all events seen before analysis). Not pre-registered.
+walkforward_label_A,RETROSPECTIVE — NOT PRE-REGISTERED (N=233),,,,Set A — N=233 walk-forward,,,,,,,,FALSE,item_e_walkforward.json,
+walkforward_n_windows_A,4,,,,Set A — N=233 walk-forward,,,,,,,,FALSE,item_e_walkforward.json,
+walkforward_mean_net_degenerate_windows_A,3/4,,,,Set A — N=233 walk-forward,mean_net_objective; hu=0.45/hl=−0.50 fitted at N=146/196/230 alike — structurally degenerate,,,,,,,,FALSE,item_e_walkforward.json,Will not become estimable by adding data to this objective
+walkforward_mean_net_nondegen_window_A,,,,window_idx=0; test_start=2025-10-09; test_end=2025-12-18,Set A — N=233 walk-forward,Window 0 only; 8 trades; 2/4 graded correct (50%); mean_net=+1.54%,,,,,,,,FALSE,item_e_walkforward.json,Single non-degenerate window — too small to interpret
+walkforward_accuracy_degenerate_windows_A,2/4,,,,Set A — N=233 walk-forward,accuracy_objective; sample-limited (improving from N=233 to N=326),,,,,,,,FALSE,item_e_walkforward.json + workbook_metrics.csv,
+walkforward_eval_split_accuracy_A,68.0%,percent,75,Traded+graded in latest-80% eval split,Set A — N=233 eval split,"HOLD-excluded, deployed thresholds",,,,0.013,±14.4pp,binomial vs always-DOWN floor 54.6%,TRUE,surviving_findings.md,51/75; not a walk-forward — train/test split with earliest 20% as dev
+walkforward_dev_split_accuracy_A,55.0%,percent,20,Traded+graded in earliest-20% dev split,Set A — N=233 dev split,"HOLD-excluded, dev set used for threshold fitting",,,,,,±27.8pp,,TRUE,surviving_findings.md,11/20; not significant — underpowered. Dev used for LM/FinBERT threshold fitting only; model uses deployed thresholds.
+walkforward_label_C,RETROSPECTIVE — NOT PRE-REGISTERED (combined N=326),,,,Set C — N=326 combined walk-forward,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_n_windows_C,4,,,,Set C — N=326 combined walk-forward,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_mean_net_degenerate_windows_C,3/4,,,,Set C — N=326 combined walk-forward,mean_net_objective; same degeneracy as N=233 — structurally degenerate,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_mean_net_pooled_oos_trades_C,10,trades,,Window 0 only (non-degenerate),Set C — N=326 combined walk-forward mean_net,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_mean_net_pooled_oos_accuracy_C,66.7%,percent,6,4/6 graded correct in window 0,Set C — N=326 combined walk-forward mean_net,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_mean_net_pooled_oos_mean_net_C,+3.04%,percent,10,,Set C — N=326 combined walk-forward mean_net,,-0.54%,+6.79%,90%,,,bootstrap,FALSE,item_e_combined_walkforward.json,Wide CI; only 10 trades
+walkforward_accuracy_degenerate_windows_C,1/4,,,,Set C — N=326 combined walk-forward accuracy_objective,Sample-limited (was 2/4 at N=233 → 1/4 at N=326; improving),,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_accuracy_pooled_oos_trades_C,37,trades,,3 non-degenerate windows pooled,Set C — N=326 combined walk-forward accuracy_objective,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_accuracy_pooled_oos_graded_C,25,events,,3 non-degenerate windows pooled,Set C — N=326 combined walk-forward accuracy_objective,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_accuracy_pooled_oos_correct_C,17,events,,3 non-degenerate windows pooled,Set C — N=326 combined walk-forward accuracy_objective,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_accuracy_pooled_oos_accuracy_C,68.0%,percent,25,17/25 graded correct pooled OOS,Set C — N=326 combined walk-forward accuracy_objective,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_accuracy_pooled_oos_mean_net_C,+1.79%,percent,37,,Set C — N=326 combined walk-forward accuracy_objective,+0.12%,+3.49%,90%,,,bootstrap,FALSE,item_e_combined_walkforward.json,"CI just clears zero; directionally consistent with in-sample. Gap vs MDE: +14.6pp observed vs ≈30pp MDE — underpowered. Retrospective; all 326 events seen before analysis."
+walkforward_accuracy_pooled_oos_floor_C,53.4%,percent,25,Majority-direction floor in pooled OOS graded events,Set C — N=326 combined walk-forward accuracy_objective,,,,,,,,FALSE,item_e_combined_walkforward.json,
+walkforward_accuracy_gap_vs_floor_C,+14.6pp,pp,25,68.0% − 53.4%,Set C — N=326 combined walk-forward accuracy_objective,,,,,,,,FALSE,item_e_combined_walkforward.json,Below MDE ≈30pp (extrapolated from cross-issuer MDE 20.8pp at n_graded=52); underpowered
+walkforward_n_extrapolation_note,,,,,,Set C — N=326 combined walk-forward,,,,,,,,FALSE,surviving_findings.md,"N≈400–500 estimated to reach adequate power (extrapolation from 2 data points: n_graded=52 MDE=20.8pp, n_graded=95 MDE=10.8pp); treat as order-of-magnitude, not a precise target"

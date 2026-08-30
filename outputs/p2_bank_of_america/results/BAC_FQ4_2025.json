@@ -1,0 +1,289 @@
+{
+  "document_id": "BAC_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong full-year and quarterly results with revenue up 7% YoY and EPS up 18% YoY, but the key driver of the score is the explicit 2026 guidance: NII expected to grow 5% to 7% YoY and operating leverage of ~200 bps. This is a meaningful forward guidance raise from the company's own prior trajectory, as the document states 'Expect to deliver ~200 bps of operating leverage in 2026' and 'Expect FY26 NII (FTE) to grow 5% to 7% YoY.' The guidance is not attributed to one-time items or FX, and management expresses confidence in the U.S. economy. However, the score is capped at +0.25 because the guidance is not a dramatic upward revision and the document also notes risks such as the impact of lower interest rates and a 100 bps parallel shift reducing NII by $2.0B over the next 12 months."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full-year 2025 revenue, net of interest expense, of $113.1B, up 7% YoY. Fourth quarter 2025 revenue of $28.4B ($28.5B FTE), up 7% YoY.",
+    "eps": "Full-year 2025 diluted EPS of $3.81, up 19% YoY. Fourth quarter 2025 diluted EPS of $0.98, up 18% YoY.",
+    "guidance": "Expect FY26 NII (FTE) to grow 5% to 7% YoY. Expect 1Q26 NII (FTE) up ~7% YoY. Expect to deliver ~200 bps of operating leverage in 2026. Expect 1Q26 operating leverage with noninterest expense up ~4% YoY. Expect other income of $100MM to $300MM per quarter. Expect FY26 effective tax rate of ~20%.",
+    "margin": "Efficiency ratio improved to 61% in 4Q25 from 63% in 4Q24. Full-year 2025 efficiency ratio of 62% improved 146 bps YoY. Net interest yield of 2.08% in 4Q25, up 11 bps from 4Q24. ROA of 0.89% in 4Q25 vs 0.82% in 4Q24. ROE of 10.4% in 4Q25 vs 9.6% in 4Q24. ROTCE of 14.0% in 4Q25 vs 13.0% in 4Q24.",
+    "key_risks": [
+      "Impact of lower interest rates on net interest income: '100 bps parallel shift below the December 31, 2025, forward interest rate yield curve is estimated to reduce net interest income relative to the baseline forecast by $2.0B over the next 12 months.'",
+      "Higher noninterest expense driven by investments in people, brand, and technology, and higher revenue-related incentive and transaction expenses.",
+      "Litigation and regulatory risks: 'the Corporation’s potential judgments, orders, settlements, penalties, fines and reputational damage... resulting from pending, threatened or future litigation and regulatory inquiries.'",
+      "Credit risk: 'the possibility that future credit losses may be higher than currently expected due to changes in economic assumptions.'",
+      "Geopolitical and macroeconomic risks: 'the impact of U.S. and global interest rates, inflation, currency exchange rates, economic conditions, trade policies and tensions... and geopolitical instability.'"
+    ],
+    "key_opportunities": [
+      "Fixed-rate asset repricing: 'fixed-rate asset repricing' is cited as a driver of NII growth.",
+      "Deposit and loan growth: 'deposit and loan growth' is cited as a driver of NII growth.",
+      "Strong organic growth across segments: Consumer Banking added ~680,000 net new checking accounts, GWIM added ~21,000 net new relationships, Global Banking average deposits up 13% YoY, Global Markets record sales and trading revenue.",
+      "Digital adoption and client engagement: '69% of total sales were digitally-enabled', '79% of households digitally active', '4.3 billion digital logins'.",
+      "Capital return to shareholders: 'Returned $8.4 billion to shareholders ($2.1 billion through common stock dividends and $6.3 billion in share repurchases).'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan states: 'With consumers and businesses proving resilient, as well as the regulatory environment and tax and trade policies coming into sharper focus, we expect further economic growth in the year ahead. While any number of risks continue, we are bullish on the U.S. economy in 2026.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 revenue was $113.1B, up 7% YoY.",
+      "quote": "Revenue $113.1B4 +7% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter 2025 revenue was $28.4B, up 7% YoY.",
+      "quote": "Total revenue, net of interest expense $28.4 $29.0 ($0.7) (2) % $26.5 $1.9 7 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 diluted EPS was $3.81, up 19% YoY.",
+      "quote": "Full-Year 2025 Net Income of $30.5 Billion; EPS of $3.81, Up 19% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter 2025 diluted EPS was $0.98, up 18% YoY.",
+      "quote": "Diluted earnings per share $0.98 $1.04 ($0.06) (6) $0.83 $0.15 18",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 NII (FTE) guidance: 5% to 7% YoY growth.",
+      "quote": "Expect FY26 NII (FTE) to grow 5% to 7% YoY1",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 operating leverage guidance: ~200 bps.",
+      "quote": "Expect to deliver ~200 bps of operating leverage in 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved to 61% in 4Q25 from 63% in 4Q24.",
+      "quote": "Efficiency ratio 61 60 63",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield of 2.08% in 4Q25, up 11 bps from 4Q24.",
+      "quote": "Net interest yield of 2.08% increased 7 bps from 3Q25 and 11 bps from 4Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROA of 0.89% in 4Q25 vs 0.82% in 4Q24.",
+      "quote": "Return on average assets 0.89 % 0.96 % 0.82 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE of 10.4% in 4Q25 vs 9.6% in 4Q24.",
+      "quote": "Return on average common shareholders' equity 10.4 11.4 9.6",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 14.0% in 4Q25 vs 13.0% in 4Q24.",
+      "quote": "Return on average tangible common shareholders' equity2 14.0 15.3 13.0",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "100 bps parallel shift below forward curve would reduce NII by $2.0B over 12 months.",
+      "quote": "100 bps parallel shift below the December 31, 2025, forward interest rate yield curve is estimated to reduce net interest income relative to the baseline forecast by $2.0B over the next 12 months2",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest expense increased 4% YoY driven by investments and revenue-related expenses.",
+      "quote": "Noninterest expense of $17.4B increased $0.7B, or 4% – Operating leverage of 3.3%; efficiency ratio improved to 61%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Litigation and regulatory risks are disclosed.",
+      "quote": "the Corporation’s potential judgments, orders, settlements, penalties, fines and reputational damage, which are inherently difficult to predict, resulting from pending, threatened or future litigation and regulatory inquiries, demands, requests, investigations, proceedings and enforcement actions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit risk is disclosed.",
+      "quote": "the possibility that future credit losses may be higher than currently expected due to changes in economic assumptions, which may include unemployment rates, real estate prices, gross domestic product levels and corporate bond spreads",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical and macroeconomic risks are disclosed.",
+      "quote": "the impact of U.S. and global interest rates (including the potential for ongoing fluctuations in interest rates), inflation, currency exchange rates, economic conditions, trade policies and tensions, including changes in, or the imposition of, tariffs and / or trade barriers and the economic impacts, volatility and uncertainty resulting therefrom, which may have varying effects across industries and geographies, and geopolitical instability",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fixed-rate asset repricing is a driver of NII growth.",
+      "quote": "driven by higher NII related to Global Markets (GM) activity, higher deposit and loan balances, and fixed-rate asset repricing, partially offset by the impact of lower interest rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit and loan growth are drivers of NII growth.",
+      "quote": "driven by higher NII related to GM activity, fixed-rate asset repricing, and higher deposit and loan balances, partially offset by the impact of lower interest rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer Banking added ~680,000 net new checking accounts.",
+      "quote": "Added ~680,000 net new consumer checking accounts in 2025; completed 28 consecutive quarters of net growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GWIM added ~21,000 net new relationships.",
+      "quote": "Added ~21,000 net new relationships across Merrill and Private Bank in 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Banking average deposits up 13% YoY.",
+      "quote": "Average deposits of $656B increased $74B, or 13%, from 4Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Markets record sales and trading revenue.",
+      "quote": "Record sales and trading revenue 15 consecutive quarters of YoY sales and trading revenue growth Record Equities sales and trading revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "69% of total sales were digitally-enabled.",
+      "quote": "69% of total sales were digitally-enabled",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "79% of households digitally active.",
+      "quote": "79% of households digitally active, up from 78% in 4Q247",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "4.3 billion digital logins.",
+      "quote": "4.3 billion digital logins, up 11%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Returned $8.4 billion to shareholders.",
+      "quote": "Returned $8.4 billion to shareholders ($2.1 billion through common stock dividends and $6.3 billion in share repurchases)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "With consumers and businesses proving resilient, as well as the regulatory environment and tax and trade policies coming into sharper focus, we expect further economic growth in the year ahead. While any number of risks continue, we are bullish on the U.S. economy in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit but modest (5-7% NII growth, ~200 bps operating leverage). The score of 0.25 reflects this, but a reviewer may consider whether the strong backward-looking results and confident CEO tone warrant a slightly higher score, or whether the disclosed risks (NII sensitivity, expense growth) warrant a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 27,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2026-01-14",
+  "report_metadata": {
+    "issuer": "p2_bank_of_america",
+    "company": "Bank of America",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Presentation Materials_4Q25_ADA.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Press Release_4Q25_ADA.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Supplemental Information_4Q25_ADA.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BAC_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212506Z",
+    "timestamp": "2026-07-18T21:26:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Presentation Materials_4Q25_ADA.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_bank_of_america\\extracted\\BAC_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Presentation Materials_4Q25_ADA.pdf",
+        "page_count": 31,
+        "extracted_characters": 62370,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Press Release_4Q25_ADA.pdf",
+        "page_count": 19,
+        "extracted_characters": 65370,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q4\\The Supplemental Information_4Q25_ADA.pdf",
+        "page_count": 32,
+        "extracted_characters": 89850,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_bank_of_america\\extracted\\BAC_FQ4_2025.txt"
+  }
+}

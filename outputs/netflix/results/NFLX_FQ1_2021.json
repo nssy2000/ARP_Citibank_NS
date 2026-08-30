@@ -1,0 +1,182 @@
+{
+  "document_id": "NFLX_FQ1_2021",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports record operating profit and margin, but forward guidance for Q2 paid net additions is very low (1m vs 10m a year ago), and FY21 operating margin target of 20% is unchanged. Management attributes the membership miss to COVID pull-forward and a lighter content slate, and expects re-acceleration in H2. The overall tone is optimistic but the near-term guidance is weak, resulting in a mildly positive score reflecting the unchanged long-term target and confident H2 outlook, offset by the soft Q2 forecast."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Revenue grew 24% year over year to $7,163 million in Q1'21, in line with forecast.",
+    "eps": "Diluted EPS was $3.75 vs. $1.57 a year ago, including a $253m non-cash unrealized gain from F/X remeasurement on Euro denominated debt.",
+    "guidance": "Q2'21 forecast: revenue $7,302 million, operating income $1,865 million, operating margin 25.5%, diluted EPS $3.16, paid net additions of 1 million. FY21 operating margin target unchanged at 20%.",
+    "margin": "Operating margin reached an all-time high of 27.4% in Q1'21, up from 16.6% a year ago. Q2'21 forecast operating margin 25.5%.",
+    "key_risks": [
+      "Paid membership growth slowed due to COVID-19 pull forward in 2020 and a lighter content slate in H1 2021 due to production delays.",
+      "Q1 paid net additions of 4m were below guidance of 6m.",
+      "Q2 paid net additions forecast of 1m is very low vs. 10m in prior year quarter.",
+      "Uncertainty from COVID-19 in the short-term.",
+      "Production delays from COVID-19 continue to affect content slate.",
+      "Vaccine rollout is uneven across the world; not yet producing in Brazil and India."
+    ],
+    "key_opportunities": [
+      "Strong second half anticipated with return of big hits (Sex Education, The Witcher, Money Heist, You) and an exciting film lineup.",
+      "Engagement per member household grew solidly year over year in Q1'21.",
+      "Q1'21 churn below Q1'20 levels, demonstrating ability to charge more.",
+      "Rise of streaming to replace linear TV around the world is a clear long-term trend.",
+      "Believe they are still in early days of internet entertainment adoption, providing many years of growth.",
+      "Board approved $5 billion stock repurchase program beginning in 2021.",
+      "Free cash flow positive in Q1 and on track for full year 2021 FCF to be approximately break even; no longer need external financing."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management states 'We are optimistic about the future and believe we are still in the early days of the adoption of internet entertainment' and describes a 'very strong back half slate'."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue grew 24% year over year to $7,163 million in Q1'21.",
+      "quote": "Revenue grew 24% year over year and was in line with our beginning of quarter forecast... Q1'21 Revenue $ 7,163",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $3.75 vs. $1.57 a year ago, including a $253m non-cash unrealized gain from F/X remeasurement.",
+      "quote": "EPS of $3.75 vs. $1.57 a year ago included a $253m non-cash unrealized gain from F/X remeasurement on our Euro denominated debt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2'21 forecast: revenue $7,302 million, operating income $1,865 million, operating margin 25.5%, diluted EPS $3.16, paid net additions of 1 million.",
+      "quote": "Q2'21 Forecast Revenue $ 7,302 ... Operating Income $ 1,865 ... Operating Margin 25.5 % ... Diluted EPS $ 3.16 ... Global Streaming Paid Net Additions 1.00",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY21 operating margin target unchanged at 20%.",
+      "quote": "Our FY21 operating margin target of 20% vs. 18% last year remains unchanged.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin reached an all-time high of 27.4% in Q1'21.",
+      "quote": "operating profit and margin reached all-time highs... Operating Margin 27.4 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid membership growth slowed due to COVID-19 pull forward and lighter content slate.",
+      "quote": "We believe paid membership growth slowed due to the big Covid-19 pull forward in 2020 and a lighter content slate in the first half of this year, due to Covid-19 production delays.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 paid net additions of 4m were below guidance of 6m.",
+      "quote": "In Q1, paid net additions of 4m were below our 6m guidance (and the 16m net additions in the year ago quarter) primarily due to acquisition, as retention in Q1 was in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong second half anticipated with return of big hits and exciting film lineup.",
+      "quote": "We anticipate paid membership growth will re-accelerate in the second half of 2021 as we ramp into a very strong back half slate with the return of big hits like Sex Education, The Witcher, La Casa de Papel (aka Money Heist), and You, as well as an exciting array of original films...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement per member household grew solidly year over year in Q1'21.",
+      "quote": "engagement per member household grew solidly year over year in Q1’21.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1'21 churn below Q1'20 levels.",
+      "quote": "Q1’21 churn below Q1‘20 levels, demonstrating that as we improve the service, we can charge a bit more.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Board approved $5 billion stock repurchase program beginning in 2021.",
+      "quote": "Our board has approved a program to repurchase up to $5 billion of our common stock beginning in 2021 with no fixed expiration date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow positive in Q1 and on track for full year 2021 FCF to be approximately break even.",
+      "quote": "Free cash flow (FCF) for the quarter was $692 million vs. $162 million in Q1‘20. We are on track for full year 2021 free cash flow to be approximately break even.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We are optimistic about the future and believe we are still in the early days of the adoption of internet entertainment, which should provide us with many years of growth ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Not yet producing in Brazil and India.",
+      "quote": "we are back up and producing safely in every major market, with the exception of Brazil and India.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline between HOLD and BUY. The Q2 guidance is very weak (1m net adds vs 10m a year ago), but the long-term outlook is optimistic. A human reviewer should confirm whether the unchanged FY20 margin target and low Q2 guidance outweigh the positive H2 outlook."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2021-04-20",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2021",
+    "report_date": "2021-04-20",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q1\\nflx-1q21-press-release.html",
+        "pub_date": "2021-04-20"
+      }
+    ],
+    "document_id": "NFLX_FQ1_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:53:27Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q1\\nflx-1q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q1\\nflx-1q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25512,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2021.txt"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "document_id": "TGT_FQ4_2020",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document reports strong backward-looking results (record EPS, 20.5% comparable sales growth, $9 billion market share gain) but explicitly states that the company is not providing sales and EPS guidance for Fiscal 2021 due to continued uncertainty. The lack of forward guidance and the cautious language around the outlook ('continued uncertainty') prevent a positive forward-looking score. The strong past performance is not a forward signal, and the absence of guidance means no guidance raise or cut, resulting in a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $28.3 billion grew 21.1% compared with last year in Q4 2020. Full-year revenue of $93.6 billion grew 19.8% compared with 2019.",
+    "eps": "Q4 2020 GAAP EPS from continuing operations of $2.73 (up 67.7% from $1.63 in Q4 2019). Full-year GAAP EPS from continuing operations of $8.64 (up 36.3% from $6.34 in 2019). Adjusted EPS was $2.67 for Q4 and $9.42 for the full year.",
+    "guidance": "The company is not providing sales and EPS guidance for Fiscal 2021 and beyond, citing continued uncertainty due to COVID-19.",
+    "margin": "Q4 2020 gross margin rate was 26.8% compared with 26.3% in 2019. Q4 operating income margin rate was 6.5% compared with 5.1% in 2019. Full-year gross margin rate was 28.4% compared with 28.9% in 2019. Full-year operating income margin rate was 7.0% compared with 6.0% in 2019.",
+    "key_risks": [
+      "Continued uncertainty due to COVID-19 impacting consumer shopping patterns and the outlook for fiscal 2021.",
+      "Higher digital fulfillment and supply chain costs partially offset gross margin improvements.",
+      "Unfavorable category sales mix and higher supply chain and fulfillment costs from channel mix negatively impacted full-year gross margin rate."
+    ],
+    "key_opportunities": [
+      "Gained approximately $9 billion in market share in 2020.",
+      "Digital comparable sales grew 118% in Q4 and 145% for the full year.",
+      "Same-day services (Order Pick Up, Drive Up and Shipt) grew 212% in Q4, led by more than 500% growth in Drive Up.",
+      "More than 95% of Target’s fourth quarter sales were fulfilled by its stores, highlighting the strength of the store network as a fulfillment hub.",
+      "The company sees continued opportunity to invest in the business and team to drive market share gains and deliver profitable growth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Cornell stated: 'Following years of investment to build a durable, scalable and sustainable business model, we saw record growth in 2020... As we look ahead to 2021 and beyond, we see continued opportunity to invest in our business and our team, building on the strong foundation we've established to drive market share gains and deliver profitable growth for years to come.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "The company is not providing sales and EPS guidance for Fiscal 2021 due to continued uncertainty.",
+      "quote": "In the face of continued uncertainty, the company is not providing sales and EPS guidance for Fiscal 2021 and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 total revenue was $28.3 billion, up 21.1% year-over-year.",
+      "quote": "Total revenue of $28.3 billion grew 21.1 percent compared with last year, driven by sales growth of 21.0 percent and a 28.7 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year revenue was $93.6 billion, up 19.8% year-over-year.",
+      "quote": "Full-year revenue of $93.6 billion grew 19.8 percent compared with 2019, reflecting sales growth of 19.8 percent and an 18.2 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 GAAP EPS from continuing operations was $2.73, up 67.7% from $1.63 in Q4 2019.",
+      "quote": "The company reported GAAP earnings per share (EPS) from continuing operations of $2.73 in fourth quarter ... compared with $1.63 ... in [2019].",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year GAAP EPS from continuing operations was $8.64, up 36.3% from $6.34 in 2019.",
+      "quote": "The company reported GAAP earnings per share (EPS) from continuing operations of ... $8.64 for full-year , compared with ... $6.34 in [2019].",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $2.67 for Q4 and $9.42 for the full year.",
+      "quote": "Adjusted EPS was $2.67 for the fourth quarter and $9.42 for the full-year, compared with $1.69 and $6.39 in [2019], respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 gross margin rate was 26.8% compared with 26.3% in 2019.",
+      "quote": "Fourth quarter gross margin rate was 26.8 percent, compared with 26.3 percent in 2019, reflecting the benefit of merchandising actions, most notably the unusually low markdown rates, partially offset by the impact of higher digital fulfillment and supply chain costs, along with the impact of category mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 operating income margin rate was 6.5% compared with 5.1% in 2019.",
+      "quote": "Fourth quarter operating income margin rate was 6.5 percent in 2020 compared with 5.1 percent in 2019.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year gross margin rate was 28.4% compared with 28.9% in 2019.",
+      "quote": "Full-year gross margin rate was 28.4 percent , compared with 28.9 percent in [2019].",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating income margin rate was 7.0% compared with 6.0% in 2019.",
+      "quote": "Operating income margin rate ... 7.0 [percent for full-year 2020] ... 6.0 [percent for full-year 2019].",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company gained approximately $9 billion in market share in 2020.",
+      "quote": "The Company gained approximately $9 billion in market share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital comparable sales grew 118% in Q4 and 145% for the full year.",
+      "quote": "Digital comparable sales grew 118 percent, accounting for two-thirds of the Company's overall comp growth. ... Full-Year 2020 Highlights ... 145 percent growth in digital comparable sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day services grew 212% in Q4, led by more than 500% growth in Drive Up.",
+      "quote": "Same-day services (Order Pick Up, Drive Up and Shipt) grew 212 percent, led by more than 500 percent growth in Drive Up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "More than 95% of Q4 sales were fulfilled by stores.",
+      "quote": "More than 95 percent of Target’s fourth quarter sales were fulfilled by its stores.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Brian Cornell: 'Following years of investment to build a durable, scalable and sustainable business model, we saw record growth in 2020... As we look ahead to 2021 and beyond, we see continued opportunity to invest in our business and our team, building on the strong foundation we've established to drive market share gains and deliver profitable growth for years to come.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher digital fulfillment and supply chain costs partially offset gross margin improvements.",
+      "quote": "Fourth quarter gross margin rate was 26.8 percent, compared with 26.3 percent in 2019, reflecting the benefit of merchandising actions, most notably the unusually low markdown rates, partially offset by the impact of higher digital fulfillment and supply chain costs, along with the impact of category mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unfavorable category sales mix and higher supply chain and fulfillment costs from channel mix negatively impacted full-year gross margin rate.",
+      "quote": "Full-year gross margin rate was 28.4 percent , compared with 28.9 percent in [2019]. This rate decline reflects unfavorable category sales mix and higher supply chain and fulfillment costs from channel mix, partially offset by markdown favorability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.00 despite very strong backward-looking results. The lack of forward guidance is the key driver, but a reviewer may want to consider whether the strong momentum and confident language warrant a slightly positive score (e.g., +0.15) even without formal guidance. The document explicitly states no guidance is provided, so the neutral score is defensible, but it is a borderline case."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2021-03-02",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2020",
+    "report_date": "2021-03-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2020-Q4\\tgt-4q20-press-release.html",
+        "pub_date": "2021-03-02"
+      }
+    ],
+    "document_id": "TGT_FQ4_2020"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:50:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2020-Q4\\tgt-4q20-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2020.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2020-Q4\\tgt-4q20-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 23925,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2020.txt"
+  }
+}

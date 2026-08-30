@@ -1,0 +1,187 @@
+{
+  "document_id": "DIS_FQ3_2021",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows a clear operational inflection: Disney swung from a net loss of $4.7 billion in the prior-year quarter to net income of $1.1 billion, and Parks & Experiences swung from a loss of $1.9 billion to a profit of $356 million, driven by park reopenings. However, the document does not contain a formal guidance raise; management's forward language is confident but acknowledges ongoing pandemic challenges. The score reflects genuine momentum (the swing from loss to profit) without a formal guidance raise, consistent with the +0.15 to +0.3 anchor for operational inflection."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues for the quarter were $17,022 million, up 45% from $11,779 million in the prior-year quarter.",
+    "eps": "Diluted EPS from continuing operations was income of $0.50 compared to a loss of $2.61 in the prior-year quarter. Excluding certain items, diluted EPS was $0.80 compared to $0.08 in the prior-year quarter.",
+    "guidance": "Not disclosed. The document does not provide explicit forward revenue, earnings, or growth guidance.",
+    "margin": "Not disclosed. No explicit gross, operating, or net margin commentary is provided.",
+    "key_risks": [
+      "COVID-19 continues to impact operations, with parks operating at reduced capacities and cruise ship sailings only beginning to resume.",
+      "The company expects to incur approximately $1 billion in additional costs in fiscal 2021 to address government regulations and implement safety measures.",
+      "Disney Media and Entertainment Distribution segment operating income decreased 32% in the quarter due to higher programming and production costs, particularly for live sports.",
+      "Content production and theatrical release schedules remain disrupted, affecting the availability of content for subsequent distribution windows."
+    ],
+    "key_opportunities": [
+      "Direct-to-Consumer business is performing very well, with nearly 174 million total subscriptions across Disney+, ESPN+, and Hulu at quarter end.",
+      "Parks and Experiences segment swung from a loss of $1.9 billion to a profit of $356 million, driven by the reopening of parks and resorts.",
+      "Disney+ subscriber base grew to 116.0 million, more than doubling from 57.5 million in the prior-year quarter.",
+      "Advertising revenue growth at Linear Networks benefited from the return of live sports events and higher rates."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Bob Chapek stated, 'We ended the third quarter in a strong position, and are pleased with the Company’s trajectory as we grow our businesses amidst the ongoing challenges of the pandemic.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues for the quarter were $17,022 million, up 45% from $11,779 million in the prior-year quarter.",
+      "quote": "Revenues $ 17,022 $ 11,779 45 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS from continuing operations was income of $0.50 compared to a loss of $2.61 in the prior-year quarter.",
+      "quote": "Diluted EPS from continuing operations (2) $ 0.50 $ (2.61) nm",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding certain items, diluted EPS was $0.80 compared to $0.08 in the prior-year quarter.",
+      "quote": "Diluted EPS excluding certain items (1) $ 0.80 $ 0.08 >100 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The document does not provide explicit forward revenue, earnings, or growth guidance.",
+      "quote": "The document contains no explicit forward guidance statements for revenue, earnings, or growth beyond general forward-looking statements about the impact of COVID-19.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No explicit gross, operating, or net margin commentary is provided.",
+      "quote": "The document does not contain any explicit margin commentary.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID-19 continues to impact operations, with parks operating at reduced capacities and cruise ship sailings only beginning to resume.",
+      "quote": "Theme parks and resorts resumed operations, generally at reduced capacity, at various points since May 2020 through June 2021 and we have commenced an ongoing return of cruise ship sailings and guided tours.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to incur approximately $1 billion in additional costs in fiscal 2021 to address government regulations and implement safety measures.",
+      "quote": "We currently expect these costs will total approximately $1 billion in fiscal 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney Media and Entertainment Distribution segment operating income decreased 32% in the quarter due to higher programming and production costs, particularly for live sports.",
+      "quote": "Segment operating income (loss): Disney Media and Entertainment Distribution $ 2,026 $ 2,977 (32) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content production and theatrical release schedules remain disrupted, affecting the availability of content for subsequent distribution windows.",
+      "quote": "Fewer theatrical releases and production delays have limited the availability of film content to be sold in the subsequent home entertainment and TV/SVOD distribution windows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct-to-Consumer business is performing very well, with nearly 174 million total subscriptions across Disney+, ESPN+, and Hulu at quarter end.",
+      "quote": "our direct-to-consumer business is performing very well, with a total of nearly 174 million subscriptions across Disney+, ESPN+ and Hulu at the end of the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Parks and Experiences segment swung from a loss of $1.9 billion to a profit of $356 million, driven by the reopening of parks and resorts.",
+      "quote": "Disney Parks, Experiences and Products revenues for the quarter increased to $4.3 billion compared to $1.1 billion in the prior-year quarter. Segment operating results increased $2.2 billion to income of $356 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ subscriber base grew to 116.0 million, more than doubling from 57.5 million in the prior-year quarter.",
+      "quote": "Disney+ (2) 116.0 57.5 >100 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue growth at Linear Networks benefited from the return of live sports events and higher rates.",
+      "quote": "Advertising revenue growth was due to higher rates and higher average viewership, both of which benefited from the return of live sports events.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CEO Bob Chapek expressed confidence in the company's trajectory.",
+      "quote": "We ended the third quarter in a strong position, and are pleased with the Company’s trajectory as we grow our businesses amidst the ongoing challenges of the pandemic.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of 0.25 reflects an operational inflection without a formal guidance raise.",
+      "quote": "Segment operating results increased $2.2 billion to income of $356 million.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "guidance",
+      "reason": "The document does not contain explicit forward guidance; the sentiment score relies on operational momentum rather than a formal guidance change. A human reviewer should confirm that no implicit guidance is present."
+    },
+    {
+      "field": "margin",
+      "reason": "No margin commentary is provided; this is a gap that may be expected for this document type but should be verified."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2021-08-12",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2021",
+    "report_date": "2021-08-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q3\\dis-3q21-press-release.html",
+        "pub_date": "2021-08-12"
+      }
+    ],
+    "document_id": "DIS_FQ3_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144738Z",
+    "timestamp": "2026-07-09T14:48:22Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q3\\dis-3q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q3\\dis-3q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 42852,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2021.txt"
+  }
+}

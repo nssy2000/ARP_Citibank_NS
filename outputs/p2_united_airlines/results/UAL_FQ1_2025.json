@@ -1,0 +1,224 @@
+{
+  "document_id": "UAL_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was materially reduced. The company provided a bimodal outlook: a stable environment scenario with EPS of $11.50-$13.50 (down from the initial guidance range of $11.50-$13.50, which is now described as having 'no contingency left') and a recessionary scenario of $7.00-$9.00. Management explicitly stated that the full-year guide 'no longer has a contingency in it' and that achieving it requires bookings to stabilize. The Q2 EPS guidance of $3.25-$4.25 is below what would be needed to hit the full-year range without a strong second half. The overall tone is cautious, with management acknowledging a 'softer macroeconomic environment' and a 'reasonable chance that bookings could weaken further.'"
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record Q1 total operating revenue of $13.2 billion, up 5.4% year-over-year.",
+    "eps": "Q1 adjusted diluted EPS of $0.91, within the guidance range provided at the start of the quarter.",
+    "guidance": "Bimodal guidance: Stable Environment FY2025 adjusted diluted EPS $11.50-$13.50; Recessionary Environment FY2025 adjusted diluted EPS $7.00-$9.00. Q2 2025 adjusted diluted EPS guidance of $3.25-$4.25.",
+    "margin": "Q1 pre-tax margin of 3.6% (GAAP) and adjusted pre-tax margin of 3.0% (non-GAAP), up 4.9 points and 3.6 points year-over-year, respectively.",
+    "key_risks": [
+      "Softer macroeconomic environment driving volatility and softer demand for travel.",
+      "Reasonable chance that bookings could weaken further, potentially leading to a recessionary scenario.",
+      "Domestic main cabin RASMs down 5% year-over-year in Q1.",
+      "Non-US-origin passenger volumes down: Europe bookings down 6% year-over-year, Canada down 9% year-over-year.",
+      "Uncertainty around tariffs and their potential impact on aircraft purchases and the broader economy.",
+      "Full-year guidance no longer has a contingency built in."
+    ],
+    "key_opportunities": [
+      "Won brand-loyal customers, leading to resilience in earnings and financial metrics.",
+      "Premium cabin revenue up 9.2% year-over-year in Q1.",
+      "International travel remains strong, with Atlantic RASM up 4.7% and Pacific RASM up 8.5% year-over-year.",
+      "Loyalty revenue grew 9% to $1.5 billion in Q1.",
+      "Investments in customer experience (Starlink WiFi, new clubs) expected to further differentiate United.",
+      "Expectation of significant reduction in fuel costs."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasizes uncertainty, a 'softer macroeconomic environment,' and that achieving the full-year guidance requires bookings to stabilize, stating 'we also recognize that there's a real risk of the US economy going into a recession.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 total operating revenue was a record $13.2 billion, up 5.4% year-over-year.",
+      "quote": "United reported a first-quarter profit, with record revenue of $13.2 billion, and total revenue per available seat mile (TRASM) growth of 0.5% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 adjusted diluted EPS was $0.91, within the guidance range.",
+      "quote": "The company also achieved diluted earnings per share of $1.16 and adjusted diluted earnings per share1 of $0.91, within the guidance range provided at the start of the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was reduced and is now bimodal with a stable and recessionary scenario.",
+      "quote": "The Company is therefore providing two separate guidance benchmarks based on these two different macroeconomic views: Stable Environment Scenario: ... the Company continues to expect to be within the initial guidance range of $11.50 to $13.50 in adjusted diluted earnings per share. Recessionary Environment Scenario: ... the Company expects adjusted diluted earnings per share of $7.00 to $9.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The full-year guidance no longer has a contingency built in.",
+      "quote": "The full-year guide no longer has a contingency in it. We burned that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 adjusted diluted EPS guidance is $3.25 to $4.25.",
+      "quote": "Looking to the second quarter, we expect earnings per share to be between $3.25 and $4.25.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 pre-tax margin was 3.6% (GAAP) and adjusted pre-tax margin was 3.0%.",
+      "quote": "The company had first quarter pre-tax earnings of $478 million, with a pre-tax margin of 3.6%; and adjusted pre-tax earnings1 of $391 million, with an adjusted pre-tax margin1 of 3.0%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The softer macroeconomic environment is driving volatility and softer demand for travel.",
+      "quote": "It's clear the softer macroeconomic environment is driving both volatility in the market and softer demand for travel.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is a reasonable chance that bookings could weaken further.",
+      "quote": "However, we read the same headlines as you, and so we think that there's a reasonable chance that bookings could weaken from here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic main cabin RASMs were down 5% year-over-year in Q1.",
+      "quote": "Domestic main cabin RASMs were down 5% year over year and represent the bulk of the gap between our Q1 revenue expectations and actual results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-US-origin passenger volumes are down: Europe bookings down 6%, Canada down 9%.",
+      "quote": "For the second quarter, international passengers originated in Europe are currently booked 6% lower than last year. Canadian origin passenger volumes are slightly worse, down 9% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium cabin revenue rose 9.2% year-over-year.",
+      "quote": "Premium cabin revenue rose 9.2%, business revenue was up 7.4% and revenue from Basic Economy was up 7.6% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International travel remained strong with Atlantic RASM up 4.7% and Pacific RASM up 8.5%.",
+      "quote": "International travel remained strong, with Atlantic RASM up 4.7% and Pacific RASM up 8.5% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loyalty revenue grew 9% to $1.5 billion in Q1.",
+      "quote": "Loyalty revenue remained strong and grew 9% to $1.5 billion in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "It's clear the softer macroeconomic environment is driving both volatility in the market and softer demand for travel. ... we also recognize that there's a real risk of the US economy going into a recession.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects the reduction in forward guidance and cautious tone. However, the company did report a strong Q1 beat versus the prior year, which could be seen as a positive. The negative score is driven by the forward-looking guidance reduction and the removal of contingency, which is the primary signal for an equity investor."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UAL_Bundled Earnings Report_2025-04-15",
+  "report_metadata": {
+    "issuer": "p2_united_airlines",
+    "company": "United Airlines",
+    "ticker": "UAL",
+    "sector": "Industrials/Airlines",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-15",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\1Q25 Investor Update Final.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\Q1 2025 Financial Results Final.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\Q1 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\UAL 1Q25 10Q.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UAL_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T160152Z",
+    "timestamp": "2026-07-21T16:02:29Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\1Q25 Investor Update Final.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_united_airlines\\extracted\\UAL_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\1Q25 Investor Update Final.pdf",
+        "page_count": 4,
+        "extracted_characters": 15881,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\Q1 2025 Financial Results Final.pdf",
+        "page_count": 16,
+        "extracted_characters": 46632,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\Q1 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+        "page_count": 27,
+        "extracted_characters": 79264,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q1\\UAL 1Q25 10Q.pdf",
+        "page_count": 63,
+        "extracted_characters": 123159,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_united_airlines\\extracted\\UAL_FQ1_2025.txt"
+  }
+}

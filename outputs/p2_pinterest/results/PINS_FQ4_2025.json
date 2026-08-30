@@ -1,0 +1,252 @@
+{
+  "document_id": "PINS_FQ4_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was effectively reduced relative to the company's own prior trajectory. Management explicitly stated it was 'not satisfied with our Q4 revenue performance' and that Q4 revenue growth of 14% was below expectations, with the CFO noting 'our largest retail advertisers created a more meaningful headwind than we expected.' Q1 2026 guidance of 11%-14% growth represents a deceleration from the 14% reported in Q4, and management flagged 'year-over-year adjusted EBITDA margin pressure in the first half' of 2026. The cautious, defensive tone regarding near-term headwinds from large retailer pullbacks and the salesforce restructuring, combined with the decelerating growth outlook, warrants a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue was $1,319 million, up 14% year-over-year (13% on a constant currency basis). Full year 2025 revenue was $4,222 million, up 16% year-over-year (15% on a constant currency basis).",
+    "eps": "Q4 2025 GAAP diluted EPS was $0.41, down from $2.68 in Q4 2024. Full year 2025 GAAP diluted EPS was $0.61, down from $2.67 in 2024. Non-GAAP diluted EPS was $0.67 for Q4 2025, up from $0.56 in Q4 2024, and $1.60 for full year 2025, up from $1.29 in 2024.",
+    "guidance": "For Q1 2026, the company expects revenue in the range of $951 million to $971 million, representing 11%-14% growth year-over-year, with an approximately 3-point tailwind from foreign exchange. Q1 2026 Adjusted EBITDA is expected to be in the range of $166 million to $186 million. The company expects full year 2026 adjusted EBITDA margin to be roughly in line with 2025 at approximately 30%, but approximately 29% including the impact of the TV Scientific acquisition.",
+    "margin": "Q4 2025 Adjusted EBITDA margin was 41%, up 20 basis points year-over-year. Full year 2025 Adjusted EBITDA margin was 30%. GAAP net income margin for Q4 2025 was 21%.",
+    "key_risks": [
+      "Large retail advertisers pulled back on ad spend due to tariff and margin pressure, creating a more meaningful headwind than expected.",
+      "Revenue growth in Europe was below expectations due to pullback by large global retailers.",
+      "Ad pricing declined 19% year-over-year due to mix shift towards under-monetized international impressions.",
+      "Salesforce and go-to-market restructuring may cause near-term disruption and impact Q1 performance as new hires ramp up.",
+      "TV Scientific acquisition is expected to cause a roughly 100 basis point drag to 2026 adjusted EBITDA margin.",
+      "Management expects year-over-year adjusted EBITDA margin pressure in the first half of 2026.",
+      "Cost of revenue headwinds of approximately 100 basis points in 2026 due to GPU investments for AI initiatives."
+    ],
+    "key_opportunities": [
+      "Record user growth with 619 million global MAUs, up 12% year-over-year, marking ten consecutive quarters of record high users.",
+      "AI model deployments (OmniSage, PinFM) drove significant engagement gains, with a 450 basis point lift in sitewide saves from OmniSage and a 240 basis point increase from PinFM.",
+      "Managed SMB business doubled its year-over-year growth rate in 2025 and now comprises 15% of revenue.",
+      "Pinterest Assistant beta launch shows users have 25 percentage points higher commercial intent in queries than with traditional search.",
+      "International revenue growth accelerated to 38% in 2025 compared to 25% in 2024.",
+      "TV Scientific acquisition supports monetization beyond owned properties and opens up larger, incremental budget pools in connected TV.",
+      "Pinterest Performance Plus New Customer Acquisition beta showed a 64% average increase in new customer conversions for test advertisers."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in the long-term opportunity and user engagement ('We're confident these important changes will make us a stronger company and position us to realize the long-term opportunity ahead') but was explicitly cautious and defensive about near-term performance, stating 'we are not satisfied with our Q4 revenue performance' and acknowledging 'near-term disruption' from restructuring."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $1,319 million, up 14% year-over-year.",
+      "quote": "Revenue was $1,319 million for Q4 and $4,222 million for 2025, growing 14% and 16%, respectively, year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP diluted EPS was $0.41, down from $2.68 in Q4 2024.",
+      "quote": "Diluted $ 0.41 $ 2.68",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guidance is $951 million to $971 million, representing 11%-14% growth.",
+      "quote": "For Q1 2026, we expect revenue to be in the range of $951 million to $971 million, representing 11% - 14% growth year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted EBITDA margin was 41%, up 20 basis points year-over-year.",
+      "quote": "In Q4, we delivered adjusted EBITDA of $542,000,000, with an adjusted EBITDA margin of 41%, up 20 basis points versus Q4 last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management was not satisfied with Q4 revenue performance.",
+      "quote": "However, we are not satisfied with our Q4 revenue performance and believe it does not reflect what Pinterest can deliver over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Large retail advertisers created a more meaningful headwind than expected.",
+      "quote": "In Q4, our largest retail advertisers created a more meaningful headwind than we expected as they sought to protect their margins in this dynamic environment and pulled back on ad spend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe revenue growth was below expectations due to pullback by large global retailers.",
+      "quote": "Growth in Europe was driven by retail but was lower than our expectations. We saw a second-order effect on cross-border spend from certain large global retailers who pulled back ad spend in Europe, as well as UCAN, as they recalibrated across their global portfolio due to the same tariff and margin pressure as Bill described earlier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad pricing declined 19% year-over-year.",
+      "quote": "In Q4, overall ad impressions grew 41% while ad pricing declined 19% year over year, driven primarily by the continued mix shift impacts from growing ad impressions in under-monetized international markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Salesforce restructuring may cause near-term disruption.",
+      "quote": "It is also worth noting that we recently implemented a restructuring in January and are going through a sales and go-to-market transformation, and that may cause some near-term disruption, which we factored into our guidance to be prudent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TV Scientific acquisition is expected to cause a roughly 100 basis point drag to 2026 adjusted EBITDA margin.",
+      "quote": "While the acquisition of TV Scientific has not yet closed, we do expect closing to happen in Q1 or Q2, which we anticipate would cause a roughly 100 basis point drag to adjusted EBITDA margin in 2026, leading to 29% for 2026 overall on a combined basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects year-over-year adjusted EBITDA margin pressure in the first half of 2026.",
+      "quote": "So while we anticipate year-over-year adjusted EBITDA margin pressure in the first half, based on our current outlook, we expect full year 2026 adjusted EBITDA margin to be roughly in line with 2025 at approximately 30%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record user growth with 619 million global MAUs, up 12% year-over-year.",
+      "quote": "We ended the quarter with 619,000,000 global monthly active users, or MAUs, growing 12%, our tenth consecutive quarter of record high users.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI model deployments drove significant engagement gains.",
+      "quote": "The application of OmniSage drove a 450 basis point lift in sitewide saves. Additionally, in a continuation of our work to increase context windows and bring a user's full history across all major surfaces on Pinterest, we developed a proprietary foundation ranking model called PinFM. This model distills lifetime user actions into the recommendations on the home feed and related Pins, driving personalization in nearly every impression our users see. This launch brought meaningful sitewide engagement gains, including a 240 basis point increase in saves across the platform.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Managed SMB business doubled its year-over-year growth rate in 2025 and now comprises 15% of revenue.",
+      "quote": "We have doubled the growth rate of our managed SMB business. We expanded with mid-market enterprise advertisers in the $1 to $30,000,000,000 range. And international revenue growth accelerated to 38% versus 25% in 2024, but we believe growth in these areas should be higher, which is why we need to move faster and be bolder.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pinterest Assistant beta launch shows users have 25 percentage points higher commercial intent.",
+      "quote": "Compared with traditional text-based search, users are asking a significantly higher share of commercially oriented questions—about 25 percentage points more—when using Pinterest Assistant.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International revenue growth accelerated to 38% in 2025 compared to 25% in 2024.",
+      "quote": "International revenue growth reached 38% in 2025 compared to 25% in 2024, with Rest of World markets leading in percentage gains.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TV Scientific acquisition supports monetization beyond owned properties.",
+      "quote": "This acquisition is an important step toward leveraging our valuable, high-intent audience beyond Pinterest's own surfaces and starting to monetize off-platform supply.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pinterest Performance Plus New Customer Acquisition beta showed a 64% average increase in new customer conversions.",
+      "quote": "In initial testing, advertisers saw new customer conversions increase by an average of 64% in campaigns where New Customer Acquisition was enabled compared to control campaigns without it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with confidence in long-term opportunity but caution on near-term performance.",
+      "quote": "We're confident these important changes will make us a stronger company and position us to realize the long-term opportunity ahead. ... However, we are not satisfied with our Q4 revenue performance and believe it does not reflect what Pinterest can deliver over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost of revenue headwinds of approximately 100 basis points in 2026 due to GPU investments.",
+      "quote": "So we expect this cost of revenue investment to be approximately 100 basis points in 2026, similar to the gross margin outlook implied in my Q1 commentary earlier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects a deceleration in forward guidance (Q1 2026 growth of 11-14% vs Q4 2025 growth of 14%) and explicit management caution. However, the company did not formally 'cut' guidance; it provided a new quarter's guidance that is lower than the prior quarter's actual growth. A reviewer should confirm this interpretation of 'guidance reduced' is appropriate versus a more neutral 'in-line' reading."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "The GAAP EPS decline is primarily due to a one-time tax benefit in Q4 2024. The non-GAAP EPS shows growth. The summary includes both to provide context, but a reviewer should verify the presentation is clear."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PINS_Bundled Earnings Report_2026-02-12",
+  "report_metadata": {
+    "issuer": "p2_pinterest",
+    "company": "Pinterest",
+    "ticker": "PINS",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2025-Q4\\PINS_Q4_2025_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2025-Q4\\PINS_Q4_2025_Earnings_Call_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PINS_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T102137Z",
+    "timestamp": "2026-08-09T10:22:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pinterest\\extracted\\PINS_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 28747,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2025-Q4\\PINS_Q4_2025_Earnings_Presentation.pdf",
+        "page_count": 16,
+        "extracted_characters": 14051,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2025-Q4\\PINS_Q4_2025_Earnings_Call_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 74804,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pinterest\\extracted\\PINS_FQ4_2025.txt"
+  }
+}

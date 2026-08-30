@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_chevron",
+  "reports": [
+    {
+      "document_id": "CVX_FQ2_2025",
+      "issuer": "p2_chevron",
+      "company": "Chevron",
+      "ticker": "CVX",
+      "sector": "Energy/Oil & Gas",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-01",
+      "release_date": "2025-08-01",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 93410, filed 2025-08-01, accepted 10:17:27 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/chevron/CY2025-Q2/CVX_Q2_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/chevron/CY2025-Q2/CVX_Q2_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CVX_FQ3_2025",
+      "issuer": "p2_chevron",
+      "company": "Chevron",
+      "ticker": "CVX",
+      "sector": "Energy/Oil & Gas",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-31",
+      "release_date": "2025-10-31",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 93410, filed 2025-10-31, accepted 10:16:33 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/chevron/CY2025-Q3/CVX_Q3_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/chevron/CY2025-Q3/CVX_Q3_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CVX_FQ4_2025",
+      "issuer": "p2_chevron",
+      "company": "Chevron",
+      "ticker": "CVX",
+      "sector": "Energy/Oil & Gas",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-30",
+      "release_date": "2026-01-30",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 93410, filed 2026-01-30, accepted 11:16:19 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/chevron/CY2025-Q4/CVX_Q4_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/chevron/CY2025-Q4/CVX_Q4_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CVX_FQ1_2026",
+      "issuer": "p2_chevron",
+      "company": "Chevron",
+      "ticker": "CVX",
+      "sector": "Energy/Oil & Gas",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-01",
+      "release_date": "2026-05-01",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 93410, filed 2026-05-01, accepted 10:16:43 ET (NOT the 2026-04-09 filing which has item 2.02 only without 9.01 \u2014 that is a preliminary update, not the Q1 earnings release)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/chevron/CY2026-Q1/CVX_Q1_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/chevron/CY2026-Q1/CVX_Q1_2026_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

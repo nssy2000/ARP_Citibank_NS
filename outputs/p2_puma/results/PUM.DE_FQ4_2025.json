@@ -1,0 +1,253 @@
+{
+  "document_id": "PUM.DE_FQ4_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: management guides FY 2026 currency-adjusted sales to decline low- to mid-single-digit and EBIT to remain negative at €-50 to €-150 million, following a year in which sales fell 8.1% (ca) and adjusted EBIT swung to -€165.6 million. Management explicitly designates 2026 as a 'transition year' and expects a return to growth only 'from 2027 onwards,' with no formal guidance raise and cautious language on ongoing geopolitical and macroeconomic uncertainties. The negative forward outlook and continued losses drive the bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FY 2025 sales decreased by 8.1% (ca) to €7,296.2 million (-13.1% reported); Q4 2025 sales decreased by 20.7% (ca) to €1,564.9 million (-27.2% reported).",
+    "eps": "FY 2025 loss per share from continuing operations of €-4.37 (FY 2024: €1.88); Q4 2025 loss per share from continuing operations of €-2.27 (Q4 2024: €0.16).",
+    "guidance": "FY 2026: currency-adjusted sales to decline in the low- to mid-single-digit percentage range; operating result (EBIT) between €-50 million and €-150 million; CAPEX of around €200 million. Management expects return to above-industry growth and healthy profits from 2027 onwards.",
+    "margin": "FY 2025 gross profit margin declined 260 bps to 45.0%; Q4 2025 gross profit margin declined 750 bps to 40.2%. FY 2025 reported EBIT margin was -4.9% (FY 2024: 6.5%).",
+    "key_risks": [
+      "Ongoing geopolitical and macroeconomic uncertainties in 2026",
+      "Anta's acquisition of 29% stake expected to negatively impact Greater China business in 2026",
+      "Elevated net debt of €1,063.5 million, significantly above prior year level of €119.8 million",
+      "Negative free cash flow of -€530.3 million in FY 2025",
+      "Inventory levels remain elevated at €2,060.0 million, up 2.3% reported",
+      "No dividend proposed for FY 2025 due to negative net income"
+    ],
+    "key_opportunities": [
+      "Strong growth in Performance Running driven by Velocity Nitro 4",
+      "Resilient Training category with continued strong momentum in HYROX",
+      "Growth in Sportstyle Prime & Select driven by Speedcat family",
+      "New strategic investor Anta expected to deliver substantial mid- to long-term benefits",
+      "Expected substantial improvement in gross margin in 2026 due to lower promotions and inventory reserves",
+      "DTC business expected to grow in 2026 while Wholesale declines"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management designates 2026 as a 'transition year' and expects ongoing uncertainties, stating 'PUMA expects ongoing geopolitical and macroeconomic uncertainties in 2026' and guides for continued sales decline and negative EBIT."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FY 2025 sales decreased by 8.1% (ca) to €7,296.2 million",
+      "quote": "Consequently, sales for the full year 2025 decreased by 8.1% (ca) to € 7,296.2 million (FY 2024: € 8,398.0 million), with a decline across all regions and product divisions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 sales decreased by 20.7% (ca) to €1,564.9 million",
+      "quote": "In the fourth quarter, currency-adjusted sales decreased by 20.7% to € 1,564.9 million (Q4 2024: € 2,150.5 million).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 loss per share from continuing operations was €-4.37",
+      "quote": "Loss from continuing operations came in at € -643.6 million (FY 2024: profit from continuing operations of € 280.7 million) and earnings per share from continuing operations amounted to € -4.37 (FY 2024: € 1.88).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 loss per share from continuing operations was €-2.27",
+      "quote": "Consequently, loss from continuing operations amounted to € -335.0 million (Q4 2024: profit from continuing operations of € 24.3 million) and earnings per share from continuing operations came in at € -2.27 (Q4 2024: € 0.16).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2026 guidance is for currency-adjusted sales to decline in the low- to mid-single-digit percentage range",
+      "quote": "The anticipated currency-adjusted sales decline in the low- to mid-single-digit percentage range is mainly attributable to lower sales in North America, reflecting measures to streamline distribution, while sales growth in Latin America and Middle East, Africa & India can only partially compensate for this.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2026 EBIT guidance is between €-50 million and €-150 million",
+      "quote": "The company projects an operating result (EBIT) between € -50 and € -150 million, including one-time effects related to the implemented cost efficiency program.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 gross profit margin declined 260 bps to 45.0%",
+      "quote": "The gross profit margin declined by 260 basis points to 45.0% (FY 2024: 47.6%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 gross profit margin declined 750 bps to 40.2%",
+      "quote": "The gross profit margin declined by 750 basis points to 40.2% (Q4 2024: 47.7%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 reported EBIT margin was -4.9%",
+      "quote": "Consequently, the reported EBIT came in at € -357.2 million (FY 2024: € 548.7 million) and the reported EBIT margin was at -4.9% (FY 2024: 6.5%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects ongoing geopolitical and macroeconomic uncertainties in 2026",
+      "quote": "PUMA expects ongoing geopolitical and macroeconomic uncertainties in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Anta's acquisition is expected to negatively impact Greater China business in 2026",
+      "quote": "Anta’s recent acquisition of 29% stake in our company will most likely negatively impact our business in Greater China in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net debt increased significantly to €1,063.5 million",
+      "quote": "Net debt of € 1,063.5 million at the end of FY 2025 was significantly above the prior year level of € 119.8 million, mainly driven by increased bank liabilities to support the operating business and finance working capital.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was negative at -€530.3 million",
+      "quote": "Free cash flow came in at € -530.3 million, significantly down compared to the prior year (FY 2024: € 464.3 million), mainly due to negative earnings before taxes as well as an increase in net working capital.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventories increased to €2,060.0 million",
+      "quote": "Inventories rose by 2.3% reported and 10.7% currency-adjusted to € 2,060.0 million (31 December 2024: € 2,013.7 million) partly driven by inventory takebacks from wholesale partners to clean up distribution.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No dividend will be proposed for FY 2025",
+      "quote": "As a result of the negative net income of the PUMA Group in 2025, the Management Board and Supervisory Board of PUMA SE will propose to the Annual General Meeting on 19 May 2026 that no dividend should be distributed for the financial year 2025 (FY 2024: €0.61).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Performance Running showed strong growth driven by Velocity Nitro 4",
+      "quote": "Despite an overall decrease in the Running category as a result of the distribution clean-up, Performance Running showed strong growth, driven by the success of the Velocity Nitro 4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Training category remained resilient and delivered healthy growth",
+      "quote": "However, the Training category remained resilient and delivered healthy growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sportstyle Prime & Select grew driven by Speedcat family",
+      "quote": "This was partially offset by growth in Sportstyle Prime & Select, driven by the Speedcat family and increased demand in Running.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Anta partnership expected to deliver substantial mid- to long-term benefits",
+      "quote": "Nevertheless, we believe that this partnership will deliver substantial mid- to long-term benefits for our brand and our company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Substantial improvement in gross margin expected in 2026",
+      "quote": "In 2026, we expect a substantial improvement versus 2025, especially due to lower promotions, including inventory reserves and a favourable channel mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC business expected to grow in 2026 while Wholesale declines",
+      "quote": "With regards to sales channels, we anticipate a decrease in Wholesale sales, while our Direct-to-Consumer business is expected to grow, currency adjusted.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious, designating 2026 as a transition year",
+      "quote": "Following a pivotal reset in 2025, during which PUMA implemented decisive measures to tackle brand challenges, restore inventory balance, and lay the groundwork for a stronger, more focused future, 2026 is set to be a year of transition for the company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects return to growth from 2027 onwards",
+      "quote": "While 2025 served as a year of strategic reset and 2026 represents a period of transition, PUMA is confident that the measures implemented thus far and those planned for the near future, are critical to re-establishing growth from 2027 onwards.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects the negative FY 2026 guidance (sales decline, negative EBIT). However, management expresses confidence in returning to growth from 2027, which could be seen as a mitigating factor. Reviewer should confirm the weight given to the near-term negative guidance versus the longer-term positive outlook."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PUM.DE_Bundled Earnings Report_2026-02-26",
+  "report_metadata": {
+    "issuer": "p2_puma",
+    "company": "Puma",
+    "ticker": "PUM.DE",
+    "sector": "Consumer Cyclical/Footwear & Accessories",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-26",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q4\\Q4_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q4\\Q4_2025_Earnings_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PUM.DE_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T102302Z",
+    "timestamp": "2026-08-09T10:24:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q4\\Q4_2025_Press_Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_puma\\extracted\\PUM.DE_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q4\\Q4_2025_Press_Release.pdf",
+        "page_count": 15,
+        "extracted_characters": 28892,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q4\\Q4_2025_Earnings_Transcript.pdf",
+        "page_count": 26,
+        "extracted_characters": 59244,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_puma\\extracted\\PUM.DE_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

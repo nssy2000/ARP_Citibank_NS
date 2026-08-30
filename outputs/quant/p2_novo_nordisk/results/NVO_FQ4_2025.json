@@ -1,0 +1,58 @@
+{
+  "document_id": "NVO_FQ4_2025_QUANT",
+  "base_document_id": "NVO_FQ4_2025",
+  "issuer": "p2_novo_nordisk",
+  "ticker": "NVO",
+  "sector": "Healthcare",
+  "report_date": "2026-02-03",
+  "sentiment": {
+    "score": 0.438491
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.158215,
+      "window_start_date": "2025-12-31",
+      "window_end_date": "2026-02-02",
+      "score": 0.783654,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.503263,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 2.34,
+      "matched_earnings_date": "2026-02-03",
+      "score": 0.093328,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 18.0,
+      "vix_score": 0.066568,
+      "tnx_change": 0.087,
+      "tnx_score": -0.172266,
+      "score": -0.052849,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2026-02-02",
+      "curve_spread": 0.72,
+      "curve_score": 0.616909,
+      "curve_as_of": "2026-02-02",
+      "score": 0.539513,
+      "available": true
+    },
+    "quant_score": 0.438491,
+    "quant_score_with_macro": 0.192821,
+    "quant_score_with_fred": 0.489002,
+    "quant_score_with_macro_fred": 0.308385
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

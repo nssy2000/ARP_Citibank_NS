@@ -1,0 +1,58 @@
+{
+  "document_id": "NFLX_FQ2_2021_QUANT",
+  "base_document_id": "NFLX_FQ2_2021",
+  "issuer": "netflix",
+  "ticker": "NFLX",
+  "sector": "Communication Services",
+  "report_date": "2021-07-20",
+  "sentiment": {
+    "score": 0.096561
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.068106,
+      "window_start_date": "2021-06-17",
+      "window_end_date": "2021-07-19",
+      "score": 0.425215,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.181043,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -5.91,
+      "matched_earnings_date": "2021-07-20",
+      "score": -0.232093,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 19.73,
+      "vix_score": -0.048628,
+      "tnx_change": -0.241,
+      "tnx_score": 0.447844,
+      "score": 0.199608,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 0.1,
+      "ffr_change": 0.04,
+      "ffr_score": -0.07983,
+      "ffr_as_of": "2021-07-19",
+      "curve_spread": 0.98,
+      "curve_score": 0.753066,
+      "curve_as_of": "2021-07-19",
+      "score": 0.336618,
+      "available": true
+    },
+    "quant_score": 0.096561,
+    "quant_score_with_macro": 0.148085,
+    "quant_score_with_fred": 0.216589,
+    "quant_score_with_macro_fred": 0.210929
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "document_id": "UNH_FQ3_2025_QUANT",
+  "base_document_id": "UNH_FQ3_2025",
+  "issuer": "p2_unitedhealth",
+  "ticker": "UNH",
+  "sector": "Healthcare/Healthcare Plans",
+  "report_date": "2025-10-27",
+  "sentiment": {
+    "score": 0.236957
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.049022,
+      "window_start_date": "2025-09-25",
+      "window_end_date": "2025-10-24",
+      "score": 0.315654,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.205424,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 3.99,
+      "matched_earnings_date": "2025-10-28",
+      "score": 0.158259,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 15.79,
+      "vix_score": 0.210792,
+      "tnx_change": -0.19,
+      "tnx_score": 0.362707,
+      "score": 0.28675,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.11,
+      "ffr_change": -0.22,
+      "ffr_score": 0.413644,
+      "ffr_as_of": "2025-10-26",
+      "curve_spread": 0.54,
+      "curve_score": 0.492988,
+      "curve_as_of": "2025-10-24",
+      "score": 0.453316,
+      "available": true
+    },
+    "quant_score": 0.236957,
+    "quant_score_with_macro": 0.261854,
+    "quant_score_with_fred": 0.345137,
+    "quant_score_with_macro_fred": 0.325674
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

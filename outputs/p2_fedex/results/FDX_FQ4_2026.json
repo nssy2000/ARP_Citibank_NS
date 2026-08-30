@@ -1,0 +1,236 @@
+{
+  "document_id": "FDX_FQ4_2026",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The document reports strong Q4 and FY2026 results, with revenue and adjusted operating income growing 8% year-over-year. More importantly, management introduced a CY2026 outlook with adjusted EPS of $16.90 to $18.10, implying 20% growth in the June-through-December transition year, which is a clear forward guidance raise. The tone is confident, with management stating 'our profitable growth strategy is working' and 'we are building momentum.' However, the guidance includes headwinds from variable compensation and the new pilot contract, and the document acknowledges ongoing risks from global trade policy changes, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 FY2026 consolidated revenue was $25.0 billion, up 13% year-over-year. Full-year FY2026 revenue was $94.7 billion, up 8% year-over-year.",
+    "eps": "Q4 FY2026 GAAP diluted EPS was $6.60; adjusted diluted EPS was $6.31. Full-year FY2026 GAAP diluted EPS was $18.55; adjusted diluted EPS was $20.24.",
+    "guidance": "For calendar year 2026, FedEx forecasts revenue growth of approximately 11% year-over-year and adjusted diluted EPS from continuing operations of $16.90 to $18.10. For the June-through-December transition year, adjusted EPS is expected to be approximately $11.30, representing 20% year-over-year growth.",
+    "margin": "Q4 FY2026 GAAP operating margin was 6.2%; adjusted operating margin was 8.4%. Full-year FY2026 GAAP operating margin was 5.8%; adjusted operating margin was 7.0%. At Federal Express segment, full-year adjusted operating margin was 7.7%, the highest in four years.",
+    "key_risks": [
+      "Global trade policy changes and uncertainty in the global trade environment.",
+      "Higher purchased transportation and wage rates.",
+      "Increased variable incentive compensation expenses.",
+      "Grounding of MD-11 aircraft fleet (though returning to service).",
+      "Potential adverse economic, geopolitical, or international trade-related developments.",
+      "Stranded costs from the FedEx Freight spin-off (approximately $350 million remaining)."
+    ],
+    "key_opportunities": [
+      "Continued strength in U.S. Domestic and International Priority package yields.",
+      "Cost savings from transformation initiatives (Network 2.0, Tricolor, Europe restructuring).",
+      "Growth in high-value verticals: healthcare ($10 billion revenue), AI/data centers (double-digit growth).",
+      "International export package volume growth (up 5% in Q4).",
+      "FedEx Freight spin-off positions both companies for focused growth.",
+      "Strong free cash flow generation ($4.7 billion in FY2026) supporting capital returns."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'our profitable growth strategy is working' and 'I have never been more confident on our path ahead,' reflecting strong conviction in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 FY2026 consolidated revenue was $25.0 billion, up 13% year-over-year.",
+      "quote": "FedEx Corp. (NYSE: FDX) today reported the following consolidated results for the fourth quarter ended May 31... Revenue $25.0 billion $25.0 billion $22.2 billion $22.2 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY2026 revenue was $94.7 billion, up 8% year-over-year.",
+      "quote": "For the full fiscal year, FedEx Corporation reported the following consolidated results... Revenue $94.7 billion $94.7 billion $87.9 billion $87.9 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY2026 GAAP diluted EPS was $6.60; adjusted diluted EPS was $6.31.",
+      "quote": "Diluted EPS $6.60 $6.31 $6.88 $6.07",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY2026 GAAP diluted EPS was $18.55; adjusted diluted EPS was $20.24.",
+      "quote": "Diluted EPS $18.55 $20.24 $16.81 $18.19",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For calendar year 2026, FedEx forecasts revenue growth of approximately 11% year-over-year and adjusted diluted EPS from continuing operations of $16.90 to $18.10.",
+      "quote": "For calendar year 2026, FedEx Corporation is forecasting: Revenue Growth ~11% YoY... Adjusted Diluted EPS (Continuing Operations) $16.90 to $18.10",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For the June-through-December transition year, adjusted EPS is expected to be approximately $11.30, representing 20% year-over-year growth.",
+      "quote": "Transition year assumptions translate to an estimated $11.30 of adjusted EPS for the June through December 2026 period, representing 20% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY2026 GAAP operating margin was 6.2%; adjusted operating margin was 8.4%.",
+      "quote": "Operating margin 6.2% 8.4% 8.1% 9.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY2026 GAAP operating margin was 5.8%; adjusted operating margin was 7.0%.",
+      "quote": "Operating margin 5.8% 7.0% 5.9% 7.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "At Federal Express segment, full-year adjusted operating margin was 7.7%, the highest in four years.",
+      "quote": "we delivered a 7.7% adjusted operating margin, the highest margin rate in four years, reflecting the structural improvements we have made to the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global trade policy changes are a key risk.",
+      "quote": "Potential risks and uncertainties include, but are not limited to, economic conditions in the global markets in which we operate; uncertainty and additional volatility in the global trade environment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher purchased transportation and wage rates are a headwind.",
+      "quote": "These factors were partially offset by increased purchased transportation and wage rates, higher variable incentive compensation expenses, and the financial impacts of global trade policy changes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increased variable incentive compensation expenses are a headwind.",
+      "quote": "These factors were partially offset by increased purchased transportation and wage rates, higher variable incentive compensation expenses",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Grounding of MD-11 aircraft fleet is a risk, but returning to service.",
+      "quote": "We began safely returning the MD-11s to service last month, working in lockstep with Boeing, the FAA, and the NTSB. I appreciate the efforts of our flight operations, technical operations, and airline safety teams, whose work enabled four MD-11s to resume flight to-date. We expect to have the full fleet back in service before peak.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Stranded costs from the FedEx Freight spin-off are a risk.",
+      "quote": "Our re-casted financials, including the CY 2025 baseline, reflect continuing operations only and are burdened with stranded costs previously allocated from FEC to FedEx Freight through intercompany charges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued strength in U.S. Domestic and International Priority package yields is an opportunity.",
+      "quote": "Consolidated adjusted operating income improved in the fourth quarter, reflecting continued strength in U.S. Domestic and International Priority package yields, cost savings from transformation initiatives, and increased U.S. Domestic and International export package volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost savings from transformation initiatives are an opportunity.",
+      "quote": "Results reflect lower structural costs as the company exceeded its goal of $1 billion of transformation-related cost savings during the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growth in high-value verticals: healthcare ($10 billion revenue), AI/data centers (double-digit growth).",
+      "quote": "Exiting fiscal year 2026 with nearly $10 billion in healthcare transportation revenue... The AI and data center space is an emerging and rapidly scaling growth engine for us, delivering double-digit revenue growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International export package volume growth (up 5% in Q4).",
+      "quote": "International export package volumes were up for the second consecutive quarter, growing 5% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FedEx Freight spin-off positions both companies for focused growth.",
+      "quote": "With the successful spin-off of FedEx Freight, we are entering this next chapter positioned to grow while further optimizing our network, lowering our cost to serve, creating meaningful long-term value, and driving robust free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong free cash flow generation ($4.7 billion in FY2026) supporting capital returns.",
+      "quote": "In FY 2026, we achieved $4.7 billion in adjusted free cash flow. This is up $800 million versus FY 2025. This year's free cash flow represents nearly 100% conversion from adjusted net income, another monumental achievement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our profitable growth strategy is working. We are building momentum across our global - more industrial network, driving structural improvements and winning in high-value growth markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.35 reflects a guidance raise and confident tone, but the document also includes significant headwinds (variable comp, pilot contract) and risks (trade policy). A reviewer may want to assess whether the guidance raise is sufficiently organic or if the headwinds warrant a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "FDX_Bundled Earnings Report_2026-06-23",
+  "report_metadata": {
+    "issuer": "p2_fedex",
+    "company": "FedEx",
+    "ticker": "FDX",
+    "sector": "Industrials/Logistics",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2026",
+    "report_date": "2026-06-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q4\\FDX-8K-EX99.1-FQ4-2026-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q4\\FDX-FQ4-2026-earnings-call-transcript-IR.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "FDX_FQ4_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T173029Z",
+    "timestamp": "2026-07-30T17:31:41Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q4\\FDX-8K-EX99.1-FQ4-2026-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_fedex\\extracted\\FDX_FQ4_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q4\\FDX-8K-EX99.1-FQ4-2026-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 40885,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q4\\FDX-FQ4-2026-earnings-call-transcript-IR.pdf",
+        "page_count": 15,
+        "extracted_characters": 55049,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_fedex\\extracted\\FDX_FQ4_2026.txt"
+  }
+}

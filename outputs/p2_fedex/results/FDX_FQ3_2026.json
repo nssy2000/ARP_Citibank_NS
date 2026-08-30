@@ -1,0 +1,194 @@
+{
+  "document_id": "FDX_FQ3_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "FedEx raised its full-year fiscal 2026 adjusted diluted EPS guidance to $19.30-$20.10 from a prior range of $17.80-$19.00, a material upward revision. Revenue growth guidance was also raised to 6.0%-6.5% from 5%-6%. The guidance raise is organic, driven by strong operational performance and cost savings, not attributed to one-time items or FX. Management language is confident and forward-looking, with no major new risks disclosed that would offset the positive guidance change."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 FY2026 revenue was $24.0 billion, up 8% year-over-year. Full-year revenue growth guidance raised to 6.0% to 6.5%.",
+    "eps": "Q3 FY2026 GAAP diluted EPS was $4.41; adjusted diluted EPS was $5.25, up 16% year-over-year. Full-year adjusted diluted EPS guidance raised to $19.30 to $20.10.",
+    "guidance": "Full-year fiscal 2026 adjusted diluted EPS guidance raised to $19.30-$20.10 (from $17.80-$19.00). Revenue growth guidance raised to 6.0%-6.5% (from 5%-6%). Capital spending guidance reduced to no more than $4.1 billion (from $4.5 billion).",
+    "margin": "Q3 GAAP operating margin was 5.6%; adjusted operating margin was 6.7%. Federal Express segment adjusted operating margin expanded 50 bps year-over-year to 7.9%.",
+    "key_risks": [
+      "Global trade policy changes and their financial impacts.",
+      "Grounding of the MD-11 fleet, which created a $120 million adjusted operating income headwind in Q3 and an expected additional headwind of up to $55 million in Q4.",
+      "Continued LTL industry demand weakness pressuring FedEx Freight volumes and profitability.",
+      "Higher variable incentive compensation expenses and wage rates.",
+      "Uncertainty from the Middle East conflict, though described as a modest headwind.",
+      "Potential material effect from fiscal 2026 MTM retirement plans accounting adjustments."
+    ],
+    "key_opportunities": [
+      "Strong yield growth across U.S. domestic and International Priority package services.",
+      "Continued cost savings from transformation initiatives, expected to exceed $1 billion in fiscal 2026.",
+      "Network 2.0 rollout, with about 35% of eligible volume flowing through optimized facilities and $2 billion in cumulative savings expected by end of 2027.",
+      "Planned spin-off of FedEx Freight on June 1, 2026, expected to unlock long-term value.",
+      "Strategic collaboration with Dun & Bradstreet and new digital offerings like FedEx Returns+.",
+      "InPost acquisition expected to be accretive to earnings in the first year after close."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'strong financial results,' 'excellent service,' 'resilience of our business,' and 'very well positioned to drive higher profitability,' reflecting a confident outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year adjusted diluted EPS guidance was raised to $19.30-$20.10 from a prior range of $17.80-$19.00.",
+      "quote": "FedEx is revising its fiscal 2026 outlook... Diluted earnings per share of $16.05 to $16.85 before the MTM retirement plans accounting adjustments compared to the prior forecast of $14.80 to $16.00, and $19.30 to $20.10 after also excluding costs related to the planned spin-off of FedEx Freight... compared to the prior forecast of $17.80 to $19.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue growth guidance was raised to 6.0%-6.5% from 5%-6%.",
+      "quote": "FedEx is revising its fiscal 2026 outlook, and now expects: • A 6.0% to 6.5% revenue growth rate year over year, compared to the prior forecast of 5% to 6% growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY2026 revenue was $24.0 billion, up 8% year-over-year.",
+      "quote": "Revenue $24.0 billion $24.0 billion $22.2 billion $22.2 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY2026 adjusted diluted EPS was $5.25, up 16% year-over-year.",
+      "quote": "Diluted EPS $4.41 $5.25 $3.76 $4.51",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital spending guidance was reduced to no more than $4.1 billion from $4.5 billion.",
+      "quote": "Capital spending of no more than $4.1 billion, with a priority on investments in network optimization and efficiency improvement, including fleet and facility modernization and automation, compared to the December forecast of $4.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 GAAP operating margin was 5.6%; adjusted operating margin was 6.7%.",
+      "quote": "Operating margin 5.6% 6.7% 5.8% 6.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Federal Express segment adjusted operating margin expanded 50 bps year-over-year to 7.9%.",
+      "quote": "Non-GAAP measure $ 1,676 7.9 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The MD-11 grounding created a $120 million adjusted operating income headwind in Q3.",
+      "quote": "In total, the MD-11 grounding led to a headwind of $120 million of adjusted operating income in the quarter due to higher operating costs and lost revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "An additional MD-11 headwind of up to $55 million is expected in Q4.",
+      "quote": "And we expect an additional year-over-year headwind in Q4 of up to $55 million as we plan to begin returning these aircraft to service late in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management language is confident.",
+      "quote": "Team FedEx delivered another quarter of strong financial results and excellent service for our customers, powered by disciplined operational execution, the resilience of our global network, and the accelerating impact of our advanced digital solutions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is organic, not attributed to one-time items or FX.",
+      "quote": "Our third quarter results and improved financial outlook reflect the resilience of our business and outstanding execution against our strategy to drive profitable growth.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The planned spin-off of FedEx Freight is on track for June 1, 2026.",
+      "quote": "The planned spin-off of FedEx Freight into a new publicly traded company is on track for June 1, 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Network 2.0 is expected to deliver $2 billion in cumulative savings by end of 2027.",
+      "quote": "We remain on track for about 65% of our eligible volume to be flowing through Network 2.0 facilities by next peak and we continue to expect $2 billion in cumulative savings from Network 2.0 and associated One FedEx initiatives by end of 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The InPost acquisition is expected to be accretive to earnings in the first year after close.",
+      "quote": "FedEx’s minority investment is anticipated to be accretive to FedEx earnings in the first year, with incremental accretion thereafter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 is based on a clear guidance raise, but the document also notes several headwinds (MD-11 grounding, LTL weakness, trade policy changes). A reviewer should confirm that the positive guidance raise outweighs these risks sufficiently to justify a score above 0.5."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "FDX_Bundled Earnings Report_2026-03-19",
+  "report_metadata": {
+    "issuer": "p2_fedex",
+    "company": "FedEx",
+    "ticker": "FDX",
+    "sector": "Industrials/Logistics",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-03-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q3\\FDX-8K-EX99.1-FQ3-2026-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q3\\FDX-FQ3-2026-earnings-call-transcript-IR.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "FDX_FQ3_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T173029Z",
+    "timestamp": "2026-07-30T17:31:20Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q3\\FDX-8K-EX99.1-FQ3-2026-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_fedex\\extracted\\FDX_FQ3_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q3\\FDX-8K-EX99.1-FQ3-2026-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 32976,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q3\\FDX-FQ3-2026-earnings-call-transcript-IR.pdf",
+        "page_count": 16,
+        "extracted_characters": 56351,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_fedex\\extracted\\FDX_FQ3_2026.txt"
+  }
+}

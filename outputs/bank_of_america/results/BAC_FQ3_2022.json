@@ -1,0 +1,193 @@
+{
+  "document_id": "BAC_FQ3_2022",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a solid quarter with revenue up 8% YoY and EPS of $0.81, but forward guidance is not explicitly raised; management expresses confidence in organic growth and operating leverage but also flags a dampening macroeconomic outlook and a reserve build. The CET1 ratio improved to 11.0%, above new regulatory minimums, but the overall tone is cautiously optimistic rather than strongly bullish. The score reflects genuine operational momentum (5th consecutive quarter of operating leverage, strong loan growth) without a formal guidance raise, tempered by explicit forward risks."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$24.5 billion, up 8% from $22.8 billion in Q3 2021.",
+    "eps": "$0.81 per diluted share, down from $0.85 in Q3 2021.",
+    "guidance": "Not disclosed. No explicit forward revenue or earnings guidance is provided in the document.",
+    "margin": "Efficiency ratio improved to 62% from 63% in Q3 2021. Net interest yield (FTE) was 2.06%, up 38 bps YoY. Pretax margin for GWIM was 29%.",
+    "key_risks": [
+      "Provision for credit losses increased to $898 million from a benefit of $624 million in Q3 2021, driven by a net reserve build of $378 million due to credit card loan growth and a dampening macroeconomic outlook.",
+      "Noninterest income decreased 8% to $10.7 billion, driven by lower investment banking and asset management fees as well as lower service charges.",
+      "Investment banking fees (excl. self-led) decreased 46% to $1.2 billion, reflecting weaker industry-wide underwriting activity.",
+      "The document includes extensive forward-looking risk factors, including potential impacts from inflation, interest rates, geopolitical instability, and regulatory changes."
+    ],
+    "key_opportunities": [
+      "Net interest income increased 24% to $13.8 billion, driven by benefits from higher interest rates and solid loan growth.",
+      "Average loan and lease balances grew 12% to $1.0 trillion, led by strong commercial loan growth and higher credit card balances.",
+      "Consumer Banking added ~418,000 net new checking accounts, the highest quarter since Q3 2008, and digital sales grew 36%.",
+      "Global Markets sales and trading revenue increased 13% to $4.1 billion, with FICC up 27%.",
+      "The CET1 ratio improved to 11.0%, above new regulatory minimums, providing capital flexibility."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated, 'We continued to see strong organic client growth across our businesses, with increased client activity helping to drive revenue up by 8%.' CFO Alastair Borthwick added, 'We delivered a solid quarter for shareholders as we continued to execute on our responsible growth strategy.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $24.5 billion, up 8% from $22.8 billion in Q3 2021.",
+      "quote": "Revenue, net of interest expense, increased 8% to $24.5 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $0.81 per diluted share, down from $0.85 in Q3 2021.",
+      "quote": "Net income of $7.1 billion, or $0.81 per diluted share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No explicit forward revenue or earnings guidance is provided.",
+      "quote": "The document contains no explicit forward revenue or earnings guidance statements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved to 62% from 63% in Q3 2021.",
+      "quote": "Efficiency ratio improved to 62%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 2.06%, up 38 bps YoY.",
+      "quote": "Net interest yield of 2.06% increased 38 bps YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses increased to $898 million from a benefit of $624 million in Q3 2021.",
+      "quote": "Provision for credit losses of $898 million increased $1.5 billion – Net reserve build of $378 million vs. net reserve release of $1.1 billion in Q3-21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest income decreased 8% to $10.7 billion.",
+      "quote": "Noninterest income of $10.7 billion decreased $935 million, or 8%, as higher sales and trading revenue was more than offset by lower investment banking and asset management fees as well as lower service charges",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees decreased 46% to $1.2 billion.",
+      "quote": "Total investment banking fees (excl. self-led) of $1.2 billion, decrease of 46%, reflecting weaker industry-wide underwriting activity this year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income increased 24% to $13.8 billion.",
+      "quote": "Net interest income (NII)(E) up $2.7 billion, or 24%, to $13.8 billion, driven by benefits from higher interest rates, including lower premium amortization expense, and solid loan growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average loan and lease balances grew 12% to $1.0 trillion.",
+      "quote": "Average loan and lease balances up $114 billion, or 12%, to $1.0 trillion led by strong commercial loan growth as well as higher credit card balances",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer Banking added ~418,000 net new checking accounts.",
+      "quote": "Added ~418,000 net new Consumer checking accounts in Q3-22; 15th consecutive quarter of growth and highest quarter since Q3-08",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Markets sales and trading revenue increased 13% to $4.1 billion.",
+      "quote": "Sales and trading revenue increased 13% to $4.1 billion – FICC revenue increased to $2.6 billion, driven by improved performance across all macro products, partially offset by a weaker trading performance for credit and mortgage products – Equities revenue decreased to $1.5 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio improved to 11.0%.",
+      "quote": "Common equity tier 1 (CET1) ratio of 11.0% (Standardized)(G) increased by 49 basis points from Q2-22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "From Chair and CEO Brian Moynihan: 'We continued to see strong organic client growth across our businesses, with increased client activity helping to drive revenue up by 8%.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "guidance",
+      "reason": "No explicit forward guidance is provided; the score is based on operational momentum and cautious forward language rather than a formal guidance change."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2022-10-17",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2022",
+    "report_date": "2022-10-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q3\\bac-3q22-press-release.html",
+        "pub_date": "2022-10-17"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q3\\bac-3q22-presentation.html",
+        "pub_date": "2022-10-17"
+      }
+    ],
+    "document_id": "BAC_FQ3_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144506Z",
+    "timestamp": "2026-07-09T14:47:21Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q3\\bac-3q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q3\\bac-3q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 61739,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q3\\bac-3q22-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 65790,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2022.txt"
+  }
+}

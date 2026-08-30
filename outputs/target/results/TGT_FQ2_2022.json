@@ -1,0 +1,146 @@
+{
+  "document_id": "TGT_FQ2_2022",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports a severe profit decline (GAAP EPS down 89.2% to $0.39, operating income down 87.0%) driven by inventory reduction actions, and while full-year revenue guidance is reaffirmed at low- to mid-single digit growth, the operating margin guidance for the back half is around 6%, which is a significant reduction from the prior year's 9.8% operating margin rate. The forward guidance is effectively lowered relative to the company's own prior performance, and management's language is cautious ('planning cautiously'), resulting in a bearish sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $26.0 billion grew 3.5% compared with last year, reflecting total sales growth of 3.3% and a 14.8% increase in other revenue.",
+    "eps": "GAAP diluted EPS of $0.39, down 89.2% from $3.65 in 2021. Adjusted diluted EPS of $0.39, down 89.2% from $3.64 in 2021.",
+    "guidance": "Full-year revenue growth in the low- to mid-single digit range, and an operating margin rate in a range around 6% in the back half of the year.",
+    "margin": "Second quarter gross margin rate was 21.5%, compared with 30.4% in 2021. Operating income margin rate was 1.2%, compared with 9.8% in 2021.",
+    "key_risks": [
+      "Higher markdown rates driven primarily by inventory impairments and actions to address lower-than-expected sales in discretionary categories.",
+      "Higher merchandise, inventory shrink, and freight costs.",
+      "Increased compensation and headcount in distribution centers, costs of managing excess inventory, and higher per-unit last-mile shipping costs."
+    ],
+    "key_opportunities": [
+      "Comparable sales grew 2.6 percent, on top of 8.9 percent growth last year, reflecting continued strength in Food & Beverage, Beauty and Household Essentials.",
+      "The Company gained unit share in all five of its core merchandising categories in the second quarter.",
+      "Digital comparable sales grew 9.0 percent, following growth of 9.9 percent last year.",
+      "Same-day services (Order Pickup, Drive Up and Shipt) grew nearly 11 percent this year, led by Drive Up, which grew in the mid-teens."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management states 'While the Company is planning cautiously for the remainder of the year' and acknowledges 'profit pressure driven primarily by the Company's inventory reduction efforts,' indicating a guarded forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "GAAP diluted EPS was $0.39, down 89.2% from $3.65 in 2021.",
+      "quote": "The Company reported second quarter GAAP earnings per share (EPS) of $0.39, down 89.2 percent from $3.65 in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenue was $26.0 billion, up 3.5% year-over-year.",
+      "quote": "Total revenue of $26.0 billion grew 3.5 percent compared with last year, reflecting total sales growth of 3.3 percent and a 14.8 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year revenue guidance is low- to mid-single digit growth, and operating margin rate around 6% in the back half.",
+      "quote": "While the Company is planning cautiously for the remainder of the year, current trends support the company’s prior guidance for full-year revenue growth in the low- to mid-single digit range, and an operating margin rate in a range around 6% in the back half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter gross margin rate was 21.5%, down from 30.4% in 2021.",
+      "quote": "Second quarter gross margin rate was 21.5 percent, compared with 30.4 percent in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income margin rate was 1.2%, down from 9.8% in 2021.",
+      "quote": "Second quarter operating income margin rate was 1.2 percent in 2022, compared with 9.8 percent in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include higher markdown rates, higher freight costs, and increased compensation costs.",
+      "quote": "This year's gross margin rate reflected higher markdown rates, driven primarily by inventory impairments and actions taken to address lower-than-expected sales in discretionary categories, as well as higher merchandise, inventory shrink, and freight costs. Additionally, gross margin rate was pressured by increased compensation and headcount in our distribution centers, the costs of managing excess inventory, and higher per-unit last-mile shipping costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include comparable sales growth of 2.6%, unit share gains, and digital sales growth of 9.0%.",
+      "quote": "Comparable sales grew 2.6 percent, on top of 8.9 percent growth last year. ... The Company gained unit share in all five of its core merchandising categories in the second quarter. ... Digital comparable sales grew 9.0 percent, following growth of 9.9 percent last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "While the Company is planning cautiously for the remainder of the year, current trends support the company’s prior guidance...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is -0.50 because of severe profit decline and cautious forward guidance.",
+      "quote": "The Company reported second quarter GAAP earnings per share (EPS) of $0.39, down 89.2 percent from $3.65 in 2021. ... While the Company is planning cautiously for the remainder of the year, current trends support the company’s prior guidance for full-year revenue growth in the low- to mid-single digit range, and an operating margin rate in a range around 6% in the back half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the severe profit decline and cautious guidance, but the company did reaffirm revenue guidance and noted unit share gains, which could be seen as partially offsetting. A reviewer may want to confirm the weighting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 9,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2022-08-17",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2022",
+    "report_date": "2022-08-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q2\\tgt-2q22-press-release.html",
+        "pub_date": "2022-08-17"
+      }
+    ],
+    "document_id": "TGT_FQ2_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:52:17Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q2\\tgt-2q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q2\\tgt-2q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 21442,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2022.txt"
+  }
+}

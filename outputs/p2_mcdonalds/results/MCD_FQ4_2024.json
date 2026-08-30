@@ -1,0 +1,287 @@
+{
+  "document_id": "MCD_FQ4_2024",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The document reports a challenging 2024 with global comp sales down 0.1% and U.S. Q4 comps down 1.4% due to an E. coli outbreak. Forward guidance for 2025 targets operating margin in the mid to high 40% range (slightly above 2024's 46.3%) and expects gradual stabilization, but management explicitly notes 'varying levels of near-term headwinds' and a 'sluggish start' to Q1. The guidance is not raised; it is cautiously reaffirmed with hedged language, and the structural risk of the food safety incident (though largely behind) and ongoing consumer pressure in key markets like the U.K. and Australia weigh on the outlook. The score is slightly negative because the forward outlook is flat to modestly improving but with significant caution and no upward revision."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Consolidated revenues for Q4 2024 were $6,388 million, flat versus prior year (flat in constant currencies). Full year 2024 revenues were $25,920 million, up 2% (2% in constant currencies).",
+    "eps": "Q4 2024 GAAP diluted EPS was $2.80, flat versus prior year (up 1% in constant currencies). Adjusted diluted EPS (excluding items) was $2.83, a decrease of 4% (4% in constant currencies). Full year 2024 GAAP diluted EPS was $11.39, down 1% (down 1% in constant currencies). Adjusted full year diluted EPS was $11.72, down 2% (down 1% in constant currencies).",
+    "guidance": "For 2025, management targets full year operating margin percent in the mid to high 40% range and above the 46.3% adjusted operating margin from 2024. G&A as a percentage of systemwide sales expected to be about 2.2%. Interest expense expected to increase 4% to 6% versus 2024. Effective tax rate expected between 20% and 22%. Capital expenditures planned between $3 billion and $3.2 billion. Net restaurant expansion expected to contribute slightly over 2% to systemwide sales growth. Foreign currency expected to be a full year headwind to 2025 EPS of $0.20 to $0.30. Free cash flow conversion expected in low to mid-80% range.",
+    "margin": "Full year 2024 adjusted operating margin was just over 46%. For 2025, management targets full year operating margin percent in the mid to high 40% range and above the 46.3% adjusted operating margin from 2024, primarily due to franchise margin performance. Full year company-operated margin percent expected to be slightly higher than the 14.8% delivered in 2024.",
+    "key_risks": [
+      "E. coli outbreak impact on U.S. Q4 comps and recovery expected by beginning of Q2 2025, with lingering effects in the Rocky Mountain region.",
+      "Pressure on low-income and family consumer cohorts, particularly in Europe, with low-income consumer in U.S. still down double digits in Q4.",
+      "Negative comps in the U.K. and Australia, with U.K. facing cost of living pressures and aggressive local competition.",
+      "Sluggish start to Q1 2025 for the U.S. QSR industry, with a leap year lapping headwind.",
+      "Foreign currency expected to be a full year headwind to 2025 EPS of $0.20 to $0.30.",
+      "Continued cost pressures on company-operated margins, including inflation on food, paper, and labor.",
+      "Potential impact from new tariffs (not included in guidance)."
+    ],
+    "key_opportunities": [
+      "McValue platform launch in U.S. in January 2025, with early positive take rates and accretive check on Buy One, Add One for $1 offer.",
+      "Chicken portfolio growth: McCrispy in over 70 markets, Snack Wraps return in U.S., new chicken strip offering, and Chicken Big Mac as LTO.",
+      "Digital and loyalty growth: 90-day active users over 170 million, targeting 250 million by end of 2027; systemwide sales to loyalty members approximately $30 billion in 2024.",
+      "Restaurant development: on track to reach 50,000 restaurants by end of 2027, with 2,200 planned openings in 2025.",
+      "Best Burger deployment in over 80 countries, on track for nearly all markets by end of 2026.",
+      "Big Arch rollout to more international markets in 2025.",
+      "Improving trends in France and Canada, with positive comp sales and guest count gains.",
+      "Encouraging signs of stabilization in China."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management acknowledges that 'our performance in 2024 did not meet our expectations' and describes the outlook as expecting 'gradual stabilization' with 'varying levels of near-term headwinds across markets,' reflecting a cautious rather than confident or optimistic tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Global comparable sales for Q4 2024 increased 0.4%.",
+      "quote": "Global comparable sales increased 0.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. comparable sales for Q4 2024 decreased 1.4%.",
+      "quote": "U.S. decreased 1.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2024 global comparable sales decreased 0.1%.",
+      "quote": "Global comparable sales decreased 0.1% for the full year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 GAAP diluted EPS was $2.80, flat versus prior year.",
+      "quote": "Diluted earnings per share was flat at $2.80 (increased 1% in constant currencies).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted Q4 2024 diluted EPS was $2.83, a decrease of 4% in constant currencies.",
+      "quote": "Excluding the current year net charges described above of $0.03 per share, diluted earnings per share was $2.83, a decrease of 4% (4% in constant currencies) when also excluding prior year charges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2024 GAAP diluted EPS was $11.39, down 1%.",
+      "quote": "Diluted earnings per share was $11.39, a decrease of 1% (1% in constant currencies).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2024 adjusted diluted EPS was $11.72, down 2%.",
+      "quote": "Excluding the current year net charges described above of $0.33 per share, diluted earnings per share was $11.72, a decrease of 2% (1% in constant currencies) when also excluding prior year charges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consolidated revenues for Q4 2024 were $6,388 million, flat versus prior year.",
+      "quote": "Consolidated revenues were flat (flat in constant currencies).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2024 consolidated revenues were $25,920 million, up 2%.",
+      "quote": "Consolidated revenues increased 2% (2% in constant currencies).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2024 adjusted operating margin was just over 46%.",
+      "quote": "For the full year, adjusted operating margin was just over 46%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 operating margin target is mid to high 40% range, above 2024's 46.3%.",
+      "quote": "we are targeting our full year operating margin percent to be in the mid to high 40% range and above the 46.3% adjusted operating margin from 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 G&A as a percentage of systemwide sales expected to be about 2.2%.",
+      "quote": "We expect 2025 G&A as a percentage of systemwide sales for the full year to be about 2.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 interest expense expected to increase 4% to 6%.",
+      "quote": "we're projecting interest expense this year to increase between 4% and 6% compared to 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 effective tax rate expected between 20% and 22%.",
+      "quote": "expect our full year effective tax rate to be between 20% and 22%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 capital expenditures planned between $3 billion and $3.2 billion.",
+      "quote": "We plan to spend between 3 billion and 3.2 billion this year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net restaurant expansion expected to contribute slightly over 2% to systemwide sales growth in 2025.",
+      "quote": "We expect net restaurant expansion in 2025, along with restaurants we opened in 2024, will contribute slightly over 2% to systemwide sales growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign currency expected to be a full year headwind to 2025 EPS of $0.20 to $0.30.",
+      "quote": "we expect foreign currency to be a full year headwind to 2025 EPS, totaling in the range of $0.20 to $0.30 based on current exchange rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 free cash flow conversion expected in low to mid-80% range.",
+      "quote": "In 2025, we expect our net income to free cash flow conversion to be in the low to mid-80% range",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "E. coli outbreak impacted U.S. Q4 comps, with recovery expected by beginning of Q2 2025.",
+      "quote": "In the U.S., comp sales were down 1.4% for Q4 amid the impact of the E. coli outbreak linked to slivered onions on our Quarter Pounders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Low-income consumer in U.S. still down double digits in Q4.",
+      "quote": "if you look at the low-income consumer in the U.S., and I'm talking industry numbers right now, but that low-income consumer in the U.S. in Q4 was still down double digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.K. and Australia are underperforming markets.",
+      "quote": "Our opportunities in IOM, the two markets that we are spending the most time thinking about right now are the U.K. and Australia, where, one, it's both a challenged market; and two, frankly, we're not performing to our full potential.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sluggish start to Q1 2025 for U.S. QSR industry.",
+      "quote": "I think we've certainly seen a sluggish start to the broader U.S. industry in January in the U.S.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "McValue platform launched in U.S. in January 2025 with early positive take rates.",
+      "quote": "In the U.S., the January launch of the McValue platform provides consistent, compelling value, with the choice and flexibility our customers want.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chicken portfolio growth opportunity: McCrispy in over 70 markets, Snack Wraps return, new chicken strips.",
+      "quote": "We continue to roll out McCrispy, which is now in over 70 markets and will be available in nearly all markets by the end of 2025. This year, there is incredible energy for the return of Snack Wraps in the U.S., along with a few other markets. And the U.S. will also launch a new chicken strip offering.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital loyalty: 90-day active users over 170 million, targeting 250 million by end of 2027.",
+      "quote": "To date, our 90-day active users totals has reached over 170 million across 60 markets, with systemwide sales to loyalty members totaling approximately 30 billion in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restaurant development: on track to reach 50,000 restaurants by end of 2027, with 2,200 planned openings in 2025.",
+      "quote": "we're on track to reach 50,000 restaurants by the end of 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "our performance in 2024 did not meet our expectations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects gradual stabilization in 2025.",
+      "quote": "Our financial targets for 2025 reflect the benefit of these initiatives, as well as our expectation of gradual stabilization of the macroeconomic and consumer environment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for 2025 is not raised; it is cautiously reaffirmed with hedged language.",
+      "quote": "there are varying levels of near-term headwinds across markets. Our approach to our 2025 outlook reflects the current environment of softer, declining restaurant industry traffic in the U.S. and many of our larger markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) but could be argued as neutral (0.0) given the cautious reaffirmation of guidance. The E. coli risk is largely behind, but the sluggish start to Q1 and ongoing consumer pressure may warrant a slightly more negative score. Reviewer should assess whether the cautious tone and flat guidance justify a score below 0.0."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 28,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MCD_Bundled Earnings Report_2025-02-10",
+  "report_metadata": {
+    "issuer": "p2_mcdonalds",
+    "company": "McDonald's",
+    "ticker": "MCD",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-10",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2024-Q4\\Q4 2024 Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2024-Q4\\Q4 2024-numbers.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MCD_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260718T214427Z",
+    "timestamp": "2026-07-18T21:44:57Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2024-Q4\\Q4 2024 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_mcdonalds\\extracted\\MCD_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2024-Q4\\Q4 2024 Earnings Call Transcript.pdf",
+        "page_count": 3,
+        "extracted_characters": 64243,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2024-Q4\\Q4 2024-numbers.pdf",
+        "page_count": 9,
+        "extracted_characters": 15970,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_mcdonalds\\extracted\\MCD_FQ4_2024.txt"
+  }
+}

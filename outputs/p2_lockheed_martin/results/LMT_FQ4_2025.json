@@ -1,0 +1,200 @@
+{
+  "document_id": "LMT_FQ4_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Guidance was raised materially: free cash flow guidance for 2026 is $6.5-$6.8 billion, which management explicitly states is 'well above our prior expectation' (Evan Scott). Additionally, segment operating profit growth is guided to 'more than 25%' year-over-year, and sales growth of approximately 5% is expected. The guidance raise is organic, driven by production ramps and new multi-year framework agreements, not attributed to one-time items. Management language is highly confident, with CEO Jim Taiclet stating 'we are well positioned to perform' and 'this notable start to 2026 reinforces our confidence.'"
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full year 2025 sales of $75.0 billion, up 6% year-over-year. Q4 2025 sales of $20.3 billion, up 9% year-over-year.",
+    "eps": "Full year 2025 diluted EPS of $21.49, down 4% from $22.31 in 2024. Q4 2025 diluted EPS of $5.80, up from $2.22 in Q4 2024.",
+    "guidance": "2026 outlook: Sales $77.5-$80.0 billion (midpoint ~5% growth), segment operating profit $8.425-$8.675 billion (midpoint margin 10.9%), diluted EPS $29.35-$30.25, free cash flow $6.5-$6.8 billion (well above prior expectation).",
+    "margin": "Full year 2025 consolidated operating margin 10.3% (up from 9.9% in 2024). Segment operating profit margin 9.0% (up from 8.6% in 2024). Q4 2025 consolidated operating margin 11.5% (up from 3.7% in Q4 2024).",
+    "key_risks": [
+      "Risk remains on Aeronautics classified programs: 'risk is gonna remain over the next few years' (Jim Taiclet in Q&A).",
+      "Earnings per share declined 4% year-over-year in 2025 due to increased interest expense, higher tax rate, and higher operating FAS/CAS expense.",
+      "RMS full-year segment operating profit declined 31% due to $610 million decrease in profit booking rate adjustments from charges on CMHP and TUHP.",
+      "Pension funding requirement returns in 2027 of at least $1 billion (Evan Scott in Q&A).",
+      "MFC margins may face 20-30 basis points dilution in early years of multi-year agreements (Evan Scott in Q&A)."
+    ],
+    "key_opportunities": [
+      "Record backlog of $194 billion, up 17% year-over-year, providing multi-year visibility.",
+      "Multi-year framework agreements for PAC-3 MSE and THAAD expected to triple annual production capacity from 600 to 2,000 units.",
+      "MFC sales expected to grow 14% in 2026, with line of sight to double-digit CAGR through end of decade (Evan Scott).",
+      "F-35 program: $15 billion in awards in Q4, additional $1 billion strategic investment in sustainment.",
+      "Space: $1 billion+ contract for 18 Tranche 3 Tracking Layer satellites.",
+      "Capital and R&D investment increasing ~35% to approach $5 billion in 2026, a 'step function increase' (Evan Scott)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jim Taiclet stated '2025 marked a year of unprecedented demand for Lockheed Martin capabilities' and 'this notable start to 2026 reinforces our confidence in Lockheed Martin's continued operational and financial growth in the year ahead.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full year 2025 sales were $75.0 billion, up 6% year-over-year.",
+      "quote": "Sales increased 6% to $75.0 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 diluted EPS was $21.49, down 4% from $22.31 in 2024.",
+      "quote": "Net earnings of $5.0 billion, or $21.49 per share, in 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 guidance includes sales of $77.5-$80.0 billion, segment operating profit $8.425-$8.675 billion, diluted EPS $29.35-$30.25, and free cash flow $6.5-$6.8 billion.",
+      "quote": "Sales $77,500 - $80,000 ... Business segment operating profit $8,425 - $8,675 ... Diluted earnings per share $29.35 - $30.25 ... Free cash flow $6,500 - $6,800",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guidance for 2026 is well above prior expectation.",
+      "quote": "Free cash flow is anticipated to be in the range of $6.5 to $6.8 billion, which is well above our prior expectation",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Segment operating profit growth guided to more than 25% year-over-year.",
+      "quote": "We expect sales and reported segment operating profit growth of approximately 5% and 25% year-over-year, respectively",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record backlog of $194 billion, up 17% year-over-year.",
+      "quote": "Record backlog of $194 billion at end of 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Multi-year framework agreements for PAC-3 MSE and THAAD expected to triple annual production capacity.",
+      "quote": "the PAC-3 MSC will increase annual production capacity from approximately 600 to 2,000 per year. That's more than tripling the production rate",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MFC sales expected to grow 14% in 2026.",
+      "quote": "At MFC, we estimate the ongoing missile production ramps to drive 14% year-over-year sales growth at the midpoint",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk remains on Aeronautics classified programs over the next few years.",
+      "quote": "risk is gonna remain over the next few years as we progress through, you know, more key phases of the program",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RMS full-year segment operating profit declined 31% due to $610 million decrease in profit booking rate adjustments.",
+      "quote": "Operating profit at RMS decreased 31% for the year, driven by a $610 million decrease in profit booking rate adjustments, primarily due to the losses recognized on CMHP in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pension funding requirement returns in 2027 of at least $1 billion.",
+      "quote": "That requirement does come back in starting in 2027, of at least a billion dollars",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MFC margins may face 20-30 basis points dilution in early years of multi-year agreements.",
+      "quote": "What that would mean for MFC margins in the coming years is some possible dilution, but probably no more than 20 to 30 basis points at max.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital and R&D investment increasing ~35% to approach $5 billion in 2026.",
+      "quote": "year-over-year increase in investment of about 35%, with capital and independent research and development approaching $5 billion in 2026, which is a step function increase in internal investment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "2025 marked a year of unprecedented demand for Lockheed Martin capabilities",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 consolidated operating margin was 10.3%.",
+      "quote": "Total consolidated operating margin ... 10.3 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 is based on a clear guidance raise and confident language, but the document also includes significant risks (classified program risk, RMS decline, pension requirement) that could warrant a slightly lower score. A human reviewer should confirm the balance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LMT_Bundled Earnings Report_2026-01-29",
+  "report_metadata": {
+    "issuer": "p2_lockheed_martin",
+    "company": "Lockheed Martin",
+    "ticker": "LMT",
+    "sector": "Industrials/Aerospace-Defense",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q4\\LMT-PressRelease-Q4-2025.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q4\\LMT-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LMT_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173512Z",
+    "timestamp": "2026-07-30T17:36:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q4\\LMT-PressRelease-Q4-2025.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lockheed_martin\\extracted\\LMT_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q4\\LMT-PressRelease-Q4-2025.pdf",
+        "page_count": 11,
+        "extracted_characters": 40627,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q4\\LMT-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 62253,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lockheed_martin\\extracted\\LMT_FQ4_2025.txt"
+  }
+}

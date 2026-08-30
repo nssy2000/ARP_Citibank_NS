@@ -1,0 +1,205 @@
+{
+  "document_id": "BAC_FQ3_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports strong backward-looking results (EPS up 31% YoY, revenue up 11% YoY) and management expresses confidence, but forward guidance is limited. The only explicit forward-looking statement is an expectation for 4Q25 NII (FTE) of $15.6B to $15.7B, up ~8% vs. 4Q24, which is a meaningful guidance raise for a key metric. However, the document also notes a structural risk: a 100 bps parallel shift below the forward yield curve is estimated to reduce NII by $2.2B over the next 12 months, which tempers the positive outlook. The score reflects genuine operational momentum and a specific NII guidance raise, partially offset by the disclosed interest rate sensitivity risk."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue, net of interest expense, of $28.1 billion ($28.2 billion FTE), up 11% year-over-year.",
+    "eps": "Diluted earnings per share of $1.06, up 31% from $0.81 in 3Q24.",
+    "guidance": "Expect 4Q25 NII (FTE) of $15.6B to $15.7B, up ~8% vs. 4Q24. Also, expect to deliver operating leverage in 4Q25. A 100 bps parallel shift below the forward yield curve is estimated to reduce NII by $2.2B over the next 12 months.",
+    "margin": "Efficiency ratio improved 329 bps to 62%. Return on average common shareholders' equity ratio of 11.5%; return on average tangible common shareholders' equity ratio of 15.4%. Return on average assets of 0.98%.",
+    "key_risks": [
+      "Impact of U.S. and global interest rates, inflation, currency exchange rates, economic conditions, trade policies and tensions, and geopolitical instability.",
+      "Possibility that future credit losses may be higher than currently expected due to changes in economic assumptions.",
+      "Adverse developments affecting the U.S. or global banking industry, including bank failures and liquidity concerns.",
+      "Failures or disruptions in or breaches of the Corporation’s operations or information systems, including from cybersecurity incidents.",
+      "Risks related to the development, implementation, use and management of emerging technologies, including artificial intelligence and machine learning.",
+      "Risks related to the transition and physical impacts of climate change.",
+      "Impact of uncertain or changing political conditions, federal government shutdowns, and changes in fiscal, monetary, trade or regulatory policy.",
+      "Impact of natural disasters, extreme weather events, military conflicts, civil unrest, terrorism or other geopolitical events."
+    ],
+    "key_opportunities": [
+      "Strong loan and deposit growth, coupled with effective balance sheet positioning, resulted in record net interest income.",
+      "Strong fee performance from market-facing businesses, with investment banking fees up 43% YoY and sales and trading revenue up 9% YoY.",
+      "Continued organic growth across all business segments, with every line of business reporting top and bottom-line improvements.",
+      "Investments in technology, talent and client experiences aided in an improved efficiency ratio as well as operating leverage.",
+      "Strong capital position enabled support for clients and return of $7.4 billion to shareholders."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan states: 'Strong net income growth drove third quarter diluted earnings per share up 31% from last year. This in turn drove strong improvement in our returns on assets and equity.' CFO Alastair Borthwick adds: 'This quarter’s performance demonstrated the earnings power of our diversified model.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue, net of interest expense, was $28.1 billion, up 11% year-over-year.",
+      "quote": "Revenue, net of interest expense, of $28.1 billion ($28.2 billion FTE),(A) up 11%, reflected higher net interest income (NII), investment banking and asset management fees, and sales and trading revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted earnings per share was $1.06, up 31% from $0.81 in 3Q24.",
+      "quote": "Diluted earnings per share of $1.06 compared to $0.81, up 31%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect 4Q25 NII (FTE) of $15.6B to $15.7B, up ~8% vs. 4Q24.",
+      "quote": "Expect 4Q25 NII (FTE) of $15.6B to $15.7B, up ~8% vs. 4Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A 100 bps parallel shift below the forward yield curve is estimated to reduce NII by $2.2B over the next 12 months.",
+      "quote": "100 bps parallel shift below the September 30, 2025, forward interest rate yield curve is estimated to reduce net interest income by $2.2B over the next 12 months",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved 329 bps to 62%.",
+      "quote": "Efficiency ratio improved 329 bps to 62%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average common shareholders' equity ratio of 11.5%.",
+      "quote": "Return on average common shareholders' equity ratio of 11.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average tangible common shareholders' equity ratio of 15.4%.",
+      "quote": "return on average tangible common shareholders' equity ratio of 15.4%10",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average assets of 0.98%.",
+      "quote": "Return on average assets of 0.98%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Brian Moynihan: 'Strong net income growth drove third quarter diluted earnings per share up 31% from last year. This in turn drove strong improvement in our returns on assets and equity.' CFO Alastair Borthwick: 'This quarter’s performance demonstrated the earnings power of our diversified model.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees rose 43% year-over-year.",
+      "quote": "Total Corporation investment banking fees (excl. self-led) of $2.0 billion, up 43%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue increased 9% year-over-year.",
+      "quote": "Sales and trading revenue up 9% to $5.4 billion including net debit valuation adjustment (DVA) gains of $14 million. Excluding net DVA, up 8%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income grew 9% year-over-year.",
+      "quote": "NII of $15.2 billion ($15.4 billion FTE),(A) up 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.20, reflecting a meaningful NII guidance raise offset by interest rate sensitivity risk.",
+      "quote": "Expect 4Q25 NII (FTE) of $15.6B to $15.7B, up ~8% vs. 4Q24. 100 bps parallel shift below the September 30, 2025, forward interest rate yield curve is estimated to reduce net interest income by $2.2B over the next 12 months",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based on a single explicit NII guidance raise, but the document lacks broader forward guidance on total revenue or EPS. The interest rate sensitivity risk is a structural headwind that may offset the positive guidance. A human reviewer should assess whether the NII guidance raise alone justifies a score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2025-10-15",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q3\\The Press Release_3Q25_ADA.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q3\\The Presentation Materials_3Q25_ADA.pdf"
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q3\\The Supplemental Information_3Q25_ADA.pdf"
+      }
+    ],
+    "document_id": "BAC_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260706T101345Z",
+    "timestamp": "2026-07-06T10:15:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q3\\The Press Release_3Q25_ADA.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q3\\The Press Release_3Q25_ADA.pdf",
+        "page_count": 19,
+        "extracted_characters": 62937,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q3\\The Presentation Materials_3Q25_ADA.pdf",
+        "page_count": 30,
+        "extracted_characters": 59806,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q3\\The Supplemental Information_3Q25_ADA.pdf",
+        "page_count": 32,
+        "extracted_characters": 88212,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2025.txt"
+  }
+}

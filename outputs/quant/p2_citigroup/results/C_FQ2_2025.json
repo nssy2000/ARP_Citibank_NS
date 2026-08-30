@@ -1,0 +1,58 @@
+{
+  "document_id": "C_FQ2_2025_QUANT",
+  "base_document_id": "C_FQ2_2025",
+  "issuer": "p2_citigroup",
+  "ticker": "C",
+  "sector": "Financials",
+  "report_date": "2025-07-15",
+  "sentiment": {
+    "score": 0.730696
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.116356,
+      "window_start_date": "2025-06-11",
+      "window_end_date": "2025-07-14",
+      "score": 0.650236,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.223601,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 28.26,
+      "matched_earnings_date": "2025-07-15",
+      "score": 0.811156,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.38,
+      "vix_score": 0.107582,
+      "tnx_change": 0.132,
+      "tnx_score": -0.258033,
+      "score": -0.075225,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-07-14",
+      "curve_spread": 0.53,
+      "curve_score": 0.485381,
+      "curve_as_of": "2025-07-14",
+      "score": 0.242691,
+      "available": true
+    },
+    "quant_score": 0.730696,
+    "quant_score_with_macro": 0.327736,
+    "quant_score_with_fred": 0.486694,
+    "quant_score_with_macro_fred": 0.299387
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

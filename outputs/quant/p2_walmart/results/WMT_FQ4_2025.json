@@ -1,0 +1,58 @@
+{
+  "document_id": "WMT_FQ4_2025_QUANT",
+  "base_document_id": "WMT_FQ4_2025",
+  "issuer": "p2_walmart",
+  "ticker": "WMT",
+  "sector": "Consumer/Retail",
+  "report_date": "2026-02-19",
+  "sentiment": {
+    "score": 0.219437
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.057811,
+      "window_start_date": "2026-01-16",
+      "window_end_date": "2026-02-18",
+      "score": 0.367395,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.320986,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 1.79,
+      "matched_earnings_date": "2026-02-19",
+      "score": 0.071478,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 20.23,
+      "vix_score": -0.081817,
+      "tnx_change": -0.22,
+      "tnx_score": 0.413645,
+      "score": 0.165914,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-02-18",
+      "curve_spread": 0.62,
+      "curve_score": 0.551128,
+      "curve_as_of": "2026-02-18",
+      "score": 0.275564,
+      "available": true
+    },
+    "quant_score": 0.219437,
+    "quant_score_with_macro": 0.192675,
+    "quant_score_with_fred": 0.2475,
+    "quant_score_with_macro_fred": 0.220305
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

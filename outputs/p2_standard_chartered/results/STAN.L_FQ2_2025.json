@@ -1,0 +1,210 @@
+{
+  "document_id": "STAN.L_FQ2_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The company raised its 2025 income growth guidance to 'around the bottom of 5-7% range' from a prior expectation of 'around the bottom of the 5-7% range', which is a meaningful upward revision. This is supported by strong operational momentum, including record net new money and double-digit income growth in key segments, and a confident management tone. However, the score is tempered by the fact that the guidance raise is partially attributed to a one-time $238m gain on the Solv India transaction, and the company still flags external risks such as trade policy uncertainty and geopolitical tensions."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Underlying operating income of $10.9bn, up 9% (10% at constant currency) for H1'25. Q2'25 operating income of $5.5bn, up 14% at constant currency.",
+    "eps": "Underlying EPS of 139.2 cents, up 41% YoY. Reported EPS of 129.1 cents, up 55% YoY.",
+    "guidance": "2025 income growth expected to be around the bottom of the 5-7% range at constant currency, excluding notable items. This is an upgrade from prior guidance which was also 'around the bottom of the 5-7% range' but the company now says it is 'tracking towards the upper end of the range' for the 2023-2026 CAGR.",
+    "margin": "Underlying RoTE of 18.1%, up 410bps YoY. Net interest margin of 2.05%, up 7bps YoY. Cost-to-income ratio improved to 54.7% from 57.0%.",
+    "key_risks": [
+      "Elevated trade policy uncertainty and geopolitical change",
+      "Potential for a re-escalation of global tariffs",
+      "Uncertain interest rate trajectory",
+      "Economic challenges in China",
+      "Sovereign risk and high government debt levels",
+      "Supply chain issues and key material shortages",
+      "Increased credit impairment charges in Wealth & Retail Banking due to higher delinquencies in unsecured portfolios",
+      "Operational and Technology risks remain elevated"
+    ],
+    "key_opportunities": [
+      "Record net new money in affluent business, with a target of $200bn net new money from 2025 to 2029",
+      "Double-digit income growth in Wealth Solutions, Global Markets, and Global Banking",
+      "Unique network across Asia, Africa, and the Middle East to capture growth opportunities",
+      "Leading position in digital assets, including being the only GSIB to offer spot trading in Bitcoin and Ether",
+      "Sustainable finance income growth, on track to achieve $1bn target by 2025",
+      "Growth in cross-border income and intra-ASEAN corridor"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "The Group Chief Executive states 'Our strong first-half performance reflects continued successful execution of our strategy' and 'We're performing well, while keeping a tight grip on costs, credit risk and capital', indicating a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "The company raised its 2025 income growth guidance to be around the bottom of the 5-7% range.",
+      "quote": "2025 growth expected to be around the bottom of the 5–7% range at ccy excluding notable items",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is tracking towards the upper end of its 2023-2026 income CAGR guidance.",
+      "quote": "Operating income to increase 5–7% compound annual growth rate (CAGR) in 2023–2026 at ccy excluding the deposit insurance reclassification; tracking towards the upper end of the range",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying operating income for H1'25 was $10.9bn, up 9%.",
+      "quote": "Operating income up 9% to $10.9bn, up 10% at ccy",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying EPS for H1'25 was 139.2 cents, up 41%.",
+      "quote": "Underlying earnings per share (EPS) increased 40.7 cents or 41% to 139.2 cents",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS for H1'25 was 129.1 cents, up 55%.",
+      "quote": "reported EPS increased 45.8 cents or 55% to 129.1 cents",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying RoTE for H1'25 was 18.1%, up 410bps.",
+      "quote": "RoTE of 18.1%, up 4%pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest margin for H1'25 was 2.05%, up 7bps.",
+      "quote": "Net interest margin (%) (adjusted)6,9 2.05 1.98 7bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The cost-to-income ratio improved to 54.7% from 57.0%.",
+      "quote": "Cost-to-income ratio (%) 54.7 5 7.0 230bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company announced a new $1.3bn share buyback.",
+      "quote": "announced a further buyback of $1.3 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is on track to return at least $8bn to shareholders by 2026.",
+      "quote": "Plan to return at least $8bn to shareholders cumulative 2024–2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's performance was partly driven by a one-time gain on the Solv India transaction.",
+      "quote": "Excluding $238m gain on the Solv India transaction with Jumbotail, income up 10% at ccy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from elevated trade policy uncertainty and geopolitical change.",
+      "quote": "Downside risks to the global economy persist amid elevated trade policy uncertainty and wider geopolitical change.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees opportunities in its affluent business with a target of $200bn net new money.",
+      "quote": "we are seeing encouraging signs, including a record net new money in our affluent business, providing demonstrable progress towards our ambition to deliver $200 billion of net new money from 2025 to 2029.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is a leader in digital assets, being the only GSIB to offer spot trading in Bitcoin and Ether.",
+      "quote": "we are the only global systemically important bank to offer spot trading in Bitcoin and Ether.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is on track to achieve its sustainable finance income target of $1bn by 2025.",
+      "quote": "we are on track to achieve our target of at least $1 billion by 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management's tone is confident.",
+      "quote": "Our strong first-half performance reflects continued successful execution of our strategy, through our focus on cross-border and affluent banking.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is partially attributed to a one-time gain on the Solv India transaction, which may warrant a lower score than a purely organic improvement."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "STAN.L_Bundled Earnings Report_2025-07-31",
+  "report_metadata": {
+    "issuer": "p2_standard_chartered",
+    "company": "Standard Chartered",
+    "ticker": "STAN.L",
+    "sector": "Financial Services/Banks - Diversified",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q2\\STAN_Q2_2025_Results.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q2\\STAN_Q2_2025_Presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "STAN.L_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103356Z",
+    "timestamp": "2026-08-09T10:35:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q2\\STAN_Q2_2025_Results.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_standard_chartered\\extracted\\STAN.L_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q2\\STAN_Q2_2025_Results.pdf",
+        "page_count": 167,
+        "extracted_characters": 546820,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q2\\STAN_Q2_2025_Presentation.pdf",
+        "page_count": 46,
+        "extracted_characters": 56243,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_standard_chartered\\extracted\\STAN.L_FQ2_2025.txt"
+  }
+}

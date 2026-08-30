@@ -1,0 +1,184 @@
+{
+  "n_documents": 161,
+  "weights": [
+    0.8,
+    0.0,
+    0.2,
+    0.0
+  ],
+  "cost_bps": 10.0,
+  "short_borrow_bps": 0.0,
+  "threshold_grid": [
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6
+  ],
+  "deployed_default_note": "eval/calibrate.py's DEFAULT_HOLD_UPPER/LOWER=0.25 is the real baked-in phase2 threshold, not the 0.15 documented in CLAUDE.md/handoff.md - see hu=0.25 row.",
+  "rows": [
+    {
+      "hold_upper": 0.15,
+      "hold_lower": -0.15,
+      "n_trades": 123,
+      "n_prints": 161,
+      "selectivity_pct": 76.4,
+      "total_return_pct": 84.29,
+      "avg_net_per_trade_pct": 0.5987,
+      "hit_rate": 0.5935,
+      "sharpe_per_trade": 1.473,
+      "max_drawdown_pct": 35.81
+    },
+    {
+      "hold_upper": 0.2,
+      "hold_lower": -0.2,
+      "n_trades": 101,
+      "n_prints": 161,
+      "selectivity_pct": 62.73,
+      "total_return_pct": 73.86,
+      "avg_net_per_trade_pct": 0.6666,
+      "hit_rate": 0.5842,
+      "sharpe_per_trade": 1.374,
+      "max_drawdown_pct": 41.83
+    },
+    {
+      "hold_upper": 0.25,
+      "hold_lower": -0.25,
+      "n_trades": 79,
+      "n_prints": 161,
+      "selectivity_pct": 49.07,
+      "total_return_pct": 64.51,
+      "avg_net_per_trade_pct": 0.7702,
+      "hit_rate": 0.5823,
+      "sharpe_per_trade": 1.295,
+      "max_drawdown_pct": 39.52
+    },
+    {
+      "hold_upper": 0.3,
+      "hold_lower": -0.3,
+      "n_trades": 59,
+      "n_prints": 161,
+      "selectivity_pct": 36.65,
+      "total_return_pct": 68.03,
+      "avg_net_per_trade_pct": 1.037,
+      "hit_rate": 0.5932,
+      "sharpe_per_trade": 1.428,
+      "max_drawdown_pct": 29.85
+    },
+    {
+      "hold_upper": 0.35,
+      "hold_lower": -0.35,
+      "n_trades": 47,
+      "n_prints": 161,
+      "selectivity_pct": 29.19,
+      "total_return_pct": 106.91,
+      "avg_net_per_trade_pct": 1.7067,
+      "hit_rate": 0.6596,
+      "sharpe_per_trade": 2.134,
+      "max_drawdown_pct": 12.63
+    },
+    {
+      "hold_upper": 0.4,
+      "hold_lower": -0.4,
+      "n_trades": 26,
+      "n_prints": 161,
+      "selectivity_pct": 16.15,
+      "total_return_pct": 36.73,
+      "avg_net_per_trade_pct": 1.4216,
+      "hit_rate": 0.5769,
+      "sharpe_per_trade": 1.108,
+      "max_drawdown_pct": 29.21
+    },
+    {
+      "hold_upper": 0.45,
+      "hold_lower": -0.45,
+      "n_trades": 18,
+      "n_prints": 161,
+      "selectivity_pct": 11.18,
+      "total_return_pct": 50.55,
+      "avg_net_per_trade_pct": 2.5124,
+      "hit_rate": 0.6667,
+      "sharpe_per_trade": 1.611,
+      "max_drawdown_pct": 15.25
+    },
+    {
+      "hold_upper": 0.5,
+      "hold_lower": -0.5,
+      "n_trades": 8,
+      "n_prints": 161,
+      "selectivity_pct": 4.97,
+      "total_return_pct": 36.08,
+      "avg_net_per_trade_pct": 4.2327,
+      "hit_rate": 0.75,
+      "sharpe_per_trade": 1.515,
+      "max_drawdown_pct": 11.3
+    },
+    {
+      "hold_upper": 0.55,
+      "hold_lower": -0.55,
+      "n_trades": 6,
+      "n_prints": 161,
+      "selectivity_pct": 3.73,
+      "total_return_pct": 34.54,
+      "avg_net_per_trade_pct": 5.4527,
+      "hit_rate": 0.8333,
+      "sharpe_per_trade": 1.521,
+      "max_drawdown_pct": 11.3
+    },
+    {
+      "hold_upper": 0.6,
+      "hold_lower": -0.6,
+      "n_trades": 3,
+      "n_prints": 161,
+      "selectivity_pct": 1.86,
+      "total_return_pct": -2.92,
+      "avg_net_per_trade_pct": -0.6859,
+      "hit_rate": 0.6667,
+      "sharpe_per_trade": -0.158,
+      "max_drawdown_pct": 11.3
+    }
+  ],
+  "self_check_vs_backtest_py": {
+    "match": true,
+    "sweep_hu025": {
+      "n_trades": 79,
+      "total_return_pct": 64.51
+    },
+    "backtest_py_reported": {
+      "n_trades": 79,
+      "total_return_pct": 64.51,
+      "avg_net_per_trade_pct": 0.7702
+    }
+  },
+  "deployed_selectivity_pct": 33.59,
+  "target_trades_for_deployed_selectivity": 54,
+  "closest_to_deployed_selectivity": {
+    "hold_upper": 0.3,
+    "hold_lower": -0.3,
+    "n_trades": 59,
+    "n_prints": 161,
+    "selectivity_pct": 36.65,
+    "total_return_pct": 68.03,
+    "avg_net_per_trade_pct": 1.037,
+    "hit_rate": 0.5932,
+    "sharpe_per_trade": 1.428,
+    "max_drawdown_pct": 29.85
+  },
+  "best_total_return": {
+    "hold_upper": 0.35,
+    "hold_lower": -0.35,
+    "n_trades": 47,
+    "n_prints": 161,
+    "selectivity_pct": 29.19,
+    "total_return_pct": 106.91,
+    "avg_net_per_trade_pct": 1.7067,
+    "hit_rate": 0.6596,
+    "sharpe_per_trade": 2.134,
+    "max_drawdown_pct": 12.63
+  }
+}

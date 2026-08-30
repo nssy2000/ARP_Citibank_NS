@@ -1,0 +1,219 @@
+{
+  "document_id": "CAT_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Guidance was raised: full-year 2025 sales and revenues are now expected to be 'modestly higher' versus 2024, a 'slight improvement versus previous expectations of slightly higher,' and the fourth quarter is expected to show 'strong sales growth.' This is an organic improvement driven by higher sales volume and a record backlog, not primarily attributed to FX or one-time items. However, the score is tempered by significant tariff headwinds, which are expected to increase in the fourth quarter and keep full-year adjusted operating profit margin near the bottom of the target range."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$17.6 billion for Q3 2025, a 10% increase compared with $16.1 billion in Q3 2024.",
+    "eps": "Q3 2025 profit per share of $4.88, compared with $5.06 in Q3 2024. Adjusted profit per share was $4.95, compared with $5.17 in Q3 2024.",
+    "guidance": "Full-year 2025 sales and revenues are expected to be modestly higher versus 2024, a slight improvement from previous expectations. Fourth-quarter 2025 sales growth is expected to be strong versus the prior year. Full-year adjusted operating profit margin is expected to be near the bottom of the target range, including the impact of tariffs. ME&T free cash flow is expected to be above the midpoint of the $5B-$10B target range.",
+    "margin": "Q3 2025 operating profit margin was 17.3%, compared with 19.5% in Q3 2024. Adjusted operating profit margin was 17.5%, compared with 20.0% in Q3 2024.",
+    "key_risks": [
+      "Net impact of incremental tariffs is expected to be between $1.6 billion and $1.75 billion for full-year 2025.",
+      "Fourth-quarter net incremental tariff headwind is expected to be about $650 million to $800 million.",
+      "Tariff and trade negotiations remain fluid, creating uncertainty for longer-term mitigation actions.",
+      "Resource Industries anticipates lower sales to users in 2025 as customers display capital discipline.",
+      "Declining coal prices have caused an increase in the number of parked trucks, leading to lower rebuild activity."
+    ],
+    "key_opportunities": [
+      "Record backlog of $39.8 billion, up $2.4 billion sequentially, driven by strong orders in Energy & Transportation.",
+      "Strong demand for Power Generation, particularly for data center applications, with 33% growth in sales to users.",
+      "Positive momentum in demand for reciprocating engines used in gas compression applications.",
+      "Growing demand and customer acceptance of autonomous solutions in Resource Industries.",
+      "Healthy order rates and growth in sales to users across all three primary segments."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed optimism about the future, stating 'We remain optimistic about our underlying businesses and now anticipate modestly higher sales for the full year, including a strong fourth quarter.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 revenue was $17.6 billion, a 10% increase year-over-year.",
+      "quote": "Sales and revenues for the third quarter of 2025 were $17.6 billion, a 10% increase compared with $16.1 billion in the third quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 GAAP EPS was $4.88, down from $5.06 in Q3 2024.",
+      "quote": "Third-quarter 2025 profit per share was $4.88, compared with third-quarter 2024 profit per share of $5.06.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 adjusted EPS was $4.95, down from $5.17 in Q3 2024.",
+      "quote": "Adjusted profit per share in the third quarter of 2025 was $4.95, compared with third-quarter 2024 adjusted profit per share of $5.17.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 sales guidance was raised to modestly higher versus 2024.",
+      "quote": "Given the strength across our three primary segments, we now expect full-year 2025 sales and revenues to be higher than we previously anticipated, resulting in modest growth versus 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter 2025 sales growth is expected to be strong.",
+      "quote": "For the fourth quarter, we anticipate strong sales growth versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 operating profit margin was 17.3%.",
+      "quote": "Operating profit margin was 17.3% for the third quarter of 2025, compared with 19.5% for the third quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 adjusted operating profit margin was 17.5%.",
+      "quote": "Adjusted operating profit margin was 17.5% for the third quarter of 2025, compared with 20.0% for the third quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 net incremental tariff impact is expected to be $1.6B to $1.75B.",
+      "quote": "Based on the incremental tariffs announced in 2025 and expected to be in place by November 1st, we expect the full-year net impact from tariffs to be between $1.6 billion and $1.75 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter 2025 net incremental tariff headwind is expected to be $650M to $800M.",
+      "quote": "We anticipate a net cost headwind of about $650 million to $800 million in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The backlog is a record $39.8 billion.",
+      "quote": "The backlog is now $39.8 billion, which is also an all-time record, and positions us for sustained momentum and long-term profitable growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Power Generation sales to users grew 33% year-over-year, driven by data center demand.",
+      "quote": "The largest growth came from Power Generation with a 33% increase, primarily due to demand for reciprocating engines for data center applications.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about the future.",
+      "quote": "We remain optimistic about our underlying businesses and now anticipate modestly higher sales for the full year, including a strong fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Resource Industries anticipates lower sales to users in 2025.",
+      "quote": "We anticipate lower sales to users in 2025 compared to last year as customers continue to display capital discipline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Declining coal prices are impacting rebuild activity.",
+      "quote": "Although most key commodities remain above investment thresholds, declining coal prices have caused an increase in the number of parked trucks. As a result, we continue to expect slightly lower rebuild activity compared to last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There is growing demand for autonomous solutions.",
+      "quote": "We also continue to see growing demand and customer acceptance of our autonomous solutions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sales increase was primarily due to higher sales volume.",
+      "quote": "The increase was primarily due to higher sales volume. Higher sales volume was mainly driven by higher sales of equipment to end users.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of +0.30 reflects a guidance raise, but the magnitude is tempered by significant tariff headwinds that are expected to increase in Q4. A reviewer should verify this balance is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CAT_Bundled Earnings Report_2025-10-28",
+  "report_metadata": {
+    "issuer": "p2_caterpillar",
+    "company": "Caterpillar",
+    "ticker": "CAT",
+    "sector": "Industrials/Farm & Heavy Construction Machinery",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q3\\3Q-2025-Analyst-Slide-Deck-vFinal.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q3\\3Q-2025-Caterpillar-Earnings-Call-Transcript_10-29-2025.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CAT_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095259Z",
+    "timestamp": "2026-08-09T09:53:39Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_caterpillar\\extracted\\CAT_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 52958,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q3\\3Q-2025-Analyst-Slide-Deck-vFinal.pdf",
+        "page_count": 26,
+        "extracted_characters": 18528,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q3\\3Q-2025-Caterpillar-Earnings-Call-Transcript_10-29-2025.pdf",
+        "page_count": 24,
+        "extracted_characters": 55889,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_caterpillar\\extracted\\CAT_FQ3_2025.txt"
+  }
+}

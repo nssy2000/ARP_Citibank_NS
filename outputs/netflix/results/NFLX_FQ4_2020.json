@@ -1,0 +1,213 @@
+{
+  "document_id": "NFLX_FQ4_2020",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows a meaningful improvement in forward guidance: FY21 operating margin target raised from 19% to 20%, and FCF guidance improved from -$1B to break even to 'around break even.' These are organic improvements, not attributed to FX or one-time items. The Q4 results beat internal guidance (paid net adds of 8.5M vs. 6.0M forecast), but the score is capped at +0.30 because the Q1'21 paid net adds guidance of 6.0M is a sharp drop from the prior year's 15.8M (though that is acknowledged as COVID-related), and management explicitly notes lumpiness in margin trajectory."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2020 revenue of $6,644 million, up 21.5% year over year. Full year 2020 revenue of $25 billion, up 24% year over year.",
+    "eps": "Q4 2020 diluted EPS of $1.19, down from $1.30 a year ago, including a $258 million non-cash unrealized loss from FX remeasurement on Euro denominated debt.",
+    "guidance": "Q1 2021 forecast: revenue $7,129 million, operating margin 25.0%, diluted EPS $2.97, paid net adds 6.0 million. FY21 operating margin target raised to 20% (from prior 19%). FY21 free cash flow expected around break even (improved from prior -$1B to break even).",
+    "margin": "Q4 2020 operating margin of 14.4% (up 600 bps from Q4'19). Full year 2020 operating margin of 18% (up 5 percentage points from prior year). FY21 target operating margin of 20%.",
+    "key_risks": [
+      "Competition from legacy competitors like Disney, WarnerMedia, Discovery, AppleTV+, HBO Max, Peacock, Paramount+.",
+      "Production risks related to the coronavirus pandemic.",
+      "Foreign exchange headwinds (noted in ARM commentary and EPS impact).",
+      "Lumpiness in operating margin trajectory (management notes some years over, some under the 3pp/year average)."
+    ],
+    "key_opportunities": [
+      "Strong original content pipeline: over 500 titles in post-production or preparing to launch, plan to release at least one new original film every week in 2021.",
+      "Global expansion: 83% of paid net adds in 2020 came from outside UCAN; APAC paid net adds up 65% year over year.",
+      "Product improvements: new 'instant watch' feature testing positive, planned global rollout in H1 2021.",
+      "Cash flow inflection: full year 2020 FCF positive at +$1.9 billion vs. -$3.3 billion in 2019; company believes it is 'very close to being sustainably FCF positive.'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses confidence in the forward outlook, stating 'we’re confident we’ll continue to have a great content offering for our members' and 'we believe we no longer have a need to raise external financing for our day-to-day operations.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2020 revenue was $6,644 million, up 21.5% year over year.",
+      "quote": "Revenue $ 5,467 $ 5,768 $ 6,148 $ 6,436 $ 6,644 $ 7,129 ... Y/Y % Growth 30.6 % 27.6 % 24.9 % 22.7 % 21.5 % 23.6 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2020 revenue was $25 billion, up 24% year over year.",
+      "quote": "achieved $25 billion in annual revenue (+24% year over year)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 diluted EPS was $1.19, down from $1.30 a year ago, including a $258 million non-cash unrealized loss from FX remeasurement.",
+      "quote": "EPS of $1.19 vs. $1.30 a year ago included a $258m non-cash unrealized loss from F/X remeasurement on our Euro denominated debt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2021 guidance: revenue $7,129 million, operating margin 25.0%, diluted EPS $2.97, paid net adds 6.0 million.",
+      "quote": "Q1'21 Forecast Revenue $ 7,129 ... Operating Margin 25.0 % ... Diluted EPS $ 2.97 ... For Q1’21, we expect paid net adds of 6.0m",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY21 operating margin target raised to 20% from prior 19%.",
+      "quote": "For FY21, we’re now targeting a 20% operating margin, up two percentage points from 2020 and higher than our previous 19% forecast, due to a more favorable revenue outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY21 free cash flow expected around break even, improved from prior -$1B to break even.",
+      "quote": "For the full year 2021, we currently anticipate free cash flow will be around break even (vs. our prior expectation for -$1 billion to break even).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 operating margin was 14.4%, up 600 bps from Q4'19.",
+      "quote": "Operating margin of 14.4% (a 600bps increase from Q4’19)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2020 operating margin was 18%, up 5 percentage points from prior year.",
+      "quote": "FY20 operating margin of 18% rising five percentage points over prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition from legacy competitors is a key risk.",
+      "quote": "The big growth in streaming entertainment has led legacy competitors like Disney, WarnerMedia and Discovery to compete with us in new ways, which we’ve been expecting for many years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Production risks related to the coronavirus pandemic are a key risk.",
+      "quote": "production risks, including those related to the coronavirus pandemic",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange headwinds are a risk.",
+      "quote": "despite significant F/X headwinds",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lumpiness in operating margin trajectory is noted.",
+      "quote": "we anticipate some lumpiness. Some years we’ll be a little over (like in 2020), some years a little under (like in 2021)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong original content pipeline: over 500 titles in post-production or preparing to launch, plan to release at least one new original film every week in 2021.",
+      "quote": "With over 500 titles currently in post production or preparing to launch on our service and plans to release at least one new original film every week in 2021 with extraordinary talent, we’re confident we’ll continue to have a great content offering for our members.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global expansion: 83% of paid net adds in 2020 came from outside UCAN; APAC paid net adds up 65% year over year.",
+      "quote": "We’re becoming an increasingly global service with 83% of our paid net adds in 2020 coming from outside the UCAN region. ... APAC was the second largest contributor to paid net additions with 9.3m (up 65% year over year).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Product improvement: new 'instant watch' feature testing positive, planned global rollout in H1 2021.",
+      "quote": "we’ve been testing a new feature that gives members the ability to choose to instantly watch a title chosen just for them versus browse. The response has been positive and we plan to roll it out globally in the first half of 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash flow inflection: full year 2020 FCF positive at +$1.9 billion vs. -$3.3 billion in 2019; company believes it is 'very close to being sustainably FCF positive.'",
+      "quote": "Free cash flow (FCF) for the quarter was -$284 million vs. -$1.7 billion in Q4‘19, bringing full year 2020 free cash flow to +$1.9 billion vs. -$3.3 billion in 2019. We believe we are very close to being sustainably FCF positive.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we’re confident we’ll continue to have a great content offering for our members",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management states no need for external financing.",
+      "quote": "we believe we no longer have a need to raise external financing for our day-to-day operations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 paid net adds of 8.5 million beat internal guidance of 6.0 million.",
+      "quote": "With 8.5m paid net additions in Q4, we crossed the 200m paid memberships mark. ... paid net adds exceeded our 6.0m projection by 2.5m.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2021 paid net adds guidance of 6.0 million is a sharp drop from prior year's 15.8 million, attributed to COVID lockdowns.",
+      "quote": "For Q1’21, we expect paid net adds of 6.0m vs. last Q1’s 15.8m, which included the impact from the initial COVID-19 lockdowns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a guidance raise and improved FCF outlook, but the Q1 paid net adds guidance is a sharp year-over-year decline (6.0M vs 15.8M). A reviewer may want to assess whether the decline is fully explained by COVID comps or signals underlying slowdown."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2021-01-19",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ4 2020",
+    "report_date": "2021-01-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2020-Q4\\nflx-4q20-press-release.html",
+        "pub_date": "2021-01-19"
+      }
+    ],
+    "document_id": "NFLX_FQ4_2020"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:53:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2020-Q4\\nflx-4q20-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ4_2020.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2020-Q4\\nflx-4q20-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25661,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ4_2020.txt"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "issuer": "p2_comcast_corporation",
+  "reports": [
+    {
+      "document_id": "CMCSA_FQ1_2025",
+      "issuer": "p2_comcast_corporation",
+      "company": "Comcast Corporation",
+      "ticker": "CMCSA",
+      "sector": "Communication Services/Telecom Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-23",
+      "release_date": "2025-04-24",
+      "release_date_source": "EDGAR 8-K Item 2.02, cmcsa-20250424.htm, acc 0001166691-25-000018",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q1/1q25_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q1/CMCSA-USQ_Transcript_2025-04-24.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CMCSA_FQ2_2025",
+      "issuer": "p2_comcast_corporation",
+      "company": "Comcast Corporation",
+      "ticker": "CMCSA",
+      "sector": "Communication Services/Telecom Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-30",
+      "release_date": "2025-07-31",
+      "release_date_source": "EDGAR 8-K Item 2.02, cmcsa-20250731.htm, acc 0001166691-25-000034",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q2/2q25_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q2/CMCSA-USQ_Transcript_2025-07-31.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CMCSA_FQ4_2025",
+      "issuer": "p2_comcast_corporation",
+      "company": "Comcast Corporation",
+      "ticker": "CMCSA",
+      "sector": "Communication Services/Telecom Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-28",
+      "release_date": "2026-01-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, cmcsa-20260129.htm, acc 0001628280-26-003964",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q4/4q25_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/comcast_corporation/CY2025-Q4/CMCSA-USQ_Transcript_2026-01-29.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "CMCSA_FQ1_2026",
+      "issuer": "p2_comcast_corporation",
+      "company": "Comcast Corporation",
+      "ticker": "CMCSA",
+      "sector": "Communication Services/Telecom Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-22",
+      "release_date": "2026-04-23",
+      "release_date_source": "EDGAR 8-K Item 2.02, cmcsa-20260423.htm, acc 0001628280-26-026685",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/comcast_corporation/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/comcast_corporation/CY2026-Q1/1q26_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/comcast_corporation/CY2026-Q1/CMCSA-USQ_Transcript_2026-04-23.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

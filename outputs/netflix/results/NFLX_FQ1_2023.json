@@ -1,0 +1,156 @@
+{
+  "document_id": "NFLX_FQ1_2023",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: paid sharing rollout in Canada is already in positive member and revenue territory, and the ad-supported plan has higher ARPU than the standard plan in the U.S. Management is confident about reaccelerating revenue growth and gradually increasing margins, but has not formally raised full-year guidance. The tone is optimistic but measured, with no major risks disclosed, supporting a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed (no specific revenue figure provided in the document).",
+    "eps": "Reported EPS is $2.88, beating expectations of $2.86.",
+    "guidance": "Management expects to reaccelerate revenue growth and gradually increase margins, with full-year margins in the 18% to 20% range (up from under 18% last year). Free cash flow guidance was raised.",
+    "margin": "Full-year operating margin guided to 18% to 20% range, up from under 18% last year.",
+    "key_risks": [
+      "Password sharing rollout may cause initial cancel reaction before building back.",
+      "Advertising business is still early and requires continued development of features and capabilities.",
+      "Price reductions in 116 countries represent less than 5% of revenue but could have near-term impact."
+    ],
+    "key_opportunities": [
+      "Paid sharing rollout in Q2 broadly, including the U.S., expected to drive member and revenue growth.",
+      "Advertising tier has higher ARPU than standard plan in the U.S. and is expected to become a significant, high-margin business.",
+      "Large addressable market: only ~230 million paying members vs. 1 billion+ broadband households.",
+      "Content parity on ad plan improved to 95%-plus of viewing parity."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expresses confidence in the paid sharing rollout ('strong validation'), advertising opportunity ('significantly optimistic about the long-term opportunity'), and revenue reacceleration, while acknowledging the gradual nature of the build."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported EPS is $2.88, beating expectations of $2.86.",
+      "quote": "Netflix, Inc. beats earnings expectations. Reported EPS is $2.88, expectations were $2.86.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating margin guided to 18% to 20% range, up from under 18% last year.",
+      "quote": "You see that in our guide where we are looking to tick up margins a bit to the 18% to 20% range full year relative to just under 18% last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid sharing rollout in Canada is already in positive member and positive revenue position.",
+      "quote": "You mentioned Canada, we are now in a positive member and positive revenue position relative to pre-rollout.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising tier has higher ARPU than standard plan in the U.S.",
+      "quote": "in the U.S., it's actually even higher than our standard plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to reaccelerate revenue growth and gradually increase margins.",
+      "quote": "we are looking to reaccelerate the revenue growth. That's the path that we are on right now, and as we do that, we want to kind of balance gradually increasing margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guidance was raised.",
+      "quote": "You did raise your free cash flow guidance, but you kept your margins the same for this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about the advertising opportunity.",
+      "quote": "we are significantly optimistic about the long-term opportunity for the reasons that you mentioned.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content parity on ad plan improved to 95%-plus of viewing parity.",
+      "quote": "we increased our level of content parity on the plan this past quarter, which is great. So it's about 95%-plus of viewing parity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Large addressable market: only ~230 million paying members vs. 1 billion+ broadband households.",
+      "quote": "we only have 230 million-ish paying members today roughly, right? So that's why we are so focused on addressing with paid sharing and then just making our business and the value that we bring to the service better each day to bring in more members.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Price reductions in 116 countries represent less than 5% of revenue.",
+      "quote": "it's a lot of countries, but it represents less than 5% of our revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "we are significantly optimistic about the long-term opportunity",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No specific revenue figure was provided in the document; only qualitative commentary about revenue growth reacceleration."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2023-04-18",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-04-18",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q1\\nflx-1q23-transcript.html",
+        "pub_date": "2023-04-18"
+      }
+    ],
+    "document_id": "NFLX_FQ1_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T145602Z",
+    "timestamp": "2026-07-08T14:56:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q1\\nflx-1q23-transcript.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q1\\nflx-1q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 29935,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2023.txt"
+  }
+}

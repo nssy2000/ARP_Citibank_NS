@@ -1,0 +1,184 @@
+{
+  "document_id": "AMD_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum with record revenue and free cash flow, and the Q3 guidance midpoint of $8.7B implies ~28% year-over-year growth, which is a meaningful raise from the prior quarter's $7.7B. However, the Data Center segment (key for AI thesis) grew only 14% year-over-year, and the China export license uncertainty caps the upside. The score is positive but tempered by the structural risk of export controls and the fact that the strong Client/Gaming beat is considered lower quality by the market."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$7.7 billion, up 32% year-over-year.",
+    "eps": "$0.48 diluted EPS, reduced by $0.43 of charges (inventory write-down).",
+    "guidance": "Q3 2025 revenue guided to approximately $8.7 billion plus or minus $300 million, representing ~28% year-over-year growth. No MI308 China revenue included.",
+    "margin": "Non-GAAP gross margin 54% excluding the $800M MI308 China inventory write-down. Q3 non-GAAP gross margin guided to approximately 54%.",
+    "key_risks": [
+      "MI308 China export licenses under review, no China GPU revenue assumed in guidance.",
+      "Embedded segment faces mixed end-market demand with unfavorable product mix.",
+      "Gross margin pressure from the MI350 ramp, partly offset by efficiencies."
+    ],
+    "key_opportunities": [
+      "Strong ramp of MI350 series accelerators in the second half of 2025.",
+      "Record EPYC and Ryzen CPU sales driving share gains.",
+      "Sovereign AI engagements accelerating (e.g., multibillion-dollar HUMAIN collaboration).",
+      "Next-generation MI400 series with Helios rack-scale platform expected to be 'highest-performance AI system in the world'."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Lisa Su stated 'demand is very strong across our product portfolio, and we are well positioned to deliver significant growth in the second half of the year' and described a 'clear path to scaling our AI business to tens of billions of dollars in annual revenue.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $7.7 billion, up 32% year-over-year.",
+      "quote": "Second quarter revenue increased 32% year-over-year to a record $7.7 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.48, reduced by $0.43 of charges.",
+      "quote": "Diluted earnings per share were $0.48 compared to $0.69 a year ago. The inventory and related charges reduced earnings per share by approximately $0.43.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 revenue guidance is approximately $8.7 billion, up ~28% year-over-year, excluding MI308 China revenue.",
+      "quote": "For the third quarter of 2025, we expect revenue to be approximately $8.7 billion, plus or minus $300 million. The midpoint of our guidance represents approximately 28% year-over-year revenue growth... we are not including any MI308 revenue in our third quarter guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP gross margin was 54% excluding the $800M write-down.",
+      "quote": "Excluding the $800 million inventory write-down related to data center AI export controls, gross margin was 54%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: MI308 China export licenses under review, no China GPU revenue in guidance.",
+      "quote": "we are not including any MI308 revenue in our third quarter guidance as our license applications are currently under review by U.S. government.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Embedded segment faces mixed demand and unfavorable product mix.",
+      "quote": "Embedded segment revenue was $824 million, down 4% year-over-year... Embedded end market demand remains mixed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Gross margin pressure from MI350 ramp.",
+      "quote": "Gross margin pressure from the MI350 ramp, partly offset by efficiencies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Strong ramp of MI350 series accelerators in H2 2025.",
+      "quote": "We began volume production of the MI350 series ahead of schedule in June and expect a steep production ramp in the second half of the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Record EPYC and Ryzen CPU sales driving share gains.",
+      "quote": "We set records for both EPYC and Ryzen CPU sales, reflecting the broad-based demand for our differentiated high-performance data center, PC and embedded processors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Sovereign AI engagements accelerating (HUMAIN collaboration).",
+      "quote": "we announced a multibillion-dollar collaboration with HUMAIN to build AI infrastructure powered entirely on AMD CPUs, GPUs and software.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: MI400 series with Helios expected to be highest-performance AI system.",
+      "quote": "Helios is expected to deliver up to a 10x generational performance increase for the most advanced Frontier models, and we believe it will be the highest-performance AI system in the world when it launches.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "demand is very strong across our product portfolio, and we are well positioned to deliver significant growth in the second half of the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sentiment score rationale: strong operational momentum with record revenue and free cash flow, Q3 guidance raised, but Data Center growth only 14% and China uncertainty caps upside.",
+      "quote": "Second quarter revenue increased 32% year-over-year to a record $7.7 billion, and we delivered over $1 billion in free cash flow. Data Center segment revenue increased 14% year-over-year to $3.2 billion. we are not including any MI308 revenue in our third quarter guidance as our license applications are currently under review by U.S. government.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a guidance raise and strong operational momentum, but the Data Center segment's 14% growth is a potential concern for the AI thesis. A human reviewer should confirm the balance between the positive forward guide and the structural risk from export controls."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMD_Bundled Earnings Report_2025-08-05",
+  "report_metadata": {
+    "issuer": "p2_amd",
+    "company": "AMD",
+    "ticker": "AMD",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q2\\05 amd q2 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q2\\AMD-Q2-2025-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMD_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172131Z",
+    "timestamp": "2026-07-30T17:21:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q2\\05 amd q2 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q2\\05 amd q2 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5441,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q2\\AMD-Q2-2025-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "page_count": 1,
+        "extracted_characters": 55371,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ2_2025.txt"
+  }
+}

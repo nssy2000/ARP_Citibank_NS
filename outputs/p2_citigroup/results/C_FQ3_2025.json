@@ -1,0 +1,297 @@
+{
+  "document_id": "C_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum with record quarterly revenues across all five businesses and positive operating leverage for the firm and each business. Full-year revenue guidance was raised to 'exceed $84 billion' from a prior expectation of 'at least $84 billion', and NII ex-Markets guidance was raised to 'up around 5.5%' from a prior expectation. However, expenses were guided higher than previously expected, and the CET1 ratio declined to 13.2% from 13.5% QoQ due to buybacks and RWA growth, partially offsetting the positive revenue momentum. The score reflects a genuine guidance raise on the top line, tempered by expense growth and capital consumption."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues of $22.1 billion in 3Q25, up 9% YoY. Year-to-date revenues of $65.4 billion, up 7% YoY.",
+    "eps": "Diluted EPS of $1.86 in 3Q25, up 23% YoY from $1.51. Excluding the notable item (goodwill impairment), EPS was $2.24.",
+    "guidance": "Full-year 2025 revenues expected to exceed $84 billion. NII ex-Markets expected to be up around 5.5% for the full year. Full-year expenses expected to be higher than previously guided ($53.4 billion), with the efficiency ratio slightly below 64% excluding the goodwill impairment. Targeting 10-11% RoTCE in 2026.",
+    "margin": "Efficiency ratio of 64.7% in 3Q25, improved 30 bps YoY. Excluding the notable item, the efficiency ratio was 61.4%, improved ~360 bps YoY. Net interest margin (NIM) was 2.40% in 3Q25, down 11 bps QoQ and up 7 bps YoY.",
+    "key_risks": [
+      "Goodwill impairment of $726 million related to the Banamex transaction, recorded in Other expenses.",
+      "Corporate non-accrual loans increased 119% YoY to $2.1 billion, driven by idiosyncratic downgrades in Markets and Banking.",
+      "Consumer non-accrual loans increased 32% YoY to $1.6 billion, primarily driven by Wealth due to California wildfires.",
+      "CET1 Capital ratio declined to 13.2% from 13.5% QoQ, driven by common share repurchases, higher RWA, and dividends.",
+      "Expenses guided higher than previously expected for the full year.",
+      "Markets revenues expected to see a sequential decline from 3Q to 4Q that could exceed the historical range of 15-20%.",
+      "Uncertainty around the Federal Reserve's SCB averaging rule, leading to a higher CET1 target of 12.8%."
+    ],
+    "key_opportunities": [
+      "Record quarterly revenues in all five businesses (Services, Markets, Banking, Wealth, USPB).",
+      "Services posted its best quarter ever with revenues up 7%.",
+      "Markets delivered its best third quarter ever with revenues up 15%.",
+      "Wealth had record Net New Investment Assets of $18.6 billion.",
+      "USPB had a record quarter with revenues up 7% and 12 consecutive quarters of positive operating leverage.",
+      "Investment Banking fees up 17% YoY with continued market share gains.",
+      "Returned over $6 billion to common shareholders in 3Q25, including $5 billion in share repurchases.",
+      "Announced agreement to sell a 25% equity stake in Banamex, a significant step toward divestiture.",
+      "Continued progress on transformation with over two-thirds of programs at or near target state.",
+      "Investments in AI and digital assets driving innovation and improved capabilities."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jane Fraser stated, 'The relentless execution of our strategy is delivering stronger business performance quarter after quarter and improving our returns,' and CFO Mark Mason said, 'We remain confident in our ability to exceed $84 billion in revenues for the year.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues were $22.1 billion in 3Q25, up 9% YoY.",
+      "quote": "Citigroup today reported net income for the third quarter 2025 of $3.8 billion, or $1.86 per diluted share, on revenues of $22.1 billion. This compares to net income of $3.2 billion, or $1.51 per diluted share, on revenues of $20.2 billion for the third quarter 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.86 in 3Q25, up 23% YoY.",
+      "quote": "Citigroup today reported net income for the third quarter 2025 of $3.8 billion, or $1.86 per diluted share, on revenues of $22.1 billion. This compares to net income of $3.2 billion, or $1.51 per diluted share, on revenues of $20.2 billion for the third quarter 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year revenue guidance was raised to exceed $84 billion.",
+      "quote": "given the very strong year-to-date top-line revenue growth of 7%, we remain confident in our ability to exceed $84 billion in revenues for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex-Markets guidance was raised to up around 5.5% for the full year.",
+      "quote": "We now expect NII ex-Markets to be up around 5.5% for the full year, incorporating stronger performance as well as the impact of FX relative to our previous expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year expenses are expected to be higher than previously guided.",
+      "quote": "full year expenses will come in higher than we previously guided.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The efficiency ratio for the full year is expected to be slightly below 64% excluding the goodwill impairment.",
+      "quote": "you should expect the efficiency ratio for the full year to be consistent with the revenue and expense guidance that we've provided during the course of the year, which is slightly below 64%, excluding the impact of the goodwill impairment this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is targeting 10-11% RoTCE in 2026.",
+      "quote": "We remain committed to continuing to improve returns over time — targeting 10-11% RoTCE in 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A goodwill impairment of $726 million was recorded in 3Q25 related to Banamex.",
+      "quote": "third quarter results included a notable item consisting of a goodwill impairment of $726 million ($714 million after-tax), recorded in Other expenses, related to Citi's agreement to sell a 25% equity stake in Grupo Financiero Banamex, S.A. de C.V.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Corporate non-accrual loans increased 119% YoY to $2.1 billion.",
+      "quote": "Corporate non-accrual loans increased 119% from the prior-year period to $2.1 billion, driven by idiosyncratic downgrades in Markets and Banking.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer non-accrual loans increased 32% YoY to $1.6 billion.",
+      "quote": "Consumer non-accrual loans increased 32% from the prior year period to $1.6 billion, primarily driven by Wealth, largely due to residential mortgage loans impacted by the California wildfires.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The CET1 Capital ratio declined to 13.2% from 13.5% QoQ.",
+      "quote": "At quarter end, Citigroup's preliminary CET1 Capital ratio was 13.2% versus 13.5% at the end of the prior quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenues are expected to see a sequential decline from 3Q to 4Q that could exceed the historical range.",
+      "quote": "historically we have seen revenues decline 15-20% from the third to the fourth quarter, however given the strong performance in the third quarter, the sequential decline could exceed that range this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is targeting a CET1 ratio closer to 12.8% due to SCB uncertainty.",
+      "quote": "Given this uncertainty, we will be targeting a Standardized CET1 ratio closer to 12.8%, which incorporates a two-year average SCB of 3.8%, as well as a 100-basis point management buffer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services had a record quarter with revenues up 7%.",
+      "quote": "Services posted its best quarter ever with revenues up 7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets delivered its best third quarter ever with revenues up 15%.",
+      "quote": "Markets delivered its best third quarter ever with revenues up 15%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth had record Net New Investment Assets of $18.6 billion.",
+      "quote": "Wealth saw a record quarter with... record Net New Investment Assets of $18.6 billion for the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "USPB had a record quarter with revenues up 7%.",
+      "quote": "USPB saw a record quarter with revenues up 7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment Banking fees were up 17% YoY.",
+      "quote": "Investment Banking fees increased 17%, with growth across all products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company returned over $6 billion to common shareholders in 3Q25.",
+      "quote": "We returned over $6 billion to common shareholders in the form of share repurchases and dividends, bringing us to $12 billion year-to-date",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "An agreement was announced to sell a 25% equity stake in Banamex.",
+      "quote": "announced a significant step toward the divestiture of Banamex with an agreement to sell a 25% equity stake in that business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over two-thirds of transformation programs are at or near target state.",
+      "quote": "Over two-thirds of our transformation programs are at or are close to our target state and we are making very good progress in the remaining areas.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Jane Fraser stated, 'The relentless execution of our strategy is delivering stronger business performance quarter after quarter and improving our returns,' and CFO Mark Mason said, 'We remain confident in our ability to exceed $84 billion in revenues for the year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The efficiency ratio was 64.7% in 3Q25, improved 30 bps YoY.",
+      "quote": "Efficiency Ratio (total operating expenses/total revenues, net) 64.7% ... (30) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding the notable item, the efficiency ratio was 61.4%, improved ~360 bps YoY.",
+      "quote": "Total Citigroup Efficiency Ratio, Excluding Goodwill Impairment Charge(3) 61.4% ... (360) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest margin (NIM) was 2.40% in 3Q25.",
+      "quote": "Net interest income as a % of average interest-earning assets (NIM)(9) ... 2.40%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a genuine guidance raise on revenue and NII, but expenses were also guided higher. The CET1 ratio decline and elevated non-accrual loans are headwinds. A reviewer should confirm the balance between the positive revenue guidance and the negative expense/capital trends."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "C_Bundled Earnings Report_2025-10-14",
+  "report_metadata": {
+    "issuer": "p2_citigroup",
+    "company": "Citigroup",
+    "ticker": "C",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025fsqtr3rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025prqtr3rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025psqtr3-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025psqtr3rslt.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "C_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213110Z",
+    "timestamp": "2026-07-18T21:33:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025fsqtr3rslt.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025fsqtr3rslt.pdf",
+        "page_count": 23,
+        "extracted_characters": 80197,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025prqtr3rslt.pdf",
+        "page_count": 16,
+        "extracted_characters": 49296,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025psqtr3-transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 74276,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q3\\2025psqtr3rslt.pdf",
+        "page_count": 45,
+        "extracted_characters": 98023,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ3_2025.txt"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "document_id": "NFLX_FQ4_2025",
+  "sentiment": {
+    "score": 0.6,
+    "rationale": "The document reports a strong Q4 and full-year 2025 with revenue growth of 16% and operating profit up roughly 30%. Forward guidance for 2026 was raised to $51 billion in revenue, up 14% year-on-year, and operating margin target of 31.5% (up 2 points). However, growth is decelerating from 16% to 14%, and the guidance includes a ~0.5pt drag from expected M&A expenses related to the pending WBD acquisition, which also introduces regulatory and execution overhang. The sentiment is positive but tempered by the deceleration and deal risk."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FY2025 revenue grew 16% to $45.183B (actual vs consensus $45.099B, +0.19% surprise). Q4 2025 revenue $12.051B (actual vs consensus $11.967B, +0.70% surprise).",
+    "eps": "FY2025 EPS normalized $2.53 (actual vs consensus $2.54, -0.39% surprise). Q4 2025 EPS normalized $0.56 (actual vs consensus $0.55, +1.82% surprise).",
+    "guidance": "2026 revenue forecast $51 billion, up 14% year-on-year. 2026 operating margin target 31.5%, up 2 points. Ad revenue expected to roughly double to about $3 billion in 2026. Guidance assumes organic growth only, with the pending WBD/HBO deal treated separately.",
+    "margin": "2025 operating profit grew roughly 30%, with margin expansion. 2026 operating margin target 31.5%, up 2 points, including about 0.5 percentage point drag from expected M&A expenses.",
+    "key_risks": [
+      "Growth deceleration from 16% to 14% year-on-year.",
+      "Pending WBD acquisition introduces regulatory and execution overhang.",
+      "M&A cost drag of ~0.5pt on 2026 margin guide.",
+      "Live programming still a small portion of total view hours and content spend.",
+      "Geographic mix dampens view-hours-per-member (e.g., Japan watches roughly half to two-thirds the TV of U.S. consumers).",
+      "Second-run/licensed-title viewing down YoY as licensed volume fell.",
+      "Ad-tier ARM still below ad-free parity."
+    ],
+    "key_opportunities": [
+      "Ad sales 2.5x in 2025, expected to roughly double again to ~$3B in 2026.",
+      "Proprietary ad-tech stack now in place, enabling more formats and interactivity.",
+      "Expanding into new content categories: live events (200+ executed), video podcasts, cloud-first gaming.",
+      "New license deals (Sony Pay-1, expanded Universal, Paramount) and original content slate.",
+      "Pending WBD acquisition seen as strategic accelerant, providing theatrical distribution, HBO brand, and IP.",
+      "Under 10% of TV time in all major markets, hundreds of millions of households still to sign up.",
+      "Only about 7% of addressable market in consumer and ad spend."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'we feel great about our organic growth outlook,' 'we're very excited about the business,' and 'we're as energized as ever to achieve our mission to entertain the world.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FY2025 revenue grew 16%.",
+      "quote": "We delivered 16% revenue growth, roughly 30% operating profit growth, expanding margins, growing free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue was $12.051B, beating consensus of $11.967B.",
+      "quote": "Revenue (mm) 11966.85 12050.76 0.70",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 EPS normalized was $2.53, slightly below consensus of $2.54.",
+      "quote": "EPS Normalized 0.55 0.56 1.82 0.76 0.76 2.54 2.53 (0.39 %) 3.11",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 revenue guidance raised to $51 billion, up 14% year-on-year.",
+      "quote": "We forecast 2026 revenue at $51 billion, which is up 14% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 operating margin target is 31.5%, up 2 points.",
+      "quote": "We're targeting 31.5% operating margins for 2026. That's up 2 points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad revenue expected to roughly double to about $3 billion in 2026.",
+      "quote": "Ad sales, two and a half times in 2025. We expect that business to roughly double again in 2026 to about $3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growth decelerates from 16% to 14%.",
+      "quote": "We forecast 2026 revenue at $51 billion, which is up 14% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "M&A cost drag of ~0.5pt on 2026 margin guide.",
+      "quote": "This guide at 2 percentage points, that actually includes about 0.5 percentage point drag from the expected M&A expenses that we referenced in the letter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pending WBD acquisition introduces regulatory and execution overhang.",
+      "quote": "We're working really hard to close the acquisition of Warner Bros. Studios and HBO, which we see as a strategic accelerant.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live programming still a small portion of total view hours and content spend.",
+      "quote": "This is still a relatively small portion of total view hours. ... it's a small portion of the content spend and with 200 billion hours, a pretty small portion of the total view hours, too.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geographic mix dampens view-hours-per-member.",
+      "quote": "Take consumers in Japan, they watch roughly 1/2 to 2/3 the amount of TV as American consumers. So as you have more member growth in places like Japan ... that skews the view hours per member.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second-run/licensed-title viewing down YoY.",
+      "quote": "Viewing on the second run titles was lower year-over-year because the volume of licensed titles that we're carrying came down across most regions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-tier ARM still below ad-free parity.",
+      "quote": "There is still a gap between the ad tier ARM and ARM for standard without ads, but that gap is narrowing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad sales 2.5x in 2025, expected to roughly double again.",
+      "quote": "Ad sales, two and a half times in 2025. We expect that business to roughly double again in 2026 to about $3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Proprietary ad-tech stack now in place.",
+      "quote": "We're continuing to build out that ad tech stack.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expanding into new content categories: live events, video podcasts, cloud-first gaming.",
+      "quote": "We're also building out some newer initiatives like our live outside of the U.S. ... We're expanding into more content categories like video podcasts ... And we're continuing to scale our cloud-first game strategy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New license deals (Sony Pay-1, expanded Universal, Paramount).",
+      "quote": "We've got some new license deals in place with Sony that includes a first-of-its-kind global Pay-1 movie deal. We've expanded our Universal licensing deal ... We have a new slate of licensed titles from Paramount.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pending WBD acquisition seen as strategic accelerant.",
+      "quote": "We see Warner Bros. with 100 years of IP, an incredible library, great new shows and films, that's an accelerant to our strategy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Under 10% of TV time in all major markets, hundreds of millions of households still to sign up.",
+      "quote": "We are still under 10% of TV time in all major markets which we compete. We've got hundreds of millions of households around the world still to sign up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Only about 7% of addressable market in consumer and ad spend.",
+      "quote": "We're just about 7% of the addressable market in terms of consumer and ad spend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel great about our organic growth outlook. ... We're very excited about the business. ... We're as energized as ever to achieve our mission to entertain the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.60 is based on a raised guidance and strong results, but the deceleration from 16% to 14% growth and the WBD deal risk may warrant a slightly lower score. The human reviewer should confirm the weighting of these factors."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The regulatory and execution overhang from the WBD deal is inferred from management's discussion of the deal and the need for approvals. The document does not explicitly state this as a risk, but it is a reasonable inference."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2026-01-20",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\Netflix Q1-Q4 2025 - Dragos manual baseline.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\netflix q4 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\Netflix-Inc-_Earnings-Call_2026-01-20_English-relocated-from-Q2-folder.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174141Z",
+    "timestamp": "2026-07-30T17:43:10Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\Netflix Q1-Q4 2025 - Dragos manual baseline.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\Netflix Q1-Q4 2025 - Dragos manual baseline.pdf",
+        "page_count": 14,
+        "extracted_characters": 26568,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\netflix q4 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 7746,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q4\\Netflix-Inc-_Earnings-Call_2026-01-20_English-relocated-from-Q2-folder.pdf",
+        "page_count": 15,
+        "extracted_characters": 46974,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ4_2025.txt"
+  }
+}

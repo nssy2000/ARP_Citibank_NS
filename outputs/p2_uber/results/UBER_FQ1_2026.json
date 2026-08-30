@@ -1,0 +1,211 @@
+{
+  "document_id": "UBER_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: Gross Bookings grew 21% YoY, Non-GAAP EPS grew 44% YoY, and management explicitly raised confidence in US Mobility acceleration for 2026 ('we feel even more confident today than we did in December or January'). While formal guidance for Q2 2026 was not raised above the prior quarter's trajectory, the combination of a clear inflection in insurance cost savings, accelerating trip growth in key markets, and confident forward language on AV and Delivery expansion justifies a score above 0.0 but below the threshold for a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$13.2 billion, up 14% YoY (10% on a constant currency basis).",
+    "eps": "GAAP Diluted EPS of $0.13; Non-GAAP EPS of $0.72, up 44% YoY.",
+    "guidance": "Q2 2026 Gross Bookings of $56.25B to $57.75B (18-22% YoY constant currency growth); Non-GAAP EPS of $0.78 to $0.82 (31-38% YoY growth); Adjusted EBITDA of $2.70B to $2.80B.",
+    "margin": "Adjusted EBITDA margin as a percentage of Gross Bookings was 4.6%, up from 4.4% in Q1 2025. Non-GAAP Operating Income as a percentage of Gross Bookings was 3.5%, up from 3.1% in Q1 2025.",
+    "key_risks": [
+      "GAAP Net income includes a $1.5 billion net headwind (pretax) from revaluations of Uber's equity investments.",
+      "Business model changes negatively impacted total revenue YoY growth by 9 percentage points.",
+      "Freight segment operating loss widened from $(25) million to $(30) million.",
+      "Competitive intensity from DoorDash and others in European Delivery markets."
+    ],
+    "key_opportunities": [
+      "Insurance cost savings expected to yield hundreds of millions of dollars in savings in 2026, driving US Mobility acceleration.",
+      "Uber One membership reached 50 million members, growing 50% YoY, with members spending 3x more.",
+      "AV Mobility trips grew more than 10x YoY; on track to be live in up to 15 cities by end of 2026.",
+      "Cross-platform consumers growing 1.5x faster than overall consumer growth; $15B run rate Delivery bookings from Mobility app.",
+      "Expansion into hotels via Expedia partnership, with 700,000 hotels available on Uber.",
+      "AI investments driving productivity; 10% of code now committed by autonomous agents."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'exceptional start to 2026,' 'strong execution,' 'we feel even more confident today than we did in December or January,' and 'we're very excited about the AV trends that we're seeing.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Gross Bookings grew 21% year-over-year on a constant currency basis.",
+      "quote": "Gross Bookings grew 25% YoY to $53.7 billion, and 21% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS grew 44% year-over-year.",
+      "quote": "Non-GAAP EPS grew 44% YoY to $0.72.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management raised confidence in US Mobility acceleration for 2026.",
+      "quote": "And we expect to see this translating to accelerating US business growth in 2026 as we've previously said, and we feel even more confident today than we did in December or January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Insurance cost savings are expected to yield hundreds of millions of dollars in savings in 2026.",
+      "quote": "And as we said at the end of last year, we expect to see hundreds of millions of dollars of savings in our insurance line this year thanks to the great work our policy teams have done, as well as the tech improvements we have implemented in the market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uber One membership reached 50 million members, growing 50% YoY.",
+      "quote": "We've now surpassed 50 million Uber One members... It's 50 million members. It accounts for over 50% of our bookings now and growing 50% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AV Mobility trips grew more than 10x year-over-year.",
+      "quote": "AV Mobility trips grew more than 10x year-on-year, and we remain on track to be live in up to 15 cities by the end of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 guidance: Gross Bookings $56.25B to $57.75B, Non-GAAP EPS $0.78 to $0.82.",
+      "quote": "For Q2 2026, we anticipate: Gross Bookings of $56.25 billion to $57.75 billion... Non-GAAP EPS of $0.78 to $0.82, representing growth of 31% to 38% YoY.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin improved to 4.6% from 4.4%.",
+      "quote": "Adjusted EBITDA grew 33% YoY to $2.5 billion. Adjusted EBITDA margin as a percentage of Gross Bookings was 4.6%, up from 4.4% in Q1 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP Net income includes a $1.5 billion net headwind from revaluations of equity investments.",
+      "quote": "GAAP Net income attributable to Uber Technologies, Inc. was $263 million, which includes a $1.5 billion net headwind (pretax) from revaluations of Uber's equity investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business model changes negatively impacted revenue growth by 9 percentage points.",
+      "quote": "Business model changes negatively impacted total revenue YoY growth by 9 percentage points, or 8 percentage points on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Freight segment operating loss widened.",
+      "quote": "Freight (25) (30) (20)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive intensity in European Delivery markets.",
+      "quote": "In international markets, we are very much on an offensive footing. So if you think about Europe, where we are seeing an incremental level of competitive intensity from both DoorDash and [indiscernible] as they have expanded into the market, we've held our own quite well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cross-platform consumers growing 1.5x faster than overall consumer growth.",
+      "quote": "The growth of cross-platform consumers is growing 1.5 times faster than the overall growth of consumers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "$15B run rate Delivery bookings from Mobility app.",
+      "quote": "We are already seeing nearly $15 billion of run rate gross bookings for our delivery business coming from our Mobility app.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hotels partnership with Expedia offers 700,000 hotels.",
+      "quote": "So now we've got 700,000 hotels available on Uber as we speak.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI investments driving productivity; 10% of code committed by autonomous agents.",
+      "quote": "About 10% of our codes now is committed. That committed is built by agents, autonomous agents out there.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Uber had an exceptional start to 2026, driven by strong execution and a continued focus on product innovation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on strong operational momentum and confident forward language, but formal guidance was not raised above the prior quarter's trajectory. A reviewer may wish to assess whether the inflection in insurance savings and US Mobility acceleration is sufficient to justify a score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UBER_Bundled Earnings Report_2026-05-05",
+  "report_metadata": {
+    "issuer": "p2_uber",
+    "company": "Uber",
+    "ticker": "UBER",
+    "sector": "Technology/Transportation",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2026-Q1\\Uber-Q1-26-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2026-Q1\\Uber-Q1-26-Earnings-Press-Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UBER_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T175227Z",
+    "timestamp": "2026-07-30T17:53:48Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2026-Q1\\Uber-Q1-26-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2026-Q1\\Uber-Q1-26-Earnings-Call-Transcript.pdf",
+        "page_count": 14,
+        "extracted_characters": 55883,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2026-Q1\\Uber-Q1-26-Earnings-Press-Release.pdf",
+        "page_count": 12,
+        "extracted_characters": 32832,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ1_2026.txt"
+  }
+}

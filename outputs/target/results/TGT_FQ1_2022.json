@@ -1,0 +1,183 @@
+{
+  "document_id": "TGT_FQ1_2022",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: the company now expects full-year operating income margin rate centered around 6%, down from the prior expectation of 8% or higher. Management explicitly stated profitability 'came in well below our expectations' and that the operating margin rate of 5.3% was 'well below expectations.' This constitutes a clear guidance reduction, warranting a score of -0.50."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $25.2 billion grew 4.0% compared with last year, reflecting total sales growth of 4.0% and a 6.7% increase in other revenue.",
+    "eps": "First quarter GAAP EPS of $2.16, down 48.2% from $4.17 in 2021. First quarter Adjusted EPS of $2.19 decreased 40.7% compared with $3.69 in 2021.",
+    "guidance": "For second quarter 2022, the Company expects its operating income margin rate will be in a wide range centered around first quarter's operating margin rate of 5.3%. For full-year 2022, the Company continues to expect low- to mid-single digit revenue growth. The Company now expects its full-year operating income margin rate will be in a range centered around 6%.",
+    "margin": "First quarter operating income margin rate was 5.3% in 2022, compared with 9.8% in 2021. First quarter gross margin rate was 25.7%, compared with 30.0% in 2021.",
+    "key_risks": [
+      "Higher markdown rates driven by inventory impairments and actions to address lower-than-expected sales in discretionary categories",
+      "Higher freight and transportation costs",
+      "Supply chain disruptions",
+      "Increased compensation and headcount in distribution centers"
+    ],
+    "key_opportunities": [
+      "Comparable sales growth of 3.3% on top of 22.9% growth last year",
+      "Traffic growth of 3.9%",
+      "Same-day services (Order Pickup, Drive Up and Shipt) grew 8% this year, led by Drive Up which grew in the mid-teens",
+      "More than 95% of first quarter sales were fulfilled by its stores"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management stated profitability 'came in well below our expectations' and that the operating margin rate of 5.3% was 'well below where we expect to operate over time,' indicating a cautious outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Forward guidance was reduced: full-year operating income margin rate now expected around 6%, down from prior expectation of 8% or higher.",
+      "quote": "The Company now expects its full-year operating income margin rate will be in a range centered around 6 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management stated profitability came in well below expectations.",
+      "quote": "Throughout the quarter, we faced unexpectedly high costs, driven by a number of factors, resulting in profitability that came in well below our expectations, and well below where we expect to operate over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter GAAP EPS was $2.16, down 48.2% from $4.17 in 2021.",
+      "quote": "The Company reported first quarter GAAP earnings per share (EPS) of $2.16, down 48.2 percent from $4.17 in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter Adjusted EPS was $2.19, down 40.7% from $3.69 in 2021.",
+      "quote": "First quarter Adjusted EPS of $2.19 decreased 40.7 percent compared with $3.69 in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenue was $25.2 billion, up 4.0%.",
+      "quote": "Total revenue of $25.2 billion grew 4.0 percent compared with last year, reflecting total sales growth of 4.0 percent and a 6.7 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter operating income margin rate was 5.3%, down from 9.8% in 2021.",
+      "quote": "First quarter operating income margin rate was 5.3 percent in 2022, compared with 9.8 percent in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter gross margin rate was 25.7%, down from 30.0% in 2021.",
+      "quote": "First quarter gross margin rate was 25.7 percent, compared with 30.0 percent in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales grew 3.3%.",
+      "quote": "Comparable sales grew 3.3 percent in the first quarter, reflecting comparable store sales growth of 3.4 percent and comparable digital sales growth of 3.2 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Traffic grew 3.9%.",
+      "quote": "Comparable sales growth reflected traffic growth of 3.9 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day services grew 8%, led by Drive Up which grew in the mid-teens.",
+      "quote": "Same-day services (Order Pickup, Drive Up and Shipt) grew 8 percent this year, led by Drive Up, which grew in the mid-teens on top of more than 120 percent last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "More than 95% of first quarter sales were fulfilled by its stores.",
+      "quote": "More than 95 percent of Target's first quarter sales were fulfilled by its stores.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "Throughout the quarter, we faced unexpectedly high costs, driven by a number of factors, resulting in profitability that came in well below our expectations, and well below where we expect to operate over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include higher markdown rates, freight costs, supply chain disruptions, and increased compensation.",
+      "quote": "This year's gross margin rate reflected higher markdown rates, driven largely by inventory impairments and actions taken to address lower-than-expected sales in discretionary categories, as well as costs related to freight, supply chain disruptions, and increased compensation and headcount in our distribution centers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter 2022 operating income margin rate expected to be centered around 5.3%.",
+      "quote": "For second quarter 2022, the Company expects its operating income margin rate will be in a wide range centered around first quarter's operating margin rate of 5.3 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2022 revenue growth expected to be low- to mid-single digit.",
+      "quote": "For full-year 2022, the Company continues to expect low- to mid-single digit revenue growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance reduction is clear, but the score of -0.50 is based on the magnitude of the cut. A human reviewer should confirm that the guidance change is indeed a reduction from prior expectations, as the document does not explicitly state the prior guidance figure for operating margin rate, only that the long-term algorithm anticipates 8% or higher."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2022-05-18",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2022",
+    "report_date": "2022-05-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q1\\tgt-1q22-press-release.html",
+        "pub_date": "2022-05-18"
+      }
+    ],
+    "document_id": "TGT_FQ1_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:52:05Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q1\\tgt-1q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q1\\tgt-1q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 19589,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2022.txt"
+  }
+}

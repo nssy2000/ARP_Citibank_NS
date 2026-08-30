@@ -1,0 +1,13 @@
+issuer,document_id,ticker,report_date,micro_score,macro_score,news_score,forward_return,window_trading_days,outcome_label,predicted_signal_default,correct_default,predicted_signal_tuned,correct_tuned,tuned_hold_upper,blend_predicted_signal_default,blend_correct_default,blend_predicted_signal_tuned,blend_correct_tuned,blend_tuned_weights
+boeing,BA_FQ1_2025,BA,2025-04-23,0.1,-0.3,0.1,0.076521,10,BUY,HOLD,False,HOLD,False,0.3,HOLD,False,HOLD,False,"(0.0, 0.2, 0.8)"
+boeing,BA_FQ2_2025,BA,2025-07-29,0.3,0.1,0.3,0.028884,10,HOLD,BUY,False,HOLD,True,0.3,BUY,False,BUY,False,"(0.2, 0.0, 0.8)"
+boeing,BA_FQ3_2025,BA,2025-10-29,-0.5,0.3,-0.3,-0.084652,10,SELL,SELL,True,SELL,True,0.3,SELL,True,SELL,True,"(0.2, 0.0, 0.8)"
+boeing,BA_FQ4_2025,BA,2026-01-27,0.3,0.2,0.5,-0.008055,10,HOLD,BUY,False,HOLD,True,0.3,BUY,False,BUY,False,"(0.2, 0.0, 0.8)"
+jpm,JPM_FQ1_2025,JPM,2025-04-11,-0.3,-0.3,0.0,0.029721,10,HOLD,SELL,False,HOLD,True,0.3,SELL,False,HOLD,True,"(0.2, 0.0, 0.8)"
+jpm,JPM_FQ2_2025,JPM,2025-07-15,0.1,0.1,0.0,0.036608,10,BUY,HOLD,False,HOLD,False,0.3,HOLD,False,HOLD,False,"(0.2, 0.0, 0.8)"
+jpm,JPM_FQ3_2025,JPM,2025-10-14,0.1,0.3,0.0,0.010858,10,HOLD,HOLD,True,HOLD,True,0.3,HOLD,True,HOLD,True,"(0.2, 0.0, 0.8)"
+jpm,JPM_FQ4_2025,JPM,2026-01-13,0.1,0.2,0.1,-0.032583,10,SELL,HOLD,False,HOLD,False,0.3,HOLD,False,BUY,False,"(0.2, 0.0, 0.8)"
+netflix,NFLX_FQ1_2026,NFLX,2026-04-16,0.1,0.2,-0.3,-0.131552,10,SELL,HOLD,False,HOLD,False,0.3,HOLD,False,SELL,True,"(0.2, 0.0, 0.8)"
+netflix,NFLX_FQ2_2025,NFLX,2025-07-17,0.55,0.1,0.5,-0.090074,10,SELL,BUY,False,BUY,False,0.3,BUY,False,BUY,False,"(0.2, 0.0, 0.8)"
+netflix,NFLX_FQ3_2025,NFLX,2025-10-21,0.1,0.3,-0.3,-0.119539,10,SELL,HOLD,False,HOLD,False,0.3,HOLD,False,SELL,True,"(0.2, 0.0, 0.8)"
+netflix,NFLX_FQ4_2025,NFLX,2026-01-20,0.35,0.2,-0.3,-0.083887,10,SELL,BUY,False,BUY,False,0.3,BUY,False,SELL,True,"(0.2, 0.0, 0.8)"

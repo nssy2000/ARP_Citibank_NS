@@ -1,0 +1,198 @@
+{
+  "document_id": "BAC_FQ3_2021",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows strong operational momentum: net income rose 58% YoY to $7.7B, revenue increased 12%, and the provision for credit losses improved to a benefit of $624M, reflecting a $1.1B reserve release. However, the document does not contain explicit forward guidance (revenue/earnings outlook) beyond general statements about the economy improving and loan balances increasing. The positive trajectory in loan growth (excluding PPP, loans grew $21B QoQ) and confident management language (\"well positioned to support our clients\") support a modestly positive score, but the lack of a formal guidance raise prevents a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$22.8 billion, up 12% from $20.3 billion in Q3 2020.",
+    "eps": "$0.85 per diluted share, up from $0.51 in Q3 2020.",
+    "guidance": "Not disclosed. The document contains no explicit forward revenue or earnings guidance. Management states the company is 'well positioned to support our clients, serve our communities and deliver for our shareholders.'",
+    "margin": "Net interest yield (FTE) was 1.68%, up 7 bps from Q2 2021. Efficiency ratio was 63%, improved from 71% in Q3 2020. Pretax margin for GWIM was 31%.",
+    "key_risks": [
+      "The document includes a lengthy forward-looking statements section listing numerous risks, including: the impact of the COVID-19 pandemic, U.S. and global interest rates, inflation, economic conditions, trade policies, geopolitical instability, future credit losses, regulatory changes, cyber-attacks, and climate change."
+    ],
+    "key_opportunities": [
+      "Strong deposit growth: average deposits up $247B, or 15%, to $1.9T.",
+      "Loan balances increased for the second consecutive quarter; excluding PPP, loans grew $21B QoQ.",
+      "Record consumer checking accounts (34.2 million) and strong client flows in Consumer Investment assets ($21B since Q3-20).",
+      "Record client balances in GWIM ($3.7T, up 20%).",
+      "Near-record investment banking fees ($2.2B, up 23%).",
+      "Equities sales and trading revenue up 33% (excl. DVA).",
+      "Asset quality improvements leading to reserve release."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'We reported strong results as the economy continued to improve and our businesses regained the organic customer growth momentum we saw before the pandemic.' CFO Paul Donofrio said 'we are well positioned to support our clients, serve our communities and deliver for our shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $22.8 billion, up 12% from Q3 2020.",
+      "quote": "Total revenue, net of interest expense $22.8 ... $20.3 ... Revenue, net of interest expense, increased 12% to $22.8 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $0.85 per diluted share, up from $0.51 in Q3 2020.",
+      "quote": "Net income of $7.7 Billion, EPS of $0.85 ... Diluted earnings per share $0.85 ... $0.51",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income rose 58% to $7.7 billion.",
+      "quote": "Net income rose 58% to $7.7 billion, or $0.85 per diluted share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses improved to a benefit of $624 million, including a $1.1 billion reserve release.",
+      "quote": "Provision for credit losses improved by $2.0 billion to a benefit of $624 million, reflecting a reserve release of $1.1 billion driven primarily by asset quality improvements during the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average deposits increased $247 billion, or 15%, to $1.9 trillion.",
+      "quote": "Average deposits up $247 billion, or 15%, to $1.9 trillion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loan balances increased for the second consecutive quarter; excluding PPP, loans grew $21 billion QoQ.",
+      "quote": "Average loan and lease balances in business segments increased $14 billion QoQ to $903 billion; excluding PPP, loan balances grew $21 billion QoQ",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record consumer checking accounts: 34.2 million.",
+      "quote": "Record consumer checking accounts: 34.2 million; 93% primary",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer investment assets up $87 billion, or 32%, to a record $353 billion.",
+      "quote": "Consumer investment assets up $87 billion, or 32%, to a record $353 billion, driven by market valuations and strong client flows of $21 billion since Q3-20",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record client balances in GWIM of $3.7 trillion, up 20%.",
+      "quote": "Record client balances of $3.7 trillion, up $626 billion, or 20%, driven by higher market valuations and $91 billion in client flows since Q3-20",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total investment banking fees increased 23% to near-record levels of $2.2 billion.",
+      "quote": "Total investment banking fees (excl. self-led) increased 23% to near-record levels of $2.2 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equities sales and trading revenue (excl. DVA) increased 33%.",
+      "quote": "Equities revenue increased 33% to $1.6 billion, driven by growth in client financing activities, a stronger trading performance and increased client activity",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 1.68%, up 7 bps from Q2 2021.",
+      "quote": "Net interest yield of 1.68% increased 7 bps from 2Q21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved to 63% from 71% in Q3 2020.",
+      "quote": "Efficiency ratio 63 ... 71",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Brian Moynihan: 'We reported strong results as the economy continued to improve and our businesses regained the organic customer growth momentum we saw before the pandemic.' CFO Paul Donofrio: 'we are well positioned to support our clients, serve our communities and deliver for our shareholders.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The document contains no explicit forward revenue or earnings guidance.",
+      "quote": "The document contains no explicit forward revenue or earnings guidance. Management states the company is 'well positioned to support our clients, serve our communities and deliver for our shareholders.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "guidance",
+      "reason": "The document does not contain explicit forward revenue or earnings guidance. The sentiment score is based on operational momentum and confident language, not a formal guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2021-10-14",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2021",
+    "report_date": "2021-10-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q3\\bac-3q21-press-release.html",
+        "pub_date": "2021-10-14"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q3\\bac-3q21-presentation.html",
+        "pub_date": "2021-10-14"
+      }
+    ],
+    "document_id": "BAC_FQ3_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144506Z",
+    "timestamp": "2026-07-09T14:46:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q3\\bac-3q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q3\\bac-3q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 60139,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q3\\bac-3q21-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 61673,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2021.txt"
+  }
+}

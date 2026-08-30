@@ -1,0 +1,196 @@
+{
+  "document_id": "BA_FQ3_2023",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was effectively reduced: 737 delivery guidance was lowered from 400-450 to 375-400, and free cash flow guidance, while reaffirmed at $3-5 billion, was noted to now point more toward the low end. Additionally, BDS performance was worse than expected with new charges, and management acknowledged that BDS recovery is 'slower than we'd like.' These negative forward revisions and cautious language outweigh the reaffirmation of the long-term $10 billion FCF target."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$18.1 billion, up 13% year-over-year (from $15.956 billion).",
+    "eps": "GAAP loss per share of ($2.70); core loss per share (non-GAAP) of ($3.26).",
+    "guidance": "Reaffirmed 2023 free cash flow guidance of $3-5 billion, but noted it now points more toward the low end. 737 deliveries now expected to be 375-400 (down from 400-450). 787 deliveries still expected to be 70-80. Long-term target of $10 billion free cash flow by 2025-2026 reaffirmed.",
+    "margin": "GAAP operating margin of (4.5)%; core operating margin (non-GAAP) of (6.0)%.",
+    "key_risks": [
+      "Lower 737 deliveries due to supplier non-conformance on aft pressure bulkhead.",
+      "Unfavorable defense performance, including $482 million loss on VC-25B and $315 million loss on a satellite contract.",
+      "BDS recovery slower than expected; margins still negative.",
+      "Supply chain constraints and labor instability.",
+      "Potential impact of a U.S. government shutdown.",
+      "Risks related to fixed-price development contracts."
+    ],
+    "key_opportunities": [
+      "Strong commercial demand: 398 net orders in the quarter, including 150 MAX 10s for Ryanair, 50 787s for United, and 39 787s for Saudi Arabian Airlines.",
+      "Total company backlog of $469 billion, including over 5,100 commercial airplanes.",
+      "Planned production rate increases: 737 to 38/month by year-end, 787 to 5/month transitioning, with longer-term targets of 50/month and 10/month respectively by 2025-2026.",
+      "Global Services strong performance with 16.3% operating margin.",
+      "Progress on inventory unwind: expect most 737 and 787 inventory to be delivered by end of 2024."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in long-term targets ('we remain on track to meet the financial goals we set for this year and for the long term') but also acknowledges near-term challenges and slower-than-expected recovery in defense ('Recovery in BDS is slower than we'd like, slower than I'd like')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $18.1 billion, up 13% year-over-year.",
+      "quote": "Third quarter revenue was $18.1 billion. That's up 13% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($2.70); core loss per share was ($3.26).",
+      "quote": "GAAP loss per share of ($2.70) and core loss per share (non-GAAP)* of ($3.26)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guidance was reaffirmed at $3-5 billion but now points more toward the low end.",
+      "quote": "The overall financial outlook for 2023 is unchanged from what we've previously shared including $3 billion to $5 billion of free cash flow generation although the updated 737 deliveries now point more toward the low end of the free cash flow range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 delivery guidance was lowered from 400-450 to 375-400.",
+      "quote": "we now expect 737 deliveries for the year to be in this 375 to 400 range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (4.5)%; core operating margin was (6.0)%.",
+      "quote": "Operating margins (4.5) % (17.5) % NM ... Core operating margins (6.0) % (19.2) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS recovery is slower than expected.",
+      "quote": "Recovery in BDS is slower than we'd like, slower than I'd like, but we're confident in the future and our path to normalizing BDS margin performance by that 2025 and 2026 timeframe is intact.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS results were impacted by a $482 million loss on VC-25B and a $315 million loss on a satellite contract.",
+      "quote": "Third quarter operating margin was (16.9) percent, due to a $482 million loss on the VC-25B program driven by higher estimated manufacturing cost related to engineering changes and labor instability, as well as resolution of supplier negotiations. Results were also impacted by $315 million of losses on a satellite contract due to estimated customer considerations and increased costs to enhance the constellation and meet lifecycle commitments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial demand is strong with 398 net orders in the quarter.",
+      "quote": "During the quarter, Commercial Airplanes booked 398 net orders, including 150 737 MAX 10 airplanes for Ryanair, 50 787 airplanes for United Airlines, and 39 787 airplanes for Saudi Arabian Airlines.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog is $469 billion.",
+      "quote": "Total company backlog at quarter end was $469 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident about long-term but cautious on near-term challenges.",
+      "quote": "We continue to progress in our recovery and despite near-term challenges, we remain on track to meet the financial goals we set for this year and for the long term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 16.3%.",
+      "quote": "Global Services third quarter revenue of $4.8 billion and operating margin of 16.3 percent reflect higher commercial volume and mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 737 production transition to 38 per month is expected by year-end.",
+      "quote": "We expect to complete the 737 transition to 38 per month by year-end, and we're maintaining plans to increase to 50 per month in the 2025-2026 timeframe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is driven by the lowered 737 delivery guidance and worse-than-expected BDS performance, but the reaffirmation of long-term $10 billion FCF target and strong commercial demand could be seen as offsetting factors. A reviewer may want to assess whether the negative signals are strong enough to warrant a SELL signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2023-10-25",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-10-25",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q3\\ba-3q23-press-release.html",
+        "pub_date": "2023-10-25"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q3\\ba-3q23-presentation.pdf",
+        "pub_date": "2023-10-25"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q3\\ba-3q23-transcript.pdf",
+        "pub_date": "2023-10-25"
+      }
+    ],
+    "document_id": "BA_FQ3_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:36:05Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q3\\ba-3q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q3\\ba-3q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 26637,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q3\\ba-3q23-presentation.pdf",
+        "page_count": 12,
+        "extracted_characters": 7406,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q3\\ba-3q23-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 77814,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ3_2023.txt"
+  }
+}

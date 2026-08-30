@@ -1,0 +1,197 @@
+{
+  "document_id": "WDAY_FQ1_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The company delivered a solid quarter with subscription revenue growth of 13% and non-GAAP operating margin of 30.2%, but full-year subscription revenue guidance was reiterated at $8.8 billion, not raised. However, the company increased its full-year non-GAAP operating margin guidance to approximately 28.5%, and management expressed confidence in the business despite macro uncertainty. The margin guidance raise and strong operational metrics (e.g., AI ACV more than doubled, cRPO up 15.6%) support a modestly positive forward outlook, but the lack of a revenue guidance raise and explicit caution about certain markets temper the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $2.240 billion, up 12.6% year over year. Subscription revenues were $2.059 billion, up 13.4% year over year.",
+    "eps": "Diluted net income per share was $0.25, compared to $0.40 in the prior year. Non-GAAP diluted EPS was $2.23, up from $1.74.",
+    "guidance": "Q2 FY26 subscription revenue guidance of $2.160 billion (13.5% growth). Full-year FY26 subscription revenue guidance reiterated at $8.800 billion (14.0% growth). Full-year non-GAAP operating margin guidance raised to approximately 28.5%.",
+    "margin": "GAAP operating margin was 1.8% of revenues, down from 3.2% in the prior year, impacted by restructuring. Non-GAAP operating margin was 30.2%, up from 25.9%.",
+    "key_risks": [
+      "Continuing global economic and geopolitical volatility could impact business.",
+      "Uncertain environment, particularly in SLED and international markets.",
+      "Restructuring expenses of $166 million impacted GAAP results.",
+      "Potential delays or reductions in information technology spending."
+    ],
+    "key_opportunities": [
+      "AI products: new ACV across AI products more than doubled year over year.",
+      "Five industries now exceed $1 billion in annual recurring revenue.",
+      "WorkdayGO for emerging and medium enterprise market.",
+      "International expansion, including AWS U.K. public cloud and new EMEA headquarters.",
+      "Partner ecosystem contributing to pipeline growth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO stated 'Workday delivered another solid quarter, a testament to the durability of our business' and CFO said 'we remain focused on executing in this uncertain environment,' reflecting confidence despite acknowledged headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues were $2.240 billion, up 12.6% year over year.",
+      "quote": "Total revenues were $2.240 billion, an increase of 12.6% from the first quarter of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Subscription revenues were $2.059 billion, up 13.4% year over year.",
+      "quote": "Subscription revenues were $2.059 billion, an increase of 13.4% from the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted net income per share was $0.25, compared to $0.40 in the prior year.",
+      "quote": "Diluted net income per share was $0.25, compared to diluted net income per share of $0.40 in the first quarter of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP diluted EPS was $2.23, up from $1.74.",
+      "quote": "Non-GAAP diluted net income per share was $2.23, compared to non-GAAP diluted net income per share of $1.74 in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year subscription revenue guidance was reiterated at $8.8 billion.",
+      "quote": "We remain focused on executing in this uncertain environment and are reiterating our fiscal 2026 subscription revenue guidance of $8.8 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year non-GAAP operating margin guidance was raised to approximately 28.5%.",
+      "quote": "We are reiterating our fiscal 2026 subscription revenue guidance of $8.8 billion while increasing our fiscal 2026 non-GAAP operating margin guidance to approximately 28.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was 1.8% of revenues, down from 3.2% in the prior year.",
+      "quote": "Operating income was $39 million, or 1.8% of revenues, compared to an operating income of $64 million, or 3.2% of revenues, in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin was 30.2%, up from 25.9%.",
+      "quote": "Non-GAAP operating income for the first quarter was $677 million, or 30.2% of revenues, compared to a non-GAAP operating income of $515 million, or 25.9% of revenues, in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI product ACV more than doubled year over year.",
+      "quote": "Our AI innovation continues to gain traction—new ACV across our AI products more than doubled year over year in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Five industries now exceed $1 billion in annual recurring revenue.",
+      "quote": "I’m excited to share that we now have five industries exceeding $1 billion in annual recurring revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the business.",
+      "quote": "Workday delivered another solid quarter, a testament to the durability of our business and the relevance of our platform as CEOs increasingly turn to us to drive efficiency, agility, and growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledged macro uncertainty in certain markets.",
+      "quote": "While there is heightened macro uncertainty - particularly across certain markets and verticals - we haven't seen this meaningfully impact our business and our growth prospects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restructuring expenses impacted GAAP results.",
+      "quote": "Operating income in the first quarter of fiscal 2026 was impacted by restructuring expenses of $166 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International expansion is a growth opportunity.",
+      "quote": "We also announced a new location for our EMEA headquarters in Dublin, which will bring our local workforce of more than 2,000 employees together.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Partner ecosystem is a growth driver.",
+      "quote": "Partners continue to be a critical driver of our success – extending the power of our platform, fueling pipeline growth, and bringing new innovations to our customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.20 is based on margin guidance raise and operational momentum, but revenue guidance was only reiterated; consider whether the lack of revenue guidance raise should cap the score lower."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "WDAY_Bundled Earnings Report_2025-05-22",
+  "report_metadata": {
+    "issuer": "p2_workday",
+    "company": "Workday",
+    "ticker": "WDAY",
+    "sector": "Technology/Software - Application",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-22",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q1\\Earnings_Presentation_Q1_2025.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "WDAY_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T104202Z",
+    "timestamp": "2026-08-09T10:42:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_workday\\extracted\\WDAY_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 27068,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q1\\Earnings_Presentation_Q1_2025.pdf",
+        "page_count": 9,
+        "extracted_characters": 18560,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_workday\\extracted\\WDAY_FQ1_2025.txt"
+  }
+}

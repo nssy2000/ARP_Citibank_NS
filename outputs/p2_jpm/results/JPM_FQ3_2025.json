@@ -1,0 +1,196 @@
+{
+  "document_id": "JPM_FQ3_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong quarter with revenue up 9% YoY and EPS of $5.07, but the forward guidance is mixed. NII ex. Markets guidance for Q4 2025 is provided at ~$23.5B, and a preliminary 2026 NII ex. Markets central case of ~$95B is given, which is a new forward-looking number. However, management explicitly notes that the 2026 expense consensus of ~$100B 'does look a little bit low,' implying upward expense pressure. Additionally, management flags risks in the NBFI lending space and a potentially softening labor market, which tempers the positive. The overall tone is confident but with notable caution, resulting in a mildly positive score just above neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$47.1 billion, up 9% year-on-year, predominantly driven by higher Markets revenue, as well as higher fees across Asset Management, Investment Banking and Payments.",
+    "eps": "$5.07, with net income of $14.4 billion and ROTCE of 20%.",
+    "guidance": "Q4 2025 NII ex. Markets expected to be approximately $23.5 billion and total NII about $25 billion. Q4 2025 adjusted expense approximately $24.5 billion, implying $95.9 billion for the full year. 2026 NII ex. Markets central case is about $95 billion (preliminary). 2025 Card net charge-off rate expected to be approximately 3.3%. 2026 expense consensus of ~$100 billion 'does look a little bit low.' Formal 2026 outlook to be provided at Q4 earnings.",
+    "margin": "Not disclosed.",
+    "key_risks": [
+      "Potentially softening labor market.",
+      "Wholesale charge-offs slightly elevated due to apparent fraud in certain secured lending facilities (e.g., Tricolor contributing $170 million).",
+      "Higher than expected credit losses in certain NBFI categories during a downturn, as noted by Jamie Dimon.",
+      "Expense growth pressure from labor inflation, medical costs, and competitive compensation.",
+      "Uncertainty around the macro environment and potential labor market deterioration."
+    ],
+    "key_opportunities": [
+      "Strong revenue growth across Markets, Investment Banking, and Asset Management.",
+      "Robust IB pipeline and upbeat client sentiment.",
+      "Record net inflows in Asset & Wealth Management ($72 billion long-term net inflows).",
+      "Sapphire refresh driving best year ever for new account acquisitions.",
+      "Potential for regulatory relief and improved capital rules (Basel III Endgame).",
+      "AI-driven productivity tailwinds expected to help constrain expense growth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses confidence in the business momentum ('the outlook, along with the market backdrop and client sentiment, continues to be upbeat') while also acknowledging risks and uncertainties, resulting in a confident but measured tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $47.1 billion, up 9% year-on-year.",
+      "quote": "Revenue of $47.1 billion was up 9% year-on-year, predominantly driven by higher Markets revenue, as well as higher fees across Asset Management, Investment Banking and Payments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $5.07, with net income of $14.4 billion and ROTCE of 20%.",
+      "quote": "the Firm reported net income of $14.4 billion and EPS of $5.07, with an ROTCE of 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 NII ex. Markets guidance is approximately $23.5 billion.",
+      "quote": "We expect fourth quarter NII ex. Markets to be approximately $23.5 billion and fourth quarter total NII to be about $25 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 NII ex. Markets central case is about $95 billion (preliminary).",
+      "quote": "we're providing the central case for NII ex. Markets in 2026, which is about $95 billion. Note that this is a preliminary view, subject to the usual caveats, as well as the fact that we have not finished the annual budget cycle yet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 expense consensus of ~$100 billion 'does look a little bit low.'",
+      "quote": "when we look at the fourth quarter and adjust for seasonality and expected labor inflation, as well as adding some growth, the consensus of about $100 billion does look a little bit low.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 Card net charge-off rate expected to be approximately 3.3%.",
+      "quote": "we now expect the 2025 Card net charge-off rate to be approximately 3.3% on favorable delinquency trends, driven by the continued resilience of the consumer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potentially softening labor market is a risk.",
+      "quote": "While we are closely watching the potentially softening labor market, our credit metrics, including early-stage delinquencies, remain stable and slightly better than expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wholesale charge-offs slightly elevated due to apparent fraud (Tricolor $170 million).",
+      "quote": "wholesale charge-offs were slightly elevated as a result of a couple of instances of apparent fraud in certain secured lending facilities. ... that's contributing $170 million of charge-offs in the quarter, which we call out on the wholesale side.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Jamie Dimon expects higher than normal credit losses in certain NBFI categories during a downturn.",
+      "quote": "I suspect when there's a downturn, you will see higher than normal downturn type of credit losses in certain categories. I just suspect that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense growth pressure from labor inflation, medical costs, and competitive compensation.",
+      "quote": "Medical, we spend $3 billion or so in medical. That's going to be up 10% next year. ... there's normal inflation and pay for performance ... there's a lot of pressure from other people who are paying people quite well ... we are going to pay our people competitively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong revenue growth across Markets, Investment Banking, and Asset Management.",
+      "quote": "Revenue of $19.9 billion was up 17% year-on-year, driven by higher revenues across Markets, Payments, Investment Banking and Securities Services. ... IB fees were up 16% year-on-year ... Fixed Income was up 21% year-on-year ... Equities was up 33% ... Record revenue of $6.1 billion was up 12% year-on-year [in AWM].",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robust IB pipeline and upbeat client sentiment.",
+      "quote": "Our pipeline remains robust and the outlook, along with the market backdrop and client sentiment, continues to be upbeat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record net inflows in Asset & Wealth Management ($72 billion long-term net inflows).",
+      "quote": "Long-term net inflows were $72 billion for the quarter, led by Fixed Income and Equities. AUM of $4.6 trillion was up 18% year-on-year and client assets of $6.8 trillion were up 20% year-on-year, driven by continued net inflows and higher market levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sapphire refresh driving best year ever for new account acquisitions.",
+      "quote": "this has already been the best year ever for new account acquisitions for our Sapphire portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for regulatory relief and improved capital rules (Basel III Endgame).",
+      "quote": "from what we're hearing, that's very much the direction of travel. The relevant agencies are working well together. There's a sense of urgency. And so, we're encouraged.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-driven productivity tailwinds expected to help constrain expense growth.",
+      "quote": "we know that even if we can't always measure it that precisely, there are definitely productivity tailwinds from AI. ... we're going to push hard on all fronts to extract as much productivity out of the organization as possible.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our pipeline remains robust and the outlook, along with the market backdrop and client sentiment, continues to be upbeat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of the BUY threshold (0.15). The guidance is mixed: a preliminary 2026 NII number is provided, but expense guidance is flagged as potentially low, and management highlights several risks. A human reviewer should confirm whether the positive forward NII guidance outweighs the expense and risk concerns."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-10-14",
+  "report_metadata": {
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q3\\jpm-3q25-earnings-call-transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JPM_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213919Z",
+    "timestamp": "2026-07-18T21:40:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q3\\jpm-3q25-earnings-call-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2025-Q3\\jpm-3q25-earnings-call-transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 83982,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ3_2025.txt"
+  }
+}

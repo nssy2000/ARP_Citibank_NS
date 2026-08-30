@@ -1,0 +1,58 @@
+{
+  "document_id": "AAPL_FQ3_2025_QUANT",
+  "base_document_id": "AAPL_FQ3_2025",
+  "issuer": "p2_apple",
+  "ticker": "AAPL",
+  "sector": "Technology",
+  "report_date": "2025-07-31",
+  "sentiment": {
+    "score": 0.243711
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.018911,
+      "window_start_date": "2025-06-30",
+      "window_end_date": "2025-07-30",
+      "score": 0.12541,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.144831,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 9.48,
+      "matched_earnings_date": "2025-07-31",
+      "score": 0.362013,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.72,
+      "vix_score": 0.15084,
+      "tnx_change": 0.109,
+      "tnx_score": -0.214611,
+      "score": -0.031886,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-07-30",
+      "curve_spread": 0.44,
+      "curve_score": 0.413644,
+      "curve_as_of": "2025-07-30",
+      "score": 0.206822,
+      "available": true
+    },
+    "quant_score": 0.243711,
+    "quant_score_with_macro": 0.105913,
+    "quant_score_with_fred": 0.225267,
+    "quant_score_with_macro_fred": 0.139549
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

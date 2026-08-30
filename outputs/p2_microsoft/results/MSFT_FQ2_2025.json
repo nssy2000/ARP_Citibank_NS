@@ -1,0 +1,272 @@
+{
+  "document_id": "MSFT_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: AI business annual revenue run rate surpassed $13 billion (up 175% YoY), Microsoft Cloud revenue exceeded $40 billion for the first time, and commercial bookings surged 75% in constant currency. However, forward guidance was not formally raised; the Q3 outlook for Azure is 31-32% growth, similar to Q2's 31%, and management flagged execution challenges in non-AI Azure services that will persist through H2. The score reflects genuine momentum (AI growth, Copilot adoption, record RPO) tempered by unchanged formal guidance and acknowledged headwinds."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$69.6 billion, up 12% year-over-year.",
+    "eps": "$3.23, an increase of 10% year-over-year.",
+    "guidance": "For Q3 FY25, expects total revenue growth of ~11-12% in Productivity and Business Processes, 19-20% in Intelligent Cloud, and $12.4-12.8 billion in More Personal Computing. Azure growth guided at 31-32% in constant currency. Full-year FY25 operating margins expected to be up slightly year-over-year. Capital expenditures in Q3 and Q4 expected to remain at similar levels as Q2 ($22.6 billion).",
+    "margin": "Company gross margin percentage increased slightly year-over-year to 69%. Operating margins increased 2 points year-over-year to 45%. Microsoft Cloud gross margin percentage was 70%, down 2 points year-over-year driven by scaling AI infrastructure.",
+    "key_risks": [
+      "Go-to-market execution challenges in non-AI Azure services, particularly with customers reached through scale motions, expected to impact H2.",
+      "AI capacity constraints expected to continue through Q3, with balance expected by end of FY25.",
+      "Foreign exchange headwinds: FX expected to decrease total revenue growth by 2 points in Q3.",
+      "Weakness in Talent Solutions (LinkedIn) due to continued weakness in the hiring market in key verticals.",
+      "Uncertainty around tariffs impacting Windows OEM and Devices revenue.",
+      "Impairment charge from Cruise investment ($2.3 billion other income/expense)."
+    ],
+    "key_opportunities": [
+      "AI business annual revenue run rate surpassed $13 billion, up 175% year-over-year.",
+      "Microsoft Cloud revenue surpassed $40 billion for the first time, up 21% year-over-year.",
+      "Commercial bookings increased 67% (75% in constant currency), significantly ahead of expectations driven by Azure commitments from OpenAI.",
+      "Commercial RPO increased to $298 billion, up 34% (36% in constant currency).",
+      "M365 Copilot adoption accelerating: customers who purchased in first quarter expanded seats by more than 10x over 18 months; daily users more than doubled quarter-over-quarter; usage intensity up 60% quarter-over-quarter.",
+      "Azure AI services grew 157% year-over-year, ahead of expectations.",
+      "OpenAI made new large Azure commitments.",
+      "GitHub Copilot: more than 1 million signups in first week post-launch.",
+      "Copilot Studio: over 160,000 organizations used it, creating over 400,000 custom agents in last three months (up over 2x quarter-over-quarter).",
+      "Game Pass set a new quarterly record for revenue; PC subscriber base grew over 30%.",
+      "LinkedIn Premium surpassed $2 billion in annual revenue for the first time.",
+      "Capital investments in long-lived assets expected to support monetization over next 15+ years."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'we are confident in our leadership position' and 'we continue to innovate across our tech stack to help our customers in this AI era,' while also acknowledging specific execution challenges and capacity constraints, indicating a balanced but fundamentally confident outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $69.6 billion, up 12% year-over-year.",
+      "quote": "This quarter, revenue was $69.6 billion, up 12%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $3.23, an increase of 10% year-over-year.",
+      "quote": "And earnings per share was $3.23, an increase of 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI business annual revenue run rate surpassed $13 billion, up 175% year-over-year.",
+      "quote": "And our AI business has now surpassed an annual revenue run rate of $13 billion, up 175% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Microsoft Cloud revenue surpassed $40 billion for the first time, up 21% year-over-year.",
+      "quote": "This quarter, we saw continued strength in Microsoft Cloud, which surpassed $40 billion in revenue for the first time, up 21% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial bookings increased 67% (75% in constant currency), significantly ahead of expectations.",
+      "quote": "Commercial bookings increased 67% and 75% in constant currency and were significantly ahead of expectations driven by Azure commitments from OpenAI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial RPO increased to $298 billion, up 34% (36% in constant currency).",
+      "quote": "Commercial remaining performance obligation increased to $298 billion, up 34% and 36% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Azure AI services grew 157% year-over-year, ahead of expectations.",
+      "quote": "Azure growth included 13 points from AI services, which grew 157% year over year and was ahead of expectations even as demand continued to be higher than our available capacity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Go-to-market execution challenges in non-AI Azure services, expected to impact H2.",
+      "quote": "Growth in our non-AI services was slightly lower than expected due to go-to-market execution challenges, particularly with our customers that we primarily reach through our scale motions, as we balance driving near-term non-AI consumption with AI growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI capacity constraints expected through Q3, balance expected by end of FY25.",
+      "quote": "And while we expect to be AI capacity constrained in Q3, by the end of FY25 we should be roughly in line with near-term demand given our significant capital investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX expected to decrease total revenue growth by 2 points in Q3.",
+      "quote": "With the strengthening of the US dollar since October, we now expect FX to decrease total revenue growth by two points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "M365 Copilot adoption: customers who purchased in first quarter expanded seats by more than 10x over 18 months.",
+      "quote": "When you look at customers who purchased Copilot during its first quarter of availability, they have expanded their seats collectively by more than 10X over the past 18 months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Daily Copilot users more than doubled quarter-over-quarter; usage intensity up 60% quarter-over-quarter.",
+      "quote": "And, overall, the number of people who use Copilot daily again more than doubled quarter-over-quarter. Employees are also engaging with Copilot more than ever. Usage intensity increased more than 60% quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OpenAI made new large Azure commitments.",
+      "quote": "As we shared last week, we are thrilled OpenAI has made new large Azure commitments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company gross margin percentage increased slightly year-over-year to 69%.",
+      "quote": "Company gross margin percentage increased slightly year-over-year to 69% primarily driven by sales mix shift to higher margin businesses as well as improvement in Gaming and Search, partially offset by the impact of scaling our AI infrastructure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margins increased 2 points year-over-year to 45%.",
+      "quote": "Operating expenses increased 5%, lower than expected, and operating margins increased 2 points year-over-year to 45%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Microsoft Cloud gross margin percentage was 70%, down 2 points year-over-year.",
+      "quote": "Microsoft Cloud gross margin percentage was 70%, in line with expectations, and decreased 2 points year-over-year driven by scaling our AI infrastructure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "In closing, we are committed to delivering real world AI solutions that help customers grow and improve their results. We are confident in our leadership position as we grow with our customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Weakness in Talent Solutions (LinkedIn) due to continued weakness in the hiring market.",
+      "quote": "In our Talent Solutions business, results were slightly below expectations driven by continued weakness in the hiring market in key verticals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Impairment charge from Cruise investment.",
+      "quote": "This quarter, other income and expense was negative $2.3 billion, lower than our October guidance due to the impairment charge from our Cruise investment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital expenditures in Q3 and Q4 expected to remain at similar levels as Q2.",
+      "quote": "We expect quarterly spend in Q3 and Q4 to remain at similar levels as our Q2 spend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY25 operating margins expected to be up slightly year-over-year.",
+      "quote": "we now expect FY25 operating margins to be up slightly year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Azure Q3 growth guided at 31-32% in constant currency.",
+      "quote": "In Azure, we expect Q3 revenue growth to be between 31% and 32% in constant currency driven by strong demand for our portfolio of services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Game Pass set a new quarterly record for revenue; PC subscriber base grew over 30%.",
+      "quote": "All-up, Game Pass set a new quarterly record for revenue and grew its PC subscriber base by over 30%, as we focus on driving fully-paid subscribers across endpoints.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "LinkedIn Premium surpassed $2 billion in annual revenue for the first time.",
+      "quote": "In subscriptions, LinkedIn Premium surpassed $2 billion in annual revenue for the first time this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Copilot Studio: over 160,000 organizations, over 400,000 custom agents created in last three months (up over 2x quarter-over-quarter).",
+      "quote": "More than 160,000 organizations have already used Copilot Studio, and they collectively created more than 400,000 custom agents in the last three months alone, up over 2X quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GitHub Copilot: more than 1 million signups in first week post-launch.",
+      "quote": "We have been delighted by the early response to GitHub Copilot in VS Code, with more than a million signups in just the first week post-launch.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on strong operational momentum and record RPO, but forward guidance was not formally raised. A reviewer may want to assess whether the execution challenges in non-AI Azure and capacity constraints warrant a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 26,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MSFT_Bundled Earnings Report_2025-01-29",
+  "report_metadata": {
+    "issuer": "p2_microsoft",
+    "company": "Microsoft",
+    "ticker": "MSFT",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-01-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q2\\cdn-dynmedia-1.microsoft.com (1).pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q2\\Microsoft-Q2-2025-Earnings-Call-Transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MSFT_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174033Z",
+    "timestamp": "2026-07-30T17:41:23Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q2\\cdn-dynmedia-1.microsoft.com (1).pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_microsoft\\extracted\\MSFT_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q2\\cdn-dynmedia-1.microsoft.com (1).pdf",
+        "page_count": 40,
+        "extracted_characters": 52020,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2025-Q2\\Microsoft-Q2-2025-Earnings-Call-Transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 61012,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_microsoft\\extracted\\MSFT_FQ2_2025.txt"
+  }
+}

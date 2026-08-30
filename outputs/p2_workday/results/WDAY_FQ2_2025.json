@@ -1,0 +1,271 @@
+{
+  "document_id": "WDAY_FQ2_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Workday raised its full-year fiscal 2026 subscription revenue guidance to $8.815 billion (14% growth) and increased its non-GAAP operating margin guidance to approximately 29%, both up from prior guidance, while also raising its operating cash flow outlook to $2.85 billion. The company beat earnings expectations (non-GAAP EPS of $2.21 vs. $2.11 expected) and reported strong operational metrics including 16.4% cRPO growth and 97% gross retention. Management expressed high confidence in momentum, citing AI adoption and strategic acquisitions, with no major risks disclosed beyond typical macro headwinds in SLED and international markets."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $2.348 billion, up 12.6% year-over-year. Subscription revenues were $2.169 billion, up 14.0% year-over-year.",
+    "eps": "GAAP diluted net income per share was $0.84, compared to $0.49 in the prior year. Non-GAAP diluted net income per share was $2.21, compared to $1.75 in the prior year. Reported EPS beat expectations of $2.11.",
+    "guidance": "Q3 FY26 subscription revenue guidance of $2.235 billion (14.1% growth), non-GAAP operating margin of 28.0%. Full-year FY26 subscription revenue guidance raised to $8.815 billion (14.2% growth), non-GAAP operating margin raised to approximately 29%. FY26 operating cash flow outlook raised to $2.85 billion, capital expenditures ~$200 million, free cash flow $2.65 billion (21% growth).",
+    "margin": "GAAP operating income was $248 million (10.6% of revenues) vs. $111 million (5.3%) prior year. Non-GAAP operating income was $680 million (29.0% of revenues) vs. $518 million (24.9%) prior year.",
+    "key_risks": [
+      "SLED business headwinds: state and local funding slowdown, higher ed losing federal funding, healthcare systems seeing pullback in funding.",
+      "International macro risks: tariffs, geopolitical situation, wars, but no blowback seen in Europe.",
+      "AI disruption concerns: market narrative that AI could negatively impact seat-based models, though management believes overblown.",
+      "Restructuring costs: Fiscal 2026 Restructuring Plan reduced workforce by ~7.5%, recorded $133 million in expenses and $34 million impairment.",
+      "Forward-looking risks: security breaches, service outages, privacy concerns, global economic volatility, competition, partner reliance, regulatory risks related to AI, acquisition integration risks."
+    ],
+    "key_opportunities": [
+      "AI adoption: >70% of core customers using Workday Illuminate, >75% of net-new deals include AI products, net-new ACV from AI products more than doubled year-over-year.",
+      "Strategic acquisitions: Paradox (candidate experience agent) and Flowise (low-code AI platform) to expand AI capabilities.",
+      "International expansion: strong momentum in EMEA (UK, Germany), APAC (Japan, Vietnam), and new entry into India with local data center.",
+      "Government sector: launched Workday Government subsidiary, strong engagement with federal agencies, DIA contract tracking well.",
+      "Partner ecosystem: >20% of net-new ACV sourced from partners, Workday Marketplace apps doubled since start of FY26.",
+      "Full-suite adoption: ~30% of net-new deals were full suite, rising to 50%+ in SLED and healthcare.",
+      "Medium/emerging enterprise: Workday Go launch driving traction."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Carl Eschenbach stated 'We're heading into the second half of the year with incredible momentum' and CFO Zane Rowe said 'We feel good about the second half,' reflecting strong confidence in the outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues were $2.348 billion, up 12.6% year-over-year.",
+      "quote": "Total revenues were $2.348 billion, an increase of 12.6% from the second quarter of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Subscription revenues were $2.169 billion, up 14.0% year-over-year.",
+      "quote": "Subscription revenues were $2.169 billion, an increase of 14.0% from the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS was $0.84, non-GAAP diluted EPS was $2.21.",
+      "quote": "Diluted net income per share was $0.84, compared to diluted net income per share of $0.49 in the second quarter of fiscal 2025. Non-GAAP diluted net income per share was $2.21, compared to non-GAAP diluted net income per share of $1.75 in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS beat expectations of $2.11.",
+      "quote": "Workday, Inc. beats earnings expectations. Reported EPS is $2.21, expectations were $2.11.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 subscription revenue guidance raised to $8.815 billion, representing 14% growth.",
+      "quote": "Following our first half momentum—and also incorporating the acquisition of Paradox—we are increasing our fiscal 2026 subscription revenue guidance to $8.815 billion, representing growth of 14%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 non-GAAP operating margin guidance raised to approximately 29%.",
+      "quote": "We are increasing our fiscal 2026 non-GAAP operating margin guidance to approximately 29%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY26 subscription revenue guidance is $2.235 billion, representing 14.1% growth.",
+      "quote": "We expect Q3 FY26 subscription revenue to be approximately $2.235 billion, also growth of 14%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY26 non-GAAP operating margin guidance is 28.0%.",
+      "quote": "For Q3, we expect a non-GAAP operating margin of 28%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 operating cash flow outlook raised to $2.85 billion.",
+      "quote": "We're increasing our FY '26 operating cash flow outlook to $2.85 billion, driven by the timing of cash tax payments as well as our operating performance for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was 10.6% of revenues, non-GAAP operating margin was 29.0%.",
+      "quote": "Operating income was $248 million, or 10.6% of revenues... Non-GAAP operating income for the second quarter was $680 million, or 29.0% of revenues",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "cRPO grew 16.4% to $7.91 billion.",
+      "quote": "12-month subscription revenue backlog was $7.91 billion, up 16.4% from the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross revenue retention remained healthy at 97%.",
+      "quote": "gross revenue retention rates remained healthy at 97%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SLED business faces headwinds from funding slowdowns.",
+      "quote": "On state and local, we did see a, you know, a little bit of headwind in that market And I think we'll continue to see that as people are trying to figure out what the funding slowdown is gonna look like all the way to the state. Level. On the higher ed side, it's really interesting because higher ed is clearly under pressure. They've lost some of their federal funding.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International macro risks include tariffs and geopolitical issues, but no blowback seen in Europe.",
+      "quote": "we were really pleased with another strong quarter in Europe. And specifically in the two largest markets there. That being The UK and Germany. So we're really happy with their performance, and we necessarily necessarily seen any blowback or headwinds due to some of the macro things we're all facing around the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI disruption concerns are considered overblown by management.",
+      "quote": "I think this whole concern around AI disruption and the potential negative impact on seat-based models are completely overblown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restructuring plan reduced workforce by ~7.5% and incurred costs.",
+      "quote": "In February 2025, Workday announced a restructuring plan... The plan reduced Workday's workforce by approximately 7.5%. In connection with the plan, Workday has exited certain owned office space. During the six months ended July 31, 2025, Workday recorded expenses of $133 million for employee transition, severance payments, employee benefits, and share-based compensation expense, and $34 million related to an impairment of office space",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI adoption is strong: >70% of core customers use Illuminate, >75% of net-new deals include AI products.",
+      "quote": "more than 70% of our core customers are now leveraging Workday Illuminate... More than 30% of our customer-based deals and more than 75% of our net new deals included one or more of our AI products",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net-new ACV from AI products more than doubled year-over-year.",
+      "quote": "net new ACV from our AI products once again more than doubled year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strategic acquisitions of Paradox and Flowise were announced.",
+      "quote": "we've signed a definitive agreement to acquire Paradox... we also recently acquired Flowise, a leading low-code platform for building powerful agents.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International expansion includes new entry into India with local data center.",
+      "quote": "In Q2, we hired Sunil Jose as president of India, announced we will begin offering services to a local data center, and we're growing our team and our partner ecosystem in this critical market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Government sector opportunity is significant with Workday Government launch.",
+      "quote": "In Q2, we launched Workday Government, a wholly owned subsidiary dedicated to serving the unique needs of the US government... we see tremendous opportunity ahead for many years to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Partner ecosystem contributed >20% of net-new ACV.",
+      "quote": "For the second quarter in a row, more than 20% of our net new ACV signed in the quarter was sourced from partners.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-suite adoption is strong, with ~30% of net-new deals being full suite.",
+      "quote": "roughly 30% of our net new deals were full suite, with that number rising to 50% or more in industries like SLED and healthcare.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We're heading into the second half of the year with incredible momentum. Our team, our AI innovation, and our expanding ecosystem are all fueling our success.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise includes Paradox acquisition contribution; underlying organic growth may be slightly lower. Score of 0.55 reflects strong raise but not maximum due to acquisition impact and SLED headwinds."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Forward-looking risk factors are standard boilerplate; ensure they are not over-weighted as they are not specific to this quarter."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "WDAY_Bundled Earnings Report_2025-08-21",
+  "report_metadata": {
+    "issuer": "p2_workday",
+    "company": "Workday",
+    "ticker": "WDAY",
+    "sector": "Technology/Software - Application",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-21",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q2\\Earnings_Presentation_Q2_2025.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q2\\Earnings_Call_Transcript_Q2_2025.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "WDAY_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T104202Z",
+    "timestamp": "2026-08-09T10:42:36Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_workday\\extracted\\WDAY_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 28671,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q2\\Earnings_Presentation_Q2_2025.pdf",
+        "page_count": 10,
+        "extracted_characters": 17614,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q2\\Earnings_Call_Transcript_Q2_2025.txt",
+        "page_count": 1,
+        "extracted_characters": 311606,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_workday\\extracted\\WDAY_FQ2_2025.txt"
+  }
+}

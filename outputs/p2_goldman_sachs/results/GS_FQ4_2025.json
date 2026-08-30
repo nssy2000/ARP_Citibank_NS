@@ -1,0 +1,198 @@
+{
+  "document_id": "GS_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Management raised the quarterly dividend by 50% and introduced a new higher pretax margin target of 30% for Asset & Wealth Management, signaling confidence in forward earnings growth. The firm also reported a record backlog and expressed optimism for 2026 M&A and capital markets activity, though no formal EPS or revenue guidance was raised. The score reflects genuine operational momentum and confident forward language, but stops short of a full guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full year 2025 net revenues of $58.28 billion, 9% higher than 2024. Fourth quarter 2025 net revenues of $13.45 billion, 3% lower than Q4 2024.",
+    "eps": "Full year 2025 diluted EPS of $51.32, a 27% increase versus $40.54 in 2024. Fourth quarter 2025 EPS of $14.01, up from $11.95 in Q4 2024.",
+    "guidance": "Management reaffirmed mid-teens firm-wide return targets and introduced a new 30% pretax margin target for Asset & Wealth Management. A new target of 5% long-term fee-based net inflows annually from the wealth platform was also introduced. Management expressed optimism for 2026 M&A and capital markets activity, stating 'we are optimistic about the forward outlook for Goldman Sachs.'",
+    "margin": "Asset & Wealth Management pretax margin was 25% for 2025. A new medium-term target of 30% was introduced.",
+    "key_risks": [
+      "Economic growth, policy uncertainty, geopolitical developments, and market volatility are factors management continues to monitor closely.",
+      "Potential for an exogenous event or macro event to change sentiment and slow M&A activity.",
+      "NIM compression expected in private banking and lending due to rate cycle expectations.",
+      "Platform Solutions (Apple Card) expected to have a small pretax loss for the year, though not material."
+    ],
+    "key_opportunities": [
+      "Highest investment banking backlog in four years, with seventh consecutive quarterly increase, primarily driven by advisory.",
+      "Expectation of accelerating M&A and capital markets activity in 2026, supported by corporate focus on scale, AI investment, and sponsor activity.",
+      "New 30% pretax margin target for Asset & Wealth Management, with growth in wealth management, alternatives, and solutions.",
+      "Expansion of durable financing revenues, which comprised 37% of total FICC and equity revenues in 2025.",
+      "Regulatory tailwinds from a more balanced regulatory regime, including potential capital flexibility and reduced compliance costs.",
+      "Opportunities in tokenization and prediction markets."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used language such as 'I am very pleased with our strong performance,' 'we are optimistic about the forward outlook,' and 'we are confident that we will continue to deliver on these [targets].'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full year 2025 net revenues were $58.28 billion, 9% higher than 2024.",
+      "quote": "Net revenues were $58.28 billion for 2025, 9% higher than 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter 2025 net revenues were $13.45 billion, 3% lower than Q4 2024.",
+      "quote": "Net revenues were $13.45 billion for the fourth quarter of 2025, 3% lower than the fourth quarter of 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 diluted EPS was $51.32, a 27% increase versus $40.54 in 2024.",
+      "quote": "Diluted earnings per common share (EPS) was $51.32 for the year ended December 31, 2025 compared with $40.54 for the year ended December 31, 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter 2025 EPS was $14.01, up from $11.95 in Q4 2024.",
+      "quote": "was $14.01 for the fourth quarter of 2025 compared with $11.95 for the fourth quarter of 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed mid-teens firm-wide return targets and introduced a new 30% pretax margin target for Asset & Wealth Management.",
+      "quote": "We are increasing our pretax margin target to 30%, which will help drive high-teen returns in AWM over the medium term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A new target of 5% long-term fee-based net inflows annually from the wealth platform was introduced.",
+      "quote": "To sharpen our focus on future growth in wealth management, we are introducing a new target of 5% long-term fee-based net inflows annually from the platform.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed optimism for 2026 M&A and capital markets activity.",
+      "quote": "we are optimistic about the forward outlook for Goldman Sachs and remain confident in our ability to deliver for clients and drive strong returns for shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asset & Wealth Management pretax margin was 25% for 2025.",
+      "quote": "For 2025, revenues were $16.7 billion, and our pretax margin was 25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Highest investment banking backlog in four years, with seventh consecutive quarterly increase.",
+      "quote": "our investment banking backlog rose for a seventh consecutive quarter to a four-year high, primarily driven by advisory.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Economic growth, policy uncertainty, geopolitical developments, and market volatility are risks management monitors.",
+      "quote": "Economic growth, policy uncertainty, geopolitical developments, and market volatility are factors we continue to monitor closely.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for an exogenous event to slow M&A activity.",
+      "quote": "What could change that? Something could go on in the world, some sort of an exogenous event or a macro event that changes the sentiment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NIM compression expected in private banking and lending.",
+      "quote": "we do expect there could be some NIM compression given our expectations on the rate cycle.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Platform Solutions expected to have a small pretax loss for the year.",
+      "quote": "our expectation is we'll have a small, you know, pretax loss for the year in the segment, but nothing that's material for Goldman Sachs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I am very pleased with our strong performance in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dividend increased by 50% to $4.50 per share.",
+      "quote": "Today, we are announcing a $0.50 increase in our quarterly dividend to $4.5, representing a 50% increase from a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on confident forward language and new targets, but no formal EPS or revenue guidance was raised. A reviewer may wish to assess whether the absence of a formal guidance raise should cap the score lower."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2026-01-14",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q4\\GS-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q4\\a4q25gsearningsresults.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173246Z",
+    "timestamp": "2026-07-30T17:33:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q4\\GS-Q4-2025-earnings-call-transcript-MotleyFool.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q4\\GS-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 87195,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q4\\a4q25gsearningsresults.txt",
+        "page_count": 1,
+        "extracted_characters": 5599,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ4_2025.txt"
+  }
+}

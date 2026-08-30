@@ -1,0 +1,216 @@
+{
+  "document_id": "BA_FQ3_2024",
+  "sentiment": {
+    "score": -0.85,
+    "rationale": "The document reports a massive GAAP loss per share of ($9.97) and core loss per share of ($10.44), with operating cash flow of ($1.3) billion and free cash flow of ($2.0) billion. Forward guidance is explicitly negative: free cash flow is expected to be a usage in Q4 2024 and for full-year 2025, with management stating '2025 free cash flow will be significantly better than 2024' but still a usage. The CEO describes the company as being 'at a crossroads' with eroded trust, too much debt, and serious performance lapses. The structural risks from the IAM work stoppage, ongoing certification delays on the 777X (first delivery now expected in 2026), and $5 billion in pre-tax charges on commercial and defense programs are severe and recurring, not one-time. The score is heavily negative due to the combination of a massive earnings miss, lowered forward cash flow expectations, and unresolved structural risks."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$17.8 billion, down 1% year-over-year (from $18.1 billion in Q3 2023).",
+    "eps": "GAAP loss per share of ($9.97) and core (non-GAAP) loss per share of ($10.44), compared to GAAP loss per share of ($2.70) and core loss per share of ($3.26) in Q3 2023.",
+    "guidance": "Free cash flow expected to be a usage in Q4 2024 and for full-year 2025. 2025 free cash flow will be 'significantly better' than 2024 but still a usage. First half of 2025 expected to be a cash usage, second half to turn positive. 777X first delivery now expected in 2026. 737 production rate of 38 per month will take longer due to the IAM work stoppage.",
+    "margin": "GAAP operating margin of (32.3)% and core (non-GAAP) operating margin of (33.6)% for Q3 2024, compared to (4.5)% and (6.0)% respectively in Q3 2023.",
+    "key_risks": [
+      "IAM work stoppage impacting production, deliveries, and cash flow.",
+      "Pre-tax charges of $3.0 billion on 777X and 767 programs and $2.0 billion on T-7A, KC-46A, Commercial Crew, and MQ-25 programs.",
+      "777X certification delays with first delivery now expected in 2026.",
+      "BDS fixed-price development program losses and cost pressures.",
+      "Workforce reduction and need to conserve cash.",
+      "Supply chain restart challenges post-strike.",
+      "Debt of $57.7 billion and need to maintain investment grade credit rating.",
+      "Potential equity or equity-linked securities offering to address balance sheet."
+    ],
+    "key_opportunities": [
+      "Total company backlog of $511 billion, including over 5,400 commercial airplanes.",
+      "Global Services segment performing well with 17.0% operating margin and higher commercial volume.",
+      "Strong demand for defense products supported by threat environment.",
+      "Plan to return to normal production rates and build momentum exiting 2025.",
+      "New $10 billion short-term credit facility providing liquidity."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO states 'we're clearly at a crossroads' and 'it will take time to return Boeing to its former legacy,' while the CFO explicitly guides for negative free cash flow in Q4 2024 and full-year 2025, indicating a guarded forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $17.8 billion, down 1% year-over-year.",
+      "quote": "Revenue of $17.8 billion, GAAP loss per share of ($9.97) and core (non-GAAP)* loss per share of ($10.44)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($9.97) and core loss per share was ($10.44).",
+      "quote": "Revenue of $17.8 billion, GAAP loss per share of ($9.97) and core (non-GAAP)* loss per share of ($10.44)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was a usage of $2.0 billion in Q3 2024.",
+      "quote": "free cash flow of ($2.0) billion (non-GAAP)*",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow is expected to be a usage in Q4 2024 and for full-year 2025.",
+      "quote": "We expect 4Q free cash flow to be a usage... While we expect 2025 to be another use of cash, we anticipate a significant improvement over this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777X first delivery is now expected in 2026.",
+      "quote": "now expect first delivery in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company recorded $3.0 billion in pre-tax charges on 777X and 767 programs.",
+      "quote": "reflect previously announced pre-tax charges of $3.0 billion on the 777X and 767 programs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company recorded $2.0 billion in pre-tax charges on defense programs.",
+      "quote": "reflect the previously announced pre-tax charges of $2.0 billion on the T-7A, KC-46A Tanker, Commercial Crew, and MQ-25 programs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog is $511 billion.",
+      "quote": "Total company backlog of $511 billion, including over 5,400 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 17.0%.",
+      "quote": "Global Services third quarter revenue of $4.9 billion and operating margin of 17.0 percent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "we're clearly at a crossroads. The trust in our company has eroded. We're saddled with too much debt. We've had serious lapses in our performance across the company",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has $57.7 billion in consolidated debt.",
+      "quote": "Consolidated debt $57.7 $57.9",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company entered into a new $10 billion short-term credit facility.",
+      "quote": "In October, the company entered into a new $10.0 billion short-term credit facility and now has access to total credit facilities of $20.0 billion, which remain undrawn.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company may raise capital through an offering of equity or equity-linked securities.",
+      "quote": "we have a plan to comprehensively address the balance sheet in the near term that could include an offering of equity and equity-linked securities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The IAM work stoppage impacted results and forward outlook.",
+      "quote": "primarily reflecting impacts of the IAM work stoppage and previously announced charges on commercial and defense programs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (32.3)%.",
+      "quote": "Operating margins (32.3) % (4.5) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is heavily negative (-0.85). While the document clearly shows a massive earnings miss, lowered forward guidance, and severe structural risks, a human reviewer should confirm that the magnitude of the negative score is appropriate given the company's large backlog and the potential for recovery post-strike."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2024-10-23",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-10-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q3\\ba-3q24-press-release.html",
+        "pub_date": "2024-10-23"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q3\\ba-3q24-presentation.pdf",
+        "pub_date": "2024-10-23"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q3\\ba-3q24-transcript.pdf",
+        "pub_date": "2024-10-23"
+      }
+    ],
+    "document_id": "BA_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:37:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q3\\ba-3q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q3\\ba-3q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25876,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q3\\ba-3q24-presentation.pdf",
+        "page_count": 10,
+        "extracted_characters": 8079,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q3\\ba-3q24-transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 83462,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ3_2024.txt"
+  }
+}

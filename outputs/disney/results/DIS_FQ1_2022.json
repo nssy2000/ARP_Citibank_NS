@@ -1,0 +1,191 @@
+{
+  "document_id": "DIS_FQ1_2022",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports a strong quarter with significant year-over-year improvements in revenue, EPS, and segment operating income, particularly a swing from loss to profit at Disney Parks, Experiences and Products. However, no formal forward guidance is provided or raised; management expresses confidence in the future but does not update specific guidance. The score reflects genuine operational momentum (e.g., parks swinging from -$119M loss to +$2,450M income) without a formal guidance raise, placing it in the +0.15 to +0.3 range."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$21,819 million, up 34% from $16,249 million in the prior-year quarter.",
+    "eps": "Diluted EPS from continuing operations was $0.63, up from $0.02 in the prior-year quarter. Excluding certain items, diluted EPS was $1.06, up from $0.32.",
+    "guidance": "Not disclosed. No formal forward guidance is provided in the document.",
+    "margin": "Not disclosed. No explicit margin commentary is provided.",
+    "key_risks": [
+      "COVID-19 and its variants continue to impact operations, particularly at international parks and experiences with mandatory capacity and travel restrictions.",
+      "Higher programming and production costs at Linear Networks due to contractual rate increases for sports programming.",
+      "Higher operating loss at Direct-to-Consumer segment due to increased programming, production, marketing, and technology costs.",
+      "Non-cash loss of $432 million from adjusting the investment in DraftKings to fair value.",
+      "Higher film cost impairments and lower theatrical distribution results."
+    ],
+    "key_opportunities": [
+      "Record revenue and operating income at domestic parks and resorts driven by higher volumes and guest spending.",
+      "Significant increase in total streaming subscriptions to 196.4 million, including 11.8 million Disney+ subscribers added in the quarter.",
+      "Launch of a new franchise with Encanto.",
+      "Growth in advertising revenue at Domestic Channels due to higher impressions.",
+      "Higher TV/SVOD distribution results from sales of episodic television and film content."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Bob Chapek stated, 'We’ve had a very strong start to the fiscal year... performance like this... give me great confidence we will continue to define entertainment for the next 100 years.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue increased 34% year-over-year to $21,819 million.",
+      "quote": "Revenues $ 21,819 $ 16,249 34 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS from continuing operations increased to $0.63 from $0.02.",
+      "quote": "Diluted EPS from continuing operations for the quarter increased to $0.63 from $0.02 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding certain items, diluted EPS increased to $1.06 from $0.32.",
+      "quote": "Excluding certain items (1) , diluted EPS for the quarter increased to $1.06 from $0.32 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney Parks, Experiences and Products swung from a loss of $119 million to income of $2,450 million.",
+      "quote": "Segment operating income (loss): ... Disney Parks, Experiences and Products 2,450 (119) nm",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total streaming subscriptions reached 196.4 million, with 11.8 million Disney+ subscribers added.",
+      "quote": "a significant increase in total subscriptions across our streaming portfolio to 196.4 million, including 11.8 million Disney+ subscribers added in the first quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal forward guidance is provided in the document.",
+      "quote": "The document contains no explicit forward guidance statements regarding revenue, earnings, or growth for future periods.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We’ve had a very strong start to the fiscal year... performance like this coupled with our unmatched collection of assets and platforms, creative capabilities, and unique place in the culture give me great confidence we will continue to define entertainment for the next 100 years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID-19 continues to impact international operations with capacity and travel restrictions.",
+      "quote": "Certain of our international operations continue to be impacted by mandatory COVID-19-related capacity and travel restrictions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher programming and production costs at Linear Networks due to sports contractual rate increases.",
+      "quote": "The increase in programming and production costs was driven by higher costs for the College Football Playoffs (CFP), NFL and MLB programming and an increase in sports production costs due to the cancellation of events in the prior-year quarter. The increases in CFP and NFL programming costs were due to higher contractual rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct-to-Consumer operating loss increased 27% to $593 million.",
+      "quote": "Direct-to-Consumer (593) (466) (27) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-cash loss of $432 million from DraftKings investment adjustment.",
+      "quote": "In the current and prior-year quarters, the Company recognized a non-cash loss to adjust its investment in DraftKings, Inc. (DraftKings) to fair value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher film cost impairments and lower theatrical distribution results.",
+      "quote": "The decrease in operating results was due to lower theatrical distribution results and higher film cost impairments, partially offset by higher TV/SVOD distribution results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record revenue and operating income at domestic parks and resorts.",
+      "quote": "record revenue and operating income at our domestic parks and resorts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of a new franchise with Encanto.",
+      "quote": "the launch of a new franchise with Encanto",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growth in advertising revenue at Domestic Channels due to higher impressions.",
+      "quote": "Advertising revenue growth was due to higher impressions, partially offset by a decrease in rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher TV/SVOD distribution results from sales of episodic television and film content.",
+      "quote": "Higher TV/SVOD distribution results were due to higher sales of both episodic television and film content.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "No formal forward guidance is provided; the score is based on operational momentum and management confidence, which may be subjective. A human reviewer should confirm the score reflects the absence of guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2022-02-09",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2022",
+    "report_date": "2022-02-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q1\\dis-1q22-press-release.html",
+        "pub_date": "2022-02-09"
+      }
+    ],
+    "document_id": "DIS_FQ1_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144738Z",
+    "timestamp": "2026-07-09T14:48:54Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q1\\dis-1q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q1\\dis-1q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 40901,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2022.txt"
+  }
+}

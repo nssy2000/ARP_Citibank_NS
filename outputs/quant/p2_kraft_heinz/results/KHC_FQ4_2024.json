@@ -1,0 +1,58 @@
+{
+  "document_id": "KHC_FQ4_2024_QUANT",
+  "base_document_id": "KHC_FQ4_2024",
+  "issuer": "p2_kraft_heinz",
+  "ticker": "KHC",
+  "sector": "Consumer Defensive/Packaged Foods",
+  "report_date": "2025-02-12",
+  "sentiment": {
+    "score": 0.274227
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.037531,
+      "window_start_date": "2025-01-10",
+      "window_end_date": "2025-02-11",
+      "score": 0.24511,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.227764,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 7.83,
+      "matched_earnings_date": "2025-02-12",
+      "score": 0.303345,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 15.89,
+      "vix_score": 0.204413,
+      "tnx_change": -0.166,
+      "tnx_score": 0.320317,
+      "score": 0.262365,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2025-02-11",
+      "curve_spread": 0.25,
+      "curve_score": 0.244919,
+      "curve_as_of": "2025-02-11",
+      "score": 0.353518,
+      "available": true
+    },
+    "quant_score": 0.274227,
+    "quant_score_with_macro": 0.268296,
+    "quant_score_with_fred": 0.313872,
+    "quant_score_with_macro_fred": 0.296703
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

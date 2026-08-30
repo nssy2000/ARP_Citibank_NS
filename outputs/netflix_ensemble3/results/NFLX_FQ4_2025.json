@@ -1,0 +1,171 @@
+{
+  "document_id": "NFLX_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Management raised full-year 2026 revenue guidance to $51 billion (14% YoY growth) and operating margin guidance to 31.5% (up 2 points), both above consensus. The guidance raise is organic, driven by membership growth, pricing, and ad revenue doubling to ~$3 billion. Management expressed strong confidence in the organic opportunity, citing 16% revenue growth in 2025 and continued momentum. No material risks were raised that offset the positive forward outlook."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FQ4 2025 revenue of $12,050.76 million (actual), up 0.70% from consensus of $11,966.85 million. Full-year 2025 revenue growth of 16%.",
+    "eps": "FQ4 2025 EPS normalized of $0.56 (actual), up 1.82% from consensus of $0.55.",
+    "guidance": "FY 2026 revenue guidance of $51 billion (up 14% YoY). Operating margin guidance of 31.5% (up 2 points). Ad revenue expected to roughly double to ~$3 billion in 2026.",
+    "margin": "Operating margin guidance for 2026 is 31.5%, up 2 points from 2025. Excluding ~0.5 point drag from M&A expenses, margin expansion is ~2.5 points.",
+    "key_risks": [
+      "Content amortization growth forecast of 10% in 2026 implies acceleration from 2025, with higher expense growth in H1 2026.",
+      "Viewing of second-run licensed titles was lower YoY due to reduced volume of licensed titles carried across most regions.",
+      "The Warner Bros. acquisition is subject to regulatory approvals, though management expressed confidence in securing them."
+    ],
+    "key_opportunities": [
+      "Ad revenue expected to roughly double in 2026 to ~$3 billion, with continued scaling of ad tech and sales capabilities.",
+      "Membership growth and pricing power, with under 10% of TV time in all major markets and hundreds of millions of households still to sign up.",
+      "Expansion into live events outside the U.S. (e.g., World Baseball Classic in Japan), video podcasts, and cloud-first gaming.",
+      "Warner Bros. acquisition seen as a strategic accelerant, providing 100 years of IP, a theatrical business, and complementary HBO brand."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly used phrases like 'we feel great about our organic growth outlook,' 'we're very excited about the business,' and 'we see huge opportunity to keep improving,' reflecting strong confidence in the forward trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2026 revenue guidance is $51 billion, up 14% YoY.",
+      "quote": "We forecast 2026 revenue at $51 billion, which is up 14% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin guidance for 2026 is 31.5%, up 2 points.",
+      "quote": "We're targeting 31.5% operating margins for 2026. That's up 2 points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad revenue expected to roughly double in 2026 to ~$3 billion.",
+      "quote": "We expect that business to roughly double again in 2026 to about $3 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ4 2025 revenue actual was $12,050.76 million, beating consensus of $11,966.85 million.",
+      "quote": "Revenue (mm) 11966.85 12050.76 0.70",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ4 2025 EPS normalized actual was $0.56, beating consensus of $0.55.",
+      "quote": "EPS Normalized 0.55 0.56 1.82",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue growth was 16%.",
+      "quote": "We delivered 16% revenue growth, roughly 30% operating profit growth, expanding margins, growing free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed strong confidence in the organic growth outlook.",
+      "quote": "We feel great about our organic growth outlook. I hope you see that on our top and bottom line guide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content amortization growth forecast of 10% in 2026 implies acceleration from 2025.",
+      "quote": "Content amortization to increase roughly 10% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Viewing of second-run licensed titles was lower YoY due to reduced volume.",
+      "quote": "Viewing on the second run titles was lower year-over-year because the volume of licensed titles that we're carrying came down across most regions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in securing regulatory approvals for the Warner Bros. acquisition.",
+      "quote": "We're confident we're going to be able to secure all the approvals because this deal is pro-consumer, it is pro-innovation, it is pro-worker, it is pro-creator and it is pro-growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel great about our organic growth outlook. I hope you see that on our top and bottom line guide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a guidance raise and confident tone, but the guidance raise is partly driven by ad revenue doubling, which is a newer initiative with execution risk. A human reviewer may want to assess whether the score should be slightly lower given the reliance on ad growth."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "ensemble": {
+    "n_runs": 3,
+    "scores": [
+      0.3,
+      0.3,
+      0.3
+    ],
+    "signals": [
+      "BUY",
+      "BUY",
+      "BUY"
+    ],
+    "mean_score": 0.3,
+    "score_range": 0.0,
+    "signal_agreement": true
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2026-01-20",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ4 25.pdf"
+      }
+    ],
+    "document_id": "NFLX_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T193131Z",
+    "timestamp": "2026-07-02T19:33:23Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ4 25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix_ensemble3\\extracted\\NFLX_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ4 25.pdf",
+        "page_count": 15,
+        "extracted_characters": 46974,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix_ensemble3\\extracted\\NFLX_FQ4_2025.txt"
+  }
+}

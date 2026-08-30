@@ -1,0 +1,289 @@
+{
+  "document_id": "JNJ_FQ2_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Johnson & Johnson raised its full-year 2025 reported sales guidance by $2 billion to a midpoint of $93.4 billion (5.4% growth) and raised adjusted EPS guidance by $0.25 to $10.85, citing strong operational performance and favorable FX. The guidance raise is meaningful and driven by both operational strength and currency tailwinds, with management expressing high confidence in accelerating second-half growth. While FX contributed $1.1 billion to the sales raise and $0.17 to EPS, the core operational guidance also increased (operational sales midpoint up $0.9B, adjusted operational EPS up $0.08), supporting a score above +0.5 but not at the maximum due to the FX attribution and ongoing STELARA erosion."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 2025 reported sales of $23,743 million, up 5.8% year-over-year; operational growth 4.6%; adjusted operational growth 3.0%.",
+    "eps": "Q2 2025 diluted EPS of $2.29, up 18.7% year-over-year; adjusted diluted EPS of $2.77, down 1.8% year-over-year.",
+    "guidance": "Full-year 2025 guidance raised: reported sales midpoint $93.4B (5.4% growth, up from $91.4B/3.1%); operational sales midpoint $92.9B (4.8% growth, up from $92.0B/3.8%); adjusted EPS midpoint $10.85 (8.7% growth, up from $10.60/6.2%); adjusted operational EPS midpoint $10.68 (7.0% growth, up from $10.60/6.2%).",
+    "margin": "Q2 2025 gross margin (GAAP) was 67.9% (gross profit $16,115M on sales $23,743M), down from 69.4% in Q2 2024. Adjusted segment income before tax margin for Innovative Medicine declined from 44.6% to 42.7%; MedTech declined from 25.7% to 22.2%. Management reiterated full-year operating margin improvement of ~300 bps.",
+    "key_risks": [
+      "STELARA biosimilar competition and Part D redesign causing significant erosion (43.2% decline in Q2, ~1,170 bps headwind to Innovative Medicine growth).",
+      "Ongoing talc litigation with Daubert hearing expected in fall 2025.",
+      "Tariff impact on MedTech business estimated at ~$200 million for 2025.",
+      "Competitive pressures in orthopaedics, energy, and electrophysiology PFA.",
+      "China VBP (volume-based procurement) negatively impacting MedTech and orthopaedics.",
+      "Part D redesign negatively impacting multiple products including STELARA, INVEGA, ERLEADA, OPSUMIT, UPTRAVI, TREMFYA, IMBRUVICA."
+    ],
+    "key_opportunities": [
+      "TAR-200 for non-muscle invasive bladder cancer with FDA priority review, expected launch later this year, peak sales potential at least $5 billion.",
+      "CARVYKTI growth over 100% in Q2 with capacity expansion and five-year remission data.",
+      "RYBREVANT/LAZCLUZE launch momentum with over 100% growth and potential to become standard of care in frontline EGFR-mutated NSCLC.",
+      "TREMFYA growth of 30% with IBD expansion, peak sales potential at least $10 billion.",
+      "SPRAVATO growth of 53% in neuroscience.",
+      "CAPLYTA acquisition (Intra-Cellular) adding $5B+ peak sales potential and MDD approval anticipated later this year.",
+      "MedTech cardiovascular growth of 22% driven by Abiomed, Shockwave, and electrophysiology.",
+      "OTTAVA robotic surgical system progressing toward FDA de novo submission next year.",
+      "Icotrokinra, first targeted oral peptide for IL-23 receptor, expected FDA filing in Q3 2025.",
+      "Vision growth with ACUVUE OASYS MAX and TECNIS Odyssey."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly used strong language such as 'very strong second quarter,' 'we are pleased to raise our full-year sales guidance,' and 'we are confident that the strength of our business model enables Johnson & Johnson to navigate a dynamic external environment while delivering on our financial commitments.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 reported sales were $23,743 million, up 5.8% year-over-year.",
+      "quote": "2025 Second-Quarter reported sales growth of 5.8 % to $23.7 Billion with operational growth of 4.6%* and adjusted operational growth of 3.0%*",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 diluted EPS was $2.29, up 18.7% year-over-year.",
+      "quote": "EPS (diluted) $2.29 $1.93 18.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 adjusted diluted EPS was $2.77, down 1.8% year-over-year.",
+      "quote": "Adjusted EPS (diluted) 1,4 $2.77 $2.82 -1.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 reported sales guidance raised to midpoint $93.4B (5.4% growth), up from $91.4B (3.1%).",
+      "quote": "Estimated Reported Sales 3,5 / Mid-point Change vs. Prior Year / Mid-point $93.2B – $93.6B / $93.4B 5.1% – 5.6% / 5.4% $91.0B – $91.8B / $91.4B 2.6% – 3.6% / 3.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance raised to midpoint $10.85 (8.7% growth), up from $10.60 (6.2%).",
+      "quote": "Adjusted EPS (Diluted) 3,4 / Mid-point Change vs. Prior Year / Mid-point $10.80 – $10.90 / $10.85 8.2% – 9.2% / 8.7% $10.50 – $10.70 / $10.60 5.2% – 7.2% / 6.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 operational sales guidance raised to midpoint $92.9B (4.8% growth), up from $92.0B (3.8%).",
+      "quote": "Operational Sales 2,5 / Mid-point Change vs. Prior Year / Mid-point $92.7B – $93.1B / $92.9B 4.5% – 5.0% / 4.8% $91.6B – $92.4B / $92.0B 3.3% – 4.3% / 3.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted operational EPS guidance raised to midpoint $10.68 (7.0% growth), up from $10.60 (6.2%).",
+      "quote": "Adjusted Operational EPS (Diluted) 2,4 / Mid-point Change vs. Prior Year / Mid-point $10.63 – $10.73 / $10.68 6.5% – 7.5% / 7.0% $10.50 – $10.70 / $10.60 5.2% – 7.2% / 6.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 gross margin (GAAP) was 67.9%, down from 69.4% in Q2 2024.",
+      "quote": "Cost of products sold 11.030.66,86932.17,628 Gross Profit 3.469.415,57867.916,115",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Innovative Medicine adjusted segment income before tax margin declined from 44.6% to 42.7%.",
+      "quote": "Innovative Medicine margin declined from 44.6% to 42.7%, primarily driven by negative mix in cost of products sold related to STELARA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MedTech adjusted segment income before tax margin declined from 25.7% to 22.2%.",
+      "quote": "MedTech margin declined from 25.7% to 22.2% driven by macroeconomic factors of cost of products sold as well as other income.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reiterated full-year operating margin improvement of approximately 300 basis points.",
+      "quote": "At the beginning of the year, we guided to an approximate 300 basis points improvement in operating margin. Despite what you may have calculated on a year-to-date basis, we remain confident and reiterate our operating margin guide for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "STELARA declined 43.2% in Q2 due to biosimilar competition and Part D redesign.",
+      "quote": "STELARA declined 43.2%, driven by the impact of biosimilar competition and Part D redesign, which is in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Talc litigation remains a risk with Daubert hearing expected in fall 2025.",
+      "quote": "Regarding talc litigation, we expect the Daubert hearing to commence this fall and look forward to the court reexamining the junk science the mass tort plaintiffs' bar has funded to promote baseless talc claims against Johnson & Johnson.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff impact on 2025 MedTech business estimated at approximately $200 million.",
+      "quote": "Based on the current tariff landscape, we now anticipate the impact to be approximately $200 million, exclusively related to our MedTech business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China VBP negatively impacting MedTech and orthopaedics.",
+      "quote": "Growth was partially offset by competitive pressures in energy and the negative impact of China VBP across the portfolio. ... The orthopedics business declined by 1.6%, driven by competitive pressures, the transformation program, and China VBP.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TAR-200 received FDA priority review and is expected to launch later this year with at least $5 billion peak sales potential.",
+      "quote": "We are excited to share that we have received FDA priority review for TAR-200, a first-of-its-kind drug release in system. We anticipate launching TAR-200 for high-risk non-muscle invasive bladder cancer later this year ... We expect [TARIS] (corrected by company after the call) to generate at least $5 billion in annual peak year sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CARVYKTI grew over 100% in Q2 with capacity expansion.",
+      "quote": "CARVYKTI achieved sales of $439 million with growth of over 100%, driven by share gains and capacity expansion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RYBREVANT/LAZCLUZE grew over 100% in Q2 with strong launch uptake.",
+      "quote": "In lung cancer, RYBREVANT plus LAZCLUZE delivered sales of $179 million and growth over 100%, with sequential growth of 26.5%, driven by continued strong launch uptake.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TREMFYA grew 30% in Q2 with IBD expansion and at least $10 billion peak sales potential.",
+      "quote": "TREMFYA grew 30% in the quarter. With strong uptake in Crohn's disease and ulcerative colitis, we expect it to generate at least $10 billion annually in peak year sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SPRAVATO grew 53% in Q2.",
+      "quote": "In neuroscience, SPRAVATO growth of 53% was driven by continued strong demand from physicians and patients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CAPLYTA acquisition adds $5B+ peak sales potential and MDD approval anticipated later this year.",
+      "quote": "Caplyta adds to Johnson & Johnson's robust lineup of therapies with $5 billion-plus potential in peak year sales ... we are excited about the anticipated major depressive disorder approval later this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MedTech cardiovascular grew 22% operationally in Q2.",
+      "quote": "In Q2, we delivered over 22% operational sales growth over the quarter driven by new product performance in Abiomed, Shockwave, and strength in mapping in electrophysiology.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OTTAVA robotic surgical system progressing toward FDA de novo submission next year.",
+      "quote": "We plan to submit for an FDA de novo approval next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Icotrokinra expected FDA filing in Q3 2025.",
+      "quote": "We also made important progress in our pipeline in Q2 and expect to file Icotrokinra with the FDA in the third quarter as the first targeted oral peptide to selectively block the IL-23 receptor with similar efficacy to a biologic.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Vision growth driven by ACUVUE OASYS MAX and TECNIS Odyssey.",
+      "quote": "With quarterly growth of 4.6% across the business and 8.9% in surgical vision, the portfolio has a robust growth trajectory driven by our ACUVUE OASYS MAX One-Day Family of contact lenses and our TECNIS Odyssey and TECNIS PureSee intraocular lenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Today's results showcase the strength of our uniquely diversified business ... We are pleased to raise our full-year sales guidance by $2 billion and EPS guidance by $0.25 from $10.60 to $10.85.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise includes $1.1B FX benefit and $0.17 EPS FX benefit; operational raise is smaller ($0.9B sales, $0.08 EPS). Score of 0.55 reflects both, but reviewer may want to weigh organic vs. FX more heavily."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "Gross margin calculated from GAAP figures in the earnings statement; adjusted segment margins are also provided. Ensure the correct margin basis is used for comparison."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JNJ_Bundled Earnings Report_2025-07-15",
+  "report_metadata": {
+    "issuer": "p2_johnson_johnson",
+    "company": "Johnson  Johnson",
+    "ticker": "JNJ",
+    "sector": "Healthcare/Drug Manufacturers - General",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q2\\JNJ_Q2_2025_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q2\\JNJ_Q2_2025_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JNJ_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100453Z",
+    "timestamp": "2026-08-09T10:05:36Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_johnson_johnson\\extracted\\JNJ_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 17666,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q2\\JNJ_Q2_2025_Presentation.pdf",
+        "page_count": 25,
+        "extracted_characters": 29088,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q2\\JNJ_Q2_2025_Transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 65650,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_johnson_johnson\\extracted\\JNJ_FQ2_2025.txt"
+  }
+}

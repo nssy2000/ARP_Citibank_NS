@@ -1,0 +1,229 @@
+{
+  "document_id": "PEP_FQ3_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "Guidance was not raised; the company reaffirmed its full-year 2025 outlook for low-single-digit organic revenue growth and core constant currency EPS approximately even with the prior year. However, the FX headwind was reduced from 1.5pp to 0.5pp, implying a slightly better core USD EPS outcome (0.5% decline vs. prior 1.5% decline). Management expressed confidence in sequential improvement, with beverage volume growing, food volume stabilizing, and international returning to mid-single-digit growth. The tone is cautiously optimistic, with concrete operational momentum (e.g., PBNA volume growth, PFNA returning to growth in the last four weeks) but no formal guidance raise. The score reflects genuine underlying momentum offset by reaffirmed guidance and acknowledged consumer stress."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported net revenue of $23,937 million for Q3 2025, up 2.6% year-over-year. Organic revenue grew 1.3% in Q3 and 1.5% year-to-date.",
+    "eps": "Reported GAAP diluted EPS of $1.90 for Q3 2025, down 11% year-over-year. Core EPS (non-GAAP) was $2.29, down 2% on a constant currency basis.",
+    "guidance": "For fiscal 2025, the company continues to expect low-single-digit organic revenue growth, core constant currency EPS approximately even with the prior year, a core annual effective tax rate of approximately 20%, and total cash returns to shareholders of approximately $8.6 billion. The FX headwind is now expected to be approximately 0.5pp (improved from prior 1.5pp), implying a 0.5% decline in core EPS (improved from prior 1.5% decline).",
+    "margin": "Reported gross margin was 53.6% in Q3 2025 (down from 55.4% in Q3 2024). Core gross margin was 53.9% (down from 55.5%). Reported operating margin was 14.9% (down from 16.6%). Core operating margin was 17.3% (down from 17.9%). Management projects total company margin improvement next year.",
+    "key_risks": [
+      "Consumer stress globally, with 'the consumer making very choiceful decisions' and affordability concerns in multiple regions.",
+      "Competitive pressures in India's beverage segment expected to impact growth 'for a few quarters.'",
+      "Continued FX headwind, though reduced, still negatively impacting reported results.",
+      "Structural changes in consumer behavior (digital purchasing, clean label demand, affordability) requiring portfolio and cost transformation.",
+      "Potential impact of US policy on Hispanic cohort and remittances affecting Mexico."
+    ],
+    "key_opportunities": [
+      "Beverage volume growth led by Pepsi brand, which 'grew volume, grew net revenue, grew share.'",
+      "International business returning to 'mid-single digit, high mid-single digits performance' in September.",
+      "Strong innovation pipeline including protein (Muscle Milk, Doritos protein), functional hydration (Propel), clean label (Naked), and fiber-forward snacks.",
+      "Cost productivity initiatives (warehouse rationalization, manufacturing node reduction, labor rightsizing) expected to deliver carryover benefits into 2026.",
+      "Portfolio transformation via tuck-in acquisitions (Poppy, Alani Nu) expected to contribute to net revenue growth as they are lapped.",
+      "Margin expansion projected for next year driven by international profitability, PBNA margin growth, and Frito-Lay cost actions."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in sequential improvement and a clear line of sight to returning to algorithm, stating 'we see a clear line of sight to going back to algorithm' and 'we're optimistic about the top line growth on both businesses and the acceleration.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported net revenue for Q3 2025 was $23,937 million, up 2.6% year-over-year.",
+      "quote": "Net Revenue $ 23,937 $ 23,319 ... Reported Net Revenue % Change, GAAP measure — — ... 2.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue grew 1.3% in Q3 and 1.5% year-to-date.",
+      "quote": "Organic revenue performance 1.3% 1.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported GAAP diluted EPS was $1.90, down 11% year-over-year.",
+      "quote": "Earnings per share (EPS) $1.90 ... EPS change (11)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core EPS (non-GAAP) was $2.29, down 2% on a constant currency basis.",
+      "quote": "Core EPS $2.29 ... Core constant currency EPS change (2)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance reaffirmed: low-single-digit organic revenue growth, core constant currency EPS approximately even with prior year.",
+      "quote": "For 2025, the Company continues to expect: • A low-single-digit increase in organic revenue; • Core constant currency EPS to be approximately even with the prior year;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX headwind reduced from 1.5pp to 0.5pp, implying a 0.5% decline in core EPS (improved from prior 1.5% decline).",
+      "quote": "The Company now expects foreign exchange translation headwind of approximately 0.5 percentage points to negatively impact reported net revenue and core EPS growth (previously an approximate 1.5-percentage-point headwind)... This assumption and the guidance above implies a 0.5 percent decline in core EPS in 2025 (previously a 1.5 percent decline in core EPS) compared to 2024 core EPS of $8.16.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported gross margin was 53.6% in Q3 2025, down from 55.4% in Q3 2024.",
+      "quote": "Gross Margin Reported Gross Profit, GAAP measure ... 53.6 % ... 55.4 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core gross margin was 53.9%, down from 55.5%.",
+      "quote": "Core Gross Profit, non-GAAP measure ... 53.9 % ... 55.5 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported operating margin was 14.9%, down from 16.6%.",
+      "quote": "Operating Margin Reported Operating Profit, GAAP measure ... 14.9 % ... 16.6 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin was 17.3%, down from 17.9%.",
+      "quote": "Core Operating Profit, non-GAAP measure ... 17.3 % ... 17.9 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management projects total company margin improvement next year.",
+      "quote": "Total company, Lauren, we see the margin improvement next year. Again, driven by the continuous acceleration of international, international is accretive to the company and continues to scale and becoming more profitable, that will continue in 2026. We see PV and A continue to expand margins at a good pace.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer stress globally, with 'the consumer making very choiceful decisions' and affordability concerns.",
+      "quote": "Overall, the consumer is you know, I would say is stressed all over the world. We see the consumer making very choiceful decisions in many parts of the world, in China, for sure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive pressures in India's beverage segment expected to impact growth 'for a few quarters.'",
+      "quote": "India was more impacted by weather, and there's some competitive situation in the beverage category that will impact the growth maybe for a few quarters but coming back strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Beverage volume growth led by Pepsi brand, which 'grew volume, grew net revenue, grew share.'",
+      "quote": "Pepsi grew volume, grew net revenue, grew share, underlining brand momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business returning to 'mid-single digit, high mid-single digits performance' in September.",
+      "quote": "September was also very good in international, so we see that as the summer a bit of a blip. And international is back to mid-single digit, high mid-single digits performance in the last month that we closed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong innovation pipeline including protein, functional hydration, clean label, and fiber-forward snacks.",
+      "quote": "Planned launches include protein-focused SKUs (Muscle Milk relaunch, Quaker protein, Doritos protein), new platforms like Naked with no artificial colors, functional hydration products, and fiber-forward snacks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost productivity initiatives expected to deliver carryover benefits into 2026.",
+      "quote": "The only other thing I'd add is the pace of productivity built as we went out went through the year and we took some of these incremental cost resizing actions. So as you go into 2026, we're going to have a pretty significant carryover benefit of those actions, particularly in the first half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Portfolio transformation via tuck-in acquisitions expected to contribute to net revenue growth.",
+      "quote": "Recent tuck-in acquisitions (such as Poppy and Alani Nu) are being integrated and are expected to contribute to net revenue growth as they are lapped and become part of organic results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in sequential improvement and a clear line of sight to returning to algorithm.",
+      "quote": "We see a clear line of sight to going back to algorithm. We'll see. But, clearly, I'll tell you about the why. Throughout '26. Now is it Q3? Is it Q4? We see that happening during the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We're optimistic about the top line growth on both businesses and the acceleration.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on genuine operational momentum (beverage volume growth, international rebound, cost actions) but guidance was only reaffirmed, not raised. The improved FX outlook is a tailwind but not organic. A reviewer should confirm the balance between momentum and lack of formal guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2025-10-09",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q3\\PEP-8K-EX99.1-2025-Q3-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q3\\PEP-Q3-2025-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:47:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q3\\PEP-8K-EX99.1-2025-Q3-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q3\\PEP-8K-EX99.1-2025-Q3-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 45901,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q3\\PEP-Q3-2025-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 56093,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ3_2025.txt"
+  }
+}

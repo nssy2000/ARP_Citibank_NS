@@ -1,0 +1,191 @@
+{
+  "document_id": "AAPL_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports a strong quarter with record revenue and EPS, but the key driver for the positive sentiment is the explicit guidance raise: management forecasts December quarter revenue growth of 10%-12% year-over-year, which would be the best quarter ever, and iPhone revenue to grow double digits, the best iPhone quarter ever. This is a material upward revision in forward expectations, not just a backward-looking beat. The guidance is organic, not attributed to one-time items, and management expresses high confidence. However, the score is capped at +0.30 because of disclosed supply constraints on iPhone 17 models and a $1.4 billion tariff impact in the December quarter, which introduce some uncertainty."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$102.5 billion, up 8% year-over-year, a September quarter record.",
+    "eps": "$1.85 (adjusted), up 13% year-over-year on an adjusted basis, a September quarter record.",
+    "guidance": "December quarter total company revenue to grow 10% to 12% year-over-year, which will be the best quarter ever. iPhone revenue to grow double digits year-over-year, the best iPhone quarter ever. Gross margin expected between 47% and 48%.",
+    "margin": "Company gross margin 47.2%, up 70 basis points sequentially, above guidance. Products gross margin 36.2%, up 170 basis points sequentially. Services gross margin 75.3%, down 30 basis points sequentially.",
+    "key_risks": [
+      "Supply constraints on several iPhone 16 and iPhone 17 models limiting device availability.",
+      "Tariff-related costs: $1.1 billion in the September quarter, projected $1.4 billion for the December quarter.",
+      "Difficult year-over-year compare for Mac due to prior year's M4 MacBook Pro, Mac Mini, and iMac launches.",
+      "Operating expenses up 11% year-over-year, driven by increased R&D investment."
+    ],
+    "key_opportunities": [
+      "Services revenue reached an all-time record of $28.8 billion, up 15% year-over-year, with double-digit growth across most categories.",
+      "Strong iPhone demand, with expectations of double-digit growth in the December quarter.",
+      "AI investment and infrastructure expansion, including a new manufacturing plant in Houston for private cloud compute servers.",
+      "Record installed base across all product categories and geographic segments.",
+      "Return to growth expected in Greater China in the December quarter."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Tim Cook stated, 'We are incredibly excited about the strength we're seeing across our products and services and we expect the December quarter's revenue to be the best ever for the company and the best ever for iPhone.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $102.5 billion, up 8% year-over-year, a September quarter record.",
+      "quote": "Today, Apple is proud to report $102.5 billion in revenue, up 8% from a year ago and a September quarter record.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $1.85, up 13% year-over-year, a September quarter record.",
+      "quote": "EPS came in at $1.85 setting a September quarter record. ... diluted earnings per share was $1.85, up 13% year-over-year on an adjusted basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance: December quarter revenue growth of 10%-12% year-over-year, best quarter ever.",
+      "quote": "We expect our December quarter total company revenue to grow by 10% to 12% year-over-year, which will be our best quarter ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance: iPhone revenue to grow double digits year-over-year, best iPhone quarter ever.",
+      "quote": "We expect iPhone revenue to grow double digits year-over-year, which would be our best iPhone quarter ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company gross margin was 47.2%, up 70 basis points sequentially, above guidance.",
+      "quote": "Company gross margin was 47.2%, above the high end of our guidance range and up 70 basis points sequentially, driven by favorable mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply constraints on several iPhone 16 and iPhone 17 models.",
+      "quote": "today, we are constrained on several 17 models. We're not predicting when the supply/demand will balance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff-related costs: $1.1 billion in September quarter, projected $1.4 billion for December quarter.",
+      "quote": "This includes approximately $1.1 billion of tariff-related costs, which is in line with what we had estimated on our last call. ... gross margin to be between 47% and 48%, which includes an estimated impact of $1.4 billion of tariff-related costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services revenue reached an all-time record of $28.8 billion, up 15% year-over-year.",
+      "quote": "Services achieved an all-time revenue record of $28.8 billion, growing 15% from a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are incredibly excited about the strength we're seeing across our products and services and we expect the December quarter's revenue to be the best ever for the company and the best ever for iPhone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Difficult year-over-year compare for Mac.",
+      "quote": "On Mac, keep in mind, we expect to face a very difficult compare against the M4 MacBook Pro, Mac Mini and iMac launches in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating expenses up 11% year-over-year, driven by R&D.",
+      "quote": "Operating expenses landed at $15.9 billion, up 11% year-over-year, driven by increased investment in R&D.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI investment and infrastructure expansion, including new manufacturing plant in Houston.",
+      "quote": "We built a new factory in Houston for advanced AI service, for example, which just started shipping its first products off the line.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record installed base across all product categories.",
+      "quote": "our installed base of active devices has reached another all-time high across all product categories and geographic segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return to growth expected in Greater China in December quarter.",
+      "quote": "We do believe that we'll return to growth in Q1, and that is largely based on the reception of the iPhone there.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of +0.30 is based on a clear guidance raise, but the magnitude of the raise relative to prior guidance is not explicitly quantified in the document (e.g., prior guidance was not stated). The score relies on the language 'best quarter ever' and 'best iPhone quarter ever' as evidence of a material raise. A reviewer may wish to confirm the prior guidance baseline from external sources."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AAPL_Bundled Earnings Report_2025-10-30",
+  "report_metadata": {
+    "issuer": "p2_apple",
+    "company": "Apple",
+    "ticker": "AAPL",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q4\\Apple-Q4-FY2025-Press-Release.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AAPL_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172214Z",
+    "timestamp": "2026-07-30T17:22:48Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_apple\\extracted\\AAPL_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q4\\Q4 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 52974,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q4\\Apple-Q4-FY2025-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 8379,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_apple\\extracted\\AAPL_FQ4_2025.txt"
+  }
+}

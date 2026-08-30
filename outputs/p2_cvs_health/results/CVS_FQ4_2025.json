@@ -1,0 +1,182 @@
+{
+  "document_id": "CVS_FQ4_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong operational turnaround in 2025 (adjusted EPS of $6.75, beating initial expectations by ~15%) and reaffirms 2026 adjusted EPS guidance of $7.00-$7.20, which is a modest increase from the $6.75 delivered in 2025. However, the guidance is not raised above the range set at the December 2025 Investor Day, and management explicitly flags the 2027 Medicare Advantage Advance Rate Notice as 'disappointing' and a risk to margin recovery, which tempers the positive momentum. The score reflects genuine operational momentum (e.g., Aetna AOI improvement of $2.6 billion, pharmacy turnaround to 'at least flat' earnings) but is capped by the unchanged guidance and the structural risk from the rate notice."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Full-year 2025 total revenues of $402.1 billion, up 7.8% year-over-year. Q4 2025 revenues of $105.7 billion, up 8.2% year-over-year.",
+    "eps": "Full-year 2025 GAAP diluted EPS of $1.39; Adjusted EPS of $6.75. Q4 2025 GAAP diluted EPS of $2.30; Adjusted EPS of $1.09.",
+    "guidance": "Reaffirmed full-year 2026 adjusted EPS guidance range of $7.00 to $7.20, and revenue guidance of at least $400 billion. Updated 2026 cash flow from operations guidance to at least $9.0 billion (from at least $10.0 billion).",
+    "margin": "Health Care Benefits segment full-year 2025 MBR of 91.2%, down 1.3 percentage points year-over-year. Q4 2025 MBR of 94.8%, flat year-over-year. Adjusted operating income margin commentary: Health Services segment Q4 AOI up 9.2% year-over-year; Pharmacy & Consumer Wellness segment Q4 AOI up 8.7% year-over-year.",
+    "key_risks": [
+      "2027 Medicare Advantage Advance Rate Notice is 'disappointing' and 'does not match the level of medical cost trend in the industry'.",
+      "Medical cost trends remain elevated across all products.",
+      "Risk adjustment position deterioration in individual exchange business in Q4.",
+      "Provision for increased flu activity observed late in Q4.",
+      "Medicaid pass-throughs impacting Q4 MBR by approximately 20 basis points on a full-year basis.",
+      "Branded drug manufacturers continue to increase prices, adding $25 billion of costs to the healthcare system in 2026 so far."
+    ],
+    "key_opportunities": [
+      "Aetna's dramatic financial improvement: year-over-year adjusted operating income improvement of over $2.6 billion in 2025.",
+      "Caremark's TrueCost model expected to gain adoption due to regulatory changes favoring transparency.",
+      "CVS Pharmacy successfully completed transition to cost-based reimbursement, establishing a trajectory of at least flat earnings annually starting in 2026.",
+      "Oak Street Health patient growth driving 21% revenue growth in Health Care Delivery (exiting ACO business).",
+      "Open Engagement Platform and technology investments to improve connectivity and consumer engagement.",
+      "Strong cash flow generation: cumulative cash flow across 2025 and 2026 increased by over $1.5 billion."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'we are on the right path and I'm excited about where we're headed' and 'I'm confident 2026 will be another year of meaningful progress', indicating a confident tone despite acknowledging headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 total revenues were $402.1 billion, up 7.8% year-over-year.",
+      "quote": "Total revenues increased to a record high $402.1 billion, up 7.8% compared to prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS was $6.75, beating initial expectations by approximately 15%.",
+      "quote": "For full year 2025, we delivered adjusted earnings per share of $6.75 and operating cash flow of $10.6 billion, exceeding our initial expectations coming into the year for adjusted EPS by approximately 15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 adjusted EPS guidance is reaffirmed at $7.00 to $7.20.",
+      "quote": "We are also reaffirming our full year 2026 adjusted EPS guidance range of $7 to $7.20 that we shared at our Investor Day in December.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 2027 Medicare Advantage Advance Rate Notice is described as 'disappointing' and a risk to margin recovery.",
+      "quote": "While the Advance Rate Notice is disappointing, our commitment to margin recovery at Aetna is unchanged.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Aetna's adjusted operating income improved by over $2.6 billion year-over-year in 2025.",
+      "quote": "In our Aetna business, we dramatically improved our financial results, delivering a year-over-year adjusted operating income improvement of over $2.6 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CVS Pharmacy completed the transition to cost-based reimbursement and expects at least flat earnings annually starting in 2026.",
+      "quote": "And importantly, I'm pleased to say that we have successfully completed the transition to a cost-based reimbursement. ... This turnaround reflects our consistent investments in colleagues, technology and the consumer experience. ... we revised our long-term annual earnings outlook for this business to at least flat going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medical cost trends remain elevated across all products.",
+      "quote": "While medical cost trends remain elevated, our experience in 2025 is supportive of our trend assumptions underlying our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are on the right path and I'm excited about where we're headed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 adjusted EPS was $1.09, down from $1.19 in the prior year.",
+      "quote": "Adjusted EPS of $1.09 decreased from $1.19 in the prior year, primarily due to a decline in adjusted operating income in the Health Care Benefits segment, reflecting changes in the seasonality of the Medicare Part D program due to the impact of the Inflation Reduction Act.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Health Care Benefits segment full-year 2025 MBR was 91.2%, down 1.3 percentage points year-over-year.",
+      "quote": "The MBR decreased to 91.2% in the year ended December 31, 2025 compared to 92.5% in the prior year primarily driven by improved underlying performance in the Government business and higher favorable prior year development.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Branded drug manufacturers added $25 billion of costs to the healthcare system in 2026 so far.",
+      "quote": "And so far in 2026, branded manufacturers have made more than 750 drug price increases, adding $25 billion of costs to the healthcare system with no added value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cumulative cash flow across 2025 and 2026 increased by over $1.5 billion.",
+      "quote": "While our expectation for 2026 operating cash flow is down slightly, when combined with the higher cash flow we delivered in 2025, our cumulative cash flow expectation across 2025 and 2026 has increased by over $1.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary of the BUY threshold. A human reviewer should confirm whether the unchanged guidance and the Medicare rate notice risk should pull the score slightly lower (to HOLD) or if the operational momentum justifies a BUY."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CVS_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_cvs_health",
+    "company": "CVS Health",
+    "ticker": "CVS",
+    "sector": "Healthcare/Consumer",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q4\\CVS-Health-Q4-2025-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q4\\CVS-Health-Q4-2025-Press-Release.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CVS_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172735Z",
+    "timestamp": "2026-07-30T17:28:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q4\\CVS-Health-Q4-2025-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_cvs_health\\extracted\\CVS_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q4\\CVS-Health-Q4-2025-Transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 79313,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q4\\CVS-Health-Q4-2025-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 12600,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_cvs_health\\extracted\\CVS_FQ4_2025.txt"
+  }
+}

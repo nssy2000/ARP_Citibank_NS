@@ -1,0 +1,184 @@
+{
+  "document_id": "PEP_FQ3_2024",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: organic revenue growth guidance was lowered from 'approximately 4 percent' to 'a low-single-digit increase'. Management explicitly cited 'subdued category performance trends in North America' and 'business disruptions due to rising geopolitical tensions in certain international markets'. The EPS guidance was reaffirmed but the revenue cut is a material negative signal for forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported net revenue of $23,319 million for Q3 2024, a decrease of 0.6% year-over-year. Organic revenue growth was 1.3%.",
+    "eps": "Reported GAAP EPS of $2.13, a decrease of 5% year-over-year. Core constant currency EPS increased 5%.",
+    "guidance": "Full-year 2024 organic revenue growth guidance lowered to 'a low-single-digit increase' from 'approximately 4 percent'. Core constant currency EPS growth guidance reaffirmed at 'at least 8 percent'.",
+    "margin": "Not disclosed in a single consolidated figure. The document shows a reported operating margin decline of 51 bps for the 12 weeks ended September 7, 2024, but core operating margin growth was 10 bps.",
+    "key_risks": [
+      "Subdued category performance trends in North America",
+      "Continued impacts related to certain recalls at Quaker Foods North America",
+      "Business disruptions due to rising geopolitical tensions in certain international markets",
+      "Foreign exchange translation headwind of approximately 1 percentage point on reported net revenue and core EPS growth"
+    ],
+    "key_opportunities": [
+      "Strong cost controls aiding profitability",
+      "Incremental investments to improve marketplace competitiveness",
+      "Productivity initiatives across the entire organization",
+      "Long-term growth potential in snacks and beverage categories globally"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO stated 'Our businesses remained resilient in the third quarter, despite subdued category performance trends in North America' and the guidance was lowered, indicating a cautious outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Forward guidance for organic revenue growth was lowered from approximately 4% to a low-single-digit increase.",
+      "quote": "Given our performance to date and our outlook for the fourth quarter, we now expect to deliver a low-single-digit increase in organic revenue (previously approximately 4 percent organic revenue growth).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported net revenue for Q3 2024 was $23,319 million, a decrease of 0.6% year-over-year.",
+      "quote": "Net Revenue $ 23,319 $ 23,453 ... Net revenue performance (0.6)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported GAAP EPS for Q3 2024 was $2.13, a decrease of 5% year-over-year.",
+      "quote": "Earnings per share (EPS) $2.13 ... EPS change (5)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core constant currency EPS increased 5% in Q3 2024.",
+      "quote": "Core constant currency EPS change 5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited subdued category performance trends in North America as a risk.",
+      "quote": "Our businesses remained resilient in the third quarter, despite subdued category performance trends in North America",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited the Quaker Foods North America recall as a continuing impact.",
+      "quote": "the continued impacts related to certain recalls at Quaker Foods North America",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited geopolitical tensions in international markets as a risk.",
+      "quote": "business disruptions due to rising geopolitical tensions in certain international markets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited strong cost controls as aiding profitability.",
+      "quote": "Strong cost controls aided our profitability, as we made incremental investments to improve our marketplace competitiveness",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management plans to invest in commercial activities and brand support.",
+      "quote": "For the balance of the year, we will continue to invest in commercial activities and brand support to stimulate consumer demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management plans to use productivity initiatives to enable investments.",
+      "quote": "Our investments will be enabled by elevating and advancing productivity initiatives across our entire organization.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "Our businesses remained resilient in the third quarter, despite subdued category performance trends in North America",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange is expected to be a headwind of approximately 1 percentage point.",
+      "quote": "An approximate 1-percentage-point foreign exchange translation headwind to impact reported net revenue and core EPS growth based on current market consensus rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core constant currency EPS growth guidance for full-year 2024 is at least 8%.",
+      "quote": "We continue to expect to deliver at least 8 percent core constant currency EPS growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.margin",
+      "reason": "Margin commentary is not provided in a single consolidated figure; the document includes a reconciliation table showing reported operating margin decline of 51 bps and core operating margin growth of 10 bps for the 12-week period. A human reviewer may want to confirm the appropriate figure."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2024-10-08",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-10-08",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q3\\PEP-8K-EX99.1-2024-Q3-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q3\\PEP-Q3-2024-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:46:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q3\\PEP-8K-EX99.1-2024-Q3-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q3\\PEP-8K-EX99.1-2024-Q3-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 40937,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q3\\PEP-Q3-2024-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 44452,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ3_2024.txt"
+  }
+}

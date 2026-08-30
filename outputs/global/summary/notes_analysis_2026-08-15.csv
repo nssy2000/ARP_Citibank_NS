@@ -1,0 +1,144 @@
+# notes_analysis_2026-08-15.csv
+# Generated: 2026-08-15
+# Source: data/human/notes/ (93 files, 5 raters, 3 formats)
+# README: data/human/notes/README.md
+# SEALED constraint: formal worksheets read only above '— SEALED —' marker.
+#   Offset-A files (David 52-71) read only above 'FIRST READ SEALED'.
+#   Dragos Phase 3 log excluded from evidence alignment and reasoning taxonomy.
+# Dragos Phase 3 scores and timings are on a SURPRISE scale (not sentiment). Not pooled.
+# Evidence alignment: matched=exact substring; near_matched=4+ consecutive words found;
+#   not_found=no 4-word overlap; source_unavailable=no extracted text for that ticker.
+# Reasoning categories: built bottom-up from corpus; eight categories (see markdown).
+# Tone direction: inferred from positive/negative language in rationale text.
+# Numbers direction: inferred from quantitative figures (up/down percentages etc).
+# Tension: yes if tone and numbers point in different directions; followed=which the signal followed.
+# Suppression: accuracy / category-accuracy cells with n < 10 suppressed in markdown.
+#
+file,rater,format,has_sealed,company,report,info_set,has_sim,time_mins,signal,n_quotes,evidence_matched,evidence_near,evidence_not_found,evidence_unknown,rationale_categories,tone,numbers,tension,followed
+01 amazon q1 2026 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q1 2026
+Release date Wednesday 29 April 2026",full,False,52,BUY,7,7,0,0,0,revenue_earnings;margin_cost;uncertainty_risk,positive,positive,no,n/a
+02 amazon q3 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q3 2025
+Release date Thursday 30 October 2025",full,False,47,SELL,7,7,0,0,0,revenue_earnings;margin_cost;segment_product;macro_external;uncertainty_risk,mixed,positive,no,n/a
+03 amazon q4 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q4 2025
+Release date Thursday 5 February 2026",full,False,58,SELL,7,7,0,0,0,revenue_earnings;margin_cost;segment_product;valuation_expectations,negative,positive,yes,tone
+04 amd q1 2026 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q1 2026
+Release date Tuesday 5 May 2026",full,False,51,BUY,7,7,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product;macro_external,positive,positive,no,n/a
+05 amd q2 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q2 2025
+Release date Tuesday 5 August 2025",full,False,44,BUY,7,7,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product;macro_external,positive,positive,no,n/a
+06 amd q4 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q4 2025
+Release date Tuesday 3 February 2026",full,False,55,BUY,7,7,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product;management_tone;macro_external;valuation_expectations;uncertainty_risk,mixed,positive,no,n/a
+07 coinbase q1 2026 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q1 2026
+Release date Thursday 7 May 2026",full,False,63,BUY,7,7,0,0,0,revenue_earnings;margin_cost;segment_product,mixed,negative,no,n/a
+08 coinbase q3 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q3 2025
+Release date Thursday 30 October 2025",full,False,49,BUY,7,7,0,0,0,revenue_earnings;forward_guidance;valuation_expectations,positive,positive,no,n/a
+09 coinbase q4 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q4 2025
+Release date Thursday 12 February 2026",full,False,42,HOLD,7,7,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product;valuation_expectations,mixed,negative,no,n/a
+10 eli lilly q1 2026 david.pdf,David,formal_worksheet,True,Eli Lilly and Company (LLY),"Q1 2026
+Release date Thursday 30 April 2026",full,False,68,BUY,7,5,2,0,0,revenue_earnings;forward_guidance;segment_product,positive,positive,no,n/a
+11 eli lilly q3 2025 david.pdf,David,formal_worksheet,True,Eli Lilly and Company (LLY),"Q3 2025
+Release date Thursday 30 October 2025",full,False,61,SELL,7,7,0,0,0,revenue_earnings;segment_product;valuation_expectations,positive,positive,no,n/a
+12 eli lilly q4 2025 david.pdf,David,formal_worksheet,True,Eli Lilly and Company (LLY),"Q4 2025
+Release date Wednesday 4 February 2026",full,False,57,BUY,7,7,0,0,0,revenue_earnings;forward_guidance;segment_product;valuation_expectations,positive,positive,no,n/a
+13 meta q1 2026 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q1 2026
+Release date Wednesday 29 April 2026",full,False,46,BUY,7,7,0,0,0,revenue_earnings;margin_cost;segment_product,positive,positive,no,n/a
+14 meta q3 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q3 2025
+Release date Wednesday 29 October 2025",full,False,53,SELL,7,7,0,0,0,revenue_earnings;margin_cost;segment_product,mixed,positive,no,n/a
+15 meta q4 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q4 2025
+Release date Wednesday 28 January 2026",full,False,65,BUY,7,7,0,0,0,revenue_earnings;forward_guidance;margin_cost;valuation_expectations;uncertainty_risk,mixed,positive,no,n/a
+19 tesla q1 2026 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q1 2026
+Release date Wednesday 22 April 2026",full,False,41,HOLD,7,7,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product,negative,positive,yes,ambiguous
+20 tesla q3 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q3 2025
+Release date Wednesday 22 October 2025",full,False,60,BUY,7,7,0,0,0,margin_cost;macro_external,positive,unclear,no,n/a
+21 tesla q4 2025 david.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q4 2025
+Release date Wednesday 28 January 2026",full,False,50,BUY,7,7,0,0,0,margin_cost;segment_product,neutral,unclear,no,n/a
+22 alphabet q1 2026 guidance sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q1 2026
+Release date Wednesday 29 April 2026",guidance,True,34,SELL,0,0,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product;uncertainty_risk,negative,unclear,no,n/a
+23 alphabet q3 2025 qanda sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q3 2025
+Release date Wednesday 29 October 2025",qanda,True,43,SELL,0,0,0,0,0,revenue_earnings;margin_cost,negative,unclear,no,n/a
+24 alphabet q4 2025 financials sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q4 2025
+Release date Wednesday 4 February 2026",financials,True,36,BUY,0,0,0,0,0,revenue_earnings;margin_cost;segment_product;macro_external,positive,positive,no,n/a
+25 booking q2 2025 financials sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q2 2025
+Release date Tuesday 29 July 2025",financials,True,31,HOLD,0,0,0,0,0,revenue_earnings;forward_guidance;macro_external,positive,positive,no,n/a
+26 booking q3 2025 guidance sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q3 2025
+Release date Tuesday 28 October 2025",guidance,True,33,HOLD,0,0,0,0,0,forward_guidance;segment_product;macro_external,positive,unclear,no,n/a
+27 booking q4 2025 qanda sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"Q4 2025
+Release date Wednesday 18 February 2026",qanda,True,45,SELL,0,0,0,0,0,margin_cost;segment_product;management_tone;macro_external,negative,negative,no,n/a
+28 broadcom q1 2026 qanda sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, forward guidance) are withheld",qanda,True,47,SELL,0,0,0,0,0,revenue_earnings;margin_cost;segment_product;management_tone,negative,negative,no,n/a
+29 broadcom q3 2025 financials sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (forward guidance, the earnings call Q&A) are withheld by",financials,True,32,SELL,0,0,0,0,0,revenue_earnings;segment_product;management_tone,mixed,positive,no,n/a
+30 broadcom q4 2025 guidance sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, the earnings call Q&A) are with-",guidance,True,35,BUY,0,0,0,0,0,revenue_earnings;forward_guidance;segment_product,neutral,positive,no,n/a
+31 costco q1 2026 qanda sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, forward guidance) are withheld",qanda,True,41,HOLD,0,0,0,0,0,revenue_earnings;margin_cost;management_tone;macro_external,positive,unclear,no,n/a
+32 costco q2 2026 financials sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (forward guidance, the earnings call Q&A) are withheld by",financials,True,33,HOLD,0,0,0,0,0,revenue_earnings;margin_cost;macro_external;valuation_expectations,positive,unclear,no,n/a
+33 costco q4 2025 guidance sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, the earnings call Q&A) are with-",guidance,True,30,HOLD,0,0,0,0,0,forward_guidance;segment_product;valuation_expectations,neutral,unclear,no,n/a
+34 oracle q1 2026 qanda sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, forward guidance) are withheld",qanda,True,44,SELL,0,0,0,0,0,forward_guidance;management_tone;valuation_expectations,negative,unclear,no,n/a
+35 oracle q2 2026 financials sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (forward guidance, the earnings call Q&A) are withheld by",financials,True,38,BUY,0,0,0,0,0,revenue_earnings;segment_product,positive,positive,no,n/a
+36 oracle q3 2026 guidance sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, the earnings call Q&A) are with-",guidance,True,37,SELL,0,0,0,0,0,forward_guidance;margin_cost;segment_product,negative,unclear,no,n/a
+37 starbucks q1 2026 financials sim.pdf,David,formal_worksheet,True,releases BEFORE the market open. The overnight move is,"content. The other sections (forward guidance, the earnings call Q&A) are withheld by",financials,True,35,SELL,0,0,0,0,0,revenue_earnings;margin_cost,negative,mixed,no,n/a
+38 starbucks q3 2025 guidance sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, the earnings call Q&A) are with-",guidance,True,39,SELL,0,0,0,0,0,margin_cost;segment_product;management_tone,negative,unclear,no,n/a
+39 starbucks q4 2025 qanda sim.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, forward guidance) are withheld",qanda,True,42,BUY,0,0,0,0,0,management_tone;macro_external,positive,unclear,no,n/a
+40 caterpillar q2 2025 financials.pdf,David,formal_worksheet,True,releases BEFORE the market open. The overnight move is,"Q2 2025
+Release date Tuesday 5 August 2025",financials,False,32,HOLD,0,0,0,0,0,revenue_earnings;margin_cost;segment_product;macro_external;valuation_expectations,negative,unclear,no,n/a
+41 caterpillar q3 2025 guidance.pdf,David,formal_worksheet,True,releases BEFORE the market open. The overnight move is,"Q3 2025
+Release date Wednesday 29 October 2025",guidance,False,38,BUY,0,0,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product,positive,positive,no,n/a
+42 caterpillar q4 2025 qanda.pdf,David,formal_worksheet,True,releases BEFORE the market open. The overnight move is,"Q4 2025
+Release date Thursday 29 January 2026",qanda,False,43,HOLD,0,0,0,0,0,segment_product;management_tone;macro_external;valuation_expectations,positive,unclear,no,n/a
+43 micron q1 2026 qanda.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, forward guidance) are withheld",qanda,False,44,SELL,0,0,0,0,0,margin_cost;segment_product;management_tone;valuation_expectations,negative,unclear,no,n/a
+44 micron q2 2026 financials.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (forward guidance, the earnings call Q&A) are withheld by",financials,False,31,BUY,0,0,0,0,0,revenue_earnings;forward_guidance;margin_cost;valuation_expectations,positive,positive,no,n/a
+45 micron q4 2025 guidance.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, the earnings call Q&A) are with-",guidance,False,34,BUY,0,0,0,0,0,revenue_earnings;forward_guidance;margin_cost,positive,positive,no,n/a
+46 salesforce q2 2026 financials.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (forward guidance, the earnings call Q&A) are withheld by",financials,False,33,BUY,0,0,0,0,0,revenue_earnings;margin_cost;segment_product,positive,unclear,no,n/a
+47 salesforce q3 2026 guidance.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, the earnings call Q&A) are with-",guidance,False,36,SELL,0,0,0,0,0,forward_guidance;segment_product;macro_external,mixed,unclear,no,n/a
+48 salesforce q4 2026 qanda.pdf,David,formal_worksheet,True,releases after the market close. The overnight move is defined,"content. The other sections (the reported financial results, forward guidance) are withheld",qanda,False,46,SELL,0,0,0,0,0,forward_guidance;management_tone;valuation_expectations;uncertainty_risk,negative,unclear,no,n/a
+49 unitedhealth q2 2025 qanda.pdf,David,formal_worksheet,True,releases BEFORE the market open. The overnight move is,"Q2 2025
+Release date Tuesday 29 July 2025",qanda,False,48,BUY,0,0,0,0,0,revenue_earnings;margin_cost;management_tone,negative,negative,no,n/a
+50 unitedhealth q3 2025 financials.pdf,David,formal_worksheet,True,releases BEFORE the market open. The overnight move is,"Q3 2025
+Release date Tuesday 28 October 2025",financials,False,37,SELL,0,0,0,0,0,revenue_earnings;margin_cost,negative,positive,yes,tone
+51 unitedhealth q4 2025 guidance.pdf,David,formal_worksheet,True,releases BEFORE the market open. The overnight move is,"Q4 2025
+Release date Tuesday 27 January 2026",guidance,False,40,BUY,0,0,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product,mixed,positive,no,n/a
+52 americanexpress q22025 financials.pdf,David,formal_offset_a,True,American Express Company,Q2 2025,financials,False,22,BUY,0,0,0,0,0,revenue_earnings;segment_product,mixed,positive,no,n/a
+53 americanexpress q32025 guidance.pdf,David,formal_offset_a,True,American Express Company,Q3 2025,guidance,False,24,HOLD,0,0,0,0,0,forward_guidance;margin_cost;segment_product,neutral,unclear,no,n/a
+54 americanexpress q42025 qanda.pdf,David,formal_offset_a,True,American Express Company,Q4 2025,qanda,False,26,HOLD,0,0,0,0,0,management_tone;valuation_expectations,positive,unclear,no,n/a
+55 americanexpress q12026 full.pdf,David,formal_offset_a,True,American Express Company,Q1 2026,full,False,33,HOLD,0,0,0,0,0,revenue_earnings;forward_guidance;margin_cost,positive,unclear,no,n/a
+56 chevron q22025 financials.pdf,David,formal_offset_a,True,Chevron Corporation,Q2 2025,financials,False,25,SELL,0,0,0,0,0,revenue_earnings;segment_product;macro_external,positive,unclear,no,n/a
+57 chevron q32025 guidance.pdf,David,formal_offset_a,True,Chevron Corporation,Q3 2025,guidance,False,20,HOLD,0,0,0,0,0,forward_guidance;margin_cost;segment_product,neutral,positive,no,n/a
+58 chevron q42025 qanda.pdf,David,formal_offset_a,True,Chevron Corporation,Q4 2025,qanda,False,27,HOLD,0,0,0,0,0,revenue_earnings;management_tone,positive,positive,no,n/a
+59 chevron q12026 full.pdf,David,formal_offset_a,True,Chevron Corporation,Q1 2026,full,False,32,HOLD,0,0,0,0,0,uncategorised,mixed,unclear,no,n/a
+60 intel q22025 financials.pdf,David,formal_offset_a,True,Intel Corporation,Q2 2025,financials,False,26,SELL,0,0,0,0,0,revenue_earnings,positive,positive,no,n/a
+61 intel q32025 guidance.pdf,David,formal_offset_a,True,Intel Corporation,Q3 2025,guidance,False,24,SELL,0,0,0,0,0,forward_guidance;margin_cost;segment_product,negative,unclear,no,n/a
+62 intel q42025 qanda.pdf,David,formal_offset_a,True,Intel Corporation,Q4 2025,qanda,False,22,BUY,0,0,0,0,0,management_tone,positive,unclear,no,n/a
+63 intel q12026 full.pdf,David,formal_offset_a,True,Intel Corporation,Q1 2026,full,False,38,BUY,0,0,0,0,0,uncategorised,neutral,unclear,no,n/a
+64 mastercard q22025 financials.pdf,David,formal_offset_a,True,Mastercard Incorporated,Q2 2025,financials,False,23,BUY,0,0,0,0,0,revenue_earnings;segment_product,neutral,positive,no,n/a
+65 mastercard q32025 guidance.pdf,David,formal_offset_a,True,Mastercard Incorporated,Q3 2025,guidance,False,21,HOLD,0,0,0,0,0,forward_guidance;segment_product;macro_external,neutral,unclear,no,n/a
+66 mastercard q42025 qanda.pdf,David,formal_offset_a,True,Mastercard Incorporated,Q4 2025,qanda,False,25,HOLD,0,0,0,0,0,uncategorised,positive,unclear,no,n/a
+67 mastercard q12026 full.pdf,David,formal_offset_a,True,Mastercard Incorporated,Q1 2026,full,False,34,HOLD,0,0,0,0,0,segment_product;macro_external;valuation_expectations,neutral,unclear,no,n/a
+68 shell q22025 financials.pdf,David,formal_offset_a,True,Shell plc,Q2 2025,financials,False,24,BUY,0,0,0,0,0,revenue_earnings;margin_cost;segment_product;valuation_expectations,positive,positive,no,n/a
+69 shell q32025 guidance.pdf,David,formal_offset_a,True,Shell plc,Q3 2025,guidance,False,21,HOLD,0,0,0,0,0,forward_guidance;segment_product;management_tone,neutral,unclear,no,n/a
+70 shell q42025 qanda.pdf,David,formal_offset_a,True,Shell plc,Q4 2025,qanda,False,25,HOLD,0,0,0,0,0,management_tone,neutral,unclear,no,n/a
+71 shell q12026 full.pdf,David,formal_offset_a,True,Shell plc,Q1 2026,full,False,31,HOLD,0,0,0,0,0,segment_product,neutral,unclear,no,n/a
+Abdul_notes_full_transcript.pdf,Abdul,freeform,False,issues.,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+Abdul_notes_new_Backtesting.pdf,Abdul,freeform,False,,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+Dragos - Phase 3 reading notes.pdf,Dragos,two_pass_log,False,and 1.4%;,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+Last 4 companies-Meriem.pdf,Meriem,freeform,False,,,full,False,,BUY,0,0,0,0,0,,no_text,no_text,no,n/a
+Meriem's notes.pdf,Meriem,freeform,False,,,full,False,,,0,0,0,0,0,revenue_earnings;forward_guidance;management_tone;uncertainty_risk,mixed,unclear,no,n/a
+Meriem's- Netflix buy_sell_hold.pdf,Meriem,freeform,False,,,full,False,,BUY,0,0,0,0,0,,no_text,no_text,no,n/a
+Meriem-Disney.pdf,Meriem,freeform,False,,,full,False,,HOLD,0,0,0,0,0,,no_text,no_text,no,n/a
+NVIDIA Q1 2025 - Dragos manual baseline.pdf,Dragos,formal_worksheet,True,NVIDIA Corporation (NVDA),Q1 2025,full,False,50,SELL,6,6,0,0,0,,no_text,no_text,no,n/a
+NVIDIA Q2 2025 - Dragos manual baseline.pdf,Dragos,formal_worksheet,True,NVIDIA Corporation (NVDA),Q2 2025,full,False,48,BUY,6,6,0,0,0,,no_text,no_text,no,n/a
+NVIDIA Q3 2025 - Dragos manual baseline.pdf,Dragos,formal_worksheet,True,NVIDIA Corporation (NVDA),Q3 2025,full,False,40,BUY,6,6,0,0,0,,no_text,no_text,no,n/a
+NVIDIA Q4 2025 - Dragos manual baseline.pdf,Dragos,formal_worksheet,True,NVIDIA Corporation (NVDA),Q4 2025,full,False,44,BUY,6,6,0,0,0,,no_text,no_text,no,n/a
+Netflix Q1-Q4 2025 - Dragos manual baseline.pdf,Dragos,formal_worksheet,True,"Netflix, Inc. (NFLX)","Q1 2025
+Release date Thursday 17 April 2025",full,False,42,BUY,5,5,0,0,0,,no_text,no_text,no,n/a
+netflix q3 2025 david.pdf,David,formal_worksheet,True,"Netflix, Inc. (NFLX)","Q3 2025
+Release date Tuesday 21 October 2025",full,False,,HOLD,9,9,0,0,0,revenue_earnings;margin_cost;valuation_expectations,mixed,positive,no,n/a
+netflix q4 2024 david.pdf,David,formal_worksheet,True,"Netflix, Inc. (NFLX)","Q4 2024
+Release date Tuesday 21 January 2025",full,False,47,BUY,3,3,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product;management_tone;macro_external;valuation_expectations;uncertainty_risk,positive,mixed,no,n/a
+netflix q4 2025 david.pdf,David,formal_worksheet,True,"Netflix, Inc. (NFLX)","Q4 2025
+Release date Tuesday 20 January 2026",full,False,,SELL,7,7,0,0,0,revenue_earnings;forward_guidance;margin_cost;segment_product;management_tone;valuation_expectations;uncertainty_risk,mixed,mixed,no,n/a
+new backtesting- Meriem.pdf,Meriem,freeform,False,investing  in  away  from  homes  channels,,full,False,,BUY,0,0,0,0,0,,no_text,no_text,no,n/a
+Bank of America predictions.docx,Nigel,freeform,False,,,full,False,60,BUY,0,0,0,0,0,,no_text,no_text,no,n/a
+Boeing Predictions.docx,Nigel,freeform,False,,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+Citigroup Summary.docx,Nigel,freeform,False,"[List Paragraph] Higher investments in tech upgrades into operations like AI tools, modernising the bank.",,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+LM_Summary.docx,Nigel,freeform,False,,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+LVMHSummary.docx,Nigel,freeform,False,,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+Maersk Summary.docx,Nigel,freeform,False,,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+Nigel's Notes Phase 3.docx,Nigel,freeform,False,[List Paragraph] US Commercial Customer Count up 65% YoY,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+NovoSummary.docx,Nigel,freeform,False,,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a
+UAL Summary.docx,Nigel,freeform,False,,,full,False,,,0,0,0,0,0,,no_text,no_text,no,n/a

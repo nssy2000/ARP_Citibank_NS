@@ -1,0 +1,191 @@
+{
+  "document_id": "ORCL_FQ2_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Oracle delivered a strong quarter with significant acceleration in cloud revenue (up 34% USD) and a massive increase in RPO to $523 billion, up 438% year-over-year. Management raised forward expectations by increasing FY2026 CapEx guidance by $15 billion and adding $4 billion of revenue to FY2027, while guiding Q3 total revenue growth of 19-21% USD, up from the current 14% growth. The improvement is organic, driven by AI and cloud demand, not FX or one-time items, though the EPS beat was partly boosted by a $2.7 billion gain from the Ampere sale, which tempers the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $16.1 billion, up 14% in USD and up 13% in constant currency. Cloud revenue was $8.0 billion, up 34% in USD and up 33% in constant currency. Cloud infrastructure (IaaS) revenue was $4.1 billion, up 68% in USD and up 66% in constant currency. Cloud application (SaaS) revenue was $3.9 billion, up 11% in both USD and constant currency.",
+    "eps": "Q2 GAAP earnings per share was $2.10, up 91% in USD and up 86% in constant currency. Non-GAAP earnings per share was $2.26, up 54% in USD and up 51% in constant currency. GAAP EPS was positively impacted by a $2.7 billion pre-tax gain from the sale of Ampere.",
+    "guidance": "For Q3 FY2026, total cloud revenue expected to grow 37-41% in constant currency and 40-44% in USD. Total revenues expected to grow 16-18% in constant currency and 19-21% in USD. Non-GAAP EPS expected to grow 12-14% in constant currency ($1.64-$1.68) and 16-18% in USD ($1.70-$1.74). Full-year FY2026 revenue expectation of $67 billion remains unchanged. FY2026 CapEx expected to be about $15 billion higher than previously forecasted. Added $4 billion of additional revenue expected in FY2027.",
+    "margin": "GAAP operating margin was 29% (down 56 basis points year-over-year). Non-GAAP operating margin was 42% (down 150 basis points year-over-year). Non-GAAP operating income was $6.7 billion, up 10% in USD and up 8% in constant currency.",
+    "key_risks": [
+      "Significant capital intensity and need for funding; management noted they expect to need less than $100 billion raised, but this is a large capital requirement.",
+      "Potential for customer concentration in AI infrastructure; management discussed fungibility of data centers if a large customer cannot pay.",
+      "Forward-looking statements include risks related to AI product development, datacenter capacity, component sourcing (e.g., GPUs), and economic conditions.",
+      "Free cash flow was negative $10 billion in Q2 due to high CapEx, and free cash flow growth has been declining over trailing quarters."
+    ],
+    "key_opportunities": [
+      "RPO increased by $68 billion sequentially to $523 billion, driven by new commitments from Meta, NVIDIA, and others.",
+      "Cloud infrastructure revenue grew 66% in constant currency, with GPU-related revenue growing 177%.",
+      "Multicloud database business is fastest growing, up 817% in Q2.",
+      "AI embedded in applications and database is driving growth; over 400 AI features live in Fusion, and 274 customers live on clinical AI agent.",
+      "Expansion of datacenter regions: 147 live customer-facing regions with 64 more planned, and 45 multicloud regions live across AWS, Azure, and GCP."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management used confident and forward-looking language such as 'another excellent quarter of execution,' 'we see even better days ahead of us,' and 'I expect revenue and earnings growth to accelerate off an even larger base.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $16.1 billion, up 14% in USD and 13% in constant currency.",
+      "quote": "Total quarterly revenues were up 14% in USD, and up 13% in constant currency to $16.1 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $2.26, up 54% in USD and 51% in constant currency.",
+      "quote": "Non-GAAP earnings per share was $2.26, up 54% in USD and up 51% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $2.10, up 91% in USD and 86% in constant currency.",
+      "quote": "Q2 GAAP earnings per share was $2.10, up 91% in USD and up 86% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 guidance implies total revenue growth of 19-21% in USD, up from current 14% growth.",
+      "quote": "Total revenues are expected to grow from 16% to 18% in constant currency, and are expected to grow from 19% to 21% in USD.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 CapEx guidance was raised by about $15 billion.",
+      "quote": "Given the added RPO this quarter, can be monetized quickly starting next year, we now expect fiscal 2026 CapEx will be about $15 billion higher than we forecasted after Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2027 revenue expectation increased by $4 billion due to added RPO.",
+      "quote": "The result is we now expect $4 billion of additional revenue in FY 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RPO increased to $523 billion, up 438% year-over-year.",
+      "quote": "Total Remaining Performance Obligations were up 438% year-over-year in USD to $523 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cloud infrastructure revenue grew 66% in constant currency.",
+      "quote": "Cloud infrastructure (IaaS) Revenue $4.1 billion, up 68% in USD and up 66% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Multicloud database business grew 817% in Q2.",
+      "quote": "Our Multicloud database business is our fastest growing business—up 817% in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin was 42%, down 150 basis points year-over-year.",
+      "quote": "OPERATING MARGIN % 29% 42% 30% 43% (56) bp. (150) bp. (92) bp. (171) bp.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was negative $10 billion in Q2.",
+      "quote": "Operating cash flow in Q2 was $2.1 billion, while free cash flow was a negative $10 billion and CapEx was $12 billion reflecting the investments being made to support our accelerating growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to need less than $100 billion raised to fund build-out.",
+      "quote": "Based on what we see right now, we expect we will need less if not substantially less, you know, money raised than that amount. To go and fund this build-out.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in accelerating growth.",
+      "quote": "Looking ahead, we're executing well on a big and growing pipeline and I expect revenue and earnings growth to accelerate off an even larger base.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS beat was partly due to a one-time gain from Ampere sale.",
+      "quote": "Our GAAP and non-GAAP earnings per share were both positively impacted by a $2.7 billion pre-tax gain in the sale of Oracle's interest in our Ampere chip company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 is based on guidance raise and strong RPO, but the EPS beat was partly due to a one-time gain; ensure the organic nature of the improvement is correctly weighted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ORCL_Bundled Earnings Report_2025-12-10",
+  "report_metadata": {
+    "issuer": "p2_oracle",
+    "company": "Oracle",
+    "ticker": "ORCL",
+    "sector": "Technology/Software - Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2025-12-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q2\\ORCL_Q2_2026_earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ORCL_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T101517Z",
+    "timestamp": "2026-08-09T10:15:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_oracle\\extracted\\ORCL_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 33483,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q2\\ORCL_Q2_2026_earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 43843,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_oracle\\extracted\\ORCL_FQ2_2026.txt"
+  }
+}

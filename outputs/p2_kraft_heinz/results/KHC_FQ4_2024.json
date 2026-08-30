@@ -1,0 +1,282 @@
+{
+  "document_id": "KHC_FQ4_2024",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "Forward guidance for 2025 is weak: Organic Net Sales expected flat to down 2.5%, Constant Currency Adjusted Operating Income down 1% to 4%, and Adjusted EPS guided to $2.63-$2.74, below 2024's $3.06. Management acknowledges a challenging 2024 with top line below expectations and continued consumer uncertainty, indicating a lowered forward outlook despite some confident language about strategic initiatives."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FY2024 net sales decreased 3.0% to $25.8 billion; Q4 net sales decreased 4.1% to $6.6 billion. Organic Net Sales decreased 2.1% for FY and 3.1% for Q4.",
+    "eps": "FY2024 diluted EPS was $2.26, down 2.2%; Adjusted EPS was $3.06, up 2.7%. Q4 diluted EPS was $1.76, up 188.5%; Adjusted EPS was $0.84, up 7.7%.",
+    "guidance": "FY2025: Organic Net Sales flat to down 2.5%; Constant Currency Adjusted Operating Income down 1% to 4%; Adjusted EPS $2.63-$2.74; effective tax rate ~26%; interest expense ~$900M; other expense/(income) ~($140M); Free Cash Flow flat with conversion ~95%.",
+    "margin": "FY2024 gross profit margin increased 120 bps to 34.7%; Adjusted Gross Profit Margin increased 100 bps to 34.7%. Q4 gross profit margin increased 30 bps to 34.1%; Adjusted Gross Profit Margin decreased 40 bps to 34.4%. FY2025 Adjusted Gross Profit Margin expected flat to slightly expand.",
+    "key_risks": [
+      "Continued shifts in consumer behavior due to economic uncertainty",
+      "Decline in Lunchables",
+      "Decline in U.S. Away From Home",
+      "Higher input costs and increased labor costs",
+      "Unfavorable foreign currency impact",
+      "Higher taxes due to global minimum tax regulations",
+      "Non-cash impairment losses on Oscar Mayer brand and other intangibles",
+      "Competitive industry and private label competition",
+      "Potential additional impairments of goodwill or intangible assets"
+    ],
+    "key_opportunities": [
+      "Away From Home new client wins (75% locked in, ~40% incremental growth)",
+      "Emerging Markets distribution increase (17% increase, 40,000 additional points planned)",
+      "75% of 2025 innovation pipeline locked in",
+      "Brand Growth System driving brand superiority",
+      "Efficiency initiatives in procurement and logistics",
+      "Investments in price, product, and marketing",
+      "Technology-led solutions driving efficiencies"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management acknowledges a challenging year and weak guidance but expresses confidence in strategy and initiatives, e.g., 'Although 2024 was a challenging year... we remained disciplined...' and 'I am confident in our strategy...'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FY2024 net sales decreased 3.0% to $25.8 billion.",
+      "quote": "Net sales decreased 3.0%; Organic Net Sales (1) decreased 2.1% ... Net Sales decreased 3.0 percent versus the year-ago period to $25.8 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 net sales decreased 4.1% to $6.6 billion.",
+      "quote": "Net sales decreased 4.1%; Organic Net Sales decreased 3.1% ... Net sales decreased 4.1 percent versus the year-ago period to $6.6 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2024 diluted EPS was $2.26, down 2.2%.",
+      "quote": "Diluted EPS was $2.26, down 2.2%; Adjusted EPS (1) was $3.06, up 2.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 diluted EPS was $1.76, up 188.5%.",
+      "quote": "Diluted EPS was $1.76, up 188.5%; Adjusted EPS was $0.84, up 7.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 guidance: Organic Net Sales flat to down 2.5%.",
+      "quote": "For fiscal year 2025, the Company expects: Organic Net Sales (1)(2) flat to down 2.5 percent versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 guidance: Constant Currency Adjusted Operating Income down 1% to 4%.",
+      "quote": "Constant Currency Adjusted Operating Income (1)(2) down 1 percent to down 4 percent versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Adjusted EPS guidance is $2.63 to $2.74.",
+      "quote": "Adjusted EPS (1)(2) in the range of $2.63 to $2.74.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2024 gross profit margin increased 120 bps to 34.7%.",
+      "quote": "Gross profit margin increased 120 basis points to 34.7%; Adjusted Gross Profit Margin (1) increased 100 basis points to 34.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross profit margin increased 30 bps to 34.1%.",
+      "quote": "Gross profit margin increased 30 basis points to 34.1%; Adjusted Gross Profit Margin decreased 40 basis points to 34.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Adjusted Gross Profit Margin expected flat to slightly expand.",
+      "quote": "This also contemplates an Adjusted Gross Profit Margin (1)(2) that is expected to be flat to slightly expand versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledges 2024 was challenging with top line below expectations.",
+      "quote": "Although 2024 was a challenging year with our top line results coming in below our expectations, we remained disciplined in protecting profitability...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer behavior shifts due to economic uncertainty are a risk.",
+      "quote": "Unfavorable volume/mix was primarily driven by continued shifts in consumer behavior due to economic uncertainty and a decline in Lunchables.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Decline in Lunchables is a risk.",
+      "quote": "Unfavorable volume/mix was primarily driven by continued shifts in consumer behavior due to economic uncertainty and a decline in Lunchables.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Decline in U.S. Away From Home is a risk.",
+      "quote": "Unfavorable volume/mix was primarily driven by continued shifts in consumer behavior due to economic uncertainty and a decline in U.S. Away From Home.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher input costs and labor costs are risks.",
+      "quote": "These factors more than offset unfavorable volume/mix, increased manufacturing expenses due, in part, to increased labor costs, increased SG&A due to investments in technology, and an unfavorable impact from foreign currency (0.4 pp).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unfavorable foreign currency impact is a risk.",
+      "quote": "Net sales decreased 3.0 percent versus the year-ago period to $25.8 billion, including an unfavorable 0.7 percentage point impact from foreign currency",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher taxes due to global minimum tax regulations are a risk.",
+      "quote": "This increase in the effective tax rate is primarily driven by the impact of several countries enacting the global minimum tax regulations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-cash impairment losses on Oscar Mayer brand are a risk.",
+      "quote": "This impairment charge was largely due to an intangible asset impairment on the Oscar Mayer brand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive industry and private label competition are risks.",
+      "quote": "operating in a highly competitive industry; the Company’s ability to correctly predict, identify, and interpret changes in consumer preferences and demand... the Company’s ability to leverage its brand value to compete against private label products",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential additional impairments of goodwill or intangible assets are a risk.",
+      "quote": "additional impairments of the carrying amounts of goodwill or other indefinite-lived intangible assets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Away From Home new client wins are an opportunity.",
+      "quote": "In Away From Home, 75% of new customer wins are already locked in. That's about 40% of a year-over-year incremental growth in our Away From Home business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Emerging Markets distribution increase is an opportunity.",
+      "quote": "In Emerging Markets, we are building on the 17% distribution increase with new 40,000 additional points planned in 2025 that we have already mapped out",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "75% of 2025 innovation pipeline is locked in.",
+      "quote": "75% of the 2025 innovation pipeline is already locked in.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brand Growth System is an opportunity.",
+      "quote": "We will leverage initiatives already set in motion, heading into the year with momentum across product innovation, our Brand Growth System to drive brand superiority",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency initiatives in procurement and logistics are an opportunity.",
+      "quote": "Adjusted Operating Income (1) increased 1.2 percent versus the year-ago period to $5.4 billion, primarily driven by higher pricing, lower variable compensation expense, and the beneficial impact from our efficiency initiatives, primarily in procurement and logistics.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investments in price, product, and marketing are an opportunity.",
+      "quote": "We are investing in price, investing in product and we are investing in marketing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Technology-led solutions are an opportunity.",
+      "quote": "We are investing in technology-led solutions that are actually helping us drive the efficiencies that lead to improved margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, acknowledging challenges but expressing confidence.",
+      "quote": "Although 2024 was a challenging year with our top line results coming in below our expectations, we remained disciplined in protecting profitability... I am confident in our strategy, our people, and our unique ownership-centric culture to drive consistent long-term profitable growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance is clearly lowered, but management expresses confidence in strategic initiatives; score reflects the negative forward outlook but could be debated given the confident language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 28,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KHC_Bundled Earnings Report_2025-02-12",
+  "report_metadata": {
+    "issuer": "p2_kraft_heinz",
+    "company": "Kraft Heinz",
+    "ticker": "KHC",
+    "sector": "Consumer Defensive/Packaged Foods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2024-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2024-Q4\\KHC_Q4_2024_Earnings_Call_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KHC_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260809T100629Z",
+    "timestamp": "2026-08-09T10:06:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2024-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_kraft_heinz\\extracted\\KHC_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2024-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 41965,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2024-Q4\\KHC_Q4_2024_Earnings_Call_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 7274,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_kraft_heinz\\extracted\\KHC_FQ4_2024.txt"
+  }
+}

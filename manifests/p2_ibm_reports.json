@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_ibm",
+  "reports": [
+    {
+      "document_id": "IBM_FQ2_2025",
+      "issuer": "p2_ibm",
+      "company": "IBM",
+      "ticker": "IBM",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-23",
+      "release_date": "2025-07-23",
+      "release_date_source": "EDGAR 8-K Item 2.02, ibm-20250723.htm, acc 0000051143-25-000048",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/ibm/CY2025-Q2/Q2 2025 - numbers.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ibm/CY2025-Q2/Q2 2025 Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "IBM_FQ4_2025",
+      "issuer": "p2_ibm",
+      "company": "IBM",
+      "ticker": "IBM",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-28",
+      "release_date": "2026-01-28",
+      "release_date_source": "EDGAR 8-K Item 2.02, ibm-20260128.htm, acc 0000051143-26-000004",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/ibm/CY2025-Q4/Q4 2025 - numbers.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ibm/CY2025-Q4/Q4 2025 Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "IBM_FQ1_2026",
+      "issuer": "p2_ibm",
+      "company": "IBM",
+      "ticker": "IBM",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-22",
+      "release_date": "2026-04-22",
+      "release_date_source": "EDGAR 8-K Item 2.02, ibm-20260422.htm, acc 0000051143-26-000036",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/ibm/CY2026-Q1/Q1 2026 0 numbers.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ibm/CY2026-Q1/Q1 2026 Earnings Call Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

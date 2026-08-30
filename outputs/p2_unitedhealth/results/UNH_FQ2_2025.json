@@ -1,0 +1,254 @@
+{
+  "document_id": "UNH_FQ2_2025",
+  "sentiment": {
+    "score": -0.75,
+    "rationale": "The company re-established its full-year 2025 outlook after suspending it in May, but the new outlook reflects a significant downward revision in earnings expectations (adjusted EPS of at least $16.00, down from a prior implied trajectory) and a sharply higher medical care ratio (89.25% vs. initial 86.5% midpoint). Management explicitly acknowledges 'pricing and operational mistakes,' unprecedented medical cost trends, and a 'challenging year,' with forward guidance for 2026 described as 'solid but moderate earnings growth' rather than a return to historical growth rates. The structural headwinds from Medicare funding cuts, elevated medical trends, and V28 payment reductions, combined with the lowered guidance, drive a strongly bearish sentiment."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Second quarter 2025 revenues grew $12.8 billion year-over-year to $111.6 billion. Full year 2025 revenue outlook of $445.5 billion to $448.0 billion, growth of 11% over 2024.",
+    "eps": "Second quarter 2025 earnings were $3.74 per share, adjusted earnings were $4.08 per share. Adjusted EPS was below the same period last year ($6.80 in Q2 2024).",
+    "guidance": "Full Year 2025 Earnings Outlook of at least $14.65 Per Share, Adjusted Earnings of at least $16.00 Per Share. The company expects to return to earnings growth in 2026, with 'solid but moderate earnings growth' expected for 2026.",
+    "margin": "Second quarter consolidated medical care ratio of 89.4%, increased 430 basis points year-over-year. Full year 2025 medical cost ratio expected to be 89.25% +/- 25 basis points. Second quarter operating cost ratio of 12.3% compared to 13.3% in the year ago quarter. Full year 2025 operating cost ratio expected to be 12.75% +/- 25 basis points.",
+    "key_risks": [
+      "Unprecedented medical cost trend, measured in both intensity of services used as well as unit prices and more aggressive care provider coding and billing technologies.",
+      "Generational pullback in Medicare funding, set in motion in 2023 and playing out through 2026.",
+      "Prospects for further contraction of the Medicaid and Exchange markets.",
+      "Pricing and operational mistakes made by the company.",
+      "V28 risk model transition creating an $11 billion headwind over three years for Optum Health.",
+      "Higher-than-expected medical cost trend across UnitedHealthcare businesses, including Medicare Advantage trend of ~7.5% in 2025 vs. pricing expectation of just over 5%.",
+      "Medicaid rate and acuity mismatch expected to extend well into next year, including a loss within the non-dual segment of Medicaid in 2026.",
+      "Potential for adverse selection dynamics in the ACA exchange market due to projected expiration of premium subsidies.",
+      "DOJ's legal actions concerning participation in the Medicare program (listed in forward-looking statements).",
+      "Cyberattacks and other privacy/data security incidents (listed in forward-looking statements)."
+    ],
+    "key_opportunities": [
+      "Growth within UnitedHealthcare and Optum, with second quarter revenues growing $12.8 billion year-over-year.",
+      "Optum Rx revenue growth of $18 billion, or 13%, driven by continued strong growth in customers and people served.",
+      "Optum Insight contract revenue backlog of $32.0 billion expected for full year 2025.",
+      "Value-based care model consistently delivers better outcomes, with Medicare Advantage patients in fully accountable arrangements 20% less likely to be hospitalized and experience 11% fewer ER visits.",
+      "AI efforts scaled across health plan operations to improve patient and provider service experiences while driving cost savings.",
+      "Expectation of earnings growth in 2026 and strengthening quickly in 2027."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management language is dominated by acknowledgments of challenges and mistakes, such as 'This is a challenging year for our enterprise' and 'we've made pricing and operational mistakes,' while framing future expectations as 'solid but moderate earnings growth' rather than strong or confident."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Second quarter 2025 revenues grew $12.8 billion year-over-year to $111.6 billion.",
+      "quote": "UnitedHealth Group’s second quarter 2025 revenues grew $12.8 billion year-over-year to $111.6 billion, driven by growth within UnitedHealthcare and Optum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter 2025 adjusted earnings were $4.08 per share, below the prior year.",
+      "quote": "Adjusted earnings per share of $4.08 was below the same period last year. This was due primarily to the pricing and medical cost trend factors at UnitedHealthcare and Optum Health.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 adjusted earnings guidance was set at at least $16.00 per share.",
+      "quote": "Full Year 2025 Earnings Outlook of at least $14.65 Per Share, Adjusted Earnings of at least $16.00 Per Share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The full year 2025 medical care ratio is expected to be 89.25% +/- 25 basis points, up from the initial 86.5% midpoint.",
+      "quote": "We now expect a full-year medical care ratio of 89.25 %, plus or minus 25 basis points. This compares to the initial 86.5 % mid-point we offered at the end of last year, with the increase driven by the factors discussed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company suspended its 2025 outlook in May and has now re-established it with a downward revision.",
+      "quote": "On May 13, 2025, UnitedHealth Group suspended its 2025 outlook. Today, UnitedHealth Group is updating its 2025 outlook, including revenues of $445.5 billion to $448.0 billion, net earnings of at least $14.65 per share and adjusted earnings of at least $16.00 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledged making pricing and operational mistakes.",
+      "quote": "Beyond the environmental factors that are affecting the entire sector and more specifically to us, we have made pricing and operational mistakes a s well as others.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces unprecedented medical cost trends.",
+      "quote": "Unprecedented medical cost trend , measured in both intensity of services used as well as unit prices and more aggressive care provider coding and billing technologies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicare Advantage medical cost trend is expected to be approximately 7.5% in 2025, compared to pricing expectations of just over 5%.",
+      "quote": "For example, medical cost trend in Medicare Advantage offerings is expected to run at ~7.5% in 2025 compared to the 2025 pricing expectation of just over 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to return to earnings growth in 2026, with 'solid but moderate' growth.",
+      "quote": "Looking to 2026, at this distance I would expect solid but moderate earnings growth. As we look further ahead, we see our earnings growth outlook strengthening quickly in 2027 and pacing steadily upward over the succeeding years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Optum Health earnings in 2025 are approximately $6.6 billion below expectations.",
+      "quote": "Overall, Optum Health earnings in 2025 are approximately $6.6 billion below our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The V28 risk model transition is an $11 billion headwind over three years for Optum Health.",
+      "quote": "This industry-wide shift is effectively a price reduction that we now estimate created an $11 billion headwind over three years for Optum Health, with ~$7 billion that will be realized through 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to exit Medicare Advantage plans serving over 600,000 members.",
+      "quote": "Additionally – and unfortunately – given these pressures we have made the difficult decision to exit plans that currently serve over 600,000 members, primarily in less managed products such as PPO offerings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects a loss within the non-dual segment of Medicaid in 2026.",
+      "quote": "In Medicaid, there remains a lag between funding levels and member health risk and we expect this to continue into 2026, resulting in additional margin compression in the business including a loss within the non-dual segment of Medicaid in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company increased its quarterly dividend by 5% to $2.21 in June.",
+      "quote": "In June, the company increased its quarterly dividend rate by 5% to $2.21 and returned $4.5 billion to shareholders through dividends and share repurchases in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash flows from operations were $7.2 billion in the second quarter of 2025.",
+      "quote": "Cash flows from operations were $7.2 billion in second quarter 2025, or 2.0 times net income.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects full year 2025 cash flows from operations of about $16 billion.",
+      "quote": "Full year ’25 cash flows from operations are expected to be about $16,000",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's management tone is cautious, acknowledging a challenging year.",
+      "quote": "This is a challenging year for our enterprise. But I feel strongly we can overcome these challenges – as we have done before.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to add 300,000 new value-based care patients in 2025, down from the initial 650,000 outlook.",
+      "quote": "Optum Health now expects to add 300,000 new value-based care patients this year compared to the initial 650,000 outlook as it seeks to focus on improving operating performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's second quarter results include $1.2 billion of unfavorable discrete impacts.",
+      "quote": "The second quarter results include $1.2 billion of unfavorable discrete impacts reflecting $620 million related to the individual exchange business, which includes the acceleration of future losses related to the second half of 2025, and several settlement and other provisions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to deliver almost $1 billion in cost reductions in 2026.",
+      "quote": "For 2026 we expect to deliver almost $1 billion in cost reductions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.75 reflects a significant downward guidance revision and acknowledged structural headwinds. A human reviewer should verify the magnitude of the guidance cut relative to the prior outlook, as the document references the suspension of guidance in May but does not provide the prior numerical EPS guidance for direct comparison."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance field summarizes the re-established 2025 outlook and qualitative 2026 expectations. A reviewer should confirm the 2026 'solid but moderate earnings growth' language is accurately represented as qualitative rather than a specific numerical target."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UNH_Bundled Earnings Report_2025-07-28",
+  "report_metadata": {
+    "issuer": "p2_unitedhealth",
+    "company": "UnitedHealth",
+    "ticker": "UNH",
+    "sector": "Healthcare/Healthcare Plans",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q2\\UNH_Q2_2025_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q2\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UNH_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103808Z",
+    "timestamp": "2026-08-09T10:38:29Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_unitedhealth\\extracted\\UNH_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 31753,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q2\\UNH_Q2_2025_Earnings_Presentation.pdf",
+        "page_count": 21,
+        "extracted_characters": 37672,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q2\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 93739,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_unitedhealth\\extracted\\UNH_FQ2_2025.txt"
+  }
+}

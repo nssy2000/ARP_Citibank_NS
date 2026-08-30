@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_meta",
+  "reports": [
+    {
+      "document_id": "META_FQ3_2025",
+      "issuer": "p2_meta",
+      "company": "Meta",
+      "ticker": "META",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "release_date": "2025-10-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, meta-20251029.htm, acc 0001628280-25-047114",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/meta/CY2025-Q3/14 meta q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/meta/CY2025-Q3/META-Q3-2025-Earnings-Call-Transcript-IR.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "META_FQ4_2025",
+      "issuer": "p2_meta",
+      "company": "Meta",
+      "ticker": "META",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-28",
+      "release_date": "2026-01-28",
+      "release_date_source": "EDGAR 8-K Item 2.02, meta-20260128.htm, acc 0001628280-26-003832",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/meta/CY2025-Q4/15 meta q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/meta/CY2025-Q4/META-Q4-2025-Earnings-Call-Transcript-IR.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "META_FQ1_2026",
+      "issuer": "p2_meta",
+      "company": "Meta",
+      "ticker": "META",
+      "sector": "Media/Communication Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-29",
+      "release_date": "2026-04-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, meta-20260429.htm, acc 0001628280-26-028364",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/meta/CY2026-Q1/13 meta q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/meta/CY2026-Q1/META-Q1-2026-Earnings-Call-Transcript-IR.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

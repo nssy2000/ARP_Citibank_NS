@@ -1,0 +1,257 @@
+{
+  "document_id": "SPOT_FQ2_2025",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "The company reported strong user growth and a solid quarter, but forward guidance for Q3 2025 was held flat (revenue of €4.2 billion, operating income of €485 million) with management explicitly noting 'a few places in our Q3 forecast where we probably a little bit lighter than you may have anticipated.' The advertising business was acknowledged as underperforming ('we've simply been moving too slowly'), and the operating income miss was attributed to one-time social charges and currency headwinds, not organic improvement. The overall tone is confident but the forward outlook is cautious, with no guidance raise, leading to a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Total Revenue increased 10% Y/Y to €4.2 billion (€4,193 million). On a constant currency basis, revenue grew 15% Y/Y.",
+    "eps": "Basic (loss)/earnings per share attributable to owners of the parent was (0.42) for Q2 2025, compared to 1.37 in Q2 2024. The company reported a net loss of €86 million.",
+    "guidance": "For Q3 2025, Spotify expects Total Revenue of €4.2 billion, Total MAUs of 710 million, Total Premium Subscribers of 281 million, Gross Margin of 31.1%, and Operating Income of €485 million. This implies net additions of approximately 14 million MAUs and 5 million subscribers. The guidance incorporates a ~490 bps headwind to revenue growth Y/Y due to FX, €25 million in Social Charges, and a regulatory charge in the Premium segment equivalent to ~40 bps of total Gross Margin impact.",
+    "margin": "Gross Margin improved by 227 bps Y/Y to 31.5% in Q2 2025. Operating Margin was 9.7% (Operating Income of €406 million). Q3 2025 Gross Margin guidance is 31.1%.",
+    "key_risks": [
+      "Advertising business underperformance: 'we've simply been moving too slowly' and 'it's taken longer than expected to see the improvements we initiated to take hold.'",
+      "Currency headwinds: 'Outsized currency movements during the quarter impacted reported Revenue by €104 million vs. guidance.' Q3 guidance incorporates ~490 bps headwind to growth Y/Y due to FX.",
+      "Social Charges volatility: 'Social Charges were €98 million above forecast due to share price appreciation during the quarter.'",
+      "Regulatory charge: Q3 guidance incorporates a regulatory charge in the Premium segment equivalent to ~40 bps of total Gross Margin impact.",
+      "Operating Income miss: 'Operating Income of €406 million was below guidance due to €116 million in Social Charges, higher payroll and related expense and Revenue mix shift.'",
+      "Leadership change in Ads: 'we felt it was the right time for a leadership change' after the Global Head of Sales departed."
+    ],
+    "key_opportunities": [
+      "Strong user growth: 'In the first half of 2025, subscriber net additions grew more than 30% compared to the first half of 2024.'",
+      "Audiobooks expansion: 'Expanded audiobooks to Germany, Austria, Switzerland and Liechtenstein, giving users access to over 350,000 titles through eligible Premium subscriptions.'",
+      "AI and product innovation: 'Launched voice-activated DJ in 60+ markets' and 'Expanded AI Playlist to more than 40 new markets.'",
+      "Advertising transformation: 'We are creating a stronger, more sustainable Ads business by accelerating our automation efforts.'",
+      "Capital allocation: 'the Board has approved an upsizing of our share repurchase authorization to a total of $2 billion.'",
+      "Free Cash Flow strength: 'Free Cash Flow reached €700 million in Q2, bringing LTM Free Cash Flow to €2.8 billion.'"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the overall business ('we remain confident in our business') but also acknowledges underperformance in advertising and lighter Q3 guidance ('we probably a little bit lighter than you may have anticipated')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total Revenue increased 10% Y/Y to €4.2 billion.",
+      "quote": "Total Revenue increased 10% Y/Y to €4.2 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "On a constant currency basis, revenue grew 15% Y/Y.",
+      "quote": "Total Revenue grew 10% Y/Y to €4.2 billion; on a constant currency* basis, Total Revenue grew 15% Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS was -0.42 for Q2 2025.",
+      "quote": "Basic (loss)/earnings per share attributable to owners of the parent (0.42) 1.10 1.37",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reported a net loss of €86 million in Q2 2025.",
+      "quote": "Net (loss)/income attributable to owners of the parent (86) 225 274",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 guidance includes revenue of €4.2 billion, MAUs of 710 million, subscribers of 281 million, gross margin of 31.1%, and operating income of €485 million.",
+      "quote": "Total Premium Subscribers Total Revenue Gross Margin €4.2 billion 281 million 31.1% Implies the addition of approximately 14 million net new MAUs in the quarterTotal MAUs 710 million €485 millionOperating Income",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 guidance incorporates a ~490 bps headwind to revenue growth Y/Y due to FX.",
+      "quote": "Assumes ~490 bps headwind to growth Y/Y due to foreign exchange rate movements; based on currency rates as of Q2 close (e.g. USD:Euro of 0.8485 as of June 30th, 2025)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 guidance incorporates €25 million in Social Charges.",
+      "quote": "Incorporates €25 million in Social Charges based on a Q2 close share price of $767.34",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 guidance incorporates a regulatory charge in the Premium segment equivalent to ~40 bps of total Gross Margin impact.",
+      "quote": "Incorporates regulatory charge in Premium segment equivalent to ~40 bps of total Gross Margin impact, along with Y/Y favorability in Ad-Supported segment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross Margin improved by 227 bps Y/Y to 31.5% in Q2 2025.",
+      "quote": "Gross Margin improved by 227 bps YoY to 31.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating Margin was 9.7% in Q2 2025.",
+      "quote": "Operating Margin 7.0% 12.1% 9.7% -- --",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising business underperformance is a key risk.",
+      "quote": "However, as I look at our progress, the one area that hasn’t yet better expectations is our Ads business. We’ve simply been moving too slowly and it’s taken longer than expected to see the improvements we initiated to take hold.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency headwinds impacted reported revenue by €104 million vs. guidance.",
+      "quote": "Outsized currency movements during the quarter impacted reported Revenue by €104 million vs. guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Social Charges were €98 million above forecast due to share price appreciation.",
+      "quote": "Social Charges were €98 million above forecast due to share price appreciation during the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating Income was below guidance due to social charges and other factors.",
+      "quote": "Operating Income of €406 million was below guidance due to €116 million in Social Charges, higher payroll and related expense and Revenue mix shift.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leadership change in Ads business occurred.",
+      "quote": "And we’ve been really clear that we have high expectations really across our business, and we need to see more progress within Ads. And unfortunately, that hasn’t happened here. So we felt it was the right time for a leadership change.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong user growth in H1 2025.",
+      "quote": "In the first half of 2025, subscriber net additions grew more than 30% compared to the first half of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Audiobooks expanded to new markets.",
+      "quote": "Expanded audiobooks to Germany, Austria, Switzerland and Liechtenstein, giving users access to over 350,000 titles through eligible Premium subscriptions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI and product innovation are opportunities.",
+      "quote": "Launched voice-activated DJ in 60+ markets, enabling personalized music through spoken commands",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising transformation is an opportunity.",
+      "quote": "We are creating a stronger, more sustainable Ads business by accelerating our automation efforts and enhancing our world-class brand operations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share repurchase authorization was upsized to $2 billion.",
+      "quote": "the Board has approved an upsizing of our share repurchase authorization to a total of $2 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free Cash Flow reached €700 million in Q2.",
+      "quote": "Free Cash Flow reached €700 million in Q2, bringing LTM Free Cash Flow to €2.8 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with confidence but also caution on Q3.",
+      "quote": "We remain confident in our business. And while we’re investing in the future growth, we will deliver a full year margin expansion in 2025. ... But in the spirit of transparency, you’ll see a few places in our Q3 forecast where we probably a little bit lighter than you may have anticipated.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is borderline at -0.15. The document shows strong user growth and a solid quarter, but forward guidance is flat and advertising underperformance is acknowledged. The negative score is driven by the cautious forward outlook and the miss on operating income, but the overall tone is not deeply bearish. A human reviewer may want to weigh the strong user metrics against the flat guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SPOT_Bundled Earnings Report_2025-07-29",
+  "report_metadata": {
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q2\\Press_Release.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q2\\Shareholder_Deck.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q2\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SPOT_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103154Z",
+    "timestamp": "2026-08-09T10:32:14Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q2\\Press_Release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_spotify\\extracted\\SPOT_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q2\\Press_Release.html",
+        "page_count": 1,
+        "extracted_characters": 3043,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q2\\Shareholder_Deck.pdf",
+        "page_count": 37,
+        "extracted_characters": 35592,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q2\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 65141,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_spotify\\extracted\\SPOT_FQ2_2025.txt"
+  }
+}

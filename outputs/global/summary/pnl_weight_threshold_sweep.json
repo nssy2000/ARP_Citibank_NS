@@ -1,0 +1,731 @@
+{
+  "n_documents": 131,
+  "window_trading_days": 1,
+  "exit_on_open": true,
+  "objective": "total_return",
+  "cost_bps": 10.0,
+  "short_borrow_bps": 0.0,
+  "weight_step": 0.05,
+  "threshold_grid": {
+    "upper": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ],
+    "lower": [
+      -0.05,
+      -0.1,
+      -0.15,
+      -0.2,
+      -0.25,
+      -0.3,
+      -0.35,
+      -0.4
+    ],
+    "asymmetric": true
+  },
+  "combos_per_variant": 113344,
+  "n_trials_corrected_for_dsr": 453376,
+  "default_config": {
+    "weights": [
+      0.8,
+      0.0,
+      0.2,
+      0.0
+    ],
+    "hold_upper": 0.25,
+    "hold_lower": -0.25
+  },
+  "variants": {
+    "quant_score": {
+      "global_best": {
+        "total_return_pct": 303.62,
+        "avg_net_per_trade_pct": 1.459,
+        "sharpe_per_trade": 2.9,
+        "n_trades": 105,
+        "weights": [
+          0.2,
+          0.0,
+          0.75,
+          0.05
+        ],
+        "hold_upper": 0.15,
+        "hold_lower": -0.05,
+        "n_tied": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 3.7395,
+          "skew": 2.5734,
+          "kurtosis": 12.4277,
+          "psr": 0.0205,
+          "n_trials_corrected_for": 453376
+        }
+      },
+      "top_k": [
+        {
+          "weights": [
+            0.2,
+            0.0,
+            0.75,
+            0.05
+          ],
+          "hold_upper": 0.15,
+          "hold_lower": -0.05,
+          "total_return_pct": 303.62,
+          "sharpe_per_trade": 2.9,
+          "n_trades": 105
+        },
+        {
+          "weights": [
+            0.2,
+            0.05,
+            0.7,
+            0.05
+          ],
+          "hold_upper": 0.15,
+          "hold_lower": -0.05,
+          "total_return_pct": 291.38,
+          "sharpe_per_trade": 2.846,
+          "n_trades": 100
+        },
+        {
+          "weights": [
+            0.2,
+            0.05,
+            0.65,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 288.05,
+          "sharpe_per_trade": 2.782,
+          "n_trades": 117
+        },
+        {
+          "weights": [
+            0.2,
+            0.0,
+            0.7,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 283.24,
+          "sharpe_per_trade": 2.756,
+          "n_trades": 117
+        },
+        {
+          "weights": [
+            0.25,
+            0.0,
+            0.7,
+            0.05
+          ],
+          "hold_upper": 0.15,
+          "hold_lower": -0.05,
+          "total_return_pct": 282.48,
+          "sharpe_per_trade": 2.775,
+          "n_trades": 104
+        },
+        {
+          "weights": [
+            0.2,
+            0.1,
+            0.6,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 281.4,
+          "sharpe_per_trade": 2.75,
+          "n_trades": 116
+        },
+        {
+          "weights": [
+            0.25,
+            0.05,
+            0.65,
+            0.05
+          ],
+          "hold_upper": 0.15,
+          "hold_lower": -0.05,
+          "total_return_pct": 276.86,
+          "sharpe_per_trade": 2.755,
+          "n_trades": 99
+        },
+        {
+          "weights": [
+            0.15,
+            0.1,
+            0.7,
+            0.05
+          ],
+          "hold_upper": 0.1,
+          "hold_lower": -0.05,
+          "total_return_pct": 273.14,
+          "sharpe_per_trade": 2.718,
+          "n_trades": 107
+        },
+        {
+          "weights": [
+            0.2,
+            0.2,
+            0.55,
+            0.05
+          ],
+          "hold_upper": 0.15,
+          "hold_lower": -0.05,
+          "total_return_pct": 272.72,
+          "sharpe_per_trade": 2.778,
+          "n_trades": 95
+        },
+        {
+          "weights": [
+            0.1,
+            0.05,
+            0.8,
+            0.05
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.1,
+          "total_return_pct": 271.76,
+          "sharpe_per_trade": 2.703,
+          "n_trades": 113
+        }
+      ],
+      "loocv_total_return_pct": 191.64,
+      "loocv_avg_net_per_trade_pct": 1.1424,
+      "loocv_hit_rate": 0.5566,
+      "loocv_n_trades": 106,
+      "loocv_sharpe_per_trade": 2.239,
+      "default_total_return_pct": 172.75,
+      "default_avg_net_per_trade_pct": 2.5063,
+      "default_sharpe_per_trade": 2.484,
+      "default_n_trades": 44,
+      "n": 131
+    },
+    "quant_score_with_macro": {
+      "global_best": {
+        "total_return_pct": 261.21,
+        "avg_net_per_trade_pct": 1.8467,
+        "sharpe_per_trade": 2.866,
+        "n_trades": 76,
+        "weights": [
+          0.3,
+          0.1,
+          0.55,
+          0.05
+        ],
+        "hold_upper": 0.2,
+        "hold_lower": -0.05,
+        "n_tied": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 3.6669,
+          "skew": 2.5565,
+          "kurtosis": 11.1555,
+          "psr": 0.0343,
+          "n_trials_corrected_for": 453376
+        }
+      },
+      "top_k": [
+        {
+          "weights": [
+            0.3,
+            0.1,
+            0.55,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 261.21,
+          "sharpe_per_trade": 2.866,
+          "n_trades": 76
+        },
+        {
+          "weights": [
+            0.3,
+            0.05,
+            0.6,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 258.39,
+          "sharpe_per_trade": 2.846,
+          "n_trades": 77
+        },
+        {
+          "weights": [
+            0.35,
+            0.25,
+            0.35,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 250.56,
+          "sharpe_per_trade": 2.828,
+          "n_trades": 73
+        },
+        {
+          "weights": [
+            0.35,
+            0.2,
+            0.4,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 249.48,
+          "sharpe_per_trade": 2.817,
+          "n_trades": 75
+        },
+        {
+          "weights": [
+            0.35,
+            0.15,
+            0.45,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 249.48,
+          "sharpe_per_trade": 2.817,
+          "n_trades": 75
+        },
+        {
+          "weights": [
+            0.35,
+            0.45,
+            0.15,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.1,
+          "total_return_pct": 246.86,
+          "sharpe_per_trade": 2.811,
+          "n_trades": 70
+        },
+        {
+          "weights": [
+            0.35,
+            0.3,
+            0.3,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 246.12,
+          "sharpe_per_trade": 2.797,
+          "n_trades": 74
+        },
+        {
+          "weights": [
+            0.3,
+            0.4,
+            0.25,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.1,
+          "total_return_pct": 245.12,
+          "sharpe_per_trade": 2.802,
+          "n_trades": 69
+        },
+        {
+          "weights": [
+            0.3,
+            0.35,
+            0.3,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.1,
+          "total_return_pct": 245.12,
+          "sharpe_per_trade": 2.802,
+          "n_trades": 69
+        },
+        {
+          "weights": [
+            0.35,
+            0.5,
+            0.1,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 244.5,
+          "sharpe_per_trade": 2.776,
+          "n_trades": 79
+        }
+      ],
+      "loocv_total_return_pct": 157.42,
+      "loocv_avg_net_per_trade_pct": 1.4312,
+      "loocv_hit_rate": 0.5811,
+      "loocv_n_trades": 74,
+      "loocv_sharpe_per_trade": 2.174,
+      "default_total_return_pct": 172.75,
+      "default_avg_net_per_trade_pct": 2.5063,
+      "default_sharpe_per_trade": 2.484,
+      "default_n_trades": 44,
+      "n": 131
+    },
+    "quant_score_with_fred": {
+      "global_best": {
+        "total_return_pct": 282.97,
+        "avg_net_per_trade_pct": 1.2905,
+        "sharpe_per_trade": 2.748,
+        "n_trades": 115,
+        "weights": [
+          0.15,
+          0.05,
+          0.7,
+          0.1
+        ],
+        "hold_upper": 0.05,
+        "hold_lower": -0.05,
+        "n_tied": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 4.827,
+          "skew": 2.6096,
+          "kurtosis": 12.8752,
+          "psr": 0.0,
+          "n_trials_corrected_for": 453376
+        }
+      },
+      "top_k": [
+        {
+          "weights": [
+            0.15,
+            0.05,
+            0.7,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 282.97,
+          "sharpe_per_trade": 2.748,
+          "n_trades": 115
+        },
+        {
+          "weights": [
+            0.15,
+            0.0,
+            0.75,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 274.44,
+          "sharpe_per_trade": 2.701,
+          "n_trades": 117
+        },
+        {
+          "weights": [
+            0.2,
+            0.05,
+            0.7,
+            0.05
+          ],
+          "hold_upper": 0.1,
+          "hold_lower": -0.05,
+          "total_return_pct": 263.23,
+          "sharpe_per_trade": 2.662,
+          "n_trades": 107
+        },
+        {
+          "weights": [
+            0.1,
+            0.0,
+            0.85,
+            0.05
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.1,
+          "total_return_pct": 259.48,
+          "sharpe_per_trade": 2.635,
+          "n_trades": 111
+        },
+        {
+          "weights": [
+            0.15,
+            0.1,
+            0.65,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 258.76,
+          "sharpe_per_trade": 2.643,
+          "n_trades": 113
+        },
+        {
+          "weights": [
+            0.2,
+            0.0,
+            0.65,
+            0.15
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 255.17,
+          "sharpe_per_trade": 2.639,
+          "n_trades": 115
+        },
+        {
+          "weights": [
+            0.2,
+            0.0,
+            0.75,
+            0.05
+          ],
+          "hold_upper": 0.1,
+          "hold_lower": -0.05,
+          "total_return_pct": 255.14,
+          "sharpe_per_trade": 2.615,
+          "n_trades": 109
+        },
+        {
+          "weights": [
+            0.15,
+            0.15,
+            0.6,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 251.09,
+          "sharpe_per_trade": 2.602,
+          "n_trades": 112
+        },
+        {
+          "weights": [
+            0.15,
+            0.2,
+            0.55,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 248.7,
+          "sharpe_per_trade": 2.591,
+          "n_trades": 109
+        },
+        {
+          "weights": [
+            0.2,
+            0.0,
+            0.7,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 248.06,
+          "sharpe_per_trade": 2.564,
+          "n_trades": 114
+        }
+      ],
+      "loocv_total_return_pct": 149.4,
+      "loocv_avg_net_per_trade_pct": 0.921,
+      "loocv_hit_rate": 0.5526,
+      "loocv_n_trades": 114,
+      "loocv_sharpe_per_trade": 1.955,
+      "default_total_return_pct": 172.75,
+      "default_avg_net_per_trade_pct": 2.5063,
+      "default_sharpe_per_trade": 2.484,
+      "default_n_trades": 44,
+      "n": 131
+    },
+    "quant_score_with_macro_fred": {
+      "global_best": {
+        "total_return_pct": 248.83,
+        "avg_net_per_trade_pct": 1.7305,
+        "sharpe_per_trade": 2.797,
+        "n_trades": 79,
+        "weights": [
+          0.25,
+          0.0,
+          0.7,
+          0.05
+        ],
+        "hold_upper": 0.2,
+        "hold_lower": -0.05,
+        "n_tied": 1,
+        "deflated_sharpe": {
+          "sr0_expected_max_under_null": 4.7061,
+          "skew": 2.6703,
+          "kurtosis": 11.8996,
+          "psr": 0.0,
+          "n_trials_corrected_for": 453376
+        }
+      },
+      "top_k": [
+        {
+          "weights": [
+            0.25,
+            0.0,
+            0.7,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 248.83,
+          "sharpe_per_trade": 2.797,
+          "n_trades": 79
+        },
+        {
+          "weights": [
+            0.35,
+            0.25,
+            0.35,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 239.89,
+          "sharpe_per_trade": 2.748,
+          "n_trades": 74
+        },
+        {
+          "weights": [
+            0.35,
+            0.2,
+            0.4,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 239.89,
+          "sharpe_per_trade": 2.748,
+          "n_trades": 74
+        },
+        {
+          "weights": [
+            0.35,
+            0.15,
+            0.45,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 238.85,
+          "sharpe_per_trade": 2.736,
+          "n_trades": 76
+        },
+        {
+          "weights": [
+            0.35,
+            0.3,
+            0.3,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 238.01,
+          "sharpe_per_trade": 2.737,
+          "n_trades": 73
+        },
+        {
+          "weights": [
+            0.3,
+            0.0,
+            0.7,
+            0.0
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 236.39,
+          "sharpe_per_trade": 2.624,
+          "n_trades": 80
+        },
+        {
+          "weights": [
+            0.2,
+            0.05,
+            0.7,
+            0.05
+          ],
+          "hold_upper": 0.15,
+          "hold_lower": -0.05,
+          "total_return_pct": 235.83,
+          "sharpe_per_trade": 2.606,
+          "n_trades": 93
+        },
+        {
+          "weights": [
+            0.15,
+            0.05,
+            0.7,
+            0.1
+          ],
+          "hold_upper": 0.05,
+          "hold_lower": -0.05,
+          "total_return_pct": 235.21,
+          "sharpe_per_trade": 2.492,
+          "n_trades": 114
+        },
+        {
+          "weights": [
+            0.25,
+            0.05,
+            0.7,
+            0.0
+          ],
+          "hold_upper": 0.25,
+          "hold_lower": -0.05,
+          "total_return_pct": 235.2,
+          "sharpe_per_trade": 2.853,
+          "n_trades": 54
+        },
+        {
+          "weights": [
+            0.45,
+            0.35,
+            0.15,
+            0.05
+          ],
+          "hold_upper": 0.2,
+          "hold_lower": -0.05,
+          "total_return_pct": 234.87,
+          "sharpe_per_trade": 2.7,
+          "n_trades": 75
+        }
+      ],
+      "loocv_total_return_pct": 36.17,
+      "loocv_avg_net_per_trade_pct": 0.5208,
+      "loocv_hit_rate": 0.4875,
+      "loocv_n_trades": 80,
+      "loocv_sharpe_per_trade": 0.859,
+      "default_total_return_pct": 172.75,
+      "default_avg_net_per_trade_pct": 2.5063,
+      "default_sharpe_per_trade": 2.484,
+      "default_n_trades": 44,
+      "n": 131
+    }
+  },
+  "significance": {
+    "permutation_p_vs_gap_shuffles": 0.017,
+    "note": "Positions held fixed, overnight gap shuffled across documents 5000x; p = fraction of shuffles whose best achievable total return >= the observed best."
+  },
+  "vs_deployed_default": {
+    "backtest_py_reported": {
+      "n_trades": 44,
+      "total_return_pct": 172.62,
+      "avg_net_per_trade_pct": 2.5051,
+      "sharpe_per_trade": 2.483,
+      "max_drawdown_pct": 6.54
+    },
+    "this_sweep_default_combo": {
+      "total_return_pct": 172.75,
+      "n_trades": 44,
+      "avg_net_per_trade_pct": 2.5063,
+      "sharpe_per_trade": 2.484
+    },
+    "self_check_match": true
+  },
+  "deployment_note": "Candidate output only - blend.py's DEFAULT_WEIGHTS is untouched pending review."
+}

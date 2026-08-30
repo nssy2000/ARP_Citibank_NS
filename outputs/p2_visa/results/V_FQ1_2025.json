@@ -1,0 +1,216 @@
+{
+  "document_id": "V_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Visa reported strong Q2 results with net revenue up 9% and non-GAAP EPS up 10%, and management expressed confidence in the business model and consumer resilience. However, full-year guidance was reaffirmed unchanged, and management explicitly noted higher economic uncertainty from tariffs and assumed some moderation in cross-border growth. The positive operational momentum and confident tone are offset by the unchanged guidance and cautious forward assumptions, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Net revenue of $9.6 billion, up 9% year-over-year (11% constant-dollar basis).",
+    "eps": "GAAP EPS of $2.32, up 1%; non-GAAP EPS of $2.76, up 10% (11% constant-dollar basis).",
+    "guidance": "Full-year guidance unchanged: adjusted revenue growth low double-digit, adjusted operating expense growth high single-digit to low double-digit, adjusted EPS growth low-teens. Q3 adjusted revenue growth low double-digit, adjusted EPS growth high-teens.",
+    "margin": "GAAP effective income tax rate 15.8%; non-GAAP effective income tax rate 16.9%. Operating margin not explicitly disclosed, but GAAP operating income was $5,435 million on net revenue of $9,594 million.",
+    "key_risks": [
+      "Higher economic uncertainty from tariffs and potential impacts on consumer spending.",
+      "Cross-border volume growth assumed to moderate slightly below Q4 2024 levels in Q3 and Q4.",
+      "FX volatility and currency weakness in certain countries impacting cross-border volumes and revenue.",
+      "Softer Canada-to-US travel impacting cross-border volumes.",
+      "Litigation provision of $992 million related to interchange multidistrict litigation.",
+      "Potential impact of de minimis exemption changes (not material so far)."
+    ],
+    "key_opportunities": [
+      "Strong growth in value-added services (22% constant-dollar growth) across all portfolios.",
+      "Visa Direct transaction growth of 28% year-over-year, with new deals and expanded partnerships.",
+      "Stablecoin initiatives, including $200 million cumulative settlement volume and new product pilots.",
+      "Tap to Everything innovations driving cash digitization and acceptance expansion.",
+      "New product launches like Authorize.net and Unified Checkout to capture small business and e-commerce share.",
+      "Commercial and money movement solutions revenue up 13% constant-dollar."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed confidence in the business model and consumer resilience, stating 'consumer spending remained resilient in an uncertain and dynamic environment' and 'our incredibly diverse business model has proven to be resilient.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenue was $9.6 billion, up 9% year-over-year.",
+      "quote": "Net revenue of $9.6B, an increase of 9%, or 11% on a constant-dollar basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $2.76, up 10% year-over-year.",
+      "quote": "Non-GAAP Earnings Per Share (1) $2.76 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was reaffirmed unchanged.",
+      "quote": "Moving now to the full year, our full year guidance for adjusted revenue growth, adjusted operating expense growth, non-operating income tax rate and adjusted EPS growth remains unchanged.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management noted higher economic uncertainty from tariffs.",
+      "quote": "The potential impacts from tariffs have led to higher levels of economic uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cross-border volume growth is assumed to moderate slightly below Q4 2024 levels.",
+      "quote": "This puts Q3 and Q4 cross border volume growth slightly below Q4 2024 levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer spending remained resilient.",
+      "quote": "Consumer spending remained resilient, even with macroeconomic uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Value-added services revenue grew 22% in constant dollars.",
+      "quote": "Value-added services revenue grew 22% in constant dollars, powered by strong growth across all portfolios.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Visa Direct transactions grew 28% year-over-year.",
+      "quote": "Visa Direct transactions up 28%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP effective income tax rate was 15.8%.",
+      "quote": "GAAP effective income tax rate was 15.8% for the quarter ended March 31, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP effective income tax rate was 16.9%.",
+      "quote": "Excluding the related tax impacts from the non-GAAP items noted above, the non-GAAP effective income tax rate was 16.9% for the quarter ended March 31, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Consumer spending remained resilient, even with macroeconomic uncertainty. Our strategy across consumer payments, commercial and money movement solutions and value-added services, our diversified business model, and our focus on innovation position us well for the rest of the fiscal year and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Litigation provision of $992 million was a special item.",
+      "quote": "Current year's results included a special item of $992 million for a litigation provision associated with the interchange multidistrict litigation (\"MDL\") case.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Softer Canada-to-US travel impacted cross-border volumes.",
+      "quote": "There were several factors that contributed to the growth moderation from Q1 to Q2, including the lapping of leap year, the timing of Ramadan and Easter, weaker currencies in certain countries, and softer Canada to US travel.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Stablecoin settlement volume surpassed $200 million.",
+      "quote": "We have continued to expand our interoperability, including with our first seven day a week stablecoin settlement, recently surpassing $200 million in cumulative stablecoin settlement volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New product launches like Authorize.net and Unified Checkout are expected to drive growth.",
+      "quote": "The first is a completely new version of Authorize.net launching in the US next quarter and additional countries next year. ... The second is the new Unified Checkout experience, available in the US and in pilot stage in additional markets in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is borderline; the unchanged guidance and cautious forward assumptions could justify a lower score, while the strong operational momentum and confident tone could justify a slightly higher score. Reviewer should weigh the balance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "V_Bundled Earnings Report_2025-04-28",
+  "report_metadata": {
+    "issuer": "p2_visa",
+    "company": "Visa",
+    "ticker": "V",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q1\\Visa-Q1-2025-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q1\\Visa-Q1-2025-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "V_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103938Z",
+    "timestamp": "2026-08-09T10:39:56Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_visa\\extracted\\V_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 26863,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q1\\Visa-Q1-2025-Presentation.pdf",
+        "page_count": 24,
+        "extracted_characters": 24203,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q1\\Visa-Q1-2025-Transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 77811,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_visa\\extracted\\V_FQ1_2025.txt"
+  }
+}

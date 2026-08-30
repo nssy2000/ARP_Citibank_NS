@@ -1,0 +1,220 @@
+{
+  "document_id": "NVO_FQ3_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: sales growth guidance narrowed from 8-14% to 8-11% at CER, and operating profit growth guidance narrowed from 4-10% to 4-7% at CER. Management explicitly attributed the narrowing to 'lowered growth expectations for Novo Nordisk's GLP-1 treatments within diabetes and obesity.' The Q&A revealed intensifying competition, market share losses, and continued compounding headwinds, reinforcing a cautious outlook. This constitutes a clear guidance reduction, warranting a score of -0.50."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales for 9M 2025 were DKK 229,920 million, an increase of 12% as reported and 15% at CER.",
+    "eps": "Diluted earnings per share for 9M 2025 was DKK 16.99, an increase of 4%.",
+    "guidance": "For full-year 2025, sales growth is now expected to be 8-11% at CER (narrowed from 8-14%), and operating profit growth is now expected to be 4-7% at CER (narrowed from 4-10%). The narrowing reflects lowered growth expectations for GLP-1 treatments.",
+    "margin": "Gross margin for 9M 2025 was 81.0%, compared to 84.6% in 9M 2024. Operating margin for 9M 2025 was 41.7%, compared to 44.7% in 9M 2024.",
+    "key_risks": [
+      "Lowered growth expectations for GLP-1 treatments in diabetes and obesity.",
+      "Intensifying competition in both diabetes and obesity markets.",
+      "Continued unsafe and unlawful mass compounding of GLP-1s in the US.",
+      "Potential loss of Medicaid coverage for obesity medicines in several states in 2026.",
+      "Negative impact from the US Inflation Reduction Act's Maximum Fair Price for semaglutide in Medicare Part D effective 2027.",
+      "Compound patent expiry of semaglutide in certain International Operations countries expected to have a negative low-single-digit impact on global sales growth in 2026.",
+      "Securities class-action lawsuit filed against the company.",
+      "Ongoing litigation related to the Inflation Reduction Act."
+    ],
+    "key_opportunities": [
+      "US FDA approval of Wegovy for the treatment of MASH.",
+      "Initiation of phase 3 programme for cagrilintide in weight management.",
+      "Agreement to acquire Akero Therapeutics and its phase 3 FGF21 analogue for MASH.",
+      "Submission of oral semaglutide 25 mg for weight management in the US and EU.",
+      "Expansion of direct-to-patient initiatives and telehealth collaborations in the US.",
+      "Potential launch of Wegovy pill in early 2026."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO stated, 'While we delivered robust sales growth in the first nine months of 2025, the lower growth expectations for our GLP-1 treatments have led to a narrowing of our guidance,' and in the Q&A, he acknowledged, 'I would not lie and say I don't like losing market share,' reflecting a cautious and realistic tone about current headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Forward guidance for sales growth was narrowed from 8-14% to 8-11% at CER.",
+      "quote": "Sales growth is now expected to be 8-11% at CER. ... The narrowing of the guidance ranges reflects lowered growth expectations for Novo Nordisk's GLP-1 treatments within diabetes and obesity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for operating profit growth was narrowed from 4-10% to 4-7% at CER.",
+      "quote": "Operating profit growth is now expected to be 4% to 7% at CER, compared to the 4% to 10% communicated in conjunction with the company-wide transformation announced in September.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance narrowing is attributed to lowered growth expectations for GLP-1 treatments.",
+      "quote": "The narrowing of the guidance ranges reflects lowered growth expectations for Novo Nordisk's GLP-1 treatments within diabetes and obesity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net sales for 9M 2025 were DKK 229,920 million, up 12% as reported and 15% at CER.",
+      "quote": "Net sales 229,920 ... 12% ... 15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS for 9M 2025 was DKK 16.99, up 4%.",
+      "quote": "Diluted earnings per share (in DKK) 16.99 ... 4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin declined to 81.0% from 84.6%.",
+      "quote": "Gross margin 81.0% ... 84.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin declined to 41.7% from 44.7%.",
+      "quote": "Operating margin 41.7% ... 44.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intensifying competition is a key risk.",
+      "quote": "In US Operations, the outlook is based on current prescription trends, intensifying competition and pricing pressure for Ozempic® within diabetes and for Wegovy® within obesity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mass compounding of GLP-1s continues to be a risk.",
+      "quote": "Novo Nordisk market research shows that unsafe and unlawful mass compounding has continued.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicaid coverage for obesity medicines may be reduced in 2026.",
+      "quote": "Into 2026, a number of states have announced changes to obesity medication coverage following budgetary concerns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The IRA Maximum Fair Price for semaglutide will have a negative impact.",
+      "quote": "The estimated direct impact of a semaglutide MFP in Medicare Part D, had it been introduced 1 January 2025, would have been a negative low single-digit impact on global sales growth for the full year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Patent expiry in IO markets is a risk for 2026.",
+      "quote": "the compound patent expiry of the semaglutide molecule in certain countries in International Operations is expected to have an estimated negative low-single-digit impact on global sales growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A securities class-action lawsuit has been filed.",
+      "quote": "a class-action lawsuit was filed against Novo Nordisk A/S ... The lawsuit relates to the company’s financial forecasts for growth in 2025 and alleges that the company misled investors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wegovy was approved in the US for MASH.",
+      "quote": "the US FDA approved a supplemental New Drug Application (sNDA) for an additional indication for Wegovy® (semaglutide 2.4 mg) for the treatment of MASH.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Phase 3 programme for cagrilintide was initiated.",
+      "quote": "Novo Nordisk initiated a phase 3 programme, RENEW, for cagrilintide in people living with obesity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agreement to acquire Akero Therapeutics was announced.",
+      "quote": "Novo Nordisk announced that it has entered into a definitive agreement to acquire Akero for 4.7 billion USD in cash at closing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Oral semaglutide 25 mg was submitted for regulatory approval.",
+      "quote": "Novo Nordisk submitted oral semaglutide 25 mg to the EMA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "While we delivered robust sales growth in the first nine months of 2025, the lower growth expectations for our GLP-1 treatments have led to a narrowing of our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on a clear guidance reduction. However, the company also reported robust sales growth and several positive pipeline developments. A reviewer may consider whether the positive elements should moderate the score slightly, though the guidance reduction is the dominant forward-looking signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NVO_Bundled Earnings Report_2025-11-05",
+  "report_metadata": {
+    "issuer": "p2_novo_nordisk",
+    "company": "Novo Nordisk",
+    "ticker": "NVO",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q3\\NVO-Q3-2025-FinancialReport.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q3\\NVO-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NVO_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174326Z",
+    "timestamp": "2026-07-30T17:44:28Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q3\\NVO-Q3-2025-FinancialReport.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_novo_nordisk\\extracted\\NVO_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q3\\NVO-Q3-2025-FinancialReport.pdf",
+        "page_count": 38,
+        "extracted_characters": 126051,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q3\\NVO-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 71221,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_novo_nordisk\\extracted\\NVO_FQ3_2025.txt"
+  }
+}

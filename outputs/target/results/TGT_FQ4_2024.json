@@ -1,0 +1,249 @@
+{
+  "document_id": "TGT_FQ4_2024",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The document reports Q4 2024 GAAP and Adjusted EPS of $2.41, near the high end of the company's own guidance range of $1.85 to $2.45, and full-year EPS of $8.86 within the original guidance range. However, forward guidance for FY2025 is cautious: net sales growth around 1%, comparable sales around flat, and EPS of $8.80 to $9.80, which is essentially flat to slightly down from the $8.86 reported for FY2024. Management explicitly flags 'ongoing consumer uncertainty,' 'tariff uncertainty,' and expects 'meaningful year-over-year profit pressure' in Q1 2025. The guidance is not raised; it is held with a cautious tone and explicit downside risks, resulting in a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2024 Net Sales of $30.9 billion, down 3.1% vs. $31.9 billion in Q4 2023 (which had an extra week). Full-year 2024 Net Sales of $106.6 billion, down 0.8% vs. $107.4 billion in 2023. On a 52-week comparable basis, full-year Net Sales increased approximately 1%.",
+    "eps": "Q4 2024 GAAP and Adjusted EPS of $2.41, compared with $2.98 in Q4 2023 (down 19.3%). Full-year 2024 GAAP and Adjusted EPS of $8.86, compared with $8.94 in 2023 (down 0.9%). On a 52-week comparable basis, full-year EPS grew nearly 3%.",
+    "guidance": "Full-year 2025: Net Sales growth around 1%, comparable sales growth around flat, modest increase in operating margin rate, effective tax rate 23-24%, GAAP and Adjusted EPS of $8.80 to $9.80. Management expects meaningful year-over-year profit pressure in Q1 2025.",
+    "margin": "Q4 2024 gross margin rate 26.2% vs. 26.6% in Q4 2023. Full-year 2024 gross margin rate 28.2% vs. 27.5% in 2023. Q4 2024 operating income margin rate 4.7% vs. 5.8% in Q4 2023. Full-year 2024 operating income margin rate 5.2% vs. 5.3% in 2023.",
+    "key_risks": [
+      "Ongoing consumer uncertainty and declining consumer confidence affecting discretionary spending.",
+      "Tariff uncertainty and potential impact on costs and consumer demand.",
+      "Small decline in February Net Sales, with soft topline performance due to cold weather and declining consumer confidence.",
+      "Expected meaningful year-over-year profit pressure in Q1 2025 due to tariff uncertainty, start-up costs, and timing of expenses.",
+      "Higher digital fulfillment and supply chain costs, and higher promotional and clearance markdown rates in Q4 2024."
+    ],
+    "key_opportunities": [
+      "Strong Q4 comparable sales growth of 1.5%, driven by traffic and digital performance.",
+      "Digital comparable sales grew 8.7% in Q4, with Same-Day delivery powered by Target Circle 360 growing more than 25%.",
+      "Beauty delivered mid-single digit comparable sales growth for the full year, with share gains.",
+      "Cost savings of more than $2 billion over the last two years from ongoing efficiency efforts.",
+      "Target Plus marketplace growing at double-digit pace, expected to reach $5 billion in GMV within five years.",
+      "Roundel media business delivering nearly $2 billion in value, with potential to double in size over five years.",
+      "Target Circle 360 membership quadrupled since launch, with potential to more than triple over three years.",
+      "Expectation to drive more than $15 billion in revenue growth over the next five years."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in long-term strategy and growth ('we are very confident in our path forward') but also explicitly cautions about near-term headwinds ('we will remain appropriately cautious with our expectations for the year ahead')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2024 GAAP and Adjusted EPS of $2.41 was near the high end of the company's guidance range.",
+      "quote": "GAAP and Adjusted EPS of $2.41 was near the high end of the Company's guidance range, driven by stronger-than-expected topline performance, particularly in Toys, Electronics, and Apparel.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 GAAP and Adjusted EPS of $8.86 was within the Company's original guidance range.",
+      "quote": "Full-year GAAP and Adjusted EPS of $8.86 was within the Company's original guidance range for the year, reflecting stronger-than-expected topline performance in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 guidance: Net Sales growth around 1%, comparable sales around flat, EPS of $8.80 to $9.80.",
+      "quote": "The Company has the following expectations for full-year 2025: • Net Sales growth in a range around 1 percent, reflecting comparable sales growth in a range around flat • A modest increase in the Company's operating margin rate compared to full-year 2024 • An effective tax rate of 23 to 24 percent • GAAP and Adjusted EPS of $8.80 to $9.80",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects meaningful year-over-year profit pressure in Q1 2025.",
+      "quote": "In light of ongoing consumer uncertainty and a small decline in February Net Sales, combined with tariff uncertainty and the expected timing of certain costs within the fiscal year, the Company expects to see meaningful year-over-year profit pressure in its first quarter relative to the remainder of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 Net Sales of $30.9 billion, down 3.1% vs. prior year.",
+      "quote": "Net Sales of $30.9 billion were 3.1 percent lower in the fourth quarter compared with 2023, which included an additional week.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 Net Sales of $106.6 billion, down 0.8% vs. prior year.",
+      "quote": "Full-year Net Sales decreased 0.8 percent to $106.6 billion from $107.4 billion last year, reflecting a 0.1 percent increase in comparable sales as well as the benefit of sales from new stores and growth in non-merchandise revenues, offset by the impact of one fewer week of sales in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "On a 52-week comparable basis, full-year Net Sales increased approximately 1% and EPS grew nearly 3%.",
+      "quote": "Based on the Company's estimate of the impact of the extra week in 2023, Target's 2024 full-year Net Sales increased approximately 1 percent and earnings per share were nearly 3 percent higher than in 2023 on a 52-week basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 gross margin rate 26.2% vs. 26.6% in Q4 2023.",
+      "quote": "Fourth quarter gross margin rate was 26.2 percent, compared with 26.6 percent in 2023, reflecting higher digital fulfillment and supply chain costs and higher promotional and clearance markdown rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 gross margin rate 28.2% vs. 27.5% in 2023.",
+      "quote": "Full-year gross margin rate was 28.2 percent, compared with 27.5 percent in 2023, reflecting product cost improvements, growth in advertising and marketplace revenues and lower book-to-physical inventory adjustments, which more than offset higher promotional and clearance markdown rates and higher digital fulfillment & supply chain costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 operating income margin rate 4.7% vs. 5.8% in Q4 2023.",
+      "quote": "Fourth quarter operating income margin rate was 4.7 percent in 2024 compared with 5.8 percent in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 operating income margin rate 5.2% vs. 5.3% in 2023.",
+      "quote": "Operating income margin rate 4.7 5.8 5.2 5.3 (from Rate Analysis table)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident about long-term strategy but cautious on near-term outlook.",
+      "quote": "We are very confident in our path forward because we have the scale, the strategy and the capabilities to make Target a long-term winner in retail. ... we will remain appropriately cautious with our expectations for the year ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: ongoing consumer uncertainty and declining consumer confidence.",
+      "quote": "In light of ongoing consumer uncertainty and a small decline in February Net Sales, combined with tariff uncertainty ... declining consumer confidence impacted our discretionary assortment overall.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: tariff uncertainty.",
+      "quote": "In light of ongoing consumer uncertainty and a small decline in February Net Sales, combined with tariff uncertainty and the expected timing of certain costs within the fiscal year, the Company expects to see meaningful year-over-year profit pressure in its first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: small decline in February Net Sales.",
+      "quote": "In light of ongoing consumer uncertainty and a small decline in February Net Sales, combined with tariff uncertainty ...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: higher digital fulfillment and supply chain costs and higher promotional markdowns in Q4.",
+      "quote": "Fourth quarter gross margin rate was 26.2 percent, compared with 26.6 percent in 2023, reflecting higher digital fulfillment and supply chain costs and higher promotional and clearance markdown rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: strong Q4 comparable sales growth of 1.5%.",
+      "quote": "Fourth quarter comparable sales growth of 1.5 percent reflected strong traffic and digital performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: digital comparable sales grew 8.7% in Q4.",
+      "quote": "Digital comparable sales grew 8.7 percent in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: cost savings of more than $2 billion over the last two years.",
+      "quote": "The Company's ongoing efficiency efforts have delivered cost savings of more than $2 billion over the last two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Target Plus expected to reach $5 billion in GMV within five years.",
+      "quote": "Target Plus now generates over $1 billion in GMV, having grown more than 35% in the past year alone. ... we expect Target Plus to deliver upwards of $5 billion in annual GMV within the next five years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Roundel has potential to double in size over five years.",
+      "quote": "At nearly $2 billion in value for Target, we see the potential for Roundel to double its size over the next five years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Target Circle 360 membership quadrupled since launch, with potential to more than triple over three years.",
+      "quote": "Target Circle 360 membership count is more than four times greater compared to a year ago. ... over the next three years, we believe our Target Circle 360 membership count has the potential to more than triple with opportunities to grow even further over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: expectation to drive more than $15 billion in revenue growth over five years.",
+      "quote": "Our expectation is to drive more than $15 billion in revenue growth over the next five years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) despite a Q4 beat and long-term growth narrative, because forward guidance is essentially flat and management explicitly flags near-term profit pressure and tariff uncertainty. A reviewer may wish to confirm that the cautious guidance and risk disclosures are weighted appropriately relative to the positive long-term outlook."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2025-03-04",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-03-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q4\\tgt-4q24-press-release.html",
+        "pub_date": "2025-03-04"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q4\\tgt-4q24-transcript.html",
+        "pub_date": "2025-03-04"
+      }
+    ],
+    "document_id": "TGT_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T144915Z",
+    "timestamp": "2026-07-08T14:52:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q4\\tgt-4q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q4\\tgt-4q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 28155,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q4\\tgt-4q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 133233,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2024.txt"
+  }
+}

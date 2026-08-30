@@ -1,0 +1,253 @@
+{
+  "document_id": "PLTR_FQ4_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The company issued FY 2026 revenue guidance of 61% Y/Y growth and U.S. commercial revenue guidance of at least 115% Y/Y growth, which management explicitly states is 'crushing consensus expectations.' This represents a material upward revision to forward expectations relative to the company's own prior guidance, as evidenced by the press release headline and CEO commentary. The improvement is organic, driven by accelerating U.S. commercial revenue growth of 137% Y/Y, and management expresses high confidence with no major risks raised in the document."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue of $1.407 billion, up 70% Y/Y and 19% Q/Q. FY 2025 revenue of $4.475 billion, up 56% Y/Y.",
+    "eps": "Q4 2025 GAAP EPS of $0.24; adjusted EPS of $0.25. FY 2025 GAAP EPS of $0.63; adjusted EPS of $0.75.",
+    "guidance": "Q1 2026 revenue between $1.532-$1.536 billion; adjusted income from operations between $870-$874 million. FY 2026 revenue between $7.182-$7.198 billion; U.S. commercial revenue in excess of $3.144 billion (at least 115% growth); adjusted income from operations between $4.126-$4.142 billion; adjusted free cash flow between $3.925-$4.125 billion.",
+    "margin": "Q4 2025 GAAP operating margin of 41%; adjusted operating margin of 57%; adjusted free cash flow margin of 56%. FY 2025 GAAP operating margin of 32%; adjusted operating margin of 50%; adjusted free cash flow margin of 51%.",
+    "key_risks": [
+      "Majority of contracts are subject to termination provisions, including for convenience, and there can be no guarantee that contracts are not terminated or that contract options will be exercised.",
+      "Forward-looking statements are subject to risks and uncertainties, including the ability to execute business strategy, demand for platforms, long and unpredictable sales cycle, and macroeconomic events.",
+      "RDV may exclude value of certain commercial contracts due to ongoing assessments of customers' financial condition and ability to pay."
+    ],
+    "key_opportunities": [
+      "U.S. commercial revenue growth of 137% Y/Y in Q4 2025, accelerating from prior quarters.",
+      "Record-setting TCV of $4.262 billion in Q4 2025, up 138% Y/Y.",
+      "U.S. commercial RDV of $4.38 billion, up 145% Y/Y.",
+      "New partnerships with Accenture and HD Hyundai to scale enterprise AI.",
+      "Launch of Chain Reaction to deliver software to AI infrastructure actors.",
+      "Launch of ShipOS with U.S. Navy to deploy Foundry and AIP across maritime industrial base."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Alex Karp states 'Palantir's Rule of 40 score is now an incredible 127%' and 'We are an n of 1, and these numbers prove it,' reflecting strong confidence in the company's performance and outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $1.407 billion, up 70% year-over-year.",
+      "quote": "Revenue grew 70% year-over-year and 19% quarter-over-quarter to $1.407 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 revenue was $4.475 billion, up 56% year-over-year.",
+      "quote": "Revenue grew 56% year-over-year to $4.475 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP EPS was $0.24 and adjusted EPS was $0.25.",
+      "quote": "GAAP earnings per share (“EPS”) of $0.24 • Adjusted EPS of $0.25",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 GAAP EPS was $0.63 and adjusted EPS was $0.75.",
+      "quote": "GAAP EPS, Diluted $ 0.63 $ 0.75",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2026 revenue guidance is between $7.182-$7.198 billion, representing 61% Y/Y growth.",
+      "quote": "For full year 2026, we expect: • Revenue of between $7.182 - $7.198 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2026 U.S. commercial revenue guidance is at least $3.144 billion, representing at least 115% growth.",
+      "quote": "U.S. commercial revenue in excess of $3.144 billion, representing a growth rate of at least 115%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP operating margin was 41%.",
+      "quote": "GAAP income from operations of $575 million, representing a 41% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 adjusted operating margin was 57%.",
+      "quote": "Adjusted income from operations of $798 million, representing a 57% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 GAAP operating margin was 32%.",
+      "quote": "GAAP income from operations of $1.414 billion, representing a 32% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 adjusted operating margin was 50%.",
+      "quote": "Adjusted income from operations of $2.254 billion, representing a 50% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 adjusted free cash flow margin was 56%.",
+      "quote": "Adjusted free cash flow of $791 million, representing a 56% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 adjusted free cash flow margin was 51%.",
+      "quote": "Adjusted free cash flow of $2.270 billion, representing a 51% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management issued FY 2026 guidance that crushes consensus expectations.",
+      "quote": "Issues FY 2026 Revenue Guidance of 61% Y/Y and U.S. Comm Revenue Guidance of 115% Y/Y, Crushing Consensus Expectations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CEO expressed high confidence in the company's performance.",
+      "quote": "“Palantir’s Rule of 40 score is now an incredible 127%. ... We are an n of 1, and these numbers prove it.”",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial revenue grew 137% Y/Y in Q4 2025.",
+      "quote": "U.S. commercial revenue grew 137% year-over-year and 28% quarter-over-quarter to $507 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record TCV of $4.262 billion in Q4 2025, up 138% Y/Y.",
+      "quote": "Closed a record-setting $4.262 billion of total contract value (“TCV”), up 138% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial RDV grew 145% Y/Y to $4.38 billion.",
+      "quote": "U.S. commercial remaining deal value (“RDV”) of $4.38 billion, up 145% year-over-year and 21% quarter-over-quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Majority of contracts are subject to termination provisions.",
+      "quote": "However, the majority of our contracts are subject to termination provisions, including for convenience, and there can be no guarantee that contracts are not terminated or that contract options will be exercised.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RDV may exclude value of certain commercial contracts due to customer financial condition.",
+      "quote": "Further, RDV may exclude all or some portion of the value of certain commercial contracts as a result of our ongoing assessments of customers’ financial condition, including the consideration of such customers’ ability and intention to pay, and whether such contracts continue to meet the criteria for revenue recognition, among other factors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward-looking statements are subject to risks and uncertainties.",
+      "quote": "Forward-looking statements are subject to a number of risks and uncertainties, many of which involve factors or circumstances that are beyond our control. Our actual results could differ materially from those stated or implied in forward-looking statements due to a number of factors, including but not limited to risks detailed in our filings with the Securities and Exchange Commission",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New partnership with Accenture to scale enterprise AI.",
+      "quote": "Palantir and Accenture Launch Partnership to Scale Enterprise AI The new partnership will deploy Palantir’s forward deployed engineers alongside 2,000+ Palantir-skilled Accenture professionals to accelerate AIP deployment across healthcare, telecommunications, manufacturing, consumer goods, and financial services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New partnership with HD Hyundai to expand group-wide partnership.",
+      "quote": "Palantir and HD Hyundai Expand Group-Wide Partnership Building on years of successful deployments, HD Hyundai is now scaling Foundry and AIP across shipbuilding, refineries, construction equipment, robotics, and electric systems in Palantir's largest and longest partnership in Korea.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of Chain Reaction to deliver software to AI infrastructure actors.",
+      "quote": "We are launching Chain Reaction to deliver battle-proven software to the critical actors powering AI infrastructure. ENERGY PRODUCERS GRID OPERATORS INFRASTRUCTURE BUILDERS DATA CENTERS",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch of ShipOS with U.S. Navy.",
+      "quote": "Palantir and the U.S. Navy launched ShipOS to deploy Foundry and AIP across America's maritime industrial base, replacing decades of delays and cost overruns with on-time delivery and maritime dominance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 is based on guidance raise and strong results, but the document does not explicitly compare FY 2026 guidance to prior company guidance; the 'crushing consensus' language is used, but the prior guidance figure is not stated. A human reviewer may want to verify the magnitude of the guidance raise relative to prior guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PLTR_Bundled Earnings Report_2026-02-02",
+  "report_metadata": {
+    "issuer": "p2_palantir",
+    "company": "Palantir",
+    "ticker": "PLTR",
+    "sector": "Technology/Software - Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q4\\PLTR_Q4_2025_presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PLTR_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T101647Z",
+    "timestamp": "2026-08-09T10:17:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_palantir\\extracted\\PLTR_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 24038,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q4\\PLTR_Q4_2025_presentation.pdf",
+        "page_count": 39,
+        "extracted_characters": 26788,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_palantir\\extracted\\PLTR_FQ4_2025.txt"
+  }
+}

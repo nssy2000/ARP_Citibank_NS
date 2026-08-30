@@ -1,0 +1,236 @@
+{
+  "document_id": "JPM_FQ4_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document shows strong absolute results (revenue up 7% YoY, EPS $4.63 reported, $5.23 ex-item) and a raised NII ex. Markets guidance to ~$95B for 2026, up from $92.6B in FY2025. However, the guidance raise is modest and management explicitly attributes the NII outlook to 'the forward curve, which currently assumes two rate cuts' and 'continued loan growth in Card, although slightly less than last year.' The expense outlook of ~$105B represents meaningful growth, and the Q&A reveals analyst concern about credit card rate caps and expense growth. The overall surprise is mildly positive but tempered by cautious forward language and structural risks."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $45.8 billion; managed revenue of $46.8 billion, up 7% YoY.",
+    "eps": "Reported EPS of $4.63; EPS excluding significant item of $5.23.",
+    "guidance": "Expect FY2026 NII ex. Markets of ~$95B; total NII of ~$103B; adjusted expense of ~$105B; Card Services NCO rate of ~3.4%.",
+    "margin": "Reported overhead ratio of 52%; managed overhead ratio of 51%; ROE 15%; ROTCE 18%.",
+    "key_risks": [
+      "Credit card APR cap proposals: 'if it happened the way it was described, it would be dramatic' (Jamie Dimon).",
+      "Geopolitical risks: 'markets seem to underappreciate the potential hazards—including from complex geopolitical conditions, the risk of sticky inflation and elevated asset prices' (Jamie Dimon).",
+      "Expense growth: 2026 adjusted expense of ~$105B represents meaningful growth in dollar and percentage terms.",
+      "NBFI lending growth: 'the growth over the last seven years has been quite significant no matter how you look at it' and 'we are quite mindful of the risk.'",
+      "Yield-seeking flows persist: 'the level of yield-seeking flows dropped off a lot but it's not zero.'"
+    ],
+    "key_opportunities": [
+      "Apple Card partnership: 'an economically compelling transaction for us as a co-brand deal' and 'anyone should be thrilled to be in a partnership with Apple.'",
+      "Strong franchise growth: '1.7 million net new checking accounts and 10.4 million new credit card accounts' in CCB; record client asset net inflows of $553B in AWM.",
+      "Markets revenue growth: 'Markets revenue up 17% YoY' with Equity Markets up 40%.",
+      "Deregulation tailwinds: 'Deregulation is a plus in general, not just for banks, but banks will be able to redeploy capital.'",
+      "Fiscal stimulus: 'ongoing fiscal stimulus, the benefits of deregulation and the Fed’s recent monetary policy' supporting the economy."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Jamie Dimon states 'the U.S. economy has remained resilient' and 'these conditions could persist for some time,' while Jeremy Barnum describes 'structural optimism about the opportunity set for the company when we look through the cycle.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $45.8 billion; managed revenue of $46.8 billion, up 7% YoY.",
+      "quote": "Net revenue - reported $45,798; Net revenue - managed $46,767; Net revenue - managed $ O/(U) 4Q24 % 7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS of $4.63; EPS excluding significant item of $5.23.",
+      "quote": "Earnings per share - diluted $4.63; Excluding this item resulted in an increase of $0.60 per share to reported EPS from $4.63 to $5.23.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance: Expect FY2026 NII ex. Markets of ~$95B; total NII of ~$103B; adjusted expense of ~$105B; Card Services NCO rate of ~3.4%.",
+      "quote": "Expect FY2026 net interest income of ~$103B, market dependent; Expect FY2026 net interest income excluding Markets of ~$95B, market dependent; Expect FY2026 adjusted expense of ~$105B, market dependent; Expect FY2026 Card Services NCO rate of ~3.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 52%; managed overhead ratio of 51%; ROE 15%; ROTCE 18%.",
+      "quote": "Expense of $24.0 billion; reported overhead ratio of 52% and managed overhead ratio of 51%; ROE 15%; ROTCE 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit card APR cap proposals are a key risk: 'if it happened the way it was described, it would be dramatic.'",
+      "quote": "Jamie Dimon: 'if it happened the way it was described, it would be dramatic. If it happens in a way where it was modified quite a bit, it would be less. And we don't know the number yet, but it would be very dramatic if it was just a cap.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical risks are a key risk: 'markets seem to underappreciate the potential hazards.'",
+      "quote": "Jamie Dimon: 'markets seem to underappreciate the potential hazards—including from complex geopolitical conditions, the risk of sticky inflation and elevated asset prices.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense growth is a key risk: 2026 adjusted expense of ~$105B represents meaningful growth.",
+      "quote": "Jeremy Barnum: '2026 in isolation clearly represents meaningful expense growth in both dollar and percentage terms.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NBFI lending growth is a key risk: 'the growth over the last seven years has been quite significant.'",
+      "quote": "Jeremy Barnum: 'the growth over the last seven years has been quite significant no matter how you look at it.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Yield-seeking flows persist as a risk: 'the level of yield-seeking flows dropped off a lot but it's not zero.'",
+      "quote": "Jeremy Barnum: 'the level of yield-seeking flows dropped off a lot but it's not zero.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Apple Card partnership is a key opportunity: 'an economically compelling transaction for us as a co-brand deal.'",
+      "quote": "Jeremy Barnum: 'from a narrow perspective, just in terms of the portfolio and the transaction, this is an economically compelling transaction for us as a co-brand deal.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong franchise growth is a key opportunity: '1.7 million net new checking accounts and 10.4 million new credit card accounts.'",
+      "quote": "Jamie Dimon: 'This year, we opened 1.7 million net new checking accounts and 10.4 million new credit card accounts.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenue growth is a key opportunity: 'Markets revenue up 17% YoY' with Equity Markets up 40%.",
+      "quote": "Markets revenue up 17% YoY, with Fixed Income Markets up 7% and Equity Markets up 40%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deregulation tailwinds are a key opportunity: 'Deregulation is a plus in general.'",
+      "quote": "Jamie Dimon: 'Deregulation is a plus in general, not just for banks, but banks will be able to redeploy capital.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal stimulus is a key opportunity: 'ongoing fiscal stimulus, the benefits of deregulation and the Fed’s recent monetary policy.'",
+      "quote": "Jamie Dimon: 'These conditions could persist for some time, particularly with ongoing fiscal stimulus, the benefits of deregulation and the Fed’s recent monetary policy.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic: 'structural optimism about the opportunity set for the company.'",
+      "quote": "Jeremy Barnum: 'the 2026 growth reflects our structural optimism about the opportunity set for the company when we look through the cycle, as well as some optimism about the near-term revenue outlook.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The NII ex. Markets guidance of ~$95B is a modest raise from FY2025 actual of $92.6B.",
+      "quote": "FY2025 NII excluding Markets $92.6B; Expect FY2026 net interest income excluding Markets of ~$95B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is attributed to the forward curve and loan growth, not organic momentum alone.",
+      "quote": "Jeremy Barnum: 'the outlook follows the forward curve, which currently assumes two rate cuts. Offsetting that is the expectation for continued loan growth in Card, although slightly less than last year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Analyst concern about expense growth is evident in Q&A.",
+      "quote": "Mike Mayo: 'it is a wow, the $9 billion increase in expenses, your guide year-over-year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Analyst concern about credit card rate caps is evident in Q&A.",
+      "quote": "Erika Najarian: 'investors felt quite optimistic... and I think this weekend sort of shook their confidence given the social media post by – about credit card rate caps.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is near the HOLD/BUY boundary. The guidance raise is modest and partially attributed to rate cuts, not purely organic. A reviewer may consider whether the positive franchise growth and Apple Card opportunity warrant a slightly higher score, or whether the expense growth and regulatory risks justify a lower one."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2026-01-13",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-earnings-call-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T194008Z",
+    "timestamp": "2026-07-02T19:43:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_reaction_prompt_v2_merged.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm_v2prompt\\extracted\\JPM_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 24355,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-presentation.pdf",
+        "page_count": 21,
+        "extracted_characters": 30870,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-earnings-call-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 98903,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm_v2prompt\\extracted\\JPM_FQ4_2025.txt"
+  }
+}

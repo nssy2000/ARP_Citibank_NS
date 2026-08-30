@@ -1,0 +1,187 @@
+{
+  "document_id": "PEP_FQ3_2023",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Full-year 2023 core constant currency EPS guidance was raised from 12% growth to 13% growth, and 2024 guidance was provided early, targeting the upper end of long-term targets. The raise is organic (not attributed to FX or one-time items), and management expressed confidence in the business's ability to perform well in the coming years. This constitutes a meaningful upward revision in forward expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2023 net revenue of $23,453 million, up 6.7% reported and 8.8% organic.",
+    "eps": "Q3 2023 GAAP EPS of $2.24, up 15% year-over-year; Core EPS of $2.25, up 16% on a constant currency basis.",
+    "guidance": "Full-year 2023 core constant currency EPS growth raised to 13% (from 12%); organic revenue growth reaffirmed at 10%. For 2024, expects organic revenue and core constant currency EPS growth towards the upper end of long-term targets (4-6% and high-single-digit, respectively).",
+    "margin": "Core gross margin and core operating margin both expanded in Q3 2023 versus the prior year (gross margin +32 bps, operating margin +112 bps on a core basis).",
+    "key_risks": [
+      "Foreign exchange translation headwind of approximately 2 percentage points on reported net revenue and core EPS growth.",
+      "Continued elevated inflation, with pricing expected to be roughly in line with inflation in 2024.",
+      "Consumer caution and selectivity, with trade-down to value channels and smaller pack sizes.",
+      "Potential impact of GLP-1 drugs on consumer behavior, though currently negligible.",
+      "Competition from new entrants like Prime in the sports drink category."
+    ],
+    "key_opportunities": [
+      "Sequential volume improvement globally, with units growing faster than volume.",
+      "Margin expansion driven by productivity initiatives, digitalization, and cost management.",
+      "Strong performance in convenience store and food service channels, indicating resilient consumer demand.",
+      "Gatorade's transition to DSD platform showing sequential improvement and stronger foundation for 2024.",
+      "CELSIUS distribution expansion doubling presence in convenience channel, creating halo effect for portfolio.",
+      "Long-term structural tailwinds from urbanization, demographic shifts, and snacking trends."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Ramon Laguarta stated, 'We are pleased with our performance as our businesses and associates displayed tremendous agility and resilience... we believe that our businesses can continue to perform well in the coming years,' and CFO Hugh Johnston noted, 'We tend to be, I think, appropriately conservative in the way that we communicate to you all. So from that perspective I think you can go into 2024 with a similar expectation that we should at least achieve the numbers that we've laid out for you.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2023 core constant currency EPS guidance was raised from 12% to 13%.",
+      "quote": "Given the strength of our businesses and categories and a continued focus on advancing our holistic cost management initiatives, we now expect our full-year 2023 core constant currency EPS to increase 13 percent (previously 12 percent) and continue to expect our full-year 2023 organic revenue to increase 10 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 guidance was provided early, targeting the upper end of long-term targets.",
+      "quote": "For fiscal year 2024, we expect to deliver results towards the upper end of our long-term target ranges for both organic revenue and core constant currency EPS growth. Our long-term target ranges for both organic revenue growth (4 to 6 percent increase) and core constant currency EPS growth (high-single-digit percentage increase) remain unchanged.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2023 net revenue was $23,453 million, up 6.7% reported and 8.8% organic.",
+      "quote": "Net Revenue $ 23,453 $ 21,971 ... Net revenue growth 6.7% ... Organic revenue growth 8.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2023 GAAP EPS was $2.24, up 15%; Core EPS was $2.25, up 16% constant currency.",
+      "quote": "Earnings per share (EPS) $2.24 ... EPS change 15% ... Core EPS $2.25 ... Core constant currency EPS change 16%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core gross margin and core operating margin both expanded in Q3 2023.",
+      "quote": "Gross Margin Growth Reconciliation ... Impact of: Mark-to-market net impact (32) ... Core gross margin growth, non-GAAP measure (a) bps ... Operating Margin Performance Reconciliation ... Impact of: Mark-to-market net impact (112) ... Core operating margin growth, non-GAAP measure (a) bps",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange translation headwind of approximately 2 percentage points on reported net revenue and core EPS growth.",
+      "quote": "the Company continues to expect an approximate 2-percentage-point foreign exchange translation headwind to impact reported net revenue and core EPS growth based on current market consensus rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer caution and selectivity, with trade-down to value channels and smaller pack sizes.",
+      "quote": "I do think that we see the consumer right now being more selective, and you see it in a variety of ways, right? You see some trade down in terms of channels of trade that they're purchasing products in. You see some orientation toward value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential impact of GLP-1 drugs on consumer behavior is currently negligible.",
+      "quote": "So far, the impact is negligible in our business. Overall, if you take global consumption, there are obviously a lot of question marks with regards to the obesity drugs when it comes to medical testing or scalability of the usage of this or what is the impact really on consumer choices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sequential volume improvement globally, with units growing faster than volume.",
+      "quote": "We're seeing sequential volume improvement, if you take the last few quarters. So globally, we're improving our volume. ... units are growing much faster than volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong performance in convenience store and food service channels.",
+      "quote": "For Q3, we saw revenue up 5% in beverages and 8% in foods in the convenience channel. Number two is food service, that's also typically a leading indicator, that's still growing double-digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gatorade's transition to DSD platform showing sequential improvement.",
+      "quote": "We're very pleased with the G2DSD or the movement of Gatorade to the DSD platform over the summer. We're seeing sequential improvement in the performance of the brand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CELSIUS distribution expansion doubling presence in convenience channel.",
+      "quote": "We've doubled the distribution and the presence in store of the brand in the last year or so especially in the convenience channel, which is a key channel for energy consumption.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are pleased with our performance as our businesses and associates displayed tremendous agility and resilience across geographies and categories in an evolving and dynamic environment. Given the strength of our businesses and categories ... we believe that our businesses can continue to perform well in the coming years",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.margin",
+      "reason": "The core gross margin and operating margin expansion figures are derived from the reconciliation tables (A-14) which show bps changes but the exact bps figures are not explicitly stated in a single sentence; they are inferred from the table. A human reviewer should verify the exact bps figures from the table."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2023-10-10",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-10-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q3\\PEP-8K-EX99.1-2023-Q3-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q3\\PEP-Q3-2023-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ3_2023"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:45:42Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q3\\PEP-8K-EX99.1-2023-Q3-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q3\\PEP-8K-EX99.1-2023-Q3-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 45312,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q3\\PEP-Q3-2023-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 37332,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ3_2023.txt"
+  }
+}

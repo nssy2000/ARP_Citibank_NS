@@ -1,0 +1,227 @@
+{
+  "document_id": "PEP_FQ2_2023",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "PepsiCo raised its full-year 2023 organic revenue growth guidance from 8% to 10% and core constant currency EPS growth from 9% to 12%, a material upward revision. The CEO expressed strong confidence, stating 'our business momentum remains strong.' The improvement is organic, driven by better-than-expected volumes and pricing, not attributed to FX or one-time items. This constitutes a meaningful guidance raise above the company's own prior expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported net revenue of $22,322 million for Q2 2023, up 10.4% year-over-year. Organic revenue growth was 13.0%.",
+    "eps": "Reported GAAP EPS of $1.99 for Q2 2023, up 93% year-over-year. Core EPS was $2.09, up 15% on a constant currency basis.",
+    "guidance": "Full-year 2023 organic revenue growth guidance raised to 10% (previously 8%). Core constant currency EPS growth guidance raised to 12% (previously 9%). Implied 2023 core EPS of $7.47 (previously $7.27).",
+    "margin": "Gross margin improved 132 basis points in Q2, entirely driven by productivity. Operating margin improved 45 basis points. Full-year margins expected to improve year-over-year.",
+    "key_risks": [
+      "Foreign exchange translation headwind of approximately 2 percentage points on reported net revenue and core EPS growth.",
+      "Uncertainty related to the deadly conflict in Ukraine and its impact on the business.",
+      "Potential for increased consumer elasticity and trade-down behavior, particularly among lower-income consumers.",
+      "Cycling tougher pricing comps in the second half of the year."
+    ],
+    "key_opportunities": [
+      "Strong brand momentum and better-than-expected consumer elasticities, allowing for pricing power.",
+      "Productivity initiatives (digitalization, automation, global business services) driving margin expansion.",
+      "International growth, particularly in Europe and Latin America, with low category penetration and strong consumer demand.",
+      "Celsius partnership expanding distribution and capturing new energy drink consumers.",
+      "Innovation in snacks (minis, jerky, nuts/seeds) and beverages (Gatorade G2 DSD, zero-sugar propositions)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Ramon Laguarta stated 'We are very pleased with our performance for the second quarter as our business momentum remains strong,' and CFO Hugh Johnston expressed confidence in sustained margin improvement driven by productivity."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "PepsiCo raised full-year organic revenue growth guidance from 8% to 10%.",
+      "quote": "For fiscal year 2023, the Company now expects to deliver 10 percent organic revenue growth (previously 8 percent)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PepsiCo raised full-year core constant currency EPS growth guidance from 9% to 12%.",
+      "quote": "and 12 percent core constant currency EPS growth (previously 9 percent).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CEO expressed strong confidence in business momentum.",
+      "quote": "We are very pleased with our performance for the second quarter as our business momentum remains strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2023 reported net revenue was $22,322 million, up 10.4%.",
+      "quote": "Net Revenue $ 22,322 $ 20,225 ... Net revenue growth 10.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2023 organic revenue growth was 13.0%.",
+      "quote": "Organic revenue growth 13.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2023 reported GAAP EPS was $1.99, up 93%.",
+      "quote": "Earnings per share (EPS) $1.99 ... EPS change 93%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2023 core EPS was $2.09, up 15% on a constant currency basis.",
+      "quote": "Core EPS $2.09 ... Core constant currency EPS change 15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Implied 2023 core EPS guidance raised to $7.47 from $7.27.",
+      "quote": "this guidance above imply 2023 core EPS of $7.47 (previously $7.27)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin improved 132 basis points in Q2, driven by productivity.",
+      "quote": "the margin improvement that you saw in the quarter 132 bps on gross ... is entirely driven by productivity",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year margins expected to improve year-over-year.",
+      "quote": "We're now clearly going to be ahead of where we were last year. So margins will improve this year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange translation headwind of approximately 2 percentage points.",
+      "quote": "the Company continues to expect an approximate 2-percentage-point foreign exchange translation headwind to impact reported net revenue and core EPS growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risk related to the conflict in Ukraine.",
+      "quote": "the risks associated with the deadly conflict in Ukraine",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for increased consumer elasticity and trade-down behavior.",
+      "quote": "we're seeing lower income consumers strategizing around obviously optimizing their budgets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cycling tougher pricing comps in the second half.",
+      "quote": "the only thing we're seeing in Frito-Lay in the last few weeks is the lapping versus the P6 price increase we did last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong brand momentum and better-than-expected consumer elasticities.",
+      "quote": "we've been positively surprised on the strength of the brands in some markets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity initiatives driving margin expansion.",
+      "quote": "the margins will improve, I think, on a sustained basis and it will be driven by productivity and that productivity will come out of those three buckets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International growth opportunity with low category penetration.",
+      "quote": "Our category penetrations in most of those markets is still relatively low, and we continue to be an affordable treat in those markets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Celsius partnership capturing new energy drink consumers.",
+      "quote": "Celsius is a brand that is capturing new consumers to the energy category, consumers that were not consuming energy drinks for many reasons in the past",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Innovation in snacks and beverages driving growth.",
+      "quote": "some of our innovation. If you think about minis or if you think about some of the new launches like the jerky product or a relaunch of the nuts and seeds, our permissible portfolio, they're really doing very well",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are very pleased with our performance for the second quarter as our business momentum remains strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.50 is based on a clear guidance raise, but the Q&A reveals some caution about consumer trade-down and tougher comps in H2. A reviewer may consider whether these headwinds warrant a slightly lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2023-07-13",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-07-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q2\\PEP-8K-EX99.1-2023-Q2-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q2\\PEP-Q2-2023-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ2_2023"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:45:25Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q2\\PEP-8K-EX99.1-2023-Q2-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q2\\PEP-8K-EX99.1-2023-Q2-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 43370,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2023-Q2\\PEP-Q2-2023-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 42408,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ2_2023.txt"
+  }
+}

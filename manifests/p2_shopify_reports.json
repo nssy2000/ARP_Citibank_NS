@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_shopify",
+  "reports": [
+    {
+      "document_id": "SHOP_FQ3_2025",
+      "issuer": "p2_shopify",
+      "company": "Shopify",
+      "ticker": "SHOP",
+      "sector": "Technology/E-Commerce",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-04",
+      "release_date": "2025-11-04",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 1594805, acc 0001594805-25-000088, filed 2025-11-04 12:01:33 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/shopify/CY2025-Q3/SHOP_Q3_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/shopify/CY2025-Q3/SHOP_Q3_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "SHOP_FQ4_2025",
+      "issuer": "p2_shopify",
+      "company": "Shopify",
+      "ticker": "SHOP",
+      "sector": "Technology/E-Commerce",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-11",
+      "release_date": "2026-02-11",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 1594805, acc 0001594805-26-000006, filed 2026-02-11 12:02:03 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/shopify/CY2025-Q4/SHOP_Q4_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/shopify/CY2025-Q4/SHOP_Q4_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "SHOP_FQ1_2026",
+      "issuer": "p2_shopify",
+      "company": "Shopify",
+      "ticker": "SHOP",
+      "sector": "Technology/E-Commerce",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-05",
+      "release_date": "2026-05-05",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 1594805, acc 0001594805-26-000018, filed 2026-05-05 11:18:18 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/shopify/CY2026-Q1/SHOP_Q1_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/shopify/CY2026-Q1/SHOP_Q1_2026_Earnings_Call_Transcript.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

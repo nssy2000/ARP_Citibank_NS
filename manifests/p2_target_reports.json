@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_target",
+  "reports": [
+    {
+      "document_id": "TGT_FQ1_2025",
+      "issuer": "p2_target",
+      "company": "Target",
+      "ticker": "TGT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-21",
+      "release_date": "2025-05-21",
+      "release_date_source": "EDGAR 8-K Item 2.02, tgt-20250521.htm, acc 0000027419-25-000096",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/phase2/CY2025-Q1/2025-May-21-TGT-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/phase2/CY2025-Q1/TGT-Q1-2025-Press-Release-SEC-EX99.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "TGT_FQ2_2025",
+      "issuer": "p2_target",
+      "company": "Target",
+      "ticker": "TGT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-20",
+      "release_date": "2025-08-20",
+      "release_date_source": "EDGAR 8-K Item 2.02, tgt-20250820.htm, acc 0000027419-25-000115",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/phase2/CY2025-Q2/2025-august-20-tgt-transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/phase2/CY2025-Q2/TGT-Q2-2025-Press-Release-SEC-EX99.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "TGT_FQ3_2025",
+      "issuer": "p2_target",
+      "company": "Target",
+      "ticker": "TGT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-19",
+      "release_date": "2025-11-19",
+      "release_date_source": "EDGAR 8-K Item 2.02, tgt-20251119.htm, acc 0000027419-25-000123",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/phase2/CY2025-Q3/TGT-Transcript-2025-11-19-2.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/phase2/CY2025-Q3/TGT-Q3-2025-Press-Release-SEC-EX99.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "TGT_FQ1_2026",
+      "issuer": "p2_target",
+      "company": "Target",
+      "ticker": "TGT",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-20",
+      "release_date": "2026-05-20",
+      "release_date_source": "EDGAR 8-K Item 2.02, tgt-20260520.htm, acc 0000027419-26-000020",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/target/phase2/CY2026-Q1/TGT-USQ_Transcript_2026-05-20.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/target/phase2/CY2026-Q1/TGT-Q1-2026-Press-Release-SEC-EX99.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "document_id": "BA_FQ4_2024",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports a severe quarter with GAAP loss per share of ($5.46) and core loss per share of ($5.90), driven by the IAM work stoppage and charges on defense programs. Forward guidance is not formally raised; instead, management provides a cautious outlook for 2025 free cash flow, expecting it to be a 'use of cash' with the first half negative and the second half turning positive. The structural risks from fixed-price development programs and ongoing certification challenges are highlighted, and management explicitly states they are 'not putting out formal guidance' due to uncertainty. This constitutes a guidance reduction relative to prior expectations, warranting a score of -0.50."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$15.2 billion, down 31% year-over-year, primarily reflecting lower commercial deliveries associated with the IAM work stoppage.",
+    "eps": "GAAP loss per share of ($5.46); core (non-GAAP) loss per share of ($5.90).",
+    "guidance": "No formal guidance provided. Management expects 2025 free cash flow to be a 'use of cash' with first half negative and second half positive, and anticipates 'a significant improvement over 2024.' 737 production rate increases beyond 38 per month are subject to FAA approval based on KPIs.",
+    "margin": "GAAP operating margin of (24.7)% for Q4 2024; core (non-GAAP) operating margin of (26.5)%.",
+    "key_risks": [
+      "IAM work stoppage and agreement impacts on production and costs.",
+      "Charges on fixed-price development programs in Defense, Space & Security (KC-46A, T-7A, Commercial Crew, VC-25B, MQ-25).",
+      "Workforce reduction costs.",
+      "Certification challenges for 737-7, 737-10, and 777X.",
+      "Supply chain constraints, particularly for 787 seats and heat exchangers.",
+      "Potential for further cost growth on fixed-price development programs.",
+      "Uncertainty in production rate ramp and ability to meet delivery targets."
+    ],
+    "key_opportunities": [
+      "Strong backlog of $521 billion, including over 5,500 commercial airplanes.",
+      "Global Services segment delivering record operating margins (19.5% in Q4).",
+      "Plans to gradually increase 737 production rate and expand 787 operations.",
+      "Demand for core commercial and defense products remains strong.",
+      "Progress on safety and quality plan, with FAA seeing 'significant improvements.'",
+      "Potential for cash flow improvement as production stabilizes and shadow factories are shut down."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management uses language like 'we still expect it to be a use of cash,' 'we're not putting out formal guidance,' and 'we've got a lot of work yet to do,' indicating a guarded outlook despite some positive operational progress."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $15.2 billion, down 31% year-over-year.",
+      "quote": "Revenue of $15.2 billion, GAAP loss per share of ($5.46) and core (non-GAAP)* loss per share of ($5.90)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($5.46); core loss per share was ($5.90).",
+      "quote": "Revenue of $15.2 billion, GAAP loss per share of ($5.46) and core (non-GAAP)* loss per share of ($5.90)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal guidance provided; 2025 free cash flow expected to be a use of cash.",
+      "quote": "2025 will be an important year in our recovery. And while we still expect it to be a use of cash, we anticipate a significant improvement over 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (24.7)% for Q4 2024.",
+      "quote": "Operating margins (24.7) % 1.3 % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include IAM work stoppage impacts and defense program charges.",
+      "quote": "primarily reflecting previously announced impacts of the IAM work stoppage and agreement, charges for certain defense programs, and costs associated with workforce reductions announced last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include strong backlog of $521 billion.",
+      "quote": "Total company backlog grew to $521 billion, including over 5,500 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services segment delivered record operating margins of 19.5%.",
+      "quote": "Operating margin was a record 19.5% in the quarter, up 210 basis points compared to last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "2025 will be an important year in our recovery. And while we still expect it to be a use of cash, we anticipate a significant improvement over 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sentiment score rationale: severe quarter, no formal guidance raise, cautious outlook.",
+      "quote": "We're not putting out formal guidance, a little too early for that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the absence of formal guidance and cautious forward language. A human reviewer should confirm that the structural risks (defense program charges, certification delays) are appropriately weighted relative to the positive backlog and services performance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 9,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-01-28",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-01-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q4\\ba-4q24-press-release.html",
+        "pub_date": "2025-01-28"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q4\\ba-4q24-presentation.pdf",
+        "pub_date": "2025-01-28"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q4\\ba-4q24-transcript.pdf",
+        "pub_date": "2025-01-28"
+      }
+    ],
+    "document_id": "BA_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:37:41Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q4\\ba-4q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q4\\ba-4q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 27523,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q4\\ba-4q24-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 10276,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q4\\ba-4q24-transcript.pdf",
+        "page_count": 23,
+        "extracted_characters": 86300,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2024.txt"
+  }
+}

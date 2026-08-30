@@ -1,0 +1,250 @@
+{
+  "document_id": "EXPE_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered a strong first quarter with 13% gross bookings growth and 15% revenue growth, exceeding guidance, and expanded adjusted EBITDA margins by 591 basis points. However, full-year guidance was reiterated, not raised, and management explicitly cited FX tailwinds (approximately 3 points to bookings and 5 points to revenue) as a significant contributor to the beat. Management also flagged a volatile macro environment in March with elevated cancellations, and while April rebounded, they maintained a cautious stance on the full year, expecting to come in at the high end of the margin expansion range but not raising the overall outlook. This genuine operational momentum, particularly the 83% adjusted EBITDA growth and 386% adjusted EPS growth, combined with confident but hedged forward language, supports a moderately positive score, but the lack of a formal guidance raise and the explicit FX attribution prevent a higher score.",
+    "score_justification": "Forward guidance was held flat (reiterated), not raised. The strong results were partially attributed to FX tailwinds, which are discounted. The genuine operational momentum (margin expansion, B2B growth) and confident language support a score above 0.0 but below the +0.5 threshold for a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$3,426 million, up 15% year-over-year. B2B revenue grew 25%.",
+    "eps": "GAAP diluted loss per share of $(0.05), improved 97% year-over-year. Adjusted EPS of $1.96, up 386% year-over-year.",
+    "guidance": "For Q2 2026: gross bookings growth of 7-9%, revenue growth of 9-11%, and adjusted EBITDA margin expansion of 50-100 basis points. For FY2026: reiterated gross bookings growth of 6-8%, revenue growth of 6-9%, and adjusted EBITDA margin expansion of 100-125 basis points. Management expects to come in at the high end of the margin expansion range.",
+    "margin": "Adjusted EBITDA margin of 15.8%, up 591 basis points year-over-year. B2C segment margin was 20.1%, up 902 bps. B2B segment margin was 22.7%, down 8 bps.",
+    "key_risks": [
+      "Conflict in the Middle East and travel advisories in Mexico caused elevated cancellations and a slowdown in March.",
+      "Macroeconomic environment is volatile and uncertain, with potential for further disruptions.",
+      "Air capacity tightening and price increases.",
+      "B2B promotional activity from large partners is moderating, which could impact growth.",
+      "AI-related token costs are expected to increase, putting upward pressure on costs.",
+      "Intense competition from online travel agencies, suppliers, search engines, and emerging AI-powered platforms."
+    ],
+    "key_opportunities": [
+      "B2B segment growth, with bookings up 22% and new partnerships with Uber and Bank of Montreal AIR MILES.",
+      "AI-driven initiatives improving personalization, supply onboarding, servicing, and marketing efficiency.",
+      "Strong consumer brand momentum, with B2C bookings up 10%, the fastest pace in 12 quarters.",
+      "Vacation rentals on Expedia reached an annualized run rate of $1 billion.",
+      "Supplier-funded promotions driving engagement, with 25% more hotels participating in the March sale.",
+      "New $5 billion share repurchase authorization."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in the strong start to the year and future growth ('we remain confident in our ability to drive increasing value for travelers, partners, and shareholders') while acknowledging a 'dynamic macroeconomic environment' and maintaining a cautious full-year outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $3,426 million, up 15% year-over-year.",
+      "quote": "Revenue grew 15%, driven by B2B, which grew 25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted loss per share was $(0.05), improved 97% year-over-year.",
+      "quote": "Diluted GAAP loss per share decreased 97% while Adjusted EPS grew 386%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $1.96, up 386% year-over-year.",
+      "quote": "Adjusted EPS* $1.96 $0.40 386%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was reiterated, not raised.",
+      "quote": "As a result, we reiterate our expectations for gross bookings growth of 6% to 8% and revenue growth of 6% to 9%, including approximately 1 and 2 points of foreign exchange tailwind, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 guidance includes gross bookings growth of 7-9% and revenue growth of 9-11%.",
+      "quote": "For the second quarter, we expect gross bookings growth of 7% to 9% and revenue growth of 9% to 11%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin expanded by 591 basis points year-over-year.",
+      "quote": "Adjusted EBITDA increased 83% with 591 basis points of margin expansion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The strong results were partially attributed to foreign exchange tailwinds.",
+      "quote": "Revenue increased 15% to $3.4 billion with foreign exchange contributing approximately 3 points to bookings and nearly 5 points to revenue, roughly 1 point higher than we had anticipated.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The macro environment became more volatile in March, impacting results.",
+      "quote": "However, the macroenvironment became more volatile as we entered March, resulting in higher cancellations and more moderate booking trends late in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "April saw a rebound in bookings and cancellations normalized.",
+      "quote": "Cancellation rates stabilized in early April and booking activity reaccelerated throughout the month.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "B2B segment grew bookings by 22%.",
+      "quote": "B2B gross bookings grew 22% to $10.7 billion, led by an acceleration in North America and double-digit growth across all core regions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "B2C segment grew bookings by 10%, the fastest pace in 12 quarters.",
+      "quote": "Our consumer brands grew bookings by 10%, the fastest pace in 12 quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A new $5 billion share repurchase authorization was announced.",
+      "quote": "And today, we announced that our Board approved a new $5 billion share repurchase authorization.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the company's ability to drive value.",
+      "quote": "Looking ahead, we remain confident in our ability to drive increasing value for travelers, partners, and shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is cautious about the full-year outlook due to macro uncertainty.",
+      "quote": "For Q2 and the full year, we acknowledge there could be potential upside. But given the volatility we have seen recently and the ongoing geopolitical and macroeconomic uncertainty, we believe it is prudent to maintain our current full-year outlook and provide an update when we report Q2 earnings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-related token costs are expected to increase.",
+      "quote": "I expect token costs to go up we're going to be adding back skills that we need to optimize our AI plans. And I think that will put some upward pressure on costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces intense competition from various sources.",
+      "quote": "intense competition from online travel agencies, suppliers, search engines, B2B businesses offering competing travel technology solutions and services, and emerging AI-powered platforms;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Vacation rentals on Expedia reached an annualized run rate of $1 billion.",
+      "quote": "For the first time, vacation rentals on Expedia reached an annualized run rate of $1 billion, demonstrating that our investment in a unified lodging shopping experience is scaling successfully.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New partnerships with Uber and Bank of Montreal AIR MILES were announced.",
+      "quote": "We announced an exclusive partnership with Bank of Montreal AIR MILES, and just last week, became the exclusive hotel partner for Uber.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supplier-funded promotions are driving engagement.",
+      "quote": "25% more hotels participated in our March sale this year, and more than a third of Vrbo bookings last quarter came from supplier-funded promotions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company repurchased $700 million of shares in Q1.",
+      "quote": "In the first quarter, we utilized $700 million to repurchase 3.3 million shares of our common stock at an average price of $212 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a balance between strong operational results and reiterated (not raised) guidance. The explicit FX attribution for the beat and the cautious full-year language were key factors in not scoring higher. A reviewer should verify this balance is appropriate."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance was reiterated for the full year but Q2 guidance was provided. The summary should be checked to ensure it clearly distinguishes between the reiterated full-year outlook and the new Q2 outlook."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "EXPE_Bundled Earnings Report_2026-05-07",
+  "report_metadata": {
+    "issuer": "p2_expedia",
+    "company": "Expedia",
+    "ticker": "EXPE",
+    "sector": "Consumer Cyclical/Travel Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2026-Q1\\Q1-2026-Earnings-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2026-Q1\\Q1-2026-Earnings-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "EXPE_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100145Z",
+    "timestamp": "2026-08-09T10:02:51Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_expedia\\extracted\\EXPE_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 37288,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2026-Q1\\Q1-2026-Earnings-Presentation.pdf",
+        "page_count": 23,
+        "extracted_characters": 21880,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2026-Q1\\Q1-2026-Earnings-Transcript.pdf",
+        "page_count": 16,
+        "extracted_characters": 53587,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_expedia\\extracted\\EXPE_FQ1_2026.txt"
+  }
+}

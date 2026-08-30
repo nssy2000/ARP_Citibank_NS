@@ -1,0 +1,245 @@
+{
+  "document_id": "BAC_FQ3_2023",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: NII guidance for Q4 2023 was raised to ~$14B (FTE) from the prior quarter's guided range of $14.2-14.3B, and full-year NII growth was raised to 9% from 2022. Management also guided expenses down sequentially to $15.6B in Q4, and expressed confidence that NII will trough around Q4 2023 and begin growing again in mid-2024. While the forward NII guidance includes assumptions of rate cuts and modest loan/deposit growth, the combination of raised near-term NII guidance, expense discipline, and a clear trough-and-recovery narrative for NII supports a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue, net of interest expense, was $25.2 billion for Q3 2023, up 3% from $24.5 billion in Q3 2022.",
+    "eps": "Diluted earnings per share were $0.90, up 11% from $0.81 in Q3 2022.",
+    "guidance": "NII (FTE) expected to be around $14 billion in Q4 2023, trough around that level in the first half of 2024, then grow modestly in the second half of 2024, with Q4 2024 NII up low single digits vs. Q4 2023. Full-year 2023 NII growth raised to 9% vs. 2022. Expenses expected to decline to $15.6 billion in Q4 2023 (excluding any FDIC special assessment). Full-year 2023 effective tax rate expected to be 9-10%.",
+    "margin": "Net interest yield (FTE) was 2.11% in Q3 2023, up 5 bps YoY and up 5 bps from Q2 2023. Efficiency ratio was 63% in Q3 2023.",
+    "key_risks": [
+      "Proposed capital rules (Basel III Endgame) could inflate risk-weighted assets by ~20%, increasing capital requirements.",
+      "Potential FDIC special assessment of approximately $1.9 billion if enacted.",
+      "Net charge-offs increased to $931 million, driven by credit card losses; credit card loss rate rose to 2.72% from 2.60% in Q2 2023.",
+      "Nonperforming loans increased $0.7 billion from Q2 2023 to $4.8 billion, driven by Commercial Real Estate.",
+      "Consumer deposit balances continue to drift lower, down $89 billion or 8% YoY.",
+      "Commercial loan demand declined, with average loans down $8 billion or 2% YoY in Global Banking."
+    ],
+    "key_opportunities": [
+      "Organic growth across all business segments: added over 200,000 net new consumer checking accounts in Q3, 19th consecutive quarter of growth.",
+      "Record consumer investment assets of $387 billion, up 28% YoY, with $51 billion of client flows since Q3 2022.",
+      "Global Markets sales and trading revenue up 8% YoY (ex. DVA), with record Q3 Equities revenue.",
+      "Digital adoption continues to drive efficiency: 74% of consumer households digitally active, record 3.2 billion digital logins.",
+      "Strong capital position: CET1 ratio of 11.9%, 240 bps above regulatory minimum, providing buffer for proposed capital rules.",
+      "Excess deposits of $835 billion above loans provide significant liquidity and NII opportunity."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'Our teammates delivered another strong quarter' and CFO Alastair Borthwick said 'We grew revenue and net income from the third quarter of 2022, as we continued to execute on our Responsible Growth strategy,' with specific forward guidance on NII trough and recovery."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue, net of interest expense, was $25.2 billion for Q3 2023, up 3% from $24.5 billion in Q3 2022.",
+      "quote": "Total revenue, net of interest expense $25.2 $25.2 $24.5 ... Total revenue, net of interest expense, increased 3% to $25.2 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted earnings per share were $0.90, up 11% from $0.81 in Q3 2022.",
+      "quote": "Net income rose 10% to $7.8 billion, or $0.90 per diluted share, compared to $7.1 billion, or $0.81 per diluted share for Q3-22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII (FTE) expected to be around $14 billion in Q4 2023, trough around that level in the first half of 2024, then grow modestly in the second half of 2024.",
+      "quote": "We expect Q4 will be around $14 billion fully taxable equivalent... We believe NII will hover around this expected fourth quarter $14 billion level, plus or minus in the first half of next year, and then we anticipate modest growth in the half of 2024. By the time we get to the fourth quarter of 2024, we believe we can see NII up low single digits compared to the fourth quarter of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2023 NII growth raised to 9% vs. 2022.",
+      "quote": "that increases our full-year guidance for NII in 2023 versus 2022 to 9% growth per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expenses expected to decline to $15.6 billion in Q4 2023 (excluding any FDIC special assessment).",
+      "quote": "We expect to report $15.6 billion in expenses in 4Q.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 2.11% in Q3 2023, up 5 bps YoY and up 5 bps from Q2 2023.",
+      "quote": "Net interest yield of 2.11% increased 5 bps YoY and increased 5 bps from 2Q23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio was 63% in Q3 2023.",
+      "quote": "efficiency ratio of 63%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Proposed capital rules (Basel III Endgame) could inflate risk-weighted assets by ~20%, increasing capital requirements.",
+      "quote": "The proposed rules would inflate our risk-weighted assets by about 20%. So if I apply the inflation against this quarter's RWA of $1.6 trillion, that means, if nothing else changes in the rules, we'd end up with about $320 billion more risk-weighted assets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential FDIC special assessment of approximately $1.9 billion if enacted.",
+      "quote": "4Q23 expense could include an accrual of approximately $1.9 billion upon enactment of the final FDIC special assessment rule for uninsured deposits of failed banks, if enacted consistent with the proposed rule",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net charge-offs increased to $931 million, driven by credit card losses; credit card loss rate rose to 2.72% from 2.60% in Q2 2023.",
+      "quote": "Total net charge-offs of $931 million increased $62 million from Q2-23 – Consumer net charge-offs of $804 million increased $84 million from Q2-23, driven primarily by higher credit card losses – Credit card loss rate of 2.72% in Q3-23 vs. 2.60% in Q2-23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nonperforming loans increased $0.7 billion from Q2 2023 to $4.8 billion, driven by Commercial Real Estate.",
+      "quote": "Nonperforming loans of $4.8 billion increased $707 million from Q2-23, driven primarily by Commercial Real Estate",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer deposit balances continue to drift lower, down $89 billion or 8% YoY.",
+      "quote": "Average deposits of $980 billion decreased $89 billion, or 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial loan demand declined, with average loans down $8 billion or 2% YoY in Global Banking.",
+      "quote": "Average loans and leases of $376 billion decreased $8 billion, or 2%, reflecting paydowns and lower client demand",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic growth across all business segments: added over 200,000 net new consumer checking accounts in Q3, 19th consecutive quarter of growth.",
+      "quote": "Added over 200,000 net new Consumer checking accounts in Q3-23; 19th consecutive quarter of growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record consumer investment assets of $387 billion, up 28% YoY, with $51 billion of client flows since Q3 2022.",
+      "quote": "Record consumer investment assets of $387 billion grew 28%; accounts grew 10% with record client flows of $51 billion since Q3-22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Markets sales and trading revenue up 8% YoY (ex. DVA), with record Q3 Equities revenue.",
+      "quote": "Sales and trading revenue up 8% to $4.4 billion, including net debit valuation adjustment (DVA) losses of $16 million; ... Equities revenue up 10% to $1.7 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital adoption continues to drive efficiency: 74% of consumer households digitally active, record 3.2 billion digital logins.",
+      "quote": "74% of overall households7 actively using digital platforms ... Record 3.2 billion digital logins, up 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong capital position: CET1 ratio of 11.9%, 240 bps above regulatory minimum.",
+      "quote": "Common equity tier 1 (CET1) ratio of 11.9% (Standardized) increased 29 bps from Q2-23(E) and was 240 basis points above regulatory minimum",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excess deposits of $835 billion above loans provide significant liquidity and NII opportunity.",
+      "quote": "Deposits in Excess of Loans ... $835B",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Brian Moynihan stated 'Our teammates delivered another strong quarter' and CFO Alastair Borthwick said 'We grew revenue and net income from the third quarter of 2022, as we continued to execute on our Responsible Growth strategy,' with specific forward guidance on NII trough and recovery.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on raised NII guidance and expense discipline, but the forward NII guidance includes assumptions of rate cuts and modest loan/deposit growth which may not materialize. The score is mildly positive but could be debated."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2023-10-17",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-10-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q3\\bac-3q23-press-release.html",
+        "pub_date": "2023-10-17"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q3\\bac-3q23-presentation.html",
+        "pub_date": "2023-10-17"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q3\\bac-3q23-earnings-call-transcript.html",
+        "pub_date": "2023-10-17"
+      }
+    ],
+    "document_id": "BAC_FQ3_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T142324Z",
+    "timestamp": "2026-07-08T14:24:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q3\\bac-3q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q3\\bac-3q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 61967,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q3\\bac-3q23-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 75379,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q3\\bac-3q23-earnings-call-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 88536,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2023.txt"
+  }
+}

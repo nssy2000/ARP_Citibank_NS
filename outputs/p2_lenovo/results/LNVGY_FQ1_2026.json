@@ -1,0 +1,196 @@
+{
+  "document_id": "LNVGY_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports record Q1 results with strong revenue and profit growth, but forward guidance is not explicitly raised; management expresses confidence in sustaining growth and profitability. The operational momentum is genuine, with all business groups growing double-digits and AI-related revenues accelerating, but the lack of a formal guidance raise and the acknowledgment of tariff volatility and geopolitical challenges temper the score. The score reflects a real inflection in the business rather than a routine beat, but not a formal guidance upgrade."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "US$18.8 billion, +22% year-on-year (record fiscal Q1)",
+    "eps": "Basic EPS 4.12 US cents, up 107% year-on-year; diluted EPS 3.65 US cents, up 90%",
+    "guidance": "No formal guidance raise; management expresses confidence in sustaining growth and profitability, with continued investment in AI and operational competitiveness.",
+    "margin": "Gross margin 14.7% (down 1.9 pts YoY); operating margin 4.2% (up 1.0 pt YoY); net margin 2.7% (up 1.1 pts YoY)",
+    "key_risks": [
+      "Tariff volatility and geopolitical landscape challenges",
+      "Short-term profitability impact in ISG due to strategic investments",
+      "Non-cash fair value gain on warrants and notional interest on convertible bonds expected to persist through FY27/28"
+    ],
+    "key_opportunities": [
+      "Hybrid AI strategy capitalizing on unprecedented AI opportunities",
+      "AI PC penetration accelerating, with Lenovo #1 in Windows AI PC segment",
+      "AI infrastructure revenue more than doubled year-on-year",
+      "SSG record revenue with high margin and strong deferred revenue visibility",
+      "Diversified growth engines with non-PC revenue mix at 47%"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO states 'we overcame challenges... and achieved significant growth in both top and bottom lines' and expresses confidence in 'sustainable growth and profitability improvement.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue grew 22% year-on-year to US$18.8 billion.",
+      "quote": "Revenue grew 22% year-on-year to US$18.8 billion, with net income up 108% year-on-year to US$505 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS was 4.12 US cents, up 107% year-on-year.",
+      "quote": "Basic earnings per share (US cents) 4.12 1.99 107%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin declined to 14.7% from 16.6%.",
+      "quote": "Gross profit margin 14.7% 16.6% (1.9) pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin improved to 4.2% from 3.2%.",
+      "quote": "Operating margin 3.2% 4.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net margin improved to 2.7% from 1.6%.",
+      "quote": "Net margin 1.6% 2.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management did not raise formal guidance but expressed confidence in future growth.",
+      "quote": "Looking ahead, we will continue to firmly execute our hybrid AI strategy towards the vision of Smarter AI for all, relentlessly drive innovation in personal AI and enterprise AI products and solutions and consistently strengthen our operational competitiveness so that we can realize sustainable growth and profitability improvement.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff volatility and geopolitical landscape are acknowledged as challenges.",
+      "quote": "By leveraging the resilience and flexibility of our supply chain and operational excellence, we overcame challenges brought by tariff volatility and the geopolitical landscape and achieved significant growth in both top and bottom lines.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ISG profitability was impacted short-term due to strategic investments.",
+      "quote": "Increasing investments in AI infrastructure and R&D, as well as enhancing E/SMB competitiveness, even as profitability was impacted in the short-term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-cash items related to warrants and convertible bonds will persist through FY27/28.",
+      "quote": "Non-HKFRS offers a clearer view of the Group’s core operational performance, as the non-cash items related to warrants and notional interest on convertible bonds are expected to persist through the end of fiscal year 2027/2028.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI PC penetration is accelerating, with Lenovo #1 in Windows AI PC segment.",
+      "quote": "AI PC penetration accelerated, accounting for more than 30% of all Lenovo PC shipments. Lenovo ranks #1 globally in the Windows AI PC segment with a 31% market share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI infrastructure revenue more than doubled year-on-year.",
+      "quote": "The AI infrastructure business revenue more than doubled year-on-year with a robust pipeline and a clear product roadmap ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SSG delivered record revenue with high margin and strong deferred revenue.",
+      "quote": "SSG delivered another record quarter of revenue, up 20% year-on-year to US$2.3 billion – marking 17 consecutive quarters of year-on-year revenue growth. Operating margin was up 1.2 points year-on-year to over 22% - making SSG the key profit engine for the Group overall, thanks to its sustainable margin expansion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-PC revenue mix reached 47%.",
+      "quote": "The Group’s diversified growth engines continue to grow, with non-PC revenue mix up nearly half a point year-on-year to 47%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "These record Q1 results underscore our ability to deliver on our promise to preserve competitiveness and continuously grow our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 is based on operational momentum without a formal guidance raise; reviewer should confirm that the lack of explicit guidance raise is appropriately weighted."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is inferred from management's forward-looking statements; no explicit numeric guidance was provided in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LNVGY_Bundled Earnings Report_2025-08-14",
+  "report_metadata": {
+    "issuer": "p2_lenovo",
+    "company": "Lenovo",
+    "ticker": "LNVGY",
+    "sector": "Technology/Computer Hardware",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-08-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q1\\Lenovo_Q1_FY2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q1\\Lenovo_Q1_FY2026_Presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LNVGY_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100740Z",
+    "timestamp": "2026-08-09T10:07:54Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q1\\Lenovo_Q1_FY2026_Press_Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lenovo\\extracted\\LNVGY_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q1\\Lenovo_Q1_FY2026_Press_Release.pdf",
+        "page_count": 5,
+        "extracted_characters": 12269,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q1\\Lenovo_Q1_FY2026_Presentation.pdf",
+        "page_count": 33,
+        "extracted_characters": 18729,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lenovo\\extracted\\LNVGY_FQ1_2026.txt"
+  }
+}

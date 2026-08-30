@@ -1,0 +1,214 @@
+{
+  "document_id": "NFLX_FQ2_2021",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports Q2 revenue and EPS beats versus prior guidance (1.5m paid net adds vs. 1.0m forecast), but forward guidance for Q3 paid net adds of 3.5m is only slightly above the prior year period's 2.2m and management explicitly attributes the Q2 beat partly to COVID-related lumpiness. Full-year operating margin target of 20% is reaffirmed, not raised, and management notes that 2021 margin will be 'a little under' the prior year's 18% pace. The overall tone is confident but the forward guidance is essentially in line with prior expectations, not materially raised."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Revenue increased 19% year over year to $7.3 billion in Q2 2021.",
+    "eps": "Diluted EPS of $2.97 vs. $1.59 a year ago, including a $63m non-cash unrealized loss from FX remeasurement on Euro denominated debt.",
+    "guidance": "Q3 2021 forecast: revenue $7,477 million, operating income $1,550 million, diluted EPS $2.55, paid net additions 3.5m. Full-year 2021 operating margin target of 20% reaffirmed. Free cash flow expected to be approximately break even for full year 2021.",
+    "margin": "Operating margin of 25.2% in Q2 2021, expanded 3 percentage points year over year. Full-year 2021 target of 20% operating margin vs. 18% in 2020.",
+    "key_risks": [
+      "COVID-related production delays in 2020 have led to a lighter first half of 2021 slate that will build through the course of the year.",
+      "COVID and its variants make predicting the future hard.",
+      "Pandemic has created unusual choppiness in growth and distorts year-over-year comparisons.",
+      "Engagement per member household in Q2 2021 was down vs. unprecedented COVID levels, though still up 17% vs. Q2 2019."
+    ],
+    "key_opportunities": [
+      "Expansion into games as a new content category, included in members' subscription at no additional cost.",
+      "Low-cost mobile-only plan expanded to 78 additional countries across South East Asia and sub-Saharan Africa.",
+      "Strong second half slate expected with productions largely running smoothly.",
+      "Long runway for growth as streaming represents just 27% of US TV screen time vs. 63% for linear television.",
+      "Growing operating profit allows return of capital to shareholders via share repurchases."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses confidence in the business trajectory, stating 'we are confident that we have a long runway for growth' and 'we're optimistic in our ability to deliver a strong second half slate.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue increased 19% year over year to $7.3 billion in Q2 2021.",
+      "quote": "In Q2, revenue increased 19% year over year to $7.3 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $2.97 vs. $1.59 a year ago, including a $63m non-cash unrealized loss from FX remeasurement on Euro denominated debt.",
+      "quote": "EPS of $2.97 vs. $1.59 a year ago included a $63m non-cash unrealized loss from FX remeasurement on our Euro denominated debt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2021 forecast: revenue $7,477 million, operating income $1,550 million, diluted EPS $2.55, paid net additions 3.5m.",
+      "quote": "Q3'21 Forecast Revenue $7,477 ... Operating Income $1,550 ... Diluted EPS $2.55 ... Global Streaming Paid Net Additions 3.50",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2021 operating margin target of 20% reaffirmed.",
+      "quote": "We continue to target a 20% operating margin for the full year 2021 vs. 18% in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow expected to be approximately break even for full year 2021.",
+      "quote": "We are still expecting full year 2021 free cash flow to be approximately break even.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin of 25.2% in Q2 2021, expanded 3 percentage points year over year.",
+      "quote": "Operating margin of 25.2% expanded 3 percentage points compared with the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID-related production delays in 2020 have led to a lighter first half of 2021 slate.",
+      "quote": "As discussed in previous letters, COVID-related production delays in 2020 have led to a lighter first half of 2021 slate that will build through the course of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID and its variants make predicting the future hard.",
+      "quote": "COVID and its variants make predicting the future hard, but with productions largely running smoothly so far, we're optimistic in our ability to deliver a strong second half slate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pandemic has created unusual choppiness in growth and distorts year-over-year comparisons.",
+      "quote": "The pandemic has created unusual choppiness in our growth and distorts year-over-year comparisons as acquisition and engagement per member household spiked in the early months of COVID.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement per member household in Q2 2021 was down vs. unprecedented COVID levels, though still up 17% vs. Q2 2019.",
+      "quote": "In Q2'21, our engagement per member household was, as expected, down vs. those unprecedented levels but was still up 17% compared with a more comparable Q2'19.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion into games as a new content category.",
+      "quote": "We're also in the early stages of further expanding into games, building on our earlier efforts around interactivity (eg, Black Mirror Bandersnatch ) and our Stranger Things games. We view gaming as another new content category for us, similar to our expansion into original films, animation and unscripted TV.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Low-cost mobile-only plan expanded to 78 additional countries.",
+      "quote": "We recently expanded our low-cost mobile-only plan to an additional 78 countries across South East Asia and sub-saharan Africa.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong second half slate expected with productions largely running smoothly.",
+      "quote": "COVID and its variants make predicting the future hard, but with productions largely running smoothly so far, we're optimistic in our ability to deliver a strong second half slate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long runway for growth as streaming represents just 27% of US TV screen time.",
+      "quote": "Streaming represents just 27% of US TV screen time, compared with 63% for linear television, according to Nielsen. ... we are confident that we have a long runway for growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growing operating profit allows return of capital to shareholders via share repurchases.",
+      "quote": "Our growing operating profit allows us to complement this priority with a return of capital to shareholders. ... We also repurchased 1m shares for $500 million (at an average per share price of about $500) under our $5 billion share authorization.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the business trajectory.",
+      "quote": "we are confident that we have a long runway for growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about the second half slate.",
+      "quote": "we're optimistic in our ability to deliver a strong second half slate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 paid net adds of 1.5m slightly ahead of 1.0m guidance.",
+      "quote": "We added 1.5m paid memberships in Q2, slightly ahead of our 1.0m guidance forecast.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 paid net additions forecast of 3.5m vs. 2.2m in prior year period.",
+      "quote": "For Q3'21, we forecast paid net additions of 3.5m vs. 2.2m in the prior year period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2021 operating margin target of 20% vs. 18% in 2020.",
+      "quote": "We continue to target a 20% operating margin for the full year 2021 vs. 18% in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the BUY threshold. A human reviewer should confirm whether the slight guidance raise (Q3 net adds 3.5m vs. 2.2m prior year) and the Q2 beat (1.5m vs. 1.0m forecast) justify a BUY signal, or if the reaffirmed full-year margin target and cautious language about COVID choppiness should keep it at HOLD."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2021-07-20",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ2 2021",
+    "report_date": "2021-07-20",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q2\\nflx-2q21-press-release.html",
+        "pub_date": "2021-07-20"
+      }
+    ],
+    "document_id": "NFLX_FQ2_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:53:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q2\\nflx-2q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ2_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q2\\nflx-2q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 27823,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ2_2021.txt"
+  }
+}

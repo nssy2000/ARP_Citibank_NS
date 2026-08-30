@@ -1,0 +1,231 @@
+{
+  "document_id": "BA_FQ1_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: revenue up 18% to $19.5B, core loss per share improved from ($1.13) to ($0.49), free cash flow usage improved from ($3.9B) to ($2.3B), and management describes a 'really solid quarter' with a recovery plan 'in full swing.' However, full-year free cash flow guidance was not formally raised (management said 'we're not going to adjust that full year range right now'), and significant risks around China tariffs (50 deliveries at risk) and input cost tariffs (less than $500M annual impact) were disclosed. The score reflects the genuine trajectory change (swing from loss to near-breakeven, improved cash flow) offset by the lack of a formal guidance raise and the material tariff risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$19.5 billion, up 18% from $16.6 billion in Q1 2024, primarily reflecting higher commercial delivery volume.",
+    "eps": "GAAP loss per share of ($0.16) and core (non-GAAP) loss per share of ($0.49), improved from ($0.56) and ($1.13) respectively in Q1 2024.",
+    "guidance": "737 production expected to reach 38 per month this year; 787 production expected to increase to 7 per month this year; 777X first delivery still anticipated in 2026; free cash flow guidance not formally adjusted but management expects second half to turn positive and accelerate; China delivery plan of ~50 airplanes for the balance of the year is at risk due to tariffs.",
+    "margin": "GAAP operating margin of 2.4% (up from -0.5% in Q1 2024); core operating margin of 1.0% (up from -2.3%); Commercial Airplanes operating margin of -6.6% (improved from -24.6%); Defense, Space & Security operating margin of 2.5% (up from 2.2%); Global Services operating margin of 18.6% (up from 18.2%).",
+    "key_risks": [
+      "China tariffs causing ~50 planned deliveries at risk; customers in China have indicated they will not take delivery.",
+      "Input tariffs on components from Japan and Italy (10% tariff) with net annual impact less than $500 million.",
+      "Potential retaliatory tariffs from other countries beyond China could affect delivery ability.",
+      "Seat certification issues affecting some 787 deliveries expected to be a challenge for the balance of the year.",
+      "SPS (Jenkintown) fire causing fastener supply disruption requiring alternate sourcing.",
+      "Approximately 30 pre-2023 737-8s and 20 pre-2023 787s still in inventory requiring rework.",
+      "Pending acquisition of Spirit AeroSystems (closing expected around midyear) with associated risks."
+    ],
+    "key_opportunities": [
+      "F-47 next-generation fighter contract win (transformational, secures fighter franchise for decades).",
+      "Planned divestiture of portions of Digital Aviation Solutions business for $10.55 billion (all cash) to strengthen balance sheet.",
+      "737 production ramp from low 30s to 38 per month, with potential to request increase to 42 per month later this year.",
+      "787 production ramp from 5 to 7 per month, with potential for double-digit rates longer term.",
+      "Strong demand environment with $545 billion backlog and customers asking for additional airplanes.",
+      "Defense business returning to historical performance levels with improved EAC stability.",
+      "Global Services continued strong performance with 18.6% operating margins."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Kelly Ortberg stated 'our recovery plan is in full swing and showing signs that it's being effective' and 'I feel really good about our overall plan for the year,' reflecting confident language about the trajectory despite acknowledged risks."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $19.5 billion, up 18% from $16.6 billion in Q1 2024.",
+      "quote": "Revenue increased to $19.5 billion primarily reflecting 130 commercial deliveries",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share of ($0.16) and core loss per share of ($0.49), improved from prior year.",
+      "quote": "GAAP loss per share of ($0.16) and core (non-GAAP)* loss per share of ($0.49)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow usage improved to ($2.3 billion) from ($3.9 billion) in Q1 2024.",
+      "quote": "Free cash flow of ($2.3) billion (non-GAAP)*",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year free cash flow guidance was not formally adjusted.",
+      "quote": "In terms of the range that you mentioned, we're not going to adjust that full year range right now. We're good with where it's at.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China tariffs put approximately 50 planned deliveries at risk.",
+      "quote": "We have approximately 50 China deliveries in our plan for the balance of the year. We are in close communication with our China customers and we're actively assessing options for remarketing already built or in-process airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Input tariff net annual impact is less than $500 million.",
+      "quote": "On the supply chain side, the net annual impact of higher tariffs on our input costs is manageable. And within our plan, it's less than $500 million annually.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "our recovery plan is in full swing and showing signs that it's being effective",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production expected to reach 38 per month this year.",
+      "quote": "737 production gradually increased in the quarter; still expected to reach 38 per month this year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 production expected to increase to 7 per month this year.",
+      "quote": "The 787 program continued to stabilize production at five per month in the quarter and still expects to increase to seven per month this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777X first delivery still anticipated in 2026.",
+      "quote": "the company still anticipates first delivery of the 777-9 in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "F-47 win is transformational for the fighter franchise.",
+      "quote": "winning the F-47 program was a transformational accomplishment. To be selected the contractor for the world's first sixth-generation fighter is a testament to our focused investment in some pretty difficult time and to our dedicated team. This will secure our fighter franchise for decades to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital Aviation Solutions divestiture for $10.55 billion in all cash.",
+      "quote": "we entered into an agreement to sell portions of our Digital Aviation Solutions business for $10.55 billion, which is an important component of our strategy to focus on our core businesses and strengthen the balance sheet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Seat certification issues will be a challenge for the balance of the year.",
+      "quote": "we continue to work through seat certification issues affecting some deliveries, and I expect this will be a challenge for us for the balance of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 18.6%.",
+      "quote": "Global Services first quarter revenue was $5.1 billion. First quarter operating margin of 18.6% reflects favorable performance and mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog grew to $545 billion.",
+      "quote": "Total company backlog grew to $545 billion, including over 5,600 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on genuine operational momentum but no formal guidance raise. A reviewer may want to assess whether the tariff risks (China and input costs) should weigh more heavily, potentially lowering the score toward the HOLD band."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "ensemble": {
+    "n_runs": 3,
+    "scores": [
+      0.2,
+      0.2,
+      0.2
+    ],
+    "signals": [
+      "BUY",
+      "BUY",
+      "BUY"
+    ],
+    "mean_score": 0.2,
+    "score_range": 0.0,
+    "signal_agreement": true
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-04-23",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\Transcript-Q1-2025-Earnings-Call.pdf"
+      }
+    ],
+    "document_id": "BA_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T192619Z",
+    "timestamp": "2026-07-02T19:26:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing_ensemble3\\extracted\\BA_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Press-Release.pdf",
+        "page_count": 12,
+        "extracted_characters": 23791,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\1Q25-Presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 8519,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q1\\Transcript-Q1-2025-Earnings-Call.pdf",
+        "page_count": 19,
+        "extracted_characters": 73007,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing_ensemble3\\extracted\\BA_FQ1_2025.txt"
+  }
+}

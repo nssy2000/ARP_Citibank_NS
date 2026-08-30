@@ -1,0 +1,231 @@
+{
+  "document_id": "JPM_FQ2_2023",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows a meaningful upward revision in NII guidance for 2023 from prior expectations (now ~$87 billion, up from the previous outlook), driven by higher rates and slower deposit repricing. Management explicitly raised this forward metric, which is a genuine organic improvement. However, management also repeatedly cautioned that this NII level is not sustainable and will decline to a mid-$70 billion run rate, and highlighted significant risks (Basel III, deposit competition, credit normalization). The net effect is a moderately positive score reflecting the guidance raise, tempered by explicit sustainability warnings."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $41.3 billion; managed revenue of $42.4 billion, up 34% year-on-year. Excluding First Republic, revenue was $38.4 billion, up 21% year-on-year.",
+    "eps": "Reported EPS of $4.75; excluding significant items, EPS of $4.37.",
+    "guidance": "2023 NII and NII ex. Markets guidance raised to approximately $87 billion. Expense outlook remains approximately $84.5 billion. Card net charge-off rate expected to be approximately 2.6% for 2023. Management expects NII run rate to be substantially below current levels at some point in the future, with a medium-term run rate in the mid-$70s.",
+    "margin": "Reported overhead ratio of 50%; managed overhead ratio of 49%. ROTCE of 25% (23% excluding significant items). ROE of 20%.",
+    "key_risks": [
+      "Material capital changes with finalization of Basel III Endgame and probable changes to bank liquidity, with potential real-world consequences for markets and end users.",
+      "Consumers slowly using up cash buffers; core inflation stubbornly high, increasing risk that interest rates go higher and stay higher for longer.",
+      "Quantitative tightening of this scale has never occurred; large fiscal deficits; war in Ukraine with potential effects on geopolitics and global economy.",
+      "NII run rate expected to decline substantially from current levels due to deposit repricing and competition.",
+      "Credit normalization expected: credit card net charge-off rate normalizing closer to 3.5% (currently 2.41%).",
+      "Office real estate credit risk: reserve build driven by updates to assumptions related to office real estate market and downgrade activity in Middle Market Banking."
+    ],
+    "key_opportunities": [
+      "Strong consumer balance sheets and resilient U.S. economy; consumers spending albeit a little more slowly.",
+      "Record long-term inflows in AWM of $61 billion, positive across all channels, regions, and asset classes.",
+      "Gaining market share in Investment Banking (ranked #1 with 8.4% wallet share YTD).",
+      "Strong new checking account production in CCB; card loans up 18%.",
+      "Payments revenue very strong: CB Payments revenue up 79% year-on-year; CIB Payments revenue up 61%.",
+      "First Republic integration progressing well with strong client retention and $6 billion net deposit inflows since acquisition."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described 'exceptionally strong operating results' and expressed optimism about 'the company's ability to continue delivering excellent performance through a range of scenarios,' while also being transparent about headwinds and sustainability concerns."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $41.3 billion; managed revenue was $42.4 billion, up 34% year-on-year.",
+      "quote": "Net revenue - reported $41,307 ... Net revenue - managed 42,401 ... $ O/(U) % 34 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $4.75; excluding significant items, EPS was $4.37.",
+      "quote": "JPMORGAN CHASE REPORTS SECOND-QUARTER 2023 NET INCOME OF $14.5 BILLION ($4.75 PER SHARE) EXCLUDING SIGNIFICANT ITEMS2, NET INCOME WAS $13.3 BILLION ($4.37 PER SHARE)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2023 NII and NII ex. Markets guidance raised to approximately $87 billion.",
+      "quote": "We now expect 2023 NII and NII ex. Markets to be approximately $87 billion, with the increase driven by higher rates coupled with slower deposit reprice than previously assumed across both Consumer and Wholesale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense outlook remains approximately $84.5 billion.",
+      "quote": "Our expense outlook for 2023 remains approximately $84.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card net charge-off rate expected to be approximately 2.6% for 2023.",
+      "quote": "we continue to expect the 2023 Card net charge-off rate to be approximately 2.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects NII run rate to be substantially below current levels at some point in the future, with a medium-term run rate in the mid-$70s.",
+      "quote": "I should take the opportunity to remind you once again that significant sources of uncertainty remain and we do expect the NII run rate to be substantially below this quarter's run rate at some point in the future as competition for deposits plays out. ... We talked previously about a sort of medium-term run rate in the mid-70s.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 50%; managed overhead ratio of 49%.",
+      "quote": "2Q23 expense of $20.8 billion; reported overhead ratio of 50%; managed overhead ratio2 of 49%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 25% (23% excluding significant items). ROE of 20%.",
+      "quote": "ROTCE2 25% ... ROE 20% ... Excluding significant items2: 2Q23 net income of $13.3 billion, EPS of $4.37 and ROTCE of 23%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Material capital changes with finalization of Basel III Endgame and probable changes to bank liquidity, with potential real-world consequences.",
+      "quote": "While we expect material capital changes with the finalization of Basel III and probable changes to come for bank liquidity, we will manage to any new requirements as we have demonstrated in the past; however, we caution that material regulatory changes would likely have real world consequences for markets and end users.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumers slowly using up cash buffers; core inflation stubbornly high, increasing risk that interest rates go higher and stay higher for longer.",
+      "quote": "Consumers are slowly using up their cash buffers, core inflation has been stubbornly high (increasing the risk that interest rates go higher, and stay higher for longer)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Quantitative tightening of this scale has never occurred; large fiscal deficits; war in Ukraine with potential effects.",
+      "quote": "quantitative tightening of this scale has never occurred, fiscal deficits are large, and the war in Ukraine continues, which in addition to the huge humanitarian crisis for Ukrainians, has large potential effects on geopolitics and the global economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit normalization expected: credit card net charge-off rate normalizing closer to 3.5%.",
+      "quote": "We would consider credit card normalizing to be closer to 3.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Office real estate credit risk: reserve build driven by updates to assumptions related to office real estate market.",
+      "quote": "the net reserve build of $389 million was driven by updates to certain assumptions related to the office real estate market as well as net downgrade activity in Middle Market Banking.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong consumer balance sheets and resilient U.S. economy.",
+      "quote": "The U.S. economy continues to be resilient. Consumer balance sheets remain healthy, and consumers are spending, albeit a little more slowly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record long-term inflows in AWM of $61 billion.",
+      "quote": "For the quarter, record net long-term inflows were $61 billion, positive across all channels, regions, and asset classes, led by Fixed Income and Equities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gaining market share in Investment Banking (ranked #1 with 8.4% wallet share YTD).",
+      "quote": "#1 ranking for Global Investment Banking fees with 8.4% wallet share YTD",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong new checking account production in CCB; card loans up 18%.",
+      "quote": "In Consumer & Community Banking, new checking account production was very strong, while card loans were up 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Payments revenue very strong: CB Payments revenue up 79% year-on-year; CIB Payments revenue up 61%.",
+      "quote": "In Commercial Banking, Payments revenue remained very strong and grew 79%. ... Payments revenue was $2.5 billion, up 61%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First Republic integration progressing well with strong client retention and $6 billion net deposit inflows since acquisition.",
+      "quote": "although it's still early days, as we get the sales force back in the market we are happy to see that client retention is strong with about $6 billion of net deposit inflows since the acquisition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we are proud of the exceptionally strong operating results this quarter. ... we remain optimistic about the company's ability to continue delivering excellent performance through a range of scenarios.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a guidance raise (positive) but also significant sustainability warnings and risk disclosures. A reviewer may wish to assess whether the cautionary language should reduce the score further."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2023-07-14",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-07-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q2\\jpm-2q23-press-release.pdf",
+        "pub_date": "2023-07-14"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q2\\jpm-2q23-earnings-call-transcript.pdf",
+        "pub_date": "2023-07-14"
+      }
+    ],
+    "document_id": "JPM_FQ2_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T131706Z",
+    "timestamp": "2026-07-08T13:18:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q2\\jpm-2q23-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q2\\jpm-2q23-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 28424,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q2\\jpm-2q23-earnings-call-transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 87343,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2023.txt"
+  }
+}

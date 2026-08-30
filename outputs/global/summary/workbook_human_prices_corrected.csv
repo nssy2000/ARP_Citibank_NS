@@ -1,0 +1,421 @@
+row_index,event_key,company,ticker,year,quarter,correctable,prior_closing_date,prior_close,next_opening_date,next_day_open,release_date,release_timing,release_date_source,entry_shifted_vs_legacy,report_date_corrected,original_prior_close,original_next_day_open,price_delta_flag,not_correctable_reason
+3,Netflix|2026|Q1,Netflix,NFLX,2026,Q1,TRUE,2026-04-16,107.79,2026-04-17,96.37,2026-04-16,after_hours,returns_matrix.csv,FALSE,YES,107.79,96.37,NO,
+4,Netflix|2025|Q2,Netflix,NFLX,2025,Q2,TRUE,2025-07-17,127.417,2025-07-18,124.2,2025-07-17,after_hours,returns_matrix.csv,FALSE,YES,127.42,129.92,NO,
+5,Netflix|2025|Q3,Netflix,NFLX,2025,Q3,TRUE,2025-10-21,124.135,2025-10-22,114.29,2025-10-21,after_hours,returns_matrix.csv,FALSE,YES,124.14,114.29,NO,
+6,Netflix|2025|Q4,Netflix,NFLX,2025,Q4,TRUE,2026-01-20,87.26,2026-01-21,82.52,2026-01-20,after_hours,returns_matrix.csv,FALSE,YES,87.26,82.52,NO,
+7,Netflix|2026|Q1,Netflix,NFLX,2026,Q1,TRUE,2026-04-16,107.79,2026-04-17,96.37,2026-04-16,after_hours,returns_matrix.csv,FALSE,YES,107.79,96.37,NO,
+8,Netflix|2025|Q2,Netflix,NFLX,2025,Q2,TRUE,2025-07-17,127.417,2025-07-18,124.2,2025-07-17,after_hours,returns_matrix.csv,FALSE,YES,127.42,129.92,NO,
+9,Netflix|2025|Q3,Netflix,NFLX,2025,Q3,TRUE,2025-10-21,124.135,2025-10-22,114.29,2025-10-21,after_hours,returns_matrix.csv,FALSE,YES,124.14,114.29,NO,
+10,Netflix|2025|Q4,Netflix,NFLX,2025,Q4,TRUE,2026-01-20,87.26,2026-01-21,82.52,2026-01-20,after_hours,returns_matrix.csv,FALSE,YES,87.26,82.52,NO,
+11,Netflix|2025|Q1,Netflix,NFLX,2025,Q1,TRUE,2025-04-17,97.303,2025-04-18,98.44,2025-04-17,after_hours,returns_matrix.csv,FALSE,YES,97.3,98.44,NO,
+12,Netflix|2025|Q2,Netflix,NFLX,2025,Q2,TRUE,2025-07-17,127.417,2025-07-18,124.2,2025-07-17,after_hours,returns_matrix.csv,FALSE,YES,127.42,124.2,NO,
+13,Netflix|2025|Q3,Netflix,NFLX,2025,Q3,TRUE,2025-10-21,124.135,2025-10-22,114.29,2025-10-21,after_hours,returns_matrix.csv,FALSE,YES,124.14,114.29,NO,
+14,Netflix|2025|Q4,Netflix,NFLX,2025,Q4,TRUE,2026-01-20,87.26,2026-01-21,82.52,2026-01-20,after_hours,returns_matrix.csv,FALSE,YES,87.26,82.52,NO,
+15,Nvidia|2025|Q1,Nvidia,NVDA,2025,Q1,TRUE,2025-02-26,131.28,2025-02-27,135.0,2025-02-26,after_hours,returns_matrix.csv,FALSE,YES,131.28,135.0,NO,
+16,Nvidia|2025|Q2,Nvidia,NVDA,2025,Q2,TRUE,2025-05-28,134.81,2025-05-29,142.25,2025-05-28,after_hours,returns_matrix.csv,FALSE,YES,134.81,142.25,NO,
+17,Nvidia|2025|Q3,Nvidia,NVDA,2025,Q3,TRUE,2025-08-27,181.6,2025-08-28,180.82,2025-08-27,after_hours,returns_matrix.csv,FALSE,YES,181.6,180.82,NO,
+18,Nvidia|2025|Q4,Nvidia,NVDA,2025,Q4,TRUE,2025-11-19,186.52,2025-11-20,195.95,2025-11-19,after_hours,returns_matrix.csv,FALSE,YES,186.52,195.95,NO,
+19,Boeing|2025|Q1,Boeing,BA,2025,Q1,TRUE,2025-04-22,162.52,2025-04-23,174.0,2025-04-23,pre_market,returns_matrix.csv,TRUE,YES,172.37,171.2,YES,
+20,Boeing|2025|Q2,Boeing,BA,2025,Q2,TRUE,2025-07-28,236.41,2025-07-29,239.5,2025-07-29,pre_market,returns_matrix.csv,TRUE,YES,226.08,227.84,YES,
+21,Boeing|2025|Q3,Boeing,BA,2025,Q3,TRUE,2025-10-28,223.33,2025-10-29,221.36,2025-10-29,pre_market,returns_matrix.csv,TRUE,YES,213.58,210.01,YES,
+22,Boeing|2025|Q4,Boeing,BA,2025,Q4,TRUE,2026-01-26,248.43,2026-01-27,242.5,2026-01-27,pre_market,returns_matrix.csv,TRUE,YES,244.56,244.09,YES,
+23,Disney|2025|Q1,Disney,DIS,2025,Q1,TRUE,2025-02-04,113.3,2025-02-05,115.7,2025-02-05,pre_market,returns_matrix.csv,TRUE,YES,110.54,115.7,YES,
+24,Disney|2025|Q3,Disney,DIS,2025,Q3,TRUE,2025-08-05,118.32,2025-08-06,115.78,2025-08-06,pre_market,returns_matrix.csv,TRUE,YES,118.32,115.78,YES,
+25,Disney|2025|Q4,Disney,DIS,2025,Q4,TRUE,2025-11-12,116.65,2025-11-13,108.89,2025-11-13,pre_market,returns_matrix.csv,TRUE,YES,116.65,108.89,YES,
+26,Netflix|2025|Q3,Netflix,NFLX,2025,Q3,TRUE,2025-10-21,124.135,2025-10-22,114.29,2025-10-21,after_hours,returns_matrix.csv,FALSE,YES,124.14,114.29,NO,
+27,Netflix|2025|Q4,Netflix,NFLX,2025,Q4,TRUE,2026-01-20,87.26,2026-01-21,82.52,2026-01-20,after_hours,returns_matrix.csv,FALSE,YES,87.26,82.52,NO,
+28,Netflix|2024|Q4,Netflix,NFLX,2024,Q4,TRUE,2025-01-21,86.968,2025-01-22,99.8,2025-01-21,after_hours,returns_matrix.csv,FALSE,YES,86.97,99.8,NO,
+29,Amazon|2026|Q1,Amazon,AMZN,2026,Q1,TRUE,2026-04-29,263.04,2026-04-30,273.17,2026-04-29,after_hours,returns_matrix.csv,FALSE,YES,263.04,273.17,NO,
+30,Amazon|2025|Q3,Amazon,AMZN,2025,Q3,TRUE,2025-10-30,222.86,2025-10-31,250.1,2025-10-30,after_hours,returns_matrix.csv,FALSE,YES,222.86,250.1,NO,
+31,Amazon|2025|Q4,Amazon,AMZN,2025,Q4,TRUE,2026-02-05,222.69,2026-02-06,202.7,2026-02-05,after_hours,returns_matrix.csv,FALSE,YES,222.69,202.7,NO,
+32,McDonald's|2024|Q4,McDonald's,MCD,2024,Q4,TRUE,2025-02-07,294.3,2025-02-10,302.27,2025-02-10,pre_market,returns_matrix.csv,TRUE,YES,308.42,307.37,YES,
+33,McDonald's|2025|Q4,McDonald's,MCD,2025,Q4,TRUE,2026-02-10,325.97,2026-02-11,323.58,2026-02-11,pre_market,returns_matrix.csv,TRUE,YES,323.21,329.83,YES,
+34,McDonald's|2026|Q1,McDonald's,MCD,2026,Q1,TRUE,2026-05-06,284.1,2026-05-07,287.83,2026-05-07,pre_market,returns_matrix.csv,TRUE,YES,283.7,285.0,YES,
+35,Apple|2025|Q3,Apple,AAPL,2025,Q3,TRUE,2025-07-31,207.57,2025-08-01,210.87,2025-07-31,after_hours,returns_matrix.csv,FALSE,YES,207.57,210.87,NO,
+36,Apple|2025|Q4,Apple,AAPL,2025,Q4,TRUE,2025-10-30,271.4,2025-10-31,276.99,2025-10-30,after_hours,returns_matrix.csv,FALSE,YES,271.4,276.99,NO,
+37,Apple|2026|Q1,Apple,AAPL,2026,Q1,TRUE,2026-01-29,258.28,2026-01-30,255.17,2026-01-29,after_hours,returns_matrix.csv,FALSE,YES,258.28,255.17,NO,
+38,Coca-Cola|2025|Q2,Coca-Cola,KO,2025,Q2,TRUE,2025-07-21,70.07,2025-07-22,69.45,2025-07-22,pre_market,returns_matrix.csv,TRUE,YES,69.66,69.66,YES,
+39,Coca-Cola|2025|Q4,Coca-Cola,KO,2025,Q4,TRUE,2026-02-09,77.97,2026-02-10,76.63,2026-02-10,pre_market,returns_matrix.csv,TRUE,YES,76.81,76.88,YES,
+40,Coca-Cola|2026|Q1,Coca-Cola,KO,2026,Q1,TRUE,2026-04-27,75.44,2026-04-28,79.52,2026-04-28,pre_market,returns_matrix.csv,TRUE,YES,78.35,78.37,YES,
+41,Bank of America|2025|Q1,Bank of America,BAC,2025,Q1,TRUE,2025-04-14,36.67,2025-04-15,37.8,2025-04-15,pre_market,returns_matrix.csv,TRUE,YES,36.67,37.99,YES,
+42,Bank of America|2025|Q2,Bank of America,BAC,2025,Q2,TRUE,2025-07-15,46.15,2025-07-16,46.25,2025-07-16,pre_market,returns_matrix.csv,TRUE,YES,46.15,46.25,YES,
+43,Bank of America|2025|Q3,Bank of America,BAC,2025,Q3,TRUE,2025-10-14,50.09,2025-10-15,51.57,2025-10-15,pre_market,returns_matrix.csv,TRUE,YES,50.09,51.57,YES,
+44,Bank of America|2025|Q4,Bank of America,BAC,2025,Q4,TRUE,2026-01-13,54.54,2026-01-14,52.88,2026-01-14,pre_market,returns_matrix.csv,TRUE,YES,54.54,52.88,YES,
+45,AMD|2026|Q1,AMD,AMD,2026,Q1,TRUE,2026-05-05,355.26,2026-05-06,409.49,2026-05-05,after_hours,returns_matrix.csv,FALSE,YES,355.26,409.49,NO,
+46,AMD|2025|Q2,AMD,AMD,2025,Q2,TRUE,2025-08-05,174.31,2025-08-06,165.05,2025-08-05,after_hours,returns_matrix.csv,FALSE,YES,174.31,165.05,NO,
+47,AMD|2025|Q4,AMD,AMD,2025,Q4,TRUE,2026-02-03,242.11,2026-02-04,215.0,2026-02-03,after_hours,returns_matrix.csv,FALSE,YES,242.11,215.0,NO,
+48,Airbnb|2025|Q2,Airbnb,ABNB,2025,Q2,TRUE,2025-08-06,130.5,2025-08-07,120.38,2025-08-06,after_hours,returns_matrix.csv,FALSE,YES,111.42,104.4,NO,
+49,Airbnb|2025|Q3,Airbnb,ABNB,2025,Q3,TRUE,2025-11-06,120.53,2025-11-07,125.49,2025-11-06,after_hours,returns_matrix.csv,FALSE,YES,104.48,109.5,NO,
+50,JPMorgan|2025|Q1,JPMorgan,JPM,2025,Q1,TRUE,2025-04-10,227.11,2025-04-11,226.31,2025-04-11,pre_market,returns_matrix.csv,TRUE,YES,236.2,237.1,YES,
+51,JPMorgan|2025|Q2,JPMorgan,JPM,2025,Q2,TRUE,2025-07-14,288.7,2025-07-15,288.0,2025-07-15,pre_market,returns_matrix.csv,TRUE,YES,286.55,288.4,YES,
+52,JPMorgan|2025|Q3,JPMorgan,JPM,2025,Q3,TRUE,2025-10-13,307.97,2025-10-14,305.84,2025-10-14,pre_market,returns_matrix.csv,TRUE,YES,302.08,306.39,YES,
+53,JPMorgan|2025|Q4,JPMorgan,JPM,2025,Q4,TRUE,2026-01-12,324.49,2026-01-13,324.3,2026-01-13,pre_market,returns_matrix.csv,TRUE,YES,310.9,308.2,YES,
+54,JPMorgan|2025|Q1,JPMorgan,JPM,2025,Q1,TRUE,2025-04-10,227.11,2025-04-11,226.31,2025-04-11,pre_market,returns_matrix.csv,TRUE,YES,227.11,226.31,YES,
+55,JPMorgan|2025|Q3,JPMorgan,JPM,2025,Q3,TRUE,2025-10-13,307.97,2025-10-14,305.84,2025-10-14,pre_market,returns_matrix.csv,TRUE,YES,307.97,302.08,YES,
+56,JPMorgan|2026|Q1,JPMorgan,JPM,2026,Q1,TRUE,2026-04-13,313.68,2026-04-14,309.82,2026-04-14,pre_market,returns_matrix.csv,TRUE,YES,313.68,311.12,YES,
+57,IBM|2025|Q2,IBM,IBM,2025,Q2,TRUE,2025-07-23,282.01,2025-07-24,261.25,2025-07-23,after_hours,returns_matrix.csv,FALSE,YES,282.01,261.25,NO,
+58,IBM|2025|Q4,IBM,IBM,2025,Q4,TRUE,2026-01-28,294.16,2026-01-29,317.86,2026-01-28,after_hours,returns_matrix.csv,FALSE,YES,294.16,317.86,NO,
+59,IBM|2026|Q1,IBM,IBM,2026,Q1,TRUE,2026-04-22,251.86,2026-04-23,232.27,2026-04-22,after_hours,returns_matrix.csv,FALSE,YES,251.86,232.27,NO,
+60,Target|2025|Q2,Target,TGT,2025,Q2,TRUE,2025-08-19,105.36,2025-08-20,94.41,2025-08-20,pre_market,returns_matrix.csv,TRUE,YES,98.69,98.49,YES,
+61,Target|2025|Q1,Target,TGT,2025,Q1,TRUE,2025-05-20,98.12,2025-05-21,91.5,2025-05-21,pre_market,returns_matrix.csv,TRUE,YES,93.01,92.17,YES,
+62,Target|2025|Q3,Target,TGT,2025,Q3,TRUE,2025-11-18,88.53,2025-11-19,86.42,2025-11-19,pre_market,returns_matrix.csv,TRUE,YES,86.08,86.16,YES,
+63,Target|2026|Q1,Target,TGT,2026,Q1,TRUE,2026-05-19,127.24,2026-05-20,120.21,2026-05-20,pre_market,returns_matrix.csv,TRUE,YES,122.33,120.83,YES,
+64,Nike|2025|Q1,Nike,NKE,2025,Q1,TRUE,2024-10-01,89.13,2024-10-02,82.89,2024-10-01,after_hours,returns_matrix.csv,FALSE,YES,89.13,82.89,NO,
+65,Nike|2025|Q2,Nike,NKE,2025,Q2,TRUE,2024-12-19,77.1,2024-12-20,75.96,2024-12-19,after_hours,returns_matrix.csv,FALSE,YES,77.1,75.96,NO,
+66,Nike|2025|Q3,Nike,NKE,2025,Q3,TRUE,2025-03-20,71.86,2025-03-21,66.59,2025-03-20,after_hours,returns_matrix.csv,FALSE,YES,71.86,66.59,NO,
+67,Lululemon|2025|Q3,Lululemon,LULU,2025,Q3,TRUE,2025-12-11,187.01,2025-12-12,204.58,2025-12-11,after_hours,returns_matrix.csv,FALSE,YES,187.01,204.58,NO,
+68,Lululemon|2025|Q4,Lululemon,LULU,2025,Q4,TRUE,2026-03-17,159.27,2026-03-18,158.04,2026-03-17,after_hours,returns_matrix.csv,FALSE,YES,159.27,158.04,NO,
+69,Lululemon|2026|Q1,Lululemon,LULU,2026,Q1,TRUE,2026-06-04,124.92,2026-06-05,110.43,2026-06-04,after_hours,returns_matrix.csv,FALSE,YES,124.92,110.43,NO,
+70,Airbnb|2026|Q1,Airbnb,ABNB,2026,Q1,TRUE,2026-05-07,140.46,2026-05-08,138.12,2026-05-07,after_hours,returns_matrix.csv,FALSE,YES,140.46,138.13,NO,
+71,Lowe's|2025|Q1,Lowe's,LOW,2025,Q1,TRUE,2026-05-19,218.37,2026-05-20,213.98,2026-05-20,pre_market,returns_matrix.csv,TRUE,YES,217.41,217.22,YES,
+72,Walmart|2025|Q1,Walmart,WMT,2025,Q1,TRUE,2025-05-14,96.83,2025-05-15,94.3,2025-05-15,pre_market,returns_matrix.csv,TRUE,YES,96.83,94.3,YES,
+73,Walmart|2025|Q2,Walmart,WMT,2025,Q2,TRUE,2025-08-20,102.57,2025-08-21,99.41,2025-08-21,pre_market,returns_matrix.csv,TRUE,YES,102.57,99.41,YES,
+74,Walmart|2025|Q3,Walmart,WMT,2025,Q3,TRUE,2025-11-19,100.61,2025-11-20,103.94,2025-11-20,pre_market,returns_matrix.csv,TRUE,YES,100.61,103.94,YES,
+75,Walmart|2025|Q4,Walmart,WMT,2025,Q4,TRUE,2026-02-18,126.62,2026-02-19,128.5,2026-02-19,pre_market,returns_matrix.csv,TRUE,YES,126.62,128.5,YES,
+76,Walmart|2026|Q1,Walmart,WMT,2026,Q1,TRUE,2026-05-20,130.85,2026-05-21,124.41,2026-05-21,pre_market,returns_matrix.csv,TRUE,YES,130.85,124.41,YES,
+77,Citigroup|2025|Q1,Citigroup,C,2025,Q1,TRUE,2025-04-14,63.22,2025-04-15,64.19,2025-04-15,pre_market,returns_matrix.csv,TRUE,YES,64.33,63.06,YES,
+78,Citigroup|2025|Q2,Citigroup,C,2025,Q2,TRUE,2025-07-14,87.5,2025-07-15,88.65,2025-07-15,pre_market,returns_matrix.csv,TRUE,YES,90.72,91.48,YES,
+79,Citigroup|2025|Q3,Citigroup,C,2025,Q3,TRUE,2025-10-13,96.1,2025-10-14,95.37,2025-10-14,pre_market,returns_matrix.csv,TRUE,YES,99.84,101.19,YES,
+80,Citigroup|2025|Q4,Citigroup,C,2025,Q4,TRUE,2026-01-13,116.3,2026-01-14,117.91,2026-01-14,pre_market,returns_matrix.csv,TRUE,YES,112.41,113.85,YES,
+81,Maersk|2025|Q1,Maersk,AMKBY,2025,Q1,TRUE,2025-05-07,8.58,2025-05-08,8.72,2025-05-07,after_hours,returns_matrix.csv,TRUE,YES,8.68,8.51,YES,
+82,Maersk|2025|Q2,Maersk,AMKBY,2025,Q2,TRUE,2025-08-07,10.71,2025-08-08,10.8,2025-08-07,after_hours,returns_matrix.csv,FALSE,YES,10.71,10.8,NO,
+83,Maersk|2025|Q3,Maersk,AMKBY,2025,Q3,TRUE,2025-11-05,10.38,2025-11-06,9.8,2025-11-05,after_hours,returns_matrix.csv,TRUE,YES,9.9,9.91,YES,
+84,Maersk|2025|Q4,Maersk,AMKBY,2025,Q4,TRUE,2026-02-05,12.09,2026-02-06,11.93,2026-02-05,after_hours,returns_matrix.csv,FALSE,YES,12.09,11.93,NO,
+85,Goldman Sachs|2025|Q1,Goldman Sachs,GS,2025,Q1,TRUE,2025-04-11,494.44,2025-04-14,510.0,2025-04-14,pre_market,returns_matrix.csv,FALSE,YES,494.44,510.0,NO,
+86,Goldman Sachs|2025|Q2,Goldman Sachs,GS,2025,Q2,TRUE,2025-07-15,702.51,2025-07-16,708.5,2025-07-16,pre_market,returns_matrix.csv,FALSE,YES,702.51,708.5,NO,
+87,Goldman Sachs|2025|Q3,Goldman Sachs,GS,2025,Q3,TRUE,2025-10-13,786.78,2025-10-14,764.45,2025-10-14,pre_market,returns_matrix.csv,FALSE,YES,786.78,764.45,NO,
+88,Goldman Sachs|2025|Q4,Goldman Sachs,GS,2025,Q4,TRUE,2026-01-14,932.67,2026-01-15,924.9,2026-01-15,pre_market,returns_matrix.csv,FALSE,YES,932.67,924.9,NO,
+89,Goldman Sachs|2026|Q1,Goldman Sachs,GS,2026,Q1,TRUE,2026-04-10,907.8,2026-04-13,875.55,2026-04-13,pre_market,returns_matrix.csv,FALSE,YES,907.8,875.55,NO,
+90,Goldman Sachs|2026|Q2,Goldman Sachs,GS,2026,Q2,TRUE,2026-07-13,1045.91,2026-07-14,1085.0,2026-07-14,pre_market,returns_matrix.csv,FALSE,YES,1045.91,1085.0,NO,
+91,Charles Schwab|2025|Q1,Charles Schwab,SCHW,2025,Q1,TRUE,2025-04-17,76.15,2025-04-18,75.64,2025-04-17,after_hours,returns_matrix.csv,TRUE,YES,75.7,77.67,YES,
+92,Charles Schwab|2025|Q2,Charles Schwab,SCHW,2025,Q2,TRUE,2025-07-18,95.8,2025-07-21,96.02,2025-07-18,after_hours,returns_matrix.csv,TRUE,YES,93.1,95.7,YES,
+93,Charles Schwab|2025|Q3,Charles Schwab,SCHW,2025,Q3,TRUE,2025-10-16,93.41,2025-10-17,94.72,2025-10-16,after_hours,returns_matrix.csv,TRUE,YES,94.33,94.77,YES,
+94,Charles Schwab|2025|Q4,Charles Schwab,SCHW,2025,Q4,TRUE,2026-01-21,101.79,2026-01-22,103.07,2026-01-21,after_hours,returns_matrix.csv,TRUE,YES,100.99,101.33,YES,
+95,Charles Schwab|2026|Q1,Charles Schwab,SCHW,2026,Q1,TRUE,2026-04-16,92.62,2026-04-17,93.35,2026-04-16,after_hours,returns_matrix.csv,TRUE,YES,100.27,95.76,YES,
+96,Airbnb|2025|Q4,Airbnb,ABNB,2025,Q4,TRUE,2026-02-12,115.96,2026-02-13,126.47,2026-02-12,after_hours,returns_matrix.csv,FALSE,YES,115.96,126.46,NO,
+97,Lowe's|2025|Q4,Lowe's,LOW,2025,Q4,TRUE,2026-02-24,278.59,2026-02-25,266.25,2026-02-25,pre_market,returns_matrix.csv,TRUE,YES,242.39,251.93,YES,
+98,Lowe's|2025|Q2,Lowe's,LOW,2025,Q2,TRUE,2025-08-19,256.36,2025-08-20,265.4,2025-08-20,pre_market,returns_matrix.csv,TRUE,YES,257.14,265.08,YES,
+99,Lowe's|2025|Q3,Lowe's,LOW,2025,Q3,TRUE,2025-11-18,219.57,2025-11-19,230.01,2025-11-19,pre_market,returns_matrix.csv,TRUE,YES,228.41,228.08,YES,
+100,Lowe's|2026|Q1,Lowe's,LOW,2026,Q1,TRUE,2026-05-19,218.37,2026-05-20,213.98,2026-05-20,pre_market,returns_matrix.csv,TRUE,YES,221.05,217.75,YES,
+101,CVS Health|2026|Q1,CVS Health,CVS,2026,Q1,TRUE,2026-05-05,80.69,2026-05-06,85.51,2026-05-06,pre_market,returns_matrix.csv,TRUE,YES,87.36,88.0,YES,
+102,Uber|2025|Q1,Uber,UBER,2025,Q1,TRUE,2025-05-06,85.83,2025-05-07,83.13,2025-05-07,pre_market,returns_matrix.csv,TRUE,YES,85.83,83.13,YES,
+103,Uber|2025|Q2,Uber,UBER,2025,Q2,TRUE,2025-08-05,89.39,2025-08-06,90.95,2025-08-06,pre_market,returns_matrix.csv,TRUE,YES,89.39,90.95,YES,
+104,Uber|2025|Q4,Uber,UBER,2025,Q4,TRUE,2026-02-03,77.93,2026-02-04,75.62,2026-02-04,pre_market,returns_matrix.csv,FALSE,YES,77.93,75.63,NO,
+105,Uber|2026|Q1,Uber,UBER,2026,Q1,TRUE,2026-05-05,72.95,2026-05-06,77.46,2026-05-06,pre_market,returns_matrix.csv,TRUE,YES,72.95,77.46,YES,
+106,Coinbase|2026|Q1,Coinbase,COIN,2026,Q1,TRUE,2026-05-07,192.96,2026-05-08,186.05,2026-05-07,after_hours,returns_matrix.csv,FALSE,YES,192.96,186.05,NO,
+107,Coinbase|2025|Q3,Coinbase,COIN,2025,Q3,TRUE,2025-10-30,328.51,2025-10-31,336.0,2025-10-30,after_hours,returns_matrix.csv,FALSE,YES,328.51,336.0,NO,
+108,Coinbase|2025|Q4,Coinbase,COIN,2025,Q4,TRUE,2026-02-12,141.09,2026-02-13,153.7,2026-02-12,after_hours,returns_matrix.csv,FALSE,YES,141.09,153.7,NO,
+109,Eli Lilly|2026|Q1,Eli Lilly,LLY,2026,Q1,TRUE,2026-04-29,851.21,2026-04-30,898.78,2026-04-30,pre_market,returns_matrix.csv,FALSE,YES,851.21,898.78,NO,
+110,Eli Lilly|2025|Q3,Eli Lilly,LLY,2025,Q3,TRUE,2025-10-29,813.53,2025-10-30,837.5,2025-10-30,pre_market,returns_matrix.csv,FALSE,YES,813.53,837.5,NO,
+111,Eli Lilly|2025|Q4,Eli Lilly,LLY,2025,Q4,TRUE,2026-02-03,1003.46,2026-02-04,1075.12,2026-02-04,pre_market,returns_matrix.csv,FALSE,YES,1003.46,1075.12,NO,
+112,Meta|2026|Q1,Meta,META,2026,Q1,TRUE,2026-04-29,669.12,2026-04-30,619.32,2026-04-29,after_hours,returns_matrix.csv,FALSE,YES,669.12,619.32,NO,
+113,Meta|2025|Q3,Meta,META,2025,Q3,TRUE,2025-10-29,751.67,2025-10-30,669.15,2025-10-29,after_hours,returns_matrix.csv,FALSE,YES,751.67,669.15,NO,
+114,Meta|2025|Q4,Meta,META,2025,Q4,TRUE,2026-01-28,668.73,2026-01-29,737.43,2026-01-28,after_hours,returns_matrix.csv,FALSE,YES,668.73,737.43,NO,
+115,Tesla|2026|Q1,Tesla,TSLA,2026,Q1,TRUE,2026-04-22,387.51,2026-04-23,375.28,2026-04-22,after_hours,returns_matrix.csv,FALSE,YES,387.51,375.28,NO,
+116,Tesla|2025|Q3,Tesla,TSLA,2025,Q3,TRUE,2025-10-22,438.97,2025-10-23,420.0,2025-10-22,after_hours,returns_matrix.csv,FALSE,YES,438.97,420.0,NO,
+117,Tesla|2025|Q4,Tesla,TSLA,2025,Q4,TRUE,2026-01-28,431.46,2026-01-29,437.8,2026-01-28,after_hours,returns_matrix.csv,FALSE,YES,431.46,437.8,NO,
+118,Pfizer|2025|Q1,Pfizer,PFE,2025,Q1,TRUE,2025-04-28,23.05,2025-04-29,22.83,2025-04-29,pre_market,returns_matrix.csv,TRUE,YES,23.05,22.83,YES,
+119,Pfizer|2025|Q2,Pfizer,PFE,2025,Q2,TRUE,2025-08-04,23.53,2025-08-05,24.27,2025-08-05,pre_market,returns_matrix.csv,TRUE,YES,23.53,24.27,YES,
+120,Pfizer|2025|Q4,Pfizer,PFE,2025,Q4,TRUE,2026-02-02,26.66,2026-02-03,25.36,2026-02-03,pre_market,returns_matrix.csv,TRUE,YES,26.66,25.36,YES,
+121,Pfizer|2026|Q1,Pfizer,PFE,2026,Q1,TRUE,2026-05-04,26.3,2026-05-05,26.59,2026-05-05,pre_market,returns_matrix.csv,TRUE,YES,26.3,26.59,YES,
+122,Microsoft|2025|Q1,Microsoft,MSFT,2025,Q1,TRUE,2024-10-30,432.53,2024-10-31,415.36,2024-10-30,after_hours,returns_matrix.csv,TRUE,YES,432.53,415.36,YES,
+123,Microsoft|2025|Q2,Microsoft,MSFT,2025,Q2,TRUE,2025-01-29,442.33,2025-01-30,418.77,2025-01-29,after_hours,returns_matrix.csv,TRUE,YES,442.33,418.77,YES,
+124,Microsoft|2026|Q1,Microsoft,MSFT,2026,Q1,TRUE,2025-10-29,541.55,2025-10-30,530.48,2025-10-29,after_hours,returns_matrix.csv,TRUE,YES,541.55,530.48,YES,
+125,Ford|2025|Q2,Ford,F,2025,Q2,TRUE,2025-07-30,10.87,2025-07-31,10.77,2025-07-30,after_hours,returns_matrix.csv,FALSE,YES,10.87,10.77,NO,
+126,Ford|2025|Q4,Ford,F,2025,Q4,TRUE,2026-02-10,13.57,2026-02-11,13.62,2026-02-10,after_hours,returns_matrix.csv,FALSE,YES,13.57,13.62,NO,
+127,Ford|2026|Q1,Ford,F,2026,Q1,TRUE,2026-04-29,12.24,2026-04-30,11.55,2026-04-29,after_hours,returns_matrix.csv,FALSE,YES,12.24,11.55,NO,
+128,Barclays|2025|Q2,Barclays,BCS,2025,Q2,TRUE,2025-07-28,19.41,2025-07-29,19.82,2025-07-29,pre_market,returns_matrix.csv,TRUE,YES,361.2,359.6,YES,
+129,Barclays|2025|Q3,Barclays,BCS,2025,Q3,TRUE,2025-10-21,19.49,2025-10-22,20.47,2025-10-22,pre_market,returns_matrix.csv,TRUE,YES,395.7,398.0,YES,
+130,Barclays|2026|Q1,Barclays,BCS,2026,Q1,TRUE,2026-04-27,23.09,2026-04-28,22.92,2026-04-28,pre_market,returns_matrix.csv,TRUE,YES,427.4,418.0,YES,
+131,United Airlines|2025|Q1,United Airlines,UAL,2025,Q1,TRUE,2025-04-15,67.0,2025-04-16,69.64,2025-04-15,after_hours,returns_matrix.csv,TRUE,YES,66.99,66.95,YES,
+132,United Airlines|2025|Q2,United Airlines,UAL,2025,Q2,TRUE,2025-07-16,88.47,2025-07-17,91.89,2025-07-16,after_hours,returns_matrix.csv,TRUE,YES,91.22,91.61,YES,
+133,United Airlines|2025|Q3,United Airlines,UAL,2025,Q3,TRUE,2025-10-15,104.05,2025-10-16,102.94,2025-10-15,after_hours,returns_matrix.csv,TRUE,YES,98.19,98.38,YES,
+134,United Airlines|2025|Q4,United Airlines,UAL,2025,Q4,TRUE,2026-01-20,108.57,2026-01-21,111.95,2026-01-20,after_hours,returns_matrix.csv,TRUE,YES,110.96,113.0,YES,
+135,Novo Nordisk|2025|Q1,Novo Nordisk,NVO,2025,Q1,TRUE,2025-05-06,66.29,2025-05-07,69.35,2025-05-07,pre_market,returns_matrix.csv,TRUE,YES,67.55,65.91,YES,
+136,Novo Nordisk|2025|Q2,Novo Nordisk,NVO,2025,Q2,TRUE,2025-08-05,47.22,2025-08-06,45.97,2025-08-06,pre_market,returns_matrix.csv,TRUE,YES,45.38,48.47,YES,
+137,Novo Nordisk|2025|Q3,Novo Nordisk,NVO,2025,Q3,TRUE,2025-11-04,48.25,2025-11-05,46.98,2025-11-05,pre_market,returns_matrix.csv,TRUE,YES,48.46,47.75,YES,
+138,Novo Nordisk|2025|Q4,Novo Nordisk,NVO,2025,Q4,TRUE,2026-02-02,58.93,2026-02-03,58.35,2026-02-03,pre_market,returns_matrix.csv,TRUE,YES,47.19,45.05,YES,
+139,Lockheed Martin|2025|Q1,Lockheed Martin,LMT,2025,Q1,TRUE,2025-04-21,458.33,2025-04-22,458.05,2025-04-22,pre_market,returns_matrix.csv,TRUE,YES,462.08,467.0,YES,
+140,Lockheed Martin|2025|Q2,Lockheed Martin,LMT,2025,Q2,TRUE,2025-07-21,460.53,2025-07-22,422.75,2025-07-22,pre_market,returns_matrix.csv,TRUE,YES,410.74,413.76,YES,
+141,Lockheed Martin|2025|Q3,Lockheed Martin,LMT,2025,Q3,TRUE,2025-10-20,505.9,2025-10-21,482.71,2025-10-21,pre_market,returns_matrix.csv,TRUE,YES,489.5,491.47,YES,
+142,Lockheed Martin|2025|Q4,Lockheed Martin,LMT,2025,Q4,TRUE,2026-01-28,597.27,2026-01-29,609.24,2026-01-29,pre_market,returns_matrix.csv,TRUE,YES,622.51,621.0,YES,
+143,LVMH|2025|Q2,LVMH,MC.PA,2025,Q2,TRUE,2025-07-24,470.25,2025-07-25,464.95,2025-07-24,after_hours,returns_matrix.csv,FALSE,YES,470.25,464.95,NO,
+144,LVMH|2025|Q4,LVMH,MC.PA,2025,Q4,TRUE,2026-01-27,589.3,2026-01-28,556.0,2026-01-27,after_hours,returns_matrix.csv,FALSE,YES,589.3,556.0,NO,
+145,CVS Health|2025|Q2,CVS Health,CVS,2025,Q2,TRUE,2025-07-30,62.3,2025-07-31,65.51,2025-07-31,pre_market,returns_matrix.csv,TRUE,YES,62.1,62.32,YES,
+146,CVS Health|2025|Q4,CVS Health,CVS,2025,Q4,TRUE,2026-02-09,75.77,2026-02-10,73.77,2026-02-10,pre_market,returns_matrix.csv,TRUE,YES,75.7,75.7,YES,
+147,CVS Health|2025|Q3,CVS Health,CVS,2025,Q3,TRUE,2025-10-28,82.2,2025-10-29,82.5,2025-10-29,pre_market,returns_matrix.csv,TRUE,YES,80.6,76.08,YES,
+148,FedEx|2026|Q2,FedEx,FDX,2026,Q2,TRUE,2025-12-18,231.3618,2025-12-19,219.23,2025-12-18,after_hours,returns_matrix.csv,FALSE,YES,227.21,228.6,NO,
+149,FedEx|2026|Q3,FedEx,FDX,2026,Q3,TRUE,2026-03-19,286.9541,2026-03-20,306.87,2026-03-19,after_hours,returns_matrix.csv,FALSE,YES,286.95,306.87,NO,
+150,FedEx|2026|Q4,FedEx,FDX,2026,Q4,TRUE,2026-06-23,317.24,2026-06-24,314.77,2026-06-23,after_hours,returns_matrix.csv,FALSE,YES,317.24,314.77,NO,
+151,FedEx|2026|Q1,FedEx,FDX,2026,Q1,TRUE,2025-09-18,182.5141,2025-09-19,183.96,2025-09-18,after_hours,returns_matrix.csv,FALSE,YES,182.51,183.96,NO,
+152,Hilton|2025|Q1,Hilton,HLT,2025,Q1,TRUE,2025-04-28,221.6,2025-04-29,224.6,2025-04-29,pre_market,returns_matrix.csv,TRUE,YES,226.41,223.04,YES,
+153,Hilton|2025|Q2,Hilton,HLT,2025,Q2,TRUE,2025-07-22,273.84,2025-07-23,264.9,2025-07-23,pre_market,returns_matrix.csv,TRUE,YES,266.85,266.43,YES,
+154,Hilton|2024|Q3,Hilton,HLT,2024,Q3,TRUE,2024-10-22,238.13,2024-10-23,237.5,2024-10-23,pre_market,returns_matrix.csv,TRUE,YES,275.06,274.12,YES,
+155,Hilton|2026|Q1,Hilton,HLT,2026,Q1,TRUE,2026-04-27,332.45,2026-04-28,323.42,2026-04-28,pre_market,returns_matrix.csv,TRUE,YES,323.36,321.55,YES,
+156,Hilton|2025|Q4,Hilton,HLT,2025,Q4,TRUE,2026-02-10,323.7,2026-02-11,321.76,2026-02-11,pre_market,returns_matrix.csv,TRUE,YES,325.13,325.51,YES,
+157,Marriott|2025|Q2,Marriott,MAR,2025,Q2,TRUE,2025-08-04,259.13,2025-08-05,259.31,2025-08-05,pre_market,returns_matrix.csv,TRUE,YES,259.72,259.29,YES,
+158,Marriott|2025|Q3,Marriott,MAR,2025,Q3,TRUE,2025-11-03,263.89,2025-11-04,264.4,2025-11-04,pre_market,returns_matrix.csv,TRUE,YES,272.24,273.75,YES,
+159,Marriott|2025|Q4,Marriott,MAR,2025,Q4,TRUE,2026-02-09,331.21,2026-02-10,349.91,2026-02-10,pre_market,returns_matrix.csv,TRUE,YES,304.45,291.32,YES,
+160,Marriott|2026|Q1,Marriott,MAR,2026,Q1,TRUE,2026-05-05,354.52,2026-05-06,363.87,2026-05-06,pre_market,returns_matrix.csv,TRUE,YES,359.06,358.01,YES,
+161,Target|2025|Q1,Target,TGT,2025,Q1,TRUE,2025-05-20,98.12,2025-05-21,91.5,2025-05-21,pre_market,returns_matrix.csv,FALSE,YES,98.12,91.5,NO,
+162,Target|2025|Q2,Target,TGT,2025,Q2,TRUE,2025-08-19,105.36,2025-08-20,94.41,2025-08-20,pre_market,returns_matrix.csv,FALSE,YES,105.36,94.41,NO,
+163,Target|2025|Q3,Target,TGT,2025,Q3,TRUE,2025-11-18,88.53,2025-11-19,86.42,2025-11-19,pre_market,returns_matrix.csv,FALSE,YES,88.53,86.42,NO,
+164,Target|2026|Q1,Target,TGT,2026,Q1,TRUE,2026-05-19,127.24,2026-05-20,120.21,2026-05-20,pre_market,returns_matrix.csv,FALSE,YES,127.24,120.21,NO,
+165,PayPal|2025|Q1,PayPal,PYPL,2025,Q1,TRUE,2025-04-28,64.93,2025-04-29,66.37,2025-04-29,pre_market,returns_matrix.csv,FALSE,YES,64.93,66.37,NO,
+166,PayPal|2025|Q2,PayPal,PYPL,2025,Q2,TRUE,2025-07-28,78.22,2025-07-29,71.73,2025-07-29,pre_market,returns_matrix.csv,FALSE,YES,78.22,71.73,NO,
+167,PayPal|2025|Q3,PayPal,PYPL,2025,Q3,TRUE,2025-10-27,70.25,2025-10-28,76.21,2025-10-28,pre_market,returns_matrix.csv,FALSE,YES,70.25,76.21,NO,
+168,PayPal|2026|Q1,PayPal,PYPL,2026,Q1,TRUE,2026-05-04,50.39,2026-05-05,45.37,2026-05-05,pre_market,returns_matrix.csv,FALSE,YES,50.39,45.37,NO,
+169,Visa|2025|Q1,Visa,V,2025,Q1,TRUE,2025-04-29,341.52,2025-04-30,334.44,2025-04-29,after_hours,returns_matrix.csv,TRUE,YES,337.51,338.5,YES,
+170,Visa|2025|Q2,Visa,V,2025,Q2,TRUE,2025-07-29,351.29,2025-07-30,351.7,2025-07-29,after_hours,returns_matrix.csv,FALSE,YES,351.29,351.7,NO,
+171,Visa|2025|Q3,Visa,V,2025,Q3,TRUE,2025-10-28,346.9,2025-10-29,346.0,2025-10-28,after_hours,returns_matrix.csv,FALSE,YES,346.9,346.0,NO,
+172,Visa|2026|Q1,Visa,V,2026,Q1,TRUE,2026-04-28,309.3,2026-04-29,336.4,2026-04-28,after_hours,returns_matrix.csv,FALSE,YES,309.3,336.4,NO,
+173,Johnson & Johnson|2025|Q1,Johnson & Johnson,JNJ,2025,Q1,TRUE,2025-04-14,154.36,2025-04-15,155.7,2025-04-15,pre_market,returns_matrix.csv,FALSE,YES,154.36,155.7,NO,
+174,Johnson & Johnson|2025|Q2,Johnson & Johnson,JNJ,2025,Q2,TRUE,2025-07-15,155.17,2025-07-16,160.3,2025-07-16,pre_market,returns_matrix.csv,FALSE,YES,155.17,160.3,NO,
+175,Johnson & Johnson|2025|Q3,Johnson & Johnson,JNJ,2025,Q3,TRUE,2025-10-13,190.9,2025-10-14,192.92,2025-10-14,pre_market,returns_matrix.csv,FALSE,YES,190.9,192.92,NO,
+176,Johnson & Johnson|2026|Q1,Johnson & Johnson,JNJ,2026,Q1,FALSE,,,,,,,,,NO,237.96,235.01,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+177,Expedia|2025|Q1,Expedia,EXPE,2025,Q1,TRUE,2025-05-08,168.99,2025-05-09,152.59,2025-05-08,after_hours,returns_matrix.csv,FALSE,YES,166.56,152.59,NO,
+178,Expedia|2025|Q2,Expedia,EXPE,2025,Q2,TRUE,2025-08-07,187.61,2025-08-08,211.6,2025-08-07,after_hours,returns_matrix.csv,FALSE,YES,187.61,211.6,NO,
+179,Expedia|2025|Q4,Expedia,EXPE,2025,Q4,TRUE,2026-02-12,227.24,2026-02-13,212.0,2026-02-12,after_hours,returns_matrix.csv,FALSE,YES,227.24,212.0,NO,
+180,Expedia|2026|Q1,Expedia,EXPE,2026,Q1,TRUE,2026-05-07,252.79,2026-05-08,232.51,2026-05-07,after_hours,returns_matrix.csv,FALSE,YES,252.79,232.51,NO,
+181,Robinhood Markets|2025|Q1,Robinhood Markets,HOOD,2025,Q1,TRUE,2025-04-30,49.11,2025-05-01,51.12,2025-04-30,after_hours,returns_matrix.csv,FALSE,YES,49.11,51.13,NO,
+182,Robinhood Markets|2025|Q2,Robinhood Markets,HOOD,2025,Q2,TRUE,2025-07-30,106.1,2025-07-31,103.87,2025-07-30,after_hours,returns_matrix.csv,FALSE,YES,106.1,103.86,NO,
+183,Robinhood Markets|2025|Q3,Robinhood Markets,HOOD,2025,Q3,TRUE,2025-11-05,142.48,2025-11-06,140.0,2025-11-05,after_hours,returns_matrix.csv,FALSE,YES,142.48,140.0,NO,
+184,Robinhood Markets|2026|Q1,Robinhood Markets,HOOD,2026,Q1,TRUE,2026-04-28,82.07,2026-04-29,72.3,2026-04-28,after_hours,returns_matrix.csv,FALSE,YES,82.07,72.3,NO,
+185,Comcast Corporation|2025|Q1,Comcast Corporation,CMCSA,2025,Q1,TRUE,2025-04-23,32.3055,2025-04-24,29.97,2025-04-24,pre_market,returns_matrix.csv,FALSE,YES,32.31,29.97,NO,
+186,Comcast Corporation|2025|Q2,Comcast Corporation,CMCSA,2025,Q2,TRUE,2025-07-30,30.4592,2025-07-31,31.86,2025-07-31,pre_market,returns_matrix.csv,FALSE,YES,30.46,31.86,NO,
+187,Comcast Corporation|2025|Q4,Comcast Corporation,CMCSA,2025,Q4,TRUE,2026-01-28,28.41,2026-01-29,27.63,2026-01-29,pre_market,returns_matrix.csv,FALSE,YES,28.41,27.63,NO,
+188,Comcast Corporation|2026|Q1,Comcast Corporation,CMCSA,2026,Q1,TRUE,2026-04-22,29.37,2026-04-23,30.5,2026-04-23,pre_market,returns_matrix.csv,FALSE,YES,29.37,30.5,NO,
+189,Pinterest|2024|Q4,Pinterest,PINS,2024,Q4,TRUE,2025-02-06,33.59,2025-02-07,40.89,2025-02-06,after_hours,returns_matrix.csv,FALSE,YES,33.59,40.89,NO,
+190,Pinterest|2025|Q4,Pinterest,PINS,2025,Q4,TRUE,2026-02-12,18.54,2026-02-13,14.33,2026-02-12,after_hours,returns_matrix.csv,FALSE,YES,18.54,14.33,NO,
+191,Pinterest|2026|Q1,Pinterest,PINS,2026,Q1,TRUE,2026-05-04,20.85,2026-05-05,24.71,2026-05-04,after_hours,returns_matrix.csv,FALSE,YES,20.85,24.71,NO,
+192,Kraft Heinz|2024|Q4,Kraft Heinz,KHC,2024,Q4,TRUE,2025-02-11,29.58,2025-02-12,27.53,2025-02-12,pre_market,returns_matrix.csv,TRUE,YES,28.62,28.32,YES,
+193,Kraft Heinz|2025|Q4,Kraft Heinz,KHC,2025,Q4,FALSE,,,,,,,,,NO,24.99,24.47,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+194,Kraft Heinz|2026|Q1,Kraft Heinz,KHC,2026,Q1,TRUE,2026-05-05,22.54,2026-05-06,23.17,2026-05-06,pre_market,returns_matrix.csv,TRUE,YES,23.07,23.01,YES,
+195,Linde|2025|Q2,Linde,LIN,2025,Q2,TRUE,2025-07-31,460.26,2025-08-01,458.33,2025-08-01,pre_market,returns_matrix.csv,TRUE,YES,459.41,459.86,YES,
+196,Linde|2025|Q3,Linde,LIN,2025,Q3,TRUE,2025-10-30,429.91,2025-10-31,425.0,2025-10-31,pre_market,returns_matrix.csv,TRUE,YES,418.3,422.25,YES,
+197,Linde|2026|Q1,Linde,LIN,2026,Q1,TRUE,2026-04-30,501.14,2026-05-01,503.36,2026-05-01,pre_market,returns_matrix.csv,TRUE,YES,507.92,503.58,YES,
+198,Puma|2026|Q1,Puma,PUM.DE,2026,Q1,TRUE,2026-04-29,24.68,2026-04-30,24.94,2026-04-30,pre_market,returns_matrix.csv,TRUE,YES,25.98,26.05,YES,
+199,Puma|2025|Q3,Puma,PUM.DE,2025,Q3,TRUE,2025-10-29,20.6,2025-10-30,21.01,2025-10-30,pre_market,returns_matrix.csv,FALSE,YES,20.6,18.85,NO,
+200,Puma|2025|Q1,Puma,PUM.DE,2025,Q1,TRUE,2025-05-06,23.67,2025-05-07,24.0,2025-05-07,pre_market,returns_matrix.csv,TRUE,YES,23.37,24.94,YES,
+201,Puma|2025|Q4,Puma,PUM.DE,2025,Q4,TRUE,2026-02-25,22.61,2026-02-26,22.61,2026-02-26,pre_market,returns_matrix.csv,FALSE,YES,22.61,24.68,NO,
+202,Colgate-Palmolive|2026|Q2,Colgate-Palmolive,CL,2026,Q2,FALSE,,,,,,,,,NO,91.6,92.39,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+203,Colgate-Palmolive|2026|Q1,Colgate-Palmolive,CL,2026,Q1,FALSE,,,,,,,,,NO,85.36,85.91,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+204,Colgate-Palmolive|2025|Q4,Colgate-Palmolive,CL,2025,Q4,FALSE,,,,,,,,,NO,85.24,90.55,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+205,Colgate-Palmolive|2025|Q3,Colgate-Palmolive,CL,2025,Q3,FALSE,,,,,,,,,NO,76.51,76.57,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+206,Lenovo|2026|Q4,Lenovo,LNVGY,2026,Q4,TRUE,2026-05-22,40.17,2026-05-25,47.01,2026-05-22,after_hours,returns_matrix.csv,FALSE,YES,40.17,47.01,NO,
+207,Lenovo|2026|Q3,Lenovo,LNVGY,2026,Q3,TRUE,2026-02-12,22.96,2026-02-13,23.55,2026-02-12,after_hours,returns_matrix.csv,FALSE,YES,22.96,23.55,NO,
+208,Lenovo|2026|Q2,Lenovo,LNVGY,2026,Q2,TRUE,2026-01-30,22.61,2026-02-02,22.41,2026-01-30,after_hours,returns_matrix.csv,TRUE,YES,24.2,23.9,YES,
+209,Lenovo|2026|Q1,Lenovo,LNVGY,2026,Q1,TRUE,2025-08-14,27.4,2025-08-15,28.75,2025-08-14,after_hours,returns_matrix.csv,FALSE,YES,27.4,28.75,NO,
+210,Spotify|2026|Q1,Spotify,SPOT,2026,Q1,TRUE,2026-04-27,495.82,2026-04-28,445.0,2026-04-28,pre_market,returns_matrix.csv,FALSE,YES,495.82,434.15,NO,
+211,Spotify|2025|Q4,Spotify,SPOT,2025,Q4,TRUE,2026-02-09,414.84,2026-02-10,462.78,2026-02-10,pre_market,returns_matrix.csv,TRUE,YES,622.99,628.0,YES,
+212,Spotify|2025|Q3,Spotify,SPOT,2025,Q3,TRUE,2025-11-03,644.09,2025-11-04,625.18,2025-11-04,pre_market,returns_matrix.csv,FALSE,YES,644.09,626.0,NO,
+213,Spotify|2025|Q2,Spotify,SPOT,2025,Q2,TRUE,2025-07-28,700.98,2025-07-29,657.53,2025-07-29,pre_market,returns_matrix.csv,FALSE,YES,700.98,623.0,NO,
+214,Chipotle|2025|Q4,Chipotle,CMG,2025,Q4,TRUE,2026-02-03,39.17,2026-02-04,37.72,2026-02-03,after_hours,returns_matrix.csv,FALSE,YES,39.17,37.72,NO,
+215,Chipotle|2025|Q3,Chipotle,CMG,2025,Q3,TRUE,2025-10-29,39.76,2025-10-30,31.27,2025-10-29,after_hours,returns_matrix.csv,FALSE,YES,39.76,31.27,NO,
+216,Chipotle|2025|Q2,Chipotle,CMG,2025,Q2,TRUE,2025-07-23,52.78,2025-07-24,46.2,2025-07-23,after_hours,returns_matrix.csv,FALSE,YES,52.78,46.2,NO,
+217,Chipotle|2025|Q1,Chipotle,CMG,2025,Q1,TRUE,2025-04-23,48.76,2025-04-24,49.2,2025-04-23,after_hours,returns_matrix.csv,FALSE,YES,48.76,49.2,NO,
+218,Heineken|2025|Q3,Heineken,HEINY,2025,Q3,FALSE,,,,,,,,,NO,70.16,71.12,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+219,Heineken|2024|Q3,Heineken,HEINY,2024,Q3,FALSE,,,,,,,,,NO,76.98,79.18,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+220,Heineken|2024|Q2,Heineken,HEINY,2024,Q2,FALSE,,,,,,,,,NO,90.7,82.22,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+221,Heineken|2024|Q1,Heineken,HEINY,2024,Q1,FALSE,,,,,,,,,NO,90.68,93.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+222,Datadog|2026|Q1,Datadog,DDOG,2026,Q1,FALSE,,,,,,,,,NO,143.71,185.5,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+223,Datadog|2025|Q3,Datadog,DDOG,2025,Q3,FALSE,,,,,,,,,NO,154.98,184.29,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+224,Datadog|2025|Q4,Datadog,DDOG,2025,Q4,FALSE,,,,,,,,,NO,114.01,131.16,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+225,Datadog|2025|Q2,Datadog,DDOG,2025,Q2,FALSE,,,,,,,,,NO,136.96,136.59,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+226,eBay|2025|Q1,eBay,EBAY,2025,Q1,FALSE,,,,,,,,,NO,68.16,70.05,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+227,eBay|2026|Q1,eBay,EBAY,2026,Q1,FALSE,,,,,,,,,NO,103.5,100.07,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+228,eBay|2025|Q3,eBay,EBAY,2025,Q3,FALSE,,,,,,,,,NO,99.54,85.6,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+229,eBay|2025|Q2,eBay,EBAY,2025,Q2,FALSE,,,,,,,,,NO,76.58,88.2,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+230,Pinterest|2026|Q1,Pinterest,PINS,2026,Q1,TRUE,2026-05-04,20.85,2026-05-05,24.71,2026-05-04,after_hours,returns_matrix.csv,FALSE,YES,20.85,24.71,NO,
+231,Pinterest|2025|Q4,Pinterest,PINS,2025,Q4,TRUE,2026-02-12,18.54,2026-02-13,14.33,2026-02-12,after_hours,returns_matrix.csv,FALSE,YES,18.54,14.33,NO,
+232,Pinterest|2024|Q4,Pinterest,PINS,2024,Q4,TRUE,2025-02-06,33.59,2025-02-07,40.89,2025-02-06,after_hours,returns_matrix.csv,FALSE,YES,33.59,40.89,NO,
+233,Hermes|2025|Q1,Hermes,RMSP.XC,2025,Q1,FALSE,,,,,,,,,NO,2290.0,2236.5,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+234,Hermes|2025|Q2,Hermes,RMSP.XC,2025,Q2,FALSE,,,,,,,,,NO,2295.0,2249.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+235,Hermes|2025|Q3,Hermes,RMSP.XC,2025,Q3,FALSE,,,,,,,,,NO,2187.0,2212.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+236,Hermes|2025|Q4,Hermes,RMSP.XC,2025,Q4,FALSE,,,,,,,,,NO,2195.0,2195.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+237,Delta Air Lines|2025|Q1,Delta Air Lines,DAL,2025,Q1,TRUE,2025-04-08,35.88,2025-04-09,36.91,2025-04-09,pre_market,returns_matrix.csv,TRUE,YES,44.27,42.22,YES,
+238,Delta Air Lines|2025|Q2,Delta Air Lines,DAL,2025,Q2,TRUE,2025-07-09,50.7,2025-07-10,56.2,2025-07-10,pre_market,returns_matrix.csv,TRUE,YES,56.78,56.23,YES,
+239,Delta Air Lines|2025|Q3,Delta Air Lines,DAL,2025,Q3,TRUE,2025-10-08,57.12,2025-10-09,61.9,2025-10-09,pre_market,returns_matrix.csv,TRUE,YES,59.57,59.93,YES,
+240,Delta Air Lines|2025|Q4,Delta Air Lines,DAL,2025,Q4,TRUE,2026-01-12,71.03,2026-01-13,68.1,2026-01-13,pre_market,returns_matrix.csv,TRUE,YES,69.33,69.39,YES,
+241,Workday|2025|Q1,Workday,WDAY,2025,Q1,TRUE,2025-05-22,272.07,2025-05-23,241.6,2025-05-22,after_hours,returns_matrix.csv,TRUE,YES,260.9,232.19,YES,
+242,Workday|2025|Q2,Workday,WDAY,2025,Q2,TRUE,2025-08-21,227.58,2025-08-22,213.88,2025-08-21,after_hours,returns_matrix.csv,TRUE,YES,231.08,264.99,YES,
+243,Workday|2025|Q3,Workday,WDAY,2025,Q3,TRUE,2025-11-25,233.69,2025-11-26,215.34,2025-11-25,after_hours,returns_matrix.csv,TRUE,YES,270.19,237.5,YES,
+244,Workday|2025|Q4,Workday,WDAY,2025,Q4,TRUE,2026-02-24,130.23,2026-02-25,119.56,2026-02-24,after_hours,returns_matrix.csv,TRUE,YES,255.2,279.99,YES,
+245,Booking Holdings|2025|Q1,Booking Holdings,BKNG,2025,Q1,FALSE,,,,,,,,,NO,196.37,189.29,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+246,Booking Holdings|2025|Q2,Booking Holdings,BKNG,2025,Q2,TRUE,2025-07-29,223.6308,2025-07-30,219.6,2025-07-29,after_hours,returns_matrix.csv,FALSE,YES,223.63,219.6,NO,
+247,Booking Holdings|2025|Q3,Booking Holdings,BKNG,2025,Q3,TRUE,2025-10-28,204.8228,2025-10-29,208.0,2025-10-28,after_hours,returns_matrix.csv,FALSE,YES,204.82,208.0,NO,
+248,Booking Holdings|2025|Q4,Booking Holdings,BKNG,2025,Q4,TRUE,2026-02-18,170.7996,2026-02-19,163.55,2026-02-18,after_hours,returns_matrix.csv,FALSE,YES,170.8,163.55,NO,
+249,Allianz|2025|Q1,Allianz,ALV.DE,2025,Q1,TRUE,2025-05-15,348.2,2025-05-16,348.5,2025-05-15,after_hours,returns_matrix.csv,FALSE,YES,348.2,348.5,NO,
+250,Allianz|2025|Q2,Allianz,ALV.DE,2025,Q2,FALSE,,,,,,,,,NO,366.9,365.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+251,Allianz|2025|Q3,Allianz,ALV.DE,2025,Q3,FALSE,,,,,,,,,NO,367.6,365.4,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+252,Allianz|2025|Q4,Allianz,ALV.DE,2025,Q4,FALSE,,,,,,,,,NO,384.7,384.5,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+253,Dell|2025|Q1,Dell,DELL,2025,Q1,TRUE,2025-05-29,113.63,2025-05-30,112.48,2025-05-29,after_hours,returns_matrix.csv,TRUE,YES,169.92,143.8,YES,
+254,Dell|2025|Q2,Dell,DELL,2025,Q2,FALSE,,,,,,,,,NO,110.74,115.36,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+255,Dell|2025|Q3,Dell,DELL,2025,Q3,TRUE,2025-11-25,125.92,2025-11-26,133.58,2025-11-25,after_hours,returns_matrix.csv,TRUE,YES,141.74,124.92,YES,
+256,Dell|2025|Q4,Dell,DELL,2025,Q4,TRUE,2026-02-26,121.45,2026-02-27,137.37,2026-02-26,after_hours,returns_matrix.csv,TRUE,YES,107.83,100.96,YES,
+257,Standard Chartered|2025|Q1,Standard Chartered,STAN.L,2025,Q1,TRUE,2025-05-01,1097.0,2025-05-02,1130.0,2025-05-02,pre_market,returns_matrix.csv,TRUE,YES,1096.5,1092.0,YES,
+258,Standard Chartered|2025|Q2,Standard Chartered,STAN.L,2025,Q2,TRUE,2025-07-30,1370.0,2025-07-31,1382.0,2025-07-31,pre_market,returns_matrix.csv,TRUE,YES,1360.5,1360.0,YES,
+259,Standard Chartered|2025|Q3,Standard Chartered,STAN.L,2025,Q3,TRUE,2025-10-29,1516.0,2025-10-30,1545.0,2025-10-30,pre_market,returns_matrix.csv,TRUE,YES,1571.0,1552.0,YES,
+260,Standard Chartered|2025|Q4,Standard Chartered,STAN.L,2025,Q4,TRUE,2026-02-20,1802.0,2026-02-23,1811.5,2026-02-23,pre_market,returns_matrix.csv,TRUE,YES,1838.0,1880.5,YES,
+261,Palantir|2025|Q1,Palantir,PLTR,2025,Q1,TRUE,2025-05-05,123.77,2025-05-06,112.71,2025-05-05,after_hours,returns_matrix.csv,FALSE,YES,123.77,112.71,NO,
+262,Palantir|2025|Q2,Palantir,PLTR,2025,Q2,TRUE,2025-08-04,160.66,2025-08-05,171.81,2025-08-04,after_hours,returns_matrix.csv,FALSE,YES,160.66,171.81,NO,
+263,Palantir|2025|Q3,Palantir,PLTR,2025,Q3,TRUE,2025-11-03,207.18,2025-11-04,192.07,2025-11-03,after_hours,returns_matrix.csv,FALSE,YES,207.18,192.07,NO,
+264,Palantir|2025|Q4,Palantir,PLTR,2025,Q4,TRUE,2026-02-02,147.76,2026-02-03,165.05,2026-02-02,after_hours,returns_matrix.csv,FALSE,YES,147.76,165.05,NO,
+265,MetLife|2025|Q1,MetLife,MET,2025,Q1,FALSE,,,,,,,,,NO,75.37,76.36,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+266,MetLife|2025|Q2,MetLife,MET,2025,Q2,TRUE,2025-08-06,75.95,2025-08-07,72.1,2025-08-06,after_hours,returns_matrix.csv,FALSE,YES,75.95,72.1,NO,
+267,MetLife|2025|Q3,MetLife,MET,2025,Q3,TRUE,2025-11-05,78.68,2025-11-06,79.5,2025-11-05,after_hours,returns_matrix.csv,FALSE,YES,78.68,79.5,NO,
+268,MetLife|2025|Q4,MetLife,MET,2025,Q4,TRUE,2026-02-04,78.01,2026-02-05,79.5,2026-02-04,after_hours,returns_matrix.csv,FALSE,YES,78.01,79.5,NO,
+269,MetLife|2026|Q1,MetLife,MET,2026,Q1,TRUE,2026-05-06,80.16,2026-05-07,80.56,2026-05-06,after_hours,returns_matrix.csv,FALSE,YES,80.16,80.56,NO,
+270,MetLife|2023|Q1,MetLife,MET,2023,Q1,FALSE,,,,,,,,,NO,58.71,58.06,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+271,MetLife|2023|Q2,MetLife,MET,2023,Q2,FALSE,,,,,,,,,NO,62.75,63.53,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+272,MetLife|2023|Q3,MetLife,MET,2023,Q3,FALSE,,,,,,,,,NO,59.98,59.99,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+273,MetLife|2023|Q4,MetLife,MET,2023,Q4,FALSE,,,,,,,,,NO,69.32,66.15,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+274,MetLife|2024|Q1,MetLife,MET,2024,Q1,FALSE,,,,,,,,,NO,71.88,72.4,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+275,MetLife|2024|Q2,MetLife,MET,2024,Q2,TRUE,2024-07-31,76.85,2024-08-01,78.61,2024-07-31,after_hours,returns_matrix.csv,FALSE,YES,76.85,78.61,NO,
+276,MetLife|2024|Q3,MetLife,MET,2024,Q3,TRUE,2024-10-30,83.18,2024-10-31,76.57,2024-10-30,after_hours,returns_matrix.csv,FALSE,YES,83.18,76.57,NO,
+277,MetLife|2024|Q4,MetLife,MET,2024,Q4,FALSE,,,,,,,,,NO,85.0,83.26,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+278,General Mills|2026|Q2,General Mills,GIS,2026,Q2,TRUE,2025-12-16,47.02,2025-12-17,48.0,2025-12-17,pre_market,returns_matrix.csv,TRUE,YES,48.61,48.48,YES,
+279,General Mills|2026|Q3,General Mills,GIS,2026,Q3,TRUE,2026-03-17,38.74,2026-03-18,38.65,2026-03-18,pre_market,returns_matrix.csv,TRUE,YES,37.59,37.54,YES,
+280,General Mills|2026|Q4,General Mills,GIS,2026,Q4,TRUE,2026-06-30,34.8,2026-07-01,37.72,2026-07-01,pre_market,returns_matrix.csv,TRUE,YES,37.77,38.0,YES,
+281,Siemens|2025|Q4,Siemens,SIE.DE,2025,Q4,TRUE,2025-11-12,250.4,2025-11-13,243.55,2025-11-13,pre_market,returns_matrix.csv,TRUE,YES,227.0,227.7,YES,
+282,Siemens|2026|Q1,Siemens,SIE.DE,2026,Q1,TRUE,2026-02-11,256.25,2026-02-12,271.6,2026-02-12,pre_market,returns_matrix.csv,TRUE,YES,257.0,252.0,YES,
+283,Siemens|2026|Q2,Siemens,SIE.DE,2026,Q2,TRUE,2026-05-12,264.6,2026-05-13,267.15,2026-05-13,pre_market,returns_matrix.csv,TRUE,YES,266.8,270.0,YES,
+284,Costco|2026|Q1,Costco,COST,2026,Q1,FALSE,,,,,,,,,NO,884.48,883.3,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+285,Costco|2026|Q2,Costco,COST,2026,Q2,FALSE,,,,,,,,,NO,982.57,967.01,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+286,Costco|2026|Q3,Costco,COST,2026,Q3,FALSE,,,,,,,,,NO,995.2,986.57,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+287,Shopify|2025|Q3,Shopify,SHOP,2025,Q3,FALSE,,,,,,,,,NO,160.94,159.56,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+288,Shopify|2025|Q4,Shopify,SHOP,2025,Q4,FALSE,,,,,,,,,NO,118.71,120.69,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+289,Shopify|2026|Q1,Shopify,SHOP,2026,Q1,FALSE,,,,,,,,,NO,107.63,108.61,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+290,Sony|2025|Q2,Sony,SONY,2025,Q2,FALSE,,,,,,,,,NO,29.16,30.12,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+291,Sony|2025|Q3,Sony,SONY,2025,Q3,FALSE,,,,,,,,,NO,21.24,22.84,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+292,Sony|2026|Q1,Sony,SONY,2026,Q1,FALSE,,,,,,,,,NO,23.26,22.7,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+293,Nestle|2024|Q3,Nestle,NSRGY,2024,Q3,FALSE,,,,,,,,,NO,98.82,99.03,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+294,Nestle|2026|Q1,Nestle,NSRGY,2026,Q1,FALSE,,,,,,,,,NO,101.06,102.66,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+295,Alphabet|2026|Q1,Alphabet,GOOGL,2026,Q1,TRUE,2026-04-29,349.94,2026-04-30,374.07,2026-04-29,after_hours,returns_matrix.csv,FALSE,YES,349.94,374.07,NO,
+296,Alphabet|2025|Q3,Alphabet,GOOGL,2025,Q3,TRUE,2025-10-29,274.57,2025-10-30,291.59,2025-10-29,after_hours,returns_matrix.csv,FALSE,YES,274.57,291.59,NO,
+297,Alphabet|2025|Q4,Alphabet,GOOGL,2025,Q4,TRUE,2026-02-04,333.04,2026-02-05,312.22,2026-02-04,after_hours,returns_matrix.csv,FALSE,YES,333.04,312.22,NO,
+298,Booking Holdings|2025|Q2,Booking Holdings,BKNG,2025,Q2,TRUE,2025-07-29,223.6308,2025-07-30,219.6,2025-07-29,after_hours,returns_matrix.csv,FALSE,YES,223.63,219.6,NO,
+299,Booking Holdings|2025|Q3,Booking Holdings,BKNG,2025,Q3,TRUE,2025-10-28,204.8228,2025-10-29,208.0,2025-10-28,after_hours,returns_matrix.csv,FALSE,YES,204.82,208.0,NO,
+300,Booking Holdings|2025|Q4,Booking Holdings,BKNG,2025,Q4,TRUE,2026-02-18,170.7996,2026-02-19,163.55,2026-02-18,after_hours,returns_matrix.csv,FALSE,YES,170.8,163.55,NO,
+301,Broadcom|2026|Q1,Broadcom,AVGO,2026,Q1,TRUE,2026-03-04,317.53,2026-03-05,330.18,2026-03-04,after_hours,returns_matrix.csv,FALSE,YES,317.53,330.18,NO,
+302,Broadcom|2025|Q3,Broadcom,AVGO,2025,Q3,TRUE,2025-09-04,306.1,2025-09-05,355.78,2025-09-04,after_hours,returns_matrix.csv,FALSE,YES,306.1,355.78,NO,
+303,Broadcom|2025|Q4,Broadcom,AVGO,2025,Q4,TRUE,2025-12-11,406.37,2025-12-12,379.96,2025-12-11,after_hours,returns_matrix.csv,FALSE,YES,406.37,379.96,NO,
+304,Costco|2026|Q1,Costco,COST,2026,Q1,FALSE,,,,,,,,,NO,884.48,883.3,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+305,Costco|2026|Q2,Costco,COST,2026,Q2,FALSE,,,,,,,,,NO,982.57,967.01,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+306,Costco|2025|Q4,Costco,COST,2025,Q4,FALSE,,,,,,,,,NO,943.31,925.55,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+307,Oracle|2026|Q1,Oracle,ORCL,2026,Q1,TRUE,2025-09-09,241.51,2025-09-10,319.19,2025-09-09,after_hours,returns_matrix.csv,FALSE,YES,241.51,319.19,NO,
+308,Oracle|2026|Q2,Oracle,ORCL,2026,Q2,TRUE,2025-12-10,223.01,2025-12-11,190.62,2025-12-10,after_hours,returns_matrix.csv,FALSE,YES,223.01,190.62,NO,
+309,Oracle|2026|Q3,Oracle,ORCL,2026,Q3,TRUE,2026-03-10,149.4,2026-03-11,166.38,2026-03-10,after_hours,returns_matrix.csv,FALSE,YES,149.4,166.38,NO,
+310,Starbucks|2026|Q1,Starbucks,SBUX,2026,Q1,TRUE,2026-01-28,95.16,2026-01-29,96.76,2026-01-28,after_hours,returns_matrix.csv,TRUE,YES,95.72,102.3,YES,
+311,Starbucks|2025|Q3,Starbucks,SBUX,2025,Q3,TRUE,2025-07-29,92.96,2025-07-30,97.83,2025-07-29,after_hours,returns_matrix.csv,FALSE,YES,92.96,97.83,NO,
+312,Starbucks|2025|Q4,Starbucks,SBUX,2025,Q4,TRUE,2025-10-29,84.17,2025-10-30,82.23,2025-10-29,after_hours,returns_matrix.csv,FALSE,YES,84.17,82.23,NO,
+313,Caterpillar|2025|Q2,Caterpillar,CAT,2025,Q2,TRUE,2025-08-04,433.7,2025-08-05,427.65,2025-08-05,pre_market,returns_matrix.csv,FALSE,YES,433.7,427.65,NO,
+314,Caterpillar|2025|Q3,Caterpillar,CAT,2025,Q3,TRUE,2025-10-28,524.47,2025-10-29,558.18,2025-10-29,pre_market,returns_matrix.csv,FALSE,YES,524.47,558.18,NO,
+315,Caterpillar|2025|Q4,Caterpillar,CAT,2025,Q4,TRUE,2026-01-28,643.28,2026-01-29,655.17,2026-01-29,pre_market,returns_matrix.csv,FALSE,YES,643.28,655.17,NO,
+316,Micron|2026|Q1,Micron,MU,2026,Q1,TRUE,2025-12-17,225.52,2025-12-18,256.53,2025-12-17,after_hours,returns_matrix.csv,FALSE,YES,225.52,256.53,NO,
+317,Micron|2026|Q2,Micron,MU,2026,Q2,TRUE,2026-03-18,461.73,2026-03-19,424.97,2026-03-18,after_hours,returns_matrix.csv,FALSE,YES,461.73,424.97,NO,
+318,Micron|2025|Q4,Micron,MU,2025,Q4,TRUE,2025-09-23,166.41,2025-09-24,165.08,2025-09-23,after_hours,returns_matrix.csv,FALSE,YES,166.41,165.08,NO,
+319,Salesforce|2026|Q2,Salesforce,CRM,2026,Q2,TRUE,2025-09-03,256.45,2025-09-04,240.06,2025-09-03,after_hours,returns_matrix.csv,FALSE,YES,256.45,240.06,NO,
+320,Salesforce|2026|Q3,Salesforce,CRM,2026,Q3,TRUE,2025-12-03,238.72,2025-12-04,243.69,2025-12-03,after_hours,returns_matrix.csv,FALSE,YES,238.72,243.69,NO,
+321,Salesforce|2026|Q4,Salesforce,CRM,2026,Q4,TRUE,2026-02-25,191.75,2026-02-26,196.76,2026-02-25,after_hours,returns_matrix.csv,FALSE,YES,191.75,196.76,NO,
+322,UnitedHealth|2025|Q2,UnitedHealth,UNH,2025,Q2,TRUE,2025-07-28,282.12,2025-07-29,265.7,2025-07-29,pre_market,returns_matrix.csv,FALSE,YES,282.12,265.7,NO,
+323,UnitedHealth|2025|Q3,UnitedHealth,UNH,2025,Q3,TRUE,2025-10-27,365.98,2025-10-28,380.68,2025-10-28,pre_market,returns_matrix.csv,FALSE,YES,365.98,380.68,NO,
+324,UnitedHealth|2025|Q4,UnitedHealth,UNH,2025,Q4,TRUE,2026-01-26,351.64,2026-01-27,293.97,2026-01-27,pre_market,returns_matrix.csv,FALSE,YES,351.64,293.97,NO,
+325,Freeport-McMoRan|2025|Q2,Freeport-McMoRan,FCX,2025,Q2,FALSE,,,,,,,,,NO,45.8,44.66,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+326,Union Pacific|2025|Q2,Union Pacific,UNP,2025,Q2,FALSE,,,,,,,,,NO,231.0,226.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+327,UnitedHealth|2025|Q2,UnitedHealth,UNH,2025,Q2,TRUE,2025-07-28,282.12,2025-07-29,265.7,2025-07-29,pre_market,returns_matrix.csv,FALSE,YES,282.12,265.7,NO,
+328,Caterpillar|2025|Q2,Caterpillar,CAT,2025,Q2,TRUE,2025-08-04,433.7,2025-08-05,427.65,2025-08-05,pre_market,returns_matrix.csv,FALSE,YES,433.7,427.65,NO,
+329,Home Depot|2025|Q2,Home Depot,HD,2025,Q2,FALSE,,,,,,,,,NO,394.7,401.02,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+330,Adobe|2025|Q3,Adobe,ADBE,2025,Q3,FALSE,,,,,,,,,NO,350.55,361.1,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+331,Union Pacific|2025|Q3,Union Pacific,UNP,2025,Q3,FALSE,,,,,,,,,NO,225.24,223.28,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+332,UnitedHealth|2025|Q3,UnitedHealth,UNH,2025,Q3,TRUE,2025-10-27,365.98,2025-10-28,380.68,2025-10-28,pre_market,returns_matrix.csv,FALSE,YES,365.98,380.68,NO,
+333,Caterpillar|2025|Q3,Caterpillar,CAT,2025,Q3,TRUE,2025-10-28,524.47,2025-10-29,558.18,2025-10-29,pre_market,returns_matrix.csv,FALSE,YES,524.47,558.18,NO,
+334,Home Depot|2025|Q3,Home Depot,HD,2025,Q3,FALSE,,,,,,,,,NO,358.03,339.98,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+335,Adobe|2025|Q4,Adobe,ADBE,2025,Q4,FALSE,,,,,,,,,NO,343.13,341.65,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+336,Freeport-McMoRan|2025|Q4,Freeport-McMoRan,FCX,2025,Q4,FALSE,,,,,,,,,NO,60.58,60.78,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+337,UnitedHealth|2025|Q4,UnitedHealth,UNH,2025,Q4,TRUE,2026-01-26,351.64,2026-01-27,293.97,2026-01-27,pre_market,returns_matrix.csv,FALSE,YES,351.64,293.97,NO,
+338,Union Pacific|2025|Q4,Union Pacific,UNP,2025,Q4,FALSE,,,,,,,,,NO,230.89,235.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+339,Caterpillar|2025|Q4,Caterpillar,CAT,2025,Q4,TRUE,2026-01-28,643.28,2026-01-29,655.17,2026-01-29,pre_market,returns_matrix.csv,FALSE,YES,643.28,655.17,NO,
+340,Home Depot|2025|Q4,Home Depot,HD,2025,Q4,FALSE,,,,,,,,,NO,376.99,389.11,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+341,Adobe|2026|Q1,Adobe,ADBE,2026,Q1,FALSE,,,,,,,,,NO,269.78,249.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+342,UnitedHealth|2026|Q1,UnitedHealth,UNH,2026,Q1,FALSE,,,,,,,,,NO,323.48,353.01,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+343,Freeport-McMoRan|2026|Q1,Freeport-McMoRan,FCX,2026,Q1,FALSE,,,,,,,,,NO,70.36,62.27,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+344,Union Pacific|2026|Q1,Union Pacific,UNP,2026,Q1,FALSE,,,,,,,,,NO,249.4,262.76,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+345,Caterpillar|2026|Q1,Caterpillar,CAT,2026,Q1,FALSE,,,,,,,,,NO,810.05,856.63,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+346,Home Depot|2026|Q1,Home Depot,HD,2026,Q1,FALSE,,,,,,,,,NO,299.81,291.87,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+347,Adobe|2026|Q2,Adobe,ADBE,2026,Q2,FALSE,,,,,,,,,NO,218.8,202.4,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+348,PepsiCo|2023|Q1,PepsiCo,PEP,2023,Q1,TRUE,2023-04-24,185.5,2023-04-25,186.56,2023-04-25,pre_market,returns_matrix.csv,TRUE,YES,189.71,188.48,YES,
+349,PepsiCo|2023|Q2,PepsiCo,PEP,2023,Q2,TRUE,2023-07-12,183.17,2023-07-13,185.8,2023-07-13,pre_market,returns_matrix.csv,TRUE,YES,187.53,187.86,YES,
+350,PepsiCo|2023|Q3,PepsiCo,PEP,2023,Q3,TRUE,2023-10-09,161.36,2023-10-10,164.25,2023-10-10,pre_market,returns_matrix.csv,TRUE,YES,164.4,165.01,YES,
+351,PepsiCo|2023|Q4,PepsiCo,PEP,2023,Q4,TRUE,2024-02-08,173.85,2024-02-09,171.2,2024-02-09,pre_market,returns_matrix.csv,TRUE,YES,167.67,167.86,YES,
+352,PepsiCo|2024|Q1,PepsiCo,PEP,2024,Q1,TRUE,2024-04-22,176.46,2024-04-23,174.7,2024-04-23,pre_market,returns_matrix.csv,TRUE,YES,171.22,168.5,YES,
+353,PepsiCo|2024|Q2,PepsiCo,PEP,2024,Q2,TRUE,2024-07-10,163.59,2024-07-11,159.1,2024-07-11,pre_market,returns_matrix.csv,TRUE,YES,163.95,164.96,YES,
+354,PepsiCo|2024|Q3,PepsiCo,PEP,2024,Q3,TRUE,2024-10-07,167.21,2024-10-08,167.72,2024-10-08,pre_market,returns_matrix.csv,TRUE,YES,170.42,169.38,YES,
+355,PepsiCo|2024|Q4,PepsiCo,PEP,2024,Q4,TRUE,2025-02-03,150.27,2025-02-04,146.1,2025-02-04,pre_market,returns_matrix.csv,TRUE,YES,143.49,143.39,YES,
+356,PepsiCo|2025|Q1,PepsiCo,PEP,2025,Q1,TRUE,2025-04-23,142.26,2025-04-24,141.45,2025-04-24,pre_market,returns_matrix.csv,TRUE,YES,135.31,135.47,YES,
+357,PepsiCo|2025|Q2,PepsiCo,PEP,2025,Q2,TRUE,2025-07-16,135.35,2025-07-17,141.7,2025-07-17,pre_market,returns_matrix.csv,TRUE,YES,145.44,146.26,YES,
+358,PepsiCo|2025|Q3,PepsiCo,PEP,2025,Q3,TRUE,2025-10-08,138.84,2025-10-09,140.46,2025-10-09,pre_market,returns_matrix.csv,TRUE,YES,144.71,145.63,YES,
+359,PepsiCo|2025|Q4,PepsiCo,PEP,2025,Q4,TRUE,2026-02-02,155.2,2026-02-03,156.6,2026-02-03,pre_market,returns_matrix.csv,TRUE,YES,162.85,164.89,YES,
+360,PepsiCo|2026|Q1,PepsiCo,PEP,2026,Q1,TRUE,2026-04-15,154.85,2026-04-16,155.54,2026-04-16,pre_market,returns_matrix.csv,TRUE,YES,158.38,158.26,YES,
+361,PepsiCo|2026|Q2,PepsiCo,PEP,2026,Q2,TRUE,2026-07-08,142.51,2026-07-09,137.09,2026-07-09,pre_market,returns_matrix.csv,TRUE,YES,137.86,135.86,YES,
+362,Duke Energy|2023|Q1,Duke Energy,DUK,2023,Q1,FALSE,,,,,,,,,NO,98.05,98.82,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+363,Duke Energy|2023|Q2,Duke Energy,DUK,2023,Q2,FALSE,,,,,,,,,NO,92.13,91.87,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+364,Duke Energy|2023|Q3,Duke Energy,DUK,2023,Q3,FALSE,,,,,,,,,NO,89.89,91.16,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+365,Duke Energy|2023|Q4,Duke Energy,DUK,2023,Q4,FALSE,,,,,,,,,NO,92.65,92.26,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+366,Duke Energy|2024|Q1,Duke Energy,DUK,2024,Q1,FALSE,,,,,,,,,NO,102.26,102.43,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+367,Duke Energy|2024|Q2,Duke Energy,DUK,2024,Q2,FALSE,,,,,,,,,NO,112.92,113.22,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+368,Duke Energy|2024|Q3,Duke Energy,DUK,2024,Q3,FALSE,,,,,,,,,NO,111.08,111.77,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+369,Duke Energy|2024|Q4,Duke Energy,DUK,2024,Q4,FALSE,,,,,,,,,NO,113.95,113.27,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+370,Duke Energy|2025|Q1,Duke Energy,DUK,2025,Q1,FALSE,,,,,,,,,NO,122.94,122.55,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+371,Duke Energy|2025|Q2,Duke Energy,DUK,2025,Q2,FALSE,,,,,,,,,NO,124.0,124.65,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+372,Duke Energy|2025|Q3,Duke Energy,DUK,2025,Q3,FALSE,,,,,,,,,NO,123.66,123.05,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+373,Duke Energy|2025|Q4,Duke Energy,DUK,2025,Q4,FALSE,,,,,,,,,NO,123.64,124.27,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+374,Duke Energy|2026|Q1,Duke Energy,DUK,2026,Q1,FALSE,,,,,,,,,NO,127.58,127.04,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+375,ExxonMobil|2023|Q1,ExxonMobil,XOM,2023,Q1,FALSE,,,,,,,,,NO,118.34,115.99,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+376,ExxonMobil|2023|Q2,ExxonMobil,XOM,2023,Q2,FALSE,,,,,,,,,NO,104.16,105.19,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+377,ExxonMobil|2023|Q3,ExxonMobil,XOM,2023,Q3,FALSE,,,,,,,,,NO,105.55,105.74,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+378,ExxonMobil|2023|Q4,ExxonMobil,XOM,2023,Q4,FALSE,,,,,,,,,NO,101.97,101.45,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+379,ExxonMobil|2024|Q1,ExxonMobil,XOM,2024,Q1,FALSE,,,,,,,,,NO,117.96,117.76,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+380,ExxonMobil|2024|Q2,ExxonMobil,XOM,2024,Q2,FALSE,,,,,,,,,NO,116.88,115.54,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+381,ExxonMobil|2024|Q3,ExxonMobil,XOM,2024,Q3,FALSE,,,,,,,,,NO,114.95,116.07,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+382,ExxonMobil|2024|Q4,ExxonMobil,XOM,2024,Q4,FALSE,,,,,,,,,NO,106.83,106.64,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+383,ExxonMobil|2025|Q1,ExxonMobil,XOM,2025,Q1,FALSE,,,,,,,,,NO,106.21,104.65,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+384,ExxonMobil|2025|Q2,ExxonMobil,XOM,2025,Q2,FALSE,,,,,,,,,NO,109.64,109.22,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+385,ExxonMobil|2025|Q3,ExxonMobil,XOM,2025,Q3,FALSE,,,,,,,,,NO,114.36,114.5,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+386,ExxonMobil|2025|Q4,ExxonMobil,XOM,2025,Q4,FALSE,,,,,,,,,NO,141.4,139.83,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+387,ExxonMobil|2026|Q1,ExxonMobil,XOM,2026,Q1,FALSE,,,,,,,,,NO,152.75,152.67,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+388,American Express|2025|Q2,American Express,AXP,2025,Q2,FALSE,,,,,,,,,NO,315.35,311.86,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+389,American Express|2025|Q2,American Express,AXP,2025,Q2,FALSE,,,,,,,,,NO,315.35,311.86,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+390,American Express|2025|Q3,American Express,AXP,2025,Q3,FALSE,,,,,,,,,NO,323.12,332.38,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+391,American Express|2025|Q3,American Express,AXP,2025,Q3,FALSE,,,,,,,,,NO,323.12,332.38,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+392,American Express|2025|Q4,American Express,AXP,2025,Q4,FALSE,,,,,,,,,NO,358.5,355.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+393,American Express|2025|Q4,American Express,AXP,2025,Q4,FALSE,,,,,,,,,NO,358.5,355.0,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+394,American Express|2026|Q1,American Express,AXP,2026,Q1,FALSE,,,,,,,,,NO,332.9,332.2,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+395,Chevron|2025|Q2,Chevron,CVX,2025,Q2,FALSE,,,,,,,,,NO,151.64,152.54,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+396,Chevron|2025|Q2,Chevron,CVX,2025,Q2,FALSE,,,,,,,,,NO,151.64,152.54,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+397,Chevron|2025|Q3,Chevron,CVX,2025,Q3,FALSE,,,,,,,,,NO,153.52,155.73,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+398,Chevron|2025|Q3,Chevron,CVX,2025,Q3,FALSE,,,,,,,,,NO,153.52,155.73,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+399,Chevron|2025|Q4,Chevron,CVX,2025,Q4,FALSE,,,,,,,,,NO,171.19,172.62,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+400,Chevron|2025|Q4,Chevron,CVX,2025,Q4,FALSE,,,,,,,,,NO,171.19,172.62,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+401,Chevron|2026|Q1,Chevron,CVX,2026,Q1,FALSE,,,,,,,,,NO,193.31,191.3,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+402,Intel|2025|Q2,Intel,INTC,2025,Q2,FALSE,,,,,,,,,NO,22.63,20.68,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+403,Intel|2025|Q2,Intel,INTC,2025,Q2,FALSE,,,,,,,,,NO,22.63,20.68,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+404,Intel|2025|Q3,Intel,INTC,2025,Q3,FALSE,,,,,,,,,NO,38.16,40.02,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+405,Intel|2025|Q3,Intel,INTC,2025,Q3,FALSE,,,,,,,,,NO,38.16,40.02,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+406,Intel|2025|Q4,Intel,INTC,2025,Q4,FALSE,,,,,,,,,NO,54.32,46.86,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+407,Intel|2025|Q4,Intel,INTC,2025,Q4,FALSE,,,,,,,,,NO,54.32,46.86,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+408,Intel|2026|Q1,Intel,INTC,2026,Q1,FALSE,,,,,,,,,NO,66.78,82.2,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+409,Mastercard|2025|Q2,Mastercard,MA,2025,Q2,FALSE,,,,,,,,,NO,559.11,568.57,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+410,Mastercard|2025|Q2,Mastercard,MA,2025,Q2,FALSE,,,,,,,,,NO,559.11,568.57,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+411,Mastercard|2025|Q3,Mastercard,MA,2025,Q3,FALSE,,,,,,,,,NO,554.58,551.56,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+412,Mastercard|2025|Q3,Mastercard,MA,2025,Q3,FALSE,,,,,,,,,NO,554.58,551.56,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+413,Mastercard|2025|Q4,Mastercard,MA,2025,Q4,FALSE,,,,,,,,,NO,521.37,531.79,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+414,Mastercard|2025|Q4,Mastercard,MA,2025,Q4,FALSE,,,,,,,,,NO,521.37,531.79,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+415,Mastercard|2026|Q1,Mastercard,MA,2026,Q1,FALSE,,,,,,,,,NO,525.23,504.5,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+416,Shell|2025|Q2,Shell,SHEL,2025,Q2,FALSE,,,,,,,,,NO,71.72,71.56,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+417,Shell|2025|Q2,Shell,SHEL,2025,Q2,FALSE,,,,,,,,,NO,71.72,71.56,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+418,Shell|2025|Q3,Shell,SHEL,2025,Q3,FALSE,,,,,,,,,NO,75.55,75.59,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+419,Shell|2025|Q3,Shell,SHEL,2025,Q3,FALSE,,,,,,,,,NO,75.55,75.59,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+420,Shell|2025|Q4,Shell,SHEL,2025,Q4,FALSE,,,,,,,,,NO,78.79,76.29,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+421,Shell|2025|Q4,Shell,SHEL,2025,Q4,FALSE,,,,,,,,,NO,78.79,76.29,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+422,Shell|2026|Q1,Shell,SHEL,2026,Q1,FALSE,,,,,,,,,NO,87.2,85.71,,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"

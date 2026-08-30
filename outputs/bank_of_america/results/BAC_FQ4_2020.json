@@ -1,0 +1,255 @@
+{
+  "document_id": "BAC_FQ4_2020",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: net income rose 12% sequentially, provision expense dropped sharply due to a reserve release reflecting an improved macroeconomic outlook, and management expressed confidence in the recovery ('we continued to see signs of a recovery...position us well as the recovery continues'). However, full-year 2020 revenue and EPS declined versus 2019, and no formal forward guidance was raised; the outlook is cautiously optimistic rather than a definitive upgrade. The score reflects the positive trajectory change and confident language, tempered by the lack of a formal guidance raise and the backward-looking nature of the results."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2020 total revenue, net of interest expense, was $20.1 billion, a decrease of 10% from $22.3 billion in Q4 2019. Full-year 2020 revenue was $85.5 billion, down 6% from $91.2 billion in 2019.",
+    "eps": "Q4 2020 diluted EPS was $0.59, down from $0.74 in Q4 2019. Full-year 2020 diluted EPS was $1.87, down from $2.75 in 2019.",
+    "guidance": "Not disclosed. The document contains no explicit forward revenue, earnings, or growth guidance for future periods. Management expressed confidence in the recovery but did not provide numerical guidance.",
+    "margin": "Q4 2020 efficiency ratio was 69% (GAAP) or 68.90% (FTE), compared to 59% (GAAP) or 58.85% (FTE) in Q4 2019. Full-year 2020 efficiency ratio was 65% (GAAP) or 64.18% (FTE), compared to 60% (GAAP) or 59.78% (FTE) in 2019. Return on average common shareholders' equity was 8.4% in Q4 2020 vs. 11.0% in Q4 2019; return on average tangible common shareholders' equity was 11.7% vs. 15.4%.",
+    "key_risks": [
+      "Lower interest rates continue to pressure net interest income (NII declined 16% in Q4 2020 vs. Q4 2019).",
+      "COVID-19 pandemic uncertainty: 'The reserve assessment continues to factor in the uncertainty resulting from the unprecedented nature of the current health crisis.'",
+      "Nonperforming loans increased 9% sequentially to $5.0 billion, driven by consumer real estate due to deferral activities.",
+      "Commercial reservable criticized utilized exposure increased 8% sequentially to $38.7 billion, driven by Commercial Real Estate, primarily Hotels.",
+      "Higher noninterest expense, driven by COVID-19 costs and investments, increased 5% vs. Q4 2019."
+    ],
+    "key_opportunities": [
+      "Record deposit growth: average deposits rose 23% to $1.7 trillion, providing a low-cost funding base.",
+      "Strong investment banking fees: firmwide IB fees (excl. self-led) up 26% to $1.9 billion in Q4 2020; record full-year fees of $7.2 billion.",
+      "Improved CET1 ratio to 11.9% (Standardized) and increased liquidity to record levels ($943 billion average Global Liquidity Sources).",
+      "Digital leadership: 39.3 million active digital banking users, 30.8 million active mobile users, and record digital sales penetration (45% of consumer sales).",
+      "Wealth management growth: record client balances of more than $3.3 trillion, up 10% YoY; Merrill added ~22,000 net new households in 2020.",
+      "Reserve release of $828 million in Q4 2020 reflecting improved macroeconomic outlook, reducing provision expense."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Brian Moynihan stated: 'In the fourth quarter, we continued to see signs of a recovery...position us well as the recovery continues.' CFO Paul Donofrio added: 'we ended the year stronger than before the health crisis and well positioned to support our clients.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2020 total revenue was $20.1 billion, down 10% from Q4 2019.",
+      "quote": "Revenue, net of interest expense, decreased 10% to $20.1 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 diluted EPS was $0.59, down from $0.74 in Q4 2019.",
+      "quote": "Net income of $5.5 billion, or $0.59 per diluted share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2020 revenue was $85.5 billion, down 6% from 2019.",
+      "quote": "Total revenue, net of interest expense $85.5 $91.2 ($5.7) (6)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2020 diluted EPS was $1.87, down from $2.75 in 2019.",
+      "quote": "Diluted earnings per share $1.87 $2.75 ($0.88) (32)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No explicit forward guidance was provided in the document.",
+      "quote": "Forward-looking statements represent the Company's current expectations, plans or forecasts of its future results...These statements are not guarantees of future results or performance and involve certain known and unknown risks...Actual outcomes and results may differ materially from those expressed in, or implied by, any of these forward-looking statements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 efficiency ratio was 69% (GAAP) or 68.90% (FTE), compared to 59% (GAAP) or 58.85% (FTE) in Q4 2019.",
+      "quote": "Efficiency ratio 69 71 59 (from slide 6) and Efficiency ratio 64.18 59.78 68.90 70.42 58.85 (from Supplemental Financial Data)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average common shareholders' equity was 8.4% in Q4 2020 vs. 11.0% in Q4 2019.",
+      "quote": "Return on average common shareholders' equity 8.4 7.2 11.0 (from slide 6)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average tangible common shareholders' equity was 11.7% in Q4 2020 vs. 15.4% in Q4 2019.",
+      "quote": "Return on average tangible common shareholders' equity 11.7 10.2 15.4 (from slide 6)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income declined 16% in Q4 2020 vs. Q4 2019.",
+      "quote": "Net interest income (NII)(B) declined 16% to $10.3 billion, driven by lower interest rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses decreased sharply to $53 million in Q4 2020, reflecting a reserve release of $828 million.",
+      "quote": "Provision for credit losses decreased to $53 million, reflecting a reserve release of $828 million(H)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nonperforming loans increased 9% sequentially to $5.0 billion.",
+      "quote": "Nonperforming loans (NPLs) increased $402 million, or 9%, from the prior quarter to $5.0 billion, driven by consumer real estate due to deferral activities",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial reservable criticized utilized exposure increased 8% sequentially to $38.7 billion.",
+      "quote": "Commercial reservable criticized utilized exposure increased $3.0 billion, or 8%, from the prior quarter to $38.7 billion, driven by Commercial Real Estate, primarily Hotels",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average deposits rose 23% to $1.7 trillion.",
+      "quote": "Deposits rose $327 billion, or 23%, to $1.7 trillion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Firmwide investment banking fees (excl. self-led) up 26% to $1.9 billion in Q4 2020.",
+      "quote": "Firmwide investment banking fees (excl. self-led) up 26% to $1.9 billion; record 2020 investment banking fees of $7.2 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio improved to 11.9% (Standardized) from 11.2% a year ago.",
+      "quote": "Common equity tier 1 (CET1) ratio increased 76 basis points YoY to 11.9% (Standardized)(A)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average Global Liquidity Sources rose to $943 billion, up 64% from a year ago.",
+      "quote": "Average Global Liquidity Sources rose $367 billion, or 64%, to $943 billion(D)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record client balances in Global Wealth and Investment Management of more than $3.3 trillion, up 10%.",
+      "quote": "Record client balances of more than $3.3 trillion, up 10%, driven by higher market valuations and client flows",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Merrill added ~22,000 net new households in 2020.",
+      "quote": "Merrill added ~22,000 net new households in 2020, and Private Bank added ~1,800 net new relationships in 2020",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "39.3 million active digital banking users, up 3%.",
+      "quote": "39.3 million active digital banking users, up 3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital sales were 45% of all Consumer Banking sales.",
+      "quote": "Digital sales were 45% of all Consumer Banking sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed optimism about the recovery.",
+      "quote": "In the fourth quarter, we continued to see signs of a recovery, led by increased consumer spending, stabilizing loan demand by our commercial customers, and strong markets and investing activity. The latest stimulus package, continued progress on vaccines, and our talented teammates – who performed well helping their customers through this crisis – position us well as the recovery continues.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CFO stated the company ended the year stronger than before the health crisis.",
+      "quote": "Despite one of the worst economic environments in modern memory, we ended the year stronger than before the health crisis and well positioned to support our clients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest expense increased 5% vs. Q4 2019, driven by COVID-19 costs.",
+      "quote": "Noninterest expense increased 5% to $13.9 billion, driven primarily by higher net COVID-19 costs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The reserve assessment continues to factor in uncertainty from the COVID-19 crisis.",
+      "quote": "The reserve assessment continues to factor in the uncertainty resulting from the unprecedented nature of the current health crisis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on sequential improvement and confident language, but no formal guidance was raised. A reviewer may wish to assess whether the absence of explicit guidance should cap the score lower."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2021-01-19",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2020",
+    "report_date": "2021-01-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2020-Q4\\bac-4q20-press-release.html",
+        "pub_date": "2021-01-19"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2020-Q4\\bac-4q20-presentation.html",
+        "pub_date": "2021-01-19"
+      }
+    ],
+    "document_id": "BAC_FQ4_2020"
+  },
+  "run_meta": {
+    "run_id": "20260709T144506Z",
+    "timestamp": "2026-07-09T14:45:28Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2020-Q4\\bac-4q20-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2020.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2020-Q4\\bac-4q20-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 58677,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2020-Q4\\bac-4q20-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 59452,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2020.txt"
+  }
+}

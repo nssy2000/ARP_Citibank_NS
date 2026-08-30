@@ -1,0 +1,154 @@
+{
+  "issuer": "p2_metlife",
+  "reports": [
+    {
+      "document_id": "MET_FQ2_2024",
+      "issuer": "p2_metlife",
+      "company": "MetLife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2024",
+      "report_date": "2024-07-31",
+      "release_date": "2024-07-31",
+      "release_date_source": "EDGAR 8-K Item 2.02, met-20240731.htm, acc 0001099219-24-000196",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2024-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2024-Q2/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ3_2024",
+      "issuer": "p2_metlife",
+      "company": "MetLife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2024",
+      "report_date": "2024-10-30",
+      "release_date": "2024-10-30",
+      "release_date_source": "EDGAR 8-K Item 2.02, met-20241030.htm, acc 0001099219-24-000255",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2024-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2024-Q3/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ2_2025",
+      "issuer": "p2_metlife",
+      "company": "MetLife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-06",
+      "release_date": "2025-08-06",
+      "release_date_source": "EDGAR 8-K Item 2.02, met-20250806.htm, acc 0001099219-25-000191",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/metlife/CY2025-Q2/earnings_call_transcript.txt"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2025-Q2/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ3_2025",
+      "issuer": "p2_metlife",
+      "company": "MetLife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-05",
+      "release_date": "2025-11-05",
+      "release_date_source": "EDGAR 8-K Item 2.02, met-20251105.htm, acc 0001099219-25-000227",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2025-Q3/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ4_2025",
+      "issuer": "p2_metlife",
+      "company": "MetLife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-04",
+      "release_date": "2026-02-04",
+      "release_date_source": "EDGAR 8-K Item 2.02, met-20260204.htm, acc 0001099219-26-000008",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/metlife/CY2025-Q4/earnings_call_transcript.txt"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2025-Q4/presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MET_FQ1_2026",
+      "issuer": "p2_metlife",
+      "company": "MetLife",
+      "ticker": "MET",
+      "sector": "Financial Services/Insurance - Life",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-06",
+      "release_date": "2026-05-06",
+      "release_date_source": "EDGAR 8-K Item 2.02, met-20260506.htm, acc 0001099219-26-000032",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/metlife/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/metlife/CY2026-Q1/earnings_call_transcript.txt"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/metlife/CY2026-Q1/presentation.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

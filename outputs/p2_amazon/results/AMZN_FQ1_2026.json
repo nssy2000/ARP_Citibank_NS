@@ -1,0 +1,196 @@
+{
+  "document_id": "AMZN_FQ1_2026",
+  "sentiment": {
+    "score": 0.8,
+    "rationale": "AWS growth accelerated to 28% (fastest in 15 quarters) on a $150B run rate, with a $364B backlog before the $100B+ Anthropic deal. Operating margin hit a record 13.1%. Q2 guidance was raised to $194B-$199B revenue and $20B-$24B operating income, well above consensus. Cost pressures (memory, transport, LEO) are acknowledged but framed as manageable against the strong demand backdrop."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$181.5B, up 17% year-over-year (15% excluding currency).",
+    "eps": "Reported EPS is $2.78, expectations were $1.63.",
+    "guidance": "Q2 net sales expected between $194B and $199B; Q2 operating income expected between $20B and $24B.",
+    "margin": "Operating income $23.9B at a 13.1% margin, the highest ever.",
+    "key_risks": [
+      "Memory component costs have skyrocketed and supply volatility threatens capacity.",
+      "Higher transport and fuel costs plus about $1B of LEO expense pressure Q2 margins.",
+      "Rapid capex growth constrains free cash flow until the infrastructure monetizes."
+    ],
+    "key_opportunities": [
+      "AWS growth accelerated to 28% year-over-year, fastest in 15 quarters, with a $364B backlog.",
+      "AI revenue growing triple digits year-over-year; Trainium2 has 30% better price performance than comparable GPUs.",
+      "Advertising revenue $17.2B, up 22% year-over-year.",
+      "Amazon Leo commercial service on track to launch in Q3 with meaningful revenue commitments."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Andy Jassy described the quarter as 'a strong quarter for Amazon' and stated 'we have high confidence this will be monetized well' regarding CapEx investments."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $181.5B, up 17% year-over-year.",
+      "quote": "We’re reporting $181.5 billion in revenue, up 17% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $2.78, beating expectations of $1.63.",
+      "quote": "Amazon.com, Inc. beats earnings expectations. Reported EPS is $2.78, expectations were $1.63.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 net sales guidance is $194B to $199B.",
+      "quote": "Q2 net sales are expected to be between $194 billion and $199 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 operating income guidance is $20B to $24B.",
+      "quote": "Q2 operating income is expected to be between $20 billion and $24 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 13.1%, the highest ever.",
+      "quote": "Worldwide operating income was $23.9 billion with an operating margin of 13.1%, our highest operating margin ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Memory component costs have skyrocketed and supply volatility threatens capacity.",
+      "quote": "Memory component costs have skyrocketed and supply volatility threatens capacity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher transport and fuel costs plus about $1B of LEO expense pressure Q2 margins.",
+      "quote": "Higher transport and fuel costs plus about $1B of LEO expense pressure Q2 margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rapid capex growth constrains free cash flow until the infrastructure monetizes.",
+      "quote": "Rapid capex growth constrains free cash flow until the infrastructure monetizes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS growth accelerated to 28% year-over-year, fastest in 15 quarters.",
+      "quote": "AWS, growth continued to accelerate, up 28% year-over-year, the fastest growth rate in 15 quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI revenue is growing triple digits year-over-year.",
+      "quote": "Our AI revenue is growing triple digits year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trainium2 has about 30% better price performance than comparable GPUs.",
+      "quote": "Our Trainium2 chip has about 30% better price performance than comparable GPUs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue was $17.2B, up 22% year-over-year.",
+      "quote": "generating $17.2 billion of revenue in the quarter and up 22% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Amazon Leo commercial service is on track to launch in Q3 with meaningful revenue commitments.",
+      "quote": "Amazon Leo continues gaining momentum with commercial service on track to launch in a few months. We already have meaningful revenue commitments from enterprises and governments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Andy Jassy described the quarter as 'a strong quarter for Amazon' and stated 'we have high confidence this will be monetized well' regarding CapEx investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS backlog is $364B, not including the $100B+ Anthropic deal.",
+      "quote": "The backlog for Q1 is $364 billion. That does not include the recent deal with Anthropic for over $100 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.80 is based on strong forward guidance and record margins, but the document also notes cost pressures (memory, transport, LEO) that could weigh on future quarters. A reviewer should confirm the balance is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMZN_Bundled Earnings Report_2026-04-29",
+  "report_metadata": {
+    "issuer": "p2_amazon",
+    "company": "Amazon",
+    "ticker": "AMZN",
+    "sector": "Consumer/Retail-Tech",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2026-Q1\\01 amazon q1 2026 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2026-Q1\\AMZN-Q1-2026-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMZN_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T172044Z",
+    "timestamp": "2026-07-30T17:21:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2026-Q1\\01 amazon q1 2026 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2026-Q1\\01 amazon q1 2026 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5453,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2026-Q1\\AMZN-Q1-2026-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "page_count": 1,
+        "extracted_characters": 51402,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ1_2026.txt"
+  }
+}

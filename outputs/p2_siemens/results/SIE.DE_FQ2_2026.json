@@ -1,0 +1,252 @@
+{
+  "document_id": "SIE.DE_FQ2_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Guidance was raised for Digital Industries and Smart Infrastructure, with Digital Industries' comparable revenue growth raised from 5%-10% to 7%-10% and profit margin from 15%-19% to 17%-19%, and Smart Infrastructure's revenue growth raised from 6%-9% to 8%-10%. This is a meaningful upward revision in forward expectations for two key segments, despite Mobility's guidance being lowered. The overall group guidance was reaffirmed, and management expressed confidence in reaching full-year targets, but the mixed segment guidance and ongoing geopolitical/tariff headwinds temper the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "€19,756 million, flat on a nominal basis (0% change) but +6% on a comparable basis, driven by Smart Infrastructure and Digital Industries.",
+    "eps": "Basic EPS of €2.60, down 9% year-over-year; EPS pre PPA of €2.81, down 6%.",
+    "guidance": "Group comparable revenue growth of 6%-8% and EPS pre PPA of €10.70-€11.10 reaffirmed. Digital Industries raised to 7%-10% revenue growth and 17%-19% profit margin. Smart Infrastructure raised to 8%-10% revenue growth, profit margin 18%-19% unchanged. Mobility lowered to 5%-7% revenue growth, profit margin 8%-10% unchanged.",
+    "margin": "Industrial Business profit margin of 15.4% (down from 16.9% in Q2 FY2025, which included a €0.3bn gain). Digital Industries margin improved to 18.5% (from 14.8%). Smart Infrastructure margin declined to 18.6% (from 24.0%, which included a €315m gain).",
+    "key_risks": [
+      "Geopolitical environment remains very demanding",
+      "Substantial negative currency translation effects (7pp on orders, 6pp on revenue)",
+      "Tariff impacts in the U.S. affecting Mobility and Siemens Healthineers",
+      "Higher commodity costs year-over-year at Smart Infrastructure",
+      "Delayed call-offs under framework agreements for large rail infrastructure projects",
+      "Structural change in the market environment in China affecting diagnostics business",
+      "Increased expenses for credit risk provisions at Siemens Financial Services"
+    ],
+    "key_opportunities": [
+      "AI as a clear growth driver for hardware, software and services",
+      "Record order intake at Smart Infrastructure, driven by data center and semiconductor customers",
+      "Strong growth in Digital Industries software business, including Altair and Dotmatics acquisitions",
+      "Large order wins at Mobility, including a consortium contract for automated trains in Denmark",
+      "Expansion of data center partner ecosystem and investment in U.S. manufacturing for AI infrastructure",
+      "New share-buyback program of up to €6bn"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Roland Busch stated 'We delivered a successful second quarter despite the geopolitical environment, which remains very demanding' and CFO Veronika Bienert said 'we're very well positioned to reach our full-year group targets.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Group revenue was €19,756 million, flat on a nominal basis but up 6% on a comparable basis.",
+      "quote": "On a nominal basis, orders rose 11% to €24.1 billion, and revenue reached the prior-year level of €19.8 billion, despite substantial negative currency translation effects; the book-to-bill ratio was 1.22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS was €2.60, down 9% year-over-year; EPS pre PPA was €2.81, down 6%.",
+      "quote": "Net income reached €2.2 billion; corresponding basic earnings per share (EPS) were €2.60, and EPS before purchase price allocation accounting (EPS pre PPA) were €2.81",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group guidance for comparable revenue growth of 6%-8% and EPS pre PPA of €10.70-€11.10 was reaffirmed.",
+      "quote": "For the Siemens Group, we continue to expect comparable revenue growth − net of currency translation and portfolio effects − in the range of 6% to 8% and a book-to-bill ratio above 1 for fiscal 2026. We continue to anticipate basic earnings per share (EPS) from net income before purchase price allocation accounting (EPS pre PPA) in a range of €10.70 to €11.10 in fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital Industries guidance was raised for revenue growth and profit margin.",
+      "quote": "Digital Industries now expects comparable revenue growth of 7% to 10% (previously 5% to 10%) and a profit margin of 17% to 19% (previously 15% to 19%) for fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Smart Infrastructure guidance was raised for revenue growth.",
+      "quote": "Smart Infrastructure now expects for fiscal 2026 comparable revenue growth of 8% to 10% (previously expected in a range of 6% to 9%) and continues to expect a profit margin of 18% to 19%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mobility guidance was lowered for revenue growth.",
+      "quote": "Mobility now expects for fiscal 2026 comparable revenue growth of 5% to 7% (previously expected in a range of 8% to 10%) and continues to expect a profit margin of 8% to 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industrial Business profit margin was 15.4%, down from 16.9% in the prior year.",
+      "quote": "Profit Industrial Business was €3.0 billion, with a profit margin of 15.4%; Profit Industrial Business of €3.2 billion in Q2 FY 2025 had benefited from a €0.3 billion gain related to exiting a business at Smart Infrastructure",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital Industries profit margin improved to 18.5% from 14.8%.",
+      "quote": "Profit 857 634 35% therein: severance (29) (10) Profit margin 18.5% 14.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Smart Infrastructure profit margin declined to 18.6% from 24.0% due to a prior-year gain.",
+      "quote": "Profit 1,102 1,377 (20)% therein: severance (13) (19) Profit margin 18.6% 24.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical environment is a risk.",
+      "quote": "We delivered a successful second quarter despite the geopolitical environment, which remains very demanding.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency translation effects negatively impacted orders and revenue.",
+      "quote": "Currency translation effects took seven percentage points from order growth and six percentage points from revenue development; portfolio transactions had a minimal effect",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs impacted Mobility and Siemens Healthineers.",
+      "quote": "Siemens Healthineers and Mobility, which were impacted by tariffs, both posted lower profit year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher commodity costs affected Smart Infrastructure.",
+      "quote": "Smart Infrastructure maintained its excellent profit performance, successfully offsetting substantial negative currency effects and higher commodity costs year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Delayed call-offs under framework agreements affected Mobility revenue.",
+      "quote": "Revenue came in below the strong prior-year level; development was burdened by project accounting effects from tariffs in the U.S. as well as by delayed call-offs under framework agreements for large rail infrastructure projects",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural change in China affected diagnostics business.",
+      "quote": "this decrease was due mainly to a structural change in the market environment in China",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher credit risk provisions affected Siemens Financial Services.",
+      "quote": "Lower results from the debt businesses due to higher expenses for credit risk provisions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI is a growth driver.",
+      "quote": "we see AI as a clear growth driver for our hardware, software and services business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Smart Infrastructure achieved record order intake.",
+      "quote": "Orders once again reached a quarterly record high, driven primarily by the electrification and the electrical products businesses, including strong growth from several larger contract wins with data center and semiconductor customers, predominantly in the U.S.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital Industries software business grew strongly, including from acquisitions.",
+      "quote": "Orders and revenue rose in the software business, which won a higher volume year-over-year from larger contracts in the productlifecycle-management and electronic-design-automation software businesses; volume also grew in the automation business, mainly driven by the factory automation business; new volume from recent acquisitions, in particular from Altair and Dotmatics, offset substantial negative currency translation effects",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mobility had large order wins.",
+      "quote": "Orders rose due to higher volume from large orders, including a substantial share of a consortium contract for delivery of fully automated trains in Denmark, an order worth €0.4 billion for delivery of dual-mode electric-battery locomotives in France, and an extension of an existing contract worth €0.3 billion for delivery of light rail vehicles in the U.S.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data center demand is a growth opportunity.",
+      "quote": "Expansion of data center partner ecosystem with Emerald AI, Fluence Energy & Rittal",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New share-buyback program announced.",
+      "quote": "New share buyback program announced: Up to €6bn for up to 5 years",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered a successful second quarter despite the geopolitical environment, which remains very demanding. Siemens is benefiting from its technological strength and strong positioning in key growth markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 reflects a mix of raised guidance for two segments and lowered guidance for one, with group guidance reaffirmed. The net effect is positive but not as strong as a full group raise. Reviewer should confirm the weighting of segment guidance changes."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SIE.DE_Bundled Earnings Report_2026-05-13",
+  "report_metadata": {
+    "issuer": "p2_siemens",
+    "company": "Siemens",
+    "ticker": "SIE.DE",
+    "sector": "Industrials/Specialty Industrial Machinery",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-05-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q2\\siemens_q2_fy2026_earnings_release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q2\\siemens_q2_fy2026_presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SIE.DE_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T103013Z",
+    "timestamp": "2026-08-09T10:31:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q2\\siemens_q2_fy2026_earnings_release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_siemens\\extracted\\SIE.DE_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q2\\siemens_q2_fy2026_earnings_release.pdf",
+        "page_count": 14,
+        "extracted_characters": 30562,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q2\\siemens_q2_fy2026_presentation.pdf",
+        "page_count": 28,
+        "extracted_characters": 22890,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_siemens\\extracted\\SIE.DE_FQ2_2026.txt"
+  }
+}

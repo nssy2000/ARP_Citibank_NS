@@ -1,0 +1,58 @@
+{
+  "document_id": "PINS_FQ4_2024_QUANT",
+  "base_document_id": "PINS_FQ4_2024",
+  "issuer": "p2_pinterest",
+  "ticker": "PINS",
+  "sector": "Communication Services/Internet Content & Information",
+  "report_date": "2025-02-06",
+  "sentiment": {
+    "score": -0.010737
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.076277,
+      "window_start_date": "2025-01-03",
+      "window_end_date": "2025-02-05",
+      "score": 0.468784,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.348174,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -13.41,
+      "matched_earnings_date": "2025-02-06",
+      "score": -0.490258,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 15.5,
+      "vix_score": 0.229189,
+      "tnx_change": -0.178,
+      "tnx_score": 0.341686,
+      "score": 0.285437,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2025-02-05",
+      "curve_spread": 0.26,
+      "curve_score": 0.254296,
+      "curve_as_of": "2025-02-05",
+      "score": 0.358206,
+      "available": true
+    },
+    "quant_score": -0.010737,
+    "quant_score_with_macro": 0.13735,
+    "quant_score_with_fred": 0.173735,
+    "quant_score_with_macro_fred": 0.210969
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

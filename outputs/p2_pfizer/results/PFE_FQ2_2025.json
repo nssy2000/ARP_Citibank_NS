@@ -1,0 +1,242 @@
+{
+  "document_id": "PFE_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Pfizer raised its full-year 2025 Adjusted diluted EPS guidance by $0.10 (to $2.90-$3.10), absorbing a $0.20 charge from the 3SBio deal, implying a $0.30 organic raise. Revenue guidance was reaffirmed at $61-$64 billion. The raise is attributed to strong operational performance, cost management, and a favorable tax rate, not primarily FX or one-time items. Management expresses confidence ('strong floor and no ceiling'), but the revenue guidance is unchanged and the EPS raise is partially offset by derisking COVID expectations, limiting the score to moderately positive."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Second-quarter 2025 revenues of $14.7 billion, an increase of 10% operationally year-over-year.",
+    "eps": "Second-quarter 2025 Adjusted diluted EPS of $0.78, ahead of expectations; Reported diluted EPS of $0.51.",
+    "guidance": "Full-year 2025 revenue guidance reaffirmed at $61.0 to $64.0 billion. Adjusted diluted EPS guidance raised by $0.10 to a range of $2.90 to $3.10, absorbing a $0.20 charge from the 3SBio transaction. Adjusted SI&A guidance lowered to $13.1-$14.1 billion, Adjusted R&D to $10.4-$11.4 billion, and effective tax rate on Adjusted income lowered to approximately 13.0%.",
+    "margin": "Adjusted gross margin for Q2 2025 was approximately 76%. Adjusted operating expenses (SI&A + R&D) declined 8% operationally year-over-year.",
+    "key_risks": [
+      "Uncertainty around COVID product demand in H2 2025 (guidance partially derisks COVID performance).",
+      "Impact of IRA Medicare Part D redesign ($825 million unfavorable year-over-year impact in Q2).",
+      "Potential impact of tariffs from China, Canada, and Mexico, and potential price changes from the July 31 letter from President Trump (guidance absorbs these).",
+      "Competitive pressure on Vyndaqel family from new entrants.",
+      "Generic/biosimilar competition expected to have an unfavorable revenue impact of approximately $0.5 billion in 2025.",
+      "Ongoing legal matters (certain product liability and other legal expenses)."
+    ],
+    "key_opportunities": [
+      "Strong pipeline progress: ELREXFIO (multiple myeloma), sigvotatug vedotin (NSCLC), HYMPAVZI (hemophilia), C. diff vaccine, Lyme disease vaccine, and SSGJ-707 (PD-1/VEGF bispecific).",
+      "Commercial execution driving growth: Vyndaqel family (+21% operational), Padcev (+38%), Lorbrena (+48%), Braftovi/Mektovi (+23%), Xtandi (+14%).",
+      "Cost improvement initiatives on track to deliver ~$7.2 billion in net cost savings by end of 2027, expanding operating margins.",
+      "Recently launched and acquired products growing ~15% operationally year-to-date, expected to offset LOEs.",
+      "Improved balance sheet: gross leverage target lowered to 2.7x, BD capacity of ~$13 billion after 3SBio deal.",
+      "Active discussions with U.S. administration on MFN and tariffs, described as 'extremely productive'."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Albert Bourla states 'Our business is performing well' and describes Pfizer as 'a company with a very strong floor and no ceiling,' while CFO Dave Denton says 'our solid financial results are a clear reflection of our disciplined execution.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Second-quarter 2025 revenues were $14.7 billion, up 10% operationally.",
+      "quote": "For the second quarter 2025, we recorded revenues of $14.7 billion, an increase of 10% operationally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second-quarter 2025 Adjusted diluted EPS was $0.78, ahead of expectations.",
+      "quote": "Second quarter 2025 reported diluted earnings per share was $0.51, and Adjusted diluted earnings per share was $0.78, ahead of our expectations, primarily due to strong top line performance and our cost management execution.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 Adjusted diluted EPS guidance was raised by $0.10 to $2.90-$3.10, absorbing a $0.20 charge from the 3SBio transaction.",
+      "quote": "we are raising our full year '25 Adjusted diluted earnings per share guidance by $0.10. This includes absorbing a $0.20 charge for acquired in-process R&D associated with the upfront payment for the 3SBio transaction. So just to clarify, without the 3SBio deal, we would have raised our Adjusted diluted earnings per share guidance by $0.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance was reaffirmed at $61-$64 billion.",
+      "quote": "We continue to expect full-year '25 revenues to be in the range of $61 billion to $64 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted gross margin for Q2 2025 was approximately 76%.",
+      "quote": "Adjusted gross margin for the second quarter was approximately 76%, primarily reflecting the product mix within the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating expenses (SI&A + R&D) declined 8% operationally year-over-year.",
+      "quote": "Total Adjusted operating expenses were $5.8 billion for the second quarter, an 8% decline operationally versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The EPS guidance raise is attributed to strong operational performance, cost management, and a favorable tax rate, not primarily FX or one-time items.",
+      "quote": "Of this amount, approximately two-thirds is due to our strong operational performance and our outlook.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the company's outlook.",
+      "quote": "I will describe Pfizer right now as a company with a very strong floor and no ceiling.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance partially derisks expected COVID performance in H2 2025.",
+      "quote": "I will also point out that while we are raising our Adjusted diluted earnings per share guidance, we are partially derisking the expected COVID performance in the second half of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The IRA Medicare Part D redesign had an $825 million unfavorable year-over-year impact in Q2 2025.",
+      "quote": "Partially offsetting the increase was an $825 million year-over-year unfavorable impact of higher manufacturer discounts resulting from the IRA Medicare Part D redesign, which took effect in the first quarter of '25, and overall is largely in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance absorbs the impact of currently imposed tariffs and potential price changes from the July 31 letter from President Trump.",
+      "quote": "the company's guidance absorbs the impact of the currently imposed tariffs from China, Canada and Mexico as well as potential price changes this year based on the letter received on July 31 from President Trump.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Vyndaqel family grew 21% operationally year-over-year in Q2 2025.",
+      "quote": "We delivered another solid quarter for our Vyndaqel family with 21% year-over-year operational growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Padcev grew 38% operationally year-over-year in Q2 2025.",
+      "quote": "Our ADC for the treatment of adult patients with locally advanced metastatic urothelial cancer achieved high year-over-year operational growth of 38% in the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lorbrena grew 48% operationally year-over-year in Q2 2025.",
+      "quote": "LORBRENA achieved 48% year-over-year operational growth in the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Braftovi/Mektovi grew 23% operationally year-over-year in Q2 2025.",
+      "quote": "We saw continued momentum with Braftovi and Mektovi with 23% year-over-year operational growth in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Xtandi grew 14% operationally year-over-year in Q2 2025.",
+      "quote": "XTANDI contributed strong 14% operational growth during this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost improvement initiatives are on track to deliver ~$7.2 billion in net cost savings by end of 2027.",
+      "quote": "we remain on track to deliver on our goal of at least $4.5 billion in cumulative net cost savings from our ongoing cost realignment program by the end of this year. ... in total, we expect approximately $7.7 billion in savings by the end of '27 to drive operating efficiencies",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross leverage target was lowered to 2.7x, and BD capacity is ~$13 billion after the 3SBio deal.",
+      "quote": "Our gross leverage at the end of the second quarter was approximately 2.7 times, which we are now setting as our new target, down from 3.25 times. ... Our business development capacity is now approximately $13 billion following the 3SBio deal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recently launched and acquired products grew ~15% operationally year-to-date.",
+      "quote": "Year-to-date, Pfizer's recently launched and acquired products delivered $4.7 billion in revenue while growing approximately 15% operationally versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Discussions with the U.S. administration on MFN and tariffs are described as 'extremely productive.'",
+      "quote": "I would say only that these discussions are extremely productive.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Generic/biosimilar competition is expected to have an unfavorable revenue impact of approximately $0.5 billion in 2025.",
+      "quote": "An anticipated unfavorable revenue impact of approximately $0.5 billion due to recent and expected generic and biosimilar competition for certain products that have recently lost patent or regulatory protection or that are anticipated to lose patent or regulatory protection.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our business is performing well, and I'm pleased with the progress we achieved in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The EPS guidance raise is partially offset by derisking COVID expectations and absorbing a $0.20 charge; the organic raise is $0.30, but revenue guidance is unchanged. The score of 0.30 reflects a moderate positive, but a reviewer may consider whether the unchanged revenue guidance and COVID derisking warrant a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PFE_Bundled Earnings Report_2025-08-04",
+  "report_metadata": {
+    "issuer": "p2_pfizer",
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-04",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q2\\PFE-USQ_Transcript_2025-08-05.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q2\\Q2-2025-PFE-Earnings-Release-FINAL.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PFE_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174847Z",
+    "timestamp": "2026-07-30T17:49:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q2\\PFE-USQ_Transcript_2025-08-05.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q2\\PFE-USQ_Transcript_2025-08-05.pdf",
+        "page_count": 21,
+        "extracted_characters": 77125,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2025-Q2\\Q2-2025-PFE-Earnings-Release-FINAL.pdf",
+        "page_count": 26,
+        "extracted_characters": 73472,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ2_2025.txt"
+  }
+}

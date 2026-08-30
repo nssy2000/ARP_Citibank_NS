@@ -1,0 +1,198 @@
+{
+  "document_id": "UAL_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports a Q2 beat (adjusted EPS $3.87 vs guidance $3.25-$4.25) and management describes a positive inflection in demand beginning in early July, with a 6-point acceleration in bookings and double-digit acceleration in business demand. Full-year adjusted EPS guidance was updated to $9.00-$11.00, which is a narrower range but not a raise from the prior $11.50-$13.50 high-end range that was contingent on no further 'acts of God.' The forward tone is confident, citing less geopolitical uncertainty and supply cuts by low-margin airlines, but the guidance range implies a lower midpoint than the prior high-end scenario, tempering the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$15.2 billion, up 1.7% year-over-year.",
+    "eps": "Diluted EPS of $2.97; adjusted diluted EPS of $3.87 versus guidance range of $3.25 to $4.25.",
+    "guidance": "Updated full-year adjusted diluted EPS guidance of $9.00 to $11.00. Q3 2025 adjusted diluted EPS guidance of $2.25 to $2.75.",
+    "margin": "Pre-tax margin of 8.2%; adjusted pre-tax margin of 11.0%.",
+    "key_risks": [
+      "Newark Airport event (FAA technology outages, runway construction) impacted Q2 margins by ~1.2 points and is expected to impact Q3 margins by ~0.9 points.",
+      "Geopolitical and macroeconomic uncertainty, though noted as decreasing, remains a risk.",
+      "Aircraft delivery delays, particularly on the widebody (787) side.",
+      "Potential negative impact from tariffs and other trade policy changes."
+    ],
+    "key_opportunities": [
+      "Positive inflection in demand beginning in early July, with a 6-point acceleration in bookings and double-digit acceleration in business demand.",
+      "Industry supply cuts expected in mid-August, similar to 2024, which should improve pricing power.",
+      "Strong premium cabin revenue growth (5.6% year-over-year) and loyalty revenue growth (8.7% year-over-year).",
+      "Balance sheet strengthening, including full repayment of MileagePlus debt and unencumbering of the loyalty program.",
+      "New product introductions (Polaris Studio, Starlink WiFi, Blue Sky partnership with JetBlue)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Scott Kirby stated, 'The world is less uncertain today than it was during the first six months of 2025 and that gives us confidence about a strong finish to the year,' and CFO Mike Leskinen said, 'I remain excited about the future of United Airlines.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 adjusted EPS of $3.87 beat the guidance range of $3.25 to $4.25.",
+      "quote": "The company also achieved diluted earnings per share of $2.97 and adjusted diluted earnings per share2 of $3.87, compared to guidance of $3.25 to $4.25.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenue was $15.2 billion, up 1.7% year-over-year.",
+      "quote": "Total operating revenue grew 1.7% compared to the year-ago period to $15.2 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS guidance was updated to $9.00-$11.00.",
+      "quote": "Updated full-year adjusted diluted earnings per share1 guidance of $9.00 to $11.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 adjusted EPS guidance is $2.25 to $2.75.",
+      "quote": "Estimated 3Q 2025 Adjusted diluted earnings per share2 $2.25 - $2.75",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pre-tax margin was 11.0%.",
+      "quote": "adjusted pre-tax earnings2 of $1.7 billion, with an adjusted pre-tax margin2 of 11.0%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Demand inflected positively in early July with a 6-point acceleration in bookings.",
+      "quote": "Beginning in early July, United has seen a sequential 6 point acceleration in demand and a double-digit acceleration in business demand versus the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Newark event impacted Q2 margins by ~1.2 points and is expected to impact Q3 margins by ~0.9 points.",
+      "quote": "Estimated financial impact: 2Q 2025 Estimated EWR Impact Adjusted pre-tax margin4 (points) ~1.2 3Q 2025 Estimated EWR Impact Adjusted pre-tax margin4 (points) ~0.9",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Scott Kirby: 'The world is less uncertain today than it was during the first six months of 2025 and that gives us confidence about a strong finish to the year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium cabin revenue grew 5.6% year-over-year.",
+      "quote": "Premium cabin revenue rose 5.6% year-over-year; revenue from Basic Economy rose 1.7% year-over-year; cargo revenue rose 3.8% year-over-year and loyalty revenue rose 8.7% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Industry supply cuts are expected in mid-August.",
+      "quote": "Published industry schedules show a supply inflection beginning in mid-August, similar to schedule changes in 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The full-year guidance was updated to $9-$11, which is a narrower range but the midpoint ($10) is below the prior high-end scenario ($11.50-$13.50) that was contingent on no further 'acts of God.' The score of 0.30 reflects the positive demand inflection and beat, but a reviewer may want to assess whether the guidance change is more neutral than positive."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UAL_Bundled Earnings Report_2025-07-16",
+  "report_metadata": {
+    "issuer": "p2_united_airlines",
+    "company": "United Airlines",
+    "ticker": "UAL",
+    "sector": "Industrials/Airlines",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-16",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\Q2 2025 Earnings Release Final.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\Q2 2025 Investor Update Final.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\Q2 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\UAL 2Q25 10Q.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UAL_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T160152Z",
+    "timestamp": "2026-07-21T16:03:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\Q2 2025 Earnings Release Final.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_united_airlines\\extracted\\UAL_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\Q2 2025 Earnings Release Final.pdf",
+        "page_count": 16,
+        "extracted_characters": 50801,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\Q2 2025 Investor Update Final.pdf",
+        "page_count": 4,
+        "extracted_characters": 16546,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\Q2 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+        "page_count": 23,
+        "extracted_characters": 67475,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q2\\UAL 2Q25 10Q.pdf",
+        "page_count": 58,
+        "extracted_characters": 137161,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_united_airlines\\extracted\\UAL_FQ2_2025.txt"
+  }
+}

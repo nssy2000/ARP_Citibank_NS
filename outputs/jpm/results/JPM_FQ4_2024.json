@@ -1,0 +1,246 @@
+{
+  "document_id": "JPM_FQ4_2024",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong quarter with net income up 50% YoY and record full-year net income, but forward guidance for 2025 NII ex. Markets is approximately $90B, down from $92B in 2024, indicating normalization. Management expresses optimism about the franchise but also flags significant risks (inflation, geopolitical conditions) and notes that loan growth is not yet inflecting despite improved sentiment. The overall tone is confident but tempered, with no formal guidance raise; the score reflects a modestly positive outlook constrained by acknowledged headwinds."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Reported revenue of $42.8 billion; managed revenue of $43.7 billion, up 10% YoY.",
+    "eps": "Diluted EPS of $4.81, up 58% YoY.",
+    "guidance": "FY2025 NII ex. Markets expected to be approximately $90B; FY2025 adjusted expense expected to be approximately $95B; FY2025 Card Services NCO rate expected to be approximately 3.6%.",
+    "margin": "ROTCE of 21% for Q4 2024; ROE of 17% for Q4 2024; managed overhead ratio of 52% for Q4 2024.",
+    "key_risks": [
+      "Ongoing and future spending requirements will likely be inflationary, and therefore, inflation may persist for some time.",
+      "Geopolitical conditions remain the most dangerous and complicated since World War II.",
+      "NII ex. Markets expected to decline from $92B in FY2024 to ~$90B in FY2025, driven by lower rates and deposit margin compression.",
+      "Card Services NCO rate expected to rise to ~3.6% in FY2025 from 3.30% in Q4 2024.",
+      "Loan growth not yet inflecting despite improved business sentiment; wholesale credit normalization may occur."
+    ],
+    "key_opportunities": [
+      "Investment Banking fees up 49% YoY; #1 ranking for Global Investment Banking fees with 9.3% wallet share for the year.",
+      "Markets revenue up 21% YoY, with Fixed Income up 20% and Equities up 22%.",
+      "AWM AUM of $4.0 trillion, up 18% YoY; record long-term net inflows of $234B in 2024.",
+      "Payments revenue reached a record $18.1 billion for the year.",
+      "Expectation of healthy Card loan growth in 2025, though below 2024 pace.",
+      "Deposits stabilizing; consumer checking deposits showing growth trend."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes the quarter as 'strong' and highlights record revenue and net income, while also acknowledging risks and providing cautious forward guidance; Jamie Dimon states 'we hope for the best but prepare the Firm for a wide range of scenarios.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $42.8 billion; managed revenue of $43.7 billion, up 10% YoY.",
+      "quote": "Net revenue - reported $42,768; Net revenue - managed $43,738; Net revenue - managed $43,738 ... $3,795 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $4.81, up 58% YoY.",
+      "quote": "Earnings per share - diluted $4.81 ... $1.77 58%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 NII ex. Markets expected to be approximately $90B.",
+      "quote": "We expect ~$90B in NII ex. Markets for 2025, as balance sheet growth partially offsets lower rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 adjusted expense expected to be approximately $95B.",
+      "quote": "We expect 2025 (sic) [adjusted] expense to be about $95B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Card Services NCO rate expected to be approximately 3.6%.",
+      "quote": "Expect FY2025 Card Services NCO rate of ~3.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 21% for Q4 2024.",
+      "quote": "ROTCE 21%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE of 17% for Q4 2024.",
+      "quote": "ROE 17%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Managed overhead ratio of 52% for Q4 2024.",
+      "quote": "Overhead ratio – managed 52",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing and future spending requirements will likely be inflationary, and therefore, inflation may persist for some time.",
+      "quote": "Ongoing and future spending requirements will likely be inflationary, and therefore, inflation may persist for some time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical conditions remain the most dangerous and complicated since World War II.",
+      "quote": "Additionally, geopolitical conditions remain the most dangerous and complicated since World War II.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex. Markets expected to decline from $92B in FY2024 to ~$90B in FY2025.",
+      "quote": "We expect ~$90B in NII ex. Markets for 2025, as balance sheet growth partially offsets lower rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card Services NCO rate expected to rise to ~3.6% in FY2025 from 3.30% in Q4 2024.",
+      "quote": "Expect FY2025 Card Services NCO rate of ~3.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loan growth not yet inflecting despite improved business sentiment.",
+      "quote": "Given the significant improvement in business sentiment and the general optimism out there, you might have expected to see some pickup in loan growth. We are not really seeing that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment Banking fees up 49% YoY; #1 ranking for Global Investment Banking fees with 9.3% wallet share for the year.",
+      "quote": "Investment Banking fees up 49% YoY, up 9% QoQ; #1 ranking for Global Investment Banking fees with 9.3% wallet share for the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenue up 21% YoY, with Fixed Income up 20% and Equities up 22%.",
+      "quote": "Markets revenue up 21% YoY, with Fixed Income Markets up 20% YoY and Equity Markets up 22% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM AUM of $4.0 trillion, up 18% YoY; record long-term net inflows of $234B in 2024.",
+      "quote": "AUM of $4.0 trillion, up 18% YoY; ... record long-term net inflows of $234 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Payments revenue reached a record $18.1 billion for the year.",
+      "quote": "Payments revenue to a record $18.1 billion for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expectation of healthy Card loan growth in 2025, though below 2024 pace.",
+      "quote": "We expect healthy Card loan growth again this year, but below the 12% pace we saw in 2024 as tailwinds from revolve normalization are largely behind us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposits stabilizing; consumer checking deposits showing growth trend.",
+      "quote": "Firmwide deposits have stabilized and we expect to see a more visible growth trend assert itself in the second half of 2025. It's notable that we can already see that trend in consumer checking deposits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "The Firm concluded the year with a strong fourth quarter, generating net income of $14.0 billion. ... we hope for the best but prepare the Firm for a wide range of scenarios.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary of the BUY threshold. The guidance for NII ex. Markets is down YoY, which could be seen as a negative, but the overall strong results and confident tone push it just above 0.15. A reviewer may want to confirm this borderline case."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-01-15",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-01-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q4\\jpm-4q24-press-release.pdf",
+        "pub_date": "2025-01-15"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q4\\jpm-4q24-presentation.pdf",
+        "pub_date": "2025-01-15"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q4\\jpm-4q24-earnings-call-transcript.pdf",
+        "pub_date": "2025-01-15"
+      }
+    ],
+    "document_id": "JPM_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T131706Z",
+    "timestamp": "2026-07-08T13:20:27Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q4\\jpm-4q24-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q4\\jpm-4q24-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 25246,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q4\\jpm-4q24-presentation.pdf",
+        "page_count": 19,
+        "extracted_characters": 25097,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q4\\jpm-4q24-earnings-call-transcript.pdf",
+        "page_count": 16,
+        "extracted_characters": 70862,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2024.txt"
+  }
+}

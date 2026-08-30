@@ -1,0 +1,195 @@
+{
+  "document_id": "META_FQ3_2025",
+  "sentiment": {
+    "score": -0.45,
+    "rationale": "The document shows strong operational momentum (revenue up 26%, healthy engagement), but forward guidance is concerning: 2025 capex was raised to $70-72B, and management explicitly stated that capex dollar growth will be 'notably larger' in 2026 and total expenses will grow at a 'significantly faster percentage rate' in 2026. Additionally, the one-time tax charge crushed reported EPS, and structural risks from EU regulatory action and US youth-safety litigation were highlighted. The negative forward spending trajectory and risk disclosures outweigh the solid backward-looking results, justifying a moderately bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$51.2B, up 26% year over year.",
+    "eps": "Reported $1.05 EPS ($2.7B net income) after a one-time tax charge; excluding the charge, $7.25 EPS ($18.6B net income).",
+    "guidance": "Q4 2025 revenue guided to $56-59B. 2025 capex raised to $70-72B, with capex dollar growth expected to be notably larger in 2026. 2025 total expenses guided to $116-118B, with expenses expected to grow at a significantly faster percentage rate in 2026.",
+    "margin": "Operating margin 40%.",
+    "key_risks": [
+      "EU regulatory risk: the Commission may impose further changes to the Less Personalized Ads offering that could have a significant negative impact on European revenue, as early as this quarter.",
+      "US youth-safety litigation: trials scheduled for 2026 that may ultimately result in a material loss.",
+      "Elevated tax rate from the one-time deferred tax asset reduction under new US tax law (though management expects cash tax savings going forward)."
+    ],
+    "key_opportunities": [
+      "Strong ad revenue growth driven by AI ranking improvements and end-to-end automation (Advantage+ annual run-rate passed $60B).",
+      "Engagement growth across Family of Apps (3.5B daily actives, Instagram 3B monthly actives, Threads 150M daily actives).",
+      "AI glasses and wearables momentum (new Ray-Ban Meta and Oakley Meta Vanguards selling well, Display glasses sold out).",
+      "Business messaging and Business AI growth (click-to-WhatsApp ads revenue up 60% YoY)."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses strong confidence in the core business and AI opportunities ('we have an exciting set of opportunities'), but also delivers cautious forward guidance on spending and explicitly flags significant regulatory and legal risks, creating a mixed tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $51.2B, up 26% year over year.",
+      "quote": "Q3 total revenue was $51.2 billion, up 26% or 25% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $1.05 after a one-time tax charge; excluding the charge, EPS would have been $7.25.",
+      "quote": "Net income was $2.7 billion or $1.05 per share. Excluding the one-time tax charge, our net income and EPS would have been $18.6 billion and $7.25 per share, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue guided to $56-59B.",
+      "quote": "We expect fourth quarter 2025 total revenue to be in the range of $56-59 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 capex raised to $70-72B, with capex dollar growth expected to be notably larger in 2026.",
+      "quote": "We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $70-72 billion, increased from our prior outlook of $66-72 billion. ... our current expectation is that capex dollar growth will be notably larger in 2026 than 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 total expenses guided to $116-118B, with expenses expected to grow at a significantly faster percentage rate in 2026.",
+      "quote": "We expect full year 2025 total expenses to be in the range of $116-118 billion, updated from our prior outlook of $114-118 billion. ... We also anticipate total expenses will grow at a significantly faster percentage rate in 2026 than 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 40%.",
+      "quote": "Third quarter operating income was $20.5 billion, representing a 40% operating margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EU regulatory risk: the Commission may impose further changes that could have a significant negative impact on European revenue.",
+      "quote": "In the EU, we continue to engage constructively with the European Commission on our Less Personalized Ads offering. However, we cannot rule out the Commission imposing further changes to that offering that could have a significant negative impact on our European revenue, as early as this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US youth-safety litigation: trials scheduled for 2026 that may result in a material loss.",
+      "quote": "In the US, a number of youth-related trials are scheduled for 2026, and may ultimately result in a material loss.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong ad revenue growth driven by AI ranking improvements and end-to-end automation (Advantage+ annual run-rate passed $60B).",
+      "quote": "The annual run-rate of revenue running through our end-to-end automated solutions has now reached $60 billion following the implementation of the new streamlined creation flow as we continue to see more advertisers leverage the performance benefits of our solutions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement growth across Family of Apps (3.5B daily actives, Instagram 3B monthly actives, Threads 150M daily actives).",
+      "quote": "with 3.5 billion people using at least one of our apps every day. Instagram hit a major milestone with 3 billion monthly actives. ... Threads which recently passed 150 million daily actives",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI glasses and wearables momentum (new Ray-Ban Meta and Oakley Meta Vanguards selling well, Display glasses sold out).",
+      "quote": "The new Ray-Ban Meta glasses and Oakley Meta Vanguards are both selling well as people love the improved battery life, camera resolution, new AI capabilities, and the great design. And there's our new Meta Ray-Ban Display glasses ... They sold out in almost every store within 48 hours, with demo slots fully booked through the end of next month.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business messaging and Business AI growth (click-to-WhatsApp ads revenue up 60% YoY).",
+      "quote": "click-to-WhatsApp ads, which grew revenue 60% year-over-year in Q3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident about core business but cautious on spending and risks.",
+      "quote": "In closing, this was another good quarter for our business. We have an exciting set of opportunities to continue improving our core business while delivering innovative new experiences ... we continue to monitor active legal and regulatory matters, including the increasing headwinds in the EU and the US that could significantly impact our business and financial results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is negative due to forward spending guidance and risk disclosures outweighing strong operational results.",
+      "quote": "our current expectation is that capex dollar growth will be notably larger in 2026 than 2025. We also anticipate total expenses will grow at a significantly faster percentage rate in 2026 than 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based on the forward spending trajectory and risk disclosures, but the strong operational momentum (26% revenue growth, 40% margin) could justify a less negative score. A human reviewer should verify the balance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "META_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_meta",
+    "company": "Meta",
+    "ticker": "META",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q3\\14 meta q3 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q3\\META-Q3-2025-Earnings-Call-Transcript-IR.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "META_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173941Z",
+    "timestamp": "2026-07-30T17:39:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q3\\14 meta q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q3\\14 meta q3 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6205,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q3\\META-Q3-2025-Earnings-Call-Transcript-IR.pdf",
+        "page_count": 19,
+        "extracted_characters": 55168,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ3_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

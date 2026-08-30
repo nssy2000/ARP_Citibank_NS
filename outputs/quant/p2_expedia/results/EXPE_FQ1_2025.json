@@ -1,0 +1,58 @@
+{
+  "document_id": "EXPE_FQ1_2025_QUANT",
+  "base_document_id": "EXPE_FQ1_2025",
+  "issuer": "p2_expedia",
+  "ticker": "EXPE",
+  "sector": "Consumer Cyclical/Travel Services",
+  "report_date": "2025-05-08",
+  "sentiment": {
+    "score": 0.642449
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.191246,
+      "window_start_date": "2025-04-07",
+      "window_end_date": "2025-05-07",
+      "score": 0.85514,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.743991,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 11.49,
+      "matched_earnings_date": "2025-05-08",
+      "score": 0.429758,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 22.48,
+      "vix_score": -0.227925,
+      "tnx_change": 0.111,
+      "tnx_score": -0.218424,
+      "score": -0.223174,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-05-07",
+      "curve_spread": 0.48,
+      "curve_score": 0.446244,
+      "curve_as_of": "2025-05-07",
+      "score": 0.223122,
+      "available": true
+    },
+    "quant_score": 0.642449,
+    "quant_score_with_macro": 0.209638,
+    "quant_score_with_fred": 0.432786,
+    "quant_score_with_macro_fred": 0.214132
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

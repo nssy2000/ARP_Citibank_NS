@@ -1,0 +1,58 @@
+{
+  "document_id": "BKNG_FQ4_2025_QUANT",
+  "base_document_id": "BKNG_FQ4_2025",
+  "issuer": "p2_booking_holdings",
+  "ticker": "BKNG",
+  "sector": "Consumer Cyclical/Travel Services",
+  "report_date": "2026-02-18",
+  "sentiment": {
+    "score": -0.431825
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.202753,
+      "window_start_date": "2026-01-15",
+      "window_end_date": "2026-02-17",
+      "score": -0.874451,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.425527,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 0.27,
+      "matched_earnings_date": "2026-02-18",
+      "score": 0.0108,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 19.62,
+      "vix_score": -0.04131,
+      "tnx_change": -0.152,
+      "tnx_score": 0.294969,
+      "score": 0.126829,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-02-17",
+      "curve_spread": 0.62,
+      "curve_score": 0.551128,
+      "curve_as_of": "2026-02-17",
+      "score": 0.275564,
+      "available": true
+    },
+    "quant_score": -0.431825,
+    "quant_score_with_macro": -0.152498,
+    "quant_score_with_fred": -0.078131,
+    "quant_score_with_macro_fred": -0.009811
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

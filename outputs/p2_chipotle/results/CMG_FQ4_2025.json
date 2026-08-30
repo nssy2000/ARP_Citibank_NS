@@ -1,0 +1,242 @@
+{
+  "document_id": "CMG_FQ4_2025",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "Forward guidance was held flat (comparable restaurant sales 'about flat' for 2026) despite a year of negative comps (-1.7% full year, -2.5% Q4), and management explicitly guided margins lower for 2026, citing a deliberate decision to underprice inflation ('we do not expect it will fully offset inflation in the near term'). The Q&A confirmed the pricing-inflation gap will be a ~150 basis point margin headwind for the full year, and management conceded the gap is 'at its widest point in the first quarter' before narrowing. While management expressed confidence in the long-term strategy, the forward outlook is flat-to-cautious with an explicit margin decline, which is a negative signal relative to the company's own prior performance."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 total revenue increased 4.9% year over year to $3.0 billion. Full year 2025 total revenue increased 5.4% to $11.9 billion.",
+    "eps": "Q4 2025 diluted EPS was $0.25, a 4.2% increase from $0.24 in Q4 2024. Adjusted diluted EPS remained flat at $0.25. Full year 2025 diluted EPS was $1.14, a 2.7% increase from $1.11. Adjusted diluted EPS was $1.17, a 4.5% increase from $1.12.",
+    "guidance": "For 2026, management anticipates full year comparable restaurant sales to be about flat, 350 to 370 new restaurant openings (including 10 to 15 international partner-operated restaurants), around 80% of company-owned restaurants with a Chipotlane, and an underlying effective full year tax rate between 24% and 26% before discrete items.",
+    "margin": "Q4 2025 operating margin was 14.1%, a decrease from 14.6% in Q4 2024. Restaurant level operating margin was 23.4%, a decrease from 24.8%. Full year 2025 operating margin was 16.2%, a decrease from 16.9%. Restaurant level operating margin was 25.4%, a decrease from 26.7%.",
+    "key_risks": [
+      "Comparable restaurant sales decreased 2.5% in Q4 and 1.7% for the full year, driven by lower transactions.",
+      "Inflation, primarily in beef and chicken, and the impact from tariffs enacted in 2025 increased food costs.",
+      "Wage inflation and lower sales volumes increased labor costs.",
+      "Management expects margins to be under pressure in 2026 due to taking less price compared to inflation, with a ~150 basis point margin headwind for the full year.",
+      "The pricing-inflation gap is expected to be at its widest point in the first quarter of 2026.",
+      "France is a challenging market due to wage inflation and occupancy costs, with recovery not at the same pace as other markets.",
+      "The company is conducting a national search for a Chief Marketing Officer, which could imply some disruption risk."
+    ],
+    "key_opportunities": [
+      "The 'Recipe for Growth' strategy aims to grow transactions and drive accuracy, efficiency, and speed.",
+      "High-efficiency equipment package rollout is showing 'hundreds of basis points of improvement in comp sales' in restaurants with the package, with plans to have 2,000 restaurants equipped by year-end.",
+      "High-protein menu launch has shown early success, with incidence of extra protein increasing 35% and a record digital sales day during a double protein promotion.",
+      "Group occasions (Build Your Own Chipotle and catering) represent less than 3% of combined sales but could be a double-digit percentage of sales longer term.",
+      "Rewards program relaunch planned for spring 2026, targeting in-restaurant guests, with active members growing to over 21 million.",
+      "Global expansion: record 345 new restaurants opened in 2025, with plans to nearly double Middle East footprint in 2026 and enter new markets like Mexico, Singapore, and South Korea.",
+      "Long-term goal of reaching 7,000 restaurants in North America."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed deep confidence in the brand and strategy ('I've never been more confident in the strength of this brand and our ability to win') while acknowledging near-term margin pressure and a flat comp outlook, reflecting optimism about the long-term trajectory despite near-term challenges."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 total revenue increased 4.9% year over year to $3.0 billion.",
+      "quote": "Total revenue in the fourth quarter of 2025 was $3.0 billion, an increase of 4.9% compared to the fourth quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 total revenue increased 5.4% to $11.9 billion.",
+      "quote": "Total revenue for 2025 was $11.9 billion, an increase of 5.4% compared to 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 diluted EPS was $0.25, a 4.2% increase from $0.24 in Q4 2024.",
+      "quote": "Net income for the fourth quarter of 2025 was $330.9 million, or $0.25 per diluted share, compared to $331.8 million, or $0.24 per diluted share, in the fourth quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 diluted EPS was $1.14, a 2.7% increase from $1.11.",
+      "quote": "Net income for 2025 was $1.54 billion, or $1.14 per diluted share, compared to $1.53 billion, or $1.11 per diluted share, in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For 2026, management anticipates full year comparable restaurant sales to be about flat.",
+      "quote": "Full year comparable restaurant sales to be about flat",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 operating margin was 14.1%, a decrease from 14.6% in Q4 2024.",
+      "quote": "Operating margin was 14.1%, a decrease from 14.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 restaurant level operating margin was 23.4%, a decrease from 24.8%.",
+      "quote": "Restaurant level operating margin was 23.4%, a decrease from 24.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable restaurant sales decreased 2.5% in Q4 and 1.7% for the full year.",
+      "quote": "Comparable restaurant sales decreased 2.5%... Comparable restaurant sales decreased 1.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflation, primarily in beef and chicken, and the impact from tariffs enacted in 2025 increased food costs.",
+      "quote": "These decreases were partially offset by inflation, primarily in beef and chicken, and the impact from tariffs enacted in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wage inflation and lower sales volumes increased labor costs.",
+      "quote": "The increase was primarily due to lower sales volumes and wage inflation, partially offset by the benefit from menu price increases.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects margins to be under pressure in 2026 due to taking less price compared to inflation, with a ~150 basis point margin headwind for the full year.",
+      "quote": "So margins in 2026 will be under pressure, and it's mostly due to our investment of taking less price compared to the inflation that we're experiencing... When you think about it on a full-year basis, I would anticipate pricing to be in that 1% to 2% range, while inflation will be closer to that 3% to 4% range. So just that dislocation alone will be about a 150 basis points on a year-over-year decline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The pricing-inflation gap is expected to be at its widest point in the first quarter of 2026.",
+      "quote": "We expect the gap between our pricing and inflation to be at its widest point in the first quarter, and then we'll narrow meaningfully throughout the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "France is a challenging market due to wage inflation and occupancy costs.",
+      "quote": "France is a tough one, I'll be honest with you, because of wage inflation, because of occupancy costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The high-efficiency equipment package is showing 'hundreds of basis points of improvement in comp sales' in restaurants with the package.",
+      "quote": "We're seeing hundreds of basis points of improvement in comp sales in those restaurants alone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "High-protein menu launch has shown early success, with incidence of extra protein increasing 35%.",
+      "quote": "Early results are strong, with incidence of extra protein increasing 35% and our recent double protein promotion achieving a record digital sales day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group occasions (Build Your Own Chipotle and catering) represent less than 3% of combined sales but could be a double-digit percentage of sales longer term.",
+      "quote": "Today, these two group occasions represent less than 3% of combined sales yet could be a double-digit percentage of sales longer term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rewards program relaunch planned for spring 2026, with active members growing to over 21 million.",
+      "quote": "In 2025, we grew our active members to over 21 million... we are in the process of relaunching our rewards program this spring",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global expansion: record 345 new restaurants opened in 2025, with plans to nearly double Middle East footprint in 2026.",
+      "quote": "In 2025, we opened a record 345 new restaurants... With Al Shaya Group, we plan to nearly double our footprint and sales in 2026, including entering new markets like Saudi Arabia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term goal of reaching 7,000 restaurants in North America.",
+      "quote": "We remain confident in our ability to reach 7,000 restaurants in North America longer term",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed deep confidence in the brand and strategy.",
+      "quote": "I've never been more confident in the strength of this brand and our ability to win.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is conducting a national search for a Chief Marketing Officer.",
+      "quote": "We are conducting a national search for our next Chief Marketing Officer",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative (-0.20) driven by flat guidance and explicit margin pressure, but management's confident long-term language and multiple growth initiatives could be interpreted as more balanced. A human reviewer should verify the weighting of the margin headwind versus the growth opportunities."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The CMO search is listed as a risk, but the document frames it as a 'chapter change' with strong internal and external candidates. This may be more of a neutral transition than a risk."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CMG_Bundled Earnings Report_2026-02-03",
+  "report_metadata": {
+    "issuer": "p2_chipotle",
+    "company": "Chipotle",
+    "ticker": "CMG",
+    "sector": "Consumer Cyclical/Restaurants",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-03",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q4\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CMG_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095426Z",
+    "timestamp": "2026-08-09T09:55:20Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_chipotle\\extracted\\CMG_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 33018,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q4\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 50271,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_chipotle\\extracted\\CMG_FQ4_2025.txt"
+  }
+}

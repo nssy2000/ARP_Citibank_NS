@@ -1,0 +1,114 @@
+{
+  "issuer": "p2_expedia",
+  "reports": [
+    {
+      "document_id": "EXPE_FQ1_2025",
+      "issuer": "p2_expedia",
+      "company": "Expedia",
+      "ticker": "EXPE",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-08",
+      "release_date": "2025-05-08",
+      "release_date_source": "EDGAR 8-K Item 2.02, expe-20250508.htm, acc 0001324424-25-000025",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/expedia/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/expedia/CY2025-Q1/Q1-2025-Earnings-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/expedia/CY2025-Q1/Q1-2025-Earnings-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "EXPE_FQ2_2025",
+      "issuer": "p2_expedia",
+      "company": "Expedia",
+      "ticker": "EXPE",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-07",
+      "release_date": "2025-08-07",
+      "release_date_source": "EDGAR 8-K Item 2.02, expe-20250807.htm, acc 0001324424-25-000039",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/expedia/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/expedia/CY2025-Q2/Q2-2025-Earnings-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/expedia/CY2025-Q2/Q2-2025-Earnings-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "EXPE_FQ4_2025",
+      "issuer": "p2_expedia",
+      "company": "Expedia",
+      "ticker": "EXPE",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-12",
+      "release_date": "2026-02-12",
+      "release_date_source": "EDGAR 8-K Item 2.02, expe-20260212.htm, acc 0001324424-26-000005",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/expedia/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/expedia/CY2025-Q4/Q4-2025-Earnings-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/expedia/CY2025-Q4/Q4-2025-Earnings-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "EXPE_FQ1_2026",
+      "issuer": "p2_expedia",
+      "company": "Expedia",
+      "ticker": "EXPE",
+      "sector": "Consumer Cyclical/Travel Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-07",
+      "release_date": "2026-05-07",
+      "release_date_source": "EDGAR 8-K Item 2.02, expe-20260507.htm, acc 0001324424-26-000031",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/expedia/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/expedia/CY2026-Q1/Q1-2026-Earnings-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/expedia/CY2026-Q1/Q1-2026-Earnings-Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

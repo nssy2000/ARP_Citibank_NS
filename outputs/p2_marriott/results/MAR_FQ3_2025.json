@@ -1,0 +1,205 @@
+{
+  "document_id": "MAR_FQ3_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The company reported a solid quarter with adjusted EPS of $2.47 beating expectations of $2.38, and adjusted EBITDA rose 10% year-over-year. However, full-year 2025 guidance was reaffirmed, not raised, with RevPAR growth still expected at 1.5% to 2.5% and adjusted EPS at $9.98 to $10.06, indicating a stable but not accelerating outlook. The positive score reflects the beat and strong operational momentum, but is tempered by the unchanged guidance and ongoing macroeconomic uncertainty."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $6,489 million in Q3 2025, up from $6,255 million in Q3 2024. Gross fee revenues increased 4% year-over-year to $1.34 billion.",
+    "eps": "Reported diluted EPS was $2.67, up from $2.07 in the year-ago quarter. Adjusted diluted EPS was $2.47, up from $2.26, and beat expectations of $2.38.",
+    "guidance": "For Q4 2025, the company expects RevPAR growth of 1.0% to 2.0% and adjusted EPS of $2.54 to $2.62. For full-year 2025, RevPAR growth is expected to be 1.5% to 2.5%, adjusted EBITDA of $5,352 to $5,382 million, and adjusted EPS of $9.98 to $10.06. Net rooms growth is expected to approach 5%.",
+    "margin": "Adjusted operating income margin was 65% in Q3 2025, up from 62% in Q3 2024. Reported operating income margin was 18%, up from 15%.",
+    "key_risks": [
+      "Ongoing global macroeconomic uncertainty impacting RevPAR growth.",
+      "Weaker demand in lower chain scales in the U.S. & Canada, partly due to reduced government travel.",
+      "Challenging operating environment in Greater China due to weaker macro conditions.",
+      "Higher construction costs and a challenging financing environment in the U.S. and Europe.",
+      "Potential impact of tariffs, trade, travel, and other policies."
+    ],
+    "key_opportunities": [
+      "Strong international RevPAR growth, particularly in APEC (nearly 5% growth).",
+      "Luxury segment outperformance with RevPAR rising 4%.",
+      "Record development pipeline of over 596,000 rooms.",
+      "Strong growth in Marriott Bonvoy membership, up 18% year-over-year to nearly 260 million members.",
+      "Potential upside from renegotiating co-branded credit card deals, expected to be completed sometime next year.",
+      "Technology transformation and AI initiatives expected to drive revenue and efficiency."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in the company's growth strategy and future, with the CEO stating, 'I remain incredibly optimistic about Marriott's future,' while acknowledging ongoing macroeconomic uncertainty."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adjusted diluted EPS of $2.47 beat analyst expectations of $2.38.",
+      "quote": "Marriott International, Inc. (NASDAQ: MAR ) Q3 2025 Earnings Call Transcript November 4, 2025 Marriott International, Inc. beats earnings expectations. Reported EPS is $2.47, expectations were $2.38.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter adjusted EBITDA rose 10% year-over-year to $1,349 million.",
+      "quote": "Adjusted earnings before interest, taxes, depreciation, and amortization (EBITDA) totaled $1,349 million in the 2025 third quarter, a 10 percent increase compared to third quarter 2024 adjusted EBITDA of $1,229 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance was reaffirmed at $9.98 to $10.06.",
+      "quote": "Full year adjusted EPS could total $9.98 to $10.06.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 RevPAR growth guidance was reaffirmed at 1.5% to 2.5%.",
+      "quote": "Full year 2025 RevPAR is still anticipated to rise between 1.5% and 2.5% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenues were $6,489 million in Q3 2025.",
+      "quote": "Total revenues, as reported $ 6,489 $ 6,255",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was $2.67 in Q3 2025.",
+      "quote": "Reported diluted earnings per share (EPS) totaled $2.67 in the quarter, compared to reported diluted EPS of $2.07 in the year-ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating income margin improved to 65% in Q3 2025.",
+      "quote": "Adjusted operating income margin † 65 % 62 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global RevPAR growth was modest at 0.5% in Q3 2025.",
+      "quote": "Third quarter 2025 RevPAR increased 0.5 percent worldwide, with 2.6 percent growth in international markets and a 0.4 percent decline in U.S. & Canada",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces ongoing macroeconomic uncertainty.",
+      "quote": "Global RevPAR rose 0.5 percent in the third quarter, impacted by calendar shifts and ongoing macroeconomic uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The U.S. & Canada RevPAR declined due to weaker demand in lower chain scales and reduced government travel.",
+      "quote": "In the U.S. & Canada, RevPAR declined 0.4 percent due to weaker demand in the lower chain scales, largely reflecting reduced government travel.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a record development pipeline of over 596,000 rooms.",
+      "quote": "At the end of the quarter, Marriott's worldwide development pipeline reached a new record and totaled approximately 3,900 properties and over 596,000 rooms",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Marriott Bonvoy membership grew to nearly 260 million members.",
+      "quote": "During the third quarter, we added another 12 million members, bringing total global membership to nearly 260 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is in active discussions to renew its co-branded credit card deals, which could be a future opportunity.",
+      "quote": "Our current U.S. deals were signed in 2017 and extended in 2020 and we are currently in active discussions with our current credit card partners. Our best estimate right now is that we could have new deals in place, sometimes next — sometime next year that reflect the increased relevance of Marriott Bonvoy and the significant growth of our global lodging portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed optimism about the company's future.",
+      "quote": "Their commitment and perseverance are invaluable to our continued success and among the many reasons I remain incredibly optimistic about Marriott's future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces a challenging financing environment for new builds.",
+      "quote": "Despite higher construction costs and the challenging financing environment in both the U.S. and Europe, we still have excellent momentum in our global signings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The operating environment in Greater China remains challenged.",
+      "quote": "The operating environment in Greater China remains challenged by weaker macro conditions, though our market share across the region continued to grow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 reflects a beat and strong momentum, but guidance was reaffirmed, not raised. The positive score is driven by the EPS beat and operational strength, but the unchanged guidance and cautious macro language could justify a lower score closer to 0.0. Reviewer should weigh the significance of the beat against the flat guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MAR_Bundled Earnings Report_2025-11-04",
+  "report_metadata": {
+    "issuer": "p2_marriott",
+    "company": "Marriott",
+    "ticker": "MAR",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q3\\MAR-Q3-2025-Press-Release.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q3\\MAR-Q3-2025-Earnings-Call-Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MAR_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260804T100738Z",
+    "timestamp": "2026-08-04T10:08:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q3\\MAR-Q3-2025-Press-Release.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_marriott\\extracted\\MAR_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q3\\MAR-Q3-2025-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 55998,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q3\\MAR-Q3-2025-Earnings-Call-Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 45499,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_marriott\\extracted\\MAR_FQ3_2025.txt"
+  }
+}

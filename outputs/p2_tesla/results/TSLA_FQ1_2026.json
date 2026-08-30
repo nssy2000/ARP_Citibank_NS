@@ -1,0 +1,201 @@
+{
+  "document_id": "TSLA_FQ1_2026",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "Revenue and EPS beat consensus, and auto margins improved sequentially, but the quality is mixed: margin improvement was helped by $230M in warranty true-downs, and energy storage deployments fell 38% sequentially. Forward guidance is cautious: management guided to over $25B in capex and negative free cash flow for the rest of the year, and unsupervised FSD is pushed to Q4 at the earliest. The net effect is a mildly positive but heavily hedged outlook, warranting a score just above neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$22.4B against roughly $21.9B expected.",
+    "eps": "$0.41 against $0.35 to $0.37 expected.",
+    "guidance": "2026 capex above $25B, with negative free cash flow expected for the rest of the year. Unsupervised FSD framed as probably a fourth-quarter event.",
+    "margin": "Auto margins excluding credits improved sequentially from 17.9% to 19.2%, helped by about $230M of warranty true-downs. Energy storage gross margin 39.5% including about $250M of tariff benefits.",
+    "key_risks": [
+      "Battery pack capacity called the biggest limiter on production growth.",
+      "Negative free cash flow through 2026 during the investment phase.",
+      "Robotaxi complexity issues, including vehicles behaving over-cautiously and expansion limited beyond Texas cities.",
+      "Hardware 3 does not have the capability to achieve unsupervised FSD.",
+      "Tariffs and sustained high interest rates continue to add to automotive costs.",
+      "Energy storage deployments down 38% sequentially."
+    ],
+    "key_opportunities": [
+      "EMEA deliveries surged, with France and Germany up over 150% quarter over quarter.",
+      "Highest Q1 order backlog in over two years.",
+      "FSD adoption reaching nearly 1.3 million paid customers globally.",
+      "Approvals for FSD in the Netherlands, setting up for EU-wide approval later in Q2.",
+      "Approvals in China, with broader approval hoped by Q3.",
+      "Optimus described as 'probably the biggest product ever'."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in long-term bets (Optimus, autonomy) but is cautious on near-term financials, explicitly guiding to negative free cash flow and highlighting multiple operational constraints."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $22.4B against roughly $21.9B expected.",
+      "quote": "Revenue $22.4B against roughly $21.9B expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $0.41 against $0.35 to $0.37 expected.",
+      "quote": "EPS $0.41 against $0.35 to $0.37 expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Auto margins excluding credits improved sequentially from 17.9% to 19.2%.",
+      "quote": "Auto margins, excluding credits, improved sequentially from 17.9%-19.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Margin improvement was helped by $230M in warranty true-downs.",
+      "quote": "Note that we've had certain one-time benefits from warranty write-downs around $230 million and some relief on tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Energy storage deployments fell 38% sequentially.",
+      "quote": "In Q1, we deployed 8.8 GWh of energy storage, a 38% sequential decline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 capex is guided above $25B with negative free cash flow expected for the rest of the year.",
+      "quote": "Based on that, our current expectation for 2026 is over $25 billion of CapEx. ... we will have the impact of negative free cash flow for the rest of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unsupervised FSD is framed as probably a fourth-quarter event.",
+      "quote": "Unsupervised FSD . . . probably in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Battery pack capacity is the biggest limiter on production growth.",
+      "quote": "Our biggest limiter continues to be our battery pack capacity, and we are actively working on resolving that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robotaxi complexity issues include vehicles behaving over-cautiously.",
+      "quote": "I think a lot of what limits wider deployment of Robotaxi are actually not safety issues, but convenience issues, or the car basically gets paranoid and gets stuck.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hardware 3 does not have the capability to achieve unsupervised FSD.",
+      "quote": "Unfortunately, Hardware 3, I wish it were otherwise, but Hardware 3 simply does not have the capability to achieve unsupervised FSD.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA deliveries surged, with France and Germany up over 150% quarter over quarter.",
+      "quote": "On the autos business, we have seen a resurgence in demand in EMEA and certain countries like France and Germany showing over 150% quarter-over-quarter growth in deliveries.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Highest Q1 order backlog in over two years.",
+      "quote": "On the order backlog front, we ended the quarter with the highest Q1 order backlog in over two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FSD adoption reached nearly 1.3 million paid customers globally.",
+      "quote": "On the FSD adoption front, we continue to see improvement, reaching nearly 1.3 million paid customers globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Optimus is described as 'probably the biggest product ever'.",
+      "quote": "I think Optimus will be our biggest product, not just Tesla's biggest product ever, but probably the biggest product ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident on long-term bets but cautious on near-term financials.",
+      "quote": "We are in a very big capital investment phase, which is going to start now and would last a couple of years. ... we will have the impact of negative free cash flow for the rest of the year, we believe this is the right strategy to position the company for the next era.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is near neutral (0.10) but the document contains both positive beats and significant forward risks. A human reviewer should confirm the balance is appropriate given the negative free cash flow guidance and the pushback on autonomy timing."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TSLA_Bundled Earnings Report_2026-04-22",
+  "report_metadata": {
+    "issuer": "p2_tesla",
+    "company": "Tesla",
+    "ticker": "TSLA",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-22",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2026-Q1\\19 tesla q1 2026 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2026-Q1\\Tesla-Q1-2026-Earnings-Call-Transcript-StockAnalysis.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TSLA_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T175143Z",
+    "timestamp": "2026-07-30T17:52:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2026-Q1\\19 tesla q1 2026 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2026-Q1\\19 tesla q1 2026 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 6114,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\tesla\\CY2026-Q1\\Tesla-Q1-2026-Earnings-Call-Transcript-StockAnalysis.html",
+        "page_count": 1,
+        "extracted_characters": 45839,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_tesla\\extracted\\TSLA_FQ1_2026.txt"
+  }
+}

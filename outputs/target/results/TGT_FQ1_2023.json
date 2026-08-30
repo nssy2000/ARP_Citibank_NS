@@ -1,0 +1,192 @@
+{
+  "document_id": "TGT_FQ1_2023",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance for Q2 was lowered to a low-single-digit comparable sales decline and EPS of $1.30-$1.70, below the Q1 EPS of $2.05, and management explicitly flagged a worsening trend in shrink that will reduce profitability by more than $500 million year-over-year. Full-year guidance was maintained but with cautious language about softening sales trends and elevated macro uncertainty, indicating a negative forward outlook."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $25.3 billion grew 0.6% compared with last year, reflecting total sales growth of 0.5% and a 10.2% increase in other revenue.",
+    "eps": "First quarter GAAP EPS of $2.05, down 4.8% from $2.16 in 2022. First quarter Adjusted EPS of $2.05 decreased 6.2% compared with $2.19 in 2022.",
+    "guidance": "For Q2 2023, GAAP and Adjusted EPS expected to range from $1.30 to $1.70, with comparable sales centered around a low-single digit decline. For full-year 2023, maintaining prior guidance: comparable sales in a wide range from a low-single digit decline to a low-single digit increase, operating income growth of more than $1 billion, and GAAP and Adjusted EPS of $7.75 to $8.75.",
+    "margin": "First quarter gross margin rate was 26.3%, compared with 25.7% in 2022. Operating income margin rate was 5.2% in 2023, compared with 5.3% in 2022.",
+    "key_risks": [
+      "Inventory shrink is expected to reduce full-year profitability by more than $500 million compared with last year, driven by theft and organized retail crime.",
+      "Softening sales trends in discretionary categories, with further softening in March and April.",
+      "Persistent inflation and rising interest rates pressuring consumer spending.",
+      "Higher SG&A expense rate due to cost inflation and investments in team member pay and benefits.",
+      "Elevated macro uncertainty and volatility."
+    ],
+    "key_opportunities": [
+      "Strength in frequency businesses (Beauty, Food & Beverage, Household Essentials) offsetting discretionary softness.",
+      "Continued traffic growth for 12 consecutive quarters, indicating guest trust and loyalty.",
+      "Efficiency and cost-saving efforts expected to benefit the P&L in the second half of the year.",
+      "Strategic inventory investments in frequency categories and long-term market share opportunities.",
+      "Growth in same-day services like Drive-Up, with high-single digit growth."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly used cautious language, e.g., 'we are planning for a wide range of sales outcomes in the second quarter, centered around a low-single digit decline' and 'we remain cautious on the overall environment in light of the macro industry pressures we've outlined today.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue grew 0.6% year-over-year.",
+      "quote": "Total revenue of $25.3 billion grew 0.6 percent compared with last year, reflecting total sales growth of 0.5 percent and a 10.2 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter GAAP EPS was $2.05, down 4.8% from $2.16 in 2022.",
+      "quote": "The Company reported first quarter GAAP earnings per share (EPS) of $2.05, down 4.8 percent from $2.16 in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter Adjusted EPS was $2.05, down 6.2% from $2.19 in 2022.",
+      "quote": "First quarter Adjusted EPS of $2.05 decreased 6.2 percent compared with $2.19 in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2023 GAAP and Adjusted EPS guidance is $1.30 to $1.70.",
+      "quote": "GAAP EPS and Adjusted EPS are both expected to range from $1.30 to $1.70.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2023 GAAP and Adjusted EPS guidance is $7.75 to $8.75.",
+      "quote": "For the full year, the Company is maintaining its prior guidance, which includes expected comparable sales in a wide range from a low-single digit decline to a low-single digit increase, operating income growth of more than $1 billion, and both GAAP EPS and Adjusted EPS of $7.75 to $8.75.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter gross margin rate was 26.3%, compared with 25.7% in 2022.",
+      "quote": "First quarter gross margin rate was 26.3 percent, compared with 25.7 percent in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter operating income margin rate was 5.2%, compared with 5.3% in 2022.",
+      "quote": "First quarter operating income margin rate was 5.2 percent in 2023, compared with 5.3 percent in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory shrink is expected to reduce full-year profitability by more than $500 million compared with last year.",
+      "quote": "we now expect shrink will reduce this year’s profitability by more than $500 million compared with last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales trends softened over the course of the first quarter, with further softening in March and April.",
+      "quote": "sales trends softened over the course of the first quarter. More specifically, we began the quarter with positive comp growth in the month of February and then saw the trends soften into low single-digit declines by the end of April and so far into May.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Traffic grew for the 12th consecutive quarter.",
+      "quote": "traffic grew just under 1% in Q1 and has now grown for 12 consecutive quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "we are planning for a wide range of sales outcomes in the second quarter, centered around a low-single digit decline in comparable sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency and cost-saving efforts are expected to benefit the P&L in the second half of the year.",
+      "quote": "we also have multiple actions underway to mitigate them, including ongoing efficiency work and cost saving efforts that we expect to flow into the P&L in the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strength in frequency businesses (Beauty, Food & Beverage, Household Essentials) offset discretionary softness.",
+      "quote": "Strength in frequency businesses (Beauty, Food & Beverage and Household Essentials) offset continued softness in discretionary categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day services like Drive-Up saw high-single digit growth.",
+      "quote": "same-day services saw mid-single digit growth, led by high-single digit growth in Drive-Up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the Q2 guidance being lowered relative to Q1 results and the significant shrink headwind. However, full-year guidance was maintained, which could be seen as less negative. A reviewer may want to assess whether the Q2 guidance reduction is severe enough to warrant a -0.50 or if a slightly less negative score is more appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2023-05-17",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-05-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q1\\2023-05-17-TGT-FQ2-2023-Press-Release.html",
+        "pub_date": "2023-05-17"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q1\\2023-05-17-TGT-FQ2-2023-Transcript.pdf",
+        "pub_date": "2023-05-17"
+      }
+    ],
+    "document_id": "TGT_FQ1_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T144915Z",
+    "timestamp": "2026-07-08T14:49:56Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q1\\2023-05-17-TGT-FQ2-2023-Press-Release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q1\\2023-05-17-TGT-FQ2-2023-Press-Release.html",
+        "page_count": 1,
+        "extracted_characters": 21156,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q1\\2023-05-17-TGT-FQ2-2023-Transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 75798,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2023.txt"
+  }
+}

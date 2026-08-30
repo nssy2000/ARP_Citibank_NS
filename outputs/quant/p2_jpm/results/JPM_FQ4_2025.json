@@ -1,0 +1,58 @@
+{
+  "document_id": "JPM_FQ4_2025_QUANT",
+  "base_document_id": "JPM_FQ4_2025",
+  "issuer": "p2_jpm",
+  "ticker": "JPM",
+  "sector": "Financials",
+  "report_date": "2026-01-13",
+  "sentiment": {
+    "score": 0.08644
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.051091,
+      "window_start_date": "2025-12-10",
+      "window_end_date": "2026-01-12",
+      "score": 0.328017,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.201398,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -3.91,
+      "matched_earnings_date": "2026-01-13",
+      "score": -0.155137,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 15.98,
+      "vix_score": 0.198656,
+      "tnx_change": 0.03,
+      "tnx_score": -0.059929,
+      "score": 0.069364,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.23,
+      "ffr_score": 0.430084,
+      "ffr_as_of": "2026-01-12",
+      "curve_spread": 0.65,
+      "curve_score": 0.57167,
+      "curve_as_of": "2026-01-12",
+      "score": 0.500877,
+      "available": true
+    },
+    "quant_score": 0.08644,
+    "quant_score_with_macro": 0.077902,
+    "quant_score_with_fred": 0.293658,
+    "quant_score_with_macro_fred": 0.218894
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

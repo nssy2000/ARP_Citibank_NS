@@ -1,0 +1,126 @@
+{
+  "issuer": "p2_citigroup",
+  "reports": [
+    {
+      "document_id": "C_FQ1_2025",
+      "issuer": "p2_citigroup",
+      "company": "Citigroup",
+      "ticker": "C",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-15",
+      "release_date": "2025-04-15",
+      "release_date_source": "EDGAR 8-K Item 2.02, c-20240712x8k.htm, acc 0001104659-25-034974",
+      "documents": [
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/citigroup/CY2025-Q1/2025fsqtr1rslt.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/citigroup/CY2025-Q1/2025prqtr1rslt.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/citigroup/CY2025-Q1/2025psqtr1rslt.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "C_FQ2_2025",
+      "issuer": "p2_citigroup",
+      "company": "Citigroup",
+      "ticker": "C",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-15",
+      "release_date": "2025-07-15",
+      "release_date_source": "EDGAR 8-K Item 2.02, c-20250715x8k.htm, acc 0001410578-25-001455",
+      "documents": [
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/citigroup/CY2025-Q2/2025fsqtr2rslt.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/citigroup/CY2025-Q2/2025prqtr2rslt.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/citigroup/CY2025-Q2/2025psqtr2rslt.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "C_FQ3_2025",
+      "issuer": "p2_citigroup",
+      "company": "Citigroup",
+      "ticker": "C",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-14",
+      "release_date": "2025-10-14",
+      "release_date_source": "EDGAR 8-K Item 2.02, c-20251014x8k.htm, acc 0001104659-25-099097",
+      "documents": [
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/citigroup/CY2025-Q3/2025fsqtr3rslt.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/citigroup/CY2025-Q3/2025prqtr3rslt.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/citigroup/CY2025-Q3/2025psqtr3-transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/citigroup/CY2025-Q3/2025psqtr3rslt.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "C_FQ4_2025",
+      "issuer": "p2_citigroup",
+      "company": "Citigroup",
+      "ticker": "C",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-14",
+      "release_date": "2026-01-14",
+      "release_date_source": "EDGAR 8-K Item 2.02, c-20260114x8k.htm, acc 0001104659-26-003604",
+      "documents": [
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/citigroup/CY2025-Q4/2025fsqtr4rslt.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/citigroup/CY2025-Q4/2025prqtr4rslt.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/citigroup/CY2025-Q4/2025psqtr4-transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/citigroup/CY2025-Q4/2025psqtr4rslt.pdf"
+        },
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/citigroup/CY2025-Q4/4Q25-supp-web.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

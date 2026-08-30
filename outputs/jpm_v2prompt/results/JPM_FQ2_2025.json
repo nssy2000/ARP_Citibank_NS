@@ -1,0 +1,183 @@
+{
+  "document_id": "JPM_FQ2_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The expectation baseline is the company's own prior guidance and market consensus, which were not explicitly stated in the document. The surprise is the upward revision to full-year NII ex. Markets guidance from ~$90B (implied by prior commentary) to ~$92B, and total NII guidance to ~$95.5B, driven by changes in the forward curve and strong deposit growth. This is a genuine forward-looking raise, not just a backward-looking beat, and management expressed confidence in the outlook, though tempered by acknowledgment of persistent risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Managed revenue of $45.7 billion, down 10% year-on-year. Reported revenue of $44.9 billion.",
+    "eps": "Reported EPS of $5.24, down 14% year-on-year. Excluding a significant item (income tax benefit), EPS was $4.96.",
+    "guidance": "FY2025 NII ex. Markets guidance raised to ~$92B (from implied ~$90B). Total NII guidance raised to ~$95.5B. Adjusted expense guidance of ~$95.5B. Card Services NCO rate guidance unchanged at ~3.6%.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Tariffs and trade uncertainty",
+      "Worsening geopolitical conditions",
+      "High fiscal deficits",
+      "Elevated asset prices",
+      "Potential for rapid changes in pipelines and market sentiment",
+      "Competitive pressures from fintech and private credit"
+    ],
+    "key_opportunities": [
+      "Strong deposit growth in Payments and Securities Services",
+      "Balanced growth in Card",
+      "Robust IB pipeline with notably more upbeat sentiment",
+      "Continued net inflows and higher market levels in AWM",
+      "Potential regulatory simplification (SLR, G-SIB, CCAR) that could reduce constraints"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management raised full-year NII guidance and described the quarter as 'strong results' with 'each of the lines of business performed well,' while acknowledging persistent risks but expressing confidence in navigating uncertainty."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Managed revenue was $45.7 billion, down 10% year-on-year.",
+      "quote": "Managed revenue of $45.7B2",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $5.24, down 14% year-on-year.",
+      "quote": "Earnings per share - diluted $ 5.24 ... $ O/(U) (14) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year NII ex. Markets guidance was raised to ~$92B.",
+      "quote": "Expect FY2025 net interest income excluding Markets of ~$92B, market dependent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year total NII guidance was raised to ~$95.5B.",
+      "quote": "Expect FY2025 net interest income of ~$95.5B, market dependent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted expense guidance is ~$95.5B.",
+      "quote": "Expect FY2025 adjusted expense of ~$95.5B, market dependent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card Services NCO rate guidance unchanged at ~3.6%.",
+      "quote": "Expect FY2025 Card Services NCO rate of ~3.6%3",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include tariffs, trade uncertainty, geopolitical conditions, fiscal deficits, and elevated asset prices.",
+      "quote": "significant risks persist – including from tariffs and trade uncertainty, worsening geopolitical conditions, high fiscal deficits and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include strong deposit growth in Payments and Securities Services and balanced growth in Card.",
+      "quote": "the increase driven by changes in the forward curve and strong deposit growth in Payments, Securities Services as well as balanced growth in Card.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We reported another quarter of strong results, generating net income of $15.0 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise was driven by changes in the forward curve and strong deposit growth.",
+      "quote": "the increase driven by changes in the forward curve and strong deposit growth in Payments, Securities Services as well as balanced growth in Card.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.rationale",
+      "reason": "The expectation baseline (prior guidance) is not explicitly stated in the document; the raise is inferred from the new guidance figures. A human reviewer should confirm that the prior guidance was indeed lower."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-07-15",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-earnings-call-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T194008Z",
+    "timestamp": "2026-07-02T19:41:32Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_reaction_prompt_v2_merged.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm_v2prompt\\extracted\\JPM_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 25716,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 21946,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q2\\jpm-2q25-earnings-call-transcript.pdf",
+        "page_count": 25,
+        "extracted_characters": 110990,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm_v2prompt\\extracted\\JPM_FQ2_2025.txt"
+  }
+}

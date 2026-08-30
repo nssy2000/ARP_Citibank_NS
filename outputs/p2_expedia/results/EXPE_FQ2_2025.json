@@ -1,0 +1,183 @@
+{
+  "document_id": "EXPE_FQ2_2025",
+  "sentiment": {
+    "score": 0.45,
+    "rationale": "Expedia raised its full-year guidance for gross bookings and revenue by 1 point each, and adjusted EBITDA margin expansion guidance to a full point (at the high end of prior range), signaling improved forward expectations. The beat was partly attributed to FX (1 point benefit to bookings and revenue in Q2), but the guidance raise was driven by solid first-half performance and ongoing trends, including strength in B2B and Advertising. Management expressed confidence in the outlook, though noted continued uncertainty around the U.S. consumer, which tempers the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$3,786 million for Q2 2025, up 6% year-over-year (8% on an FX-neutral basis).",
+    "eps": "GAAP diluted EPS of $2.48, down 11% year-over-year; Adjusted EPS of $4.24, up 21% year-over-year.",
+    "guidance": "Full-year 2025: gross bookings growth of 3-5% (raised from 2-4%), revenue growth of 3-5% (raised from 2-4%), adjusted EBITDA margin expansion of ~100 bps (at high end of prior 75-100 bps). Q3 2025: gross bookings growth of 5-7%, revenue growth of 4-6%, adjusted EBITDA margin expansion of 50-100 bps.",
+    "margin": "Adjusted EBITDA margin of 24.0% in Q2 2025, up 190 bps year-over-year. Adjusted EBIT margin of 15.4%, up 207 bps. Cost of revenue as % of revenue improved 23 bps; overhead as % of revenue improved 20 bps.",
+    "key_risks": [
+      "Soft U.S. travel market with consumers at the lower end taking a more cautious approach to discretionary spending",
+      "Continuing uncertainty around the U.S. consumer and travel into the U.S.",
+      "Shorter booking windows and higher cancellations in the U.S.",
+      "Potential pressure on B2B revenue share rates due to more entrants in the space",
+      "Tougher Q4 comps due to lapping last year's significant strength"
+    ],
+    "key_opportunities": [
+      "B2B growth (17% bookings growth, 16th consecutive quarter of double-digit growth) with expansion into new APIs and international markets",
+      "Advertising revenue growth of 19% with record active partners and new ad formats",
+      "International growth, particularly in Asia (nearly 20% room night growth) and Brand Expedia outside the U.S. (13% bookings growth)",
+      "AI-driven efficiencies and product improvements (e.g., AI filters, personalized insurance, AI-powered developer tools)",
+      "Loyalty program momentum with high-single-digit member growth and faster growth in higher tiers"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO stated 'We delivered a solid second quarter, surpassing our top and bottom line expectations' and CFO noted 'We are off to a good start in the first half of the year' with raised guidance, reflecting confidence in forward performance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for Q2 2025 was $3,786 million, up 6% year-over-year.",
+      "quote": "Revenue $3,786 $3,558 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS decreased 11% to $2.48, while Adjusted EPS grew 21% to $4.24.",
+      "quote": "Diluted earnings per share $2.48 $2.80 (11)% ... Adjusted EPS* $4.24 $3.51 21%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance for gross bookings and revenue was raised by 1 point each.",
+      "quote": "For the full year, we expect gross bookings and revenue growth of 3% to 5%, which represents a 1 point increase versus our previous guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EBITDA margin expansion guidance was raised to a full point, at the high end of the prior range.",
+      "quote": "For the year, we expect adjusted EBITDA margin expansion of a full point. This is at the high end of our previous guidance of 75 to 100 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 adjusted EBITDA margin expanded 190 basis points year-over-year.",
+      "quote": "Adjusted EBITDA increased 16% with 190 basis points of margin expansion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Q2 beat included a 1 point benefit from foreign exchange.",
+      "quote": "Gross bookings were $30.4 billion, up 5%, which includes a 1 point benefit from foreign exchange.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the outlook despite U.S. consumer uncertainty.",
+      "quote": "We are off to a good start in the first half of the year with adjusted EBITDA margin up over 1.5 points. In the second half, we will benefit from the cost actions we announced with our first quarter results. In addition, we expect to deliver additional EBITDA margin expansion from our B2C marketing leverage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include soft U.S. travel market and consumer caution.",
+      "quote": "The U.S. travel market was muted in the second quarter. Consumers at the higher end of the market remained resilient, with those at the lower end, taking a more cautious approach to discretionary spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include B2B and Advertising growth.",
+      "quote": "B2B and Advertising continued their strong performance. B2B bookings grew 17%, outpacing the market and delivering our 16th consecutive quarter of double-digit growth. Advertising revenue grew 19%, with a record number of active partners and momentum across both sponsored listings and display ads.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered a solid second quarter, surpassing our top and bottom line expectations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise was partly attributed to FX (1 point benefit in Q2), but the full-year raise was described as based on solid first-half performance and ongoing trends. Verify that the score appropriately discounts FX impact."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "EXPE_Bundled Earnings Report_2025-08-07",
+  "report_metadata": {
+    "issuer": "p2_expedia",
+    "company": "Expedia",
+    "ticker": "EXPE",
+    "sector": "Consumer Cyclical/Travel Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q2\\Q2-2025-Earnings-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q2\\Q2-2025-Earnings-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "EXPE_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100145Z",
+    "timestamp": "2026-08-09T10:02:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_expedia\\extracted\\EXPE_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 43872,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q2\\Q2-2025-Earnings-Presentation.pdf",
+        "page_count": 30,
+        "extracted_characters": 27173,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q2\\Q2-2025-Earnings-Transcript.pdf",
+        "page_count": 15,
+        "extracted_characters": 50940,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_expedia\\extracted\\EXPE_FQ2_2025.txt"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "document_id": "DIS_FQ2_2024",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: Entertainment DTC swung to profitability, adjusted EPS grew 30% year-over-year, and full-year adjusted EPS growth guidance was raised to 25% from a prior target. However, management explicitly flagged near-term headwinds in Q3 for both Experiences (moderation from post-COVID demand, wage inflation) and Entertainment DTC (loss due to Hotstar cricket rights), and the guidance raise is partly attributed to Q2 outperformance rather than a purely organic forward improvement. The score reflects genuine forward momentum tempered by acknowledged near-term risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenues for the quarter increased to $22.1 billion from $21.8 billion in the prior-year quarter, a 1% increase.",
+    "eps": "Diluted EPS was a loss of $0.01 for the current quarter compared to income of $0.69 in the prior-year quarter. Excluding certain items, diluted EPS increased to $1.21 from $0.93.",
+    "guidance": "Full-year adjusted EPS growth target raised to 25% (from prior guidance). The company remains on track to generate approximately $14 billion of cash provided by operations and over $8 billion of free cash flow this fiscal year. Combined streaming businesses expected to be profitable in Q4, with further improvements in fiscal 2025. Experiences Q3 OI expected roughly comparable to prior year, but robust full-year growth expected.",
+    "margin": "Experiences segment operating margin expanded by 60 basis points versus the prior year. No explicit overall company margin commentary.",
+    "key_risks": [
+      "Entertainment DTC expected to post a loss in Q3, largely due to Disney+ Hotstar ICC cricket rights.",
+      "Experiences Q3 OI expected roughly comparable to prior year due to timing of Easter, higher wage expenses, pre-opening costs for cruise ships, and some normalization of post-COVID demand.",
+      "Linear Networks continue to face declines in affiliate and advertising revenue due to subscriber losses and lower viewership.",
+      "Content Sales/Licensing and Other had lower results due to no significant theatrical releases in the quarter and higher film cost impairments.",
+      "Goodwill impairments of $2,038 million in the quarter related to Star India and entertainment linear networks."
+    ],
+    "key_opportunities": [
+      "Entertainment Direct-to-Consumer business was profitable in Q2, a key milestone.",
+      "Combined streaming businesses on track to be profitable in Q4, with further improvements in fiscal 2025.",
+      "Disney+ Core subscribers increased by more than 6 million in Q2, and ARPU increased sequentially by $0.44.",
+      "Experiences segment revenue grew 10% and operating income grew 12% in Q2, with robust full-year growth expected.",
+      "Strong upcoming theatrical slate including 'Inside Out 2', 'Deadpool & Wolverine', 'Moana 2', and 'Avatar 3'.",
+      "ESPN+ and flagship streaming service launch planned for fall 2025, with an ESPN tile coming to Disney+ by end of calendar year.",
+      "Password sharing initiative to begin in select markets in June and roll out globally in September, expected to drive subscriber growth.",
+      "Cost-efficiency initiatives on track to exceed $7.5 billion annualized target.",
+      "Share repurchases of $1 billion in Q2, with continued capital return to shareholders."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Bob Iger stated 'Our strong performance in Q2... demonstrates we are delivering on our strategic priorities and building for the future,' and CFO Hugh Johnston said 'We continue to position the company for long-term growth and profitability, and are making tangible progress on generating compounding earnings and free-cash flow growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year adjusted EPS growth target raised to 25%.",
+      "quote": "As a result of outperformance in the second quarter, our new full year adjusted EPS (1) growth target is now 25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS grew 30% year-over-year in Q2.",
+      "quote": "Our strong performance in Q2, with adjusted EPS (1) up 30% compared to the prior year, demonstrates we are delivering on our strategic priorities and building for the future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment DTC was profitable in Q2.",
+      "quote": "The Entertainment Direct-to-Consumer business was profitable in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined streaming businesses expected to be profitable in Q4.",
+      "quote": "We continue to expect our combined streaming businesses to be profitable in the fourth quarter, and to be a meaningful future growth driver for the company, with further improvements in profitability in fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences Q3 OI expected roughly comparable to prior year.",
+      "quote": "Although the third quarter's segment operating income is expected to come in roughly comparable to the prior year, we continue to expect robust operating income growth at Experiences for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment revenue grew 10% and operating income grew 12% in Q2.",
+      "quote": "The Experiences business was also a growth driver in the second quarter, with revenue growth of 10%, segment operating income growth of 12%, and margin expansion of 60 basis points versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ Core subscribers increased by more than 6 million in Q2.",
+      "quote": "Disney+ Core subscribers increased by more than 6 million in the second quarter, and Disney+ Core ARPU increased sequentially by 44 cents.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Goodwill impairments of $2,052 million in the quarter.",
+      "quote": "In the current quarter, the Company recorded charges of $2,052 million due to goodwill impairments related to Star India and entertainment linear networks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment DTC expected to post a loss in Q3 due to Hotstar cricket rights.",
+      "quote": "We are forecasting a loss for entertainment DTC in the third quarter, the vast majority of which is due to Disney+ Hotstar's ICC cricket rights.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences Q3 headwinds include wage inflation, pre-opening costs, and demand normalization.",
+      "quote": "Beyond these comparability related headwinds, the third quarter's results will be impacted by three additional factors, higher wage expenses, pre-opening expenses related to the Disney treasure and adventure cruise ships, as well as Disney Cruise Line's New Island, Lookout Cay, and some normalization of post-COVID demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Bob Iger stated 'Our strong performance in Q2... demonstrates we are delivering on our strategic priorities and building for the future,' and CFO Hugh Johnston said 'We continue to position the company for long-term growth and profitability, and are making tangible progress on generating compounding earnings and free-cash flow growth.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue for Q2 was $22.1 billion.",
+      "quote": "Revenues for the quarter increased to $22.1 billion from $21.8 billion in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was a loss of $0.01, but adjusted EPS was $1.21.",
+      "quote": "Diluted earnings per share (EPS) was a loss of $0.01 for the current quarter compared to income of $0.69 in the prior-year quarter. ... Excluding certain items (1) , diluted EPS for the quarter increased to $1.21 from $0.93 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow expected to be over $8 billion for the fiscal year.",
+      "quote": "We remain on track to generate approximately $14 billion of cash provided by operations and over $8 billion of free cash flow (1) this fiscal year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share repurchases of $1 billion in Q2.",
+      "quote": "We repurchased $1 billion worth of shares in the second quarter and look forward to continuing to return capital to shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit and material, but the score also reflects near-term Q3 headwinds that management explicitly flagged. A reviewer may want to assess whether the headwinds are sufficiently discounted in the score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2024-05-07",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-05-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q2\\dis-2q24-press-release.html",
+        "pub_date": "2024-05-07"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q2\\dis-2q24-transcript.html",
+        "pub_date": "2024-05-07"
+      }
+    ],
+    "document_id": "DIS_FQ2_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:43:48Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q2\\dis-2q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q2\\dis-2q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 46180,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q2\\dis-2q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 48535,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ2_2024.txt"
+  }
+}

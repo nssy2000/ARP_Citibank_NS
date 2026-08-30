@@ -1,0 +1,114 @@
+{
+  "issuer": "p2_maersk",
+  "reports": [
+    {
+      "document_id": "AMKBY_FQ1_2025",
+      "issuer": "p2_maersk",
+      "company": "Maersk",
+      "ticker": "AMKBY",
+      "sector": "Industrials/Shipping",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-07",
+      "release_date": null,
+      "release_date_source": null,
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/maersk/CY2025-Q1/Maersk Q1 2025 Interim Report.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/maersk/CY2025-Q1/Maersk Q1 2025 Investor Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/maersk/CY2025-Q1/Q1 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "AMKBY_FQ2_2025",
+      "issuer": "p2_maersk",
+      "company": "Maersk",
+      "ticker": "AMKBY",
+      "sector": "Industrials/Shipping",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-07",
+      "release_date": null,
+      "release_date_source": null,
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/maersk/CY2025-Q2/Maersk Q2 2025 Interim Report.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/maersk/CY2025-Q2/Maersk Q2 2025 Investor Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/maersk/CY2025-Q2/Q2 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "AMKBY_FQ3_2025",
+      "issuer": "p2_maersk",
+      "company": "Maersk",
+      "ticker": "AMKBY",
+      "sector": "Industrials/Shipping",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-05",
+      "release_date": null,
+      "release_date_source": null,
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/maersk/CY2025-Q3/Maersk Q3 2025 Interim Report.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/maersk/CY2025-Q3/Maersk Q3 2025 Investor Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/maersk/CY2025-Q3/Q3 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "AMKBY_FQ4_2025",
+      "issuer": "p2_maersk",
+      "company": "Maersk",
+      "ticker": "AMKBY",
+      "sector": "Industrials/Shipping",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-05",
+      "release_date": null,
+      "release_date_source": null,
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/maersk/CY2025-Q4/apmm_4q25_investor_presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/maersk/CY2025-Q4/maersk_annual_report_2025_press_release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/maersk/CY2025-Q4/Q4 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "unknown",
+    "source": "investor.maersk.com timed out. Date confirmed but no publication time retrieved.",
+    "retrieval_date": "2026-08-12"
+  }
+}

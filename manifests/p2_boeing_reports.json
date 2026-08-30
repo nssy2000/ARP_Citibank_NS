@@ -1,0 +1,110 @@
+{
+  "issuer": "p2_boeing",
+  "reports": [
+    {
+      "document_id": "BA_FQ1_2025",
+      "issuer": "p2_boeing",
+      "company": "Boeing",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-23",
+      "release_date": "2025-04-23",
+      "release_date_source": "EDGAR 8-K Item 2.02, ba-20250423.htm, acc 0000012927-25-000027",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q1/1Q25-Presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q1/1Q25-Press-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q1/Transcript-Q1-2025-Earnings-Call.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BA_FQ2_2025",
+      "issuer": "p2_boeing",
+      "company": "Boeing",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "release_date": "2025-07-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, ba-20250729.htm, acc 0000012927-25-000058",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q2/2Q25-Presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q2/2Q25-Press-Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BA_FQ3_2025",
+      "issuer": "p2_boeing",
+      "company": "Boeing",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "release_date": "2025-10-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, ba-20251029.htm, acc 0001628280-25-046915",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q3/3Q25-Presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q3/3Q25-Press-Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BA_FQ4_2025",
+      "issuer": "p2_boeing",
+      "company": "Boeing",
+      "ticker": "BA",
+      "sector": "Industrials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-26",
+      "release_date": "2026-01-27",
+      "release_date_source": "EDGAR 8-K Item 2.02, ba-20260127.htm, acc 0001628280-26-003518",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q4/e4434a19-d413-4453-b231-894733ab8ddc.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q4/Presentation.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q4/Press-Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/boeing/phase2/CY2025-Q4/Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

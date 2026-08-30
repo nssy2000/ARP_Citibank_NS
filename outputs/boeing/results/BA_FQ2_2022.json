@@ -1,0 +1,197 @@
+{
+  "document_id": "BA_FQ2_2022",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: operating cash flow swung from negative to positive ($0.1 billion vs. -$0.5 billion in Q2 2021), 737 production increased to 31 per month, and management states they 'remain on track to achieve positive free cash flow for 2022.' However, forward guidance is not formally raised; the 787 delivery resumption remains uncertain with no date given, and defense segment operating margin collapsed to 1.1% due to charges on fixed-price programs. The structural risk of unresolved 787 certification and ongoing defense charges tempers the positive cash flow and production momentum, resulting in a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$16.7 billion, down 2% year-over-year (Q2 2021: $16.998 billion).",
+    "eps": "GAAP EPS of $0.32, down 68% from $1.00 in Q2 2021. Core (non-GAAP) loss per share of ($0.37) vs. $0.40 in Q2 2021.",
+    "guidance": "Management expects positive free cash flow for 2022. 737 production increased to 31 per month. 787 deliveries remain paused; gradual return to five per month expected after deliveries resume. 787 abnormal costs of approximately $2 billion anticipated, most by end of 2023.",
+    "margin": "GAAP operating margin 4.6% (down from 6.0% in Q2 2021). Core (non-GAAP) operating margin 2.9% (down from 4.4% in Q2 2021).",
+    "key_risks": [
+      "Lower defense volume and unfavorable performance, including charges on fixed-price development programs (MQ-25 $147M charge, Commercial Crew $93M charge).",
+      "787 deliveries remain paused; no date given for resumption; program producing at very low rate until deliveries resume.",
+      "Abnormal costs on 787 program of approximately $2 billion, most by end of 2023.",
+      "Higher R&D expense and period expenses in Commercial Airplanes.",
+      "Effective tax rate of 57.6% due to tax expense on pretax earnings and increase to valuation allowance."
+    ],
+    "key_opportunities": [
+      "Positive operating cash flow of $0.1 billion in Q2 2022 vs. negative $0.5 billion in Q2 2021.",
+      "737 production rate increased to 31 per month during the quarter.",
+      "Commercial Airplanes secured orders for 169 737 MAX airplanes and 13 freighters, including seven 777-8 Freighters from Lufthansa Group.",
+      "Global Services revenue up 6% and operating margin up to 16.9% driven by higher commercial services volume and favorable mix.",
+      "Total backlog of $372 billion, including over 4,200 commercial airplanes valued at $297 billion."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Dave Calhoun stated: 'We made important progress across key programs in the second quarter and are building momentum in our turnaround... we remain on track to achieve positive free cash flow for 2022.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $16.7 billion, down 2% year-over-year.",
+      "quote": "The Boeing Company [NYSE: BA] reported second-quarter revenue of $16.7 billion... Revenues $16,681 $16,998 (2)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $0.32, down 68% from $1.00 in Q2 2021.",
+      "quote": "GAAP earnings per share of $0.32 and core (non-GAAP)* loss per share of ($0.37)... Earnings/(Loss) Per Share $0.32 $1.00 (68)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core (non-GAAP) loss per share was ($0.37) vs. $0.40 in Q2 2021.",
+      "quote": "core (non-GAAP)* loss per share of ($0.37)... Core (Loss)/Earnings Per Share ($0.37) $0.40 NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flow improved to positive $0.1 billion in Q2 2022 from negative $0.5 billion in Q2 2021.",
+      "quote": "Operating cash flow improved to $0.1 billion in the quarter, reflecting higher commercial deliveries and timing of receipts and expenditures... Operating Cash Flow $81 ($483) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects positive free cash flow for 2022.",
+      "quote": "we remain on track to achieve positive free cash flow for 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production rate increased to 31 per month during the quarter.",
+      "quote": "The 737 production rate increased to 31 airplanes per month during the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 deliveries remain paused; no date given for resumption.",
+      "quote": "On the 787 program, the company continues to work with the FAA to finalize actions to resume deliveries and is readying airplanes for delivery. The program is producing at a very low rate and will continue to do so until deliveries resume, with an expected gradual return to five per month over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 abnormal costs of approximately $2 billion anticipated, most by end of 2023.",
+      "quote": "The company still anticipates 787 abnormal costs of approximately $2 billion, with most being incurred by the end of 2023, including $283 million recorded in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense segment operating margin collapsed to 1.1% due to charges on fixed-price programs.",
+      "quote": "Defense, Space & Security second-quarter revenue decreased to $6.2 billion and second-quarter operating margin decreased to 1.1 percent, primarily driven by charges on fixed-price development programs, including MQ-25 and Commercial Crew, as well as unfavorable performance on other programs and lower volume on derivative aircraft programs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MQ-25 program recorded a $147 million charge.",
+      "quote": "The MQ-25 program recorded a $147 million charge primarily due to higher costs to meet certain technical requirements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Crew program recorded a $93 million charge.",
+      "quote": "The Commercial Crew program also recorded a $93 million charge, primarily driven by launch manifest updates and additional costs associated with OFT-2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services revenue up 6% and operating margin up to 16.9%.",
+      "quote": "Global Services second-quarter revenue increased to $4.3 billion and second-quarter operating margin increased to 16.9 percent primarily driven by higher commercial services volume and favorable mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total backlog was $372 billion, including over 4,200 commercial airplanes valued at $297 billion.",
+      "quote": "Total backlog of $372 billion; including over 4,200 commercial airplanes... Commercial Airplanes delivered 121 airplanes during the quarter and backlog included over 4,200 airplanes valued at $297 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We made important progress across key programs in the second quarter and are building momentum in our turnaround... we remain on track to achieve positive free cash flow for 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was 4.6%, down from 6.0% in Q2 2021.",
+      "quote": "Operating Margin 4.6 % 6.0 % (23)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core (non-GAAP) operating margin was 2.9%, down from 4.4% in Q2 2021.",
+      "quote": "Core Operating Margin 2.9 % 4.4 % (34)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Effective tax rate was 57.6%.",
+      "quote": "Effective tax rate 57.6 % (3.3) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on genuine operational momentum (positive cash flow, production increase) but forward guidance is not formally raised; the 787 delivery uncertainty and defense charges are structural risks. A reviewer may want to assess whether the positive cash flow and production momentum outweigh the unresolved 787 and defense issues."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2022-07-27",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2022",
+    "report_date": "2022-07-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q2\\ba-2q22-press-release.html",
+        "pub_date": "2022-07-27"
+      }
+    ],
+    "document_id": "BA_FQ2_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144238Z",
+    "timestamp": "2026-07-09T14:44:39Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q2\\ba-2q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q2\\ba-2q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 26538,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2022.txt"
+  }
+}

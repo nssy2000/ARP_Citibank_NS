@@ -1,0 +1,83 @@
+{
+  "issuer": "p2_heineken",
+  "transcript_availability_note": "No freely available earnings call transcript exists for any Heineken event. Heineken publishes investor presentations (slide decks) but does not make call transcripts freely available in English. All four events are therefore press-release-only in the model arm. The human arm also read the investor presentation for all four events, not a transcript. Both arms are on the same information set. Heineken events are excluded from Item C (four-arm section ablation) by document availability, not by choice. Determined 2026-08-13 during extension document gathering, before any Heineken event was scored.",
+  "reports": [
+    {
+      "document_id": "HEINY_FQ1_2024",
+      "issuer": "p2_heineken",
+      "company": "Heineken",
+      "ticker": "HEIA.AS",
+      "sector": "Consumer Defensive/Beverages",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2024",
+      "report_date": "2024-03-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: source from Heineken IR / Euronext Amsterdam announcement for H1 or interim results reported in ~early 2024. Expected: full-year 2023 results (published ~Feb 2024). Check Heineken IR at https://www.theheinekencompany.com/investors/results-reports-and-presentations",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/heineken/CY2024-Q1/HEINY_Q1_2024_Press_Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HEINY_FQ2_2024",
+      "issuer": "p2_heineken",
+      "company": "Heineken",
+      "ticker": "HEIA.AS",
+      "sector": "Consumer Defensive/Beverages",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2024",
+      "report_date": "2024-07-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: source from Heineken IR / Euronext Amsterdam announcement for H1 2024 results (published ~Jul 2024)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/heineken/CY2024-Q2/HEINY_Q2_2024_Press_Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HEINY_FQ3_2024",
+      "issuer": "p2_heineken",
+      "company": "Heineken",
+      "ticker": "HEIA.AS",
+      "sector": "Consumer Defensive/Beverages",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2024",
+      "report_date": "2024-10-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: source from Heineken IR for any Q3 trading update / interim announcement (~Oct 2024). Note: Heineken may not publish a full Q3 earnings report \u2014 verify whether this event has a dated public announcement",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/heineken/CY2024-Q3/HEINY_Q3_2024_Press_Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HEINY_FQ3_2025",
+      "issuer": "p2_heineken",
+      "company": "Heineken",
+      "ticker": "HEIA.AS",
+      "sector": "Consumer Defensive/Beverages",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: source from Heineken IR for Q3 2025 trading update or interim results (~Oct 2025)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/heineken/CY2025-Q3/HEINY_Q3_2025_Press_Release.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "Confirmed pre_market from exchange timestamps \u2014 see outputs/global/summary/non_us_release_timing_extension.csv (all events release 3-7h before respective session open). Confirmed 2026-08-13.",
+    "retrieval_date": "2026-08-13"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "document_id": "BA_FQ2_2021_QUANT",
+  "base_document_id": "BA_FQ2_2021",
+  "issuer": "boeing",
+  "ticker": "BA",
+  "sector": "Industrials",
+  "report_date": "2021-07-28",
+  "sentiment": {
+    "score": 0.197556
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.105121,
+      "window_start_date": "2021-06-25",
+      "window_end_date": "2021-07-27",
+      "score": -0.60488,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.374321,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 154.9,
+      "matched_earnings_date": "2021-07-28",
+      "score": 0.999992,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 18.31,
+      "vix_score": 0.045968,
+      "tnx_change": -0.217,
+      "tnx_score": 0.408659,
+      "score": 0.227313,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 0.1,
+      "ffr_change": 0.04,
+      "ffr_score": -0.07983,
+      "ffr_as_of": "2021-07-27",
+      "curve_spread": 1.05,
+      "curve_score": 0.781806,
+      "curve_as_of": "2021-07-27",
+      "score": 0.350988,
+      "available": true
+    },
+    "quant_score": 0.197556,
+    "quant_score_with_macro": 0.212434,
+    "quant_score_with_fred": 0.274272,
+    "quant_score_with_macro_fred": 0.258619
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

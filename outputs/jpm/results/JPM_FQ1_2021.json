@@ -1,0 +1,226 @@
+{
+  "document_id": "JPM_FQ1_2021",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows strong operational momentum with net income surging to $14.3B from $2.9B a year ago, driven by a $5.2B credit reserve release that management explicitly calls non-core. However, forward guidance is only partially raised: FY2021 NII is guided to ~$55B (vs. $52.0B in FY2020 reported NII), and adjusted expense to ~$70B, but the CEO's optimistic multi-year growth outlook is tempered by explicit risks around inflation and debt. The organic improvement (ex-reserve releases) is real but not a formal guidance raise, placing the score in the +0.15 to +0.3 range for genuine momentum."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $32.3 billion; managed revenue of $33.1 billion, up 14% year-over-year.",
+    "eps": "Diluted EPS of $4.50, up from $0.78 in the prior-year first quarter. Excluding significant items, EPS was $3.31.",
+    "guidance": "Expect FY2021 net interest income to be ~$55B, market dependent. Expect FY2021 adjusted expense of ~$70B. Expect FY2021 Card NCO rate of 2.5%+/-.",
+    "margin": "Reported overhead ratio of 58%; managed overhead ratio of 57%. ROTCE of 29% (21% excluding significant items).",
+    "key_risks": [
+      "Credit reserve releases of $5.2B are not considered core or recurring profits.",
+      "Loan demand remained challenged as Card outstandings remain lower despite spend recovering.",
+      "Home Lending originations expected to slow with the recent rise in interest rates.",
+      "Potential future problems like inflation and too much debt if government programs are not spent wisely.",
+      "Net interest income down 11% driven by lower rates.",
+      "Deposit margin compression across segments."
+    ],
+    "key_opportunities": [
+      "Consumer spending returned to pre-pandemic levels, up 14% versus Q1 2019.",
+      "T&E spend up more than 50% in March versus February.",
+      "Strong investment performance and net inflows of $48B into long-term products in AWM.",
+      "Global IB fees up 57%.",
+      "Economy has potential for extremely robust, multi-year growth.",
+      "Strong consumer and business balance sheets."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Jamie Dimon stated 'we believe that the economy has the potential to have extremely robust, multi-year growth' and described 'strong underlying performance across our businesses, partially driven by a rapidly improving economy.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $32.3 billion; managed revenue was $33.1 billion, up 14% year-over-year.",
+      "quote": "Net revenue on a reported basis was $32.3 billion... Net revenue of $33.1 billion was up 14%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $4.50, up from $0.78 in the prior-year first quarter.",
+      "quote": "Earnings per share - diluted $4.50... $0.78... $ O/(U) $3.72",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding significant items, EPS was $3.31.",
+      "quote": "Excluding these significant items resulted in a decrease of $3.7 billion (after tax) to reported net income from $14.3 billion to $10.6 billion; a decrease of $1.19 per share to reported EPS from $4.50 to $3.31",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance: FY2021 NII ~$55B, adjusted expense ~$70B, Card NCO rate 2.5%+/-.",
+      "quote": "Expect FY2021 net interest income to be ~$55B, market dependent. Expect FY2021 adjusted expense of ~$70B. Expect FY2021 Card NCO rate of 2.5%+/-",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 58%; managed overhead ratio of 57%.",
+      "quote": "1Q21 reported expense of $18.7 billion; reported overhead ratio of 58%; managed overhead ratio of 57%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 29% (21% excluding significant items).",
+      "quote": "ROTCE 29%... Excluding significant items... ROTCE of 21%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit reserve releases of $5.2B are not considered core or recurring profits.",
+      "quote": "These results include a benefit from credit reserve releases of $5.2 billion that we do not consider core or recurring profits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loan demand remained challenged as Card outstandings remain lower despite spend recovering.",
+      "quote": "Loan demand remained challenged as Card outstandings remain lower despite spend recovering to pre-COVID levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Home Lending originations expected to slow with the recent rise in interest rates.",
+      "quote": "Home Lending originations were very strong, up 40%... but we expect this to slow with the recent rise in interest rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential future problems like inflation and too much debt if government programs are not spent wisely.",
+      "quote": "If all of the government programs are spent wisely and efficiently, focusing on actual outcomes, the benefits will be more widely shared, economic growth will be more sustainable and future problems, like inflation and too much debt, will be reduced.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income down 11% driven by lower rates.",
+      "quote": "Net interest income was $13.0 billion, down 11%, predominantly driven by the impact of lower rates, partially offset by balance sheet growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit margin compression across segments.",
+      "quote": "Consumer & Business Banking net revenue was $5.6 billion, down 10%, driven by the impact of deposit margin compression... Wholesale Payments revenue was $1.4 billion, down 2%, driven by deposit margin compression... Net interest income of $1.5B, down 5% YoY, driven by deposit margin compression",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer spending returned to pre-pandemic levels, up 14% versus Q1 2019.",
+      "quote": "consumer spending in our businesses has returned to pre-pandemic levels, up 14% versus the first quarter of 2019.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "T&E spend up more than 50% in March versus February.",
+      "quote": "We are also seeing good momentum in T&E with spend up more than 50% in March versus February.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong investment performance and net inflows of $48B into long-term products in AWM.",
+      "quote": "continued strong investment performance, growth in new products and advisor hiring led to net inflows of $48 billion into long-term products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global IB fees up 57%.",
+      "quote": "Global IB fees were up 57%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Economy has potential for extremely robust, multi-year growth.",
+      "quote": "we believe that the economy has the potential to have extremely robust, multi-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong consumer and business balance sheets.",
+      "quote": "strong consumer and business balance sheets and euphoria around the potential end of the pandemic",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "CEO Jamie Dimon stated 'we believe that the economy has the potential to have extremely robust, multi-year growth' and described 'strong underlying performance across our businesses, partially driven by a rapidly improving economy.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects genuine operational momentum (swing from loss to profit, confident forward language) but no formal guidance raise. The CEO's optimistic multi-year growth outlook is balanced by explicit risks around inflation and debt. A reviewer should confirm this weighting is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2021-04-14",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2021",
+    "report_date": "2021-04-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q1\\jpm-1q21-press-release.html",
+        "pub_date": "2021-04-14"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q1\\jpm-1q21-presentation.html",
+        "pub_date": "2021-04-14"
+      }
+    ],
+    "document_id": "JPM_FQ1_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144020Z",
+    "timestamp": "2026-07-09T14:40:54Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q1\\jpm-1q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q1\\jpm-1q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 26092,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q1\\jpm-1q21-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 19730,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2021.txt"
+  }
+}

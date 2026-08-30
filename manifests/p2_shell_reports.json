@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_shell",
+  "reports": [
+    {
+      "document_id": "SHEL_FQ2_2025",
+      "issuer": "p2_shell",
+      "company": "Shell",
+      "ticker": "SHEL",
+      "sector": "Energy/Oil & Gas Integrated",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Shell Q2 2025 results, source from London Stock Exchange RNS or Shell IR (~Aug 2025). URL: https://www.shell.com/investors/results-and-reporting",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/shell/CY2025-Q2/SHEL_Q2_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/shell/CY2025-Q2/SHEL_Q2_2025_Prepared_Remarks.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SHEL_FQ3_2025",
+      "issuer": "p2_shell",
+      "company": "Shell",
+      "ticker": "SHEL",
+      "sector": "Energy/Oil & Gas Integrated",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Shell Q3 2025 results, source from London Stock Exchange RNS or Shell IR (~Nov 2025)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/shell/CY2025-Q3/SHEL_Q3_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/shell/CY2025-Q3/SHEL_Q3_2025_Prepared_Remarks.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SHEL_FQ4_2025",
+      "issuer": "p2_shell",
+      "company": "Shell",
+      "ticker": "SHEL",
+      "sector": "Energy/Oil & Gas Integrated",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Shell Q4/FY 2025 results, source from London Stock Exchange RNS or Shell IR (~Feb 2026)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/shell/CY2025-Q4/SHEL_Q4_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/shell/CY2025-Q4/SHEL_Q4_2025_Prepared_Remarks.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SHEL_FQ1_2026",
+      "issuer": "p2_shell",
+      "company": "Shell",
+      "ticker": "SHEL",
+      "sector": "Energy/Oil & Gas Integrated",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Shell Q1 2026 results, source from London Stock Exchange RNS or Shell IR (~May 2026)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/shell/CY2026-Q1/SHEL_Q1_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/shell/CY2026-Q1/SHEL_Q1_2026_Prepared_Remarks.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "Confirmed pre_market from exchange timestamps \u2014 see outputs/global/summary/non_us_release_timing_extension.csv (all events release 3-7h before respective session open). Confirmed 2026-08-13.",
+    "retrieval_date": "2026-08-13"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_oracle",
+  "reports": [
+    {
+      "document_id": "ORCL_FQ1_2026",
+      "issuer": "p2_oracle",
+      "company": "Oracle",
+      "ticker": "ORCL",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-09-09",
+      "release_date": "2025-09-09",
+      "release_date_source": "EDGAR 8-K Item 2.02, orcl-20250909.htm, acc 0001193125-25-199175",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/oracle/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/oracle/CY2026-Q1/ORCL_Q1_2026_earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "ORCL_FQ2_2026",
+      "issuer": "p2_oracle",
+      "company": "Oracle",
+      "ticker": "ORCL",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2025-12-10",
+      "release_date": "2025-12-10",
+      "release_date_source": "EDGAR 8-K Item 2.02, orcl-20251210.htm, acc 0001193125-25-314207",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/oracle/CY2026-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/oracle/CY2026-Q2/ORCL_Q2_2026_earnings_call_transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "ORCL_FQ3_2026",
+      "issuer": "p2_oracle",
+      "company": "Oracle",
+      "ticker": "ORCL",
+      "sector": "Technology/Software - Infrastructure",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "2026-03-10",
+      "release_date": "2026-03-10",
+      "release_date_source": "EDGAR 8-K Item 2.02, orcl-20260310.htm, acc 0001193125-26-100148",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/oracle/CY2026-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/oracle/CY2026-Q3/ORCL_Q3_2026_earnings_call_transcript.txt"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

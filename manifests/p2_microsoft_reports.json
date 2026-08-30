@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_microsoft",
+  "reports": [
+    {
+      "document_id": "MSFT_FQ1_2025",
+      "issuer": "p2_microsoft",
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2024-10-30",
+      "release_date": "2024-10-30",
+      "release_date_source": "EDGAR 8-K Item 2.02, msft-20241030.htm, acc 0000950170-24-118955",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/microsoft/CY2025-Q1/cdn-dynmedia-1.microsoft.com (2).pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2025-Q1/Microsoft-Q1-2025-Earnings-Call-Transcript-MotleyFool.html"
+        }
+      ]
+    },
+    {
+      "document_id": "MSFT_FQ2_2025",
+      "issuer": "p2_microsoft",
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-01-29",
+      "release_date": "2025-01-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, msft-20250129.htm, acc 0000950170-25-010484",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/microsoft/CY2025-Q2/cdn-dynmedia-1.microsoft.com (1).pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2025-Q2/Microsoft-Q2-2025-Earnings-Call-Transcript-MotleyFool.html"
+        }
+      ]
+    },
+    {
+      "document_id": "MSFT_FQ1_2026",
+      "issuer": "p2_microsoft",
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "sector": "Technology",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-10-29",
+      "release_date": "2025-10-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, msft-20251028.htm, acc 0001193125-25-256310",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/microsoft/CY2026-Q1/cdn-dynmedia-1.microsoft.com.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/microsoft/CY2026-Q1/Microsoft-Q1-2026-Earnings-Call-Transcript-MotleyFool.html"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

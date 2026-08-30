@@ -1,0 +1,215 @@
+{
+  "document_id": "LNVGY_FQ3_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports record revenue and strong adjusted profit growth, with AI becoming a leading growth engine and all business groups growing double-digit. Management expresses confidence in future AI-driven growth and profitability, and the ISG restructuring is expected to deliver significant savings and a return to profitability, indicating a positive forward trajectory. However, there is no explicit formal guidance raise beyond these qualitative commitments, and the reported net income declined due to one-time charges, so the score is moderately positive rather than higher."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "US$22.2 billion, up 18% year-on-year, an all-time fiscal quarter high.",
+    "eps": "Basic earnings per share of 4.44 US cents, down 22% year-on-year from 5.66 US cents.",
+    "guidance": "Management expects the ISG restructuring to deliver annual run-rate savings of over US$200 million over the next three years and to return ISG to profitability by 4QFY25/26. The company aims to continue driving Hybrid AI to capture AI democratization opportunities, accelerate growth, and improve profitability.",
+    "margin": "Gross profit margin was 15.1%, down 0.6 points year-on-year. Operating margin was 4.3%, up from 3.7%. Adjusted net income margin expanded to 2.7% from 2.3%.",
+    "key_risks": [
+      "Industry-wide component supply shortages and rising costs.",
+      "One-time restructuring charges of US$285 million in Q3 FY25/26.",
+      "Reported net income declined 21% year-on-year due to non-operating non-cash items and one-time charges.",
+      "Forward-looking statements are subject to risks including economic and business conditions, consumer demand, pricing trends, competition, and changes in laws and regulations."
+    ],
+    "key_opportunities": [
+      "AI-related revenue grew 72% year-on-year, representing 32% of total Group revenue.",
+      "AI server business has a robust US$15.5 billion pipeline.",
+      "Neptune liquid-cooling revenue grew 300% year-on-year.",
+      "SSG is growing at double the rate of market growth in areas like Digital Workplace Services, Hybrid Cloud, AI, and Sustainability.",
+      "New product launches and innovations at Tech World, including Lenovo Qira and AI Cloud Gigafactory with NVIDIA."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes the quarter as 'outstanding' and 'exceptional,' and the CEO states the company will 'continue to drive Hybrid AI to capture the significant opportunities brought by AI democratization, accelerate growth, improve profitability, and deliver long-term value to our shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue reached an all-time fiscal quarter high of US$22.2 billion, up 18% year-on-year.",
+      "quote": "During the quarter, overall group revenue reached an all-time fiscal quarter high of US$22.2 billion, up 18% year-on-year, with revenue from all business groups growing double-digit year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted net income increased 36% year-on-year to US$589 million.",
+      "quote": "Excluding non-operating noncash items and one-time gains and charges in Q3 FY24/25 and Q3 FY25/26, adjusted net income (profit attributable to equity holders – non-HKFRS)[1] increased by 36% year-on-year to US$589 million, with adjusted net income margin[1] expanding to 2.7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic earnings per share was 4.44 US cents, down 22% year-on-year.",
+      "quote": "Basic earnings per share (US cents) 4.44 5.66 (22%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross profit margin was 15.1%, down 0.6 points year-on-year.",
+      "quote": "Gross profit margin 15.1% 15.7% (0.6) pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin improved to 4.3% from 3.7%.",
+      "quote": "Operating Margin 3.7% 4.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted net income margin expanded to 2.7% from 2.3%.",
+      "quote": "Adjusted Net Income Margin 2.3% 2.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-related revenue grew 72% year-on-year and represents 32% of total Group revenue.",
+      "quote": "AI has become a leading multi-year growth engine for the Group, with AI-related revenue growing 72 percent year-on-year to represent nearly a third (32%) of overall Group revenue, driven by strong demand across AI devices, infrastructure, services, and solutions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ISG restructuring charges were US$285 million in Q3 FY25/26.",
+      "quote": "The Group undertook a strategic restructuring of its ISG business, resulting in one-time restructuring charges in Q3 FY25/26 of US$285 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ISG restructuring is expected to deliver annual run-rate savings of over US$200 million over the next three years.",
+      "quote": "The optimized cost structure, streamlined product portfolio, and strengthened sales organization are expected to deliver annual run-rate savings of over US$200 million over the next three years and accelerate the transformation towards profitable and sustainable growth for ISG.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ISG is expected to return to profitability by 4QFY25/26.",
+      "quote": "Expecting profitability by 4QFY with projected run rate net savings of US$200M+",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI server business has a robust US$15.5 billion pipeline.",
+      "quote": "AI Server business achieved high double-digit YoY revenue growth with a robust $15.5B pipeline;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Neptune liquid-cooling revenue grew 300% year-on-year.",
+      "quote": "Neptune liquid-cooling revenue +300% YoY , supported by higher customer adoption",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SSG is growing at double the rate of market growth in key areas.",
+      "quote": "In areas such as Digital Workplace Services, Hybrid Cloud, AI and Sustainability, SSG is growing at double the rate of market growth – enabling the business to scale revenue sustainably.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Lenovo delivered an outstanding performance across all fronts in the third fiscal quarter, with all main businesses achieving strong double-digit revenue growth and AI becoming a leading growth engine.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported net income declined 21% year-on-year.",
+      "quote": "Net Income (Profit attributable to equity holders) 546 693 (21%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Component supply shortages and rising costs are a market challenge.",
+      "quote": "By leveraging our operational excellence, we effectively navigated market challenges of component cost increases and supply shortages, delivered our commitment of gaining market share and improving profitability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward-looking statements are subject to risks including economic conditions and competition.",
+      "quote": "These factors include, without limitation, economic and business conditions globally and in the countries where we operate, Lenovo’s ability to predict and respond quickly to market developments, consumer demand, pricing trends and competition; changes in applicable laws and regulations (including applicable tax and tariff rates).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on qualitative forward commitments (ISG profitability, savings) rather than a formal quantitative guidance raise; a reviewer may want to confirm this aligns with the intended calibration."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is qualitative and forward-looking; no specific numeric revenue or EPS guidance was provided, so the summary relies on management's stated expectations."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LNVGY_Bundled Earnings Report_2026-02-12",
+  "report_metadata": {
+    "issuer": "p2_lenovo",
+    "company": "Lenovo",
+    "ticker": "LNVGY",
+    "sector": "Technology/Computer Hardware",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2026-02-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q3\\Lenovo_Q3_FY2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q3\\Lenovo_Q3_FY2026_Presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LNVGY_FQ3_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100740Z",
+    "timestamp": "2026-08-09T10:08:20Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q3\\Lenovo_Q3_FY2026_Press_Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lenovo\\extracted\\LNVGY_FQ3_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q3\\Lenovo_Q3_FY2026_Press_Release.pdf",
+        "page_count": 4,
+        "extracted_characters": 10589,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q3\\Lenovo_Q3_FY2026_Presentation.pdf",
+        "page_count": 31,
+        "extracted_characters": 19564,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lenovo\\extracted\\LNVGY_FQ3_2026.txt"
+  }
+}

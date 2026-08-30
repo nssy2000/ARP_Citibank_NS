@@ -1,0 +1,217 @@
+{
+  "document_id": "TGT_FQ4_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a mixed quarter with net sales down 1.5% and comparable sales down 2.5%, but adjusted EPS of $2.44 was in line with expectations and slightly above last year. Forward guidance for 2026 is modest: net sales growth around 2%, operating income margin rate approximately 20 basis points higher, and GAAP/Adjusted EPS of $7.50 to $8.50, which is below the full-year 2025 adjusted EPS of $7.57 at the midpoint. Management expresses confidence in momentum, citing a healthy sales increase in February, but the guidance is not raised materially and remains cautious, resulting in a slightly positive but subdued score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Fourth quarter net sales of $30.5 billion, down 1.5% from Q4 2024. Full-year net sales decreased 1.7% to $104.8 billion.",
+    "eps": "Fourth quarter GAAP EPS of $2.30, Adjusted EPS of $2.44 (up 1.5% from $2.41 last year). Full-year GAAP EPS of $8.13, Adjusted EPS of $7.57 (down 14.5% from $8.86 last year).",
+    "guidance": "Full-year 2026: net sales growth around 2%, operating income margin rate approximately 20 basis points higher than 2025's 4.6% adjusted margin, GAAP and Adjusted EPS of $7.50 to $8.50. Q1 2026 EPS expected flat to up slightly from last year's $1.30.",
+    "margin": "Fourth quarter gross margin rate 26.6% (up from 26.2% last year). Adjusted operating income margin rate 4.8% (up from 4.7% last year). Full-year gross margin rate 27.9% (down from 28.2% last year). Full-year adjusted operating income margin rate 4.6% (down from 5.2% last year).",
+    "key_risks": [
+      "Full-year net sales decreased 1.7% and comparable sales decreased 2.6%.",
+      "Full-year GAAP EPS declined 8.2% and Adjusted EPS declined 14.5%.",
+      "Full-year gross margin rate declined from 28.2% to 27.9% due to higher markdowns and purchase order cancellation costs.",
+      "After-tax ROIC declined from 15.4% to 13.8%.",
+      "Net interest expense increased due to higher average debt levels.",
+      "Forward-looking statements subject to risks and uncertainties described in the Form 10-K."
+    ],
+    "key_opportunities": [
+      "Non-merchandise sales grew over 25%, with membership revenue more than doubling, double-digit growth from Roundel, and over 30% growth in marketplace.",
+      "Same-day delivery powered by Target Circle 360 grew over 30%.",
+      "Sales and traffic trends accelerated in the last two months of the quarter.",
+      "Target saw a healthy, positive sales increase in February, serving as an important milestone on the path back to growth.",
+      "Fourth quarter gross margin rate improved to 26.6% from 26.2%, reflecting lower inventory shrink, lower supply chain and digital fulfillment costs, and growth in advertising and other revenues.",
+      "Adjusted operating income in Q4 was slightly above last year."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Michael Fiddelke states, 'I'm incredibly proud of how our team navigated through a challenging year... reinforcing my confidence in the momentum we're building and the future we're creating together.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Fourth quarter net sales were $30.5 billion, down 1.5% from Q4 2024.",
+      "quote": "Fourth quarter 2025 net sales of $30.5 billion were 1.5 percent lower than Q4 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year net sales decreased 1.7% to $104.8 billion.",
+      "quote": "Full-year net sales decreased 1.7 percent to $104.8 billion from $106.6 billion last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter GAAP EPS was $2.30, Adjusted EPS was $2.44.",
+      "quote": "The Company reported fourth-quarter GAAP earnings per share (EPS) of $2.30 and Adjusted EPS of $2.44, compared with GAAP and Adjusted EPS of $2.41 in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year GAAP EPS was $8.13, Adjusted EPS was $7.57.",
+      "quote": "GAAP EPS was $8.13 and Adjusted EPS was $7.57 for full-year 2025, compared with GAAP and Adjusted EPS of $8.86 in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance: net sales growth around 2%, operating income margin rate approximately 20 basis points higher, GAAP and Adjusted EPS of $7.50 to $8.50.",
+      "quote": "The Company has the following expectations for 2026: Net sales growth in a range around 2 percent compared with 2025. ... Full-year 2026 operating income margin rate approximately 20 basis points higher than the 4.6 percent Adjusted operating income margin rate in 2025. ... GAAP and Adjusted EPS of $7.50 to $8.50.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 EPS expected flat to up slightly from last year's $1.30.",
+      "quote": "The company expects Q1 GAAP and Adjusted EPS will be flat to up slightly from last year's Adjusted EPS of $1.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter gross margin rate was 26.6%, up from 26.2% last year.",
+      "quote": "Fourth quarter gross margin rate was 26.6 percent, compared with 26.2 percent in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year gross margin rate was 27.9%, down from 28.2% last year.",
+      "quote": "Full-year gross margin rate was 27.9 percent, compared with 28.2 percent in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter adjusted operating income margin rate was 4.8%, up from 4.7% last year.",
+      "quote": "Excluding those non-recurring items, Adjusted operating income margin rate was 4.8 percent in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted operating income margin rate was 4.6%, down from 5.2% last year.",
+      "quote": "Adjusted operating income margin rate, which excludes non-recurring legal settlement gains and business transformation costs, was $4,775 million and 4.6% for full-year 2025, compared with $5,566 million and 5.2% for full-year 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-merchandise sales grew over 25%, with membership revenue more than doubling.",
+      "quote": "Non-merchandise sales grew over 25 percent with membership revenue more than doubling from a year ago, double-digit growth from Roundel and over 30 percent growth in marketplace.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day delivery powered by Target Circle 360 grew over 30%.",
+      "quote": "Same-day delivery powered by Target Circle 360 grew over 30 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and traffic trends accelerated in the last two months of the quarter.",
+      "quote": "Sales and traffic trends accelerated in the last two months of the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Target saw a healthy, positive sales increase in February.",
+      "quote": "Target saw a healthy, positive sales increase in February, serving as an important milestone on our path back to growth this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year gross margin rate decline was driven by higher markdowns and purchase order cancellation costs.",
+      "quote": "Full-year gross margin rate was 27.9 percent, compared with 28.2 percent in 2024, reflecting pressures from merchandising activities, driven primarily by higher markdowns and purchase order cancellation costs, and pressure from category mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "After-tax ROIC declined from 15.4% to 13.8%.",
+      "quote": "For the trailing twelve months through fourth quarter 2025, after-tax return on invested capital (ROIC) was 13.8 percent, compared with 15.4 percent for the twelve months through fourth quarter 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest expense increased due to higher average debt levels.",
+      "quote": "For both the fourth quarter and the full-year, the increased expense reflects higher average debt levels in the current year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I'm incredibly proud of how our team navigated through a challenging year in 2025, as they focused on serving our guests while positioning our business for profitable growth in 2026 and beyond... reinforcing my confidence in the momentum we're building and the future we're creating together.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance is modest and not raised materially.",
+      "quote": "The Company has the following expectations for 2026: Net sales growth in a range around 2 percent compared with 2025. ... GAAP and Adjusted EPS of $7.50 to $8.50.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year Adjusted EPS declined 14.5% from $8.86 to $7.57.",
+      "quote": "Adjusted EPS of $7.57 and in line with company expectations. ... Adjusted EPS $7.57 vs $8.86, change (14.5)%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.10 is slightly positive but the guidance midpoint ($8.00) is below the prior year's adjusted EPS ($7.57) only slightly above, and the forward revenue growth is modest (2%). The score could be argued as 0.0 given the cautious guidance range. Reviewer should confirm the balance between the positive February sales mention and the flat-to-down guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2026-03-03",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-03-03",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2025-Q4\\tgt-4q25-press-release.html",
+        "pub_date": "2026-03-03"
+      }
+    ],
+    "document_id": "TGT_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:52:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2025-Q4\\tgt-4q25-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2025-Q4\\tgt-4q25-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 26080,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2025.txt"
+  }
+}

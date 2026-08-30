@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_sony",
+  "reports": [
+    {
+      "document_id": "SONY_FQ2_2025",
+      "issuer": "p2_sony",
+      "company": "Sony",
+      "ticker": "SONY",
+      "sector": "Technology/Consumer Electronics",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-11-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Sony Q2 FY2025 results (Jul-Sep 2025 quarter), source from Tokyo Stock Exchange TDnet or Sony IR (~Nov 2025). URL: https://www.sony.com/en/SonyInfo/IR/",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/sony/CY2025-Q2/SONY_Q2_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/sony/CY2025-Q2/SONY_Q2_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SONY_FQ3_2025",
+      "issuer": "p2_sony",
+      "company": "Sony",
+      "ticker": "SONY",
+      "sector": "Technology/Consumer Electronics",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2026-02-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Sony Q3 FY2025 results (Oct-Dec 2025 quarter), source from Tokyo Stock Exchange TDnet or Sony IR (~Feb 2026)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/sony/CY2025-Q3/SONY_Q3_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/sony/CY2025-Q3/SONY_Q3_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "SONY_FQ1_2026",
+      "issuer": "p2_sony",
+      "company": "Sony",
+      "ticker": "SONY",
+      "sector": "Technology/Consumer Electronics",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-08-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Sony Q1 FY2026 results (Apr-Jun 2026 quarter), source from Tokyo Stock Exchange TDnet or Sony IR (~Aug 2026). Note: Sony FY2026 starts Apr 2026.",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/sony/CY2026-Q1/SONY_Q1_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/sony/CY2026-Q1/SONY_Q1_2026_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "Confirmed pre_market from exchange timestamps \u2014 see outputs/global/summary/non_us_release_timing_extension.csv (all events release 3-7h before respective session open). Confirmed 2026-08-13.",
+    "retrieval_date": "2026-08-13"
+  }
+}

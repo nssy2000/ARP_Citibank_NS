@@ -1,0 +1,257 @@
+{
+  "document_id": "CRM_FQ4_2026",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "Salesforce delivered a record quarter with strong results and raised its FY30 revenue target from $60B to $63B, indicating increased confidence in long-term growth. However, FY27 revenue guidance of 10-11% growth is roughly in line with FY26's 10% growth, and management explicitly cited continued weakness in marketing, commerce, and Tableau as offsets. The guidance raise is partly attributed to the Informatica acquisition, not purely organic, so the score is positive but not at the highest level."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 FY26 revenue of $11.2 billion, up 12% Y/Y (10% CC); FY26 revenue of $41.5 billion, up 10% Y/Y (9% CC).",
+    "eps": "Q4 FY26 GAAP diluted EPS of $2.07; FY26 GAAP diluted EPS of $7.80. Non-GAAP diluted EPS of $3.81 for Q4 and $12.52 for FY26.",
+    "guidance": "FY27 revenue guidance of $45.8-$46.2 billion, up 10-11% Y/Y; Q1 FY27 revenue of $11.03-$11.08 billion; FY27 non-GAAP operating margin of 34.3%; FY27 operating cash flow growth of approximately 9-10% Y/Y; FY30 revenue target raised to $63 billion.",
+    "margin": "FY26 GAAP operating margin of 20.1% and non-GAAP operating margin of 34.1%; Q4 GAAP operating margin of 16.7% and non-GAAP of 34.2%; FY27 guidance of 20.9% GAAP and 34.3% non-GAAP.",
+    "key_risks": [
+      "Continued weakness in marketing and commerce",
+      "Weaker than expected Tableau performance",
+      "On-prem revenue timing in Tableau and MuleSoft",
+      "Q4 revenue attrition at approximately 8%",
+      "Uncertainties regarding AI technologies and their integration",
+      "Risks associated with the Informatica acquisition",
+      "Macroeconomic volatility and geopolitical events"
+    ],
+    "key_opportunities": [
+      "Agentforce ARR reached $800 million, up 169% Y/Y",
+      "Agentforce and Data 360 ARR exceeds $2.9 billion, up over 200% Y/Y",
+      "2.4 billion Agentic Work Units delivered to date",
+      "19 trillion tokens processed, up 5x Y/Y",
+      "29,000 Agentforce deals closed, up 50% Q/Q",
+      "More than 60% of Agentforce and Data 360 Q4 bookings from existing customer expansion",
+      "Informatica contribution to revenue and RPO",
+      "New $50 billion share repurchase authorization"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used superlatives like 'phenomenal quarter,' 'record fiscal 2026,' and 'incredible milestone,' and expressed confidence in re-accelerating organic revenue growth in H2 FY27."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 FY26 revenue was $11.2 billion, up 12% Y/Y.",
+      "quote": "Fourth quarter revenue of $11.2 billion, up 12% Y/Y and 10% in CC, including $399 million Informatica contribution",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 revenue was $41.5 billion, up 10% Y/Y.",
+      "quote": "FY26 revenue of $41.5 billion, up 10% Y/Y and 9% in CC, including $399 million Informatica contribution",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY26 GAAP diluted EPS was $2.07.",
+      "quote": "Diluted net income per share (3) $ 2.07 $ 1.75 $ 7.80 $ 6.36",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 GAAP diluted EPS was $7.80.",
+      "quote": "Diluted net income per share (3) $ 2.07 $ 1.75 $ 7.80 $ 6.36",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY27 revenue guidance is $45.8-$46.2 billion, up 10-11% Y/Y.",
+      "quote": "Initiates full year FY27 revenue guidance of $45.8 billion to $46.2 billion, up 10% - 11% Y/Y and in CC, including approximately 3pts Informatica contribution",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY30 revenue target raised to $63 billion.",
+      "quote": "Raises full year FY30 revenue target to $63 billion including Informatica",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 GAAP operating margin was 20.1% and non-GAAP was 34.1%.",
+      "quote": "FY26 GAAP operating margin of 20.1% and non-GAAP operating margin of 34.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY27 non-GAAP operating margin guidance is 34.3%.",
+      "quote": "Initiates full year FY27 GAAP operating margin guidance of 20.9%, and non-GAAP operating margin guidance of 34.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentforce ARR reached $800 million, up 169% Y/Y.",
+      "quote": "Agentforce ARR reached $800 million, up 169% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentforce and Data 360 ARR exceeds $2.9 billion, up over 200% Y/Y.",
+      "quote": "Agentforce and Data 360 annual recurring revenue (\"ARR\") exceeds $2.9 billion, up over 200% Y/Y, including $1.1 billion Informatica Cloud ARR and $800 million Agentforce ARR, up 169% Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2.4 billion Agentic Work Units delivered to date.",
+      "quote": "Introduced Agentic Work Units (\"AWUs\") to measures tasks accomplished by an AI Agent, with 2.4 billion AWUs delivered to date across Agentforce and Slack, growing 57% quarter-over-quarter (\"Q/Q\")",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "19 trillion tokens processed to date, up 5x Y/Y.",
+      "quote": "Salesforce has processed more than 19 trillion tokens to date, up 5x Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "29,000 Agentforce deals closed, up 50% Q/Q.",
+      "quote": "Salesforce has closed over 29,000 Agentforce deals since launch, up 50% Q/Q",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "More than 60% of Agentforce and Data 360 Q4 bookings came from existing customer expansion.",
+      "quote": "More than 60% of Agentforce and Data 360 Q4 bookings came from existing customer expansion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Informatica contributed $399 million to FY26 revenue.",
+      "quote": "FY26 revenue of $41.5 billion, up 10% Y/Y and 9% in CC, including $399 million Informatica contribution",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New $50 billion share repurchase authorization announced.",
+      "quote": "Announces $50 billion share repurchase program authorization, replacing all previously unused authorizations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in re-accelerating organic revenue growth in H2 FY27.",
+      "quote": "Our performance makes us even more confident in our path to reaccelerate organic revenue growth in H2 FY27.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued weakness in marketing and commerce is a headwind.",
+      "quote": "This strong performance was partially offset by continued weakness in marketing and commerce, weaker than expected Tableau performance, and the on-prem revenue timing in Tableau and MuleSoft we shared last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 revenue attrition ended the year at approximately 8%.",
+      "quote": "Q4 revenue attrition ended the year at approximately 8%, in line with recent trends.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered a phenomenal quarter to close out a record fiscal 2026, delivering $41.5 billion in revenue, up 10% year-over-year and we passed an incredible milestone, with $72 billion in total RPO, up 14% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.35 reflects a positive but not maximal sentiment; the FY30 target raise is partly attributed to Informatica, and FY27 guidance is roughly in line with FY26 growth. Verify that the score appropriately balances these factors."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document lists several risks in the safe harbor statement; only the most directly relevant operational risks were included. A reviewer may want to confirm completeness."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CRM_Bundled Earnings Report_2026-02-25",
+  "report_metadata": {
+    "issuer": "p2_salesforce",
+    "company": "Salesforce",
+    "ticker": "CRM",
+    "sector": "Technology/Software - Application",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2026",
+    "report_date": "2026-02-25",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q4\\CRM_Q4_FY26_Investor_Deck.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q4\\CRM_Q4_FY26_Earnings_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CRM_FQ4_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T102832Z",
+    "timestamp": "2026-08-09T10:29:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_salesforce\\extracted\\CRM_FQ4_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 45613,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q4\\CRM_Q4_FY26_Investor_Deck.pdf",
+        "page_count": 26,
+        "extracted_characters": 18484,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q4\\CRM_Q4_FY26_Earnings_Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 74460,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_salesforce\\extracted\\CRM_FQ4_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call",
+    "Earnings Call Transcript: missing_pattern:speaker_labels"
+  ]
+}

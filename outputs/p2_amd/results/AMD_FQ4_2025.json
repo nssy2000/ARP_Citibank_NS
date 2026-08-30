@@ -1,0 +1,178 @@
+{
+  "document_id": "AMD_FQ4_2025",
+  "sentiment": {
+    "score": 0.75,
+    "rationale": "The document reports a clean beat and raise: Q4 revenue of $10.3B beat the roughly $9.7B consensus, and Q1 2026 revenue guidance of ~$9.8B is ahead of the ~$9.4B consensus. Management explicitly states 'significant top and bottom line growth in 2026' and reaffirms a path to >35% CAGR over 3-5 years. The only material risks are China GPU uncertainty and a semi-custom gaming decline, but these are secondary to the strong forward guidance."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 revenue $10.3B, up 34% year over year and 11% sequentially. Full-year revenue $34.6B, up 34%.",
+    "eps": "Q4 diluted EPS $1.53, up 40% year over year. Full-year EPS $4.17, up 26%.",
+    "guidance": "Q1 2026 revenue guided to approximately $9.8B plus or minus $300M, ahead of the roughly $9.4B consensus. Management expects 'significant top and bottom line growth in 2026' and reaffirms a path to >35% CAGR over 3-5 years.",
+    "margin": "Q4 gross margin 57%, up 290 basis points year over year. Excluding a $306M inventory reserve release and China MI308 revenue, gross margin would have been approximately 55%, up 80 bps year over year. Q1 2026 gross margin guided to approximately 55%.",
+    "key_risks": [
+      "China GPU sales are highly uncertain; only $100M assumed in Q1 guide and no additional revenue forecasted.",
+      "Semi-custom gaming revenue expected to decline a significant double-digit percentage in 2026.",
+      "PC headwinds from memory and component inflation, with the second half modeled subseasonal."
+    ],
+    "key_opportunities": [
+      "Data center AI business accelerating with MI350 series ramp and MI450/Helios inflection in second half 2026.",
+      "Server CPU demand surging, with EPYC order book strengthening and Q1 server CPU revenue expected to grow sequentially despite seasonal decline.",
+      "Client business growing via enterprise share gains and premium product mix.",
+      "Embedded segment returning to growth with record design wins ($17B in 2025)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like '2025 was a defining year,' 'we are entering a multiyear demand super cycle,' and 'we see a clear path to achieve the ambitious targets,' indicating strong conviction in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenue was $10.3B, up 34% year over year.",
+      "quote": "fourth quarter revenue grew 34% year over year to $10.3 billion led by record EPYC, Ryzen, and Instinct processor sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 diluted EPS was $1.53, up 40% year over year.",
+      "quote": "diluted earnings per share was a record $1.53, an increase of 40% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guidance of ~$9.8B is ahead of the ~$9.4B consensus.",
+      "quote": "We expect revenue to be approximately $9.8 billion plus or minus $300 million including approximately $100 million of MI308 sales to China. At the midpoint of our guidance, revenue is expected to be up 32% year over year... ahead of the roughly $9.4B consensus",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects significant top and bottom line growth in 2026.",
+      "quote": "we expect significant top-line and bottom-line growth in 2026, led by increased adoption of EPYC and Instinct, continued client share gains, and a return to growth in our Embedded segment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross margin was 57%, up 290 bps year over year.",
+      "quote": "Gross margin was 57%, up 290 basis points year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China GPU sales are highly uncertain; only $100M assumed in Q1 guide.",
+      "quote": "We are not forecasting any additional revenue from China just because it's a very dynamic situation... we thought it prudent, not to forecast any additional revenue other than the $100 million that we called out.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Semi-custom gaming revenue expected to decline a significant double-digit percentage in 2026.",
+      "quote": "For 2026, we expect semi-custom SoC annual revenue to decline by a significant double-digit percentage as we enter the seventh year of what has been a very strong console cycle.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PC headwinds from memory and component inflation, with second half modeled subseasonal.",
+      "quote": "we're probably seeing the PC TAM down a bit just given some of the inflationary pressures of the commodities pricing, including memory. The way we are modeling the year is, let's call it, second half a bit subseasonal to first half.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data center AI business accelerating with MI350 ramp and MI450 inflection.",
+      "quote": "our AI business is accelerating. With the launch of MI400 series and Helios representing a major inflection point for the business as we deliver leadership performance and TCO at the chip, compute tray, and rack level.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Server CPU demand surging, with Q1 server CPU revenue expected to grow sequentially.",
+      "quote": "we see server CPU growing from Q4 into Q1 in what normally is seasonally down. And that continues throughout the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Embedded segment returning to growth with record design wins.",
+      "quote": "We closed $17 billion in design wins in 2025, up nearly 20% year over year as we now won more than $50 billion of embedded designs since acquiring Xilinx.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "2025 was a defining year for Advanced Micro Devices, Inc. With record revenue, net income, and free cash flow driven by broad-based demand for our high-performance computing and AI products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The sentiment score of 0.75 is based on the guidance raise and strong forward language, but the document also notes that the Q4 beat included a $306M inventory reserve release and $390M in China MI308 revenue that were not in guidance. The score may be slightly elevated if these one-time items are considered non-recurring. A human reviewer should assess whether the organic beat is as strong as the headline suggests."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMD_Bundled Earnings Report_2026-02-03",
+  "report_metadata": {
+    "issuer": "p2_amd",
+    "company": "AMD",
+    "ticker": "AMD",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-03",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q4\\06 amd q4 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q4\\AMD-Q4-2025-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMD_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172131Z",
+    "timestamp": "2026-07-30T17:22:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q4\\06 amd q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q4\\06 amd q4 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5528,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2025-Q4\\AMD-Q4-2025-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "page_count": 1,
+        "extracted_characters": 52430,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ4_2025.txt"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "document_id": "ORCL_FQ1_2026_QUANT",
+  "base_document_id": "ORCL_FQ1_2026",
+  "issuer": "p2_oracle",
+  "ticker": "ORCL",
+  "sector": "Technology/Software - Infrastructure",
+  "report_date": "2025-09-09",
+  "sentiment": {
+    "score": -0.154222
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.043747,
+      "window_start_date": "2025-08-07",
+      "window_end_date": "2025-09-08",
+      "score": -0.283648,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.387279,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -0.62,
+      "matched_earnings_date": "2025-09-09",
+      "score": -0.024795,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 15.04,
+      "vix_score": 0.258033,
+      "tnx_change": -0.211,
+      "tnx_score": 0.398614,
+      "score": 0.328323,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-09-08",
+      "curve_spread": 0.56,
+      "curve_score": 0.507977,
+      "curve_as_of": "2025-09-08",
+      "score": 0.253989,
+      "available": true
+    },
+    "quant_score": -0.154222,
+    "quant_score_with_macro": 0.08705,
+    "quant_score_with_fred": 0.049884,
+    "quant_score_with_macro_fred": 0.142697
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

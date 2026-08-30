@@ -1,0 +1,249 @@
+{
+  "document_id": "JPM_FQ2_2024",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document reports strong backward-looking results (record revenue and net income) but forward guidance for FY2024 NII, adjusted expense, and Card NCO rate is reaffirmed unchanged from prior guidance. Management explicitly maintains the 'overearning narrative' and flags multiple tail risks (geopolitical, inflationary, QT effects) with cautious language. The Q&A confirms no upward revision to ROTCE target and emphasizes patience on capital deployment. The unchanged guidance and cautious forward tone anchor the score at neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $50.2 billion; managed revenue of $51.0 billion, up 20% YoY.",
+    "eps": "Reported EPS of $6.12; excluding significant items, EPS of $4.40.",
+    "guidance": "FY2024 NII and NII ex. Markets of ~$91B, adjusted expense of ~$92B, Card Services NCO rate of ~3.4% — all reaffirmed unchanged from prior guidance.",
+    "margin": "Reported overhead ratio of 47%; managed overhead ratio of 47%; ROTCE 28%; ROTCE ex. significant items 20%.",
+    "key_risks": [
+      "Geopolitical situation 'potentially the most dangerous since World War II' with unknown outcome and effect on global economy.",
+      "Inflation and interest rates may stay higher than market expects due to fiscal deficits, infrastructure needs, trade restructuring, and remilitarization.",
+      "Unknown full effects of quantitative tightening on this scale.",
+      "Deposit margin compression and lower deposit balances across LOBs.",
+      "Credit normalization continues, with Card Services net charge-off rate rising (3.50% vs 2.41% YoY).",
+      "Regulatory uncertainty from Basel III Endgame and stress capital buffer volatility.",
+      "Pull-forward refinancing risk in DCM; M&A remains muted.",
+      "Loan demand muted outside Card; revolver utilization below pre-pandemic levels."
+    ],
+    "key_opportunities": [
+      "Investment banking fees up 50% YoY; #1 ranking with 9.5% YTD wallet share.",
+      "Markets revenue up 10% YoY, with Equity Markets up 21%.",
+      "Card Services strong customer acquisition (2.4 million) and loan growth (12%).",
+      "AWM net inflows of $79 billion; AUM up 15% YoY.",
+      "CCB opened 450k+ net new checking accounts for 50th consecutive quarter.",
+      "Excess capital with CET1 ratio of 15.3% provides flexibility for dividends and buybacks."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in underlying performance ('the underlying performance continues to be quite strong') but simultaneously emphasizes caution on the outlook ('we continue to be vigilant about potential tail risks') and reaffirms unchanged guidance, creating a balanced tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $50.2 billion; managed revenue of $51.0 billion, up 20% YoY.",
+      "quote": "Net revenue - reported $ 50,200 ... Net revenue - managed 50,992 ... Net revenue - managed $ 51.0 billion, up 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS of $6.12; excluding significant items, EPS of $4.40.",
+      "quote": "Earnings per share - diluted $ 6.12 ... Excluding these items resulted in a decrease of $5.0 billion (after tax) to reported net income from $18.1 billion to $13.1 billion, a decrease of $1.72 per share to reported EPS from $6.12 to $4.40.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2024 NII and NII ex. Markets of ~$91B, adjusted expense of ~$92B, Card Services NCO rate of ~3.4% — all reaffirmed unchanged from prior guidance.",
+      "quote": "Our 2024 guidance including the drivers remains unchanged from what we said at Investor Day. We continue to expect NII and NII ex. Markets of approximately $91 billion, adjusted expense of about $92 billion, and on credit, Card net charge-off rate of approximately 3.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 47%; managed overhead ratio of 47%; ROTCE 28%; ROTCE ex. significant items 20%.",
+      "quote": "Expense of $23.7 billion, including a $1.0 billion donation of Visa shares to pre-fund contributions to the Firm's Foundation; reported overhead ratio of 47%; managed overhead ratio of 47% ... ROTCE 28% ROTCE ex. significant items 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical situation 'potentially the most dangerous since World War II' with unknown outcome and effect on global economy.",
+      "quote": "The geopolitical situation remains complex and potentially the most dangerous since World War II — though its outcome and effect on the global economy remain unknown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflation and interest rates may stay higher than market expects due to fiscal deficits, infrastructure needs, trade restructuring, and remilitarization.",
+      "quote": "Next, there has been some progress bringing inflation down, but there are still multiple inflationary forces in front of us: large fiscal deficits, infrastructure needs, restructuring of trade and remilitarization of the world. Therefore, inflation and interest rates may stay higher than the market expects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unknown full effects of quantitative tightening on this scale.",
+      "quote": "And finally, we still do not know the full effects of quantitative tightening on this scale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit margin compression and lower deposit balances across LOBs.",
+      "quote": "Net interest income ... up 3%, driven by the impact of balance sheet mix and higher rates, higher revolving balances in Card Services and one additional month of First Republic-related net interest income, largely offset by deposit margin compression across the LOBs and lower deposit balances in CCB.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit normalization continues, with Card Services net charge-off rate rising (3.50% vs 2.41% YoY).",
+      "quote": "Card Services net charge-off rate of 3.50% ... Net charge-offs of $2.1 billion were up $813 million, predominantly driven by Card Services as newer vintages season and credit normalization continues.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Regulatory uncertainty from Basel III Endgame and stress capital buffer volatility.",
+      "quote": "We now have a CET1 capital ratio of 15.3%, providing us with excess capital even after the uncertainty created by Basel III endgame ... it's volatile, it's untransparent, it makes it very hard to manage capital of a bank. It leads to excessively high management buffers, and we think it's really not a great way to do things.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pull-forward refinancing risk in DCM; M&A remains muted.",
+      "quote": "Importantly, a lot of the activity is refinancing activity as opposed to, for example, acquisition finance. So, the fact that M&A remains still relatively muted in terms of actual deals has knock-on effects on DCM as well. And when a higher percentage of the wallet is refied, then the pull-forward risk becomes a little bit higher.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loan demand muted outside Card; revolver utilization below pre-pandemic levels.",
+      "quote": "Demand for new loans remains muted as middle market and large corporate clients remain somewhat cautious due to the economic environment, and revolver utilization continues to be below pre-pandemic levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees up 50% YoY; #1 ranking with 9.5% YTD wallet share.",
+      "quote": "Investment Banking fees were up 50%, driven by higher fees across all products ... #1 ranking for Global Investment Banking fees with 9.5% wallet share YTD.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenue up 10% YoY, with Equity Markets up 21%.",
+      "quote": "Markets revenue up 10%, with Fixed Income Markets up 5% and Equity Markets up 21%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card Services strong customer acquisition (2.4 million) and loan growth (12%).",
+      "quote": "Card loans were up 12% on continued robust customer acquisition of 2.4 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM net inflows of $79 billion; AUM up 15% YoY.",
+      "quote": "we saw $79 billion of client asset net inflows ... AUM of $3.7 trillion, up 15%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CCB opened 450k+ net new checking accounts for 50th consecutive quarter.",
+      "quote": "In CCB, we opened over 450 thousand net new checking accounts, our 50th consecutive quarter of net new account growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excess capital with CET1 ratio of 15.3% provides flexibility for dividends and buybacks.",
+      "quote": "We now have a CET1 capital ratio of 15.3%, providing us with excess capital even after the uncertainty created by Basel III endgame ... Last month, we announced that the Board intends to increase our common dividend for the second time this year, resulting in a 19% cumulative increase compared with the fourth quarter of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in underlying performance but also emphasizes caution on the outlook.",
+      "quote": "the underlying performance continues to be quite strong ... we continue to be vigilant about potential tail risks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance is unchanged from prior guidance.",
+      "quote": "Our 2024 guidance including the drivers remains unchanged from what we said at Investor Day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is 0.00 despite strong backward results because guidance is unchanged and management tone is cautious. A reviewer may wish to confirm that the unchanged guidance and cautious language are correctly weighted relative to the strong reported quarter."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2024-07-12",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-07-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q2\\jpm-2q24-press-release.pdf",
+        "pub_date": "2024-07-12"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q2\\jpm-2q24-presentation.pdf",
+        "pub_date": "2024-07-12"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q2\\jpm-2q24-earnings-call-transcript.pdf",
+        "pub_date": "2024-07-12"
+      }
+    ],
+    "document_id": "JPM_FQ2_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T131706Z",
+    "timestamp": "2026-07-08T13:19:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q2\\jpm-2q24-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q2\\jpm-2q24-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 29295,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q2\\jpm-2q24-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 24342,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2024-Q2\\jpm-2q24-earnings-call-transcript.pdf",
+        "page_count": 15,
+        "extracted_characters": 73769,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2024.txt"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "document_id": "STAN.L_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company delivered a strong operational quarter with double-digit income growth in key segments and raised its underlying EPS, but forward guidance for 2025 was explicitly held below the medium-term range and the 2023-2026 CAGR target was merely reaffirmed as 'tracking towards the upper end.' Management language is confident on long-term prospects but explicitly 'watchful' of macro volatility and trade tariffs, which tempers the forward outlook. The score reflects genuine operational momentum without a formal guidance raise, offset by cautious forward language on 2025 growth.",
+    "score_components": {
+      "guidance_movement": "held",
+      "organic_vs_attributed": "organic",
+      "structural_risks": "moderate"
+    }
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Underlying operating income of $5,390 million, up 7% at constant currency (ccy) and up 12% at ccy excluding notable items.",
+    "eps": "Underlying basic earnings per share of 62.7 cents, up 9.8 cents or 19% year-on-year. Reported basic EPS of 56.6 cents, up 10.1 cents or 22%.",
+    "guidance": "2025 and 2026 guidance unchanged. Operating income to increase 5-7% CAGR in 2023-2026 at ccy excluding the deposit insurance reclassification; currently tracking towards the upper end of the range. 2025 growth expected to be below the 5-7% range at ccy excluding notable items. Operating expenses to be below $12.3bn in 2026 at ccy. RoTE approaching 13% in 2026 and to progress thereafter. Plan to return at least $8bn to shareholders cumulative 2024 to 2026.",
+    "margin": "Net interest margin (adjusted) of 2.12%, up 18 basis points year-on-year. Cost-to-income ratio of 54.1% (underlying), unchanged year-on-year. Underlying RoTE of 16.4%, up 120 basis points.",
+    "key_risks": [
+      "Imposition of trade tariffs increasing global economic and geopolitical complexity.",
+      "Credit impairment charge up 24% to $219m, with charges mainly from higher interest rates impacting repayments in some unsecured portfolios.",
+      "Increased probability weighting for the Global Trade and Geopolitical Trade Tensions scenario due to heightened uncertainty around trade tariffs.",
+      "2025 income growth expected to be below the 5-7% range.",
+      "Net interest income outlook challenging to grow given the current interest rate environment and economic landscape.",
+      "Hong Kong CRE exposure risk of further impairment due to subdued economic activity in the property sector.",
+      "China CRE contagion risk remains limited but portfolio expected to be resilient despite market turbulence."
+    ],
+    "key_opportunities": [
+      "Double-digit income growth in Wealth Solutions, Global Markets and Global Banking.",
+      "Presence in structurally high-growth markets across Asia, Africa and the Middle East.",
+      "Wealth Solutions momentum with 72,000 affluent new-to-bank clients onboarded and $13 billion of affluent net-new-money, up 22%.",
+      "Global Markets strong performance in both flow and episodic income.",
+      "Positive start to Q2'25 particularly in Global Markets.",
+      "Supply chain diversification and deeper international capital and foreign exchange markets as opportunities from trade tariffs.",
+      "Fit for Growth programme with expense saves of around $1.5bn."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes a 'strong performance' and states 'our ability to help clients manage their business and wealth across borders in times of volatility reinforces our confidence that we can continue to improve returns,' while also noting they remain 'watchful of the external environment.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Underlying operating income was $5,390 million, up 7% at constant currency.",
+      "quote": "Operating income up 7% at constant currency (ccy) to $5.4bn, up 12% at ccy excluding notable items",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying EPS was 62.7 cents, up 19% year-on-year.",
+      "quote": "Underlying earnings per share (EPS) increased 9.8 cents to 62.7 cents; reported EPS increased 10.1 cents to 56.6 cents",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was 56.6 cents, up 22%.",
+      "quote": "reported EPS increased 10.1 cents or 22 per cent to 56.6 cents",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 and 2026 guidance remains unchanged.",
+      "quote": "Guidance 2025 and 2026 guidance remains unchanged as follows:",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 income growth is expected to be below the 5-7% range.",
+      "quote": "2025 growth expected to be below the 5-7% range at ccy excluding notable items",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 2023-2026 income CAGR target is tracking towards the upper end of the range.",
+      "quote": "Operating income to increase 5-7% CAGR in 2023-2026 at ccy excluding the deposit insurance reclassification; currently tracking towards the upper end of the range",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted net interest margin was 2.12%, up 18 basis points year-on-year.",
+      "quote": "Net interest margin (%) (adjusted)6,9 2.12 1.94 18bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying cost-to-income ratio was 54.1%, unchanged year-on-year.",
+      "quote": "Cost to income ratio (%) 54.1 54.1 –",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying RoTE was 16.4%, up 120 basis points.",
+      "quote": "Return on Tangible Equity (RoTE) of 16.4%, up 120bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trade tariffs are increasing global economic and geopolitical complexity.",
+      "quote": "The subsequent imposition of trade tariffs has increased global economic and geopolitical complexity, and we remain watchful of the external environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit impairment charge increased 24% to $219 million.",
+      "quote": "Credit impairment charge of $219m up 24%, includes $179m from Wealth & Retail Banking (WRB), with charges mainly from higher interest rates impacting repayments in some unsecured portfolios.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The non-linearity charge increased due to heightened uncertainty around trade tariffs.",
+      "quote": "The non-linearity charge increased by $23 million during the quarter reflecting an increased probability weighting for the Global Trade and Geopolitical Trade Tensions scenario given the heightened uncertainty around trade tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII outlook is challenging to grow.",
+      "quote": "FY'25 NII outlook remains challenging to grow given the current interest rate environment and economic landscape",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth Solutions income grew 28% at constant currency.",
+      "quote": "Wealth Solutions up 28% at ccy, with double-digit growth in both Investment Products and Bancassurance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Banking income grew 17% at constant currency.",
+      "quote": "Global Banking up 17% at ccy, driven by higher origination volumes and increased capital markets activity",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Markets income grew 14% at constant currency.",
+      "quote": "Global Markets up 14% at ccy, with strong performance in both flow and episodic income",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "72,000 affluent new-to-bank clients were onboarded in Q1 2025.",
+      "quote": "This was driven by continued momentum in affluent new-to-bank onboarding with 72,000 clients onboarded during the first quarter of 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Affluent net-new-money was $13 billion, up 22%.",
+      "quote": "$13 billion of affluent net-new-money, up 22 per cent benefitting in particular from strong international flows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 has started positively in Global Markets.",
+      "quote": "Positive start to Q2'25 particularly in Global Markets; guidance remains unchanged",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain diversification is an opportunity from trade tariffs.",
+      "quote": "Supply chain diversification Deeper international capital and foreign exchange markets International proposition for global clients",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fit for Growth programme is expected to deliver expense saves of around $1.5bn.",
+      "quote": "Expense saves of around $1.5bn and cost to achieve of no more than $1.5bn from the Fit for Growth programme",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the ability to improve returns.",
+      "quote": "our ability to help clients manage their business and wealth across borders in times of volatility reinforces our confidence that we can continue to improve returns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is watchful of the external environment.",
+      "quote": "we remain watchful of the external environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hong Kong CRE exposure risk of further impairment remains.",
+      "quote": "The risk of further impairment remains as a result of subdued economic activity in the property sector, in part due to increased macro uncertainties and the related liquidity constraints faced by counterparties as a result",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China CRE contagion risk remains limited.",
+      "quote": "No exposures to Trusts or LGFVs; CRE contagion risk remains limited",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is at the boundary of the HOLD/BUY threshold. The strong operational quarter and positive Q2 start are offset by explicitly held 2025 guidance and cautious language on tariffs and NII. Reviewer should confirm the balance between momentum and forward caution."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document contains both explicit risks and forward-looking caution. The list includes both current quarter charges and forward-looking concerns; reviewer should verify the distinction is clear."
+    },
+    {
+      "field": "summary.key_opportunities",
+      "reason": "Some opportunities are explicitly stated as examples in the presentation (supply chain diversification) while others are inferred from performance commentary. Reviewer should confirm the distinction."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "STAN.L_Bundled Earnings Report_2025-05-02",
+  "report_metadata": {
+    "issuer": "p2_standard_chartered",
+    "company": "Standard Chartered",
+    "ticker": "STAN.L",
+    "sector": "Financial Services/Banks - Diversified",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q1\\STAN_Q1_2025_Results.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q1\\STAN_Q1_2025_Presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "STAN.L_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103356Z",
+    "timestamp": "2026-08-09T10:34:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q1\\STAN_Q1_2025_Results.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_standard_chartered\\extracted\\STAN.L_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q1\\STAN_Q1_2025_Results.pdf",
+        "page_count": 41,
+        "extracted_characters": 109636,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q1\\STAN_Q1_2025_Presentation.pdf",
+        "page_count": 28,
+        "extracted_characters": 37360,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_standard_chartered\\extracted\\STAN.L_FQ1_2025.txt"
+  }
+}

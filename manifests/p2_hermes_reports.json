@@ -1,0 +1,100 @@
+{
+  "issuer": "p2_hermes",
+  "ticker_selection_note": "Ticker set to RMSP.XC (Cboe Europe, CXE, EUR) for cross-arm parity, decided 2026-08-13 before any event was scored. History of the decision: (1) initial choice was RMS.PA (Euronext Paris, PAR, EUR) on primary-listing grounds \u2014 Paris is the authoritative home exchange for a French issuer, Cboe Europe is a secondary venue with thinner data; (2) cross-arm price verification against Master_Data_CORRECTED_2026-08-13.xlsx showed that Human_Data_Entry columns M-P match RMSP.XC at 0.00% on all 4 events (8 price values: prior close and next open) and diverge from RMS.PA by 0.55-3.11% (largest: Q1 opening price, RMS.PA 2306.00 vs human-arm 2236.50 = 3.11%); (3) a 3.11% divergence against a \u00b12% grading band is large enough to move an event across the graded/ungraded boundary \u2014 an event could be graded in one arm and not the other on identical underlying news; (4) cross-arm parity was judged to outweigh venue quality, and the manifest was reverted from RMS.PA to RMSP.XC. The corrected workbook was not re-opened. Limitation: Hermes prices in both arms now come from a secondary venue (Cboe Europe) rather than the Paris primary listing; this is a data-quality caveat on all four Hermes events. Timing classification is unaffected (both venues open 09:00 CET).",
+  "filename_note": "Files on disk use the RMSP.XC_ prefix (the ticker as originally named before document_id was changed from RMSP.XC_FQ* to RMS_FQ*). Manifest source_pdf paths reference the actual on-disk filenames. FQ3 2025 has a transcript on disk; it was omitted from the original manifest because Hermes Q3 is typically a revenue-only update, but a call transcript was gathered and is included here.",
+  "reports": [
+    {
+      "document_id": "RMS_FQ1_2025",
+      "issuer": "p2_hermes",
+      "company": "Hermes",
+      "ticker": "RMSP.XC",
+      "sector": "Consumer Cyclical/Luxury Goods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-17",
+      "release_date": "2025-04-17",
+      "release_date_source": "Non-US, no EDGAR filing. Taken from the cited document's own dateline: \"Paris, 17 April 2025\", on \"Quarterly information report as at the end of March 2025\" (docs/hermes/CY2025-Q1/RMSP.XC_Q1_2025_Press_Release.pdf). Corrected 2026-08-24 from the first-of-month placeholder 2025-02-01. NOTE: non_us_release_timing_extension.csv (2026-08-13) records this event as 2025-02-14 \"FY2024 full-year results\". That is a different release, and no February 2025 Hermes document exists in the corpus; the document actually scored and read by both arms is the 17 April Q1 revenue report, which is also the date Human_Data_Entry!L233 carries. The capture-sheet row is superseded for this event.",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hermes/CY2025-Q1/RMSP.XC_Q1_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hermes/CY2025-Q1/RMSP.XC_Q1_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "RMS_FQ2_2025",
+      "issuer": "p2_hermes",
+      "company": "Hermes",
+      "ticker": "RMSP.XC",
+      "sector": "Consumer Cyclical/Luxury Goods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-30",
+      "release_date": "2025-07-30",
+      "release_date_source": "Non-US, no EDGAR filing. Cited document's own dateline: \"Paris, 30 July 2025\", on \"Half-year information report as at the end of June 2025\" (docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Press_Release.pdf). Corrected 2026-08-24 from the first-of-month placeholder 2025-07-01. Agrees with non_us_release_timing_extension.csv.",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hermes/CY2025-Q2/RMSP.XC_Q2_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "RMS_FQ3_2025",
+      "issuer": "p2_hermes",
+      "company": "Hermes",
+      "ticker": "RMSP.XC",
+      "sector": "Consumer Cyclical/Luxury Goods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-22",
+      "release_date": "2025-10-22",
+      "release_date_source": "Non-US, no EDGAR filing. Cited document's own dateline: \"Paris, 22 October 2025\", on \"Quarterly information report as at the end of September 2025\" (docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Press_Release.pdf). Corrected 2026-08-24 from the first-of-month placeholder 2025-10-01. Agrees with non_us_release_timing_extension.csv.",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hermes/CY2025-Q3/RMSP.XC_Q3_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "RMS_FQ4_2025",
+      "issuer": "p2_hermes",
+      "company": "Hermes",
+      "ticker": "RMSP.XC",
+      "sector": "Consumer Cyclical/Luxury Goods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-12",
+      "release_date": "2026-02-12",
+      "release_date_source": "Non-US, no EDGAR filing. Cited document's own dateline: \"Paris, 12 February 2026\", on the FY2025 full-year results release (docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Press_Release.pdf). Corrected 2026-08-24 from the first-of-month placeholder 2026-02-01. Agrees with non_us_release_timing_extension.csv.",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/hermes/CY2025-Q4/RMSP.XC_Q4_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "Confirmed pre_market from exchange timestamps \u2014 see outputs/global/summary/non_us_release_timing_extension.csv (all events release 3-7h before respective session open). Confirmed 2026-08-13.",
+    "retrieval_date": "2026-08-13"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "document_id": "LNVGY_FQ1_2026_QUANT",
+  "base_document_id": "LNVGY_FQ1_2026",
+  "issuer": "p2_lenovo",
+  "ticker": "LNVGY",
+  "sector": "Technology/Computer Hardware",
+  "report_date": "2025-08-14",
+  "sentiment": {
+    "score": 0.842581
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.184501,
+      "window_start_date": "2025-07-15",
+      "window_end_date": "2025-08-13",
+      "score": 0.842581,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.327598,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": null,
+      "score": null,
+      "available": false
+    },
+    "macro_numeric": {
+      "vix_level": 14.83,
+      "vix_score": 0.271053,
+      "tnx_change": -0.162,
+      "tnx_score": 0.313119,
+      "score": 0.292086,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-08-13",
+      "curve_spread": 0.57,
+      "curve_score": 0.515359,
+      "curve_as_of": "2025-08-13",
+      "score": 0.25768,
+      "available": true
+    },
+    "quant_score": 0.842581,
+    "quant_score_with_macro": 0.567334,
+    "quant_score_with_fred": 0.550131,
+    "quant_score_with_macro_fred": 0.464116
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

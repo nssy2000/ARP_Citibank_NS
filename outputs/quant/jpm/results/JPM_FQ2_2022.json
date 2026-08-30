@@ -1,0 +1,58 @@
+{
+  "document_id": "JPM_FQ2_2022_QUANT",
+  "base_document_id": "JPM_FQ2_2022",
+  "issuer": "jpm",
+  "ticker": "JPM",
+  "sector": "Financials",
+  "report_date": "2022-07-14",
+  "sentiment": {
+    "score": -0.271429
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.055626,
+      "window_start_date": "2022-06-10",
+      "window_end_date": "2022-07-13",
+      "score": -0.354725,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.248626,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -4.76,
+      "matched_earnings_date": "2022-07-14",
+      "score": -0.188132,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 26.4,
+      "vix_score": -0.456858,
+      "tnx_change": -0.406,
+      "tnx_score": 0.670692,
+      "score": 0.106917,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 1.58,
+      "ffr_change": 0.75,
+      "ffr_score": -0.905148,
+      "ffr_as_of": "2022-07-13",
+      "curve_spread": -0.22,
+      "curve_score": -0.216518,
+      "curve_as_of": "2022-07-13",
+      "score": -0.560833,
+      "available": true
+    },
+    "quant_score": -0.271429,
+    "quant_score_with_macro": -0.082256,
+    "quant_score_with_fred": -0.416131,
+    "quant_score_with_macro_fred": -0.241782
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

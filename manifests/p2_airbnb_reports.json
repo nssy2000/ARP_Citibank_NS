@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_airbnb",
+  "reports": [
+    {
+      "document_id": "ABNB_FQ2_2025",
+      "issuer": "p2_airbnb",
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-06",
+      "release_date": "2025-08-06",
+      "release_date_source": "EDGAR 8-K Item 2.02, d17531d8k.htm, acc 0001193125-25-174438",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/airbnb/CY2025-Q2/Airbnb-Q2-25-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/airbnb/CY2025-Q2/Airbnb-Q2-2025-Shareholder-Letter.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "ABNB_FQ3_2025",
+      "issuer": "p2_airbnb",
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-06",
+      "release_date": "2025-11-06",
+      "release_date_source": "EDGAR 8-K Item 2.02, d40503d8k.htm, acc 0001193125-25-269432",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/airbnb/CY2025-Q3/Airbnb-Q3-2025-Earnings-Call-6-November-2025-5_00-PM-ET.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/airbnb/CY2025-Q3/Airbnb-Q3-2025-Shareholder-Letter.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "ABNB_FQ4_2025",
+      "issuer": "p2_airbnb",
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-12",
+      "release_date": "2026-02-12",
+      "release_date_source": "EDGAR 8-K Item 2.02, d58192d8k.htm, acc 0001193125-26-048670",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/airbnb/CY2025-Q4/Airbnb-Q4-25-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/airbnb/CY2025-Q4/Airbnb-Q4-2025-Shareholder-Letter.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "ABNB_FQ1_2026",
+      "issuer": "p2_airbnb",
+      "company": "Airbnb",
+      "ticker": "ABNB",
+      "sector": "Consumer/Travel",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-07",
+      "release_date": "2026-05-07",
+      "release_date_source": "EDGAR 8-K Item 2.02, d23351d8k.htm, acc 0001193125-26-211816",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/airbnb/CY2026-Q1/Airbnb-Q1-26-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/airbnb/CY2026-Q1/Airbnb-Q1-2026-Shareholder-Letter.txt"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

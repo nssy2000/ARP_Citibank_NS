@@ -1,0 +1,217 @@
+{
+  "document_id": "CMG_FQ3_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: management now expects full-year 2025 comparable restaurant sales to decline in the low-single-digit range and Q4 comps to decline low-to-mid-single-digit, a clear downgrade from prior expectations of returning to mid-single-digit growth. Management explicitly cites persistent macroeconomic pressures, consumer pullback, and a decision not to fully offset 2026 inflation, which will pressure margins. Despite some positive initiatives, the overall forward outlook is cautious and defensive, warranting a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue increased 7.5% to $3.0 billion in Q3 2025, driven by new restaurant openings and a 0.3% increase in comparable restaurant sales.",
+    "eps": "Diluted EPS was $0.29, a 3.6% increase from $0.28; adjusted diluted EPS was $0.29, a 7.4% increase from $0.27.",
+    "guidance": "Full-year 2025 comparable restaurant sales expected to decline in the low-single-digit range; Q4 comps expected to decline low-to-mid-single-digit; 2025 openings 315-345; 2026 openings 350-370; 2025 tax rate 25-27%.",
+    "margin": "Operating margin decreased to 15.9% from 16.9%; restaurant level operating margin decreased to 24.5% from 25.5%.",
+    "key_risks": [
+      "Persistent macroeconomic pressures and consumer pullback, especially from households under $100,000 and ages 25-34.",
+      "Inflation in beef and chicken and impact from newly enacted tariffs.",
+      "Wage inflation and lower sales volumes increasing labor costs.",
+      "Decision not to fully offset 2026 inflation, pressuring margins.",
+      "Digital accuracy issues and need to redesign incentive plans.",
+      "Potential risks from food safety incidents, cybersecurity, and litigation as listed in forward-looking statements."
+    ],
+    "key_opportunities": [
+      "Chipotlanes performing well, enhancing access and convenience, increasing sales, margins, and returns.",
+      "Menu innovation (carne asada, red chimichurri, dips) driving trial and transaction lift.",
+      "HEAT throughput pilot showing labor efficiency and guest experience gains.",
+      "Summer of Extras promotion successfully reengaged core consumers.",
+      "Planned acceleration of new restaurant openings in 2026.",
+      "New marketing strategy and digital initiatives planned for 2026."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly cites 'persistent macroeconomic pressures,' 'ongoing consumer uncertainty,' and a 'conservative view' for Q4, while emphasizing a 'slow and measured approach' to pricing."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue increased 7.5% to $3.0 billion in Q3 2025.",
+      "quote": "Total revenue in the third quarter of 2025 was $3.0 billion, an increase of 7.5% compared to the third quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable restaurant sales increased 0.3% in Q3 2025.",
+      "quote": "Comparable restaurant sales increased 0.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.29, a 3.6% increase from $0.28.",
+      "quote": "Diluted earnings per share was $0.29, a 3.6% increase from $0.28",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $0.29, a 7.4% increase from $0.27.",
+      "quote": "Adjusted diluted earnings per share was $0.29, a 7.4% increase from $0.27",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 comparable restaurant sales are expected to decline in the low-single-digit range.",
+      "quote": "Full year comparable restaurant sales declines in the low-single digit range",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 comparable sales are expected to decline low-to-mid-single-digit.",
+      "quote": "we expect comps in Q4 to decline somewhere in the low to mid-single-digit range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin decreased to 15.9% from 16.9%.",
+      "quote": "Operating margin was 15.9%, a decrease from 16.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restaurant level operating margin decreased to 24.5% from 25.5%.",
+      "quote": "Restaurant level operating margin was 24.5%, a decrease from 25.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cites persistent macroeconomic pressures and consumer pullback.",
+      "quote": "While we continue to see persistent macroeconomic pressures, our extraordinary value proposition and brand strength remain strong",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflation in beef and chicken and tariffs are pressuring costs.",
+      "quote": "This decrease was partially offset by inflation, primarily in beef and chicken, and the impact from newly enacted tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management plans a slow and measured approach to pricing in 2026 and will not fully offset inflation.",
+      "quote": "we are going to take a slow and measured approach to pricing in 2026... we do not plan to fully offset inflation in 2026. And so this will pressure margins in the near term",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chipotlanes are performing well and enhancing returns.",
+      "quote": "Chipotlanes continue to perform well and are helping enhance guest access and convenience, as well as increase new restaurant sales, margins, and returns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Menu innovation is driving trial and transaction lift.",
+      "quote": "We also saw a strong reaction when we launched carne asada and even red chimichurri in early October.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "HEAT throughput pilot is showing positive results.",
+      "quote": "we are already seeing labor efficiency gains. We are seeing better culinary, better food scores, better guest experience scores.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Summer of Extras promotion reengaged core consumers.",
+      "quote": "We were able to reengage them through the Summer of Extras promotion that we ran both through our loyalty rewards campaign as well as some digital initiatives",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 openings are planned at 350-370.",
+      "quote": "For 2026, management is anticipating the following: 350 to 370 new restaurant openings, including 10 to 15 international partner-operated restaurants.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "when you account for this recent trend as well as the ongoing uncertainty in the economy, the way that we are kind of looking at Q4 is really with a much more conservative view.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of -0.5 reflects guidance reduction and cautious tone; verify that the Q4 comp decline and 2025 guidance are indeed downgrades from prior guidance as stated in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CMG_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_chipotle",
+    "company": "Chipotle",
+    "ticker": "CMG",
+    "sector": "Consumer Cyclical/Restaurants",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q3\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CMG_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095426Z",
+    "timestamp": "2026-08-09T09:55:03Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_chipotle\\extracted\\CMG_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 25759,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q3\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 32214,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_chipotle\\extracted\\CMG_FQ3_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

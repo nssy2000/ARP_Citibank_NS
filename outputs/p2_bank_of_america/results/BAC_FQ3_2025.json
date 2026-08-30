@@ -1,0 +1,222 @@
+{
+  "document_id": "BAC_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: revenue up 11% YoY, EPS up 31% YoY, and net income up 23% YoY. Management explicitly guided 4Q25 NII (FTE) to $15.6B-$15.7B, up ~8% vs. 4Q24, which is a meaningful forward guidance raise. Additionally, management expects to deliver operating leverage in 4Q25. The guidance raise and confident forward language support a moderately positive score, though the score is tempered by the explicit disclosure that a 100 bps parallel shift below the forward curve would reduce NII by $2.2B over the next 12 months, indicating interest rate sensitivity risk."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$28.1B, up 11% YoY",
+    "eps": "$1.06 diluted EPS, up 31% YoY",
+    "guidance": "Expect 4Q25 NII (FTE) of $15.6B to $15.7B, up ~8% vs. 4Q24. Expect to deliver operating leverage in 4Q25.",
+    "margin": "Efficiency ratio of 62% (improved from 65% in 3Q24). Net interest yield of 2.01% (up 9 bps YoY). ROA 0.98%, ROE 11.5%, ROTCE 15.4%.",
+    "key_risks": [
+      "100 bps parallel shift below the September 30, 2025, forward interest rate yield curve is estimated to reduce net interest income by $2.2B over the next 12 months",
+      "Provision for credit losses of $1.3B, though down from prior periods, remains a material expense",
+      "Noninterest expense increased 5% YoY, driven by investments in people, brand, and technology"
+    ],
+    "key_opportunities": [
+      "Investment banking fees up 43% YoY to $2.0B, with 136 bps market share gain",
+      "Sales and trading revenue up 9% YoY, 14th consecutive quarter of YoY growth",
+      "Average loans and leases up 9% YoY, with growth across every business segment",
+      "Average deposits up 4% YoY, 9th consecutive quarter of sequential growth",
+      "Consumer investment assets up 17% YoY to $580B",
+      "AUM flows of $24B in 3Q25; $84B since 3Q24"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'Strong net income growth drove third quarter diluted earnings per share up 31% from last year... With continued organic growth, every line of business reported top and bottom-line improvements. I thank our teammates for a strong quarter.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $28.1B, up 11% YoY",
+      "quote": "Revenue, net of interest expense, of $28.1B ($28.2B FTE)1 increased $2.7B, or 11%, reflecting higher net interest income (NII), investment banking and asset management fees, as well as sales and trading revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.06, up 31% YoY",
+      "quote": "Diluted earnings per share $1.06 $0.89 $0.81 ... Diluted earnings per share of $1.06 compared to $0.81, up 31%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance: Expect 4Q25 NII (FTE) of $15.6B to $15.7B, up ~8% vs. 4Q24",
+      "quote": "Expect 4Q25 NII (FTE) of $15.6B to $15.7B, up ~8% vs. 4Q243",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance: Expect to deliver operating leverage in 4Q25",
+      "quote": "Expect to deliver operating leverage in 4Q251",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved to 62% from 65% in 3Q24",
+      "quote": "Efficiency ratio 62% ... Efficiency ratio improved 329 bps to 62%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield was 2.01%, up 9 bps YoY",
+      "quote": "Net interest yield of 2.01% increased 7 bps from 2Q25 and increased 9 bps from 3Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROA 0.98%, ROE 11.5%, ROTCE 15.4%",
+      "quote": "ROA 0.98% ROE 11.5% ROTCE 15.4%7",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "100 bps parallel shift below the forward curve would reduce NII by $2.2B over the next 12 months",
+      "quote": "100 bps parallel shift below the September 30, 2025, forward interest rate yield curve is estimated to reduce net interest income by $2.2B over the next 12 months2",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees up 43% YoY to $2.0B, with 136 bps market share gain",
+      "quote": "Total Corporation investment banking fees (excl. self-led) of $2.0B increased 43% vs. 3Q24 ... #3 investment banking fee ranking; gained 136 bps market share vs. 3Q245",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue up 9% YoY, 14th consecutive quarter of YoY growth",
+      "quote": "Sales and trading revenue of $5.4B increased 9% from 3Q24 ... 14th consecutive quarter of YoY sales and trading revenue growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average loans and leases up 9% YoY, with growth across every business segment",
+      "quote": "Average loans and leases of $1.15T increased $93B, or 9% ... with growth across every business segment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average deposits up 4% YoY, 9th consecutive quarter of sequential growth",
+      "quote": "Average deposit balances of $1.99T increased 4%; 9th consecutive quarter of sequential growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer investment assets up 17% YoY to $580B",
+      "quote": "Consumer investment assets of $580B,2 up 17% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AUM flows of $24B in 3Q25; $84B since 3Q24",
+      "quote": "AUM flows of $24B in 3Q25; $84B since 3Q244",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident",
+      "quote": "Strong net income growth drove third quarter diluted earnings per share up 31% from last year. This in turn drove strong improvement in our returns on assets and equity. Revenue grew 11% year-over-year. Strong loan and deposit growth, coupled with effective balance sheet positioning, resulted in record net interest income. We also saw strong fee performance from our market-facing businesses. As revenues grew at a much faster rate than expenses, we drove good operating leverage and an efficiency ratio below 62%. With continued organic growth, every line of business reported top and bottom-line improvements. I thank our teammates for a strong quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest expense increased 5% YoY",
+      "quote": "Noninterest expense of $17.3B increased $0.9B, or 5%, driven by investments in people, brand, and technology, as well as higher revenue-related expenses",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit but limited to NII and operating leverage for one quarter; full-year EPS or revenue guidance is not provided. The score of 0.30 reflects the guidance raise and momentum but may be conservative if the market interprets the NII guidance as a strong signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2025-10-15",
+  "report_metadata": {
+    "issuer": "p2_bank_of_america",
+    "company": "Bank of America",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-14",
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q3\\The Presentation Materials_3Q25_ADA.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q3\\The Press Release_3Q25_ADA.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q3\\The Supplemental Information_3Q25_ADA.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BAC_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T212506Z",
+    "timestamp": "2026-07-18T21:26:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q3\\The Presentation Materials_3Q25_ADA.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_bank_of_america\\extracted\\BAC_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q3\\The Presentation Materials_3Q25_ADA.pdf",
+        "page_count": 30,
+        "extracted_characters": 59806,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q3\\The Press Release_3Q25_ADA.pdf",
+        "page_count": 19,
+        "extracted_characters": 62937,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\bank_of_america\\phase2\\CY2025-Q3\\The Supplemental Information_3Q25_ADA.pdf",
+        "page_count": 32,
+        "extracted_characters": 88212,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_bank_of_america\\extracted\\BAC_FQ3_2025.txt"
+  }
+}

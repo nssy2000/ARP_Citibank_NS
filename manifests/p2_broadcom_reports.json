@@ -1,0 +1,88 @@
+{
+  "issuer": "p2_broadcom",
+  "reports": [
+    {
+      "document_id": "AVGO_FQ3_2025",
+      "issuer": "p2_broadcom",
+      "company": "Broadcom",
+      "ticker": "AVGO",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-09-04",
+      "release_date": "2025-09-04",
+      "release_date_source": "EDGAR 8-K Item 2.02, avgo-20250904.htm, acc 0001730168-25-000094",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/broadcom/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/broadcom/CY2025-Q3/earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/broadcom/CY2025-Q3/transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "AVGO_FQ4_2025",
+      "issuer": "p2_broadcom",
+      "company": "Broadcom",
+      "ticker": "AVGO",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-12-11",
+      "release_date": "2025-12-11",
+      "release_date_source": "EDGAR 8-K Item 2.02, avgo-20251211.htm, acc 0001730168-25-000116",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/broadcom/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/broadcom/CY2025-Q4/earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/broadcom/CY2025-Q4/transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "AVGO_FQ1_2026",
+      "issuer": "p2_broadcom",
+      "company": "Broadcom",
+      "ticker": "AVGO",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-03-04",
+      "release_date": "2026-03-04",
+      "release_date_source": "EDGAR 8-K Item 2.02, avgo-20260304.htm, acc 0001730168-26-000011",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/broadcom/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/broadcom/CY2026-Q1/earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/broadcom/CY2026-Q1/transcript.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

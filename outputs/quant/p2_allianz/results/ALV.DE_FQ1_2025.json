@@ -1,0 +1,58 @@
+{
+  "document_id": "ALV.DE_FQ1_2025_QUANT",
+  "base_document_id": "ALV.DE_FQ1_2025",
+  "issuer": "p2_allianz",
+  "ticker": "ALV.DE",
+  "sector": "Financial Services/Insurance - Diversified",
+  "report_date": "2025-05-15",
+  "sentiment": {
+    "score": -0.022742
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.115745,
+      "window_start_date": "2025-04-10",
+      "window_end_date": "2025-05-14",
+      "score": 0.647877,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.197395,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -21.36,
+      "matched_earnings_date": "2025-05-15",
+      "score": -0.693361,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.83,
+      "vix_score": 0.077842,
+      "tnx_change": 0.132,
+      "tnx_score": -0.258033,
+      "score": -0.090095,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-05-14",
+      "curve_spread": 0.48,
+      "curve_score": 0.446244,
+      "curve_as_of": "2025-05-14",
+      "score": 0.223122,
+      "available": true
+    },
+    "quant_score": -0.022742,
+    "quant_score_with_macro": -0.056418,
+    "quant_score_with_fred": 0.10019,
+    "quant_score_with_macro_fred": 0.036762
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "document_id": "SPOT_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company delivered strong Q3 results with MAUs, revenue, gross margin, and operating income all beating guidance, and management raised Q4 revenue guidance to €4.5 billion with improved constant currency growth of ~13% versus 12% in Q3. However, the ad-supported revenue declined 6% Y/Y and management explicitly stated that the ads business is a 'transition year' with growth expected to improve only in the back half of 2026, which tempers the positive outlook. The guidance raise is partly organic (subscriber growth, product momentum) but the ad weakness and cautious language on ads prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total Revenue grew 7% Y/Y to €4.3 billion (12% Y/Y constant currency). Premium Revenue grew 9% Y/Y to €3,826 million (13% constant currency). Ad-Supported Revenue declined -6% Y/Y to €446 million (flat constant currency).",
+    "eps": "Basic EPS attributable to owners of the parent: €4.36 for Q3 2025 (vs €1.49 in Q3 2024). Diluted EPS: €3.28 (vs €1.45). The transcript notes reported EPS of $3.85 vs expectations of $2.29.",
+    "guidance": "Q4 2025 guidance: Total Revenue €4.5 billion, Total MAUs 745 million, Premium Subscribers 289 million, Gross Margin 32.9%, Operating Income €620 million. Management expects Q4 constant currency revenue growth of ~13% Y/Y and ARPU growth of ~2% constant currency. For 2026, management expects 'another year of healthy revenue growth, disciplined reinvestments and margin and cash flow improvement.'",
+    "margin": "Gross Margin improved 53 bps Y/Y to 31.6% (50 bps ahead of guidance). Operating Margin expanded to 13.6% (from 11.4% in Q3 2024). Premium Gross Margin was 33.2%, down 34 bps Y/Y. Ad-Supported Gross Margin was 18.4%, up 525 bps Y/Y.",
+    "key_risks": [
+      "Ad-Supported Revenue declined -6% Y/Y (flat constant currency) due to softness in pricing and optimization of podcasting inventory.",
+      "Advertising business is in a 'transition year' with growth expected to improve only in the back half of 2026, with the inflection point 'a little bit further out than we expected.'",
+      "Foreign exchange headwinds: unfavorable currency movements slowed Total Revenue Y/Y growth by ~450 bps in Q3, and Q4 guidance assumes ~620 bps headwind to growth Y/Y.",
+      "Social Charges volatility: share price movements can lead to meaningful changes in Social Charges (e.g., +/- €37M impact for a 10% stock price change).",
+      "Subscriber outlook for Q4 implies net additions of 8 million, 'slightly below prior year net adds due to the expected small amount of churn we see when we raise prices.'",
+      "Gross margin in Q1 2026 is expected to see a sequential step down from Q4 due to advertising seasonality."
+    ],
+    "key_opportunities": [
+      "MAUs surpassed 700 million, growing 11% Y/Y to 713 million, beating guidance by 3 million.",
+      "Premium Subscribers grew 12% Y/Y to 281 million, with growth across all regions.",
+      "Launched 30 product updates this fall, including lossless audio, playlist mixing tools, messaging, and enhanced free tier, driving engagement and user growth.",
+      "New DSP partnerships with Amazon and Yahoo for programmatic advertising, with advertiser participation growing 142% since Spotify Ad Exchange launch.",
+      "Video podcasts: 390 million users streamed video podcasts, up 54% Y/Y; almost 500,000 video podcast shows.",
+      "Audiobooks: catalog tripled to over 500,000 titles, with listening hours up significantly.",
+      "ChatGPT integration and AI-driven personalization expected to drive discovery and engagement.",
+      "Direct license deals with major labels and publishers provide broader video rights and flexibility for innovation."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly used confident language such as 'The business is healthy. We're shipping faster than ever. And we have the tools we need – pricing, product innovation, operational leverage, and eventually the ads turnaround – to deliver both revenue growth and profit expansion.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total Revenue grew 7% Y/Y to €4.3 billion (12% Y/Y constant currency).",
+      "quote": "Total Revenue increased 12% Y/Y constant currency* to €4.3 billion. ... Total Revenue grew 7% Y/Y to €4.3 billion; Total Revenue grew 12% Y/Y on a constant currency* basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium Revenue grew 9% Y/Y to €3,826 million (13% constant currency).",
+      "quote": "Premium Revenue grew 9% Y/Y to €3,826 million (or 13% Y/Y constant currency*), reflecting subscriber growth of 12% Y/Y and a Premium ARPU** decline of -4% Y/Y to €4.53 (or flat Y/Y constant currency).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-Supported Revenue declined -6% Y/Y to €446 million (flat constant currency).",
+      "quote": "Ad-Supported Revenue declined -6% Y/Y (or flat Y/Y constant currency*). On a constant currency basis, growth in music and podcast advertising driven by growth in impressions sold was offset by softness in pricing and optimization of our podcasting inventory in our Owned & Licensed portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS was €4.36 for Q3 2025, up from €1.49 in Q3 2024.",
+      "quote": "Earnings/(loss) per share attributable to owners of the parent Basic 4.36 (0.42) 1.49",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $3.85, beating expectations of $2.29.",
+      "quote": "Spotify Technology S.A. beats earnings expectations. Reported EPS is $3.85, expectations were $2.29.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 guidance includes Total Revenue of €4.5 billion, MAUs of 745 million, Premium Subscribers of 289 million, Gross Margin of 32.9%, and Operating Income of €620 million.",
+      "quote": "Outlook for Q4’25 ... Total Premium Subscribers Total Revenue Gross Margin €4.5 billion 289 million 32.9% ... Total MAUs 745 million €620 millionOperating Income",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 constant currency revenue growth is expected to improve to ~13% Y/Y.",
+      "quote": "We’re also forecasting EUR 4.5 billion in total quarter 4 revenue, representing an improved constant currency year-on-year growth rate of around 13% versus the 12% we just delivered in quarter 3.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross Margin improved 53 bps Y/Y to 31.6%.",
+      "quote": "Gross Margin of 31.6% exceeded guidance and expanded 53 bps Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating Margin expanded to 13.6% from 11.4% in Q3 2024.",
+      "quote": "Operating Margin 11.4% 9.7% 13.6% -- --",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium Gross Margin was 33.2%, down 34 bps Y/Y.",
+      "quote": "Premium Gross Margin was 33.2% in Q3, down 34 bps Y/Y. The Y/Y trend was driven by video podcast costs (inclusive of costs previously attributable to the Ad-Supported segment), partially offset by Revenue growth outpacing music costs net of marketplace programs and audiobook costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-Supported Gross Margin was 18.4%, up 525 bps Y/Y.",
+      "quote": "Ad-Supported Gross Margin was 18.4% in Q3, up 525 bps Y/Y. The Y/Y trend was driven by improved contribution from podcasts and music.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-Supported revenue declined due to pricing softness and podcast inventory optimization.",
+      "quote": "On a constant currency basis, growth in music and podcast advertising driven by growth in impressions sold was offset by softness in pricing and optimization of our podcasting inventory in our Owned & Licensed portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising business is in a transition year with growth expected to improve in the back half of 2026.",
+      "quote": "We continue to see 2025 as a transition year for ads business and expect growth to improve in the back half of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX headwinds slowed revenue growth by ~450 bps in Q3 and are expected to be ~620 bps in Q4.",
+      "quote": "Unfavorable currency movements slowed Total Revenue Y/Y growth by ~450 bps vs. the ~490 bps incorporated into our guidance. ... Assumes ~620 bps headwind to growth Y/Y due to foreign exchange rate movements; based on currency rates as of Q3 close",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Social Charges are volatile and tied to share price movements.",
+      "quote": "Since a portion of these taxes is tied to the intrinsic value of share-based compensation awards, movements in our stock price can lead to fluctuations in the taxes we accrue. ... In Q3, a 10% increase or decrease in our stock price compared to the quarter-end price would have an approximate +/- €37M impact on Social Charges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 subscriber net additions are expected to be slightly below prior year due to churn from price increases.",
+      "quote": "Our subscriber outlook implies net additions of 8 million, which is slightly below prior year net adds due to the expected small amount of churn we see when we raise prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 gross margin is expected to step down sequentially from Q4 due to advertising seasonality.",
+      "quote": "While it’s too early to provide guidance, I do want to point out that our first quarter gross margin typically sees a sequential step down from the fourth quarter from advertising seasonality, and we expect the same for quarter 1, ’26.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MAUs surpassed 700 million, growing 11% Y/Y to 713 million, beating guidance by 3 million.",
+      "quote": "MAUs surpassed 700 million during Q3, growing 11% Y/Y to 713 million ... In quarter 3, MAU grew by 17 million to 713 million in total, exceeding our guidance by 3 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium Subscribers grew 12% Y/Y to 281 million.",
+      "quote": "Premium Subscribers grew 12% Y/Y to 281 million, reflecting Y/Y and Q/Q growth across all regions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launched 30 product updates this fall, including lossless audio, playlist mixing tools, messaging, and enhanced free tier.",
+      "quote": "Launched 30 product updates this fall, including lossless audio, playlist mixing tools, messaging, an enhanced mobile free tier, taste profile controls and more",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New DSP partnerships with Amazon and Yahoo for programmatic advertising.",
+      "quote": "Signed new DSP partnerships with Amazon and Yahoo, giving more advertisers programmatic access to Spotify’s audio and video inventory at scale",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Video podcast users grew 54% Y/Y to 390 million.",
+      "quote": "In podcasts, more than 390 million users have streamed the video podcast on Spotify. That’s a 54% increase year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Audiobook catalog tripled to over 500,000 titles.",
+      "quote": "our English language catalog has more than tripled since launch, from 150K to over 500,000 titles.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ChatGPT integration is part of ubiquity strategy.",
+      "quote": "Introduced Spotify in ChatGPT, allowing users to receive personalized music and podcast recommendations. With integrations across more than 2,000 devices already, we’re making it even easier for listeners to discover their next favorite track, playlist or podcast.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct license deals with major labels and publishers provide broader video rights.",
+      "quote": "For Spotify, to your specific question here, these deals secure broader video rights that we’ve long needed. This was a critical strategic objective for us because it unlocks our ability to innovate and launch more products and features that you’ve seen us rolling out, which in turn grows the entire pie for everyone.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "“The business is healthy. We’re shipping faster than ever. And we have the tools we need – pricing, product innovation, operational leverage, and eventually the ads turnaround – to deliver both revenue growth and profit expansion,” said Daniel Ek, Spotify’s Founder and CEO.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a guidance raise and strong results, but the ad business weakness and cautious language on ads could justify a lower score. The guidance raise is partly organic but also includes FX headwinds; the ad weakness is a structural drag."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "The document reports both IFRS EPS (€4.36 basic) and a transcript-reported EPS of $3.85 (likely non-IFRS or per ADS). The discrepancy should be reviewed for consistency."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 26,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SPOT_Bundled Earnings Report_2025-11-04",
+  "report_metadata": {
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q3\\Press_Release.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q3\\Shareholder_Deck.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q3\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SPOT_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103154Z",
+    "timestamp": "2026-08-09T10:32:39Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q3\\Press_Release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_spotify\\extracted\\SPOT_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q3\\Press_Release.html",
+        "page_count": 1,
+        "extracted_characters": 3442,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q3\\Shareholder_Deck.pdf",
+        "page_count": 36,
+        "extracted_characters": 34447,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q3\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 64362,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_spotify\\extracted\\SPOT_FQ3_2025.txt"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "document_id": "PLTR_FQ2_2025",
+  "sentiment": {
+    "score": 0.85,
+    "rationale": "The company raised its full-year 2025 revenue guidance to 45% Y/Y growth and its U.S. commercial revenue guidance to at least 85% Y/Y growth, both materially above prior expectations, with management describing the quarter as 'phenomenal' and 'crushing consensus expectations.' The guidance raise is organic, driven by accelerating U.S. commercial demand (93% Y/Y growth) and record TCV, with no meaningful risks raised in the document. This represents a clear, material upward shift in forward expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue grew 48% year-over-year and 14% quarter-over-quarter to $1.004 billion. U.S. revenue grew 68% Y/Y to $733 million; U.S. commercial revenue grew 93% Y/Y to $306 million; U.S. government revenue grew 53% Y/Y to $426 million.",
+    "eps": "GAAP earnings per share of $0.13; Adjusted EPS of $0.16.",
+    "guidance": "Q3 2025 revenue expected between $1.083 – $1.087 billion. Full-year 2025 revenue guidance raised to between $4.142 – $4.150 billion (45% Y/Y). U.S. commercial revenue guidance raised to in excess of $1.302 billion (at least 85% growth). Adjusted income from operations guidance raised to between $1.912 – $1.920 billion. Adjusted free cash flow guidance raised to between $1.8 – $2.0 billion.",
+    "margin": "GAAP income from operations margin of 27%; Adjusted income from operations margin of 46%; GAAP net income margin of 33%; Cash from operations margin of 54%; Adjusted free cash flow margin of 57%.",
+    "key_risks": [
+      "Majority of contracts are subject to termination provisions, including for convenience, and there can be no guarantee that contracts are not terminated or that contract options will be exercised.",
+      "Long and unpredictable sales cycle.",
+      "Potential impact of global macroeconomic and geopolitical events, including conflicts, heightened interest rates, monetary policy changes, foreign currency fluctuations, or tariffs.",
+      "Issues raised by the use of artificial intelligence in our platforms.",
+      "Any breach or access to our or customer or third-party data."
+    ],
+    "key_opportunities": [
+      "Continued acceleration of U.S. commercial business, with revenue growing 93% Y/Y and record U.S. commercial TCV of $843 million, up 222% Y/Y.",
+      "Record-setting total contract value of $2.27 billion, up 140% Y/Y.",
+      "U.S. commercial remaining deal value of $2.79 billion, up 145% Y/Y.",
+      "Customer count grew 43% Y/Y.",
+      "New partnerships and deployments, including with Fannie Mae, TWG Global, and TeleTracking, and new AIP tools unveiled at DevCon 3."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Alex Karp stated 'This was a phenomenal quarter. We continue to see the astonishing impact of AI leverage,' and the press release headline describes 'Crushing Consensus Expectations.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue grew 48% year-over-year and 14% quarter-over-quarter to $1.004 billion.",
+      "quote": "Revenue grew 48% year-over-year and 14% quarter-over-quarter to $1.004 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. revenue grew 68% Y/Y to $733 million.",
+      "quote": "U.S. revenue grew 68% year-over-year and 17% quarter-over-quarter to $733 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial revenue grew 93% Y/Y to $306 million.",
+      "quote": "U.S. commercial revenue grew 93% year-over-year and 20% quarter-over-quarter to $306 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. government revenue grew 53% Y/Y to $426 million.",
+      "quote": "U.S. government revenue grew 53% year-over-year and 14% quarter-over-quarter to $426 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP earnings per share was $0.13 and adjusted EPS was $0.16.",
+      "quote": "GAAP earnings per share (“EPS”) of $0.13 • Adjusted EPS of $0.16",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance was raised to between $4.142 – $4.150 billion.",
+      "quote": "We are raising our revenue guidance to between $4.142 – $4.150 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 U.S. commercial revenue guidance was raised to at least 85% growth.",
+      "quote": "We are raising our U.S. commercial revenue guidance to in excess of $1.302 billion, representing a growth rate of at least 85%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 revenue is expected between $1.083 – $1.087 billion.",
+      "quote": "For Q3 2025, we expect: • Revenue of between $1.083 – $1.087 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP income from operations margin was 27%.",
+      "quote": "GAAP income from operations of $269 million, representing a 27% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted income from operations margin was 46%.",
+      "quote": "Adjusted income from operations of $464 million, representing a 46% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net income margin was 33%.",
+      "quote": "GAAP net income of $327 million, representing a 33% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash from operations margin was 54%.",
+      "quote": "Cash from operations of $539 million, representing a 54% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted free cash flow margin was 57%.",
+      "quote": "Adjusted free cash flow of $569 million, representing a 57% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The majority of contracts are subject to termination provisions, including for convenience.",
+      "quote": "However, the majority of our contracts are subject to termination provisions, including for convenience, and there can be no guarantee that contracts are not terminated or that contract options will be exercised.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a long and unpredictable sales cycle.",
+      "quote": "our long and unpredictable sales cycle",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global macroeconomic and geopolitical events are a risk factor.",
+      "quote": "the impact of recent or future global macroeconomic and geopolitical events, such as the ongoing Russia-Ukraine, and Israel and broader Middle East conflicts, heightened interest rates, monetary policy changes, foreign currency fluctuations, or the potential or actual imposition of tariffs or other impacts on trade relations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Issues raised by the use of artificial intelligence are a risk factor.",
+      "quote": "issues raised by the use of artificial intelligence in our platforms",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data breaches are a risk factor.",
+      "quote": "any breach or access to our or customer or third-party data",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record-setting total contract value of $2.27 billion, up 140% Y/Y.",
+      "quote": "Closed a record-setting $2.27 billion of total contract value (“TCV”), up 140% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record U.S. commercial TCV of $843 million, up 222% Y/Y.",
+      "quote": "Closed a record-setting $843 million of U.S. commercial TCV, up 222% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial remaining deal value of $2.79 billion, up 145% Y/Y.",
+      "quote": "U.S. commercial remaining deal value (“RDV”) of $2.79 billion, up 145% year-over-year and 20% quarter-over-quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer count grew 43% Y/Y.",
+      "quote": "Customer count grew 43% year-over-year and 10% quarter-over-quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New partnerships and deployments are growth drivers.",
+      "quote": "Fannie Mae uses AIP to accelerate mortgage fraud detection from months to seconds. ... Palantir and TWG Global are partnering to revolutionize AI adoption in the financial services industry.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "“This was a phenomenal quarter. We continue to see the astonishing impact of AI leverage. Our Rule of 40 score was 94%, once again obliterating the metric.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is organic, driven by accelerating U.S. commercial demand.",
+      "quote": "Year-over-year growth in our U.S. business surged to 68%, and year-over-year growth in U.S. commercial climbed to 93%. We are guiding to the highest sequential quarterly revenue growth in our company’s history, representing 50% year-over-year growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.85 is high; verify that the guidance raise is indeed material relative to prior guidance and not just a reaffirmation. The document explicitly states guidance was raised, supporting the high score."
+    },
+    {
+      "field": "summary.key_opportunities",
+      "reason": "The 'new partnerships' opportunity is inferred from customer examples in the presentation; the document does not explicitly quantify the revenue impact of these partnerships."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PLTR_Bundled Earnings Report_2025-08-04",
+  "report_metadata": {
+    "issuer": "p2_palantir",
+    "company": "Palantir",
+    "ticker": "PLTR",
+    "sector": "Technology/Software - Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q2\\PLTR_Q2_2025_presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PLTR_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T101647Z",
+    "timestamp": "2026-08-09T10:17:19Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_palantir\\extracted\\PLTR_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 22993,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q2\\PLTR_Q2_2025_presentation.pdf",
+        "page_count": 39,
+        "extracted_characters": 28311,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_palantir\\extracted\\PLTR_FQ2_2025.txt"
+  }
+}

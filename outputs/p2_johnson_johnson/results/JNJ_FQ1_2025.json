@@ -1,0 +1,236 @@
+{
+  "document_id": "JNJ_FQ1_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company raised its full-year operational sales guidance by $0.7 billion to reflect the Intra-Cellular Therapies acquisition, but this is primarily attributed to the acquisition rather than organic momentum. The company maintained its adjusted EPS guidance despite $0.25 dilution from the acquisition and tariff costs, indicating confidence in the underlying business. However, the guidance raise is inorganic (acquisition-driven), and the company faces significant headwinds from STELARA biosimilar competition and tariffs, which tempers the positive signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q1 2025 reported sales of $21.9 billion, up 2.4% year-over-year; operational sales growth of 4.2%.",
+    "eps": "Q1 2025 diluted EPS of $4.54, up 238.8% year-over-year; adjusted diluted EPS of $2.77, up 2.2%.",
+    "guidance": "Full-year 2025 operational sales guidance raised to $91.6B-$92.4B (midpoint $92.0B, 3.8% growth), up from $90.9B-$91.7B, due to the Intra-Cellular Therapies acquisition. Adjusted EPS guidance maintained at $10.50-$10.70 (6.2% growth at midpoint), despite $0.25 dilution from the acquisition and tariff costs.",
+    "margin": "Q1 2025 gross margin was 66.4% of sales, down from 69.6% in Q1 2024. Adjusted income before tax margin was 36.6% of sales, down from 36.8% in Q1 2024. Full-year 2025 adjusted pre-tax operating margin improvement of ~300 bps is maintained.",
+    "key_risks": [
+      "STELARA biosimilar competition and Part D redesign impacting sales and margins",
+      "Tariffs, including China tariffs and retaliatory tariffs, estimated at $400 million impact in 2025",
+      "MedTech one-time events impacting growth, including lapping of prior year revenue recognition timing, fewer selling days, and Orthopaedics Transformation disruption",
+      "Competitive pressures in electrophysiology (PFA) and spine/sports",
+      "Intra-Cellular Therapies acquisition dilution of $0.25 to EPS",
+      "Ongoing talc litigation, with reversal of $7 billion reserve and return to tort system"
+    ],
+    "key_opportunities": [
+      "Approval of TREMFYA in Crohn's disease, with potential to be a $10 billion plus product",
+      "RYBREVANT plus LAZCLUZE overall survival data in non-small cell lung cancer, projected to be a new standard of care",
+      "Icotrokinra data in plaque psoriasis and ulcerative colitis, with potential to transform treatment paradigm",
+      "CAPLYTA (Intra-Cellular Therapies) for adjunctive major depressive disorder, with potential approval later this year",
+      "OTTAVA robotic surgical system clinical trial initiation",
+      "Strong performance from DARZALEX, CARVYKTI, and other key brands growing double digits",
+      "Increased US investment of $55 billion over four years"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the business and guidance, with CEO Joaquin Duato stating, 'Our Q1 performance reinforces my confidence in our 2025 guidance and reflects the strength of Johnson & Johnson's uniquely diversified business.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2025 reported sales were $21.9 billion, up 2.4% year-over-year.",
+      "quote": "2025 First-Quarter reported sales growth of 2.4% to $21.9 Billion with operational growth of 4.2%* and adjusted operational growth of 3.3%*",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2025 diluted EPS was $4.54, up 238.8% year-over-year.",
+      "quote": "2025 First-Quarter earnings per share (EPS) increased to $4.54 which includes the reversal of special charges and adjusted EPS increased to $2.77 or 2.2%*",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 operational sales guidance was raised to $91.6B-$92.4B, up from $90.9B-$91.7B, due to the Intra-Cellular Therapies acquisition.",
+      "quote": "We are increasing our operational sales guidance for the full year by $700 million to reflect the addition of CAPLYTA following the completion of the Intra-Cellular acquisition. Therefore, we now expect operational sales growth for the full year to be in the range of 3.3% to 4.3%, with a midpoint of $92 billion or 3.8%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance was maintained at $10.50-$10.70, despite $0.25 dilution from the Intra-Cellular acquisition and tariff costs.",
+      "quote": "Despite $0.25 dilution from the Intra-Cellular acquisition and including the impact of tariffs based on what is in place today, we are pleased to be able to maintain our adjusted reported earnings per share guidance of 6.2% at the midpoint for a range of $10.50 to $10.70, partially aided by the reduced FX impact.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2025 gross margin was 66.4% of sales, down from 69.6% in Q1 2024.",
+      "quote": "Gross Profit 14,536 66.4 14,872 69.6 (2.3)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted pre-tax operating margin improvement of ~300 bps is maintained.",
+      "quote": "We are maintaining our guide of operating margin improvement by 300 basis points versus 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "STELARA biosimilar competition and Part D redesign are impacting sales and margins.",
+      "quote": "STELARA declined 32.3% driven by the impact of biosimilar competition and Part D redesign.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs are estimated to have a $400 million impact in 2025.",
+      "quote": "So what's included in the $400 million, and again, that is primarily MedTech tariffs at this point. It's based on the programs that have been announced and the timing that correlates those programs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MedTech one-time events impacted growth by approximately 210 basis points worldwide.",
+      "quote": "Results were negatively impacted by approximately 210 basis points worldwide, 240 in the US and 180 outside of the US due to these one-time events.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TREMFYA has potential to be a $10 billion plus product.",
+      "quote": "I'm more confident than ever that this blockbuster drug will become the gold standard for IBD patients and a $10 billion plus product.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RYBREVANT plus LAZCLUZE extended overall survival by more than one year versus standard of care.",
+      "quote": "In a head-to-head study against today's standard of care, our RYBREVANT plus LAZCLUZE regimen improved overall survival by more than a year with the Kaplan-Meier survival curves continuing to separate at 37.8 months median follow-up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Icotrokinra showed potential to transform treatment paradigm in plaque psoriasis.",
+      "quote": "Icotrokinra is the first and only targeted oral peptide that selectively blocks the IL-23 receptor. In two placebo-controlled Phase 3 studies, icotrokinra demonstrated impressive complete skin clearance and a favorable safety profile in a once daily pill.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CAPLYTA has potential approval later this year for adjunctive major depressive disorder.",
+      "quote": "We anticipate approval of CAPLYTA later this year as an adjunctive treatment for major depressive disorder, representing the largest of the indications for novel antidepressant drugs today.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OTTAVA robotic surgical system clinical trial was initiated.",
+      "quote": "We recently announced we have started OTTAVA clinical trials with a procedure that supports submission for US FDA de novo in general surgery with an indication for multiple upper abdomen procedures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our Q1 performance reinforces my confidence in our 2025 guidance and reflects the strength of Johnson & Johnson's uniquely diversified business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is primarily attributed to the Intra-Cellular Therapies acquisition, not organic growth.",
+      "quote": "We are increasing our operational sales guidance for the full year by $700 million to reflect the addition of CAPLYTA following the completion of the Intra-Cellular acquisition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces significant headwinds from STELARA biosimilar competition.",
+      "quote": "We maintain the assumption that the impact of STELARA biosimilar competition will accelerate throughout the year, similar to HUMIRA's erosion curve, which is still our proxy with the additive impact of Part D redesign.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces significant headwinds from tariffs.",
+      "quote": "So what's included in the $400 million, and again, that is primarily MedTech tariffs at this point. It's based on the programs that have been announced and the timing that correlates those programs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is primarily inorganic (acquisition-driven), which tempers the positive signal. The score of 0.25 reflects this nuance, but a reviewer may want to verify the weighting of the acquisition-driven raise versus organic momentum."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The talc litigation risk is complex, with a $7 billion reserve reversal in Q1 2025, but the company is returning to the tort system. The ongoing nature of this risk should be reviewed."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JNJ_Bundled Earnings Report_2025-04-14",
+  "report_metadata": {
+    "issuer": "p2_johnson_johnson",
+    "company": "Johnson  Johnson",
+    "ticker": "JNJ",
+    "sector": "Healthcare/Drug Manufacturers - General",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q1\\JNJ_Q1_2025_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q1\\JNJ_Q1_2025_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JNJ_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100453Z",
+    "timestamp": "2026-08-09T10:05:12Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_johnson_johnson\\extracted\\JNJ_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 16530,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q1\\JNJ_Q1_2025_Presentation.pdf",
+        "page_count": 32,
+        "extracted_characters": 37468,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q1\\JNJ_Q1_2025_Transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 69788,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_johnson_johnson\\extracted\\JNJ_FQ1_2025.txt"
+  }
+}

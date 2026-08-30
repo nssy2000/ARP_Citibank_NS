@@ -1,0 +1,212 @@
+{
+  "document_id": "KHC_FQ1_2026",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "Forward guidance was reaffirmed, not raised, and management explicitly cited a volatile operating environment with increasing inflationary pressures and persistently low consumer sentiment. The Q2 top-line guidance of -3% to -5% growth indicates a sequential deterioration from Q1's -0.4% organic decline, and the company highlighted a 100 basis point SNAP headwind beginning this quarter. Despite some positive market share trends and strong cash flow, the cautious forward outlook and reaffirmed (not raised) guidance justify a mildly bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales increased 0.8% to $6,047 million; Organic Net Sales decreased 0.4%.",
+    "eps": "Diluted EPS increased 13.6% to $0.67; Adjusted EPS decreased 6.5% to $0.58.",
+    "guidance": "Reaffirmed FY2026 outlook: Organic Net Sales down 1.5% to down 3.5%; Constant Currency Adjusted Operating Income down 14% to down 18%; Adjusted EPS in range of $1.98 to $2.10; Free Cash Flow Conversion approximately 100%. Q2 revenue growth expected between -3% and -5%.",
+    "margin": "Gross profit margin increased 230 bps to 36.7%; Adjusted Gross Profit Margin decreased 30 bps to 34.1%.",
+    "key_risks": [
+      "Increasing inflationary pressures",
+      "Persistently low consumer sentiment",
+      "SNAP headwinds (approximately 100 basis point impact on Organic Net Sales)",
+      "Volume/mix declines in coffee, cold cuts, and Indonesia",
+      "Incremental investments of $600 million pressuring near-term profitability",
+      "Lapping lower variable compensation in 2025 (300 basis point headwind)",
+      "Nonrecurring gross margin gains (40-50 bps) will not recur",
+      "Q2 revenue growth expected between -3% and -5%"
+    ],
+    "key_opportunities": [
+      "Improving market share trends, particularly in Taste Elevation (81% of categories holding or gaining share)",
+      "U.S. mix-adjusted share loss reduced to 30 bps year-to-date from 90 bps at start of last year",
+      "Strong Free Cash Flow ($0.8 billion, up 58.9%)",
+      "Productivity exceeding 4% of COGS",
+      "New product launches (Power Mac & Cheese, Capri Sun Hydrate, Philadelphia Lactose Free)",
+      "Away-from-home channel opportunities with Heinz brand",
+      "International growth, especially Emerging Markets (Organic Net Sales +3.8%)"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed encouragement ('I am encouraged by the early signs of momentum') but also caution ('operating environment that remains volatile, with increasing inflationary pressures and persistently low consumer sentiment')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales increased 0.8% to $6,047 million; Organic Net Sales decreased 0.4%.",
+      "quote": "Net sales increased 0.8 percent versus the year-ago period to $6.0 billion... Organic Net Sales (1) decreased 0.4 percent versus the prior year period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS increased 13.6% to $0.67; Adjusted EPS decreased 6.5% to $0.58.",
+      "quote": "Diluted EPS increased 13.6 percent versus the prior year period to $0.67... Adjusted EPS (1) was $0.58, down 6.5 percent versus the prior year period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was reaffirmed, not raised.",
+      "quote": "For fiscal year 2026, the Company is reaffirming its outlook. The Company continues to expect: Organic Net Sales (1)(2) down 1.5 percent to down 3.5 percent versus the prior year... Constant Currency Adjusted Operating Income (1)(2) down 14 percent to down 18 percent versus the prior year... Adjusted EPS (1)(2) in the range of $1.98 to $2.10.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 revenue growth is expected between -3% and -5%.",
+      "quote": "The company expects second-quarter revenue growth between –3% and –5%, citing the Easter shift and a 100 basis point SNAP headwind beginning this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross profit margin increased 230 bps to 36.7%; Adjusted Gross Profit Margin decreased 30 bps to 34.1%.",
+      "quote": "Gross profit margin increased 230 basis points to 36.7%; Adjusted Gross Profit Margin (1) decreased 30 basis points to 34.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited increasing inflationary pressures and low consumer sentiment as headwinds.",
+      "quote": "This reflects an operating environment that remains volatile, with increasing inflationary pressures and persistently low consumer sentiment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SNAP headwinds are expected to impact Organic Net Sales by approximately 100 basis points.",
+      "quote": "This includes an approximate 100 basis point impact from incremental SNAP headwinds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volume/mix declined 1.2 percentage points, driven by declines in coffee, cold cuts, and Indonesia.",
+      "quote": "Volume/mix declined 1.2 percentage points versus the prior year period, with declines in each segment. Unfavorable volume/mix was primarily driven by declines in coffee, cold cuts, and Indonesia, which more than offset the favorable impact to certain categories as a result of the shift in Easter timing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Market share trends are improving, particularly in Taste Elevation.",
+      "quote": "The investments we made in 2025 are now driving early traction, with improving market share trends, particularly within must-win parts of our portfolio like Taste Elevation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. mix-adjusted share loss improved to 30 bps year-to-date from 90 bps at the start of last year.",
+      "quote": "Mix-adjusted market share losses reduced to 30 basis points year-to-date, compared to 90 basis points loss at the start of last year, and 50–60 basis points loss at year-end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free Cash Flow was $0.8 billion, up 58.9%.",
+      "quote": "Free Cash Flow (1) was $0.8 billion, up 58.9 percent versus the prior year period, driven by the same net cash provided by/(used for) operating activities discussed above.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity exceeded 4% of cost of goods sold in the first quarter.",
+      "quote": "Productivity performance exceeded 4% of cost of goods sold in the first quarter, supporting earnings given pricing constraints in the current consumer environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with both encouragement and caution.",
+      "quote": "“Our first quarter results demonstrate steady progress, and I am encouraged by the early signs of momentum we’re building,” said Steve Cahillane... \"While we are encouraged by the strong start to the year, we are reiterating our 2026 outlook. This reflects an operating environment that remains volatile, with increasing inflationary pressures and persistently low consumer sentiment.\"",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nonrecurring gross margin gains of 40-50 basis points will not recur.",
+      "quote": "Gross margin benefited from 40 to 50 basis points of one-time items in the quarter, including byproduct sales and deferred maintenance, which will not recur during the remainder of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to invest $600 million across the year to drive growth.",
+      "quote": "Management confirmed the intention to invest $600 million across the year to drive growth, with the majority described as \"still dry powder\" to be deployed in coming quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is negative due to reaffirmed guidance and cautious language, but some positive operational metrics (market share improvement, strong cash flow) could justify a less negative score. Reviewer should weigh the Q2 guidance decline against the positive share trends."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance includes both reaffirmed full-year outlook and a specific Q2 revenue range from the transcript; ensure both are captured accurately."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KHC_Bundled Earnings Report_2026-05-06",
+  "report_metadata": {
+    "issuer": "p2_kraft_heinz",
+    "company": "Kraft Heinz",
+    "ticker": "KHC",
+    "sector": "Consumer Defensive/Packaged Foods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2026-Q1\\KHC_Q1_2026_Earnings_Call_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KHC_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100629Z",
+    "timestamp": "2026-08-09T10:07:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_kraft_heinz\\extracted\\KHC_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 33112,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2026-Q1\\KHC_Q1_2026_Earnings_Call_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 5678,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_kraft_heinz\\extracted\\KHC_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

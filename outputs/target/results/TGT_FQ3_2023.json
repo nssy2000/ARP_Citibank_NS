@@ -1,0 +1,180 @@
+{
+  "document_id": "TGT_FQ3_2023",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document reports a strong profit beat (EPS $2.10 vs. prior guidance range that was not explicitly stated but described as 'far ahead of our forecast'), but forward guidance for Q4 comparable sales is maintained at a 'mid-single-digit decline' and EPS guidance of $1.90-$2.60 is wide and cautious. Management explicitly states they are 'not satisfied with the top line trends' and remain 'cautious in our near-term outlook.' The beat is backward-looking and the forward guidance is unchanged with cautious language, resulting in a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $25.4 billion, down 4.2% year-over-year. Comparable sales declined 4.9%.",
+    "eps": "GAAP and Adjusted EPS of $2.10, up 36.3% from $1.54 in 2022.",
+    "guidance": "Q4 comparable sales expected in a wide range around a mid-single-digit decline. GAAP and Adjusted EPS guidance of $1.90 to $2.60.",
+    "margin": "Q3 operating income margin rate of 5.2%, up from 3.9% last year. Gross margin rate 27.4%, up from 24.7% last year.",
+    "key_risks": [
+      "Higher inventory shrink (40 bps headwind to Q3 gross margin rate)",
+      "Persistent inflation in food and beverage pressuring discretionary spending",
+      "Higher interest rates, resumption of student loan repayments, increased credit card debt, reduced savings rates",
+      "Soft industry trends in discretionary categories",
+      "Higher SG&A expense rate due to deleveraging from lower sales and cost inflation"
+    ],
+    "key_opportunities": [
+      "Disciplined inventory management driving profit recovery",
+      "Growth in Beauty (high single-digit comps) and same-day services (Drive-Up up 12%)",
+      "Over 10,000 new items for holiday season, thousands under $25",
+      "Long-term efficiency opportunities (hundreds of millions in savings already)",
+      "Investments in stores, supply chain, digital capabilities, and team"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in profit recovery and long-term strategy ('we have a significant opportunity to grow both the top line and bottom line') but also explicitly states caution on near-term outlook and dissatisfaction with top line trends ('we are not satisfied with the top line trends we've been seeing')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $25.4 billion, down 4.2% year-over-year.",
+      "quote": "Total revenue of $25.4 billion was 4.2 percent lower than last year, reflecting a total sales decline of 4.3 percent and a 0.6 percent decrease in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales declined 4.9%.",
+      "quote": "Comparable sales declined 4.9 percent in the third quarter, in line with expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP and Adjusted EPS of $2.10, up 36.3% from $1.54.",
+      "quote": "Third quarter GAAP and Adjusted EPS of $2.10 was 36 percent higher than a year ago and above the high end of the Company's guidance range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 comparable sales guidance is a mid-single-digit decline.",
+      "quote": "For the fourth quarter, the Company expects comparable sales in a wide range around a mid-single digit decline, and GAAP and Adjusted EPS of $1.90 to $2.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 EPS guidance is $1.90 to $2.60.",
+      "quote": "For the fourth quarter, the Company expects comparable sales in a wide range around a mid-single digit decline, and GAAP and Adjusted EPS of $1.90 to $2.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 operating income margin rate was 5.2%, up from 3.9% last year.",
+      "quote": "Third quarter operating income margin rate was 5.2 percent in 2023, compared with 3.9 percent in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 gross margin rate was 27.4%, up from 24.7% last year.",
+      "quote": "Third quarter gross margin rate was 27.4 percent, compared with 24.7 percent in 2022, reflecting lower markdowns and other inventory-related costs, lower freight costs, lower supply chain and digital fulfillment costs, and favorable category mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory shrink was a 40 bps headwind to Q3 gross margin.",
+      "quote": "Partially offsetting these tailwinds, the rising cost of inventory shrink represented a 40 basis point headwind to our third quarter gross margin rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is not satisfied with top line trends and remains cautious on near-term outlook.",
+      "quote": "I want to make it clear. We are not satisfied with the top line trends we've been seeing. Our #1 priority is to get back to sustainable growth in both traffic and sales... So even as we remain cautious in our near-term outlook, we're not standing still.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in long-term growth opportunities.",
+      "quote": "Importantly, even beyond this year's rapid progress, we believe we have a significant opportunity to grow both the top line and bottom line in the years ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.00 because the profit beat is backward-looking and forward guidance is unchanged with cautious language.",
+      "quote": "While third quarter sales were consistent with our expectations, earnings per share came in far ahead of our forecast... For the fourth quarter, the Company expects comparable sales in a wide range around a mid-single digit decline... So even as we remain cautious in our near-term outlook, we're not standing still.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed.",
+      "quote": "We are not satisfied with the top line trends we've been seeing... we believe we have a significant opportunity to grow both the top line and bottom line in the years ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.00 despite a strong profit beat. The rationale relies on the distinction between backward-looking beat and unchanged cautious forward guidance. A reviewer should confirm that the cautious language and unchanged guidance indeed outweigh the positive beat in the forward-looking assessment."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2023-11-15",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-11-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q3\\2023-11-15-TGT-FQ4-2023-Press-Release.html",
+        "pub_date": "2023-11-15"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q3\\2023-11-15-TGT-FQ4-2023-Transcript.pdf",
+        "pub_date": "2023-11-15"
+      }
+    ],
+    "document_id": "TGT_FQ3_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T144915Z",
+    "timestamp": "2026-07-08T14:50:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q3\\2023-11-15-TGT-FQ4-2023-Press-Release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q3\\2023-11-15-TGT-FQ4-2023-Press-Release.html",
+        "page_count": 1,
+        "extracted_characters": 20921,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q3\\2023-11-15-TGT-FQ4-2023-Transcript.pdf",
+        "page_count": 16,
+        "extracted_characters": 72067,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ3_2023.txt"
+  }
+}

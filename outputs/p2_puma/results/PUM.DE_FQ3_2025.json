@@ -1,0 +1,275 @@
+{
+  "document_id": "PUM.DE_FQ3_2025",
+  "sentiment": {
+    "score": -0.85,
+    "rationale": "The company's forward guidance was significantly reduced: full-year 2025 sales are now forecast to decline by a low double-digit percentage (previously low- to mid-single-digit increase), and EBIT is expected to be a loss (previously €445-525 million). The Q3 results show a sharp sales decline, a net loss, and management describes 2025 as a 'reset year' with 2026 as a 'transition year', indicating a prolonged downturn. The outlook is cautious and defensive, with no positive forward revision, justifying a strongly bearish sentiment."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 sales decreased by 10.4% currency-adjusted to €1,955.7 million (reported -15.3%). 9M 2025 sales decreased by 4.3% currency-adjusted to €5,973.9 million (reported -8.5%).",
+    "eps": "Q3 2025 EPS was €-0.42 (Q3 2024: €0.86). 9M 2025 EPS was €-2.09 (9M 2024: €1.72).",
+    "guidance": "FY 2025 outlook confirmed: currency-adjusted sales expected to decline by a low double-digit percentage, reported EBIT loss expected, capex around €250 million. Previously (as of 24 July 2025) sales were expected to decline low double-digit percentage (previously low- to mid-single-digit increase) and EBIT was expected to be a loss (previously €445-525 million).",
+    "margin": "Q3 2025 gross profit margin declined by 260 bps to 45.2%. Adjusted EBIT margin was 2.0% (Q3 2024: 10.3%). Reported EBIT margin was 1.5%. 9M 2025 gross margin declined by 130 bps to 46.1%.",
+    "key_risks": [
+      "Muted brand momentum and low brand heat",
+      "Elevated inventory levels (increased 17.3% to €2,124.1 million)",
+      "Low distribution quality, including high share of mass merchants",
+      "Impact of U.S. tariffs (mitigated to ~€50 million in FY 2025)",
+      "Currency headwinds (U.S. Dollar, Argentine Peso, Mexican Peso)",
+      "Volatile geopolitical and macroeconomic environment",
+      "Cost efficiency program with additional ~900 white-collar role reductions",
+      "Potential shift of PUMA United to licensing model (uncertainty)",
+      "Negative free cash flow of €-685.8 million in 9M 2025"
+    ],
+    "key_opportunities": [
+      "DTC business growth: Q3 DTC +4.5% ca, e-commerce +5.6% ca, retail stores +3.9% ca",
+      "Growth in performance categories: Basketball and Performance Running delivered healthy growth",
+      "Speedcat family continued to perform extremely well in APAC",
+      "Strong momentum in Training with HYROX partnership",
+      "Strategic priorities to become Top 3 global sports brand",
+      "Expanded cost efficiency program to reduce cost base",
+      "Inventory clean-up expected to return to normalized levels by end of 2026",
+      "Growth expected from 2027 onwards"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management acknowledges significant challenges and describes 2025 as a 'reset year' and 2026 as a 'transition year', with cautious language about the remainder of 2025."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 sales decreased by 10.4% currency-adjusted to €1,955.7 million.",
+      "quote": "Sales decrease by 10.4% on a currency-adjusted basis (ca) to € 1,955.7 million (-15.3% reported), vastly due to strategic reset initiatives",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "9M 2025 sales decreased by 4.3% currency-adjusted to €5,973.9 million.",
+      "quote": "sales in the first nine months of 2025 decreased by 4.3% (ca) to € 5,973.9 million with a decline across all regions and product divisions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 EPS was €-0.42.",
+      "quote": "Consequently, net loss amounted to € -62.3 million (Q3 2024: net income of € 127.8 million) and earnings per share came in at € -0.42 (Q3 2024: € 0.86).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "9M 2025 EPS was €-2.09.",
+      "quote": "Consequently, net loss came in at € -308.9 million (9M 2024: net income of € 257.1 million) and earnings per share amounted to € -2.09 (9M 2024: € 1.72).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2025 outlook confirmed: currency-adjusted sales decline low double-digit, EBIT loss, capex ~€250 million.",
+      "quote": "PUMA confirms its full-year 2025 outlook. Sales on a currency-adjusted basis are forecast to decline by a low double-digit percentage, a reported EBIT loss is expected and capital expenditures of around € 250 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Prior guidance (as of 24 July 2025) was for a low double-digit sales decline and EBIT loss, revised from earlier expectations.",
+      "quote": "Currency adjusted sales are now forecast to decline low double-digit percentage (Previously: low- to mid-single-digit percentage currency adjusted increase). ... For the EBIT we expect a loss in the full year 2025 (Previously: EBIT of € 445 million to € 525 million)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 gross profit margin declined by 260 bps to 45.2%.",
+      "quote": "The gross profit margin declined by 260 basis points to 45.2% (Q3 2024: 47.9%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 adjusted EBIT margin was 2.0%.",
+      "quote": "ADJUSTED EBIT (% of Sales) 39.5(2.0%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 reported EBIT margin was 1.5%.",
+      "quote": "Consequently, the reported EBIT came in at € 29.4 million (Q3 2024: € 237.0 million), resulting in a reported EBIT margin of 1.5% (Q3 2024: 10.3%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "9M 2025 gross margin declined by 130 bps to 46.1%.",
+      "quote": "The gross profit margin declined by 130 basis points to 46.1% (9M 2024: 47.4%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventories increased by 17.3% to €2,124.1 million.",
+      "quote": "Inventories increase by 17.3% to € 2,124.1 million; Inventory clean-up initiated, and PUMA expects to return to normalised levels by the end of 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. tariffs impact mitigated to around €50 million in FY 2025.",
+      "quote": "MITIGATED NEGATIVE IMPACT ON GROSS PROFIT OF AROUND € 50 MILLION IN FY 2025(PREVIOUSLY: AROUND € 80 MILLION)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was negative €-685.8 million in 9M 2025.",
+      "quote": "This led to a free cashflow in the first nine months of 2025 of € -685.8 million (9M 2024: € -287.4 million).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC business grew 4.5% ca in Q3 2025.",
+      "quote": "The Direct-to-Consumer (DTC) business grew by 4.5% (ca) to € 570.0 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basketball and Performance Running delivered healthy growth.",
+      "quote": "PUMA’s performance categories Basketball and Performance Running remained resilient and delivered healthy growth, supported by the successful launch of product innovations such as the HALI 1 basketball shoe and the Velocity NITRO ™ 4 running shoe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Speedcat family performed extremely well in APAC.",
+      "quote": "This was partially offset by growth in Sportstyle Prime driven by the Speedcat family, which continued to perform extremely well in APAC during the third quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Training category has strong momentum with HYROX.",
+      "quote": "This was partially offset by growth in Training with strong momentum in HYROX — a standout performance trend that continues to gain traction globally and where PUMA is the exclusive partner",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "While 2025 is a year of reset and 2026 will be a transition year, we are confident that the measures outlined above are an important first step in returning PUMA to growth from 2027 onwards.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledges muted brand momentum and low distribution quality.",
+      "quote": "PUMA has to address the fact that it has become too commercial, which is reflected in muted brand heat, low distribution quality, and a product offering that is not cutting through in the market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost efficiency program expanded with ~900 additional role reductions.",
+      "quote": "PUMA plans a targeted reduction of additional around 900 white-collar roles globally (total number: around 7,000) by the end of 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PUMA United may shift to licensing model.",
+      "quote": "As part of the ongoing reset measures and efforts to optimise the PUMA distribution network, PUMA is considering moving from a partnership model to a licensing model in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency headwinds negatively impacted sales.",
+      "quote": "Currencies, especially U.S. Dollar and Argentine Peso, had a negative impact, reducing sales in euro terms by approximately € 125 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical and macroeconomic volatility is a risk.",
+      "quote": "Amid ongoing volatile geopolitical and macroeconomic volatility, PUMA anticipates that both sector-wide and company-specific challenges will significantly impact performance for the remainder of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is strongly negative due to guidance cut and reset language; verify that the guidance change is correctly interpreted as a reduction from prior guidance."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document confirms FY2025 outlook but also references prior guidance from July 2025; ensure the comparison is clear."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PUM.DE_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_puma",
+    "company": "Puma",
+    "ticker": "PUM.DE",
+    "sector": "Consumer Cyclical/Footwear & Accessories",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q3\\Q3_2025_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q3\\Q3_2025_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Summary (Aide Memoire)",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q3\\Q3_2025_Aide_Memoire.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PUM.DE_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T102302Z",
+    "timestamp": "2026-08-09T10:23:48Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q3\\Q3_2025_Press_Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_puma\\extracted\\PUM.DE_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q3\\Q3_2025_Press_Release.pdf",
+        "page_count": 15,
+        "extracted_characters": 27303,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q3\\Q3_2025_Earnings_Presentation.pdf",
+        "page_count": 60,
+        "extracted_characters": 11244,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Summary (Aide Memoire)",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\puma\\CY2025-Q3\\Q3_2025_Aide_Memoire.pdf",
+        "page_count": 4,
+        "extracted_characters": 5889,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_puma\\extracted\\PUM.DE_FQ3_2025.txt"
+  }
+}

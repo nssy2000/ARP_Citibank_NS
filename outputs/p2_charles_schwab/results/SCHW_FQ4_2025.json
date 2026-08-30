@@ -1,0 +1,196 @@
+{
+  "document_id": "SCHW_FQ4_2025",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Guidance was meaningfully raised relative to the company's own prior scenario. The 2026 scenario implies adjusted EPS of $5.70-$5.80, representing 'upper-teen percentage earnings growth' from the record $4.87 in 2025, which itself exceeded the upper end of previously updated guidance. Management expressed strong confidence in continued momentum, with no material risks or cautious language in the forward outlook."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total net revenues reached a record $23.9 billion for the year, up 22% from 2024. Fourth-quarter total revenue achieved $6.3 billion, up 19% year over year.",
+    "eps": "Adjusted earnings per share hit a record $4.87, increasing 50% year over year and exceeding the upper end of previously updated guidance ranges.",
+    "guidance": "2026 scenario implies total revenue growth of 9.5%-10.5%, full-year organic asset growth around 5%, net interest margin between 2.85%-2.95%, expense growth of 5.5%-6.5%, and adjusted EPS of $5.70-$5.80, representing upper-teen percentage earnings growth.",
+    "margin": "Adjusted pretax profit margin reached just over 52% in the fourth quarter and 50% for the full year, representing an expansion of nearly 800 basis points.",
+    "key_risks": [
+      "2026 scenario assumes 225 basis points in Fed funds rate cuts and 6.5% equity market returns, which may not materialize.",
+      "Scenario allows for a slight pullback in trading volumes to roughly 7.4 million daily average trades for the full year.",
+      "Interest rates are an important macro factor that could affect outcomes."
+    ],
+    "key_opportunities": [
+      "Managed investing net flows have nearly quadrupled since 2022, with only about 5% of retail households engaged in managed investing solutions.",
+      "Pledged asset line penetration remains low: only 9% of ultra-high net worth retail clients and 23% of Advisor Services clients have originated a PAL.",
+      "Alternatives platform expansion via Forge acquisition and Qapita investment targets higher net worth clients, with less than 40% of RIA clients currently allocated to alternatives.",
+      "Spot Bitcoin and Ethereum trading planned for launch within the year; Schwab clients hold about a 20% share of spot crypto ETPs.",
+      "Gen Z investors comprise nearly 1/3 of new retail client accounts, and nearly 60% of new retail clients are under 40."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described the company as 'entering 2026 in a leading competitive position' with 'momentum is strong' and expressed confidence in 'delivering earnings growth through the cycle.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total net revenues reached a record $23.9 billion for the year, up 22% from 2024.",
+      "quote": "Total net revenues reached a new record high of $23.9 billion, and we delivered record adjusted earnings of $4.87, up 50% over last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth-quarter total revenue achieved $6.3 billion, up 19% year over year.",
+      "quote": "Fourth-Quarter Total Revenue -- Achieved $6.3 billion, up 19% year over year, with net interest revenue growing 25% and trading revenue rising 22%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted earnings per share hit a record $4.87, increasing 50% year over year and exceeding the upper end of previously updated guidance ranges.",
+      "quote": "Adjusted Earnings Per Share -- Hit a record $4.87, increasing 50% year over year and exceeding the upper end of previously updated guidance ranges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario implies total revenue growth of 9.5%-10.5%.",
+      "quote": "Under this scenario, we would expect total revenue growth of 9.5% to 10.5% in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario implies adjusted EPS of $5.70-$5.80, representing upper-teen percentage earnings growth.",
+      "quote": "this full year scenario implies potential adjusted earnings of around the $5.70 to $5.80 range, which would represent year-over-year earnings growth in the upper teens.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pretax profit margin reached just over 52% in the fourth quarter and 50% for the full year, representing an expansion of nearly 800 basis points.",
+      "quote": "Adjusted Pretax Profit Margin -- Reached just over 52% in the fourth quarter and 50% for the full year, representing an expansion of nearly 800 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed strong confidence in continued momentum.",
+      "quote": "We are entering 2026 in a leading competitive position and our momentum is strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance was meaningfully raised relative to the company's own prior scenario.",
+      "quote": "adjusted earnings per share reaching a record $4.87, representing year-over-year earnings growth of 50% and putting earnings above the upper end of the updated scenario range we shared during the fall business update in October.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Managed investing net flows have nearly quadrupled since 2022.",
+      "quote": "Managed investing net flows have nearly quadrupled since 2022, and we still have a meaningful opportunity ahead of us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pledged asset line penetration remains low: only 9% of ultra-high net worth retail clients and 23% of Advisor Services clients have originated a PAL.",
+      "quote": "Within retail, only 9% of ultra-high net worth clients have originated a PAL. In AS, 23% have a PAL.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Alternatives platform expansion via Forge acquisition and Qapita investment targets higher net worth clients.",
+      "quote": "We entered a definitive agreement to acquire Forge, which will help us provide clients with multiple ways to access alternatives while democratizing private investing. We also made a strategic investment in Qapita, a complete equity management solution designed to support private companies in the late stages prior to IPO.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Spot Bitcoin and Ethereum trading planned for launch within the year.",
+      "quote": "we remain on track to launch spot trading on Bitcoin and Ethereum in the first half of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gen Z investors comprise nearly 1/3 of new retail client accounts.",
+      "quote": "Gen Z investors comprise nearly 1/3 of new retail client accounts opened in 2025 and nearly 60% are under the age of 40.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 scenario assumes 225 basis points in Fed funds rate cuts and 6.5% equity market returns.",
+      "quote": "our 2026 financial scenario assumes interest rates follow the current forward curve expectations, which call for 225 basis point cuts to the Fed's target rate, bringing the funds rate down to 3.25% by the end of 2026 and 6.5% equity market returns, which is consistent with the long-term average.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Scenario allows for a slight pullback in trading volumes to roughly 7.4 million daily average trades.",
+      "quote": "our 2026 scenario does allow for a slight pullback in volumes to roughly 7.4 million daily average trades for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.50 is based on guidance being raised above prior scenario and strong forward language. However, the guidance is a 'scenario' not a formal guidance range, and the document does not explicitly state that prior guidance was raised; it states that 2025 results exceeded the prior scenario. A human reviewer should confirm that the 2026 scenario represents a raise relative to what was previously communicated."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2026-01-20",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q4\\SCHW-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q4\\SCHW-Q4-2025-Press-Release-SEC-EX991.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172436Z",
+    "timestamp": "2026-07-30T17:25:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q4\\SCHW-Q4-2025-earnings-call-transcript-MotleyFool.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q4\\SCHW-Q4-2025-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 62948,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q4\\SCHW-Q4-2025-Press-Release-SEC-EX991.htm",
+        "page_count": 1,
+        "extracted_characters": 38528,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ4_2025.txt"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "n": 268,
+  "accuracy_macro_on": 0.3619,
+  "accuracy_macro_off": 0.3731,
+  "point_diff": -0.0112,
+  "ci_low": -0.056,
+  "ci_high": 0.0336,
+  "p_value": 0.739,
+  "deployed_default_weights": [
+    0.55,
+    0.45,
+    0.0,
+    0.0
+  ],
+  "macro_off_weights": [
+    0.55,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

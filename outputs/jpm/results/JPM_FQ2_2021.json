@@ -1,0 +1,235 @@
+{
+  "document_id": "JPM_FQ2_2021",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports strong absolute results (net income $11.9B, EPS $3.78) and a significant reserve release, but management explicitly states these are not core or recurring profits. Forward guidance is limited: FY2021 NII expected ~$52.5B and adjusted expense ~$71B, both market-dependent, with no formal guidance raise. The tone is confident but cautious on the outlook, resulting in a mildly positive score reflecting operational momentum without a clear forward guidance upgrade."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Reported revenue of $30.5 billion; managed revenue of $31.4 billion, down 7% YoY.",
+    "eps": "Diluted EPS of $3.78, down 16% QoQ and up $2.40 YoY.",
+    "guidance": "Expect FY2021 net interest income to be ~$52.5B, market dependent; expect FY2021 Card NCO rate of <2.5%; expect FY2021 adjusted expense of ~$71B, market dependent.",
+    "margin": "Reported overhead ratio of 58%; managed overhead ratio of 56%. ROTCE of 23% (18% excluding reserve releases).",
+    "key_risks": [
+      "Credit reserve releases are not considered core or recurring profits.",
+      "Net interest income down 8% YoY, driven by lower CIB Markets NII and lower Card loans.",
+      "Markets revenue down 30% YoY, with Fixed Income Markets down 44%.",
+      "CCB average loans down 3% YoY, reflecting elevated prepayments and lower Card balances.",
+      "CB average loans down 12% YoY.",
+      "Corporate segment net loss of $1.2B, driven by limited deployment opportunities and higher legal/tech expense."
+    ],
+    "key_opportunities": [
+      "Consumer and wholesale balance sheets remain exceptionally strong; economic outlook continues to improve.",
+      "Debit and credit card sales volume up 45% YoY (22% vs 2Q19).",
+      "Home Lending originations up 64% to $40B; Auto originations up 61% to $12B.",
+      "AUM of $3.0T, up 21% driven by higher market levels and net inflows.",
+      "Global IB fees at all-time high of $3.6B, up 25%.",
+      "Equity Markets revenue up 13% YoY.",
+      "Average deposits up 23% YoY firmwide.",
+      "Active mobile customers up 10% YoY.",
+      "Client investment assets up 36% YoY."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jamie Dimon states 'JPMorgan Chase delivered solid performance across our businesses' and 'Consumer and wholesale balance sheets remain exceptionally strong as the economic outlook continues to improve.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $30.5 billion; managed revenue of $31.4 billion, down 7% YoY.",
+      "quote": "Net revenue on a reported basis was $30.5 billion... Net revenue - managed $31,395... $ (2,422) (7) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $3.78, down 16% QoQ and up $2.40 YoY.",
+      "quote": "Earnings per share - diluted $3.78... $ (0.72) (16) %... $ 2.40 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance: FY2021 NII ~$52.5B, Card NCO rate <2.5%, adjusted expense ~$71B.",
+      "quote": "Expect FY2021 net interest income to be ~$52.5B, market dependent. Expect FY2021 Card NCO rate of <2.5%. Expect FY2021 adjusted expense of ~$71B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 58%; managed overhead ratio of 56%. ROTCE of 23% (18% excluding reserve releases).",
+      "quote": "Reported overhead ratio of 58%; managed overhead ratio of 56%... ROTCE 23%... Excluding credit reserve releases... ROTCE of 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit reserve releases are not considered core or recurring profits.",
+      "quote": "This quarter we once again benefited from a significant reserve release as the environment continues to improve, but as we have said before, we do not consider these core or recurring profits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income down 8% YoY.",
+      "quote": "Net interest income was $12.9 billion, down 8%, predominantly driven by lower net interest income in CIB Markets and lower loans in Card.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenue down 30% YoY, Fixed Income Markets down 44%.",
+      "quote": "Markets revenue was $6.8 billion, down 30%. Fixed Income Markets revenue was $4.1 billion, down 44%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CCB average loans down 3% YoY.",
+      "quote": "Average loans down 3%... CCB loans were down 3% reflecting elevated prepayments in mortgage and lower Card balances.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CB average loans down 12% YoY.",
+      "quote": "Average loans down 12%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Corporate segment net loss of $1.2B.",
+      "quote": "Net loss was $1.2 billion, compared with a net loss of $568 million in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer and wholesale balance sheets remain exceptionally strong; economic outlook continues to improve.",
+      "quote": "Consumer and wholesale balance sheets remain exceptionally strong as the economic outlook continues to improve.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Debit and credit card sales volume up 45% YoY (22% vs 2Q19).",
+      "quote": "combined debit and credit card spend was up 45%, or up 22% versus the more normal, pre-pandemic second quarter of 2019.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Home Lending originations up 64% to $40B; Auto originations up 61% to $12B.",
+      "quote": "Originations in Home Lending, up 64% to $40 billion, and Auto, up 61% to $12 billion, remained very strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AUM of $3.0T, up 21% driven by higher market levels and net inflows.",
+      "quote": "Assets under management (AUM) of $3.0 trillion, up 21%... driven by higher market levels, as well as cumulative net inflows into long-term products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global IB fees at all-time high of $3.6B, up 25%.",
+      "quote": "Global IB fees are at an all-time high of $3.6 billion, up 25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equity Markets revenue up 13% YoY.",
+      "quote": "Equity Markets revenue was $2.7 billion, up 13%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average deposits up 23% YoY firmwide.",
+      "quote": "Average deposits up 23%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Active mobile customers up 10% YoY.",
+      "quote": "Active mobile customers up 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Client investment assets up 36% YoY.",
+      "quote": "Client investment assets up 36%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "JPMorgan Chase delivered solid performance across our businesses... Consumer and wholesale balance sheets remain exceptionally strong as the economic outlook continues to improve.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is borderline; guidance is reaffirmed with market-dependent caveats, not raised. The score reflects operational momentum rather than a formal guidance upgrade. Reviewer should confirm whether the mild positive is justified given the lack of a clear forward guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2021-07-13",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2021",
+    "report_date": "2021-07-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q2\\jpm-2q21-press-release.html",
+        "pub_date": "2021-07-13"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q2\\jpm-2q21-presentation.html",
+        "pub_date": "2021-07-13"
+      }
+    ],
+    "document_id": "JPM_FQ2_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144020Z",
+    "timestamp": "2026-07-09T14:41:10Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q2\\jpm-2q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q2\\jpm-2q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25495,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q2\\jpm-2q21-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 19807,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2021.txt"
+  }
+}

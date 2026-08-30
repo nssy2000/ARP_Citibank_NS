@@ -1,0 +1,204 @@
+{
+  "document_id": "BKNG_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company reported strong Q2 results with room nights up 8%, gross bookings up 13%, and revenue up 16%, and raised its full-year guidance at the midpoint, citing steady travel demand and improved visibility for Q3. However, the guidance raise is partly attributed to FX tailwinds (about 3-4% positive impact on reported growth), and management explicitly flags elevated geopolitical and macroeconomic uncertainty, including potential impacts on consumer spending. The organic operational momentum (e.g., Connected Trip transactions up 30%+, Adjusted EBITDA margin expansion) supports a positive but not strongly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue grew 16% compared to the second quarter of 2024, or 12% on a constant currency basis. Q2 2025 revenue was $6.8 billion.",
+    "eps": "GAAP EPS was $27.43, down 38% year-over-year. Adjusted EPS was $55.40, up 32% year-over-year.",
+    "guidance": "For Q3 2025: Room Nights growth 3.5%-5.5%, Gross Bookings growth 8%-10% (4%-6% constant currency), Revenue growth 7%-9% (3%-5% constant currency), Adjusted EBITDA $3.9-$4.0 billion (6%-9% growth). For FY 2025: Gross Bookings growth low double digits, Revenue growth low double digits, Adjusted EBITDA growth mid-teens %. The company increased full-year guidance ranges at the midpoint.",
+    "margin": "Net Income margin was 13.2% (26.0% in Q2 2024). Adjusted EBITDA margin was 35.6% (32.4% in Q2 2024).",
+    "key_risks": [
+      "Increased uncertainty in the geopolitical and macroeconomic environment and any subsequent potential effect on consumer spending and behavior, travel patterns, or our partners.",
+      "Comparisons to the prior-year third quarter will be higher in August and September.",
+      "Adverse changes in market conditions for travel services.",
+      "Effects of competition.",
+      "Risks related to data privacy, cyberattacks, and information security.",
+      "Fluctuations in foreign currency exchange rates.",
+      "Risks of increased debt levels and stock price volatility."
+    ],
+    "key_opportunities": [
+      "Connected Trip transactions represented a low double-digit share of Booking.com's total transactions and were up over 30% year-over-year.",
+      "Flight tickets up 44% year-over-year.",
+      "Alternative accommodation room nights at Booking.com increased by a low double digits percentage, with mix increasing to 37%.",
+      "Direct channel mix increased year-over-year to mid-60% of B2C room nights.",
+      "Mobile app mix increased to mid-50% of total room nights.",
+      "Genius loyalty program mix in mid-50% of TTM room nights."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management states 'We are pleased to report a strong second quarter' and 'we are pleased to see that global travel demand trends continue to be steady,' while also acknowledging 'elevated uncertainty in the macroeconomic and geopolitical environment.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue grew 16% year-over-year to $6.8 billion in Q2 2025.",
+      "quote": "Revenue grew 16% compared to the second quarter of 2024, or 12% on a constant currency basis. Q2 2025 (#) (Δ Y/Y) ... Revenue $6.8B 16%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS declined 38% year-over-year to $27.43, while Adjusted EPS grew 32% to $55.40.",
+      "quote": "GAAP EPS -38% Adjusted EPS +32% ... Net income applicable to common stockholders per diluted common share (GAAP EPS) $ 27.43 $ 44.38 ... Adjusted Net income applicable to common stockholders per diluted common share (Adjusted EPS) $ 55.40 $ 41.90",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was increased at the midpoint.",
+      "quote": "Given these trends and with improved visibility for the third quarter, which historically has been our largest revenue and profit quarter, we are increasing our full year guidance ranges at the midpoint",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 guidance includes room nights growth of 3.5%-5.5% and revenue growth of 7%-9%.",
+      "quote": "Q3 2025 Guidance ... Room Nights 3.5% to 5.5% ... Revenue 7% to 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income margin was 13.2% in Q2 2025, down from 26.0% in Q2 2024.",
+      "quote": "Net Income margin of 13.2% (26.0% in Q2 2024)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin expanded to 35.6% from 32.4% in Q2 2024.",
+      "quote": "Adjusted EBITDA margin of 35.6% (32.4% in Q2 2024)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from geopolitical and macroeconomic uncertainty.",
+      "quote": "we recognize the possibility that our business could be impacted by the increased uncertainty in the geopolitical and macroeconomic environment and any subsequent potential effect on consumer spending and behavior, travel patterns, or our partners.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparisons to the prior-year third quarter will be higher in August and September.",
+      "quote": "we note that comparisons to the prior-year third quarter will be higher in August and September.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Connected Trip transactions were up over 30% year-over-year.",
+      "quote": "We reached a milestone with Connected Trip transactions, where customers choose to book more than one travel vertical with us, representing a low double-digit share of Booking.com’s total transactions and up over 30% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Flight tickets were up 44% year-over-year.",
+      "quote": "This was driven by healthy growth across our other verticals, including flight tickets up 44%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Alternative accommodation room nights grew 10% year-over-year with mix increasing to 37%.",
+      "quote": "Q2 Alternative Accommodation (“AA”) Room Nights grew 10% YoY with mix(1) increasing YoY to 37%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct channel mix increased to mid-60% of B2C room nights.",
+      "quote": "TTM Business-to-Consumer (“B2C”) direct mix(3) was in the mid 60’s (up from the low 60’s in Q2 2024 TTM)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mobile app mix increased to mid-50% of total room nights.",
+      "quote": "TTM Mobile App mix(2) was in the mid 50’s (up from the low 50’s in Q2 2024 TTM)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We are pleased to report a strong second quarter with 8% room night growth and a double-digit increase in gross bookings and revenue, reflecting disciplined execution against our strategic initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX positively impacted reported growth rates by about 4% in Q3 guidance.",
+      "quote": "Reported gross bookings, revenue, and adjusted EBITDA growth are expected to be positively impacted by about 4% from year-over-year changes in FX.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise is partly attributed to FX tailwinds; organic momentum is strong but the score may be slightly high given explicit geopolitical risk language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BKNG_Bundled Earnings Report_2025-07-29",
+  "report_metadata": {
+    "issuer": "p2_booking_holdings",
+    "company": "Booking",
+    "ticker": "BKNG",
+    "sector": "Consumer Cyclical/Travel Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q2\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BKNG_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095014Z",
+    "timestamp": "2026-08-09T09:50:28Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_booking_holdings\\extracted\\BKNG_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 29388,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q2\\presentation.pdf",
+        "page_count": 20,
+        "extracted_characters": 14942,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_booking_holdings\\extracted\\BKNG_FQ2_2025.txt"
+  }
+}

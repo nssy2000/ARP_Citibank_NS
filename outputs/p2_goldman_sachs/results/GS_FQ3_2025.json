@@ -1,0 +1,198 @@
+{
+  "document_id": "GS_FQ3_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The document shows strong operational momentum with record AUS, record alternatives fundraising, and a backlog at its highest level in three years. Management explicitly raised full-year alternatives fundraising guidance from ~$65B to ~$100B, a material upward revision. Forward language is confident, with expectations of a constructive M&A environment and regulatory tailwinds. The score is tempered because the guidance raise is in a specific segment (alternatives) rather than firm-wide EPS/revenue guidance, and management acknowledges investor exuberance and the need for disciplined risk management."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$15.18 billion for Q3 2025, 20% higher than Q3 2024 and 4% higher than Q2 2025.",
+    "eps": "$12.25 diluted EPS for Q3 2025, compared with $8.40 for Q3 2024 and $10.91 for Q2 2025. Reported EPS beat expectations of $11.03.",
+    "guidance": "Alternatives fundraising guidance raised: 'we now expect to raise approximately $100 billion in alternatives this year, substantially exceeding our prior full-year fundraising expectations.' Investment banking backlog at highest level in three years. Expect growth in AWM management and other fees and private banking and lending 'in the high single digits on an annual basis over the medium term.' Expect constructive M&A environment through 2026.",
+    "margin": "Year-to-date compensation ratio net of provisions is 32.5%, a 100 basis point improvement year-over-year. AWM segment pre-tax margin of 23% for year-to-date; excluding HPI, approximately 150 bps higher.",
+    "key_risks": [
+      "Investor exuberance and potential market cycle downturn: 'there is a fair amount of investor exuberance at the moment... the market operates in cycles and disciplined risk management is imperative.'",
+      "Credit cycle risk: 'if you got into a period where we had a credit cycle, which we have not had in quite some time, there'd be headwinds for all the banks.'",
+      "Regulatory uncertainty: 'the NPR on CCAR averaging is still outstanding.'",
+      "Competitive pressure in equities intermediation: cash products were softer, with difficult comps."
+    ],
+    "key_opportunities": [
+      "Number one M&A franchise: 'advising on over $1 trillion in announced M&A volumes for 2025 year to date... $220 billion ahead of our next closest competitor.'",
+      "Record alternatives fundraising: 'raised a record $33 billion in the quarter... expect to raise approximately $100 billion in alternatives this year.'",
+      "Record AUS: 'Assets under supervision rose to a record $3.5 trillion.'",
+      "Regulatory tailwinds: 'the regulatory direction of travel is improving our competitive position significantly.'",
+      "AI-driven efficiency: 'One Goldman Sachs 3.0 propelled by AI... expected to drive efficiencies and create capacity for future growth.'",
+      "Strategic partnerships and acquisitions: Industry Ventures acquisition and T. Rowe Price collaboration."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'very strong results,' 'dominant position,' 'confident in the outlook,' and 'we are confident in our ability to continue to deliver for shareholders,' while also acknowledging risks, indicating a confident but not exuberant tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $15.18 billion for Q3 2025, up 20% year-over-year.",
+      "quote": "Net revenues were $15.18 billion for the third quarter of 2025, 20% higher than the third quarter of 2024 and 4% higher than the second quarter of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $12.25 for Q3 2025, beating expectations of $11.03.",
+      "quote": "Diluted earnings per common share (EPS) was $12.25 for the third quarter of 2025 compared with $8.40 for the third quarter of 2024 and $10.91 for the second quarter of 2025... The Goldman Sachs Group, Inc. beats earnings expectations. Reported EPS is $12.25, expectations were $11.03.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Alternatives fundraising guidance was raised to approximately $100 billion for the full year.",
+      "quote": "we now expect to raise approximately $100 billion in alternatives this year, substantially exceeding our prior full-year fundraising expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking backlog is at its highest level in three years.",
+      "quote": "Across investment banking, we continue to see strong momentum, with our quarter-end backlog at its highest level in three years despite very strong accruals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Assets under supervision reached a record $3.5 trillion.",
+      "quote": "Assets under supervision rose to a record $3.5 trillion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we are confident in the outlook for our businesses... Altogether, we remain confident in our ability to continue to deliver for shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Year-to-date compensation ratio is 32.5%, a 100 bps improvement year-over-year.",
+      "quote": "Our year to date compensation ratio net of provisions is 32.5% and represents our best estimate for the full year inclusive of higher severance costs. The 100 basis point improvement year over year reflects stronger revenue performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM segment pre-tax margin is 23% year-to-date; excluding HPI, approximately 150 bps higher.",
+      "quote": "In the AWM segment, we generated a 23% pre-tax margin and a 10.5% ROE for the year to date. Excluding the impact of HPI and its $3.6 billion of average attributed equity, our pre-tax margin and ROE would have been approximately 150 and 250 basis points higher, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledges investor exuberance and the need for disciplined risk management.",
+      "quote": "Taking a step back, there is no question that there is a fair amount of investor exuberance at the moment... While I feel good about the forward outlook, on balance, the market operates in cycles and disciplined risk management is imperative.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Regulatory direction is improving competitive positioning.",
+      "quote": "I absolutely think that the regulatory direction of travel is improving our competitive position significantly on the timeline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record alternatives fundraising of $33 billion in the quarter.",
+      "quote": "Gross third-party alternatives fundraising was a record $33 billion in the quarter driven by demand across strategies, including private equity and credit, bringing year to date fundraising to $70 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "M&A franchise is number one, with over $1 trillion in announced volumes year-to-date.",
+      "quote": "Recently, we hit the milestone of advising on over $1 trillion in announced M&A volumes for 2025 year to date. This is $220 billion ahead of our next closest competitor and underscores our dominant position as the advisor of choice for clients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "One Goldman Sachs 3.0 propelled by AI is expected to drive efficiencies.",
+      "quote": "earlier this morning we announced to our people the launch of One Goldman Sachs 3.0 propelled by AI. This is a new, more centralized operating model that we expect to drive efficiencies and create capacity for future growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit cycle risk is acknowledged as a potential headwind.",
+      "quote": "Obviously, if you got into a period where we had a credit cycle, which we have not had in quite some time, there'd be headwinds for all the banks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The NPR on CCAR averaging is still outstanding, indicating regulatory uncertainty.",
+      "quote": "In the current regulatory framework, our CET1 requirement is 10.9%, but the NPR on CCAR averaging is still outstanding.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is in a specific segment (alternatives) rather than firm-wide EPS/revenue guidance. The score of 0.35 reflects this partial raise combined with strong operational momentum, but a reviewer may wish to assess whether a higher or lower score is warranted given the lack of a formal firm-wide guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GS_Bundled Earnings Report_2025-10-13",
+  "report_metadata": {
+    "issuer": "p2_goldman_sachs",
+    "company": "Goldman Sachs",
+    "ticker": "GS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-13",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q3\\GS-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q3\\d899312dex991.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GS_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173246Z",
+    "timestamp": "2026-07-30T17:33:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q3\\GS-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q3\\GS-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 62160,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\goldman_sachs\\CY2025-Q3\\d899312dex991.txt",
+        "page_count": 1,
+        "extracted_characters": 5922,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_goldman_sachs\\extracted\\GS_FQ3_2025.txt"
+  }
+}

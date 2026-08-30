@@ -1,0 +1,216 @@
+{
+  "document_id": "JPM_FQ3_2023",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "The document shows strong backward-looking results (net income up 35% YoY, EPS up 39%), but forward guidance is mixed. NII guidance was raised by $2B for 2023, but management explicitly states this level is 'not sustainable' and expects normalization to ~$80B from a ~$90B run rate. Additionally, significant risks are highlighted: geopolitical tensions, potential Basel III capital increases, and persistent inflation. The cautious tone on sustainability and the explicit risks offset the positive guidance raise, resulting in a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $39.9 billion; managed revenue of $40.7 billion, up 21% YoY.",
+    "eps": "Diluted EPS of $4.33, up 39% YoY.",
+    "guidance": "2023 NII and NII ex. Markets expected to be approximately $88.5 billion and $89 billion, respectively. Adjusted expense outlook for 2023 is approximately $84 billion. Card net charge-off rate expected to be approximately 2.5%.",
+    "margin": "Reported overhead ratio of 55%; managed overhead ratio of 53%. Return on common equity (ROE) of 18%; return on tangible common equity (ROTCE) of 22%.",
+    "key_risks": [
+      "Geopolitical risks: 'the war in Ukraine compounded by last week’s attacks on Israel may have far-reaching impacts on energy and food markets, global trade, and geopolitical relationships. This may be the most dangerous time the world has seen in decades.'",
+      "Regulatory risk: Basel III Endgame proposal could increase capital requirements by about 25% or $50 billion, with potential impacts on pricing and availability of credit.",
+      "Inflation and interest rate risk: 'persistently tight labor markets as well as extremely high government debt levels... are increasing the risks that inflation remains elevated and that interest rates rise further from here.'",
+      "NII sustainability: 'we do not consider this level of NII to be sustainable.'",
+      "Quantitative tightening: 'we still do not know the longer-term consequences of quantitative tightening, which reduces liquidity in the system.'"
+    ],
+    "key_opportunities": [
+      "Market share gains: 'we maintained our #1 Dealogic rank and gained IB market share YTD.'",
+      "Strong net inflows in AWM: 'AUM net inflows of $60 billion.'",
+      "Consumer franchise strength: 'we again ranked #1 in U.S. retail deposits... our growth from net new accounts was over 3x that of peers.'",
+      "Payments revenue growth: 'In CB, Payments revenue remained strong and was up 30%.'"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasizes that strong results are not sustainable and flags multiple significant risks, e.g., 'we acknowledge that these results benefit from our over-earning on both net interest income and below normal credit costs, both of which will normalize over time.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $39.9 billion; managed revenue of $40.7 billion, up 21% YoY.",
+      "quote": "Net revenue - reported $39,874; Net revenue - managed $40,686; Net revenue - managed $40,686, up 21% (from $33,491 in 3Q22).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $4.33, up 39% YoY.",
+      "quote": "Earnings per share - diluted $4.33; $ O/(U) % vs 3Q22: 39%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2023 NII and NII ex. Markets expected to be approximately $88.5 billion and $89 billion, respectively.",
+      "quote": "We now expect 2023 NII and NII ex. Markets to be approximately $88.5 billion and $89 billion, respectively, with the increase driven by slower reprice than previously assumed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted expense outlook for 2023 is approximately $84 billion.",
+      "quote": "Our outlook for 2023 adjusted expense is now approximately $84 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card net charge-off rate expected to be approximately 2.5%.",
+      "quote": "we now expect the 2023 Card net charge-off rate to be approximately 2.5%, mostly driven by denominator effects due to recent balance growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 55%; managed overhead ratio of 53%.",
+      "quote": "3Q23 expense of $21.8 billion; reported overhead ratio of 55%; managed overhead ratio of 53%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on common equity (ROE) of 18%; return on tangible common equity (ROTCE) of 22%.",
+      "quote": "ROE 18% ROTCE 22%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical risks are highlighted as significant.",
+      "quote": "Furthermore, the war in Ukraine compounded by last week’s attacks on Israel may have far-reaching impacts on energy and food markets, global trade, and geopolitical relationships. This may be the most dangerous time the world has seen in decades.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basel III Endgame proposal could increase capital requirements by about 25% or $50 billion.",
+      "quote": "we've already said we expect the firm's RWA to increase by around 30% or $500 billion, which results in capital requirements increasing by about 25% or $50 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflation and interest rate risks are highlighted.",
+      "quote": "persistently tight labor markets as well as extremely high government debt levels with the largest peacetime fiscal deficits ever are increasing the risks that inflation remains elevated and that interest rates rise further from here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII is not considered sustainable.",
+      "quote": "Consistent with what we've been saying throughout the year, while we don't know when it will normalize, we do not consider this level of NII to be sustainable.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Quantitative tightening risks are noted.",
+      "quote": "Additionally, we still do not know the longer-term consequences of quantitative tightening, which reduces liquidity in the system at a time when market-making capabilities are increasingly limited by regulations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Market share gains in Investment Banking.",
+      "quote": "In CIB, we maintained our #1 Dealogic rank and gained IB market share YTD.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong net inflows in AWM.",
+      "quote": "And AWM saw AUM net inflows of $60 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer franchise strength with #1 in U.S. retail deposits.",
+      "quote": "In CCB, we again ranked #1 in U.S. retail deposits based on the most recent FDIC data, and we extended our leadership position as our growth from net new accounts was over 3x that of peers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Payments revenue growth in CB.",
+      "quote": "In CB, Payments revenue remained strong and was up 30%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "we acknowledge that these results benefit from our over-earning on both net interest income and below normal credit costs, both of which will normalize over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sentiment score rationale: guidance raised but sustainability questioned and risks highlighted.",
+      "quote": "We now expect 2023 NII and NII ex. Markets to be approximately $88.5 billion and $89 billion, respectively... we do not consider this level of NII to be sustainable.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of the HOLD band (-0.15). A small change in interpretation could push it to SELL. The guidance raise is positive, but the explicit sustainability warning and multiple risk factors are strong negatives. A reviewer should confirm the weighting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2023-10-13",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-10-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q3\\jpm-3q23-press-release.pdf",
+        "pub_date": "2023-10-13"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q3\\jpm-3q23-earnings-call-transcript.pdf",
+        "pub_date": "2023-10-13"
+      }
+    ],
+    "document_id": "JPM_FQ3_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T131706Z",
+    "timestamp": "2026-07-08T13:18:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q3\\jpm-3q23-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q3\\jpm-3q23-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 27931,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q3\\jpm-3q23-earnings-call-transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 84505,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ3_2023.txt"
+  }
+}

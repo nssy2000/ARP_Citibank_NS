@@ -1,0 +1,58 @@
+{
+  "document_id": "UBER_FQ1_2025_QUANT",
+  "base_document_id": "UBER_FQ1_2025",
+  "issuer": "p2_uber",
+  "ticker": "UBER",
+  "sector": "Technology/Transportation",
+  "report_date": "2025-05-07",
+  "sentiment": {
+    "score": 0.776766
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.328227,
+      "window_start_date": "2025-04-04",
+      "window_end_date": "2025-05-06",
+      "score": 0.97517,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.497927,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 16.5,
+      "matched_earnings_date": "2025-05-07",
+      "score": 0.578363,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 23.55,
+      "vix_score": -0.29436,
+      "tnx_change": 0.12,
+      "tnx_score": -0.235496,
+      "score": -0.264928,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-05-06",
+      "curve_spread": 0.52,
+      "curve_score": 0.4777,
+      "curve_as_of": "2025-05-06",
+      "score": 0.23885,
+      "available": true
+    },
+    "quant_score": 0.776766,
+    "quant_score_with_macro": 0.255919,
+    "quant_score_with_fred": 0.507808,
+    "quant_score_with_macro_fred": 0.250229
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

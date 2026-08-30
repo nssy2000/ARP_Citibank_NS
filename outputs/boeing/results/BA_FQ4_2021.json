@@ -1,0 +1,179 @@
+{
+  "document_id": "BA_FQ4_2021",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports a GAAP loss per share of ($7.02) for Q4 2021, a significant improvement from ($14.65) in Q4 2020, and operating cash flow turned positive at $0.7 billion. However, forward guidance is effectively lowered by a $3.5 billion pre-tax non-cash charge on the 787 program, with management stating that rework will take longer than previously expected, causing further delivery delays. This structural risk (ongoing 787 production and delivery issues) outweighs the positive cash flow inflection, leading to a bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2021 revenue of $14.8 billion, down 3% from $15.3 billion in Q4 2020. Full-year 2021 revenue of $62.3 billion, up 7% from $58.2 billion in 2020.",
+    "eps": "GAAP loss per share of ($7.02) for Q4 2021, compared to ($14.65) in Q4 2020. Core (non-GAAP) loss per share of ($7.69) for Q4 2021, compared to ($15.25) in Q4 2020.",
+    "guidance": "The 737 program is currently producing at 26 per month and progressing towards 31 per month in early 2022. The 787 program is producing at a very low rate until deliveries resume, with an expected gradual return to five per month over time. The company now anticipates 787 abnormal costs will increase to approximately $2 billion, with most being incurred by the end of 2023.",
+    "margin": "Q4 2021 GAAP operating margin of (28.2)%, compared to (52.6)% in Q4 2020. Core (non-GAAP) operating margin of (30.7)%, compared to (54.7)% in Q4 2020.",
+    "key_risks": [
+      "787 program recorded a $3.5 billion pre-tax non-cash charge; rework will take longer than previously expected, causing further delivery delays.",
+      "Defense, Space & Security operating margin decreased to (4.4)% due to lower volume and a $402 million pre-tax charge on the KC-46A Tanker program.",
+      "Global Services operating margin negatively impacted by a $220 million inventory impairment.",
+      "Cash and marketable securities decreased to $16.2 billion from $20.0 billion at the beginning of the quarter, primarily driven by debt repayment.",
+      "The company continues to face risks related to the COVID-19 pandemic, 737 MAX regulatory approvals, and overall health of the aircraft production system."
+    ],
+    "key_opportunities": [
+      "Continued global return to service of 737 MAX, including progress in China with the Civil Aviation Administration of China issuing an airworthiness directive in December.",
+      "Over 300,000 revenue flights completed on 737 MAX since FAA approval, with fleet reliability above 99%.",
+      "Robust commercial orders, including 164 737 MAX and 24 freighter aircraft in Q4.",
+      "Total backlog of $377 billion, including $297 billion for Commercial Airplanes.",
+      "Global Services revenue increased 15% and operating margin increased to 9.3% driven by higher commercial volume."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "CEO David Calhoun describes 2021 as a 'rebuilding year' with 'key milestones' and 'robust commercial orders,' but also acknowledges that the 787 program 'continues to impact our near-term results' and that rework is taking 'longer than previously expected,' reflecting both optimism and caution."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2021 revenue was $14.8 billion, down 3% from Q4 2020.",
+      "quote": "Boeing reported fourth-quarter revenue of $14.8 billion, reflecting higher commercial volume and lower defense revenue. ... Revenues $14,793 $15,304 (3)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($7.02) for Q4 2021, compared to ($14.65) in Q4 2020.",
+      "quote": "GAAP loss per share of ($7.02) and core (non-GAAP)* loss per share of ($7.69) ... Loss Per Share ($7.02) ($14.65) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flow improved to $0.7 billion in Q4 2021.",
+      "quote": "Operating cash flow improved to $0.7 billion in the quarter, reflecting higher commercial volume, higher advance payments, and lower expenditures (Table 2).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 787 program recorded a $3.5 billion pre-tax non-cash charge.",
+      "quote": "Accordingly, Commercial Airplanes recorded a $3.5 billion pre-tax non-cash charge on the 787 program.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 rework will take longer than previously expected, causing further delivery delays.",
+      "quote": "In the fourth quarter, the company determined that these activities will take longer than previously expected, resulting in further delays in customer delivery dates and associated customer considerations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company now anticipates 787 abnormal costs will increase to approximately $2 billion.",
+      "quote": "The company now anticipates 787 abnormal costs will increase to approximately $2 billion, with most being incurred by the end of 2023, including $285 million recorded in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security operating margin decreased to (4.4)% due to a $402 million charge on the KC-46A Tanker program.",
+      "quote": "Defense, Space & Security fourth-quarter revenue decreased to $5.9 billion and fourth-quarter operating margin decreased to (4.4) percent, primarily due to lower volume and less favorable performance across the portfolio, including a $402 million pre-tax charge on the KC-46A Tanker program.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin increased to 9.3% but was negatively impacted by a $220 million inventory impairment.",
+      "quote": "Global Services fourth-quarter revenue increased to $4.3 billion and fourth-quarter operating margin increased to 9.3 percent primarily driven by higher commercial volume and favorable mix. Operating margin was negatively impacted by a $220 million inventory impairment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash and marketable securities decreased to $16.2 billion from $20.0 billion at the beginning of the quarter.",
+      "quote": "Cash and investments in marketable securities decreased to $16.2 billion, compared to $20.0 billion at the beginning of the quarter, primarily driven by debt repayment partially offset by operating cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total backlog was $377 billion.",
+      "quote": "Total company backlog at quarter-end was $377 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 737 program is producing at 26 per month and progressing towards 31 per month in early 2022.",
+      "quote": "The 737 program is currently producing at a rate of 26 per month and continues to progress towards a production rate of 31 per month in early 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 787 program is producing at a very low rate until deliveries resume, with an expected gradual return to five per month.",
+      "quote": "The program is producing at a very low rate and will continue to do so until deliveries resume, with an expected gradual return to five per month over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, combining optimism about milestones with caution on the 787 program.",
+      "quote": "CEO David Calhoun: '2021 was a rebuilding year for us as we overcame hurdles and reached key milestones across our commercial, defense and services portfolios. ... On the 787 program, we’re progressing through a comprehensive effort to ensure every airplane in our production system conforms to our exacting specifications. While this continues to impact our near-term results, it is the right approach to building stability and predictability as demand returns for the long term.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is -0.50, reflecting a structural risk from the 787 program outweighing positive cash flow.",
+      "quote": "In the fourth quarter, the company determined that these activities will take longer than previously expected, resulting in further delays in customer delivery dates and associated customer considerations. Accordingly, Commercial Airplanes recorded a $3.5 billion pre-tax non-cash charge on the 787 program.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the structural risk of the 787 program delays and charges, which is a major negative. However, the positive cash flow and 737 MAX progress could be seen as offsetting factors; a reviewer may consider a less negative score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2022-01-26",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2021",
+    "report_date": "2022-01-26",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q4\\ba-4q21-press-release.html",
+        "pub_date": "2022-01-26"
+      }
+    ],
+    "document_id": "BA_FQ4_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144238Z",
+    "timestamp": "2026-07-09T14:44:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q4\\ba-4q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q4\\ba-4q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 28767,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2021.txt"
+  }
+}

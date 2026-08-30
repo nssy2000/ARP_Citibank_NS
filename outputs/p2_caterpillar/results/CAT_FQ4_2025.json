@@ -1,0 +1,231 @@
+{
+  "document_id": "CAT_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Caterpillar delivered record sales and revenues and a record backlog, with management providing a positive 2026 outlook of sales growth around the top end of its 5-7% CAGR target. However, the company faces a significant $2.6 billion incremental tariff headwind in 2026, which will keep adjusted operating profit margin near the bottom of its target range, tempering the overall positive momentum. The forward guidance is raised (top-end growth) but is heavily offset by a major structural cost headwind, resulting in a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Fourth quarter 2025 sales and revenues were $19.1 billion, an 18% increase versus the prior year. Full-year 2025 sales and revenues were $67.6 billion, a 4% increase versus the prior year.",
+    "eps": "Fourth quarter 2025 profit per share was $5.12, and adjusted profit per share was $5.16. Full-year 2025 profit per share was $18.81, and adjusted profit per share was $19.06.",
+    "guidance": "For full-year 2026, the company expects sales and revenues growth around the top end of its 5-7% CAGR target, with adjusted operating profit margin near the bottom of the target range due to incremental tariff costs of around $2.6 billion. MP&E free cash flow is expected to be slightly lower than 2025.",
+    "margin": "Fourth quarter 2025 adjusted operating profit margin was 15.6%. Full-year 2025 adjusted operating profit margin was 17.2%, within the target range.",
+    "key_risks": [
+      "Incremental tariff costs of around $2.6 billion expected in 2026, which will pressure adjusted operating profit margin to near the bottom of the target range.",
+      "Higher manufacturing costs, largely reflecting the impact of higher tariffs, negatively impacted segment profits in the fourth quarter.",
+      "Resource Industries sales to users declined 7% in the fourth quarter due to customers exercising capital discipline in response to weaker coal prices.",
+      "The company faces risks from global economic conditions, commodity price changes, and international trade policies, including tariffs."
+    ],
+    "key_opportunities": [
+      "Record backlog of $51 billion, up 71% year-over-year, provides strong momentum for 2026.",
+      "Power & Energy segment is the largest and fastest-growing, with sales to users growing 37% in the fourth quarter, driven by strong demand for data center applications.",
+      "Power Generation sales exceeded $10 billion in 2025, with year-over-year growth of more than 30%.",
+      "Construction Industries sales to users grew for the fourth consecutive quarter, rising 11%.",
+      "The company is investing in capacity expansion to meet strong demand, particularly in Power & Energy."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed strong confidence in the future, citing 'record sales and revenues,' 'record backlog,' and a positive 2026 outlook, while acknowledging tariff headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Fourth quarter 2025 sales and revenues were $19.1 billion, an 18% increase versus the prior year.",
+      "quote": "Sales and revenues were $19.1 billion, an all-time record for a single quarter. The increase of 18% versus the previous year was better than we expected and reflects higher volumes in all three of our primary segments while price realization was about neutral.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 sales and revenues were $67.6 billion, a 4% increase versus the prior year.",
+      "quote": "Our centennial year marked a significant milestone, and we achieved full-year sales and revenues of $67.6 billion, the highest in Caterpillar's history.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter 2025 profit per share was $5.12, and adjusted profit per share was $5.16.",
+      "quote": "Profit per share was $5.12 in the quarter. Adjusted profit per share was better than we had anticipated at $5.16, excluding restructuring costs of $0.52 and mark-to-market gains of $0.48 for the remeasurement of pension and other post-employment benefit plans.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 profit per share was $18.81, and adjusted profit per share was $19.06.",
+      "quote": "Full-year 2025 adjusted profit per share excluded restructuring costs of $0.73 per share and mark-to-market gains on remeasurement of pension and OPEB plans of $0.48 per share. ... Profit Per Share $18.81 ... Adjusted Profit Per Share2 $19.06",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For full-year 2026, the company expects sales and revenues growth around the top end of its 5-7% CAGR target.",
+      "quote": "Overall, we anticipate full-year sales and revenues to grow around the top of the 5% to 7% long-term compound annual growth rate target.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For full-year 2026, the company expects adjusted operating profit margin near the bottom of the target range due to incremental tariff costs of around $2.6 billion.",
+      "quote": "Full-year adjusted operating profit margin should exceed 2025 levels, but remain near the bottom of the target range for our expected sales and revenues. Our adjusted operating profit margin expectation reflects the ongoing impact of tariffs as well as investments we are making to execute our growth strategy. ... For the full year, incremental tariff costs are expected to be around $2.6 billion, which is $800 million higher than incurred in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter 2025 adjusted operating profit margin was 15.6%.",
+      "quote": "Adjusted operating profit was $3.0 billion, and our adjusted operating profit margin was 15.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted operating profit margin was 17.2%, within the target range.",
+      "quote": "In a dynamic environment, with net incremental tariff headwinds of $1.7 billion, we delivered full-year adjusted operating profit margin within the target range at 17.2% and adjusted profit per share of $19.06.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Incremental tariff costs of around $2.6 billion expected in 2026, which will pressure adjusted operating profit margin to near the bottom of the target range.",
+      "quote": "For the full year, incremental tariff costs are expected to be around $2.6 billion, which is $800 million higher than incurred in 2025. ... Including the impact of tariffs, we expect margin to be near the bottom of the target range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher manufacturing costs, largely reflecting the impact of higher tariffs, negatively impacted segment profits in the fourth quarter.",
+      "quote": "Fourth-quarter profit for Construction Industries decreased by 12% versus the prior year to $1.0 billion. The segment's margin was 14.9%, a decrease of 470 basis points versus the prior year. The margin decrease was primarily due to higher manufacturing costs driven by tariffs, which had an impact of about 600 basis points on margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Resource Industries sales to users declined 7% in the fourth quarter due to customers exercising capital discipline in response to weaker coal prices.",
+      "quote": "For Resource Industries, fourth quarter sales to users declined 7%, consistent with our expectations. Mining sales to users were lower year-over-year as customers exercised capital discipline in response to weaker coal prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from global economic conditions, commodity price changes, and international trade policies, including tariffs.",
+      "quote": "Caterpillar's actual results may differ materially from those described or implied in our forward-looking statements based on a number of factors, including, but not limited to: (i) global and regional economic conditions and economic conditions in the industries we serve; (ii) commodity price changes, material price increases, fluctuations in demand for our products or significant shortages of material; ... (v) international trade policies and their impact on demand for our products and our competitive position, including the imposition of new tariffs or changes in existing tariff rates;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record backlog of $51 billion, up 71% year-over-year, provides strong momentum for 2026.",
+      "quote": "Our backlog grew to a record level of $51 billion, an increase of $21 billion or 71% compared to last year. All-time high sales and revenues, along with record backlog are evidence of the strength in our end markets and strong execution by our team.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Power & Energy segment is the largest and fastest-growing, with sales to users growing 37% in the fourth quarter, driven by strong demand for data center applications.",
+      "quote": "In Power & Energy, our largest and fastest-growing segment, sales to users grew a robust 37%, with another quarter of double-digit growth across all applications. Power Generation grew 44%, driven by strong demand for large gensets and turbines used in data center applications.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Power Generation sales exceeded $10 billion in 2025, with year-over-year growth of more than 30%.",
+      "quote": "In 2025, Power Generation sales exceeded $10 billion, which is year-over-year growth of more than 30%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Construction Industries sales to users grew for the fourth consecutive quarter, rising 11%.",
+      "quote": "Construction Industries’ total sales to users grew for the fourth consecutive quarter, rising 11% and which exceeded our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is investing in capacity expansion to meet strong demand, particularly in Power & Energy.",
+      "quote": "We're also on track in our multi-year effort to double our large engine capacity and more than double our industrial gas turbine capacity. ... Capital expenditures are expected to be around $3.5 billion, driven primarily by our capacity expansion plans.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed strong confidence in the future, citing 'record sales and revenues,' 'record backlog,' and a positive 2026 outlook, while acknowledging tariff headwinds.",
+      "quote": "Our centennial year marked a significant milestone, and we achieved full-year sales and revenues of $67.6 billion, the highest in Caterpillar's history. ... Our backlog grew to a record level of $51 billion, an increase of $21 billion or 71% compared to last year. ... Overall, we anticipate full-year sales and revenues to grow around the top of the 5% to 7% long-term compound annual growth rate target.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a positive guidance raise (top-end growth) but is tempered by a significant $2.6B tariff headwind. A reviewer may want to weigh the magnitude of the tariff impact against the growth outlook to confirm the score is not too high or too low."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CAT_Bundled Earnings Report_2026-01-28",
+  "report_metadata": {
+    "issuer": "p2_caterpillar",
+    "company": "Caterpillar",
+    "ticker": "CAT",
+    "sector": "Industrials/Farm & Heavy Construction Machinery",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q4\\4Q-2025-Analyst-Slide-Deck_Final.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q4\\4Q-2025-Caterpillar-Earnings-Conference-Call-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CAT_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095259Z",
+    "timestamp": "2026-08-09T09:53:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_caterpillar\\extracted\\CAT_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 10663,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q4\\4Q-2025-Analyst-Slide-Deck_Final.pdf",
+        "page_count": 36,
+        "extracted_characters": 27175,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q4\\4Q-2025-Caterpillar-Earnings-Conference-Call-Transcript.pdf",
+        "page_count": 23,
+        "extracted_characters": 55701,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_caterpillar\\extracted\\CAT_FQ4_2025.txt"
+  }
+}

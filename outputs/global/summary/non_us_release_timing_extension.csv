@@ -1,0 +1,44 @@
+# NON-US RELEASE TIMING CAPTURE SHEET — extension 2026-08-13
+# 17 events across 5 issuers (Heineken 4, Hermes 4, Nestle 2, Shell 4, Sony 3).
+#
+# TICKER CORRECTIONS (from cross-arm price verification, 2026-08-13):
+#   Heineken: manifest and checklist corrected from HEINY to HEIA.AS.
+#     Human arm prices match HEIA.AS exactly (EUR, Euronext Amsterdam) on all 4 events.
+#     HEINY (US OTC ADR) is off by ~42-47%. Session open now judged against Euronext Amsterdam.
+#   Hermes: manifest set to RMSP.XC (Cboe Europe CXE). Human arm M-P prices match RMSP.XC at 0.00%
+#     on all 8 values. Cboe Europe CXE and Euronext Paris both open at 09:00 CET so the timing
+#     rule is identical regardless of which ticker is used. Session open judged against 09:00 CET.
+#   Nestle, Shell, Sony: confirmed MATCH on all priced events.
+#
+# SESSION OPEN BY ISSUER (verified via yfinance + cross-arm price check):
+#   HEIA.AS — Euronext Amsterdam (AMS), EUR — judge against 09:00 CET (08:00 UTC winter / 07:00 UTC summer)
+#   RMSP.XC — Cboe Europe CXE, EUR — judge against 09:00 CET (08:00 UTC winter / 07:00 UTC summer)
+#   NSRGY   — OTC Pink (OID), USD — judge against 09:30 ET = 13:30 UTC
+#   SHEL    — NYSE (NYQ), USD — judge against 09:30 ET = 13:30 UTC (confirmed US, NOT SHEL.L)
+#   SONY    — NYSE (NYQ), USD — judge against 09:30 ET = 13:30 UTC
+#
+# Rule: pre_market = announcement timestamp strictly before the session open listed in each row.
+# DST note: Europe (CET/CEST) clocks change last Sunday of March and October.
+#   2024: DST ends Oct 27. 2025: DST ends Oct 26.
+#   Before change = CEST (UTC+2, 09:00 CEST = 07:00 UTC). After = CET (UTC+1, 09:00 CET = 08:00 UTC).
+# Japan has no DST. JST = UTC+9 year-round. Sony releases at 12:00 JST = 03:00 UTC.
+#
+# RESULT SUMMARY (2026-08-13): All 17 events confirmed pre_market. Zero exclusions from timing.
+document_id,company,ticker,exchange_verified,session_open_utc,fiscal_period,release_date,release_time_utc,local_time_and_tz,timing_verdict,source_type,source_notes,retrieval_date
+HEINY_FQ1_2024,Heineken,HEIA.AS,Euronext Amsterdam (AMS) EUR,08:00 UTC (winter CET),FQ1 2024 (FY2023 full-year results),2024-02-14,06:00 UTC,07:00 CET (winter),pre_market,Yahoo Finance URL timestamp + GlobeNewswire,"Yahoo Finance news URL encodes release time as HHMMSS UTC in slug; FY2023 URL pattern confirms ~060000 UTC. Feb = CET (UTC+1). Session open 08:00 UTC. Release 06:00 UTC = 2h before open.",2026-08-13
+HEINY_FQ2_2024,Heineken,HEIA.AS,Euronext Amsterdam (AMS) EUR,07:00 UTC (summer CEST),FQ2 2024 (H1 2024 results),2024-07-29,05:01 UTC,07:01 CEST (summer),pre_market,Yahoo Finance URL timestamp,"Yahoo Finance news URL slug encodes 050100 UTC. Jul = CEST (UTC+2). Session open 07:00 UTC. Release 05:01 UTC = ~2h before open.",2026-08-13
+HEINY_FQ3_2024,Heineken,HEIA.AS,Euronext Amsterdam (AMS) EUR,07:00 UTC (summer CEST — Oct 23 precedes Oct 27 DST change),FQ3 2024 (9M/Q3 trading update),2024-10-23,06:25 UTC,08:25 CEST (summer),pre_market,MarketScreener timestamp,"MarketScreener reports timestamp 06:25:03.217 UTC. Oct 23 precedes 2024 DST change (Oct 27) so still CEST; session open 07:00 UTC. Release 06:25 UTC = 35 min before open.",2026-08-13
+HEINY_FQ3_2025,Heineken,HEIA.AS,Euronext Amsterdam (AMS) EUR,07:00 UTC (summer CEST — Oct 22 precedes Oct 26 DST change),FQ3 2025 (9M/Q3 trading update),2025-10-22,05:00 UTC,07:00 CEST (summer),pre_market,Yahoo Finance URL timestamp,"Yahoo Finance news URL slug encodes 050000 UTC. Oct 22 precedes 2025 DST change (Oct 26) so still CEST; session open 07:00 UTC. Release 05:00 UTC = 2h before open.",2026-08-13
+RMS_FQ1_2025,Hermes,RMSP.XC,Cboe Europe CXE EUR,08:00 UTC (winter CET),FQ1 2025 (FY2024 full-year results),2025-02-14,07:00 UTC,08:00 CET (winter),pre_market,Yahoo Finance URL timestamp,"Yahoo Finance news URL slug encodes 070000 UTC. Feb = CET (UTC+1). Session open 08:00 UTC. Release 07:00 UTC = 1h before open.",2026-08-13
+RMS_FQ2_2025,Hermes,RMSP.XC,Cboe Europe CXE EUR,07:00 UTC (summer CEST),FQ2 2025 (H1 2025 results),2025-07-30,06:00 UTC,08:00 CEST (summer),pre_market,Yahoo Finance URL timestamp,"Yahoo Finance news URL slug encodes 060000 UTC. Jul = CEST (UTC+2). Session open 07:00 UTC. Release 06:00 UTC = 1h before open.",2026-08-13
+RMS_FQ3_2025,Hermes,RMSP.XC,Cboe Europe CXE EUR,07:00 UTC (summer CEST — Oct 22 precedes Oct 26 DST change),FQ3 2025 (Q3 revenue / 9M sales),2025-10-22,06:00 UTC,08:00 CEST (summer),pre_market,Hermes official IR calendar (finance.hermes.com via Wayback Machine),"Confirmed from Hermes IR calendar at finance.hermes.com/en/calendar/ (Wayback Machine snapshot 2025-10-14): explicit datetime attribute '2025-10-22T06:00:00' with label '08.00am CEST' for 'Third Quarter 2025 Revenue'. Date confirmed Oct 22 (investing.com calendar saying Oct 24 was an error — GlobeNewswire URL date components are not authoritative). Time confirmed 06:00 UTC. Session open 07:00 UTC. Release 06:00 UTC = 1h before open.",2026-08-13
+RMS_FQ4_2025,Hermes,RMSP.XC,Cboe Europe CXE EUR,08:00 UTC (winter CET),FQ4 2025 (FY2025 full-year results),2026-02-12,07:00 UTC,08:00 CET (winter),pre_market,Yahoo Finance URL timestamp,"Yahoo Finance news URL slug encodes 070000 UTC. Feb = CET (UTC+1). Session open 08:00 UTC. Release 07:00 UTC = 1h before open.",2026-08-13
+NSRGY_FQ3_2024,Nestle,NSRGY,OTC Pink (OID) USD,13:30 UTC,FQ3 2024 (9M 2024 trading update),2024-10-17,05:00 UTC,07:00 CEST (summer),pre_market,Yahoo Finance URL timestamp,"Yahoo Finance news URL slug encodes 050000 UTC. Session open 13:30 UTC. Release 05:00 UTC = 8.5h before open.",2026-08-13
+NSRGY_FQ1_2026,Nestle,NSRGY,OTC Pink (OID) USD,13:30 UTC,FQ1 2026 (FY2025 full-year results),2026-02-19,06:00 UTC,01:00 ET (= 06:00 UTC),pre_market,GlobeNewswire press release,"GlobeNewswire distribution timestamp confirms 01:00 ET = 06:00 UTC. Session open 13:30 UTC. Release 06:00 UTC = 7.5h before open.",2026-08-13
+SHEL_FQ2_2025,Shell,SHEL,NYSE (NYQ) USD,13:30 UTC,FQ2 2025 (Q2 2025 results),2025-07-31,06:00 UTC,07:00:05 BST (= 06:00:05 UTC),pre_market,Investegate schema.org dateCreated,"Investegate RNS announcement schema.org dateCreated field: 2025-07-31T07:00:05 BST (UTC+1 summer). Session open 13:30 UTC. Release 06:00 UTC = 7.5h before open.",2026-08-13
+SHEL_FQ3_2025,Shell,SHEL,NYSE (NYQ) USD,13:30 UTC,FQ3 2025 (Q3 2025 results),2025-10-30,07:00 UTC,07:00:10 GMT (= 07:00:10 UTC),pre_market,Investegate schema.org dateCreated,"Investegate RNS announcement schema.org dateCreated field: 2025-10-30T07:00:10 GMT (UTC+0 winter; BST ended Oct 26). Session open 13:30 UTC. Release 07:00 UTC = 6.5h before open.",2026-08-13
+SHEL_FQ4_2025,Shell,SHEL,NYSE (NYQ) USD,13:30 UTC,FQ4 2025 (Q4/FY2025 results),2026-02-05,07:00 UTC,07:00:20 GMT (= 07:00:20 UTC),pre_market,Investegate schema.org dateCreated,"Investegate RNS announcement schema.org dateCreated field: 2026-02-05T07:00:20 GMT (UTC+0 winter). Session open 13:30 UTC. Release 07:00 UTC = 6.5h before open.",2026-08-13
+SHEL_FQ1_2026,Shell,SHEL,NYSE (NYQ) USD,13:30 UTC,FQ1 2026 (Q1 2026 results),2026-05-07,06:03 UTC,07:03:15 BST (= 06:03:15 UTC),pre_market,Investegate schema.org dateCreated,"Investegate RNS announcement schema.org dateCreated field: 2026-05-07T07:03:15 BST (UTC+1 summer). Session open 13:30 UTC. Release 06:03 UTC = 7.5h before open.",2026-08-13
+SONY_FQ2_2025,Sony,SONY,NYSE (NYQ) USD,13:30 UTC,FQ2 2025 (Jul-Sep 2025 quarter),2025-11-11,03:00 UTC,12:00 JST (= 03:00 UTC),pre_market,Sony standard TDnet pattern + SEC 6-K,"Sony kessan tanshin consistently released at 12:00 JST = 03:00 UTC to TDnet. Date confirmed via SEC 6-K exhibit (filed Nov 12 due to Veterans Day federal holiday; period of report Nov 11). TDnet live data unavailable for this date (>45-day retention limit). Time 03:00 UTC is pattern-based not directly confirmed; flagged accordingly. Session open 13:30 UTC. Release ~03:00 UTC = ~10.5h before open.",2026-08-13
+SONY_FQ3_2025,Sony,SONY,NYSE (NYQ) USD,13:30 UTC,FQ3 2025 (Oct-Dec 2025 quarter),2026-02-05,03:25 UTC,12:25 JST (= 03:25 UTC),pre_market,Wayback Machine CDX + SEC 6-K,"Wayback Machine CDX record shows Sony supplementary financial PDF (25q3_supplement.pdf) first accessible at 03:25 UTC (= 12:25 JST) on 2026-02-05, consistent with 12:00 JST TDnet standard. SEC 6-K filed 06:02 UTC same day (acc 0001104659-26-010546). Session open 13:30 UTC. Release 03:25 UTC = 10h before open.",2026-08-13
+SONY_FQ1_2026,Sony,SONY,NYSE (NYQ) USD,13:30 UTC,FQ1 2026 (Apr-Jun 2026 quarter),2026-07-31,03:00 UTC,12:00 JST (= 03:00 UTC),pre_market,TDnet live data (directly confirmed),"TDnet live listing for 2026-07-31 (tdnet.info I_list_008_20260731.html) shows Sony Group (code 67580) at exactly 12:00 JST = 03:00 UTC. SEC 6-K filed 06:02 UTC same day (acc 0001104659-26-088915). Session open 13:30 UTC. Release 03:00 UTC = 10.5h before open.",2026-08-13

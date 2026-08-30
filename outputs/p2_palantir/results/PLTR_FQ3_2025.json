@@ -1,0 +1,230 @@
+{
+  "document_id": "PLTR_FQ3_2025",
+  "sentiment": {
+    "score": 0.85,
+    "rationale": "The company raised its full-year 2025 revenue guidance to between $4.396-$4.400 billion, up from prior guidance, and raised U.S. commercial revenue guidance to at least 104% growth. Management language is highly confident, citing a Rule of 40 score of 114% and 'crushing consensus expectations.' No major risks are highlighted beyond standard forward-looking statements."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 revenue of $1.181 billion, up 63% year-over-year and 18% quarter-over-quarter. U.S. revenue grew 77% Y/Y to $883 million; U.S. commercial revenue grew 121% Y/Y to $397 million.",
+    "eps": "GAAP EPS of $0.18 diluted; adjusted EPS of $0.21 diluted.",
+    "guidance": "Q4 2025 revenue expected between $1.327-$1.331 billion. Full-year 2025 revenue guidance raised to $4.396-$4.400 billion; U.S. commercial revenue guidance raised to at least $1.433 billion (at least 104% growth). Adjusted income from operations guidance raised to $2.151-$2.155 billion; adjusted free cash flow guidance raised to $1.9-$2.1 billion.",
+    "margin": "GAAP operating margin of 33%; adjusted operating margin of 51%; GAAP net income margin of 40%; adjusted free cash flow margin of 46%.",
+    "key_risks": [
+      "Contracts subject to termination for convenience provisions, which could affect revenue recognition.",
+      "Long and unpredictable sales cycle.",
+      "Potential impact of macroeconomic and geopolitical events, including conflicts and tariffs.",
+      "Risks related to the use of artificial intelligence in platforms.",
+      "Potential data breaches or unauthorized access to data."
+    ],
+    "key_opportunities": [
+      "U.S. commercial revenue growth of 121% Y/Y, driven by AIP adoption.",
+      "Record TCV of $2.76 billion, up 151% Y/Y, and U.S. commercial TCV up 342% Y/Y.",
+      "Partnership with NVIDIA to integrate models through AIP and push Ontology to the edge.",
+      "New product 'Next-Gen Interoperability: Multimodal Data Plane' enabling any storage, compute, and model.",
+      "Customer count growth of 45% Y/Y."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Alex Karp states 'These results make undeniable the transformational impact of using AIP to compound AI leverage,' and the press release highlights 'crushing consensus expectations.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for Q3 2025 was $1.181 billion, up 63% year-over-year.",
+      "quote": "Revenue grew 63% year-over-year and 18% quarter-over-quarter to $1.181 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $0.18 diluted.",
+      "quote": "GAAP earnings per share (“EPS”) of $0.18",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance was raised to $4.396-$4.400 billion.",
+      "quote": "We are raising our revenue guidance to between $4.396 - $4.400 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial revenue guidance was raised to at least $1.433 billion, representing at least 104% growth.",
+      "quote": "We are raising our U.S. commercial revenue guidance to in excess of $1.433 billion, representing a growth rate of at least 104%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin was 51% in Q3 2025.",
+      "quote": "Adjusted income from operations of $601 million, representing a 51% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was 33% in Q3 2025.",
+      "quote": "GAAP income from operations of $393 million, representing a 33% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income margin was 40% in Q3 2025.",
+      "quote": "GAAP net income of $476 million, representing a 40% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted free cash flow margin was 46% in Q3 2025.",
+      "quote": "Adjusted free cash flow of $540 million, representing a 46% margin",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "“114% - our Rule of 40 score! These results make undeniable the transformational impact of using AIP to compound AI leverage. Year-over-year growth in our U.S. business surged to 77%, and year-over-year growth in U.S. commercial climbed to 121%.”",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its full-year adjusted income from operations guidance.",
+      "quote": "We are raising our adjusted income from operations guidance to between $2.151 - $2.155 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its full-year adjusted free cash flow guidance.",
+      "quote": "We are raising our adjusted free cash flow guidance to between $1.9 - $2.1 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue guidance is between $1.327-$1.331 billion.",
+      "quote": "For Q4 2025, we expect: Revenue of between $1.327 - $1.331 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record TCV of $2.76 billion was closed in Q3 2025.",
+      "quote": "Closed a record-setting $2.76 billion of total contract value (“TCV”), up 151% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial TCV was a record $1.31 billion, up 342% year-over-year.",
+      "quote": "Closed a record-setting $1.31 billion of U.S. commercial TCV, up 342% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer count grew 45% year-over-year.",
+      "quote": "Customer count grew 45% year-over-year and 7% quarter-over-quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. commercial remaining deal value grew 199% year-over-year to $3.63 billion.",
+      "quote": "U.S. commercial remaining deal value (“RDV”) of $3.63 billion, up 199% year-over-year and 30% quarter-over-quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company closed 204 deals of at least $1 million.",
+      "quote": "Closed 204 deals of at least $1 million, 91 deals of at least $5 million, and 53 deals of at least $10 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has no debt and $6.4 billion in cash and equivalents.",
+      "quote": "Cash, cash equivalents, and short-term U.S. Treasury securities of $6.4 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects GAAP operating income and net income in each quarter of this year.",
+      "quote": "And we continue to expect GAAP operating income and net income in each quarter of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its full-year revenue guidance, indicating a positive forward outlook.",
+      "quote": "Raises FY 2025 Revenue Guidance to 53% Y/Y, Crushing Consensus Expectations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.85 is high; verify that the guidance raise is indeed material and not just a small increment. The document explicitly states 'raising' guidance, which supports a high score, but a human reviewer may want to confirm the magnitude of the raise relative to prior guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PLTR_Bundled Earnings Report_2025-11-03",
+  "report_metadata": {
+    "issuer": "p2_palantir",
+    "company": "Palantir",
+    "ticker": "PLTR",
+    "sector": "Technology/Software - Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-03",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q3\\PLTR_Q3_2025_presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PLTR_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T101647Z",
+    "timestamp": "2026-08-09T10:17:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_palantir\\extracted\\PLTR_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 23115,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\palantir\\CY2025-Q3\\PLTR_Q3_2025_presentation.pdf",
+        "page_count": 39,
+        "extracted_characters": 28580,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_palantir\\extracted\\PLTR_FQ3_2025.txt"
+  }
+}

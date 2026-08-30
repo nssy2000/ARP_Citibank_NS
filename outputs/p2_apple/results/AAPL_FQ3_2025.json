@@ -1,0 +1,205 @@
+{
+  "document_id": "AAPL_FQ3_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong quarter with record revenue and EPS, but forward guidance is for mid- to high single-digit revenue growth, which is a deceleration from the 10% reported. Management explicitly attributes 1 point of the 10% growth to a tariff pull-ahead effect, and the guidance includes a $1.1 billion tariff cost headwind. The overall forward outlook is positive but tempered by known headwinds and a deceleration in growth rate, placing the score at the lower end of the positive range."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$94 billion, up 10% year-over-year, a June quarter record.",
+    "eps": "$1.57, up 12% year-over-year, a June quarter record.",
+    "guidance": "September quarter total company revenue expected to grow mid- to high single digits year-over-year; Services revenue growth rate similar to June quarter; gross margin expected between 46% and 47%; operating expenses between $15.6 billion and $15.8 billion.",
+    "margin": "Company gross margin was 46.5%, down 60 basis points sequentially, primarily due to tariff costs. Products gross margin was 34.5% (down 140 bps sequentially). Services gross margin was 75.6% (down 10 bps sequentially).",
+    "key_risks": [
+      "Tariff-related costs: $800 million incurred in June quarter, estimated $1.1 billion in September quarter.",
+      "iPad revenue declined 8% year-over-year due to difficult compare.",
+      "Wearables, Home and Accessories revenue declined 9% year-over-year due to difficult compare.",
+      "Guidance assumes global tariff rates, policies, and applications do not change; macroeconomic outlook does not worsen; and current revenue share agreement with Google continues.",
+      "Legal and regulatory uncertainties, including the Epic case and potential changes to the Google revenue share agreement."
+    ],
+    "key_opportunities": [
+      "iPhone revenue up 13% with growth in every geographic segment and a record number of upgraders.",
+      "Mac revenue up 15% year-over-year, driven by M4 MacBook Air.",
+      "Services revenue reached an all-time high of $27.4 billion, up 13%.",
+      "Active installed base at an all-time high across all products and regions.",
+      "Significant increase in AI-related investment, driving higher capital expenditures and future growth potential.",
+      "Planned $500 billion investment in the U.S. over the next four years."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'proud to report a June quarter revenue record,' 'strong broad-based performance,' and 'we are really proud of our results,' indicating a confident tone about the quarter's achievements."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $94 billion, up 10% year-over-year, a June quarter record.",
+      "quote": "Today, we are proud to report a June quarter revenue record of $94 billion, up 10% from a year ago, which was better than we expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $1.57, up 12% year-over-year, a June quarter record.",
+      "quote": "EPS set a June quarter record of $1.57, up 12% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance is for mid- to high single-digit revenue growth in the September quarter.",
+      "quote": "We expect our September quarter total company revenue to grow mid- to high single digits year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company gross margin was 46.5%, down 60 basis points sequentially, primarily due to tariff costs.",
+      "quote": "Company gross margin was 46.5% at the high end of our guidance range and down 60 basis points sequentially, primarily driven by approximately $800 million in tariff-related costs Tim mentioned earlier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff-related costs were $800 million in the June quarter and estimated at $1.1 billion for the September quarter.",
+      "quote": "For the June quarter, we incurred approximately $800 million of tariff-related costs. For the September quarter, assuming the current global tariff rates, policies and applications do not change for the balance of the quarter and no new tariffs are added, we estimate the impact to add about $1.1 billion to our costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "iPad revenue declined 8% year-over-year.",
+      "quote": "iPad revenue was $6.6 billion, down 8% year-over-year, which was expected given the difficult compare against the launch of the iPad Air and iPad Pro in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wearables, Home and Accessories revenue declined 9% year-over-year.",
+      "quote": "Wearables, Home and Accessories revenue was $7.4 billion, down 9% year-over-year. This was driven by a difficult compare on accessories due to the prior year's iPad launches that I just referred to.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "iPhone revenue grew 13% year-over-year with growth in every geographic segment.",
+      "quote": "iPhone revenue was $44.6 billion, up 13% from a year ago, and we set a June quarter record for upgraders. This strong broad-based performance was driven by the incredible popularity of the iPhone 16 family... We saw iPhone growth in every geographic segment and double-digit growth in emerging markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mac revenue grew 15% year-over-year.",
+      "quote": "Mac revenue was $8 billion, up 15% year-over-year, driven by continued strength across the portfolio, including MacBook Air, Mac mini and MacBook Pro.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services revenue reached an all-time high of $27.4 billion, up 13%.",
+      "quote": "Services revenue was $27.4 billion, up 13% year-over-year and an all-time record.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Active installed base is at an all-time high across all products and regions.",
+      "quote": "And thanks to our high levels of customer satisfaction and strong loyalty, our installed base of active devices reached another all-time high across all product categories and geographic segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Today, we are proud to report a June quarter revenue record of $94 billion, up 10% from a year ago, which was better than we expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance decelerates from 10% reported growth to mid- to high single digits.",
+      "quote": "We expect our September quarter total company revenue to grow mid- to high single digits year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "1 point of the 10% growth was attributed to tariff pull-ahead.",
+      "quote": "We would estimate the pull forward of demand into April, specifically to be about 1 point of the 10 points in terms of people buying because of discussions about tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Significant increase in AI-related investment is driving higher capital expenditures.",
+      "quote": "Yes, Mike, it's a combination of factors. I would say, a pretty significant driver as Tim talked about, is the fact we are increasing our investment significantly in AI. So that is certainly a component of it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Planned $500 billion investment in the U.S. over the next four years.",
+      "quote": "Over the next 4 years, Apple is investing $500 billion in the U.S., driving innovation and creating jobs in cuttingedge fields like advanced manufacturing, silicon engineering and artificial intelligence.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary of the BUY threshold. A reviewer may want to assess whether the deceleration in guidance and tariff headwinds warrant a slightly lower score (e.g., 0.10) which would result in a HOLD signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AAPL_Bundled Earnings Report_2025-07-31",
+  "report_metadata": {
+    "issuer": "p2_apple",
+    "company": "Apple",
+    "ticker": "AAPL",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-07-31",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q3\\Q3 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q3\\Apple-Q3-FY2025-Press-Release.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AAPL_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172214Z",
+    "timestamp": "2026-07-30T17:22:32Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q3\\Q3 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_apple\\extracted\\AAPL_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q3\\Q3 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 54392,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2025-Q3\\Apple-Q3-FY2025-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 7780,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_apple\\extracted\\AAPL_FQ3_2025.txt"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "document_id": "NVDA_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports a strong backward-looking quarter (revenue beat, $11B Blackwell ramp), but forward guidance is cautious: gross margin is guided to a trough of 71% (down from 73.5%) with a back-loaded recovery promise, growth decelerates sharply from 114% to ~65% YoY, and tariffs are explicitly called 'an unknown.' The Q&A reveals management hedging on margin recovery and policy risk, which lowers forward expectations. The score is negative because the forward outlook is materially weaker than the prior trajectory, despite the headline beat."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 revenue $39.3 billion, up 12% sequentially and 78% year on year. Full fiscal 2025 revenue $130.5 billion, up 114% from prior year.",
+    "eps": "Non-GAAP diluted EPS $0.89 (GAAP also $0.89).",
+    "guidance": "Q1 (next quarter) revenue expected to be $43 billion, plus or minus 2%. GAAP and non-GAAP gross margins expected to be 70.6% and 71%, respectively, plus or minus 50 basis points. Full-year fiscal 2026 operating expenses expected to grow in the mid-30s.",
+    "margin": "Q4 non-GAAP gross margin 73.5%, down sequentially. Q1 guided to 71% non-GAAP. Management expects gross margin to return to mid-70s late this fiscal year.",
+    "key_risks": [
+      "Gross margin trough during Blackwell ramp, with recovery back-loaded and unproven.",
+      "Tariffs explicitly described as 'a little bit of an unknown' with no quantification.",
+      "China data center sales remain at about half of pre-export-control levels and are expected to stay there absent regulatory change.",
+      "Networking revenue declined 3% sequentially during product transition.",
+      "Gaming revenue declined 22% sequentially due to supply constraints."
+    ],
+    "key_opportunities": [
+      "Blackwell ramp is the fastest product ramp in company history, with $11 billion revenue in first full quarter.",
+      "Three scaling laws (pretraining, post-training, inference time) driving demand for AI computing.",
+      "Enterprise data center revenue grew nearly 2x year on year.",
+      "Automotive vertical revenue expected to grow to approximately $5 billion this fiscal year.",
+      "New products (Blackwell Ultra, Vera Rubin) on annual cadence."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses strong confidence in the Blackwell ramp and long-term AI demand ('Demand for Blackwell is extraordinary'), but simultaneously hedges on margins ('we have many opportunities to improve the cost... but right now we are going to focus on getting the manufacturing complete') and explicitly flags tariff uncertainty ('it's a little bit of an unknown')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenue was $39.3 billion, up 12% sequentially and 78% year on year.",
+      "quote": "Revenue of $39.3 billion was up 12% sequentially and up 78% year on year and above our outlook of $37.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full fiscal 2025 revenue was $130.5 billion, up 114% from prior year.",
+      "quote": "For fiscal 2025 revenue was $130.5 billion, up 114% from the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP diluted EPS was $0.89.",
+      "quote": "Non-GAAP diluted EPS $0.89 vs $0.84 LSEG consensus (GAAP also $0.89).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 revenue guidance is $43 billion, plus or minus 2%.",
+      "quote": "Total revenue is expected to be $43 billion, plus or minus 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 non-GAAP gross margin guided to 71%, down from 73.5%.",
+      "quote": "GAAP and non-GAAP gross margins are expected to be 70.6% and 71%, respectively, plus or minus 50 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin is expected to return to mid-70s late this fiscal year.",
+      "quote": "When fully ramped, we have many opportunities to improve the cost, and gross margin will improve and return to the mid-70s, late this fiscal year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Blackwell delivered $11 billion in revenue in its first full quarter.",
+      "quote": "We delivered $11 billion of Blackwell revenue to meet strong demand. This is the fastest product ramp in our company's history, unprecedented in its speed and scale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs are an unquantified risk.",
+      "quote": "Tariff at this point, it's a little bit of an unknown it's an unknown until we understand further what the U.S. government's plan is, both its timing, it's where, and how much.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China data center sales remain at about half of pre-export-control levels.",
+      "quote": "As a percentage of total Data Center revenue, data center sales in China remained well below levels seen on the onset of export controls. Absent any change in regulations, we believe that China shipments will remain roughly at the current percentage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Networking revenue declined 3% sequentially.",
+      "quote": "Networking revenue declined 3% sequentially.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gaming revenue declined 22% sequentially due to supply constraints.",
+      "quote": "Gaming revenue of $2.5 billion decreased 22% sequentially and 11% year on year. ... Q4 shipments were impacted by supply constraints.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Enterprise data center revenue grew nearly 2x year on year.",
+      "quote": "Enterprise revenue increased nearly 2x year on accelerating demand for model fine-tuning, RAG, and agentic AI workflows, and GPU-accelerated data processing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Automotive vertical revenue expected to grow to approximately $5 billion this fiscal year.",
+      "quote": "NVIDIA's automotive vertical revenue is expected to grow to approximately $5 billion this fiscal year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident on demand but cautious on margins and tariffs.",
+      "quote": "Demand for Blackwell is extraordinary. ... When fully ramped, we have many opportunities to improve the cost, and gross margin will improve and return to the mid-70s, late this fiscal year. ... Tariff at this point, it's a little bit of an unknown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative (-0.50) despite a strong backward-looking beat, because forward guidance is cautious and growth decelerates. A human reviewer should confirm this weighting is appropriate given the document's mixed signals."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NVDA_Bundled Earnings Report_2025-05-28",
+  "report_metadata": {
+    "issuer": "p2_nvidia",
+    "company": "Nvidia",
+    "ticker": "NVDA",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-02-26",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q1\\NVDA-Q4FY25-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q1\\NVIDIA Q1 2025 - Dragos manual baseline.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NVDA_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214902Z",
+    "timestamp": "2026-07-18T21:49:20Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q1\\NVDA-Q4FY25-earnings-call-transcript-MotleyFool.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nvidia\\extracted\\NVDA_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q1\\NVDA-Q4FY25-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 53754,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nvidia\\CY2025-Q1\\NVIDIA Q1 2025 - Dragos manual baseline.pdf",
+        "page_count": 5,
+        "extracted_characters": 9502,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nvidia\\extracted\\NVDA_FQ1_2025.txt"
+  }
+}

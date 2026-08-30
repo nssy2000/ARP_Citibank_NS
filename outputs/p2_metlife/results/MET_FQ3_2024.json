@@ -1,0 +1,226 @@
+{
+  "document_id": "MET_FQ3_2024",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The document shows a mixed quarter: net income surged to $1.3 billion from $422 million, but adjusted earnings per share declined 1% to $1.95, and adjusted earnings excluding notable items fell 8% to $1.359 billion. Forward guidance is not explicitly raised or lowered; management expresses confidence in 'strong momentum' but also cites headwinds like 'lower variable investment income' and 'lower recurring interest margins,' with no formal guidance change, resulting in a slightly negative score due to the flat-to-hedged forward outlook."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $18.44 billion for Q3 2024, up from $15.87 billion in Q3 2023. Premiums, fees and other revenues were $12.52 billion, down 5% year-over-year. Adjusted premiums, fees and other revenues were $12.47 billion, down 5% on a reported basis and 4% on a constant currency basis.",
+    "eps": "Net income per share was $1.81, up 223% from $0.56 in Q3 2023. Adjusted earnings per share were $1.95, down 1% from $1.97 in Q3 2023. Adjusted EPS excluding total notable items was $1.93, down 1% from $1.95.",
+    "guidance": "No explicit forward guidance is provided. Management states 'unyielding focus on execution continues to drive strong momentum across our market-leading businesses' and references 'Next Horizon targets' including 'expect to exceed target to generate $20 Billion in distributable cash flow over five years' and 'expect to exceed target to free up $1 Billion of operating leverage over five years.'",
+    "margin": "The expense ratio was 19.9% in Q3 2024, up from 18.6% in Q3 2023. The adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT, was 20.7%, up from 20.6% in the prior-year period.",
+    "key_risks": [
+      "Lower variable investment income, driven by lower private equity returns.",
+      "Lower recurring interest margins in the Retirement and Income Solutions segment.",
+      "Less favorable non-medical health underwriting in Group Benefits.",
+      "Impact of the annual actuarial assumption review and other insurance adjustments on several segments.",
+      "Foregone earnings due to the reinsurance transaction completed in 2023 in MetLife Holdings.",
+      "Lower sales in Japan, partially offset by growth in India and China."
+    ],
+    "key_opportunities": [
+      "Strong growth in national accounts in Group Benefits, with sales up 9% year-to-date.",
+      "Strong sales in UK longevity reinsurance in RIS, with year-to-date sales up 42%.",
+      "Volume growth in key markets in Latin America, with sales up 12% on a constant currency basis.",
+      "Strong sales across the EMEA region, with sales up 32% on a constant currency basis.",
+      "Growth in India and China in the Asia segment.",
+      "Higher interest rates and asset growth driving net investment income."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "The CEO states, 'Our unyielding focus on execution continues to drive strong momentum across our market-leading businesses,' and the presentation highlights 'Consistent Execution' and 'Strategic Growth' as core themes."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net income per share was $1.81, up from $0.56 in the prior-year period.",
+      "quote": "Net income (loss) per share $ 1.81 $ 0.56 223%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted earnings per share were $1.95, down 1% from the prior-year period.",
+      "quote": "Adjusted earnings per share $ 1.95 $ 1.97 (1)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenues were $18.44 billion, up from $15.87 billion in the prior-year period.",
+      "quote": "Total revenues $ 18,440 $ 15,866",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premiums, fees and other revenues were down 5% year-over-year.",
+      "quote": "Premiums, fees and other revenues $ 12,523 $ 13,170 (5)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted premiums, fees and other revenues were down 5% on a reported basis and 4% on a constant currency basis.",
+      "quote": "Adjusted premiums, fees and other revenues were also $12.5 billion, down 5 percent on a reported basis and down 4 percent on a constant currency basis from the prior-year period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The expense ratio increased to 19.9% from 18.6% in the prior-year period.",
+      "quote": "Expense ratio 19.9 % 18.6 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT, increased to 20.7% from 20.6%.",
+      "quote": "Adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT 20.7 % 20.6 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the business momentum.",
+      "quote": "Our unyielding focus on execution continues to drive strong momentum across our market-leading businesses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower variable investment income was a headwind in the quarter.",
+      "quote": "Despite lower variable investment income, MetLife demonstrated the financial attractiveness of our business in the third quarter, including an adjusted return on equity of 14.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower recurring interest margins were a headwind in the RIS segment.",
+      "quote": "Adjusted earnings were $472 million, essentially flat, driven by the impact of the annual actuarial assumption review and other insurance adjustments, offset by lower recurring interest margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group Benefits experienced less favorable non-medical health underwriting.",
+      "quote": "Adjusted earnings were $373 million, down 27 percent, primarily driven by the impact of a liability refinement included in the annual actuarial assumption review and other insurance adjustments, and less favorable non-medical health underwriting.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MetLife Holdings results were impacted by the 2023 reinsurance transaction.",
+      "quote": "Adjusted earnings were $182 million, down 13 percent, primarily as a result of the reinsurance transaction completed in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia sales were down 1% on a constant currency basis, driven by lower sales in Japan.",
+      "quote": "Sales were $590 million, down 1 percent on a constant currency basis, driven by lower sales in Japan, offset by growth in India and China.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group Benefits saw strong growth in national accounts.",
+      "quote": "Adjusted premiums, fees and other revenues were $6.1 billion, up 5 percent, primarily driven by strong growth in national accounts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RIS saw strong sales in UK longevity reinsurance.",
+      "quote": "Excluding pension risk transfers, adjusted premiums, fees and other revenues were $1.1 billion, up 3 percent, driven by strong sales in UK longevity reinsurance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America saw volume growth in key markets.",
+      "quote": "Adjusted earnings were $221 million, up 11 percent on a reported basis, and up 23 percent on a constant currency basis, driven by higher Chilean encaje returns and volume growth in our key markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA saw strong sales across the region.",
+      "quote": "Adjusted premiums, fees and other revenues were $655 million, up 11 percent on a reported basis and up 14 percent on a constant currency basis due to strong sales across the region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net investment income increased due to higher interest rates and asset growth.",
+      "quote": "Adjusted net investment income was $5.1 billion, up 2 percent. Recurring investment income was $5.0 billion, compared with $4.9 billion in the prior-year period, driven by higher interest rates and asset growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management references targets to exceed $20 billion in distributable cash flow and $1 billion in operating leverage over five years.",
+      "quote": "Expect to exceed target to generate $20 Billion in distributable cash flow over five years1 Expect to exceed target to free up $1 Billion of operating leverage over five years1",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) despite a large net income beat, because adjusted earnings declined and no formal guidance was provided. A reviewer should verify this interpretation aligns with the intent of the scoring rubric, which emphasizes forward guidance over backward-looking results."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MET_Bundled Earnings Report_2024-10-30",
+  "report_metadata": {
+    "issuer": "p2_metlife",
+    "company": "Metlife",
+    "ticker": "MET",
+    "sector": "Financial Services/Insurance - Life",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-10-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2024-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2024-Q3\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MET_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260809T101102Z",
+    "timestamp": "2026-08-09T10:11:39Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2024-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2024-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 54928,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2024-Q3\\presentation.pdf",
+        "page_count": 36,
+        "extracted_characters": 61847,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ3_2024.txt"
+  }
+}

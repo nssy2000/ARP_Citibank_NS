@@ -1,0 +1,238 @@
+{
+  "document_id": "BA_FQ4_2020",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports a massive GAAP loss per share of ($14.65) for Q4 2020 and ($20.88) for the full year, with operating cash flow of ($18.4) billion. Forward guidance is effectively lowered: the 777X first delivery is pushed to late 2023 with a $6.5 billion charge, and the 737 MAX production rate remains low with gradual increases only in early 2022. Management's tone is cautious, acknowledging 'continued challenges for commercial aerospace into 2021' and the need to 'preserve liquidity.' These factors indicate a significant negative shift in forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2020 revenue of $15.3 billion, down 15% from $17.9 billion in Q4 2019. Full-year 2020 revenue of $58.2 billion, down 24% from $76.6 billion in 2019.",
+    "eps": "Q4 2020 GAAP loss per share of ($14.65), compared to ($1.79) in Q4 2019. Full-year 2020 GAAP loss per share of ($20.88), compared to ($1.12) in 2019.",
+    "guidance": "777X first delivery expected in late 2023 (pushed from earlier expectations). 737 program expects to gradually increase production to 31 per month in early 2022. 787 program plans to transition production rate to 5 per month in March 2021. The company will continue business transformation actions in 2021 to preserve liquidity.",
+    "margin": "Q4 2020 GAAP operating margin of (52.6)%, compared to (12.3)% in Q4 2019. Full-year 2020 GAAP operating margin of (22.0)%, compared to (2.6)% in 2019.",
+    "key_risks": [
+      "COVID-19 pandemic significantly constraining commercial air travel and impacting results",
+      "737 MAX grounding and regulatory approval process",
+      "777X program $6.5 billion pre-tax charge and delayed first delivery to late 2023",
+      "787 production issues",
+      "Lower commercial deliveries and services volume due to COVID-19",
+      "KC-46A Tanker program $275 million pre-tax charge due to production inefficiencies and COVID-19 disruption",
+      "Global Services $290 million pre-tax charges related to asset impairments driven by COVID-19",
+      "Higher debt balances and interest expense",
+      "Tax valuation allowance on deferred income tax assets"
+    ],
+    "key_opportunities": [
+      "737 MAX began receiving regulatory approval to resume operations and restarted deliveries; over 40 aircraft delivered and five airlines returned to service as of January 25, 2021",
+      "Defense, Space & Security segment revenue increased 14% in Q4 2020, providing stability",
+      "Total backlog of $363 billion, including more than 4,000 commercial airplanes",
+      "Orders for 75 737 aircraft from Ryanair, eight 777 freighters from DHL, and commitment for 23 737 aircraft from Alaska Airlines",
+      "Awarded contracts for two KC-46A aircraft for Japan and AEW&C upgrades for Republic of Korea Air Force",
+      "10-year digital services agreement with Frontier Airlines"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "CEO Dave Calhoun stated: 'While the impact of COVID-19 presents continued challenges for commercial aerospace into 2021, we remain confident in our future, squarely-focused on safety, quality and transparency as we rebuild trust and transform our business.' This language acknowledges ongoing challenges while expressing measured confidence."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2020 revenue was $15.3 billion, down 15% from Q4 2019.",
+      "quote": "Boeing reported fourth-quarter revenue of $15.3 billion, reflecting lower commercial deliveries and services volume primarily due to COVID-19 as well as 787 production issues, partially offset by a lower 737 MAX customer considerations charge in the quarter compared to the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2020 revenue was $58.2 billion, down 24% from 2019.",
+      "quote": "Revenue of $58.2 billion, GAAP loss per share of ($20.88) and core (non-GAAP)* loss per share of ($23.25)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 GAAP loss per share was ($14.65), compared to ($1.79) in Q4 2019.",
+      "quote": "GAAP loss per share of ($14.65) and core loss per share (non-GAAP)* of ($15.25) reflected a $6.5 billion pre-tax charge on the 777X program and a tax valuation allowance, partially offset by a lower 737 MAX customer considerations charge.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2020 GAAP loss per share was ($20.88), compared to ($1.12) in 2019.",
+      "quote": "Revenue of $58.2 billion, GAAP loss per share of ($20.88) and core (non-GAAP)* loss per share of ($23.25)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777X first delivery expected in late 2023, with a $6.5 billion pre-tax charge.",
+      "quote": "Boeing now anticipates that the first 777X delivery will occur in late 2023. This schedule, and the associated financial impact, reflect a number of factors, including an updated assessment of global certification requirements, the company's latest assessment of COVID-19 impacts on market demand, and discussions with its customers with respect to aircraft delivery timing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 program expects to gradually increase production to 31 per month in early 2022.",
+      "quote": "The 737 program is currently producing at a low rate and expects to gradually increase production to 31 per month in early 2022 with further gradual increases to correspond with market demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 program plans to transition production rate to 5 per month in March 2021.",
+      "quote": "The 787 program plans to transition its production rate to 5 per month in March 2021, at which point 787 final assembly will be consolidated to Boeing South Carolina.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2020 GAAP operating margin was (52.6)%, compared to (12.3)% in Q4 2019.",
+      "quote": "Operating Margin (52.6) % (12.3) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2020 GAAP operating margin was (22.0)%, compared to (2.6)% in 2019.",
+      "quote": "Operating Margin (22.0) % (2.6) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID-19 pandemic significantly constrained commercial air travel and impacted results.",
+      "quote": "2020 was a year of profound societal and global disruption which significantly constrained our industry. The deep impact of the pandemic on commercial air travel, coupled with the 737 MAX grounding, challenged our results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 MAX grounding and regulatory approval process is a key risk.",
+      "quote": "The deep impact of the pandemic on commercial air travel, coupled with the 737 MAX grounding, challenged our results.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "KC-46A Tanker program recorded a $275 million pre-tax charge.",
+      "quote": "partially offset by a $275 million pre-tax charge on the KC-46A Tanker program primarily due to production inefficiencies including impacts of COVID-19 disruption.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services recorded $290 million in pre-tax charges related to asset impairments driven by COVID-19.",
+      "quote": "Fourth-quarter operating margin decreased to 3.8 percent primarily due to lower commercial services volume and $290 million of pre-tax charges related to asset impairments driven by COVID-19.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security segment revenue increased 14% in Q4 2020, providing stability.",
+      "quote": "Defense, Space & Security fourth-quarter revenue increased to $6.8 billion, primarily driven by higher volume on fighter programs and the rest of the portfolio as well as a charge on the Commercial Crew program in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total backlog was $363 billion, including more than 4,000 commercial airplanes.",
+      "quote": "Total backlog of $363 billion, including more than 4,000 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Orders for 75 737 aircraft from Ryanair, eight 777 freighters from DHL, and commitment for 23 737 aircraft from Alaska Airlines.",
+      "quote": "Commercial Airplanes captured orders for 75 737 aircraft from Ryanair and eight 777 freighters from DHL, as well as a commitment for 23 737 aircraft from Alaska Airlines.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious, acknowledging continued challenges.",
+      "quote": "While the impact of COVID-19 presents continued challenges for commercial aerospace into 2021, we remain confident in our future, squarely-focused on safety, quality and transparency as we rebuild trust and transform our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flow was ($18.4) billion for full-year 2020.",
+      "quote": "Operating cash flow of ($18.4) billion; cash and marketable securities of $25.6 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash and marketable securities decreased to $25.6 billion from $27.1 billion at beginning of quarter.",
+      "quote": "Cash and investments in marketable securities decreased to $25.6 billion, compared to $27.1 billion at the beginning of the quarter, primarily driven by operating cash outflows partially offset by changes in the debt balance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Interest and debt expense increased due to higher debt balances.",
+      "quote": "Interest and debt expense increased due to higher debt balances.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tax valuation allowance on deferred income tax assets was recorded.",
+      "quote": "The fourth quarter 2020 effective tax rate primarily reflects an additional valuation allowance on certain deferred income tax assets, partially offset by the benefit of the five year net operating loss carryback provision in the Coronavirus Aid, Relief, and Economic Security (CARES) Act.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 MAX began receiving regulatory approval to resume operations and restarted deliveries.",
+      "quote": "The return to service of the 737 MAX in the U.S. and several other markets was an important step, and Boeing continues to follow the lead of global regulators and support its customers. Since the FAA’s approval to return to operations, Boeing has delivered over 40 737 MAX aircraft and five airlines have safely returned their fleets to service as of January 25, 2021, safely flying more than 2,700 revenue flights and approximately 5,500 flight hours.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company will continue business transformation actions in 2021 to preserve liquidity.",
+      "quote": "Boeing will continue these actions in 2021 to preserve liquidity, adapt to the new market, improve performance, sustain key investments and transform its business to be more productive, resilient and competitive for the long term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the significant negative forward guidance (777X delay, low production rates) and cautious tone. However, the document also contains some positive developments (737 MAX return to service, defense segment growth) that could be argued to warrant a less negative score. A human reviewer should verify the balance of positive and negative signals."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2021-01-27",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2020",
+    "report_date": "2021-01-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2020-Q4\\ba-4q20-press-release.html",
+        "pub_date": "2021-01-27"
+      }
+    ],
+    "document_id": "BA_FQ4_2020"
+  },
+  "run_meta": {
+    "run_id": "20260709T144238Z",
+    "timestamp": "2026-07-09T14:42:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2020-Q4\\ba-4q20-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2020.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2020-Q4\\ba-4q20-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 31540,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2020.txt"
+  }
+}

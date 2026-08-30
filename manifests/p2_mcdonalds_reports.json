@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_mcdonalds",
+  "reports": [
+    {
+      "document_id": "MCD_FQ4_2024",
+      "issuer": "p2_mcdonalds",
+      "company": "McDonald's",
+      "ticker": "MCD",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2024",
+      "report_date": "2025-02-10",
+      "release_date": "2025-02-10",
+      "release_date_source": "EDGAR 8-K Item 2.02, mcd-20250210.htm, acc 0000063908-25-000006",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/mcdonalds/CY2024-Q4/Q4 2024 Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/mcdonalds/CY2024-Q4/Q4 2024-numbers.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MCD_FQ4_2025",
+      "issuer": "p2_mcdonalds",
+      "company": "McDonald's",
+      "ticker": "MCD",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-11",
+      "release_date": "2026-02-11",
+      "release_date_source": "EDGAR 8-K Item 2.02, mcd-20260211.htm, acc 0000063908-26-000032",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/mcdonalds/CY2025-Q4/Q4 2025 - numbers.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/mcdonalds/CY2025-Q4/Q4 2025 Earnings Call Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "MCD_FQ1_2026",
+      "issuer": "p2_mcdonalds",
+      "company": "McDonald's",
+      "ticker": "MCD",
+      "sector": "Consumer/Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-07",
+      "release_date": "2026-05-07",
+      "release_date_source": "EDGAR 8-K Item 2.02, mcd-20260507.htm, acc 0000063908-26-000048",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/mcdonalds/CY2026-Q1/Q1 2026 Earnings Transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/mcdonalds/CY2026-Q1/Q1 2026- numbers.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

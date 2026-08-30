@@ -1,0 +1,58 @@
+{
+  "document_id": "JNJ_FQ1_2025_QUANT",
+  "base_document_id": "JNJ_FQ1_2025",
+  "issuer": "p2_johnson_johnson",
+  "ticker": "JNJ",
+  "sector": "Healthcare/Drug Manufacturers - General",
+  "report_date": "2025-04-14",
+  "sentiment": {
+    "score": -0.071814
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.069084,
+      "window_start_date": "2025-03-13",
+      "window_end_date": "2025-04-11",
+      "score": -0.430541,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.352882,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 7.38,
+      "matched_earnings_date": "2025-04-15",
+      "score": 0.286914,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 30.89,
+      "vix_score": -0.659917,
+      "tnx_change": 0.056,
+      "tnx_score": -0.111534,
+      "score": -0.385725,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-04-13",
+      "curve_spread": 0.52,
+      "curve_score": 0.4777,
+      "curve_as_of": "2025-04-11",
+      "score": 0.23885,
+      "available": true
+    },
+    "quant_score": -0.071814,
+    "quant_score_with_macro": -0.228769,
+    "quant_score_with_fred": 0.083518,
+    "quant_score_with_macro_fred": -0.072896
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

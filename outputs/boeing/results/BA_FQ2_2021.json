@@ -1,0 +1,191 @@
+{
+  "document_id": "BA_FQ2_2021",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows a genuine operational inflection: Commercial Airplanes swung from a $2,762M operating loss in Q2 2020 to a $472M loss in Q2 2021, and overall GAAP earnings swung from a loss of $2,395M to a profit of $567M. However, forward guidance is not formally raised; the 737 MAX production rate plan is to gradually increase to 31 per month in early 2022, but the company will continue to assess the plan as it monitors the market environment. Additionally, a structural risk is disclosed: the 787 program has identified additional rework, leading to temporarily lower production and fewer than half of undelivered 787s expected to be delivered this year. This structural risk tempers the positive momentum, resulting in a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$17.0 billion, up 44% year-over-year (from $11.8 billion in Q2 2020), driven by higher commercial airplanes and services volume.",
+    "eps": "GAAP EPS of $1.00 (vs. -$4.20 in Q2 2020); core (non-GAAP) EPS of $0.40 (vs. -$4.79 in Q2 2020). The improvement primarily reflects higher commercial volume and lower period costs.",
+    "guidance": "The 737 program expects to gradually increase production to 31 per month in early 2022 with further gradual increases to correspond with market demand. The 787 production rate will temporarily be lower than five per month and will gradually return to that rate; Boeing expects to deliver fewer than half of the 787s currently in inventory this year. The company will continue to assess the production rate plan as it monitors the market environment and engages in customer discussions.",
+    "margin": "GAAP operating margin improved to 6.0% (from -25.1% in Q2 2020). Core (non-GAAP) operating margin improved to 4.4% (from -28.1% in Q2 2020). Commercial Airplanes operating margin improved to -7.8% (from -169.1% in Q2 2020).",
+    "key_risks": [
+      "COVID-19 pandemic and related industry impacts, including on operations, liquidity, health of customers and suppliers, and future demand.",
+      "737 MAX: timing and conditions of remaining regulatory approvals, lower than planned production rates and/or delivery rates, and increased considerations to customers and suppliers.",
+      "787 program: additional rework required on undelivered 787s, leading to temporarily lower production rate and fewer deliveries expected this year.",
+      "General conditions in the economy and industry, including regulatory changes.",
+      "Reliance on commercial airline customers.",
+      "Overall health of aircraft production system and planned production rate changes.",
+      "Changing U.S. government budget and appropriation levels and acquisition priorities.",
+      "Dependence on U.S. government contracts and fixed-price contracts.",
+      "Reliance on subcontractors and suppliers, and availability of raw materials.",
+      "Changes in accounting estimates.",
+      "Competitive landscape changes.",
+      "Non-U.S. operations and sales to non-U.S. customers.",
+      "Security threats to information.",
+      "Potential adverse developments in litigation and/or government investigations.",
+      "Customer and aircraft concentration in customer financing portfolio.",
+      "Ability to obtain debt financing on commercially reasonable terms.",
+      "Realizing anticipated benefits of mergers, acquisitions, joint ventures/strategic alliances or divestitures.",
+      "Adequacy of insurance coverage.",
+      "Potential business disruptions (physical security threats, IT/cyber-attacks, epidemics, sanctions, natural disasters).",
+      "Work stoppages or other labor disruptions.",
+      "Substantial pension and other postretirement benefit obligations.",
+      "Potential environmental liabilities."
+    ],
+    "key_opportunities": [
+      "Continued progress on global safe return to service of 737 MAX: more than 130 delivered since FAA approval, 30 airlines operating, nearly 95,000 revenue flights.",
+      "Commercial Airplanes backlog grew to $285 billion and added 180 net orders, including 200 737 aircraft for United Airlines and 34 for Southwest Airlines.",
+      "Defense, Space & Security secured awards for 14 H-47 Chinook helicopters for U.K. Royal Air Force and 5 P-8A Poseidon aircraft for German Ministry of Defense.",
+      "Global Services signed expanded parts agreement with Turkish Technic and announced partnership to expand capacity for 737-800 Boeing Converted Freighters.",
+      "First MQ-25 unmanned aerial refueling of a F/A-18 Super Hornet and successful T-7A Red Hawk joining enabled by digital design.",
+      "First Core Stage for NASA's Space Launch System began stacking with other Artemis I elements."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO David Calhoun stated: 'We continued to make important progress in the second quarter as we focus on driving stability across our operations and transforming our business for the future. ... As we continue to position for a robust recovery, we remain committed to safety and quality, while investing in our people, products and technology.' This language conveys optimism about progress and recovery, while acknowledging monitoring of COVID-19 and global trade."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $17.0 billion, up 44% year-over-year.",
+      "quote": "Boeing reported second-quarter revenue of $17.0 billion, driven by higher commercial airplanes and services volume. ... Revenues $16,998 $11,807 44%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $1.00, core EPS was $0.40.",
+      "quote": "GAAP earnings per share of $1.00 and core earnings per share (non-GAAP)* of $0.40 primarily reflects higher commercial volume and lower period costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes swung from a $2,762M operating loss in Q2 2020 to a $472M loss in Q2 2021.",
+      "quote": "Commercial Airplanes second-quarter revenue increased to $6.0 billion primarily driven by higher commercial airplane deliveries. Second-quarter operating margin improved to (7.8) percent, primarily due to lower period costs as well as higher delivery volume. ... Loss from Operations ($472) ($2,762) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Overall GAAP earnings swung from a loss of $2,395M to a profit of $567M.",
+      "quote": "Net Earnings/(Loss) $567 ($2,395) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance on 737 MAX production rate is to gradually increase to 31 per month in early 2022, but with caveats.",
+      "quote": "The 737 program is currently producing at a rate of approximately 16 per month and continues to expect to gradually increase production to 31 per month in early 2022 with further gradual increases to correspond with market demand. The company will continue to assess the production rate plan as it monitors the market environment and engages in customer discussions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural risk: 787 program has additional rework, leading to temporarily lower production and fewer deliveries.",
+      "quote": "As Boeing has previously shared, the company is conducting inspections and rework and continues to engage in detailed discussions with the FAA on verification methodology for 787. In connection with these efforts, the company announced earlier this month that it has identified additional rework that will be required on undelivered 787s. ... the 787 production rate will temporarily be lower than five per month and will gradually return to that rate. Boeing expects to deliver fewer than half of the 787s currently in inventory this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin improved to 6.0% from -25.1%.",
+      "quote": "Operating Margin 6.0 % (25.1) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin improved to 4.4% from -28.1%.",
+      "quote": "Core Operating Margin 4.4 % (28.1) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes operating margin improved to -7.8% from -169.1%.",
+      "quote": "Operating Margin (7.8) % (169.1) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We continued to make important progress in the second quarter as we focus on driving stability across our operations and transforming our business for the future. ... As we continue to position for a robust recovery, we remain committed to safety and quality, while investing in our people, products and technology.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backlog grew to $285 billion for Commercial Airplanes and added 180 net orders.",
+      "quote": "Commercial Airplanes backlog grew to $285 billion and added 180 net orders",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include 737 MAX progress, large orders, and defense awards.",
+      "quote": "Since the FAA's approval to return the 737 MAX to operations in November 2020, Boeing has delivered more than 130 737 MAX aircraft and airlines have returned more than 190 previously grounded airplanes to service. 30 airlines are now operating the 737 MAX, safely flying nearly 95,000 revenue flights totaling more than 218,000 flight hours (as of July 25, 2021). ... Commercial Airplanes secured orders for 200 737 aircraft for United Airlines, 34 737 aircraft for Southwest Airlines, and a total of 31 freighter aircraft. ... Defense, Space & Security secured an award for 14 H-47 extended-range Chinook helicopters for the U.K. Royal Air Force and signed an agreement with the German Ministry of Defense for five P-8A Poseidon aircraft.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include COVID-19, 737 MAX regulatory approvals, 787 rework, and many others.",
+      "quote": "Among these factors are risks related to: (1) the COVID-19 pandemic and related industry impacts ... (2) the 737 MAX, including the timing and conditions of remaining 737 MAX regulatory approvals, lower than planned production rates and/or delivery rates ... (3) general conditions in the economy and our industry ... (4) our reliance on our commercial airline customers ... (5) the overall health of our aircraft production system ... (6) changing budget and appropriation levels and acquisition priorities of the U.S. government ... (7) our dependence on U.S. government contracts ... (8) our reliance on fixed-price contracts ... (9) our reliance on cost-type contracts ... (10) uncertainties concerning contracts that include in-orbit incentive payments ... (11) our dependence on our subcontractors and suppliers ... (12) changes in accounting estimates ... (13) changes in the competitive landscape ... (14) our non-U.S. operations ... (15) threats to the security of our or our customers’ information ... (16) potential adverse developments in new or pending litigation and/or government investigations ... (17) customer and aircraft concentration in our customer financing portfolio ... (18) changes in our ability to obtain debt financing ... (19) realizing the anticipated benefits of mergers, acquisitions, joint ventures/strategic alliances or divestitures ... (20) the adequacy of our insurance coverage ... (21) potential business disruptions ... (22) work stoppages or other labor disruptions ... (23) substantial pension and other postretirement benefit obligations ... (24) potential environmental liabilities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on a genuine operational inflection (swing from loss to profit) but tempered by a structural risk (787 rework) and lack of formal guidance raise. A reviewer may want to assess whether the structural risk should weigh more heavily, potentially lowering the score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2021-07-28",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2021",
+    "report_date": "2021-07-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q2\\ba-2q21-press-release.html",
+        "pub_date": "2021-07-28"
+      }
+    ],
+    "document_id": "BA_FQ2_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144238Z",
+    "timestamp": "2026-07-09T14:43:36Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q2\\ba-2q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q2\\ba-2q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 28275,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2021.txt"
+  }
+}

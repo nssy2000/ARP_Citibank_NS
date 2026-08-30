@@ -1,0 +1,199 @@
+{
+  "document_id": "LMT_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported a solid quarter with 4% sales growth and EPS of $7.28, beating the prior year. However, full-year 2025 guidance was reaffirmed unchanged, not raised. Management expressed confidence in absorbing tariff and NGAD headwinds, but the lack of a formal guidance raise and the explicit exclusion of tariff impacts from the outlook keep the score at a modest positive, reflecting genuine operational momentum without a formal upgrade."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$18.0 billion in Q1 2025, up 4% from $17.2 billion in Q1 2024.",
+    "eps": "Diluted EPS of $7.28 in Q1 2025, up from $6.39 in Q1 2024.",
+    "guidance": "Full-year 2025 outlook reaffirmed: sales ~$73.75B-$74.75B, diluted EPS ~$27.00-$27.30, free cash flow ~$6.6B-$6.8B. Guidance does not include evolving impacts of tariffs, NGAD announcement, or Executive Orders.",
+    "margin": "Business segment operating margin was 11.6% in Q1 2025, up from 10.1% in Q1 2024. Consolidated operating margin was 13.2%, up from 11.8%.",
+    "key_risks": [
+      "Evolving impacts of tariffs and related recoveries are not included in the 2025 outlook.",
+      "Next Generation Air Dominance (NGAD) program announcement is not included in the 2025 outlook.",
+      "Executive Orders issued by the Administration are not included in the 2025 outlook.",
+      "Higher insurance costs and timing of payments impacted cash from operations.",
+      "Space sales decreased 2% year-over-year due to program lifecycle on Next Gen OPIR and lower volume on Transport Layer programs."
+    ],
+    "key_opportunities": [
+      "Recent missile contract awards (PRISM, THAAD, JASSM/LRASM, Trident II D5 Life Extension) comprising up to $10 billion of future work.",
+      "Golden Dome for America presents a significant opportunity, with Lockheed Martin's existing programs at scaled production able to contribute immediately.",
+      "Strong international demand for F-35, with Singapore signing for eight additional F-35As.",
+      "Production ramp on tactical and strike missile programs (JASSM, LRASM, GMLRS, HIMARS) driving growth.",
+      "1LMx digital transformation driving efficiencies, e.g., COMET missile reduced preliminary design review time by 50%."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jim Taiclet stated 'These solid first quarter results reinforce confidence in our ability to achieve the full year 2025 financial guidance,' and CFO Evan Scott said 'Our strong start in Q1 enables us to mitigate or absorb currently known tariff headwinds.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $18.0 billion in Q1 2025, up 4% from $17.2 billion in Q1 2024.",
+      "quote": "Lockheed Martin Corporation [NYSE: LMT] today reported first quarter 2025 sales of $18.0 billion , compared to $17.2 billion in the first quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $7.28 in Q1 2025, up from $6.39 in Q1 2024.",
+      "quote": "Net earnings in the first quarter of 2025 were $1.7 billion , or $7.28 per share, compared to $1.5 billion , or $6 .39 per share, in the first quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 guidance was reaffirmed unchanged.",
+      "quote": "Reaffirms 2025 financial outlook",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance does not include evolving impacts of tariffs, NGAD announcement, or Executive Orders.",
+      "quote": "The financial outlook for 2025 assumes the company's programs are funded by and at levels consistent with the full year Continuing Appropriations and Extensions Act of 2025 signed by the President on March 15, . However, the 2025 outlook does not include the evolving impacts of tariffs or related recoveries, the recent Next Generation Air Dominance announcement, or Executive Orders issued by the Administration.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business segment operating margin was 11.6% in Q1 2025, up from 10.1% in Q1 2024.",
+      "quote": "Total business segment operating margin 11.6 % 10.1 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consolidated operating margin was 13.2% in Q1 2025, up from 11.8% in Q1 2024.",
+      "quote": "Total consolidated operating margin 13.2 % 11.8 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recent missile contract awards comprise up to $10 billion of future work.",
+      "quote": "This focus, along with Lockheed Martin's track record of innovation and performance, continues to result in new awards, including the recent missiles contracts for Precision Strike Missiles, THAAD and JASSM/LRASM, as well as the Trident II D5 Life Extension, comprising up to $10 billion of future work.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "These solid first quarter results reinforce confidence in our ability to achieve the full year 2025 financial guidance we laid out in January, demonstrating the resilience and adaptability of Lockheed Martin's franchises amidst a highly dynamic geopolitical and technical environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Space sales decreased 2% year-over-year.",
+      "quote": "Space's sales during the quarter ended March 30, 2025 decreased $64 million , or 2%, compared to the same period in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash from operations decreased to $1.4 billion from $1.6 billion.",
+      "quote": "Cash from operations was $1.4 billion in the first quarter of 2025, compared to $1.6 billion in the first quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was $955 million in Q1 2025, down from $1.3 billion in Q1 2024.",
+      "quote": "Free cash flow was $955 million in the first quarter of 2025, compared to $1.3 billion in the first quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company returned $1.5 billion to shareholders through dividends and share repurchases.",
+      "quote": "returned $1.5 billion of cash to shareholders through dividends and share repurchases",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backlog is $173 billion, representing more than two years of sales.",
+      "quote": "We are focused on operational excellence to drive the timely and efficient execution of our $173 billion backlog, which represents more than two years of sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to definitize the F-35 Lot 18 contract in Q2 2025.",
+      "quote": "we anticipate definitizing the Lot 18 contract in the second quarter, which we expect will unlock cash currently tied up in working capital on the balance sheet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in absorbing tariff and NGAD headwinds.",
+      "quote": "Our strong start in Q1 enables us to mitigate or absorb currently known tariff headwinds, as well as the direct program impacts of the Next Generation Air Dominance program decision. We maintain our original guidance for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the exact boundary of the BUY threshold (0.15). A human reviewer should confirm whether the reaffirmed guidance and the exclusion of tariff/NGAD impacts from the outlook warrant a slightly lower score (e.g., 0.10) that would fall into HOLD territory."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LMT_Bundled Earnings Report_2025-04-22",
+  "report_metadata": {
+    "issuer": "p2_lockheed_martin",
+    "company": "Lockheed Martin",
+    "ticker": "LMT",
+    "sector": "Industrials/Aerospace-Defense",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-22",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q1\\LMT-PressRelease-Q1-2025.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q1\\LMT-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LMT_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173512Z",
+    "timestamp": "2026-07-30T17:35:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q1\\LMT-PressRelease-Q1-2025.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lockheed_martin\\extracted\\LMT_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q1\\LMT-PressRelease-Q1-2025.pdf",
+        "page_count": 11,
+        "extracted_characters": 30469,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lockheed_martin\\CY2025-Q1\\LMT-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 65400,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lockheed_martin\\extracted\\LMT_FQ1_2025.txt"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "document_id": "NFLX_FQ1_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Full-year 2026 guidance was reaffirmed unchanged (revenue $50.7-$51.7B, operating margin 31.5%), not raised. The Q1 beat was partly attributed to a one-time $2.8B termination fee and favorable FX, not organic operational acceleration. Management language is confident but the forward outlook is flat relative to prior guidance, placing the score at the low end of the positive range."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Q1 2026 revenue $12,250M, up 16% YoY (+14% FX-neutral), slightly above forecast due to higher-than-forecasted membership growth and favorable FX.",
+    "eps": "Q1 2026 diluted EPS $1.23 vs. $0.66 in Q1 2025 (+86% YoY), above forecast of $0.76 driven by higher operating income and the $2.8B Warner Bros. termination fee.",
+    "guidance": "Full-year 2026 guidance unchanged: revenue $50.7-$51.7B (12%-14% growth), operating margin 31.5%. Q2 2026 forecast: revenue $12,574M (13% growth, 12% FX-neutral), operating margin 32.6%.",
+    "margin": "Q1 2026 operating margin 32.3% vs. 31.7% in Q1 2025, slightly above forecast. Full-year 2026 operating margin target 31.5%.",
+    "key_risks": [
+      "Competition from Alphabet, Amazon, Apple, Comcast, Disney, local media, Meta, Roblox, TikTok.",
+      "Content amortization growth first-half weighted, with Q2 having the highest YoY growth rate in 2026.",
+      "Foreign exchange rate fluctuations impacting reported revenue and operating margin."
+    ],
+    "key_opportunities": [
+      "Advertising revenue on track to reach ~$3B in 2026, up 2x from 2025.",
+      "Expansion into video podcasts, live events (World Baseball Classic, BTS), and gaming (Netflix Playground).",
+      "AI/GenAI investments (InterPositive acquisition) to improve content creation, recommendations, and ad tech.",
+      "Underpenetrated addressable market: <45% of broadband households, ~5% of global TV view share."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'we have a clear strategy and strong conviction in our long runway of growth' and 'we feel great about the business, about the organic growth opportunity ahead.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2026 guidance was reaffirmed unchanged.",
+      "quote": "Our full year 2026 guidance is unchanged: we forecast 2026 revenue of $50.7B-$51.7B, which represents 12%-14% growth (11%-13% F/X neutral)... Similarly, we’re still targeting an operating margin of 31.5% for 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 revenue beat was partly attributed to one-time items and FX.",
+      "quote": "Revenue was slightly above our forecast due to higher than forecasted membership growth and favorable F/X movements net of hedging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 EPS included a $2.8B termination fee.",
+      "quote": "Diluted EPS for the quarter amounted to $1.23 vs. $0.66 in Q1’25 (+86% year over year), above our forecast of $0.76, driven by higher-than-projected operating income and the $2.8B termination fee related to the Warner Bros. transaction, which was recognized in 'interest and other income.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue was $12,250M.",
+      "quote": "Q1'26 Revenue $12,250 (in millions).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 diluted EPS was $1.23.",
+      "quote": "Diluted EPS $1.23 (in Q1'26).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 revenue forecast is $12,574M.",
+      "quote": "Q2'26 Forecast Revenue $12,574.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 operating margin was 32.3%.",
+      "quote": "Operating Margin 32.3 % (Q1'26).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 operating margin target is 31.5%.",
+      "quote": "We’re still targeting an operating margin of 31.5% for 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue on track to reach ~$3B in 2026.",
+      "quote": "We continue to expect to deliver that $3 billion in advertising revenue this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the business.",
+      "quote": "We have a clear strategy and strong conviction in our long runway of growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition is a stated risk.",
+      "quote": "Today, our competitive set includes Alphabet, Amazon, Apple, Comcast, Disney, local media companies around the world, Meta, Roblox, and TikTok, to name a few.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content amortization growth is first-half weighted.",
+      "quote": "We expect Q2 to have the highest year-over-year content amortization growth rate in 2026, before decelerating to mid-to-high single digit growth in the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Addressable market is underpenetrated.",
+      "quote": "We're still under 45% penetrated in terms of that number. We think that number is roughly 800 million... we account for only 5% of TV view share globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI/GenAI is an opportunity.",
+      "quote": "To accelerate this opportunity, in March we announced our acquisition of InterPositive, the filmmaking technology company founded by Ben Affleck that develops AI‑powered tools built by and for filmmakers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is at the exact boundary of the BUY threshold. A human reviewer should confirm that the unchanged guidance and one-time items justify a borderline positive score rather than a neutral 0.0."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2026-04-16",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-16",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2026-Q1\\Netflix-Inc-_Earnings-Call_2026-04-16T00_00_00_English-1.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2026-Q1\\NFLX-Q1-2026-Shareholder-Letter-SEC-EX991.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T174141Z",
+    "timestamp": "2026-07-30T17:43:25Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2026-Q1\\Netflix-Inc-_Earnings-Call_2026-04-16T00_00_00_English-1.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2026-Q1\\Netflix-Inc-_Earnings-Call_2026-04-16T00_00_00_English-1.pdf",
+        "page_count": 15,
+        "extracted_characters": 51508,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2026-Q1\\NFLX-Q1-2026-Shareholder-Letter-SEC-EX991.htm",
+        "page_count": 1,
+        "extracted_characters": 35598,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ1_2026.txt"
+  }
+}

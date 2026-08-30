@@ -1,0 +1,202 @@
+{
+  "document_id": "MC.PA_FQ4_2025",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document reports a -1% organic revenue decline for FY2025 and a -9% profit decline, with management describing the environment as 'uncertain' and 'disrupted.' Forward guidance is not raised; the outlook states the Group 'remains confident' but sets only an objective of 'reinforcing its global leadership position' without specific numeric targets. The tone is resilient but cautious, with no material upward revision to expectations, resulting in a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "€80.8 billion, -5% reported, -1% organic vs. 2024. Organic growth in H2 was +1%.",
+    "eps": "Basic Group share of net earnings per share: €21.86 for 2025 vs. €25.13 for 2024, a decline of 13%.",
+    "guidance": "The Group 'remains confident' and 'sets an objective of reinforcing its global leadership position in luxury goods in 2026,' but no specific numeric revenue or earnings guidance is provided. Management cites 'an environment that remains uncertain' and pledges 'vigilance with regard to cost management.'",
+    "margin": "Operating margin: 22% for 2025 (vs. 23.1% in 2024). Fashion & Leather Goods operating margin: 35%. Perfumes & Cosmetics operating margin: 8.9%. Selective Retailing operating margin: 9.7%.",
+    "key_risks": [
+      "Geopolitical and macroeconomic uncertainty: 'a disrupted geopolitical and economic environment' and 'an environment that remains uncertain.'",
+      "Currency fluctuations: 'Profit from recurring operations... affected by currency fluctuations' with a negative impact of -€1,065 million on profit.",
+      "Trade tensions: 'The impact on customers of trade tensions also weighed on the key markets of China and the United States' for Wines & Spirits.",
+      "Weaker demand in cognac: 'Hennessy cognac was held back by weaker local demand, mainly due to issues with customs duties in China and the United States.'",
+      "Decline in Europe in H2: 'Europe saw a decline in the second half of the year.'",
+      "Japan decline: 'Japan was down with respect to 2024, which had been boosted by growth in tourist spending due to the much weaker yen.'"
+    ],
+    "key_opportunities": [
+      "Return to growth in Asia (excl. Japan) in H2: 'The rest of Asia saw a noticeable improvement in trends with respect to 2024, with a return to growth in the second half of the year.'",
+      "US growth: 'the United States saw growth, benefiting from solid local demand.'",
+      "Sephora's strong performance: 'Sephora continued to achieve solid growth in both revenue and profit... consolidating its global leadership position.'",
+      "Watches & Jewelry organic growth: '+3% organic revenue growth in 2025.'",
+      "Selective Retailing profit growth: 'Profit from recurring operations was up 28%.'",
+      "Free cash flow increase: 'Operating free cash flow came to €11.3 billion, up 8%.'"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence ('remains confident') and highlights resilience ('solid performance'), but also repeatedly flags uncertainty and headwinds ('environment that remains uncertain,' 'disrupted global economic and geopolitical environment'), resulting in a mixed tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was €80.8 billion, down 5% reported and 1% organic.",
+      "quote": "Revenue: €80.8 billion... Organic growth in the second half of the year... LVMH recorded revenue of €80.8 billion in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue growth in H2 was +1%.",
+      "quote": "In the fourth quarter, organic revenue growth came to 1%, in line with the third quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was €21.86 for 2025, down from €25.13 in 2024.",
+      "quote": "Basic Group share of net earnings per share (EUR) 28 21.86 25.13 30.34",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Profit from recurring operations was €17.8 billion, down 9%.",
+      "quote": "Profit from recurring operations: €17.8 billion... Profit from recurring operations for 2025 came to €17.8 billion, equating to an operating margin of 22%, affected by currency fluctuations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 22%.",
+      "quote": "Profit from recurring operations for 2025 came to €17.8 billion, equating to an operating margin of 22%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fashion & Leather Goods operating margin was 35%.",
+      "quote": "The operating margin remained very high, at 35%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was €11.3 billion, up 8%.",
+      "quote": "Operating free cash flow came to €11.3 billion, up 8%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance is not raised; management expresses confidence but flags uncertainty.",
+      "quote": "Despite a geopolitical and macroeconomic environment that remains uncertain, the Group remains confident and will pursue its brand development-focused strategy... LVMH once again sets an objective of reinforcing its global leadership position in luxury goods in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency fluctuations had a negative impact on profit.",
+      "quote": "Profit from recurring operations... affected by currency fluctuations... Impact of exchange rate fluctuations -€1 065m",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trade tensions weighed on China and US markets for Wines & Spirits.",
+      "quote": "The impact on customers of trade tensions also weighed on the key markets of China and the United States.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe saw a decline in H2.",
+      "quote": "Europe saw a decline in the second half of the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Japan was down vs. 2024.",
+      "quote": "Japan was down with respect to 2024, which had been boosted by growth in tourist spending due to the much weaker yen.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia (excl. Japan) returned to growth in H2.",
+      "quote": "The rest of Asia saw a noticeable improvement in trends with respect to 2024, with a return to growth in the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sephora achieved solid growth in revenue and profit.",
+      "quote": "Sephora continued to achieve solid growth in both revenue and profit... consolidating its global leadership position.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed.",
+      "quote": "Despite a geopolitical and macroeconomic environment that remains uncertain, the Group remains confident...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.0 despite a -1% organic revenue decline and -9% profit decline, because guidance was not raised and the outlook is cautious. A reviewer may wish to verify that the neutral score appropriately reflects the lack of forward guidance improvement rather than the backward-looking decline."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MC.PA_Bundled Earnings Report_2026-01-27",
+  "report_metadata": {
+    "issuer": "p2_lvmh",
+    "company": "LVMH",
+    "ticker": "MC.PA",
+    "sector": "Consumer/Luxury",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q4\\LVMH-FY2025-PressRelease.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Results Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q4\\LVMH-FY2025-ResultsPresentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MC.PA_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173902Z",
+    "timestamp": "2026-07-30T17:39:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q4\\LVMH-FY2025-PressRelease.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lvmh\\extracted\\MC.PA_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q4\\LVMH-FY2025-PressRelease.pdf",
+        "page_count": 12,
+        "extracted_characters": 31756,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Results Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q4\\LVMH-FY2025-ResultsPresentation.pdf",
+        "page_count": 31,
+        "extracted_characters": 17900,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lvmh\\extracted\\MC.PA_FQ4_2025.txt"
+  }
+}

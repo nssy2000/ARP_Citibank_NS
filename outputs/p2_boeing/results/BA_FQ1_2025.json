@@ -1,0 +1,240 @@
+{
+  "document_id": "BA_FQ1_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: revenue up 18%, core loss per share improved from ($1.13) to ($0.49), free cash flow usage improved from ($3.9B) to ($2.3B), and management describes a 'solid quarter' with 'recovery plan in full swing.' However, full-year free cash flow guidance was not formally raised (management said 'we're not going to adjust that full year range right now'), and significant risks around China tariffs and potential supply chain disruptions were disclosed. The score reflects the real trajectory change (swing from loss to near-breakeven, improving cash flow) offset by the lack of a formal guidance raise and the material tariff risk."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$19.5 billion, up 18% year-over-year, primarily driven by higher commercial delivery volume.",
+    "eps": "GAAP loss per share of ($0.16); core (non-GAAP) loss per share of ($0.49), improved from ($1.13) in the prior year.",
+    "guidance": "Full-year free cash flow guidance not adjusted; management expects second half free cash flow to turn positive and accelerate as the year exits. 737 production expected to reach 38 per month over the next few months, with a plan to request an increase to 42 per month later this year. 787 production expected to increase to 7 per month this year. 777X first delivery still expected in 2026.",
+    "margin": "GAAP operating margin of 2.4% (up from -0.5% in 1Q24); core (non-GAAP) operating margin of 1.0% (up from -2.3% in 1Q24).",
+    "key_risks": [
+      "Approximately 50 China deliveries at risk due to retaliatory tariffs; customers in China have indicated they will not take delivery.",
+      "Input tariffs on components from Japan and Italy (10% tariff) affecting wide-body airplane costs; net annual impact less than $500 million.",
+      "Potential for tariff-related impacts to expand beyond China, which would add additional pressure.",
+      "Seat certification issues affecting some deliveries expected to be a challenge for the balance of the year.",
+      "SPS fire (fastener supplier) could create supply chain constraints, though management believes it can be managed.",
+      "Structural risks from ongoing fixed-price development programs in Defense, though EACs were held stable in the quarter."
+    ],
+    "key_opportunities": [
+      "F-47 win (next-generation fighter) secures fighter franchise for decades.",
+      "Strong demand environment: backlog of $545 billion, key commercial programs sold out into the next decade.",
+      "Planned divestiture of Digital Aviation Solutions for $10.55 billion provides significant cash infusion and strengthens balance sheet.",
+      "Production rate increases on 737 (to 38, then 42 per month) and 787 (to 7 per month) expected to drive cash flow improvement.",
+      "Defense, Space & Security expected to return to historical high single-digit margins over time.",
+      "Global Services continues strong performance with 18.6% operating margin."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Kelly Ortberg stated 'our recovery plan is in full swing and showing signs that it's being effective' and 'I do like what I'm seeing,' while also acknowledging risks and the need to execute."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $19.5 billion, up 18% year-over-year.",
+      "quote": "Revenue was $19.5 billion, up 18%, primarily driven by higher commercial delivery volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core loss per share improved from ($1.13) to ($0.49).",
+      "quote": "Core loss per share (non-GAAP) of ($0.49) was a significant improvement compared to last year, driven by higher commercial deliveries and improved operational performance across the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow usage improved from ($3.9B) to ($2.3B).",
+      "quote": "Free cash flow was a usage of $2.3 billion in the quarter, reflecting higher commercial deliveries and a working capital usage that improved compared to both the prior year and quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year free cash flow guidance was not adjusted.",
+      "quote": "In terms of the range that you mentioned, we're not going to adjust that full year range right now. We're good with where it's at.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately 50 China deliveries are at risk due to tariffs.",
+      "quote": "We have approximately 50 China deliveries in our plan for the balance of the year. We are in close communication with our China customers and we're actively assessing options for remarketing already built or in-process airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net annual impact of input tariffs is less than $500 million.",
+      "quote": "On the supply chain side, the net annual impact of higher tariffs on our input costs is manageable. And within our plan, it's less than $500 million annually.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was 2.4%, up from -0.5%.",
+      "quote": "Operating margins (GAAP) 2.4 % (0.5) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin was 1.0%, up from -2.3%.",
+      "quote": "Core operating margins (non-GAAP) 1.0 % (2.3) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Let me start out by saying that we had a really solid quarter of performance across the business and I'm pleased to report that our recovery plan is in full swing and showing signs that it's being effective. Albeit early, I do like what I'm seeing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "F-47 win secures fighter franchise for decades.",
+      "quote": "And of course, winning the F-47 program was a transformational accomplishment. To be selected the contractor for the world's first sixth-generation fighter is a testament to our focused investment in some pretty difficult time and to our dedicated team. This will secure our fighter franchise for decades to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backlog grew to $545 billion.",
+      "quote": "Total company backlog at quarter end was $545 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital Aviation Solutions divestiture for $10.55 billion.",
+      "quote": "As you saw yesterday, we entered into an agreement to sell portions of our Digital Aviation Solutions business for $10.55 billion, which is an important component of our strategy to focus on our core businesses and strengthen the balance sheet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production expected to reach 38 per month over the next few months.",
+      "quote": "We are currently producing in the low 30s per month and expect that we'll get to the 38 per month cap over the next few months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 production expected to increase to 7 per month this year.",
+      "quote": "We're poised to move to seven per month this year, provided our KPIs indicate a stable production system and they're currently looking very good.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777X first delivery still expected in 2026.",
+      "quote": "We'll continue to follow the lead of the FAA, as we progress through the certification process and still expect first delivery in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Seat certification issues are a challenge for the balance of the year.",
+      "quote": "As we highlighted last quarter, we continue to work through seat certification issues affecting some deliveries, and I expect this will be a challenge for us for the balance of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security expected to return to high single-digit margins.",
+      "quote": "Overall, the defense portfolio is well positioned for the future and we still expect the business to return to historical performance levels as we continue to stabilize production, execute on development programs and transition to new contracts with tighter underwriting standards.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 18.6%.",
+      "quote": "Operating margin was 18.6% in the quarter, up 40 basis points compared to last year on favorable performance and mix, with both our commercial and government businesses delivering double digit margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SPS fire is being managed and is not expected to halt aircraft programs.",
+      "quote": "I think we're going to be able scramble our way through this. I don't think we'll be at the inventory levels we want, but I don't see right now that any aircraft program is going to be held up over these fasteners.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a judgment call balancing genuine operational momentum against the lack of a formal guidance raise and material tariff risks. A reviewer may wish to assess whether the tariff risks are sufficiently weighted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2025-04-23",
+  "report_metadata": {
+    "issuer": "p2_boeing",
+    "company": "Boeing",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-23",
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q1\\1Q25-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q1\\1Q25-Press-Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q1\\Transcript-Q1-2025-Earnings-Call.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BA_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T160357Z",
+    "timestamp": "2026-07-21T16:04:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q1\\1Q25-Presentation.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_boeing\\extracted\\BA_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q1\\1Q25-Presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 8519,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q1\\1Q25-Press-Release.pdf",
+        "page_count": 12,
+        "extracted_characters": 23791,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\boeing\\phase2\\CY2025-Q1\\Transcript-Q1-2025-Earnings-Call.pdf",
+        "page_count": 19,
+        "extracted_characters": 73007,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_boeing\\extracted\\BA_FQ1_2025.txt"
+  }
+}

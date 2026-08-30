@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_standard_chartered",
+  "reports": [
+    {
+      "document_id": "STAN.L_FQ1_2025",
+      "issuer": "p2_standard_chartered",
+      "company": "Standard Chartered",
+      "ticker": "STAN.L",
+      "sector": "Financial Services/Banks - Diversified",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-02",
+      "release_date": "2025-05-02",
+      "release_date_source": "Investegate RNS dateCreated",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/standard_chartered/CY2025-Q1/STAN_Q1_2025_Results.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/standard_chartered/CY2025-Q1/STAN_Q1_2025_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "STAN.L_FQ2_2025",
+      "issuer": "p2_standard_chartered",
+      "company": "Standard Chartered",
+      "ticker": "STAN.L",
+      "sector": "Financial Services/Banks - Diversified",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-31",
+      "release_date": "2025-07-31",
+      "release_date_source": "Investegate RNS dateCreated",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/standard_chartered/CY2025-Q2/STAN_Q2_2025_Results.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/standard_chartered/CY2025-Q2/STAN_Q2_2025_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "STAN.L_FQ3_2025",
+      "issuer": "p2_standard_chartered",
+      "company": "Standard Chartered",
+      "ticker": "STAN.L",
+      "sector": "Financial Services/Banks - Diversified",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-30",
+      "release_date": "2025-10-30",
+      "release_date_source": "Investegate RNS dateCreated",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/standard_chartered/CY2025-Q3/STAN_Q3_2025_Results.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/standard_chartered/CY2025-Q3/STAN_Q3_2025_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "STAN.L_FQ4_2025",
+      "issuer": "p2_standard_chartered",
+      "company": "Standard Chartered",
+      "ticker": "STAN.L",
+      "sector": "Financial Services/Banks - Diversified",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-23",
+      "release_date": "2026-02-23",
+      "release_date_source": "Investegate RNS dateCreated",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/standard_chartered/CY2025-Q4/STAN_Q4_2025_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/standard_chartered/CY2025-Q4/STAN_FY_2025_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "Investegate RNS dateCreated: 07:01:42 GMT on Q3 2025 (2025-10-30), 07:01:28 GMT on FY2025 (2026-02-10). 07:00 GMT precedes 08:00 LSE open.",
+    "retrieval_date": "2026-08-12"
+  }
+}

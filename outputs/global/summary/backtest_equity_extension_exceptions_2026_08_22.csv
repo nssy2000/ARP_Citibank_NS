@@ -1,0 +1,3 @@
+document_id,ticker,anchor,reason
+RMS_FQ1_2025,RMSP.XC,2025-02-01,"entry close == next open; entry session open == close - the vendor series does not move across this window, so the gap is a stale quote rather than a measured reaction"
+RMS_FQ4_2025,RMSP.XC,2026-02-01,"entry close == next open - the vendor series does not move across this window, so the gap is a stale quote rather than a measured reaction"

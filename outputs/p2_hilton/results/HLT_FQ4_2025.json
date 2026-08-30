@@ -1,0 +1,191 @@
+{
+  "document_id": "HLT_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company reported strong fourth-quarter results with adjusted EBITDA up 10% year-over-year and exceeding the high end of guidance, and management expressed increased optimism for 2026, citing improving demand patterns and macroeconomic tailwinds. However, full-year 2026 RevPAR guidance of 1-2% growth is only modestly above the 0.4% growth achieved in 2025, and management acknowledged U.S. weakness and government shutdown impacts, so the forward guidance is not a dramatic raise. The score reflects genuine operational momentum and confident forward language, but not a formal material guidance raise, placing it in the +0.15 to +0.3 range."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $3,087 million for Q4 2025 and $12,039 million for the full year, compared to $2,783 million and $11,174 million in the prior-year periods. Management and franchise fee revenues increased 7.4% in Q4 and 6.4% for the full year.",
+    "eps": "Diluted EPS was $1.27 for Q4 2025 and $6.12 for the full year. Diluted EPS adjusted for special items was $2.08 for Q4 and $8.11 for the full year, compared to $1.76 and $7.12 in the prior-year periods.",
+    "guidance": "Full year 2026: system-wide comparable RevPAR projected to increase 1.0%-2.0% on a currency neutral basis; diluted EPS projected between $8.49 and $8.61; adjusted diluted EPS between $8.65 and $8.77; net income between $1,982 million and $2,011 million; Adjusted EBITDA between $4,000 million and $4,040 million; capital return approximately $3.5 billion; net unit growth 6.0%-7.0%. Q1 2026: RevPAR growth 1.0%-2.0%; adjusted diluted EPS $1.91-$1.97; Adjusted EBITDA $875-$895 million.",
+    "margin": "Adjusted EBITDA margin was 73.0% for Q4 2025 and 74.4% for the full year, compared to 71.0% and 71.5% in the prior-year periods. Net income margin was 9.7% for Q4 and 12.1% for the full year.",
+    "key_risks": [
+      "U.S. RevPAR declined 1% in Q4 due to business transient and group weakness from the government shutdown.",
+      "China RevPAR declined 1.4% in Q4 due to continued weakness in group demand tied to government travel policy.",
+      "Macroeconomic factors including inflation, interest rates, labor shortages, supply chain disruptions, and geopolitical conflicts.",
+      "Potential barriers to travel, trade, and immigration from U.S. and global political trends and tariffs."
+    ],
+    "key_opportunities": [
+      "Record development pipeline of 520,500 rooms, with net unit growth of 6.7% in 2025 and expected 6.0%-7.0% in 2026.",
+      "Strong international performance, particularly EMEA (RevPAR +5.3% in Q4) and Middle East & Africa (+15.9%).",
+      "New brand launches including Apartment Collection by Hilton and Outset Collection, and upcoming lifestyle and undergraduate brands.",
+      "Hilton Honors approaching 125 million members, with new partnerships and loyalty tiers.",
+      "Expected tailwinds from major events like the World Cup and America's 250, and limited supply growth.",
+      "AI and technology initiatives to drive efficiencies and enhance customer experience."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed increased optimism for 2026, with CEO stating 'we are increasingly optimistic about the tailwinds building' and 'we feel optimistic that 2026 will be stronger than 2025.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 adjusted EBITDA exceeded the high end of guidance and was up 10% year-over-year.",
+      "quote": "Adjusted EBITDA was $946 million in the fourth quarter, up 10% year over year and exceeding the high end of our guidance range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 RevPAR guidance is 1.0%-2.0% growth, compared to 0.4% growth in 2025.",
+      "quote": "Full year 2026 system-wide RevPAR is projected to increase between 1.0 percent and 2.0 percent on a comparable and currency neutral basis compared to 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed increased optimism for 2026.",
+      "quote": "As we look ahead to 2026, we are increasingly optimistic about the tailwinds building, including improving demand patterns, driven by broader macroeconomic growth and major global and domestic events.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 total revenues were $3,087 million.",
+      "quote": "Total revenues 3,087 2,783 12,039 11,174",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 diluted EPS was $1.27 and adjusted diluted EPS was $2.08.",
+      "quote": "For the three months ended December 31, 2025, diluted EPS was $1.27 and diluted EPS, adjusted for special items, was $2.08, compared to $2.06 and $1.76, respectively, for the three months ended December 31, 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 adjusted EBITDA guidance is $4,000-$4,040 million.",
+      "quote": "Full year Adjusted EBITDA is projected to be between $4,000 million and $4,040 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin improved to 73.0% in Q4 2025 from 71.0% in Q4 2024.",
+      "quote": "Adjusted EBITDA margin 73.0 % 71.0 % 74.4 % 71.5 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. RevPAR declined 1% in Q4 due to government shutdown.",
+      "quote": "fourth quarter comparable U.S. RevPAR decreased 1%, largely driven by pressure across business transient and group, which underperformed expectations due to the prolonged government shutdown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China RevPAR declined 1.4% in Q4 due to government travel policy.",
+      "quote": "RevPAR in China declined 1.4% in the quarter, an improvement to prior quarters, but remained constrained by weaker group demand due to the government travel policy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Development pipeline reached a record 520,500 rooms.",
+      "quote": "our development pipeline totaled 3,703 hotels representing 520,500 rooms throughout 129 countries and territories",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net unit growth was 6.7% in 2025 and expected 6.0%-7.0% in 2026.",
+      "quote": "net unit growth of 6.7 percent from December 31, 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hilton Honors approaching 125 million members.",
+      "quote": "the program now approaching 125 million members.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "we feel optimistic that 2026 will be stronger than 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 is slightly above the +0.15 to +0.3 range for momentum without a formal guidance raise; verify if the modest RevPAR guidance increase and confident language justify the upper end."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HLT_Bundled Earnings Report_2026-02-11",
+  "report_metadata": {
+    "issuer": "p2_hilton",
+    "company": "Hilton",
+    "ticker": "HLT",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q4\\HLT-Q4-2025-Earnings-Release.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q4\\HLT-Q4-2025-Earnings-Call-Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HLT_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260804T100921Z",
+    "timestamp": "2026-08-04T10:09:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q4\\HLT-Q4-2025-Earnings-Release.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_hilton\\extracted\\HLT_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q4\\HLT-Q4-2025-Earnings-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 46609,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q4\\HLT-Q4-2025-Earnings-Call-Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 60363,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_hilton\\extracted\\HLT_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

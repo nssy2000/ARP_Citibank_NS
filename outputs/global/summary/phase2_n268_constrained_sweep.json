@@ -1,0 +1,223 @@
+{
+  "n_documents": 268,
+  "window_trading_days": 1,
+  "exit_on_open": true,
+  "objective": "total_return",
+  "constraint_note": "quant fixed at 0 weight; weight_step=0.1 over micro/macro/news simplex only; symmetric threshold grid only (hold_upper == -hold_lower). 528 combos total, vs the full unconstrained grid's 113,344 - deliberately shrinks the DSR trial count per CLAUDE.md's Known-gaps guidance.",
+  "cost_bps": 10.0,
+  "short_borrow_bps": 0.0,
+  "weight_step": 0.1,
+  "threshold_grid": {
+    "symmetric_values": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ]
+  },
+  "combos": 528,
+  "n_trials_corrected_for_dsr": 528,
+  "deployed_default_reference": {
+    "weights": [
+      0.55,
+      0.45,
+      0.0,
+      0.0
+    ],
+    "hold_upper": 0.25,
+    "hold_lower": -0.05
+  },
+  "global_best": {
+    "total_return_pct": 1399.34,
+    "avg_net_per_trade_pct": 1.4409,
+    "sharpe_per_trade": 3.488,
+    "n_trades": 215,
+    "weights": [
+      0.8,
+      0.2,
+      0.0,
+      0.0
+    ],
+    "hold_upper": 0.15,
+    "hold_lower": -0.1,
+    "n_tied": 1,
+    "deflated_sharpe": {
+      "sr0_expected_max_under_null": 4.9061,
+      "skew": 1.2578,
+      "kurtosis": 6.9759,
+      "psr": 0.0,
+      "n_trials_corrected_for": 528
+    }
+  },
+  "top_k": [
+    {
+      "weights": [
+        0.8,
+        0.2,
+        0.0,
+        0.0
+      ],
+      "hold_upper": 0.15,
+      "hold_lower": -0.1,
+      "total_return_pct": 1399.34,
+      "sharpe_per_trade": 3.488,
+      "n_trades": 215,
+      "psr": 0.0
+    },
+    {
+      "weights": [
+        0.8,
+        0.2,
+        0.0,
+        0.0
+      ],
+      "hold_upper": 0.35,
+      "hold_lower": -0.1,
+      "total_return_pct": 1388.91,
+      "sharpe_per_trade": 3.989,
+      "n_trades": 114,
+      "psr": 0.006
+    },
+    {
+      "weights": [
+        0.8,
+        0.1,
+        0.1,
+        0.0
+      ],
+      "hold_upper": 0.2,
+      "hold_lower": -0.1,
+      "total_return_pct": 1377.42,
+      "sharpe_per_trade": 3.532,
+      "n_trades": 189,
+      "psr": 0.0
+    },
+    {
+      "weights": [
+        0.8,
+        0.1,
+        0.1,
+        0.0
+      ],
+      "hold_upper": 0.2,
+      "hold_lower": -0.05,
+      "total_return_pct": 1376.8,
+      "sharpe_per_trade": 3.512,
+      "n_trades": 196,
+      "psr": 0.0
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0,
+        0.0
+      ],
+      "hold_upper": 0.2,
+      "hold_lower": -0.15,
+      "total_return_pct": 1367.43,
+      "sharpe_per_trade": 3.49,
+      "n_trades": 200,
+      "psr": 0.0
+    },
+    {
+      "weights": [
+        0.9,
+        0.1,
+        0.0,
+        0.0
+      ],
+      "hold_upper": 0.2,
+      "hold_lower": -0.1,
+      "total_return_pct": 1349.42,
+      "sharpe_per_trade": 3.472,
+      "n_trades": 206,
+      "psr": 0.0
+    },
+    {
+      "weights": [
+        0.6,
+        0.4,
+        0.0,
+        0.0
+      ],
+      "hold_upper": 0.2,
+      "hold_lower": -0.05,
+      "total_return_pct": 1338.96,
+      "sharpe_per_trade": 3.561,
+      "n_trades": 190,
+      "psr": 0.0
+    },
+    {
+      "weights": [
+        0.7,
+        0.3,
+        0.0,
+        0.0
+      ],
+      "hold_upper": 0.1,
+      "hold_lower": -0.05,
+      "total_return_pct": 1319.85,
+      "sharpe_per_trade": 3.419,
+      "n_trades": 228,
+      "psr": 0.0
+    },
+    {
+      "weights": [
+        0.7,
+        0.2,
+        0.1,
+        0.0
+      ],
+      "hold_upper": 0.15,
+      "hold_lower": -0.1,
+      "total_return_pct": 1292.82,
+      "sharpe_per_trade": 3.445,
+      "n_trades": 203,
+      "psr": 0.0
+    },
+    {
+      "weights": [
+        0.8,
+        0.1,
+        0.1,
+        0.0
+      ],
+      "hold_upper": 0.2,
+      "hold_lower": -0.15,
+      "total_return_pct": 1286.15,
+      "sharpe_per_trade": 3.462,
+      "n_trades": 183,
+      "psr": 0.0
+    }
+  ],
+  "loocv": {
+    "total_return_pct": 195.35,
+    "avg_net_per_trade_pct": 0.803,
+    "hit_rate": 0.4886,
+    "n_trades": 176,
+    "sharpe_per_trade": 1.7
+  },
+  "valid_by_psr_floor": {
+    "0.5": null,
+    "0.7": null,
+    "0.9": null,
+    "0.95": null
+  },
+  "psr_floor_0_5_candidate": null,
+  "significance": {
+    "permutation_p_vs_gap_shuffles": 0.001,
+    "note": "Positions held fixed, overnight gap shuffled across documents 5000x; p = fraction of shuffles whose best achievable total return >= the observed best."
+  },
+  "deployed_default_on_n268_backtest": {
+    "total_return_pct": 1265.55,
+    "n_trades": 171,
+    "sharpe_per_trade": 3.6,
+    "max_drawdown_pct": 37.4
+  },
+  "deployment_note": "Candidate output only - blend.py's DEFAULT_WEIGHTS is untouched pending review."
+}

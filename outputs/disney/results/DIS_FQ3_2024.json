@@ -1,0 +1,201 @@
+{
+  "document_id": "DIS_FQ3_2024",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows a genuine operational inflection: combined streaming businesses swung from a loss to profitability for the first time, one quarter ahead of prior guidance. Full-year adjusted EPS growth target was raised to 30% from a prior unspecified level. However, the Experiences segment faces a demand moderation that management expects to impact the next few quarters, with Q4 segment operating income expected to decline mid-single digits. This mixed forward outlook prevents a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$23.2 billion, up 4% from $22.3 billion in the prior-year quarter.",
+    "eps": "Diluted EPS of $1.43, compared to a loss of $0.25 in the prior-year quarter. Adjusted diluted EPS of $1.39, up 35% from $1.03.",
+    "guidance": "Full-year adjusted EPS growth target raised to 30%. Combined streaming businesses expected to be profitable in Q4. Disney+ Core subscribers expected to grow modestly in Q4. Experiences Q4 segment operating income expected to decline mid-single digits versus prior year. Content Sales/Licensing and Other profitability in Q4 expected to be roughly similar to Q3.",
+    "margin": "Not disclosed as a specific margin percentage, but total segment operating income margin improved: segment operating income of $4,225 million on revenue of $23,155 million (18.2%), up from $3,559 million on $22,330 million (15.9%) in the prior-year quarter.",
+    "key_risks": [
+      "Moderation of consumer demand at Experiences segment towards the end of Q3 that exceeded previous expectations, expected to impact the next few quarters.",
+      "Q4 Experiences segment operating income expected to decline by mid single digits versus prior year, reflecting demand dynamics, impacts at Disneyland Paris from the Olympics, and cyclical softening in China.",
+      "Higher costs driven by inflation, increased technology spending, and new guest offerings at domestic parks.",
+      "Lower-income consumer feeling stress; high-income consumer traveling internationally more.",
+      "Pre-launch expenses for new cruise ships (Disney Adventure and Disney Treasure) impacting fiscal Q4 and fiscal 2025 results."
+    ],
+    "key_opportunities": [
+      "Entertainment segment operating income nearly tripled year over year in Q3, driven by significantly improved results at Direct-to-Consumer and Content Sales/Licensing and Other.",
+      "Combined streaming businesses achieved positive profitability for the first time, one quarter ahead of previous guidance.",
+      "Strong box office performance of 'Inside Out 2', which became the highest-grossing animated film of all time.",
+      "Upcoming film slate including Moana, Mufasa, Captain America, Snow White, Thunderbolts, Fantastic Four, Zootopia, Avatar, Avengers, Mandalorian, and Toy Story expected to drive future growth.",
+      "Advertising market described as 'very healthy' with overall advertising growing 8% for the quarter, ESPN up 17%, and DTC streaming up 20%.",
+      "New Disney streaming technology enabling cross-platform audience selling.",
+      "Cost savings initiatives exceeding previously stated targets.",
+      "Strong demand at Disney Cruise Line."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Bob Iger stated 'This was a strong quarter for Disney, driven by excellent results in our Entertainment segment... we are confident in our ability to continue driving earnings growth through our collection of unique and powerful assets.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $23.2 billion, up 4% from $22.3 billion in the prior-year quarter.",
+      "quote": "Revenues for the quarter increased to $23.2 billion from $22.3 billion in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.43, compared to a loss of $0.25 in the prior-year quarter.",
+      "quote": "Diluted earnings per share (EPS) was $1.43 for the current quarter compared to a loss of $0.25 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $1.39, up 35% from $1.03.",
+      "quote": "Excluding certain items, diluted EPS for the quarter increased to $1.39 from $1.03 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS growth target raised to 30%.",
+      "quote": "As a result of our strong consolidated financial performance in the third quarter, and supported by our balanced portfolio of assets, our new full year adjusted EPS growth target is now 30%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined streaming businesses achieved positive profitability for the first time, one quarter ahead of previous guidance.",
+      "quote": "Entertainment Direct-to-Consumer's better-than-expected Q3 performance, combined with our profitable results at ESPN+, resulted in positive profitability at our combined streaming businesses for the first time and one quarter ahead of our previous guidance of achieving profitability in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment faces demand moderation expected to impact the next few quarters.",
+      "quote": "At our Experiences segment, we expect that the demand moderation we saw in our domestic businesses in Q3 could impact the next few quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 Experiences segment operating income expected to decline mid-single digits versus prior year.",
+      "quote": "we expect Q4 Experiences segment operating income to decline by mid single digits versus the prior year, reflecting these underlying dynamics as well as impacts at Disneyland Paris from a reduction in normal consumer travel due to the Olympics, and some cyclical softening in China.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment segment operating income nearly tripled year over year.",
+      "quote": "Entertainment segment operating income nearly tripled year over year in Q3, due to significantly improved results at Direct-to-Consumer and Content Sales/Licensing and Other.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising market is described as 'very healthy'.",
+      "quote": "Ad market is actually very healthy right now. We saw overall advertising grew 8% for the quarter. ESPN was up 17%. DTC streaming was actually up 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "This was a strong quarter for Disney, driven by excellent results in our Entertainment segment both at the box office and in DTC, as we achieved profitability across our combined streaming businesses for the first time and a quarter ahead of our previous guidance. ... we are confident in our ability to continue driving earnings growth through our collection of unique and powerful assets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total segment operating income margin improved from 15.9% to 18.2%.",
+      "quote": "Total segment operating income $4,225 $3,559 19% ... Revenues $23,155 $22,330 4%",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Upcoming film slate includes Moana, Mufasa, Captain America, Snow White, Thunderbolts, Fantastic Four, Zootopia, Avatar, Avengers, Mandalorian, and Toy Story.",
+      "quote": "We have Moana, Mufasa, Captain America, Snow White, Thunderbolts, Fantastic Four, Zootopia, Avatar, Avengers, Mandalorian, and Toy Story, just to name a few.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost savings initiatives exceeding previously stated targets.",
+      "quote": "We continue to focus on driving incremental cost savings above and beyond our previously stated target as we deliver on our strategic priorities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong demand at Disney Cruise Line.",
+      "quote": "So far this quarter, we continue to see strong demand at Disney Cruise Line, although results in fiscal Q4 will reflect pre-launch expenses for the Disney Adventure and Disney Treasure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower-income consumer is feeling stress; high-income consumer traveling internationally more.",
+      "quote": "The lower-income consumer is feeling a little bit of stress. The high-income consumer is traveling internationally a bit more.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.margin",
+      "reason": "Margin percentage is calculated from reported segment operating income and revenue; not explicitly stated as a margin percentage in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2024-08-07",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-08-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q3\\dis-3q24-press-release.html",
+        "pub_date": "2024-08-07"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q3\\dis-3q24-transcript.html",
+        "pub_date": "2024-08-07"
+      }
+    ],
+    "document_id": "DIS_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:44:04Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q3\\dis-3q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q3\\dis-3q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 47860,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q3\\dis-3q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 33744,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2024.txt"
+  }
+}

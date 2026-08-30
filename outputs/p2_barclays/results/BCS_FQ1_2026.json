@@ -1,0 +1,205 @@
+{
+  "document_id": "BCS_FQ1_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document shows a solid quarter with a 13.5% RoTE and 6% income growth, but forward guidance is largely reaffirmed rather than raised. Management expresses confidence in delivering all financial targets, but the Group LLR guidance was raised to 'around the top of the 50-60bps range' due to a single-name impairment charge, and the CET1 ratio decreased. The tone is confident but the forward outlook is unchanged, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Group income of £8.2bn, up 6% year-on-year.",
+    "eps": "Basic EPS of 14.1p, up 8% from 13.0p in Q125.",
+    "guidance": "All 2026 and 2028 targets reiterated. Group RoTE greater than 12% in 2026 and greater than 14% in 2028. Group total income of c.£31bn in 2026. Group NII excluding IB and Head Office greater than £13.5bn. Barclays UK NII of £8.1bn-£8.3bn. Group cost:income ratio of high 50s in 2026 and low 50s in 2028. Group LLR expected to be around the top of the 50-60bps through-the-cycle range for FY26.",
+    "margin": "Group cost:income ratio improved to 56% (Q125: 57%). Net interest margin for Group excluding IB and Head Office was 4.83% (Q125: 4.51%).",
+    "key_risks": [
+      "Geopolitical uncertainty and trade tensions (tariffs) leading to potential credit deterioration, reflected in management adjustments of £101m.",
+      "Higher-than-expected Group loan loss rate in FY26, expected to be around the top of the 50-60bps range due to a £0.2bn single name impairment charge in the IB.",
+      "Potential increase in UK bank taxes (banking surcharge) – a 1% increase would cost Barclays around £35m per year.",
+      "Inflationary pressures on costs, though management expects to offset via efficiencies.",
+      "FCA motor finance redress scheme – provision increased by £105m to £430m, with ultimate financial impact uncertain.",
+      "Competitive pressure in UK mortgages and Investment Bank capital deployment from US peers."
+    ],
+    "key_opportunities": [
+      "UK lending growth momentum – delivered £22bn of c.£30bn planned UK RWA growth since 2024, with 5% year-on-year growth in Q126.",
+      "Best Egg acquisition completed on 1 May 2026, expected to generate synergies in funding and revenue.",
+      "Structural hedge balance increased by £6bn, providing NII stability into 2029 and beyond.",
+      "Investment in technology (iPortal) expected to improve digital engagement and efficiency.",
+      "USCB income growth of 14% year-on-year, with strong organic momentum and new partner opportunities.",
+      "Capital generative capacity exceeding distribution and investment plans, providing flexibility for further investment or shareholder returns."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Anna Cross states 'Nine quarters into the plan, we're delivering against all of our objectives with real momentum' and 'we remain confident in delivering all our financial targets across a range of environments.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Group income was £8.2bn, up 6% year-on-year.",
+      "quote": "Group income of £8.2bn increased 6% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS was 14.1p, up 8% from 13.0p in Q125.",
+      "quote": "EPS of 14.1p (Q125: 13.0p)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "All 2026 and 2028 targets were reiterated.",
+      "quote": "The breadth and quality of our businesses mean we remain confident in delivering all our financial targets across a range of environments. This includes greater than 12% RoTE in 2026 and greater than 14% RoTE in 2028.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group LLR guidance for FY26 was raised to 'around the top of the 50-60bps range'.",
+      "quote": "As a result, Group LLR in FY26 is expected to be around the top of the 50-60bps through the cycle guidance range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group cost:income ratio improved to 56%.",
+      "quote": "Group cost: income ratio improving to 56% (Q125: 57%) driven by positive operating leverage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest margin for Group excluding IB and Head Office was 4.83%.",
+      "quote": "The Group excluding IB and Head Office net interest margin increased by 32bps from 4.51% in Q125 to 4.83% in Q126.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical uncertainty and trade tensions are key risks, reflected in management adjustments.",
+      "quote": "In response, management adjustments of £101m have been introduced, partially offset by the release of £81m tariff-related adjustments raised in Q125, resulting in a net additional charge of £20m.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A potential increase in UK bank taxes is a risk; a 1% increase would cost Barclays around £35m per year.",
+      "quote": "To give a sense of scale, a 1% increase would increase the amount we pay by around £35 million per year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FCA motor finance redress scheme provision increased by £105m to £430m.",
+      "quote": "Barclays increased its provision in Q126 by £105m to reflect the expected financial impact of the redress schemes. This resulted in a provision of £430m in respect of this matter as at 31 March 2026 (as at 31 December 2025: £325m).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "UK lending growth momentum: £22bn of c.£30bn planned UK RWA growth delivered since 2024.",
+      "quote": "Delivered £22bn of c.£30bn planned UK risk weighted assets (RWAs) growth since 2024¹, of which £15bn was organic growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Best Egg acquisition completed on 1 May 2026.",
+      "quote": "We completed the Best Egg acquisition on the 1st of May, following the American Airlines (AA) portfolio sale on the 24th of April, so they are both done.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Structural hedge balance increased by £6bn.",
+      "quote": "Yes. So there was about a £6 billion increase in the structural hedge balance, as you note.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Nine quarters into the plan, we're delivering against all of our objectives with real momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "USCB income grew 14% year-on-year.",
+      "quote": "Barclays US Consumer Bank (USCB) income increased 14%, driven by business growth and increased purchase activity, partially offset by the strengthening of average GBP against USD.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital generative capacity exceeds distribution and investment plans.",
+      "quote": "The capital generative capacity of the business is greater than is accounted for in both the distribution plans and the investment plans of the business that we've set out for you. So there is excess capital in the plan, if you like.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline between HOLD and BUY. The guidance was reaffirmed, not raised, but the LLR guidance was effectively raised (to the top of the range), which is a negative. The score is driven by the confident tone and operational momentum, but a reviewer may argue for a slightly lower score given the unchanged formal guidance and the LLR increase."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BCS_Bundled Earnings Report_2026-04-28",
+  "report_metadata": {
+    "issuer": "p2_barclays",
+    "company": "Barclays",
+    "ticker": "BCS",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2026-Q1\\Sellside-Analyst-Meeting-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2026-Q1\\Barclays-Q1-2026-Results-Announcement.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BCS_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T172306Z",
+    "timestamp": "2026-07-30T17:24:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2026-Q1\\Sellside-Analyst-Meeting-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_barclays\\extracted\\BCS_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2026-Q1\\Sellside-Analyst-Meeting-Transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 54366,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\barclays\\CY2026-Q1\\Barclays-Q1-2026-Results-Announcement.pdf",
+        "page_count": 50,
+        "extracted_characters": 116762,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_barclays\\extracted\\BCS_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

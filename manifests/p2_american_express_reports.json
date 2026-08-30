@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_american_express",
+  "reports": [
+    {
+      "document_id": "AXP_FQ2_2025",
+      "issuer": "p2_american_express",
+      "company": "American Express",
+      "ticker": "AXP",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-18",
+      "release_date": "2025-07-18",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 4962, filed 2025-07-18, accepted 11:02:50 ET (pre-market: AXP releases before market open)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/american_express/CY2025-Q2/AXP_Q2_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/american_express/CY2025-Q2/EAXP_Q2_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "AXP_FQ3_2025",
+      "issuer": "p2_american_express",
+      "company": "American Express",
+      "ticker": "AXP",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-17",
+      "release_date": "2025-10-17",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 4962, filed 2025-10-17, accepted 11:00:35 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/american_express/CY2025-Q3/AXP_Q3_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/american_express/CY2025-Q3/AXP_Q3_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "AXP_FQ4_2025",
+      "issuer": "p2_american_express",
+      "company": "American Express",
+      "ticker": "AXP",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-30",
+      "release_date": "2026-01-30",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 4962, acc 0000004962-26-000188, filed 2026-01-30, accepted 12:00:34 ET (pre-market: AXP releases before open; EDGAR accepted at noon same day)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/american_express/CY2025-Q4/AXP_Q4_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/american_express/CY2025-Q4/AXP_Q4_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "AXP_FQ1_2026",
+      "issuer": "p2_american_express",
+      "company": "American Express",
+      "ticker": "AXP",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-23",
+      "release_date": "2026-04-23",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 4962, filed 2026-04-23, accepted 11:00:36 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/american_express/CY2026-Q1/AXP_Q1_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/american_express/CY2026-Q1/AAXP_Q1_2026_Earnings_Call_Transcript.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_ford",
+  "reports": [
+    {
+      "document_id": "F_FQ2_2025",
+      "issuer": "p2_ford",
+      "company": "Ford",
+      "ticker": "F",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-30",
+      "release_date": "2025-07-30",
+      "release_date_source": "EDGAR 8-K Item 2.02, f-20250730.htm, acc 0000037996-25-000146",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ford/CY2025-Q2/Ford-Q2-2025-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ford/CY2025-Q2/Ford-Q2-2025-Press-Release-SEC-8K-Exhibit.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "F_FQ4_2025",
+      "issuer": "p2_ford",
+      "company": "Ford",
+      "ticker": "F",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-10",
+      "release_date": "2026-02-10",
+      "release_date_source": "EDGAR 8-K Item 2.02, f-20260210.htm, acc 0000037996-26-000014",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ford/CY2025-Q4/Ford-Q4-2025-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ford/CY2025-Q4/Ford-Q4-2025-Earnings-Press-Release.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "F_FQ1_2026",
+      "issuer": "p2_ford",
+      "company": "Ford",
+      "ticker": "F",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-29",
+      "release_date": "2026-04-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, f-20260429.htm, acc 0000037996-26-000084",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/ford/CY2026-Q1/Ford-Q1-2026-Earnings-Call-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ford/CY2026-Q1/Ford-Q1-2026-Press-Release.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

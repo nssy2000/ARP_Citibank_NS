@@ -1,0 +1,345 @@
+{
+  "issuers": [
+    "boeing",
+    "jpm",
+    "netflix"
+  ],
+  "generated_at": "2026-07-02T19:37:52Z",
+  "outcome_thresholds": {
+    "outcome_upper": 0.03,
+    "outcome_lower": -0.03
+  },
+  "outcome_window_trading_days": 5,
+  "default_sentiment_thresholds": {
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  },
+  "default_blend_weights": {
+    "micro": 0.6,
+    "macro": 0.2,
+    "news": 0.2
+  },
+  "note": "Pooled across all issuers so the tuned threshold/weights are one shared answer, not overfit per issuer. Still LOOCV at a small pooled N (one fold per document) - a tuned choice per fold, not one frozen answer. Modal values are the 'if you had to pick one' choice; the tuned-vs-default accuracy comparison is the primary result.",
+  "threshold_only": {
+    "loocv_folds": [
+      {
+        "held_out_document_id": "BA_FQ1_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "BUY",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "BUY",
+        "correct_tuned": false,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "BA_FQ2_2025",
+        "tuned_hold_upper": 0.15,
+        "tuned_hold_lower": -0.15,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "BUY",
+        "default_prediction": "BUY",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "BA_FQ3_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "SELL",
+        "tuned_prediction": "SELL",
+        "default_prediction": "SELL",
+        "correct_tuned": true,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "BA_FQ4_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "SELL",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "BUY",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "JPM_FQ1_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "SELL",
+        "tuned_prediction": "SELL",
+        "default_prediction": "SELL",
+        "correct_tuned": true,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "JPM_FQ2_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": true,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "JPM_FQ3_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": true,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "JPM_FQ4_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": true,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "NFLX_FQ1_2026",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "SELL",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "NFLX_FQ2_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "SELL",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "BUY",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "NFLX_FQ3_2025",
+        "tuned_hold_upper": 0.3,
+        "tuned_hold_lower": -0.3,
+        "outcome_label": "SELL",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "NFLX_FQ4_2025",
+        "tuned_hold_upper": 0.15,
+        "tuned_hold_lower": -0.15,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "BUY",
+        "default_prediction": "BUY",
+        "correct_tuned": false,
+        "correct_default": false
+      }
+    ],
+    "tuned_accuracy": 0.4166666666666667,
+    "default_accuracy": 0.5,
+    "modal_tuned_hold_upper": 0.3,
+    "modal_tuned_hold_lower": -0.3
+  },
+  "blend_weight_and_threshold": {
+    "loocv_folds": [
+      {
+        "held_out_document_id": "BA_FQ1_2025",
+        "tuned_weights": [
+          0.8,
+          0.0,
+          0.2
+        ],
+        "tuned_hold_upper": 0.25,
+        "tuned_hold_lower": -0.25,
+        "outcome_label": "BUY",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "BA_FQ2_2025",
+        "tuned_weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tuned_hold_upper": 0.1,
+        "tuned_hold_lower": -0.1,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "BUY",
+        "default_prediction": "BUY",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "BA_FQ3_2025",
+        "tuned_weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tuned_hold_upper": 0.1,
+        "tuned_hold_lower": -0.1,
+        "outcome_label": "SELL",
+        "tuned_prediction": "BUY",
+        "default_prediction": "SELL",
+        "correct_tuned": false,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "BA_FQ4_2025",
+        "tuned_weights": [
+          0.6,
+          0.0,
+          0.4
+        ],
+        "tuned_hold_upper": 0.15,
+        "tuned_hold_lower": -0.15,
+        "outcome_label": "SELL",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "BUY",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "JPM_FQ1_2025",
+        "tuned_weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tuned_hold_upper": 0.1,
+        "tuned_hold_lower": -0.1,
+        "outcome_label": "SELL",
+        "tuned_prediction": "SELL",
+        "default_prediction": "SELL",
+        "correct_tuned": true,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "JPM_FQ2_2025",
+        "tuned_weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tuned_hold_upper": 0.1,
+        "tuned_hold_lower": -0.1,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": true,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "JPM_FQ3_2025",
+        "tuned_weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tuned_hold_upper": 0.1,
+        "tuned_hold_lower": -0.1,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "SELL",
+        "default_prediction": "HOLD",
+        "correct_tuned": false,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "JPM_FQ4_2025",
+        "tuned_weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tuned_hold_upper": 0.1,
+        "tuned_hold_lower": -0.1,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": true,
+        "correct_default": true
+      },
+      {
+        "held_out_document_id": "NFLX_FQ1_2026",
+        "tuned_weights": [
+          0.6,
+          0.0,
+          0.4
+        ],
+        "tuned_hold_upper": 0.15,
+        "tuned_hold_lower": -0.15,
+        "outcome_label": "SELL",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "NFLX_FQ2_2025",
+        "tuned_weights": [
+          0.6,
+          0.0,
+          0.4
+        ],
+        "tuned_hold_upper": 0.15,
+        "tuned_hold_lower": -0.15,
+        "outcome_label": "SELL",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "NFLX_FQ3_2025",
+        "tuned_weights": [
+          0.6,
+          0.0,
+          0.4
+        ],
+        "tuned_hold_upper": 0.15,
+        "tuned_hold_lower": -0.15,
+        "outcome_label": "SELL",
+        "tuned_prediction": "HOLD",
+        "default_prediction": "HOLD",
+        "correct_tuned": false,
+        "correct_default": false
+      },
+      {
+        "held_out_document_id": "NFLX_FQ4_2025",
+        "tuned_weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "tuned_hold_upper": 0.1,
+        "tuned_hold_lower": -0.1,
+        "outcome_label": "HOLD",
+        "tuned_prediction": "SELL",
+        "default_prediction": "BUY",
+        "correct_tuned": false,
+        "correct_default": false
+      }
+    ],
+    "tuned_accuracy": 0.25,
+    "default_accuracy": 0.4166666666666667,
+    "modal_tuned_weights": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "modal_tuned_hold_upper": 0.1,
+    "modal_tuned_hold_lower": -0.1
+  },
+  "n_documents": 12
+}

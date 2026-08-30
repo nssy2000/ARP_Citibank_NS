@@ -1,0 +1,201 @@
+{
+  "document_id": "TGT_FQ2_2025",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The company reported a sequential improvement in Q2 (comparable sales -1.9% vs Q1's -3.8% implied), but full-year guidance was maintained, not raised, with management explicitly citing 'continued uncertainty and volatility' and a 'cautious approach' for the back half. The tone is cautiously optimistic about progress but far from satisfied, and the guidance range remains wide ($7-$9 adjusted EPS) with no upward revision. This is an in-line quarter with reaffirmed guidance, scoring 0.0."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net sales of $25.2 billion, down 0.9% from 2024. Comparable sales decreased 1.9%.",
+    "eps": "GAAP and Adjusted EPS of $2.05, compared with $2.57 in 2024, a decline of 20.2%.",
+    "guidance": "Maintaining full-year guidance: low single-digit decline in comparable sales, GAAP EPS of $8.00 to $10.00, Adjusted EPS of approximately $7.00 to $9.00.",
+    "margin": "Gross margin rate 29.0% vs 30.0% in 2024. Operating income margin rate 5.2% vs 6.4% in 2024. SG&A expense rate 21.3% vs 21.1% in 2024.",
+    "key_risks": [
+      "Tariff-related pressures including purchase order cancellation costs and higher product costs.",
+      "Continued uncertainty and volatility in the tariff environment.",
+      "Consumer sensitivity to value and inflation.",
+      "Inventory adjustment costs related to Q1 sales slowdown (now behind).",
+      "Higher average debt levels increasing net interest expense."
+    ],
+    "key_opportunities": [
+      "Sequential improvement in traffic and comp trends from Q1 to Q2, particularly in stores.",
+      "Strong digital comparable sales growth of 4.3%, with same-day delivery up over 25%.",
+      "Non-merchandise sales (Roundel, Target Plus, membership) growing double digits.",
+      "Fun 101 hardlines transformation delivering 5% comp growth, led by trading cards and Nintendo Switch 2.",
+      "Back-to-school and back-to-college seasons off to encouraging starts.",
+      "New Champion for Target collaboration exceeding initial sales expectations.",
+      "Improving on-shelf availability metrics at best levels in years.",
+      "Shrink improvement providing 130 bps of benefit in Q2, expected 80 bps for full year."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses cautious optimism about sequential progress ('encouraged by the momentum') but repeatedly states they are 'far from satisfied' and 'need to do better,' while maintaining a 'cautious approach' for the back half due to uncertainty."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net sales were $25.2 billion, down 0.9% from 2024.",
+      "quote": "Second quarter net sales were $25.2 billion, (0.9) percent lower than 2024, representing a nearly 2 percentage point improvement versus the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales decreased 1.9% in Q2.",
+      "quote": "Comparable sales decreased 1.9 percent in the second quarter, reflecting a comparable store sales decline of 3.2 percent, partially offset by comparable digital sales growth of 4.3 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP and Adjusted EPS was $2.05, down from $2.57 in 2024.",
+      "quote": "Second quarter GAAP and Adjusted EPS was $2.05 compared with GAAP and Adjusted EPS of $2.57 in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance is maintained, not raised.",
+      "quote": "For fiscal 2025, the Company is maintaining its expectation of a low-single digit decline in sales, and GAAP EPS of $8.00 to $10.00. Adjusted EPS... is expected to be approximately $7.00 to $9.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is taking a cautious approach for the back half.",
+      "quote": "While our Q2 performance reinforced our confidence that we can deliver on that guidance, we're still facing a highly volatile and uncertain environment and believe it's prudent to maintain a cautious approach in the back half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin rate was 29.0%, down from 30.0% in 2024.",
+      "quote": "Second quarter gross margin rate was 29.0 percent, compared with 30.0 percent in 2024, reflecting the net impact of merchandising activities, including higher markdown rates, purchase order cancellation costs, and pressure from category mix, partially offset by lower inventory shrink and growth in advertising and non-merchandise sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income margin rate was 5.2%, down from 6.4% in 2024.",
+      "quote": "Second quarter operating income margin rate was 5.2 percent in 2025, compared with 6.4 percent in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff-related pressures are a key risk.",
+      "quote": "This decline was primarily the result of about 210 basis points of pressure within merchandising, reflecting inventory adjustment costs related to the slowdown in our first quarter sales combined with the tariff-related pressures including purchase order cancellation costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital comparable sales grew 4.3% with same-day delivery up over 25%.",
+      "quote": "Digital comparable sales grew 4.3 percent, reflecting more than 25% growth in same-day delivery powered by Target Circle 360 and continued growth in Drive Up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fun 101 hardlines delivered 5% comp growth.",
+      "quote": "In Q2, performance was led by Fun 101, our updated approach to bringing greater style and cultural relevance to our hardlines assortment. With this new approach, we saw growth of more than 5% in Q2, our strongest quarterly comp in this category since 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: encouraged but far from satisfied.",
+      "quote": "While we were happy to see improvement in Q2, we are far from satisfied with where our business is performing today. We need to do better, and our entire team is focused on consistent execution, building further momentum, and getting back to profitable long-term growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "On-shelf availability metrics were the best in years.",
+      "quote": "Across the entire assortment and in particular, key items that should never be out of stock, our on-shelf availability metrics in Q2 were the best we've seen in years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shrink improvement provided 130 bps of benefit in Q2.",
+      "quote": "These pressures were partially offset by improvements in inventory shrink worth about 130 basis points of benefit in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Back-to-school and back-to-college are off to encouraging starts.",
+      "quote": "While a lot of the season is still ahead of us, both back-to-school and back to college are off to encouraging starts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Champion for Target collaboration exceeded initial sales expectations.",
+      "quote": "Having launched just over a week ago, early signs suggest this is going to be very popular with our guests and initial sales trends are better than we originally expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.0 reflects maintained guidance and cautious tone despite sequential improvement. A reviewer may consider whether the sequential improvement and confident language about back-half positioning warrant a slightly positive score (e.g., +0.15)."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2025-08-20",
+  "report_metadata": {
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q2\\2025-august-20-tgt-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q2\\TGT-Q2-2025-Press-Release-SEC-EX99.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TGT_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T175026Z",
+    "timestamp": "2026-07-30T17:51:04Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q2\\2025-august-20-tgt-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q2\\2025-august-20-tgt-transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 71223,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q2\\TGT-Q2-2025-Press-Release-SEC-EX99.htm",
+        "page_count": 1,
+        "extracted_characters": 22401,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ2_2025.txt"
+  }
+}

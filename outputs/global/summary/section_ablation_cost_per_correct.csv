@@ -1,0 +1,15 @@
+# Section ablation: cost per correct call
+# Computed from section_ablation_results.csv on 2026-08-13
+# Grading: overnight returns, pre-registered +-2% band, HOLD-excluded
+# four_arm_n119: events where all 4 arms were scored (paired comparison set)
+# all_n200: all events (full_bundle + press_release cover all 200; prepared_remarks + qa_only cover 119)
+# cost = estimated_cost_usd from DeepSeek API (input + output tokens at model rates)
+event_set,arm,n_calls,n_graded,n_correct,accuracy_hold_excluded,total_tokens,mean_tokens_per_call,total_cost_usd,cost_per_call_usd,cost_per_correct_usd
+four_arm_n119,full_bundle,119,47,32,0.6809,3581446,30096,1.1441,0.0096,0.0358
+four_arm_n119,press_release,119,37,24,0.6486,1550583,13030,0.5394,0.0045,0.0225
+four_arm_n119,prepared_remarks,119,41,26,0.6341,1224173,10287,0.5412,0.0045,0.0208
+four_arm_n119,qa_only,119,38,26,0.6842,1566442,13163,0.5952,0.005,0.0229
+all_n200,full_bundle,200,70,46,0.6571,6626021,33130,2.1166,0.0106,0.046
+all_n200,press_release,200,56,35,0.625,3059630,15298,1.0149,0.0051,0.029
+all_n200,prepared_remarks,119,41,26,0.6341,1224173,10287,0.5412,0.0045,0.0208
+all_n200,qa_only,119,38,26,0.6842,1566442,13163,0.5952,0.005,0.0229

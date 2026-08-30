@@ -1,0 +1,224 @@
+{
+  "document_id": "STAN.L_FQ4_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The company delivered strong FY2025 results, with underlying RoTE of 14.7% exceeding the upgraded ~13% guidance, and income growth of 8% ex-notables. Management raised forward guidance for 2026, targeting statutory RoTE >12% and income growth at the bottom end of the 5-7% range, while announcing a new $1.5bn buyback and a 65% dividend increase. However, the 2026 NII guidance is broadly flat, and management flagged headwinds from rate cuts and WRB portfolio actions, tempering the positive signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FY'25 income up 6% YoY at ccy, or up 8% ex-notables; record annual income of $20.9bn.",
+    "eps": "Underlying EPS 229.7 cents, up 37% YoY.",
+    "guidance": "2026 income growth expected around bottom end of 5-7% range at ccy; NII broadly flat YoY; reported costs broadly flat; statutory RoTE >12%.",
+    "margin": "Underlying RoTE 14.7%, up 3%pts YoY; statutory RoTE 11.9%; cost/income ratio improved 80bps to 59%.",
+    "key_risks": [
+      "Interest rate headwinds: currency weighted average rates expected to drop by 44bps in 2026.",
+      "WRB portfolio actions expected to be ~2% headwind to NII.",
+      "Pass-through rates expected to normalise within guidance range, potentially reducing NII.",
+      "Episodic income in Global Markets volatile; Q4'25 was weak.",
+      "Credit impairment expected to normalise towards 30-35bps through-the-cycle loan loss rate.",
+      "Sovereign downgrade moved exposures to Stage 3, though no material ECL.",
+      "Costs may rise due to investment and performance-related pay."
+    ],
+    "key_opportunities": [
+      "Wealth Solutions income up 24% YoY, with $52bn NNM and 14% AUM growth.",
+      "Global Banking up 15% and Global Markets up 12% YoY.",
+      "Network income up 4% YoY, with China to ASEAN up 20% and China to Africa up 25%.",
+      "Sustainable finance income ~$1.1bn, up 9% YoY.",
+      "Digital banks growing: Mox ~750k customers, Trust >1m customers.",
+      "Strong capital position enabling $1.5bn buyback and 65% dividend increase."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly expressed confidence, e.g., 'We feel super good about the franchise right now. It is firing on all cylinders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FY'25 income up 6% YoY at ccy, or up 8% ex-notables; record annual income of $20.9bn.",
+      "quote": "Our full year 2025 income was $20.9 billion, up 6% or 8% excluding notable items.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying EPS 229.7 cents, up 37% YoY.",
+      "quote": "Underlying EPS 229.7 cents up 37% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 income growth expected around bottom end of 5-7% range at ccy; NII broadly flat YoY; reported costs broadly flat; statutory RoTE >12%.",
+      "quote": "we expect 2026 year-on-year income growth to be around bottom end of our historical 5% to 7% range at constant currency with adjusted NII expected to be broadly flat. Our reported costs for 2026 are expected to be broadly flat at constant currency. ... we are now targeting a statutory return on tangible equity of greater than 12% in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying RoTE 14.7%, up 3%pts YoY; statutory RoTE 11.9%; cost/income ratio improved 80bps to 59%.",
+      "quote": "Underlying RoTE 14.7% up 3%pts YoY ... FY'25 statutory RoTE of 11.9% ... underlying cost/income ratio improved 80 basis points to 59%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Interest rate headwinds: currency weighted average rates expected to drop by 44bps in 2026.",
+      "quote": "Currency weighted average rates expected to drop by 44bps in 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "WRB portfolio actions expected to be ~2% headwind to NII.",
+      "quote": "Continued impact from WRB portfolio actions expected to be ~2% headwind to NII",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pass-through rates expected to normalise within guidance range, potentially reducing NII.",
+      "quote": "Passthrough rates expected to move back within the guidance range",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Episodic income in Global Markets volatile; Q4'25 was weak.",
+      "quote": "Episodic income was a small negative in Q4 and down significantly from last year. ... episodic income is less predictable and can be volatile from quarter-to-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit impairment expected to normalise towards 30-35bps through-the-cycle loan loss rate.",
+      "quote": "We expect this to normalise towards the historical through-the-cycle 30 to 35 basis points over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sovereign downgrade moved exposures to Stage 3, though no material ECL.",
+      "quote": "The $1.5 billion reduction in early alerts was due to a combination of client upgrades, repayments and a sovereign downgrade from early alerts into stage 3. ... no significant ECL in Q4 as a result of that downgrade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Costs may rise due to investment and performance-related pay.",
+      "quote": "Our business has demonstrated strong performance, consistently exceeding our established targets, including significantly positive income-to-cost jaws. That gives us confidence to invest into initiatives which will deliver both productivity and growth benefits in the years ahead, such as data infrastructure and AI enablement. This represents the majority of the difference. The remainder is due to higher performance rated costs, for example, the need to pay our relationship managers for exceptional performance in affluent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth Solutions income up 24% YoY, with $52bn NNM and 14% AUM growth.",
+      "quote": "Wealth Solutions, up 24%. During Q4, we generated $10 billion in affluent net new money. This contributed to a cumulative total of $52 billion net new money for 2025, equivalent to 14% growth in affluent AUM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Banking up 15% and Global Markets up 12% YoY.",
+      "quote": "Global Banking was up 15% driven by strong growth in both origination and distribution. ... Global Markets was up 12% as we delivered consistent growth in flow income above our long-term trajectory.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Network income up 4% YoY, with China to ASEAN up 20% and China to Africa up 25%.",
+      "quote": "FY’25 network income of $7.6bn up 4% YoY or 11% excluding rates impact ... China to ASEAN up 20% YoY; China to Africa up 25%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sustainable finance income ~$1.1bn, up 9% YoY.",
+      "quote": "FY’25 SF income of ~$1.1bn, up 9% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital banks growing: Mox ~750k customers, Trust >1m customers.",
+      "quote": "In 2025, Mox continued its strong growth trajectory, achieving a 15% year-on-year increase in customer base and reaching around 750,000 customers. Trust Bank also continued its momentum with customer numbers up 15% year-on-year, reaching over 1 million customers",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong capital position enabling $1.5bn buyback and 65% dividend increase.",
+      "quote": "Today, we're announcing a further share buyback of $1.5 billion, which will start imminently. We're also proposing a full year dividend per share up 65% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel super good about the franchise right now. It is firing on all cylinders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.35 reflects a guidance raise and strong results, but the 2026 NII flat guidance and rate headwinds may warrant a slightly lower score; reviewer should confirm the balance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "STAN.L_Bundled Earnings Report_2026-02-23",
+  "report_metadata": {
+    "issuer": "p2_standard_chartered",
+    "company": "Standard Chartered",
+    "ticker": "STAN.L",
+    "sector": "Financial Services/Banks - Diversified",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-23",
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q4\\STAN_Q4_2025_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q4\\STAN_FY_2025_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "STAN.L_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103356Z",
+    "timestamp": "2026-08-09T10:35:57Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q4\\STAN_Q4_2025_Presentation.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_standard_chartered\\extracted\\STAN.L_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q4\\STAN_Q4_2025_Presentation.pdf",
+        "page_count": 45,
+        "extracted_characters": 51615,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q4\\STAN_FY_2025_Transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 69419,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_standard_chartered\\extracted\\STAN.L_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "document_id": "MC.PA_FQ4_2025_QUANT",
+  "base_document_id": "MC.PA_FQ4_2025",
+  "issuer": "p2_lvmh",
+  "ticker": "MC.PA",
+  "sector": "Consumer/Luxury",
+  "report_date": "2026-01-27",
+  "sentiment": {
+    "score": -0.39496
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.062649,
+      "window_start_date": "2025-12-23",
+      "window_end_date": "2026-01-26",
+      "score": -0.39496,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.280301,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": null,
+      "score": null,
+      "available": false
+    },
+    "macro_numeric": {
+      "vix_level": 16.35,
+      "vix_score": 0.174851,
+      "tnx_change": 0.087,
+      "tnx_score": -0.172265,
+      "score": 0.001293,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.24,
+      "ffr_score": 0.446244,
+      "ffr_as_of": "2026-01-26",
+      "curve_spread": 0.66,
+      "curve_score": 0.578363,
+      "curve_as_of": "2026-01-26",
+      "score": 0.512304,
+      "available": true
+    },
+    "quant_score": -0.39496,
+    "quant_score_with_macro": -0.196833,
+    "quant_score_with_fred": 0.058672,
+    "quant_score_with_macro_fred": 0.039546
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_lenovo",
+  "reports": [
+    {
+      "document_id": "LNVGY_FQ1_2026",
+      "issuer": "p2_lenovo",
+      "company": "Lenovo",
+      "ticker": "LNVGY",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-08-14",
+      "release_date": null,
+      "release_date_source": null,
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lenovo/CY2026-Q1/Lenovo_Q1_FY2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/lenovo/CY2026-Q1/Lenovo_Q1_FY2026_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "LNVGY_FQ2_2026",
+      "issuer": "p2_lenovo",
+      "company": "Lenovo",
+      "ticker": "LNVGY",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2025-11-20",
+      "release_date": null,
+      "release_date_source": "Non-US (HKEX 992 / ADR LNVGY), no EDGAR 8-K. Taken from the cited document's own dateline: \"November 20, 2025 - Lenovo Group Limited (HKSE: 992) (ADR: LNVGY) ... today reported record results for the second quarter of fiscal year 2025/26\" (docs/lenovo/CY2026-Q2/Lenovo_Q2_FY2026_Press_Release.pdf). Corrected 2026-08-24 from 2026-01-30, which matched no Lenovo release. The other three LNVGY events were checked against their own datelines on the same date and are correct (FQ1 2025-08-14, FQ3 2026-02-12, FQ4 2026-05-22).",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lenovo/CY2026-Q2/Lenovo_Q2_FY2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/lenovo/CY2026-Q2/Lenovo_Q2_FY2026_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "LNVGY_FQ3_2026",
+      "issuer": "p2_lenovo",
+      "company": "Lenovo",
+      "ticker": "LNVGY",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "2026-02-12",
+      "release_date": null,
+      "release_date_source": null,
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lenovo/CY2026-Q3/Lenovo_Q3_FY2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/lenovo/CY2026-Q3/Lenovo_Q3_FY2026_Presentation.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "LNVGY_FQ4_2026",
+      "issuer": "p2_lenovo",
+      "company": "Lenovo",
+      "ticker": "LNVGY",
+      "sector": "Technology/Computer Hardware",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2026",
+      "report_date": "2026-05-22",
+      "release_date": null,
+      "release_date_source": null,
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lenovo/CY2026-Q4/Lenovo_Q4_FY2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/lenovo/CY2026-Q4/Lenovo_Q4_FY2026_Presentation.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "unknown",
+    "source": "HKEX search is JS-rendered. BusinessWire timed out. Lenovo IR returns 403. No publication time retrieved.",
+    "retrieval_date": "2026-08-12"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "issuer": "p2_nestle",
+  "reports": [
+    {
+      "document_id": "NSRGY_FQ3_2024",
+      "issuer": "p2_nestle",
+      "company": "Nestle",
+      "ticker": "NSRGY",
+      "sector": "Consumer Defensive/Packaged Foods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2024",
+      "report_date": "2024-10-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Nestle nine-month 2024 sales update, source from SIX Swiss Exchange / Nestle IR (~Oct 2024). URL: https://www.nestle.com/investors/publications",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/nestle/CY2024-Q3/NSRGY_Q3_2024_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nestle/CY2024-Q3/NSRGY_Q3_2024_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "NSRGY_FQ1_2026",
+      "issuer": "p2_nestle",
+      "company": "Nestle",
+      "ticker": "NSRGY",
+      "sector": "Consumer Defensive/Packaged Foods",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-02-01",
+      "release_date": "PENDING \u2014 source from home-exchange announcement; see release_date_source",
+      "release_date_source": "Non-US: Nestle full-year 2025 results, source from SIX Swiss Exchange / Nestle IR (~Feb 2026)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/nestle/CY2026-Q1/NSRGY_Q1_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/nestle/CY2026-Q1/NSRGY_Q1_2026_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "Confirmed pre_market from exchange timestamps \u2014 see outputs/global/summary/non_us_release_timing_extension.csv (all events release 3-7h before respective session open). Confirmed 2026-08-13.",
+    "retrieval_date": "2026-08-13"
+  }
+}

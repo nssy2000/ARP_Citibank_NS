@@ -1,0 +1,271 @@
+{
+  "document_id": "CMCSA_FQ4_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "Forward guidance was effectively lowered: management explicitly stated they are in an 'investment period' with 'incremental EBITDA pressure over the next couple of quarters' and expects 'further ARPU pressure' in broadband, while also noting that one-time cash tax benefits in 2025 'will not recur' in 2026. Although the company highlighted record free cash flow and strong wireless growth, the explicit forward-looking statements point to continued near-term EBITDA and ARPU declines, with management stopping short of providing a full-year EBITDA guide and only promising 'improvement' in the back half of 2026. The cautious, investment-period framing and explicit forward pressure outweigh the positive backward-looking results, resulting in a negative sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "4Q25 revenue was $32,310 million, up 1.2% year-over-year. Full-year 2025 revenue was $123,707 million, flat year-over-year.",
+    "eps": "4Q25 diluted EPS was $0.60, down 52.0% year-over-year. Adjusted EPS was $0.84, down 12.4% year-over-year. Full-year 2025 diluted EPS was $5.39, up 30.1%; Adjusted EPS was $4.31, down 0.6%.",
+    "guidance": "Management stated they are in an 'investment period' and expect 'incremental EBITDA pressure over the next couple of quarters' until they begin to lap investments in the second half of 2026. They expect 'further ARPU pressure' in broadband for the next couple of quarters. For 2026, they expect total capital spending to be 'relatively similar to 2025' and expect Peacock losses to 'meaningfully improve again.' They expect to convert 'the vast majority of free lines into paying relationships' in the second half of 2026. They did not provide a full-year EBITDA guide.",
+    "margin": "Connectivity & Platforms Adjusted EBITDA margin was 37.1% in 4Q25, down 120 bps year-over-year. Residential Connectivity & Platforms Adjusted EBITDA margin was 34.6%, down 140 bps. Business Services Connectivity Adjusted EBITDA margin was 54.2%, down 150 bps.",
+    "key_risks": [
+      "Intense broadband competition, including from fiber and fixed wireless.",
+      "Increased wireless competition, particularly towards the end of the fourth quarter.",
+      "Incremental EBITDA pressure expected over the next couple of quarters due to the investment period.",
+      "Further broadband ARPU pressure expected for the next couple of quarters.",
+      "One-time cash tax benefits in 2025 will not recur in 2026.",
+      "Leverage ratios will increase slightly on the back of the Versant spin-off.",
+      "The Versant spin-off removes a significant pool of cash flow from operations."
+    ],
+    "key_opportunities": [
+      "Wireless growth: 1.5 million net line additions in 2025, reaching 9.3 million total lines and surpassing 15% penetration of domestic residential broadband customers.",
+      "Theme Parks growth: Epic Universe driving higher per-cap spending and attendance; Theme Parks crossed $1 billion in quarterly EBITDA for the first time.",
+      "Peacock growth: 44 million paid subscribers, up 22% year-over-year; revenue grew 23% in 4Q25; full-year EBITDA losses improved by over $700 million.",
+      "Network leadership: ~60% of footprint transitioned to mid-split spectrum; plan to market multi-gigabit symmetrical speeds.",
+      "Business Services growth: revenue increased 6% in 4Q25, driven by enterprise solutions.",
+      "Free wireless line conversion: expect to convert the vast majority of free lines into paying relationships in the second half of 2026."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly framed the current period as an 'investment period' with expected near-term pressure, stating 'we expect incremental EBITDA pressure over the next couple of quarters' and 'we expect further ARPU pressure for the next couple of quarters,' indicating a cautious forward outlook despite positive long-term framing."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "4Q25 revenue was $32,310 million, up 1.2% year-over-year.",
+      "quote": "Revenue $32,310 $31,915 1.2 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue was $123,707 million, flat year-over-year.",
+      "quote": "Revenue $32,310 $31,915 1.2 % $123,707 $123,731 — %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "4Q25 diluted EPS was $0.60, down 52.0% year-over-year.",
+      "quote": "Earnings per Share $0.60 $1.24 (52.0 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "4Q25 Adjusted EPS was $0.84, down 12.4% year-over-year.",
+      "quote": "Adjusted Earnings per Share $0.84 $0.96 (12.4 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 diluted EPS was $5.39, up 30.1%.",
+      "quote": "Earnings per Share $0.60 $1.24 (52.0 %) $5.39 $4.14 30.1 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 Adjusted EPS was $4.31, down 0.6%.",
+      "quote": "Adjusted Earnings per Share $0.84 $0.96 (12.4 %) $4.31 $4.33 (0.6 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects incremental EBITDA pressure over the next couple of quarters.",
+      "quote": "As we have said before, as we continue to invest through this transition, we expect incremental EBITDA pressure over the next couple of quarters until we begin to lap these initial investments in the second half of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects further broadband ARPU pressure for the next couple of quarters.",
+      "quote": "Looking ahead, we expect further ARPU pressure for the next couple of quarters, driven by the absence of a rate increase, the impact from free wireless lines, and the ongoing migration of our base to simplified pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "One-time cash tax benefits in 2025 will not recur in 2026.",
+      "quote": "As we look towards 2026, it's important to note that one-time cash tax benefits in 2025, including the $2 billion mentioned up front, will not recur.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Connectivity & Platforms Adjusted EBITDA margin was 37.1% in 4Q25, down 120 bps year-over-year.",
+      "quote": "Total Connectivity & Platforms Adjusted EBITDA Margin 37.1 % 38.3 % (120) bps (90) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Residential Connectivity & Platforms Adjusted EBITDA margin was 34.6%, down 140 bps.",
+      "quote": "Residential Connectivity & Platforms Adjusted EBITDA Margin 34.6 % 36.0 % (140) bps (110) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business Services Connectivity Adjusted EBITDA margin was 54.2%, down 150 bps.",
+      "quote": "Business Services Connectivity Adjusted EBITDA Margin 54.2 % 55.7 % (150) bps (150) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intense broadband competition is a stated risk.",
+      "quote": "The competitive environment for broadband remains intense, similar to prior quarters, while we saw wireless competition step up towards the end of the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increased wireless competition is a stated risk.",
+      "quote": "The competitive environment for broadband remains intense, similar to prior quarters, while we saw wireless competition step up towards the end of the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leverage ratios will increase slightly on the back of the Versant spin-off.",
+      "quote": "As you know, the Versant spin was capitalized in a way that positioned them for success with low leverage and ample liquidity. As a result, our leverage ratios will increase slightly on the back of the spin-off.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Versant spin-off removes a significant pool of cash flow from operations.",
+      "quote": "Finally, as you can see from their filings, the Versant spin-off removes a significant pool of cash flow from our operations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wireless is a key growth opportunity with 1.5 million net line additions in 2025.",
+      "quote": "It was also our best year ever in wireless, with 1.5 million net line additions and more than 9 million total lines, clear evidence of the strength of our converged connectivity strategy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Theme Parks is a key growth opportunity, crossing $1 billion in quarterly EBITDA for the first time.",
+      "quote": "Theme Parks Adjusted EBITDA Increased 24% in the Fourth Quarter, Surpassing $1.0 Billion in Quarterly EBITDA for the First Time, Fueled by the Opening of Epic Universe in May",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Peacock is a key growth opportunity with 44 million subscribers and improving EBITDA losses.",
+      "quote": "Peacock Paid Subscribers Increased 22% Year-over-Year to 44 Million; Revenue Grew 23% to $1.6 Billion in the Fourth Quarter and 10% to $5.4 Billion for the Full Year; and Adjusted EBITDA Losses Improved by Over $700 Million for the Full Year, Including the Impact of NBA Rights Beginning in the Fourth Quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Network leadership is a key opportunity with ~60% of footprint transitioned to mid-split spectrum.",
+      "quote": "And finally, we continue to make substantial progress on our network upgrade with roughly 60% of the footprint now transitioned to mid-split spectrum and a virtualized architecture.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business Services is a key growth opportunity with revenue up 6% in 4Q25.",
+      "quote": "Turning to Business Services, revenue increased 6% and EBITDA grew 3% in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free wireless line conversion is a key opportunity for the second half of 2026.",
+      "quote": "Looking ahead to the second half of 2026, we expect to convert the vast majority of free lines into paying relationships, which in turn should provide a meaningful tailwind to convergence revenue growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious, reflecting an investment period with expected near-term pressure.",
+      "quote": "As we've previewed, we are in an investment period. We're pivoting in the broadband business through changes to packaging and pricing and significant investments in the customer experience, all designed to stabilize our base and subsequently grow revenue in the category again.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is negative because forward guidance points to near-term pressure.",
+      "quote": "As we have said before, as we continue to invest through this transition, we expect incremental EBITDA pressure over the next couple of quarters until we begin to lap these initial investments in the second half of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based on forward guidance indicating near-term pressure, but the company also highlighted record free cash flow and strong growth in several segments. A human reviewer should weigh the explicit forward-looking caution against the strong backward-looking results and the stated expectation of improvement in the back half of 2026."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CMCSA_Bundled Earnings Report_2026-01-28",
+  "report_metadata": {
+    "issuer": "p2_comcast_corporation",
+    "company": "Comcast Corporation",
+    "ticker": "CMCSA",
+    "sector": "Communication Services/Telecom Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q4\\4q25_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q4\\CMCSA-USQ_Transcript_2026-01-29.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CMCSA_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095557Z",
+    "timestamp": "2026-08-09T09:57:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_comcast_corporation\\extracted\\CMCSA_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 40217,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q4\\4q25_earnings_presentation.pdf",
+        "page_count": 10,
+        "extracted_characters": 13117,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q4\\CMCSA-USQ_Transcript_2026-01-29.pdf",
+        "page_count": 16,
+        "extracted_characters": 58093,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_comcast_corporation\\extracted\\CMCSA_FQ4_2025.txt"
+  }
+}

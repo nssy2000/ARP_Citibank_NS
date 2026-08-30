@@ -1,0 +1,241 @@
+{
+  "document_id": "JPM_FQ4_2023",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "The document reports a solid quarter with record full-year net income, but forward guidance is effectively lowered: NII ex. Markets is guided to ~$88B for 2024, down from a $94B exit rate in Q4 2023, implying meaningful sequential declines. Management explicitly states the company is 'over-earning' and expects returns to normalize, while also flagging significant downside risks including QT, geopolitical conflicts, and regulatory proposals. The cautious forward outlook and explicit normalization path outweigh the strong backward-looking results, resulting in a mildly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Reported revenue of $38.6 billion; managed revenue of $39.9 billion, up 12% year-on-year (up 7% excluding First Republic).",
+    "eps": "Reported EPS of $3.04; excluding significant items (FDIC special assessment and securities losses), EPS was $3.97.",
+    "guidance": "FY2024 NII ex. Markets expected to be approximately $88B; total NII expected to be approximately $90B. FY2024 adjusted expense expected to be ~$90B. FY2024 Card Services NCO rate expected to be < 3.50%.",
+    "margin": "Reported overhead ratio of 63%; managed overhead ratio of 61%. ROTCE of 15% (19% excluding significant items).",
+    "key_risks": [
+      "Quantitative tightening draining over $900B of liquidity from the system annually, with no full cycle of tightening ever observed.",
+      "Ongoing wars in Ukraine and the Middle East with potential to disrupt energy, food markets, migration, and military/economic relationships.",
+      "Regulatory proposals including Basel III endgame could cause serious harm to consumers, businesses, and markets.",
+      "Inflation may be stickier and rates higher than markets expect due to government deficit spending, green economy, supply chain restructuring, and rising healthcare costs.",
+      "Commercial real estate valuation deterioration driving reserve builds in the Commercial Bank.",
+      "Uncertainty around the finalization of Basel III Endgame rules and SCB requirements affecting capital planning."
+    ],
+    "key_opportunities": [
+      "Record full-year net income of $49.6B and record revenue of $162.4B.",
+      "Strong loan growth in Card Services with continued normalization of revolve.",
+      "Healthy investment banking pipeline with expectation of capital markets rebound.",
+      "Record client asset net inflows of $490B in AWM, over 20% higher than prior record.",
+      "CCB added over 2 million net new checking accounts in 2023; CIB gained over 100bps of IB market share.",
+      "Continued investment in technology, AI, and branch expansion to drive future growth."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Jamie Dimon states 'These significant and somewhat unprecedented forces cause us to remain cautious' and Jeremy Barnum describes the outlook as 'beginning to march down the path towards normalization of our returns' while emphasizing 'significant economic and geopolitical uncertainties.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $38.6 billion; managed revenue was $39.9 billion, up 12% year-on-year.",
+      "quote": "Net revenue - reported $38,574 ... Net revenue - managed 39,943 ... $ O/(U) % 12 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $3.04; excluding significant items EPS was $3.97.",
+      "quote": "JPMORGAN CHASE REPORTS FOURTH-QUARTER 2023 NET INCOME OF $9.3 BILLION ($3.04 PER SHARE) ... Excluding significant items2, 4Q23 net income of $12.1 billion, EPS5 of $3.97",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2024 NII ex. Markets expected to be approximately $88B; total NII expected to be approximately $90B.",
+      "quote": "Expect FY2024 net interest income of ~$90B, market dependent. Expect FY2024 net interest income excluding Markets of ~$88B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2024 adjusted expense expected to be ~$90B.",
+      "quote": "Expect FY2024 adjusted expense of ~$90B, market dependent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2024 Card Services NCO rate expected to be < 3.50%.",
+      "quote": "Expect FY2024 Card Services NCO rate of < 3.50%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio was 63%; managed overhead ratio was 61%.",
+      "quote": "Expense of $24.5 billion; reported overhead ratio of 63%; managed overhead ratio2 of 61%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE was 15% (19% excluding significant items).",
+      "quote": "Firmwide Metrics 4Q23 ROTCE 15% ... Excluding significant items2, 4Q23 net income of $12.1 billion, EPS5 of $3.97 and ROTCE of 19%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Quantitative tightening is a key risk, draining over $900B of liquidity annually.",
+      "quote": "Quantitative tightening is draining over $900 billion of liquidity from the system annually, and we have never seen a full cycle of tightening.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical conflicts in Ukraine and the Middle East are identified as risks.",
+      "quote": "And the ongoing wars in Ukraine and the Middle East have the potential to disrupt energy and food markets, migration, and military and economic relationships, in addition to their dreadful human cost.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Regulatory proposals including Basel III endgame could cause serious harm.",
+      "quote": "We continue to believe that the recent series of regulatory and legislative proposals, including Basel III endgame, could cause serious harm to consumers, businesses, and markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflation may be stickier and rates higher than markets expect.",
+      "quote": "This may lead inflation to be stickier and rates to be higher than markets expect.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial real estate valuation deterioration drove reserve builds in CB.",
+      "quote": "The net reserve build was driven by a deterioration in the outlook related to commercial real estate valuations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record full-year net income of $49.6B and record revenue of $162.4B.",
+      "quote": "FULL-YEAR 2023 NET INCOME OF $49.6 BILLION ($16.23 PER SHARE) ... Managed revenue of $162.4B",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record client asset net inflows of $490B in AWM.",
+      "quote": "AWM saw record client asset net inflows of $490 billion, over 20% higher than its prior record.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CCB added over 2 million net new checking accounts in 2023.",
+      "quote": "CCB added over 2 million net new checking accounts in 2023",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CIB gained over 100bps of IB market share.",
+      "quote": "CIB maintained its #1 rank in both IB and Markets and gained over 100bps of IB market share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "These significant and somewhat unprecedented forces cause us to remain cautious.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance implies meaningful sequential NII declines.",
+      "quote": "We expect 2024 NII ex. Markets to be approximately $88 billion. ... we just reported a quarterly NII ex. Markets run rate of $94 billion. Combining that with the full year guidance of approximately $88 billion implies meaningful sequential quarterly declines throughout 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management states the company is over-earning and expects normalization.",
+      "quote": "we emphasized throughout 2023 the extent to which we were over-earning, as indicated by an ROTCE that is 4% above our through-the-cycle target. As we turn to 2024, it shouldn't be surprising that our outlook has us beginning to march down the path towards normalization of our returns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is borderline at -0.15. The forward guidance is explicitly lowered (NII declining from $94B exit rate to ~$88B full year), but the company also reports record full-year results and expresses optimism about the franchise's ability to produce superior returns. A reviewer may wish to confirm the weighting of the negative forward signal versus the positive backward results."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2024-01-12",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2024-01-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q4\\jpm-4q23-press-release.pdf",
+        "pub_date": "2024-01-12"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q4\\jpm-4q23-presentation.pdf",
+        "pub_date": "2024-01-12"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q4\\jpm-4q23-earnings-call-transcript.pdf",
+        "pub_date": "2024-01-12"
+      }
+    ],
+    "document_id": "JPM_FQ4_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T131706Z",
+    "timestamp": "2026-07-08T13:18:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q4\\jpm-4q23-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q4\\jpm-4q23-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 29027,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q4\\jpm-4q23-presentation.pdf",
+        "page_count": 20,
+        "extracted_characters": 29312,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q4\\jpm-4q23-earnings-call-transcript.pdf",
+        "page_count": 14,
+        "extracted_characters": 63425,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2023.txt"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "document_id": "TGT_FQ3_2022_QUANT",
+  "base_document_id": "TGT_FQ3_2022",
+  "issuer": "target",
+  "ticker": "TGT",
+  "sector": "Consumer Discretionary",
+  "report_date": "2022-11-16",
+  "sentiment": {
+    "score": 0.02749
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.206718,
+      "window_start_date": "2022-10-17",
+      "window_end_date": "2022-11-15",
+      "score": 0.880529,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.465676,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -29.35,
+      "matched_earnings_date": "2022-11-16",
+      "score": -0.82555,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 24.11,
+      "vix_score": -0.328072,
+      "tnx_change": -0.306,
+      "tnx_score": 0.545533,
+      "score": 0.10873,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.83,
+      "ffr_change": 1.5,
+      "ffr_score": -0.995055,
+      "ffr_as_of": "2022-11-15",
+      "curve_spread": -0.57,
+      "curve_score": -0.515359,
+      "curve_as_of": "2022-11-15",
+      "score": -0.755207,
+      "available": true
+    },
+    "quant_score": 0.02749,
+    "quant_score_with_macro": 0.06811,
+    "quant_score_with_fred": -0.363858,
+    "quant_score_with_macro_fred": -0.206329
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

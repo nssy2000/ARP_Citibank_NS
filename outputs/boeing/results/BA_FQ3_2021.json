@@ -1,0 +1,165 @@
+{
+  "document_id": "BA_FQ3_2021",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document shows genuine operational momentum: Commercial Airplanes revenue increased 24% year-over-year, operating cash flow improved from ($4.8B) to ($0.3B), and the 737 MAX is returning to service with a planned production rate increase to 31 per month in early 2022. However, forward guidance is not formally raised; management language is cautiously optimistic ('we are driving stability... as the market recovers'), and structural risks remain (787 delivery pause, $1B abnormal costs, ongoing regulatory discussions). The score is modestly positive due to the trajectory change, not a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$15.3 billion, up 8% year-over-year, driven by higher commercial airplanes and services volume.",
+    "eps": "GAAP loss per share of ($0.19), core (non-GAAP) loss per share of ($0.60). The GAAP loss per share improved from ($0.79) in the prior-year quarter.",
+    "guidance": "The 737 program is progressing towards a production rate of 31 per month in early 2022, and the company is evaluating the timing of further rate increases. The 787 production rate is expected to return to five per month over time after deliveries resume.",
+    "margin": "GAAP operating margin of 2.2% (improved from -2.8% in Q3 2020). Core operating margin (non-GAAP) of 0.4% (improved from -5.3%). Commercial Airplanes operating margin improved to (15.5)% from (38.1)%.",
+    "key_risks": [
+      "787 delivery pause: 'The company continues to focus 787 production resources on conducting inspections and rework and continues to engage in detailed discussions with the FAA regarding required actions for resuming delivery.'",
+      "Abnormal costs on 787: 'The low production rates and rework are expected to result in approximately $1 billion of abnormal costs, of which $183 million was recorded in the quarter.'",
+      "Commercial Crew program charge: 'a $185 million earnings charge on the Commercial Crew program driven by the second uncrewed Orbital Flight Test now anticipated in 2022.'",
+      "Forward-looking risk factors: extensive list including COVID-19 pandemic impacts, 737 MAX regulatory approvals, supply chain capacity, and global trade conditions."
+    ],
+    "key_opportunities": [
+      "737 MAX return to service: 'Since the FAA's approval to return the 737 MAX to operations in November 2020, Boeing has delivered more than 195 737 MAX aircraft and airlines have returned more than 200 previously grounded airplanes to service.'",
+      "Commercial market demand recovery: 'Commercial market demand continues to gain traction with broad-based vaccine distribution and border protocols beginning to open.'",
+      "Strong backlog: 'Commercial Airplanes backlog of $290 billion and added 93 net orders.' Total company backlog $367 billion.",
+      "Global Services growth: 'Global Services third-quarter revenue increased to $4.2 billion and third-quarter operating margin increased to 15.3 percent primarily driven by higher commercial services volume.'"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO David Calhoun stated 'We are driving stability across our operations, investing in our future and positioning our teams to deliver for our customers as the market recovers,' and 'Commercial market demand continues to gain traction,' reflecting an optimistic forward view despite ongoing challenges."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $15.3 billion, up 8% year-over-year.",
+      "quote": "Boeing reported third-quarter revenue of $15.3 billion, driven by higher commercial airplanes and services volume. ... Revenues $15,278 $14,139 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($0.19), core loss per share was ($0.60).",
+      "quote": "GAAP loss per share of ($0.19) and core (non-GAAP) loss per share of ($0.60) primarily reflects higher commercial volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flow improved to ($0.3) billion from ($4.8) billion in the prior-year quarter.",
+      "quote": "Operating cash flow improved to ($0.3) billion in the quarter, reflecting higher commercial deliveries, higher order receipts, and lower expenditures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes revenue increased 24% year-over-year.",
+      "quote": "Commercial Airplanes third-quarter revenue increased to $4.5 billion primarily driven by higher 737 deliveries, partially offset by lower 787 deliveries. ... Revenues $4,459 $3,596 24%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 MAX production rate is planned to increase to 31 per month in early 2022.",
+      "quote": "The 737 program is currently producing at a rate of 19 per month and continues to progress towards a production rate of 31 per month in early 2022, and the company is evaluating the timing of further rate increases.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 delivery pause and abnormal costs of approximately $1 billion.",
+      "quote": "The company continues to focus 787 production resources on conducting inspections and rework and continues to engage in detailed discussions with the FAA regarding required actions for resuming delivery. ... The low production rates and rework are expected to result in approximately $1 billion of abnormal costs, of which $183 million was recorded in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes backlog was $290 billion with 93 net orders added.",
+      "quote": "Commercial Airplanes backlog of $290 billion and added 93 net orders ... Commercial Airplanes secured orders for 70 737 MAX, 24 freighter, and 12 787 airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services revenue and margin increased significantly.",
+      "quote": "Global Services third-quarter revenue increased to $4.2 billion and third-quarter operating margin increased to 15.3 percent primarily driven by higher commercial services volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We are driving stability across our operations, investing in our future and positioning our teams to deliver for our customers as the market recovers. ... Commercial market demand continues to gain traction with broad-based vaccine distribution and border protocols beginning to open.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security operating margin decreased due to a $185 million charge on Commercial Crew.",
+      "quote": "Defense, Space & Security third-quarter revenue decreased to $6.6 billion and third-quarter operating margin decreased to 6.6 percent, primarily due to a $185 million earnings charge on the Commercial Crew program driven by the second uncrewed Orbital Flight Test now anticipated in 2022 and the latest assessment of remaining work.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash and marketable securities were $20.0 billion at quarter-end.",
+      "quote": "Cash and investments in marketable securities decreased to $20.0 billion, compared to $21.3 billion at the beginning of the quarter, primarily driven by debt repayment and operating cash outflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog was $367 billion.",
+      "quote": "Total company backlog at quarter-end was $367 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact BUY threshold. A human reviewer should confirm that the operational momentum (improving cash flow, 737 MAX recovery) justifies crossing the boundary, given that formal guidance was not raised and structural risks (787, Commercial Crew) remain."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2021-10-27",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2021",
+    "report_date": "2021-10-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q3\\ba-3q21-press-release.html",
+        "pub_date": "2021-10-27"
+      }
+    ],
+    "document_id": "BA_FQ3_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144238Z",
+    "timestamp": "2026-07-09T14:43:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q3\\ba-3q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ3_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q3\\ba-3q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 27679,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ3_2021.txt"
+  }
+}

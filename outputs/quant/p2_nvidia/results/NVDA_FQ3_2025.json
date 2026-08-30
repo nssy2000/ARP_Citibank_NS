@@ -1,0 +1,58 @@
+{
+  "document_id": "NVDA_FQ3_2025_QUANT",
+  "base_document_id": "NVDA_FQ3_2025",
+  "issuer": "p2_nvidia",
+  "ticker": "NVDA",
+  "sector": "Technology/Semiconductors",
+  "report_date": "2025-11-19",
+  "sentiment": {
+    "score": 0.045417
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.007008,
+      "window_start_date": "2025-10-20",
+      "window_end_date": "2025-11-18",
+      "score": -0.046688,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.448052,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 3.46,
+      "matched_earnings_date": "2025-11-19",
+      "score": 0.137523,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 23.66,
+      "vix_score": -0.301043,
+      "tnx_change": 0.17,
+      "tnx_score": -0.327477,
+      "score": -0.31426,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.88,
+      "ffr_change": -0.45,
+      "ffr_score": 0.716298,
+      "ffr_as_of": "2025-11-18",
+      "curve_spread": 0.54,
+      "curve_score": 0.492988,
+      "curve_as_of": "2025-11-18",
+      "score": 0.604643,
+      "available": true
+    },
+    "quant_score": 0.045417,
+    "quant_score_with_macro": -0.134421,
+    "quant_score_with_fred": 0.32503,
+    "quant_score_with_macro_fred": 0.111933
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

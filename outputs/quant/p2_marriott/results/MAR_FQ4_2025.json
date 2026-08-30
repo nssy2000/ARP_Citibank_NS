@@ -1,0 +1,58 @@
+{
+  "document_id": "MAR_FQ4_2025_QUANT",
+  "base_document_id": "MAR_FQ4_2025",
+  "issuer": "p2_marriott",
+  "ticker": "MAR",
+  "sector": "Consumer/Travel",
+  "report_date": "2026-02-10",
+  "sentiment": {
+    "score": 0.034112
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.01939,
+      "window_start_date": "2026-01-08",
+      "window_end_date": "2026-02-09",
+      "score": 0.12855,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.24297,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -1.51,
+      "matched_earnings_date": "2026-02-10",
+      "score": -0.060327,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.79,
+      "vix_score": 0.080492,
+      "tnx_change": -0.024,
+      "tnx_score": 0.047964,
+      "score": 0.064228,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2026-02-09",
+      "curve_spread": 0.74,
+      "curve_score": 0.629145,
+      "curve_as_of": "2026-02-09",
+      "score": 0.545631,
+      "available": true
+    },
+    "quant_score": 0.034112,
+    "quant_score_with_macro": 0.04917,
+    "quant_score_with_fred": 0.289872,
+    "quant_score_with_macro_fred": 0.214657
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

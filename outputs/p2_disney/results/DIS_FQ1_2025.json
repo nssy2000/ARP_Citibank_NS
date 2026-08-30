@@ -1,0 +1,252 @@
+{
+  "document_id": "DIS_FQ1_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports a strong Q2 with adjusted EPS up 20% and total segment operating income up 15%, but full-year guidance for adjusted EPS ($5.75, +16%) and Experiences (6-8% growth) was reaffirmed, not raised. Management expressed increased confidence in the guidance ('certainly gives us confidence an even higher level of covenants') but explicitly declined to raise it ('we think it would be premature at this point to change the guidance'). The forward signal is therefore one of genuine operational momentum without a formal guidance raise, warranting a score of +0.25."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 fiscal 2025 revenues increased 7% to $23.6 billion from $22.1 billion in Q2 fiscal 2024.",
+    "eps": "Q2 fiscal 2025 diluted EPS improved to $1.81 from a loss per share of $0.01 in Q2 fiscal 2024; adjusted EPS increased 20% to $1.45 from $1.21.",
+    "guidance": "Fiscal year 2025: adjusted EPS of $5.75 (+16% over fiscal 2024); Entertainment double-digit segment operating income growth; Sports 18% segment operating income growth; Experiences 6% to 8% segment operating income growth; cash provided by operations of $17 billion. Q3 fiscal 2025: modest increase in Disney+ subscribers compared to Q2 fiscal 2025.",
+    "margin": "Not disclosed.",
+    "key_risks": [
+      "Higher programming and production costs at Sports due to airing three additional College Football Playoff games and an additional NFL game.",
+      "Sports operating income adversely impacted by a write-off due to exiting the Venu joint venture.",
+      "Equity loss from India JV of ~$300 million driven by purchase accounting amortization.",
+      "Disney Cruise Line pre-opening expense of ~$200 million.",
+      "Uncertainty regarding the operating environment for the balance of the fiscal year due to macroeconomic developments."
+    ],
+    "key_opportunities": [
+      "Direct-to-Consumer operating income increased $289 million to $336 million.",
+      "180.7 million Disney+ and Hulu subscriptions, an increase of 2.5 million versus Q1 fiscal 2025.",
+      "Domestic Parks & Experiences operating income grew 13% to $1.8 billion.",
+      "Upcoming theatrical slate, launch of ESPN's new DTC offering, and expansion projects in Experiences.",
+      "Paid sharing and technology enhancements expected to drive subscriber growth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management stated 'we remain optimistic about the direction of the company and our outlook for the remainder of the fiscal year' and 'certainly gives us confidence an even higher level of covenants than we probably even had before as we get into the balance of the year.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 fiscal 2025 revenues increased 7% to $23.6 billion.",
+      "quote": "Revenues increased 7% for Q2 to $23.6 billion from $22.1 billion in Q2 fiscal 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 fiscal 2025 diluted EPS improved to $1.81 from a loss per share of $0.01.",
+      "quote": "Diluted earnings per share (EPS) for Q2 improved to $1.81 from a loss per share of $0.01 in Q2 fiscal 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS increased 20% to $1.45 from $1.21.",
+      "quote": "adjusted EPS (1) increased 20% for Q2 to $1.45 from $1.21 in Q2 fiscal 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS guidance is $5.75, up 16% over fiscal 2024.",
+      "quote": "Adjusted EPS (1) of $5.75, an increase of 16% over fiscal 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management reaffirmed guidance and declined to raise it despite strong Q1 and Q2 results.",
+      "quote": "given the rapidly evolving macro environment, we think it would be premature at this point to change the guidance. That said, to the degree that the business momentum and the business performance justifies it, we're certainly not a management team that's afraid of overdelivering if, in fact, that is where the business takes us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed increased confidence in the guidance.",
+      "quote": "It certainly gives us confidence an even higher level of covenants than we probably even had before as we get into the balance of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment segment operating income increased 61% to $1.3 billion.",
+      "quote": "Entertainment: Segment operating income of $1.3 billion, a $0.5 billion increase versus Q2 fiscal 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct-to-Consumer operating income increased $289 million to $336 million.",
+      "quote": "Direct-to-Consumer operating income increased $289 million to $336 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ and Hulu subscriptions reached 180.7 million, up 2.5 million versus Q1 fiscal 2025.",
+      "quote": "180.7 million Disney+ and Hulu subscriptions, an increase of 2.5 million versus Q1 fiscal 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sports segment operating income decreased $91 million to $687 million.",
+      "quote": "Sports: Segment operating income of $687 million, a decrease of $91 million versus Q2 fiscal 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sports operating income was adversely impacted by a write-off due to exiting the Venu joint venture.",
+      "quote": "Sports operating income was adversely impacted by a write-off due to exiting the Venu joint venture",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment operating income increased $0.2 billion to $2.5 billion.",
+      "quote": "Experiences: Segment operating income of $2.5 billion, an increase of $0.2 billion versus Q2 fiscal 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic Parks & Experiences operating income grew 13% to $1.8 billion.",
+      "quote": "Domestic Parks & Experiences operating income grew 13% to $1.8 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we remain optimistic about the direction of the company and our outlook for the remainder of the fiscal year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: higher programming and production costs at Sports.",
+      "quote": "Higher programming and production costs primarily due to airing three additional College Football Playoff games and an additional NFL game",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: equity loss from India JV of ~$300 million.",
+      "quote": "Equity loss from India JV of ~$300 million driven by purchase accounting amortization",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Disney Cruise Line pre-opening expense of ~$200 million.",
+      "quote": "Disney Cruise Line pre-opening expense of ~$200 million, with ~$40 million in Q3 and ~$50 million in Q4",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: uncertainty regarding the operating environment for the balance of the fiscal year.",
+      "quote": "We continue to monitor macroeconomic developments for potential impacts to our businesses and recognize that uncertainty remains regarding the operating environment for the balance of the fiscal year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: upcoming theatrical slate, ESPN DTC offering, and Experiences expansion.",
+      "quote": "we have a lot more to look forward to, including our upcoming theatrical slate, the launch of ESPN's new DTC offering, and an unprecedented number of expansion projects underway in our Experiences segment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: paid sharing and technology enhancements expected to drive subscriber growth.",
+      "quote": "our expectation is, particularly as paid sharing starts to take hold, and as we add more of the movie slate that we produced in the back half of '24 into the streaming service in '25, we think that content will drive sub growth as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 fiscal 2025 guidance: modest increase in Disney+ subscribers compared to Q2 fiscal 2025.",
+      "quote": "Q3 Fiscal 2025: Entertainment Direct-to-Consumer: Modest increase in Disney+ subscribers compared to Q2 fiscal 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year Sports segment operating income growth guidance is 18%.",
+      "quote": "Sports: 18% segment operating income growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year Experiences segment operating income growth guidance is 6% to 8%.",
+      "quote": "Experiences: 6% to 8% segment operating income growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year cash provided by operations guidance is $17 billion.",
+      "quote": "Cash provided by operations of $17 billion, a $2 billion increase over prior guidance driven by the deferral of tax payments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of +0.25 reflects genuine operational momentum without a formal guidance raise. A reviewer may wish to confirm that the absence of a guidance raise is appropriately weighted relative to the strong Q2 beat."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2025-05-07",
+  "report_metadata": {
+    "issuer": "p2_disney",
+    "company": "Disney",
+    "ticker": "DIS",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-02-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q1\\q1-fy25-earnings-transcriptpdf.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q1\\fy2025_q2xprxex991.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DIS_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172857Z",
+    "timestamp": "2026-07-30T17:29:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q1\\q1-fy25-earnings-transcriptpdf.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_disney\\extracted\\DIS_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q1\\q1-fy25-earnings-transcriptpdf.pdf",
+        "page_count": 2,
+        "extracted_characters": 36379,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q1\\fy2025_q2xprxex991.txt",
+        "page_count": 1,
+        "extracted_characters": 6116,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_disney\\extracted\\DIS_FQ1_2025.txt"
+  }
+}

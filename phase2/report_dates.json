@@ -1,0 +1,1452 @@
+{
+  "AAPL_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-07-31",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "AAPL_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "AAPL_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-01-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "ABNB_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-06",
+    "source": "nearest_real_earnings_date(gap=7d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "ABNB_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-06",
+    "source": "nearest_real_earnings_date(gap=7d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "ABNB_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-12",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "ABNB_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-07",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "ALV.DE_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "ALV.DE_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-07",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "ALV.DE_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-14",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "ALV.DE_2025_Q4": {
+    "confidence": "medium",
+    "report_date": "2026-02-26",
+    "source": "nearest_real_earnings_date(gap=27d)"
+  },
+  "AMD_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-05",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "AMD_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-03",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "AMD_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-05",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "AMKBY_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-07",
+    "source": "manual_audit_fix(2026-08-09): was assigned the FY2024/Q4 print date (2025-02-05) instead of the real Q1 2025 date; confirmed via web search (Maersk released Q1 2025 results 2025-05-07)."
+  },
+  "AMKBY_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-07",
+    "source": "nearest_real_earnings_date(gap=8d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "AMKBY_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-05",
+    "source": "validated_against_human_price"
+  },
+  "AMKBY_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-05",
+    "source": "manual_audit_fix(2026-08-10): was 2014-02-28, a stale/corrupted date in the manifest (fiscal_period FQ4 2025, docs dated CY2025-Q4). Found incidentally while building the Tier 2 LM baseline's chronological dev split (its date range showed 2014 as the earliest event). The quant layer's own outputs/quant/p2_maersk/results/AMKBY_FQ4_2025.json had already independently matched_earnings_date=2026-02-05 via its earnings-calendar lookup, confirming the real date; the stale 2014 value only ever lived in the manifest, report_dates.json, and the frozen result JSON's report_metadata.report_date, all three patched."
+  },
+  "AMZN_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "AMZN_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-05",
+    "source": "nearest_real_earnings_date(gap=6d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "AMZN_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "AVGO_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-09-04",
+    "source": "validated_against_human_price"
+  },
+  "AVGO_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-12-11",
+    "source": "validated_against_human_price"
+  },
+  "AVGO_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-03-04",
+    "source": "validated_against_human_price"
+  },
+  "BAC_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-15",
+    "source": "nearest_real_earnings_date(gap=15d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "BAC_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-15",
+    "source": "validated_against_human_price"
+  },
+  "BAC_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-14",
+    "source": "validated_against_human_price"
+  },
+  "BAC_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-13",
+    "source": "validated_against_human_price"
+  },
+  "BA_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-23",
+    "source": "nearest_real_earnings_date(gap=7d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "BA_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "nearest_real_earnings_date(gap=1d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "BA_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "nearest_real_earnings_date(gap=1d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "BA_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-26",
+    "source": "validated_against_human_price"
+  },
+  "BCS_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "nearest_real_earnings_date(gap=1d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "BCS_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-22",
+    "source": "nearest_real_earnings_date(gap=8d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "BCS_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-28",
+    "source": "nearest_real_earnings_date(gap=2d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "BKNG_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "BKNG_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "BKNG_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-28",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "BKNG_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-18",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "CAT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-04",
+    "source": "validated_against_human_price"
+  },
+  "CAT_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-28",
+    "source": "validated_against_human_price"
+  },
+  "CAT_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-28",
+    "source": "validated_against_human_price"
+  },
+  "CL_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-31",
+    "source": "nearest_real_earnings_date(gap=1d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "CL_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-30",
+    "source": "nearest_real_earnings_date(gap=0d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "CL_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-01",
+    "source": "nearest_real_earnings_date(gap=1d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "CL_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2026-07-31",
+    "source": "nearest_real_earnings_date(gap=1d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "CMCSA_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-23",
+    "source": "validated_against_human_price"
+  },
+  "CMCSA_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-30",
+    "source": "validated_against_human_price"
+  },
+  "CMCSA_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-28",
+    "source": "validated_against_human_price"
+  },
+  "CMCSA_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-22",
+    "source": "validated_against_human_price"
+  },
+  "CMG_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-23",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "CMG_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-23",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "CMG_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "CMG_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-03",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "COIN_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "COIN_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-12",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "COIN_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-07",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "COST_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-09-25",
+    "source": "validated_against_human_price"
+  },
+  "COST_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2025-12-11",
+    "source": "validated_against_human_price"
+  },
+  "COST_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2026-03-05",
+    "source": "validated_against_human_price"
+  },
+  "CRM_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2025-09-03",
+    "source": "validated_against_human_price"
+  },
+  "CRM_2026_Q3": {
+    "confidence": "high",
+    "report_date": "2025-12-03",
+    "source": "validated_against_human_price"
+  },
+  "CRM_2026_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-25",
+    "source": "validated_against_human_price"
+  },
+  "CVS_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-31",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "CVS_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "CVS_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-10",
+    "source": "nearest_real_earnings_date(gap=11d)"
+  },
+  "CVS_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-06",
+    "source": "nearest_real_earnings_date(gap=6d)"
+  },
+  "C_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-15",
+    "source": "nearest_real_earnings_date(gap=15d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "C_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-15",
+    "source": "nearest_real_earnings_date(gap=15d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "C_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-14",
+    "source": "nearest_real_earnings_date(gap=16d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "C_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-14",
+    "source": "nearest_real_earnings_date(gap=16d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "DAL_2025_Q1": {
+    "confidence": "medium",
+    "report_date": "2025-04-09",
+    "source": "nearest_real_earnings_date(gap=21d)"
+  },
+  "DAL_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-10",
+    "source": "nearest_real_earnings_date(gap=20d)"
+  },
+  "DAL_2025_Q3": {
+    "confidence": "medium",
+    "report_date": "2025-10-09",
+    "source": "nearest_real_earnings_date(gap=21d)"
+  },
+  "DAL_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-13",
+    "source": "nearest_real_earnings_date(gap=17d)"
+  },
+  "DELL_2025_Q1": {
+    "confidence": "medium",
+    "report_date": "2025-05-29",
+    "source": "nearest_real_earnings_date(gap=29d)"
+  },
+  "DELL_2025_Q2": {
+    "confidence": "medium",
+    "report_date": "2025-08-28",
+    "source": "nearest_real_earnings_date(gap=29d)"
+  },
+  "DELL_2025_Q3": {
+    "confidence": "medium",
+    "report_date": "2025-11-25",
+    "source": "nearest_real_earnings_date(gap=26d)"
+  },
+  "DELL_2025_Q4": {
+    "confidence": "medium",
+    "report_date": "2026-02-26",
+    "source": "nearest_real_earnings_date(gap=27d)"
+  },
+  "DIS_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-02-05",
+    "source": "manual_audit_fix(2026-08-09): stored date (2025-05-07) was Disney's real fiscal-Q2 report date, not Q1. Attached documents (q1-fy25-earnings-transcript) are the real Feb-5-2025 fiscal-Q1 print; digest itself flagged the mismatch."
+  },
+  "DIS_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-08-05",
+    "source": "validated_against_human_price"
+  },
+  "DIS_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-11-12",
+    "source": "validated_against_human_price"
+  },
+  "EXPE_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-08",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "EXPE_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-07",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "EXPE_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-12",
+    "source": "nearest_real_earnings_date(gap=13d)"
+  },
+  "EXPE_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-07",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "FDX_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2025-09-18",
+    "source": "nearest_real_earnings_date(gap=12d)"
+  },
+  "FDX_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2025-12-18",
+    "source": "nearest_real_earnings_date(gap=12d)"
+  },
+  "FDX_2026_Q3": {
+    "confidence": "high",
+    "report_date": "2026-03-19",
+    "source": "nearest_real_earnings_date(gap=11d)"
+  },
+  "FDX_2026_Q4": {
+    "confidence": "high",
+    "report_date": "2026-06-23",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "F_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "F_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-10",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "F_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "GIS_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2025-12-17",
+    "source": "validated_against_human_price"
+  },
+  "GIS_2026_Q3": {
+    "confidence": "high",
+    "report_date": "2026-03-18",
+    "source": "validated_against_human_price"
+  },
+  "GIS_2026_Q4": {
+    "confidence": "high",
+    "report_date": "2026-07-01",
+    "source": "validated_against_human_price"
+  },
+  "GOOGL_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "GOOGL_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-04",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "GOOGL_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "GS_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-11",
+    "source": "validated_against_human_price"
+  },
+  "GS_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-15",
+    "source": "validated_against_human_price"
+  },
+  "GS_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-13",
+    "source": "validated_against_human_price"
+  },
+  "GS_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-14",
+    "source": "validated_against_human_price"
+  },
+  "GS_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-10",
+    "source": "validated_against_human_price"
+  },
+  "GS_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2026-07-13",
+    "source": "validated_against_human_price"
+  },
+  "HLT_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "HLT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-23",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "HOOD_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "HOOD_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "HOOD_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-05",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "HOOD_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-28",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "IBM_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-23",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "IBM_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-28",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "IBM_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-22",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "JNJ_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-14",
+    "source": "validated_against_human_price"
+  },
+  "JNJ_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-15",
+    "source": "validated_against_human_price"
+  },
+  "JNJ_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-13",
+    "source": "validated_against_human_price"
+  },
+  "JPM_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-10",
+    "source": "validated_against_human_price"
+  },
+  "JPM_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-15",
+    "source": "nearest_real_earnings_date(gap=15d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "JPM_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-14",
+    "source": "nearest_real_earnings_date(gap=16d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "JPM_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-13",
+    "source": "nearest_real_earnings_date(gap=17d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "JPM_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-14",
+    "source": "nearest_real_earnings_date(gap=16d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "KHC_2024_Q4": {
+    "confidence": "high",
+    "report_date": "2025-02-12",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "KHC_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2026-02-11",
+    "source": "validated_against_human_price"
+  },
+  "KHC_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-06",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "KO_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-22",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "KO_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-10",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "KO_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-28",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "LIN_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-01",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "LIN_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-31",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "LIN_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-01",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "LLY_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "validated_against_human_price"
+  },
+  "LLY_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-03",
+    "source": "validated_against_human_price"
+  },
+  "LLY_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-29",
+    "source": "validated_against_human_price"
+  },
+  "LMT_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-22",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "LMT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-22",
+    "source": "nearest_real_earnings_date(gap=8d)"
+  },
+  "LMT_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-21",
+    "source": "nearest_real_earnings_date(gap=9d)"
+  },
+  "LMT_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "LNVGY_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2025-08-14",
+    "source": "validated_against_human_price"
+  },
+  "LNVGY_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2026-01-30",
+    "source": "manual_audit_fix(2026-08-09): stored date (2025-01-30) predated FQ1_2026's own report_date (2025-08-14), chronologically impossible. Digest content, H1-reporting cadence, and neighboring quarters (FQ1 2025-08-14, FQ3 2026-02-12) all confirm 2026-01-30 (year typo in original resolution)."
+  },
+  "LNVGY_2026_Q3": {
+    "confidence": "high",
+    "report_date": "2026-02-12",
+    "source": "validated_against_human_price"
+  },
+  "LNVGY_2026_Q4": {
+    "confidence": "high",
+    "report_date": "2026-05-22",
+    "source": "validated_against_human_price"
+  },
+  "LOW_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-21",
+    "source": "validated_against_human_price"
+  },
+  "LOW_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-20",
+    "source": "filename_literal_date"
+  },
+  "LOW_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-19",
+    "source": "filename_literal_date"
+  },
+  "LOW_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-25",
+    "source": "filename_literal_date"
+  },
+  "LOW_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-20",
+    "source": "filename_literal_date"
+  },
+  "LULU_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-12-11",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "LULU_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-03-17",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "LULU_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-06-04",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MC.PA_2025_Q2": {
+    "confidence": "low",
+    "report_date": "2027-01-26",
+    "source": "nearest_real_earnings_date(gap=545d)"
+  },
+  "MC.PA_2025_Q4": {
+    "confidence": "low",
+    "report_date": "2027-01-26",
+    "source": "nearest_real_earnings_date(gap=361d)"
+  },
+  "MCD_2024_Q4": {
+    "confidence": "high",
+    "report_date": "2025-02-10",
+    "source": "nearest_real_earnings_date(gap=11d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "MCD_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-11",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MCD_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-07",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "META_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "META_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-28",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "META_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2023_Q1": {
+    "confidence": "high",
+    "report_date": "2023-05-03",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2023_Q2": {
+    "confidence": "high",
+    "report_date": "2023-08-02",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2023_Q3": {
+    "confidence": "high",
+    "report_date": "2023-11-01",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2023_Q4": {
+    "confidence": "high",
+    "report_date": "2024-01-31",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2024_Q1": {
+    "confidence": "high",
+    "report_date": "2024-05-01",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2024_Q2": {
+    "confidence": "high",
+    "report_date": "2024-07-31",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2024_Q3": {
+    "confidence": "high",
+    "report_date": "2024-10-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2024_Q4": {
+    "confidence": "high",
+    "report_date": "2025-02-05",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-30",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-06",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-05",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-04",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MET_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-06",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "MSFT_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2024-10-30",
+    "source": "validated_against_human_price"
+  },
+  "MSFT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-01-29",
+    "source": "validated_against_human_price"
+  },
+  "MSFT_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "validated_against_human_price"
+  },
+  "MU_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-09-23",
+    "source": "validated_against_human_price"
+  },
+  "MU_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2025-12-17",
+    "source": "validated_against_human_price"
+  },
+  "MU_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2026-03-18",
+    "source": "validated_against_human_price"
+  },
+  "NFLX_2024_Q4": {
+    "confidence": "high",
+    "report_date": "2025-01-21",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "NFLX_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-17",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "NFLX_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-17",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "NFLX_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-21",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "NFLX_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-20",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "NFLX_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-16",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "NKE_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2024-10-01",
+    "source": "validated_against_human_price"
+  },
+  "NKE_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2024-12-19",
+    "source": "validated_against_human_price"
+  },
+  "NKE_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-03-20",
+    "source": "validated_against_human_price"
+  },
+  "NVDA_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-02-26",
+    "source": "validated_against_human_price"
+  },
+  "NVDA_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-05-28",
+    "source": "validated_against_human_price"
+  },
+  "NVDA_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-08-27",
+    "source": "validated_against_human_price"
+  },
+  "NVDA_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-11-19",
+    "source": "validated_against_human_price"
+  },
+  "NVO_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-07",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "NVO_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-06",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "NVO_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-05",
+    "source": "nearest_real_earnings_date(gap=6d)"
+  },
+  "NVO_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-03",
+    "source": "nearest_real_earnings_date(gap=4d)"
+  },
+  "ORCL_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2025-09-09",
+    "source": "validated_against_human_price"
+  },
+  "ORCL_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2025-12-10",
+    "source": "validated_against_human_price"
+  },
+  "ORCL_2026_Q3": {
+    "confidence": "high",
+    "report_date": "2026-03-10",
+    "source": "validated_against_human_price"
+  },
+  "PEP_2023_Q1": {
+    "confidence": "high",
+    "report_date": "2023-04-25",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "PEP_2023_Q2": {
+    "confidence": "high",
+    "report_date": "2023-07-13",
+    "source": "nearest_real_earnings_date(gap=17d)"
+  },
+  "PEP_2023_Q3": {
+    "confidence": "high",
+    "report_date": "2023-10-10",
+    "source": "nearest_real_earnings_date(gap=20d)"
+  },
+  "PEP_2023_Q4": {
+    "confidence": "high",
+    "report_date": "2024-02-09",
+    "source": "nearest_real_earnings_date(gap=10d)"
+  },
+  "PEP_2024_Q1": {
+    "confidence": "high",
+    "report_date": "2024-04-23",
+    "source": "nearest_real_earnings_date(gap=7d)"
+  },
+  "PEP_2024_Q2": {
+    "confidence": "high",
+    "report_date": "2024-07-11",
+    "source": "nearest_real_earnings_date(gap=19d)"
+  },
+  "PEP_2024_Q3": {
+    "confidence": "medium",
+    "report_date": "2024-10-08",
+    "source": "nearest_real_earnings_date(gap=22d)"
+  },
+  "PEP_2024_Q4": {
+    "confidence": "high",
+    "report_date": "2025-02-04",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "PEP_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-24",
+    "source": "nearest_real_earnings_date(gap=6d)"
+  },
+  "PEP_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-17",
+    "source": "nearest_real_earnings_date(gap=13d)"
+  },
+  "PEP_2025_Q3": {
+    "confidence": "medium",
+    "report_date": "2025-10-09",
+    "source": "nearest_real_earnings_date(gap=21d)"
+  },
+  "PEP_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-03",
+    "source": "nearest_real_earnings_date(gap=4d)"
+  },
+  "PEP_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-16",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "PEP_2026_Q2": {
+    "confidence": "medium",
+    "report_date": "2026-07-09",
+    "source": "nearest_real_earnings_date(gap=21d)"
+  },
+  "PFE_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-28",
+    "source": "validated_against_human_price"
+  },
+  "PFE_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-04",
+    "source": "validated_against_human_price"
+  },
+  "PFE_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-02",
+    "source": "validated_against_human_price"
+  },
+  "PFE_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-04",
+    "source": "validated_against_human_price"
+  },
+  "PINS_2024_Q4": {
+    "confidence": "high",
+    "report_date": "2025-02-06",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "PINS_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-12",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "PINS_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-04",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "PLTR_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-05",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "PLTR_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-04",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "PLTR_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-03",
+    "source": "nearest_real_earnings_date(gap=4d)"
+  },
+  "PLTR_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-02",
+    "source": "nearest_real_earnings_date(gap=3d)"
+  },
+  "PUM.DE_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-07",
+    "source": "nearest_real_earnings_date(gap=7d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "PUM.DE_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "manual_audit_fix(2026-08-09): stored date (2025-10-29) was 1 day off; PUMA's official newsroom URL (about.puma.com/.../30-10-2025-puma-enters-reset-phase...) confirms the real Q3 2025 release date was 2025-10-30."
+  },
+  "PUM.DE_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-26",
+    "source": "nearest_real_earnings_date(gap=27d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "PUM.DE_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-30",
+    "source": "validated_against_human_price"
+  },
+  "PYPL_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "PYPL_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "PYPL_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-28",
+    "source": "nearest_real_earnings_date(gap=2d)"
+  },
+  "PYPL_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-05",
+    "source": "nearest_real_earnings_date(gap=5d)"
+  },
+  "RMSP.XC_2025_Q1": {
+    "confidence": "low",
+    "report_date": "2027-02-11",
+    "source": "nearest_real_earnings_date(gap=652d)"
+  },
+  "RMSP.XC_2025_Q2": {
+    "confidence": "low",
+    "report_date": "2027-02-11",
+    "source": "nearest_real_earnings_date(gap=561d)"
+  },
+  "RMSP.XC_2025_Q3": {
+    "confidence": "low",
+    "report_date": "2027-02-11",
+    "source": "nearest_real_earnings_date(gap=469d)"
+  },
+  "RMSP.XC_2025_Q4": {
+    "confidence": "low",
+    "report_date": "2027-02-11",
+    "source": "nearest_real_earnings_date(gap=377d)"
+  },
+  "SBUX_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "validated_against_human_price"
+  },
+  "SBUX_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-10-29",
+    "source": "validated_against_human_price"
+  },
+  "SBUX_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-01-27",
+    "source": "validated_against_human_price"
+  },
+  "SCHW_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-16",
+    "source": "validated_against_human_price"
+  },
+  "SCHW_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-17",
+    "source": "validated_against_human_price"
+  },
+  "SCHW_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-15",
+    "source": "validated_against_human_price"
+  },
+  "SCHW_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-20",
+    "source": "validated_against_human_price"
+  },
+  "SCHW_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-15",
+    "source": "validated_against_human_price"
+  },
+  "SIE.DE_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2025-11-13",
+    "source": "validated_against_human_price"
+  },
+  "SIE.DE_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-02-12",
+    "source": "validated_against_human_price"
+  },
+  "SIE.DE_2026_Q2": {
+    "confidence": "high",
+    "report_date": "2026-05-13",
+    "source": "validated_against_human_price"
+  },
+  "SPOT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "nearest_real_earnings_date(gap=1d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "SPOT_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-04",
+    "source": "nearest_real_earnings_date(gap=5d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "SPOT_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-10",
+    "source": "nearest_real_earnings_date(gap=11d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "SPOT_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-28",
+    "source": "nearest_real_earnings_date(gap=2d)",
+    "verification_note": "manual_audit_verification(2026-08-09): report_date cross-checked against real-world earnings-calendar sources (IR press releases / financial media) and confirmed correct as stored. The human-price cross-validation mismatch flagged by phase2/audit/report_date_audit.json is attributed to a human-typed price entry error, not a wrong report_date."
+  },
+  "STAN.L_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-02",
+    "source": "nearest_real_earnings_date(gap=2d)"
+  },
+  "STAN.L_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-31",
+    "source": "nearest_real_earnings_date(gap=1d)"
+  },
+  "STAN.L_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-30",
+    "source": "nearest_real_earnings_date(gap=0d)"
+  },
+  "STAN.L_2025_Q4": {
+    "confidence": "medium",
+    "report_date": "2026-02-23",
+    "source": "nearest_real_earnings_date(gap=24d)"
+  },
+  "TGT_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-21",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "TGT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-20",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "TGT_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-19",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "TGT_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-20",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "TSLA_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-22",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "TSLA_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-28",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "TSLA_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-22",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "UAL_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "UAL_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-16",
+    "source": "nearest_real_earnings_date(gap=14d)"
+  },
+  "UAL_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-15",
+    "source": "nearest_real_earnings_date(gap=15d)"
+  },
+  "UAL_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-20",
+    "source": "nearest_real_earnings_date(gap=10d)"
+  },
+  "UBER_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-06",
+    "source": "validated_against_human_price"
+  },
+  "UBER_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-05",
+    "source": "validated_against_human_price"
+  },
+  "UBER_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-03",
+    "source": "validated_against_human_price"
+  },
+  "UBER_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-05",
+    "source": "validated_against_human_price"
+  },
+  "UNH_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-28",
+    "source": "validated_against_human_price"
+  },
+  "UNH_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-27",
+    "source": "validated_against_human_price"
+  },
+  "UNH_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-01-26",
+    "source": "validated_against_human_price"
+  },
+  "V_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-04-28",
+    "source": "validated_against_human_price"
+  },
+  "V_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-07-29",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "V_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-10-28",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "V_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-04-28",
+    "source": "validated_against_human_price(unchanged)"
+  },
+  "WDAY_2025_Q1": {
+    "confidence": "medium",
+    "report_date": "2025-05-22",
+    "source": "nearest_real_earnings_date(gap=22d)"
+  },
+  "WDAY_2025_Q2": {
+    "confidence": "medium",
+    "report_date": "2025-08-21",
+    "source": "nearest_real_earnings_date(gap=22d)"
+  },
+  "WDAY_2025_Q3": {
+    "confidence": "medium",
+    "report_date": "2025-11-25",
+    "source": "nearest_real_earnings_date(gap=26d)"
+  },
+  "WDAY_2025_Q4": {
+    "confidence": "medium",
+    "report_date": "2026-02-24",
+    "source": "nearest_real_earnings_date(gap=25d)"
+  },
+  "WMT_2025_Q1": {
+    "confidence": "high",
+    "report_date": "2025-05-14",
+    "source": "validated_against_human_price"
+  },
+  "WMT_2025_Q2": {
+    "confidence": "high",
+    "report_date": "2025-08-20",
+    "source": "validated_against_human_price"
+  },
+  "WMT_2025_Q3": {
+    "confidence": "high",
+    "report_date": "2025-11-19",
+    "source": "validated_against_human_price"
+  },
+  "WMT_2025_Q4": {
+    "confidence": "high",
+    "report_date": "2026-02-18",
+    "source": "validated_against_human_price"
+  },
+  "WMT_2026_Q1": {
+    "confidence": "high",
+    "report_date": "2026-05-20",
+    "source": "validated_against_human_price"
+  }
+}

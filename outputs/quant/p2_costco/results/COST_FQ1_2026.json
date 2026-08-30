@@ -1,0 +1,58 @@
+{
+  "document_id": "COST_FQ1_2026_QUANT",
+  "base_document_id": "COST_FQ1_2026",
+  "issuer": "p2_costco",
+  "ticker": "COST",
+  "sector": "Consumer Defensive/Discount Stores",
+  "report_date": "2025-12-11",
+  "sentiment": {
+    "score": -0.037421
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.044945,
+      "window_start_date": "2025-11-10",
+      "window_end_date": "2025-12-10",
+      "score": -0.290978,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.176049,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 5.49,
+      "matched_earnings_date": "2025-12-11",
+      "score": 0.216137,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 14.85,
+      "vix_score": 0.269817,
+      "tnx_change": 0.021,
+      "tnx_score": -0.041975,
+      "score": 0.113921,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.89,
+      "ffr_change": -0.21,
+      "ffr_score": 0.39693,
+      "ffr_as_of": "2025-12-10",
+      "curve_spread": 0.59,
+      "curve_score": 0.529896,
+      "curve_as_of": "2025-12-10",
+      "score": 0.463413,
+      "available": true
+    },
+    "quant_score": -0.037421,
+    "quant_score_with_macro": 0.03825,
+    "quant_score_with_fred": 0.212996,
+    "quant_score_with_macro_fred": 0.179971
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

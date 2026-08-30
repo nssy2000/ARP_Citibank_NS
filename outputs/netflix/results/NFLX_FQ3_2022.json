@@ -1,0 +1,177 @@
+{
+  "document_id": "NFLX_FQ3_2022",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a modest beat on Q3 revenue, operating income, and membership versus the company's own forecast, but forward guidance for Q4 revenue ($7.8B) and paid net adds (4.5M) is below the prior year's Q4 actuals (8.3M adds) and management explicitly flags macroeconomic weakness and FX headwinds. The long-term operating margin target of 19%-20% is reaffirmed but only on an FX-neutral basis, and the reported margin will be lower if the dollar stays strong. The score is slightly positive because the Q3 beat was above internal forecast and the company is on track for its FX-neutral margin target, but the cautious forward language and explicit macro/currency risks prevent a higher score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Q3 2022 revenue of $7,926 million, up 5.9% year-over-year, slightly above forecast. Q4 2022 forecast revenue of $7,776 million, with sequential decline entirely due to FX.",
+    "eps": "Q3 2022 diluted EPS of $3.10, down from $3.19 in Q3 2021, including a $348 million non-cash unrealized FX gain on Euro debt.",
+    "guidance": "Q4 2022 revenue forecast of $7.8B, 4.5M paid net adds, operating margin of 4% (vs 8% in Q4 2021). Long-term goal of double-digit revenue growth, expanding margins, and growing positive FCF. 2022 and 2023 operating margin target of 19%-20% on an FX-neutral basis.",
+    "margin": "Q3 2022 operating margin of 19.3%, above the 16% forecast. Q4 2022 forecast operating margin of 4% (vs 8% in Q4 2021). Full-year 2022 FX-neutral operating margin target of 19%-20% is on track.",
+    "key_risks": [
+      "Appreciation of the US dollar is a significant headwind, expected to negatively impact full-year 2022 revenue by ~$1B and operating income by ~$0.8B.",
+      "Macroeconomic weakness leading to less-than-normal visibility for Q4 paid net adds.",
+      "Competitors are investing billions in streaming, though they are losing money.",
+      "Reported operating margin will be lower than 19%-20% if the US dollar remains above January 2022 levels."
+    ],
+    "key_opportunities": [
+      "Launch of ad-supported plan (Basic with Ads) in 12 countries in November 2022, covering over 75% of the global brand advertising market.",
+      "Monetization of account sharing to begin rolling out broadly in early 2023.",
+      "Strong content slate driving engagement, with Netflix accounting for 7.6% of US TV time and 8.2% in the UK, with room for growth.",
+      "Growing free cash flow, expected to be +$1B for full-year 2022 and substantial growth in 2023."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'we believe we’re on a path to reaccelerate growth' and 'our long term goal remains unchanged - to sustain double digit revenue growth, increase operating profit even faster...'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2022 revenue was $7,926 million, slightly above forecast.",
+      "quote": "Revenue, operating income and membership slightly exceeded our forecast in Q3’22.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2022 diluted EPS was $3.10, down from $3.19 in Q3 2021.",
+      "quote": "EPS of $3.10 vs. $3.19 a year ago included a $348 million non-cash unrealized gain from F/X remeasurement on our Euro denominated debt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2022 revenue forecast is $7.8 billion, with sequential decline due to FX.",
+      "quote": "For Q4’22, we’re expecting revenue of $7.8 billion with the sequential decline entirely due to the continued strengthening of the US dollar vs. other currencies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2022 paid net adds forecast is 4.5 million, below the 8.3 million in Q4 2021.",
+      "quote": "Our revenue growth forecast is driven by our expectation for 4.5m paid net adds (vs. 8.3m in Q4’21)...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2022 operating margin was 19.3%, above the 16% forecast.",
+      "quote": "As a result, operating margin of 19% was above our 16% forecast.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2022 operating margin forecast is 4%, down from 8% in Q4 2021.",
+      "quote": "We forecast Q4’22 operating margin of 4% vs. 8% in the year ago period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2022 FX-neutral operating margin target of 19%-20% is on track.",
+      "quote": "We’re on track to meet this F/X neutral operating margin objective for 2022 (excluding the $150m of restructuring costs in Q2) and for 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX is a significant headwind, expected to reduce full-year 2022 revenue by ~$1B and operating income by ~$0.8B.",
+      "quote": "Based on our YTD actuals and Q4 guidance, we estimate that this appreciation since January 1, 2022 will negatively impact our full year 2022 revenue and operating income by ~$1 billion and $0.8 billion, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macroeconomic weakness leads to less-than-normal visibility for Q4 paid net adds.",
+      "quote": "Our paid net adds forecast assumes that we experience our usual seasonality as well as the impact of a strong content slate, counterbalanced by macroeconomic weakness which leads to less-than-normal visibility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-supported plan launches in 12 countries in November 2022.",
+      "quote": "Last week, we announced that we’ll be launching an ad-supported subscription plan on November 1 in Canada and Mexico; November 3 in Australia, Brazil, France, Germany, Italy, Japan, Korea, the UK, and the US; and November 10 in Spain.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Account sharing monetization will begin rolling out broadly in early 2023.",
+      "quote": "Finally, we’ve landed on a thoughtful approach to monetize account sharing and we’ll begin rolling this out more broadly starting in early 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Netflix has 7.6% of US TV time and 8.2% in the UK, with room for growth.",
+      "quote": "In the UK, Netflix accounts for 8.2% of video viewing... In the US, Netflix accounts for 7.6% of TV time...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow expected to be +$1B for full-year 2022, with substantial growth in 2023.",
+      "quote": "We continue to expect FCF of +$1 billion for the full year 2022, plus or minus a few hundred million dollars and substantial growth in FCF in 2023 (assuming no further material appreciation of the US dollar).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we believe we’re on a path to reaccelerate growth. The key is pleasing members. It’s why we’ve always focused on winning the competition for viewing every day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline between HOLD and BUY. The Q3 beat was modest and forward guidance is cautious, so a human reviewer should confirm whether the slight positive from the beat and FX-neutral margin target justifies crossing the BUY threshold."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2022-10-18",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ3 2022",
+    "report_date": "2022-10-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q3\\nflx-3q22-press-release.html",
+        "pub_date": "2022-10-18"
+      }
+    ],
+    "document_id": "NFLX_FQ3_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:55:07Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q3\\nflx-3q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q3\\nflx-3q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 38062,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2022.txt"
+  }
+}

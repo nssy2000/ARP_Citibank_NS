@@ -1,0 +1,250 @@
+{
+  "document_id": "EXPE_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company exceeded its own fourth quarter guidance with double-digit bookings and revenue growth, and provided strong first quarter 2026 guidance of 10-12% bookings growth and 11-13% revenue growth, which implies stability at the upper end. However, the full-year 2026 guidance of 6-8% bookings growth and 6-9% revenue growth represents a deceleration from the 8% full-year 2025 growth, and management explicitly flagged 'ongoing macro uncertainty' and a 'more cautious view' at the lower end of the range. The strong Q1 guidance and margin expansion expectations (3-4 points) indicate genuine operational momentum, but the tempered full-year outlook and explicit caution prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue was $3,547 million, up 11% year-over-year. Full year 2025 revenue was $14,733 million, up 8% year-over-year.",
+    "eps": "Q4 2025 GAAP diluted EPS was $1.60, down 27% year-over-year. Adjusted EPS was $3.78, up 58% year-over-year. Full year 2025 GAAP diluted EPS was $9.81, up 10% year-over-year. Adjusted EPS was $15.86, up 31% year-over-year.",
+    "guidance": "Q1 2026: Gross bookings $34.6-$35.2B (+10-12% y/y), Revenue $3.32-$3.37B (+11-13% y/y), Adjusted EBITDA margin expansion +3-4 points. Full Year 2026: Gross bookings $127-$129B (+6-8% y/y), Revenue $15.6-$16.0B (+6-9% y/y), Adjusted EBITDA margin expansion +1-1.25 points.",
+    "margin": "Q4 2025 Adjusted EBITDA margin was 23.9%, expanding 368 basis points year-over-year. Full year 2025 Adjusted EBITDA margin was 23.8%, up from 21.4% in 2024.",
+    "key_risks": [
+      "Ongoing macro uncertainty and dynamic macro environment",
+      "Geopolitical issues in Asia weighing on rest of world growth",
+      "Intense competition from online travel agencies, suppliers, search engines, and emerging AI-powered platforms",
+      "Declines or disruptions in the travel industry due to economic conditions, geopolitical events, or public health issues",
+      "Dependence on relationships with travel suppliers and other B2B partners",
+      "Dependence on search engines and changes to search algorithms or traffic acquisition costs",
+      "Foreign exchange exposure and counterparty risks",
+      "Substantial indebtedness and covenant restrictions",
+      "Technology system failures, cybersecurity breaches, and data protection compliance"
+    ],
+    "key_opportunities": [
+      "B2B gross bookings grew 24% in Q4, with continued double-digit growth across all regions",
+      "Advertising revenue grew 19% in Q4, with a record number of active partners",
+      "AI initiatives driving product improvements, faster site performance (30% faster), and operational efficiencies",
+      "Lodging property count grew by more than 10% in Q4 compared to 2024",
+      "International growth, with room nights growing faster outside the US than in the US",
+      "Direct bookings growing faster than bookings from indirect channels",
+      "Expansion of VrboCare and new product offerings like Cancel for Any Reason assurance product",
+      "Tiqets acquisition to broaden activities offered to B2B partners"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in momentum and future growth, with the CEO stating 'We delivered a strong finish to a great year and expect our positive momentum to continue in 2026' and 'We are confident in our ability to maximize the power of our brands to deliver increased value to travelers, partners and shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $3,547 million, up 11% year-over-year.",
+      "quote": "Revenue $3,547 $3,184 11% $14,733 $13,691 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP diluted EPS was $1.60, down 27% year-over-year.",
+      "quote": "Diluted earnings per share $1.60 $2.20 (27)% $9.81 $8.95 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted EPS was $3.78, up 58% year-over-year.",
+      "quote": "Adjusted EPS* $3.78 $2.39 58% $15.86 $12.11 31%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 guidance includes gross bookings growth of 10-12% and revenue growth of 11-13%.",
+      "quote": "Metric Q1 2026 Gross bookings $34.6 - $35.2B +10 - 12% Revenue $3.32 - $3.37B +11 - 13%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full Year 2026 guidance includes gross bookings growth of 6-8% and revenue growth of 6-9%.",
+      "quote": "Metric Full Year 2026 Gross bookings $127 - $129B +6 - 8% Revenue $15.6 - $16.0B +6 - 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted EBITDA margin was 23.9%, expanding 368 basis points year-over-year.",
+      "quote": "Adjusted EBITDA increased 32% with EBITDA margin of 23.9% expanding 368 basis points in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company exceeded its own fourth quarter guidance.",
+      "quote": "Expedia Group Reports Fourth Quarter and Full Year 2025 Results Exceeded fourth quarter guidance with double-digit gross bookings and revenue growth y/y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in continued momentum in 2026.",
+      "quote": "We delivered a strong finish to a great year and expect our positive momentum to continue in 2026. Our fourth quarter results exceeded both top and bottom-line expectations, reflecting disciplined execution of our strategic priorities in a healthy demand environment with double-digit growth in bookings and revenue. We are confident in our ability to maximize the power of our brands to deliver increased value to travelers, partners and shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged ongoing macro uncertainty and a cautious view at the lower end of the full-year guidance range.",
+      "quote": "Our guidance reflects strong bookings momentum as we enter Q1 while remaining appropriately cautious given ongoing macro uncertainty. ... Similar to our Q1 guidance, the upper end of our range implies stability in growth on an FX-neutral basis, while the lower end of the range reflects a more cautious view given the dynamic macro environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "B2B gross bookings grew 24% in Q4.",
+      "quote": "B2B gross bookings grew 24% to $8.7 billion, with continued double-digit growth across all regions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue grew 19% in Q4.",
+      "quote": "Our B2B and advertising businesses had stellar quarters. We grew B2B bookings by 24% and advertising revenue by 19%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lodging property count grew by more than 10% in Q4 compared to 2024.",
+      "quote": "In the fourth quarter, we grew our lodging property count by more than 10% compared to 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical issues in Asia weighed on rest of world growth.",
+      "quote": "Growth in rest of world slowed as geopolitical issues in Asia weighed on growth in multiple quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to raise its quarterly dividend by 20% to $0.48 per share.",
+      "quote": "We are raising our dividend by 20% and declared a quarterly dividend of $0.48 per share on February 12, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company repurchased approximately 9 million shares for $1.7 billion in 2025.",
+      "quote": "Repurchased approximately 9 million shares for $1.7 billion in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company ended the year with $5.7 billion of unrestricted cash and short-term investments.",
+      "quote": "Strong cash position, ending the year with $5.7 billion of unrestricted cash and short-term investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow for the year was $3.1 billion.",
+      "quote": "Free cash flow* $119 $7 NM $3,110 $2,329 34%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects full-year 2026 EBITDA margins to expand by 100 to 125 basis points.",
+      "quote": "we do expect full year margins to expand by 100 to 125 basis points as we maintain cost discipline while selectively reinvesting in growth initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects Q1 2026 EBITDA margins to be up 3 to 4 points.",
+      "quote": "For EBITDA, we expect EBITDA margins to be up 3 to 4 points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects FX to be a tailwind in 2026.",
+      "quote": "At current exchange rates, this assumes foreign exchange tailwinds of approximately 3 points to bookings and 4 points to revenue and implies stability in growth at the upper end of the range. ... For the full year, we expect gross bookings growth to be between 6% and 8% and revenue of 6% to 9%, including 1 and 2 points of FX tailwind, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a balance between strong Q1 guidance and margin expansion against a decelerating full-year outlook and explicit macro caution. A reviewer may want to weigh the full-year deceleration more heavily."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "EXPE_Bundled Earnings Report_2026-02-12",
+  "report_metadata": {
+    "issuer": "p2_expedia",
+    "company": "Expedia",
+    "ticker": "EXPE",
+    "sector": "Consumer Cyclical/Travel Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q4\\Q4-2025-Earnings-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q4\\Q4-2025-Earnings-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "EXPE_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100145Z",
+    "timestamp": "2026-08-09T10:02:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_expedia\\extracted\\EXPE_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 41160,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q4\\Q4-2025-Earnings-Presentation.pdf",
+        "page_count": 26,
+        "extracted_characters": 22448,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q4\\Q4-2025-Earnings-Transcript.pdf",
+        "page_count": 15,
+        "extracted_characters": 51162,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_expedia\\extracted\\EXPE_FQ4_2025.txt"
+  }
+}

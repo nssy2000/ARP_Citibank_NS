@@ -1,0 +1,234 @@
+{
+  "document_id": "PEP_FQ4_2024",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "Forward guidance for 2025 is low-single-digit organic revenue growth and mid-single-digit core constant currency EPS growth, which is below PepsiCo's long-term 4-6% organic revenue target and implies a deceleration from prior years. Management explicitly cites a 'subdued category performance trends in North America' and a 3-percentage-point FX headwind, and the guidance is described as 'prudent' given global uncertainty. The dividend increase is modest (5%), and the tone is cautiously optimistic but not confident enough to raise guidance, resulting in a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2024 net revenue $27,784 million, down 0.2% reported; full-year 2024 net revenue $91,854 million, up 0.4% reported. Organic revenue growth was 2.1% in Q4 and 2.0% for the full year.",
+    "eps": "Q4 2024 reported EPS $1.11, up 17% year-over-year; core EPS $1.96. Full-year 2024 reported EPS $6.95, up 6%; core EPS $8.16.",
+    "guidance": "For 2025: low-single-digit organic revenue growth; mid-single-digit core constant currency EPS growth; core annual effective tax rate ~20%; total cash returns to shareholders ~$8.6 billion ($7.6B dividends, $1.0B share repurchases); FX headwind of ~3 percentage points on reported net revenue and core EPS growth.",
+    "margin": "Q4 2024 reported gross margin 52.5% (14,603/27,784), core gross margin improved 60 bps (from reconciliation table). Full-year 2024 reported operating margin 14.0% (12,887/91,854), core operating margin improved 80 bps (from reconciliation table).",
+    "key_risks": [
+      "Subdued category performance trends in North America",
+      "Continued impacts from Quaker Foods North America recall",
+      "Business disruptions due to geopolitical tensions in certain international markets",
+      "Foreign exchange translation headwind of ~3 percentage points on 2025 revenue and EPS",
+      "Higher net interest expense and pension expense in 2025",
+      "Global uncertainty and potential government decisions"
+    ],
+    "key_opportunities": [
+      "Successful expansion of international business, now ~$40B and accretive to margins",
+      "Multi-year productivity initiatives enabling investments and margin expansion",
+      "Away-from-home opportunity in North America foods (blue ocean)",
+      "Innovation in portion control, better-for-you snacks, and functional beverages",
+      "Improved price pack architecture in Frito-Lay to address value segments",
+      "Growth in energy, protein, and hydration beverage categories"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management describes the outlook as 'prudent' given 'global uncertainty' and 'subdued category performance trends,' and the guidance is set at a low-single-digit organic revenue growth rate, below long-term targets."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2024 net revenue was $27,784 million, down 0.2% reported.",
+      "quote": "Net Revenue $ 27,784 $ 27,850 ... Net revenue performance (0.2)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 net revenue was $91,854 million, up 0.4% reported.",
+      "quote": "Net Revenue $ 91,854 $ 91,471 ... Net revenue performance 0.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 organic revenue growth was 2.1%.",
+      "quote": "Organic revenue performance 2.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 organic revenue growth was 2.0%.",
+      "quote": "Organic revenue performance 2.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 reported EPS was $1.11, up 17% year-over-year.",
+      "quote": "Earnings per share (EPS) $1.11 ... EPS change 17%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 reported EPS was $6.95, up 6%.",
+      "quote": "Earnings per share (EPS) $6.95 ... EPS change 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 core EPS was $8.16.",
+      "quote": "Core EPS $8.16",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 guidance: low-single-digit organic revenue growth.",
+      "quote": "For 2025, the Company expects: • A low-single-digit increase in organic revenue; and • A mid-single-digit increase in core constant currency EPS.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 guidance: mid-single-digit core constant currency EPS growth.",
+      "quote": "For 2025, the Company expects: • A low-single-digit increase in organic revenue; and • A mid-single-digit increase in core constant currency EPS.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX headwind of ~3 percentage points on 2025 revenue and EPS.",
+      "quote": "The Company also expects a foreign exchange translation headwind of approximately 3-percentage-points to negatively impact reported net revenue and core EPS growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dividend increased 5% to $5.69 per share.",
+      "quote": "The Company today announced a 5 percent increase in its annualized dividend to $5.69 per share from $5.42 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Subdued category performance trends in North America are a key risk.",
+      "quote": "Our businesses remained resilient in 2024, despite subdued category performance trends in North America, the continued impacts related to a recall in our Quaker Foods North America division and business disruptions due to geopolitical tensions in certain international markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business is a key opportunity, now ~$40B and accretive.",
+      "quote": "To give you a sense, today, our international business already almost a $40 billion business accretive to PepsiCo.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "I think it's prudent for us to give a guidance that reflects all that. ... the world is very volatile if you think from the geopolitical point of view or some of the potential decisions that governments might take going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 reported gross margin was 52.5%.",
+      "quote": "Gross profit 14,603 ... Net Revenue 27,784",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 reported operating margin was 14.0%.",
+      "quote": "Operating Profit 12,887 ... Net Revenue 91,854",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core gross margin improved 60 bps in Q4 2024.",
+      "quote": "Core gross margin performance, non-GAAP measure 60 bps",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin improved 80 bps in full-year 2024.",
+      "quote": "Core operating margin performance, non-GAAP measure 80 bps",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 guidance implies low-single-digit core EPS growth.",
+      "quote": "This assumption and the guidance above imply a low-single-digit increase to core EPS in 2025 compared to 2024 core EPS of $8.16.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management describes guidance as 'prudent'.",
+      "quote": "I think it's prudent for us to give a guidance that reflects all that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) but could be argued as neutral (0.0) given the mixed signals: guidance is below long-term targets but not cut, and management expresses confidence in long-term strategy. Reviewer should verify if the cautious tone and below-target guidance warrant a negative score."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "The margin improvement figures (60 bps core gross margin, 80 bps core operating margin) are derived from the reconciliation tables which show 'bps' but not explicit numbers; the values are inferred from the table context. Reviewer should confirm the exact basis points from the original document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2025-02-04",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q4\\PEP-8K-EX99.1-2024-Q4-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q4\\PEP-Q4-2024-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:46:57Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q4\\PEP-8K-EX99.1-2024-Q4-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q4\\PEP-8K-EX99.1-2024-Q4-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 50737,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q4\\PEP-Q4-2024-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 48545,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ4_2024.txt"
+  }
+}

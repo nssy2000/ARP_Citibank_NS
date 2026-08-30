@@ -1,0 +1,207 @@
+{
+  "document_id": "NFLX_FQ4_2023",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows strong operational momentum: Q4 paid net adds of 13 million+ exceeded expectations, and management raised the 2024 revenue growth outlook to 'healthy double-digit, FX-neutral revenue growth' from a prior year that was 'unusual' and 'all member-driven growth.' However, the guidance raise is not a formal numeric increase over a specific prior figure; it is described qualitatively. Additionally, management notes that ads 'won't be a primary driver in '24' and that paid-sharing benefits will continue but are now operationalized, not a step-change. The tone is confident but not exuberant, and no structural risks are disclosed. This justifies a moderately positive score reflecting genuine momentum without a formal, quantified guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed as a specific figure, but management expects 'healthy double-digit, FX-neutral revenue growth' in 2024 and reported 'very strong revenue growth' in Q4 EMEA (13% FX-neutral).",
+    "eps": "Not disclosed.",
+    "guidance": "For 2024, management expects 'healthy double-digit, FX-neutral revenue growth, including growth in FX-neutral ARM.' They also project roughly $6 billion in free cash flow at current FX rates for 2024, and plan to increase content spend to 'as much as 17 billion of cash content spend this year.'",
+    "margin": "Not disclosed as a specific figure, but management states they 'hope to sustain that healthy revenue growth, grow profit and profit margins over time' and that margins on the ad business are expected to 'remain very high.'",
+    "key_risks": [
+      "FX movements could affect ARM and revenue growth (management notes ARM 'could move up or down based on things in any given year like FX').",
+      "Ads business is not yet a primary driver and scaling may have lags in monetization.",
+      "Paid-sharing benefits are now operationalized and not a step-change; future growth depends on continued iteration."
+    ],
+    "key_opportunities": [
+      "WWE Raw deal adds 52 weeks of live programming annually, expected to fuel ad business and global subscriber growth.",
+      "Ads business: $180 billion ad spend ex-China/Russia, $25 billion on connected TV; Netflix has 'most engaged audience' to capture ad spend shift from linear to streaming.",
+      "Games: $140 billion consumer spend opportunity; engagement tripled over the past year; GTA trilogy exceeded expectations.",
+      "Continued pricing power: recent price increases in U.S., U.K., France 'went well better than we forecasted.'",
+      "Licensing opportunities: studios are more open to licensing content to Netflix, which can 'uniquely add more value to the studio's IP.'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'we're thrilled,' 'we're super excited,' 'we're really thrilled with our engagement trends,' and 'we're very optimistic about it' throughout the call, indicating a confident outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 paid net adds were 13 million+, exceeding expectations.",
+      "quote": "The 13 million-plus paid net ads in Q4 was strong overall across all regions, but EMEA seemed to drive particular upside.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 revenue guidance is for healthy double-digit, FX-neutral growth.",
+      "quote": "As we look to '24, as we noted in the letter for 2024, we expect healthy double-digit, FX-neutral revenue growth, including growth in FX-neutral ARM.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 free cash flow is projected at roughly $6 billion.",
+      "quote": "our expectation for strong cash flow build in the year, roughly 6 billion is what we're projecting at current FX rates for 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content spend is planned to increase to as much as $17 billion in cash content spend in 2024.",
+      "quote": "we are increasing our content spend. Coming out of the strikes in '23, we're trying to get back up to as much as 17 billion of cash content spend this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to grow profit and profit margins over time.",
+      "quote": "we hope to sustain that healthy revenue growth, grow profit and profit margins over time, and then reinvest a good portion of that back into business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ads business margins are expected to remain very high.",
+      "quote": "even with those investment levels and the growth that we expect that we see, we expect the margins on the ad business to remain very high.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX is a risk factor that could affect ARM and revenue growth.",
+      "quote": "it could move up or down based on things in any given year like FX, like the pace at which we're scaling our ads reach, and some lag that could happen in terms of monetizing that reach",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ads business is not a primary driver in 2024.",
+      "quote": "ads won't be a primary driver in '24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid-sharing is now operationalized and not a step-change.",
+      "quote": "we've gotten to the point where paid sharing -- the paid-sharing experience is just something we do at this point.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "WWE Raw deal is expected to fuel ad business and global growth.",
+      "quote": "this should also add some fuel to our new and growing ad business. We're very excited about this deal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ads opportunity is $180 billion ad spend ex-China/Russia, $25 billion on connected TV.",
+      "quote": "It's a huge opportunity, $180 billion of ad spend ex-China and Russia; 25 billion alone on connected TV.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Netflix has the most engaged audience for ads.",
+      "quote": "We know ad dollars follow engagement. We've got the most engaged audience.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games opportunity is $140 billion in consumer spend ex-China/Russia.",
+      "quote": "Games, you know, it's a huge opportunity, 140 billion in consumer spend ex-China and Russia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Game engagement tripled over the past year.",
+      "quote": "we've tripled game engagement over the last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GTA trilogy exceeded expectations.",
+      "quote": "we're stoked by the performance of GTA. We had high hopes, but it exceeded even those high hopes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Recent price increases in U.S., U.K., France went better than forecasted.",
+      "quote": "Those changes went well better than we forecasted.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Studios are more open to licensing content to Netflix.",
+      "quote": "I am thrilled that the studios are more open to licensing again, and I'm thrilled to tell them that we are open for business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we're thrilled to bring this WWE live programming to our members around the world. ... We're very excited about this deal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No specific revenue figure is disclosed; only qualitative growth commentary is provided. A human reviewer may want to confirm if a figure exists elsewhere in the document."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS is not mentioned anywhere in the document. This is a notable omission for an earnings call transcript."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "No specific margin percentage is disclosed; only qualitative statements about margin growth and ad business margins are provided."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2024-01-23",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2024-01-23",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q4\\nflx-4q23-transcript.html",
+        "pub_date": "2024-01-23"
+      }
+    ],
+    "document_id": "NFLX_FQ4_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T145602Z",
+    "timestamp": "2026-07-08T14:57:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q4\\nflx-4q23-transcript.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q4\\nflx-4q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 50652,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ4_2023.txt"
+  }
+}

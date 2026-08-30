@@ -1,0 +1,179 @@
+{
+  "document_id": "NFLX_FQ3_2025",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "The expectation baseline is the company's own prior guidance and consensus estimates visible in the document: revenue was in line ($11,510.31M vs consensus $11,511.20M, -0.01% surprise) but EPS normalized missed consensus by 15.78% ($5.87 actual vs $6.97 consensus). The surprise is a large one-time Brazilian tax expense booked in cost of revenues that caused operating income to miss the company's own forecast, though management noted absent that expense they would have exceeded the forecast. Forward guidance for 2026 was explicitly withheld ('we'll issue the full year '26 guide as we more typically would on our next call in January'), which is a mildly negative signal given the company had issued early guidance in the prior year. The overall picture is a backward-looking miss on EPS, a one-time charge, and no forward guidance raise, resulting in a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Revenue was $11,510.31 million, in line with consensus of $11,511.20 million (0.01% negative surprise).",
+    "eps": "EPS normalized was $5.87, missing consensus of $6.97 by 15.78%.",
+    "guidance": "Full year 2026 guidance was not provided; management stated they will issue it on the next call in January. No formal guidance raise or reduction was given for the current fiscal year.",
+    "margin": "Operating income would have exceeded the company's forecast absent the Brazilian tax matter, but the tax expense caused operating income to miss the forecast. No specific margin percentage was disclosed.",
+    "key_risks": [
+      "Brazilian tax matter (CIDE) — a 10% gross tax on outbound payments, booked as a cost of revenues expense covering 2022 through Q3 2025, which caused operating income to miss the company's forecast.",
+      "Potential industry consolidation could reduce third-party content accessibility, though management downplayed this risk.",
+      "Competition from AI content creation apps (e.g., Sora 2) could increase competition for engagement, though management expressed confidence."
+    ],
+    "key_opportunities": [
+      "Advertising revenue is on track to more than double in 2025, with strong growth in upfront commitments and programmatic.",
+      "Engagement reached record TV view share in the U.S. (8.6%) and U.K. (9.4%) in Q3.",
+      "Live events (e.g., Canelo-Crawford fight, NFL Christmas games, FIFA Women's World Cup) are driving outsized acquisition and retention.",
+      "Games and interactivity (e.g., party games on TV, real-time voting) are expanding the offering and driving engagement.",
+      "Content slate for 2026 includes major returning series and films (e.g., Stranger Things finale, Narnia, Peaky Blinders movie).",
+      "AI and generative AI are being leveraged to improve productivity, product experiences, content production, and advertising."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly used phrases like 'the business is very healthy,' 'we feel great about the business,' and 'we are as energized as ever,' despite the EPS miss and tax charge, indicating a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was in line with consensus.",
+      "quote": "We had a good Q3. We had revenue in line with expectations. Our operating income would have exceeded our forecast absent the Brazilian tax matter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS normalized missed consensus by 15.78%.",
+      "quote": "EPS Normalized 6.97 5.87 (15.78 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2026 guidance was withheld.",
+      "quote": "We'll issue the full year '26 guide as we more typically would on our next call in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income would have exceeded forecast absent the Brazilian tax matter.",
+      "quote": "Our operating income would have exceeded our forecast absent the Brazilian tax matter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Brazilian tax expense is a one-time charge covering multiple periods.",
+      "quote": "The expense we booked in this quarter, it covers the periods from 2022 through Q3 of 2025, of the amount we booked in cost of revenues this quarter just about 20% of it is for the year 2025 with the remainder related to those 2022 to 2024 period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue is on track to more than double in 2025.",
+      "quote": "We are now on track to more than double ad revenue this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement reached record TV view share in the U.S. and U.K.",
+      "quote": "We achieved record share of TV time in Q3 in both the U.S. and the U.K.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We think the business is very healthy. We feel good about our progress on our key initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live events are driving outsized acquisition and retention.",
+      "quote": "These events typically have outsized positives for conversation for acquisition, and we strongly suspect retention.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games and interactivity are expanding the offering.",
+      "quote": "We recently announced the ability to play Netflix Games on TV with friends and family playing together at home using just that TV and the phone is the game controller.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content slate for 2026 includes major returning series and films.",
+      "quote": "We're really particularly excited about a few things coming up next year, like the return of some of our biggest and most loved shows, like Bridgerton, Beef, Emily in Paris, One Piece, Outer Banks, Virgin River, The Gentleman, Avatar: The Last Airbender, Running Point, Ginny and Georgia, Lupin, all coming back for new seasons in '26. We've got amazing slate of films with a big event film from Greta Gerwig with Narnia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI and generative AI are being leveraged to improve productivity.",
+      "quote": "We see huge number of places in the business where we can bring these technologies in. They provide more capable tools, they improve productivity, they improve velocity of innovation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential industry consolidation could reduce third-party content accessibility.",
+      "quote": "Should potential industry consolidation with embedded studio and streaming assets could that lead to less third-party content accessibility for Netflix?",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition from AI content creation apps could increase competition for engagement.",
+      "quote": "What are your thoughts on the impact from Sora 2 and other new AI content creation apps in terms of increased competition from short-form video, do you think it creates new competition from an engagement standpoint?",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of the SELL threshold (-0.15). A human reviewer should confirm whether the withholding of 2026 guidance and the EPS miss are sufficient to justify a negative score, given the confident management tone and strong operational metrics (record engagement, ad revenue doubling)."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The Brazilian tax matter is described as a one-time charge covering past periods, and management stated it is not expected to have a material impact going forward. However, it is still listed as a risk because it caused a miss in the current quarter. A reviewer should assess whether this should be classified as a one-time item rather than an ongoing risk."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2025-10-21",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ3 25.pdf"
+      }
+    ],
+    "document_id": "NFLX_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T194012Z",
+    "timestamp": "2026-07-02T19:40:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_reaction_prompt_v2_merged.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ3 25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix_v2prompt\\extracted\\NFLX_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ3 25.pdf",
+        "page_count": 15,
+        "extracted_characters": 45719,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix_v2prompt\\extracted\\NFLX_FQ3_2025.txt"
+  }
+}

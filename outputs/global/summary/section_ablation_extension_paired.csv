@@ -1,0 +1,7 @@
+# Section ablation extension paired diffs vs full_bundle
+# Run ID: 20260814T005735Z
+
+comparison,set,n_paired,point_diff,ci_low,ci_high,p_value,run_id
+press_release vs full_bundle,four_arm,12,0.0,0.0,0.0,1.0,20260814T005735Z
+prepared_remarks vs full_bundle,four_arm,22,0.045454545454545456,0.0,0.13636363636363635,0.7272,20260814T005735Z
+qa_only vs full_bundle,four_arm,19,0.05263157894736842,0.0,0.15789473684210525,0.722,20260814T005735Z

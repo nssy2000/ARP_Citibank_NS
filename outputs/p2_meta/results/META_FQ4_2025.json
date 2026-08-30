@@ -1,0 +1,229 @@
+{
+  "document_id": "META_FQ4_2025",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Forward guidance for 2026 operating income is explicitly raised above 2025 levels, despite a massive capex increase. The Q1 2026 revenue guide of $53.5-56.5B implies strong growth, and management expresses confidence in reinvesting revenue into AI. The score is tempered by explicit structural risks (EU/US legal/regulatory headwinds, fading currency tailwinds) and the fact that the revenue guide includes a 4% FX tailwind."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 total revenue $59.9B, up 24% YoY (23% constant currency). Family of Apps ad revenue $58.1B, up 24%.",
+    "eps": "Net income $22.8B or $8.88 per share.",
+    "guidance": "Q1 2026 revenue $53.5-56.5B (4% FX tailwind). Full-year 2026 expenses $162-169B, capex $115-135B. Operating income expected above 2025.",
+    "margin": "Q4 operating income $24.7B, 41% operating margin.",
+    "key_risks": [
+      "Legal and regulatory headwinds in EU and US, with trials scheduled this year that may result in a material loss.",
+      "Reality Labs losses expected to remain similar to 2025 levels before improving.",
+      "Currency tailwinds expected to fade later in 2026.",
+      "EU ad changes (revised Less Personalized Ads offering) may bite.",
+      "Capacity constraints expected through much of 2026."
+    ],
+    "key_opportunities": [
+      "Major AI acceleration, with new models and products rolling out in 2026.",
+      "Strong ad performance improvements driving conversion growth.",
+      "WhatsApp paid messaging crossed $2B annual run rate.",
+      "Sales of AI glasses more than tripled last year.",
+      "30% increase in output per engineer since start of 2025 from AI coding tools.",
+      "New recommendation model architectures (GEM, Lattice) scaling efficiently."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Zuckerberg states 'We are now seeing a major AI acceleration' and Li says 'we expect to deliver operating income that is above 2025 operating income' despite the massive capex increase, reflecting confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 total revenue was $59.9B, up 24% YoY.",
+      "quote": "Q4 total revenue was $59.9 billion, up 24% or 23% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income was $22.8B or $8.88 per share.",
+      "quote": "Net income was $22.8 billion or $8.88 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guided to $53.5-56.5B with a 4% currency tailwind.",
+      "quote": "We expect first quarter 2026 total revenue to be in the range of $53.5-56.5 billion. Our guidance assumes foreign currency is an approximately 4% tailwind to year-over-year total revenue growth, based on current exchange rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 operating income expected above 2025 operating income.",
+      "quote": "Despite the meaningful step up in infrastructure investment, in 2026 we expect to deliver operating income that is above 2025 operating income.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 operating income was $24.7B, representing a 41% operating margin.",
+      "quote": "Fourth quarter operating income was $24.7 billion, representing a 41% operating margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Legal and regulatory headwinds in EU and US, with trials scheduled this year that may result in a material loss.",
+      "quote": "We continue to monitor legal and regulatory headwinds in the EU and the US that could significantly impact our business and financial results. For example, we continue to see scrutiny on youth-related issues and have a number of trials scheduled for this year in the US, which may ultimately result in a material loss.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reality Labs losses expected to remain similar to 2025 levels.",
+      "quote": "I expect Reality Labs losses this year to be similar to last year, and this will likely be the peak as we start to gradually reduce our losses going forward while continuing to execute on our vision.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency tailwinds expected to fade later in 2026.",
+      "quote": "First, we would expect that currency tailwinds will dissipate later in the year based on current rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EU ad changes (revised Less Personalized Ads offering) may bite.",
+      "quote": "Finally, we expect there could be some headwinds from our introduction of the revised less personalized ads offering in the EU that begins rolling out later in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capacity constraints expected through much of 2026.",
+      "quote": "We expect over the course of 2026 to have significantly more capacity this year as we add cloud. But we'll likely still be constrained through much of 2026 until additional capacity from our own facilities comes online later in the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Major AI acceleration, with new models and products rolling out in 2026.",
+      "quote": "We are now seeing a major AI acceleration. I expect 2026 to be a year where this wave accelerates even further on several fronts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong ad performance improvements driving conversion growth.",
+      "quote": "We’re seeing very strong results from the ad performance investments we made throughout 2025, with year-over-year conversion growth accelerating through the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "WhatsApp paid messaging crossed $2B annual run rate.",
+      "quote": "Paid messaging within WhatsApp continues to scale as well, crossing a $2 billion annual run-rate in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales of AI glasses more than tripled last year.",
+      "quote": "Sales of our glasses more than tripled last year, and we think that they're some of the fastest growing consumer electronics in history.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "30% increase in output per engineer since start of 2025 from AI coding tools.",
+      "quote": "Since the beginning of 2025, we've seen a 30% increase in output per engineer, with the majority of that growth coming from the adoption of agentic coding, which saw a big jump in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New recommendation model architectures (GEM, Lattice) scaling efficiently.",
+      "quote": "This is the first time we have found a recommendation model architecture that can scale with similar efficiency as LLMs. And we're hoping that this will unlock the ability for us to significantly scale up the size of our ranking models while preserving an attractive ROI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are now seeing a major AI acceleration. I expect 2026 to be a year where this wave accelerates even further on several fronts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for 2026 operating income is raised above 2025.",
+      "quote": "Despite the meaningful step up in infrastructure investment, in 2026 we expect to deliver operating income that is above 2025 operating income.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 revenue guide includes a 4% FX tailwind.",
+      "quote": "Our guidance assumes foreign currency is an approximately 4% tailwind to year-over-year total revenue growth, based on current exchange rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of +0.50 is based on the explicit guidance raise for operating income, but the Q1 revenue guide includes a 4% FX tailwind and management flags structural risks. A reviewer may want to verify that the discount for FX and risks is adequate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "META_Bundled Earnings Report_2026-01-28",
+  "report_metadata": {
+    "issuer": "p2_meta",
+    "company": "Meta",
+    "ticker": "META",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-28",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q4\\15 meta q4 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q4\\META-Q4-2025-Earnings-Call-Transcript-IR.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "META_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173941Z",
+    "timestamp": "2026-07-30T17:40:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q4\\15 meta q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q4\\15 meta q4 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 6066,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\meta\\CY2025-Q4\\META-Q4-2025-Earnings-Call-Transcript-IR.pdf",
+        "page_count": 21,
+        "extracted_characters": 57619,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_meta\\extracted\\META_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

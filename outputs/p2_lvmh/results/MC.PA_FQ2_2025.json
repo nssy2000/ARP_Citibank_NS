@@ -1,0 +1,200 @@
+{
+  "document_id": "MC.PA_FQ2_2025",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "The document reports a decline in revenue (-4% reported, -3% organic), profit from recurring operations (-15%), and net profit Group share (-22%) versus the prior year. Forward guidance is not raised; management states they 'head into the second half of the year with great vigilance' and describes an 'uncertain geopolitical and economic environment.' The cautious forward language and lack of a guidance raise, combined with the year-over-year declines, result in a mildly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue of €39.8 billion in the first half of 2025, down 4% reported and 3% organic versus first-half 2024.",
+    "eps": "Basic Group share of net earnings per share of €11.43 for first-half 2025, down from €14.55 in first-half 2024.",
+    "guidance": "The Group states it 'remains confident' and will maintain its strategy, but also says it 'heads into the second half of the year with great vigilance' in an 'uncertain geopolitical and economic environment.' No specific numeric guidance is provided.",
+    "margin": "Operating margin of 22.6% (profit from recurring operations of €9 billion on revenue of €39.8 billion).",
+    "key_risks": [
+      "Disrupted geopolitical and economic environment",
+      "Trade tensions weighing on key markets of the United States and China",
+      "Weak demand for cognac",
+      "Japan down due to a very strong first-half 2024 boosted by tourist spending",
+      "Uncertain geopolitical and economic environment for the second half"
+    ],
+    "key_opportunities": [
+      "Solid local demand in Europe and the United States",
+      "Improved trends for champagne in the second quarter",
+      "Resilient local demand for Fashion & Leather Goods with a very high operating margin",
+      "Remarkable innovation and selective retail approach for Perfumes & Cosmetics",
+      "Success of Watches & Jewelry Maisons' iconic lines and Tiffany & Co.'s renovated stores",
+      "Good performance by Sephora with growth in both revenue and profit",
+      "Significant increase in operating free cash flow to €4 billion"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management describes 'solid results' and 'good resilience' but also states they 'head into the second half of the year with great vigilance' and references 'prevailing uncertainties,' blending confidence in the long term with caution about the near term."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue declined 4% reported and 3% organic versus first-half 2024.",
+      "quote": "Revenue: €40 billion . Profit from recurring operations: €9 billion . Free cash flow: €4 billion Paris, July 24, 2025 LV MH Moët Hennessy Louis Vuitton, the world’s lead ing h igh-quality products group, recorded revenue of €39.8 billion in the first half of 2025. ... Revenue 41 677 39 810 -4% ... * On a constant consolidation scope and currency basis. ... Total LVMH 41 677 39 810 -4% -3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Profit from recurring operations declined 15% to €9,012 million.",
+      "quote": "Profit from recurring operations for the first half of 2025 came to €9 bil lion, equating to an operating margin of 22.6%. ... Profit from recurring operations 10 653 9 012 -15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net profit Group share declined 22% to €5,698 million.",
+      "quote": "Net profit, Group share 7 267 5 698 -22%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS declined to €11.43 from €14.55.",
+      "quote": "Basic Group share of net earnings per share (EUR) 28 11.43 25.13 14.55",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 22.6%.",
+      "quote": "Profit from recurring operations for the first half of 2025 came to €9 bil lion, equating to an operating margin of 22.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses caution about the second half of 2025.",
+      "quote": "We head into the second half of the year with great vigilance, and I am confident in LVMH’ s tremendous long-term potential and the commitment of our teams to further reinforce the Group’s leadership position in luxury goods.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The geopolitical and economic environment is described as uncertain.",
+      "quote": "In an uncertain geopolitical and economic environment, the Group remains confident and will maintain a strategy focused on continuously enhancing the desirability of its brands",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal guidance raise is provided.",
+      "quote": "In an uncertain geopolitical and economic environment, the Group remains confident and will maintain a strategy focused on continuously enhancing the desirability of its brands, drawing on the exceptional quality of its products and excellence in retail. Our strategy of focusing on the highest quality across all of our activities, combined with the energy and unparalleled creativity of our teams, will enable us to reinforce the LVMH Group’s global leadership position in luxury goods once again in 2025.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, blending confidence and caution.",
+      "quote": "LVMH showed solidity in the current context. ... We head into the second half of the year with great vigilance, and I am confident in LVMH’ s tremendous long-term potential",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: trade tensions weighing on the United States and China.",
+      "quote": "The first half of 2025 saw trends similar to those observed in 2024, largely due to the impact on customers of trade tensions weighing on the key markets of the United States and China.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: weak demand for cognac.",
+      "quote": "Improved trends for champagne in the second quarter and ongoing weak demand for cognac",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: solid local demand in Europe and the United States.",
+      "quote": "Local demand was solid in Europe, which achieved growth on a constant consolidation scope and currency basis over the half -year period, and in the United States, which remained stable.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: improved trends for champagne in the second quarter.",
+      "quote": "Improved trends for champagne in the second quarter and ongoing weak demand for cognac",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Sephora achieved growth in both revenue and profit.",
+      "quote": "Good performance by Sephora, which continued to achieve growth in both revenue and profit",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: significant increase in operating free cash flow to €4 billion.",
+      "quote": "Significant increase in operating free cash flow to €4 billion ... Operating free cash flow 3 130 4 032 +29%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of the HOLD/SELL threshold (-0.15). A human reviewer should confirm whether the cautious forward language and year-over-year declines warrant a SELL signal or if the long-term confidence statements justify keeping it at HOLD."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MC.PA_Bundled Earnings Report_2025-07-24",
+  "report_metadata": {
+    "issuer": "p2_lvmh",
+    "company": "LVMH",
+    "ticker": "MC.PA",
+    "sector": "Consumer/Luxury",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-24",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q2\\LVMH-H1-2025-PressRelease.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Results Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q2\\LVMH-H1-2025-ResultsPresentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MC.PA_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173902Z",
+    "timestamp": "2026-07-30T17:39:21Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q2\\LVMH-H1-2025-PressRelease.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lvmh\\extracted\\MC.PA_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q2\\LVMH-H1-2025-PressRelease.pdf",
+        "page_count": 11,
+        "extracted_characters": 26757,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Results Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lvmh\\CY2025-Q2\\LVMH-H1-2025-ResultsPresentation.pdf",
+        "error": "Extracted text from LVMH-H1-2025-ResultsPresentation.pdf is too short (309 characters)"
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lvmh\\extracted\\MC.PA_FQ2_2025.txt"
+  },
+  "extraction_warnings": [
+    "Results Presentation: extraction_failed: Extracted text from LVMH-H1-2025-ResultsPresentation.pdf is too short (309 characters)"
+  ]
+}

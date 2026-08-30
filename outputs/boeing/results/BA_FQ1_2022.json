@@ -1,0 +1,198 @@
+{
+  "document_id": "BA_FQ1_2022",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was effectively lowered: the 777-9 first delivery was pushed to 2025 (from a prior expectation), and the 777-9 production rate ramp is being adjusted with a temporary pause through 2023, incurring ~$1.5 billion in abnormal costs. Additionally, the company recorded significant charges on fixed-price defense development programs (VC-25B $660M, T-7A $367M) and $212M for impacts of the war in Ukraine. While management expressed confidence in generating positive cash flow for 2022, the structural risks from certification delays, production pauses, and defense program charges outweigh the positive cash flow outlook, leading to a bearish signal."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$14.0 billion, down 8% from $15.2 billion in Q1 2021, driven by lower defense volume and charges on fixed-price defense development programs, partially offset by commercial services volume.",
+    "eps": "GAAP loss per share of ($2.06) and core (non-GAAP) loss per share of ($2.75). The GAAP loss per share was ($2.06) compared to ($0.92) in Q1 2021.",
+    "guidance": "The company continues to expect positive cash flow for 2022. 737 production rate expected to increase to 31 airplanes per month during Q2 2022. 777-9 first delivery now expected in 2025. 777-9 production rate ramp adjusted, including a temporary pause through 2023. 787 deliveries resume timing not specified, with gradual return to five per month over time. 777-8 Freighter first delivery anticipated in 2025.",
+    "margin": "GAAP operating margin was (8.4)% compared to (0.5)% in Q1 2021. Core operating margin (non-GAAP) was (10.4)% compared to (2.3)% in Q1 2021. Commercial Airplanes operating margin was (20.6)%. Defense, Space & Security operating margin was (16.9)%. Global Services operating margin was 14.6%.",
+    "key_risks": [
+      "Charges on fixed-price defense development programs: VC-25B $660 million charge, T-7A Red Hawk $367 million charge.",
+      "Impacts of the war in Ukraine: $212 million pre-tax charges.",
+      "777-9 certification delays: first delivery now expected in 2025, production rate ramp adjusted with temporary pause through 2023, resulting in ~$1.5 billion abnormal costs.",
+      "787 certification plan submitted to FAA but delivery resumption timing not specified; program producing at very low rate until deliveries resume.",
+      "Abnormal costs on 787 program of approximately $2 billion, most by end of 2023, including $312 million in the quarter.",
+      "Supply chain constraints, COVID-19, and inflationary pressures impacting supplier negotiations on T-7A program."
+    ],
+    "key_opportunities": [
+      "737 production and deliveries continue to increase; production rate expected to increase to 31 per month in Q2 2022.",
+      "Launched 777-8 Freighter with order from Qatar Airways.",
+      "Global Services revenue increased 15% and operating margin increased to 14.6% driven by higher commercial volume and favorable mix.",
+      "Total backlog of $371 billion, including nearly 4,200 commercial airplanes valued at $291 billion.",
+      "Company continues to expect positive cash flow for 2022."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in generating positive cash flow and progress on key programs ('we remain on track to generate positive cash flow for 2022, and we’re focused on our performance'), but also acknowledges significant challenges and charges ('While the first quarter of 2022 brought new challenges for our world, industry and business')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $14.0 billion, down 8% from $15.2 billion in Q1 2021.",
+      "quote": "Boeing [NYSE: BA] reported first-quarter revenue of $14.0 billion, driven by lower defense volume and charges on fixed-price defense development programs, partially offset by commercial services volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($2.06) and core loss per share was ($2.75).",
+      "quote": "GAAP loss per share of ($2.06) and core loss per share (non-GAAP)* of ($2.75) also reflect $212 million of pre-tax charges for impacts of the war in Ukraine (Table 1).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance includes expectation of positive cash flow for 2022.",
+      "quote": "Operating cash flow of ($3.2) billion; continue to expect positive cash flow for 2022",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777-9 first delivery now expected in 2025, with production rate ramp adjusted including a temporary pause through 2023.",
+      "quote": "Delivery of the first 777-9 airplane is now expected in 2025, which reflects an updated assessment of the time required to meet certification requirements. To minimize inventory and the number of airplanes requiring change incorporation, the 777-9 production rate ramp is being adjusted, including a temporary pause through 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777-9 production pause will result in approximately $1.5 billion of abnormal costs.",
+      "quote": "This will result in approximately $1.5 billion of abnormal costs beginning in the second quarter of this year and continuing until 777-9 production resumes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense programs recorded significant charges: VC-25B $660 million, T-7A $367 million.",
+      "quote": "The VC-25B program recorded a $660 million charge, primarily driven by higher supplier costs, higher costs to finalize technical requirements and schedule delays. The T-7A Red Hawk program recorded $367 million in charges, primarily driven by ongoing supplier negotiations impacted by supply chain constraints, COVID-19 and inflationary pressures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company recorded $212 million pre-tax charges for impacts of the war in Ukraine.",
+      "quote": "GAAP loss per share of ($2.06) and core loss per share (non-GAAP)* of ($2.75) also reflect $212 million of pre-tax charges for impacts of the war in Ukraine (Table 1).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (8.4)% compared to (0.5)% in Q1 2021.",
+      "quote": "Operating Margin (8.4) % (0.5) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes operating margin was (20.6)%.",
+      "quote": "Operating Margin (20.6) % (20.1) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security operating margin was (16.9)%.",
+      "quote": "Operating Margin (16.9) % 5.6 % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 14.6%.",
+      "quote": "Operating Margin 14.6 % 11.8 % 24%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total backlog was $371 billion, including nearly 4,200 commercial airplanes valued at $291 billion.",
+      "quote": "Total backlog of $371 billion; including nearly 4,200 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production rate expected to increase to 31 per month in Q2 2022.",
+      "quote": "The 737 production rate continues to increase and is expected to increase to 31 airplanes per month during the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 abnormal costs of approximately $2 billion, with most by end of 2023, including $312 million in the quarter.",
+      "quote": "The company continues to anticipate 787 abnormal costs of approximately $2 billion, with most being incurred by the end of 2023, including $312 million recorded in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident on cash flow but acknowledges challenges.",
+      "quote": "While the first quarter of 2022 brought new challenges for our world, industry and business, I am proud of our team and the steady progress we’re making toward our key commitments... we remain on track to generate positive cash flow for 2022, and we’re focused on our performance as we work through certification requirements and mature several key programs to production.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services revenue increased 15% and operating margin increased to 14.6%.",
+      "quote": "Global Services first-quarter revenue increased to $4.3 billion and first-quarter operating margin increased to 14.6 percent primarily driven by higher commercial volume and favorable mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launched 777-8 Freighter with order from Qatar Airways.",
+      "quote": "During the quarter, the company launched the 777-8 Freighter with an order from Qatar Airways.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the 777-9 delivery delay and production pause, which are structural risks. However, the company also reaffirmed positive cash flow guidance for 2022, which could be seen as a positive offset. A reviewer may want to assess whether the positive cash flow guidance sufficiently mitigates the negative signals."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2022-04-27",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2022",
+    "report_date": "2022-04-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q1\\ba-1q22-press-release.html",
+        "pub_date": "2022-04-27"
+      }
+    ],
+    "document_id": "BA_FQ1_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144238Z",
+    "timestamp": "2026-07-09T14:44:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q1\\ba-1q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2022-Q1\\ba-1q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25304,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2022.txt"
+  }
+}

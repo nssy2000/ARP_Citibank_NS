@@ -1,0 +1,223 @@
+{
+  "document_id": "PEP_FQ2_2026",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "Guidance was reaffirmed but management explicitly stated results may trend toward the lower end of the provided EPS range, indicating a downward tilt in forward expectations. The North America business underperformed expectations in Q2, and management cited headwinds from high gas prices and commodity inflation. The reaffirmation without a raise, combined with cautious language about the second half, results in a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Net revenue increased 6.4% in Q2 2026 to $24,181 million, and 7.3% year-to-date to $43,624 million. Organic revenue increased 2.4% in Q2 and 2.5% year-to-date.",
+    "eps": "Reported EPS increased 137% to $2.18 in Q2 2026, and 72% year-to-date to $3.88. Core EPS increased 4% to $2.20 in Q2, and 6% year-to-date to $3.81.",
+    "guidance": "Company affirms fiscal 2026 financial guidance: organic revenue to increase between 2 and 4 percent; core constant currency EPS to increase between 4 and 6 percent; core annual effective tax rate of approximately 22 percent; capital spending below 5% of net revenue; free cash flow conversion ratio of at least 80 percent; total cash returns to shareholders of approximately $8.9 billion. Management indicated results may trend toward the lower end of the EPS range.",
+    "margin": "Operating margin expanded 875 bps to 16.6% in Q2, primarily due to prior-year impairment charges. Core operating margin contracted 40 bps to 16.8% in Q2. Year-to-date operating margin expanded 585 bps to 16.6%; core operating margin contracted 15 bps to 16.3%.",
+    "key_risks": [
+      "High fuel prices impacting convenience store traffic and conversion of store traffic into purchases.",
+      "More pressure on the business from a commodity standpoint in the second half, particularly affecting the EMEA region.",
+      "North America business softer than expected in Q2, with gradual improvement expected at a more moderate pace.",
+      "Higher tax rate year-over-year expected in Q3.",
+      "Impulse channel softness due to high fuel prices."
+    ],
+    "key_opportunities": [
+      "International business expected to exceed $40 billion in revenue for the full year, with strong growth and margin expansion.",
+      "Permissible food portfolio reached $3 billion and growing at nearly double-digit rate.",
+      "Tariff refund claims expected to contribute approximately 1 percentage point to full-year EPS growth.",
+      "Record productivity levels in first half, with additional layers of cost reduction planned in second half.",
+      "Testing mixing centers in Texoma to lower transportation and delivery costs.",
+      "World Cup sponsorship helping activate categories in Europe and Latin America."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management reaffirmed guidance but stated results may trend toward the lower end of the EPS range, and noted 'more pressure on the business from a commodity standpoint' and a 'softer North America business than we expected in Q2.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenue increased 6.4% in Q2 2026 to $24,181 million.",
+      "quote": "Net revenue $24,181 $22,726 6.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue increased 2.4% in Q2 2026.",
+      "quote": "Organic revenue performance 2.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS increased 137% to $2.18 in Q2 2026.",
+      "quote": "EPS $2.18 $0.92 137%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core EPS increased 4% to $2.20 in Q2 2026.",
+      "quote": "Core EPS $2.20 $2.12 4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company affirms fiscal 2026 financial guidance.",
+      "quote": "Company affirms fiscal 2026 financial guidance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management indicated results may trend toward the lower end of the EPS range.",
+      "quote": "When we add it all up, we're in a position to reaffirm our full-year guidance, and as Ramon said, it may be towards the low end of the EPS range that we've given.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin expanded 875 bps to 16.6% in Q2.",
+      "quote": "Operating margin 16.6% 7.9% 875 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin contracted 40 bps to 16.8% in Q2.",
+      "quote": "Core operating margin 16.8% 17.2% (40) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "High fuel prices impacting convenience store traffic.",
+      "quote": "Laguarta stated, 'the Iran war and the impact on gas prices has been meaningful, not only in the U.S., but across the world,' noting that high fuel costs have slowed the conversion of convenience store traffic into purchases.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "More pressure on the business from a commodity standpoint in the second half.",
+      "quote": "Schmitt noted that management expects 'more pressure on the business from a commodity standpoint' in the second half of the year, particularly affecting the EMEA region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business expected to exceed $40 billion in revenue for the full year.",
+      "quote": "The international segment is projected to exceed $40 billion in revenue for the full year, reflecting its growing importance as a profit-accretive driver.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Permissible food portfolio reached $3 billion and growing at nearly double-digit rate.",
+      "quote": "Revenue from the permissible food portfolio reached $3 billion and is currently growing at a nearly double-digit rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff refund claims expected to contribute approximately 1 percentage point to full-year EPS growth.",
+      "quote": "The refund claims on the tariffs paid last year will be about 1 full point of EPS growth for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record productivity levels in first half, with additional layers of cost reduction planned.",
+      "quote": "The company reached record productivity levels in the first half of the year and plans additional layers of cost reduction in the second half to fund growth investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Testing mixing centers in Texoma to lower transportation and delivery costs.",
+      "quote": "The company is testing 'mixing centers' in the Texoma region to combine food and beverage inventory, aimed at lowering transportation and delivery costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "World Cup sponsorship helping activate categories in Europe and Latin America.",
+      "quote": "CEO Laguarta attributed resilient international growth in Europe to the World Cup, stating the event is 'helping us to activate the category in a better way' and create new consumption occasions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America business softer than expected in Q2.",
+      "quote": "We continue to see strong international performance and a softer North America business than we expected in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher tax rate year-over-year expected in Q3.",
+      "quote": "Also unique to Q3, we expect to have a higher tax rate year-over-year than what we've seen so far this year, so that should go into the math.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Impulse channel softness due to high fuel prices.",
+      "quote": "What was different this quarter that we were not planning is the performance on the impulse channels. That is something that we're working on, to tell you the truth, in the last few months to try to get more conversion between people getting into the gas station and converting into purchases of beverages and foods.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of -0.15. A human reviewer should confirm whether the cautious language and lower-end guidance tilt warrant a slightly more negative score or if the reaffirmation keeps it at neutral."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2026-07-09",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-07-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q2\\PEP-8K-EX99.1-2026-Q2-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q2\\PEP-Q2-2026-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:48:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q2\\PEP-8K-EX99.1-2026-Q2-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q2\\PEP-8K-EX99.1-2026-Q2-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 46948,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q2\\PEP-Q2-2026-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 52233,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ2_2026.txt"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "document_id": "BAC_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong backward-looking results (EPS up 18% YoY, net income $30.5B for FY2025) and provides explicit forward guidance: FY2026 NII (FTE) expected to grow 5% to 7% YoY, and management expects to deliver ~200 bps of operating leverage in 2026. CEO Brian Moynihan states 'we are bullish on the U.S. economy in 2026' and 'we feel confident in our ability to maintain this momentum in 2026 and beyond.' This constitutes a meaningful guidance raise and confident forward language, warranting a score above 0.15 but not above 0.5 because the guidance is not quantified for EPS or revenue beyond NII, and the document acknowledges risks including interest rate fluctuations and geopolitical instability."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue, net of interest expense, of $28.4 billion for 4Q25, up 7% YoY. Full-year 2025 revenue of $113.1 billion, up 7% YoY.",
+    "eps": "Diluted earnings per share of $0.98 for 4Q25, up 18% YoY. Full-year 2025 diluted EPS of $3.81, up 19% YoY.",
+    "guidance": "Expect FY26 NII (FTE) to grow 5% to 7% YoY. Expect to deliver ~200 bps of operating leverage in 2026. Expect 1Q26 NII (FTE) up ~7% YoY. Expect FY26 effective tax rate of ~20%. Expect other income of $100MM to $300MM per quarter.",
+    "margin": "Efficiency ratio improved to 61% in 4Q25 from 63% in 4Q24. Return on average tangible common shareholders' equity of 14.0% in 4Q25 vs. 13.0% in 4Q24.",
+    "key_risks": [
+      "Impact of U.S. and global interest rates (including potential for ongoing fluctuations in interest rates), inflation, currency exchange rates, economic conditions, trade policies and tensions, including changes in, or the imposition of, tariffs and/or trade barriers",
+      "Geopolitical instability, including military conflicts (Russia/Ukraine, Middle East) and potential expansion",
+      "Possibility that future credit losses may be higher than currently expected due to changes in economic assumptions",
+      "Adverse developments affecting the U.S. or global banking industry, including bank failures and liquidity concerns",
+      "Impact of failures or disruptions in or breaches of the Corporation's operations or information systems, including cybersecurity incidents",
+      "Risks related to the development, implementation, use and management of emerging technologies, including artificial intelligence and machine learning",
+      "Impact of uncertain or changing political conditions, federal government shutdowns and uncertainty regarding the federal government's debt limit"
+    ],
+    "key_opportunities": [
+      "Expect further economic growth in the year ahead, with consumers and businesses proving resilient",
+      "Regulatory environment and tax and trade policies coming into sharper focus",
+      "Fixed-rate asset repricing and disciplined expense management",
+      "Strong liquidity and capital, as well as healthy asset quality, position the company to drive core growth, market share gains and improved profitability in 2026",
+      "Continued organic growth across all business segments, including record sales and trading revenue, record equities sales and trading revenue, and 21 consecutive quarters of average loan growth"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan states 'we are bullish on the U.S. economy in 2026' and 'we feel confident in our ability to maintain this momentum in 2026 and beyond,' and CFO Alastair Borthwick says 'we enter 2026 focused on driving core growth, market share gains and improved profitability.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue, net of interest expense, of $28.4 billion for 4Q25, up 7% YoY.",
+      "quote": "Revenue, net of interest expense, of $28.4 billion ($28.5 billion FTE),(A) up 7%, reflected higher net interest income (NII), asset management fees, and sales and trading revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue of $113.1 billion, up 7% YoY.",
+      "quote": "Total revenue, net of interest expense $113.1 $105.9",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted earnings per share of $0.98 for 4Q25, up 18% YoY.",
+      "quote": "Diluted earnings per share of $0.98 compared to $0.83, up 18%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 diluted EPS of $3.81, up 19% YoY.",
+      "quote": "Full-Year 2025 Net Income of $30.5 Billion; EPS of $3.81, Up 19% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect FY26 NII (FTE) to grow 5% to 7% YoY.",
+      "quote": "Expect FY26 NII (FTE) to grow 5% to 7% YoY1",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect to deliver ~200 bps of operating leverage in 2026.",
+      "quote": "Expect to deliver ~200 bps of operating leverage in 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect 1Q26 NII (FTE) up ~7% YoY.",
+      "quote": "Expect 1Q26 NII (FTE) up ~7% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect FY26 effective tax rate of ~20%.",
+      "quote": "Expect FY26 effective tax rate of ~20%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect other income of $100MM to $300MM per quarter.",
+      "quote": "Expect other income of $100MM to $300MM per quarter2",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved to 61% in 4Q25 from 63% in 4Q24.",
+      "quote": "Efficiency ratio improved 194 bps to 61%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average tangible common shareholders' equity of 14.0% in 4Q25 vs. 13.0% in 4Q24.",
+      "quote": "Return on average tangible common shareholders' equity ratio of 14.0%10",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CEO Brian Moynihan states 'we are bullish on the U.S. economy in 2026' and 'we feel confident in our ability to maintain this momentum in 2026 and beyond.'",
+      "quote": "While any number of risks continue, we are bullish on the U.S. economy in 2026. I want to thank our teammates for their hard work this year. With their dedication and the economy positioned for growth, we feel confident in our ability to maintain this momentum in 2026 and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CFO Alastair Borthwick says 'we enter 2026 focused on driving core growth, market share gains and improved profitability.'",
+      "quote": "With strong liquidity and capital, as well as healthy asset quality, we enter 2026 focused on driving core growth, market share gains and improved profitability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include impact of U.S. and global interest rates, inflation, currency exchange rates, economic conditions, trade policies and tensions.",
+      "quote": "the impact of U.S. and global interest rates (including the potential for ongoing fluctuations in interest rates), inflation, currency exchange rates, economic conditions, trade policies and tensions, including changes in, or the imposition of, tariffs and / or trade barriers and the economic impacts, volatility and uncertainty resulting therefrom, which may have varying effects across industries and geographies, and geopolitical instability",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include geopolitical instability, including military conflicts (Russia/Ukraine, Middle East).",
+      "quote": "the impact of natural disasters, extreme weather events, military conflicts (including the Russia / Ukraine conflict, the conflicts in the Middle East, the possible expansion of such conflicts and potential geopolitical consequences), civil unrest, terrorism or other geopolitical events",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include possibility that future credit losses may be higher than currently expected.",
+      "quote": "the possibility that future credit losses may be higher than currently expected due to changes in economic assumptions, which may include unemployment rates, real estate prices, gross domestic product levels and corporate bond spreads, customer behavior, adverse developments with respect to U.S. or global economic conditions and other uncertainties, including the impact of trade policies, supply chain disruptions, inflationary pressures and labor shortages on economic conditions and our business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include adverse developments affecting the U.S. or global banking industry, including bank failures and liquidity concerns.",
+      "quote": "the impact of adverse developments affecting the U.S. or global banking industry, including bank failures and liquidity concerns, resulting in worsening economic and market volatility, and regulatory responses thereto",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include impact of failures or disruptions in or breaches of the Corporation's operations or information systems, including cybersecurity incidents.",
+      "quote": "the impact of failures or disruptions in or breaches of the Corporation's operations or information systems, or those of various third parties, including regulators and federal and state governments, such as from cybersecurity incidents",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include risks related to the development, implementation, use and management of emerging technologies, including artificial intelligence and machine learning.",
+      "quote": "the risks related to the development, implementation, use and management of emerging technologies, including artificial intelligence and machine learning",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include impact of uncertain or changing political conditions, federal government shutdowns and uncertainty regarding the federal government's debt limit.",
+      "quote": "the impact of uncertain or changing political conditions, federal government shutdowns and uncertainty regarding the federal government's debt limit or changes in fiscal, monetary, trade or regulatory policy",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include expectation of further economic growth in the year ahead, with consumers and businesses proving resilient.",
+      "quote": "With consumers and businesses proving resilient, as well as the regulatory environment and tax and trade policies coming into sharper focus, we expect further economic growth in the year ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include fixed-rate asset repricing and disciplined expense management.",
+      "quote": "As we grew organically, the company also benefited from fixed-rate asset repricing and disciplined expense management, with our fourth quarter efficiency ratio improving nearly 200 bps from last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include strong liquidity and capital, as well as healthy asset quality, positioning the company to drive core growth, market share gains and improved profitability in 2026.",
+      "quote": "With strong liquidity and capital, as well as healthy asset quality, we enter 2026 focused on driving core growth, market share gains and improved profitability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include continued organic growth across all business segments, including record sales and trading revenue, record equities sales and trading revenue, and 21 consecutive quarters of average loan growth.",
+      "quote": "Record sales and trading revenue 15 consecutive quarters of YoY sales and trading revenue growth Record Equities sales and trading revenue 21 consecutive quarters of average loan growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The sentiment score of 0.30 is based on explicit forward guidance (NII growth 5-7%, ~200 bps operating leverage) and confident management language. However, the guidance is only for NII and operating leverage, not for total revenue or EPS, and the document includes a lengthy list of forward-looking risk factors. A reviewer may wish to assess whether the score should be slightly lower given the limited scope of quantified guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 24,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2026-01-14",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q4\\The Press Release_4Q25_ADA.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q4\\The Presentation Materials_4Q25_ADA.pdf"
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q4\\The Supplemental Information_4Q25_ADA.pdf"
+      }
+    ],
+    "document_id": "BAC_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260706T101345Z",
+    "timestamp": "2026-07-06T10:16:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q4\\The Press Release_4Q25_ADA.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q4\\The Press Release_4Q25_ADA.pdf",
+        "page_count": 19,
+        "extracted_characters": 65370,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q4\\The Presentation Materials_4Q25_ADA.pdf",
+        "page_count": 31,
+        "extracted_characters": 62370,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q4\\The Supplemental Information_4Q25_ADA.pdf",
+        "page_count": 32,
+        "extracted_characters": 89850,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2025.txt"
+  }
+}

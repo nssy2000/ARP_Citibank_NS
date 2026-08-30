@@ -1,0 +1,224 @@
+{
+  "document_id": "JPM_FQ1_2023",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong backward-looking results (net income up 52% YoY, record revenue) and a meaningful upward revision to full-year NII guidance from ~$74 billion to ~$81 billion, driven by lower deposit rate paid expectations and higher card revolving balances. However, management explicitly flags significant uncertainties including the banking industry turmoil, potential for higher inflation and rates, and geopolitical tensions, and notes that the NII run-rate is expected to decline from current levels to the mid-70s in the medium term. The guidance raise is organic (not attributed to one-time items) but is tempered by cautious forward language and explicit risk factors, warranting a moderately positive score rather than a strong bullish one."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $38.3 billion; managed revenue of $39.3 billion, up 25% year-on-year.",
+    "eps": "Diluted EPS of $4.10, up 56% year-on-year.",
+    "guidance": "2023 NII and NII ex. Markets guidance raised to approximately $81 billion, up from prior guidance. Management expects the medium-term sustainable NII ex. Markets run-rate to be around the mid-70s. Expense outlook unchanged at about $81 billion. Card net charge-off rate expected to be approximately 2.6%.",
+    "margin": "Reported overhead ratio of 52%; managed overhead ratio of 51%. Return on tangible common equity (ROTCE) of 23%.",
+    "key_risks": [
+      "Banking industry turmoil and potential tightening of financial conditions.",
+      "Potentially higher inflation for longer and thus higher interest rates.",
+      "Unprecedented quantitative tightening.",
+      "Geopolitical tensions including relations with China and the war in Ukraine.",
+      "Uncertainty around deposit reprice, investment portfolio decisions, and the trajectory of Fed funds.",
+      "Potential for a moderate recession as reflected in the reserve build."
+    ],
+    "key_opportunities": [
+      "Strong consumer spending with combined debit and credit card sales up 10%.",
+      "Significant deposit and money market fund inflows following bank failures, with approximately $50 billion retained at quarter-end.",
+      "Continued momentum in Commercial Banking with record revenue and Payments revenue up 98%.",
+      "Strong long-term inflows of $47 billion in Asset & Wealth Management.",
+      "Number 1 ranking in Global Investment Banking fees with 8.7% wallet share."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes 'strong results' and 'record revenue' while explicitly acknowledging 'storm clouds' and 'heightened volatility and uncertainty,' reflecting confidence in the firm's positioning but with clear caution about the environment."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $38.3 billion; managed revenue of $39.3 billion, up 25% year-on-year.",
+      "quote": "Net revenue - reported $38,349 ... Net revenue - managed 39,336 ... Net revenue - managed was $39.3 billion, up 25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $4.10, up 56% year-on-year.",
+      "quote": "Earnings per share - diluted $4.10 ... Net income was $12.6 billion, up 52%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2023 NII and NII ex. Markets guidance raised to approximately $81 billion.",
+      "quote": "We now expect 2023 NII and NII ex. Markets to be approximately $81 billion. This increase in guidance is primarily driven by lower rate paid assumptions across both consumer and wholesale in light of the expectation of Fed cuts later in the year, as well as slightly higher card revolving balances.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects the medium-term sustainable NII ex. Markets run-rate to be around the mid-70s.",
+      "quote": "we think a more sustainable NII ex. Markets run-rate in the medium-term is well below this quarter's $84 billion, as well as below the $80 billion that is implied for the rest of the year by our full year guidance; and while we don't know exactly when this lower run-rate will be reached, when it happens, we believe it will be around the mid-70s.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense outlook unchanged at about $81 billion.",
+      "quote": "Moving to expenses, our outlook for 2023 continues to be about $81 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Card net charge-off rate expected to be approximately 2.6%.",
+      "quote": "we continue to expect the 2023 Card net charge-off rate to be approximately 2.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 52%; managed overhead ratio of 51%. Return on tangible common equity (ROTCE) of 23%.",
+      "quote": "1Q23 expense of $20.1 billion; reported overhead ratio of 52%; managed overhead ratio of 51% ... Return on tangible common equity 23%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Banking industry turmoil and potential tightening of financial conditions.",
+      "quote": "the banking industry turmoil adds to these risks. The banking situation is distinct from 2008 ... but financial conditions will likely tighten as lenders become more conservative, and we do not know if this will slow consumer spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potentially higher inflation for longer and thus higher interest rates.",
+      "quote": "We also continue to monitor for potentially higher inflation for longer (and thus higher interest rates)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unprecedented quantitative tightening.",
+      "quote": "the unprecedented quantitative tightening",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical tensions including relations with China and the war in Ukraine.",
+      "quote": "geopolitical tensions including relations with China and the unpredictable war in Ukraine.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertainty around deposit reprice, investment portfolio decisions, and the trajectory of Fed funds.",
+      "quote": "this NII outlook remains highly sensitive to the uncertainty associated with the timing and the extent of deposit reprice, investment portfolio decisions, the dynamics of QT and RRP, the trajectory of Fed funds, as well as the broader macroeconomic environment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential for a moderate recession as reflected in the reserve build.",
+      "quote": "The net reserve build included $726 million in Wholesale and $416 million in Consumer, largely driven by a deterioration in the weighted-average economic outlook, including updates to the Firm’s macroeconomic scenarios and an increased probability of a moderate recession due to tightening financial conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong consumer spending with combined debit and credit card sales up 10%.",
+      "quote": "consumer spending remained healthy with combined debit and credit card sales up 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Significant deposit and money market fund inflows following bank failures, with approximately $50 billion retained at quarter-end.",
+      "quote": "we saw significant new account opening activity and meaningful deposit and money market fund inflows ... We estimate that we have retained approximately $50 billion of these deposit inflows at quarter-end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued momentum in Commercial Banking with record revenue and Payments revenue up 98%.",
+      "quote": "In Commercial Banking, we earned record revenue, with exceptionally strong Payments revenue, up 98%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong long-term inflows of $47 billion in Asset & Wealth Management.",
+      "quote": "Asset & Wealth Management performed well with strong long-term inflows of $47 billion across products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Number 1 ranking in Global Investment Banking fees with 8.7% wallet share.",
+      "quote": "#1 ranking for Global Investment Banking fees with 8.7% wallet share in 1Q23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident but cautious.",
+      "quote": "We reported strong results in the first quarter, delivering net income of $12.6 billion, record revenue of $38.3 billion, and an ROTCE of 23% ... However, the storm clouds that we have been monitoring for the past year remain on the horizon, and the banking industry turmoil adds to these risks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a meaningful guidance raise but also significant caution and uncertainty. A reviewer may consider whether the cautious language warrants a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2023-04-14",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-04-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q1\\jpm-1q23-press-release.pdf",
+        "pub_date": "2023-04-14"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q1\\jpm-1q23-earnings-call-transcript.pdf",
+        "pub_date": "2023-04-14"
+      }
+    ],
+    "document_id": "JPM_FQ1_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T131706Z",
+    "timestamp": "2026-07-08T13:17:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q1\\jpm-1q23-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q1\\jpm-1q23-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 24644,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2023-Q1\\jpm-1q23-earnings-call-transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 78724,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2023.txt"
+  }
+}

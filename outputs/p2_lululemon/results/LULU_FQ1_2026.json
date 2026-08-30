@@ -1,0 +1,239 @@
+{
+  "document_id": "LULU_FQ1_2026",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced materially: full-year revenue guidance was lowered to flat to down 1% from prior expectations, Q2 EPS guided to $1.76-$1.81 versus $3.10 a year ago, and operating margin is expected to decrease by approximately 380 basis points. Management explicitly cited headwinds from negative brand commentary, underperforming product launches, and tariff impacts, with cautious language about near-term trends."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenue increased 4% to $2.5 billion, or 2% on a constant dollar basis. North America revenue decreased 3%; China Mainland revenue increased 30%.",
+    "eps": "Diluted EPS of $1.69 compared to $2.60 in the prior year.",
+    "guidance": "Q2 revenue expected $2.45B-$2.475B (decline 2%-3%); Q2 EPS $1.76-$1.81. Full-year revenue now $11B-$11.15B (flat to down 1%); full-year EPS $10.95-$11.15.",
+    "margin": "Gross margin decreased 410 basis points to 54.2% in Q1. Full-year gross margin expected to decrease 90 basis points. Operating margin expected to decrease by approximately 380 basis points for the full year.",
+    "key_risks": [
+      "Negative brand commentary in media and social channels impacting traffic and top-line performance.",
+      "Underperformance of certain product launches, including the Look of Yoga campaign.",
+      "Tariff impacts: 280 basis point negative impact on gross margin in Q1; 150 basis point negative impact expected in Q2.",
+      "Fixed cost deleverage of 140 basis points in Q1 due to ongoing investments.",
+      "Proxy contest-related costs.",
+      "Slowing momentum in China Mainland towards end of Q1 due to negative commentary.",
+      "Disruption in Middle East franchise business due to conflict in Iran.",
+      "Softer tourism in Europe and Japan."
+    ],
+    "key_opportunities": [
+      "China Mainland growth: revenue up 30% in Q1, expected to grow approximately 20% for the full year.",
+      "Rest of World growth: revenue up 13% in Q1, expected mid-teens growth for the full year.",
+      "Product innovation: increasing penetration of newness to 35% of assortment from 23% prior year.",
+      "Chase program: chasing 20% more volume this year to improve speed and flexibility.",
+      "Reduced product lead time from 18-24 months to 15-16 months, targeting 12-14 months.",
+      "Enterprise efficiency initiatives: supply chain optimization, procurement improvements, AI-powered systems.",
+      "Store experience enhancements: 15% fewer SKUs, reduced markdowns, improved merchandising.",
+      "Brand activations: SeaWheeze half marathon, Great Wall of China yoga event, summer sweat games."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management stated 'we faced a few headwinds and a moderating sales trend' and revised guidance downward, indicating a cautious outlook despite some positive signals."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year revenue guidance was lowered to flat to down 1%.",
+      "quote": "We now expect revenue to be in the range of $11 billion to $11.15 billion, flat to down 1% relative to 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 EPS guidance is $1.76 to $1.81, down from $3.10 a year ago.",
+      "quote": "We expect earnings per share in the second quarter to be in the range of $1.76 to $1.81 versus EPS of $3.10 a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating margin is expected to decrease by approximately 380 basis points.",
+      "quote": "When looking at operating margin for the full year 2026, we now expect it to decrease by approximately 380 basis points versus last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 net revenue increased 4% to $2.5 billion.",
+      "quote": "Net revenue increased 4% to $2.5 billion, or increased 2% on a constant dollar basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 diluted EPS was $1.69 compared to $2.60.",
+      "quote": "Diluted earnings per share were $1.69 compared to $2.60 in the first quarter of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin decreased 410 basis points to 54.2% in Q1.",
+      "quote": "Gross profit decreased 3% to $1.3 billion and gross margin decreased 410 basis points to 54.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Negative brand commentary impacted traffic and top-line performance.",
+      "quote": "First, we experienced spikes of negative commentary in the media and on social channels with regard to our brand. Which had an impact on traffic and overall top line performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Certain product launches underperformed expectations.",
+      "quote": "And second, not all of our product launches have met our expectations. While we have had several successful launches so far this year, we have seen others as we start Q2 not generate the anticipated guest response.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs had a 280 basis point negative impact on gross margin in Q1.",
+      "quote": "Tariffs had a gross negative impact of 280 basis points in the quarter offset by 100 basis points related to our enterprise efficiency initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China Mainland revenue increased 30% in Q1.",
+      "quote": "China Mainland revenue increased 30% or 23% in constant currency with comparable sales increasing 13%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China Mainland expected to grow approximately 20% for the full year.",
+      "quote": "We continue to expect revenue in China Mainland to be up approximately 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rest of World revenue increased 13% in Q1.",
+      "quote": "In our Rest of World segment, revenue increased by 13% or 9% in constant currency with comparable sales increasing 1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "we faced a few headwinds and a moderating sales trend",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Product newness penetration targeted to rise to 35% of assortment.",
+      "quote": "our aim was to increase our penetration of newness to 20% from 23% last year to 35% over the course of this year. Right now, we sit at about 30%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chase program volume increased 20% this year.",
+      "quote": "We are chasing 20% more volume this year relative to last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Product lead time reduced from 18-24 months to 15-16 months.",
+      "quote": "We have also reduced our mainline product development process from 18 to 24 months to 15 to 16 months. And we were working to further reduce it down to 12 to 14 months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Store SKU density reduced by 15%.",
+      "quote": "less dense presentation of products featuring 15% fewer SKUs, which allows us to better highlight new styles and innovation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Proxy contest costs were a factor in SG&A increase.",
+      "quote": "The increase of 310 basis points relates to expenses that we reduced last year, but layered back this year including store labor hours and incentive comp, timing of certain brand activations, and costs related to the proxy contest.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disruption in Middle East franchise business due to conflict in Iran.",
+      "quote": "We have seen some disruption in our Middle East franchise business due to the conflict in Iran and we have also seen some softer tourism in Europe and Japan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Enterprise efficiency initiatives partially offset tariff impact.",
+      "quote": "Tariffs had a gross negative impact of 280 basis points in the quarter offset by 100 basis points related to our enterprise efficiency initiatives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on clear guidance reductions and cautious language. However, the document also contains some positive signals (China growth, product innovation) that could argue for a slightly less negative score. A reviewer may want to confirm the weighting."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LULU_Bundled Earnings Report_2026-06-04",
+  "report_metadata": {
+    "issuer": "p2_lululemon",
+    "company": "Lululemon",
+    "ticker": "LULU",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-06-04",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2026-Q1\\LULU-Q1-FY2026-Press-Release-SEC-EX991.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LULU_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T173802Z",
+    "timestamp": "2026-07-30T17:39:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lululemon\\extracted\\LULU_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 42676,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lululemon\\CY2026-Q1\\LULU-Q1-FY2026-Press-Release-SEC-EX991.htm",
+        "page_count": 1,
+        "extracted_characters": 17044,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lululemon\\extracted\\LULU_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

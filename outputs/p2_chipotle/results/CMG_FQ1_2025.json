@@ -1,0 +1,200 @@
+{
+  "document_id": "CMG_FQ1_2025",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "The company reported a comparable sales decline of 0.4% and acknowledged a slowdown in consumer spending, with management noting that the trend has continued into April. While the company reaffirmed its full-year guidance for low single-digit comp growth, it did not raise guidance and explicitly cited headwinds such as weather, consumer uncertainty, and tariffs. The cautious tone and lack of a positive forward revision, despite a modest EPS beat, lead to a negative sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue increased 6.4% to $2.9 billion for Q1 2025, driven by new restaurant openings.",
+    "eps": "Diluted EPS was $0.28, a 7.7% increase from $0.26; adjusted diluted EPS was $0.29, a 7.4% increase from $0.27.",
+    "guidance": "Full-year 2025 comparable restaurant sales growth expected in the low single digit range; 315-345 new company-owned restaurant openings; underlying effective tax rate between 25% and 27%.",
+    "margin": "Operating margin was 16.7%, up from 16.3%; restaurant level operating margin was 26.2%, down from 27.5%.",
+    "key_risks": [
+      "Slowdown in consumer spending and economic uncertainty impacting transactions",
+      "Weather headwinds affecting Q1 results",
+      "Tariffs impacting cost of sales (estimated 50 basis points ongoing, 20 basis points in Q2) and new store builds (mid-single-digit increase)",
+      "Wage inflation, including minimum wage increases in California",
+      "Food cost inflation (avocados, dairy, chicken) and protein mix shift",
+      "Tough comparisons in Q2 (lapping 11.2% comp from last year)",
+      "Easter timing shift causing a 100 basis point headwind in Q2"
+    ],
+    "key_opportunities": [
+      "Chipotle Honey Chicken LTO driving incremental transactions and higher mix than prior LTOs",
+      "Back-of-house innovation (produce slicer, equipment package) expected to improve throughput and margins",
+      "Expansion plans: 315-345 new openings, international growth (Canada, Middle East, Mexico)",
+      "Strong value proposition with average entree under $10, 20-30% below comparable fast-casual meals",
+      "Digital and marketing initiatives to drive engagement and frequency"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management acknowledged headwinds and a slowdown in consumer spending, stating 'our first quarter results were impacted by several headwinds including weather and a slowdown in consumer spending' and noted the trend has continued into April, reflecting a cautious outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue increased 6.4% to $2.9 billion in Q1 2025.",
+      "quote": "Total revenue increased 6.4% to $2.9 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable restaurant sales decreased 0.4%.",
+      "quote": "Comparable restaurant sales decreased 0.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.28, up 7.7% from $0.26.",
+      "quote": "Diluted earnings per share was $0.28, a 7.7% increase from $0.26",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $0.29, up 7.4% from $0.27.",
+      "quote": "Adjusted diluted earnings per share was $0.29, a 7.4% increase from $0.27",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 comparable restaurant sales growth expected in low single digit range.",
+      "quote": "Full year comparable restaurant sales growth in the low single digit range",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 16.7%, up from 16.3%.",
+      "quote": "Operating margin was 16.7%, an increase from 16.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restaurant level operating margin was 26.2%, down from 27.5%.",
+      "quote": "Restaurant level operating margin was 26.2%, a decrease from 27.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited weather and consumer spending slowdown as headwinds.",
+      "quote": "our first quarter results were impacted by several headwinds including weather and a slowdown in consumer spending",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer slowdown trend continued into April.",
+      "quote": "This trend has continued into April.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs expected to impact cost of sales by 50 basis points ongoing and 20 basis points in Q2.",
+      "quote": "We estimate these tariffs will have an ongoing impact of about 50 basis points, and due to inventory on hand, we anticipate a 20 basis point impact in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 faces tough comparison with 11.2% comp from last year.",
+      "quote": "we are facing our most challenging comparison as we lap an 11.2% comp from last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Easter timing shift causes 100 basis point headwind in Q2.",
+      "quote": "have an additional 100 basis point headwind due to the timing of Easter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Chipotle Honey Chicken LTO is driving incremental transactions.",
+      "quote": "Chipotle Honey Chicken is off to a terrific start driving incremental transactions in our restaurants.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Produce slicer rollout expected to improve throughput.",
+      "quote": "The produce slicer, which we haven’t talked about today, will be in all restaurants by the end of Q2. The restaurants we’re in today are already seeing improved expo placement, improved throughput.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious due to acknowledged headwinds.",
+      "quote": "our first quarter results were impacted by several headwinds including weather and a slowdown in consumer spending",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is negative due to cautious guidance and acknowledged headwinds, but the company did reaffirm guidance and reported EPS growth; reviewer should verify the balance between negative forward signals and positive backward results."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CMG_Bundled Earnings Report_2025-04-23",
+  "report_metadata": {
+    "issuer": "p2_chipotle",
+    "company": "Chipotle",
+    "ticker": "CMG",
+    "sector": "Consumer Cyclical/Restaurants",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q1\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CMG_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095426Z",
+    "timestamp": "2026-08-09T09:54:37Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_chipotle\\extracted\\CMG_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 24283,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q1\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 61915,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_chipotle\\extracted\\CMG_FQ1_2025.txt"
+  }
+}

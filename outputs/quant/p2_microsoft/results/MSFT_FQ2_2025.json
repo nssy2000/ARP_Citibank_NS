@@ -1,0 +1,58 @@
+{
+  "document_id": "MSFT_FQ2_2025_QUANT",
+  "base_document_id": "MSFT_FQ2_2025",
+  "issuer": "p2_microsoft",
+  "ticker": "MSFT",
+  "sector": "Technology",
+  "report_date": "2025-01-29",
+  "sentiment": {
+    "score": 0.128387
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.017914,
+      "window_start_date": "2024-12-24",
+      "window_end_date": "2025-01-28",
+      "score": 0.11886,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.252027,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 3.47,
+      "matched_earnings_date": "2025-01-29",
+      "score": 0.137915,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.56,
+      "vix_score": 0.161247,
+      "tnx_change": -0.024,
+      "tnx_score": 0.047964,
+      "score": 0.104605,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2025-01-28",
+      "curve_spread": 0.36,
+      "curve_score": 0.345214,
+      "curve_as_of": "2025-01-28",
+      "score": 0.403666,
+      "available": true
+    },
+    "quant_score": 0.128387,
+    "quant_score_with_macro": 0.116496,
+    "quant_score_with_fred": 0.266026,
+    "quant_score_with_macro_fred": 0.212219
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

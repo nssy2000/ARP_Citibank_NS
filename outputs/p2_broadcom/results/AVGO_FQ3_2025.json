@@ -1,0 +1,227 @@
+{
+  "document_id": "AVGO_FQ3_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Forward guidance was raised materially: management explicitly stated that fiscal 2026 AI revenue outlook 'to improve significantly from what we had indicated last quarter,' driven by a new fourth XPU customer with over $10 billion in orders, and Q4 AI semiconductor revenue is guided to accelerate to $6.2 billion, up 66% year-over-year. This represents a clear upward revision to the company's own prior guidance, supported by confident language about continued customer investment and record backlog of $110 billion. The improvement is organic, driven by AI demand and new customer wins, not attributed to FX or one-time items."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 FY2025 revenue of $15,952 million, up 22% year-over-year. Q4 FY2025 revenue guidance of approximately $17.4 billion, up 24% year-over-year.",
+    "eps": "GAAP diluted EPS of $0.85; Non-GAAP diluted EPS of $1.69 for Q3 FY2025. Non-GAAP EPS beat expectations of $1.66 (per transcript).",
+    "guidance": "Q4 FY2025 revenue guidance of approximately $17.4 billion, up 24% year-over-year; Q4 Adjusted EBITDA guidance of 67% of projected revenue; Q4 AI semiconductor revenue forecast of approximately $6.2 billion, up 66% year-over-year; fiscal 2026 AI revenue outlook expected to improve significantly from prior indications.",
+    "margin": "Q3 Adjusted EBITDA of $10,702 million, or 67% of revenue; Q3 gross margin 78.4% (non-GAAP); Q4 gross margin expected down approximately 70 basis points sequentially; Q4 Adjusted EBITDA guidance of 67%.",
+    "key_risks": [
+      "Non-AI semiconductor demand continues to be slow to recover, with only broadband showing strong sequential growth; enterprise networking and server storage were down sequentially.",
+      "Global economic conditions and uncertainty, government regulations, trade restrictions and trade tensions.",
+      "Any loss of significant customers and fluctuations in timing and volume of significant customer demand.",
+      "Cyclicality in the semiconductor industry or target markets.",
+      "Risks associated with the VMware acquisition, including ability to realize expected benefits.",
+      "Dependence on contract manufacturing and outsourced supply chain; dependency on a limited number of suppliers.",
+      "Potential tax liabilities as a result of acquiring VMware.",
+      "Significant indebtedness and need to generate sufficient cash flows to service and repay debt."
+    ],
+    "key_opportunities": [
+      "AI semiconductor revenue growth: Q3 AI revenue up 63% year-over-year to $5.2 billion; Q4 forecast $6.2 billion, up 66% year-over-year.",
+      "New fourth XPU customer with over $10 billion of orders of AI racks, expected to drive significant fiscal 2026 AI revenue improvement.",
+      "Continued strength in custom AI accelerators, networking, and VMware.",
+      "VMware Cloud Foundation version 9.0 launch, enabling enterprises to run AI workloads on-prem or in the cloud.",
+      "AI networking growth with Tomahawk 5, Tomahawk 6, and Jericho 4 launches addressing scale-up, scale-out, and scale-across challenges.",
+      "Record consolidated backlog of $110 billion."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used strong forward language such as 'we expect growth in AI semiconductor revenue to accelerate to $6.2 billion in Q4, delivering eleven consecutive quarters of growth, as our customers continue to strongly invest' and 'we now expect the outlook for fiscal 2026 AI revenue to improve significantly from what we had indicated last quarter.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 FY2025 revenue was $15,952 million, up 22% year-over-year.",
+      "quote": "Revenue of $15,952 million for the third quarter, up 22 percent from the prior year period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 GAAP diluted EPS was $0.85 and Non-GAAP diluted EPS was $1.69.",
+      "quote": "GAAP diluted EPS of $0.85 for the third quarter; Non-GAAP diluted EPS of $1.69 for the third quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY2025 revenue guidance is approximately $17.4 billion, up 24% year-over-year.",
+      "quote": "Fourth quarter fiscal year 2025 revenue guidance of approximately $17.4 billion, an increase of 24 percent from the prior year period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 Adjusted EBITDA guidance is 67% of projected revenue.",
+      "quote": "Fourth quarter fiscal year 2025 Adjusted EBITDA guidance of 67 percent of projected revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 Adjusted EBITDA was $10,702 million, or 67% of revenue.",
+      "quote": "Adjusted EBITDA of $10,702 million for the third quarter, or 67 percent of revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 gross margin was 78.4% of revenue.",
+      "quote": "Gross margin was 78.4% of revenue in the quarter, better than we originally guided on higher software revenues and product mix within semiconductors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross margin is expected to be down approximately 70 basis points sequentially.",
+      "quote": "We expect Q4 consolidated gross margin to be down approximately 70 basis points sequentially primarily reflecting a higher mix of XPUs and also wireless revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 AI revenue grew 63% year-over-year to $5.2 billion.",
+      "quote": "Q3 AI revenue growth accelerated to 63% year-over-year to $5.2 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 AI semiconductor revenue is forecast to be approximately $6.2 billion, up 66% year-over-year.",
+      "quote": "For Q4, 2025, we forecast AI semiconductor revenue to be approximately $6.2 billion, up 66% year on year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 AI revenue outlook is expected to improve significantly from prior indications.",
+      "quote": "We now expect the outlook for fiscal 2026 AI revenue to improve significantly from what we had indicated last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A new fourth XPU customer has secured over $10 billion of orders.",
+      "quote": "One of these prospects released production orders to Broadcom. And we have accordingly characterized them as a qualified customer for XPUs. And in fact, has secured over $10 billion of orders of AI racks based on our XPUs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consolidated backlog reached a record $110 billion.",
+      "quote": "Our current consolidated backlog for the company hit a record of $110 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-AI semiconductor demand is slow to recover, with only broadband showing strong sequential growth.",
+      "quote": "Demand continues to be slow to recover. In Q3 revenue of $4 billion was flat sequentially. While broadband showed strong sequential growth, Enterprise networking and service storage were down sequentially.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "VMware Cloud Foundation version 9.0 was released, enabling enterprises to run AI workloads on-prem or in the cloud.",
+      "quote": "We release VMware Cloud Foundation version nine dot zero a fully integrated cloud platform which can be deployed by enterprise customers on prem or carry to the cloud. It enables enterprises to run any application workload including AI workloads, on virtual machines and on modern containers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We expect growth in AI semiconductor revenue to accelerate to $6.2 billion in Q4, delivering eleven consecutive quarters of growth, as our customers continue to strongly invest.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS of $1.69 beat expectations of $1.66.",
+      "quote": "Broadcom Inc. beats earnings expectations. Reported EPS is $1.69, expectations were $1.66.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 reflects a material upward revision to fiscal 2026 AI revenue outlook, but the exact magnitude of the raise is not quantified; reviewer may want to confirm the strength of the language justifies a score above 0.5."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Risks listed are largely from the standard forward-looking statements boilerplate; only the non-AI semiconductor weakness is a specific operational risk discussed in the call."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AVGO_Bundled Earnings Report_2025-09-04",
+  "report_metadata": {
+    "issuer": "p2_broadcom",
+    "company": "Broadcom",
+    "ticker": "AVGO",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-09-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q3\\earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q3\\transcript.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AVGO_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095143Z",
+    "timestamp": "2026-08-09T09:51:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_broadcom\\extracted\\AVGO_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 25182,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q3\\earnings_presentation.pdf",
+        "page_count": 8,
+        "extracted_characters": 26040,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\broadcom\\CY2025-Q3\\transcript.htm",
+        "page_count": 1,
+        "extracted_characters": 54669,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_broadcom\\extracted\\AVGO_FQ3_2025.txt"
+  }
+}

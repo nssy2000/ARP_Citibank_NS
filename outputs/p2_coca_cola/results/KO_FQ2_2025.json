@@ -1,0 +1,204 @@
+{
+  "document_id": "KO_FQ2_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "Full-year organic revenue guidance was reaffirmed at 5%-6%, but comparable currency-neutral EPS guidance was raised to approximately 8% growth from a prior expectation (implied by the update). Management expressed confidence in delivering on updated guidance despite acknowledging currency headwinds and dynamic conditions. The guidance raise is organic, not attributed to one-time items, supporting a mildly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues grew 1% to $12.5 billion; organic revenues (non-GAAP) grew 5%.",
+    "eps": "Comparable EPS (non-GAAP) grew 4% to $0.87; GAAP EPS grew 58% to $0.88.",
+    "guidance": "Full-year 2025 organic revenue growth expected at 5%-6%; comparable currency-neutral EPS growth of approximately 8%; comparable EPS growth of approximately 3% versus $2.88 in 2024, including a 5% currency headwind.",
+    "margin": "Comparable gross margin increased approximately 80 basis points; comparable operating margin increased approximately 190 basis points to 34.7%.",
+    "key_risks": [
+      "Currency headwinds: 1%-2% headwind to full-year comparable net revenues and 5% headwind to comparable EPS.",
+      "Global unit case volume declined 1% in Q2, impacted by adverse weather, difficult prior year comparisons, and consumer pressure in select markets.",
+      "Capacity constraints limiting Fairlife volume growth until New York facility comes online in early 2026.",
+      "Dynamic external environment with rapid turns and uncertainty, including geopolitical conflicts and weather events.",
+      "Higher effective tax rate (approximately 2-point increase) impacting EPS."
+    ],
+    "key_opportunities": [
+      "Seventeenth consecutive quarter of value share gains in total NARTD beverages.",
+      "Productivity initiatives driving margin expansion, with faster realization than expected.",
+      "Innovation pipeline including Sprite plus Tea, new Coca-Cola cane sugar variant, and Fairlife capacity expansion in 2026.",
+      "Marketing transformation and digital tools (AI-based pack price optimization) scaling across markets.",
+      "Strong brand performance: Coca-Cola Zero Sugar, Diet Coke, Fanta, Fairlife, BodyArmor, Powerade each grew volume."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management stated 'we are confident we can navigate varying local market dynamics during the remainder of 2025 to deliver on our updated guidance' and 'we have great confidence we will deliver on our updated 2025 guidance and create enduring value for our stakeholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues grew 1% to $12.5 billion; organic revenues grew 5%.",
+      "quote": "Net revenues grew 1% to $12.5 billion, and organic revenues (non-GAAP) grew 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable EPS grew 4% to $0.87; GAAP EPS grew 58% to $0.88.",
+      "quote": "EPS Grew 58% to $0.88; Comparable EPS (Non-GAAP) Grew 4% to $0.87",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year organic revenue guidance reaffirmed at 5%-6%; comparable currency-neutral EPS guidance raised to approximately 8%.",
+      "quote": "We continue to expect organic revenue growth of 5% to 6%, but now expect comparable currency-neutral earnings per share growth of approximately 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable EPS guidance for 2025 is approximately 3% growth versus $2.88 in 2024.",
+      "quote": "we now expect 2025 comparable earnings per share growth of approximately 3% versus $2.88 in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable gross margin increased approximately 80 basis points; comparable operating margin increased approximately 190 basis points.",
+      "quote": "Comparable gross margin increased approximately 80 basis points, and comparable operating margin increased approximately 190 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency headwinds: 1%-2% headwind to full-year comparable net revenues and 5% headwind to comparable EPS.",
+      "quote": "we now anticipate an approximate one to two-point currency headwind to comparable net revenues and an approximate five-point currency headwind to comparable earnings per share for full year 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global unit case volume declined 1% in Q2.",
+      "quote": "Volume declined 1% during the quarter as we cycled a difficult comparison versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capacity constraints limiting Fairlife volume growth until New York facility comes online in early 2026.",
+      "quote": "Fairlife posted double-digit volume growth, although this moderated due to capacity constraints. Further moderation in Fairlife volume growth is expected until the New York facility comes online in early 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Seventeenth consecutive quarter of value share gains.",
+      "quote": "During the quarter, we gained value share, which represented our seventeenth consecutive quarter of value share gains.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity initiatives driving margin expansion, with faster realization than expected.",
+      "quote": "Approximately one-third of first-half 2025 comparable margin expansion was attributed to faster realization of productivity initiatives, especially from marketing transformation and disciplined operating expense management.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Innovation pipeline includes Sprite plus Tea and new Coca-Cola cane sugar variant.",
+      "quote": "we launched Sprite plus Tea in North America... this fall in the United States, we plan to expand our trademark Coca-Cola product range with US cane sugar",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are confident we can navigate varying local market dynamics during the remainder of 2025 to deliver on our updated guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher effective tax rate impacting EPS.",
+      "quote": "an approximate two-point increase in our effective tax rate",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dynamic external environment with rapid turns and uncertainty.",
+      "quote": "the external environment continues to be dynamic, and there is no doubt that much uncertainty remains in the downhill",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong brand performance: Coca-Cola Zero Sugar, Diet Coke, Fanta, Fairlife, BodyArmor, Powerade each grew volume.",
+      "quote": "Coca-Cola Zero Sugar, Diet Coke, Fanta, Fairlife, BodyArmor, and Powerade, which each grew volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Marketing transformation and digital tools scaling across markets.",
+      "quote": "we scaled this platform to eight markets across four operating units.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is for currency-neutral EPS, but the reported comparable EPS guidance including currency is only 3% growth. The score of 0.20 reflects the organic raise but may be conservative given the currency drag."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KO_Bundled Earnings Report_2025-07-22",
+  "report_metadata": {
+    "issuer": "p2_coca_cola",
+    "company": "Coca-Cola",
+    "ticker": "KO",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-22",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\a2025q2earningsreleaseex-9.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KO_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172550Z",
+    "timestamp": "2026-07-30T17:26:07Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 58961,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coca_cola\\CY2025-Q2\\a2025q2earningsreleaseex-9.txt",
+        "page_count": 1,
+        "extracted_characters": 4866,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coca_cola\\extracted\\KO_FQ2_2025.txt"
+  }
+}

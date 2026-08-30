@@ -1,0 +1,225 @@
+{
+  "document_id": "JPM_FQ4_2021",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports solid backward-looking results (net income $10.4B, EPS $3.33) with a net credit reserve release boosting earnings, but forward guidance is not formally raised. Management provides a medium-term ROTCE central case of ~17% (slide 15) and expects loan growth including card revolve normalization, but also flags headwinds from expense growth, post-pandemic normalization, and inflationary pressures. The tone is confident but the outlook is balanced, not a clear upgrade, so the score is mildly positive but below the BUY threshold."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $29.3 billion; managed revenue of $30.3 billion, up 1% YoY.",
+    "eps": "Diluted EPS of $3.33, down 12% YoY; excluding credit reserve releases, EPS of $2.86.",
+    "guidance": "Medium-term ROTCE central case of ~17% (slide 15). 2022 NII outlook: ~$54.7B (slide 16) based on market-implied forward rates, with high single-digit loan growth ex. CIB Markets & PPP, and card revolving balances returning to 2019 levels. Adjusted noninterest expense expected ~$77B in 2022 (slide 17).",
+    "margin": "Reported overhead ratio of 61%; managed overhead ratio of 59%. ROTCE of 19% (4Q21), 23% (FY2021).",
+    "key_risks": [
+      "Headwinds from Omicron variant, inflation, and supply chain bottlenecks (CEO commentary).",
+      "Expense growth from further investments, post-pandemic normalization, and inflationary pressures (slide 15).",
+      "Markets revenue down 11% YoY, with Fixed Income Markets down 16% (slide 7).",
+      "Home Lending net revenue down 26% YoY driven by lower production margins (slide 6).",
+      "CECL capital transition provisions expiring, with $2.9B phased in at 25% per year beginning 2022 (slide 20)."
+    ],
+    "key_opportunities": [
+      "Global IB fees up 37% YoY driven by unprecedented M&A activity and strong IPOs (CEO commentary).",
+      "Average loans up 6% YoY; card loan growth up 5% (CEO commentary).",
+      "Asset & Wealth Management AUM up 15% YoY with $34B net inflows into long-term products (CEO commentary).",
+      "Consumer & Community Banking client investment assets up 22% (slide 6).",
+      "Commercial Banking gross IB revenue up 50% YoY (slide 8).",
+      "Expectation of higher rates and loan growth including card revolve normalization to contribute to NII growth in 2022 (slide 16)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jamie Dimon states 'JPMorgan Chase reported solid results across our businesses' and 'we remain optimistic on U.S. economic growth as business sentiment is upbeat and consumers are benefiting from job and wage growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $29.3 billion; managed revenue of $30.3 billion, up 1% YoY.",
+      "quote": "Net revenue - reported $29,257; Net revenue - managed $30,349; Net revenue - managed $30,161; $ O/(U) % — 1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $3.33, down 12% YoY; excluding credit reserve releases, EPS of $2.86.",
+      "quote": "Earnings per share - diluted $3.33; $ O/(U) (12)%; Excluding net credit reserve release: 4Q21 net income of $9.0 billion, EPS of $2.86",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medium-term ROTCE central case of ~17% (slide 15).",
+      "quote": "Despite short-term headwinds, 17% ROTCE remains our central case in the medium term",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2022 NII outlook: ~$54.7B based on market-implied forward rates.",
+      "quote": "Net interest income ($B) ... 2022 ... $54.7",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted noninterest expense expected ~$77B in 2022.",
+      "quote": "Adjusted noninterest expense ($B) ... 2022 ... ~$77",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 61%; managed overhead ratio of 59%.",
+      "quote": "4Q21 expense of $17.9 billion; reported overhead ratio of 61%; managed overhead ratio of 59%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 19% (4Q21), 23% (FY2021).",
+      "quote": "ROTCE 19% (4Q21); Full-year 2021 ROTCE 23%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Headwinds from Omicron variant, inflation, and supply chain bottlenecks.",
+      "quote": "The economy continues to do quite well despite headwinds related to the Omicron variant, inflation and supply chain bottlenecks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense growth from further investments, post-pandemic normalization, and inflationary pressures.",
+      "quote": "Headwinds: Expense growth: Further investments + post-pandemic normalization & inflationary pressures",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenue down 11% YoY, with Fixed Income Markets down 16%.",
+      "quote": "Markets revenue was $5.3 billion, down 11%. Fixed Income Markets revenue was $3.3 billion, down 16%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Home Lending net revenue down 26% YoY driven by lower production margins.",
+      "quote": "Home Lending net revenue was $1.1 billion, down 26%, predominantly driven by lower production margins",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CECL capital transition provisions expiring, with $2.9B phased in at 25% per year beginning 2022.",
+      "quote": "The cumulative impact of $2.9B not recognized in CET1 capital at December 31, 2021 will be phased in at 25% per year beginning January 1, 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global IB fees up 37% YoY driven by unprecedented M&A activity and strong IPOs.",
+      "quote": "Global IB fees were up 37%, driven by both the Corporate & Investment Bank and Commercial Banking, due to unprecedented M&A activity, an active acquisition financing market and strong performance in IPOs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average loans up 6% YoY; card loan growth up 5%.",
+      "quote": "firmwide average loans were up 6%; accelerating Card loan growth, up 5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asset & Wealth Management AUM up 15% YoY with $34B net inflows into long-term products.",
+      "quote": "Assets under management (AUM) of $3.1 trillion, up 15%; we saw positive inflows into long-term products of $34 billion across all channels and regions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer & Community Banking client investment assets up 22%.",
+      "quote": "client investment assets up 22%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Banking gross IB revenue up 50% YoY.",
+      "quote": "Gross Investment Banking revenue of $1.5 billion, up 50%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expectation of higher rates and loan growth including card revolve normalization to contribute to NII growth in 2022.",
+      "quote": "In addition to higher rates, we expect loan growth, including normalization of card revolve to contribute to NII growth in 2022",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "JPMorgan Chase reported solid results across our businesses benefiting from elevated capital markets activity and a pick up in lending activity ... we remain optimistic on U.S. economic growth as business sentiment is upbeat and consumers are benefiting from job and wage growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is at the exact boundary of the BUY threshold (0.15). The guidance is not formally raised but the medium-term ROTCE central case of ~17% and NII outlook imply modest forward improvement. A human reviewer should confirm whether this should be a HOLD or a marginal BUY."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2022-01-14",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2021",
+    "report_date": "2022-01-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q4\\jpm-4q21-press-release.html",
+        "pub_date": "2022-01-14"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q4\\jpm-4q21-presentation.html",
+        "pub_date": "2022-01-14"
+      }
+    ],
+    "document_id": "JPM_FQ4_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144020Z",
+    "timestamp": "2026-07-09T14:41:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q4\\jpm-4q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q4\\jpm-4q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 24070,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2021-Q4\\jpm-4q21-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 32504,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2021.txt"
+  }
+}

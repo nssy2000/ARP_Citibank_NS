@@ -1,0 +1,95 @@
+{
+  "issuer": "p2_intel",
+  "reports": [
+    {
+      "document_id": "INTC_FQ2_2025",
+      "issuer": "p2_intel",
+      "company": "Intel",
+      "ticker": "INTC",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-24",
+      "release_date": "2025-07-24",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 50863, acc 0000050863-25-000107, filed 2025-07-24 20:04:12 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/intel/CY2025-Q2/INTC_Q2_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/intel/CY2025-Q2/INTC_Q2_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "INTC_FQ3_2025",
+      "issuer": "p2_intel",
+      "company": "Intel",
+      "ticker": "INTC",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-23",
+      "release_date": "2025-10-23",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 50863, acc 0000050863-25-000169, filed 2025-10-23 20:10:22 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/intel/CY2025-Q3/INTC_Q3_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/intel/CY2025-Q3/INTC_Q3_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "INTC_FQ4_2025",
+      "issuer": "p2_intel",
+      "company": "Intel",
+      "ticker": "INTC",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-22",
+      "release_date": "2026-01-22",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 50863, acc 0000050863-26-000009, filed 2026-01-22 21:10:56 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/intel/CY2025-Q4/INTC_Q4_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/intel/CY2025-Q4/INTC_Q4_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "INTC_FQ1_2026",
+      "issuer": "p2_intel",
+      "company": "Intel",
+      "ticker": "INTC",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-23",
+      "release_date": "2026-04-23",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 50863, acc 0000050863-26-000077, filed 2026-04-23 20:07:02 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/intel/CY2026-Q1/INTC_Q1_2026_Press_Release.htm",
+          "note": "Human arm read press release only for this quarter. No transcript gathered."
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "document_id": "JPM_FQ1_2026",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The company reported strong results with net income up 13% and revenue up 10%, but the forward guidance was largely reaffirmed rather than raised. The NII ex Markets outlook of $95 billion was retained, and the adjusted expense outlook of $105 billion was also maintained, indicating a flat forward trajectory. While management expressed confidence in the business, they also highlighted significant risks including geopolitical tensions, trade uncertainty, and concerns about the G-SIB capital proposals, which tempers the positive sentiment."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $49.8 billion and managed revenue of $50.5 billion, up 10% year-over-year.",
+    "eps": "Earnings per share of $5.94, up 17% year-over-year.",
+    "guidance": "Full-year 2026 outlook: NII ex Markets of about $95 billion, total NII of approximately $103 billion, adjusted expense of about $105 billion, and Card net charge-off rate of approximately 3.4%.",
+    "margin": "Reported overhead ratio of 54% and managed overhead ratio of 53%. ROE of 19% and ROTCE of 23%.",
+    "key_risks": [
+      "Geopolitical tensions and wars",
+      "Energy price volatility",
+      "Trade uncertainty",
+      "Large global fiscal deficits",
+      "Elevated asset prices",
+      "Concerns about the G-SIB capital proposals, which could increase capital requirements and the cost of credit",
+      "Potential for a credit cycle with losses worse than expected",
+      "Cyber risk, which is considered the largest risk, and is exacerbated by AI"
+    ],
+    "key_opportunities": [
+      "Increased fiscal stimulus",
+      "Benefits of deregulation",
+      "AI-driven capital investment",
+      "Fed's asset purchases",
+      "Strong performance in Markets, Investment Banking, and Payments",
+      "Healthy net inflows in Asset & Wealth Management",
+      "Opportunities in private credit and infrastructure financing"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described the quarter as 'strong results' and expressed confidence in the business, while also acknowledging significant risks and uncertainties."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $49.8 billion and managed revenue was $50.5 billion, up 10% year-over-year.",
+      "quote": "Reported revenue of $49.8 billion and managed revenue of $50.5 billion... Net revenue was $50.5 billion, up 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share was $5.94, up 17% year-over-year.",
+      "quote": "Earnings per share - diluted: $5.94 vs. $4.63 (+$1.31, +28%) vs. $5.07 (+$0.87, +17%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance was reaffirmed, not raised.",
+      "quote": "In terms of the full year 2026 outlook, we continue to expect NII ex Markets to be about $95 billion. We now expect total NII to be approximately $103 billion... The adjusted expense outlook continues to be about $105 billion and the Card net charge-off rate continues to be approximately 3.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The reported overhead ratio was 54% and the managed overhead ratio was 53%.",
+      "quote": "Expense of $26.9 billion; reported overhead ratio of 54% and managed overhead ratio of 53%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE was 19% and ROTCE was 23%.",
+      "quote": "ROE 19% ROTCE 23%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management identified geopolitical tensions, energy price volatility, and trade uncertainty as risks.",
+      "quote": "At the same time, there is an increasingly complex set of risks -- such as geopolitical tensions and wars, energy price volatility, trade uncertainty, large global fiscal deficits and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed concerns about the G-SIB capital proposals.",
+      "quote": "The net result is that we need to plan for 5.2% in 2028, a 70 basis point increase from the current 4.5% requirement, which, when combined with the RWA increase from the Basel III endgame NPR results in a total increase of about $20 billion of G-SIB capital based on our current balance sheet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management identified fiscal stimulus, deregulation, AI investment, and Fed asset purchases as tailwinds.",
+      "quote": "Several tailwinds are supporting this resiliency, including increased fiscal stimulus, the benefits of deregulation, AI-driven capital investment and the Fed's asset purchases.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone was confident.",
+      "quote": "The Firm delivered strong results in the first quarter, reporting net income of $16.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects a future credit cycle with losses worse than expected.",
+      "quote": "And I think when there's a credit cycle, losses will be worse than people expect relative to the scenario.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cyber risk is considered the largest risk and is exacerbated by AI.",
+      "quote": "So cyber -- we've been talking about cyber risk for a long time. In fact, I think I said in the Chairman's letter, it is our largest risk... but AI has made it worse, it's made it harder.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company saw strong performance in Markets, Investment Banking, and Payments.",
+      "quote": "In the CIB, revenue grew 19%. Markets revenue reached a record $11.6 billion, while IB fees increased 28% due to stronger advisory and ECM activity. Additionally, Payments continued to deliver very strong results, with double-digit growth in deposits and fees.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asset & Wealth Management saw healthy net inflows.",
+      "quote": "Finally, in AWM, revenue increased 11%, and flows remained healthy with $54 billion of long-term AUM net inflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management sees opportunities in private credit and infrastructure financing.",
+      "quote": "I think there'll be huge capital needs of companies, a huge mergers... And so we think there will be more opportunity to serve large clients in the ways that they need it, over time, and that could be M&A, it could be countries, it could be helping them build the infrastructure they need.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly positive despite reaffirmed guidance. The strong results and confident tone are balanced against the flat forward guidance and significant risks. A human reviewer should verify this balance is appropriate."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance is a mix of reaffirmed and slightly adjusted figures. The total NII was adjusted to $103 billion from a prior expectation, but the ex-Markets NII and expense outlook were reaffirmed. A human reviewer should confirm the interpretation of 'reaffirmed' vs 'raised'."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2026-04-14",
+  "report_metadata": {
+    "issuer": "p2_jpm",
+    "company": "JPMorgan",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2026-Q1\\jpm-1q26-press-release.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2026-Q1\\jpm-1q26-earnings-call-transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JPM_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260804T101017Z",
+    "timestamp": "2026-08-04T10:10:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2026-Q1\\jpm-1q26-press-release.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2026-Q1\\jpm-1q26-press-release.txt",
+        "page_count": 1,
+        "extracted_characters": 22128,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\jpm\\phase2\\CY2026-Q1\\jpm-1q26-earnings-call-transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 66340,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_jpm\\extracted\\JPM_FQ1_2026.txt"
+  }
+}

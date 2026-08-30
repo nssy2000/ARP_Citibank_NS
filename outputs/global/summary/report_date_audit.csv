@@ -1,0 +1,262 @@
+# Report date audit: report_date vs EDGAR-verified release date
+# Generated: 2026-08-12
+# Source: EDGAR 8-K Item 2.02 (US filers) and 6-K (Spotify)
+# Non-US issuers and LMT are excluded (no EDGAR 8-K)
+#
+# CORRECTION (2026-08-11): The GS +3 gaps (GS_FQ1_2025: report_date 2025-04-11
+# vs release 2025-04-14; GS_FQ1_2026: report_date 2026-04-10 vs release
+# 2026-04-13) are NOT weekend artifacts. 2025-04-11 and 2026-04-10 are Fridays;
+# the EDGAR 8-K was filed the following Monday. GS released earnings on Monday,
+# not Friday. These are report_date errors of the same class as JPM_FQ1_2025
+# (report_date one trading session before the actual release), not benign
+# calendar gaps. release_date is the correct anchor for these events.
+#
+# NOTE (2026-08-11): HOOD_FQ3_2025: two Item 2.02 candidates (2025-11-05 and
+# 2025-10-31). The 2025-11-05 match is correct per Robinhood IR (results
+# announced Nov 5 after close). The 2025-10-31 candidate is likely a different
+# filing or an amended 8-K. This is the single weakest anchor -- the only event
+# where proximity was used as a tiebreaker between two Item 2.02 filings, but
+# independently confirmed correct. The primaryDocument filename hood-20251030.htm
+# carries the fiscal period end date, not the release date.
+#
+# NOTE (2026-08-11): LOW_FQ1_2025 has report_date=2026-05-21 but EDGAR 8-K filed
+# 2026-05-20. Lowe's released Q1 FY2026 results on May 20, 2026 (earnings call
+# at 9am ET, press release same day). report_date is wrong by +1 day.
+# release_date (2026-05-20) is the correct anchor.
+#
+document_id,ticker,issuer,report_date,verified_release_date,gap_days,direction,primary_document,report_date_corrected,entry_shifted_vs_legacy
+AAPL_FQ1_2026,AAPL,p2_apple,2026-01-29,2026-01-29,0,match,aapl-20260129.htm,NO,NO
+AAPL_FQ3_2025,AAPL,p2_apple,2025-07-31,2025-07-31,0,match,aapl-20250731.htm,NO,NO
+AAPL_FQ4_2025,AAPL,p2_apple,2025-10-30,2025-10-30,0,match,aapl-20251030.htm,NO,NO
+ABNB_FQ1_2026,ABNB,p2_airbnb,2026-05-07,2026-05-07,0,match,d23351d8k.htm,NO,NO
+ABNB_FQ2_2025,ABNB,p2_airbnb,2025-08-06,2025-08-06,0,match,d17531d8k.htm,NO,NO
+ABNB_FQ3_2025,ABNB,p2_airbnb,2025-11-06,2025-11-06,0,match,d40503d8k.htm,NO,NO
+ABNB_FQ4_2025,ABNB,p2_airbnb,2026-02-12,2026-02-12,0,match,d58192d8k.htm,NO,NO
+AMD_FQ1_2026,AMD,p2_amd,2026-05-05,2026-05-05,0,match,amd-20260505.htm,NO,NO
+AMD_FQ2_2025,AMD,p2_amd,2025-08-05,2025-08-05,0,match,amd-20250805.htm,NO,NO
+AMD_FQ4_2025,AMD,p2_amd,2026-02-03,2026-02-03,0,match,amd-20260203.htm,NO,NO
+AMZN_FQ1_2026,AMZN,p2_amazon,2026-04-29,2026-04-29,0,match,amzn-20260429.htm,NO,NO
+AMZN_FQ3_2025,AMZN,p2_amazon,2025-10-30,2025-10-30,0,match,amzn-20251030.htm,NO,NO
+AMZN_FQ4_2025,AMZN,p2_amazon,2026-02-05,2026-02-05,0,match,amzn-20260205.htm,NO,NO
+AVGO_FQ1_2026,AVGO,p2_broadcom,2026-03-04,2026-03-04,0,match,avgo-20260304.htm,NO,NO
+AVGO_FQ3_2025,AVGO,p2_broadcom,2025-09-04,2025-09-04,0,match,avgo-20250904.htm,NO,NO
+AVGO_FQ4_2025,AVGO,p2_broadcom,2025-12-11,2025-12-11,0,match,avgo-20251211.htm,NO,NO
+BAC_FQ1_2025,BAC,p2_bank_of_america,2025-04-15,2025-04-15,0,match,bac-20250415.htm,NO,YES
+BAC_FQ2_2025,BAC,p2_bank_of_america,2025-07-15,2025-07-16,1,release AFTER,bac-20250716.htm,YES,NO
+BAC_FQ3_2025,BAC,p2_bank_of_america,2025-10-14,2025-10-15,1,release AFTER,bac-20251015.htm,YES,NO
+BAC_FQ4_2025,BAC,p2_bank_of_america,2026-01-13,2026-01-14,1,release AFTER,bac-20260114.htm,YES,NO
+BA_FQ1_2025,BA,p2_boeing,2025-04-23,2025-04-23,0,match,ba-20250423.htm,NO,YES
+BA_FQ2_2025,BA,p2_boeing,2025-07-29,2025-07-29,0,match,ba-20250729.htm,NO,YES
+BA_FQ3_2025,BA,p2_boeing,2025-10-29,2025-10-29,0,match,ba-20251029.htm,NO,YES
+BA_FQ4_2025,BA,p2_boeing,2026-01-26,2026-01-27,1,release AFTER,ba-20260127.htm,YES,NO
+BKNG_FQ2_2025,BKNG,p2_booking_holdings,2025-07-29,2025-07-29,0,match,bkng-20250729.htm,NO,NO
+BKNG_FQ3_2025,BKNG,p2_booking_holdings,2025-10-28,2025-10-28,0,match,bkng-20251028.htm,NO,NO
+BKNG_FQ4_2025,BKNG,p2_booking_holdings,2026-02-18,2026-02-18,0,match,bkng-20260218.htm,NO,NO
+CAT_FQ2_2025,CAT,p2_caterpillar,2025-08-04,2025-08-05,1,release AFTER,cat-20250805.htm,YES,NO
+CAT_FQ3_2025,CAT,p2_caterpillar,2025-10-28,2025-10-29,1,release AFTER,cat-20251029.htm,YES,NO
+CAT_FQ4_2025,CAT,p2_caterpillar,2026-01-28,2026-01-29,1,release AFTER,cat-20260129.htm,YES,NO
+CMCSA_FQ1_2025,CMCSA,p2_comcast_corporation,2025-04-23,2025-04-24,1,release AFTER,cmcsa-20250424.htm,YES,NO
+CMCSA_FQ1_2026,CMCSA,p2_comcast_corporation,2026-04-22,2026-04-23,1,release AFTER,cmcsa-20260423.htm,YES,NO
+CMCSA_FQ2_2025,CMCSA,p2_comcast_corporation,2025-07-30,2025-07-31,1,release AFTER,cmcsa-20250731.htm,YES,NO
+CMCSA_FQ4_2025,CMCSA,p2_comcast_corporation,2026-01-28,2026-01-29,1,release AFTER,cmcsa-20260129.htm,YES,NO
+CMG_FQ1_2025,CMG,p2_chipotle,2025-04-23,2025-04-23,0,match,cmg-20250423.htm,NO,NO
+CMG_FQ2_2025,CMG,p2_chipotle,2025-07-23,2025-07-23,0,match,cmg-20250723.htm,NO,NO
+CMG_FQ3_2025,CMG,p2_chipotle,2025-10-29,2025-10-29,0,match,cmg-20251029.htm,NO,NO
+CMG_FQ4_2025,CMG,p2_chipotle,2026-02-03,2026-02-03,0,match,cmg-20260203.htm,NO,NO
+COIN_FQ1_2026,COIN,p2_coinbase,2026-05-07,2026-05-07,0,match,coin-20260507.htm,NO,NO
+COIN_FQ3_2025,COIN,p2_coinbase,2025-10-30,2025-10-30,0,match,coin-20251030.htm,NO,NO
+COIN_FQ4_2025,COIN,p2_coinbase,2026-02-12,2026-02-12,0,match,coin-20260212.htm,NO,NO
+CRM_FQ2_2026,CRM,p2_salesforce,2025-09-03,2025-09-03,0,match,crm-20250903.htm,NO,NO
+CRM_FQ3_2026,CRM,p2_salesforce,2025-12-03,2025-12-03,0,match,crm-20251203.htm,NO,NO
+CRM_FQ4_2026,CRM,p2_salesforce,2026-02-25,2026-02-25,0,match,crm-20260225.htm,NO,NO
+CVS_FQ1_2026,CVS,p2_cvs_health,2026-05-06,2026-05-06,0,match,cvs-20260506.htm,NO,YES
+CVS_FQ2_2025,CVS,p2_cvs_health,2025-07-31,2025-07-31,0,match,cvs-20250731.htm,NO,YES
+CVS_FQ3_2025,CVS,p2_cvs_health,2025-10-29,2025-10-29,0,match,cvs-20251029.htm,NO,YES
+CVS_FQ4_2025,CVS,p2_cvs_health,2026-02-10,2026-02-10,0,match,cvs-20260210.htm,NO,YES
+C_FQ1_2025,C,p2_citigroup,2025-04-15,2025-04-15,0,match,c-20240712x8k.htm,NO,YES
+C_FQ2_2025,C,p2_citigroup,2025-07-15,2025-07-15,0,match,c-20250715x8k.htm,NO,YES
+C_FQ3_2025,C,p2_citigroup,2025-10-14,2025-10-14,0,match,c-20251014x8k.htm,NO,YES
+C_FQ4_2025,C,p2_citigroup,2026-01-14,2026-01-14,0,match,c-20260114x8k.htm,NO,YES
+DAL_FQ1_2025,DAL,p2_delta_air_lines,2025-04-09,2025-04-09,0,match,delta_8k.htm,NO,YES
+DAL_FQ2_2025,DAL,p2_delta_air_lines,2025-07-10,2025-07-10,0,match,delta_8k.htm,NO,YES
+DAL_FQ3_2025,DAL,p2_delta_air_lines,2025-10-09,2025-10-09,0,match,dal-20251009.htm,NO,YES
+DAL_FQ4_2025,DAL,p2_delta_air_lines,2026-01-13,2026-01-13,0,match,dal-20260112.htm,NO,YES
+DELL_FQ1_2025,DELL,p2_dell,2025-05-29,2025-05-29,0,match,dell-20250529.htm,NO,NO
+DELL_FQ3_2025,DELL,p2_dell,2025-11-25,2025-11-25,0,match,dell-20251125.htm,NO,NO
+DELL_FQ4_2025,DELL,p2_dell,2026-02-26,2026-02-26,0,match,dell-20260226.htm,NO,NO
+DIS_FQ1_2025,DIS,p2_disney,2025-02-05,2025-02-05,0,match,dis-20250205.htm,NO,YES
+DIS_FQ3_2025,DIS,p2_disney,2025-08-05,2025-08-06,1,release AFTER,dis-20250806.htm,YES,NO
+DIS_FQ4_2025,DIS,p2_disney,2025-11-12,2025-11-13,1,release AFTER,dis-20251113.htm,YES,NO
+EXPE_FQ1_2025,EXPE,p2_expedia,2025-05-08,2025-05-08,0,match,expe-20250508.htm,NO,NO
+EXPE_FQ1_2026,EXPE,p2_expedia,2026-05-07,2026-05-07,0,match,expe-20260507.htm,NO,NO
+EXPE_FQ2_2025,EXPE,p2_expedia,2025-08-07,2025-08-07,0,match,expe-20250807.htm,NO,NO
+EXPE_FQ4_2025,EXPE,p2_expedia,2026-02-12,2026-02-12,0,match,expe-20260212.htm,NO,NO
+FDX_FQ1_2026,FDX,p2_fedex,2025-09-18,2025-09-18,0,match,fdx-20250918.htm,NO,NO
+FDX_FQ2_2026,FDX,p2_fedex,2025-12-18,2025-12-18,0,match,fdx-20251218.htm,NO,NO
+FDX_FQ3_2026,FDX,p2_fedex,2026-03-19,2026-03-19,0,match,fdx-20260319.htm,NO,NO
+FDX_FQ4_2026,FDX,p2_fedex,2026-06-23,2026-06-23,0,match,fdx-20260623.htm,NO,NO
+F_FQ1_2026,F,p2_ford,2026-04-29,2026-04-29,0,match,f-20260429.htm,NO,NO
+F_FQ2_2025,F,p2_ford,2025-07-30,2025-07-30,0,match,f-20250730.htm,NO,NO
+F_FQ4_2025,F,p2_ford,2026-02-10,2026-02-10,0,match,f-20260210.htm,NO,NO
+GIS_FQ2_2026,GIS,p2_general_mills,2025-12-17,2025-12-17,0,match,gis-20251217.htm,NO,YES
+GIS_FQ3_2026,GIS,p2_general_mills,2026-03-18,2026-03-18,0,match,gis-20260318.htm,NO,YES
+GIS_FQ4_2026,GIS,p2_general_mills,2026-07-01,2026-07-01,0,match,gis-20260701.htm,NO,YES
+GOOGL_FQ1_2026,GOOGL,p2_alphabet,2026-04-29,2026-04-29,0,match,goog-20260429.htm,NO,NO
+GOOGL_FQ3_2025,GOOGL,p2_alphabet,2025-10-29,2025-10-29,0,match,goog-20251029.htm,NO,NO
+GOOGL_FQ4_2025,GOOGL,p2_alphabet,2026-02-04,2026-02-04,0,match,goog-20260204.htm,NO,NO
+GS_FQ1_2025,GS,p2_goldman_sachs,2025-04-11,2025-04-14,3,release AFTER,d750054d8k.htm,YES,NO
+GS_FQ1_2026,GS,p2_goldman_sachs,2026-04-10,2026-04-13,3,release AFTER,gs-20260413.htm,YES,NO
+GS_FQ2_2025,GS,p2_goldman_sachs,2025-07-15,2025-07-16,1,release AFTER,d41877d8k.htm,YES,NO
+GS_FQ2_2026,GS,p2_goldman_sachs,2026-07-13,2026-07-14,1,release AFTER,gs-20260714.htm,YES,NO
+GS_FQ3_2025,GS,p2_goldman_sachs,2025-10-13,2025-10-14,1,release AFTER,d899312d8k.htm,YES,NO
+GS_FQ4_2025,GS,p2_goldman_sachs,2026-01-14,2026-01-15,1,release AFTER,gs-20260115.htm,YES,NO
+HLT_FQ1_2025,HLT,p2_hilton,2025-04-29,2025-04-29,0,match,hlt-20250429.htm,NO,YES
+HLT_FQ1_2026,HLT,p2_hilton,2026-04-28,2026-04-28,0,match,hlt-20260428.htm,NO,YES
+HLT_FQ2_2025,HLT,p2_hilton,2025-07-23,2025-07-23,0,match,hlt-20250723.htm,NO,YES
+HLT_FQ3_2024,HLT,p2_hilton,2024-10-23,2024-10-23,0,match,hlt-20241023.htm,NO,YES
+HLT_FQ4_2025,HLT,p2_hilton,2026-02-11,2026-02-11,0,match,hlt-20260211.htm,NO,YES
+HOOD_FQ1_2025,HOOD,p2_robinhood_markets,2025-04-30,2025-04-30,0,match,hood-20250430.htm,NO,NO
+HOOD_FQ1_2026,HOOD,p2_robinhood_markets,2026-04-28,2026-04-28,0,match,hood-20260428.htm,NO,NO
+HOOD_FQ2_2025,HOOD,p2_robinhood_markets,2025-07-30,2025-07-30,0,match,hood-20250730.htm,NO,NO
+HOOD_FQ3_2025,HOOD,p2_robinhood_markets,2025-11-05,2025-11-05,0,match,hood-20251030.htm,NO,NO
+IBM_FQ1_2026,IBM,p2_ibm,2026-04-22,2026-04-22,0,match,ibm-20260422.htm,NO,NO
+IBM_FQ2_2025,IBM,p2_ibm,2025-07-23,2025-07-23,0,match,ibm-20250723.htm,NO,NO
+IBM_FQ4_2025,IBM,p2_ibm,2026-01-28,2026-01-28,0,match,ibm-20260128.htm,NO,NO
+JNJ_FQ1_2025,JNJ,p2_johnson_johnson,2025-04-14,2025-04-15,1,release AFTER,jnj-20250415.htm,YES,NO
+JNJ_FQ2_2025,JNJ,p2_johnson_johnson,2025-07-15,2025-07-16,1,release AFTER,jnj-20250716.htm,YES,NO
+JNJ_FQ3_2025,JNJ,p2_johnson_johnson,2025-10-13,2025-10-14,1,release AFTER,jnj-20251014.htm,YES,NO
+JPM_FQ1_2025,JPM,p2_jpm,2025-04-10,2025-04-11,1,release AFTER,jpm-20250411.htm,YES,NO
+JPM_FQ1_2026,JPM,p2_jpm,2026-04-14,2026-04-14,0,match,jpm-20260414.htm,NO,YES
+JPM_FQ2_2025,JPM,p2_jpm,2025-07-15,2025-07-15,0,match,jpm-20250715.htm,NO,YES
+JPM_FQ3_2025,JPM,p2_jpm,2025-10-14,2025-10-14,0,match,jpm-20251014.htm,NO,YES
+JPM_FQ4_2025,JPM,p2_jpm,2026-01-13,2026-01-13,0,match,jpm-20260113.htm,NO,YES
+KHC_FQ1_2025,KHC,p2_kraft_heinz,2026-02-11,2026-02-11,0,match,khc-20260211.htm,NO,YES
+KHC_FQ1_2026,KHC,p2_kraft_heinz,2026-05-06,2026-05-06,0,match,khc-20260506.htm,NO,YES
+KHC_FQ4_2024,KHC,p2_kraft_heinz,2025-02-12,2025-02-12,0,match,khc-20250212.htm,NO,YES
+KO_FQ1_2026,KO,p2_coca_cola,2026-04-28,2026-04-28,0,match,ko-20260428.htm,NO,YES
+KO_FQ2_2025,KO,p2_coca_cola,2025-07-22,2025-07-22,0,match,ko-20250722.htm,NO,YES
+KO_FQ4_2025,KO,p2_coca_cola,2026-02-10,2026-02-10,0,match,ko-20260210.htm,NO,YES
+LIN_FQ1_2026,LIN,p2_linde,2026-05-01,2026-05-01,0,match,lin_8k.htm,NO,YES
+LIN_FQ2_2025,LIN,p2_linde,2025-08-01,2025-08-01,0,match,lin_8k.htm,NO,YES
+LIN_FQ3_2025,LIN,p2_linde,2025-10-31,2025-10-31,0,match,lin_8k.htm,NO,YES
+LLY_FQ1_2026,LLY,p2_eli_lilly,2026-04-29,2026-04-30,1,release AFTER,lly-20260430.htm,YES,NO
+LLY_FQ3_2025,LLY,p2_eli_lilly,2025-10-29,2025-10-30,1,release AFTER,lly-20251030.htm,YES,NO
+LLY_FQ4_2025,LLY,p2_eli_lilly,2026-02-03,2026-02-04,1,release AFTER,lly-20260204.htm,YES,NO
+LOW_FQ1_2025,LOW,p2_lowes,2026-05-21,2026-05-20,-1,release BEFORE,low-20260520.htm,YES,NO
+LOW_FQ1_2026,LOW,p2_lowes,2026-05-20,2026-05-20,0,match,low-20260520.htm,NO,YES
+LOW_FQ2_2025,LOW,p2_lowes,2025-08-20,2025-08-20,0,match,low-20250820.htm,NO,YES
+LOW_FQ3_2025,LOW,p2_lowes,2025-11-19,2025-11-19,0,match,low-20251119.htm,NO,YES
+LOW_FQ4_2025,LOW,p2_lowes,2026-02-25,2026-02-25,0,match,low-20260225.htm,NO,YES
+LULU_FQ1_2026,LULU,p2_lululemon,2026-06-04,2026-06-04,0,match,lulu-20260604.htm,NO,NO
+LULU_FQ3_2025,LULU,p2_lululemon,2025-12-11,2025-12-11,0,match,lulu-20251203.htm,NO,NO
+LULU_FQ4_2025,LULU,p2_lululemon,2026-03-17,2026-03-17,0,match,lulu-20260317.htm,NO,NO
+MAR_FQ1_2026,MAR,p2_marriott,2026-05-06,2026-05-06,0,match,mar-20260506.htm,NO,YES
+MAR_FQ2_2025,MAR,p2_marriott,2025-08-05,2025-08-05,0,match,mar-20250805.htm,NO,YES
+MAR_FQ3_2025,MAR,p2_marriott,2025-11-04,2025-11-04,0,match,mar-20251104.htm,NO,YES
+MAR_FQ4_2025,MAR,p2_marriott,2026-02-10,2026-02-10,0,match,mar-20260210.htm,NO,YES
+MCD_FQ1_2026,MCD,p2_mcdonalds,2026-05-07,2026-05-07,0,match,mcd-20260507.htm,NO,YES
+MCD_FQ4_2024,MCD,p2_mcdonalds,2025-02-10,2025-02-10,0,match,mcd-20250210.htm,NO,YES
+MCD_FQ4_2025,MCD,p2_mcdonalds,2026-02-11,2026-02-11,0,match,mcd-20260211.htm,NO,YES
+META_FQ1_2026,META,p2_meta,2026-04-29,2026-04-29,0,match,meta-20260429.htm,NO,NO
+META_FQ3_2025,META,p2_meta,2025-10-29,2025-10-29,0,match,meta-20251029.htm,NO,NO
+META_FQ4_2025,META,p2_meta,2026-01-28,2026-01-28,0,match,meta-20260128.htm,NO,NO
+MET_FQ1_2026,MET,p2_metlife,2026-05-06,2026-05-06,0,match,met-20260506.htm,NO,NO
+MET_FQ2_2024,MET,p2_metlife,2024-07-31,2024-07-31,0,match,met-20240731.htm,NO,NO
+MET_FQ2_2025,MET,p2_metlife,2025-08-06,2025-08-06,0,match,met-20250806.htm,NO,NO
+MET_FQ3_2024,MET,p2_metlife,2024-10-30,2024-10-30,0,match,met-20241030.htm,NO,NO
+MET_FQ3_2025,MET,p2_metlife,2025-11-05,2025-11-05,0,match,met-20251105.htm,NO,NO
+MET_FQ4_2025,MET,p2_metlife,2026-02-04,2026-02-04,0,match,met-20260204.htm,NO,NO
+MSFT_FQ1_2025,MSFT,p2_microsoft,2024-10-30,2024-10-30,0,match,msft-20241030.htm,NO,NO
+MSFT_FQ1_2026,MSFT,p2_microsoft,2025-10-29,2025-10-29,0,match,msft-20251028.htm,NO,NO
+MSFT_FQ2_2025,MSFT,p2_microsoft,2025-01-29,2025-01-29,0,match,msft-20250129.htm,NO,NO
+MU_FQ1_2026,MU,p2_micron,2025-12-17,2025-12-17,0,match,mu-20251217.htm,NO,NO
+MU_FQ2_2026,MU,p2_micron,2026-03-18,2026-03-18,0,match,mu-20260318.htm,NO,NO
+MU_FQ4_2025,MU,p2_micron,2025-09-23,2025-09-23,0,match,mu-20250923.htm,NO,NO
+NFLX_FQ1_2025,NFLX,p2_netflix,2025-04-17,2025-04-17,0,match,nflx-20250411.htm,NO,NO
+NFLX_FQ1_2026,NFLX,p2_netflix,2026-04-16,2026-04-16,0,match,nflx-20260410.htm,NO,NO
+NFLX_FQ2_2025,NFLX,p2_netflix,2025-07-17,2025-07-17,0,match,nflx-20250717.htm,NO,NO
+NFLX_FQ3_2025,NFLX,p2_netflix,2025-10-21,2025-10-21,0,match,nflx-20251021.htm,NO,NO
+NFLX_FQ4_2024,NFLX,p2_netflix,2025-01-21,2025-01-21,0,match,nflx-20250121.htm,NO,NO
+NFLX_FQ4_2025,NFLX,p2_netflix,2026-01-20,2026-01-20,0,match,nflx-20260120.htm,NO,NO
+NKE_FQ1_2025,NKE,p2_nike,2024-10-01,2024-10-01,0,match,nke-20241001.htm,NO,NO
+NKE_FQ2_2025,NKE,p2_nike,2024-12-19,2024-12-19,0,match,nke-20241219.htm,NO,NO
+NKE_FQ3_2025,NKE,p2_nike,2025-03-20,2025-03-20,0,match,nke-20250320.htm,NO,NO
+NVDA_FQ1_2025,NVDA,p2_nvidia,2025-02-26,2025-02-26,0,match,nvda-20250226.htm,NO,NO
+NVDA_FQ2_2025,NVDA,p2_nvidia,2025-05-28,2025-05-28,0,match,nvda-20250528.htm,NO,NO
+NVDA_FQ3_2025,NVDA,p2_nvidia,2025-08-27,2025-08-27,0,match,nvda-20250827.htm,NO,NO
+NVDA_FQ4_2025,NVDA,p2_nvidia,2025-11-19,2025-11-19,0,match,nvda-20251119.htm,NO,NO
+ORCL_FQ1_2026,ORCL,p2_oracle,2025-09-09,2025-09-09,0,match,orcl-20250909.htm,NO,NO
+ORCL_FQ2_2026,ORCL,p2_oracle,2025-12-10,2025-12-10,0,match,orcl-20251210.htm,NO,NO
+ORCL_FQ3_2026,ORCL,p2_oracle,2026-03-10,2026-03-10,0,match,orcl-20260310.htm,NO,NO
+PEP_FQ1_2023,PEP,p2_pepsico,2023-04-25,2023-04-25,0,match,pep-20230425.htm,NO,YES
+PEP_FQ1_2024,PEP,p2_pepsico,2024-04-23,2024-04-23,0,match,pep-20240423.htm,NO,YES
+PEP_FQ1_2025,PEP,p2_pepsico,2025-04-24,2025-04-24,0,match,pep-20250424.htm,NO,YES
+PEP_FQ1_2026,PEP,p2_pepsico,2026-04-16,2026-04-16,0,match,pep-20260416.htm,NO,YES
+PEP_FQ2_2023,PEP,p2_pepsico,2023-07-13,2023-07-13,0,match,pep-20230713.htm,NO,YES
+PEP_FQ2_2024,PEP,p2_pepsico,2024-07-11,2024-07-11,0,match,pep-20240711.htm,NO,YES
+PEP_FQ2_2025,PEP,p2_pepsico,2025-07-17,2025-07-17,0,match,pep-20250717.htm,NO,YES
+PEP_FQ2_2026,PEP,p2_pepsico,2026-07-09,2026-07-09,0,match,pep-20260709.htm,NO,YES
+PEP_FQ3_2023,PEP,p2_pepsico,2023-10-10,2023-10-10,0,match,pep-20231010.htm,NO,YES
+PEP_FQ3_2024,PEP,p2_pepsico,2024-10-08,2024-10-08,0,match,pep-20241004.htm,NO,YES
+PEP_FQ3_2025,PEP,p2_pepsico,2025-10-09,2025-10-09,0,match,pep-20251003.htm,NO,YES
+PEP_FQ4_2023,PEP,p2_pepsico,2024-02-09,2024-02-09,0,match,pep-20240209.htm,NO,YES
+PEP_FQ4_2024,PEP,p2_pepsico,2025-02-04,2025-02-04,0,match,pep-20250204.htm,NO,YES
+PEP_FQ4_2025,PEP,p2_pepsico,2026-02-03,2026-02-03,0,match,pep-20260203.htm,NO,YES
+PFE_FQ1_2025,PFE,p2_pfizer,2025-04-28,2025-04-29,1,release AFTER,pfe-20250429.htm,YES,NO
+PFE_FQ1_2026,PFE,p2_pfizer,2026-05-04,2026-05-05,1,release AFTER,pfe-20260505.htm,YES,NO
+PFE_FQ2_2025,PFE,p2_pfizer,2025-08-04,2025-08-05,1,release AFTER,pfe-20250805.htm,YES,NO
+PFE_FQ4_2025,PFE,p2_pfizer,2026-02-02,2026-02-03,1,release AFTER,pfe-20260203.htm,YES,NO
+PINS_FQ1_2026,PINS,p2_pinterest,2026-05-04,2026-05-04,0,match,pins-20260430.htm,NO,NO
+PINS_FQ4_2024,PINS,p2_pinterest,2025-02-06,2025-02-06,0,match,pins-20250206.htm,NO,NO
+PINS_FQ4_2025,PINS,p2_pinterest,2026-02-12,2026-02-12,0,match,pins-20260212.htm,NO,NO
+PLTR_FQ1_2025,PLTR,p2_palantir,2025-05-05,2025-05-05,0,match,pltr-20250505.htm,NO,NO
+PLTR_FQ2_2025,PLTR,p2_palantir,2025-08-04,2025-08-04,0,match,pltr-20250804.htm,NO,NO
+PLTR_FQ3_2025,PLTR,p2_palantir,2025-11-03,2025-11-03,0,match,pltr-20251103.htm,NO,NO
+PLTR_FQ4_2025,PLTR,p2_palantir,2026-02-02,2026-02-02,0,match,pltr-20260202.htm,NO,NO
+PYPL_FQ1_2025,PYPL,p2_paypal,2025-04-29,2025-04-29,0,match,pypl-20250429.htm,NO,YES
+PYPL_FQ1_2026,PYPL,p2_paypal,2026-05-05,2026-05-05,0,match,pypl-20260505.htm,NO,YES
+PYPL_FQ2_2025,PYPL,p2_paypal,2025-07-29,2025-07-29,0,match,pypl-20250729.htm,NO,YES
+PYPL_FQ3_2025,PYPL,p2_paypal,2025-10-28,2025-10-28,0,match,pypl-20251028.htm,NO,YES
+SBUX_FQ1_2026,SBUX,p2_starbucks,2026-01-27,2026-01-28,1,release AFTER,sbux-20260128.htm,YES,YES
+SBUX_FQ3_2025,SBUX,p2_starbucks,2025-07-29,2025-07-29,0,match,sbux-20250729.htm,NO,NO
+SBUX_FQ4_2025,SBUX,p2_starbucks,2025-10-29,2025-10-29,0,match,sbux-20251029.htm,NO,NO
+SCHW_FQ1_2025,SCHW,p2_charles_schwab,2025-04-16,2025-04-17,1,release AFTER,schw-20250417.htm,YES,YES
+SCHW_FQ1_2026,SCHW,p2_charles_schwab,2026-04-15,2026-04-16,1,release AFTER,schw-20260416.htm,YES,YES
+SCHW_FQ2_2025,SCHW,p2_charles_schwab,2025-07-17,2025-07-18,1,release AFTER,schw-20250718.htm,YES,YES
+SCHW_FQ3_2025,SCHW,p2_charles_schwab,2025-10-15,2025-10-16,1,release AFTER,schw-20251016.htm,YES,YES
+SCHW_FQ4_2025,SCHW,p2_charles_schwab,2026-01-20,2026-01-21,1,release AFTER,schw-20260121.htm,YES,YES
+SPOT_FQ1_2026,SPOT,p2_spotify,2026-04-28,2026-04-28,0,match,spot-20260331x6xk.htm,NO,YES
+SPOT_FQ2_2025,SPOT,p2_spotify,2025-07-29,2025-07-29,0,match,spot-20250630x6xk.htm,NO,YES
+SPOT_FQ3_2025,SPOT,p2_spotify,2025-11-04,2025-11-04,0,match,spot-20250930x6xk.htm,NO,YES
+SPOT_FQ4_2025,SPOT,p2_spotify,2026-02-10,2026-02-10,0,match,ef20065075_6k.htm,NO,YES
+TGT_FQ1_2025,TGT,p2_target,2025-05-21,2025-05-21,0,match,tgt-20250521.htm,NO,YES
+TGT_FQ1_2026,TGT,p2_target,2026-05-20,2026-05-20,0,match,tgt-20260520.htm,NO,YES
+TGT_FQ2_2025,TGT,p2_target,2025-08-20,2025-08-20,0,match,tgt-20250820.htm,NO,YES
+TGT_FQ3_2025,TGT,p2_target,2025-11-19,2025-11-19,0,match,tgt-20251119.htm,NO,YES
+TSLA_FQ1_2026,TSLA,p2_tesla,2026-04-22,2026-04-22,0,match,tsla-20260422.htm,NO,NO
+TSLA_FQ3_2025,TSLA,p2_tesla,2025-10-22,2025-10-22,0,match,tsla-20251022.htm,NO,NO
+TSLA_FQ4_2025,TSLA,p2_tesla,2026-01-28,2026-01-28,0,match,tsla-20260128.htm,NO,NO
+UAL_FQ1_2025,UAL,p2_united_airlines,2025-04-15,2025-04-15,0,match,ual-20250415.htm,NO,NO
+UAL_FQ2_2025,UAL,p2_united_airlines,2025-07-16,2025-07-16,0,match,ual-20250716.htm,NO,NO
+UAL_FQ3_2025,UAL,p2_united_airlines,2025-10-15,2025-10-15,0,match,ual-20251015.htm,NO,NO
+UAL_FQ4_2025,UAL,p2_united_airlines,2026-01-20,2026-01-20,0,match,ual-20260120.htm,NO,NO
+UBER_FQ1_2025,UBER,p2_uber,2025-05-06,2025-05-07,1,release AFTER,uber-20250507.htm,YES,NO
+UBER_FQ1_2026,UBER,p2_uber,2026-05-05,2026-05-06,1,release AFTER,uber-20260506.htm,YES,NO
+UBER_FQ2_2025,UBER,p2_uber,2025-08-05,2025-08-06,1,release AFTER,uber-20250728.htm,YES,NO
+UBER_FQ4_2025,UBER,p2_uber,2026-02-03,2026-02-04,1,release AFTER,uber-20260130.htm,YES,NO
+UNH_FQ2_2025,UNH,p2_unitedhealth,2025-07-28,2025-07-29,1,release AFTER,unh-20250729.htm,YES,NO
+UNH_FQ3_2025,UNH,p2_unitedhealth,2025-10-27,2025-10-28,1,release AFTER,unh-20251028.htm,YES,NO
+UNH_FQ4_2025,UNH,p2_unitedhealth,2026-01-26,2026-01-27,1,release AFTER,unh-20260127.htm,YES,NO
+V_FQ1_2025,V,p2_visa,2025-04-28,2025-04-29,1,release AFTER,v-20250429.htm,YES,YES
+V_FQ1_2026,V,p2_visa,2026-04-28,2026-04-28,0,match,v-20260428.htm,NO,NO
+V_FQ2_2025,V,p2_visa,2025-07-29,2025-07-29,0,match,v-20250729.htm,NO,NO
+V_FQ3_2025,V,p2_visa,2025-10-28,2025-10-28,0,match,v-20251028.htm,NO,NO
+WDAY_FQ1_2025,WDAY,p2_workday,2025-05-22,2025-05-22,0,match,wday-20250522.htm,NO,NO
+WDAY_FQ2_2025,WDAY,p2_workday,2025-08-21,2025-08-21,0,match,wday-20250821.htm,NO,NO
+WDAY_FQ3_2025,WDAY,p2_workday,2025-11-25,2025-11-25,0,match,wday-20251125.htm,NO,NO
+WDAY_FQ4_2025,WDAY,p2_workday,2026-02-24,2026-02-24,0,match,wday-20260224.htm,NO,NO
+WMT_FQ1_2025,WMT,p2_walmart,2025-05-14,2025-05-15,1,release AFTER,wmt-20250515.htm,YES,NO
+WMT_FQ1_2026,WMT,p2_walmart,2026-05-20,2026-05-21,1,release AFTER,wmt-20260521.htm,YES,NO
+WMT_FQ2_2025,WMT,p2_walmart,2025-08-20,2025-08-21,1,release AFTER,wmt-20250821.htm,YES,NO
+WMT_FQ3_2025,WMT,p2_walmart,2025-11-19,2025-11-20,1,release AFTER,wmt-20251119.htm,YES,NO
+WMT_FQ4_2025,WMT,p2_walmart,2026-02-18,2026-02-19,1,release AFTER,wmt-20260219.htm,YES,NO

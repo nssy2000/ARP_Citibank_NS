@@ -1,0 +1,58 @@
+{
+  "document_id": "DAL_FQ1_2025_QUANT",
+  "base_document_id": "DAL_FQ1_2025",
+  "issuer": "p2_delta_air_lines",
+  "ticker": "DAL",
+  "sector": "Industrials/Airlines",
+  "report_date": "2025-04-09",
+  "sentiment": {
+    "score": -0.156529
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.287105,
+      "window_start_date": "2025-03-10",
+      "window_end_date": "2025-04-08",
+      "score": -0.957423,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.621175,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 19.14,
+      "matched_earnings_date": "2025-04-09",
+      "score": 0.644364,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 33.62,
+      "vix_score": -0.750748,
+      "tnx_change": 0.112,
+      "tnx_score": -0.220327,
+      "score": -0.485538,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-04-08",
+      "curve_spread": 0.55,
+      "curve_score": 0.50052,
+      "curve_as_of": "2025-04-08",
+      "score": 0.25026,
+      "available": true
+    },
+    "quant_score": -0.156529,
+    "quant_score_with_macro": -0.321034,
+    "quant_score_with_fred": 0.046865,
+    "quant_score_with_macro_fred": -0.130602
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

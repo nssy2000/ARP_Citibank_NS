@@ -1,0 +1,103 @@
+{
+  "issuer": "p2_novo_nordisk",
+  "reports": [
+    {
+      "document_id": "NVO_FQ1_2025",
+      "issuer": "p2_novo_nordisk",
+      "company": "Novo Nordisk",
+      "ticker": "NVO",
+      "sector": "Healthcare",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-07",
+      "release_date": "2025-05-07",
+      "release_date_source": "Novo Nordisk IR page",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q1/NVO-Q1-2025-FinancialReport.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q1/NVO-Q1-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
+      ]
+    },
+    {
+      "document_id": "NVO_FQ2_2025",
+      "issuer": "p2_novo_nordisk",
+      "company": "Novo Nordisk",
+      "ticker": "NVO",
+      "sector": "Healthcare",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-06",
+      "release_date": "2025-08-06",
+      "release_date_source": "Novo Nordisk IR page",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q2/NVO-Q2-2025-FinancialReport.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q2/NVO-Q2-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
+      ]
+    },
+    {
+      "document_id": "NVO_FQ3_2025",
+      "issuer": "p2_novo_nordisk",
+      "company": "Novo Nordisk",
+      "ticker": "NVO",
+      "sector": "Healthcare",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-05",
+      "release_date": "2025-11-05",
+      "release_date_source": "Novo Nordisk IR page",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q3/NVO-Q3-2025-FinancialReport.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q3/NVO-Q3-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
+      ]
+    },
+    {
+      "document_id": "NVO_FQ4_2025",
+      "issuer": "p2_novo_nordisk",
+      "company": "Novo Nordisk",
+      "ticker": "NVO",
+      "sector": "Healthcare",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-03",
+      "release_date": "2026-02-03",
+      "release_date_source": "Novo Nordisk IR page",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q4/NVO-6K-FQ4-2025-PressRelease.txt"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q4/NVO-Q4-2025-earnings-call-transcript-InsiderMonkey.html"
+        },
+        {
+          "doc_type": "Investor Presentation",
+          "source_pdf": "docs/novo_nordisk/CY2025-Q4/NVO-Q4-2025-InvestorPresentation.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "Novo Nordisk IR page: stated convention \"before NASDAQ Copenhagen opens\", Q3 2026 at 07:30 CET. Confidence MEDIUM: stated convention, not a per-release timestamp. Judged against NYSE: 07:30 CET = 01:30 ET.",
+    "retrieval_date": "2026-08-12",
+    "provenance_confidence": "medium \u2014 stated convention, not per-release timestamp"
+  }
+}

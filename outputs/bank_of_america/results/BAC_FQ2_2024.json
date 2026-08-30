@@ -1,0 +1,228 @@
+{
+  "document_id": "BAC_FQ2_2024",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: NII is expected to trough in Q2 and grow in Q3 and Q4, with a specific Q4 NII target of ~$14.5B (4-5% above Q2). Credit card delinquencies have plateaued, and management expects net charge-offs to improve in the second half. While full-year formal guidance is not raised, the explicit NII trajectory and credit inflection constitute a real forward inflection, not just a backward-looking beat."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$25.4 billion, up $180 million or 1% year-over-year, reflecting higher asset management and investment banking fees, as well as sales and trading revenue, and lower net interest income.",
+    "eps": "$0.83 per diluted share, compared to $0.88 in 2Q23.",
+    "guidance": "NII expected to grow in Q3 and Q4, with Q4 NII around $14.5B (FTE), approximately 4-5% higher than Q2. Low-single-digit loan and deposit growth expected. Credit card charge-offs expected to flatten or decline in the second half. Commercial real estate office charge-offs expected to be lower in the second half.",
+    "margin": "Net interest yield (FTE) of 1.93%, down 13 bps YoY and 6 bps from 1Q24. Efficiency ratio of 64%.",
+    "key_risks": [
+      "Higher deposit costs continue to pressure net interest income.",
+      "Net charge-offs increased, driven by credit card and commercial real estate office.",
+      "Provision for credit losses increased to $1.5 billion from $1.1 billion in 2Q23.",
+      "Commercial real estate office portfolio remains a source of charge-offs, though improving.",
+      "Potential impact of interest rate cuts on NII, as the balance sheet is asset-sensitive.",
+      "Uncertainty around final Basel III capital rules and potential volatility in stress capital buffer."
+    ],
+    "key_opportunities": [
+      "NII expected to trough in Q2 and grow in Q3 and Q4, driven by fixed-rate asset repricing, BSBY cessation benefit, and slowing deposit rotation.",
+      "Strong fee income growth: asset management fees up 14%, investment banking fees up 29%, sales and trading revenue up 7% (ex-DVA).",
+      "Record client balances in wealth management ($4 trillion) and consumer investment assets ($476 billion).",
+      "Continued organic growth: 278,000 net new consumer checking accounts (22nd consecutive quarter of growth).",
+      "Credit card delinquencies have plateaued, signaling stabilization in credit losses.",
+      "Strong capital position with CET1 ratio of 11.9%, 122 bps above the new regulatory minimum.",
+      "Loan spreads continue to widen, particularly in commercial businesses."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'Our team produced another strong quarter, serving a growing client base' and CFO Alastair Borthwick provided a detailed NII bridge with explicit expectations for Q3 and Q4 growth, reinforcing confidence in the forward trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $25.4 billion, up 1% year-over-year.",
+      "quote": "Revenue, net of interest expense, of $25.4 billion increased $180 million, or 1%, reflecting higher asset management and investment banking fees, as well as sales and trading revenue, and lower net interest income (NII)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.83, compared to $0.88 in 2Q23.",
+      "quote": "Net income of $6.9 billion, or $0.83 per diluted share, compared to $7.4 billion, or $0.88 per diluted share in 2Q23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII is expected to trough in Q2 and grow in Q3 and Q4, with Q4 NII around $14.5B.",
+      "quote": "We expect Q4 NII to be around the 14.5 billion level, plus or minus. That would be approximately 4% to 5% higher than this quarter's NII.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit card delinquencies have plateaued, signaling stabilization in credit losses.",
+      "quote": "On Slide 4, we highlight the 30- and 90-day-plus credit card delinquency trends, which show delinquencies have plateaued for the second consecutive quarter. This should lead to stabilized net credit losses in credit card in the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net charge-offs are expected to be lower in the second half of 2024.",
+      "quote": "This supports our previous expectation that net charge-offs in the second half of 2024 will be lower than the first half of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asset management fees grew 14% year-over-year.",
+      "quote": "Our strong fee performance was led by a 14% improvement in asset management fees in our wealth management businesses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees grew 29% year-over-year.",
+      "quote": "We grew investment banking fees 29% year over year and saw sales and trading revenue increase 7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue (ex-DVA) increased 7% year-over-year.",
+      "quote": "Sales and trading revenue of $4.7 billion increased 9%; excluding net DVA, increased 7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 1.93%, down 13 bps YoY.",
+      "quote": "Net interest yield of 1.93% decreased 13 bps YoY and 6 bps from 1Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio was 64%.",
+      "quote": "Efficiency ratio 64",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses increased to $1.5 billion from $1.1 billion in 2Q23.",
+      "quote": "Provision for credit losses of $1.5 billion, up from $1.3 billion in 1Q24 and $1.1 billion in 2Q23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio was 11.9%, 122 bps above the new regulatory minimum.",
+      "quote": "CET1 ratio of 11.9% (Standardized);(E) 122 bps above the new regulatory minimum that takes effect Oct. 1, 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record client balances in wealth management exceeded $4 trillion.",
+      "quote": "Record client balances of more than $4 trillion increased 10%, driven by higher market valuations and positive net client flows",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer investment assets reached a record $476 billion.",
+      "quote": "Record consumer investment assets of $476 billion grew 23%, including $38 billion of net client flows since 2Q23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "278,000 net new consumer checking accounts were added in Q2.",
+      "quote": "Added ~278,000 net new consumer checking accounts in 2Q24; 22nd consecutive quarter of growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Loan spreads continue to widen.",
+      "quote": "Lastly, and on a positive note, loan spreads continued to widen.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our team produced another strong quarter, serving a growing client base. The strength and earnings power of our leading Consumer Banking business is complemented by the growth and profitability of our Global Markets, Global Banking, and Wealth Management businesses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a genuine forward inflection (NII trough, credit plateau) without a formal full-year guidance raise. A reviewer may wish to confirm that this trajectory change is sufficiently material to warrant a score above 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2024-07-16",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-07-16",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q2\\bac-2q24-press-release.html",
+        "pub_date": "2024-07-16"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q2\\bac-2q24-presentation.html",
+        "pub_date": "2024-07-16"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q2\\bac-2q24-earnings-call-transcript.html",
+        "pub_date": "2024-07-16"
+      }
+    ],
+    "document_id": "BAC_FQ2_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T142324Z",
+    "timestamp": "2026-07-08T14:25:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q2\\bac-2q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q2\\bac-2q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 64304,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q2\\bac-2q24-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 68889,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q2\\bac-2q24-earnings-call-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 77959,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2024.txt"
+  }
+}

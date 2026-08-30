@@ -1,0 +1,58 @@
+{
+  "document_id": "PEP_FQ2_2023_QUANT",
+  "base_document_id": "PEP_FQ2_2023",
+  "issuer": "p2_pepsico",
+  "ticker": "PEP",
+  "sector": "Consumer Staples",
+  "report_date": "2023-07-13",
+  "sentiment": {
+    "score": 0.143255
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.004497,
+      "window_start_date": "2023-06-09",
+      "window_end_date": "2023-07-12",
+      "score": 0.02997,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.124918,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 6.56,
+      "matched_earnings_date": "2023-07-13",
+      "score": 0.256539,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 13.61,
+      "vix_score": 0.344627,
+      "tnx_change": -0.004,
+      "tnx_score": 0.008,
+      "score": 0.176313,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 5.08,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2023-07-12",
+      "curve_spread": -0.86,
+      "curve_score": -0.696258,
+      "curve_as_of": "2023-07-12",
+      "score": -0.348129,
+      "available": true
+    },
+    "quant_score": 0.143255,
+    "quant_score_with_macro": 0.159784,
+    "quant_score_with_fred": -0.102437,
+    "quant_score_with_macro_fred": -0.00952
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

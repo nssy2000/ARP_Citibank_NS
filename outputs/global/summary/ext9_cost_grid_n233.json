@@ -1,0 +1,37 @@
+{
+  "date_computed": "2026-08-13",
+  "price_source": "returns_matrix.csv (ret_overnight, entry_date = EDGAR 8-K Item 2.02 release_date, corrected 2026-08-12). Same source as ext2_holding_curve.csv. All four rows use the CORRECTED anchor. workbook_llm_corrected.csv was NOT used because KHC_FQ1_2025 has next_day_open=0.0 (missing-price sentinel) which produces a spurious +100% gross return.",
+  "anchor_note": "The original ext9 figure of 162.81bps (ext9_cost_grid_summary.json) was computed by experiments/execution_cost_grid.py on the OLD report_date anchor using fetch_prices(). That is a DIFFERENT anchor and a DIFFERENT price set. 162.81bps is superseded; it must not be placed in the same table as the figures below without an explicit 'OLD report_date anchor' label.",
+  "methodology_note": "Bisects backtest.simulate() cost_bps until the named metric crosses zero. short_borrow_bps=0 throughout (deployed default, Settings B5=0). compounded_total_return_pct is order-dependent and the retired headline metric; avg_net_per_trade_pct is the study's current headline P&L metric and the primary breakeven figure. N=233 excludes 35 events (25 worksheet contamination + 1 SPOT misattribution + 9 timing unresolved); same exclusion set as build_workbook.py.",
+  "no_external_desk_cost_in_repo": "No externally-cited realistic desk cost exists in this repository. Dr Rock or any comparable external estimate is not committed here. The only reference points are: deployed assumption 10bps round-trip (Model_Arm_Gap_Spec.md line 18). Any claim that the breakeven exceeds realistic trading costs is UNCITED in this repo and must either be dropped or attributed to an external source supplied by the user.",
+  "n268_corrected_anchor": {
+    "n_predictions": 268,
+    "n_trades_at_10bps": 196,
+    "mean_net_at_10bps_pct": 1.8477,
+    "compounded_return_at_10bps_pct": 2379.47,
+    "breakeven_compounded_total_return_bps": 174.84,
+    "breakeven_mean_net_per_trade_bps": 194.76,
+    "anchor": "corrected release_date (returns_matrix.csv entry_date, 2026-08-12)"
+  },
+  "n233_corrected_anchor": {
+    "n_predictions": 232,
+    "n_excluded": 36,
+    "n_trades_at_10bps": 168,
+    "mean_net_at_10bps_pct": 1.7963,
+    "compounded_return_at_10bps_pct": 1349.97,
+    "breakeven_compounded_total_return_bps": 170.15,
+    "breakeven_mean_net_per_trade_bps": 189.62,
+    "anchor": "corrected release_date (returns_matrix.csv entry_date, 2026-08-12)"
+  },
+  "original_ext9_superseded": {
+    "breakeven_bps": 162.81,
+    "metric": "compounded_total_return_pct (retired, order-dependent)",
+    "anchor": "OLD report_date anchor \u2014 SUPERSEDED 2026-08-12",
+    "n": 268,
+    "source": "ext9_cost_grid_summary.json / experiments/execution_cost_grid.py",
+    "comparability": "NOT COMPARABLE to figures above; different anchor, different price set"
+  },
+  "spec_claimed_bps": 113,
+  "spec_breakeven_verified_in_repo": false,
+  "spec_breakeven_status": "UNBACKED ASSERTION. 113bps appears in the Model_Arm_Gap_Spec.md but cannot be reproduced from any artifact in this repository. See asserted_figures_audit.md."
+}

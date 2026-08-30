@@ -1,0 +1,235 @@
+{
+  "document_id": "DIS_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum in the Entertainment SVOD segment, which swung to a $450 million operating income (up $189 million YoY) and management guided for SVOD operating income of ~$500 million in Q2 and a 10% SVOD operating margin for FY2026. However, total segment operating income declined 9% and adjusted EPS fell 7%, while full-year guidance for double-digit adjusted EPS growth and $19 billion in cash from operations was reaffirmed but not raised above prior expectations. The positive forward guidance on SVOD profitability and Experiences growth is tempered by headwinds in Sports and international visitation risks, resulting in a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenues increased 5% for the quarter to $26.0 billion from $24.7 billion in Q1 fiscal 2025.",
+    "eps": "Diluted EPS decreased to $1.34 from $1.40 in Q1 fiscal 2025. Adjusted EPS decreased to $1.63 from $1.76.",
+    "guidance": "Fiscal Year 2026: Entertainment double-digit segment OI growth, SVOD operating margin of 10%, Sports low-single digit OI growth, Experiences high-single digit OI growth, double-digit adjusted EPS growth, $19 billion in cash provided by operations, on track to repurchase $7 billion of stock. Q2 Fiscal 2026: Entertainment segment OI comparable to Q2 2025, SVOD operating income of ~$500 million, Sports comparable revenue and $100 million OI decline, Experiences modest OI growth.",
+    "margin": "Entertainment segment operating margin of 9.5%. SVOD operating margin of 8.4% for Q1. SVOD operating margin guided to 10% for fiscal year 2026.",
+    "key_risks": [
+      "International visitation headwinds at domestic parks",
+      "Pre-launch costs for Disney Adventure at Disney Cruise Line",
+      "Pre-opening costs for World of Frozen at Disneyland Paris",
+      "Temporary suspension of YouTube TV carriage had an adverse impact of approximately $110 million to Sports segment OI",
+      "Higher programming and production costs in Sports due to contractual rate increases and new sports rights",
+      "Higher tax payments and increased spending on content affecting cash from operations"
+    ],
+    "key_opportunities": [
+      "SVOD operating income increased $189 million to $450 million, with guidance for further growth to ~$500 million in Q2",
+      "Record quarterly revenue of $10.0 billion in Experiences segment",
+      "Domestic Parks & Experiences OI growth of 8%",
+      "Strong box office performance with billion-dollar hits like Zootopia 2 and Avatar: Fire and Ash",
+      "Fubo Transaction expected to contribute to revenue and subscriber growth",
+      "Fleet expansion at Disney Cruise Line (Disney Destiny launched November 2025)"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Robert A. Iger stated 'We are pleased with the start to our fiscal year, and our achievements reflect the tremendous progress we’ve made,' and the document provides specific forward guidance for double-digit adjusted EPS growth and $19 billion in cash from operations."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenues increased 5% to $26.0 billion.",
+      "quote": "Revenues increased 5% for the quarter to $26.0 billion from $24.7 billion in Q1 fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS decreased to $1.34 from $1.40.",
+      "quote": "Diluted earnings per share (EPS) for Q1 decreased to $1.34 from $1.40 in Q1 fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS decreased to $1.63 from $1.76.",
+      "quote": "Adjusted EPS (1) for Q1 decreased to $1.63 from $1.76 in Q1 fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SVOD operating income increased $189 million to $450 million.",
+      "quote": "SVOD operating income (3) increased $189 million to $450 million, resulting in SVOD operating margin (3) of 8.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for SVOD operating income of approximately $500 million in Q2 fiscal 2026.",
+      "quote": "SVOD operating income (1) of approximately $500 million, an increase of approximately $200 million compared to Q2 fiscal 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for SVOD operating margin of 10% for fiscal year 2026.",
+      "quote": "SVOD operating margin (4) of 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for double-digit adjusted EPS growth for fiscal year 2026.",
+      "quote": "Double digit adjusted EPS (5) growth compared to fiscal 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for $19 billion in cash provided by operations for fiscal year 2026.",
+      "quote": "$19 billion in cash provided by operations (6)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment reported record quarterly revenue of $10.0 billion.",
+      "quote": "Experiences: Record quarterly revenue of $10.0 billion and segment OI of $3.3 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic Parks & Experiences OI growth of 8%.",
+      "quote": "Domestic Parks & Experiences OI growth of 8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Temporary suspension of YouTube TV carriage had an adverse impact of approximately $110 million to Sports segment OI.",
+      "quote": "Temporary suspension of YouTube TV carriage had an adverse impact to segment operating income of approximately $110 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International visitation headwinds at domestic parks are a risk.",
+      "quote": "international visitation headwinds at our domestic parks",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pre-launch costs for Disney Adventure at Disney Cruise Line are a risk.",
+      "quote": "pre-launch costs for the Disney Adventure at Disney Cruise Line",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pre-opening costs for World of Frozen at Disneyland Paris are a risk.",
+      "quote": "pre-opening costs for World of Frozen at Disneyland Paris",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are pleased with the start to our fiscal year, and our achievements reflect the tremendous progress we’ve made",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment segment operating margin was 9.5%.",
+      "quote": "Entertainment segment operating margin of 9.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SVOD operating margin was 8.4% for Q1.",
+      "quote": "SVOD operating margin (3) of 8.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total segment operating income decreased 9%.",
+      "quote": "Total segment operating income (1) decreased 9% for the quarter to $4.6 billion from $5.1 billion in Q1 fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for Entertainment double-digit segment OI growth for fiscal year 2026.",
+      "quote": "Entertainment: Double digit segment OI growth compared to fiscal 2025, weighted to the second half of the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for Experiences high-single digit OI growth for fiscal year 2026.",
+      "quote": "Experiences: High-single digit growth in segment OI compared to fiscal 2025, weighted to the second half of the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for Sports low-single digit OI growth for fiscal year 2026.",
+      "quote": "Sports (2): Low-single digit segment OI growth compared to fiscal 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "On track to repurchase $7 billion of stock.",
+      "quote": "On track to repurchase $7 billion of stock",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong box office performance with billion-dollar hits like Zootopia 2 and Avatar: Fire and Ash.",
+      "quote": "We delivered strong box office performance in calendar year 2025 with billion-dollar hits like Zootopia 2 and Avatar: Fire and Ash",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a mix of positive forward guidance on SVOD profitability and Experiences growth, but total segment OI and EPS declined. A human reviewer should confirm that the positive SVOD trajectory outweighs the backward-looking declines and the Sports headwinds."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2026-02-02",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-02-02",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2026-Q1\\dis-1q26-press-release.html",
+        "pub_date": "2026-02-02"
+      }
+    ],
+    "document_id": "DIS_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260709T144738Z",
+    "timestamp": "2026-07-09T14:49:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2026-Q1\\dis-1q26-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2026-Q1\\dis-1q26-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 35916,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2026.txt"
+  }
+}

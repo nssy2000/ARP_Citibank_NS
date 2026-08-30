@@ -1,0 +1,219 @@
+{
+  "document_id": "TGT_FQ4_2021",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports strong backward-looking results (Q4 comparable sales +8.9%, EPS +17.8% YoY) and provides forward guidance for FY2022: low- to mid-single digit revenue growth, operating margin rate of 8% or higher, and high-single digit Adjusted EPS growth. While guidance is not raised above prior expectations (no prior guidance is referenced for comparison), the company also updated its long-term financial algorithm with specific targets (mid-single digit revenue growth, high-single digit Adjusted EPS growth), indicating confidence in sustained momentum. The tone is confident, and no material risks are highlighted. The score reflects genuine operational momentum and confident forward language, but falls short of a formal guidance raise above prior expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2021 total revenue $31.0 billion, up 9.4% YoY; full-year 2021 total revenue $106.0 billion, up 13.3% YoY.",
+    "eps": "Q4 2021 GAAP EPS $3.21, up 17.8% YoY; Adjusted EPS $3.19, up 19.2% YoY. Full-year 2021 GAAP EPS $14.10, up 63.1% YoY; Adjusted EPS $13.56, up 44.0% YoY.",
+    "guidance": "FY2022: low- to mid-single digit revenue growth, operating margin rate of 8% or higher, low-single digit growth in operating margin dollars, high-single digit growth in Adjusted EPS. Long-term algorithm (FY2023+): mid-single digit revenue growth, mid-single digit operating income growth, high-single digit Adjusted EPS growth, CAPEX $4-$5 billion, after-tax ROIC high-20% to 30%.",
+    "margin": "Q4 2021 operating income margin rate 6.8% vs 6.5% in Q4 2020; full-year 2021 operating income margin rate 8.4% vs 7.0% in 2020. Q4 gross margin rate 25.7% vs 26.8% in Q4 2020; full-year gross margin rate 28.3% vs 28.4% in 2020.",
+    "key_risks": [
+      "Q4 gross margin rate declined to 25.7% from 26.8% in Q4 2020, reflecting pressure from increased supply chain costs due to increased compensation and headcount in distribution centers as well as higher freight and merchandising costs.",
+      "First quarter 2022 operating margin rate expected to be well below Q1 2021 rate of 9.8%.",
+      "Quarterly year-over-year profit performance expected to be variable during FY2022."
+    ],
+    "key_opportunities": [
+      "Strong comparable sales growth of 8.9% in Q4 and 12.7% for full-year 2021, on top of strong prior-year growth.",
+      "More than 95% of Q4 sales fulfilled by stores, highlighting the strength of the store network as a competitive advantage.",
+      "All five core merchandise categories delivered double-digit comparable sales growth in 2021.",
+      "Full-year operating income margin rate expanded nearly 150 basis points from 2020 to 8.4%.",
+      "After-tax ROIC improved to 33.1% from 23.5% in the prior trailing twelve months."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Cornell stated: 'Our strong fourth-quarter performance capped off a year of record growth in 2021, reinforcing the durability of our business model and our confidence in long-term profitable growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2021 total revenue was $31.0 billion, up 9.4% YoY.",
+      "quote": "Total revenue of $31.0 billion grew 9.4 percent compared with last year, driven by sales growth of 9.4 percent and an 11.1 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2021 total revenue was $106.0 billion, up 13.3% YoY.",
+      "quote": "Full-year revenue of $106.0 billion grew 13.3 percent compared with 2020, reflecting sales growth of 13.2 percent and a 20.2 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2021 GAAP EPS was $3.21, up 17.8% YoY.",
+      "quote": "The Company reported fourth-quarter GAAP earnings per share (EPS) from continuing operations of $3.21, compared with $2.73 in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2021 Adjusted EPS was $3.19, up 19.2% YoY.",
+      "quote": "Adjusted EPS was $3.19 for the fourth quarter, compared with $2.67 in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2021 GAAP EPS was $14.10, up 63.1% YoY.",
+      "quote": "GAAP EPS from continuing operations of $14.10 was 63.1 percent higher than last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2021 Adjusted EPS was $13.56, up 44.0% YoY.",
+      "quote": "Adjusted EPS of $13.56 grew 44.0 percent compared with 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2022 guidance includes low- to mid-single digit revenue growth, operating margin rate of 8% or higher, and high-single digit Adjusted EPS growth.",
+      "quote": "For fiscal year 2022, the Company expects low- to mid-single digit revenue growth, an operating margin rate of 8 percent or higher, low-single digit growth in operating margin dollars, and high-single digit growth in Adjusted Earnings per Share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term financial algorithm (FY2023+) specifies mid-single digit revenue growth, mid-single digit operating income growth, high-single digit Adjusted EPS growth, CAPEX $4-$5 billion, and after-tax ROIC high-20% to 30%.",
+      "quote": "The algorithm specifies annual benchmarks for the following metrics: • Mid-single digit growth in Total Revenue; • Mid-single digit growth in Operating Income; • High-single digit growth in Adjusted EPS; • CAPEX of $4 to $5 billion; and • After-tax Return on Invested Capital in the high-20% to 30% range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2021 operating income margin rate was 6.8% vs 6.5% in Q4 2020.",
+      "quote": "Fourth quarter operating income margin rate was 6.8 percent in 2021 compared with 6.5 percent in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2021 operating income margin rate was 8.4% vs 7.0% in 2020.",
+      "quote": "Operating income margin rate of 8.4 percent expanded nearly 150 basis points from 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross margin rate declined to 25.7% from 26.8% in Q4 2020.",
+      "quote": "Fourth quarter gross margin rate was 25.7 percent, compared with 26.8 percent in 2020, reflecting pressure from increased supply chain costs due to increased compensation and headcount in the Company's distribution centers as well as higher freight and merchandising costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year gross margin rate was 28.3% vs 28.4% in 2020.",
+      "quote": "Full-year gross margin rate was 28.3 percent, in line with 28.4 percent in 2020, reflecting pressure from increased supply chain, merchandise, and freight costs largely offset by favorable category mix and lower markdowns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross margin pressure from increased supply chain costs.",
+      "quote": "Fourth quarter gross margin rate was 25.7 percent, compared with 26.8 percent in 2020, reflecting pressure from increased supply chain costs due to increased compensation and headcount in the Company's distribution centers as well as higher freight and merchandising costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter 2022 operating margin rate expected to be well below Q1 2021 rate of 9.8%.",
+      "quote": "The company expects its first quarter 2022 operating margin rate will be favorable in relation to historical performance, but well below its first quarter 2021 rate of 9.8 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Quarterly year-over-year profit performance expected to be variable during FY2022.",
+      "quote": "The Company expects quarterly, year-over-year profit performance will be variable during the year, and generally improve as the year progresses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales grew 8.9% in Q4 2021.",
+      "quote": "Comparable sales grew 8.9 percent, on top of 20.5 percent in Q4 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "More than 95% of Q4 sales fulfilled by stores.",
+      "quote": "More than 95 percent of Target's fourth quarter sales were fulfilled by its stores.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "All five core merchandise categories delivered double-digit comparable sales growth in 2021.",
+      "quote": "All five core merchandise categories delivered double-digit comparable sales growth in 2021, on top of unprecedented growth in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating income margin rate expanded nearly 150 basis points from 2020.",
+      "quote": "Operating income margin rate of 8.4 percent expanded nearly 150 basis points from 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "After-tax ROIC improved to 33.1% from 23.5%.",
+      "quote": "For the trailing twelve months through fourth quarter 2021, after-tax return on invested capital (ROIC) was 33.1 percent, compared with 23.5 percent for the twelve months through fourth quarter 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our strong fourth-quarter performance capped off a year of record growth in 2021, reinforcing the durability of our business model and our confidence in long-term profitable growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on confident forward guidance and long-term algorithm update, but no prior guidance is referenced for comparison, so the magnitude of the guidance change relative to prior expectations is inferred. A human reviewer should confirm that the guidance is indeed a raise or at least a reaffirmation with positive momentum."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2022-03-01",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2021",
+    "report_date": "2022-03-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q4\\tgt-4q21-press-release.html",
+        "pub_date": "2022-03-01"
+      }
+    ],
+    "document_id": "TGT_FQ4_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:51:52Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q4\\tgt-4q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q4\\tgt-4q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 23442,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ4_2021.txt"
+  }
+}

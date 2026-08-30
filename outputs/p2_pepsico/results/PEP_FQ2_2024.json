@@ -1,0 +1,184 @@
+{
+  "document_id": "PEP_FQ2_2024",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Full-year organic revenue growth guidance was reduced from 'at least 4 percent' to 'approximately 4 percent', a clear downward revision. Management explicitly cited 'subdued category performance within North America convenient foods' and the Quaker Foods recall as ongoing headwinds. While EPS guidance was reaffirmed, the top-line guidance cut and cautious language on the consumer environment drive a negative forward outlook."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported net revenue of $22,501 million for Q2 2024, up 0.8% year-over-year; organic revenue growth of 1.9%.",
+    "eps": "Reported GAAP EPS of $2.23, up 13% year-over-year; Core EPS of $2.28, up 10% on a constant currency basis.",
+    "guidance": "Full-year 2024 organic revenue growth now expected to be approximately 4% (previously at least 4%). Core constant currency EPS growth of at least 8% reaffirmed. Core EPS of at least $8.15 implied.",
+    "margin": "Reported gross margin expanded; core operating margin expanded approximately 100 bps in Q2 (implied from 'almost 100 bps of operating margin improvement' in the call).",
+    "key_risks": [
+      "Subdued category performance within North America convenient foods",
+      "Product recall at Quaker Foods North America impacting net revenue and volume",
+      "Foreign exchange translation headwind of approximately 1 percentage point on net revenue and core EPS",
+      "Consumer value-consciousness and price sensitivity in the U.S., particularly in certain snack categories"
+    ],
+    "key_opportunities": [
+      "International business delivering 7% organic growth in first half, expected to continue",
+      "Productivity initiatives providing reinvestment capacity for commercial investments",
+      "Recovery of Quaker Foods supply chain by Q4, expected to contribute positively",
+      "Growth in permissible snack brands (SunChips, PopCorners, Smartfood) and hydration portfolio (Gatorade, Propel)"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO described the quarter as 'agile' but noted 'difficult net revenue growth comparisons' and 'subdued category performance', and the guidance revision from 'at least 4%' to 'approximately 4%' reflects a cautious outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year organic revenue growth guidance was reduced from 'at least 4 percent' to 'approximately 4 percent'.",
+      "quote": "As a result, we now expect to deliver approximately 4 percent organic revenue growth (previously at least 4 percent)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported net revenue for Q2 2024 was $22,501 million, up 0.8% year-over-year.",
+      "quote": "Net Revenue $ 22,501 $ 22,322 ... Net revenue growth 0.8%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue growth for Q2 2024 was 1.9%.",
+      "quote": "Organic revenue growth 1.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported GAAP EPS for Q2 2024 was $2.23, up 13% year-over-year.",
+      "quote": "Earnings per share (EPS) $2.23 ... EPS change 13%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core EPS for Q2 2024 was $2.28, up 10% on a constant currency basis.",
+      "quote": "Core EPS $2.28 ... Core constant currency EPS change 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year core constant currency EPS growth of at least 8% was reaffirmed.",
+      "quote": "have a high degree of confidence in delivering at least 8 percent core constant currency EPS growth for full-year 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin expanded approximately 100 bps in Q2.",
+      "quote": "This quarter was almost 100 bps of operating margin improvement",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Subdued category performance within North America convenient foods is a headwind.",
+      "quote": "subdued category performance within North America convenient foods",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Quaker Foods recall impacted net revenue and volume.",
+      "quote": "Net revenue decline was impacted by a previously announced voluntary recall of certain bars and cereals in our Quaker Foods North America division (Quaker Recall).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange translation is expected to be a headwind of approximately 1 percentage point.",
+      "quote": "An approximate 1-percentage-point foreign exchange translation headwind to impact reported net revenue and core EPS growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business delivered 7% organic growth in the first half.",
+      "quote": "First half of the year 7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Quaker Foods supply chain is expected to recover by Q4.",
+      "quote": "We're recovering the supply chain by Q4, will be in almost 100% supply",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "we now expect to deliver approximately 4 percent organic revenue growth (previously at least 4 percent)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.margin",
+      "reason": "The exact basis points of margin expansion are not explicitly stated in the document; the 100 bps figure is from the CEO's comment on the call, which may be approximate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2024-07-11",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-07-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q2\\PEP-8K-EX99.1-2024-Q2-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q2\\PEP-Q2-2024-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ2_2024"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:46:27Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q2\\PEP-8K-EX99.1-2024-Q2-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q2\\PEP-8K-EX99.1-2024-Q2-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 40465,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q2\\PEP-Q2-2024-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 50058,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ2_2024.txt"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "document_id": "LIN_FQ3_2025",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The company reported a solid quarter with EPS up 7% YoY and operating cash flow up 8%, but forward guidance was held flat (full-year adjusted EPS guidance of $16.35-$16.45, representing 5% to 6% growth, unchanged from prior expectations). Management explicitly maintained a cautious outlook, stating 'we remain guarded on any near-term industrial recovery' and 'it's difficult to identify near-term catalysts which could materially improve industrial activity for the remainder of 2025.' The Q4 guidance assumes a 2% FX tailwind and a 2% tax rate headwind that mostly offset, and management noted the top-end of guidance assumes economic contraction, indicating no upward revision to forward expectations despite the backward-looking beat."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales $8.6 billion, up 3% YoY. Underlying sales increased 2% from price attainment as volumes were flat. Acquisitions increased sales by 1%.",
+    "eps": "Diluted EPS $4.09, up 27% YoY. Adjusted EPS $4.21, up 7% YoY.",
+    "guidance": "Full-year 2025 adjusted EPS guidance of $16.35-$16.45, representing 5% to 6% growth. Q4 2025 adjusted EPS guidance of $4.10-$4.20, up 3% to 6% versus prior-year quarter. Full-year capital expenditures expected to be $5.0B to $5.5B.",
+    "margin": "Operating profit margin 27.5%; adjusted operating profit margin 29.7%, up 10 basis points YoY.",
+    "key_risks": [
+      "Stagnant industrial activity and ongoing industrial recession for more than two years",
+      "European industrial weakness with negative volumes, particularly in metals & mining, manufacturing, and chemicals & energy end markets",
+      "Helium price pressure from excess supply, impacting APAC pricing",
+      "Chemicals end market is one of the most challenged today with base volumes down",
+      "Potential economic contraction assumed at top-end of guidance",
+      "Q4 tax rate headwind of approximately 2%",
+      "European capacity rationalization in steel and chemicals sectors"
+    ],
+    "key_opportunities": [
+      "Electronics end market growing 6% YoY, expected to provide robust growth for 5-7 years driven by semiconductor buildout",
+      "U.S. manufacturing uptick with solid volume growth, lapping tariff concerns",
+      "Commercial space business with strong double-digit growth",
+      "Project backlog of $10 billion contractually securing long-term EPS growth",
+      "U.S. steel and metals expansion opportunities driven by tariffs",
+      "Tuck-in acquisition opportunities in packaged gas space, particularly in the U.S.",
+      "AI use cases (300+) for operational efficiency and productivity"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasized caution: 'While we remain guarded on any near-term industrial recovery' and 'we remain cautious on the outlook. It's difficult to identify near-term catalysts which could materially improve industrial activity for the remainder of 2025.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $8.6 billion, up 3% YoY",
+      "quote": "Linde's sales for the third quarter were $8,615 million, up 3% versus prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $4.21, up 7% YoY",
+      "quote": "Adjusted earnings per share was $4.21, 7% above prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance is $16.35-$16.45, representing 5% to 6% growth",
+      "quote": "For the full year 2025, the company expects adjusted diluted earnings per share to be in the range of $16.35 to $16.45, up 5% to 6% versus prior year with estimated currency to be flat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating profit margin was 29.7%, up 10 basis points YoY",
+      "quote": "Adjusted operating profit margin of 29.7% was 10 basis points above prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management maintained a cautious outlook on near-term industrial recovery",
+      "quote": "While we remain guarded on any near-term industrial recovery, our time-tested capital allocation policy and disciplined investment approach will continue to generate long-term shareholder value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management stated it is difficult to identify near-term catalysts for industrial improvement",
+      "quote": "In summary, we remain cautious on the outlook. It's difficult to identify near-term catalysts which could materially improve industrial activity for the remainder of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has been in an industrial recession for more than two years",
+      "quote": "As far as I'm concerned, we've been in an industrial recession for more than two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Electronics was the fastest growing end market at 6% YoY growth",
+      "quote": "Electronics at 9% of sales was the fastest growing end market this quarter... The 6% growth we achieved is evenly split between onsite project startups and demand for process gases and advanced materials.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The project backlog is $10 billion, contractually securing long-term EPS growth",
+      "quote": "The backlog remains at $10 billion, contractually securing long-term EPS growth while increasing our network density.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Helium price pressure from excess supply is impacting APAC pricing",
+      "quote": "Price increases of 2% were broad-based and aligned with globally weighted inflation, except for helium, which continues to experience price pressure from excess supply.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 guidance assumes a 2% FX tailwind and 2% tax rate headwind that mostly offset",
+      "quote": "Fourth quarter EPS guidance is $4.10 to $4.20, or 3% to 6% growth. While this assumes a 2% FX tailwind, it also assumes an approximate 2% tax rate headwind, so these two mostly offset.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Top-end of guidance assumes economic contraction",
+      "quote": "Top-end assumes economic contraction",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. manufacturing is seeing solid volume growth",
+      "quote": "We're seeing solid volume growth, especially in the United States. We seem to have lapped some of the tariff concerns, and this has translated into a healthy uptick in manufacturing activity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial space business is growing at double-digit rates",
+      "quote": "But yeah, very healthy double-digit growth, feeling really good about aerospace broadly and commercial space specifically, Josh.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Europe remains the weakest region with continued broad-based demand challenges",
+      "quote": "Europe remains the weakest, with continued broad-based demand challenges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has approximately 300 AI use cases deployed",
+      "quote": "Off the top of my head, I'd say to you, we have about 300 use cases or above that, and they range across the entire spectrum of operations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flow was $2.9 billion, up 8% YoY",
+      "quote": "Third-quarter operating cash flow of $2,948 million increased 8% versus prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The electronics cycle is expected to last 5-7 years",
+      "quote": "The electronic cycle, in our mind, is here for the next five to seven years and potentially a little bit beyond that as well with all the build out that's contemplated.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees opportunities for tuck-in acquisitions in the U.S. packaged gas space",
+      "quote": "The biggest opportunity lies in the U.S. There is no question around that. And while I may not comment on the market share piece, I can only say this to you. I still believe we have a number of opportunities for tuck-in acquisitions in the US, and we have the balance sheet strength and the appetite to go about doing that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The chemicals end market is one of the most challenged today",
+      "quote": "Chemicals and energy are up 1% driven by inflationary price increases. Overall, base volumes are down as chemicals is one of the most challenged end markets today.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.10 reflects held guidance with cautious language. A reviewer may consider whether the backward-looking beat (EPS +7%, OCF +8%) combined with the record backlog warrants a slightly more positive score, or whether the explicit caution and flat guidance justify a more negative score."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document mentions 'potential economic contraction' as an assumption at the top-end of guidance, which is a notable risk factor that could warrant additional weight in the sentiment assessment."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LIN_Bundled Earnings Report_2025-10-31",
+  "report_metadata": {
+    "issuer": "p2_linde",
+    "company": "Linde",
+    "ticker": "LIN",
+    "sector": "Basic Materials/Specialty Chemicals",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q3\\LIN_Earnings_Presentation.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q3\\LIN_Earnings_Call_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LIN_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100915Z",
+    "timestamp": "2026-08-09T10:09:48Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_linde\\extracted\\LIN_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 9394,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q3\\LIN_Earnings_Presentation.txt",
+        "page_count": 1,
+        "extracted_characters": 10992,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q3\\LIN_Earnings_Call_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 54896,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_linde\\extracted\\LIN_FQ3_2025.txt"
+  }
+}

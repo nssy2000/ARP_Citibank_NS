@@ -1,0 +1,247 @@
+{
+  "document_id": "LIN_FQ2_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was effectively held flat or hedged despite a strong backward-looking quarter. Management explicitly stated they 'maintain a more measured view of the underlying macro trends' and offset improved FX assumptions with 'a more negative assumption of the economy as the top end now assumes economic contraction.' The cautious, defensive language on the outlook, combined with the explicit statement that they 'don't give us enough confidence to raise the outlook at this time,' indicates a flat-to-lowered forward trajectory relative to prior expectations, warranting a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales $8.5 billion, up 3% YoY, underlying sales up 1%",
+    "eps": "Adjusted EPS $4.09, up 6% YoY; reported EPS $3.73, up 8%",
+    "guidance": "Full-year 2025 adjusted EPS guidance of $16.30 - $16.50, representing 5% to 6% growth YoY (4% to 5% ex. FX). Q3 2025 adjusted EPS guidance of $4.10 - $4.20, up 4% to 7% YoY (3% to 6% ex. FX).",
+    "margin": "Adjusted operating profit margin 30.1%, up 80 basis points YoY",
+    "key_risks": [
+      "Muted industrial economy with volumes down 1% YoY, led by manufacturing end market",
+      "EMEA volumes expected to remain negative in the second half, driven by industrial sector decline",
+      "China remains a mixed bag with weaker metals and chemicals expected for the remainder of the year",
+      "Helium pricing down high-single-digit due to oversupply, particularly in Asia",
+      "Core volume trend 'remained somewhat stagnant' despite sequential improvement",
+      "Top-end of guidance assumes economic contraction"
+    ],
+    "key_opportunities": [
+      "Sale-of-gas project backlog at record $7.1 billion, with $9.2 billion of new projects added over 4.5 years",
+      "Space market fueling double-digit growth, with investments of just under $1 billion over next 2-3 years",
+      "India merchant volumes growing in their teens with healthy opportunity pipeline",
+      "Electronics end market has healthy pipeline of projects coming up in next 12 months",
+      "US tax policy (One Big Beautiful Bill Act) expected to improve project IRRs by ~100 basis points",
+      "Germany's EUR1 trillion infrastructure/defense investment expected to uplift European industrial activity long-term"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management explicitly stated they 'maintain a more measured view of the underlying macro trends' and 'don't give us enough confidence to raise the outlook at this time,' while noting 'the currency volatility and general economic uncertainty' as reasons for guarded guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $8.5 billion, up 3% YoY with underlying sales up 1%",
+      "quote": "Linde's sales for the second quarter were $8,495 million, up 3% versus prior year. Compared to prior year, underlying sales increased 1% from 2% price attainment partially offset by 1% lower volumes largely driven by the manufacturing end market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $4.09, up 6% YoY",
+      "quote": "Adjusted earnings per share was $4.09, 6% above prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance is $16.30-$16.50, representing 5% to 6% growth",
+      "quote": "For the full-year 2025, the company expects adjusted diluted earnings per share to be in the range of $16.30 to $16.50, up 5% to 6% versus prior year, or 4% to 5% when excluding 1% of estimated currency tailwind.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 adjusted EPS guidance is $4.10-$4.20, up 4% to 7% YoY",
+      "quote": "For the third quarter of 2025, Linde expects adjusted diluted earnings per share in the range of $4.10 to $4.20, up 4% to 7% versus prior-year quarter, or 3% to 6% when excluding 1% of estimated currency tailwind.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating profit margin was 30.1%, up 80 basis points YoY",
+      "quote": "Adjusted operating profit margin of 30.1% was 80 basis points above prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management maintains a measured view of macro trends and did not raise guidance despite FX improvement",
+      "quote": "For the second half of 2025, we maintain a more measured view of the underlying macro trends. But regardless of this economic outlook, we will continue to generate long-term shareholder value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management explicitly stated they lack confidence to raise the outlook",
+      "quote": "However, the currency volatility and general economic uncertainty don't give us enough confidence to raise the outlook at this time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Top-end of guidance assumes economic contraction",
+      "quote": "For the full year, we simply approached it the same way as the third quarter, updated the improved FX, but offset with an assumption of a contracting economy at the top end of the range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volumes declined 1% YoY, led by manufacturing end market",
+      "quote": "Compared to prior year, underlying sales increased 1% from 2% price attainment partially offset by 1% lower volumes largely driven by the manufacturing end market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA volumes expected to remain negative in the second half",
+      "quote": "Volumes, therefore, are likely to be negative in the second half. I think it's going to be driven almost entirely by the industrial sector.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China remains mixed with weaker metals and chemicals expected",
+      "quote": "China remains a mixed bag. You've heard me say this in previous calls, I expect China to remain flat for the year and that continues to be our expectation. There is EVs and batteries and electronics end markets that will continue to grow, but that will be more than offset by much weaker metals and chemicals for the remainder of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Helium pricing is down high-single-digit due to oversupply",
+      "quote": "And yes, pricing is down high-single-digit and that's really just a function of the oversupply in the market, particularly around Asia and maybe a little bit of cooling off in-demand on the electronics side of things.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core volume trend remained somewhat stagnant",
+      "quote": "And while volumes did increase 2% sequentially from seasonal effects, the core trend remained somewhat stagnant.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sale-of-gas project backlog is at record $7.1 billion",
+      "quote": "In a little over four years, the sale-of-gas backlog has approximately doubled from $3.6 billion to $7.1 billion. The same is true for the number of projects moving from 33 projects to 70 projects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Space market is fueling double-digit growth with nearly $1 billion in planned investments",
+      "quote": "It's fueling double digit growth for Linde in that particular market or end market... by the end-of-the next couple of couple of three years, we would have invested just under $1 billion in building this infrastructure to support the space ecosystem going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "India merchant volumes are growing in their teens",
+      "quote": "Now the bright spot in APAC remains India with merchant volumes growing in their teens and a healthy opportunity pipeline for new investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Electronics end market has a healthy pipeline of projects",
+      "quote": "The fact remains that we have a healthy pipeline of projects that are going to come up in the next 12 months or so and we will obviously be participating.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US tax policy expected to improve project IRRs by ~100 basis points",
+      "quote": "What that also will do is make IRRs on projects better. We saw the same effect in 2017. How much the IRR improves, it's a function of a couple of different things. But I'd say on average, you probably see — you can see almost 100 basis-point improvement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Germany's EUR1 trillion investment expected to uplift European industrial activity long-term",
+      "quote": "Germany has made this extraordinary commitment to investing EUR1 trillion over the next 10 years in defense and build-out of infrastructure. That's a very significant industrial stimulus to the German economy... the longer term view, which I think is expected to start showing some initial signal, send some initial signals over the next couple of years, both from an increased level of infrastructure spend and defense spend, I think will be an important part in how we look at the long term view on Europe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious",
+      "quote": "For the second half of 2025, we maintain a more measured view of the underlying macro trends. But regardless of this economic outlook, we will continue to generate long-term shareholder value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects that guidance was held flat/hedged despite a strong quarter. However, the company did raise the low end of the full-year range ('Raising low-end of the range despite stagnant environment'), which could be viewed as mildly positive. The negative score is driven by the explicit 'economic contraction' assumption and lack of confidence to raise outlook, but a reviewer may weigh the low-end raise differently."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance figures are stated as reported, but the interpretation of whether this represents a raise, hold, or cut relative to prior guidance is not explicitly stated in the document. The presentation notes 'Raising low-end of the range despite stagnant environment,' which suggests a partial raise, but the overall tone is cautious."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LIN_Bundled Earnings Report_2025-08-01",
+  "report_metadata": {
+    "issuer": "p2_linde",
+    "company": "Linde",
+    "ticker": "LIN",
+    "sector": "Basic Materials/Specialty Chemicals",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q2\\LIN_Earnings_Presentation.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q2\\LIN_Earnings_Call_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LIN_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100915Z",
+    "timestamp": "2026-08-09T10:09:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_linde\\extracted\\LIN_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 9714,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q2\\LIN_Earnings_Presentation.txt",
+        "page_count": 1,
+        "extracted_characters": 11531,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2025-Q2\\LIN_Earnings_Call_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 50973,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_linde\\extracted\\LIN_FQ2_2025.txt"
+  }
+}

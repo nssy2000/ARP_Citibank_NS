@@ -1,0 +1,114 @@
+{
+  "issuer": "p2_bank_of_america",
+  "reports": [
+    {
+      "document_id": "BAC_FQ1_2025",
+      "issuer": "p2_bank_of_america",
+      "company": "Bank of America",
+      "ticker": "BAC",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-15",
+      "release_date": "2025-04-15",
+      "release_date_source": "EDGAR 8-K Item 2.02, bac-20250415.htm, acc 0000070858-25-000187",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q1/The Presentation Materials_1Q25_ADA.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q1/The Press Release_1Q25_ADA.pdf"
+        },
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q1/The Supplemental Information_1Q25_ADA.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BAC_FQ2_2025",
+      "issuer": "p2_bank_of_america",
+      "company": "Bank of America",
+      "ticker": "BAC",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-15",
+      "release_date": "2025-07-16",
+      "release_date_source": "EDGAR 8-K Item 2.02, bac-20250716.htm, acc 0000070858-25-000254",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q2/The Presentation Materials_2Q25_ADA.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q2/The Press Release_2Q25_ADA.pdf"
+        },
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q2/The Supplemental Information_2Q25_ADA.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BAC_FQ3_2025",
+      "issuer": "p2_bank_of_america",
+      "company": "Bank of America",
+      "ticker": "BAC",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-14",
+      "release_date": "2025-10-15",
+      "release_date_source": "EDGAR 8-K Item 2.02, bac-20251015.htm, acc 0000070858-25-000390",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q3/The Presentation Materials_3Q25_ADA.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q3/The Press Release_3Q25_ADA.pdf"
+        },
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q3/The Supplemental Information_3Q25_ADA.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BAC_FQ4_2025",
+      "issuer": "p2_bank_of_america",
+      "company": "Bank of America",
+      "ticker": "BAC",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-13",
+      "release_date": "2026-01-14",
+      "release_date_source": "EDGAR 8-K Item 2.02, bac-20260114.htm, acc 0000070858-26-000020",
+      "documents": [
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q4/The Presentation Materials_4Q25_ADA.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q4/The Press Release_4Q25_ADA.pdf"
+        },
+        {
+          "doc_type": "Supplemental Information",
+          "source_pdf": "docs/bank_of_america/phase2/CY2025-Q4/The Supplemental Information_4Q25_ADA.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

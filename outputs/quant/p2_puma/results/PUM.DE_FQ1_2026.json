@@ -1,0 +1,58 @@
+{
+  "document_id": "PUM.DE_FQ1_2026_QUANT",
+  "base_document_id": "PUM.DE_FQ1_2026",
+  "issuer": "p2_puma",
+  "ticker": "PUM.DE",
+  "sector": "Consumer Cyclical/Footwear & Accessories",
+  "report_date": "2026-04-30",
+  "sentiment": {
+    "score": 0.880111
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.149511,
+      "window_start_date": "2026-03-27",
+      "window_end_date": "2026-04-29",
+      "score": 0.760222,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.375304,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 178.67,
+      "matched_earnings_date": "2026-04-29",
+      "score": 0.999999,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.89,
+      "vix_score": 0.139746,
+      "tnx_change": 0.079,
+      "tnx_score": -0.156698,
+      "score": -0.008476,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-04-29",
+      "curve_spread": 0.5,
+      "curve_score": 0.462117,
+      "curve_as_of": "2026-04-29",
+      "score": 0.231059,
+      "available": true
+    },
+    "quant_score": 0.880111,
+    "quant_score_with_macro": 0.435817,
+    "quant_score_with_fred": 0.555585,
+    "quant_score_with_macro_fred": 0.367565
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

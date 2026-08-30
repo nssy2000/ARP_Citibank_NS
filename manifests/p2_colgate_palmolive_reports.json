@@ -1,0 +1,75 @@
+{
+  "issuer": "p2_colgate_palmolive",
+  "transcript_availability_note": "No freely available earnings call transcript exists for any Colgate-Palmolive event in this extension. All four events are press-release-only in the model arm. The human arm also read press release only for all four events. Both arms are on the same information set. Colgate-Palmolive events are excluded from Item C (four-arm section ablation) by document availability, not by choice. Determined 2026-08-13 during extension document gathering, before any Colgate-Palmolive event was scored.",
+  "reports": [
+    {
+      "document_id": "CL_FQ3_2025",
+      "issuer": "p2_colgate_palmolive",
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "sector": "Consumer Defensive/Household Products",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-31",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/colgate_palmolive/CY2025-Q3/CL_Q3_2025_Press_Release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "CL_FQ4_2025",
+      "issuer": "p2_colgate_palmolive",
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "sector": "Consumer Defensive/Household Products",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-30",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/colgate_palmolive/CY2025-Q4/CL_Q4_2025_Press_Release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "CL_FQ1_2026",
+      "issuer": "p2_colgate_palmolive",
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "sector": "Consumer Defensive/Household Products",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-24",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/colgate_palmolive/CY2026-Q1/CL_Q1_2026_Press_Release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "CL_FQ2_2026",
+      "issuer": "p2_colgate_palmolive",
+      "company": "Colgate-Palmolive",
+      "ticker": "CL",
+      "sector": "Consumer Defensive/Household Products",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-07-31",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/colgate_palmolive/CY2026-Q2/CL_Q2_2026_Press_Release.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

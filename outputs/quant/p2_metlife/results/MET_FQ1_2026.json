@@ -1,0 +1,58 @@
+{
+  "document_id": "MET_FQ1_2026_QUANT",
+  "base_document_id": "MET_FQ1_2026",
+  "issuer": "p2_metlife",
+  "ticker": "MET",
+  "sector": "Financial Services/Insurance - Life",
+  "report_date": "2026-05-06",
+  "sentiment": {
+    "score": 0.470579
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.124719,
+      "window_start_date": "2026-04-06",
+      "window_end_date": "2026-05-05",
+      "score": 0.681258,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.220972,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 6.65,
+      "matched_earnings_date": "2026-05-06",
+      "score": 0.259899,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.39,
+      "vix_score": 0.106923,
+      "tnx_change": 0.013,
+      "tnx_score": -0.025994,
+      "score": 0.040464,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-05-05",
+      "curve_spread": 0.5,
+      "curve_score": 0.462117,
+      "curve_as_of": "2026-05-05",
+      "score": 0.231059,
+      "available": true
+    },
+    "quant_score": 0.470579,
+    "quant_score_with_macro": 0.255522,
+    "quant_score_with_fred": 0.350819,
+    "quant_score_with_macro_fred": 0.247367
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "document_id": "SBUX_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports a genuine operational inflection: global comparable store sales turned positive for the first time in seven quarters, with US comps turning positive in September and continuing through October. Management expresses confidence in the 'Back to Starbucks' turnaround and expects US comps to build through fiscal 2026, but formal guidance is deferred to an Investor Day in late January, and management acknowledges the recovery may not be linear. The score reflects real momentum without a formal guidance raise, tempered by cautious language on the multi-year turnaround and ongoing cost headwinds."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 consolidated net revenues increased 5% (5.3% constant currency) to $9.6 billion. Full-year revenues increased 3% to $37.2 billion.",
+    "eps": "Q4 GAAP EPS $0.12, down 85% YoY; Non-GAAP EPS $0.52, down 35% YoY (34% constant currency). Full-year GAAP EPS $1.63, down 51%; Non-GAAP EPS $2.13, down 36%.",
+    "guidance": "No formal FY2026 guidance provided. Management expects US company-operated comps to build through the year, with Q1 led by positive transaction comps. Full guidance to be provided at Investor Day in late January. G&A expected to run lower than FY2023 levels in FY2026.",
+    "margin": "Q4 GAAP operating margin contracted 1,150 bps to 2.9%; Non-GAAP operating margin contracted 500 bps to 9.4%. Full-year GAAP operating margin contracted 710 bps to 7.9%; Non-GAAP contracted 510 bps to 9.9%.",
+    "key_risks": [
+      "Elevated coffee prices and tariffs are headwinds, with coffee expected to remain a headwind at least through the first half of fiscal 2026.",
+      "Turnaround is multi-year and recoveries are not always linear.",
+      "US licensed store revenue declined due to grocery and retail channel trends.",
+      "Restructuring costs and store closures impacted margins and EPS.",
+      "Competition from emerging beverage brands.",
+      "Macro pressures on younger consumers."
+    ],
+    "key_opportunities": [
+      "Global comparable store sales growth for the first time in seven quarters.",
+      "US comps turned positive in September and continued through October.",
+      "Green Apron Service rollout driving improved customer experience and transaction momentum.",
+      "Protein platform (Protein Cold Foam and Protein Lattes) bringing in less frequent customers.",
+      "International segment record revenues, with China returning to positive comps.",
+      "Uplift renovation program targeting over 1,000 stores by end of FY2026.",
+      "New store prototype with lower build costs.",
+      "Potential strategic partnership in China with retained stake and royalty payments.",
+      "Holiday season lineup and menu innovation."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expresses confidence in the turnaround ('our plan is working and our turnaround is taking hold') while acknowledging it is a multi-year effort, reflecting an optimistic but measured tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 consolidated net revenues increased 5% to $9.6 billion.",
+      "quote": "Q4 Consolidated Net Revenues Up 5% to $9.6 Billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP EPS was $0.12, down 85% YoY.",
+      "quote": "Q4 GAAP EPS $0.12, Non-GAAP EPS $0.52 ... GAAP earnings per share of $0.12 declined 85% over prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 Non-GAAP EPS was $0.52, down 35% YoY.",
+      "quote": "Non-GAAP earnings per share of $0.52 declined 35% over prior year, or 34% on a constant currency basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global comparable store sales increased 1% in Q4, the first positive quarter in seven quarters.",
+      "quote": "Global comparable store sales increased 1% ... Company Delivers Global Comparable Store Sales Growth for the First Time in Seven Quarters",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US company-operated comps turned positive in September and continued through October.",
+      "quote": "Notably, our US company-operated sales comp turned positive in September, driven by transactions, and it's remained positive through October, reflecting the momentum taking shape in our business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects US comps to build through fiscal 2026 but acknowledges recoveries are not always linear.",
+      "quote": "We also recognize that we have more work to do as we continue to rebuild our transaction base. Turnarounds are difficult to forecast, and while we have good reason to believe that our US company-operated comps should build through the year, we also know that recoveries are not always linear.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Formal guidance is deferred to Investor Day in late January.",
+      "quote": "While we expect to provide our near- and longer-term outlook during our Investor Day in late January. The following are some initial considerations for our US company-operated business for fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP operating margin contracted 1,150 bps to 2.9%.",
+      "quote": "GAAP operating margin contracted 1,150 basis points year-over-year to 2.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 Non-GAAP operating margin contracted 500 bps to 9.4%.",
+      "quote": "Non-GAAP operating margin contracted 500 basis points year-over-year, including on a constant currency basis, to 9.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Coffee prices are expected to remain a headwind at least through the first half of fiscal 2026.",
+      "quote": "On the product inflation, I expect coffee to continue to be a headwind, at least through half a year, all of our best thinking would say that we're going to start to see some relief at the back side of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US licensed store revenue declined in Q4 due to grocery and retail channel trends.",
+      "quote": "Our US licensed store portfolio revenue declined in Q4, primarily due to trends in the grocery and retail channels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The protein platform is bringing in less frequent customers.",
+      "quote": "Customer awareness continues to build, and it is bringing less frequent customers into our coffeehouses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International segment achieved record revenues of $2.1 billion in Q4.",
+      "quote": "In the fourth quarter, our international business reached record revenues of $2.1 billion, and ended the year with an all-time high of $7.8 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China returned to positive comps with 2% growth in Q4.",
+      "quote": "In China, the team continues to drive demand in a competitive marketplace, delivering 2% comp growth in Q4, its second consecutive quarter of positive comps, and our portfolio crossed 8,000 stores.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about the turnaround.",
+      "quote": "We set a plan, we're working the plan, and the plan is working. We have more work to do, but we're building momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledges the turnaround is multi-year.",
+      "quote": "We're on a multiyear turnaround, Q4 was a turning point, having delivered the first quarter of global comp growth in seven quarters, and we're encouraged by our trends to-date in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "G&A is expected to run lower than FY2023 levels in FY2026.",
+      "quote": "As such, we expect that our consolidated G&A in fiscal 2026 will run lower than fiscal 2023 levels, serving as a partial offset to our Back to Starbucks investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Uplift renovation program targets over 1,000 stores by end of FY2026.",
+      "quote": "We are working to complete more than 1,000 of these Uplifts by the end of fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A new store prototype with lower build costs is being piloted.",
+      "quote": "We are piloting a new coffeehouse prototype with lower build costs and optimized space utilization that still deliver a full coffeehouse experience aligned to our brand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential China partnership includes retained stake and royalty payments.",
+      "quote": "As a reminder, the value to Starbucks in a potential transaction includes three things: the upfront investment by our future partner, Starbucks retaining a meaningful stake in the China business, and future royalty payments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition from emerging beverage brands is a risk.",
+      "quote": "Brian, how is Starbucks impacted by just increased competition from all the emerging beverage brands, especially maybe in the markets where you do have a significant amount of overlap.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macro pressures on younger consumers are a concern.",
+      "quote": "You mentioned that the college and campuses are doing well in the quarter, but there were some broad concerns about the macro pressures on the younger consumers.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects momentum without formal guidance raise; verify that the inflection is considered strong enough to exceed the 0.15 BUY threshold."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Competition and macro pressures are inferred from analyst questions; confirm they are considered explicit risks."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SBUX_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_starbucks",
+    "company": "Starbucks",
+    "ticker": "SBUX",
+    "sector": "Consumer Cyclical/Restaurants",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q4\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SBUX_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103643Z",
+    "timestamp": "2026-08-09T10:37:20Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_starbucks\\extracted\\SBUX_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 42193,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q4\\presentation.pdf",
+        "page_count": 20,
+        "extracted_characters": 73112,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_starbucks\\extracted\\SBUX_FQ4_2025.txt"
+  }
+}

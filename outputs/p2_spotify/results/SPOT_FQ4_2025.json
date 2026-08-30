@@ -1,0 +1,220 @@
+{
+  "document_id": "SPOT_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports a strong Q4 with record MAU net adds, gross margin expansion, and operating income above guidance, but forward guidance for Q1 2026 is largely in line with prior trends (revenue growth ~15%, gross margin 32.8%, operating income €660M) and management does not raise full-year guidance. The improvement is partly organic (subscriber growth, pricing) but also includes favorable social charges and FX headwinds, so the score reflects genuine momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total Revenue increased 7% Y/Y to €4.5 billion (13% Y/Y constant currency). Premium Revenue grew 8% Y/Y to €4,013 million (14% constant currency). Ad-Supported Revenue declined -4% Y/Y (or increased 4% constant currency).",
+    "eps": "Diluted EPS attributable to owners of the parent was €4.43 for Q4 2025 (basic €5.71). The transcript notes 'Spotify Technology S.A. beats earnings expectations. Reported EPS is $5.2, expectations were $3.21.'",
+    "guidance": "Q1 2026 guidance: Total Premium Subscribers 293 million, Total Revenue €4.5 billion, Gross Margin 32.8%, Operating Income €660 million, Total MAUs 759 million. Management expects gross margin and operating margin to improve in 2026 and free cash flow to meaningfully exceed 2025 levels.",
+    "margin": "Gross Margin improved by 83 bps Y/Y to 33.1% (record high). Operating Margin was 15.5% in Q4. Full-year 2025 operating margin was 12.8%.",
+    "key_risks": [
+      "Foreign exchange rate movements: ~670 bps headwind to Q1 2026 revenue growth Y/Y (vs. ~580 bps in Q4).",
+      "Social Charges volatility due to share price movements (€67 million below forecast in Q4).",
+      "Ad-Supported revenue declined -4% Y/Y (IFRS) due to softness in pricing and podcast inventory optimization.",
+      "Competition and AI disruption: market concern that AI tools could become DSPs and take share.",
+      "Structural risks: ongoing need to manage spammy AI music and content moderation.",
+      "Potential churn from price increases, though currently in line with expectations."
+    ],
+    "key_opportunities": [
+      "Record MAU net adds of 38 million in Q4, reaching 751 million MAUs (11% Y/Y).",
+      "Premium Subscribers grew 10% Y/Y to 290 million.",
+      "AI-driven personalization (AI DJ, Prompted Playlist) driving engagement and retention.",
+      "Expansion into audiobooks, music videos, and physical book sales via Bookshop.org partnership.",
+      "Advertising business transformation with record advertiser levels and improved yield.",
+      "Pricing adjustments expected to drive revenue growth outpacing content costs in 2026.",
+      "Free cash flow generation of €2.9 billion in 2025, expected to meaningfully exceed in 2026."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management repeatedly uses confident language such as 'strong finish to 2025,' 'exceptional user growth,' 'we are confident in our path into 2026,' and 'we are optimistic about 2026 and beyond.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total Revenue grew 7% Y/Y to €4.5 billion (13% constant currency).",
+      "quote": "Total Revenue increased 13% Y/Y constant currency* to €4.5 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was €4.43 per share for Q4 2025.",
+      "quote": "Diluted earnings per share attributable to owners of the parent 4.43",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 guidance includes revenue of €4.5 billion and operating income of €660 million.",
+      "quote": "We are also forecasting $4,500,000,000 in total quarter one revenue... We expect a quarter one gross margin of 32.8%, and operating income of $660,000,000.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross Margin improved by 83 bps Y/Y to 33.1%.",
+      "quote": "Gross Margin improved by 83 bps Y/Y to 33.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange is a headwind to Q1 2026 revenue growth.",
+      "quote": "Assumes ~670 bps headwind to growth Y/Y (vs. ~580 bps in Q4) due to foreign exchange rate movements",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-Supported revenue declined -4% Y/Y on an IFRS basis.",
+      "quote": "Ad-Supported Revenue declined -4% Y/Y (or increased 4% Y/Y constant currency*)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record MAU net adds of 38 million in Q4.",
+      "quote": "The business added a record 38 million MAU vs. guidance for 32 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium Subscribers grew 10% Y/Y to 290 million.",
+      "quote": "Premium Subscribers grew 10% Y/Y to 290 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI DJ has been used by 90 million subscribers.",
+      "quote": "About 90,000,000 subscribers have used AI DJ so far.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Audiobooks expanded to five new countries.",
+      "quote": "Audiobooks in Premium are now available in Sweden, Denmark, Finland, Iceland, and Monaco",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising business is improving with record advertiser levels.",
+      "quote": "We now have, I am happy to say, record levels of advertisers on the platform. And that increased density means much better yield and as a result, revenue growth for us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about 2026.",
+      "quote": "I am optimistic about 2026 and beyond. We expect continued healthy MAU and subs growth throughout the year, while maintaining our consistently low churn.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow in 2025 was €2.9 billion.",
+      "quote": "Free Cash Flow* was €834 million in Q4, bringing full year 2025 Free Cash Flow generation to €2.9 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Social Charges were €67 million below forecast due to share price movement.",
+      "quote": "Social Charges were €67 million below forecast due to share price movement during the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company repurchased $433 million in shares in Q4.",
+      "quote": "We repurchased $433 million in shares in Q4, bringing full year 2025 repurchase activity to $510 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 is based on operational momentum and confident language, but guidance was not formally raised; a reviewer may consider whether the score should be lower given FX headwinds and flat full-year guidance."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "The document provides IFRS EPS in euros (€4.43 diluted) and the transcript mentions a non-IFRS EPS of $5.2 vs. expectations of $3.21; ensure the correct figure is used for comparison."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SPOT_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q4\\Press_Release.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q4\\Shareholder_Deck.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q4\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SPOT_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103154Z",
+    "timestamp": "2026-08-09T10:32:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q4\\Press_Release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_spotify\\extracted\\SPOT_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q4\\Press_Release.html",
+        "page_count": 1,
+        "extracted_characters": 8020,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q4\\Shareholder_Deck.pdf",
+        "page_count": 36,
+        "extracted_characters": 35698,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2025-Q4\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 70294,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_spotify\\extracted\\SPOT_FQ4_2025.txt"
+  }
+}

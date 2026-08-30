@@ -1,0 +1,245 @@
+{
+  "document_id": "BAC_FQ3_2024",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows a clear inflection point: NII troughed in Q2 2024 and grew 2% in Q3, with management explicitly guiding Q4 NII to $14.3B or more (FTE), a meaningful raise from Q3's $14.1B. This is a genuine operational trajectory change, not just a backward-looking beat. Management also expressed confidence in returning to operating leverage in 2025. However, the score is tempered by the fact that full-year 2025 guidance was deferred, and the NII outlook is conditional on the forward rate curve and modest balance growth assumptions."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue, net of interest expense, of $25.3 billion ($25.5 billion FTE), increased $178 million from 3Q23, reflecting higher asset management and investment banking fees, as well as sales and trading revenue and lower net interest income.",
+    "eps": "Diluted earnings per share of $0.81, compared to $0.90 in 3Q23.",
+    "guidance": "NII expected to grow in Q4 2024 to $14.3 billion or more on a fully tax equivalent basis, assuming the forward curve as of October 10 (25bp cuts in Nov and Dec), modest balance increases, and ~$200M benefit from BSBY transition. Management expects a return to operating leverage in 2025.",
+    "margin": "Net interest yield of 1.92% (FTE), down 1 bp from 2Q24 and 19 bps YoY. Efficiency ratio of 65% (reported), up from 64% in 2Q24 and 63% in 3Q23.",
+    "key_risks": [
+      "Higher deposit costs continue to pressure NII, partially offsetting benefits from asset repricing and loan growth.",
+      "Provision for credit losses increased to $1.5B from $1.2B in 3Q23, driven by higher net charge-offs.",
+      "Noninterest expense increased 4% YoY, driven by revenue-related expenses and franchise investments.",
+      "Forward NII guidance is conditional on the interest rate curve and modest balance growth assumptions; an extra 25bp rate cut could set back NII growth by a few weeks.",
+      "Commercial net charge-offs increased $16MM from 2Q24, driven by two borrowers in C&I.",
+      "Consumer deposits declined 4% YoY, though the pace of decline is slowing."
+    ],
+    "key_opportunities": [
+      "NII inflection point reached: NII grew 2% from 2Q24, and management expects further growth in Q4 and into 2025.",
+      "Strong fee growth: asset management fees up 14%, investment banking fees up 18%, sales and trading revenue up 12% YoY.",
+      "Organic growth across all segments: 360,000 net new consumer checking accounts, record consumer investment assets of $497B, record GWIM client balances of $4.2T.",
+      "Fixed-rate asset repricing provides a tailwind: ~$20B of fixed-rate loans and securities repricing quarterly into higher yields.",
+      "Deposit costs expected to decline following rate cuts; total rate paid expected to fall below 2% in October.",
+      "Capital position strong: CET1 ratio of 11.8% is 112 bps above the new regulatory minimum, allowing continued share repurchases ($3.5B in Q3)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management explicitly states the NII trough has passed and guides for further growth, with Brian Moynihan saying 'we expect to return to operating leverage as we move through the quarters in 2025' and Alastair Borthwick stating 'we feel like we're in a good position to grow from here.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "NII troughed in Q2 2024 and grew 2% in Q3 2024.",
+      "quote": "NII increased by $252 million from the Q2 driven by a number of factors. ... On our Q3 earnings call last year, we first provided our expectation that the Q2 would be the trough and then we would begin to grow in the Q3 of '24, marking an inflection point for NII. And that's what you see this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management guides Q4 2024 NII to $14.3 billion or more on an FTE basis.",
+      "quote": "With regard to a forward view of NII, there are obviously several variables at play in the Q4, and we still expect Q4 NII to grow, and we expect it to be $14.3 billion or more on a fully tax equivalent basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue was $25.3 billion ($25.5 billion FTE), up $178 million from 3Q23.",
+      "quote": "Revenue, net of interest expense, of $25.3 billion ($25.5 billion FTE)(B) increased $178 million, reflecting higher asset management and investment banking fees, as well as sales and trading revenue and lower net interest income (NII).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.81, compared to $0.90 in 3Q23.",
+      "quote": "Net income of $6.9 billion, or $0.81 per diluted share, compared to $7.8 billion, or $0.90 per diluted share in 3Q23.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield was 1.92% (FTE), down 1 bp from 2Q24 and 19 bps YoY.",
+      "quote": "Net interest yield of 1.92% decreased 1 bp from 2Q24 and 19 bps YoY.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio was 65% (reported), up from 64% in 2Q24 and 63% in 3Q23.",
+      "quote": "Efficiency ratio 65 64 63 (from slide 2, 3Q24 Financial Results).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses increased to $1.5B from $1.2B in 3Q23.",
+      "quote": "Provision for credit losses of $1.5 billion was flat compared to 2Q24 and up from $1.2 billion in 3Q23.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest expense increased 4% YoY.",
+      "quote": "Noninterest expense of $16.5 billion, up 4%, driven primarily by revenue-related expenses and investments in the franchise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asset management fees up 14% YoY.",
+      "quote": "Revenue of $5.8 billion, up 8%, reflecting 14% higher asset management fees, due to higher market levels and AUM flows of $21 billion in 3Q24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees up 18% YoY.",
+      "quote": "Total investment banking fees (excl. self-led) of $1.4 billion, up 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue up 12% YoY.",
+      "quote": "Sales and trading revenue of $4.9 billion, up 12%, both including and excluding net debit valuation adjustment (DVA) losses of $8 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "360,000 net new consumer checking accounts added in Q3.",
+      "quote": "~360,000 net new consumer checking accounts; 2nd best quarter on record.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record consumer investment assets of $497B.",
+      "quote": "Record consumer investment assets of $497B,2 up 28% YoY; 3.9MM accounts, up 4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record GWIM client balances of $4.2T.",
+      "quote": "Record client balances of $4.2T, up 18% YoY.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio of 11.8% is 112 bps above the new regulatory minimum.",
+      "quote": "CET1 ratio of 11.8% (Standardized);(E) 112 bps above the new regulatory minimum that took effect Oct. 1, 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects a return to operating leverage in 2025.",
+      "quote": "With NII now growing and complementing our fee growth along with our continued solid expense discipline, we expect to return to operating leverage as we move through the quarters in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit costs expected to decline; total rate paid expected to fall below 2% in October.",
+      "quote": "Total rate paid for all deposits from these actions is expected to fall below 2% later in October, as the fuller effect of the pass-throughs occur.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer deposits declined 4% YoY.",
+      "quote": "Average deposits of $938 billion, down 4% from 3Q23.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial net charge-offs increased $16MM from 2Q24, driven by two borrowers.",
+      "quote": "Commercial net charge-offs of $490MM increased $16MM ... Commercial and industrial NCOs increased $111MM, driven by two borrowers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We expect to return to operating leverage as we move through the quarters in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a genuine NII inflection and confident forward guidance, but full-year 2025 guidance was deferred. A reviewer may wish to assess whether the NII guidance raise is sufficiently material to warrant this score versus a more conservative 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2024-10-15",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2024",
+    "report_date": "2024-10-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q3\\bac-3q24-press-release.html",
+        "pub_date": "2024-10-15"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q3\\bac-3q24-presentation.html",
+        "pub_date": "2024-10-15"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q3\\bac-3q24-earnings-call-transcript.html",
+        "pub_date": "2024-10-15"
+      }
+    ],
+    "document_id": "BAC_FQ3_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T142324Z",
+    "timestamp": "2026-07-08T14:26:05Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q3\\bac-3q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q3\\bac-3q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 60868,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q3\\bac-3q24-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 66042,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2024-Q3\\bac-3q24-earnings-call-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 66149,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ3_2024.txt"
+  }
+}

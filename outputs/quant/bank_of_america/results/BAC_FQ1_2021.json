@@ -1,0 +1,58 @@
+{
+  "document_id": "BAC_FQ1_2021_QUANT",
+  "base_document_id": "BAC_FQ1_2021",
+  "issuer": "bank_of_america",
+  "ticker": "BAC",
+  "sector": "Financials",
+  "report_date": "2021-04-15",
+  "sentiment": {
+    "score": 0.612376
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.056424,
+      "window_start_date": "2021-03-15",
+      "window_end_date": "2021-04-14",
+      "score": 0.359367,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.23834,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 32.86,
+      "matched_earnings_date": "2021-04-15",
+      "score": 0.865385,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.57,
+      "vix_score": 0.160598,
+      "tnx_change": -0.091,
+      "tnx_score": 0.180017,
+      "score": 0.170307,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 0.07,
+      "ffr_change": -0.01,
+      "ffr_score": 0.019997,
+      "ffr_as_of": "2021-04-14",
+      "curve_spread": 1.48,
+      "curve_score": 0.901468,
+      "curve_as_of": "2021-04-14",
+      "score": 0.460733,
+      "available": true
+    },
+    "quant_score": 0.612376,
+    "quant_score_with_macro": 0.391342,
+    "quant_score_with_fred": 0.536555,
+    "quant_score_with_macro_fred": 0.414472
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

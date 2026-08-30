@@ -1,0 +1,233 @@
+{
+  "document_id": "JPM_FQ4_2020",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports strong Q4 2020 results with net income of $12.1B and EPS of $3.79, but management explicitly states the $2.9B credit reserve release is not considered core or recurring profit. Forward guidance for 2021 NII is ~$55.5B, roughly flat versus 2020's $55.0B, and adjusted noninterest expense is guided to $68+ billion, up from $65.5B in 2020. The outlook includes cautious language about 'significant near-term economic uncertainty' and loan growth remaining muted. The score reflects genuine operational momentum (record revenue, strong IB fees, reserve releases) tempered by flat NII guidance, rising expense guidance, and cautious forward language."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $29.2 billion; managed revenue of $30.2 billion, up 3% year-over-year.",
+    "eps": "Reported EPS of $3.79, up 47% year-over-year from $2.57. Excluding credit reserve releases, EPS was $3.07.",
+    "guidance": "2021 net interest income outlook of ~$55.5 billion, with 1Q21 ~$13.6 billion and 4Q21 $14+ billion. Adjusted noninterest expense guided to $68+ billion. Plan to resume share repurchases in 1Q21 with net capacity of $4.5 billion.",
+    "margin": "Reported overhead ratio of 55%; managed overhead ratio of 53%. ROE of 19% and ROTCE of 24% for Q4 2020.",
+    "key_risks": [
+      "Credit reserve releases of $2.9B are not considered core or recurring profits and introduce quarterly volatility.",
+      "Credit reserves of over $30 billion reflect significant near-term economic uncertainty.",
+      "Net interest income down 7% driven by lower rates and balance sheet mix.",
+      "Loan growth remains muted; average loans down 6% in CCB.",
+      "Deposit margin compression across multiple segments.",
+      "GSIB and leverage rules are top of mind for capital in 2021; SLR may become binding."
+    ],
+    "key_opportunities": [
+      "Record revenue in 2020, benefiting from diversified business model.",
+      "Strong deposit growth: average deposits up 35% YoY firmwide.",
+      "CIB ranked #1 in Global Investment Banking fees with 9.2% wallet share.",
+      "Markets revenue up 20% with Fixed Income up 15% and Equity Markets up 32%.",
+      "AUM up 17% to $2.7 trillion with net inflows of over $190 billion.",
+      "Plan to resume share repurchases in 1Q21 with $30B authorization.",
+      "Investments in technology, digital capabilities, and market expansion."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jamie Dimon states 'JPMorgan Chase reported strong results' and highlights 'record revenue' and 'meaningful capacity to further invest in our business and communities, while returning capital to our shareholders.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $29.2 billion; managed revenue was $30.2 billion, up 3% year-over-year.",
+      "quote": "Net revenue on a reported basis was $29.2 billion, $29.1 billion, and $28.3 billion for the fourth quarter of 2020, third quarter of 2020, and fourth quarter of 2019, respectively. ... Net revenue of $30.2 billion was up 3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $3.79, up 47% year-over-year from $2.57.",
+      "quote": "JPMORGAN CHASE REPORTS FOURTH-QUARTER 2020 NET INCOME OF $12.1 BILLION ($3.79 PER SHARE) ... Earnings per share $ 3.79 $ 2.92 $ 2.57 $ 0.87 30 % $ 1.22 47 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding credit reserve releases, EPS was $3.07.",
+      "quote": "or $9.9 billion excluding credit reserve releases of $2.9 billion ($3.07 per share)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2021 net interest income outlook is ~$55.5 billion.",
+      "quote": "2021 Outlook Net interest income ... ~$55.5",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted noninterest expense guided to $68+ billion for 2021.",
+      "quote": "Adjusted noninterest expense1 ($B) ... 2021 ... $68+",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Plan to resume share repurchases in 1Q21 with net capacity of $4.5 billion.",
+      "quote": "Plan to resume buybacks in 1Q21, with a net capacity of $4.5B5",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 55%; managed overhead ratio of 53%.",
+      "quote": "n 4Q20 reported expense of $16.0 billion; reported overhead ratio of 55%; managed overhead ratio of 53%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE of 19% and ROTCE of 24% for Q4 2020.",
+      "quote": "ROE 19% ROTCE 24%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit reserve releases of $2.9B are not considered core or recurring profits.",
+      "quote": "we do not consider the reserve takedown of $2.9 billion to represent core or recurring profits – essentially reserve calculations, while done extremely diligently and carefully, now involve multiple, multi-year hypothetical probability-adjusted scenarios, which may or may not occur and which can be expected to introduce quarterly volatility in our reserves.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit reserves of over $30 billion reflect significant near-term economic uncertainty.",
+      "quote": "our credit reserves of over $30 billion continue to reflect significant near-term economic uncertainty and will allow us to withstand an economic environment far worse than the current base forecasts by most economists.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income down 7% driven by lower rates and balance sheet mix.",
+      "quote": "Net interest income was $13.4 billion, down 7%, predominantly driven by the impact of lower rates as well as balance sheet mix, largely offset by balance sheet growth and higher net interest income in CIB Markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average loans down 6% in CCB.",
+      "quote": "Average loans down 6% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit margin compression across multiple segments.",
+      "quote": "Consumer & Business Banking net revenue was $5.7 billion, down 14%, predominantly driven by the impact of deposit margin compression",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GSIB and leverage rules are top of mind for capital in 2021; SLR may become binding.",
+      "quote": "GSIB and Leverage are top of mind for capital in 2021 ... Leverage is binding w ithout exclusions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record revenue in 2020, benefiting from diversified business model.",
+      "quote": "JPMorgan Chase reported strong results in the fourth quarter of 2020, concluding a challenging year where we generated record revenue, benefiting from our diversified business model and dedicated employees.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong deposit growth: average deposits up 35% YoY firmwide.",
+      "quote": "Average deposits up 35%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CIB ranked #1 in Global Investment Banking fees with 9.2% wallet share.",
+      "quote": "#1 ranking for Global Investment Banking fees with 9.2% wallet share for the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenue up 20% with Fixed Income up 15% and Equity Markets up 32%.",
+      "quote": "Total Markets revenue of $5.9 billion, up 20%, with Fixed Income Markets up 15% and Equity Markets up 32%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AUM up 17% to $2.7 trillion with net inflows of over $190 billion.",
+      "quote": "Assets under management (AUM) of $2.7 trillion, up 17% ... net inflows of over $190 billion into long-term and liquidity products over the last twelve months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "JPMorgan Chase reported strong results in the fourth quarter of 2020, concluding a challenging year where we generated record revenue, benefiting from our diversified business model and dedicated employees.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on a mix of strong backward-looking results and cautious forward guidance. The guidance for NII is roughly flat and expenses are rising, which tempers the positive momentum. A reviewer may want to assess whether the flat NII guidance and expense growth warrant a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2021-01-15",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2020",
+    "report_date": "2021-01-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2020-Q4\\jpm-4q20-press-release.html",
+        "pub_date": "2021-01-15"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2020-Q4\\jpm-4q20-presentation.html",
+        "pub_date": "2021-01-15"
+      }
+    ],
+    "document_id": "JPM_FQ4_2020"
+  },
+  "run_meta": {
+    "run_id": "20260709T144020Z",
+    "timestamp": "2026-07-09T14:40:39Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2020-Q4\\jpm-4q20-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2020.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2020-Q4\\jpm-4q20-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25345,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2020-Q4\\jpm-4q20-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 36833,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2020.txt"
+  }
+}

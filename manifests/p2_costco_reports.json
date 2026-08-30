@@ -1,0 +1,92 @@
+{
+  "issuer": "p2_costco",
+  "reports": [
+    {
+      "document_id": "COST_FQ4_2025",
+      "issuer": "p2_costco",
+      "company": "Costco",
+      "ticker": "COST",
+      "sector": "Consumer Defensive/Discount Stores",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-09-25",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/costco/CY2025-Q4/COST_Q4_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/costco/CY2025-Q4/COST_Q4_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "COST_FQ1_2026",
+      "issuer": "p2_costco",
+      "company": "Costco",
+      "ticker": "COST",
+      "sector": "Consumer Defensive/Discount Stores",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2025-12-11",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/costco/CY2026-Q1/COST_Q1_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/costco/CY2026-Q1/COST_Q1_2026_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "COST_FQ2_2026",
+      "issuer": "p2_costco",
+      "company": "Costco",
+      "ticker": "COST",
+      "sector": "Consumer Defensive/Discount Stores",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-03-05",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/costco/CY2026-Q2/COST_Q2_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/costco/CY2026-Q2/COST_Q2_2026_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "COST_FQ3_2026",
+      "issuer": "p2_costco",
+      "company": "Costco",
+      "ticker": "COST",
+      "sector": "Consumer Defensive/Discount Stores",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2026",
+      "report_date": "2026-05-28",
+      "release_date": "2026-05-28",
+      "release_date_source": "EDGAR 8-K 2.02,9.01, CIK 909832, acc 0000909832-26-000046, accepted 2026-05-28T20:17:32Z = 16:17 EDT (after-hours)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/costco/CY2026-Q3/COST_Q3_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/costco/CY2026-Q3/COST_Q3_2026_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

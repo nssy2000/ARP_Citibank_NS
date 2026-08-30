@@ -1,0 +1,187 @@
+{
+  "document_id": "NFLX_FQ3_2023",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows genuine operational momentum: paid sharing crackdown is driving incremental membership growth for several more quarters, ad plan membership grew 70% sequentially, and management raised 2024 operating margin guidance to 22%-23% from 20% in 2023. While no formal revenue guidance raise was provided, the forward margin expansion and confident language on paid sharing and ads represent a clear trajectory change. The score is tempered by the unresolved SAG-AFTRA strike, which creates near-term uncertainty on content spend timing."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed (no specific revenue figure reported in the transcript).",
+    "eps": "Not disclosed.",
+    "guidance": "2024 operating margin expected to be roughly 22% to 23%, up from 20% in 2023. Cash content spend in 2024 expected to be at or near $17 billion, subject to SAG-AFTRA strike resolution. Revenue growth in 2024 expected to have a more balanced mix of membership and ARM growth.",
+    "margin": "2023 operating margin expected to be 20% (at high end of initial target). 2024 operating margin expected to be roughly 22% to 23%.",
+    "key_risks": [
+      "SAG-AFTRA strike unresolved, impacting content production and timing of content spend.",
+      "Paid sharing conversion not complete; some borrowers will not convert and must be won over like new subscribers.",
+      "Advertising business still early stage; scale is not yet at desired levels in any country.",
+      "Content costs rise nearly every year driven by competition for talent and shows."
+    ],
+    "key_opportunities": [
+      "Paid sharing crackdown driving incremental membership and revenue for several more quarters.",
+      "Advertising represents a $180 billion opportunity (linear TV + connected TV, excluding YouTube, China, Russia).",
+      "Ad plan membership grew 70% sequentially; 30% of new sign-ups in ad countries choose the ads plan.",
+      "Games represent a $140 billion consumer spend opportunity outside China and Russia.",
+      "Licensing third-party content (e.g., 'Suits') drives significant engagement and cultural impact.",
+      "Long runway for margin growth; no near-term ceiling seen."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'incredibly pleased,' 'we've got a long runway for growth,' and 'we don't think we're anywhere near a margin ceiling,' conveying strong confidence in the business trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Paid sharing crackdown is driving incremental membership growth for several more quarters.",
+      "quote": "We anticipate that we will have incremental acquisition, incremental ads for the next several quarters. We've seen that in the last couple of quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad plan membership grew 70% sequentially in Q3 2023.",
+      "quote": "This quarter, we grew our ad plan membership 70% sequentially quarter to quarter. That's on top of the last quarter where we grew at 100% quarter to quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 operating margin guidance raised to 22%-23% from 20% in 2023.",
+      "quote": "We expect roughly 22% to 23% operating margin in '24, assuming no material swings in FX. So that's up from our current expectation of 20% this year, which is at the high end of the range that we targeted in the beginning of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SAG-AFTRA strike is unresolved and impacting content production.",
+      "quote": "We spent hours and hours with SAG-AFTRA over the last few weeks, and we were actually very optimistic that we were making progress. But then at the very end of our last session together, the Guild presented this new demand on top of everything for a per subscriber levy unrelated to viewing or success. This really broke our momentum, unfortunately.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising represents a $180 billion opportunity.",
+      "quote": "This is $180 billion opportunity when you think about linear TV, you think about connected TV, not including YouTube, not including China and Russia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "30% of new sign-ups in ad countries choose the ads plan.",
+      "quote": "We now have 30% of our new sign-ups choosing our ads plan in our ads countries.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games represent a $140 billion consumer spend opportunity.",
+      "quote": "We're talking about $140 billion worth of consumer spend on games outside of China and outside of Russia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We don't think we're anywhere near a margin ceiling. We've got a long runway of margin growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content costs rise nearly every year driven by competition.",
+      "quote": "Programing costs themselves, rise nearly every year, primarily driven by competition. Competition for talent, the competition for shows and films.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid sharing conversion is not complete; some borrowers will not convert.",
+      "quote": "There's a set of borrowers that we're not going to convert. We haven't converted yet. We're not going to convert over the next couple of quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 cash content spend expected to be at or near $17 billion.",
+      "quote": "In the letter, we talked about that after '24, we hope to get cash content spend back up to you at or near that $17 billion level. The biggest swing factor is going to be when the SAG-AFTRA strike resolves.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue growth in 2024 expected to have a more balanced mix of membership and ARM growth.",
+      "quote": "We expect a more balanced mix of membership and ARM growth in '24 and beyond '24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2023 operating margin expected to be 20%.",
+      "quote": "Our current expectation of 20% this year, which is at the high end of the range that we targeted in the beginning of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Licensing third-party content like 'Suits' drives significant engagement.",
+      "quote": "According to the Nielsen charts then, 'Suits' was the No. 1 watch streaming series for 13 straight weeks. That's like -- that is a record for Nielsen.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No near-term ceiling seen for margin growth.",
+      "quote": "We don't see any ceiling -- any near-term ceiling to our long-term margin potential.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No specific revenue figure was reported in the transcript; the document focuses on membership growth and ARM outlook rather than a dollar amount."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "No EPS figure was mentioned in the transcript; the call concentrated on operating margin and cash flow metrics."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2023-10-18",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-10-18",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q3\\nflx-3q23-transcript.html",
+        "pub_date": "2023-10-18"
+      }
+    ],
+    "document_id": "NFLX_FQ3_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T145602Z",
+    "timestamp": "2026-07-08T14:57:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q3\\nflx-3q23-transcript.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q3\\nflx-3q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 52693,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2023.txt"
+  }
+}

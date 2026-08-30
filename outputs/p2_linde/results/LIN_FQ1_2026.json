@@ -1,0 +1,233 @@
+{
+  "document_id": "LIN_FQ1_2026",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The company delivered a solid quarter with EPS growth of 10% and raised the bottom end of its full-year 2026 adjusted EPS guidance by $0.20, from $17.40 to $17.60, while leaving the top end unchanged at $17.90. However, management explicitly stated the guidance assumes 'no economic improvement at the midpoint' and that they remain 'guarded until we see more clarity on current geopolitical events,' indicating a cautious rather than strongly bullish stance. The guidance raise is modest and partially attributed to a 1% currency tailwind, so the overall forward signal is mildly positive but not strongly so."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales of $8,781 million, up 8% YoY, with underlying sales up 3% (2% price, 1% volume), 5% favorable currency impact, and 1% from acquisitions.",
+    "eps": "Reported diluted EPS of $3.98, up 13% YoY; adjusted diluted EPS of $4.33, up 10% YoY.",
+    "guidance": "Q2 2026 adjusted EPS guidance of $4.40-$4.50 (up 8%-10% YoY, or 7%-9% excluding 1% favorable currency). Full-year 2026 adjusted EPS guidance of $17.60-$17.90 (up 7%-9%, assuming 1% favorable currency). Full-year capex expected at $5.0B-$5.5B. Guidance assumes no economic improvement at the midpoint and no helium improvement vs. February guide.",
+    "margin": "Adjusted operating profit margin of 30.0%, down 10 basis points YoY. Reported operating margin 27.8%. Adjusted EBITDA margin 39.3%.",
+    "key_risks": [
+      "Geopolitical volatility, including the Middle East conflict and Strait of Hormuz disruptions affecting helium supply and EMEA volumes.",
+      "EMEA weakness: continued negative volumes from on-site customers shifting production to more competitive assets outside continental Europe.",
+      "U.S. healthcare policy change in late 2025 reducing services for a specific piece of equipment, impacting the home care business.",
+      "Woodside project delays: ATR and T&S (sequestration) start-up slipped from end of 2026 to Q1 2027 due to challenging U.S. Gulf Coast construction environment.",
+      "Helium oversupply through 2025 and recent acute global shortages; management does not anticipate significant spot sales this year.",
+      "Potential for volatile energy prices in Europe, currently managed via surcharges rather than structural price increases.",
+      "Trade conflicts, tariffs, and protectionist policies creating uncertainty.",
+      "No economic improvement assumed in guidance; management remains guarded on global industrial recovery."
+    ],
+    "key_opportunities": [
+      "Electronics growth of 10% YoY driven by AI-related advanced chip investments; over $1 billion invested in ultra-high-purity plants in the project backlog.",
+      "Commercial space business growing at strong double-digit rates; potential to become a separate end market when it exceeds 5% of global sales.",
+      "Helium shortages creating opportunities for new multi-year contracts with high-quality customers.",
+      "Americas strength: higher volumes in electronics, manufacturing, and metals & mining; hard goods up double-digit percent in the U.S.",
+      "Project backlog of $9.9B total ($7.1B sale of gas, $2.8B sale of plant) providing contractual growth visibility.",
+      "Energy security concerns may accelerate deglobalization and benefit Americas assets with advantaged feedstocks.",
+      "Management expects to raise full-year margins, potentially at the upper end or above the traditional 40-60 bps range.",
+      "Expectation of higher project backlog by end of year, potentially reaching $8 billion."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the company's resilience ('I am confident the Linde team can navigate the volatility and continue to deliver high-quality compounding growth') but simultaneously remains guarded on the outlook ('we remain guarded until we see more clarity on current geopolitical events'), creating a mixed tone of optimism tempered by caution."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $8,781 million, up 8% YoY, with underlying sales up 3%.",
+      "quote": "Linde’s sales for the first quarter were $8,781 million, up 8% versus prior year including 5% favorable currency impact. Compared to prior year, underlying sales increased 3% from 2% price attainment and 1% volumes, primarily from project start-ups.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was $3.98, up 13% YoY; adjusted EPS was $4.33, up 10% YoY.",
+      "quote": "Linde plc (Nasdaq: LIN) today reported first-quarter 2026 net income of $1,857 million and diluted earnings per share of $3.98, up 11% and up 13%, respectively. ... Adjusted earnings per share was $4.33, 10% above prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 adjusted EPS guidance was raised at the bottom end to $17.60-$17.90, up 7%-9%.",
+      "quote": "For the full year 2026, the company expects adjusted diluted earnings per share to be in the range of $17.60 to $17.90, up 7% to 9%, assuming favorable currency of 1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise was modest, with the bottom raised by $0.20 but the top left unchanged.",
+      "quote": "And when compared to the prior guidance, we raised the bottom by $0.20 from increased confidence in the overall business resiliency. However, we left the top at $17.90 because it is still early to signal increased optimism.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance assumes no economic improvement at the midpoint.",
+      "quote": "For the full year, we are updating to a new range of $17.60 to $17.90, or 7% to 9% growth. Like the second quarter, this includes a 1% currency tailwind and assumes no economic improvement at the midpoint.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management remains guarded on the outlook due to geopolitical uncertainty.",
+      "quote": "Overall, we had a decent start to the year but remain guarded until we see more clarity on current geopolitical events.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating profit margin was 30.0%, down 10 basis points YoY.",
+      "quote": "Adjusted operating profit margin was 30.0%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA volumes declined 3% YoY due to weaker industrial activity.",
+      "quote": "EMEA (Europe, Middle East & Africa) sales of $2,171 million were up 7% versus prior year. Compared with first quarter 2025, underlying sales decreased 2%, driven by 1% higher pricing and 3% lower volumes, primarily in the chemicals and energy and manufacturing end markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. healthcare policy change is impacting the home care business.",
+      "quote": "In late 2025, a new U.S., healthcare policy resulted in less services for a specific piece of equipment, which is reflected in the current run rate, and will continue for the next several quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Woodside project ATR and T&S start-up slipped to Q1 2027.",
+      "quote": "But on the ATR and the T&S, that has slipped a few months into essentially Q1 of next year. The construction and subcontractor environment in the U.S. Gulf Coast remains challenging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Helium shortages present an opportunity for new long-term contracts.",
+      "quote": "Given our business is largely contracted, the priority is to meet existing customer commitments. After that, we still anticipate excess molecules allowing us to pursue new multi-year contracts with high-quality customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Electronics grew 10% YoY driven by AI-related investments.",
+      "quote": "Electronics increased the most at 10%, primarily driven by continued investments in advanced chips to support AI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial space business is growing at strong double-digit rates.",
+      "quote": "Half of the increase came from aerospace activity in the United States, primarily supporting space vehicle production, testing, and launch, as this end-use continues to see strong double-digit percent growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to raise full-year margins, potentially above the traditional range.",
+      "quote": "On a full-year basis, we feel pretty confident we are not only going to raise margins for the full-year 2026, but probably at the upper end or even above our traditional range that we tend to talk about of 40 to 60 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Project backlog is $9.9B total, with $7.1B sale of gas and $2.8B sale of plant.",
+      "quote": "High-Quality Project Backlog $9.9B Geography SOG Backlog(2) SOP Backlog(1) $2.8B $7.1B",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed—confident in resilience but guarded on outlook.",
+      "quote": "I am confident the Linde team can navigate the volatility and continue to deliver high-quality compounding growth. ... Overall, we had a decent start to the year but remain guarded until we see more clarity on current geopolitical events.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of 0.10 reflects a modest guidance raise offset by cautious language.",
+      "quote": "And when compared to the prior guidance, we raised the bottom by $0.20 from increased confidence in the overall business resiliency. However, we left the top at $17.90 because it is still early to signal increased optimism.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise was modest ($0.20 at the bottom end only) and partially attributed to FX tailwinds; the score of 0.10 reflects this modest positive signal balanced against cautious language. A reviewer may want to verify this is appropriately calibrated given the explicit 'no economic improvement' assumption."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document contains extensive risk disclosures in the forward-looking statements section (trade conflicts, tariffs, raw material costs, etc.) that were not all listed individually in key_risks to avoid redundancy. A reviewer may want to confirm the most material risks were captured."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LIN_Bundled Earnings Report_2026-05-01",
+  "report_metadata": {
+    "issuer": "p2_linde",
+    "company": "Linde",
+    "ticker": "LIN",
+    "sector": "Basic Materials/Specialty Chemicals",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-01",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2026-Q1\\LIN_Earnings_Presentation.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2026-Q1\\LIN_Earnings_Call_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LIN_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100915Z",
+    "timestamp": "2026-08-09T10:10:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_linde\\extracted\\LIN_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 27874,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2026-Q1\\LIN_Earnings_Presentation.txt",
+        "page_count": 1,
+        "extracted_characters": 11043,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\linde\\CY2026-Q1\\LIN_Earnings_Call_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 55000,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_linde\\extracted\\LIN_FQ1_2026.txt"
+  }
+}

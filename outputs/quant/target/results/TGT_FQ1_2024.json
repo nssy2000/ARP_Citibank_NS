@@ -1,0 +1,58 @@
+{
+  "document_id": "TGT_FQ1_2024_QUANT",
+  "base_document_id": "TGT_FQ1_2024",
+  "issuer": "target",
+  "ticker": "TGT",
+  "sector": "Consumer Discretionary",
+  "report_date": "2024-05-22",
+  "sentiment": {
+    "score": -0.218684
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.061383,
+      "window_start_date": "2024-04-22",
+      "window_end_date": "2024-05-21",
+      "score": -0.387808,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.209329,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -1.24,
+      "matched_earnings_date": "2024-05-22",
+      "score": -0.049559,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 12.29,
+      "vix_score": 0.419705,
+      "tnx_change": -0.164,
+      "tnx_score": 0.316723,
+      "score": 0.368214,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 5.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2024-05-21",
+      "curve_spread": -0.41,
+      "curve_score": -0.388473,
+      "curve_as_of": "2024-05-21",
+      "score": -0.194236,
+      "available": true
+    },
+    "quant_score": -0.218684,
+    "quant_score_with_macro": 0.074765,
+    "quant_score_with_fred": -0.20646,
+    "quant_score_with_macro_fred": -0.014902
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

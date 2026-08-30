@@ -1,0 +1,90 @@
+# Information set comparison: human arm by information set vs model arm section ablation
+# Generated: 2026-08-15
+# Source (human): data/workbook/Master_Data_CORRECTED_2026-08-14.xlsx, Human_Data_Entry sheet
+# Source (model Set A, N=119): outputs/global/summary/section_ablation_summary.csv, run 20260812T131110Z
+# Source (model Set B, N=56): outputs/global/summary/section_ablation_extension_summary.csv, run 20260813T234207Z
+# Source (model paired diffs): outputs/global/summary/section_ablation_paired_diffs.csv
+# Source (model cost): outputs/global/summary/section_ablation_cost_per_correct.csv
+#
+# Definitions:
+#   coverage_accuracy = n_correct / n_graded
+#     where n_graded = rows with |actual_overnight_return| > 0.02
+#     and n_correct = rows where decision is BUY and outcome is UP, or decision is SELL and outcome is DOWN
+#     (outcome direction derived from re-priced return where available, else original return)
+#     Outcome UP = ret > 0.02, Outcome DOWN = ret < -0.02
+#   coverage_floor = max(n_graded_UP, n_graded_DOWN) / n_graded  (majority-class baseline)
+#     coverage_floor and coverage_accuracy share denominator n_graded.
+#
+#   Human selectivity_accuracy = n_correct / n_called_and_graded
+#     where n_called_and_graded = BUY+SELL decisions where |ret| > 0.02 (called events with graded outcomes)
+#     n_correct = BUY with UP outcome OR SELL with DOWN outcome, among called+graded events only
+#   Human selectivity_floor = max(n_called_graded_UP, n_called_graded_DOWN) / n_called_and_graded
+#     floor and accuracy share the same denominator (n_called_and_graded).
+#     n_called_graded_UP/DOWN = directional counts among called+graded events only.
+#
+#   NOTE: n_calls (human) = n_called_and_graded, the selectivity denominator.
+#   The raw BUY+SELL count (regardless of outcome) is stored in the notes column as n_calls_all.
+#
+#   Model selectivity_accuracy = correct / trades from the section ablation files
+#     where trades = all BUY+SELL calls (including flat/ungraded outcomes)
+#     correct = graded correct (matched direction AND |ret|>2%)
+#   Model n_calls = trades (all BUY+SELL, NOT filtered to |ret|>2%).
+#   CROSS-ARM DENOMINATOR MISMATCH: human n_calls = called+graded; model n_calls = all trades.
+#   Cross-arm selectivity comparisons examine the pattern only; denominators differ.
+#
+#   mean_net_per_trade = mean of re-priced Net P&L (or original) for all BUY+SELL decisions
+#     Net P&L: BUY -> ret - 0.001, SELL -> -ret - 0.001, HOLD -> 0 (10bps round-trip cost)
+#
+# Grading band: +-2% raw overnight return (pre-registered)
+# Suppression threshold: coverage suppressed if n_graded < 10; selectivity suppressed if n_called_and_graded < 10
+#
+# IMPORTANT: Section-level reads (transcript only, qanda, financials, guidance, presentation only,
+#   press release document only) are a DIFFERENT experiment from full-document reads.
+#   They cover different events, different raters, and different reading sessions.
+#   Do not pool them with the full-document group or with each other for accuracy estimation.
+#
+# IMPORTANT: Human and model sessions cover DIFFERENT events.
+#   The cross-arm comparison (human vs model) is of the PATTERN (flat vs differentiated),
+#   not a direct head-to-head on the same events.
+#
+# Column definitions:
+#   information_set: label for the information set read
+#   arm: human or model
+#   model_arm_name: model arm label where applicable (else blank)
+#   model_set: which model event set (Set_A_N119, Set_B_N56, or blank)
+#   n_readings: total rows in the human arm for this information set
+#   mean_time_mins: mean reading time in minutes (human arm only)
+#   median_time_mins: median reading time in minutes (human arm only)
+#   total_time_mins: total reading time in minutes (human arm only)
+#   buy_share: fraction of decisions that are BUY
+#   hold_share: fraction of decisions that are HOLD
+#   sell_share: fraction of decisions that are SELL
+#   n_graded: rows with |ret| > 2% (human) or n_events (model); coverage denominator
+#   n_correct_coverage: correct directional predictions among graded events
+#   coverage_accuracy: n_correct_coverage / n_graded (suppressed if n_graded < 10)
+#   coverage_floor: max(n_graded_UP, n_graded_DOWN) / n_graded; same denominator as coverage_accuracy
+#   n_calls: BUY+SELL decisions where |ret|>2% (human, = n_called_and_graded, selectivity denominator)
+#            OR all BUY+SELL trades (model). See cross-arm denominator mismatch note above.
+#   n_correct_selectivity: correct directional predictions among called+graded events
+#   selectivity_accuracy: n_correct_selectivity / n_calls (suppressed if n_calls < 10)
+#   selectivity_floor: max(called_graded_UP, called_graded_DOWN) / n_calls; same denominator as selectivity_accuracy
+#   n_trades: BUY+SELL calls with non-None net P&L (= n_calls_all for human, used for mean_net only)
+#   mean_net_per_trade: mean net P&L per trade (suppressed if n_trades < 10)
+#   suppressed: which metrics are suppressed due to small n
+#   notes: additional notes; human rows include n_calls_all (raw BUY+SELL count before grading filter)
+information_set,arm,model_arm_name,model_set,n_readings,mean_time_mins,median_time_mins,total_time_mins,buy_share,hold_share,sell_share,n_graded,n_correct_coverage,coverage_accuracy,coverage_floor,n_calls,n_correct_selectivity,selectivity_accuracy,selectivity_floor,n_trades,mean_net_per_trade,suppressed,notes
+full,human,,,190,29.8,25.0,5668,0.595,0.284,0.121,97,39,0.402,0.567,78,39,0.5,0.538,136,0.000113,none,Re-priced returns used where available (295/420 rows); n_calls_all=136
+transcript only,human,,,94,33.5,30.0,3145,0.596,0.234,0.17,65,28,0.431,0.569,50,28,0.56,0.56,72,0.004375,none,No direct model equivalent; model never ran a transcript-only arm; n_calls_all=72
+financials,human,,,32,20.3,21.5,651,0.531,0.25,0.219,21,7,0.333,0.619,16,7,0.438,0.625,24,-0.01085,none,No direct model equivalent; model cannot mechanically isolate financial tables; n_calls_all=24
+guidance,human,,,29,18.7,20.0,542,0.517,0.276,0.207,20,3,0.15,0.55,17,3,0.176,0.529,21,-0.039428,none,No direct model equivalent; model cannot isolate a guidance-only section; n_calls_all=21
+qanda,human,,,33,29.4,30.0,971,0.364,0.394,0.242,22,8,0.364,0.591,17,8,0.471,0.529,20,-0.004765,none,Comparable to model qa_only arm; different events; n_calls_all=20
+presentation only,human,,,23,19.8,22.0,456,0.783,0.043,0.174,14,9,0.643,0.571,13,9,0.692,0.538,22,0.030958,none,No direct model equivalent; n_graded=14 (borderline); interpret with caution; n_calls_all=22
+press release document only,human,,,19,15,14.0,285,0.368,0.421,0.211,15,7,0.467,0.533,9,7,,0.556,11,0.055526,selectivity_accuracy,Comparable to model press_release arm; different events; n_called_graded=9 selectivity suppressed (n<10); n_calls_all=11
+full_bundle,model,full_bundle,Set_A_N119,119,,,,,,,87,32,0.368,,87,32,0.368,,,,none,Selectivity = correct/trades (graded correct / all BUY+SELL calls including flat outcomes)
+full_bundle,model,full_bundle,Set_B_N56,56,,,,,,,28,10,0.357,,28,10,0.357,,,,none,Set B (extension events); same arm definition as Set A
+press_release,model,press_release,Set_A_N119,119,,,,,,,66,24,0.364,,66,24,0.364,,,,none,Model press_release arm; different events from human press release doc only
+press_release,model,press_release,Set_B_N56,56,,,,,,,14,5,0.357,,14,5,0.357,,,,none,Set B (extension events)
+qa_only,model,qa_only,Set_A_N119,119,,,,,,,67,26,0.388,,67,26,0.388,,,,none,Model qa_only arm; different events from human qanda
+qa_only,model,qa_only,Set_B_N56,56,,,,,,,25,8,0.32,,25,8,0.32,,,,none,Set B (extension events)
+prepared_remarks,model,prepared_remarks,Set_A_N119,119,,,,,,,77,26,0.338,,77,26,0.338,,,,none,No direct human equivalent; model prepared_remarks = transcript minus Q&A
+prepared_remarks,model,prepared_remarks,Set_B_N56,56,,,,,,,29,11,0.379,,29,11,0.379,,,,none,Set B (extension events)

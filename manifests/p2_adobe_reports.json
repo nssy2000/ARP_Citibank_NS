@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_adobe",
+  "reports": [
+    {
+      "document_id": "ADBE_FQ3_2025",
+      "issuer": "p2_adobe",
+      "company": "Adobe",
+      "ticker": "ADBE",
+      "sector": "Technology/Software",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-09-11",
+      "release_date": "2025-09-11",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 796343, acc 0000796343-25-000102, accepted 2025-09-11 20:06:22 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/adobe/CY2025-Q3/ADBE_Q3_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/adobe/CY2025-Q3/ADBE_Q3_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "ADBE_FQ4_2025",
+      "issuer": "p2_adobe",
+      "company": "Adobe",
+      "ticker": "ADBE",
+      "sector": "Technology/Software",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2025-12-10",
+      "release_date": "2025-12-10",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 796343, acc 0000796343-25-000135, accepted 2025-12-10 21:05:55 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/adobe/CY2025-Q4/ADBE_Q4_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/adobe/CY2025-Q4/ADBE_Q4_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "ADBE_FQ1_2026",
+      "issuer": "p2_adobe",
+      "company": "Adobe",
+      "ticker": "ADBE",
+      "sector": "Technology/Software",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-03-12",
+      "release_date": "2026-03-12",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 796343, acc 0000796343-26-000048, accepted 2026-03-12 20:09:23 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/adobe/CY2026-Q1/ADBE_Q1_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/adobe/CY2026-Q1/ADBE_Q1_2026_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "ADBE_FQ2_2026",
+      "issuer": "p2_adobe",
+      "company": "Adobe",
+      "ticker": "ADBE",
+      "sector": "Technology/Software",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2026",
+      "report_date": "2026-06-11",
+      "release_date": "2026-06-11",
+      "release_date_source": "EDGAR 8-K Item 2.02, CIK 796343, acc 0000796343-26-000109, accepted 2026-06-11 20:08:53 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/adobe/CY2026-Q2/ADBE_Q2_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/adobe/CY2026-Q2/ADBE_Q2_2026_Earnings_Call_Transcript.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

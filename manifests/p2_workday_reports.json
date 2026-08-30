@@ -1,0 +1,110 @@
+{
+  "issuer": "p2_workday",
+  "reports": [
+    {
+      "document_id": "WDAY_FQ1_2025",
+      "issuer": "p2_workday",
+      "company": "Workday",
+      "ticker": "WDAY",
+      "sector": "Technology/Software - Application",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-22",
+      "release_date": "2025-05-22",
+      "release_date_source": "EDGAR 8-K Item 2.02, wday-20250522.htm, acc 0001327811-25-000105",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/workday/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/workday/CY2025-Q1/Earnings_Presentation_Q1_2025.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "WDAY_FQ2_2025",
+      "issuer": "p2_workday",
+      "company": "Workday",
+      "ticker": "WDAY",
+      "sector": "Technology/Software - Application",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-21",
+      "release_date": "2025-08-21",
+      "release_date_source": "EDGAR 8-K Item 2.02, wday-20250821.htm, acc 0001327811-25-000181",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/workday/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/workday/CY2025-Q2/Earnings_Presentation_Q2_2025.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/workday/CY2025-Q2/Earnings_Call_Transcript_Q2_2025.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "WDAY_FQ3_2025",
+      "issuer": "p2_workday",
+      "company": "Workday",
+      "ticker": "WDAY",
+      "sector": "Technology/Software - Application",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-25",
+      "release_date": "2025-11-25",
+      "release_date_source": "EDGAR 8-K Item 2.02, wday-20251125.htm, acc 0001327811-25-000196",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/workday/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/workday/CY2025-Q3/Earnings_Presentation_Q3_2025.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/workday/CY2025-Q3/Earnings_Call_Transcript_Q3_2025.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "WDAY_FQ4_2025",
+      "issuer": "p2_workday",
+      "company": "Workday",
+      "ticker": "WDAY",
+      "sector": "Technology/Software - Application",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-24",
+      "release_date": "2026-02-24",
+      "release_date_source": "EDGAR 8-K Item 2.02, wday-20260224.htm, acc 0001327811-26-000010",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/workday/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/workday/CY2025-Q4/Earnings_Presentation_Q4_2025.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/workday/CY2025-Q4/Earnings_Call_Transcript_Q4_2025.txt"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

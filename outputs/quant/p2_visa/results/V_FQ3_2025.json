@@ -1,0 +1,58 @@
+{
+  "document_id": "V_FQ3_2025_QUANT",
+  "base_document_id": "V_FQ3_2025",
+  "issuer": "p2_visa",
+  "ticker": "V",
+  "sector": "Financial Services/Credit Services",
+  "report_date": "2025-10-28",
+  "sentiment": {
+    "score": 0.107406
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.030975,
+      "window_start_date": "2025-09-26",
+      "window_end_date": "2025-10-27",
+      "score": 0.203613,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.180824,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 0.28,
+      "matched_earnings_date": "2025-10-28",
+      "score": 0.0112,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.42,
+      "vix_score": 0.170324,
+      "tnx_change": -0.158,
+      "tnx_score": 0.305885,
+      "score": 0.238104,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.12,
+      "ffr_change": -0.21,
+      "ffr_score": 0.39693,
+      "ffr_as_of": "2025-10-27",
+      "curve_spread": 0.53,
+      "curve_score": 0.485381,
+      "curve_as_of": "2025-10-27",
+      "score": 0.441156,
+      "available": true
+    },
+    "quant_score": 0.107406,
+    "quant_score_with_macro": 0.172755,
+    "quant_score_with_fred": 0.274281,
+    "quant_score_with_macro_fred": 0.262222
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "document_id": "DIS_FQ3_2023",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: DTC operating losses improved by roughly $1 billion in three quarters, and management raised its cost-savings target from $5.5 billion to exceeding that goal. However, full-year guidance was not formally raised; management expects high single-digit revenue and segment OI growth, which is consistent with prior trends. The Q&A reveals that linear advertising faces continued headwinds and domestic parks demand is moderating, which tempers the positive signal. The score reflects a real inflection in DTC and cost discipline, but not a formal guidance raise, and structural risks in linear and parks are acknowledged."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenues for the quarter were $22,330 million, up 4% year-over-year. For the nine months, revenues were $67,657 million, up 8%.",
+    "eps": "Diluted EPS from continuing operations was a loss of $0.25, compared to income of $0.77 in the prior-year quarter. Excluding certain items, diluted EPS was $1.03, down from $1.09.",
+    "guidance": "Management expects full-year total company revenue and segment operating income to grow at a high single-digit percentage rate versus the prior year. DTC profitability is targeted by the end of fiscal 2024. A modest dividend is expected to be recommended by the end of calendar 2023.",
+    "margin": "Not disclosed as a specific margin percentage. Domestic Parks and Experiences operating margins in Q3 were roughly 3 percentage points below the prior year excluding Starcruiser accelerated depreciation. DPEP margins were slightly higher than the prior year.",
+    "key_risks": [
+      "Linear Networks advertising continues to see impacts from market softness; entertainment faces headwinds.",
+      "Domestic parks demand moderation: Walt Disney World softer performance coming off 50th anniversary, post-COVID pent-up demand leveling off, strong dollar tamping down international visitation.",
+      "Ongoing writers' and actors' strikes affecting content production and costs.",
+      "Inflationary cost pressures, particularly labor wage rate growth.",
+      "Accelerated depreciation for Star Wars: Galactic Starcruiser closure ($150 million remaining in Q4)."
+    ],
+    "key_opportunities": [
+      "DTC operating income improved by roughly $1 billion in three quarters; on track to exceed $5.5 billion in cost savings.",
+      "International parks (Shanghai, Hong Kong) showing strong recovery and record results.",
+      "Disney+ ad-tier subscriber growth: 3.3 million subscribers, 40% of new subs choosing ad-supported.",
+      "ESPN sports betting licensing deal with PENN Entertainment.",
+      "Potential strategic partnerships for ESPN to aid DTC transition.",
+      "Password sharing monetization to be rolled out in 2024.",
+      "Cruise Line expansion: two new ships in fiscal 2025, another in fiscal 2026, nearly doubling capacity."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Bob Iger stated, 'I'm incredibly confident in Disney's long-term trajectory because of the work we've done, the team we now have in place, and because of Disney's core foundation of creative excellence and popular brands and franchises.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenues for the quarter were $22,330 million, up 4% year-over-year.",
+      "quote": "Revenues $ 22,330 $ 21,504 4 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS from continuing operations was a loss of $0.25, compared to income of $0.77 in the prior-year quarter.",
+      "quote": "Diluted EPS from continuing operations (2) $ (0.25) $ 0.77 nm",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding certain items, diluted EPS was $1.03, down from $1.09.",
+      "quote": "Diluted EPS excluding certain items (1) $ 1.03 $ 1.09 (6) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects full-year total company revenue and segment operating income to grow at a high single-digit percentage rate versus the prior year.",
+      "quote": "we are still expecting full-year total company revenue and segment operating income to grow at a high single-digit percentage rate versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC profitability is targeted by the end of fiscal 2024.",
+      "quote": "we continue to work toward achieving DTC profitability by the end of fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A modest dividend is expected to be recommended by the end of calendar 2023.",
+      "quote": "we still expect to be in a position to recommend that the Board declared a modest dividend by the end of this calendar year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC operating income improved by roughly $1 billion in three quarters.",
+      "quote": "we've improved our direct-to-consumer operating income by roughly $1 billion in just three quarters",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "On track to exceed $5.5 billion in cost savings.",
+      "quote": "we're on track to exceed our initial goal of $5.5 billion in savings",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International parks (Shanghai, Hong Kong) showing strong recovery and record results.",
+      "quote": "Shanghai Disney Resort, which saw record highs from a revenue, OI, and margin perspective.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ ad-tier subscriber growth: 3.3 million subscribers, 40% of new subs choosing ad-supported.",
+      "quote": "we've signed up 3.3 million subscribers to our ad-supported Disney+ option. Since its inception, 40% of new Disney+ subscribers are choosing an ad-supported product.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN sports betting licensing deal with PENN Entertainment.",
+      "quote": "ESPN has entered into an exclusive licensing arrangement with PENN Entertainment to further extend the ESPN brand into the growing sports betting marketplace.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential strategic partnerships for ESPN to aid DTC transition.",
+      "quote": "we're considering potential strategic partnerships for ESPN, looking at distribution, technology, marketing, and content opportunities where we retain control of ESPN.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Password sharing monetization to be rolled out in 2024.",
+      "quote": "we will roll out tactics to drive monetization sometime in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cruise Line expansion: two new ships in fiscal 2025, another in fiscal 2026, nearly doubling capacity.",
+      "quote": "we will be expanding our fleet by adding two more ships in fiscal '25 and another in fiscal '26, nearly doubling our worldwide capacity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Linear Networks advertising continues to see impacts from market softness; entertainment faces headwinds.",
+      "quote": "Linear advertising continues to see impacts from market softness. While sports is healthy, entertainment continues to face headwinds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic parks demand moderation: Walt Disney World softer performance, post-COVID pent-up demand leveling off, strong dollar tamping down international visitation.",
+      "quote": "We saw softer performance at Walt Disney World from the prior year, coming off our highly successful 50th anniversary celebration. Also as post-COVID pent-up demand continues to level off in Florida, local tax data shows evidence of some softening in several major Florida tourism markets. And the strong dollar is expected to continue tamping down international visitation to the state.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing writers' and actors' strikes affecting content production and costs.",
+      "quote": "lower spend on produced content, in part due to the writers' and actors' strikes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflationary cost pressures, particularly labor wage rate growth.",
+      "quote": "We are also seeing continued cost pressures in the fourth quarter, predominantly from labor wage rate growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Accelerated depreciation for Star Wars: Galactic Starcruiser closure ($150 million remaining in Q4).",
+      "quote": "coupled with $150 million of remaining accelerated depreciation for the Galactic Starcruiser.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I'm incredibly confident in Disney's long-term trajectory because of the work we've done, the team we now have in place, and because of Disney's core foundation of creative excellence and popular brands and franchises.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects genuine DTC momentum and cost savings exceeding targets, but full-year guidance was not formally raised; it was reaffirmed at high single-digit growth. The score is above the 0.15 BUY threshold but may be considered aggressive given the lack of a formal guidance raise and acknowledged headwinds in linear and domestic parks. A reviewer may want to confirm the balance between operational inflection and unchanged formal guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2023-08-09",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2023",
+    "report_date": "2023-08-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q3\\dis-3q23-press-release.html",
+        "pub_date": "2023-08-09"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q3\\dis-3q23-transcript.html",
+        "pub_date": "2023-08-09"
+      }
+    ],
+    "document_id": "DIS_FQ3_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:42:51Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q3\\dis-3q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q3\\dis-3q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 44529,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q3\\dis-3q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 51526,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2023.txt"
+  }
+}

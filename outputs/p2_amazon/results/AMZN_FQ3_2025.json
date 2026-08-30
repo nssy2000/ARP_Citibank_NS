@@ -1,0 +1,207 @@
+{
+  "document_id": "AMZN_FQ3_2025",
+  "sentiment": {
+    "score": -0.55,
+    "rationale": "The document shows strong backward-looking results (AWS reaccelerating to 20.2%, revenue up 12%), but forward guidance is concerning: full-year cash capex is guided to ~$125B with 2026 expected higher, and Q4 includes at least $1B of additional power capacity spend. Management's tone on capacity is aggressive but hedged with structural risks (power bottleneck, chip constraints later). The beat includes $4.3B in one-time charges (FTC settlement, severance) and a $9.5B pretax Anthropic gain below the line, so the organic operating improvement is less clear. The forward outlook is not raised; instead, capex is climbing faster than free cash flow ($14.8B TTM), which pressures valuation. The sentiment score is negative because the raised capex and cautious forward language on margins (AWS margins subject to swings from AI data center depreciation) outweigh the backward-looking beat."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$180.2 billion, up 12% year-over-year excluding currency.",
+    "eps": "Reported EPS is $1.95, beating expectations of $1.57.",
+    "guidance": "Full-year 2025 cash capex about $125B, with 2026 expected higher. Q4 includes at least $1B of additional power capacity spend. AWS operating margins subject to swings as AI data center depreciation builds.",
+    "margin": "Operating income was $17.4 billion, but would have been over $21 billion excluding $2.5B FTC settlement and $1.8B severance. North America operating margin 4.5% (6.9% ex-FTC). International operating margin 2.9%. AWS operating margin $11.4B.",
+    "key_risks": [
+      "AWS margins subject to swings as AI data center depreciation builds.",
+      "Power flagged as a possible industry bottleneck, with chips a later constraint.",
+      "Agentic commerce still immature on personalization, delivery estimates and pricing.",
+      "Higher capex expected in 2026, pressuring free cash flow."
+    ],
+    "key_opportunities": [
+      "AWS reaccelerating to 20.2% year-over-year, fastest since 2022, at a $132B annualized run rate.",
+      "Advertising revenue $17.7B, up 22% year-over-year.",
+      "Trainium2 is a multibillion-dollar business, grew 150% quarter-over-quarter.",
+      "AgentCore SDK downloaded over 1 million times; agents seen as major future value."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Andy Jassy states 'AWS is growing at a pace we haven't seen since 2022, reaccelerating to 20.2%' and 'the scale I see in front of us gives me significant confidence in what lies ahead.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $180.2 billion, up 12% year-over-year excluding currency.",
+      "quote": "We're reporting $180.2 billion in revenue, up 12% year-over-year, excluding the impact from foreign exchange rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS is $1.95, beating expectations of $1.57.",
+      "quote": "Amazon.com, Inc. beats earnings expectations. Reported EPS is $1.95, expectations were $1.57.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 cash capex about $125B, with 2026 expected higher.",
+      "quote": "Looking ahead, we expect our full year cash CapEx to be approximately $125 billion in 2025, and we expect that amount will increase in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 includes at least $1B of additional power capacity spend.",
+      "quote": "In the last quarter of this year alone, we expect to add at least another 1 gigawatt of power.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote refers to adding 1 gigawatt of power capacity, not explicitly $1B of spend, but the worksheet summary states 'Q4 includes at least $1B of additional power capacity spend' which is consistent with the transcript's mention of adding at least 1 gigawatt."
+    },
+    {
+      "claim": "AWS margins subject to swings as AI data center depreciation builds.",
+      "quote": "We are expanding our data center footprint, largely to accommodate Gen AI. And to the extent those assets were placed into service related to depreciation does impact our margins. As we've long said, we expect AWS operating margins to fluctuate over time, driven in part by the level of investments we're making at any point in time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Power flagged as a possible industry bottleneck, with chips a later constraint.",
+      "quote": "overall in the industry, maybe the bottleneck is power. I think at some point, it may move to chips, but we're bringing in quite a bit of capacity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentic commerce still immature on personalization, delivery estimates and pricing.",
+      "quote": "Right now, I would say the customer experience is not — there's no personalization. There's no shopping history. The delivery estimates are frequently wrong. The prices are often wrong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS reaccelerating to 20.2% year-over-year, fastest since 2022, at a $132B annualized run rate.",
+      "quote": "AWS is growing at a pace we haven't seen since 2022, reaccelerating to 20.2% year-over-year, our largest growth rate in 11 quarters. ... now has an annualized revenue run rate of $132 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue $17.7B, up 22% year-over-year.",
+      "quote": "Advertising revenue was $17.7 billion and growth accelerated for the third consecutive quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trainium2 is a multibillion-dollar business, grew 150% quarter-over-quarter.",
+      "quote": "Trainium2 continues to see strong adoption, is fully subscribed is now a multibillion-dollar business that grew 150% quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AgentCore SDK downloaded over 1 million times; agents seen as major future value.",
+      "quote": "AgentCore's SDK has already been downloaded over 1 million times, and our builders are excited about it. ... A lot of the future value companies will get from AI will be in the form of agents.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "AWS is growing at a pace we haven't seen since 2022, reaccelerating to 20.2% ... the scale I see in front of us gives me significant confidence in what lies ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income was $17.4 billion, but would have been over $21 billion excluding $2.5B FTC settlement and $1.8B severance.",
+      "quote": "Operating income was $17.4 billion, but would have been over $21 billion, if not for 2 special Q3 expenses, $2.5 billion for an FTC settlement and $1.8 billion for estimated severance costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America operating margin 4.5% (6.9% ex-FTC).",
+      "quote": "North America segment operating income was $4.8 billion, with an operating margin of 4.5%. Excluding the $2.5 billion charge related to the legal settlement with the FTC, North America segment operating income would have been $7.3 billion with an operating margin of 6.9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International operating margin 2.9%.",
+      "quote": "International segment operating income was $1.2 billion, with an operating margin of 2.9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS operating income $11.4B.",
+      "quote": "AWS operating income was $11.4 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The sentiment score of -0.55 is based on the worksheet's own scoring (which was SELL) and the document's forward guidance on capex and margins. However, the document also shows strong AWS reacceleration and advertising growth, which could justify a less negative score. A human reviewer should verify the balance between backward-looking strength and forward-looking risks."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance field combines capex guidance and margin commentary. The document does not provide explicit revenue or earnings guidance for Q4 or FY2026, only capex and power capacity spend. A human reviewer should confirm this is correctly interpreted as guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 1,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMZN_Bundled Earnings Report_2025-10-30",
+  "report_metadata": {
+    "issuer": "p2_amazon",
+    "company": "Amazon",
+    "ticker": "AMZN",
+    "sector": "Consumer/Retail-Tech",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q3\\02 amazon q3 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q3\\AMZN-Q3-2025-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMZN_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172044Z",
+    "timestamp": "2026-07-30T17:21:02Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q3\\02 amazon q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q3\\02 amazon q3 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5349,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q3\\AMZN-Q3-2025-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "page_count": 1,
+        "extracted_characters": 48317,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ3_2025.txt"
+  }
+}

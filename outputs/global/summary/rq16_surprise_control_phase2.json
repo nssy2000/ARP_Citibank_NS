@@ -1,0 +1,39 @@
+{
+  "label": "phase2_n101",
+  "n_total_rows": 161,
+  "n_missing_surprise_data": 3,
+  "n_used": 158,
+  "dropped_tickers_missing_surprise": [
+    "AMKBY",
+    "MC.PA"
+  ],
+  "regression": {
+    "surprise_only": {
+      "coeffs_intercept_surprise": [
+        0.003853,
+        0.005697
+      ],
+      "r2": 0.00151
+    },
+    "surprise_plus_score": {
+      "coeffs_intercept_surprise_score": [
+        0.002533,
+        0.00471,
+        0.013594
+      ],
+      "r2": 0.00508
+    },
+    "r2_lift_from_score": 0.00356,
+    "permutation_p_lift": 0.45591,
+    "permutations": 5000
+  },
+  "accuracy": {
+    "n": 158,
+    "llm_only_accuracy": 0.3861,
+    "llm_only_accuracy_stored_column_check": 0.3861,
+    "surprise_only_accuracy": 0.4367,
+    "combined_accuracy": 0.443,
+    "majority_baseline_label": "HOLD",
+    "majority_baseline_accuracy": 0.4684
+  }
+}

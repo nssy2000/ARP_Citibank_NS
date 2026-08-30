@@ -1,0 +1,188 @@
+{
+  "document_id": "NFLX_FQ4_2022",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows genuine operational momentum: management guided to accelerating revenue growth throughout 2023 from paid sharing and advertising, raised the FX-neutral operating margin target to 21%-22% (from 19%-20% in 2022), and forecast at least $3 billion in free cash flow. While the Q1 revenue guide of 8% growth (FX neutral) is modest, the forward trajectory is clearly positive. The tone is confident, with no major risks raised beyond typical macro uncertainty and the acknowledged short-term churn from paid sharing rollout."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Approximately $32 billion in 2022 (stated as 'almost 32 billion of revenue in 2022'). Q1 2023 revenue growth guided to 8% FX neutral.",
+    "eps": "Not disclosed",
+    "guidance": "Revenue growth expected to accelerate throughout 2023 as paid sharing rolls out and ads scale. FX-neutral operating margin guided to 21%-22% (18%-20% at current FX rates). Free cash flow guided to at least $3 billion in 2023.",
+    "margin": "2022 operating margin was 20% (at high end of 19%-20% target). 2023 FX-neutral operating margin guided to 21%-22% (18%-20% at current FX rates).",
+    "key_risks": [
+      "Paid sharing rollout may cause a cancel reaction and increased churn in the near term.",
+      "Macro uncertainty affecting all multinationals.",
+      "Less visibility than typical due to early stages of ads and paid sharing initiatives.",
+      "FX headwinds: operating margin at current FX rates is 18%-20% vs. 21%-22% FX neutral."
+    ],
+    "key_opportunities": [
+      "Advertising: new ad-supported tier launched, engagement comparable to non-ads plans, take rate solid, incremental subscribers from lower price point, long-term aspiration to be a major premium connected TV ads platform.",
+      "Paid sharing: converting borrowers to paying accounts, rolling out later in Q1 2023, expected to be revenue accretive.",
+      "Content slate: strong pipeline of hits ('Wednesday,' 'Glass Onion,' 'All Quiet on the Western Front') driving engagement and cultural impact.",
+      "Global streaming shift: linear-to-streaming transition still early (streaming <40% of TV time in any country), providing long-term growth runway.",
+      "Expanding into new genres: fitness (Nike partnership), live events (Chris Rock, SAG Awards), games."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses high confidence in accelerating revenue growth and margin expansion, with Spence Neumann stating 'we have high confidence in our ability to accelerate revenue throughout the course of the year as we scale ads and we launch paid sharing.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "2022 revenue was approximately $32 billion.",
+      "quote": "So, we're over 30 billion of revenue, almost 32 billion of revenue in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2023 revenue growth guided to 8% FX neutral.",
+      "quote": "which is why we're forecasting 80% growth, FX neutral in Q1 revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2022 operating margin was 20%.",
+      "quote": "And we ended the year at 20%, so at the high end of that range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2023 FX-neutral operating margin guided to 21%-22%.",
+      "quote": "we're guiding to now 21% to 22% FX-neutral operating margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2023 operating margin at current FX rates is 18%-20%.",
+      "quote": "that's a range of our operating margin guidance of 18% to 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guided to at least $3 billion in 2023.",
+      "quote": "we'll have more than 3 billion -- at least 3 billion of free cash flow in the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects revenue growth to accelerate throughout 2023.",
+      "quote": "we would expect to see accelerating revenue growth as we roll out paid sharing broadly across our business and then, obviously, scale adds throughout the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid sharing rollout may cause a cancel reaction and increased churn.",
+      "quote": "We'll see a bit of a cancel reaction to that. We think of this as, you know, similar to what we see when we raise prices, you know, so we get some some increased churn associated with that for a period of time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macro uncertainty is a risk.",
+      "quote": "all multinationals have a level of macro uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Less visibility than typical due to early stages of ads and paid sharing.",
+      "quote": "there is also kind of short-term unusual amount of less visibility than typical because these things we're talking about in terms of our revenue initiatives, whether it's scaling our ads platform, launching page sharing, which hasn't globally rolled out yet, these things are early days.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX headwinds affect operating margin.",
+      "quote": "So, now FX neutral for '23, we're going to manage within that band to deliver at least within 18% to 20% operating margin guide.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising opportunity: engagement comparable to non-ads plans, take rate solid.",
+      "quote": "we see that engagement from ads plans users is comparable to sort of similar users on our nonads plan. So, that's really a promising indication. ... we're seeing take rate and growth on that ads plan is solid.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid sharing expected to be revenue accretive.",
+      "quote": "We anticipate that they'll both be revenue positive, revenue accretive significantly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content slate is strong with hits like 'Wednesday' and 'Glass Onion.'",
+      "quote": "And you look at all these things that go back and forth, and they go all the way into January. Now, we'll end the month with 'You People,' Eddie Murphy and Jonah Hill. Any outlet would kill to have any one of those months as their entire year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global streaming shift provides long-term growth runway.",
+      "quote": "the world is shifting from linear to streaming. Even in the largest -- there is no country where streaming is more than 40% of share of TV time. And in many big countries, as you saw, it's less than 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we have high confidence in our ability to accelerate revenue throughout the course of the year as we scale ads and we launch paid sharing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on forward guidance and momentum, but the Q1 revenue guide of 8% growth is modest and the paid sharing rollout carries execution risk. A reviewer may wish to assess whether the score should be slightly lower given these near-term uncertainties."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2023-01-19",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ4 2022",
+    "report_date": "2023-01-19",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q4\\nflx-4q22-transcript.pdf",
+        "pub_date": "2023-01-19"
+      }
+    ],
+    "document_id": "NFLX_FQ4_2022"
+  },
+  "run_meta": {
+    "run_id": "20260708T145602Z",
+    "timestamp": "2026-07-08T14:56:27Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q4\\nflx-4q22-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ4_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q4\\nflx-4q22-transcript.pdf",
+        "page_count": 34,
+        "extracted_characters": 86613,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ4_2022.txt"
+  }
+}

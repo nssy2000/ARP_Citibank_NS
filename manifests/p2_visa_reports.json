@@ -1,0 +1,114 @@
+{
+  "issuer": "p2_visa",
+  "reports": [
+    {
+      "document_id": "V_FQ1_2025",
+      "issuer": "p2_visa",
+      "company": "Visa",
+      "ticker": "V",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-28",
+      "release_date": "2025-04-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, v-20250429.htm, acc 0001403161-25-000035",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/visa/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/visa/CY2025-Q1/Visa-Q1-2025-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/visa/CY2025-Q1/Visa-Q1-2025-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "V_FQ2_2025",
+      "issuer": "p2_visa",
+      "company": "Visa",
+      "ticker": "V",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "release_date": "2025-07-29",
+      "release_date_source": "EDGAR 8-K Item 2.02, v-20250729.htm, acc 0001403161-25-000051",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/visa/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/visa/CY2025-Q2/Visa-Q2-2025-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/visa/CY2025-Q2/Visa-Q2-2025-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "V_FQ3_2025",
+      "issuer": "p2_visa",
+      "company": "Visa",
+      "ticker": "V",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-28",
+      "release_date": "2025-10-28",
+      "release_date_source": "EDGAR 8-K Item 2.02, v-20251028.htm, acc 0001403161-25-000077",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/visa/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/visa/CY2025-Q3/Visa-Q3-2025-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/visa/CY2025-Q3/Visa-Q3-2025-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "V_FQ1_2026",
+      "issuer": "p2_visa",
+      "company": "Visa",
+      "ticker": "V",
+      "sector": "Financial Services/Credit Services",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-28",
+      "release_date": "2026-04-28",
+      "release_date_source": "EDGAR 8-K Item 2.02, v-20260428.htm, acc 0001403161-26-000077",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/visa/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/visa/CY2026-Q1/Visa-Q1-2026-Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/visa/CY2026-Q1/Visa-Q1-2026-Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

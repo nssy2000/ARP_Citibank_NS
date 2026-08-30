@@ -1,0 +1,177 @@
+{
+  "document_id": "LNVGY_FQ2_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports record quarterly revenue and strong adjusted net income growth, with all business groups and geographies growing double-digits, indicating genuine operational momentum. However, there is no explicit forward guidance raise; management expresses confidence in the Hybrid AI strategy and stabilizing macro environment but does not provide specific numeric guidance changes. The positive trajectory and confident language support a moderately positive score, but the absence of a formal guidance raise and the presence of non-cash adjustments (warrants, convertible bonds) temper the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "US$20.5 billion, up 15% year-on-year (record high).",
+    "eps": "Basic EPS 2.77 US cents, down 5% year-on-year; diluted EPS 2.52 US cents, down 9%.",
+    "guidance": "No explicit numeric guidance provided. Management states 'Positive signs of stabilization in external environment' and 'Driving strategy to capture Hybrid AI opportunities' but does not raise or lower formal guidance.",
+    "margin": "Gross margin 15.4% (down 0.3 pts YoY); operating margin 3.1% (down 0.5 pts YoY); adjusted net income margin 2.5% (up 0.2 pts YoY).",
+    "key_risks": [
+      "Non-cash fair value loss on warrants (US$148M) and notional interest on convertible bonds (US$28M) impacting reported net income.",
+      "Operating profit declined 1% YoY due to increased operating expenses.",
+      "Gross margin contracted 0.3 pts YoY.",
+      "Expense-to-revenue ratio increased 0.2 pts YoY.",
+      "ISG still reported an operating loss (US$32M) despite revenue growth.",
+      "Forward-looking statements caution about risks including economic conditions, competition, and regulatory changes."
+    ],
+    "key_opportunities": [
+      "AI-related revenue mix increased to 30% of total revenue, up 13 pts YoY.",
+      "AI Servers high-double-digit growth; AI PCs, AI smartphones, AI Services triple-digit growth.",
+      "AI PC penetration reached 33% of shipments; #1 in Windows AI PC with 31.1% share.",
+      "ISG revenue grew 24% YoY with strong pipeline; liquid cooling revenue up 154%.",
+      "SSG delivered 18th consecutive quarter of double-digit growth; operating margin over 22%.",
+      "Shift from AI training to inferencing expected to fuel growth in AI devices and applications.",
+      "Enterprise and SMB AI adoption expected to drive infrastructure growth."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'record results', 'significant progress', 'strong execution', and 'confident that the infrastructure business will return to profitable growth soon'."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue reached a record high of US$20.5 billion, up 15% year-on-year.",
+      "quote": "overall group revenue reaching an all-time high of US$20.5 billion, up 15% year-on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted net income grew 25% year-on-year to US$512 million.",
+      "quote": "Adjusted net income[1] grew 25% year-on-year to US$512 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS declined 5% year-on-year to 2.77 US cents.",
+      "quote": "Basic earnings per share (US cents) 2.77 2.92 (5%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin contracted to 15.4% from 15.7%.",
+      "quote": "Gross profit margin 15.4% 15.7% (0.3) pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted net income margin expanded to 2.5%.",
+      "quote": "Adjusted net margin expanded to 2.5%, driven by higher revenues",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal guidance raise was provided; management only expressed confidence in the outlook.",
+      "quote": "Outlook: Positive signs of stabilization in external environment; Operational resilience: leveraging unique model of 'Global/Local' to navigate uncertainties; Driving strategy to capture Hybrid AI opportunities",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-related revenue mix increased to 30% of total revenue.",
+      "quote": "The AI-related revenue mix increased by 13 percentage points year-on-year, accounting for 30% of the Group’s total revenue this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ISG still reported an operating loss despite revenue growth.",
+      "quote": "Operating Loss -36 -32 2Q FY24/25 2Q FY25/26",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Lenovo delivered another quarter of record performance, while making important progress in both Personal AI and Enterprise AI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-cash fair value loss on warrants and notional interest on convertible bonds impacted reported net income.",
+      "quote": "Non-cash fair value loss from Warrants: US$148M; Notional interest from Convertible Bonds: US$28M",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is based on operational momentum and confident language but no formal guidance raise; reviewer should confirm the absence of explicit guidance change."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "No explicit numeric guidance provided; only qualitative statements. Reviewer should verify if any forward-looking statements imply a raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LNVGY_Bundled Earnings Report_2025-01-30",
+  "report_metadata": {
+    "issuer": "p2_lenovo",
+    "company": "Lenovo",
+    "ticker": "LNVGY",
+    "sector": "Technology/Computer Hardware",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2026-01-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q2\\Lenovo_Q2_FY2026_Press_Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q2\\Lenovo_Q2_FY2026_Presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LNVGY_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T100740Z",
+    "timestamp": "2026-08-09T10:08:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q2\\Lenovo_Q2_FY2026_Press_Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lenovo\\extracted\\LNVGY_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q2\\Lenovo_Q2_FY2026_Press_Release.pdf",
+        "page_count": 4,
+        "extracted_characters": 10143,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lenovo\\CY2026-Q2\\Lenovo_Q2_FY2026_Presentation.pdf",
+        "page_count": 31,
+        "extracted_characters": 18456,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lenovo\\extracted\\LNVGY_FQ2_2026.txt"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "issuer": "p2_lockheed_martin",
+  "reports": [
+    {
+      "document_id": "LMT_FQ1_2025",
+      "issuer": "p2_lockheed_martin",
+      "company": "Lockheed Martin",
+      "ticker": "LMT",
+      "sector": "Industrials/Aerospace-Defense",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-22",
+      "release_date": "2025-04-22",
+      "release_date_source": "EDGAR 8-K filing date (same as report_date)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lockheed_martin/CY2025-Q1/LMT-PressRelease-Q1-2025.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lockheed_martin/CY2025-Q1/LMT-Q1-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
+      ]
+    },
+    {
+      "document_id": "LMT_FQ2_2025",
+      "issuer": "p2_lockheed_martin",
+      "company": "Lockheed Martin",
+      "ticker": "LMT",
+      "sector": "Industrials/Aerospace-Defense",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-22",
+      "release_date": "2025-07-22",
+      "release_date_source": "EDGAR 8-K filing date (same as report_date)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lockheed_martin/CY2025-Q2/LMT-PressRelease-Q2-2025.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lockheed_martin/CY2025-Q2/LMT-Q2-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
+      ]
+    },
+    {
+      "document_id": "LMT_FQ3_2025",
+      "issuer": "p2_lockheed_martin",
+      "company": "Lockheed Martin",
+      "ticker": "LMT",
+      "sector": "Industrials/Aerospace-Defense",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-21",
+      "release_date": "2025-10-21",
+      "release_date_source": "EDGAR 8-K filing date (same as report_date)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lockheed_martin/CY2025-Q3/LMT-PressRelease-Q3-2025.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lockheed_martin/CY2025-Q3/LMT-Q3-2025-earnings-call-transcript-InsiderMonkey.html"
+        }
+      ]
+    },
+    {
+      "document_id": "LMT_FQ4_2025",
+      "issuer": "p2_lockheed_martin",
+      "company": "Lockheed Martin",
+      "ticker": "LMT",
+      "sector": "Industrials/Aerospace-Defense",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-29",
+      "release_date": "2026-01-29",
+      "release_date_source": "EDGAR 8-K filing date (same as report_date)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/lockheed_martin/CY2025-Q4/LMT-PressRelease-Q4-2025.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/lockheed_martin/CY2025-Q4/LMT-Q4-2025-earnings-call-transcript-MotleyFool.html"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "PRNewswire datePublished metadata via EX-99.1 distribution: 07:29 ET (Q1-Q3 2025), 07:20 ET (Q4 2025). EX-99.1 dateline itself carries no time.",
+    "retrieval_date": "2026-08-12",
+    "provenance_confidence": "medium — distribution metadata, not filing timestamp"
+  }
+}

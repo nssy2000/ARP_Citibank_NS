@@ -1,0 +1,209 @@
+{
+  "document_id": "STAN.L_FQ3_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The company raised its 2025 income growth guidance from 'around the bottom of the range' to 'towards the upper end of the 5-7% range' and upgraded its Return on Tangible Equity (RoTE) target to 'around 13% in 2025', a year ahead of schedule. This is a clear, organic upward revision of forward guidance, supported by strong operational momentum in Wealth Solutions and Global Banking, rather than being attributed to one-time items or FX. While management remains cautious on some headwinds like net interest income, the overall forward trajectory is meaningfully positive."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Underlying operating income of $5.1 billion, up 5% year-on-year (constant currency).",
+    "eps": "Underlying basic earnings per share of 52.3 cents, up 31% year-on-year. Reported basic EPS of 44.5 cents, up 21%.",
+    "guidance": "Upgraded 2025 income growth guidance to 'towards the upper end of the 5-7% range' (previously 'around the bottom'). Now expects 2025 RoTE of 'around 13%', a year ahead of plan. Reiterated 2026 expense guidance of below $12.3bn at constant currency and positive income-to-cost jaws.",
+    "margin": "Net interest margin (adjusted) was 1.94%, down 13 basis points year-on-year. Cost-to-income ratio improved to 57.4% from 57.9%.",
+    "key_risks": [
+      "Net interest income expected to be down by a low single-digit percentage for 2025 due to lower interest rates and margin compression.",
+      "Credit impairment charge increased to $195 million, including a $25 million precautionary overlay for Hong Kong commercial real estate.",
+      "High-risk assets (credit grade 12 and early alerts) increased by $0.6 billion quarter-on-quarter, partly due to a sovereign downgrade.",
+      "2026 currency headwind on net interest income is expected to be 55 basis points, slightly higher than previously guided.",
+      "Ventures segment loss increased to $114 million in Q3."
+    ],
+    "key_opportunities": [
+      "Record quarterly performance in Wealth Solutions, with income up 27%, driven by strong investment product sales and $13 billion of affluent net-new-money.",
+      "Record quarterly performance in Global Banking, with income up 23%, driven by higher origination and distribution volumes.",
+      "Global Markets flow income grew 12%, showing strong client activity and a growing recurring revenue base.",
+      "Fit for Growth programme has delivered $566 million of run-rate savings, with more expected in 2026.",
+      "Strong affluent client onboarding (67,000 new-to-bank clients) and high customer satisfaction scores."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management language is confident and forward-looking, stating 'We now expect to deliver an underlying return on tangible equity of around 13% in 2025, hitting our target a year earlier than planned' and describing Q4 as having 'started positively'."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "The company raised its 2025 income growth guidance to the upper end of its 5-7% range.",
+      "quote": "We are upgrading our 2025 income growth guidance to be towards the upper end of the 5 -7% range at constant currency, excluding notable items. We had previously guided this to be at the lower end of the range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company upgraded its 2025 Return on Tangible Equity (RoTE) target to around 13%, a year ahead of plan.",
+      "quote": "We now expect to deliver a return on tangible equity of around 13% in 2025. This exceeds our previous guidance of approaching 13% in 2026 and accelerates our delivery by a year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying operating income was $5.1 billion, up 5% year-on-year.",
+      "quote": "The Group delivered operating income of $5.1 billion which was up 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Underlying basic earnings per share was 52.3 cents, up 31% year-on-year.",
+      "quote": "Underlying basic earnings per share (EPS) increased 12.5 cents or 31 per cent to 52.3 cents and reported basic EPS increased 7.7 cents or 21 per cent to 44.5 cents reflecting both the increase in profits and the reduction in share count following execution of successive share buyback programmes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The adjusted net interest margin decreased by 13 basis points year-on-year to 1.94%.",
+      "quote": "Net interest margin (%) (adjusted) 1.94 2.07 (13)bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The cost-to-income ratio improved to 57.4% from 57.9%.",
+      "quote": "Cost to income ratio (%) 57.4 57.9 50bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income is expected to decline by a low single-digit percentage for 2025.",
+      "quote": "Putting this all together, we still expect our 2025 NII to be down by a low single -digit percentage year -on-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit impairment increased to $195 million, including a $25 million overlay for Hong Kong commercial real estate.",
+      "quote": "Credit impairment for the quarter was $195 million with an annualised loan loss rate of 24 basis points... In CIB, we took an impairment charge of $64 mi llion. Included within this is an additional precautionary $25 million overlay for clients who have exposure to Hong Kong commercial real estate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "High-risk assets increased by $0.6 billion quarter-on-quarter.",
+      "quote": "Our high-risk assets were up around $650 million quarter-on-quarter. This was driven by a sovereign downgrade into early alerts, partly offset by a reduction in the credit grade 12 portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The expected 2026 currency headwind on net interest income is 55 basis points.",
+      "quote": "This shows that we now expect a 55 basis-point headwind in 2026, slightly higher than the 44 basis points when we last reported.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth Solutions achieved a record quarter with income up 27%.",
+      "quote": "Our growth engines have continued to deliver consistently with a record quarterly performance in Wealth Solutions and Global Banking... Moving to WRB, Q3 income was up 7% to $2.3 billion with another record quarter in Wealth Solutions, where income was up 27%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Banking achieved a record quarter with income up 23%.",
+      "quote": "This was driven by an impressive performance in Global Banking with income of 23%, supported by strong origination and distribution volumes and a solid performance in our financing, capital markets, and advisory businesses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Markets flow income grew 12%.",
+      "quote": "Within our Global Markets business, flow income was up 12% as we continued to support clients across the footprint.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Fit for Growth programme has delivered $566 million in run-rate savings.",
+      "quote": "We have achieved $566 million of run-rate savings from our Fit for Growth program and have taken $454 million of restructuring charges since inception.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company onboarded 67,000 new affluent clients and saw $13 billion in net new money.",
+      "quote": "Our affluent net new money in Q3 was $13 billion with a higher proportion of wealth sales than in the previous quarter... We onboarded 67,000 new-to-bank affluent clients in the quarter, continuing the trend of onboarding over 60,000 clients each quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management's tone is confident, citing early delivery of targets and a positive start to Q4.",
+      "quote": "We now expect to deliver an underlying return on tangible equity of around 13% in 2025, hitting our target a year earlier than planned... Q4 has also started positively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 reflects a clear guidance raise. However, the magnitude could be debated given the explicit caution on NII headwinds and the fact that the RoTE upgrade is partly a result of a lower tax rate, which may not be fully sustainable."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "STAN.L_Bundled Earnings Report_2025-10-30",
+  "report_metadata": {
+    "issuer": "p2_standard_chartered",
+    "company": "Standard Chartered",
+    "ticker": "STAN.L",
+    "sector": "Financial Services/Banks - Diversified",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q3\\STAN_Q3_2025_Results.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q3\\STAN_Q3_2025_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "STAN.L_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103356Z",
+    "timestamp": "2026-08-09T10:35:36Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q3\\STAN_Q3_2025_Results.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_standard_chartered\\extracted\\STAN.L_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q3\\STAN_Q3_2025_Results.pdf",
+        "page_count": 42,
+        "extracted_characters": 111440,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\standard_chartered\\CY2025-Q3\\STAN_Q3_2025_Transcript.pdf",
+        "page_count": 15,
+        "extracted_characters": 51353,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_standard_chartered\\extracted\\STAN.L_FQ3_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

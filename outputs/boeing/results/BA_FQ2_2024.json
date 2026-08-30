@@ -1,0 +1,221 @@
+{
+  "document_id": "BA_FQ2_2024",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: free cash flow is now expected to be a larger use of cash than previously forecasted, and Q3 is expected to be another use of cash. Management explicitly lowered the cash flow outlook, which is a clear negative signal. Additionally, the company reported a GAAP loss per share of ($2.33) versus a loss of ($0.25) in the prior year, and operating cash flow swung from positive $2.875 billion to negative $3.923 billion. While management expressed confidence in long-term recovery, the near-term cash flow guidance reduction and the significant deterioration in operating performance drive a bearish sentiment."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$16.9 billion, down 15% year-over-year (from $19.8 billion).",
+    "eps": "GAAP loss per share of ($2.33), compared to a loss of ($0.25) in the prior year. Core (non-GAAP) loss per share of ($2.90), compared to a loss of ($0.82) in the prior year.",
+    "guidance": "Free cash flow for the full year is now expected to be a larger use of cash than previously forecasted. Third quarter is expected to be another use of cash. The 737 program still plans to increase production to 38 per month by year end. The 787 program maintains plans to return to 5 per month by year end. First delivery of 777X expected in 2025.",
+    "margin": "GAAP operating margin of (6.5)% for Q2 2024, compared to (0.5)% in Q2 2023. Core (non-GAAP) operating margin of (8.3)%, compared to (2.0)% in Q2 2023.",
+    "key_risks": [
+      "Lower commercial delivery volume and losses on fixed-price defense development programs.",
+      "$1.0 billion of losses on certain fixed-price development programs in Defense, Space & Security, including a $391 million loss on the KC-46A program.",
+      "Unfavorable working capital timing impacting cash flow.",
+      "Advance payments from customers are being reduced or withheld due to delivery performance concerns.",
+      "Structural risk: ongoing safety and quality issues, including the January accident and the comprehensive safety and quality plan submitted to the FAA.",
+      "Labor negotiations with IAM union, with potential for a strike.",
+      "Supply chain constraints, including seat delays on the 787 program."
+    ],
+    "key_opportunities": [
+      "Robust demand for commercial airplanes, with a backlog of $516 billion and over 5,400 commercial airplanes.",
+      "Announced agreement to acquire Spirit AeroSystems, expected to improve safety, quality, and stability.",
+      "777X program began FAA certification flight testing, with first delivery expected in 2025.",
+      "Global Services segment continues to deliver strong results, with revenue up 3% and operating margin of 17.8%.",
+      "Expectation that working capital timing impacts will begin to unwind as deliveries and production stabilize later in the year."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management acknowledged a 'challenging quarter' and lowered the free cash flow outlook, while expressing confidence in long-term recovery but emphasizing the need for continued work and transparency."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $16.9 billion, down 15% year-over-year.",
+      "quote": "The Boeing Company [NYSE: BA] recorded second quarter revenue of $16.9 billion... Second Quarter 2024 Revenue $16,866 $19,751 (15)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($2.33), compared to a loss of ($0.25) in the prior year.",
+      "quote": "GAAP loss per share of ($2.33) and core (non-GAAP)* loss per share of ($2.90)... Loss per share ($2.33) ($0.25) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guidance was reduced; it is now expected to be a larger use of cash than previously forecasted.",
+      "quote": "On the free cash flow outlook for the year, we are now expecting a larger use of cash than previously forecasted.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter is expected to be another use of cash.",
+      "quote": "Given these near-term working capital pressures, third quarter is expected to be another use of cash.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (6.5)% for Q2 2024.",
+      "quote": "Operating margins (6.5) % (0.5) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core (non-GAAP) operating margin was (8.3)% for Q2 2024.",
+      "quote": "Core operating margins (8.3) % (2.0) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security recorded $1.0 billion of losses on certain fixed-price development programs.",
+      "quote": "Second quarter operating margin of (15.2) percent primarily reflects $1.0 billion of losses on certain fixed-price development programs, including a $391 million loss on the KC-46A program largely driven by a slowdown of commercial production and supply chain constraints.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advance payments from customers are being reduced or withheld due to delivery performance concerns.",
+      "quote": "We're seeing the customers are applying excess advances and lowering advance payments as they want to see delivery performance improve.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a total backlog of $516 billion.",
+      "quote": "Total company backlog of $516 billion, including over 5,400 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 777X program began FAA certification flight testing.",
+      "quote": "the 777X program began FAA certification flight testing after obtaining type inspection authorization.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services revenue was $4.9 billion, up 3% year-over-year.",
+      "quote": "Global Services second quarter revenue of $4.9 billion and operating margin of 17.8 percent reflect higher commercial volume and mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "Despite a challenging quarter, we are making substantial progress strengthening our quality management system and positioning our company for the future... While we have more work ahead, the steps we’re taking will help stabilize our operations and ensure Boeing is the company the world needs it to be.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces structural risk from ongoing safety and quality issues.",
+      "quote": "We are executing on our comprehensive safety and quality plan and have reached an agreement to acquire Spirit AeroSystems. While we have more work ahead, the steps we’re taking will help stabilize our operations and ensure Boeing is the company the world needs it to be.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Labor negotiations with IAM union are ongoing, with potential for a strike.",
+      "quote": "On the IAM labor negotiations, can you provide an update on where you are? ... We're definitely not planning on a strike, for starters. I can't really – it's too early to call out a gap analysis with respect to the puts and takes, because we're too early in the process.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain constraints, including seat delays on the 787 program.",
+      "quote": "Although the quarter was impacted by lower production, seat delays, and other delivery timing items noted previously, we're starting to work through these issues and delivered six airplanes in July.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects working capital timing impacts to begin to unwind later in the year.",
+      "quote": "We expect these working capital timing impacts will begin to unwind as deliveries and production stabilize later this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the explicit reduction in free cash flow guidance and the significant deterioration in operating performance. A human reviewer should confirm that the magnitude of the guidance reduction and the structural risks (safety/quality, labor) justify this score relative to the calibration examples."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2024-07-31",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-07-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q2\\ba-2q24-press-release.html",
+        "pub_date": "2024-07-31"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q2\\ba-2q24-presentation.pdf",
+        "pub_date": "2024-07-31"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q2\\ba-2q24-transcript.pdf",
+        "pub_date": "2024-07-31"
+      }
+    ],
+    "document_id": "BA_FQ2_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:37:05Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q2\\ba-2q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q2\\ba-2q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 26010,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q2\\ba-2q24-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 13528,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q2\\ba-2q24-transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 69789,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2024.txt"
+  }
+}

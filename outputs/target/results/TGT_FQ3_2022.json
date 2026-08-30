@@ -1,0 +1,176 @@
+{
+  "document_id": "TGT_FQ3_2022",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The company explicitly lowered its forward guidance for the fourth quarter, planning for a low-single digit decline in comparable sales and an operating margin rate centered around 3%, which is a clear reduction from prior expectations. Management described the environment as 'increasingly challenging' and noted that 'sales and profit trends softened meaningfully' late in the quarter, leading to a 'profit performance well below our expectations.' This constitutes a guidance reduction, warranting a score of -0.5."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $26.5 billion grew 3.4% compared with last year, reflecting total sales growth of 3.3% and a 9.5% increase in other revenue. Comparable sales increased 2.7%.",
+    "eps": "Third quarter GAAP diluted EPS of $1.54, down 49.3% from $3.04 in 2021. Third quarter Adjusted EPS of $1.54 decreased 49.1% compared with $3.03 in 2021.",
+    "guidance": "The Company is planning for a wide range of sales outcomes in the fourth quarter, centered around a low-single digit decline in comparable sales, and a fourth quarter operating margin rate centered around 3%.",
+    "margin": "Third quarter operating income margin rate was 3.9% in 2022, compared with 7.8% in 2021. Third quarter gross margin rate was 24.7%, compared with 28.0% in 2021.",
+    "key_risks": [
+      "Softening sales and profit trends that emerged late in the third quarter and persisted into November.",
+      "Inflation, rising interest rates and economic uncertainty impacting guests' shopping behavior.",
+      "Higher markdown rates, inventory shrink, and merchandise and freight costs pressuring gross margin.",
+      "Cost inflation across multiple parts of the business, including investments in hourly team member compensation."
+    ],
+    "key_opportunities": [
+      "Enterprise initiative to simplify and gain efficiencies, representing an estimated cumulative savings opportunity of $2 to $3 billion over the next three years.",
+      "Unit share gains across all five core merchandising categories.",
+      "Growth in frequency businesses including Beauty, Food and Beverage and Household Essentials."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management stated they are 'planning the balance of the year more conservatively' and 'planning for a wide range of sales outcomes' due to the 'rapidly evolving consumer environment.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "The company lowered its forward guidance for the fourth quarter.",
+      "quote": "Based on softening sales and profit trends that emerged late in the third quarter and persisted into November, the Company believes it is prudent to plan for a wide range of sales outcomes in the fourth quarter, centered around a low-single digit decline in comparable sales, consistent with those recent trends. Similarly, the Company is now planning a wide range for its fourth quarter operating margin rate centered around 3 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter GAAP diluted EPS was $1.54, down 49.3% from $3.04 in 2021.",
+      "quote": "The Company reported third quarter GAAP earnings per share (EPS) of $1.54, down 49.3 percent from $3.04 in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenue grew 3.4% to $26.5 billion.",
+      "quote": "Total revenue of $26.5 billion grew 3.4 percent compared with last year, reflecting total sales growth of 3.3 percent and a 9.5 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales increased 2.7%.",
+      "quote": "Comparable sales increased 2.7 percent, on top of 12.7 percent growth last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter operating income margin rate was 3.9%.",
+      "quote": "Third quarter operating income margin rate was 3.9 percent in 2022, compared with 7.8 percent in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter gross margin rate was 24.7%.",
+      "quote": "Third quarter gross margin rate was 24.7 percent, compared with 28.0 percent in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "While we're ready to deliver exceptional value for our guests this holiday season, supported by the decisive inventory actions we took earlier this year, the rapidly evolving consumer environment means we're planning the balance of the year more conservatively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: softening sales and profit trends late in Q3.",
+      "quote": "In the latter weeks of the quarter, sales and profit trends softened meaningfully, with guests' shopping behavior increasingly impacted by inflation, rising interest rates and economic uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: inflation, rising interest rates, and economic uncertainty.",
+      "quote": "In the latter weeks of the quarter, sales and profit trends softened meaningfully, with guests' shopping behavior increasingly impacted by inflation, rising interest rates and economic uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: higher markdown rates, inventory shrink, and freight costs.",
+      "quote": "This year's gross margin rate reflected higher markdown rates, inventory shrink, and merchandise and freight costs, net of retail price increases, compared with last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: cost inflation across multiple parts of the business.",
+      "quote": "This reflected the impact of cost inflation across multiple parts of the business, including investments in hourly team member compensation, which was partially offset by lower incentive compensation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: enterprise efficiency initiative with $2-3 billion savings.",
+      "quote": "The Company announced today it was undertaking an enterprise-wide effort to simplify and gain efficiencies across its business with a focus on reducing complexities and lowering costs while continuing to support its team. The Company believes it can save a total of $2 to $3 billion over the next three years through this work.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: unit share gains across all five core merchandising categories.",
+      "quote": "The Company saw unit share gains across all five core merchandising categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: growth in frequency businesses.",
+      "quote": "Category performance was led by growth in frequency businesses including Beauty, Food and Beverage and Household Essentials, which offset continued softness in discretionary categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the explicit guidance reduction. However, the company also announced a $2-3 billion cost savings initiative, which could be seen as a positive offset. A reviewer may consider whether this positive mitigates the negative guidance enough to adjust the score slightly higher (e.g., -0.35)."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2022-11-16",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2022",
+    "report_date": "2022-11-16",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q3\\tgt-3q22-press-release.html",
+        "pub_date": "2022-11-16"
+      }
+    ],
+    "document_id": "TGT_FQ3_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:52:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q3\\tgt-3q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ3_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2022-Q3\\tgt-3q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 22876,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ3_2022.txt"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "document_id": "PEP_FQ2_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "Guidance was not raised in absolute terms (core constant currency EPS still 'approximately even with the prior year'), but the USD EPS outlook improved because FX headwinds moderated from a 3% to a 1.5% headwind, implying a smaller decline in core EPS (1.5% vs. 3% previously). This is a meaningful improvement in the forward outlook, even though it is partly attributed to FX. Management expressed confidence in sequential improvement in North America and sustained international growth, and the Q&A revealed a high degree of confidence in back-half productivity. The score is positive but capped at 0.20 because the improvement is partly FX-driven and the core constant currency EPS guidance was not raised."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported net revenue of $22,726 million for Q2 2025, up 1.0% year-over-year. Organic revenue growth was 2.1%.",
+    "eps": "Reported GAAP EPS of $0.92 for Q2 2025, down 59% year-over-year. Core EPS (non-GAAP) was $2.12, down 5% on a core constant currency basis.",
+    "guidance": "For fiscal 2025, the company continues to expect low-single-digit organic revenue growth, core constant currency EPS approximately even with the prior year, a core annual effective tax rate of approximately 20%, and total cash returns to shareholders of approximately $8.6 billion. The FX headwind is now expected to be approximately 1.5 percentage points (previously 3 percentage points), implying a 1.5% decline in core EPS (previously 3%).",
+    "margin": "Reported gross margin was 54.7% for Q2 2025 (GAAP), core gross margin was 55.1% (non-GAAP). Reported operating margin was 7.9% (GAAP), core operating margin was 17.2% (non-GAAP).",
+    "key_risks": [
+      "Impairment charges of $1.86 billion related to Rockstar and Be & Cheery brands.",
+      "Foreign exchange translation headwind of approximately 1.5 percentage points on net revenue and core EPS growth.",
+      "Challenging external environment, including tariffs and consumer pressure.",
+      "Volume declines in North America: PFNA volume flat, PBNA volume down 2% in Q2.",
+      "Weakness in China consumer post-Chinese New Year."
+    ],
+    "key_opportunities": [
+      "International business momentum continuing, with mid-single-digit growth.",
+      "Accelerated productivity initiatives expected to deliver 70% more productivity in the second half vs. first half.",
+      "North America integration of foods and beverages value chain to drive efficiency and growth.",
+      "Away-from-home channel growing high single digits in PBNA and margin accretive.",
+      "Portfolio innovation in permissible snacks, protein beverages, and cleaner ingredients.",
+      "Improving cola share (Pepsi) and Gatorade share recovery."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Ramon Laguarta stated 'we remain confident in our ability to deliver low-single-digit organic revenue growth' and in Q&A said 'we have the right tools, and we're taking the right steps to deliver on the year and create a very stronger PepsiCo for the long term.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported net revenue was $22,726 million for Q2 2025, up 1.0% year-over-year.",
+      "quote": "Net Revenue $ 22,726 $ 22,501 ... Reported Net Revenue % Change, GAAP measure 1.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue growth was 2.1% for Q2 2025.",
+      "quote": "Organic revenue performance 2.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported GAAP EPS was $0.92 for Q2 2025, down 59% year-over-year.",
+      "quote": "Earnings per share (EPS) $0.92 ... EPS change (59)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core EPS (non-GAAP) was $2.12 for Q2 2025.",
+      "quote": "Core EPS $2.12",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core constant currency EPS declined 5% in Q2 2025.",
+      "quote": "Core constant currency EPS change (5)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance: low-single-digit organic revenue growth, core constant currency EPS approximately even with prior year.",
+      "quote": "For 2025, the Company continues to expect: • A low-single-digit increase in organic revenue; • Core constant currency EPS to be approximately even with the prior year;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX headwind reduced from 3% to 1.5%, improving core EPS outlook from a 3% decline to a 1.5% decline.",
+      "quote": "The Company now expects a foreign exchange translation headwind of approximately 1.5-percentage-points to negatively impact reported net revenue and core EPS growth (previously an approximate 3-percentage-point headwind) ... This assumption and the guidance above implies a 1.5 percent decline in core EPS in 2025 (previously a 3 percent decline in core EPS) compared to 2024 core EPS of $8.16.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported gross margin was 54.7% for Q2 2025 (GAAP).",
+      "quote": "Gross Margin Reported Gross Profit, GAAP measure $ 3,913 ... 54.7 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core gross margin was 55.1% for Q2 2025 (non-GAAP).",
+      "quote": "Core Gross Profit, non-GAAP measure (a) $ 4,005 ... 55.1 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported operating margin was 7.9% for Q2 2025 (GAAP).",
+      "quote": "Reported Operating Profit, GAAP measure $ 1,789 7.9 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin was 17.2% for Q2 2025 (non-GAAP).",
+      "quote": "Core Operating Profit, non-GAAP measure (a) 1,488 ... 17.2 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Impairment charges of $1.86 billion related to Rockstar and Be & Cheery brands.",
+      "quote": "For the 12 and 24 weeks ended June 14, 2025, we recognized charges related to the impairments of our Rockstar and Be & Cheery brands.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volume in PFNA was flat in Q2 2025.",
+      "quote": "PepsiCo Foods North America (PFNA) — (2) (2) (1) ... Volume change (a) ... PFNA —",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volume in PBNA declined 2% in Q2 2025.",
+      "quote": "PepsiCo Beverages North America (PBNA) — — (2) ... Volume change (a) ... PBNA (2)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business momentum continues with mid-single-digit growth.",
+      "quote": "Our international business momentum continued",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity in the second half is expected to be 70% higher than the first half.",
+      "quote": "in the second half we're expecting to deliver about 70% more productivity than we delivered in the first half.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Away-from-home channel grew high single digits in PBNA.",
+      "quote": "you called out in the PBNA, it was up high single digits in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we remain confident in our ability to deliver low-single-digit organic revenue growth with core constant currency EPS to be approximately even with the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.20, reflecting improved FX outlook and confident language but no raise in core constant currency EPS guidance.",
+      "quote": "The Company now expects a foreign exchange translation headwind of approximately 1.5-percentage-points to negatively impact reported net revenue and core EPS growth (previously an approximate 3-percentage-point headwind) ... This assumption and the guidance above implies a 1.5 percent decline in core EPS in 2025 (previously a 3 percent decline in core EPS)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based partly on an FX-driven improvement in USD EPS outlook, not an organic operational guidance raise. A reviewer may want to assess whether the FX improvement is considered a genuine positive signal or a one-time tailwind."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2025-07-17",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q2\\PEP-8K-EX99.1-2025-Q2-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q2\\PEP-Q2-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:47:33Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q2\\PEP-8K-EX99.1-2025-Q2-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q2\\PEP-8K-EX99.1-2025-Q2-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 43394,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q2\\PEP-Q2-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 52581,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ2_2025.txt"
+  }
+}

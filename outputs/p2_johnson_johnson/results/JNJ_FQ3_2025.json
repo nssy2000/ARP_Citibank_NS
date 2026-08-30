@@ -1,0 +1,283 @@
+{
+  "document_id": "JNJ_FQ3_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The company raised its full-year 2025 reported sales guidance midpoint from $93.4B to $93.7B and operational sales growth from 4.8% to 5.1%, a clear upward revision. Management expressed high confidence in the forward outlook, stating the company is in a 'new era of accelerated growth' and projecting 2026 revenue growth above the current consensus of 4.6%. While the guidance raise is partly attributed to higher cash balances and tax effects, the core operational momentum is strong, with double-digit growth across 11 brands and a 16% growth in the pharma business excluding STELARA."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 reported sales of $23,993 million (or $24.0 billion), up 6.8% year-over-year. Operational sales growth was 5.4%, and adjusted operational sales growth was 4.4%.",
+    "eps": "Q3 2025 diluted EPS of $2.12, up 91.0% year-over-year. Adjusted diluted EPS of $2.80, up 15.7% year-over-year.",
+    "guidance": "Full-year 2025 guidance raised: estimated reported sales midpoint increased to $93.7B (5.7% growth), operational sales midpoint increased to $93.2B (5.1% growth), and adjusted operational sales growth midpoint increased to 3.8%. Adjusted EPS guidance reaffirmed at $10.85 midpoint (8.7% growth). For 2026, management projects revenue growth exceeding 5% and adjusted EPS potentially $0.05 above consensus of $11.39.",
+    "margin": "Innovative Medicine adjusted segment income before tax margin improved from 37.9% to 44.3%. MedTech adjusted segment income before tax margin declined from 24.1% to 21.0%. Company reiterated full-year operating margin improvement of approximately 300 basis points.",
+    "key_risks": [
+      "STELARA loss of exclusivity: STELARA declined 42% due to biosimilar competition and Part D redesign, impacting Innovative Medicine growth by ~(1,070) basis points.",
+      "Talc litigation: Pending Daubert motions; company expects favorable rulings by Q1 2026 but this remains a legal risk.",
+      "MedTech margin decline: MedTech adjusted segment margin declined from 24.1% to 21.0% due to macroeconomic factors and cost of products sold.",
+      "Higher effective tax rate: Full-year effective tax rate guidance increased to 17.5%-18.0% due to the One Big Beautiful Bill Act.",
+      "China VBP: Volume-based procurement in China negatively impacting MedTech portfolio.",
+      "Competitive pressures: In electrophysiology (PFA), energy, and IMBRUVICA due to competitive pressures."
+    ],
+    "key_opportunities": [
+      "TREMFYA: 40% operational sales growth; projected to become a more than $10 billion asset.",
+      "CARVYKTI: 81.4% growth; $5 billion peak year sales potential.",
+      "RYBREVANT plus LAZCLUZE: Over 100% growth; $5 billion peak year sales asset.",
+      "INLEXZO: New FDA approval for bladder cancer; projected $5 billion+ peak year sales.",
+      "SPRAVATO: 60.8% growth; expanding into new treatment centers.",
+      "Icotrokinra: Filed for FDA approval in plaque psoriasis; projected $5 billion+ brand.",
+      "CAPLYTA: $240 million in sales; projected $5 billion annually.",
+      "Cardiovascular portfolio: Electrophysiology, Abiomed (15.6% growth), and Shockwave (20.9% growth) driving growth.",
+      "Orthopaedics separation: Expected to improve MedTech top line growth and margins by at least 75 basis points.",
+      "2026 pipeline: OTTAVA robotic system submission, Shockwave C2 Aero launch, TECNIS PureSee US launch."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly confident language throughout, stating 'Johnson & Johnson is in a new era of accelerated growth' and 'We are as confident as we have been in recent memory about the future.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 reported sales were $24.0 billion, up 6.8% year-over-year.",
+      "quote": "2025 Third-Quarter reported sales growth of 6.8% to $24.0 Billion with operational growth of 5.4%* and adjusted operational growth of 4.4%*",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 diluted EPS was $2.12, up 91.0% year-over-year.",
+      "quote": "2025 Third-Quarter reflects earnings per share (EPS) of $2.12 and adjusted EPS of $2.80",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 reported sales guidance was raised to a midpoint of $93.7B.",
+      "quote": "Company increases full year estimated reported sales guidance to $93.7B or 5.7% at the midpoint; reaffirms full year adjusted EPS guidance of $10.85 at the midpoint, absorbing higher tax costs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 operational sales guidance was raised to a midpoint of $93.2B.",
+      "quote": "We are increasing operational sales guidance for the full year by approximately $300 million, resulting in operational sales growth for the full year in the range of 4.8% to 5.3%, with a midpoint of $93.2 billion or 5.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance was reaffirmed at $10.85 midpoint.",
+      "quote": "Today, we are reaffirming our elevated July earnings per share outlook... As such, our expected adjusted earnings per share guidance remains $10.85 or 8.7% at the midpoint with a range of $10.80 to $10.90.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management projects 2026 revenue growth above 5%, exceeding consensus of 4.6%.",
+      "quote": "based on my last look at your 2026 models, it appears the current revenue consensus of 4.6% growth in your models for 2026 is lower than we project, which we believe in total will exceed 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Innovative Medicine adjusted segment margin improved from 37.9% to 44.3%.",
+      "quote": "Innovative medicine margin improved from 37.9% to 44.3%, primarily driven by the one-time expense of $1.25 billion to secure the global rights of the NM26 bispecific antibody recorded in 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MedTech adjusted segment margin declined from 24.1% to 21.0%.",
+      "quote": "MedTech margin declined from 24.1% to 21%, driven by macroeconomic factors and cost of products sold, partially offset by expense leveraging in SM&A.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "STELARA decline is a key headwind, impacting Innovative Medicine growth by ~(1,070) basis points.",
+      "quote": "Growth was partially offset by an approximate (1,070) basis points impact from STELARA in Immunology, as well as IMBRUVICA in Oncology.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Talc litigation remains a risk with pending Daubert motions.",
+      "quote": "Let me provide a brief update on the Daubert motions pending in the talc litigation... We look forward to and expect to secure favorable rulings on the Daubert motions, which should be rendered by the first quarter of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TREMFYA is a key growth driver with 40% operational sales growth.",
+      "quote": "Within Immunology, TREMFYA delivered very strong growth of 40.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CARVYKTI is a key growth driver with 81.4% growth.",
+      "quote": "CARVYKTI achieved sales of $524 million with growth of 81.4%, driven by share gains and site expansion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "INLEXZO is projected to be a $5 billion+ peak year sales asset.",
+      "quote": "It will also contribute significantly to future growth, with a targeted release platform projected to be another blockbuster treatment with at least $5 billion in annual peak year sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Orthopaedics separation is expected to improve MedTech top line growth and margins by at least 75 basis points.",
+      "quote": "To give that some directional context, if we just look at normalized year-to-date 2025 results, MedTech's top line revenue growth and operating margin would both improve by at least 75 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, describing a 'new era of accelerated growth.'",
+      "quote": "As I said at the start of the call, we are in a new era of accelerated growth at Johnson & Johnson. This is more than just another strong quarter. It is proof that our momentum is building and that our impact is accelerating.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its adjusted operational sales growth guidance midpoint to 3.8%.",
+      "quote": "Increasing midpoint to 3.8% 3.2% - 3.7% 3.5% - 4.0% Adjusted operational sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher effective tax rate is a headwind for 2025.",
+      "quote": "We are expecting a higher effective tax rate to be in the range of 17.5% to 18% for the full year, with the increase largely due to the recently enacted One Big Beautiful Bill Act.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China VBP is a headwind for MedTech.",
+      "quote": "Growth was partially offset by competitive pressures in energy and the negative impact of China VBP across the portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive pressures are a headwind in electrophysiology and IMBRUVICA.",
+      "quote": "Growth driven by procedure growth, commercial execution, new product performance (VARIPULSE, TRUPLUSE), strength in mapping, and one-time impacts of installation and inventory, partially offset by competitive pressures in PFA",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SPRAVATO is a key growth driver with 60.8% growth.",
+      "quote": "In Neuroscience, SPRAVATO grew an impressive 60.8%, driven by continued strong demand from physicians and patients.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Icotrokinra is projected to be a $5 billion+ brand.",
+      "quote": "And we are really excited about the opportunity for icotrokinra and see this as one of our next big $5 billion-plus brands.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CAPLYTA is projected to reach $5 billion annually.",
+      "quote": "We project CAPLYTA to reach $5 billion annually.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cardiovascular portfolio is a key growth driver with ~12% operational growth.",
+      "quote": "In Q3, cardiovascular operational sales increased by approximately 12% as we fortify our leadership in the fastest-growing cardiovascular intervention segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RYBREVANT plus LAZCLUZE is a $5 billion peak year sales asset.",
+      "quote": "The combination of RYBREVANT plus LAZCLUZE is another of our $5 billion peak year sales assets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company reaffirmed its full-year operating margin improvement of approximately 300 basis points.",
+      "quote": "We are reiterating our operating margin guide of an approximate 300 basis point improvement for the full year, assuming what we know today as it relates to tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 reflects a meaningful guidance raise and strong forward language. However, the raise is partially attributed to higher cash balances and tax effects, and the company reaffirmed (not raised) EPS guidance. A reviewer may consider whether the score should be slightly lower given these offsets."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The talc litigation is a structural risk, but the company expresses confidence in a favorable outcome. The severity and potential impact are not quantified in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JNJ_Bundled Earnings Report_2025-10-13",
+  "report_metadata": {
+    "issuer": "p2_johnson_johnson",
+    "company": "Johnson  Johnson",
+    "ticker": "JNJ",
+    "sector": "Healthcare/Drug Manufacturers - General",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q3\\JNJ_Q3_2025_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q3\\JNJ_Q3_2025_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "JNJ_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100453Z",
+    "timestamp": "2026-08-09T10:05:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_johnson_johnson\\extracted\\JNJ_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 16690,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q3\\JNJ_Q3_2025_Presentation.pdf",
+        "page_count": 26,
+        "extracted_characters": 29722,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\johnson_johnson\\CY2025-Q3\\JNJ_Q3_2025_Transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 76833,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_johnson_johnson\\extracted\\JNJ_FQ3_2025.txt"
+  }
+}

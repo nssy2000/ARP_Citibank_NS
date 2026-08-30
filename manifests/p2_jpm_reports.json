@@ -1,0 +1,104 @@
+{
+  "issuer": "p2_jpm",
+  "reports": [
+    {
+      "document_id": "JPM_FQ1_2025",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-10",
+      "release_date": "2025-04-11",
+      "release_date_source": "EDGAR 8-K Item 2.02, jpm-20250411.htm, acc 0000019617-25-000332",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2025-Q1/1q25-earnings-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JPM_FQ2_2025",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-15",
+      "release_date": "2025-07-15",
+      "release_date_source": "EDGAR 8-K Item 2.02, jpm-20250715.htm, acc 0000019617-25-000518",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2025-Q2/jpm-2q25-earnings-call-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JPM_FQ3_2025",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-14",
+      "release_date": "2025-10-14",
+      "release_date_source": "EDGAR 8-K Item 2.02, jpm-20251014.htm, acc 0001628280-25-044845",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2025-Q3/jpm-3q25-earnings-call-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JPM_FQ4_2025",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-13",
+      "release_date": "2026-01-13",
+      "release_date_source": "EDGAR 8-K Item 2.02, jpm-20260113.htm, acc 0001628280-26-001902",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2025-Q4/jpm-4q25-earnings-call-transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "JPM_FQ1_2026",
+      "issuer": "p2_jpm",
+      "company": "JPMorgan",
+      "ticker": "JPM",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-14",
+      "release_date": "2026-04-14",
+      "release_date_source": "EDGAR 8-K Item 2.02, jpm-20260414.htm, acc 0001628280-26-024990",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/jpm/phase2/CY2026-Q1/jpm-1q26-press-release.txt"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/jpm/phase2/CY2026-Q1/jpm-1q26-earnings-call-transcript.txt"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

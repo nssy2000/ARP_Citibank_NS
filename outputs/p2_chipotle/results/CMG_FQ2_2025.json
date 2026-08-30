@@ -1,0 +1,229 @@
+{
+  "document_id": "CMG_FQ2_2025",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "The company reported a negative comparable sales decline of 4.0% and lowered its full-year comparable sales guidance from prior expectations to 'about flat,' indicating a downward revision in forward expectations. Management's language is cautious, citing 'ongoing volatility in our sales trends in the consumer environment' and a 'challenging environment,' which supports a bearish sentiment. Although there are positive signs like returning to positive comps in June and July, the guidance cut and cautious tone dominate the forward outlook."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue increased 3.0% to $3.1 billion for Q2 2025, driven by new restaurant openings.",
+    "eps": "Diluted EPS was $0.32, a 3.0% decrease from $0.33; adjusted diluted EPS was $0.33, a 2.9% decrease from $0.34.",
+    "guidance": "For 2025, management anticipates about flat full year comparable restaurant sales, 315 to 345 new company-owned restaurant openings with over 80% having a Chipotlane, and an estimated underlying effective full year tax rate between 25% and 27% before discrete items.",
+    "margin": "Operating margin was 18.2%, a decrease from 19.7%; restaurant level operating margin was 27.4%, a decrease from 28.9%.",
+    "key_risks": [
+      "Comparable restaurant sales decreased 4.0% due to lower transactions of 4.9%.",
+      "Ongoing volatility in sales trends and consumer environment.",
+      "Tariffs estimated to have about a 50 basis point ongoing impact.",
+      "Wage inflation and competitive labor market.",
+      "Food cost inflation, particularly steak and chicken.",
+      "Low-income consumer seeking value, leading to share loss in April-May.",
+      "Mix headwind of about minus 1% expected to continue for the rest of the year."
+    ],
+    "key_opportunities": [
+      "Return to positive comparable sales and transactions in June, continuing into July.",
+      "Summer marketing initiatives, including Summer of Extras, drove incremental frequency and enrollments up 14% year-over-year.",
+      "Back-of-house initiatives like produce slicers and high-efficiency equipment package expected to improve throughput and margins.",
+      "Catering test planned for fall in a subregion of about 60 restaurants.",
+      "International expansion, including Middle East and Mexico, with strong performance in Kuwait.",
+      "Long-term goal of reaching 7,000 restaurants in the U.S. and Canada and surpassing $4 million in AUVs."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management uses cautious language such as 'ongoing volatility in our sales trends in the consumer environment' and 'challenging environment,' while also expressing optimism about future momentum."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue increased 3.0% to $3.1 billion in Q2 2025.",
+      "quote": "Total revenue increased 3.0% to $3.1 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable restaurant sales decreased 4.0% in Q2 2025.",
+      "quote": "Comparable restaurant sales decreased 4.0% due to lower transactions of 4.9%, partially offset by a 0.9% increase in average check.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.32, a 3.0% decrease from $0.33.",
+      "quote": "Diluted earnings per share was $0.32, a 3.0% decrease from $0.33",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $0.33, a 2.9% decrease from $0.34.",
+      "quote": "Adjusted diluted earnings per share was $0.33, a 2.9% decrease from $0.34",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year comparable sales guidance was lowered to about flat.",
+      "quote": "Considering the ongoing volatility in our trends in the consumer environment, we now anticipate comparable sales to be about flat for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin decreased to 18.2% from 19.7%.",
+      "quote": "Operating margin was 18.2%, a decrease from 19.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restaurant level operating margin decreased to 27.4% from 28.9%.",
+      "quote": "Restaurant level operating margin was 27.4%, a decrease from 28.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited ongoing volatility and a challenging consumer environment as reasons for caution.",
+      "quote": "However, considering the ongoing volatility in our trends in the consumer environment, we now anticipate comparable sales to be about flat for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company returned to positive comparable sales and transactions in June, continuing into July.",
+      "quote": "Exiting the quarter, we returned to a positive comp and transaction trends, which have continued into July.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Summer marketing initiatives drove incremental frequency and enrollments up 14% year-over-year.",
+      "quote": "We also saw enrollments go up about 14% year-over-year, adding a significant number of people to the top of the funnel, which is exciting to see.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs are estimated to have about a 50 basis point ongoing impact.",
+      "quote": "We estimate that we will see about a 50 basis point ongoing impact from tariffs, which remains in line with our commentary from last quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wage inflation and competitive labor market are risks.",
+      "quote": "increasing wage inflation including as a result of government regulations mandating higher minimum wages, and the competitive labor market, which impacts our ability to attract and retain qualified employees",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Food cost inflation, particularly steak and chicken, is a risk.",
+      "quote": "This decrease was partially offset by inflation across several ingredient costs, primarily steak and chicken.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Low-income consumer seeking value led to share loss in April-May.",
+      "quote": "We did see some share loss in the April-May time frame as the low-income consumer pulled back, but we’re back to share gains yet again in June-July.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mix headwind of about minus 1% is expected to continue for the rest of the year.",
+      "quote": "I would assume the mix headwind, which was about a minus 1 in the second quarter to continue for the rest of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Back-of-house initiatives like produce slicers and high-efficiency equipment are expected to improve throughput and margins.",
+      "quote": "We just completed the rollout of the produce slicers across all restaurants, and we are starting to see back-of-house benefits as it enables our teams to complete prep on time and be properly deployed for their peak period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Catering test is planned for fall in a subregion of about 60 restaurants.",
+      "quote": "We will be testing a new catering platform this fall in a subregion of about 60 restaurants.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International expansion includes Middle East and Mexico, with strong performance in Kuwait.",
+      "quote": "In the Middle East, our restaurant in the Avenues Mall in Kuwait completed its first year of operations, with revenue surpassing the average unit volume in the United States.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term goal of reaching 7,000 restaurants in the U.S. and Canada and surpassing $4 million in AUVs.",
+      "quote": "We are also confident in our ability to grow new restaurant openings between 8% and 10% and to reach 7,000 restaurants longer term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative due to guidance cut, but there are positive operational signals (return to positive comps in June/July) that could be weighed differently by a reviewer."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The guidance is 'about flat' for full-year comps, which is a downward revision from prior expectations, but the document does not explicitly state the prior guidance figure."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CMG_Bundled Earnings Report_2025-07-23",
+  "report_metadata": {
+    "issuer": "p2_chipotle",
+    "company": "Chipotle",
+    "ticker": "CMG",
+    "sector": "Consumer Cyclical/Restaurants",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q2\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CMG_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095426Z",
+    "timestamp": "2026-08-09T09:54:51Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_chipotle\\extracted\\CMG_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 25130,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\chipotle\\CY2025-Q2\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 64278,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_chipotle\\extracted\\CMG_FQ2_2025.txt"
+  }
+}

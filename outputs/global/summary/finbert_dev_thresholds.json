@@ -1,0 +1,22 @@
+{
+  "model": "ProsusAI/finbert",
+  "max_tokens": 512,
+  "dev_n": 46,
+  "eval_n": 186,
+  "dev_fraction": 0.2,
+  "overnight_band": 0.02,
+  "excluded_n": 36,
+  "dev_date_range": [
+    "2023-04-25",
+    "2025-05-21"
+  ],
+  "eval_date_range": [
+    "2025-05-21",
+    "2026-07-14"
+  ],
+  "fitted_upper": 0.20663980251065195,
+  "fitted_lower": -0.13032883399163742,
+  "dev_accuracy_flat_as_wrong": 0.4783,
+  "grading": "overnight returns from returns_matrix.csv, +-2% band",
+  "note": "Thresholds fit on dev split only (earliest 20% by report_date), applied frozen to eval split. Chunk-weighted FinBERT sentiment score."
+}

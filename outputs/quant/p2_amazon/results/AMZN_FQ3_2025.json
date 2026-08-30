@@ -1,0 +1,58 @@
+{
+  "document_id": "AMZN_FQ3_2025_QUANT",
+  "base_document_id": "AMZN_FQ3_2025",
+  "issuer": "p2_amazon",
+  "ticker": "AMZN",
+  "sector": "Consumer/Retail-Tech",
+  "report_date": "2025-10-30",
+  "sentiment": {
+    "score": 0.539832
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.048868,
+      "window_start_date": "2025-09-30",
+      "window_end_date": "2025-10-29",
+      "score": 0.314731,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.266658,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 25.2,
+      "matched_earnings_date": "2025-10-30",
+      "score": 0.764934,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.91,
+      "vix_score": 0.138439,
+      "tnx_change": -0.013,
+      "tnx_score": 0.025994,
+      "score": 0.082216,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.12,
+      "ffr_change": -0.21,
+      "ffr_score": 0.39693,
+      "ffr_as_of": "2025-10-29",
+      "curve_spread": 0.49,
+      "curve_score": 0.454216,
+      "curve_as_of": "2025-10-29",
+      "score": 0.425573,
+      "available": true
+    },
+    "quant_score": 0.539832,
+    "quant_score_with_macro": 0.311024,
+    "quant_score_with_fred": 0.482702,
+    "quant_score_with_macro_fred": 0.349207
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

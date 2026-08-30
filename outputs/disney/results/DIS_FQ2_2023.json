@@ -1,0 +1,203 @@
+{
+  "document_id": "DIS_FQ2_2023",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum in streaming (DTC operating loss improved by ~$400M sequentially and $228M YoY) and Parks (operating income +23% YoY), with management expressing confidence in long-term DTC profitability and cost-cutting targets. However, full-year guidance was not raised; management reaffirmed 'high single-digit percentage range' growth for revenue and operating income, and flagged near-term headwinds including linear network declines, advertising softness, and a $1.5-1.8B content impairment charge. The score reflects the inflection in streaming losses and confident forward language, but is tempered by the lack of a formal guidance raise and acknowledged risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 FY2023 revenues of $21,815 million, up 13% YoY. Six-month revenues of $45,327 million, up 10% YoY.",
+    "eps": "Diluted EPS from continuing operations Q2: $0.69 (up from $0.26 YoY). Diluted EPS excluding certain items Q2: $0.93 (down from $1.08 YoY).",
+    "guidance": "Fiscal 2023 revenue and operating income expected to grow in the high single-digit percentage range. Cash content spend roughly comparable to last year. CapEx expected ~$5.6B (down from prior $6B). DTC operating losses expected to widen by ~$100M in Q3 vs Q2, then improve. Core Disney+ subscriber growth expected to rebound in Q4.",
+    "margin": "Not disclosed as a specific margin percentage. Domestic parks operating margins comparable to prior year adjusted for real estate sale. DPEP segment margins expected slightly higher than prior year in Q3.",
+    "key_risks": [
+      "Linear networks operating income declined 35% YoY due to higher sports costs and lower affiliate/ad revenue.",
+      "Domestic linear advertising revenue declined 10% YoY; entertainment advertising marketplace challenging with softness expected to continue.",
+      "Content impairment charge of $1.5-1.8B expected in Q3 from removing content from streaming platforms.",
+      "Writers' strike potential impact not quantified.",
+      "Inflationary cost pressures at domestic parks including new union agreement.",
+      "Unfavorable comparison to prior year's 50th anniversary celebration at Walt Disney World in back half of fiscal year.",
+      "Macroeconomic headwinds and global advertising market uncertainty."
+    ],
+    "key_opportunities": [
+      "DTC operating loss improved ~$400M sequentially and $228M YoY; management confident in long-term profitability.",
+      "One-app experience combining Hulu content into Disney+ to launch by end of calendar year, expected to increase engagement and advertising potential.",
+      "Planned price increase for ad-free Disney+ tier later this year to drive ARPU and shift subs to ad-supported.",
+      "Advertising potential: over 40% of domestic ad portfolio is addressable; 5,000 advertisers across streaming platforms; ad tier launching in Europe by end of calendar year.",
+      "Cost-cutting initiatives on track to meet or exceed $5.5B target.",
+      "International parks strong growth; several expansions underway (Zootopia at Shanghai, Frozen at Hong Kong, etc.).",
+      "Cruise line recovery with Disney Wish performing well.",
+      "Strong theatrical slate (Little Mermaid, Elemental, Indiana Jones) expected to drive DTC subs."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Bob Iger stated 'we're pleased with our accomplishments this quarter' and 'I'm incredibly bullish on our longer-term advertising positioning,' while Christine McCarthy noted 'we are incredibly optimistic about the long-term value creation opportunities.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 FY2023 revenues of $21,815 million, up 13% YoY.",
+      "quote": "Revenues for the quarter and six months grew 13% and 10%, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS from continuing operations Q2: $0.69 (up from $0.26 YoY).",
+      "quote": "Diluted earnings per share (EPS) from continuing operations for the quarter increased to $0.69 from $0.26 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS excluding certain items Q2: $0.93 (down from $1.08 YoY).",
+      "quote": "Excluding certain items, diluted EPS for the quarter decreased to $0.93 from $1.08 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2023 revenue and operating income expected to grow in the high single-digit percentage range.",
+      "quote": "We still expect fiscal 2023 revenue and operating income to grow in the high single-digit percentage range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC operating loss improved ~$400M sequentially and $228M YoY.",
+      "quote": "Direct-to-Consumer operating loss decreased $0.2 billion to $0.7 billion. ... Operating losses improved sequentially by approximately $400 million versus Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content impairment charge of $1.5-1.8B expected in Q3.",
+      "quote": "We will be removing certain content from our streaming platforms and currently expect to take an impairment charge of approximately $1.5 billion to $1.8 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Linear networks operating income declined 35% YoY.",
+      "quote": "Linear Networks ... operating income decreased 35% to $1.8 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic linear advertising revenue declined 10% YoY.",
+      "quote": "Second-quarter domestic linear advertising revenue declined 10% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Parks operating income increased 23% YoY.",
+      "quote": "Disney Parks, Experiences and Products ... segment operating income increased 23% to $2.2 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "One-app experience combining Hulu content into Disney+ to launch by end of calendar year.",
+      "quote": "I'm pleased to announce that we will soon begin offering a one-app experience domestically that incorporates our Hulu content via Disney+. ... We will begin to roll out this one-app offering by the end of the calendar year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Planned price increase for ad-free Disney+ tier later this year.",
+      "quote": "We plan to set a higher price for our ad-free tier later this year to better reflect the value of our content offerings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost-cutting initiatives on track to meet or exceed $5.5B target.",
+      "quote": "The cost-cutting initiatives I announced last quarter are well underway, and we are on track to meet or exceed our target of $5.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "Bob Iger: 'We're pleased with our accomplishments this quarter' and 'I'm incredibly bullish on our longer-term advertising positioning.' Christine McCarthy: 'we are incredibly optimistic about the long-term value creation opportunities.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC operating losses expected to widen by ~$100M in Q3 vs Q2.",
+      "quote": "The shift of some of those costs into the third quarter will contribute to Q3 DTC operating losses widening by approximately $100 million versus Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core Disney+ subscriber growth expected to rebound in Q4.",
+      "quote": "While the softness we saw in Q2 domestic Disney+ net ads may linger into Q3, we do expect core sub growth to rebound in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects genuine operational momentum (streaming loss improvement, parks growth) and confident forward language, but full-year guidance was not raised—only reaffirmed. A reviewer may consider whether the lack of a formal guidance raise should cap the score lower, or whether the inflection in streaming losses warrants a higher score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2023-05-10",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-05-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q2\\dis-2q23-press-release.html",
+        "pub_date": "2023-05-10"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q2\\dis-2q23-transcript.html",
+        "pub_date": "2023-05-10"
+      }
+    ],
+    "document_id": "DIS_FQ2_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:42:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q2\\dis-2q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q2\\dis-2q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 43188,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q2\\dis-2q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 60268,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ2_2023.txt"
+  }
+}

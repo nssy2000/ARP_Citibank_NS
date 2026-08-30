@@ -1,0 +1,208 @@
+{
+  "document_id": "LOW_FQ1_2026",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The company delivered a modest beat on backward-looking metrics (comparable sales +0.6%, adjusted EPS +3.8% YoY), but full-year guidance was reaffirmed unchanged, not raised. Management explicitly states the macro environment is 'challenging' and that DIY demand remains under pressure, with a 'K-shape economy' where lower-income consumers are cautious. The Q&A reveals that Q2 adjusted EPS is expected to be ~2% below prior year, and management flags near-term pressure from higher transportation costs. The forward outlook is flat, with no inflection or guidance raise, warranting a neutral 0.0 score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total sales of $23.1 billion, up 10.3% from Q1 last year. Comparable sales increased 0.6%.",
+    "eps": "GAAP diluted EPS of $2.90. Adjusted diluted EPS of $3.03, up 3.8% versus prior year.",
+    "guidance": "Affirming fiscal 2026 outlook: total sales $92B-$94B, comparable sales flat to up 2%, adjusted operating margin 11.6%-11.8%, adjusted diluted EPS $12.25-$12.75, capex up to $2.5B. Q2 comp sales expected roughly in line with midpoint of full-year guide; Q2 adjusted EPS expected ~2% below prior year.",
+    "margin": "Q1 gross margin 32.7%, down 70 bps YoY. SG&A 19.2% of sales, leveraging 17 bps. Adjusted operating margin 11.5%, down 43 bps YoY.",
+    "key_risks": [
+      "DIY demand remains under pressure due to elevated interest rates, higher costs, and low housing turnover.",
+      "Near-term pressure from higher transportation costs in Q2.",
+      "Tariff environment is fluid, with new actions (IEEPA, Section 122, 232) impacting the business, particularly in H2.",
+      "Challenging residential construction market impacting FBM and ADG acquisitions.",
+      "Oil prices pressuring fuel and commodity-based products like resin and plastics.",
+      "Pro customers have concerns about growing labor costs and a constrained labor market."
+    ],
+    "key_opportunities": [
+      "Continued momentum in Pro, Appliances, Online (+15.5% sales growth), and Home Services.",
+      "MyLowe's Pro Rewards loyalty program resonating with small-to-medium Pro customers.",
+      "Mylow AI shopping assistant driving triple the conversion rate for users.",
+      "HomeCare+ subscription service launching to build DIY customer loyalty.",
+      "FBM and ADG acquisitions positioning Lowe's for future homebuilding recovery, with cost synergies on track.",
+      "Rollout of workwear and pet assortments to all stores by year-end.",
+      "Pro Extended Aisle initiative driving Pro sales growth.",
+      "Potential tailwinds from tax refunds ($50B yet to be distributed) and HELOC activity ($35 trillion in home equity)."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in execution ('we're the best executing retailer in the world') and strategic initiatives, but simultaneously acknowledges a 'challenging housing macro,' 'DIY demand remains under pressure,' and that the year is playing out 'consistent with how we thought it would' — a flat, not optimistic, forward view."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total sales were $23.1 billion, up 10.3% from Q1 last year.",
+      "quote": "Sales for the first quarter were $23.1 billion, up 10.3% from Q1 last year, in line with expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales increased 0.6%.",
+      "quote": "Comparable sales were up 0.6% driven by well-coordinated spring execution, including our SpringFest event, along with continued strength in Pro, Appliances, Online and Home Services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $3.03, up 3.8% versus prior year.",
+      "quote": "Excluding these impacts, we delivered adjusted diluted earnings per share of $3.03, up from $2.92 last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was reaffirmed unchanged.",
+      "quote": "today, we are affirming our fiscal 2026 outlook. We continue to expect sales in the range of $92 billion to $94 billion, with comparable sales in a range of flat to up 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 adjusted EPS is expected to be approximately 2% below prior year.",
+      "quote": "we expect adjusted diluted earnings per share in the second quarter to be approximately 2% below prior year adjusted diluted earnings per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DIY demand remains under pressure.",
+      "quote": "While DIY demand remains under pressure, we're continuing to grow market share in a challenging housing environment shaped by elevated interest rates, higher cost, and low housing turnover.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Online sales grew 15.5%.",
+      "quote": "We delivered sales growth of 15.5% this quarter driven by continued enhancements to our user experience, standout online deals and improved fulfillment capabilities, including same-day delivery.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin was 32.7%, down 70 basis points.",
+      "quote": "For the first quarter, gross margin was 32.7%, down 70 basis points and in line with our expectations, primarily driven by the dilutive impact of FBM and ADG, offset by favorability in credit revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin was 11.5%, down 43 basis points.",
+      "quote": "Adjusted operating margin rate of 11.5% was down 43 basis points versus prior year, also in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management describes a 'K-shape economy' with cautious lower-income consumers.",
+      "quote": "we're operating and what we would describe as a K-shape economy where the higher income consumer spends and they're spending on innovation and they're spending on things to modernize their home and the lower income consumer is a little bit more cautious and a little bit more uncertain based on all of the macro factors that we all know so well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Near-term pressure from higher transportation costs in Q2.",
+      "quote": "near-term pressure from higher transportation costs that we are actively working to offset through productivity initiatives in the back half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff environment is fluid with new actions impacting H2.",
+      "quote": "We're managing the tariff situation with the IEEPA ruling, new section 122, 232 tariff actions that we're working through and how that impacts the business, in particular, in the second half of the year, expecting new news as it relates to 301.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mylow AI assistant drives triple the conversion rate.",
+      "quote": "the conversion rate for online customers who use Mylow is triple that of customers who do not use the tool, suggesting a well-designed agentic AI experience can be a clear driver in the purchasing decision.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pro customers have concerns about labor costs.",
+      "quote": "our core Pro customers indicated their backlogs are generally stable, but they have concerns about the growing costs associated with labor as they continue to navigate a constrained labor market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FBM and ADG acquisitions are on track with cost synergies.",
+      "quote": "Our near-term integration efforts are on track as we focus on extracting cost synergies from overlapping areas of spend and at the same time, exploring cross-selling opportunities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed — confident in execution but cautious on macro.",
+      "quote": "We believe Lowe's is well positioned not only to perform in this environment but to deliver meaningful upside as macro conditions normalize. ... While DIY demand remains under pressure, we're continuing to grow market share in a challenging housing environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.00 despite a modest backward-looking beat. A reviewer should confirm that the reaffirmed guidance and cautious Q2 outlook (EPS down 2%) justify a neutral score rather than a slightly negative one, given the explicit Q2 EPS decline guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "LOW_Bundled Earnings Report_2026-05-20",
+  "report_metadata": {
+    "issuer": "p2_lowes",
+    "company": "Lowe's",
+    "ticker": "LOW",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2026-Q1\\low-usq-transcript-2026-05-20-1.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2026-Q1\\exhibit991-05012026.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "LOW_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T173636Z",
+    "timestamp": "2026-07-30T17:38:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2026-Q1\\low-usq-transcript-2026-05-20-1.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lowes\\extracted\\LOW_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2026-Q1\\low-usq-transcript-2026-05-20-1.pdf",
+        "page_count": 19,
+        "extracted_characters": 67778,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\lowes\\CY2026-Q1\\exhibit991-05012026.txt",
+        "page_count": 1,
+        "extracted_characters": 3275,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_lowes\\extracted\\LOW_FQ1_2026.txt"
+  }
+}

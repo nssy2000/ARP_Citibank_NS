@@ -1,0 +1,332 @@
+{
+  "document_id": "C_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document contains a clear forward guidance raise: management explicitly targets a 10-11% RoTCE for 2026 (up from 7.7% reported in 2025), targets an efficiency ratio of ~60% (improving from 63% adjusted in 2025), and expects NII ex-Markets to grow 5-6% in 2026. This is a material upward shift in the company's own forward expectations, not merely a backward-looking beat. The guidance is supported by confident management language ('We enter 2026 with visible momentum across the firm and are committed to reaching our target of 10-11% RoTCE for the year'). The score is capped at +0.30 rather than higher because the guidance raise is partially offset by acknowledged risks including the Russia HFS loss, elevated legal expenses, and the ongoing regulatory consent order with no stated resolution date."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenues of $19.9 billion in Q4 2025, up 2% YoY on a reported basis and up 8% excluding the Russia notable item. Full year 2025 revenues of $85.2 billion, up 6% YoY.",
+    "eps": "Q4 2025 diluted EPS of $1.19, down 11% YoY. Excluding the Russia notable item, EPS was $1.81. Full year 2025 EPS of $6.99, up 18% YoY.",
+    "guidance": "Management targets 10-11% RoTCE for 2026, NII ex-Markets growth of 5-6% YoY, an efficiency ratio of approximately 60%, another year of positive operating leverage, and continued share buybacks against the $20 billion program. Branded Cards NCL range: 3.50%-4.00%; Retail Services NCL range: 5.75%-6.25%.",
+    "margin": "Efficiency ratio (total operating expenses/total revenues, net) was 69.6% in Q4 2025, 64.7% for full year 2025. On an adjusted basis excluding notable items, the full year 2025 efficiency ratio was 63.0%. Management targets ~60% for 2026.",
+    "key_risks": [
+      "Russia HFS accounting treatment resulted in a ~$1.2 billion pre-tax loss ($1.1 billion after-tax) in Q4 2025",
+      "Ongoing regulatory consent order with no stated resolution date; timing of closure is 'up to the regulators'",
+      "Elevated legal expenses in Markets segment",
+      "Higher compensation and benefits expenses, including ~$800 million in severance for the year",
+      "Macroeconomic uncertainties including slowing economic growth, elevated unemployment, inflation, and changes in interest rates",
+      "Potential impact of credit card rate cap proposals (Bilt announcement)",
+      "Corporate non-accrual loans increased 45% YoY driven by idiosyncratic downgrades in Banking and Services",
+      "Mexico Consumer NCLs increased to 5.91% in Q4 2025 from 4.81% in Q4 2024"
+    ],
+    "key_opportunities": [
+      "Record revenues in all five businesses (Services, Markets, Banking, Wealth, USPB)",
+      "Services: 24% growth in AUC/AUA, cross-border transaction value up 14%, strong deposit growth",
+      "Markets: Record prime balances up more than 50% YoY, record full year revenues",
+      "Banking: Record M&A year, 30 bps wallet share gain, record quarter for advisory fees",
+      "Wealth: 14% revenue growth, 8% organic NNIA growth, 14% client investment asset growth",
+      "USPB: Returns more than doubled to mid-teens, Branded Cards revenue up 8%",
+      "Over 80% of transformation programs at or near target state; OCC terminated July 2024 amendment",
+      "AI deployment: 70%+ adoption, 100K hours of capacity generated weekly",
+      "Capital return: $17.5 billion returned to shareholders in 2025, $20 billion buyback program ongoing",
+      "CET1 ratio of 13.2% is 160 bps above regulatory requirement, providing capacity for growth and capital return"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jane Fraser stated 'We enter 2026 with visible momentum across the firm and are committed to reaching our target of 10-11% RoTCE for the year and positioning Citi for improved returns above that level in the years ahead,' and Mark Mason said 'I am leaving the role not at the peak for Citi, but on the upswing with nothing but upside from here.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full year 2025 revenues were $85.2 billion, up 6% YoY",
+      "quote": "Total revenues, net of interest expense: Full Year 2025 $85,225, Full Year 2024 $80,722, Increase/(Decrease) 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 diluted EPS was $1.19, down 11% YoY",
+      "quote": "Diluted earnings per share: Net income (loss) 4Q25 $1.19, 4Q24 $1.34, Increase/(Decrease) (11%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding the Russia notable item, Q4 2025 EPS was $1.81",
+      "quote": "Total Citigroup Diluted EPS, Excluding Notable Items(*) 4Q25 $1.81",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 EPS was $6.99, up 18% YoY",
+      "quote": "Diluted earnings per share: Net income (loss) Full Year 2025 $6.99, Full Year 2024 $5.94, Increase/(Decrease) 18%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management targets 10-11% RoTCE for 2026",
+      "quote": "We continue to target a 10-11% return in 2026",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management targets NII ex-Markets growth of 5-6% in 2026",
+      "quote": "NII ex-Markets expected to grow in 2026: NII ex-Markets up 5-6% YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management targets an efficiency ratio of approximately 60% for 2026",
+      "quote": "Targeting a ~60% efficiency ratio and another year of positive operating leverage",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 adjusted efficiency ratio was 63.0%",
+      "quote": "Total Citigroup Efficiency Ratio, Excluding Notable Item(s)(*) Full Year 2025 63.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Russia HFS accounting treatment resulted in a ~$1.2 billion pre-tax loss in Q4 2025",
+      "quote": "In 4Q25, Citigroup recognized an approximately $1.2 billion loss recorded in revenue (approximately $1.1 billion after tax) related to the loss on sale of the announced move to held-for-sale of A.O. Citibank (Russia).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over 80% of transformation programs are at or near target state",
+      "quote": "Over 80% of our Transformation programs are at or nearly at Citi's target-state.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OCC terminated the July 2024 amendment to the consent order",
+      "quote": "The OCC terminated its July 2024 amendment to Citibank's 2020 Consent Order",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio of 13.2% is 160 bps above regulatory requirement",
+      "quote": "We ended the year with a CET1 Ratio of 13.2%, which is 160 basis points above our regulatory requirement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Returned over $17.5 billion to common shareholders in 2025",
+      "quote": "We returned over $17 billion of capital to our shareholders - the most since the pandemic including $13 billion through share buybacks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Corporate non-accrual loans increased 45% YoY",
+      "quote": "Corporate non-accrual loans increased $0.6 billion, or 45% from the prior-year period to $2.0 billion, driven by idiosyncratic downgrades in Banking and Services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident",
+      "quote": "We enter 2026 with visible momentum across the firm and are committed to reaching our target of 10-11% RoTCE for the year and positioning Citi for improved returns above that level in the years ahead",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record revenues in all five businesses in 2025",
+      "quote": "Each business had record revenues and improved their returns by between 250 and 800 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services AUC/AUA grew 24%",
+      "quote": "Securities Services assets under custody and administration grew 24% as a result of existing client growth and the onboarding of new client assets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets prime balances up more than 50% YoY",
+      "quote": "record prime balances (up by more than 50%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Banking had a record year for M&A revenues",
+      "quote": "Banking had a record year, including the best quarter and year for M&A revenues in Citi's history",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth delivered 14% revenue growth and 8% organic NNIA growth",
+      "quote": "Wealth delivered another year of strong performance in 2025, including 14% revenue growth, 8% organic NNIA growth and an RoTCE of over 12%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "USPB returns more than doubled for the year",
+      "quote": "USPB's returns more than doubled for the year, reaching mid-teens",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI adoption is above 70%",
+      "quote": "Colleagues in 84 countries have now interacted with our proprietary tools over 21 million times, and we continue to see adoption increase and it is now above 70%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI tools generate 100K hours of capacity weekly",
+      "quote": "AI-powered tools have facilitated 1.5 million automated code reviews, generating 100K hours of capacity weekly",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mexico Consumer NCLs increased to 5.91% in Q4 2025",
+      "quote": "NCLs as a % of average loans (Mexico Consumer only) 4Q25 5.91%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Regulatory consent order timing is up to the regulators",
+      "quote": "That's up to them, they have to answer that one. That very much lies in their hands.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Severance totaled approximately $800 million for the year",
+      "quote": "higher severance, which totaled approximately $800 million for the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Branded Cards NCL guidance range for 2026: 3.50%-4.00%",
+      "quote": "Branded Cards NCL range: 3.50%-4.00%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Retail Services NCL guidance range for 2026: 5.75%-6.25%",
+      "quote": "Retail Services NCL range: 5.75%-6.25%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit and material, but the score of 0.30 may be conservative given the specificity of the 10-11% RoTCE target and ~60% efficiency ratio guidance. A reviewer may consider whether the structural risks (regulatory consent order, Russia exposure, credit card rate cap threat) sufficiently cap the score at this level."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 28,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "C_Bundled Earnings Report_2026-01-14",
+  "report_metadata": {
+    "issuer": "p2_citigroup",
+    "company": "Citigroup",
+    "ticker": "C",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-14",
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025fsqtr4rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025prqtr4rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025psqtr4-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025psqtr4rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\4Q25-supp-web.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "C_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213110Z",
+    "timestamp": "2026-07-18T21:34:23Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025fsqtr4rslt.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025fsqtr4rslt.pdf",
+        "page_count": 31,
+        "extracted_characters": 106529,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025prqtr4rslt.pdf",
+        "page_count": 12,
+        "extracted_characters": 43588,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025psqtr4-transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 74283,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\2025psqtr4rslt.pdf",
+        "page_count": 42,
+        "extracted_characters": 84595,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q4\\4Q25-supp-web.pdf",
+        "page_count": 58,
+        "extracted_characters": 224560,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ4_2025.txt"
+  }
+}

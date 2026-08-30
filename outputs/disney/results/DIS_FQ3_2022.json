@@ -1,0 +1,185 @@
+{
+  "document_id": "DIS_FQ3_2022",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports strong backward-looking results (revenue +26%, diluted EPS excluding certain items +36%) and management expresses confidence ('We had an excellent quarter'). However, no formal forward guidance is provided or raised; the document only contains standard forward-looking statements and risk factors. The positive operational momentum at Parks (operating income swing from $0.4B to $2.2B) and Disney+ subscriber growth (+14.4M) are genuine, but the lack of explicit guidance raise and the ongoing structural risk from COVID-19 impacts on international parks and content production limit the score to a mildly positive level."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Revenues for the quarter were $21,504 million, up 26% from $17,022 million in the prior-year quarter. For the nine months, revenues were $62,572 million, up 28% from $48,884 million.",
+    "eps": "Diluted EPS from continuing operations for the quarter was $0.77, up 54% from $0.50. Excluding certain items, diluted EPS was $1.09, up 36% from $0.80.",
+    "guidance": "Not disclosed. The document contains only standard forward-looking statements and risk factors, with no specific revenue, earnings, or growth guidance for future periods.",
+    "margin": "Not disclosed. No explicit gross, operating, or net margin commentary is provided in the document.",
+    "key_risks": [
+      "COVID-19 pandemic impacts on international parks and resorts, including closures and capacity restrictions (e.g., Shanghai Disney Resort open only 3 days in the quarter).",
+      "Higher programming and production costs at Direct-to-Consumer segment, leading to increased operating loss.",
+      "Unfavorable foreign exchange impact on international Disney+ average revenue per subscriber.",
+      "Restructuring and impairment charges of $42 million primarily due to asset impairments related to businesses in Russia.",
+      "Non-cash loss of $136 million on investment in DraftKings."
+    ],
+    "key_opportunities": [
+      "Significant subscriber growth at streaming services: 14.4 million Disney+ subscribers added in the quarter, total 221 million subscriptions across streaming offerings.",
+      "Outstanding performance at domestic theme parks with higher volumes and increased guest spending, including introduction of Genie+ and Lightning Lane.",
+      "Big increases in live-sports viewership, benefiting from timing of NBA Finals and additional IPL cricket matches.",
+      "Growth in advertising revenue at Linear Networks due to higher rates and impressions.",
+      "Cruise ships operating for entire current quarter versus suspended sailings in prior-year quarter."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Bob Chapek stated, 'We had an excellent quarter, with our world-class creative and business teams powering outstanding performance at our domestic theme parks, big increases in live-sports viewership, and significant subscriber growth at our streaming services.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenues for the quarter were $21,504 million, up 26% from $17,022 million.",
+      "quote": "Revenues $ 21,504 $ 17,022 26 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS from continuing operations for the quarter was $0.77, up 54% from $0.50.",
+      "quote": "Diluted EPS from continuing operations (2) $ 0.77 $ 0.50 54 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding certain items, diluted EPS for the quarter was $1.09, up 36% from $0.80.",
+      "quote": "Diluted EPS excluding certain items (1) $ 1.09 $ 0.80 36 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal forward guidance is provided or raised in the document.",
+      "quote": "Certain statements and information in this earnings release may constitute 'forward-looking statements' within the meaning of the Private Securities Litigation Reform Act of 1995, including statements regarding future performance and growth; and the future impact of COVID-19 on our businesses and other statements that are not historical in nature.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the quarter's performance.",
+      "quote": "We had an excellent quarter, with our world-class creative and business teams powering outstanding performance at our domestic theme parks, big increases in live-sports viewership, and significant subscriber growth at our streaming services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ added 14.4 million subscribers in the quarter.",
+      "quote": "With 14.4 million Disney+ subscribers added in the fiscal third quarter, we now have 221 million total subscriptions across our streaming offerings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Parks operating income swung from $0.4 billion to $2.2 billion.",
+      "quote": "Segment operating income increased $1.8 billion to $2.2 billion compared to $0.4 billion in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID-19 continues to impact international parks and resorts.",
+      "quote": "Certain of our international parks and resorts continue to be impacted by COVID-19-related closures and capacity and travel restrictions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restructuring and impairment charges of $42 million were recognized, primarily due to asset impairments related to businesses in Russia.",
+      "quote": "In the current quarter, the Company recognized charges of $42 million primarily due to asset impairments related to our businesses in Russia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A non-cash loss of $136 million was recorded on the investment in DraftKings.",
+      "quote": "In the current quarter, the Company recorded a $136 million non-cash loss to adjust its investment in DraftKings, Inc. (DraftKings) to fair value (DraftKings loss).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unfavorable foreign exchange impact on international Disney+ average revenue per subscriber.",
+      "quote": "The average monthly revenue per paid subscriber for international Disney+ (excluding Disney+ Hotstar) increased from $5.52 to $6.31 due to increases in retail pricing, partially offset by an unfavorable foreign exchange impact and a higher mix of wholesale subscribers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher programming and production costs at Direct-to-Consumer segment increased operating loss.",
+      "quote": "The increase in operating loss was due to a higher loss at Disney+, lower operating income at Hulu and, to a lesser extent, a higher loss at ESPN+.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic theme parks saw higher volumes and increased guest spending.",
+      "quote": "Operating income growth at our domestic parks and experiences was due to higher volumes and increased guest spending, partially offset by higher costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live-sports viewership increased, benefiting from timing of NBA Finals.",
+      "quote": "Advertising revenue growth was due to an increase in rates and higher impressions reflecting higher average viewership. Rates and impressions benefited from the timing of the NBA Finals, which aired in the current quarter compared to the fourth quarter of the prior year as a result of a delayed start of the 2021 NBA season due to COVID-19.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cruise ships operated for the entire current quarter versus suspended sailings in the prior-year quarter.",
+      "quote": "Cruise ships were operating during the entire current quarter while sailings were suspended in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the BUY threshold. A reviewer may wish to confirm whether the lack of explicit guidance raise and the structural COVID-19 risks justify a slightly lower score (e.g., 0.10) that would fall into HOLD."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2022-08-10",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2022",
+    "report_date": "2022-08-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q3\\dis-3q22-press-release.html",
+        "pub_date": "2022-08-10"
+      }
+    ],
+    "document_id": "DIS_FQ3_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144738Z",
+    "timestamp": "2026-07-09T14:49:28Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q3\\dis-3q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q3\\dis-3q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 47139,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2022.txt"
+  }
+}

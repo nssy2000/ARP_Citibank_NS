@@ -1,0 +1,36 @@
+{
+  "issuer": "p2_allianz",
+  "reports": [
+    {
+      "document_id": "ALV.DE_FQ1_2025",
+      "issuer": "p2_allianz",
+      "company": "Allianz",
+      "ticker": "ALV.DE",
+      "sector": "Financial Services/Insurance - Diversified",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-05-15",
+      "release_date": null,
+      "release_date_source": null,
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/allianz/CY2025-Q1/press_release_1q_2025.html"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/allianz/CY2025-Q1/en-allianz-analyst-presentation-1q-2025.pdf"
+        },
+        {
+          "doc_type": "Press Release (PDF duplicate)",
+          "source_pdf": "docs/allianz/CY2025-Q1/allianz-1q-2025-earnings-release.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "unknown",
+    "source": "IR page confirms dates but carries no publication times. Press releases returned 404. EQS News timed out.",
+    "retrieval_date": "2026-08-12"
+  }
+}

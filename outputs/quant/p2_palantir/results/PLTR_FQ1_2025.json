@@ -1,0 +1,58 @@
+{
+  "document_id": "PLTR_FQ1_2025_QUANT",
+  "base_document_id": "PLTR_FQ1_2025",
+  "issuer": "p2_palantir",
+  "ticker": "PLTR",
+  "sector": "Technology/Software - Infrastructure",
+  "report_date": "2025-05-05",
+  "sentiment": {
+    "score": 0.518558
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.421155,
+      "window_start_date": "2025-04-02",
+      "window_end_date": "2025-05-02",
+      "score": 0.992744,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.990947,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 1.11,
+      "matched_earnings_date": "2025-05-05",
+      "score": 0.044371,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 23.64,
+      "vix_score": -0.29983,
+      "tnx_change": 0.288,
+      "tnx_score": -0.519752,
+      "score": -0.409791,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-05-04",
+      "curve_spread": 0.5,
+      "curve_score": 0.462117,
+      "curve_as_of": "2025-05-02",
+      "score": 0.231059,
+      "available": true
+    },
+    "quant_score": 0.518558,
+    "quant_score_with_macro": 0.054383,
+    "quant_score_with_fred": 0.374808,
+    "quant_score_with_macro_fred": 0.113275
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

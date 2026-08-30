@@ -1,0 +1,206 @@
+{
+  "document_id": "DIS_FQ4_2022",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports a strong quarter with record Parks results and robust DTC subscriber growth, but the key forward signal is management's explicit statement that DTC operating losses have peaked and will decline going forward, with a reaffirmed expectation of Disney+ profitability in fiscal 2024. This inflection point in the DTC business, combined with confident language about cost rationalization and pricing power, represents a genuine trajectory change. However, the guidance is not formally raised above prior expectations, and management adds a caveat about the economic climate, which tempers the score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 revenues $20,150 million, up 9% year-over-year. Full year revenues $82,722 million, up 23%.",
+    "eps": "Q4 diluted EPS from continuing operations $0.09, comparable to prior year. Excluding certain items, Q4 diluted EPS $0.30, down from $0.37. Full year diluted EPS from continuing operations $1.75, up from $1.11. Excluding certain items, full year diluted EPS $3.53, up from $2.29.",
+    "guidance": "Expects DTC operating losses to narrow going forward and Disney+ to achieve profitability in fiscal 2024, assuming no meaningful shift in economic climate. Expects total company fiscal 2023 revenue and segment operating income to both grow at a high single digit percentage rate versus fiscal 2022. Expects DTC operating results to improve by at least $200 million in Q1 fiscal 2023 versus Q4 fiscal 2022.",
+    "margin": "Not disclosed as a standalone metric. Parks segment operating margin was 20.4% in Q4, lower than previous quarters due to seasonality and Hurricane Ian.",
+    "key_risks": [
+      "Meaningful shift in economic climate could impact Disney+ profitability target",
+      "Shanghai Disney Resort currently closed with no visibility to reopening date",
+      "Linear subscriber declines expected to accelerate in line with industry trends",
+      "Foreign exchange impact on international results",
+      "Cost inflation at domestic parks",
+      "COVID-19-related disruptions at international parks"
+    ],
+    "key_opportunities": [
+      "Launch of Disney+ ad-supported tier on December 8, 2022 with strong advertiser interest",
+      "Price increases across DTC services expected to boost ARPU",
+      "Cost rationalization including marketing spend optimization",
+      "Robust content pipeline for fiscal 2023 including Marvel, Avatar, and other franchises",
+      "Strong demand at domestic parks with pricing power through Genie+ and Lightning Lane",
+      "International parks recovery at Disneyland Paris"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes fiscal 2022 as 'a strong year' and states 'we believe we will be on the path to achieve a profitable streaming business that will drive continued growth and generate shareholder value long into the future.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenues were $20,150 million, up 9% year-over-year.",
+      "quote": "Revenues for the quarter and year grew 9% and 23%, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 diluted EPS from continuing operations was $0.09, comparable to prior year.",
+      "quote": "Diluted earnings per share (EPS) from continuing operations for the quarter was comparable to the prior-year quarter at $0.09.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding certain items, Q4 diluted EPS was $0.30, down from $0.37.",
+      "quote": "Excluding certain items (1) , diluted EPS for the quarter decreased to $0.30 from $0.37 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year diluted EPS from continuing operations was $1.75, up from $1.11.",
+      "quote": "Diluted EPS from continuing operations for the fiscal year ended October 1, 2022 increased to $1.75 from $1.11 in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year diluted EPS excluding certain items was $3.53, up from $2.29.",
+      "quote": "Excluding certain items (1) , diluted EPS for the year increased to $3.53 from $2.29 in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC operating losses have peaked and will decline going forward.",
+      "quote": "Our financial results this quarter represent a turning point as we reached peak DTC operating losses, which we expect to decline going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ is expected to achieve profitability in fiscal 2024.",
+      "quote": "we expect our DTC operating losses to narrow going forward and that Disney+ will still achieve profitability in fiscal 2024, assuming we do not see a meaningful shift in the economic climate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company fiscal 2023 revenue and segment operating income are expected to grow at a high single digit percentage rate.",
+      "quote": "we currently expect total company fiscal 2023 revenue and segment operating income to both grow at a high single digit percentage rate versus fiscal 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC operating results are expected to improve by at least $200 million in Q1 fiscal 2023 versus Q4 fiscal 2022.",
+      "quote": "In the first quarter of fiscal 2023, we expect direct to consumer operating results to improve by at least $200 million versus the fourth quarter of fiscal 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Parks segment operating margin was 20.4% in Q4, lower than previous quarters.",
+      "quote": "DPEP's segment margin came in around 20.4% for this quarter, and that is lower than previous quarters this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shanghai Disney Resort is currently closed with no visibility to reopening date.",
+      "quote": "The park is currently closed, and we do not yet have visibility to a reopening date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Linear subscriber declines are expected to accelerate.",
+      "quote": "Looking ahead, we expect to see Linear subscriber declines accelerate more, in line with industry trends.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ ad-supported tier launches December 8, 2022 with strong advertiser interest.",
+      "quote": "Disney+ has secured more than 100 advertisers for our domestic launch window, spanning a wide range of categories.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "2022 was a strong year for Disney, with some of our best storytelling yet, record results at our Parks, Experiences and Products segment, and outstanding subscriber growth at our direct-to-consumer services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost rationalization is being actively evaluated.",
+      "quote": "We are actively evaluating our cost base currently, and we're looking for meaningful efficiencies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hurricane Ian had an adverse impact of approximately $65 million on parks segment operating income.",
+      "quote": "Our domestic parks delivered significant year-over-year revenue and operating income growth despite an adverse impact of approximately $65 million to segment operating income from Hurricane Ian.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a genuine inflection point in DTC losses, but the guidance is not formally raised above prior expectations and includes an economic caveat. A reviewer may consider whether the inflection is strong enough to warrant a higher score or if the caveat should pull it lower."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2022-11-08",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2022",
+    "report_date": "2022-11-08",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q4\\dis-4q22-press-release.html",
+        "pub_date": "2022-11-08"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q4\\dis-4q22-transcript.html",
+        "pub_date": "2022-11-08"
+      }
+    ],
+    "document_id": "DIS_FQ4_2022"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:41:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q4\\dis-4q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ4_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q4\\dis-4q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 47835,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2022-Q4\\dis-4q22-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 56335,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ4_2022.txt"
+  }
+}

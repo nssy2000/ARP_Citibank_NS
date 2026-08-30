@@ -1,0 +1,247 @@
+{
+  "document_id": "MET_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum with record fourth-quarter results, double-digit adjusted EPS growth, and record sales in RIS, but forward guidance is not formally raised; management expresses confidence in the New Frontier strategy and 2026 outlook. The score reflects genuine operational momentum and confident forward language, but is tempered by the absence of a formal guidance raise and some mixed segment results (Asia flat, Latin America down on a reported basis)."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Premiums, fees and other revenues (PFOs) increased 29% to $18.7 billion in Q4 2025; full-year PFOs increased 10% to $57.6 billion. Adjusted PFOs, excluding PRT, were up 8% to $12.8 billion in Q4 and up 5% to $49.8 billion for the full year.",
+    "eps": "Q4 2025 net income per share was $1.17, down 34% from $1.78 in Q4 2024. Adjusted earnings per share, excluding total notable items, increased 24% to $2.58 in Q4 and 10% to $8.89 for the full year.",
+    "guidance": "The document does not provide explicit forward guidance for 2026, but management expresses confidence in the New Frontier strategy and states the foundation built in 2025 positions MetLife to 'accelerate growth responsibly and deploy capital prudently.'",
+    "margin": "Direct expense ratio, excluding total notable items related to direct expenses and PRT, was 11.6% in Q4 2025 and 11.7% for the full year, compared to 13.1% in Q4 2024 and 12.1% for full year 2024. Adjusted ROE, excluding total notable items, was 18.3% in Q4 and 16.0% for the full year.",
+    "key_risks": [
+      "Net derivative losses of $646 million in Q4 due to higher long-term interest rates, stronger equity markets, and strengthening of the U.S. dollar.",
+      "Net investment losses of $160 million in Q4 reflecting normal trading activity.",
+      "Japan macroeconomic volatility (FX and rates) causing temporary fluctuations in sales and slightly higher surrender activity in Q4.",
+      "Group disability pressure in Q4 with slightly higher average severity and lower Social Security decisions.",
+      "Potential impact of AI-driven employment actions on group benefits business, though incorporated into outlook.",
+      "Structural risks from forward-looking statements including interest rates, credit spreads, equity markets, and global economic conditions."
+    ],
+    "key_opportunities": [
+      "Record RIS sales including $14.2 billion in PRT and $11.1 billion of U.K. longevity reinsurance.",
+      "US retail retirement space entry via flow reinsurance deals with two partners.",
+      "PineBridge acquisition closed December 30, 2025, expanding MIM to $742B total AUM.",
+      "Strong sales growth in Asia (up 18% constant currency), Latin America (up 26% constant currency), and EMEA (up 24% constant currency).",
+      "Group Benefits disability and paid family medical leave as growth opportunities with bundled sales.",
+      "Higher interest rates increasing attractiveness of fixed rate products."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Michel Khalaf states 'We are confident that the foundation built in 2025 positions MetLife to accelerate growth responsibly and deploy capital prudently to deliver on our New Frontier commitments.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 PFOs increased 29% to $18.7 billion.",
+      "quote": "Premiums, fees and other revenues $ 18,696 $ 14,475 29%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year PFOs increased 10% to $57.6 billion.",
+      "quote": "Premiums, fees and other revenues $ 57,609 $ 52,520 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 adjusted EPS excluding total notable items increased 24% to $2.58.",
+      "quote": "Adjusted earnings, excluding total notable items per share $ 2.58 $ 2.08 24%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS excluding total notable items increased 10% to $8.89.",
+      "quote": "Adjusted earnings, excluding total notable items per share $ 8.89 $ 8.11 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 net income per share was $1.17, down 34%.",
+      "quote": "Net income (loss) per share $ 1.17 $ 1.78 (34)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct expense ratio improved to 11.6% in Q4 and 11.7% for the full year.",
+      "quote": "Direct expense ratio, excluding total notable items related to direct expenses and PRT 11.6% 13.1% 11.7% 12.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted ROE excluding total notable items was 18.3% in Q4 and 16.0% for the full year.",
+      "quote": "Adjusted ROE, excluding total notable items 18.3% 15.3% 16.0% 15.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the forward outlook.",
+      "quote": "We are confident that the foundation built in 2025 positions MetLife to accelerate growth responsibly and deploy capital prudently to deliver on our New Frontier commitments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record RIS sales including $14.2 billion in PRT and $11.1 billion of U.K. longevity reinsurance.",
+      "quote": "RIS record sales, including transactions of $14.2 billion in PRT and $11.1 billion of U.K. longevity reinsurance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net derivative losses of $646 million in Q4 due to higher long-term interest rates, stronger equity markets, and strengthening of the U.S. dollar.",
+      "quote": "Net derivative losses amounted to $646 million, or $510 million after tax, due to higher long-term interest rates, stronger equity markets and strengthening of the U.S. dollar.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Japan surrender activity was slightly higher in Q4 due to yen depreciation.",
+      "quote": "we did see the surrender trend in the fourth quarter was a little bit higher than it had been in the third quarter, and that was primarily because we saw the yen had depreciated relative to the US dollar.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group disability experienced pressure in Q4.",
+      "quote": "So we did have some pressure in the quarter with respect to disability. Think about it as just slightly over a point in our nonmedical health ratio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US retail retirement space entry via flow reinsurance deals with two partners.",
+      "quote": "We now have two partners with flow reinsurance deals in place that have kicked off over the past couple of months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PineBridge acquisition closed December 30, 2025, expanding MIM to $742B total AUM.",
+      "quote": "Total assets under management were $741.7 billion, up 27 percent, primarily reflecting the acquisition of PineBridge Investments, which closed on December 30, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia sales up 18% on a constant currency basis.",
+      "quote": "Sales were $598 million, up 18 percent on a constant currency basis, primarily driven by Japan and Korea.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America sales up 26% on a constant currency basis.",
+      "quote": "Sales were $451 million, up 26 percent on a constant currency basis, driven by growth across the region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA sales up 24% on a constant currency basis.",
+      "quote": "Sales were $310 million, up 24 percent on a constant currency basis, reflecting strong growth across most markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group Benefits disability and paid family medical leave as growth opportunities.",
+      "quote": "We identified the disability space in general as an attractive growth opportunity. A lot of secular trends are driving that growth, of the state-based regulations that are coming through.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher interest rates increasing attractiveness of fixed rate products.",
+      "quote": "Higher interest rates . . . increasing the attractiveness of fixed rate products",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-driven employment actions are incorporated into the 2026 outlook.",
+      "quote": "We have certainly incorporated what we have been seeing in our book with respect to employment actions that some of our clients have taken be they AI-driven or otherwise. And the outlook assumes that this trend would continue in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 reflects operational momentum and confident language, but no formal guidance raise was provided. Reviewer should verify whether the momentum is sufficient to justify a BUY signal given the absence of explicit forward guidance."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "No explicit 2026 guidance figures were provided in the document; only qualitative statements about the New Frontier strategy. Reviewer should confirm this is accurate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MET_Bundled Earnings Report_2026-02-04",
+  "report_metadata": {
+    "issuer": "p2_metlife",
+    "company": "Metlife",
+    "ticker": "MET",
+    "sector": "Financial Services/Insurance - Life",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q4\\earnings_call_transcript.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q4\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MET_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T101102Z",
+    "timestamp": "2026-08-09T10:12:36Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 66364,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q4\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 23999,
+        "extractor_used": "plain_text",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q4\\presentation.pdf",
+        "page_count": 48,
+        "extracted_characters": 71156,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ4_2025.txt"
+  }
+}

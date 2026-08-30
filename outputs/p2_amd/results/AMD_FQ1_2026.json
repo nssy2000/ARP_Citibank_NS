@@ -1,0 +1,195 @@
+{
+  "document_id": "AMD_FQ1_2026",
+  "sentiment": {
+    "score": 0.8,
+    "rationale": "Guidance was raised materially: Q2 2026 revenue guided to approximately $11.2B, up 46% year-over-year and 9% sequentially, well above the prior run rate. Management also raised the long-term server CPU TAM forecast from ~$60B to over $120B by 2030, citing accelerating AI demand. The only notable risks are second-half PC/gaming demand pressure from memory cost inflation and MI450 margin dilution, but these are explicitly framed as manageable offsets."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$10.3 billion, up 38% year-over-year.",
+    "eps": "Diluted EPS $1.37, up 43% year-over-year.",
+    "guidance": "Q2 2026 revenue guided to approximately $11.2 billion (plus or minus $300 million), up 46% year-over-year and 9% sequentially. Q2 non-GAAP gross margin expected at 56%, operating expenses $3.3 billion.",
+    "margin": "Gross margin 55%, up 170 basis points year-over-year. Operating margin 25%.",
+    "key_risks": [
+      "Second-half PC and gaming demand pressure from higher memory and component costs.",
+      "Supply chain tightness across wafer and back-end capacity.",
+      "MI450 ramp carries below-average gross margins, a Q4 headwind."
+    ],
+    "key_opportunities": [
+      "Data Center revenue up 57% to a record $5.8 billion, driven by EPYC CPUs and Instinct GPUs.",
+      "Server CPU TAM now expected at greater than 35% CAGR, reaching over $120 billion by 2030.",
+      "Expanded strategic partnership with Meta for up to 6 gigawatts of AMD Instinct GPUs.",
+      "Record free cash flow of $2.6 billion, 25% of revenue."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Lisa Su stated, 'We delivered an outstanding start to the year driven by accelerating demand for AI infrastructure across our portfolio,' and later expressed 'strong and increasing confidence in our ability to deliver tens of billions of dollars in annual Data Center AI revenue in 2027.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $10.3 billion, up 38% year-over-year.",
+      "quote": "First quarter revenue increased 38% year-over-year to $10.3 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.37, up 43% year-over-year.",
+      "quote": "Diluted earnings per share was $1.37, up 43% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 revenue guidance is approximately $11.2 billion, up 46% year-over-year and 9% sequentially.",
+      "quote": "We expect revenue to be approximately $11.2 billion, plus or minus $300 million. At the middle of our guidance, revenue is expected to be up 46% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 non-GAAP gross margin expected at 56%.",
+      "quote": "we expect second quarter non-GAAP gross margin to be approximately 56%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin was 55%, up 170 basis points year-over-year.",
+      "quote": "Gross margin was 55%, up 170 basis points versus a year ago",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 25%.",
+      "quote": "Operating income was $2.5 billion, representing a 25% operating margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second-half PC and gaming demand pressure from higher memory and component costs.",
+      "quote": "we are planning for second half PC shipments to be lower due to higher memory and component costs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain tightness across wafer and back-end capacity.",
+      "quote": "there is tightness in the supply chain, there's certainly tightness in sort of data center build-outs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MI450 ramp carries below-average gross margins, a Q4 headwind.",
+      "quote": "MI450 will start to ramp in Q3 and then ramp significantly in Q4. That is below corporate average. So that will have different puts and takes in Q4 in the gross margin side.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data Center revenue up 57% to a record $5.8 billion.",
+      "quote": "Data Center revenue increased 57% year-over-year to a record $5.8 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Server CPU TAM now expected at greater than 35% CAGR, reaching over $120 billion by 2030.",
+      "quote": "we now expect the server CPU TAM to grow at greater than 35% annually, reaching over $120 billion by 2030.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expanded strategic partnership with Meta for up to 6 gigawatts of AMD Instinct GPUs.",
+      "quote": "our expanded strategic partnership with Meta to deploy up to 6 gigawatts of AMD Instinct GPUs spanning several product generations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record free cash flow of $2.6 billion, 25% of revenue.",
+      "quote": "free cash flow more than tripled to a record $2.6 billion, driven by significantly higher sales of EPYC CPUs, Instinct GPUs and Ryzen processors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered an outstanding start to the year driven by accelerating demand for AI infrastructure across our portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.80 is very high; verify that the guidance raise and TAM expansion are indeed material enough to warrant this level, and that the risks (memory cost inflation, MI450 margin drag) are not underweighted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMD_Bundled Earnings Report_2026-05-05",
+  "report_metadata": {
+    "issuer": "p2_amd",
+    "company": "AMD",
+    "ticker": "AMD",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2026-Q1\\04 amd q1 2026 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2026-Q1\\AMD-Q1-2026-Earnings-Call-Transcript-MotleyFool.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMD_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T172131Z",
+    "timestamp": "2026-07-30T17:22:13Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2026-Q1\\04 amd q1 2026 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2026-Q1\\04 amd q1 2026 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5346,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amd\\CY2026-Q1\\AMD-Q1-2026-Earnings-Call-Transcript-MotleyFool.txt",
+        "page_count": 1,
+        "extracted_characters": 60530,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amd\\extracted\\AMD_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

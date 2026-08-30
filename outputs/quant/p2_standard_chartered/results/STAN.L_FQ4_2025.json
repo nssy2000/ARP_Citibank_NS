@@ -1,0 +1,58 @@
+{
+  "document_id": "STAN.L_FQ4_2025_QUANT",
+  "base_document_id": "STAN.L_FQ4_2025",
+  "issuer": "p2_standard_chartered",
+  "ticker": "STAN.L",
+  "sector": "Financial Services/Banks - Diversified",
+  "report_date": "2026-02-23",
+  "sentiment": {
+    "score": -0.244933
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.02831,
+      "window_start_date": "2026-01-22",
+      "window_end_date": "2026-02-20",
+      "score": -0.186521,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.333705,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -7.83,
+      "matched_earnings_date": "2026-02-23",
+      "score": -0.303345,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 21.01,
+      "vix_score": -0.133204,
+      "tnx_change": -0.22,
+      "tnx_score": 0.413645,
+      "score": 0.140221,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-02-22",
+      "curve_spread": 0.6,
+      "curve_score": 0.53705,
+      "curve_as_of": "2026-02-20",
+      "score": 0.268525,
+      "available": true
+    },
+    "quant_score": -0.244933,
+    "quant_score_with_macro": -0.052356,
+    "quant_score_with_fred": 0.011796,
+    "quant_score_with_macro_fred": 0.054604
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

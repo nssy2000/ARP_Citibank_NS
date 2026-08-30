@@ -1,0 +1,178 @@
+{
+  "document_id": "HLT_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Full-year 2025 system-wide RevPAR guidance was reduced from the prior expectation (implied by the midpoint of the new range being lower than the prior year's actual growth and the cautious language). The CEO explicitly states 'somewhat weaker macroeconomic conditions' and that 'weaker trends have continued into the second quarter.' The Q2 RevPAR guidance is 'roughly flat' year-over-year, a clear deceleration. While Q1 results modestly beat on adjusted EBITDA, the forward guidance was lowered and management's tone is cautious, justifying a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $2,695 million for Q1 2025, up from $2,573 million in Q1 2024.",
+    "eps": "Diluted EPS was $1.23 for Q1 2025; diluted EPS, adjusted for special items, was $1.72, compared to $1.04 and $1.53, respectively, in Q1 2024.",
+    "guidance": "Full year 2025 system-wide RevPAR is projected to be flat to an increase of 2.0% on a comparable and currency neutral basis. Full year Adjusted EBITDA is projected to be between $3,650 million and $3,710 million. Q2 2025 system-wide RevPAR is projected to be roughly flat year-over-year.",
+    "margin": "Adjusted EBITDA margin was 73.7% for Q1 2025, compared to 70.4% in Q1 2024.",
+    "key_risks": [
+      "Broader macro uncertainty intensified in March, pressuring demand, particularly across Leisure.",
+      "Weaker trends have continued into the second quarter, with short-term bookings roughly flat year-over-year.",
+      "Risks related to tariffs and other policies, including potential barriers to travel, trade and immigration.",
+      "Uncertainty resulting from U.S. and global political trends and other geopolitical events."
+    ],
+    "key_opportunities": [
+      "Strong net unit growth of 7.2% from March 31, 2024, with a development pipeline of over 503,000 rooms.",
+      "Continued expansion of luxury and lifestyle brands, including new Waldorf Astoria openings.",
+      "Strong Group performance, with Group RevPAR increasing more than 6% year-over-year in Q1.",
+      "Industry-leading brands and powerful commercial engines expected to continue driving strong net unit growth."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO states 'even with somewhat weaker macroeconomic conditions' and that 'weaker trends have continued into the second quarter,' while the CFO notes 'we expect second quarter RevPAR to be approximately flat versus the prior year quarter.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 system-wide RevPAR guidance was reduced to flat to up 2%.",
+      "quote": "Full year 2025 system-wide RevPAR is projected to be flat to an increase of 2.0 percent on a comparable and currency neutral basis compared to 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2025 adjusted EBITDA exceeded the high end of guidance.",
+      "quote": "Adjusted EBITDA was $795 million in the first quarter, up 6% year-over-year and exceeding the high end of our guidance range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 RevPAR is expected to be roughly flat year-over-year.",
+      "quote": "For the second quarter, we expect system-wide RevPAR growth to be roughly flat year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macro uncertainty intensified in March, pressuring Leisure demand.",
+      "quote": "However, broader macro uncertainty intensified in March, which pressured demand, particularly across Leisure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Weaker trends have continued into Q2.",
+      "quote": "Weaker trends have continued into the second quarter, with short-term bookings roughly flat year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenues were $2,695 million for Q1 2025.",
+      "quote": "Total revenues 2,695 2,573",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.23; adjusted diluted EPS was $1.72.",
+      "quote": "Diluted EPS was $1.23 for the first quarter, and diluted EPS, adjusted for special items, was $1.72",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin improved to 73.7% from 70.4%.",
+      "quote": "Adjusted EBITDA margin 73.7 % 70.4 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net unit growth was 7.2% from March 31, 2024.",
+      "quote": "net unit growth of 7.2 percent from March 31, 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group RevPAR increased more than 6% year-over-year in Q1.",
+      "quote": "RevPAR growth was led by Group, which increased more than 6% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "even with somewhat weaker macroeconomic conditions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Risks include tariffs and geopolitical events.",
+      "quote": "risks associated with conflicts in Eastern Europe and the Middle East; uncertainty resulting from U.S. and global political trends, tariffs and other policies, including potential barriers to travel, trade and immigration and other geopolitical events",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the reduction in forward RevPAR guidance and cautious tone. However, Q1 results beat on adjusted EBITDA, and the company maintained its full-year adjusted EBITDA guidance range. A reviewer may consider whether the negative signal is fully warranted given the beat and maintained EBITDA guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HLT_Bundled Earnings Report_2025-04-29",
+  "report_metadata": {
+    "issuer": "p2_hilton",
+    "company": "Hilton",
+    "ticker": "HLT",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q1\\HLT-Q1-2025-Earnings-Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q1\\HLT-Q1-2025-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HLT_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173436Z",
+    "timestamp": "2026-07-30T17:34:52Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q1\\HLT-Q1-2025-Earnings-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_hilton\\extracted\\HLT_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q1\\HLT-Q1-2025-Earnings-Release.pdf",
+        "page_count": 17,
+        "extracted_characters": 42261,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q1\\HLT-Q1-2025-Earnings-Call-Transcript.pdf",
+        "page_count": 15,
+        "extracted_characters": 61299,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_hilton\\extracted\\HLT_FQ1_2025.txt"
+  }
+}

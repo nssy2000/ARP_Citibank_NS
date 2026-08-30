@@ -1,0 +1,183 @@
+{
+  "document_id": "GOOGL_FQ4_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The document shows strong operational momentum with revenue growth of 18% and EPS up 31%, but forward guidance is not formally raised; management provided a CapEx range for 2026 and expressed confidence in AI-driven growth, but also flagged supply constraints and depreciation pressure. The improvement is organic, driven by AI adoption and cloud growth, but the lack of a formal guidance raise and the presence of structural risks (supply constraints, depreciation) temper the score. The score reflects genuine momentum without a formal guidance raise, aligning with the +0.15 to +0.3 range, but the strong results and confident language push it slightly higher."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Consolidated revenues increased 18% (17% in constant currency) to $113.8 billion for Q4 2025. Full-year revenues were $402.8 billion, up 15%.",
+    "eps": "Diluted EPS was $2.82 for Q4 2025, up 31% year-over-year. Full-year diluted EPS was $10.81, up 34%.",
+    "guidance": "For 2026, Alphabet expects CapEx in the range of $175 to $185 billion. Management expects FX tailwind to Q1 revenues, continued strong growth in Google Cloud despite supply constraints, and depreciation growth to accelerate in Q1 and meaningfully increase for the full year.",
+    "margin": "Operating margin was 31.6% for Q4 2025, down from 32.1% in Q4 2024, impacted by a $2.1 billion Waymo charge. Google Cloud operating margin improved from 17.5% to 30.1%.",
+    "key_risks": [
+      "Supply constraints for AI compute capacity, with CEO stating 'I do to go through the year in a supply constrained way.'",
+      "Depreciation expense expected to accelerate in 2026 due to increased CapEx, pressuring the P&L.",
+      "CapEx variability due to supply availability, component pricing, and timing of cash payments.",
+      "YouTube ad revenue growth negatively affected by lapping strong U.S. election spend in 2024."
+    ],
+    "key_opportunities": [
+      "AI-driven growth across Search, Cloud, and YouTube, with Gemini adoption and cloud backlog of $240 billion.",
+      "Google Cloud revenue growth of 48% and operating margin expansion to 30.1%.",
+      "New partnerships with Apple and Reliance Jio to expand Gemini's reach.",
+      "Waymo's expansion and investment round of $16 billion to accelerate global growth.",
+      "Monetization of AI mode in Search and agentic commerce through Universal Commerce Protocol."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed strong confidence in AI-driven growth, with CEO Sundar Pichai stating 'It was a tremendous quarter for Alphabet' and highlighting 'great momentum' across the business."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Consolidated revenues increased 18% to $113.8 billion in Q4 2025.",
+      "quote": "Consolidated Alphabet revenues increased 18%, or 17% in constant currency, to $113.8 billion, reflecting strong momentum across the business and acceleration in growth in both Google Services and Google Cloud.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS increased 31% to $2.82 in Q4 2025.",
+      "quote": "Net income increased 30% and EPS increased 31% to $2.82.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 CapEx guidance is $175 to $185 billion.",
+      "quote": "To meet customer demand and capitalize on the growing opportunities we have ahead of us, our 2026 CapEx investments are anticipated to be in the range of $175 to $185 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 31.6% in Q4 2025, down from 32.1% in Q4 2024.",
+      "quote": "Consolidated Alphabet operating income increased 16% and operating margin was 31.6%. Operating income included a $2.1 billion employee compensation charge for Waymo.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Google Cloud operating margin improved to 30.1% from 17.5%.",
+      "quote": "Cloud operating income was $5.3 billion more than doubling year over year. And operating margin increased from 17.5% in the fourth quarter of last year to 30.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply constraints are a risk for 2026.",
+      "quote": "I expect the demand we are seeing across the board across our services, what we need to invest for future work for Google DeepMind, as well as for cloud, I think, is exceptionally strong. And so I do to go through the year in a supply constrained way.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Depreciation expense is expected to accelerate in 2026.",
+      "quote": "Given the increase in our CapEx investments in recent years, we expect the growth rate in 2026 depreciation to accelerate in Q1 and meaningfully increase for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "YouTube ad revenue growth was negatively affected by lapping election spend.",
+      "quote": "YouTube advertising revenues increased 9% to $11.4 billion driven by direct response advertising. Results were negatively affected from the lapping of the strong spend on U. S. Election in the 2024 that we've mentioned on previous earnings calls.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Google Cloud backlog reached $240 billion, more than doubled year over year.",
+      "quote": "Google Cloud's backlog increased 55% sequentially and more than doubled year over year, reaching $240 billion at the end of the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "It was a tremendous quarter for Alphabet and annual revenues exceeded $400 billion for the first time. The launch of Gemini 3 was a major milestone and we have great momentum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is above the +0.15 to +0.3 range for momentum without formal guidance raise; verify if the strong results and confident language justify the higher score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GOOGL_Bundled Earnings Report_2026-02-04",
+  "report_metadata": {
+    "issuer": "p2_alphabet",
+    "company": "Alphabet",
+    "ticker": "GOOGL",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2025-Q4\\Alphabet_Q4_2025_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2025-Q4\\Alphabet_Q4_2025_earnings_transcript.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GOOGL_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T094904Z",
+    "timestamp": "2026-08-09T09:49:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_alphabet\\extracted\\GOOGL_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 24371,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2025-Q4\\Alphabet_Q4_2025_earnings_presentation.pdf",
+        "page_count": 12,
+        "extracted_characters": 5775,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2025-Q4\\Alphabet_Q4_2025_earnings_transcript.html",
+        "page_count": 1,
+        "extracted_characters": 65565,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_alphabet\\extracted\\GOOGL_FQ4_2025.txt"
+  }
+}

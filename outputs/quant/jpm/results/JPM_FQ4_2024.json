@@ -1,0 +1,58 @@
+{
+  "document_id": "JPM_FQ4_2024_QUANT",
+  "base_document_id": "JPM_FQ4_2024",
+  "issuer": "jpm",
+  "ticker": "JPM",
+  "sector": "Financials",
+  "report_date": "2025-01-15",
+  "sentiment": {
+    "score": 0.39359
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.021427,
+      "window_start_date": "2024-12-11",
+      "window_end_date": "2025-01-14",
+      "score": 0.141882,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.199901,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 19.18,
+      "matched_earnings_date": "2025-01-15",
+      "score": 0.645298,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.12,
+      "vix_score": 0.189675,
+      "tnx_change": 0.329,
+      "tnx_score": -0.577031,
+      "score": -0.193678,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2025-01-14",
+      "curve_spread": 0.41,
+      "curve_score": 0.388473,
+      "curve_as_of": "2025-01-14",
+      "score": 0.425295,
+      "available": true
+    },
+    "quant_score": 0.39359,
+    "quant_score_with_macro": 0.099956,
+    "quant_score_with_fred": 0.409442,
+    "quant_score_with_macro_fred": 0.208402
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

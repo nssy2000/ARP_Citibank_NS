@@ -1,0 +1,58 @@
+{
+  "document_id": "WDAY_FQ3_2025_QUANT",
+  "base_document_id": "WDAY_FQ3_2025",
+  "issuer": "p2_workday",
+  "ticker": "WDAY",
+  "sector": "Technology/Software - Application",
+  "report_date": "2025-11-25",
+  "sentiment": {
+    "score": -0.076202
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.066365,
+      "window_start_date": "2025-10-24",
+      "window_end_date": "2025-11-24",
+      "score": -0.415657,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.31281,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 6.74,
+      "matched_earnings_date": "2025-11-25",
+      "score": 0.263253,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 18.56,
+      "vix_score": 0.029325,
+      "tnx_change": 0.005,
+      "tnx_score": -0.009999,
+      "score": 0.009663,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.88,
+      "ffr_change": -0.21,
+      "ffr_score": 0.39693,
+      "ffr_as_of": "2025-11-24",
+      "curve_spread": 0.58,
+      "curve_score": 0.522665,
+      "curve_as_of": "2025-11-24",
+      "score": 0.459798,
+      "available": true
+    },
+    "quant_score": -0.076202,
+    "quant_score_with_macro": -0.03327,
+    "quant_score_with_fred": 0.191798,
+    "quant_score_with_macro_fred": 0.131086
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_freeport_mcmoran",
+  "reports": [
+    {
+      "document_id": "FCX_FQ2_2025",
+      "issuer": "p2_freeport_mcmoran",
+      "company": "Freeport-McMoRan",
+      "ticker": "FCX",
+      "sector": "Materials/Copper Mining",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-23",
+      "release_date": "2025-07-23",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 831259, filed 2025-07-23 12:09:14 ET (FCX releases before market open; EDGAR acceptance is same-day noon)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/freeport_mcmoran/CY2025-Q2/FCX_Q2_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/freeport_mcmoran/CY2025-Q2/FCX_Q2_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "FCX_FQ4_2025",
+      "issuer": "p2_freeport_mcmoran",
+      "company": "Freeport-McMoRan",
+      "ticker": "FCX",
+      "sector": "Materials/Copper Mining",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-22",
+      "release_date": "2026-01-22",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 831259, accepted 2026-01-22 13:06:58 UTC = 08:06 EST (pre-market: FCX releases before market open; entry = Jan 22 open)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/freeport_mcmoran/CY2025-Q4/FCX_Q4_2025_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/freeport_mcmoran/CY2025-Q4/FCX_Q4_2025_Earnings_Call_Transcript.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "FCX_FQ1_2026",
+      "issuer": "p2_freeport_mcmoran",
+      "company": "Freeport-McMoRan",
+      "ticker": "FCX",
+      "sector": "Materials/Copper Mining",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-23",
+      "release_date": "2026-04-23",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 831259, filed 2026-04-23 12:09:07 ET (noon ET)",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/freeport_mcmoran/CY2026-Q1/FCX_Q1_2026_Press_Release.htm"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/freeport_mcmoran/CY2026-Q1/FFCX_Q1_2026_Earnings_Call_Transcript.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

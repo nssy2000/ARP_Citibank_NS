@@ -1,0 +1,235 @@
+{
+  "document_id": "BKNG_FQ3_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Booking Holdings reported a strong Q3 with room nights, gross bookings, and revenue all exceeding prior expectations, and raised full-year guidance for adjusted EBITDA growth to 17-18% (from prior expectations) and adjusted EPS growth to slightly more than 20%. The guidance raise is organic, driven by operational momentum and Transformation Program savings, not primarily FX (FX is a tailwind but the company notes constant-currency growth also exceeds long-term ambitions). Management expresses confidence in continued momentum, though acknowledges macroeconomic uncertainty, which tempers the score slightly."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 revenue of $9.0 billion, up 13% year-over-year (8% on a constant currency basis).",
+    "eps": "Q3 2025 GAAP EPS of $84.41, up 14% year-over-year; Adjusted EPS of $99.50, up 19% year-over-year.",
+    "guidance": "Q4 2025: room nights growth 4-6%, gross bookings growth 11-13% (6-8% constant currency), revenue growth 10-12% (5-7% constant currency), adjusted EBITDA $2.0-2.1 billion (8-14% growth). FY2025: room nights up about 7%, gross bookings up about 11-12% (8-9% constant currency), revenue up about 12% (9% constant currency), adjusted EBITDA growth about 17-18%, adjusted EPS growth slightly more than 20%.",
+    "margin": "Q3 2025 net income margin of 30.5% (down from 31.5% in Q3 2024); adjusted EBITDA margin of 47.0% (up from 45.8% in Q3 2024).",
+    "key_risks": [
+      "Macroeconomic and geopolitical uncertainty",
+      "KAYAK impairment due to expected increases in customer acquisition costs",
+      "Potential impact of generative AI on travel search and distribution",
+      "Competitive intensity in the travel industry",
+      "US consumer caution indicated by slightly lower ADRs and shorter length of stay",
+      "Foreign currency exchange rate fluctuations"
+    ],
+    "key_opportunities": [
+      "Connected Trip growth (transactions up mid-20% year-over-year)",
+      "GenAI innovations (e.g., OpenAI partnership, AI-powered tools)",
+      "Genius loyalty program expansion (higher-tier members drive direct bookings)",
+      "Alternative accommodations growth (listings up ~10% to 8.6 million)",
+      "Asia growth potential (fastest-growing major travel market)",
+      "Transformation Program savings (raised to $500-550 million annual run-rate)",
+      "Direct channel growth (B2C direct mix mid-60%)"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management uses phrases like 'strong quarter,' 'momentum we're building for the future,' and 'energized and highly motivated by the clear momentum in the business,' while acknowledging some macroeconomic uncertainty."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 revenue was $9.0 billion, up 13% year-over-year.",
+      "quote": "Revenue grew 13% compared to the third quarter of 2024, or 8% on a constant currency basis. ... Revenue $9.0B 13%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 GAAP EPS was $84.41, up 14% year-over-year.",
+      "quote": "GAAP EPS $84.41 14%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 Adjusted EPS was $99.50, up 19% year-over-year.",
+      "quote": "Adjusted EPS $99.50 19%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EBITDA growth guidance was raised to about 17-18%.",
+      "quote": "On a reported basis, for the full year, we now expect ... adjusted EBITDA to be up about 17% to 18%; adjusted EBITDA margins to expand year-over-year by about 180 basis points, higher than our prior expectation of about 125 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS growth guidance is slightly more than 20%.",
+      "quote": "adjusted EPS to be up slightly more than 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 net income margin was 30.5%.",
+      "quote": "Net Income margin of 30.5% (31.5% in Q3 2024)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 adjusted EBITDA margin was 47.0%.",
+      "quote": "Adjusted EBITDA margin of 47.0% (45.8% in Q3 2024)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 guidance includes room nights growth of 4-6%.",
+      "quote": "We currently expect the fourth quarter room night growth to be between 4% and 6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 guidance includes gross bookings growth of 11-13%.",
+      "quote": "We currently expect fourth quarter gross bookings to increase between 11% and 13%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 guidance includes revenue growth of 10-12%.",
+      "quote": "We currently expect fourth quarter revenue growth to be between 10% and 12%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 adjusted EBITDA guidance is $2.0-2.1 billion.",
+      "quote": "We currently expect fourth quarter adjusted EBITDA to be between $2 billion and $2.1 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management raised the Transformation Program savings expectation to $500-550 million.",
+      "quote": "Given the stronger-than-expected early results of the Transformation Program, we are raising our expectation for the ultimate annual run-rate savings to a range of $500 to $550 million from our previous guidance of $400 to $450 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in continued momentum despite macroeconomic uncertainty.",
+      "quote": "While there remains some uncertainty in the macroeconomic and geopolitical backdrop, we're pleased to see continued momentum with steady travel demand trends in our business so far in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "KAYAK impairment was recorded due to expected increases in customer acquisition costs.",
+      "quote": "During the three and nine months ended September 30, 2025, the Company recorded an impairment charge of $457 million related to KAYAK's goodwill and certain intangible assets. The impairments were primarily driven by a reduction in the forecasted cash flows for KAYAK, reflecting its meta-search business being impacted by expected increases in customer acquisition costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US consumer caution is indicated by slightly lower ADRs and shorter length of stay.",
+      "quote": "in the US, we continue to see slightly lower ADRs and a shorter length of stay versus the prior year, which may indicate that some US consumers are continuing to be thoughtful on their discretionary spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Connected Trip transactions grew mid-20% year-over-year.",
+      "quote": "Connected Trip transactions, meaning a trip that includes more than one travel vertical, grew mid-20% year-over-year in the third quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Genius loyalty program higher-tier members drive a significant portion of room nights.",
+      "quote": "travelers in Genius Levels 2 and 3 made up over 30% of our active base, and accounted for a mid-50% range of our room nights over the last four quarters",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Alternative accommodation listings grew to over 8.6 million.",
+      "quote": "listings grew to over 8.6 million, up approximately 10% year-over-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia is a key growth opportunity.",
+      "quote": "Asia, which remains a driver of growth for us and is one of our most exciting long-term opportunities. It is the fastest growing major travel market in the world",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Direct channel mix is increasing.",
+      "quote": "Over the last four quarters, our B2C direct mix was in the mid-60% range, which was up versus the low-60% range one year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 is based on guidance raise and operational momentum, but FX tailwinds and macroeconomic uncertainty may warrant adjustment; verify the magnitude of the guidance raise relative to prior guidance."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The list includes risks explicitly stated, but some are forward-looking and may be considered standard boilerplate; ensure they are not over-weighted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BKNG_Bundled Earnings Report_2025-10-28",
+  "report_metadata": {
+    "issuer": "p2_booking_holdings",
+    "company": "Booking",
+    "ticker": "BKNG",
+    "sector": "Consumer Cyclical/Travel Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q3\\transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BKNG_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095014Z",
+    "timestamp": "2026-08-09T09:50:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_booking_holdings\\extracted\\BKNG_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 33898,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q3\\transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 72442,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_booking_holdings\\extracted\\BKNG_FQ3_2025.txt"
+  }
+}

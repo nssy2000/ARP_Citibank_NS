@@ -1,0 +1,203 @@
+{
+  "document_id": "NFLX_FQ3_2021",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document shows a solid quarter with revenue up 16% YoY and paid net adds of 4.4m beating the company's own forecast of 3.5m. However, forward guidance for Q4 operating margin is sharply lower at 6.5% (vs 14% in Q4'20) due to backloaded content spend, and full-year 2021 operating margin guidance is only '20% or slightly better' — not raised. The Q4 paid net adds forecast of 8.5m is consistent with Q4'20, not a raise. The positive beat on Q3 net adds is backward-looking, and the forward guidance is flat to cautious, so the score is mildly positive but capped at 0.15."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Q3 2021 revenue of $7.483 billion, up 16% year over year.",
+    "eps": "Diluted EPS of $3.19 vs. $1.74 a year ago, including a $136m non-cash unrealized gain from FX remeasurement on Euro denominated debt.",
+    "guidance": "Q4 2021 forecast: paid net adds of 8.5m, revenue of $7.712 billion, operating margin of approximately 6.5%. Full year 2021 operating margin forecast of 20% or slightly better. Expects to be FCF positive on an annual basis in 2022 and beyond.",
+    "margin": "Q3 2021 operating margin of 23.5%, a three percentage point increase vs. the year ago period. Q4 2021 operating margin forecast of approximately 6.5% (vs. 14% in Q4'20).",
+    "key_risks": [
+      "COVID-related production delays could impact content slate if new waves or unforeseen events cause large scale production shutdowns.",
+      "Backloaded content release schedule in Q4 leads to lower operating margins sequentially.",
+      "Free cash flow negative in Q4 2021 due to production volume ramping and lower operating margin.",
+      "Competition from a wide range of activities for consumers' time and attention (linear TV, TikTok, Fortnite, etc.)."
+    ],
+    "key_opportunities": [
+      "Strong Q4 content slate expected to be the strongest yet, with popular returning series and new movies.",
+      "Squid Game became the biggest TV show ever with 142m member households in first four weeks, demonstrating global hit potential.",
+      "APAC region was the largest contributor to membership growth with 2.2m paid net adds (half of total), indicating strong growth potential.",
+      "Games offering being tested in select countries, included in members' subscriptions with no ads or in-app purchases.",
+      "Expects to be FCF positive on an annual basis in 2022 and beyond.",
+      "Acquisition of Roald Dahl Story Company provides beloved IP for future development."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expresses excitement about the Q4 content slate ('We’re very excited to finish the year with what we expect to be our strongest Q4 content offering yet') and highlights record-breaking hits like Squid Game, while also acknowledging near-term margin compression."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2021 revenue was $7.483 billion, up 16% year over year.",
+      "quote": "In Q3, we grew revenue 16% year over year to $7.5 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $3.19 vs. $1.74 a year ago, including a $136m non-cash unrealized gain from FX remeasurement.",
+      "quote": "EPS of $3.19 vs. $1.74 a year ago included a $136m non-cash unrealized gain from FX remeasurement on our Euro denominated debt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2021 forecast: paid net adds of 8.5m, revenue of $7.712 billion, operating margin of approximately 6.5%.",
+      "quote": "For Q4’21, we forecast paid net adds of 8.5m, consistent with Q4’20 paid net additions. ... Q4’21 operating margin will be approximately 6.5% compared with 14% in Q4’20.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2021 operating margin forecast of 20% or slightly better.",
+      "quote": "For the full year 2021, we forecast an operating margin of 20% or slightly better.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expects to be FCF positive on an annual basis in 2022 and beyond.",
+      "quote": "We anticipate being FCF positive on an annual basis in 2022 and beyond.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2021 operating margin was 23.5%, a three percentage point increase vs. the year ago period.",
+      "quote": "Operating margin for Q3 amounted to 23.5%, a three percentage point increase vs. the year ago period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2021 operating margin forecast of approximately 6.5% (vs. 14% in Q4'20).",
+      "quote": "Q4’21 operating margin will be approximately 6.5% compared with 14% in Q4’20.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID-related production delays could impact content slate if new waves or unforeseen events cause large scale production shutdowns.",
+      "quote": "Assuming no new Covid waves or unforeseen events that result in large scale production shutdowns, we currently anticipate a more normalized content slate in 2022",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backloaded content release schedule in Q4 leads to lower operating margins sequentially.",
+      "quote": "The year over year decline in operating margin is due mostly to our backloaded big content release schedule in this Q4, which will result in a roughly 19% year over year increase in content amortization for Q4’21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow negative in Q4 2021 due to production volume ramping and lower operating margin.",
+      "quote": "With production volume ramping successfully and a lower operating margin in Q4, we anticipate Q4 ‘21 FCF to be negative.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition from a wide range of activities for consumers' time and attention.",
+      "quote": "We compete with a staggeringly large set of activities for consumers’ time and attention like watching linear TV, reading a book, browsing TikTok, or playing Fortnite, to name just a few.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong Q4 content slate expected to be the strongest yet.",
+      "quote": "We’re very excited to finish the year with what we expect to be our strongest Q4 content offering yet",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Squid Game became the biggest TV show ever with 142m member households in first four weeks.",
+      "quote": "A mind-boggling 142m member households globally have chosen to watch the title in its first four weeks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "APAC region was the largest contributor to membership growth with 2.2m paid net adds.",
+      "quote": "For the second consecutive quarter, the APAC region was our largest contributor to membership growth with 2.2m paid net adds (half of total paid net adds)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games offering being tested in select countries, included in members' subscriptions with no ads or in-app purchases.",
+      "quote": "We’ve begun testing our games offering in select countries. ... games on Netflix will be included in members’ subscriptions and will not have advertisements or in-app purchases",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Acquisition of Roald Dahl Story Company provides beloved IP for future development.",
+      "quote": "During Q3, we announced our agreement to acquire the Roald Dahl Story Company ... an opportunity to purchase a beloved and enduring portfolio of intellectual property",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We’re very excited to finish the year with what we expect to be our strongest Q4 content offering yet",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 paid net adds of 4.4m beat the company's own forecast of 3.5m.",
+      "quote": "We under-forecasted paid net adds for the quarter (4.4m actual vs. our 3.5m projection)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline between HOLD and BUY. The Q3 beat on net adds is backward-looking, and forward guidance is flat to cautious with a sharp Q4 margin decline. A reviewer may consider whether the score should be lower (e.g., 0.0) given the lack of a formal guidance raise and the cautious forward language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2021-10-19",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ3 2021",
+    "report_date": "2021-10-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q3\\nflx-3q21-press-release.html",
+        "pub_date": "2021-10-19"
+      }
+    ],
+    "document_id": "NFLX_FQ3_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:54:03Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q3\\nflx-3q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q3\\nflx-3q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 27539,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2021.txt"
+  }
+}

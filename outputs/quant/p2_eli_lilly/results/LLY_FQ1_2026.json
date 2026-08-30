@@ -1,0 +1,58 @@
+{
+  "document_id": "LLY_FQ1_2026_QUANT",
+  "base_document_id": "LLY_FQ1_2026",
+  "issuer": "p2_eli_lilly",
+  "ticker": "LLY",
+  "sector": "Healthcare",
+  "report_date": "2026-04-30",
+  "sentiment": {
+    "score": 0.25805
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.039949,
+      "window_start_date": "2026-03-30",
+      "window_end_date": "2026-04-29",
+      "score": -0.260204,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.327192,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 25.9,
+      "matched_earnings_date": "2026-04-30",
+      "score": 0.776304,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.89,
+      "vix_score": 0.139746,
+      "tnx_change": 0.079,
+      "tnx_score": -0.156698,
+      "score": -0.008476,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-04-29",
+      "curve_spread": 0.5,
+      "curve_score": 0.462117,
+      "curve_as_of": "2026-04-29",
+      "score": 0.231059,
+      "available": true
+    },
+    "quant_score": 0.25805,
+    "quant_score_with_macro": 0.124787,
+    "quant_score_with_fred": 0.244555,
+    "quant_score_with_macro_fred": 0.160211
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

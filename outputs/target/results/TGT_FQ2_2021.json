@@ -1,0 +1,146 @@
+{
+  "document_id": "TGT_FQ2_2021",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong comparable sales growth of 8.9% on top of record growth last year, and EPS growth of 8.9% GAAP. Forward guidance is raised: the company now expects high single digit comparable sales growth in the second half (near the high end of previous guidance) and an operating income margin rate of 8% or higher for the full year. Management expresses confidence in the back half, stating they are 'well-positioned to deliver outstanding performance.' The score is capped at 0.30 because the guidance raise is modest (from a range to near the high end) and the margin guidance is a floor, not a specific raise, so the shift is meaningful but not dramatic."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $25.2 billion grew 9.5% compared with last year, driven by total sales growth of 9.4% and a 20.0% increase in other revenue.",
+    "eps": "Second quarter GAAP EPS of $3.65 was 8.9% higher than last year, and Adjusted EPS of $3.64 was 7.9% higher than last year.",
+    "guidance": "For the second half of 2021, the Company expects high single digit growth in comparable sales, near the high end of the previous guidance range. The Company now expects its full year operating income margin rate will be 8 percent or higher.",
+    "margin": "Second quarter operating income margin rate was 9.8% in 2021 compared with 10.0% in 2020. Second quarter gross margin rate was 30.4%, compared with 30.9% in 2020.",
+    "key_risks": [
+      "Higher merchandise and freight costs pressuring gross margin rate.",
+      "Comparison over last year's change in the sales return reserve estimate.",
+      "Expense rate increases to normalized levels in various expense categories, such as marketing."
+    ],
+    "key_opportunities": [
+      "Benefit of low markdowns, favorable category mix, and a shift in fulfillment mix into lower-cost same-day fulfillment options.",
+      "Digital comparable sales grew 10%, led by same-day services (Order Pickup, Drive Up and Shipt) which grew nearly 55%.",
+      "More than 95% of Target’s second quarter sales were fulfilled by its stores, highlighting operational efficiency.",
+      "New $15 billion share repurchase program reflecting confidence in sustained strong performance."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Cornell said, 'Even after unprecedented growth over the last two years, we see much more opportunity ahead of us, and we’re leaning into opportunities to invest in the long-term growth and resiliency of our business. ... we’re well-positioned to deliver outstanding performance in the back half of the year.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue grew 9.5% to $25.2 billion.",
+      "quote": "Total revenue of $25.2 billion grew 9.5 percent compared with last year, driven by total sales growth of 9.4 percent and a 20.0 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $3.65, up 8.9% year-over-year; Adjusted EPS was $3.64, up 7.9%.",
+      "quote": "Second quarter GAAP EPS of $3.65 was 8.9 percent higher than last year, and Adjusted EPS of $3.64 was 7.9 percent higher than last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance raised: high single digit comparable sales growth near high end of previous range, and operating income margin rate of 8% or higher.",
+      "quote": "For the second half of 2021, the Company expects high single digit growth in comparable sales, near the high end of the previous guidance range. The Company now expects its full year operating income margin rate will be 8 percent or higher.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income margin rate was 9.8% in Q2 2021 vs 10.0% in Q2 2020.",
+      "quote": "Second quarter operating income margin rate was 9.8 percent in 2021 compared with 10.0 percent in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin rate was 30.4% in Q2 2021 vs 30.9% in Q2 2020.",
+      "quote": "Second quarter gross margin rate was 30.4 percent, compared with 30.9 percent in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include higher merchandise and freight costs, sales return reserve estimate comparison, and expense rate increases.",
+      "quote": "This year's gross margin rate reflected pressure from higher merchandise and freight costs and the comparison over last year's change in the sales return reserve estimate. ... partially offset by the benefit of low markdowns, favorable category mix, and a shift in fulfillment mix into lower-cost same-day fulfillment options. ... expense rate increases to normalized levels in various expense categories, such as marketing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include low markdowns, favorable category mix, shift to lower-cost same-day fulfillment, digital growth led by same-day services, and new $15B buyback.",
+      "quote": "These pressures were partially offset by the benefit of low markdowns, favorable category mix, and a shift in fulfillment mix into lower-cost same-day fulfillment options. ... Digital comparable sales grew 10 percent, following growth of 195 percent last year. ... same-day services (Order Pickup, Drive Up and Shipt), which grew nearly 55 percent this year ... Target's Board of Directors has approved a new, $15 billion share repurchase program.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Brian Cornell, chairman and CEO of Target Corporation, said, '... we see much more opportunity ahead of us, and we’re leaning into opportunities to invest in the long-term growth and resiliency of our business. ... we’re well-positioned to deliver outstanding performance in the back half of the year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sentiment score rationale: guidance raised modestly, management confident, but not a dramatic shift.",
+      "quote": "For the second half of 2021, the Company expects high single digit growth in comparable sales, near the high end of the previous guidance range. The Company now expects its full year operating income margin rate will be 8 percent or higher.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is modest (near high end of range, not a new range) and the margin guidance is a floor (8% or higher) rather than a specific raise. The score of 0.30 reflects this, but a reviewer may consider whether a lower score (e.g., 0.20) is more appropriate given the limited magnitude of the raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 9,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2021-08-18",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2021",
+    "report_date": "2021-08-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q2\\tgt-2q21-press-release.html",
+        "pub_date": "2021-08-18"
+      }
+    ],
+    "document_id": "TGT_FQ2_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:51:23Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q2\\tgt-2q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q2\\tgt-2q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 22138,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2021.txt"
+  }
+}

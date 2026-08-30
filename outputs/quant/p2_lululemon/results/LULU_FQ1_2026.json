@@ -1,0 +1,58 @@
+{
+  "document_id": "LULU_FQ1_2026_QUANT",
+  "base_document_id": "LULU_FQ1_2026",
+  "issuer": "p2_lululemon",
+  "ticker": "LULU",
+  "sector": "Consumer/Retail",
+  "report_date": "2026-06-04",
+  "sentiment": {
+    "score": -0.068054
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.022872,
+      "window_start_date": "2026-05-04",
+      "window_end_date": "2026-06-03",
+      "score": -0.151307,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.336368,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 0.38,
+      "matched_earnings_date": "2026-06-04",
+      "score": 0.015199,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 15.4,
+      "vix_score": 0.235496,
+      "tnx_change": 0.061,
+      "tnx_score": -0.121399,
+      "score": 0.057048,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.62,
+      "ffr_change": -0.02,
+      "ffr_score": 0.039979,
+      "ffr_as_of": "2026-06-03",
+      "curve_spread": 0.41,
+      "curve_score": 0.388473,
+      "curve_as_of": "2026-06-03",
+      "score": 0.214226,
+      "available": true
+    },
+    "quant_score": -0.068054,
+    "quant_score_with_macro": -0.005503,
+    "quant_score_with_fred": 0.073086,
+    "quant_score_with_macro_fred": 0.06774
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

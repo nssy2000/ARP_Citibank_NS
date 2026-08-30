@@ -1,0 +1,58 @@
+{
+  "document_id": "TSLA_FQ1_2026_QUANT",
+  "base_document_id": "TSLA_FQ1_2026",
+  "issuer": "p2_tesla",
+  "ticker": "TSLA",
+  "sector": "Consumer/Auto",
+  "report_date": "2026-04-22",
+  "sentiment": {
+    "score": 0.458963
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.050169,
+      "window_start_date": "2026-03-20",
+      "window_end_date": "2026-04-21",
+      "score": 0.32252,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.488299,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 17.15,
+      "matched_earnings_date": "2026-04-22",
+      "score": 0.595406,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 18.92,
+      "vix_score": 0.005333,
+      "tnx_change": -0.04,
+      "tnx_score": 0.07983,
+      "score": 0.042581,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-04-21",
+      "curve_spread": 0.52,
+      "curve_score": 0.4777,
+      "curve_as_of": "2026-04-21",
+      "score": 0.23885,
+      "available": true
+    },
+    "quant_score": 0.458963,
+    "quant_score_with_macro": 0.250772,
+    "quant_score_with_fred": 0.348907,
+    "quant_score_with_macro_fred": 0.246798
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

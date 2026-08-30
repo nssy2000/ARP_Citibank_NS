@@ -1,0 +1,215 @@
+{
+  "document_id": "DAL_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was effectively reduced: Delta withdrew its full-year 2025 outlook, cut planned second-half capacity growth to flat year-over-year, and guided June-quarter revenue down 2% to up 2% with EPS of $1.70-$2.30, reflecting a stalled growth environment. Management language is cautious and defensive, citing 'broad economic uncertainty around global trade' and 'growth has largely stalled,' with no reaffirmation of prior full-year targets. The March quarter results were flat to prior year, but the forward outlook is clearly hedged and reduced, warranting a negative score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "GAAP operating revenue of $14.0 billion; adjusted operating revenue of $13.0 billion, up 3.3% year-over-year. June quarter revenue expected down 2% to up 2% year-over-year.",
+    "eps": "GAAP diluted EPS of $0.37; adjusted diluted EPS of $0.46, flat to prior year. June quarter EPS guidance of $1.70-$2.30.",
+    "guidance": "June quarter operating margin of 11%-14%, EPS of $1.70-$2.30, revenue down 2% to up 2% year-over-year. Full-year 2025 guidance not reaffirmed; second-half capacity growth reduced to flat year-over-year.",
+    "margin": "GAAP operating margin of 4.0%; adjusted operating margin of 4.6%. June quarter operating margin guidance of 11%-14%.",
+    "key_risks": [
+      "Broad economic uncertainty around global trade causing growth to largely stall",
+      "Softness in domestic and main cabin demand, both consumer and corporate",
+      "Corporate travel growth stalled in February and March, with flat volumes expected in June quarter",
+      "Potential impact of tariffs on aircraft deliveries and cost structure",
+      "Lack of economic clarity preventing full-year guidance",
+      "Reduction in corporate confidence and wealth effect concerns"
+    ],
+    "key_opportunities": [
+      "Resilience in premium, loyalty, and international revenue streams",
+      "American Express remuneration record of $2.0 billion, up 13% year-over-year",
+      "International revenue growth of 7%, with Pacific up 16% and Transatlantic up 5%",
+      "Decline in fuel prices supporting profitability",
+      "Strong balance sheet with gross leverage of 2.6x and expected debt repayment of at least $3 billion",
+      "MRO business growth, including 10-year agreement with UPS"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasizes uncertainty and defensive actions, e.g., 'With broad economic uncertainty around global trade, growth has largely stalled' and 'Given the lack of economic clarity, it is premature at this time to provide an updated full-year outlook.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 guidance was not reaffirmed due to economic uncertainty.",
+      "quote": "Given current uncertainty, Delta is not reaffirming full year 2025 financial guidance and will provide an update later in the year as visibility improves.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second-half capacity growth was reduced to flat year-over-year.",
+      "quote": "Reducing planned capacity growth in the second half to flat year on year, aligning supply with demand",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "June quarter revenue guidance is down 2% to up 2% year-over-year.",
+      "quote": "Based on current trends, we expect June quarter total revenue to be down 2 percent to up 2 percent over prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "June quarter EPS guidance is $1.70 to $2.30.",
+      "quote": "Guiding to June quarter operating margin of 11 percent to 14 percent and EPS of $1.70 to $2.30",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "March quarter adjusted EPS was $0.46, flat to prior year.",
+      "quote": "Earnings of $0.46 per share were flat to last year despite a more challenging macro environment than we anticipated as we started the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "March quarter adjusted revenue was $13.0 billion, up 3.3% year-over-year.",
+      "quote": "Delta delivered revenue of $13 billion, 3.3 percent higher than last year, consistent with revised guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "March quarter adjusted operating margin was 4.6%.",
+      "quote": "For the March quarter, we delivered pre-tax income of $382 million, with an operating margin of 4.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited broad economic uncertainty and stalled growth as key risks.",
+      "quote": "With broad economic uncertainty around global trade, growth has largely stalled.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic and main cabin softness is a key risk.",
+      "quote": "The impact has been most pronounced in domestic and specifically in the main cabin, with softness in both consumer and corporate travel.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Corporate travel growth stalled in February and March.",
+      "quote": "After starting the year with momentum, a reduction in corporate confidence stalled growth in February and March.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium and loyalty revenue streams are opportunities.",
+      "quote": "Premium and loyalty revenue were both up approximately 7% over prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "American Express remuneration is a growth driver.",
+      "quote": "American Express remuneration of $2.0 billion was a March quarter record, up 13 percent year-over-year, driven by strong cobrand spend and acquisitions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International revenue growth is an opportunity.",
+      "quote": "International revenue growth was 7% on solidly positive unit revenue over prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fuel price decline is a tailwind.",
+      "quote": "Given our position of strength, our bias toward action and the decline in fuel prices, Delta remains well positioned to deliver solid profitability and free cash flow for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "Given the lack of economic clarity, it is premature at this time to provide an updated full-year outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of -0.50 reflects guidance withdrawal and capacity cuts, but the document also shows strong premium/loyalty performance and fuel tailwinds; reviewer should confirm the negative weight is appropriate given mixed signals."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DAL_Bundled Earnings Report_2025-04-09",
+  "report_metadata": {
+    "issuer": "p2_delta_air_lines",
+    "company": "Delta Air Lines",
+    "ticker": "DAL",
+    "sector": "Industrials/Airlines",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q1\\Q1_2025_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q1\\Q1_2025_earnings_call_transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DAL_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095933Z",
+    "timestamp": "2026-08-09T09:59:51Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_delta_air_lines\\extracted\\DAL_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 40814,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q1\\Q1_2025_earnings_presentation.pdf",
+        "page_count": 17,
+        "extracted_characters": 41349,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q1\\Q1_2025_earnings_call_transcript.pdf",
+        "page_count": 24,
+        "extracted_characters": 97622,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_delta_air_lines\\extracted\\DAL_FQ1_2025.txt"
+  }
+}

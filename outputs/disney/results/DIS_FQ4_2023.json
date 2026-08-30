@@ -1,0 +1,262 @@
+{
+  "document_id": "DIS_FQ4_2023",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows genuine operational momentum: the combined streaming business swung from a $1.472B loss to a $387M loss (74% improvement), and management raised its annualized efficiency target from $5.5B to $7.5B. Free cash flow guidance for FY2024 was raised to ~$8B, approaching pre-pandemic levels, and management expressed confidence in achieving streaming profitability in Q4 FY2024. However, the score is capped at +0.30 because the guidance raise is on cost savings and cash flow, not top-line revenue or EPS, and management noted that streaming progress may not be linear quarter-to-quarter."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 revenues $21,241M, up 5% YoY; full year revenues $88,898M, up 7% YoY.",
+    "eps": "Q4 diluted EPS from continuing operations $0.14, up from $0.09 YoY; diluted EPS excluding certain items $0.82, up from $0.30 YoY. Full year diluted EPS from continuing operations $1.29, down from $1.75 YoY; diluted EPS excluding certain items $3.76, up from $3.53 YoY.",
+    "guidance": "Combined streaming businesses expected to reach profitability in Q4 FY2024. Free cash flow expected to be ~$8B in FY2024, approaching pre-pandemic levels. Annualized efficiency target raised to $7.5B. Dividend recommended to board by end of calendar year 2023. Total content spend expected to be ~$25B in FY2024, down $2B from FY2023. Capex expected to be ~$6B in FY2024, up ~$1B from FY2023.",
+    "margin": "Experiences segment operating margin was 22% in Q4, up 3 percentage points YoY. Experiences operating margins expanded nearly 300 basis points over the past five years.",
+    "key_risks": [
+      "Streaming profitability progress may not look linear from quarter to quarter.",
+      "Walt Disney World facing tough comparisons to prior year from 50th anniversary celebration and wage inflation.",
+      "Charter blackout had adverse impact on affiliate revenue (2 points at Sports, 1.5 points at Entertainment).",
+      "Linear networks continue to face subscriber declines and advertising revenue challenges.",
+      "Film studio performance not up to standards set by company; pandemic created creative challenges.",
+      "Account sharing crackdown not expected to have meaningful impact until 2025."
+    ],
+    "key_opportunities": [
+      "Combined streaming businesses on track to profitability in Q4 FY2024, with $1.4B improvement in operating results from FY2022 to FY2023.",
+      "Disney+ added nearly 7 million core subscribers in Q4; ad-supported tier growing (5.2M subs, 50% of new U.S. subs chose ad-supported).",
+      "Hulu acquisition of remaining Comcast stake will further streaming objectives.",
+      "Unified Disney+/Hulu app beta in December, official launch spring 2024 expected to increase engagement, lower churn, reduce acquisition costs.",
+      "ESPN to be built into preeminent digital sports platform; exploring strategic partnerships.",
+      "Experiences business operating income up over 30% in Q4; international parks and cruise line strong; $60B investment planned over next decade.",
+      "Free cash flow expected to grow significantly to ~$8B in FY2024, enabling shareholder returns (dividend recommended).",
+      "Cost efficiency target raised to $7.5B; 8,000 roles eliminated; $4.5B entertainment cash content spend reduction target."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Bob Iger stated 'I'm bullish about the opportunities we have before us to create lasting growth and increase shareholder value' and described moving 'beyond this period of fixing and begin building our businesses again.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenues were $21,241M, up 5% YoY.",
+      "quote": "Revenues for the quarter and year grew 5% and 7% compared to the prior-year quarter and prior year, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 diluted EPS from continuing operations was $0.14, up from $0.09 YoY.",
+      "quote": "Diluted earnings per share (EPS) from continuing operations for the quarter increased to $0.14 from $0.09 in the prior-year quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 diluted EPS excluding certain items was $0.82, up from $0.30 YoY.",
+      "quote": "Excluding certain items, diluted EPS for the quarter increased to $0.82 from $0.30 in the prior-year quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined streaming businesses expected to reach profitability in Q4 FY2024.",
+      "quote": "We continue to expect that our combined streaming businesses will reach profitability in Q4 of FY24, although progress may not look linear from quarter to quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow expected to be ~$8B in FY2024.",
+      "quote": "All of these factors, in addition to continued growth and improvement across our underlying businesses, are expected to come together over the coming fiscal year to result in free cash flow generation of roughly $8 billion, a significant year-over-year increase and approaching levels we last achieved pre pandemic.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Annualized efficiency target raised to $7.5B.",
+      "quote": "We continue to aggressively manage our cost base, and have increased our annualized efficiency target to $7.5 billion, versus $5.5 billion previously.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment operating margin was 22% in Q4, up 3 percentage points YoY.",
+      "quote": "Operating margins at the segment were 22% in Q4, an increase of three percentage points versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined streaming operating loss improved by $1.085B YoY.",
+      "quote": "Operating loss (1) $ (387) $ (1,472) 74 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ added nearly 7 million core subscribers in Q4.",
+      "quote": "Disney+ added nearly 7 million core subscribers in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I'm bullish about the opportunities we have before us to create lasting growth and increase shareholder value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences operating income increased over 30% in Q4.",
+      "quote": "Experiences operating income increased by over 30% versus the prior-year quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dividend recommended to board by end of calendar year 2023.",
+      "quote": "We will be recommending to the board that they declare a dividend by the end of this calendar year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total content spend expected to be ~$25B in FY2024, down $2B from FY2023.",
+      "quote": "we expect total content spend in fiscal 2024 to be approximately $25 billion, which is a decrease of $2 billion versus 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capex expected to be ~$6B in FY2024, up ~$1B from FY2023.",
+      "quote": "we expect capex in fiscal 2024 to total $6 billion, an increase of approximately $1 billion versus fiscal 2023",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Streaming profitability progress may not be linear.",
+      "quote": "although progress may not look linear from quarter to quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Walt Disney World facing tough comparisons and wage inflation.",
+      "quote": "At Walt Disney World, we continue to manage against wage inflation and challenging comparisons to the prior year from the 50th anniversary celebration.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Charter blackout had adverse impact on affiliate revenue.",
+      "quote": "Domestic entertainment affiliate revenue decreased by 4% in the fourth quarter versus the prior year due to a six-point decline from fewer subscribers and a one-and-a-half-point adverse impact from the Charter blackout",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Account sharing crackdown not expected until 2025.",
+      "quote": "we don't expect a meaningful impact until 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Film studio performance not up to standards.",
+      "quote": "I'm mindful of the fact that our performance from a quality perspective wasn't really up to the standards that we set for ourselves.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hulu acquisition of remaining Comcast stake will further streaming objectives.",
+      "quote": "we were pleased to announce last week that we will acquire the remaining stake in Hulu held by Comcast, which will further Disney streaming objectives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unified Disney+/Hulu app beta in December, official launch spring 2024.",
+      "quote": "We will launch a beta version for bundled subscribers in December, giving parents time to set up profiles and parental controls that work best for their families ahead of the official launch in early spring 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN to be built into preeminent digital sports platform; exploring partnerships.",
+      "quote": "building ESPN into the preeminent digital sports platform... we are exploring strategic partnerships to help advance our efforts through marketing, technology, distribution, and additional content.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences business operating income up over 30% in Q4.",
+      "quote": "Experiences operating income increased by over 30% versus the prior-year quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "8,000 roles eliminated.",
+      "quote": "we have eliminated over 8,000 roles.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment cash content spend reduction target is $4.5B.",
+      "quote": "Our annualized entertainment cash content spend reduction target is now $4.5 billion, excluding strike impacts and sports rights versus $3 billion previously.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on strong operational momentum and raised cash flow guidance, but the guidance raise is on cost savings and cash flow, not top-line revenue or EPS. A reviewer should confirm this weighting is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2023-11-08",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2023-11-08",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q4\\dis-4q23-press-release.html",
+        "pub_date": "2023-11-08"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q4\\dis-4q23-transcript.html",
+        "pub_date": "2023-11-08"
+      }
+    ],
+    "document_id": "DIS_FQ4_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:43:12Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q4\\dis-4q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q4\\dis-4q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 44257,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2023-Q4\\dis-4q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 55420,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ4_2023.txt"
+  }
+}

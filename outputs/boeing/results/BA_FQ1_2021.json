@@ -1,0 +1,197 @@
+{
+  "document_id": "BA_FQ1_2021",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document shows genuine operational momentum: Commercial Airplanes operating margin improved from (33.3)% to (20.1)% year-over-year, 737 deliveries increased, and the company resumed 787 deliveries. However, no formal guidance was raised; management's forward language is hedged ('we view 2021 as a key inflection point... while the global pandemic continues to challenge the overall market environment'). The structural risk of the 737 MAX electrical issue and ongoing COVID-19 headwinds prevent a higher score. The score reflects a real trajectory change (inflection point language) without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$15.2 billion, down 10% year-over-year (from $16.9 billion), primarily driven by lower 787 deliveries and commercial services volume, partially offset by higher 737 deliveries and higher KC-46A Tanker revenue.",
+    "eps": "GAAP loss per share of ($0.92) and core (non-GAAP) loss per share of ($1.53), reflecting year-over-year KC-46A Tanker improvement, higher 737 deliveries, and lower commercial airplanes period costs, partially offset by lower tax benefits and higher interest expense.",
+    "guidance": "The 737 program expects to gradually increase production to 31 per month in early 2022 with further gradual increases to correspond with market demand. The 777X first delivery is expected in late 2023. The 787 program transitioned to a production rate of 5 aircraft per month. The combined 777/777X production rate is transitioning to 2 aircraft per month. No formal revenue or earnings guidance was provided.",
+    "margin": "GAAP operating margin was (0.5)% (improved from (8.0)% in Q1 2020). Core (non-GAAP) operating margin was (2.3)% (improved from (10.1)% in Q1 2020). Commercial Airplanes operating margin improved to (20.1)% from (33.3)%. Defense, Space & Security operating margin increased to 5.6% from (3.2)%. Global Services operating margin decreased to 11.8% from 15.3%.",
+    "key_risks": [
+      "COVID-19 pandemic continues to challenge the overall market environment.",
+      "737 MAX electrical issues identified in certain locations in the flight deck of select 737 MAX airplanes, requiring work with FAA and customers to address.",
+      "Pre-tax charge of $318 million on the VC-25B program largely due to COVID-19 impacts and performance issues at a key supplier.",
+      "Lower 787 deliveries and lower commercial services volume due to COVID-19.",
+      "Global pandemic continues to challenge the overall market environment."
+    ],
+    "key_opportunities": [
+      "Continued progress on safe return to service of 737 MAX worldwide; 21 airlines have returned fleets to service, safely flying more than 26,000 revenue flights.",
+      "Resumed 787 deliveries in late March.",
+      "Commercial Airplanes secured orders for 100 737 aircraft from Southwest Airlines, 25 from United Airlines, 23 from Alaska Airlines, and four 747 freighter aircraft from Atlas Air.",
+      "Defense, Space & Security awarded Lots 6 and 7 contracts for 27 KC-46A Tanker aircraft, a contract for 11 P-8A Poseidon aircraft, and contracts for six V-22 Osprey rotorcraft.",
+      "Total backlog grew to $364 billion."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "The CEO expresses pride in progress and views 2021 as a 'key inflection point,' but also acknowledges that 'the global pandemic continues to challenge the overall market environment,' creating a mix of optimism and caution."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $15.2 billion, down 10% year-over-year.",
+      "quote": "The Boeing Company [NYSE: BA] reported first-quarter revenue of $15.2 billion, primarily driven by lower 787 deliveries and commercial services volume, partially offset by higher 737 deliveries and higher KC-46A Tanker revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($0.92) and core loss per share was ($1.53).",
+      "quote": "GAAP loss per share of ($0.92) and core loss per share (non-GAAP)* of ($1.53) reflect year-over-year KC-46A Tanker improvement, higher 737 deliveries, and lower commercial airplanes period costs, partially offset by lower tax benefits and higher interest expense.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal revenue or earnings guidance was provided; forward production rate plans are stated.",
+      "quote": "The 737 program is currently producing at a low rate and continues to expect to gradually increase production to 31 per month in early 2022 with further gradual increases to correspond with market demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin improved to (0.5)% from (8.0)%.",
+      "quote": "Operating Margin (0.5) % (8.0) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes operating margin improved to (20.1)% from (33.3)%.",
+      "quote": "First-quarter operating margin improved to (20.1) percent, primarily due to higher 737 deliveries and lower period costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security operating margin increased to 5.6% from (3.2)%.",
+      "quote": "Defense, Space & Security first-quarter revenue increased to $7.2 billion and first-quarter operating margin increased to 5.6 percent, primarily reflecting higher KC-46A Tanker revenue due to orders for 27 aircraft and the absence of charges related to the program, partially offset by a pre-tax charge of $318 million on the VC-25B program largely due to COVID-19 impacts and performance issues at a key supplier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin decreased to 11.8% from 15.3%.",
+      "quote": "Global Services first-quarter revenue decreased to $3.7 billion and first-quarter operating margin decreased to 11.8 percent primarily driven by lower commercial services volume due to COVID-19.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: COVID-19 pandemic continues to challenge the overall market environment.",
+      "quote": "While the global pandemic continues to challenge the overall market environment, we view 2021 as a key inflection point for our industry as vaccine distribution accelerates and we work together across government and industry to help enable a robust recovery.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: 737 MAX electrical issues identified.",
+      "quote": "In addition, we are working closely with the FAA and our customers to address electrical issues identified in certain locations in the flight deck of select 737 MAX airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Pre-tax charge of $318 million on VC-25B program.",
+      "quote": "partially offset by a pre-tax charge of $318 million on the VC-25B program largely due to COVID-19 impacts and performance issues at a key supplier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Continued progress on safe return to service of 737 MAX; 21 airlines have returned fleets to service.",
+      "quote": "Since the FAA's approval to return the 737 MAX to operations in November 2020, Boeing has delivered more than 85 737 MAX aircraft and 21 airlines have returned their fleets to service, safely flying more than 26,000 revenue flights totaling over 58,500 flight hours (as of April 26, 2021).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Resumed 787 deliveries in late March.",
+      "quote": "The company also resumed 787 deliveries in late March, following comprehensive reviews to ensure each airplane meets the company’s highest standards.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Commercial Airplanes secured orders for 100 737 aircraft from Southwest Airlines, 25 from United Airlines, 23 from Alaska Airlines, and four 747 freighter aircraft from Atlas Air.",
+      "quote": "Commercial Airplanes secured orders for 100 737 aircraft from Southwest Airlines, 25 737 aircraft from United Airlines, 23 737 aircraft from Alaska Airlines, and four 747 freighter aircraft from Atlas Air.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Defense, Space & Security awarded Lots 6 and 7 contracts for 27 KC-46A Tanker aircraft.",
+      "quote": "During the quarter, Defense, Space & Security was awarded Lots 6 and 7 contracts for 27 KC-46A Tanker aircraft for the U.S. Air Force, a contract for 11 P-8A Poseidon aircraft for the U.S. Navy and the Royal Australian Air Force, and contracts for six Bell Boeing V-22 Osprey rotorcraft for the U.S. Navy and the U.S. Air Force.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Total backlog grew to $364 billion.",
+      "quote": "Total company backlog at quarter-end was $364 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: pride and inflection point language combined with pandemic caution.",
+      "quote": "I am proud of the progress our global team made across our business in the first quarter as we continued to transform our enterprise, strengthen our safety processes, and sustain critical investments for our future. While the global pandemic continues to challenge the overall market environment, we view 2021 as a key inflection point for our industry as vaccine distribution accelerates and we work together across government and industry to help enable a robust recovery.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sentiment score rationale: genuine operational momentum (margin improvement, delivery increases) but no formal guidance raise and structural risks.",
+      "quote": "First-quarter operating margin improved to (20.1) percent, primarily due to higher 737 deliveries and lower period costs. While the global pandemic continues to challenge the overall market environment, we view 2021 as a key inflection point for our industry.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact BUY threshold. A human reviewer should confirm that the operational momentum (margin improvement, delivery increases) is sufficient to cross the threshold given the absence of a formal guidance raise and the presence of structural risks (737 MAX electrical issue, COVID-19)."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2021-04-28",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2021",
+    "report_date": "2021-04-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q1\\ba-1q21-press-release.html",
+        "pub_date": "2021-04-28"
+      }
+    ],
+    "document_id": "BA_FQ1_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144238Z",
+    "timestamp": "2026-07-09T14:43:17Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q1\\ba-1q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2021-Q1\\ba-1q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25618,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2021.txt"
+  }
+}

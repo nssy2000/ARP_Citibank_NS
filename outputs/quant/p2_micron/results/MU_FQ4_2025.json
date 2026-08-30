@@ -1,0 +1,58 @@
+{
+  "document_id": "MU_FQ4_2025_QUANT",
+  "base_document_id": "MU_FQ4_2025",
+  "issuer": "p2_micron",
+  "ticker": "MU",
+  "sector": "Technology/Semiconductors",
+  "report_date": "2025-09-23",
+  "sentiment": {
+    "score": 0.613012
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.421712,
+      "window_start_date": "2025-08-21",
+      "window_end_date": "2025-09-22",
+      "score": 0.992797,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.449207,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 5.94,
+      "matched_earnings_date": "2025-09-23",
+      "score": 0.233228,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.64,
+      "vix_score": 0.156048,
+      "tnx_change": -0.14,
+      "tnx_score": 0.272906,
+      "score": 0.214477,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.09,
+      "ffr_change": -0.24,
+      "ffr_score": 0.446244,
+      "ffr_as_of": "2025-09-22",
+      "curve_spread": 0.54,
+      "curve_score": 0.492988,
+      "curve_as_of": "2025-09-22",
+      "score": 0.469616,
+      "available": true
+    },
+    "quant_score": 0.613012,
+    "quant_score_with_macro": 0.413745,
+    "quant_score_with_fred": 0.541314,
+    "quant_score_with_macro_fred": 0.432368
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "document_id": "TGT_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company raised its full-year net sales growth guidance by 2 percentage points (from around 2% to around 4%) and guided EPS to the high end of the prior $7.50-$8.50 range, reflecting organic operational momentum. Management expresses confidence in the strategy but also maintains a cautious tone, noting an uncertain operating environment and that the majority of the work remains ahead. The score reflects a meaningful guidance raise and strong Q1 results, tempered by cautious forward language and acknowledged headwinds."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "First quarter net sales of $25.4 billion, up 6.7% year-over-year, with comparable sales growth of 5.6%.",
+    "eps": "First quarter GAAP and Adjusted EPS of $1.71, 24% lower than prior-year GAAP EPS (which included non-recurring legal settlement gains) and 32% higher than prior-year Adjusted EPS.",
+    "guidance": "Full-year 2026 net sales growth raised to around 4% (from prior range around 2%), operating income margin rate expected to be more than 20 basis points higher than 2025's adjusted rate of 4.6%, and GAAP and Adjusted EPS expected near the high end of the prior $7.50-$8.50 range.",
+    "margin": "First quarter gross margin rate 29.0% (up 80 bps YoY), adjusted operating income margin rate 4.5% (up 80 bps YoY on an adjusted basis).",
+    "key_risks": [
+      "Uncertain operating environment with consumers weighing multiple headwinds and tailwinds and recent dips in consumer sentiment.",
+      "Higher product costs partially offset gross margin improvement.",
+      "Higher compensation costs, including additional hours and training for field teams, higher incentive compensation, and higher marketing expense pressuring SG&A.",
+      "More challenging prior year comparisons in Q2, including the launch of Nintendo Switch 2.",
+      "Higher tax refunds in Q1 expected to fade over the rest of the year.",
+      "Cost headwinds in the first half expected to moderate in the second half, but still present."
+    ],
+    "key_opportunities": [
+      "Broad-based top-line strength across merchandise categories, sales channels, and guest demographics.",
+      "Strong growth in non-merchandise sales (Roundel ad revenue, Target Circle 360 membership, Target+ marketplace).",
+      "Improving guest experience metrics (three-year highs in NPS, wait times, product availability, store cleanliness).",
+      "Significant merchandising resets and newness planned for 2026 (largest in a decade), including food, home, and beauty studio.",
+      "Investments in supply chain (new facilities, AI for demand forecasting) and store remodels (over 100 projects).",
+      "Strong partnerships and limited-time drops driving traffic and engagement."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in early progress ('encouraged by the progress we saw in Q1') but repeatedly emphasizes caution and that the majority of work remains ahead ('we are still early in this journey', 'we're maintaining a cautious outlook overall')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "First quarter net sales were $25.4 billion, up 6.7% year-over-year.",
+      "quote": "Net Sales of $25.4 billion in the first quarter were 6.7 percent higher than last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales grew 5.6% in the first quarter.",
+      "quote": "Comparable sales grew 5.6 percent in the first quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter GAAP and Adjusted EPS was $1.71.",
+      "quote": "First quarter GAAP and Adjusted EPS1 was $1.71",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was 32% higher than prior-year Adjusted EPS.",
+      "quote": "32 percent higher than prior-year Adjusted EPS",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year net sales growth guidance raised to around 4% from prior range around 2%.",
+      "quote": "Net sales growth in a range around 4 percent compared with 2025 - two percentage points higher than the prior range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year EPS guidance raised to near the high end of the prior $7.50-$8.50 range.",
+      "quote": "GAAP and Adjusted EPS near the high end of the prior guidance range of $7.50 to $8.50.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter gross margin rate was 29.0%, up 80 bps year-over-year.",
+      "quote": "First quarter gross margin rate was 29.0 percent, compared with 28.2 percent in 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating income margin rate was 4.5%, up 80 bps year-over-year on an adjusted basis.",
+      "quote": "First quarter operating income margin rate and Adjusted operating income margin rate3 were 4.5 percent in 2026, compared with ... an Adjusted operating income rate of 3.7 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence but also caution, describing the outlook as 'cautious' and noting the majority of work remains ahead.",
+      "quote": "While we're very encouraged by our Q1 performance, we have a ton of work ahead of us, and we're maintaining a cautious outlook overall.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include an uncertain operating environment, higher product costs, and more challenging prior year comparisons in Q2.",
+      "quote": "we also acknowledge that the broader operating environment remains uncertain",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include broad-based top-line strength, strong non-merchandise sales growth, and significant merchandising resets.",
+      "quote": "Topline strength was broad-based across merchandise categories, sales channels and across the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-merchandise sales grew nearly 25%, driven by Roundel, Target Circle 360, and Target+ marketplace.",
+      "quote": "Non-merchandise sales grew nearly 25 percent, reflecting strong growth in Roundel ad revenue, Target Circle 360 membership revenue, and the Target+ marketplace.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident about early progress but cautious about the outlook.",
+      "quote": "While we're very encouraged by our Q1 performance, we have a ton of work ahead of us, and we're maintaining a cautious outlook overall.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a meaningful guidance raise and strong Q1, but the cautious tone and acknowledged headwinds could justify a slightly lower score. Reviewer may want to assess whether the cautious language warrants a score closer to 0.20."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2026-05-20",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-20",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q4\\2026-05-20-TGT-FQ1-2026-Press-Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q4\\2026-05-20-TGT-FQ1-2026-Transcript.pdf"
+      }
+    ],
+    "document_id": "TGT_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260706T101815Z",
+    "timestamp": "2026-07-06T10:19:37Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q4\\2026-05-20-TGT-FQ1-2026-Press-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q4\\2026-05-20-TGT-FQ1-2026-Press-Release.pdf",
+        "page_count": 12,
+        "extracted_characters": 22262,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q4\\2026-05-20-TGT-FQ1-2026-Transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 69856,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2026.txt"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "document_id": "SIE.DE_FQ1_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Siemens raised its full-year EPS pre PPA guidance from €10.40–€11.00 to €10.70–€11.10, a meaningful upward revision, and reported strong Q1 results with comparable order growth of 10% and revenue growth of 8%. The improvement is organic, driven by broad-based growth across industrial businesses, particularly Digital Industries and Smart Infrastructure, with management expressing confidence in the outlook. While currency effects were a headwind, the guidance raise and strong operational performance support a positive sentiment score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue rose 4% on a nominal basis to €19.1 billion, and 8% on a comparable basis, with growth in all industrial businesses.",
+    "eps": "Basic EPS were €2.60 for Q1 FY2026, down 45% from €4.71 in Q1 FY2025, which had benefited from a €2.1 billion gain from the sale of Innomotics. EPS pre PPA were €2.80, down 42% from €4.86.",
+    "guidance": "For fiscal 2026, Siemens raised its outlook for EPS pre PPA from €10.40–€11.00 to €10.70–€11.10. The company also confirmed expectations for comparable revenue growth of 6%–8% for the Siemens Group, with Digital Industries expecting 5%–10% revenue growth and 15%–19% profit margin, Smart Infrastructure expecting 6%–9% revenue growth and 18%–19% profit margin, and Mobility expecting 8%–10% revenue growth and 8%–10% profit margin.",
+    "margin": "Profit margin Industrial Business was 15.6% in Q1 FY2026, up from 14.1% in Q1 FY2025. Digital Industries margin was 17.8% (up from 14.5%), Smart Infrastructure margin was 19.0% (up from 16.9%), and Mobility margin was 9.0% (up from 8.4%).",
+    "key_risks": [
+      "Negative currency translation effects burdened nominal growth rates and profit, with Digital Industries most affected.",
+      "Macro environment remains challenging, with indicators pointing to muted investment activities.",
+      "Siemens Healthineers experienced a decline in diagnostics business due to a structural change in the market environment in China.",
+      "Free cash flow decreased due to working capital build-up and a cash outflow related to settlement of nuclear waste disposal obligation.",
+      "Integration costs related to Altair and Dotmatics acquisitions impacted Digital Industries' profit margin by 0.7 percentage points."
+    ],
+    "key_opportunities": [
+      "Artificial intelligence is a strong growth driver, with scaling industrial AI in core industries.",
+      "Data center demand driving strong order growth, particularly in Smart Infrastructure with record-high order intake.",
+      "Digital Industries software business showing double-digit ARR growth, with Altair and Dotmatics integrations on track.",
+      "Strong order backlog of €120 billion provides revenue visibility.",
+      "Accelerated share buyback program creating value for shareholders."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management language is confident, with CEO Roland Busch stating 'Our strong first-quarter performance shows that we’re delivering on our strategy' and 'After a strong start to the fiscal year, we raise our outlook.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue rose 4% on a nominal basis to €19.1 billion, and 8% on a comparable basis.",
+      "quote": "On a nominal basis, orders rose 7% to €21.4 billion, and revenue was up 4% to €19.1 billion; the book-to-bill ratio was 1.12",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS were €2.60 for Q1 FY2026, down 45% from €4.71 in Q1 FY2025.",
+      "quote": "Basic EPS (in €) 2.60 4.71 (45)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS pre PPA were €2.80, down 42% from €4.86.",
+      "quote": "EPS pre PPA (in €) 2.80 4.86 (42)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Siemens raised its full-year EPS pre PPA guidance from €10.40–€11.00 to €10.70–€11.10.",
+      "quote": "After a strong start to the fiscal year, we raise our outlook for basic EPS from net income before purchase price allocation accounting (EPS pre PPA) from a range of €10.40 to €11.00 to a range of €10.70 to €11.10 for fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Profit margin Industrial Business was 15.6% in Q1 FY2026, up from 14.1% in Q1 FY2025.",
+      "quote": "Profit margin Industrial Business 15.6% 14.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital Industries margin was 17.8% (up from 14.5%).",
+      "quote": "Profit margin 17.8% 14.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Smart Infrastructure margin was 19.0% (up from 16.9%).",
+      "quote": "Profit margin 19.0% 16.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mobility margin was 9.0% (up from 8.4%).",
+      "quote": "Profit margin 9.0% 8.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Negative currency translation effects burdened nominal growth rates and profit.",
+      "quote": "Currency translation effects took five percentage points each from order and revenue growth; portfolio transactions added one percentage point to order and revenue growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macro environment remains challenging, with indicators pointing to muted investment activities.",
+      "quote": "Macro environment remains challenging, indicators point to muted investment activities",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Siemens Healthineers experienced a decline in diagnostics business due to a structural change in the market environment in China.",
+      "quote": "this decrease was due mainly to a structural change in the market environment in China",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow decreased due to working capital build-up and a cash outflow related to settlement of nuclear waste disposal obligation.",
+      "quote": "Decrease in Free cash flow was due mainly to Industrial Business, which generated a Free cash flow of €1.0 billion compared to €1.7 billion in Q1 FY 2025; main factor was a build-up of working capital, including effects from timing of payments in Mobility projects; outside Industrial Business, Siemens recorded a cash outflow of €0.4 billion related to settlement of an obligation of final disposal of nuclear waste",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Integration costs related to Altair and Dotmatics acquisitions impacted Digital Industries' profit margin by 0.7 percentage points.",
+      "quote": "profit for the current quarter was impacted by €35 million in integration costs related to the acquisitions of Altair and Dotmatics, reducing Digital Industries’ profit margin by 0.7 percentage points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Artificial intelligence is a strong growth driver.",
+      "quote": "Artificial intelligence is a strong growth driver for our businesses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data center demand driving strong order growth, particularly in Smart Infrastructure.",
+      "quote": "Orders rose to a quarterly record high; this increase was mainly driven by the electrification and the electrical products businesses and included several larger contract wins from data center customers, predominantly in the U.S.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital Industries software business showing double-digit ARR growth.",
+      "quote": "DI SW – Annual Recurring Revenue (ARR) ... +22% +10%¹ +10%¹ Cloud ARR",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong order backlog of €120 billion provides revenue visibility.",
+      "quote": "Order backlog (in billions of €) 120",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Accelerated share buyback program creating value for shareholders.",
+      "quote": "our accelerated share buyback program is consistently creating value for shareholders",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our strong first-quarter performance shows that we’re delivering on our strategy. ... After a strong start to the fiscal year, we raise our outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance raise is clear, but the score of 0.55 may be conservative given the strong operational momentum and raised outlook; consider if a higher score is warranted."
+    },
+    {
+      "field": "summary.key_opportunities",
+      "reason": "The ARR growth quote is from a chart and may not be fully verbatim; verify the exact figure."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SIE.DE_Bundled Earnings Report_2026-02-12",
+  "report_metadata": {
+    "issuer": "p2_siemens",
+    "company": "Siemens",
+    "ticker": "SIE.DE",
+    "sector": "Industrials/Specialty Industrial Machinery",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-02-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q1\\siemens_q1_fy2026_earnings_release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q1\\siemens_q1_fy2026_presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SIE.DE_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T103013Z",
+    "timestamp": "2026-08-09T10:30:51Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q1\\siemens_q1_fy2026_earnings_release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_siemens\\extracted\\SIE.DE_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q1\\siemens_q1_fy2026_earnings_release.pdf",
+        "page_count": 14,
+        "extracted_characters": 26690,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2026-Q1\\siemens_q1_fy2026_presentation.pdf",
+        "page_count": 24,
+        "extracted_characters": 19100,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_siemens\\extracted\\SIE.DE_FQ1_2026.txt"
+  }
+}

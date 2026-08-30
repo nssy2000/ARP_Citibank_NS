@@ -1,0 +1,192 @@
+{
+  "document_id": "NVO_FQ4_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced significantly. Adjusted sales growth for 2026 is expected to be -5% to -13% at CER, and adjusted operating profit growth is also -5% to -13% at CER. Management explicitly cites pricing headwinds, the 'Most Favoured Nations' agreement, intensifying competition, and patent expiry as key drivers of the decline. This represents a clear downward revision in forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "DKK 309,064 million for 2025, an increase of 6% in Danish kroner and 10% at constant exchange rates (CER).",
+    "eps": "Diluted earnings per share of DKK 23.03 for 2025, an increase of 2%.",
+    "guidance": "Adjusted sales growth for 2026 is expected to be -5% to -13% at CER. Adjusted operating profit growth for 2026 is expected to be -5% to -13% at CER.",
+    "margin": "Gross margin was 81.0% in 2025, compared to 84.7% in 2024. Operating margin was 41.3% in 2025, compared to 44.2% in 2024.",
+    "key_risks": [
+      "Lower realised prices including impacts related to the 'Most Favoured Nations' agreement in the US.",
+      "Patent expiry of the semaglutide molecule in certain International Operations markets.",
+      "Intensifying competition in the GLP-1 market.",
+      "Reduced obesity medication coverage in Medicaid in several US states.",
+      "Negative impact from reduced obesity medication coverage in Medicaid.",
+      "Unsafe and unlawful mass compounding of GLP-1s has continued despite the expiry of the FDA grace period.",
+      "Potential negative impact of Wegovy pill on the growth of the injectable obesity medication category."
+    ],
+    "key_opportunities": [
+      "The global GLP-1 market is expected to continue to expand.",
+      "Encouraging early uptake from the US launch of Wegovy pill, with around 50,000 weekly prescriptions as of 23 January 2026.",
+      "Regulatory decisions for next-generation treatments like Mim8 (denecimig) and CagriSema are expected.",
+      "Phase 3 read-outs for etavopivat and ziltivekimab are anticipated.",
+      "The reversal of sales rebate provisions of USD 4.2 billion related to the 340B Drug Pricing Program will positively impact 2026 sales and operating profit.",
+      "New share repurchase programme of up to DKK 15 billion."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO states, 'In 2026, Novo Nordisk will face pricing headwinds in an increasingly competitive market,' and the guidance for 2026 is negative, indicating a cautious outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue for 2025 was DKK 309,064 million, up 10% at CER.",
+      "quote": "Novo Nordisk's sales increased by 6% in Danish kroner and by 10% at constant exchange rates to DKK 309.1 billion in 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS for 2025 was DKK 23.03, an increase of 2%.",
+      "quote": "Diluted earnings per share (in DKK) 23.03 22.63 2 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for 2026 adjusted sales growth is -5% to -13% at CER.",
+      "quote": "Adjusted sales growth for 2026, which excludes revenue from the reversal of 340B provisions, is expected to be -5 to -13% at CER.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for 2026 adjusted operating profit growth is -5% to -13% at CER.",
+      "quote": "Adjusted operating profit growth is expected to be -5 to -13% at CER.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin declined to 81.0% in 2025 from 84.7% in 2024.",
+      "quote": "Gross margin 81.0% 84.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin declined to 41.3% in 2025 from 44.2% in 2024.",
+      "quote": "Operating margin 41.3% 44.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include lower realised prices from the MFN agreement, patent expiry, and intensifying competition.",
+      "quote": "The sales outlook is impacted by lower realised prices including impacts related to the 'Most Favoured Nations' agreement in the US and the patent expiry of the semaglutide molecule in certain IO markets, as well as competition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include the expanding GLP-1 market and the early uptake of the Wegovy pill.",
+      "quote": "The global GLP-1 market is expected to continue to expand with Novo Nordisk introducing new treatments, such as Wegovy pill and higher doses of Wegovy, enabling Novo Nordisk to continue to increase patient reach and expand volumes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "In 2026, Novo Nordisk will face pricing headwinds in an increasingly competitive market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 340B provision reversal of USD 4.2 billion will positively impact 2026 results.",
+      "quote": "Sales and operating profit for 2026 will be positively impacted by a reversal of sales rebate provisions of USD 4.2 billion related to the 340B Drug Pricing Program in the US.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A new share repurchase programme of up to DKK 15 billion has been initiated.",
+      "quote": "The Board of Directors has decided to initiate a new share repurchase programme of up to DKK 15 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance is negative, but the document also contains significant positive catalysts (Wegovy pill launch, 340B reversal, pipeline progress). The score of -0.5 reflects the negative guidance, but a reviewer may consider whether the positive catalysts warrant a less negative score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NVO_Bundled Earnings Report_2026-02-03",
+  "report_metadata": {
+    "issuer": "p2_novo_nordisk",
+    "company": "Novo Nordisk",
+    "ticker": "NVO",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-03",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q4\\NVO-6K-FQ4-2025-PressRelease.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q4\\NVO-Q4-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Investor Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q4\\NVO-Q4-2025-InvestorPresentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NVO_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174326Z",
+    "timestamp": "2026-07-30T17:44:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q4\\NVO-6K-FQ4-2025-PressRelease.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_novo_nordisk\\extracted\\NVO_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q4\\NVO-6K-FQ4-2025-PressRelease.txt",
+        "page_count": 1,
+        "extracted_characters": 153200,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q4\\NVO-Q4-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 69734,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Investor Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q4\\NVO-Q4-2025-InvestorPresentation.pdf",
+        "page_count": 121,
+        "extracted_characters": 125903,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_novo_nordisk\\extracted\\NVO_FQ4_2025.txt"
+  }
+}

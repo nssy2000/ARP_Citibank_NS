@@ -1,0 +1,220 @@
+{
+  "document_id": "ORCL_FQ1_2026",
+  "sentiment": {
+    "score": 0.85,
+    "rationale": "Oracle's Q1 FY2026 results show a massive upward revision in forward guidance: RPO grew 359% to $455 billion, and management raised its Cloud Infrastructure revenue forecast to $18 billion for FY2026 (77% growth) with a five-year plan to $144 billion. The company explicitly states 'RPO is likely to exceed half-a-trillion dollars' and 'we expect Oracle Cloud Infrastructure revenue to grow 77% to $18 billion this fiscal year,' indicating a material raise in forward expectations. Despite a slight EPS miss versus consensus ($1.47 vs $1.48), the forward guidance is dramatically higher, and management language is highly confident ('astonishing quarter', 'brilliant start'), with no major risks raised beyond standard safe harbor language."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues $14.9 billion, up 12% in USD and up 11% in constant currency. Cloud revenue $7.2 billion, up 28% in USD and up 27% in constant currency. Cloud infrastructure (IaaS) revenue $3.3 billion, up 55% in USD and up 54% in constant currency. Cloud application (SaaS) revenue $3.8 billion, up 11% in USD and up 10% in constant currency.",
+    "eps": "GAAP EPS $1.01, down 2% in USD and down 5% in constant currency. Non-GAAP EPS $1.47, up 6% in USD and up 4% in constant currency. The transcript notes EPS of $1.47 missed expectations of $1.48.",
+    "guidance": "For Q2 FY2026: total revenue expected to grow 12%-14% in constant currency and 14%-16% in USD; total cloud revenue expected to grow 32%-36% in constant currency and 33%-37% in USD; non-GAAP EPS expected to grow 8%-10% in constant currency ($1.58-$1.62) and 10%-12% in USD ($1.61-$1.65). For FY2026: total revenue growth of 16% in constant currency reaffirmed; Cloud Infrastructure revenue expected to grow 77% to $18 billion, then to $32B, $73B, $114B, $144B over subsequent four years. CapEx expected around $35 billion for FY2026.",
+    "margin": "GAAP operating margin 29%, non-GAAP operating margin 42% for Q1 FY2026. Non-GAAP operating income up 9% in USD and 7% in constant currency. Management expects operating income to grow mid-teens this year and higher in FY2027.",
+    "key_risks": [
+      "Free cash flow was negative $5.9 billion over trailing four quarters, with $27.4 billion of CapEx.",
+      "GAAP EPS declined 2% year-over-year.",
+      "Non-GAAP tax rate was higher than guidance (20.5% vs 19%), causing EPS to be $0.03 lower.",
+      "Forward-looking statements include risks such as ability to develop new products, manage complex cloud offerings, secure datacenter capacity, and economic/political conditions including tariffs and trade wars."
+    ],
+    "key_opportunities": [
+      "RPO grew 359% to $455 billion, with cloud RPO growing nearly 500%.",
+      "MultiCloud database revenue grew 1,529% in Q1.",
+      "OCI consumption revenue up 57%, demand outstripping supply.",
+      "New 'Oracle AI Database' service to be introduced at Oracle AI World, enabling customers to use LLMs on their data.",
+      "Expansion of multi-cloud data centers to 71 total (37 additional).",
+      "Cloud Infrastructure revenue forecast to grow to $144 billion over five years."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management uses highly positive language such as 'astonishing quarter', 'brilliant start', 'fantastic start', and 'amazing start', and expresses strong confidence in future growth ('I'm even more confident in our ability to further accelerate our top and bottom line growth rate')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $14.9 billion, up 12% in USD and 11% in constant currency.",
+      "quote": "Total quarterly revenues were up 12% in USD, and up 11% in constant currency to $14.9 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $1.47, up 6% in USD and 4% in constant currency.",
+      "quote": "Non-GAAP earnings per share was $1.47, up 6% in USD and up 4% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $1.01, down 2% in USD.",
+      "quote": "Q1 GAAP earnings per share was $1.01, down 2% in USD and down 5% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RPO grew 359% to $455 billion.",
+      "quote": "Total Remaining Performance Obligations were up 359% year-over-year in both USD and constant currency to $455 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cloud Infrastructure revenue is expected to grow 77% to $18 billion in FY2026.",
+      "quote": "we expect Oracle Cloud Infrastructure revenue to grow 77% to $18 billion this fiscal year—and then increase to $32 billion, $73 billion, $114 billion, and $144 billion over the subsequent four years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RPO is likely to exceed half a trillion dollars.",
+      "quote": "Over the next few months, we expect to sign-up several additional multi-billion-dollar customers and RPO is likely to exceed half-a-trillion dollars.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY2026 revenue guidance is 12%-14% constant currency growth.",
+      "quote": "Total revenue is expected to grow from 12% to 14% in constant currency and is expected to grow from 14% to percent in US dollars at today's exchange rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY2026 non-GAAP EPS guidance is $1.58-$1.62 in constant currency.",
+      "quote": "Non-GAAP EPS is expected to grow between 8% to 10% and be between $1.58 and $1.62 in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 total revenue growth of 16% in constant currency is reaffirmed.",
+      "quote": "For fiscal year 2026, we remain confident and committed to full-year total revenue growth of 16% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin was 42%.",
+      "quote": "OPERATING MARGIN % 29% 42% 30% 43% (133) bp. (111) bp. (183) bp. (144) bp.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects operating income to grow mid-teens this year.",
+      "quote": "I expect our operating income will grow mid-teens this year and higher still in FY2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was negative $5.9 billion over trailing four quarters.",
+      "quote": "For the last four quarters, operating cash flow was up 13% to $21.5 billion and free cash flow was a negative $5.9 billion with $27.4 billion of CapEx.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MultiCloud database revenue grew 1,529% in Q1.",
+      "quote": "MultiCloud database revenue from Amazon, Google and Microsoft grew at the incredible rate of 1,529% in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OCI consumption revenue was up 57%.",
+      "quote": "OCI consumption revenue was up 57% and demand continues to dramatically outstrip supply.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New Oracle AI Database service will be introduced at Oracle AI World.",
+      "quote": "next month at Oracle AI World, we will introduce a new Cloud Infrastructure service called the 'Oracle AI Database' that enables our customers to use the Large Language Model of their choice—including Google's Gemini, OpenAI's ChatGPT, xAI's Grok, etc.—directly on top of the Oracle Database to easily access and analyze all their existing database data.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion to 71 multi-cloud data centers.",
+      "quote": "We expect MultiCloud revenue to grow substantially every quarter for several years as we deliver another 37 datacenters to our three Hyperscaler partners, for a total of 71.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP tax rate was higher than guidance, impacting EPS.",
+      "quote": "The non-GAAP tax rate for the quarter was 20.5%, which was higher than the 19% guidance and caused EPS to be $0.03 lower.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "It was an astonishing quarter—and demand for Oracle Cloud Infrastructure continues to build. ... Oracle is off to a brilliant start to FY26.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is high (0.85) due to massive RPO growth and upward guidance revision, but note that EPS missed consensus by $0.01 and free cash flow is negative; reviewer should confirm the forward guidance raise outweighs these concerns."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Q2 revenue guidance in USD appears truncated in the transcript ('14% to percent'); verify the exact figure from the press release or other sources."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ORCL_Bundled Earnings Report_2025-09-09",
+  "report_metadata": {
+    "issuer": "p2_oracle",
+    "company": "Oracle",
+    "ticker": "ORCL",
+    "sector": "Technology/Software - Infrastructure",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-09-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q1\\ORCL_Q1_2026_earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ORCL_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T101517Z",
+    "timestamp": "2026-08-09T10:15:35Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_oracle\\extracted\\ORCL_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 26095,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\oracle\\CY2026-Q1\\ORCL_Q1_2026_earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 37032,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_oracle\\extracted\\ORCL_FQ1_2026.txt"
+  }
+}

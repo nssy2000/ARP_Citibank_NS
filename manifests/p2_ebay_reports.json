@@ -1,0 +1,84 @@
+{
+  "issuer": "p2_ebay",
+  "reports": [
+    {
+      "document_id": "EBAY_FQ1_2025",
+      "issuer": "p2_ebay",
+      "company": "eBay",
+      "ticker": "EBAY",
+      "sector": "Technology/E-Commerce",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-30",
+      "release_date": "2025-04-30",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 1065088, acc 0001065088-25-000058, filed 2025-04-30 20:08:27 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ebay/CY2025-Q1/EBAY_Q1_2025_Press_Release.htm",
+          "note": "Human arm read press release only. Re-saved from EDGAR Exhibit 99.1 as HTML 2026-08-13 (original PDF was image-only, zero extractable text). Verified clean 2026-08-13."
+        }
+      ]
+    },
+    {
+      "document_id": "EBAY_FQ2_2025",
+      "issuer": "p2_ebay",
+      "company": "eBay",
+      "ticker": "EBAY",
+      "sector": "Technology/E-Commerce",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-30",
+      "release_date": "2025-07-30",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 1065088, acc 0001065088-25-000075, filed 2025-07-30 20:07:56 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ebay/CY2025-Q2/EBAY_Q2_2025_Press_Release.htm",
+          "note": "Human arm read press release only. Re-saved from EDGAR Exhibit 99.1 as HTML 2026-08-13 (original PDF was image-only, zero extractable text). Verified clean 2026-08-13."
+        }
+      ]
+    },
+    {
+      "document_id": "EBAY_FQ3_2025",
+      "issuer": "p2_ebay",
+      "company": "eBay",
+      "ticker": "EBAY",
+      "sector": "Technology/E-Commerce",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-29",
+      "release_date": "2025-10-29",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 1065088, acc 0001065088-25-000124, filed 2025-10-29 20:07:28 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ebay/CY2025-Q3/EBAY_Q3_2025_Press_Release.htm"
+        }
+      ]
+    },
+    {
+      "document_id": "EBAY_FQ1_2026",
+      "issuer": "p2_ebay",
+      "company": "eBay",
+      "ticker": "EBAY",
+      "sector": "Technology/E-Commerce",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-29",
+      "release_date": "2026-04-29",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 1065088, acc 0001065088-26-000092, filed 2026-04-29 20:07:05 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/ebay/CY2026-Q1/EBAY_Q1_2026_Press_Release.htm"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

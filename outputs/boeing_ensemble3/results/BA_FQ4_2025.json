@@ -1,0 +1,259 @@
+{
+  "document_id": "BA_FQ4_2025",
+  "sentiment": {
+    "score": 0.267,
+    "rationale": "The document shows a clear operational turnaround: revenue surged 57% to $23.9B, BCA deliveries rose 181% to 160, and the company swung from a GAAP loss of ($3.8B) to a profit of $8.2B. Management provided explicit positive free cash flow guidance of $1B-$3B for 2026, a material improvement from the ($1.9B) usage in 2025. However, the score is tempered by the fact that the Q4 EPS of $10.23 was heavily driven by a $9.6B one-time gain on the Digital Aviation Solutions sale, and the company continues to face structural risks on development programs (KC-46A charge, 777X engine issue). The forward guidance raise and operational momentum justify a moderately positive score, but the one-time nature of the gain and ongoing risks prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue of $23.9 billion, up 57% from $15.2 billion in Q4 2024. Full year 2025 revenue of $89.5 billion, up 34% from $66.5 billion in 2024.",
+    "eps": "Q4 2025 GAAP diluted EPS of $10.23, compared to a loss of ($5.46) in Q4 2024. Core EPS (non-GAAP) of $9.92, compared to a loss of ($5.90) in Q4 2024. The EPS primarily reflects a $9.6 billion gain on sale associated with closing the Digital Aviation Solutions transaction, which increased EPS by $11.83.",
+    "guidance": "2026 free cash flow guidance of $1 billion to $3 billion. Management stated they expect positive free cash flow for the full year 2026, with first quarter being a usage similar to Q1 2025. They also reiterated that the $10 billion free cash flow mark is 'very attainable' in the future.",
+    "margin": "Q4 2025 GAAP operating margin of 36.7%, compared to (24.7)% in Q4 2024. Core operating margin (non-GAAP) of 35.6%, compared to (26.5)% in Q4 2024. The high margin is primarily due to the $9.6 billion gain on sale. BCA operating margin was (5.6)%, BDS (6.8)%, and BGS 202.4% (202.4% includes the gain).",
+    "key_risks": [
+      "KC-46A program: $565 million loss in Q4 driven by higher estimated production support and supply chain costs.",
+      "777X engine: Potential durability issue identified during a recent inspection on the 777X engine, working with GE to understand root cause and corrective action.",
+      "Certification delays: Past delays to certification timelines for 737 MAX derivatives and 777-9, though progress is being made.",
+      "Spirit AeroSystems integration: 'There's a lot of work ahead of us with an integration of this magnitude.'",
+      "DOJ payment: Expected payment sliding from 2025 to 2026, impacting cash flow.",
+      "Tariff/geopolitical risk: 'We have to continue to watch as we saw last year, this is super dynamic.'"
+    ],
+    "key_opportunities": [
+      "Record backlog: Total company backlog grew to a record $682 billion, including over 6,100 commercial airplanes.",
+      "Production rate increases: 737 increased to 42/month, plan to go to 47 later in 2026; 787 transitioning to 8/month, targeting 10/month later in 2026.",
+      "Strong demand: BCA booked 1,173 net orders in 2025, BDS record backlog of $85 billion, BGS record annual orders of $28 billion.",
+      "Spirit AeroSystems acquisition: 'Bringing together our companies reinforces our efforts to improve safety and quality throughout our factories, operations and supply chain.'",
+      "Digital Aviation Solutions sale: $10.6 billion proceeds strengthened balance sheet.",
+      "F-47 win: 'Transformational win to build the U.S. Air Force sixth-generation fighter.'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'We made significant progress on our recovery in 2025 and have set the foundation to keep our momentum going in the year ahead' and 'I remain confident in our team and our plan to deliver on the opportunities and address the challenges in front of us in the year ahead.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $23.9 billion, up 57% year-over-year.",
+      "quote": "Revenue increased to $23.9 billion primarily reflecting 160 commercial deliveries",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP diluted EPS was $10.23, compared to a loss of ($5.46) in Q4 2024.",
+      "quote": "Diluted earnings/(loss) per share $10.23 ($5.46)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The EPS was heavily driven by a $9.6 billion gain on sale from the Digital Aviation Solutions transaction.",
+      "quote": "GAAP earnings per share of $10.23 and core earnings per share (non-GAAP)* of $9.92 primarily reflect a $9.6 billion gain on sale associated with closing the Digital Aviation Solutions transaction, which increased earnings per share by $11.83.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 free cash flow guidance is $1 billion to $3 billion.",
+      "quote": "As we continue turning the corner in 2026, we expect positive free cash flow of $1 billion to $3 billion, aligned with the expectations I shared last month.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management stated the $10 billion free cash flow mark is 'very attainable.'",
+      "quote": "I went through this in the fourth quarter and I'm very comfortable with our ability to achieve $10 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP operating margin was 36.7%, compared to (24.7)% in Q4 2024.",
+      "quote": "Operating margins 36.7 % (24.7) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BCA delivered 160 airplanes in Q4 2025, up 181% from 57 in Q4 2024.",
+      "quote": "Deliveries 160 57 181%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog grew to a record $682 billion.",
+      "quote": "Total company backlog grew to a record $682 billion, including over 6,100 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "KC-46A program incurred a $565 million loss in Q4.",
+      "quote": "Results also include $0.6 billion of losses on the KC-46A program primarily driven by higher estimated production support and supply chain costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A potential durability issue was identified on the 777X engine.",
+      "quote": "We have identified a potential durability issue during a recent inspection on the 777X engine, and we're working with GE to better understand that issue and finalize root cause and corrective action.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We made significant progress on our recovery in 2025 and have set the foundation to keep our momentum going in the year ahead",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company swung from a GAAP loss to a profit in Q4.",
+      "quote": "Net earnings/(loss) $8,220 ($3,861) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS backlog grew to a record $85 billion.",
+      "quote": "Backlog at Defense, Space & Security grew to a record $85 billion, with 26 percent representing orders from customers outside the U.S.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BGS secured record annual orders of $28 billion.",
+      "quote": "Global Services secured record annual orders of $28 billion, including an award in the quarter for C-17 flight deck replacement from the U.S. Air Force, and ended the year with a record backlog of $30 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company completed the acquisition of Spirit AeroSystems.",
+      "quote": "Acquired Spirit AeroSystems in December underscoring commitment to safety, quality, and production stability",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company completed the sale of portions of the Digital Aviation Solutions business.",
+      "quote": "We also successfully completed the $10.6 billion Jeppesen sale, solidifying our balance sheet, while retaining essential digital capabilities for our customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production rate increased to 42 per month.",
+      "quote": "During the quarter, the 737 program increased the production rate to 42 per month",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "787 program began transitioning production to eight per month.",
+      "quote": "The 787 program began transitioning production to eight per month and remains focused on stabilizing at that rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777X first delivery is still anticipated in 2027.",
+      "quote": "the company still anticipates first delivery in 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company won a contract to build the U.S. Air Force sixth-generation fighter (F-47).",
+      "quote": "We also made progress in our Defense business and scored a transformational win to build the U.S. Air Force sixth-generation fighter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a clear operational turnaround and positive free cash flow guidance, but the Q4 EPS was heavily inflated by a one-time gain. A human reviewer should confirm that the weighting of the one-time gain vs. organic improvement is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "ensemble": {
+    "n_runs": 3,
+    "scores": [
+      0.3,
+      0.25,
+      0.25
+    ],
+    "signals": [
+      "BUY",
+      "BUY",
+      "BUY"
+    ],
+    "mean_score": 0.267,
+    "score_range": 0.05,
+    "signal_agreement": true
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2026-01-27",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q4\\Press-Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q4\\Presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q4\\Transcript.pdf"
+      }
+    ],
+    "document_id": "BA_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T192619Z",
+    "timestamp": "2026-07-02T19:31:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q4\\Press-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing_ensemble3\\extracted\\BA_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q4\\Press-Release.pdf",
+        "page_count": 13,
+        "extracted_characters": 28340,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q4\\Presentation.pdf",
+        "page_count": 14,
+        "extracted_characters": 11854,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\Q4\\Transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 78908,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing_ensemble3\\extracted\\BA_FQ4_2025.txt"
+  }
+}

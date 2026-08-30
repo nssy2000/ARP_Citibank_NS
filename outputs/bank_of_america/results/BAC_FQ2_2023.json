@@ -1,0 +1,247 @@
+{
+  "document_id": "BAC_FQ2_2023",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: NII guidance for the full year was raised to 'a little above 57 billion' (up more than 8% from 2022), and management provided a more positive NII outlook for Q3 and Q4 than previously signaled. Expense guidance was also given with a declining trajectory. However, the score is capped at +0.20 because the guidance raise is modest and management remains cautious on the macro environment, citing a 'slowing pace' economy and potential FDIC special assessment. The forward guidance moved up slightly, not materially."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue, net of interest expense, increased 11% to $25.2 billion for Q2 2023.",
+    "eps": "Diluted earnings per share of $0.88, up 21% from $0.73 in Q2 2022.",
+    "guidance": "NII for full year 2023 expected to be a little above $57 billion, up more than 8% from 2022. Q3 NII expected approximately same as Q2 (~$14.2-14.3B), Q4 around $14B. Expense expected to decline to ~$15.8B in Q3 and ~$15.6B in Q4. Tax rate expected 10-11% for rest of 2023.",
+    "margin": "Net interest yield (FTE) of 2.06% for Q2 2023, up 20 bps YoY. Efficiency ratio of 64% for Q2 2023 vs 67% in Q2 2022.",
+    "key_risks": [
+      "Potential $1.9B FDIC special assessment expense for uninsured deposits of failed banks, if enacted consistent with proposed rule.",
+      "Higher deposit costs and lower deposit balances pressuring NII.",
+      "Commercial real estate office exposure: reservable criticized utilized exposure increased $1.7B from Q1 2023, driven primarily by CRE.",
+      "Credit card loss rate normalizing toward pre-pandemic levels (2.60% in Q2 2023 vs 2.21% in Q1 2023).",
+      "Uncertainty regarding Basel III endgame capital requirements and potential impact on lending capacity.",
+      "Litigation expense of $276M in Q2 2023 related to consumer regulatory matters."
+    ],
+    "key_opportunities": [
+      "Continued organic client growth: 157,000 net new consumer checking accounts (18th consecutive quarter of growth).",
+      "Record consumer investment assets of $387B, up 23% YoY, driven by $46B of client flows.",
+      "Strong sales and trading revenue: ex-DVA up 10% YoY to $4.4B, with FICC up 18%.",
+      "Investment banking fees up 7% YoY to $1.2B, with market share gains (153 bps).",
+      "Digital adoption driving efficiency: 46M active digital users, record digital logins up 11%.",
+      "Global transaction services revenue up 23% YoY to $2.9B.",
+      "Strong capital position: CET1 ratio of 11.6%, 120 bps above current minimum requirements.",
+      "Announced 9% increase in quarterly common dividend for Q3 2023."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan described the quarter as 'one of the strongest quarters and first half net income periods in the company's history' and CFO Alastair Borthwick provided specific, positive forward guidance on NII and expense trajectory, stating 'we feel like we're well positioned.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue increased 11% to $25.2 billion.",
+      "quote": "Revenue, net of interest expense, increased 11% to $25.2 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.88, up 21% YoY.",
+      "quote": "Net income rose 19% to $7.4 billion, or $0.88 per diluted share, compared to $6.2 billion, or $0.73 per diluted share for Q2-22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII guidance for full year 2023 raised to a little above $57 billion.",
+      "quote": "We still believe NII for the full year will be a little above 57 billion, which would be up more than 8% from full-year 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 NII expected approximately same as Q2, Q4 around $14B.",
+      "quote": "This could include third quarter at approximately the same level as second quarter. So, think 14.2, 14.3, and then fourth quarter somewhere around 14 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense expected to decline to ~$15.8B in Q3 and ~$15.6B in Q4.",
+      "quote": "We feel like we're well positioned to deliver 15.8 this quarter. If we -- when we keep going, we think we're going to be somewhere around 15.6 or so in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 2.06%, up 20 bps YoY.",
+      "quote": "Net interest yield of 2.06% was impacted by higher 2Q23 average earning assets (late-1Q23 cash positioning changes) and increased 20 bps YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved to 64% from 67%.",
+      "quote": "Efficiency ratio of 64%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential $1.9B FDIC special assessment expense.",
+      "quote": "2H23 expense could include an accrual of approximately $1.9B upon enactment of the final FDIC special assessment rule for uninsured deposits of failed banks, if enacted consistent with the proposed rule.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial real estate office exposure increased reservable criticized utilized exposure.",
+      "quote": "Commercial reservable criticized utilized exposure of $21.5 billion increased $1.7 billion from Q1-23, driven primarily by Commercial Real Estate",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit card loss rate normalizing: 2.60% in Q2 2023 vs 2.21% in Q1 2023.",
+      "quote": "Credit card loss rate of 2.60% in Q2-23 vs. 2.21% in Q1-23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Litigation expense of $276M in Q2 2023.",
+      "quote": "Expense for the quarter of 16 billion included roughly 276 million in litigation expense, which was pushed higher this quarter by the agreements announced last week with the OCC and the CFPB on consumer matters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "157,000 net new consumer checking accounts added.",
+      "quote": "Added ~157,000 net new Consumer checking accounts in Q2-23; 18th consecutive quarter of growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record consumer investment assets of $387B, up 23% YoY.",
+      "quote": "Record consumer investment assets of $387 billion grew 23%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue ex-DVA up 10% YoY.",
+      "quote": "Excluding net DVA(G), sales and trading revenue up 10% to $4.4 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees up 7% YoY.",
+      "quote": "Total investment banking fees (excl. self-led) of $1.2 billion increased 7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global transaction services revenue up 23% YoY.",
+      "quote": "Global Transaction Services revenue of $2.9 billion, up $542 million or 23%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio of 11.6%, 120 bps above minimum requirement.",
+      "quote": "Common equity tier 1 (CET1) ratio of 11.6% (Standardized) increased 23 bps from Q1-23(F); ... CET1 ratio nearly 120 basis points above our current minimum requirements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Announced 9% increase in quarterly common dividend for Q3 2023.",
+      "quote": "We announced our plan to increase our quarterly common stock dividend by 9 percent in Q3-23, subject to approval by our Board of Directors.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered one of the strongest quarters and first half net income periods in the company's history.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance moved up slightly.",
+      "quote": "We still believe NII for the full year will be a little above 57 billion, which would be up more than 8% from full-year 2022. This could include third quarter at approximately the same level as second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is based on a modest guidance raise and positive operational momentum, but the document also contains several risk factors (FDIC assessment, CRE exposure, regulatory uncertainty) that could be weighted differently by a reviewer. The score is near the BUY/HOLD boundary."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2023-07-18",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-07-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q2\\bac-2q23-press-release.html",
+        "pub_date": "2023-07-18"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q2\\bac-2q23-presentation.html",
+        "pub_date": "2023-07-18"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q2\\bac-2q23-earnings-call-transcript.html",
+        "pub_date": "2023-07-18"
+      }
+    ],
+    "document_id": "BAC_FQ2_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T142324Z",
+    "timestamp": "2026-07-08T14:24:28Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q2\\bac-2q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q2\\bac-2q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 62870,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q2\\bac-2q23-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 66158,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q2\\bac-2q23-earnings-call-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 84547,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2023.txt"
+  }
+}

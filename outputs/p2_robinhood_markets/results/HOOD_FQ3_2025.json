@@ -1,0 +1,225 @@
+{
+  "document_id": "HOOD_FQ3_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The company raised its full-year 2025 Adjusted Operating Expenses and SBC guidance from a prior range of $2.15-$2.25 billion to approximately $2.28 billion, which is a formal upward revision of its own forward outlook. This raise is attributed to strong year-to-date business performance, an increased employee bonus accrual due to exceeding performance targets, and increased investments in new growth areas like Prediction Markets and Robinhood Ventures, indicating organic momentum. The company also reported record results with revenues up 100% year-over-year and strong October preliminary data, supporting a positive forward trajectory."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total net revenues increased 100% year-over-year to a record $1.27 billion in Q3 2025.",
+    "eps": "Diluted EPS increased 259% year-over-year to $0.61 in Q3 2025.",
+    "guidance": "The company now expects its 2025 full year Adjusted Operating Expenses and SBC to be approximately $2.28 billion, up from a prior outlook of $2.15 billion to $2.25 billion.",
+    "margin": "Adjusted EBITDA Margin was 58% in Q3 2025, up from 42% in Q3 2024. Net margin was 44% in Q3 2025.",
+    "key_risks": [
+      "The company is not providing a 2025 outlook for total operating expenses due to the inability to predict certain items like provision for credit losses and significant regulatory expenses.",
+      "The expense outlook does not include costs related to the pending acquisition of WonderFi, potential significant regulatory matters, or other significant expenses.",
+      "The company faces risks related to its reliance on transaction-based revenue, including payment for order flow (PFOF), and the risk of new regulation or bans on PFOF.",
+      "The company faces risks related to fluctuations in interest rates and rapidly changing interest rate environments.",
+      "The company faces risks related to the outcome of ongoing and potential future regulatory enforcement actions and litigation, including those that could prevent it from offering event contracts."
+    ],
+    "key_opportunities": [
+      "Prediction Markets are growing rapidly, with Event Contracts Traded more than doubling sequentially to 2.3 billion in Q3 2025, and October 2025 totaling 2.5 billion contracts.",
+      "Robinhood Banking is starting to roll out, and Robinhood Ventures is coming.",
+      "The company is building momentum internationally, with nearly 700 thousand Funded Customers across the UK and EU, including Bitstamp.",
+      "The company is expanding its product suite for active traders with new products like Robinhood Social, AI-driven custom indicators, and shorting.",
+      "Robinhood Gold Subscribers reached a record 3.9 million, with an adoption rate exceeding 14%."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management's language is highly confident, with statements like 'Our team's relentless product velocity drove record business results in Q3 and we're not slowing down' and 'Q3 was another strong quarter of profitable growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total net revenues increased 100% year-over-year to a record $1.27 billion in Q3 2025.",
+      "quote": "Total net revenues increased 100% year-over-year to $1.27 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS increased 259% year-over-year to $0.61 in Q3 2025.",
+      "quote": "Diluted EPS increased 259% year-over-year to $0.61.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its full-year 2025 Adjusted Operating Expenses and SBC guidance to approximately $2.28 billion from a prior range of $2.15-$2.25 billion.",
+      "quote": "Our prior outlook for combined Adjusted Operating Expenses and SBC for full-year 2025 provided at Q2 2025 Earnings (July 30, 2025) was $2.15 billion to $2.25 billion. ... Taken together, we now expect our 2025 full year Adjusted Operating Expenses and SBC to be approximately $2.28 billion, which could be higher or lower depending on how the rest of the year plays out.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is attributed to strong year-to-date business performance and increased investments in new growth areas.",
+      "quote": "Our strong year-to-date business and revenue growth had put us on track to be around the top end of that outlook range. This included an increased employee bonus accrual, as we are currently exceeding the performance targets we set at the beginning of the year. ... And we are also increasing our investments in new growth areas like Prediction Markets and Robinhood Ventures that we believe have significant potential.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA Margin was 58% in Q3 2025, up from 42% in Q3 2024.",
+      "quote": "Adjusted EBITDA increased 177% year-over-year to a record $742 million in Q3 ... Adjusted EBITDA Margin 58% ... 42%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net margin was 44% in Q3 2025.",
+      "quote": "Net margin1 (18%) 6% 25% 28% 24% 90% 36% 39% 44%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is not providing a 2025 outlook for total operating expenses due to the inability to predict certain items.",
+      "quote": "We are not providing a 2025 outlook for total operating expenses and have not reconciled our 2025 outlook for Adjusted Operating Expenses and SBC to the most directly comparable GAAP financial measure, total operating expenses, because we are unable to predict with reasonable certainty the impact of certain items without unreasonable effort. These items include, but are not limited to, provision for credit losses and significant regulatory expenses which may be material and could have a significant impact on total operating expenses for 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The expense outlook does not include costs related to the pending acquisition of WonderFi, potential significant regulatory matters, or other significant expenses.",
+      "quote": "This expense outlook does not include provision for credit losses, costs related to our pending acquisition of WonderFi, potential significant regulatory matters, or other significant expenses (such as impairments, restructuring charges, and other business acquisition- or disposition-related expenses) that may arise or accruals we may determine in the future are required, as we are unable to accurately predict the size or timing of such matters, expenses or accruals at this time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks related to its reliance on transaction-based revenue, including payment for order flow (PFOF).",
+      "quote": "our reliance on transaction-based revenue, including payment for order flow (“PFOF”), the risk of new regulation or bans on PFOF and similar practices, and the addition of our new fee-based model for cryptocurrency",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks related to fluctuations in interest rates.",
+      "quote": "our exposure to fluctuations in interest rates and rapidly changing interest rate environments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks related to regulatory enforcement actions and litigation, including those that could prevent it from offering event contracts.",
+      "quote": "the possibility of adverse developments in pending litigation and regulatory investigations; the risk that the outcome of currently ongoing and potential future regulatory enforcement actions and litigation, as well as potential changes in federal or state law, could immediately or subsequently prevent us from offering, or continuing to offer, event contracts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Prediction Markets are growing rapidly, with Event Contracts Traded more than doubling sequentially to 2.3 billion in Q3 2025.",
+      "quote": "In Q3 2025, total Event Contracts Traded more than doubled sequentially to 2.3 billion, and October 2025 totaled 2.5 billion contracts, more than all of Q3 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robinhood Banking is starting to roll out, and Robinhood Ventures is coming.",
+      "quote": "Prediction Markets are growing rapidly, Robinhood Banking is starting to roll out, and Robinhood Ventures is coming,” said Vlad Tenev, Chairman and CEO of Robinhood.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is building momentum internationally, with nearly 700 thousand Funded Customers across the UK and EU, including Bitstamp.",
+      "quote": "Robinhood is building momentum internationally, with nearly 700 thousand Funded Customers across the UK and EU, including Bitstamp.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is expanding its product suite for active traders with new products like Robinhood Social, AI-driven custom indicators, and shorting.",
+      "quote": "At the event, Robinhood announced several new products aimed at making Robinhood the #1 platform for active traders, including Robinhood Social, AI-driven custom indicators and scanners powered by Robinhood Cortex, and several additional brokerage upgrades including multiple individual brokerage accounts and shorting.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robinhood Gold Subscribers reached a record 3.9 million, with an adoption rate exceeding 14%.",
+      "quote": "Robinhood Gold Subscribers increased by 1.7 million, or 77%, year-over-year to 3.9 million. ... During the quarter, Robinhood Gold Subscribers climbed to nearly 4 million, with the adoption rate exceeding 14%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management's tone is confident.",
+      "quote": "Our team’s relentless product velocity drove record business results in Q3 and we’re not slowing down",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 is based on a formal guidance raise, but the raise is for expenses, not revenue or earnings. The increase in expense guidance could be interpreted as a negative signal (higher costs) rather than a positive one, even though management frames it as a result of strong performance and investment. A reviewer should confirm this interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HOOD_Bundled Earnings Report_2025-11-05",
+  "report_metadata": {
+    "issuer": "p2_robinhood_markets",
+    "company": "Robinhood Markets",
+    "ticker": "HOOD",
+    "sector": "Financial Services/Capital Markets",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q3\\HOOD_Q3_2025_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q3\\HOOD_Q3_2025_earnings_call_transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HOOD_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T102547Z",
+    "timestamp": "2026-08-09T10:26:52Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\extracted\\HOOD_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 42323,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q3\\HOOD_Q3_2025_earnings_presentation.pdf",
+        "page_count": 50,
+        "extracted_characters": 84314,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q3\\HOOD_Q3_2025_earnings_call_transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 59875,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\extracted\\HOOD_FQ3_2025.txt"
+  }
+}

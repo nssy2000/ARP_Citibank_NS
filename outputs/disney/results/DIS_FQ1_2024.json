@@ -1,0 +1,235 @@
+{
+  "document_id": "DIS_FQ1_2024",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: Entertainment DTC operating loss improved by 86% year-over-year, and the company is on track to meet or exceed its $7.5 billion cost savings target. Full-year fiscal 2024 adjusted EPS guidance was raised to approximately $4.60, representing at least 20% growth versus 2023, and free cash flow guidance of roughly $8 billion was reaffirmed. Management language is confident, with CEO stating 'we have turned the corner and entered a new era.' The score is capped at +0.30 because the guidance raise is not a dramatic upward revision but a reaffirmation of prior expectations with a specific numeric target, and the company still faces structural risks in linear networks and content sales."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenues for the quarter were comparable to the prior-year quarter at $23.5 billion.",
+    "eps": "Diluted EPS for the quarter increased to $1.04 from $0.70 in the prior-year quarter. Excluding certain items, diluted EPS increased to $1.22 from $0.99.",
+    "guidance": "Full year fiscal 2024 earnings per share excluding certain items expected to increase by at least 20% versus 2023, to approximately $4.60. Free cash flow generation in fiscal 2024 expected to total roughly $8 billion. Combined streaming businesses expected to reach profitability in Q4 fiscal 2024. Disney+ Core subscriber net additions of between 5.5 and 6 million expected in Q2. $3 billion in share repurchases planned in fiscal 2024.",
+    "margin": "Segment operating margin increased by 350 basis points, reflecting both strong pricing and operating expense reductions.",
+    "key_risks": [
+      "Lower advertising revenue at Linear Networks due to fewer impressions and lower political advertising revenue.",
+      "Decline in affiliate revenue at Linear Networks due to subscriber losses.",
+      "Content Sales/Licensing and Other operating loss increased due to underperformance of theatrical titles (The Marvels, Wish).",
+      "International ESPN operating results lower due to higher programming costs for new soccer rights and production cost inflation.",
+      "Star India operating loss increased due to higher costs for ICC Cricket World Cup.",
+      "Domestic parks and resorts operating income decreased at Walt Disney World due to lower volumes and higher costs.",
+      "Disney+ Core subscribers decreased sequentially by 1.3 million due to price increases and end of promotion.",
+      "Effective income tax rate increased due to unfavorable prior-year adjustments."
+    ],
+    "key_opportunities": [
+      "Entertainment DTC operating loss improved by 86% year-over-year and nearly $300 million versus prior quarter; on track for profitability in Q4 fiscal 2024.",
+      "Experiences segment generated all-time records in revenue, operating income, and operating margin.",
+      "ESPN domestic business grew revenue and operating income year-over-year; new streaming sports joint venture with Fox and Warner Bros. Discovery announced.",
+      "New relationship with Epic Games to create a games and entertainment universe.",
+      "Share repurchase program of $3 billion in fiscal 2024 and 50% dividend increase.",
+      "Cost savings of over $500 million realized in Q1; on track to meet or exceed $7.5 billion annualized savings target.",
+      "Hulu subscribers increased by 1.2 million from prior quarter.",
+      "Disney+ Core ARPU increased sequentially by $0.14.",
+      "Strong content slate including Moana 2, Inside Out 2, Deadpool 3, and Taylor Swift concert film on Disney+."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Bob Iger stated 'our strong performance this past quarter demonstrates we have turned the corner and entered a new era for our company,' and CFO Hugh Johnston said 'we have never been more confident about our path to creating a strong and sustainable streaming business.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenues for the quarter were comparable to the prior-year quarter at $23.5 billion.",
+      "quote": "Revenues for the quarter were comparable to the prior-year quarter at $23.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS for the quarter increased to $1.04 from $0.70 in the prior-year quarter.",
+      "quote": "Diluted earnings per share (EPS) for the quarter increased to $1.04 from $0.70 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding certain items, diluted EPS increased to $1.22 from $0.99.",
+      "quote": "Excluding certain items (1) , diluted EPS for the quarter increased to $1.22 from $0.99 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year fiscal 2024 adjusted EPS guidance raised to approximately $4.60, representing at least 20% growth.",
+      "quote": "Based on the strength of first quarter results as well as our expectations for the balance of the year, we expect full year fiscal 2024 earnings per share excluding certain items (1) to increase by at least 20% versus 2023, to approximately $4.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guidance of roughly $8 billion for fiscal 2024.",
+      "quote": "Further, we continue to expect free cash flow (1) generation in fiscal 2024 to total roughly $8 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined streaming businesses expected to reach profitability in Q4 fiscal 2024.",
+      "quote": "We continue to expect to reach profitability at our combined streaming businesses in the fourth quarter of fiscal 2024, and are making tremendous progress in this area, with first quarter Entertainment DTC operating losses improving by nearly $300 million versus the prior quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Segment operating margin increased by 350 basis points.",
+      "quote": "And segment operating margin increased by 350 basis points, reflecting both strong pricing and operating expense reductions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment DTC operating loss improved by 86% year-over-year.",
+      "quote": "Direct-to-Consumer operating loss decreased from $984 million to $138 million, an 86% improvement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment generated all-time records in revenue, operating income, and operating margin.",
+      "quote": "At Experiences, we generated all-time records in revenue, operating income, and operating margin in the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost savings of over $500 million realized in Q1; on track to meet or exceed $7.5 billion annualized savings target.",
+      "quote": "We are achieving significant cost reductions across our businesses, as evidenced by the realization of over $500 million in selling, general and administrative and other operating expense savings across the enterprise in the first quarter. We are on track to meet or exceed our $7.5 billion annualized savings target by the end of fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Just one year ago, we outlined an ambitious plan to return The Walt Disney Company to a period of sustained growth and shareholder value creation. Our strong performance this past quarter demonstrates we have turned the corner and entered a new era for our company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ Core subscribers decreased sequentially by 1.3 million.",
+      "quote": "Disney+ Core subscribers decreased sequentially by 1.3 million, in line with prior guidance and reflecting a substantial price increase in the quarter as well as the end of the global summer promotion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hulu subscribers increased by 1.2 million from prior quarter.",
+      "quote": "Hulu subscribers increased by 1.2 million from the prior quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ Core ARPU increased sequentially by $0.14.",
+      "quote": "Disney+ Core ARPU increased sequentially by $0.14 versus the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content Sales/Licensing and Other operating loss increased due to underperformance of theatrical titles.",
+      "quote": "The increase in operating loss was due to the performance of The Marvels and Wish in the current quarter compared to Black Panther: Wakanda Forever , Avatar: The Way of Water and Strange World in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic parks and resorts operating income decreased at Walt Disney World due to lower volumes and higher costs.",
+      "quote": "At our domestic parks and resorts, lower results in the current quarter compared to the prior-year quarter were due to: A decrease at Walt Disney World Resort reflecting a modest decrease in revenues and higher costs. These impacts were due to: Lower volumes due to decreases in attendance and occupied room nights, both of which reflected the comparison to the 50th anniversary celebration in the prior-year quarter; Higher costs due to inflation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New sports streaming joint venture with Fox and Warner Bros. Discovery announced.",
+      "quote": "We announced yesterday the full suite of ESPN's channels will now be available direct-to-consumer as part of a new joint venture with Fox and Warner Brothers Discovery to create a new streaming sports service launching this fall.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New relationship with Epic Games to create a games and entertainment universe.",
+      "quote": "We're also thrilled to share that we're entering into an exciting relationship with Epic Games, acquiring a small equity stake and launching a groundbreaking new games and entertainment universe that brings together Disney's beloved brands and franchises with the hugely popular Fortnite.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share repurchase program of $3 billion in fiscal 2024 and 50% dividend increase.",
+      "quote": "In February 2024, the Board of Directors approved a new share repurchase program effective February 7, 2024; we plan to target $3 billion in repurchases in fiscal 2024. The Board also declared on February 7, 2024 a cash dividend of $0.45 per share - an increase of 50% versus the last dividend paid in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ Core subscriber net additions of between 5.5 and 6 million expected in Q2.",
+      "quote": "We expect Disney+ Core subscriber net additions of between 5.5 and 6 million and ongoing positive momentum in ARPU in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit but the score is capped at +0.30 because the raise is from a prior baseline of 'at least 20% growth' to a specific number ($4.60) that still represents 'at least 20% growth' — it is a reaffirmation with a numeric target rather than a dramatic upward revision. A human reviewer should confirm this interpretation is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2024-02-07",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2024",
+    "report_date": "2024-02-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q1\\dis-1q24-press-release.html",
+        "pub_date": "2024-02-07"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q1\\dis-1q24-transcript.html",
+        "pub_date": "2024-02-07"
+      }
+    ],
+    "document_id": "DIS_FQ1_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:43:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q1\\dis-1q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q1\\dis-1q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 45406,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q1\\dis-1q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 60933,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2024.txt"
+  }
+}

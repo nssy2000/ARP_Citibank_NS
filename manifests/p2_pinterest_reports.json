@@ -1,0 +1,88 @@
+{
+  "issuer": "p2_pinterest",
+  "reports": [
+    {
+      "document_id": "PINS_FQ4_2024",
+      "issuer": "p2_pinterest",
+      "company": "Pinterest",
+      "ticker": "PINS",
+      "sector": "Communication Services/Internet Content & Information",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2024",
+      "report_date": "2025-02-06",
+      "release_date": "2025-02-06",
+      "release_date_source": "EDGAR 8-K Item 2.02, pins-20250206.htm, acc 0001506293-25-000020",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pinterest/CY2024-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/pinterest/CY2024-Q4/PINS_Q4_2024_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pinterest/CY2024-Q4/PINS_Q4_2024_Earnings_Call_Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "PINS_FQ4_2025",
+      "issuer": "p2_pinterest",
+      "company": "Pinterest",
+      "ticker": "PINS",
+      "sector": "Communication Services/Internet Content & Information",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-12",
+      "release_date": "2026-02-12",
+      "release_date_source": "EDGAR 8-K Item 2.02, pins-20260212.htm, acc 0001506293-26-000019",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pinterest/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/pinterest/CY2025-Q4/PINS_Q4_2025_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pinterest/CY2025-Q4/PINS_Q4_2025_Earnings_Call_Transcript.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "PINS_FQ1_2026",
+      "issuer": "p2_pinterest",
+      "company": "Pinterest",
+      "ticker": "PINS",
+      "sector": "Communication Services/Internet Content & Information",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-04",
+      "release_date": "2026-05-04",
+      "release_date_source": "EDGAR 8-K Item 2.02, pins-20260430.htm, acc 0001506293-26-000066",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/pinterest/CY2026-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/pinterest/CY2026-Q1/PINS_Q1_2026_Earnings_Presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/pinterest/CY2026-Q1/PINS_Q1_2026_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

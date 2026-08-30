@@ -1,0 +1,221 @@
+{
+  "document_id": "DIS_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows genuine operational momentum: Entertainment DTC swung from a $4B operating loss three years ago to $1.3B operating income in FY25, and management explicitly raised forward guidance for FY26 (double-digit adjusted EPS growth, $7B in share repurchases, 50% dividend increase). The guidance raise is organic, not attributed to one-time items. However, the ongoing YouTube TV carriage dispute and the fact that the guidance raise is not quantified beyond 'double-digit' prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 FY25 revenues of $22.5 billion were comparable to Q4 FY24; full-year FY25 revenues increased 3% to $94.4 billion from $91.4 billion in FY24.",
+    "eps": "Diluted EPS improved for the quarter and full year; adjusted EPS growth for FY25 was consistent with prior guidance of approximately 18% growth over FY24. Adjusted EPS for FY25 was up 19% from FY24.",
+    "guidance": "For FY26, the Company expects to deliver double-digit adjusted EPS growth compared to FY25. The Company is targeting $7 billion in share repurchases in FY26 (double the $3.5 billion in FY25) and announced a cash dividend of $1.50 per share (a 50% increase over the $1.00 paid in FY25).",
+    "margin": "Entertainment DTC operating margin guided to 10% for FY26. The Company expects to gain margin in chunks, not in basis points, beyond FY26.",
+    "key_risks": [
+      "Ongoing carriage dispute with YouTube TV; management noted a hedge was built into guidance for a sustained blackout.",
+      "Content-driven cost pressure in Sports segment in Q2 and Q3 FY26, primarily from NBA investment.",
+      "Timing of tax payments: $1.7 billion in taxes deferred from FY25 to FY26 due to California wildfire tax relief, affecting reported cash flow growth.",
+      "General forward-looking risks: economic, geopolitical, operating and industry conditions; competition; execution risks; advertising market; legal and regulatory developments."
+    ],
+    "key_opportunities": [
+      "ESPN direct-to-consumer launch: strong subscriber uptake, 80% of new subscribers taking the Trio Bundle (Disney+, Hulu, ESPN), lower churn, and advertiser appeal.",
+      "DTC profitability: Entertainment DTC operating income of $1.3B in FY25, up $1.2B from FY24 and $300M ahead of original guidance; guided to double-digit revenue growth and 10% margin in FY26.",
+      "Experiences segment: record operating income in Q4 and full year; two new cruise ships launching; expansion projects at all theme parks; forward bookings up 3% in Q1 and up for the year.",
+      "Strong film slate: upcoming releases include Zootopia 2, Avatar: Fire and Ash, The Mandalorian & Grogu, Toy Story 5, live-action Moana, Avengers: Doomsday.",
+      "AI deployment: opportunities for personalization, user-generated content, commerce integration, and efficiency across the company.",
+      "Bundling strategy: lower churn from bundles; discussions with other companies for more bundling."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Bob Iger stated 'This was another year of great progress' and 'we continue to execute across our strategic priorities as we build for the future,' and Hugh Johnston expressed confidence in 'continued strong free cash flow growth from Disney.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adjusted EPS for FY25 was up 19% from FY24.",
+      "quote": "Adjusted EPS for fiscal 2025 was up 19% from fiscal 2024, and over the past three fiscal years we have delivered a 19% compound annual growth rate in adjusted EPS.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For FY26, the Company expects double-digit adjusted EPS growth.",
+      "quote": "For fiscal 2026, we expect to deliver double digit adjusted EPS growth compared to the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Company is targeting $7 billion in share repurchases in FY26, double the $3.5 billion in FY25.",
+      "quote": "We are targeting $7 billion in share repurchases in 2026 – double the $3.5 billion we repurchased in fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Board declared a cash dividend of $1.50 per share, a 50% increase over the $1.00 paid in FY25.",
+      "quote": "We’re also pleased to announce that the Board has declared a cash dividend of $1.50 per share, a 50% increase over the $1.00 paid to shareholders in fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment DTC operating income was $1.3 billion in FY25, up $1.2 billion from FY24 and $300 million ahead of original guidance.",
+      "quote": "At our Entertainment segment, our streaming business had another quarter of profit growth, with operating income up 39% in Q4. For the full year, we hit $1.3 billion - in operating income — up $1.2 billion - from last year and $300 million ahead of our original guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment DTC swung from a $4 billion operating loss three years ago to $1.3 billion operating income in FY25.",
+      "quote": "That is a significant achievement when you consider that just three years ago, our DTC business was running a $4 billion - operating loss.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "80% of new ESPN DTC subscribers signed up for the Trio Bundle including Disney+ and Hulu.",
+      "quote": "One of the things that we're also very encouraged by is the fact that of the subscribers that have signed up to the new app, a substantial number of them, about 80%, have signed up to what we call the Trio Bundle, which includes Disney+ and Hulu.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment delivered record operating income for Q4 and full year, with Q4 operating income up 13%.",
+      "quote": "At our Experiences segment, we delivered record operating income for both Q4 and the full year, with operating income up 13% for the fourth quarter compared to the prior year and up 8% for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward bookings at Walt Disney World are up 3% in Q1 and up for the year.",
+      "quote": "Bookings are up 3% in the first quarter, so feel good about that. And they're also up for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The ongoing YouTube TV carriage dispute is a risk; a hedge was built into guidance.",
+      "quote": "As relates to the discussions with YouTube, obviously, I'm not going to comment much on ongoing negotiations that are live right now. The only thing I would say is in terms of our guidance, we built a hedge into that with the expectation that these discussions could go for a little while.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content-driven cost pressure in Sports in Q2 and Q3 FY26 from NBA investment.",
+      "quote": "As far as Sports goes, from the perspective of the NBA, because of the timing of the rights costs, it does create a little bit of bumpiness during the course of the year. Again, the latter half is where we'll really see material growth in ESPN.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Bob Iger: 'This was another year of great progress as we strengthened the company by leveraging the value of our creative and brand assets and continued to make meaningful progress in our direct-to-consumer businesses.' Hugh Johnston: 'We feel very good about the free cash flow growth going forward.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue for Q4 FY25 was $22.5 billion, comparable to Q4 FY24.",
+      "quote": "Revenues in Q4 of $22.5 billion were comparable to Q4 fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY25 revenues increased 3% to $94.4 billion.",
+      "quote": "Revenues ... increased 3% for the year to $94.4 billion from $91.4 billion in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS improved for the quarter and full year; adjusted EPS growth for FY25 was approximately 18%.",
+      "quote": "Diluted EPS improved for the quarter and full year; adjusted EPS growth for the full year was consistent with prior guidance of approximately 18% growth over fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment DTC operating margin guided to 10% for FY26.",
+      "quote": "We guided you to the double-digit margins, as we've been talking about in the past and as was expected coming into the year.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Company expects to gain margin in chunks beyond FY26.",
+      "quote": "Getting beyond '26, we're certainly looking to gain margin in chunks, not in basis points, as we think beyond '26 and into the future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tax deferral of $1.7 billion from FY25 to FY26 due to California wildfire tax relief.",
+      "quote": "The impact on year over year growth of $1.7 billion in taxes, which were deferred from fiscal 2025 to fiscal 2026 as a result of tax relief granted due to the California wildfires.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.margin",
+      "reason": "The 10% margin guidance for Entertainment DTC is stated indirectly ('double-digit margins') and is inferred from context; the exact figure is not explicitly stated in the provided excerpts."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2025-11-12",
+  "report_metadata": {
+    "issuer": "p2_disney",
+    "company": "Disney",
+    "ticker": "DIS",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-11-12",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q4\\q4-fy25-earnings-transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q4\\fy2025_q4xprxex991.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DIS_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172857Z",
+    "timestamp": "2026-07-30T17:29:52Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q4\\q4-fy25-earnings-transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_disney\\extracted\\DIS_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q4\\q4-fy25-earnings-transcript.pdf",
+        "page_count": 28,
+        "extracted_characters": 46440,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\disney\\phase2\\CY2025-Q4\\fy2025_q4xprxex991.txt",
+        "page_count": 1,
+        "extracted_characters": 3018,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_disney\\extracted\\DIS_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

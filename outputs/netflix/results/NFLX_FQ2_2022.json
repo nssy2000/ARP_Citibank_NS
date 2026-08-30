@@ -1,0 +1,203 @@
+{
+  "document_id": "NFLX_FQ2_2022",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: Q3 revenue growth forecast is 5% (vs 8.6% in Q2), operating margin forecast is 16% (vs 19.8% in Q2), and paid net adds forecast is 1.0m (vs 4.4m in the year-ago quarter). Management explicitly cites a 'significant headwind' from the strengthening US dollar and notes 'the current uncertain macro-economic environment leads to less-than-normal visibility.' The guidance reduction is organic, not attributed to one-time items, and management's language is cautious."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 2022 revenue was $7,970 million, up 9% year over year (13% constant currency).",
+    "eps": "Q2 2022 diluted EPS was $3.20, compared to $2.97 in the year-ago quarter, exceeding guidance forecast of $3.00 due to a $305 million non-cash unrealized gain from FX remeasurement on Euro-denominated debt.",
+    "guidance": "Q3 2022 forecast: revenue growth of 5% (12% constant currency), operating margin of 16%, paid net adds of +1.0 million. Full year 2022 operating margin expected to be 19%-20%, excluding restructuring costs and FX movements.",
+    "margin": "Q2 2022 operating margin was 19.8%, down from 25.2% in Q2 2021. Q3 2022 forecast operating margin is 16.0%.",
+    "key_risks": [
+      "Strengthening US dollar: 'The US dollar continues to strengthen meaningfully against most currencies at a historic pace... a significant headwind for all multinational US companies.'",
+      "Uncertain macro-economic environment: 'the current uncertain macro-economic environment leads to less-than-normal visibility.'",
+      "Slowing revenue growth: 'Our challenge and opportunity is to accelerate our revenue and membership growth.'",
+      "Account sharing: '100m+ households that are currently enjoying, but not directly paying for, Netflix.'",
+      "Competition and macro factors: 'connected TV adoption, account sharing, competition, and macro factors such as sluggish economic growth and the impacts of the war in Ukraine.'"
+    ],
+    "key_opportunities": [
+      "Advertising-supported tier: 'a new, lower-priced ad-supported tier' targeting launch around early 2023, with Microsoft as partner.",
+      "Paid sharing monetization: 'working to monetize the 100m+ households that are currently enjoying, but not directly paying for, Netflix' with rollout planned in 2023.",
+      "Growing free cash flow: 'We expect annual positive FCF going forward (with substantial growth in FCF in 2023 vs. 2022).'",
+      "Content strength: 'Stranger Things season four generated 1.3 billion hours viewed... our biggest season of English TV ever.'",
+      "Animation expansion: acquisition of Animal Logic to 'accelerate the development of our animation production capabilities.'"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management states 'the current uncertain macro-economic environment leads to less-than-normal visibility' and describes the strong dollar as 'a significant headwind,' while also expressing confidence in long-term strategy: 'We’re confident and optimistic about the future.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2022 revenue was $7,970 million, up 9% year over year (13% constant currency).",
+      "quote": "Revenue in Q2 grew 9% year over year (or 13% excluding a -$339 million foreign currency impact), driven by a 6% and 2% increase in average paid memberships and ARM, respectively.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2022 diluted EPS was $3.20, compared to $2.97 in the year-ago quarter, exceeding guidance forecast of $3.00 due to a $305 million non-cash unrealized gain from FX remeasurement on Euro-denominated debt.",
+      "quote": "EPS of $3.20 vs. $2.97 a year ago exceeded our guidance forecast of $3.00 due to a $305 million non-cash unrealized gain from F/X remeasurement on our Euro denominated debt, which is recognized below operating income in 'interest and other income.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2022 forecast: revenue growth of 5% (12% constant currency), operating margin of 16%, paid net adds of +1.0 million.",
+      "quote": "Our Q3 revenue growth forecast of 5% translates into 12% year over year revenue growth on a constant currency basis. Similarly, excluding the impact of currency, operating profit growth would be -3% year over year (vs our forecast decline of -29%) and operating margin would be 20% (vs our forecast of 16%). We forecast paid net adds for Q3 of +1.0m vs. 4.4m in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2022 operating margin expected to be 19%-20%, excluding restructuring costs and FX movements.",
+      "quote": "We continue to expect full year 2022 operating margin of 19%-20%, excluding the unanticipated $150m of restructuring costs in Q2 noted above and the material movement in F/X from January 2022, as our guidance was set based on F/X at that time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2022 operating margin was 19.8%, down from 25.2% in Q2 2021.",
+      "quote": "Operating Margin 25.2% (Q2'21) ... 19.8% (Q2'22)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2022 forecast operating margin is 16.0%.",
+      "quote": "Operating Margin ... 16.0% (Q3'22 Forecast)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strengthening US dollar is a significant headwind.",
+      "quote": "The US dollar continues to strengthen meaningfully against most currencies at a historic pace, with the Euro recently falling below the US dollar for the first time in two decades, a significant headwind for all multinational US companies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertain macro-economic environment leads to less-than-normal visibility.",
+      "quote": "As always, we strive for accuracy although the current uncertain macro-economic environment leads to less-than-normal visibility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Slowing revenue growth is a challenge.",
+      "quote": "Our challenge and opportunity is to accelerate our revenue and membership growth by continuing to improve our product, content, and marketing as we’ve done for the last 25 years, and to better monetize our big audience.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Account sharing: 100m+ households are not directly paying for Netflix.",
+      "quote": "We’re in the early stages of working to monetize the 100m+ households that are currently enjoying, but not directly paying for, Netflix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition and macro factors are headwinds.",
+      "quote": "Last quarter, we discussed our slowing revenue growth, which we believe is the result of connected TV adoption, account sharing, competition, and macro factors such as sluggish economic growth and the impacts of the war in Ukraine.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising-supported tier is a key opportunity, targeting launch around early 2023.",
+      "quote": "We recently announced Microsoft as our technology and sales partner and we’re targeting to launch this tier around the early part of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid sharing monetization is a key opportunity with rollout planned in 2023.",
+      "quote": "Our goal is to find an easy-to-use paid sharing offering that we believe works for our members and our business that we can roll out in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growing free cash flow: expected annual positive FCF with substantial growth in 2023.",
+      "quote": "We expect annual positive FCF going forward (with substantial growth in FCF in 2023 vs. 2022) due to our increasing revenue, solid profitability, and the successful multi-year evolution of our content model.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content strength: Stranger Things season four was a smash hit.",
+      "quote": "In its first four weeks, Stranger Things season four generated 1.3 billion hours viewed, making it our biggest season of English TV ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Animation expansion through acquisition of Animal Logic.",
+      "quote": "Today, we announced that we will be acquiring leading animation studio Animal Logic, with ~800 amazing people mostly in Sydney and Vancouver, which will help us accelerate the development of our animation production capabilities and reinforces our commitment to build a world-class animation studio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious due to uncertain macro environment and strong dollar headwind.",
+      "quote": "As always, we strive for accuracy although the current uncertain macro-economic environment leads to less-than-normal visibility. The US dollar continues to strengthen meaningfully against most currencies at a historic pace... a significant headwind for all multinational US companies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance was reduced: Q3 revenue growth forecast is 5% (vs 8.6% in Q2), operating margin forecast is 16% (vs 19.8% in Q2), and paid net adds forecast is 1.0m (vs 4.4m in the year-ago quarter).",
+      "quote": "Our Q3 revenue growth forecast of 5% translates into 12% year over year revenue growth on a constant currency basis. ... operating margin would be 20% (vs our forecast of 16%). We forecast paid net adds for Q3 of +1.0m vs. 4.4m in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on guidance reduction and cautious language. However, the document also contains several positive forward-looking initiatives (ad-supported tier, paid sharing, FCF growth) that could offset some bearishness. A reviewer may want to assess whether the negative weight is appropriate given these offsets."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2022-07-19",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ2 2022",
+    "report_date": "2022-07-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q2\\nflx-2q22-press-release.html",
+        "pub_date": "2022-07-19"
+      }
+    ],
+    "document_id": "NFLX_FQ2_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:54:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q2\\nflx-2q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ2_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2022-Q2\\nflx-2q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 36600,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ2_2022.txt"
+  }
+}

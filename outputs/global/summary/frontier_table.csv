@@ -1,0 +1,15 @@
+# Event set: eval split (latest 80% by report_date) of N=233 clean events (35 excluded). Total eval: 186 events; 119 graded (|ret_overnight|>2%).
+# Grading: overnight returns from returns_matrix.csv (release_date anchor, 2026-08-12 correction), pre-registered +-2% band.
+# FLAT-excluded: denominator = 119 (BUY/SELL outcome events only). FLAT-as-wrong: denominator = 186 (all eval events; model HOLD on a moved event = wrong).
+# Majority-direction (FLAT-excluded) = always-DOWN (predict SELL on every event) = 65/119. This is the eval-split floor, NOT the full-sample floor (52/95 on N=233).
+#
+# Deployed-model row regenerated 2026-08-19 by experiments/kappa_and_frontier.py at blend.py's current constants,
+# gated first at the superseded 0.55/0.45 +0.25/-0.05 (51/119 and 82/186 reproduce exactly). The three baselines do not read blend.py and are unchanged.
+# The three figures 42.2% / eval-split FLAT-excluded / eval-split FLAT-as-wrong differ in event set and convention, NOT in substance.
+# DO NOT cite them together without saying which is which.
+#
+method,accuracy_flat_excluded,accuracy_flat_as_wrong,graded_n_flat_excluded,graded_n_flat_as_wrong,traded_n,total_n,cost_per_document,bootstrap_ci_flat_excluded,note
+Majority-class HOLD,0.5462,0.3602,119,186,0,186,0,"[0.471, 0.622]",Always predicts HOLD; 0 trades. FLAT-excluded: always-DOWN = 65/119.
+Loughran-McDonald (LM),0.1513,0.3495,119,186,59,186,0,"[0.101, 0.210]","pysentiment2 word-count score, no API cost. FLAT-excluded: 18/119."
+FinBERT (ProsusAI/finbert),0.3445,0.3226,119,186,147,186,0 (local GPU/CPU),"[0.277, 0.420]","512-token chunks, token-weighted avg; local compute only. FLAT-excluded: 41/119."
+"Deployed model (DeepSeek, 0.8/0.2 micro/macro)",0.4790,0.4140,119,186,138,186,~$0.02-0.05 (DeepSeek API),"[0.403, 0.555]",Structured output with evidence quotes; API cost per document. FLAT-excluded: 57/119.

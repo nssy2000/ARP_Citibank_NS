@@ -1,0 +1,58 @@
+{
+  "document_id": "CL_FQ3_2025_QUANT",
+  "base_document_id": "CL_FQ3_2025",
+  "issuer": "p2_colgate_palmolive",
+  "ticker": "CL",
+  "sector": "Consumer Defensive/Household Products",
+  "report_date": "2025-10-31",
+  "sentiment": {
+    "score": -0.035994
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.025149,
+      "window_start_date": "2025-10-01",
+      "window_end_date": "2025-10-30",
+      "score": -0.166108,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.193115,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 2.36,
+      "matched_earnings_date": "2025-10-31",
+      "score": 0.094121,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.44,
+      "vix_score": 0.103627,
+      "tnx_change": 0.013,
+      "tnx_score": -0.025994,
+      "score": 0.038816,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.87,
+      "ffr_change": -0.46,
+      "ffr_score": 0.725897,
+      "ffr_as_of": "2025-10-30",
+      "curve_spread": 0.5,
+      "curve_score": 0.462117,
+      "curve_as_of": "2025-10-30",
+      "score": 0.594007,
+      "available": true
+    },
+    "quant_score": -0.035994,
+    "quant_score_with_macro": 0.001411,
+    "quant_score_with_fred": 0.279006,
+    "quant_score_with_macro_fred": 0.198943
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

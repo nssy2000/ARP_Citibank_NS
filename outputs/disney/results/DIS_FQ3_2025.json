@@ -1,0 +1,198 @@
+{
+  "document_id": "DIS_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: DTC profitability is improving (raised full-year guidance), the NFL deal is described as accretive in the first year, and management expresses strong confidence in growth drivers like the unified Disney+/Hulu app and ESPN DTC launch. However, full-year fiscal 2026 guidance is not formally raised (deferred to Q4 call), and the Experiences segment faces a China per-capita headwind. The score reflects a positive trajectory without a formal guidance raise, consistent with the +0.15 to +0.3 band."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed (no specific revenue figure provided in the transcript).",
+    "eps": "Not disclosed (no specific EPS figure provided in the transcript).",
+    "guidance": "Full-year fiscal 2025 EPS guidance of $5.85 is reaffirmed. Fiscal 2026 guidance is deferred to the Q4 call, but management indicates no material change from prior double-digit EPS growth and low single-digit OI growth at Sports. DTC profitability guidance is raised for fiscal 2025.",
+    "margin": "DTC segment reported 6% operating margins. Management targets double-digit margins for Entertainment SVOD DTC businesses (excluding Hulu Live) and sees further margin opportunity beyond 10%.",
+    "key_risks": [
+      "China per-capita consumer stress affecting Experiences segment.",
+      "Tough comp from Inside Out 2 in Q4 fiscal 2025 for Content segment.",
+      "Launch costs for new cruise ships (Disney Destiny and Disney Adventure) impacting near-term Experiences OI.",
+      "Economic uncertainty mentioned in forward-looking statements."
+    ],
+    "key_opportunities": [
+      "Full integration of Hulu into Disney+ to lower churn, increase engagement, and drive advertising revenue.",
+      "ESPN DTC launch on August 21 with multi-view, personalization, betting, and fantasy features.",
+      "NFL deal expands ESPN's game windows from 22 to 28, includes NFL Network content, and is accretive in first year.",
+      "WWE Premium Live Events exclusive rights for ESPN.",
+      "Cruise ship fleet expansion (two new ships in 2025, fleet to double over time) with strong forward bookings.",
+      "New theme park lands and attractions globally (World of Frozen, Villains, Cars, Monsters Inc., Avatar, Abu Dhabi park).",
+      "International DTC growth through Hulu branding and selective content investment."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Bob Iger states 'we are operating from a position of strength and building across our company' and 'we remain optimistic about the company’s trajectory,' reflecting strong confidence in the growth strategy."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year fiscal 2025 EPS guidance is $5.85.",
+      "quote": "But all of that is considered in the guide that we gave you of $5.85 for the overall company for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 guidance is deferred to Q4 call, with no material change indicated.",
+      "quote": "The fact that we're not sharing with that should tell you that we don't see it as materially different.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC profitability guidance is raised for fiscal 2025.",
+      "quote": "the strong DTC profitability and raised full year guidance that we saw there",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC segment reported 6% operating margins.",
+      "quote": "your DTC segment reported 6% operating margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management targets double-digit margins for Entertainment SVOD DTC businesses and sees further opportunity.",
+      "quote": "we certainly don't intend to stop at 10[%] margin. We think there's still lots of margin opportunity once we hit double digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China per-capita consumer stress is a risk for Experiences.",
+      "quote": "China, as we've noted on past calls, is a little bit challenged, not so much from an attendance perspective, but from per caps perspective, as there is some stress with the China consumer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tough comp from Inside Out 2 in Q4 fiscal 2025 for Content segment.",
+      "quote": "we will be overlapping Inside Out 2 from last year, which is obviously a tough comp.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launch costs for new cruise ships will impact near-term Experiences OI.",
+      "quote": "we are launching a couple of ships at the tail end of this year and into next year. So, we'll have the costs associated with launch on those in the earlier part of the year, which obviously impacts the line of business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full integration of Hulu into Disney+ will lower churn, increase engagement, and drive advertising revenue.",
+      "quote": "By creating a differentiated streaming offering, we will be providing subscribers tremendous choice, convenience, quality, and enhanced personalization, while at the same time continuing to grow profitability and margins in our entertainment streaming business through expected higher engagement, lower churn, operational efficiencies, and greater advertising revenue potential.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN DTC launch on August 21 with multi-view, personalization, betting, and fantasy features.",
+      "quote": "on August 21st, we will launch ESPN’s direct-to-consumer offering, making ESPN’s full suite of networks and services directly available to fans for the first time. The enhanced ESPN App will be a sports fan’s dream, with key new features planned for launch such as multi-view, enhanced personalization, integration of stats, betting, fantasy sports and commerce, and a personalized SportsCenter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NFL deal expands ESPN's game windows from 22 to 28, includes NFL Network content, and is accretive in first year.",
+      "quote": "the result of these agreements will give ESPN more games – more NFL games – than they've ever had before. Basically, there will be 28 windows for NFL games, which is an increase over what we've had before. Previously, there were 22. ... it will be accretive in the first year that – after it closes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "WWE Premium Live Events exclusive rights for ESPN.",
+      "quote": "we are also excited to announce that ESPN will be the exclusive home for WWE Premium Live Events, further expanding ESPN’s rights portfolio",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cruise ship fleet expansion with two new ships in 2025 and strong forward bookings.",
+      "quote": "Disney Cruise Line continues to grow, as we prepare for the launch of two new ships later this year – the Disney Destiny and the Disney Adventure ... we're already basically half booked out for all of next year and the newer ships are even higher in that regard.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New theme park lands and attractions globally.",
+      "quote": "expansion projects are underway across every one of our theme parks globally, from a new World of Frozen land opening at Disneyland Paris in 2026, to the Villains and Cars themed areas at Magic Kingdom, to a Monsters Inc. area at Disney's Hollywood Studios, to an Avatar-themed destination at Disney California Adventure, in addition to a new theme park coming to Abu Dhabi.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International DTC growth through Hulu branding and selective content investment.",
+      "quote": "we're going to brand the general entertainment from Star to Hulu across the world ... we probably will invest in very selected markets internationally where we really feel there's a potential to grow our bottom line",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we are operating from a position of strength and building across our company ... we remain optimistic about the company’s trajectory.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No specific revenue figure was provided in the transcript; only qualitative commentary. A human reviewer should verify if revenue data exists in the accompanying press release or 10-Q."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "No specific EPS figure was provided in the transcript; only qualitative commentary. A human reviewer should verify if EPS data exists in the accompanying press release or 10-Q."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2025-08-06",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-08-06",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q3\\Transcript-Q3-FY25.pdf"
+      }
+    ],
+    "document_id": "DIS_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260706T101643Z",
+    "timestamp": "2026-07-06T10:17:39Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q3\\Transcript-Q3-FY25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q3\\Transcript-Q3-FY25.pdf",
+        "page_count": 29,
+        "extracted_characters": 46989,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ3_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

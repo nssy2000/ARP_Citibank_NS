@@ -1,0 +1,221 @@
+{
+  "document_id": "BAC_FQ2_2022",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a 6% revenue increase and 22% NII growth, but forward guidance is not explicitly raised; management expresses confidence in being 'well-positioned' but also acknowledges 'economic uncertainty' and a 'weakened capital markets environment.' The net reserve release was minimal ($48M vs $2.2B a year ago), and the provision for credit losses increased significantly, reflecting a dampening macroeconomic outlook. The score is slightly positive due to strong organic loan growth and operating leverage, but tempered by cautious forward language and lack of a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue, net of interest expense, increased 6% to $22.7 billion. Net interest income (NII) increased 22% to $12.4 billion. Noninterest income declined 9% to $10.2 billion.",
+    "eps": "Diluted earnings per share of $0.73, down from $1.03 in Q2-21.",
+    "guidance": "Not disclosed. No explicit forward guidance on revenue, earnings, or growth was provided. Management stated: 'As we enter the second half of the year, we believe we are well-positioned to deliver for our shareholders while continuing to invest in our people, businesses and communities.'",
+    "margin": "Net interest yield (FTE) was 1.86%, up 17 bps from Q1-22. Efficiency ratio was 67% for Q2-22, compared to 70% in Q2-21. Pretax margin for GWIM improved to 28% from 26%.",
+    "key_risks": [
+      "Provision for credit losses increased $2.1 billion to $523 million, reflecting a dampening macroeconomic outlook and loan growth.",
+      "Noninterest income declined 9% to $10.2 billion, primarily reflecting weaker capital markets.",
+      "Noninterest expense included approximately $425 million recognized for certain regulatory matters.",
+      "Total investment banking fees (excl. self-led) decreased 47% to $1.1 billion, reflecting weaker industry-wide underwriting activity.",
+      "Global Banking revenue decreased 2%, driven by lower investment banking fees and mark-to-market losses related to leveraged finance positions.",
+      "Consumer net charge-offs increased $185 million from Q1-22, including $85 million from non-core mortgage sales."
+    ],
+    "key_opportunities": [
+      "Net interest income up 22% to $12.4 billion, driven by higher interest rates, lower premium amortization and loan growth.",
+      "Average loan and lease balances up 12% to $1.0 trillion, led by strong commercial loan growth and higher consumer balances.",
+      "Fourth consecutive quarter of operating leverage (418 bps in Q2-22).",
+      "Consumer Banking added ~241,000 net new Consumer checking accounts in Q2-22; record 35.1 million Consumer checking accounts.",
+      "Global Wealth and Investment Management added more than 5,100 net new relationships across Merrill and Private Bank.",
+      "Sales and trading revenue up 17% to $4.2 billion, including FICC up 19% (excl. DVA).",
+      "Global Transaction Services revenue up 32% to $2.4 billion."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated: 'Our strong organic growth engine once again was evident... we believe we are well-positioned to deliver for our shareholders while continuing to invest in our people, businesses and communities.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue increased 6% to $22.7 billion.",
+      "quote": "Revenue, net of interest expense, increased 6% to $22.7 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income increased 22% to $12.4 billion.",
+      "quote": "Net interest income (NII)(E) up $2.2 billion, or 22%, to $12.4 billion, driven by higher interest rates, lower premium amortization and loan growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest income declined 9% to $10.2 billion.",
+      "quote": "Noninterest income declined $989 million, or 9%, to $10.2 billion, primarily reflecting weaker capital markets",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted earnings per share was $0.73.",
+      "quote": "Net income of $6.2 billion, or $0.73 per diluted share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses increased $2.1 billion to $523 million.",
+      "quote": "Provision for credit losses of $523 million increased $2.1 billion – Net reserve release of $48 million vs. $2.2 billion release in Q2-21(C)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 1.86%, up 17 bps from Q1-22.",
+      "quote": "Net interest yield of 1.86% increased 17 bps from 1Q22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio was 67% for Q2-22.",
+      "quote": "Efficiency ratio 67 66 70",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average loan and lease balances up 12% to $1.0 trillion.",
+      "quote": "Average loan and lease balances up $107 billion, or 12%, to $1.0 trillion led by strong commercial loan growth as well as higher consumer balances",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total investment banking fees (excl. self-led) decreased 47% to $1.1 billion.",
+      "quote": "Total investment banking fees (excl. self-led) of $1.1 billion, decreased 47%, reflecting weaker industry-wide underwriting activity this year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest expense included approximately $425 million recognized for certain regulatory matters.",
+      "quote": "Noninterest expense increased by $228 million, or 2%, to $15.3 billion and included approximately $425 million recognized for certain regulatory matters",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer net charge-offs increased $185 million from Q1-22, including $85 million from non-core mortgage sales.",
+      "quote": "Consumer net charge-offs of $525 million increased $185 million from Q1-22, including $85 million from non-core mortgage sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth consecutive quarter of operating leverage.",
+      "quote": "Fourth consecutive quarter of operating leverage(A) (See page 10 for endnotes.)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer Banking added ~241,000 net new Consumer checking accounts in Q2-22.",
+      "quote": "Added ~241,000 net new Consumer checking accounts in Q2-22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Wealth and Investment Management added more than 5,100 net new relationships across Merrill and Private Bank.",
+      "quote": "Added more than 5,100 net new relationships across Merrill and Private Bank",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue up 17% to $4.2 billion.",
+      "quote": "Sales and trading revenue up 17% to $4.2 billion, including net debit valuation adjustment (DVA) gains of $158 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Transaction Services revenue up 32% to $2.4 billion.",
+      "quote": "Global Transaction Services revenue of $2.4 billion up $583 million, or 32%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Brian Moynihan stated: 'Our strong organic growth engine once again was evident... we believe we are well-positioned to deliver for our shareholders while continuing to invest in our people, businesses and communities.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No explicit forward guidance on revenue, earnings, or growth was provided.",
+      "quote": "Not disclosed. No explicit forward guidance on revenue, earnings, or growth was provided. Management stated: 'As we enter the second half of the year, we believe we are well-positioned to deliver for our shareholders while continuing to invest in our people, businesses and communities.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary of the HOLD/BUY threshold. The document lacks explicit forward guidance, so the score is based on operational momentum and cautious optimism. A reviewer may want to confirm this borderline assignment."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2022-07-18",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2022",
+    "report_date": "2022-07-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q2\\bac-2q22-press-release.html",
+        "pub_date": "2022-07-18"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q2\\bac-2q22-presentation.html",
+        "pub_date": "2022-07-18"
+      }
+    ],
+    "document_id": "BAC_FQ2_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144506Z",
+    "timestamp": "2026-07-09T14:47:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q2\\bac-2q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q2\\bac-2q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 61543,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2022-Q2\\bac-2q22-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 66298,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2022.txt"
+  }
+}

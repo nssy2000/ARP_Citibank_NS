@@ -1,0 +1,58 @@
+{
+  "document_id": "KO_FQ4_2025_QUANT",
+  "base_document_id": "KO_FQ4_2025",
+  "issuer": "p2_coca_cola",
+  "ticker": "KO",
+  "sector": "Consumer Staples",
+  "report_date": "2026-02-10",
+  "sentiment": {
+    "score": 0.392886
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.123973,
+      "window_start_date": "2026-01-08",
+      "window_end_date": "2026-02-09",
+      "score": 0.678585,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.160877,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 2.69,
+      "matched_earnings_date": "2026-02-10",
+      "score": 0.107187,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.79,
+      "vix_score": 0.080492,
+      "tnx_change": -0.024,
+      "tnx_score": 0.047964,
+      "score": 0.064228,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2026-02-09",
+      "curve_spread": 0.74,
+      "curve_score": 0.629145,
+      "curve_as_of": "2026-02-09",
+      "score": 0.545631,
+      "available": true
+    },
+    "quant_score": 0.392886,
+    "quant_score_with_macro": 0.228557,
+    "quant_score_with_fred": 0.469259,
+    "quant_score_with_macro_fred": 0.334248
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

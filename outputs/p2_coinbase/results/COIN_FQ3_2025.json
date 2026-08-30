@@ -1,0 +1,203 @@
+{
+  "document_id": "COIN_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong Q3 results with total revenue of $1.9B and adjusted EBITDA of $801M, and consumer spot volume up 37% QoQ. However, forward guidance is mixed: October transaction revenue is tracking at about $385M (implying a slowdown from Q3's $979M quarterly transaction revenue), and Q4 subscription and services guidance of $710M-$790M is roughly flat to Q3's $747M. Management expresses confidence in the long-term vision but acknowledges new competition and a multi-quarter regulatory roadmap for US options. The score reflects genuine operational momentum (e.g., Deribit acquisition, DEX integrations) without a formal guidance raise, tempered by cautious forward signals and acknowledged risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue $1.9B. Transaction revenue $979M, subscription and services $747M.",
+    "eps": "Net income $433M. Adjusted Net Income $421M. EPS not explicitly stated.",
+    "guidance": "October transaction revenue tracking at about $385M. Q4 subscription and services guided to $710M to $790M. Combined tech, development and G&A expenses $925M to $975M.",
+    "margin": "Not disclosed.",
+    "key_risks": [
+      "A multi-quarter regulatory roadmap is still needed to bring US options products to market.",
+      "New exchange competitors are entering, with competitive dynamics acknowledged in October.",
+      "Infrastructure scaling risk after past cloud outages, driving multi-cloud investment."
+    ],
+    "key_opportunities": [
+      "Deribit acquisition with over 75% market share for options, providing a huge opportunity for Coinbase.",
+      "DEX integrations expanded tradable assets from 300 to over 40,000.",
+      "Stablecoin adoption accelerating with USDC market cap hitting $300B and policy tailwinds like the GENIUS Act.",
+      "Coinbase Developer Platform powering 264 institutions including JPMorgan, BlackRock, Citi.",
+      "Payments platform with over 1,000 businesses onboarded and growing waitlist."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'another great quarter,' 'incredibly strong' core business, and 'very well positioned for the opportunities ahead,' reflecting a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $1.9 billion.",
+      "quote": "Total revenue was $1.9 billion, Adjusted EBITDA was $801 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Transaction revenue was $979 million, subscription and services $747 million.",
+      "quote": "Total revenue $1.9B. Transaction revenue $979M, subscription and services $747M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income was $433 million.",
+      "quote": "Net income $433 million. Adjusted EBITDA $801 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer spot volume was $59 billion, up 37% quarter over quarter.",
+      "quote": "Consumer spot volume $59B, up 37% quarter over quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "October transaction revenue is tracking at about $385 million.",
+      "quote": "October transaction revenue tracking at about $385M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 subscription and services guided to $710M to $790M.",
+      "quote": "Q4 subscription and services guided to $710M to $790M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined tech, development and G&A expenses $925M to $975M.",
+      "quote": "Combined tech, development and G&A expenses $925M to $975M.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A multi-quarter regulatory roadmap is still needed to bring US options products to market.",
+      "quote": "A multi-quarter regulatory roadmap is still needed to bring US options products to market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New exchange competitors are entering, with competitive dynamics acknowledged in October.",
+      "quote": "New exchange competitors are entering, with competitive dynamics acknowledged in October.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Infrastructure scaling risk after past cloud outages, driving multi-cloud investment.",
+      "quote": "Infrastructure scaling risk after past cloud outages, driving multi-cloud investment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deribit had over 75% market share for options, providing a huge opportunity.",
+      "quote": "Deribit had over 75% market share for options . . . huge opportunity for us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DEX integrations expanded tradable assets from 300 to over 40,000.",
+      "quote": "We turbocharged our trading platform in Q3 by adding DEX integrations, expanding assets from 300 to over 40,000.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Stablecoin adoption accelerating with USDC market cap hitting $300B and policy tailwinds.",
+      "quote": "Adoption is already well underway as stablecoin market cap hit $300 billion driven by companies and financial institutions using them for payments and treasury, and we expect policy tailwinds like the GENIUS Act to continue to accelerate this.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Coinbase Developer Platform powering 264 institutions including JPMorgan, BlackRock, Citi.",
+      "quote": "we've been able to close 264 institutions now that are using that product, including large companies like JPMorgan, BlackRock, Citi, PNC, fintechs like Stripe, PayPal, Revolut, Webull.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Payments platform with over 1,000 businesses onboarded and growing waitlist.",
+      "quote": "we've seen great early traction with over 1,000 businesses onboarded, and we have a growing wait list.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "It was another great quarter for Coinbase. We continue to drive strong financial performance and build The Everything Exchange... Coinbase's core business is incredibly strong, and we're very well positioned for the opportunities ahead of us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on operational momentum without a formal guidance raise. The October transaction revenue tracking of $385M implies a significant slowdown from Q3's $979M, which could be interpreted as a negative signal. A human reviewer should verify whether this tracking figure represents a normal seasonal pattern or a concerning deceleration."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "COIN_Bundled Earnings Report_2025-10-30",
+  "report_metadata": {
+    "issuer": "p2_coinbase",
+    "company": "Coinbase",
+    "ticker": "COIN",
+    "sector": "Financials/Crypto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-30",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q3\\08 coinbase q3 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q3\\COIN-Q3-2025-Earnings-Call-Transcript-official.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COIN_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172642Z",
+    "timestamp": "2026-07-30T17:27:00Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q3\\08 coinbase q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q3\\08 coinbase q3 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 6163,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q3\\COIN-Q3-2025-Earnings-Call-Transcript-official.pdf",
+        "page_count": 12,
+        "extracted_characters": 50919,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ3_2025.txt"
+  }
+}

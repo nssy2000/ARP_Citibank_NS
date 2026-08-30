@@ -1,0 +1,214 @@
+{
+  "document_id": "HLT_FQ1_2026",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Hilton raised its full-year 2026 system-wide RevPAR growth guidance to 2.0%-3.0% (from a prior outlook that implied lower growth, as the Q1 result of 3.6% beat the high end of guidance and the company explicitly raised the full-year outlook). Adjusted EBITDA of $901 million exceeded the high end of guidance, and management expressed strong confidence in sustained demand trends and 6%-7% net unit growth. The primary offsetting risk is the Middle East conflict, which management explicitly quantified as a 0.5 to 1.0 point drag on full-year RevPAR, but this is a known, quantified headwind rather than an unexpected negative."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $2,937 million for Q1 2026, up from $2,695 million in Q1 2025. Management and franchise fee revenues increased 10.4% year-over-year.",
+    "eps": "Diluted EPS was $1.66 for Q1 2026; diluted EPS adjusted for special items was $2.01, compared to $1.23 and $1.72, respectively, in Q1 2025.",
+    "guidance": "Full-year 2026: system-wide comparable RevPAR growth of 2.0%-3.0% (currency neutral); diluted EPS of $8.28-$8.40; adjusted diluted EPS of $8.79-$8.91; net income of $1,909-$1,937 million; Adjusted EBITDA of $4,020-$4,060 million; net unit growth of 6.0%-7.0%; capital return of approximately $3.5 billion. Q2 2026: RevPAR growth of 2.0%-3.0%; adjusted diluted EPS of $2.18-$2.24; Adjusted EBITDA of $1,015-$1,035 million.",
+    "margin": "Net income margin was 13.0% in Q1 2026, up from 11.1% in Q1 2025. Adjusted EBITDA margin was 75.3%, up from 73.7%.",
+    "key_risks": [
+      "Middle East conflict causing travel disruptions, with full-year 2026 Middle East & Africa RevPAR expected to be down in the mid- to high teens.",
+      "Potential knock-on effects of the Middle East conflict on other regions, including India, Seychelles, and Maldives.",
+      "Geopolitical uncertainty, including risks from tariffs, trade barriers, and immigration policies.",
+      "Potential slowdown in Middle East hotel deliveries affecting net unit growth timing."
+    ],
+    "key_opportunities": [
+      "Record development pipeline of 527,000 rooms, representing over 20% of all hotel rooms under construction globally.",
+      "Strong demand trends across all chain scales, brands, and customer segments, with U.S. macroeconomic tailwinds from tax policy, deregulation, and AI investment.",
+      "Strategic expansion in high-growth markets including India (125 Hampton Hotels agreement), APAC ex-China, and Europe.",
+      "AI initiatives including the Hilton AI Planner to enhance guest personalization and drive direct bookings.",
+      "Conversions expected to rise nominally in 2026 across every region."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described 'great first quarter' results, raised full-year guidance, and expressed confidence in 'sustained net unit growth of between 6% to 7% for the full year even with the current geopolitical uncertainty.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2026 total revenues were $2,937 million, up from $2,695 million in Q1 2025.",
+      "quote": "Total revenues 2,937 2,695",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management and franchise fee revenues increased 10.4% year-over-year.",
+      "quote": "Management and franchise fee revenues increased 10.4 percent compared to the same period in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 diluted EPS was $1.66, and adjusted diluted EPS was $2.01.",
+      "quote": "For the three months ended March 31, 2026, diluted EPS was $1.66 and diluted EPS, adjusted for special items, was $2.01, compared to $1.23 and $1.72, respectively, for the three months ended March 31, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance was raised, with RevPAR growth of 2.0%-3.0% and adjusted EBITDA of $4,020-$4,060 million.",
+      "quote": "Full year 2026 system-wide RevPAR is projected to increase between 2.0 percent and 3.0 percent on a comparable and currency neutral basis compared to 2025; full year net income is projected to be between $1,909 million and $1,937 million; full year Adjusted EBITDA is projected to be between $4,020 million and $4,060 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 Adjusted EBITDA of $901 million exceeded the high end of guidance.",
+      "quote": "Adjusted EBITDA was $901 million in the first quarter, up 13% year-over-year and exceeding the high end of our guidance range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income margin improved to 13.0% from 11.1%.",
+      "quote": "Net income margin 13.0 % 11.1 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin improved to 75.3% from 73.7%.",
+      "quote": "Adjusted EBITDA margin 75.3 % 73.7 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Middle East conflict is a key risk, with full-year MEA RevPAR expected to be down in the mid- to high teens.",
+      "quote": "For full year 2026, we expect RevPAR to be down in the mid- to high teens as a result of the ongoing conflict in the region, and we expect the biggest impact to be on second quarter performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Middle East conflict could have knock-on effects on other regions.",
+      "quote": "There's some knock-on impact on other markets. We've seen a little bit of that, a little bit in India, particularly Bangalore, a little bit in the Seychelles and Maldives because of transit through Dubai, but not a lot of knock-on impact, but we've assumed if it stays really bad, there'll be a little bit more.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The development pipeline is at a record 527,000 rooms.",
+      "quote": "Our pipeline now stands at a record 527,000 rooms and includes brand [indiscernible] in more than 25 new countries with Hilton representing only 5.5% of global hotel supply and over 20% of rooms under construction, we have tremendous opportunity to grow our market share from here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Demand trends are strengthening across all segments, supported by U.S. macroeconomic tailwinds.",
+      "quote": "We delivered great top and bottom-line results for the quarter with RevPAR growth across all chain-scales and brands and customer segments. The results demonstrate a continuation of strengthening demand trends we've seen since late 2025 that are supported by macroeconomic tailwinds most evident in the U.S.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "India is a key growth opportunity with a strategic agreement for 125 Hampton Hotels.",
+      "quote": "In India, we signed a strategic agreement with Royal Orchard Hotel to open 125 Hampton Hotels in the market, which puts us on track to exceed 400 hotels in the market in the coming years and reaffirms our commitment to expanding in this key emerging economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI initiatives, including the Hilton AI Planner, are a growth driver.",
+      "quote": "Building on this, earlier this quarter, we deployed an Anthropic-powered platform for customers to dream and shop called the Hilton AI Planner, this LLM powered tool combines our incredibly rich property content with vast information about local venues and activities to allow customers to search for and tailor an experience that is unique to their interest.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Conversions are expected to rise nominally in 2026 across every region.",
+      "quote": "Conversions overall are expected to be up on a nominal basis in 2026 across every region, demonstrating the performance our system delivers to owners.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in sustaining 6%-7% net unit growth despite geopolitical uncertainty.",
+      "quote": "As we look ahead, we expect that our robust global pipeline strength in conversions, construction start momentum and industry-leading brand premiums will support sustained net unit growth of between 6% to 7% for the full year even with the current geopolitical uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Middle East conflict is expected to have a 0.5 to 1.0 point negative impact on full-year system-wide RevPAR.",
+      "quote": "For the full year, it's probably 0.5 point to 1 point impact depending on what you think the trajectory will be.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, describing a 'great first quarter' and raising guidance.",
+      "quote": "We're pleased to report a great first quarter during which strong RevPAR and net unit growth drove top and bottom line results above the high end of our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of +0.50 reflects a formal guidance raise (RevPAR raised to 2-3% from prior outlook) and a Q1 beat above the high end of guidance. However, the raise is partially offset by a quantified Middle East headwind (0.5-1.0 point on RevPAR). A reviewer should verify whether the prior full-year RevPAR guidance was explicitly stated in the document or only implied, as the document does not explicitly state the prior full-year RevPAR guidance figure."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HLT_Bundled Earnings Report_2026-04-28",
+  "report_metadata": {
+    "issuer": "p2_hilton",
+    "company": "Hilton",
+    "ticker": "HLT",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2026-Q1\\HLT-Q1-2026-Earnings-Release.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2026-Q1\\HLT-Q1-2026-Earnings-Call-Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HLT_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260804T100921Z",
+    "timestamp": "2026-08-04T10:10:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2026-Q1\\HLT-Q1-2026-Earnings-Release.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_hilton\\extracted\\HLT_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2026-Q1\\HLT-Q1-2026-Earnings-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 42022,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2026-Q1\\HLT-Q1-2026-Earnings-Call-Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 54277,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_hilton\\extracted\\HLT_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

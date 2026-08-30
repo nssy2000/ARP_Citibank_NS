@@ -1,0 +1,277 @@
+{
+  "document_id": "WDAY_FQ4_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Workday reported strong Q4 results with subscription revenue up 15.7% and non-GAAP operating margin expanding to 30.6%, but forward guidance for FY27 subscription revenue growth of 12-13% is a deceleration from FY26's 14.5% growth, and management explicitly noted a slower pace of margin expansion due to increased AI investment. The guidance was not raised relative to prior expectations (CFO stated 'the guide hasn't changed materially from what we indicated 90 days ago'), and management's tone is optimistic but acknowledges near-term headwinds from the DIA contract and elongated large enterprise deal cycles. The score reflects genuine operational momentum and confident AI narrative, but is tempered by the flat-to-lower forward guidance and explicit investment-driven margin trade-off."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Q4 total revenues $2.532 billion, up 14.5% YoY; subscription revenues $2.360 billion, up 15.7% YoY. FY26 total revenues $9.552 billion, up 13.1%; subscription revenues $8.833 billion, up 14.5%.",
+    "eps": "Q4 diluted EPS $0.55 (GAAP), non-GAAP $2.47 (beat expectations of $2.32). FY26 diluted EPS $2.59 (GAAP), non-GAAP $9.23.",
+    "guidance": "FY27 subscription revenue $9.925-9.950 billion (12-13% growth); Q1 FY27 subscription revenue $2.335 billion (13% growth); FY27 non-GAAP operating margin ~30%; Q1 non-GAAP operating margin 30.5%; FY27 free cash flow $3.180 billion (15% growth).",
+    "margin": "Q4 non-GAAP operating margin 30.6% (up from 26.4% YoY); FY26 non-GAAP operating margin 29.6% (up from 25.9%). GAAP operating margin Q4 6.9%, FY26 7.5%.",
+    "key_risks": [
+      "Some net new large enterprise deals taking longer to close, particularly in Fed, SLED, healthcare, and parts of commercial market, impacting Q4 net new deal volume.",
+      "DIA contract added nearly 1 point to Q4 subscription revenue growth and is not expected to continue in Q1, impacting sequential performance.",
+      "Average contract duration down year-over-year due to higher mix of renewal and customer base activity.",
+      "Accelerated pace of AI investment across product and go-to-market expected to slow near-term margin expansion.",
+      "Restructuring expenses of $303 million in FY26 impacted operating income.",
+      "Forward-looking statements subject to risks including security breaches, service outages, competition, privacy regulations, and economic volatility."
+    ],
+    "key_opportunities": [
+      "Agentic AI adoption accelerating: Q4 generated over $100 million in new ACV from emerging AI products, growing over 100% YoY; overall ARR from these solutions now over $400 million.",
+      "1.7 billion AI actions delivered across platform in FY26; 12 new organically developed role-based agents moving to general availability.",
+      "Sana Core and Sana Enterprise released to GA, creating new way for 75 million users to engage with Workday.",
+      "Flex Credits consumption-based pricing model gaining traction with nearly 50 customers signed on.",
+      "International expansion progress in Canada, EMEA, ASEAN, Japan, and India.",
+      "Medium enterprise customers drove roughly 60% of net new ACV in FY26, with Workday GO expansion."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Aneel Bhusri stated 'I'm very optimistic about what we're doing on the agentic front' and 'I truly believe that our investments in agentic AI will enable Workday to reaccelerate growth,' while CFO Zane Rowe noted 'we still feel like we've got good momentum' despite acknowledging near-term investment trade-offs."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 total revenues were $2.532 billion, up 14.5% year-over-year.",
+      "quote": "Fiscal Fourth Quarter Total Revenues of $2.532 Billion, Up 14.5% Year-Over-Year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 subscription revenues were $2.360 billion, up 15.7% year-over-year.",
+      "quote": "Subscription Revenues of $2.360 Billion, Up 15.7% Year-Over-Year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 total revenues were $9.552 billion, up 13.1% year-over-year.",
+      "quote": "Fiscal Year 2026 Total Revenues of $9.552 Billion, Up 13.1% Year-Over-Year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 subscription revenues were $8.833 billion, up 14.5% year-over-year.",
+      "quote": "Subscription Revenues of $8.833 Billion, Up 14.5% Year-Over-Year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 diluted GAAP EPS was $0.55, and non-GAAP diluted EPS was $2.47, beating expectations of $2.32.",
+      "quote": "Diluted net income per share was $0.55... Non-GAAP diluted net income per share was $2.47... Workday, Inc. beats earnings expectations. Reported EPS is $2.47, expectations were $2.32.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 diluted GAAP EPS was $2.59, and non-GAAP diluted EPS was $9.23.",
+      "quote": "Diluted net income per share was $2.59... Non-GAAP diluted net income per share was $9.23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY27 subscription revenue guidance is $9.925 billion to $9.950 billion, representing 12% to 13% growth.",
+      "quote": "We expect fiscal 2027 subscription revenues of approximately $9.925 billion to $9.950 billion, representing 12% to 13% growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 FY27 subscription revenue guidance is $2.335 billion, representing 13% growth.",
+      "quote": "We anticipate Q1 FY27 subscription revenue to be approximately $2.335 billion, growth of 13%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY27 non-GAAP operating margin guidance is approximately 30%.",
+      "quote": "We expect FY27 non-GAAP operating margin of approximately 30%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 non-GAAP operating margin was 30.6%, up from 26.4% in the prior year.",
+      "quote": "Non-GAAP operating income for the fourth quarter was $774 million, representing a non-GAAP operating margin of 30.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 non-GAAP operating margin was 29.6%, up from 25.9% in the prior year.",
+      "quote": "Full-year non-GAAP operating income was $2.82 billion, reflecting a non-GAAP operating margin of 29.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Some net new large enterprise deals are taking longer to close, impacting Q4 net new deal volume.",
+      "quote": "At the same time, some net new large enterprise deals are taking longer to close, particularly in Fed, SLED and health care and across parts of the commercial market. While this impacted the volume of net new deals that closed in Q4, most opportunities remain active in our pipeline and a few have already closed in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The DIA contract added nearly 1 point to Q4 subscription revenue growth and is not expected to continue in Q1.",
+      "quote": "Revenue in the quarter benefited from the successful delivery of the DIA contract, which added nearly 1 point to Q4 subscription revenue growth. ... As we mentioned last quarter, this year's sequential performance is impacted by the DIA contract, which added nearly 1 point to Q4 subscription revenue growth and is not expected to continue in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average contract duration was down year-over-year.",
+      "quote": "Average contract duration in the quarter was down year-over-year, driven by a higher mix of renewal and customer base activity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Accelerated AI investment will slow near-term margin expansion.",
+      "quote": "We remain focused on both GAAP and non-GAAP margin expansion, albeit at a slower pace in the near term than what we previously communicated.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restructuring expenses of $303 million impacted FY26 operating income.",
+      "quote": "Operating income in fiscal 2026 was impacted by restructuring expenses of $303 million, compared to restructuring expenses of $84 million in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 generated over $100 million in new ACV from emerging AI products, growing over 100% year-over-year.",
+      "quote": "In Q4, we generated over $100 million in new ACV from emerging AI products, that's growing over 100% year-over-year, and our overall ARR from these solutions is now over $400 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Workday delivered 1.7 billion AI actions across its platform in fiscal 2026.",
+      "quote": "In full year '26, we delivered 1.7 billion AI actions across the Workday platform and this is all organically developed AI in Workday.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "12 new organically developed role-based agents are moving to general availability.",
+      "quote": "Today, we have 12 new organically developed role-based agents that are now starting to move into general availability for all our customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sana Core and Sana Enterprise were released to general availability.",
+      "quote": "Sana Core and Sana Enterprise went into GA on February 15, which we executed with world-class speed from project start to finish in just 3 months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Flex Credits pricing model has nearly 50 customers signed on.",
+      "quote": "Accenture, Nike and Merck are among the first of nearly 50 customers signing on to use our new model.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International expansion is progressing in Canada, EMEA, ASEAN, Japan, and India.",
+      "quote": "We're making good progress in Canada, EMEA, ASEAN and Japan. ... We've actually opened up India, where we've closed 1 or 2 deals already. And our Canadian business is actually doing really, really well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medium enterprise customers drove roughly 60% of net new ACV in FY26.",
+      "quote": "ME customers drove roughly 60% of net new ACV in FY '26.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic, with CEO expressing confidence in AI-driven growth.",
+      "quote": "I'm very optimistic about what we're doing on the agentic front. ... I truly believe that our investments in agentic AI will enable Workday to reaccelerate growth, increased customer satisfaction and set us up for long-term leadership.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance has not changed materially from prior indications.",
+      "quote": "We still feel like we've got good momentum, the guide hasn't changed materially from what we indicated 90 days ago",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is borderline; guidance was not raised (flat vs prior), but strong AI momentum and margin expansion could justify slightly higher. Reviewer should weigh the deceleration in FY27 growth guidance against the AI opportunity narrative."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document lists forward-looking risk factors in the press release; these are standard boilerplate but included as explicit risks. Reviewer may want to distinguish structural risks (deal elongation, DIA impact) from generic risk factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "WDAY_Bundled Earnings Report_2026-02-24",
+  "report_metadata": {
+    "issuer": "p2_workday",
+    "company": "Workday",
+    "ticker": "WDAY",
+    "sector": "Technology/Software - Application",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-24",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q4\\Earnings_Presentation_Q4_2025.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q4\\Earnings_Call_Transcript_Q4_2025.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "WDAY_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T104202Z",
+    "timestamp": "2026-08-09T10:43:37Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_workday\\extracted\\WDAY_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 29209,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q4\\Earnings_Presentation_Q4_2025.pdf",
+        "page_count": 9,
+        "extracted_characters": 21858,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q4\\Earnings_Call_Transcript_Q4_2025.txt",
+        "page_count": 1,
+        "extracted_characters": 309621,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_workday\\extracted\\WDAY_FQ4_2025.txt"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "document_id": "BA_FQ4_2023",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports improved year-over-year financial results (revenue up 10%, core loss per share improved from -$1.75 to -$0.47, free cash flow of $3.0B), but the forward outlook is dominated by the Alaska Airlines Flight 1282 accident and its consequences. Management explicitly withdrew 2024 guidance ('we're not issuing financial outlook for 2024 today'), announced a production rate freeze at 38 per month on the 737 until quality is assured, and stated that the 2025/2026 goals 'may take longer in that window than originally anticipated.' These are clear structural risks and a de facto guidance reduction, warranting a score of -0.50."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2023 revenue of $22.0 billion, up 10% year-over-year from $19.98 billion. Full-year 2023 revenue of $77.8 billion, up 17% from $66.6 billion.",
+    "eps": "Q4 2023 GAAP loss per share of ($0.04), improved from ($1.06) in Q4 2022. Core loss per share (non-GAAP) of ($0.47), improved from ($1.75). Full-year 2023 GAAP loss per share of ($3.67), improved from ($8.30). Core loss per share of ($5.81), improved from ($11.06).",
+    "guidance": "No 2024 financial outlook issued. 737 production rate held at 38 per month. 2025/2026 goals reaffirmed but 'may take longer in that window than originally anticipated.' Free cash flow expected to be 'steady' with the bottom-end 'a lot like it did last year and maybe a little bit of growth.'",
+    "margin": "Q4 2023 GAAP operating margin of 1.3%, improved from (1.7)% in Q4 2022. Core operating margin (non-GAAP) of 0.4%, improved from (3.2)%. Full-year 2023 GAAP operating margin of (1.0)%, improved from (5.3)%. Core operating margin of (2.4)%, improved from (7.0)%.",
+    "key_risks": [
+      "Alaska Airlines Flight 1282 accident and ongoing NTSB investigation.",
+      "737 MAX 9 grounding and return-to-service process.",
+      "FAA increased oversight and production rate freeze at 38 per month on 737.",
+      "No 2024 financial guidance issued due to uncertainty.",
+      "2025/2026 financial goals may take longer to achieve.",
+      "MAX 7 and MAX 10 certification delays, including withdrawal of time-limit exemption.",
+      "Defense, Space & Security segment operating margin of (1.5)% with $139 million in losses on fixed-price development programs.",
+      "Approximately 200 MAX airplanes in inventory, including 140 pre-2023 builds for China/India and 35 uncertified variants.",
+      "Approximately 60 787s in inventory, 50 requiring rework.",
+      "Approximately $300 million in remaining abnormal costs on 787 program.",
+      "777X program investment and certification timeline uncertainty."
+    ],
+    "key_opportunities": [
+      "Recorded 611 net orders in Q4 and 1,576 for full year 2023.",
+      "Total company backlog grew to $520 billion, including over 5,600 commercial airplanes.",
+      "Strong demand environment with robust backlog.",
+      "Global Services segment delivered 17.4% operating margin, up 350 bps year-over-year.",
+      "China deliveries have resumed.",
+      "737-10 certification flight testing began.",
+      "777X production resumed with large Emirates order.",
+      "Defense, Space & Security backlog of $59 billion with strong demand.",
+      "Expectation to wind down shadow factories and liquidate inventory over time."
+    ],
+    "management_tone": {
+      "label": "defensive",
+      "justification": "The CEO's opening remarks focus on accountability for the accident and quality actions, stating 'We caused the problem and we understand that' and 'we're not issuing financial outlook for 2024 today. Now is not the time for that.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2023 revenue was $22.0 billion, up 10% year-over-year.",
+      "quote": "The Boeing Company [NYSE: BA] recorded fourth quarter revenue of $22.0 billion... Revenues $22,018 $19,980 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 GAAP loss per share was ($0.04), improved from ($1.06).",
+      "quote": "Loss per share ($0.04) ($1.06) NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 core loss per share (non-GAAP) was ($0.47), improved from ($1.75).",
+      "quote": "Core loss per share (non-GAAP) ($0.47) ($1.75)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No 2024 financial outlook was issued.",
+      "quote": "we're not issuing financial outlook for 2024 today. Now is not the time for that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production rate is held at 38 per month.",
+      "quote": "Today, we're producing 737s at a rate of 38 per month and we will remain at that rate until the FAA and Boeing is satisfied with our quality of manufacturing process.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025/2026 goals may take longer to achieve.",
+      "quote": "We're still confident in the goals we laid out for 2025/2026, although it may take longer in that window than originally anticipated, and we won't rush the system.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 GAAP operating margin was 1.3%, improved from (1.7)%.",
+      "quote": "Operating margins 1.3 % (1.7) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 core operating margin (non-GAAP) was 0.4%, improved from (3.2)%.",
+      "quote": "Core operating margins 0.4 % (3.2) % NM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Alaska Airlines Flight 1282 accident is a key risk.",
+      "quote": "The company continues to cooperate transparently with the FAA following the Alaska Airlines Flight 1282 accident involving a 737-9.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security segment had an operating margin of (1.5)% with $139 million in losses.",
+      "quote": "Fourth quarter operating margin was (1.5) percent, primarily driven by $139 million of losses on certain fixed-price development programs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog grew to $520 billion.",
+      "quote": "Total company backlog at quarter end was $520 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services segment delivered 17.4% operating margin.",
+      "quote": "Global Services fourth quarter revenue of $4.8 billion and operating margin of 17.4 percent reflect higher commercial volume and mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China deliveries have resumed.",
+      "quote": "we have stood by our customers in China day-in, day-out. They have been flying MAXs now for the better part of a year... and I think everybody has noticed that those deliveries have started.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is defensive.",
+      "quote": "We caused the problem and we understand that. Over these last few weeks, I've had tough conversations with our customers, with our regulators, congressional leaders and more. We understand why they are angry and we will work to earn their confidence.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately 200 MAX airplanes in inventory.",
+      "quote": "The quarter ended with about 200 MAX airplanes in inventory.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately 60 787s in inventory, 50 requiring rework.",
+      "quote": "We ended the quarter with approximately 60 airplanes in inventory, about 50 of which require rework which continues to progress steadily.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow expected to be 'steady' with bottom-end similar to last year.",
+      "quote": "our belief with standard today, the bottom-end will look a lot like it did last year and maybe a little bit of growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects the severe forward-looking risks from the accident and guidance withdrawal, but the document also shows strong operational improvements in the quarter. A reviewer may consider whether the positive backward-looking results warrant a slightly less negative score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2024-01-31",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2024-01-31",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q4\\ba-4q23-press-release.html",
+        "pub_date": "2024-01-31"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q4\\ba-4q23-presentation.pdf",
+        "pub_date": "2024-01-31"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q4\\ba-4q23-transcript.pdf",
+        "pub_date": "2024-01-31"
+      }
+    ],
+    "document_id": "BA_FQ4_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:36:25Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q4\\ba-4q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q4\\ba-4q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25834,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q4\\ba-4q23-presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 6702,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q4\\ba-4q23-transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 72542,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ4_2023.txt"
+  }
+}

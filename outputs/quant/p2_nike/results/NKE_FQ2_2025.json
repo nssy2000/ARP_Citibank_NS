@@ -1,0 +1,58 @@
+{
+  "document_id": "NKE_FQ2_2025_QUANT",
+  "base_document_id": "NKE_FQ2_2025",
+  "issuer": "p2_nike",
+  "ticker": "NKE",
+  "sector": "Consumer/Retail",
+  "report_date": "2025-06-26",
+  "sentiment": {
+    "score": 0.32368
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.020231,
+      "window_start_date": "2025-05-23",
+      "window_end_date": "2025-06-25",
+      "score": 0.13406,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.319542,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 14.18,
+      "matched_earnings_date": "2025-06-26",
+      "score": 0.5133,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.59,
+      "vix_score": 0.159298,
+      "tnx_change": -0.181,
+      "tnx_score": 0.346975,
+      "score": 0.253137,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-06-25",
+      "curve_spread": 0.55,
+      "curve_score": 0.50052,
+      "curve_as_of": "2025-06-25",
+      "score": 0.25026,
+      "available": true
+    },
+    "quant_score": 0.32368,
+    "quant_score_with_macro": 0.288409,
+    "quant_score_with_fred": 0.28697,
+    "quant_score_with_macro_fred": 0.275692
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

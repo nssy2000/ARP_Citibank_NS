@@ -1,0 +1,213 @@
+{
+  "document_id": "PINS_FQ1_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company delivered a strong Q1 with revenue of $1,008 million (up 18% Y/Y), which was above the high end of its guidance range, and Q2 revenue guidance of $1,133-$1,153 million (14-16% growth) is roughly consistent with Q1 on a constant currency basis, indicating a stable forward outlook rather than a material raise. Management expressed confidence in its long-term targets and highlighted strong AI-driven momentum, but also noted that progress may not be linear and that international growth will moderate in Q2 due to deliberate organizational changes. The forward guidance was held roughly in line with the prior trajectory, and the beat was partially attributed to a one-time reversal from Canada digital services tax, so the score is mildly positive but not a strong buy signal."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$1,008 million, up 18% year-over-year (15% on a constant currency basis).",
+    "eps": "GAAP net loss per share of $0.12 (basic and diluted); Non-GAAP net income per share of $0.27.",
+    "guidance": "Q2 2026 revenue expected in the range of $1,133 million to $1,153 million, representing 14%-16% growth year-over-year. Q2 2026 Adjusted EBITDA expected in the range of $256 million to $276 million. Full year 2026 Adjusted EBITDA margin expected to be around 29%.",
+    "margin": "Adjusted EBITDA margin of 20% in Q1 2026, up 40 basis points year-over-year. Full year 2026 Adjusted EBITDA margin expected to be around 29%.",
+    "key_risks": [
+      "Continued headwind from largest retail advertisers, though partially offset by AI-driven improvements.",
+      "Moderation of international growth in Q2 due to deliberate leadership and structural changes in the international go-to-market organization.",
+      "Lapping more difficult comparisons in Rest of World and Europe in Q2 due to ramping of resellers and elevated cross-border spend following US tariffs.",
+      "Impact from the conflict in the Middle East, seen most directly in Rest of World and to a lesser extent in Europe, isolated to certain verticals impacted by higher oil prices.",
+      "General economic uncertainty, inflation, tariffs, and foreign exchange fluctuations as stated in forward-looking statements."
+    ],
+    "key_opportunities": [
+      "AI-driven ad platform improvements, including Pinterest Performance+ campaigns, which are growing lower funnel spend for adopters at nearly twice the rate of non-adopters.",
+      "Expansion of go-to-market organization to broaden revenue base across mid-market, enterprise, managed SMB, and international advertisers.",
+      "Strengthening measurement and attribution capabilities to capture more of the value Pinterest drives for advertisers.",
+      "tvScientific acquisition to extend Pinterest's audiences and signals to power performance Connected TV campaigns.",
+      "Continued user growth and deepening engagement, with 631 million global MAUs and 80 billion+ monthly searches."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management described a 'strong start to 2026' and expressed confidence in the long-term opportunity, while acknowledging that 'progress may not always be linear'."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 revenue was $1,008 million, up 18% year-over-year.",
+      "quote": "Revenue was $1,008 million, growing 18% year over year. On a constant currency basis, revenue would have grown 15% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net loss per share was $0.12, and non-GAAP net income per share was $0.27.",
+      "quote": "Net income (loss) per share: Basic $ (0.12) $ 0.01 Diluted $ (0.12) $ 0.01 ... Non-GAAP net income per share $ 0.27 $ 0.23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 revenue guidance is $1,133 million to $1,153 million, representing 14%-16% growth.",
+      "quote": "For Q2 2026, we expect revenue to be in the range of $1,133 million to $1,153 million, representing 14% - 16% growth year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 Adjusted EBITDA guidance is $256 million to $276 million.",
+      "quote": "We expect Q2 2026 Adjusted EBITDA* to be in the range of $256 million to $276 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 Adjusted EBITDA margin was 20%, up 40 basis points year-over-year.",
+      "quote": "In Q1, we delivered $207 million in Adjusted EBITDA above our guidance range with an Adjusted EBITDA margin of 20% and up 40 basis points versus Q1 last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2026 Adjusted EBITDA margin is expected to be around 29%.",
+      "quote": "For Adjusted EBITDA , we continue to expect full year 2026 margins to come in around 29% including the approximately 100 basis point drag from tvScientific that we called out previously.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The largest retail advertisers remained a headwind in Q1, but AI-driven improvements partially offset this.",
+      "quote": "As we previewed on the last earnings call , we saw a continued headwind from our largest retailers in Q1. However, AI-driven ad platform improvements , including bidding optimizations for this group, partially offset some of this headwind later in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International growth is expected to moderate in Q2 due to deliberate organizational changes.",
+      "quote": "We're making deliberate leadership and structural changes to our international go -tomarket organization to best position for the long -term opportunity, including a new head of international joining soon. As we said last quarter, progress as we rebuild and retool the organization will not always be linear, but that modest disruption is playing out here in our international regions in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The conflict in the Middle East has a small impact on the business, primarily in Rest of World and Europe.",
+      "quote": "We are tracking the conflict in the Middle East, but I'd say the impact we are seeing so far from that conflict is small on a dollar basis based on what we now know. So, we see it most directly in our Rest of World region and to a lesser extent in Europe as well, where it's really isolated to certain verticals impacted by higher oil prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pinterest Performance+ campaigns are driving higher spend growth for adopters.",
+      "quote": "And importantly, in Q1, adopters of Pinterest Performance+ campaigns grew their lower funnel spend nearly twice the rate of non -adopters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The tvScientific acquisition is expected to extend Pinterest's performance to Connected TV.",
+      "quote": "With tvScientific, we’re unlocking the ability to extend Pinterest’s unique consumer intent signal and audiences beyond our owned and operated properties to power high -performing CTV campaigns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic, describing a strong start to the year while acknowledging non-linear progress.",
+      "quote": "We delivered a strong start to 2026, with Q1 revenue surpassing $1 billion, up 18% year over year... Progress may not always be linear, but our direction is clear, and our conviction in our ability to return to our long -term targets and capture the large and growing opportunity ahead remains unchanged.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Q1 beat was partially attributed to a one-time reversal from Canada digital services tax.",
+      "quote": "The higher-than-expected Adjusted EBITDA was driven by flowthrough from higher revenue as well as a reversal from Canada digital services tax following its repeal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 guidance is roughly consistent with Q1 on a constant currency basis.",
+      "quote": "On looking ahead to Q2, given the change in FX impact in Q2, our guidance for Q2 revenue growth is roughly consistent with Q1 on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary of the BUY threshold. The Q1 beat was partially attributed to a one-time tax reversal, and Q2 guidance was held roughly in line with Q1 on a constant currency basis, which may warrant a neutral rather than positive score. A human reviewer should verify the interpretation of the guidance as 'held' versus 'raised'."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PINS_Bundled Earnings Report_2026-05-04",
+  "report_metadata": {
+    "issuer": "p2_pinterest",
+    "company": "Pinterest",
+    "ticker": "PINS",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2026-Q1\\PINS_Q1_2026_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2026-Q1\\PINS_Q1_2026_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PINS_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T102137Z",
+    "timestamp": "2026-08-09T10:22:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pinterest\\extracted\\PINS_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 26169,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2026-Q1\\PINS_Q1_2026_Earnings_Presentation.pdf",
+        "page_count": 19,
+        "extracted_characters": 24220,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2026-Q1\\PINS_Q1_2026_Earnings_Call_Transcript.pdf",
+        "page_count": 16,
+        "extracted_characters": 61915,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pinterest\\extracted\\PINS_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

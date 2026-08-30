@@ -1,0 +1,241 @@
+{
+  "document_id": "MAR_FQ2_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "Although the company reported a solid quarter with adjusted EPS of $2.65 beating expectations of $2.61, the forward guidance was reduced: full-year RevPAR growth was lowered to the lower end of the prior range (1.5% to 2.5%), and management cited 'ongoing economic uncertainty' and weaker business transient and government demand. The company also noted that full-year IMFs are expected to be 'flattish to slightly down' and residential branding fees are expected to decline around 30%. These factors indicate a cautious outlook, warranting a negative sentiment score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues for Q2 2025 were $6,744 million, up from $6,439 million in Q2 2024. Gross fee revenues increased 4% year-over-year to $1.4 billion.",
+    "eps": "Reported diluted EPS was $2.78, compared to $2.69 in the year-ago quarter. Adjusted diluted EPS was $2.65, compared to $2.50 in the year-ago quarter, and beat expectations of $2.61.",
+    "guidance": "Full-year 2025 RevPAR growth is expected to be 1.5% to 2.5% (lower end of prior range). Third-quarter RevPAR growth expected flat to 1.0%. Full-year adjusted EBITDA expected $5,310 to $5,395 million (7-8% increase). Full-year adjusted diluted EPS expected $9.85 to $10.08. Net rooms growth expected to approach 5%.",
+    "margin": "Adjusted operating income margin was 65% for Q2 2025, same as Q2 2024. Reported operating income margin was 18% for Q2 2025, down from 19% in Q2 2024.",
+    "key_risks": [
+      "Heightened macro-economic uncertainty",
+      "Decline in U.S. & Canada select service demand due to reduced government travel and weaker business transient demand",
+      "Government room nights in U.S. & Canada down 16% year-over-year in Q2",
+      "Business transient RevPAR declined 2% globally and in U.S. & Canada",
+      "Greater China RevPAR declined 0.5% due to weaker macro environment",
+      "Full-year IMFs expected to be flattish to slightly down",
+      "Residential branding fees expected to decline around 30% for full year",
+      "Potential impact of tariffs and trade policies",
+      "Elevated attrition rates and fewer near-term group bookings"
+    ],
+    "key_opportunities": [
+      "International RevPAR growth of 5.3% in Q2, with strong growth in APAC and EMEA",
+      "Record development pipeline of over 590,000 rooms",
+      "Conversions representing ~30% of signings and openings",
+      "Launch of Series by Marriott and acquisition of citizenM for growth",
+      "Marriott Bonvoy membership reached nearly 248 million members",
+      "Marriott Media Network launch for advertising revenue",
+      "Luxury segment RevPAR up 4% in Q2",
+      "Group bookings for 2026 pacing up 8% in U.S. & Canada"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in the quarter ('Marriott delivered another solid quarter') but also acknowledged 'ongoing economic uncertainty' and reduced full-year RevPAR guidance, reflecting a cautious outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adjusted EPS of $2.65 beat expectations of $2.61.",
+      "quote": "Marriott International, Inc. (NASDAQ: MAR ) Q2 2025 Earnings Call Transcript August 5, 2025 Marriott International, Inc. beats earnings expectations. Reported EPS is $2.65, expectations were $2.61.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year RevPAR growth guidance was lowered to the lower end of the prior range.",
+      "quote": "With ongoing economic uncertainty, we now estimate full year RevPAR growth to be in the lower end of our prior range, an increase between 1.5% and 2.5% over last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenues for Q2 2025 were $6,744 million, up from $6,439 million in Q2 2024.",
+      "quote": "Total revenues, as reported $ 6,744 $ 6,439",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was $2.78, compared to $2.69 in the year-ago quarter.",
+      "quote": "Reported diluted earnings per share (EPS) totaled $2.78 in the quarter, compared to reported diluted EPS of $2.69 in the year-ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $2.65, compared to $2.50 in the year-ago quarter.",
+      "quote": "Adjusted diluted EPS in the 2025 second quarter totaled $2.65 , compared to adjusted diluted EPS of $2.50 in the year-ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EBITDA guidance is $5,310 to $5,395 million.",
+      "quote": "Full year adjusted EBITDA could increase between 7% and 8% to $5.3 billion to $5.4 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted diluted EPS guidance is $9.85 to $10.08.",
+      "quote": "Full year adjusted diluted EPS could total $9.85 to $10.08.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating income margin was 65% for Q2 2025, same as Q2 2024.",
+      "quote": "Adjusted operating income margin † 65 % 65 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported operating income margin was 18% for Q2 2025, down from 19% in Q2 2024.",
+      "quote": "Operating income margin 18 % 19 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Government room nights in U.S. & Canada were down 16% year-over-year in Q2.",
+      "quote": "Government room nights in the U.S. and Canada were down 16% year-over-year in the second quarter, more than in March, but do appear to have stabilized around these levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business transient RevPAR declined 2% globally and in U.S. & Canada.",
+      "quote": "Second quarter business transient RevPAR declined 2% globally and in the U.S. and Canada, in part because of the shift in Easter timing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Greater China RevPAR declined 0.5% due to weaker macro environment.",
+      "quote": "RevPAR in Greater China declined 0.5% year-over-year due to the weaker macro environment with lower business and group results, though our properties continue to gain market share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year IMFs are expected to be flattish to slightly down.",
+      "quote": "Full year IMFs are anticipated to be flattish to slightly down year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Residential branding fees are expected to decline around 30% for full year.",
+      "quote": "With a shift in the expected timing of sales for certain properties, full year residential branding fees are now anticipated to decline around 30%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International RevPAR grew 5.3% in Q2.",
+      "quote": "RevPAR in international markets increased 5.3 percent (a 6.1 percent increase using actual dollars) year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Development pipeline reached a record of over 590,000 rooms.",
+      "quote": "At the end of the quarter, the company's worldwide development pipeline totaled 3,858 properties with more than 590,000 rooms",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Conversions represented approximately 30% of signings and openings in the first half.",
+      "quote": "Conversions continued to be a key driver of growth, representing approximately 30 percent of our room signings and openings in the first half of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Marriott Bonvoy membership reached nearly 248 million members.",
+      "quote": "Membership reached nearly 248 million members at the end of June",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Luxury segment RevPAR was up 4% in Q2.",
+      "quote": "RevPAR growth was again strongest at the high end with luxury RevPAR up 4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group bookings for 2026 are pacing up 8% in U.S. & Canada.",
+      "quote": "group revenues for 2026, pacing up 8% in the U.S. and Canada and globally, up from 7% a quarter ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with confidence in results but caution on outlook.",
+      "quote": "Marriott delivered another solid quarter, highlighted by strong financial results and robust net rooms growth despite heightened macro-economic uncertainty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative due to guidance reduction, but the company also reported a beat and strong international growth. Reviewer should confirm the weighting of these opposing factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MAR_Bundled Earnings Report_2025-08-05",
+  "report_metadata": {
+    "issuer": "p2_marriott",
+    "company": "Marriott",
+    "ticker": "MAR",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q2\\MAR-Q2-2025-Press-Release.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q2\\MAR-Q2-2025-Earnings-Call-Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MAR_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260804T100738Z",
+    "timestamp": "2026-08-04T10:07:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q2\\MAR-Q2-2025-Press-Release.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_marriott\\extracted\\MAR_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q2\\MAR-Q2-2025-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 54773,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q2\\MAR-Q2-2025-Earnings-Call-Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 50310,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_marriott\\extracted\\MAR_FQ2_2025.txt"
+  }
+}

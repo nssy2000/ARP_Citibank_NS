@@ -1,0 +1,230 @@
+{
+  "document_id": "TGT_FQ2_2024",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company reported a strong Q2 beat (EPS $2.57 vs. prior guidance high end of $2.20-$2.40 implied by full-year range), and raised full-year EPS guidance from $8.60-$9.60 to $9.00-$9.70, a meaningful increase. However, full-year comparable sales guidance was narrowed to the lower half of the 0-2% range, and Q3 comp guidance of 0-2% was maintained with cautious language about consumer uncertainty. The score reflects the positive EPS guidance raise tempered by the cautious top-line outlook."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $25.5 billion in the second quarter was 2.7 percent higher than last year, reflecting a total sales increase of 2.6 percent and a 10.8 percent increase in other revenue.",
+    "eps": "GAAP and Adjusted EPS of $2.57 grew by more than 40 percent compared with last year ($1.80).",
+    "guidance": "For Q3, the Company expects a 0 to 2 percent increase in comparable sales, and GAAP and Adjusted EPS of $2.10 to $2.40. Full-year comparable sales guidance remains 0 to 2 percent, but the Company now believes the increase will more likely be in the lower half of that range. Full-year GAAP and Adjusted EPS guidance raised to $9.00 to $9.70, up from $8.60 to $9.60.",
+    "margin": "Second quarter operating income margin rate was 6.4 percent in 2024, compared with 4.8 percent in 2023. Second quarter gross margin rate was 28.9 percent, compared with 27.0 percent in 2023.",
+    "key_risks": [
+      "Consumer uncertainty and focus on value, with consumers making trade-offs in spending.",
+      "Higher promotional markdown rates.",
+      "Higher digital fulfillment and supply chain costs.",
+      "Potential impact from weather-related events (e.g., storm damage to Denton, TX distribution center).",
+      "Shrink costs remain elevated versus historical levels, though improving."
+    ],
+    "key_opportunities": [
+      "Return to top-line growth driven entirely by traffic, with all six core categories delivering traffic growth.",
+      "Strong performance in discretionary categories, especially Apparel (comp sales +3%) and Beauty (+9%).",
+      "Double-digit growth in same-day services (Drive Up and Target Circle 360).",
+      "Continued expansion of operating margin rate toward and potentially beyond the 6% annual rate.",
+      "Growth in Roundel advertising business (double-digit growth, expected high teens for full year).",
+      "Target Circle loyalty platform with over 100 million members and increasing engagement.",
+      "Sortation center strategy improving delivery speed and reducing costs."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described the quarter as 'a textbook example of Target being Target' and stated 'the team delivered, all while expanding operating margins and growing EPS by more than 40% compared to last year,' while also maintaining a 'measured outlook' and 'cautious' stance on the consumer."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $25.5 billion, up 2.7% year-over-year.",
+      "quote": "Total revenue of $25.5 billion in the second quarter was 2.7 percent higher than last year, reflecting a total sales increase of 2.6 percent and a 10.8 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP and Adjusted EPS was $2.57, up more than 40% from $1.80 last year.",
+      "quote": "GAAP and Adjusted EPS of $2.57 grew by more than 40 percent compared with last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year EPS guidance was raised to $9.00-$9.70 from $8.60-$9.60.",
+      "quote": "based on strong profit performance in the front half of the year, the Company now expects full-year GAAP and Adjusted EPS of $9.00 to $9.70, up from the prior range of $8.60 to $9.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year comparable sales guidance was narrowed to the lower half of the 0-2% range.",
+      "quote": "While the Company believes its full-year guidance range of a 0 to 2 percent increase in its comparable sales remains appropriate, it now believes the increase will more likely be in the lower half of that range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 comparable sales guidance is 0-2% and EPS guidance is $2.10-$2.40.",
+      "quote": "For the third quarter, the Company expects a 0 to 2 percent increase in its comparable sales, and GAAP and Adjusted EPS of $2.10 to $2.40.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income margin rate was 6.4%, up 160 basis points from 4.8% last year.",
+      "quote": "Second quarter operating income margin rate was 6.4 percent in 2024, compared with 4.8 percent in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin rate was 28.9%, up from 27.0% last year.",
+      "quote": "Second quarter gross margin rate was 28.9 percent, compared with 27.0 percent in 2023, reflecting the net impact of merchandising activities, including cost improvements that more than offset higher promotional markdown rates, combined with favorable category mix and lower book to physical inventory adjustments as compared to the prior year, partially offset by higher digital fulfillment and supply chain costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, describing the quarter as a 'textbook example' and noting the team 'delivered.'",
+      "quote": "When we're at our best, we achieve a proper balance between all of those aspects or go-to-market strategy, and the second quarter was a textbook example of Target being Target.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: consumer uncertainty and focus on value.",
+      "quote": "Against that backdrop, our team continues to focus on providing unbeatable value for our guests.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: higher promotional markdown rates.",
+      "quote": "cost improvements that more than offset higher promotional markdown rates",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: higher digital fulfillment and supply chain costs.",
+      "quote": "partially offset by higher digital fulfillment and supply chain costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: weather-related disruption (Denton, TX distribution center storm damage).",
+      "quote": "our perishable food distribution facility in Denton, Texas had not sustained major damage from a severe storm in late May",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: shrink costs remain elevated versus historical levels.",
+      "quote": "we'll continue our work to move shrink rates down to more sustainable levels in the years ahead, given the steep increase in shrink that our business has absorbed over the last five years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: return to top-line growth driven entirely by traffic.",
+      "quote": "Second quarter comparable sales increased 2.0 percent, at the high end of the Company's expectations. Traffic grew 3 percent in the second quarter as compared to the prior year, with all six core merchandising categories delivering traffic growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: strong discretionary performance, Apparel +3% and Beauty +9%.",
+      "quote": "Discretionary sales trends continued to improve meaningfully, with Apparel comparable sales growing more than 3 percent in the quarter. ... Beauty was another standout as the category continues to gain share, with comp growth of 9% in Q2 on top of double-digit growth a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: double-digit growth in same-day services (Drive Up and Target Circle 360).",
+      "quote": "Same-day services saw double digit growth, led by low teens growth in Drive Up and Target Circle 360 TM same-day delivery.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: continued expansion of operating margin rate toward and beyond 6%.",
+      "quote": "We're focused on continued expansion of our operating margin rate. As we move back toward and potentially beyond the 6% annual rate we were earning before the pandemic.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Roundel advertising business growing double-digit, expected high teens for full year.",
+      "quote": "Roundel continued to experience rapid growth. ... In the second quarter, Roundel delivered double-digit growth to the benefit of both gross margin and the other revenue line of our P&L. For the full year, Roundel is expected to grow in the high teens on top of more than 20% growth in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Target Circle loyalty platform with over 100 million members.",
+      "quote": "With over 100 million members, we're always happy to welcome guests who choose to join, and we added more than 2 million new users in the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: sortation center strategy improving delivery speed and reducing costs.",
+      "quote": "A critical aspect of this strategy is faster delivery speeds as local orders processed through a sortation center arrive more than a day faster than our network average. But notably, that increase in speed doesn't require more dollars, as our unit delivery costs from a sort center are about 20% lower than our network average.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a positive EPS guidance raise but also a cautious top-line outlook. A reviewer may want to assess whether the cautious comp guidance should further temper the score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2024-08-21",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-08-21",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q2\\tgt-2q24-press-release.html",
+        "pub_date": "2024-08-21"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q2\\tgt-2q24-transcript.html",
+        "pub_date": "2024-08-21"
+      }
+    ],
+    "document_id": "TGT_FQ2_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T144915Z",
+    "timestamp": "2026-07-08T14:51:39Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q2\\tgt-2q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q2\\tgt-2q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 20657,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q2\\tgt-2q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 71153,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2024.txt"
+  }
+}

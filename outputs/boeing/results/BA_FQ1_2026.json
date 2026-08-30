@@ -1,0 +1,202 @@
+{
+  "document_id": "BA_FQ1_2026",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: revenue increased 14% to $22.2 billion, commercial deliveries rose 10%, and core operating earnings improved 47% year-over-year. However, the company remains GAAP loss-making and free cash flow is negative, and no formal guidance raise is provided. The record backlog of $695 billion and confident forward language about certification and production increases support a mildly positive score, but the lack of explicit guidance raise and ongoing losses cap the upside."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$22.2 billion, up 14% year-over-year, primarily reflecting 143 commercial deliveries.",
+    "eps": "GAAP loss per share of ($0.11) and core loss per share (non-GAAP) of ($0.20).",
+    "guidance": "Expects certification of 737-7 and 737-10 in 2026 and first delivery in 2027; 777X anticipates first delivery in 2027. No formal revenue or earnings guidance provided.",
+    "margin": "GAAP operating margin 2.0%, core operating margin 1.3% (non-GAAP). Commercial Airplanes operating margin (6.1)%, Defense, Space & Security 3.1%, Global Services 18.1%.",
+    "key_risks": [
+      "Commercial Airplanes segment remains loss-making with operating margin of (6.1)%.",
+      "Negative free cash flow of ($1.5) billion.",
+      "Cash and investments decreased from $29.4B to $20.9B due to debt repayments and free cash flow usage.",
+      "Forward-looking statements subject to risks including production quality issues, certification delays, and reliance on suppliers."
+    ],
+    "key_opportunities": [
+      "Record total company backlog of $695 billion, including over 6,100 commercial airplanes.",
+      "Higher commercial delivery volume and improved operational performance.",
+      "Defense, Space & Security revenue up 21% with record backlog of $86 billion.",
+      "Global Services secured largest-ever Landing Gear Exchange Program agreement with Singapore Airlines Group.",
+      "Progress on 737-7/737-10 certification and 777X certification flight testing."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Kelly Ortberg stated 'We're building on our momentum with a strong start to the year and growing record-breaking backlog across our business,' reflecting a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue increased to $22.2 billion, up 14% year-over-year.",
+      "quote": "Revenue increased to $22.2 billion primarily reflecting 143 commercial deliveries",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share of ($0.11) and core loss per share of ($0.20).",
+      "quote": "GAAP loss per share of ($0.11) and core loss per share (non-GAAP)* of ($0.20)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog grew to a record $695 billion.",
+      "quote": "Total company backlog grew to a record $695 billion, including over 6,100 commercial airplanes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes operating margin was (6.1) percent.",
+      "quote": "Commercial Airplanes first quarter revenue of $9.2 billion and operating margin of (6.1) percent primarily reflect higher deliveries.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security operating margin was 3.1 percent.",
+      "quote": "Defense, Space & Security first quarter revenue of $7.6 billion and operating margin of 3.1 percent reflect higher volume and stabilizing operational performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 18.1 percent.",
+      "quote": "Global Services first quarter revenue was $5.4 billion on higher government volume. Operating margin of 18.1 percent reflects the impact of the Digital Aviation Solutions divestiture.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cash flow was ($0.2) billion and free cash flow was ($1.5) billion.",
+      "quote": "Operating cash flow of ($0.2) billion and free cash flow (non-GAAP)* of ($1.5) billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash and investments decreased from $29.4 billion to $20.9 billion.",
+      "quote": "Cash and investments in marketable securities totaled $20.9 billion, compared to $29.4 billion at the beginning of the quarter, reflecting debt repayments and free cash flow usage in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We're building on our momentum with a strong start to the year and growing record-breaking backlog across our business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance includes certification of 737-7 and 737-10 in 2026 and first delivery in 2027.",
+      "quote": "We expect certification of the 737-7 and 737-10 in 2026 and the company anticipates first delivery in 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "777X anticipates first delivery in 2027.",
+      "quote": "The company anticipates first delivery in 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating earnings improved 47% year-over-year.",
+      "quote": "Core operating earnings $293 $199 47%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial deliveries increased 10%.",
+      "quote": "Deliveries 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security revenue up 21% year-over-year.",
+      "quote": "Revenues $7,599 $6,298 21%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services secured largest-ever Landing Gear Exchange Program agreement with Singapore Airlines Group.",
+      "quote": "Global Services secured the largest-ever Landing Gear Exchange Program agreement with Singapore Airlines Group",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record backlog at Defense, Space & Security of $86 billion.",
+      "quote": "Backlog at Defense, Space & Security grew to a record $86 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record backlog at Global Services of $33 billion.",
+      "quote": "Global Services ended the quarter with record backlog of $33 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal revenue or earnings guidance provided.",
+      "quote": "The document contains no explicit revenue or earnings guidance for future periods beyond certification and delivery timelines.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The document does not contain explicit forward revenue or earnings guidance; this claim is based on absence of such statements."
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "guidance",
+      "reason": "No formal revenue or earnings guidance provided; only certification and delivery timelines are given. Human reviewer should confirm if this is typical for Boeing's earnings releases."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 1,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2026-04-22",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-22",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2026-Q1\\ba-1q26-press-release.html",
+        "pub_date": "2026-04-22"
+      }
+    ],
+    "document_id": "BA_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260709T144238Z",
+    "timestamp": "2026-07-09T14:45:04Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2026-Q1\\ba-1q26-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2026-Q1\\ba-1q26-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 23500,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2026.txt"
+  }
+}

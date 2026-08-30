@@ -1,0 +1,58 @@
+{
+  "document_id": "DIS_FQ4_2025_QUANT",
+  "base_document_id": "DIS_FQ4_2025",
+  "issuer": "p2_disney",
+  "ticker": "DIS",
+  "sector": "Media/Communication Services",
+  "report_date": "2026-02-02",
+  "sentiment": {
+    "score": 0.010839
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.017336,
+      "window_start_date": "2025-12-30",
+      "window_end_date": "2026-01-30",
+      "score": -0.115061,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.228429,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 3.44,
+      "matched_earnings_date": "2026-02-02",
+      "score": 0.136738,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.34,
+      "vix_score": 0.175498,
+      "tnx_change": 0.112,
+      "tnx_score": -0.220327,
+      "score": -0.022415,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2026-02-01",
+      "curve_spread": 0.74,
+      "curve_score": 0.629145,
+      "curve_as_of": "2026-01-30",
+      "score": 0.545631,
+      "available": true
+    },
+    "quant_score": 0.010839,
+    "quant_score_with_macro": -0.005788,
+    "quant_score_with_fred": 0.278235,
+    "quant_score_with_macro_fred": 0.178018
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

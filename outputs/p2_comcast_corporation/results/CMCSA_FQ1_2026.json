@@ -1,0 +1,258 @@
+{
+  "document_id": "CMCSA_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: broadband subscriber losses improved by over 100,000 year-over-year, record wireless line additions, and Peacock approaching profitability next quarter. However, management did not raise formal guidance; they reaffirmed expectations of continued ARPU pressure in Q2 with relief later in the year, and noted the competitive environment remains intense. The positive trajectory is organic (not attributed to FX or one-time items), but the lack of a formal guidance raise and the explicit caution about near-term pressure keep the score below +0.5."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Consolidated revenue increased 5.3% to $31,457 million; pro forma revenue increased 10.9% to $31,457 million (Versant separation).",
+    "eps": "Diluted EPS decreased 32.6% to $0.60; Adjusted EPS decreased 27.5% to $0.79.",
+    "guidance": "Management expects incremental broadband ARPU pressure in Q2, with relief as they exit the year; Peacock expected to approach profitability next quarter; free wireless lines expected to convert to paid relationships in the second half, providing a tailwind to convergence revenue and ARPA growth.",
+    "margin": "Consolidated Adjusted EBITDA margin not explicitly stated; Connectivity & Platforms Adjusted EBITDA margin was 39.6% (down 140 bps); Residential Connectivity & Platforms margin 37.1% (down 160 bps); Business Services Connectivity margin 55.9% (down 110 bps).",
+    "key_risks": [
+      "Intense competitive environment including fixed wireless, fiber overbuilds, and promotional convergence offers.",
+      "Broadband ARPU pressure from simplified pricing, free wireless lines, and absence of rate increase.",
+      "NBA rights costs causing EBITDA dilution, with Q1 being peak dilution.",
+      "International parks pressure from China-related inbound travel trends and challenging macroeconomic environment in Beijing.",
+      "Potential impact of higher oil prices on domestic parks and advertising if sustained.",
+      "Structural risks from forward-looking statements including competitive environment, consumer behavior, and regulatory changes."
+    ],
+    "key_opportunities": [
+      "Broadband subscriber losses improved by 117,000 year-over-year, first improvement since Q4 2020.",
+      "Record wireless line net additions of 435,000, with 16% penetration of domestic residential broadband base.",
+      "Peacock revenue up 71% surpassing $2 billion, with 46 million subscribers and expected to approach profitability next quarter.",
+      "Theme Parks EBITDA up 33% fueled by Epic Universe.",
+      "Studios revenue up 21% driven by content licensing, including The Office renewal on Peacock.",
+      "New premium wireless plans (Mobile Plus) with device protection included, a differentiator.",
+      "T-Mobile MVNO launch to expand business mobile relationships.",
+      "Convergence ARPA of ~$85 vs. telecom competitors roughly double, indicating growth opportunity."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in early signs of the pivot, with Brian Roberts stating 'we're off to a good start' and Mike Cavanagh noting 'we are pleased with the progress,' while acknowledging ongoing challenges."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Consolidated revenue increased 5.3% to $31,457 million.",
+      "quote": "Revenue $31,457 $29,887 5.3 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pro forma revenue increased 10.9% to $31,457 million.",
+      "quote": "Pro Forma Revenue $31,457 $28,369 10.9 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS decreased 32.6% to $0.60.",
+      "quote": "Earnings per Share $0.60 $0.89 (32.6 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS decreased 27.5% to $0.79.",
+      "quote": "Adjusted Earnings per Share $0.79 $1.09 (27.5 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Broadband subscriber losses improved by 117,000 year-over-year to 65,000.",
+      "quote": "Total domestic broadband residential customer net losses were 65,000, total domestic wireless line net additions were 435,000 and total domestic video customer net losses were 322,000.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record wireless line net additions of 435,000.",
+      "quote": "Domestic Wireless Customer Line Net Additions of 435,000 - Our Best Quarterly Result on Record; Total Wireless Lines Increased to 9.7 Million, Reaching 16% Penetration of Domestic Residential Broadband Customers",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Peacock revenue up 71% surpassing $2 billion.",
+      "quote": "Peacock Delivered Strong Growth with Paid Subscribers Increasing 12% Year-over-Year to 46 Million and Revenue Growth of 71%, Surpassing $2 Billion for the First Time",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Peacock expected to approach profitability next quarter.",
+      "quote": "We added 2 million net new subscribers in the quarter with revenue up more than 70%, putting Peacock on track to approach profitability for the first time next quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Theme Parks EBITDA increased 33% to $551 million.",
+      "quote": "Theme Parks EBITDA Increased 33% to $551 Million, Fueled by the Opening of Epic Universe in May 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Studios revenue increased 21.2% to $3,426 million.",
+      "quote": "Studios 3,426 2,826 21.2 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Connectivity & Platforms Adjusted EBITDA margin was 39.6%.",
+      "quote": "Total Connectivity & Platforms Adjusted EBITDA Margin 39.6 % 41.0 % (140) bps (100) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Residential Connectivity & Platforms Adjusted EBITDA margin was 37.1%.",
+      "quote": "Adjusted EBITDA Margin 37.1 % 38.7 % (160) bps (120) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business Services Connectivity Adjusted EBITDA margin was 55.9%.",
+      "quote": "Adjusted EBITDA Margin 55.9 % 57.0 % (110) bps (100) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects incremental broadband ARPU pressure in Q2 with relief later in the year.",
+      "quote": "We expect incremental pressure on broadband ARPU for another quarter until we start to anniversary early go-to-market transition efforts as well as the impact of free lines starting to roll into paying relationships, which will happen in greater volumes as we exit this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free wireless lines expected to convert to paid relationships in the second half.",
+      "quote": "Looking ahead, in the second half of the year, many of the free lines will come up for monetization. Early engagement and usage trends are encouraging in that respect, and we expect to convert the significant majority of free lines into paying relationships, which should provide a tailwind to convergence revenue and ARPA growth over time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intense competitive environment is a risk.",
+      "quote": "First, despite what remains an incredibly intense competitive environment, broadband net losses improved by more than 100,000 year-over-year, the first year-over-year improvement since the fourth quarter of 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NBA rights costs caused EBITDA dilution, with Q1 being peak.",
+      "quote": "Media EBITDA was a loss of $426 million, consistent with the dilution we've been expecting in the first season of the NBA as we straight-line the amortization of these rights with quarterly seasonality driven by game counts. The first quarter was the peak volume with about 50% of the games played and the corresponding costs flowing through, so as a result, this quarter represents our peak EBITDA dilution from NBA costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International parks pressure from China-related travel trends.",
+      "quote": "Specifically, in Osaka, we're seeing some impact from China-related inbound travel trends, which is putting pressure on attendance. And in Beijing, we're navigating a more challenging macroeconomic environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential impact of higher oil prices on domestic parks and advertising.",
+      "quote": "I think inside the US, domestic to domestic, we haven't yet seen any significant impact in the parks business caused by higher oil, but I think that does not mean that it may not happen depending on the duration of the effect on price of gas, airline tickets, and so forth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Convergence ARPA of ~$85 vs. telecom competitors roughly double.",
+      "quote": "Our convergence ARPA, or average revenue per account, currently stands at roughly $85. For context, our telecom competitors are roughly double this amount on the same metric.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "We're off to a good start. We've taken a hard look at both where the market is and how we're performing and made some real changes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects genuine momentum but no formal guidance raise; verify that the positive trajectory is not over-weighted given management's explicit caution on Q2 ARPU pressure."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is qualitative and directional; no formal numeric guidance was provided, so the summary relies on management's stated expectations."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CMCSA_Bundled Earnings Report_2026-04-22",
+  "report_metadata": {
+    "issuer": "p2_comcast_corporation",
+    "company": "Comcast Corporation",
+    "ticker": "CMCSA",
+    "sector": "Communication Services/Telecom Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-22",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2026-Q1\\1q26_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2026-Q1\\CMCSA-USQ_Transcript_2026-04-23.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CMCSA_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T095557Z",
+    "timestamp": "2026-08-09T09:57:20Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_comcast_corporation\\extracted\\CMCSA_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 42284,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2026-Q1\\1q26_earnings_presentation.pdf",
+        "page_count": 10,
+        "extracted_characters": 14626,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2026-Q1\\CMCSA-USQ_Transcript_2026-04-23.pdf",
+        "page_count": 16,
+        "extracted_characters": 54016,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_comcast_corporation\\extracted\\CMCSA_FQ1_2026.txt"
+  }
+}

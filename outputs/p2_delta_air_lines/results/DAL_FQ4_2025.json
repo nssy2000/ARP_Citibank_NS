@@ -1,0 +1,261 @@
+{
+  "document_id": "DAL_FQ4_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Delta's forward guidance was meaningfully raised relative to its own prior expectations: management explicitly guides to 20% EPS growth in 2026 (midpoint $7.00 vs. $5.82 in 2025) and 5-7% revenue growth in 1Q26, with management stating '2026 is off to a strong start with top-line growth accelerating on consumer and corporate demand.' The improvement is organic, driven by accelerating demand and diversified revenue streams, not FX or one-time items. While the 4Q25 results were impacted by the government shutdown, the forward outlook is clearly positive and confident, supporting a score above 0.5 but below the +0.7 threshold given the acknowledged volatility and the fact that the guidance, while strong, is not a dramatic upward revision beyond the company's stated long-term framework."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record full year 2025 adjusted operating revenue of $58.3 billion, up 2.3% year-over-year. December quarter adjusted revenue of $14.6 billion, up 1.2% year-over-year.",
+    "eps": "Full year 2025 adjusted EPS of $5.82. December quarter 2025 adjusted EPS of $1.55.",
+    "guidance": "FY2026 EPS guidance of $6.50-$7.50, representing 20% year-over-year growth at the midpoint. 1Q26 revenue growth of 5-7% year-over-year, operating margin of 4.5%-6%, and EPS of $0.50-$0.90. FY2026 free cash flow of $3-$4 billion and gross leverage of approximately 2x.",
+    "margin": "Full year 2025 adjusted operating margin of 10.0%. December quarter 2025 adjusted operating margin of 10.1%. Full year 2025 adjusted pre-tax margin of 8.5%.",
+    "key_risks": [
+      "Government shutdown impacted December quarter revenue by about 2 points and pre-tax profit by $200 million or $0.25 per share.",
+      "FAA-mandated flight reductions and weather disruption impacted capacity and non-fuel unit cost growth by about 1 point in the quarter.",
+      "Potential 10% credit card rate cap, which management says is 'way early innings' but could impact the credit card industry.",
+      "Volatility in the industry, with management noting 'we also learned of the volatility. We're reminded of the volatility of the industry this past year.'",
+      "Main Cabin demand has not yet moved, with management noting 'we have not really seen Main Cabin move yet.'"
+    ],
+    "key_opportunities": [
+      "Accelerating demand with record cash sales in the first week of January, up double-digits year-over-year.",
+      "Diversified revenue streams (Premium, loyalty, cargo, MRO) growing high-single digits and representing 60% of total revenue.",
+      "American Express remuneration grew 11% to $8.2 billion in 2025, with expectation of high-single digit growth in 2026.",
+      "Corporate sales up high-single digits in December quarter, with nearly 90% of companies expecting travel volume to increase or remain steady in 2026.",
+      "International performance improving sequentially, with unit revenue growth improving 5 points from September quarter.",
+      "New Boeing 787-10 order (30 firm, 30 options) to enhance international network and drive margin expansion.",
+      "MRO business expected to grow from over $1 billion to $2-3 billion in top line with margin expansion from high-single digit to mid-teens."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses strong confidence in the forward outlook, with Ed Bastian stating '2026 is off to a strong start with top-line growth accelerating on consumer and corporate demand' and 'my optimism for Delta's future has never been brighter.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full year 2025 adjusted operating revenue was $58.3 billion, up 2.3% year-over-year.",
+      "quote": "For the full year, Delta delivered record revenue that increased 2.3 percent over 2024, on 3 percent capacity growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "December quarter 2025 adjusted revenue was $14.6 billion, up 1.2% year-over-year.",
+      "quote": "For the December quarter, Delta delivered a record revenue of $14.6 billion, 1.2% higher than in 2024, including about 2 points of impact from the government shutdown on capacity growth of 1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 adjusted EPS was $5.82.",
+      "quote": "For the full year, we recorded record revenue of $58.3 billion, an operating margin of 10%, pre-tax income of $5 billion, and earnings of $5.82 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "December quarter 2025 adjusted EPS was $1.55.",
+      "quote": "In the fourth quarter, we delivered pre-tax profit of $1.3 billion, an operating margin of 10%, and earnings of $1.55 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 EPS guidance is $6.50-$7.50, representing 20% year-over-year growth at the midpoint.",
+      "quote": "For the full year, we expect EPS of $6.50 to $7.50, representing 20% year-over-year growth at the midpoint; free cash flow of $3 billion to $4 billion; and leverage of 2 times by year end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "1Q26 revenue growth guidance is 5-7% year-over-year.",
+      "quote": "We expect March quarter revenue to grow 5 percent to 7 percent year-over-year, several points ahead of capacity growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "1Q26 operating margin guidance is 4.5%-6% and EPS guidance is $0.50-$0.90.",
+      "quote": "With that, we expect first quarter earnings of $0.50 to $0.90 per share and an operating margin of 4.5% to 6%, both improving year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 adjusted operating margin was 10.0%.",
+      "quote": "For the full year, we recorded record revenue of $58.3 billion, an operating margin of 10%, pre-tax income of $5 billion, and earnings of $5.82 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "December quarter 2025 adjusted operating margin was 10.1%.",
+      "quote": "In the fourth quarter, we delivered pre-tax profit of $1.3 billion, an operating margin of 10%, and earnings of $1.55 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The government shutdown impacted December quarter revenue by about 2 points and pre-tax profit by $200 million.",
+      "quote": "December quarter revenue growth was impacted by about 2 points from the government shutdown, largely in Domestic, consistent with the company's disclosure in early December. As previously disclosed, the government shutdown reduced pre-tax profit by $200 million or $0.25 per share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FAA-mandated flight reductions and weather disruption impacted capacity and non-fuel unit cost growth by about 1 point.",
+      "quote": "The FAA-mandated flight reduction and weather disruption impacted capacity and non-fuel unit costs growth by about 1 point.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident about the forward outlook.",
+      "quote": "2026 is off to a strong start with top-line growth accelerating on consumer and corporate demand. For the full year, we expect to deliver margin expansion and earnings growth of 20 percent year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash sales in the first week of January were a record, up double-digits.",
+      "quote": "Last week, we set a new record for bookings with cash sales up double-digits on top of the strength that we saw last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diversified revenue streams represent 60% of total revenue and grew 7% in 2025.",
+      "quote": "In 2025, Delta's diversified revenue streams grew 7 percent over 2024, representing 60 percent of total revenue for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "American Express remuneration grew 11% to $8.2 billion in 2025.",
+      "quote": "American Express remuneration in 2025 grew 11 percent to $8.2 billion, driven by double-digit growth in co-brand spend in each quarter of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Corporate sales grew high-single digits in the December quarter.",
+      "quote": "Corporate sales were up high-single digits over prior year in the December quarter, similar to the September quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International performance improved sequentially with unit revenue growth improving 5 points.",
+      "quote": "International performance improved significantly from the September quarter, with year-over-year unit revenue growth improving 5 points, driven by Transatlantic and Pacific.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Delta announced an order for 30 Boeing 787-10 aircraft with options for 30 more.",
+      "quote": "Today, Delta announced it reached an agreement with Boeing to purchase thirty 787-10 widebody aircraft, with options for an additional thirty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MRO business is expected to grow to $2-3 billion in top line with margin expansion.",
+      "quote": "I think this is a business that we're excited to see across the $1 billion mark, and one that we continue to hold out and see it as a $2 billion. Then getting to $2 billion, then getting to $3 billion of top line that it can continue to grow. This is a business that, where it's positioned, it's high-single digit margins today. It should be mid-teens.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Main Cabin demand has not yet moved, representing potential upside.",
+      "quote": "And we have not really seen Main Cabin move yet, so I think when you think about the higher end of our guide, that would definitely be the Main Cabin starting to move. And I do think that it will move in 2026, we just have not seen it yet.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledges industry volatility as a risk.",
+      "quote": "That said, we also learned of the volatility. We're reminded of the volatility of the industry this past year, and we want to make certain that we have a bit of caution as we project how we'll do.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A potential 10% credit card rate cap is a risk being monitored.",
+      "quote": "Well. Thanks, Jamie, and I could not agree with you more about your comments about Glen. As you said and prefaced, it's way early innings, and so it's really, really hard to speculate. And candidly, the challenges to having that comment of whatever the president is looking to do here are brought into actual delivery, I'm informed would likely require legislation.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 reflects a meaningful guidance raise (20% EPS growth) but is tempered by acknowledged volatility and the fact that the guidance is within the company's stated long-term framework. A reviewer may want to assess whether the strong forward language warrants a higher score."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The potential credit card rate cap is discussed in Q&A as 'way early innings' and speculative; it is included as a risk but its materiality is uncertain."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DAL_Bundled Earnings Report_2026-01-13",
+  "report_metadata": {
+    "issuer": "p2_delta_air_lines",
+    "company": "Delta Air Lines",
+    "ticker": "DAL",
+    "sector": "Industrials/Airlines",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q4\\Q4_2025_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q4\\Q4_2025_earnings_call_transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DAL_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095933Z",
+    "timestamp": "2026-08-09T10:01:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_delta_air_lines\\extracted\\DAL_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 51527,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q4\\Q4_2025_earnings_presentation.pdf",
+        "page_count": 21,
+        "extracted_characters": 52289,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q4\\Q4_2025_earnings_call_transcript.pdf",
+        "page_count": 25,
+        "extracted_characters": 99950,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_delta_air_lines\\extracted\\DAL_FQ4_2025.txt"
+  }
+}

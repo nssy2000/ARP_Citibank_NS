@@ -1,0 +1,172 @@
+{
+  "document_id": "SCHW_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum with record revenue and EPS, and management explicitly raised the upper end of their July financial scenario, indicating a positive forward guidance shift. The guidance raise is organic, driven by client engagement and market tailwinds, not one-time items. However, the raise is modest (2% or a bit better) and management notes potential shifts in the environment, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues of $6.1 billion for Q3 2025, up 27% year-over-year.",
+    "eps": "Adjusted EPS of $1.31, up 70% year-over-year versus $0.77 in Q3 2024.",
+    "guidance": "Management indicated that assuming continued client engagement, earnings could be lifted by around 2% or a bit better relative to the upper end of the July financial scenario. A more detailed 2026 scenario will be provided in January.",
+    "margin": "Adjusted pre-tax profit margin of 51.3% for Q3 2025, up from 41.2% in Q3 2024.",
+    "key_risks": [
+      "Potential shifts in sentiment and engagement levels in the evolving macroeconomic environment.",
+      "The last couple of weeks remind us the environment can shift quickly.",
+      "Interest rate cuts could impact net interest margin, though management expects offsets."
+    ],
+    "key_opportunities": [
+      "Continued organic growth momentum with core net new assets up 44% year-over-year.",
+      "Deepening client relationships through wealth, lending, and trading solutions.",
+      "Planned launch of spot crypto in first half of 2026, expected to attract additional assets.",
+      "Reinvestment of securities portfolio at higher yields as lower-yielding securities mature.",
+      "Further reduction in high-cost supplemental borrowings, improving net interest margin."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'we are playing offense,' 'we are incredibly well positioned,' and 'the future is incredibly bright,' reflecting strong confidence in the company's trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues were $6.1 billion for Q3 2025, up 27% year-over-year.",
+      "quote": "Net revenues increased 27% year-over-year to a new quarterly record... Net revenues $6,135 million for Q3 2025 vs $4,847 million for Q3 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $1.31, up 70% year-over-year.",
+      "quote": "Adjusted earnings per share of $1.31, an increase of 70% versus 3Q '24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management raised the upper end of their July financial scenario by about 2% or a bit better.",
+      "quote": "Assuming this engagement persists, we could see a lift in earnings of around 2% or a bit better relative to the upper end of the financial scenario range we shared back at the July business update.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pre-tax profit margin was 51.3% for Q3 2025.",
+      "quote": "Adjusted pretax profit margin reached 51.3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: potential shifts in sentiment and engagement levels.",
+      "quote": "We will need to navigate in an evolving macroeconomic environment including potential shifts in sentiment and engagement levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: the environment can shift quickly.",
+      "quote": "However, the last couple of weeks remind us the environment can shift quickly.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: continued organic growth momentum with core net new assets up 44% year-over-year.",
+      "quote": "Core net new assets of $137.5 billion brings year-to-date asset gathering to $355.5 billion – up 41% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: planned launch of spot crypto in first half of 2026.",
+      "quote": "We remain on track to launch spot crypto in the first half of 2026, starting with Bitcoin and Ethereum.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: reinvestment of securities portfolio at higher yields.",
+      "quote": "We, of course, have the opportunity then as well to invest in securities. And that's with new cash, but also as we see the securities portfolio maturing, we'll reinvest those proceeds, and keep in mind, those yields on the existing securities are under 2%, so we'll get a nice lift on that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "As we head into the final stretch of 2025, we are playing offense with ongoing investments that will continue to drive profitable growth through the cycle.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is organic, not attributed to one-time items.",
+      "quote": "The combination of our firms focused execution across key strategic objectives and favorable macro tailwinds yielded record results.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is modest (2% or a bit better) and management notes potential shifts in the environment, which may warrant a slightly lower score. Reviewer should confirm the magnitude of the raise relative to the July scenario."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2025-10-15",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-15",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q3\\SCHW-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q3\\SCHW-Q3-2025-Press-Release-SEC-EX991.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172436Z",
+    "timestamp": "2026-07-30T17:25:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q3\\SCHW-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q3\\SCHW-Q3-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 66322,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2025-Q3\\SCHW-Q3-2025-Press-Release-SEC-EX991.htm",
+        "page_count": 1,
+        "extracted_characters": 37890,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ3_2025.txt"
+  }
+}

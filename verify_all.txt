@@ -1,0 +1,309 @@
+=== datadog ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== ebay ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== intel ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== hermes ===
+Ignoring wrong pointing object 6 0 (offset 0)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== shopify ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== sony ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== nestle ===
+Ignoring wrong pointing object 33 0 (offset 0)
+Ignoring wrong pointing object 39 0 (offset 0)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== adobe ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== home_depot ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== mastercard ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== freeport_mcmoran ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== american_express ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== union_pacific ===
+No docs found yet for extension issuers. Gather some documents first.
+=== colgate_palmolive ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== heineken ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== duke_energy ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== exxonmobil ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== costco ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== chevron ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value
+=== shell ===
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 327, in <module>
+    main()
+    ~~~~^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 312, in main
+    results = scan_slug(slug)
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 259, in scan_slug
+    results.append(check_file(doc_file, slug))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/nigelsim/Desktop/arp-master-4/experiments/verify_gathered_docs.py", line 238, in check_file
+    if fname_type == "Press Release" and qa_opened if fname_type != "Earnings Call Transcript" else False:
+                                         ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'qa_opened' where it is not associated with a value

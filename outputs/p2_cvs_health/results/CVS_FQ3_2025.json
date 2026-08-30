@@ -1,0 +1,245 @@
+{
+  "document_id": "CVS_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows a third consecutive quarter of beating and raising guidance, with full-year adjusted EPS guidance raised from $6.30-$6.40 to $6.55-$6.65. Management expresses confidence in 2026 mid-teens EPS growth and meaningful margin improvement at Aetna. However, the positive sentiment is tempered by a $5.7 billion goodwill impairment, a $240 million reduction in Health Services guidance due to PBM contract pressures, and cautious language about near-term headwinds."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Third quarter total revenues increased to a record high $102.9 billion, up 7.8% compared to prior year.",
+    "eps": "Third quarter GAAP diluted loss per share of $3.13, inclusive of a $5.7 billion goodwill impairment charge. Adjusted EPS of $1.60, up from $1.09 in the prior year.",
+    "guidance": "Full-year 2025 adjusted EPS guidance raised to $6.55 to $6.65 from $6.30 to $6.40. For 2026, management expects mid-teens adjusted EPS growth off a baseline of $6.15 (midpoint of $6.60 minus $0.45 out-of-period items).",
+    "margin": "Health Care Benefits segment MBR was 92.8%, a decrease of 240 basis points from the prior year quarter result of 95.2%.",
+    "key_risks": [
+      "Goodwill impairment of $5.7 billion in Health Care Delivery due to reduced clinic growth at Oak Street Health.",
+      "Near-term PBM contract pressures from market basket guarantees leading to a $240 million reduction in Health Services guidance.",
+      "Continued pharmacy reimbursement pressure in the Pharmacy & Consumer Wellness segment.",
+      "Elevated medical cost trends across all products, though modestly favorable relative to expectations.",
+      "Cautious outlook on Medicaid due to broader industry pressures.",
+      "Provider liabilities for matters dating back to 2018 impacting MBR by approximately 50 basis points.",
+      "Worsening individual exchange risk adjustment expectations based on latest Wakely data."
+    ],
+    "key_opportunities": [
+      "Aetna's industry-leading Medicare Advantage Star Ratings with over 81% of members in 4-star or higher plans.",
+      "Strong PBM selling season with $6 billion in new client wins and retention in the high-90s.",
+      "TrueCost model driving drug pricing transparency and expected to be the pricing model of the future.",
+      "Pharmacy share gains with retail pharmacy script share growing to 28.9%.",
+      "CostVantage program progressing, with 60% of Medicare book transitioned to cost-based pricing.",
+      "Expected meaningful margin improvement at Aetna in 2026, including progress in Medicare Advantage.",
+      "Improvement expected in Health Care Delivery business, primarily driven by Oak Street Health.",
+      "Administration's focus on lowering brand drug prices, which management believes is good for the PBM model."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'we are pleased to report another quarter of solid results,' 'we are building momentum across the enterprise,' and 'I am incredibly bullish about the road ahead,' while also acknowledging challenges and maintaining a disciplined outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Third quarter total revenues increased to a record high $102.9 billion, up 7.8% compared to prior year.",
+      "quote": "Third quarter total revenues increased to a record high $102.9 billion, up 7.8% compared to prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter GAAP diluted loss per share of $3.13, inclusive of a $5.7 billion goodwill impairment charge.",
+      "quote": "Third quarter GAAP diluted loss per share of $3.13, inclusive of a $5.7 billion goodwill impairment charge related to the Health Care Delivery reporting unit",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS of $1.60, up from $1.09 in the prior year.",
+      "quote": "Adjusted EPS of $1.60 increased from $1.09 in the prior year primarily due to improved adjusted operating income in the Health Care Benefits segment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance raised to $6.55 to $6.65 from $6.30 to $6.40.",
+      "quote": "We are increasing our full year 2025 adjusted earnings per share guidance to a range of $6.55 to $6.65, up from our previous range of $6.30 to $6.40.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For 2026, management expects mid-teens adjusted EPS growth off a baseline of $6.15.",
+      "quote": "we currently expect a reasonable starting point for our 2026 adjusted EPS guidance to reflect mid-teens growth. ... you take the midpoint of the guide, which is $6.60, back off the $0.45 and then you can grow mid-teens off of that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Health Care Benefits segment MBR was 92.8%, a decrease of 240 basis points from the prior year quarter.",
+      "quote": "Our medical benefit ratio was 92.8%, a decrease of 240 basis points from the prior year quarter result of 95.2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Goodwill impairment of $5.7 billion in Health Care Delivery due to reduced clinic growth at Oak Street Health.",
+      "quote": "During the quarter, we recorded a $5.7 billion goodwill impairment within Health Care Delivery. ... our decision during the quarter to temper Oak Street Health clinic growth over the next few years was the primary reason for reporting this charge.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Near-term PBM contract pressures from market basket guarantees leading to a $240 million reduction in Health Services guidance.",
+      "quote": "In our Health Services segment, we now expect full year adjusted operating income of at least $7.1 billion, a decrease of approximately $240 million from our prior guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued pharmacy reimbursement pressure in the Pharmacy & Consumer Wellness segment.",
+      "quote": "Adjusted operating income decreased approximately 7% from the prior year to approximately $1.5 billion. This decrease was primarily driven by continued pharmacy reimbursement pressure and increased investments in colleagues and capabilities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Elevated medical cost trends across all products, though modestly favorable relative to expectations.",
+      "quote": "Medical cost trends in the quarter remained elevated across all products but were modestly favorable relative to our expectations, primarily driven by our individual MA book.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cautious outlook on Medicaid due to broader industry pressures.",
+      "quote": "Although our conversations with our Medicaid state partners continue to progress and this business has performed in line with our expectations this year, we are taking a cautious outlook in light of the broader pressures across the industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provider liabilities for matters dating back to 2018 impacting MBR by approximately 50 basis points.",
+      "quote": "Our medical benefit ratio this quarter was impacted by approximately 100 basis points due to provider liabilities for matters dating as far back as 2018 and worsening individual exchange risk adjustment expectations ... Each of these two items were roughly equivalent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Worsening individual exchange risk adjustment expectations based on latest Wakely data.",
+      "quote": "worsening individual exchange risk adjustment expectations based on the latest [ph] weekly (00:14:57) data.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote is from the transcript and the specific data source is partially garbled, but the context is clear."
+    },
+    {
+      "claim": "Aetna's industry-leading Medicare Advantage Star Ratings with over 81% of members in 4-star or higher plans.",
+      "quote": "Aetna is once again the industry leader amongst national payers for 2026 Medicare Advantage Stars Ratings ... we expect over 81% of our Medicare Advantage members will be in plans rated 4 Stars or higher with over 63% of them in 4.5 Star plans, nearly double the industry average.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong PBM selling season with $6 billion in new client wins and retention in the high-90s.",
+      "quote": "We have achieved new client wins of nearly $6 billion and are closing out another selling season with retention in the high-90s.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TrueCost model driving drug pricing transparency and expected to be the pricing model of the future.",
+      "quote": "Two years ago, we continued our innovation leadership when we introduced our new TrueCost model, which guarantees a net cost for each individual drug, delivering drug pricing transparency for our clients and consumers. ... part of this is the TrueCost transition to what I believe will be the pricing model of the future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pharmacy share gains with retail pharmacy script share growing to 28.9%.",
+      "quote": "Our retail pharmacy script share grew to approximately 28.9% as our emphasis on operational excellence and superior customer experiences enables us to benefit from pharmacy market disruption.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CostVantage program progressing, with 60% of Medicare book transitioned to cost-based pricing.",
+      "quote": "We're making good progress in Medicare on transitioning to cost-based pricing models across our full book of business. We're more than 60% complete and targeting 100% of our eligible book by the start of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expected meaningful margin improvement at Aetna in 2026, including progress in Medicare Advantage.",
+      "quote": "Beginning with our Health Care Benefits business, we expect another year of meaningful margin improvement at Aetna. This includes another year of progress in our Medicare Advantage business, supported by our disciplined approach to plan design and footprint in individual as well as repricing opportunities in our group business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Improvement expected in Health Care Delivery business, primarily driven by Oak Street Health.",
+      "quote": "In our Health Services segment, we expect improvement in our Health Care Delivery business, primarily driven by Oak Street Health.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Administration's focus on lowering brand drug prices, which management believes is good for the PBM model.",
+      "quote": "We believe that over time, the administration's actions can create a new lower ceiling price in the US in which PBMs will continue to negotiate and further reduce costs for their customers and consumers. ... We believe these actions are good for us, for our customers and for consumers, and we are encouraged to see the impact they may create for the industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we are pleased to report another quarter of solid results, once again reflecting the power of our diversified business and progress on becoming the most trusted healthcare company in America. ... We are building momentum across the enterprise and feel a growing excitement about the opportunities ahead for CVS Health.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a guidance raise and confident tone, but the $5.7 billion impairment and PBM headwinds are significant. A reviewer may consider whether the score should be lower given the structural nature of the PBM pressure."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 1,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CVS_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_cvs_health",
+    "company": "CVS Health",
+    "ticker": "CVS",
+    "sector": "Healthcare/Consumer",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q3\\CVS-Q3-2025-Earnings-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q3\\CVS-Health-Q3-2025-Press-Release.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CVS_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172735Z",
+    "timestamp": "2026-07-30T17:28:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q3\\CVS-Q3-2025-Earnings-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_cvs_health\\extracted\\CVS_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q3\\CVS-Q3-2025-Earnings-Transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 75405,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q3\\CVS-Health-Q3-2025-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 12703,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_cvs_health\\extracted\\CVS_FQ3_2025.txt"
+  }
+}

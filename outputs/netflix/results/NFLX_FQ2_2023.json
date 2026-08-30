@@ -1,0 +1,155 @@
+{
+  "document_id": "NFLX_FQ2_2023",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows genuine operational momentum: paid sharing rollout is working and will build over several quarters, ads plan membership grew almost 100% quarter-to-quarter, and free cash flow guidance for 2023 was raised. However, management did not formally raise full-year revenue or earnings guidance; the forward language is confident but hedged by the ongoing strikes and the gradual nature of paid sharing and ads revenue build. The score reflects a real inflection in the business (paid sharing, ads growth, cash flow upgrade) without a formal guidance raise, placing it in the +0.15 to +0.3 range."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue in Q2 was in line with expectations; revenue is expected to accelerate in Q3 and further accelerate in Q4.",
+    "eps": "Not disclosed",
+    "guidance": "Free cash flow guidance for 2023 was raised; revenue acceleration expected in Q3 and Q4; content cash spend roughly flat from 2022 through 2024 with hope to grow in 2024 back to 2022 levels.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Ongoing WGA and SAG strikes affecting content production and timing",
+      "General advertising market is soft",
+      "Paid sharing and ads revenue build will take several quarters, not immediate",
+      "Content spend lumpiness between 2023 and 2024 due to strikes"
+    ],
+    "key_opportunities": [
+      "Paid sharing rollout is working and will drive revenue and subscriber growth over several quarters",
+      "Ads plan membership grew almost 100% quarter-to-quarter, with potential to become a material revenue and margin driver",
+      "Dropping the basic ad-free tier in U.S., U.K., and Canada expected to boost ARM over time",
+      "Growing share of streaming viewership (37% of TV time in U.S.) and consistent No. 1 shows/films"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses confidence in the paid sharing rollout ('we're seeing that it's working'), ads growth ('we're confident that all the fundamentals are there'), and free cash flow trajectory ('we expect positive and growing free cash flow trajectory in the years ahead')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue in Q2 was in line with expectations; revenue is expected to accelerate in Q3 and further accelerate in Q4.",
+      "quote": "we delivered revenue in line in Q2 with our expectations, and we're on track to accelerate that revenue in Q3 and further accelerate in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow guidance for 2023 was raised.",
+      "quote": "what you see in our cash flow forecast, we took it up for 2023 in terms of our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid sharing rollout is working and will drive revenue and subscriber growth over several quarters.",
+      "quote": "we've now launched that experience in almost all the countries that we operate in, and we're seeing that it's working. We're positive in terms of both revenue and subscribers relative to prelaunch in all of our regions. But I also think it's important to note that the business impacts of that product experience will roll in over several quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ads plan membership grew almost 100% quarter-to-quarter.",
+      "quote": "We grew ads planned membership almost 100% quarter to quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing WGA and SAG strikes affecting content production and timing.",
+      "quote": "These strikes -- this strike is not an outcome that we wanted. ... there's still a pretty wide range of outcomes for where we're going to ultimately land on cash flow this year given the ongoing strikes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "General advertising market is soft.",
+      "quote": "I think you're absolutely right that the general market is soft. We're seeing that across most different companies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dropping the basic ad-free tier in U.S., U.K., and Canada expected to boost ARM over time.",
+      "quote": "we dropped the basic plan in Canada several weeks ago, and you just announced that in the U.S. and U.K. ... when we drop that basic tier, folks that would have signed up for that tier essentially sort into two tiers. They either take the ads plan, which is that really low attractive entry-level price, or they move into the standard plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growing share of streaming viewership and consistent No. 1 shows/films.",
+      "quote": "streaming continues to grow -- so, it's 37% of TV time now in the U.S. ... for nearly every week of this year, we've had the No. 1 show and the No. 1 film on streaming.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the paid sharing rollout, ads growth, and free cash flow trajectory.",
+      "quote": "we're seeing that it's working. ... we're confident that all the fundamentals are there and that we can build, over those several years, a material ads business. ... we expect positive and growing free cash flow trajectory in the years ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content spend roughly flat from 2022 through 2024 with hope to grow in 2024 back to 2022 levels.",
+      "quote": "we would keep our content -- our cash content spend roughly flat. And that's what we've been doing from 2022 through with the plan through '24 ... our hope and our expectation is we get back up to those levels, similar to levels in '24 as we were in '22.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.eps",
+      "reason": "EPS was not disclosed in the document; this is a notable omission for an earnings call transcript."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "Margin commentary was not explicitly provided; only indirect references to expense management and cash flow."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2023-07-19",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-07-19",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q2\\nflx-2q23-transcript.html",
+        "pub_date": "2023-07-19"
+      }
+    ],
+    "document_id": "NFLX_FQ2_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T145602Z",
+    "timestamp": "2026-07-08T14:56:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q2\\nflx-2q23-transcript.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2023-Q2\\nflx-2q23-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 42703,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ2_2023.txt"
+  }
+}

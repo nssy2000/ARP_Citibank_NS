@@ -1,0 +1,293 @@
+{
+  "document_id": "DIS_FQ4_2024",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document shows strong operational momentum: Entertainment DTC swung from a loss to a profit, total segment operating income grew 23% in Q4, and management provided a multi-year guidance framework with double-digit adjusted EPS growth expected in fiscal 2026 and 2027. While formal guidance for fiscal 2025 is specific and positive (high-single digit adjusted EPS growth, double-digit segment OI growth in Entertainment and Sports), the forward outlook is not raised relative to a prior explicit guidance (none was given), so the score reflects genuine trajectory change rather than a formal raise. The tone is confident, and risks (linear decline, hurricane impacts) are acknowledged but framed as manageable."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 revenues increased 6% to $22.6 billion from $21.2 billion in the prior-year quarter. Full year revenues increased 3% to $91.4 billion from $88.9 billion.",
+    "eps": "Q4 diluted EPS increased 79% to $0.25 from $0.14 in the prior-year quarter. Full year diluted EPS more than doubled to $2.72 from $1.29. Adjusted EPS for Q4 was $1.14, up 39% from $0.82.",
+    "guidance": "Fiscal 2025: high-single digit adjusted EPS growth, Entertainment double-digit segment OI growth, Sports 13% segment OI growth, Experiences 6-8% segment OI growth. Fiscal 2026: double-digit adjusted EPS growth, double-digit cash from operations growth. Fiscal 2027: double-digit adjusted EPS growth.",
+    "margin": "Not disclosed as a specific margin figure. However, the document guides to a 10% operating margin for Entertainment SVOD DTC businesses (excluding Hulu Live DMVPD service) in fiscal 2026.",
+    "key_risks": [
+      "Linear Networks revenue and operating income continue to decline (Q4 revenue -6%, operating income -38% year-over-year).",
+      "Experiences segment operating income declined 6% in Q4, with International Parks & Experiences down 32%.",
+      "Q1 fiscal 2025 Experiences operating income adversely impacted by approximately $130 million due to Hurricanes Helene and Milton and approximately $90 million due to Disney Cruise Line pre-launch costs.",
+      "Sports segment operating income declined 5% in Q4, with domestic ESPN down 5%.",
+      "Restructuring and impairment charges of $1.5 billion in Q4, including goodwill impairments related to general entertainment linear networks.",
+      "Effective income tax rate increased to 40.5% from 31.1% due to prior-year adjustments and higher non-tax deductible impairments."
+    ],
+    "key_opportunities": [
+      "Entertainment DTC delivered $253 million in operating income, swinging from a loss of $420 million in the prior-year quarter.",
+      "Combined DTC streaming businesses achieved operating income of $321 million, improving from a loss of $387 million in the prior-year quarter.",
+      "Content Sales/Licensing and Other operating income of $316 million, driven by record box office from Inside Out 2 and Deadpool & Wolverine.",
+      "Disney+ Core paid subscribers increased by 4.4 million sequentially to 122.7 million.",
+      "Domestic ESPN advertising revenue grew 7% in Q4.",
+      "Experiences segment had record revenue and operating income for the full year.",
+      "Multi-year guidance includes double-digit adjusted EPS growth in fiscal 2026 and 2027.",
+      "ESPN flagship DTC launch planned for early fall 2025, expected to be additive in fiscal 2026.",
+      "Strong content pipeline for fiscal 2025 including Captain America: Brave New World, Lilo & Stitch, The Fantastic Four: First Steps, Zootopia 2, and Avatar: Fire and Ash."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Bob Iger stated: 'We have emerged from a period of considerable challenges and disruption well positioned for growth and optimistic about our future,' and the document provides a multi-year guidance framework with specific growth targets, indicating strong confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 revenues increased 6% to $22.6 billion.",
+      "quote": "Revenues increased 6% for Q4 to $22.6 billion from $21.2 billion in the prior-year quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year revenues increased 3% to $91.4 billion.",
+      "quote": "and 3% for the year to $91.4 billion from $88.9 billion in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 diluted EPS increased 79% to $0.25.",
+      "quote": "Diluted earnings per share (EPS) for Q4 increased 79% to $0.25 from $0.14 in the prior-year quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year diluted EPS more than doubled to $2.72.",
+      "quote": "and for the year more than doubled to $2.72 from $1.29 in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS for Q4 was $1.14, up 39%.",
+      "quote": "39% growth in adjusted EPS (1) to $1.14 from $0.82 for Q4",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 guidance includes high-single digit adjusted EPS growth.",
+      "quote": "Fiscal 2025: ◦ High-single digit adjusted EPS (1) growth compared to fiscal 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 Entertainment segment operating income growth expected to be double-digit percentage.",
+      "quote": "Entertainment: Double digit percentage segment operating income growth compared to fiscal 2024, weighted to the first half of the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 Sports segment operating income growth expected to be 13%.",
+      "quote": "Sports: 13% segment operating income growth compared to fiscal 2024 on a reported basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2025 Experiences segment operating income growth expected to be 6% to 8%.",
+      "quote": "Experiences: 6% to 8% segment operating income growth compared to fiscal 2024, weighted to the second half of the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 guidance includes double-digit adjusted EPS growth.",
+      "quote": "Fiscal 2026 (2) : ◦ Double digit adjusted EPS (1) growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2027 guidance includes double-digit adjusted EPS growth.",
+      "quote": "Fiscal 2027: ◦ Double digit adjusted EPS (1) growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Entertainment DTC swung to a profit of $253 million in Q4.",
+      "quote": "Entertainment DTC delivered 14% ad revenue growth in Q4, contributing to $253 million in operating income",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined DTC streaming businesses achieved operating income of $321 million.",
+      "quote": "our combined DTC streaming businesses improved their profitability in Q4, with operating income (1) of $321 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content Sales/Licensing and Other operating income was $316 million.",
+      "quote": "Pixar’s Inside Out 2 and Marvel’s Deadpool & Wolverine broke numerous box office records and helped drive $316 million in operating income at Content Sales/Licensing and Other in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ Core paid subscribers increased by 4.4 million sequentially to 122.7 million.",
+      "quote": "more than 120 million Disney+ Core paid subscribers, an increase of 4.4 million over the prior quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic ESPN advertising revenue grew 7% in Q4.",
+      "quote": "Domestic ESPN advertising revenue in Q4 grew 7% versus the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment had record revenue and operating income for the full year.",
+      "quote": "The Experiences segment had record revenue and operating income for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Linear Networks revenue declined 6% in Q4.",
+      "quote": "Linear Networks $ 2,461 $ 2,628 (6) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Linear Networks operating income declined 38% in Q4.",
+      "quote": "Operating income (loss): Linear Networks $ $ (38) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment operating income declined 6% in Q4.",
+      "quote": "Experiences operating income of $1.7 billion was a decline of $0.1 billion, or 6% compared to the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International Parks & Experiences operating income declined 32% in Q4.",
+      "quote": "International (32) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 fiscal 2025 Experiences operating income impacted by $130 million from hurricanes.",
+      "quote": "Q1 operating income adversely impacted by approximately $130 million due to Hurricanes Helene and Milton",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 fiscal 2025 Experiences operating income impacted by $90 million from Disney Cruise Line pre-launch costs.",
+      "quote": "and approximately $90 million due to Disney Cruise Line pre-launch costs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sports segment operating income declined 5% in Q4.",
+      "quote": "Sports segment operating income was $0.9 billion, a decline of $0.1 billion compared to the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Restructuring and impairment charges were $1.5 billion in Q4.",
+      "quote": "Restructuring and impairment charges were as follows: Quarter Ended ($ in millions) September 28, September 30, Impairments: Goodwill (1) $ $ Retail assets — Star India — Content (2) Equity investments Severance $ 1,543 $ 1,021",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Effective income tax rate increased to 40.5%.",
+      "quote": "Effective income tax rate 40.5 % 31.1 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Bob Iger stated: 'We have emerged from a period of considerable challenges and disruption well positioned for growth and optimistic about our future.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 guidance includes 10% operating margin for Entertainment SVOD DTC businesses (excluding Hulu Live DMVPD service).",
+      "quote": "10% operating margin for our Entertainment SVOD DTC businesses (excluding our Hulu Live DMVPD service)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN flagship DTC launch expected in early fall 2025.",
+      "quote": "as we prepare for the launch of ESPN's flagship DTC offering in early fall of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong content pipeline for fiscal 2025 includes multiple major titles.",
+      "quote": "Looking to 2025, we have an extremely promising content slate, including 'Captain America: Brave New World,' 'Lilo & Stitch,' 'The Fantastic Four: First Steps,' 'Zootopia 2,' and 'Avatar: Fire and Ash.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects genuine operational momentum and a multi-year guidance framework, but the guidance is not raised relative to a prior explicit guidance (none was given). The score is based on trajectory change rather than a formal raise, which may be interpreted differently by different reviewers."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 30,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2024-11-14",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2024-11-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q4\\dis-4q24-press-release.html",
+        "pub_date": "2024-11-14"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q4\\dis-4q24-transcript.html",
+        "pub_date": "2024-11-14"
+      }
+    ],
+    "document_id": "DIS_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T144141Z",
+    "timestamp": "2026-07-08T14:44:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q4\\dis-4q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q4\\dis-4q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 52524,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2024-Q4\\dis-4q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 46502,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ4_2024.txt"
+  }
+}

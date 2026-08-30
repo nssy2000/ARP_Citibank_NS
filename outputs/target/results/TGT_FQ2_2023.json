@@ -1,0 +1,202 @@
+{
+  "document_id": "TGT_FQ2_2023",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: full-year GAAP and Adjusted EPS guidance was lowered from $7.75-$8.75 to $7.00-$8.00, and comparable sales expectations were lowered to a wide range around a mid-single-digit decline for the remainder of the year. Management explicitly adopted a cautious planning approach, citing continued near-term challenges on the topline, including the resumption of student loan payments and ongoing shrink headwinds. Although Q2 profit performance beat expectations, the forward-looking guidance cut and cautious language dominate the signal."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $24.8 billion was 4.9 percent lower than last year, reflecting a total sales decline of 4.9 percent partially offset by a 1.3 percent increase in other revenue. Comparable sales declined 5.4 percent.",
+    "eps": "Second quarter GAAP and Adjusted EPS of $1.80, up 357.6 percent from $0.39 in 2022, and above the high end of the Company's guidance range.",
+    "guidance": "Full-year GAAP and Adjusted EPS guidance lowered to $7.00 to $8.00 from prior range of $7.75 to $8.75. Comparable sales expected in a wide range around a mid-single-digit decline for the remainder of the year. Third quarter GAAP and Adjusted EPS guidance of $1.20 to $1.60.",
+    "margin": "Second quarter operating income margin rate was 4.8 percent in 2023, compared with 1.2 percent in 2022. Gross margin rate was 27.0 percent, compared with 21.5 percent in 2022.",
+    "key_risks": [
+      "Softer-than-expected sales trends, with comparable sales declining 5.4%.",
+      "Higher inventory shrink, which drove a 90 basis point headwind to gross margin rate in Q2.",
+      "Ongoing headwinds from the rollback of government support (stimulus, enhanced child care tax credits, suspension of student loan payments).",
+      "Negative guest reaction to the Pride assortment, leading to threats and aggressive actions against team members.",
+      "Retail theft and organized retail crime, with a 120% increase in theft incidents involving violence or threats of violence in the first 5 months of 2023.",
+      "Inflationary pressures throughout the business, including higher costs for pay and benefits.",
+      "Higher net interest expense due to higher average long-term debt balances and higher floating interest rates."
+    ],
+    "key_opportunities": [
+      "Continued growth in frequency businesses (Essentials & Beauty and Food & Beverage) partially offsetting discretionary declines.",
+      "Same-day services grew nearly 4 percent, led by nearly 7 percent growth in Drive-Up.",
+      "Strong performance of Ulta Beauty at Target, with sales more than doubling year-over-year.",
+      "New store openings and remodels, including the first new offshore location since 2021.",
+      "Expansion of sortation centers, expected to process more than 35 million packages in 2023.",
+      "Launch of new owned brands and refresh of existing ones (e.g., Threshold, new kitchenware line).",
+      "Target Circle loyalty program with over 100 million members, adding more than 0.5 million new members during Circle Week."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly uses phrases like 'cautious approach to planning our business,' 'we continue to take a cautious approach,' and 'we remain cautious in our planning,' reflecting a defensive posture despite better-than-expected profit performance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year GAAP and Adjusted EPS guidance was lowered from $7.75-$8.75 to $7.00-$8.00.",
+      "quote": "The Company now expects full-year GAAP and Adjusted EPS of $7.00 to $8.00, compared with the prior range of $7.75 to $8.75.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales expectations were lowered to a wide range around a mid-single-digit decline for the remainder of the year.",
+      "quote": "Given recent sales trends, Target now expects comparable sales in a wide range around a mid-single digit decline for the remainder of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter GAAP and Adjusted EPS of $1.80 was above the high end of the Company's guidance range.",
+      "quote": "Second quarter GAAP and Adjusted EPS of $1.80 was more than 4 times higher than a year ago and above the high end of the Company's guidance range, reflecting a meaningful profit recovery from last year's inventory actions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenue was $24.8 billion, down 4.9 percent year-over-year.",
+      "quote": "Total revenue of $24.8 billion was 4.9 percent lower than last year, reflecting a total sales decline of 4.9 percent partially offset by a 1.3 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales declined 5.4 percent in the second quarter.",
+      "quote": "Comparable sales declined 5.4 percent in the second quarter, reflecting comparable store sales declines of 4.3 percent and comparable digital sales declines of 10.5 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter operating income margin rate was 4.8 percent, compared with 1.2 percent last year.",
+      "quote": "Second quarter operating income margin rate was 4.8 percent in 2023, compared with 1.2 percent in 2022.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin rate was 27.0 percent, compared with 21.5 percent last year.",
+      "quote": "Second quarter gross margin rate was 27.0 percent, compared with 21.5 percent in 2022, reflecting lower markdowns and other inventory-related costs, lower freight costs, retail price increases, and lower supply chain and digital fulfillment costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory shrink drove a 90 basis point headwind to gross margin rate in Q2.",
+      "quote": "Offsetting these benefits was a 90 basis point headwind from inventory shrink, in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management adopted a cautious planning approach.",
+      "quote": "As we move into the Fall, the team is gearing up for the biggest seasons of the year, with a focus on continuing to serve our guests with newness throughout our assortment. At the same time, we continue to take a cautious approach to planning our business, and have therefore adjusted our financial guidance in anticipation of continued near-term challenges on the topline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Negative guest reaction to the Pride assortment affected the business.",
+      "quote": "Beyond these factors in the second quarter, many of our store team members faced a negative guest reaction to our Pride assortment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Retail theft and organized retail crime are increasing, with a 120% rise in violent incidents.",
+      "quote": "During the first 5 months of this year, our stores saw a 120% increase in theft incidents involving violence or threats of violence.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day services grew nearly 4 percent, led by nearly 7 percent growth in Drive-Up.",
+      "quote": "Same-day services grew nearly 4 percent, led by nearly 7 percent growth in Drive-Up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ulta Beauty at Target sales more than doubled year-over-year.",
+      "quote": "Within our Beauty offering, core Beauty delivered double-digit growth while sales from Ulta Beauty at Target more than doubled compared with a year ago, showing why we're so enthusiastic about this exclusive partnership.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Target Circle Week added more than 0.5 million new members.",
+      "quote": "In the month, we were especially pleased with trends around Independence Day holiday, along with Circle Week, which also resulted in the addition of more than 0.5 million new Target Circle members.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter GAAP and Adjusted EPS guidance is $1.20 to $1.60.",
+      "quote": "For the third quarter, the Company expects comparable sales in a wide range around a mid-single digit decline, and GAAP and Adjusted EPS of $1.20 to $1.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects the guidance cut, but the Q2 profit beat was strong and above expectations. A reviewer may consider whether the positive profit recovery should moderate the negative score slightly, though the forward guidance cut is the dominant signal per the scoring rules."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2023-08-16",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-08-16",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q2\\2023-08-16-TGT-FQ3-2023-Press-Release.html",
+        "pub_date": "2023-08-16"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q2\\2023-08-16-TGT-FQ3-2023-Transcript.pdf",
+        "pub_date": "2023-08-16"
+      }
+    ],
+    "document_id": "TGT_FQ2_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T144915Z",
+    "timestamp": "2026-07-08T14:50:17Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q2\\2023-08-16-TGT-FQ3-2023-Press-Release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q2\\2023-08-16-TGT-FQ3-2023-Press-Release.html",
+        "page_count": 1,
+        "extracted_characters": 21592,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2023-Q2\\2023-08-16-TGT-FQ3-2023-Transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 73064,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2023.txt"
+  }
+}

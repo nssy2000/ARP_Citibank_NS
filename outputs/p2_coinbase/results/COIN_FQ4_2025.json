@@ -1,0 +1,198 @@
+{
+  "document_id": "COIN_FQ4_2025",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "Forward guidance is defensive: Q1 subscription and services revenue is guided down to $550M–$630M from Q4's $727M, reflecting lower crypto prices, rates, and rewards. Transaction revenue through February 10 is $420M, but management cautions against extrapolation due to volatility. The GAAP net loss of $667M is driven by unrealized crypto losses, not operational issues, but the lowered subscription guide and flat expense outlook signal caution rather than growth. The score is slightly negative because guidance was reduced, not held flat."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 total revenue $1.8B, down 5% Q/Q. Full-year 2025 revenue $7.2B, up 9% Y/Y.",
+    "eps": "Not disclosed. GAAP net loss $667M, driven by $718M unrealized loss on crypto portfolio and $395M loss on strategic investments including Circle.",
+    "guidance": "Q1 2026 transaction revenue about $420M through February 10 amid heightened volatility. Q1 subscription and services guided down to $550M–$630M on lower crypto prices, rates, and rewards. Expenses expected flat Q/Q.",
+    "margin": "Not disclosed. Adjusted EBITDA $566M in Q4.",
+    "key_risks": [
+      "Crypto market cap fell 11% in Q4, and softness is reflected in the subscription guide.",
+      "Brief platform interruptions affected core buy, sell, and transfer functions.",
+      "$718M unrealized loss on crypto portfolio and $395M loss on strategic investments including Circle.",
+      "Lower average crypto price environment, lower interest rates, and lower staking protocol rewards rates expected in Q1."
+    ],
+    "key_opportunities": [
+      "Global trading volume and market share both doubled year over year to all-time highs.",
+      "Everything Exchange launched in Q4, with early success in derivatives, prediction markets, and equities.",
+      "Stablecoin adoption: USDC stored in Coinbase products hit an all-time high, USDC market cap reached ~$75B.",
+      "Base chain set new transaction all-time high, with AI agents adopting stablecoin wallets.",
+      "12 products generating over $100M annualized revenue; subscription and services revenue up 5.5x from 2021 peak."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in long-term positioning ('I'm more bullish than ever') but also provides defensive guidance ('we're focused on flat for the first quarter') and acknowledges headwinds ('lower average crypto price environment')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 total revenue was $1.8B, down 5% Q/Q.",
+      "quote": "Q4 total revenue was $1.8 billion, down 5% Q/Q.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue was $7.2B, up 9% Y/Y.",
+      "quote": "Our 2025 total revenue was $7.2 billion, a 9% Y/Y increase.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net loss was $667M, driven by unrealized crypto losses.",
+      "quote": "On a GAAP basis, we reported a net loss of $667 million, primarily driven by a $718 million unrealized loss on our crypto investment portfolio and a $395 million loss on strategic investments, which includes our investment in Circle.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 subscription and services revenue guided down to $550M–$630M.",
+      "quote": "For the first quarter, we expect subscription and services revenue to be in the range of $550 million to $630 million, reflecting the lower average crypto price environment we are in, lower interest rates, and lower staking protocol rewards rates compared to Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 transaction revenue about $420M through February 10.",
+      "quote": "Through February 10, we have generated approximately $420 million of transaction revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expenses expected flat Q/Q in Q1.",
+      "quote": "On the expense side, we expect technology & development plus general & administrative expenses to be flat Q/Q in the same range we guided last quarter – in the range of $925 to $975 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Crypto market cap fell 11% in Q4.",
+      "quote": "crypto market cap was down 11% Q/Q.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brief platform interruptions affected core buy, sell, and transfer functions.",
+      "quote": "We did have an event yesterday where some users briefly experienced interruptions in their ability to buy, sell, and transfer crypto on our retail and Prime platform.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global trading volume and market share doubled year over year.",
+      "quote": "Global trading volume and market share doubled year-over-year, reaching new all-time highs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Everything Exchange launched in Q4 with early success.",
+      "quote": "We launched the Everything Exchange in Q4 and are seeing early signs of success.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "USDC stored in Coinbase products hit an all-time high, market cap ~$75B.",
+      "quote": "In Q4, we hit an all-time high in USDC stored in Coinbase products, which helped USDC reach an all-time high market cap of about $75 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Base set new transaction all-time high with AI agents adopting stablecoin wallets.",
+      "quote": "Base set a new transaction all-time high, with AI agents adopting stablecoin wallets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "12 products generating over $100M annualized revenue; subscription and services revenue up 5.5x from 2021 peak.",
+      "quote": "We now have 12 products doing over $100 million annualized revenue. Subscription and services revenue hit all-time highs, up 5.5x from the peak in 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident long-term but defensive on near-term guidance.",
+      "quote": "I'm more bullish than ever. ... we're focused on flat for the first quarter.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA was $566M in Q4.",
+      "quote": "Adjusted EBITDA in Q4 was $566 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) based on guidance reduction, but the stock had a large positive overnight move (+8.94%), suggesting the market interpreted the report more positively. A human reviewer should verify whether the guidance reduction was already priced in or if the score should be adjusted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "COIN_Bundled Earnings Report_2026-02-12",
+  "report_metadata": {
+    "issuer": "p2_coinbase",
+    "company": "Coinbase",
+    "ticker": "COIN",
+    "sector": "Financials/Crypto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-12",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q4\\09 coinbase q4 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q4\\COIN-Q4-2025-Earnings-Call-Transcript-official.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COIN_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172642Z",
+    "timestamp": "2026-07-30T17:27:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q4\\09 coinbase q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q4\\09 coinbase q4 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6323,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2025-Q4\\COIN-Q4-2025-Earnings-Call-Transcript-official.pdf",
+        "page_count": 12,
+        "extracted_characters": 50766,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ4_2025.txt"
+  }
+}

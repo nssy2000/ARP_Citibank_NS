@@ -1,0 +1,192 @@
+{
+  "document_id": "CVS_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Full-year adjusted EPS guidance was raised to $6.30-$6.40 from $6.00-$6.20, and cash flow from operations guidance was raised to at least $7.5B from approximately $7.0B. The Health Care Benefits segment showed strong improvement (adjusted operating income +39.4% y/y), and the Pharmacy & Consumer Wellness segment delivered another strong quarter. However, the Health Services segment guidance was reduced by ~$200M due to Oak Street pressure, and management maintained a cautious outlook on medical cost trends and the consumer environment, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Second quarter total revenues of $98.9B, up 8.4% compared to prior year.",
+    "eps": "Second quarter GAAP diluted EPS of $0.80, down from $1.41; Adjusted EPS of $1.81, relatively consistent with prior year.",
+    "guidance": "Full-year 2025 adjusted EPS guidance raised to $6.30-$6.40 from $6.00-$6.20. Full-year total revenues expected to be at least $391.5B. Health Care Benefits adjusted operating income expected to be approximately $2.42B. Health Services adjusted operating income expected to be at least $7.34B. Pharmacy & Consumer Wellness adjusted operating income expected to be at least $5.68B. Cash flow from operations expected to be at least $7.5B.",
+    "margin": "Health Care Benefits segment MBR of 89.9% for Q2 2025, up 30 bps from prior year. Full-year 2025 MBR expected to be approximately 91% at the low end of guidance.",
+    "key_risks": [
+      "Elevated medical cost trends across all lines of business, particularly in Group Medicare Advantage (triggered a $470M premium deficiency reserve).",
+      "Pressure in Health Care Delivery business driven by higher medical benefit ratio at Oak Street Health.",
+      "Continued pharmacy reimbursement pressure in the Pharmacy & Consumer Wellness segment.",
+      "Cautious outlook on Part D due to substantial changes in plan liability from the Inflation Reduction Act.",
+      "Potential changes in vaccine market demand and consumer environment in the back half of the year."
+    ],
+    "key_opportunities": [
+      "Strong start to the 2026 PBM selling season with retention expected in the high-90s.",
+      "Meaningful progress in Aetna margin recovery, with adjusted operating income up 39.4% y/y in Q2.",
+      "CVS CostVantage model transitioning commercial scripts in line with expectations, with government transition planned for 2026.",
+      "Growth in Oak Street at-risk membership (up 31% y/y) and strong volumes at Signify Health.",
+      "Market disruption from other pharmacy closures driving script share gains (retail pharmacy script share up 60 bps to 27.8%)."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'we are pleased to report another consecutive quarter of solid results,' 'we are encouraged by our enterprise performance and revised outlook,' and 'we are building momentum,' while also maintaining a 'prudent and respectful outlook for the remainder of the year.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year adjusted EPS guidance was raised to $6.30-$6.40 from $6.00-$6.20.",
+      "quote": "We again increased our full year 2025 adjusted EPS guidance to a range of $6.30 to $6.40, up from our previous range of $6 to $6.20",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter total revenues were $98.9B, up 8.4%.",
+      "quote": "Second quarter total revenues increased to $98.9 billion, up 8.4% compared to prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter adjusted EPS was $1.81, relatively consistent with prior year.",
+      "quote": "Second quarter adjusted EPS of $1.81 was relatively consistent with the prior year quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Health Care Benefits adjusted operating income increased 39.4% y/y.",
+      "quote": "Adjusted operating income in the quarter was approximately $1.3B, an increase of nearly 40% from the prior year quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A $470M premium deficiency reserve was recorded in Group Medicare Advantage.",
+      "quote": "During the second quarter of 2025, in light of continued utilization pressure, the Company recorded a premium deficiency reserve of $471 million to health care costs in its Group Medicare Advantage product line",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Health Services segment guidance was reduced by ~$200M.",
+      "quote": "In our Health Services segment, we now expect full year adjusted operating income of at least $7.34B, a decrease of approximately $200mm from our prior guidance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pharmacy & Consumer Wellness segment guidance was raised by ~$200M.",
+      "quote": "In our Pharmacy & Consumer Wellness segment, we now expect full year adjusted operating income of at least $5.68B, an increase of approximately $200mm from our prior guidance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash flow from operations guidance was raised to at least $7.5B.",
+      "quote": "We’re also revising our expectations for full year cash flow from operations to at least $7.5B",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medical cost trends remain elevated but are generally in line to slightly better than expectations.",
+      "quote": "While medical cost trends remain elevated vs. historical periods, in aggregate, they are generally in line to slightly better than our expectations so far this year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PBM retention expected to be in the high-90s for 2026 selling season.",
+      "quote": "We’re having a strong start to the 2026 selling season, with retention expected to be in the high-90s",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Oak Street at-risk membership grew 31% y/y.",
+      "quote": "ended the quarter with total at-risk membership up 31% from the same period last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Retail pharmacy script share grew to 27.8%, up 60 bps.",
+      "quote": "Retail pharmacy script share in the quarter grew to approximately 27.8%, an increase of approximately 60BPS from the same period last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are pleased to report another consecutive quarter of solid results as we execute against our ambition of becoming America's most trusted health care company",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management maintains a prudent outlook for the remainder of the year.",
+      "quote": "we continue to maintain a prudent and respectful outlook for the remainder of the year, with clear opportunities for outperformance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a guidance raise offset by a segment guidance cut and cautious language. A reviewer may wish to assess whether the positive guidance raise outweighs the negative segment revision and elevated risk disclosures."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CVS_Bundled Earnings Report_2025-07-31",
+  "report_metadata": {
+    "issuer": "p2_cvs_health",
+    "company": "CVS Health",
+    "ticker": "CVS",
+    "sector": "Healthcare/Consumer",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-31",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q2\\CVS-Health-Q2-2025-Earnings-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q2\\CVS-Health-Q2-2025-Press-Release.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CVS_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172735Z",
+    "timestamp": "2026-07-30T17:27:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q2\\CVS-Health-Q2-2025-Earnings-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_cvs_health\\extracted\\CVS_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q2\\CVS-Health-Q2-2025-Earnings-Transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 67580,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\cvs_health\\CY2025-Q2\\CVS-Health-Q2-2025-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 13952,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_cvs_health\\extracted\\CVS_FQ2_2025.txt"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "document_id": "BAC_FQ2_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports a solid quarter with EPS up 7% YoY and NII growing for the fourth consecutive quarter. However, forward guidance is not formally raised; the NII outlook for 4Q25 is provided as a range ($15.5B-$15.7B) with explicit assumptions about interest rate cuts and balance sheet growth, which implies management expects continued improvement but with specific, quantified drivers. The tone from both the CEO and CFO is confident, citing 'good momentum' and 'strong loan and deposit growth.' The score is mildly positive because there is genuine operational momentum (fourth consecutive quarter of NII growth, eighth consecutive quarter of deposit growth) and confident forward language, but no formal guidance raise above the company's own prior expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$26.5 billion, up 4% YoY ($26.6 billion FTE).",
+    "eps": "$0.89 per diluted share, up 7% from $0.83 in 2Q24.",
+    "guidance": "Net interest income (FTE) outlook for 4Q25 is approximately $15.5B-$15.7B, driven by fixed-rate asset repricing, impact of interest rate cuts, Global Markets NII, and balance sheet growth. Expect to deliver operating leverage in 2H25. Announced plans to increase quarterly common stock dividend 8% beginning in 3Q25.",
+    "margin": "Net interest yield (FTE) of 1.94%, down 5 bps from 1Q25 and up 1 bp from 2Q24. Efficiency ratio of 65% for 2Q25, flat to 1Q25 and up from 64% in 2Q24. Return on average common shareholders' equity of 10.0%; return on average tangible common shareholders' equity of 13.4%.",
+    "key_risks": [
+      "Impact of lower interest rates on NII (100 bps parallel shift below forward curve estimated to reduce NII by $2.3B over next 12 months).",
+      "Provision for credit losses increased to $1.6B from $1.5B in both 2Q24 and 1Q25.",
+      "Commercial net charge-offs increased $133MM from 1Q25, driven by sales and resolutions of commercial real estate office properties.",
+      "Noninterest expense increased 5% YoY, driven by higher revenue-related expenses and investments.",
+      "Global Banking revenue decreased 6% YoY, reflecting lower NII, leasing revenue, and investment banking fees.",
+      "Investment banking fees (excl. self-led) decreased 9% YoY."
+    ],
+    "key_opportunities": [
+      "Net interest income grew for the fourth consecutive quarter, reflecting eight consecutive quarters of deposit growth and 7% YoY loan growth.",
+      "Sales and trading revenue up 14% YoY (excl. DVA, up 15%), with 13th consecutive quarter of YoY growth.",
+      "Consumer investment assets up 13% YoY to $540B, driven by higher market valuations and $19B of net client flows.",
+      "Global Wealth and Investment Management client balances up 10% YoY to $4.4T.",
+      "Average deposits up 3% YoY to $1.97T, eighth consecutive quarter of sequential growth.",
+      "Average loans and leases up 7% YoY, with growth across every business segment.",
+      "Announced plans to increase quarterly common stock dividend 8% beginning in 3Q25.",
+      "Expect to deliver operating leverage in 2H25."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'We delivered another solid quarter' and CFO Alastair Borthwick said 'we believe our second quarter results underscore the strength of our balance sheet and help demonstrate that we are well-positioned to support the broader economy.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $26.5 billion, up 4% YoY.",
+      "quote": "Revenue, net of interest expense, of $26.5 billion ($26.6 billion FTE),(A) up 4%, reflected higher net interest income (NII), sales and trading revenue and asset management fees, as well as lower investment banking fees",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $0.89 per diluted share, up 7% from $0.83 in 2Q24.",
+      "quote": "Net income of $7.1 billion, or $0.89 per diluted share, compared to $6.9 billion, or $0.83 per diluted share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income (FTE) outlook for 4Q25 is approximately $15.5B-$15.7B.",
+      "quote": "Net Interest Income Outlook1,2 2Q25 Day count Fixed-rate asset repricing Impact of interest rate cuts Global Markets NII Other balance sheet growth / mix 4Q25 ~$15.5B$15.7B $14.8B",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expect to deliver operating leverage in 2H25.",
+      "quote": "Expect to deliver operating leverage in 2H251",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Announced plans to increase quarterly common stock dividend 8% beginning in 3Q25.",
+      "quote": "announced plans to increase the quarterly common stock dividend 8% beginning in 3Q257",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) of 1.94%, down 5 bps from 1Q25 and up 1 bp from 2Q24.",
+      "quote": "Net interest yield of 1.94% decreased 5 bps from 1Q25 and increased 1 bp vs. 2Q24",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio of 65% for 2Q25.",
+      "quote": "Efficiency ratio 65 65 64",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average common shareholders' equity of 10.0%.",
+      "quote": "Return on average common shareholders' equity 10.0 10.4 10.0",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average tangible common shareholders' equity of 13.4%.",
+      "quote": "Return on average tangible common shareholders' equity2 13.4 13.9 13.6",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Impact of lower interest rates on NII: 100 bps parallel shift below forward curve estimated to reduce NII by $2.3B over next 12 months.",
+      "quote": "100 bps parallel shift below the June 30, 2025, forward interest rate yield curve is estimated to reduce net interest income by $2.3B over the next 12 months2",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Provision for credit losses increased to $1.6B from $1.5B in both 2Q24 and 1Q25.",
+      "quote": "Provision for credit losses of $1.6 billion increased from $1.5 billion in 2Q24 and 1Q25",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial net charge-offs increased $133MM from 1Q25, driven by sales and resolutions of commercial real estate office properties.",
+      "quote": "Commercial net charge-offs of $466 million increased $133 million compared to 1Q25, driven primarily by sales and resolutions of commercial real estate office properties",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest expense increased 5% YoY.",
+      "quote": "Noninterest expense of $17.2 billion, up 5%, driven by higher revenue-related expenses and investments in people, brand and technology",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Banking revenue decreased 6% YoY.",
+      "quote": "Revenue of $5.7 billion3 decreased 6%, reflecting lower NII, leasing revenue and investment banking fees, partially offset by higher treasury service charges",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees (excl. self-led) decreased 9% YoY.",
+      "quote": "Total Corporation investment banking fees (excl. self-led) of $1.4 billion decreased 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest income grew for the fourth consecutive quarter.",
+      "quote": "Net interest income grew for the fourth straight quarter, reflecting eight consecutive quarters of deposit growth and seven percent year-over-year loan growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue up 14% YoY (excl. DVA, up 15%), with 13th consecutive quarter of YoY growth.",
+      "quote": "Sales and trading revenue up 14% to $5.3 billion including net debit valuation adjustment (DVA) losses of $51 million. Excluding net DVA, up 15%.(E) 13th consecutive quarter of year-over-year growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer investment assets up 13% YoY to $540B.",
+      "quote": "Consumer investment assets5 of $540 billion, up 13%, driven by higher market valuations and $19 billion of net client flows from new and existing clients",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Wealth and Investment Management client balances up 10% YoY to $4.4T.",
+      "quote": "Client balances of $4.4 trillion, up 10%, driven by higher market valuations and positive net client flows",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average deposits up 3% YoY to $1.97T, eighth consecutive quarter of sequential growth.",
+      "quote": "Average deposit balances of $1.97 trillion increased 3%; eighth consecutive quarter of sequential growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average loans and leases up 7% YoY, with growth across every business segment.",
+      "quote": "Average loans and leases of $1.13 trillion increased 7%, with growth across every business segment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Brian Moynihan: 'We delivered another solid quarter' and CFO Alastair Borthwick: 'we believe our second quarter results underscore the strength of our balance sheet and help demonstrate that we are well-positioned to support the broader economy.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The NII outlook for 4Q25 is provided as a range with explicit assumptions, which could be interpreted as a guidance raise or simply a forward-looking projection. The score of 0.20 reflects mild positive momentum but a human reviewer should confirm whether this constitutes a formal guidance raise relative to prior company guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2025-07-16",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-16",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q2\\The Press Release_2Q25_ADA.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q2\\The Presentation Materials_2Q25_ADA.pdf"
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q2\\The Supplemental Information_2Q25_ADA.pdf"
+      }
+    ],
+    "document_id": "BAC_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260706T101345Z",
+    "timestamp": "2026-07-06T10:15:03Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q2\\The Press Release_2Q25_ADA.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q2\\The Press Release_2Q25_ADA.pdf",
+        "page_count": 19,
+        "extracted_characters": 62498,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q2\\The Presentation Materials_2Q25_ADA.pdf",
+        "page_count": 34,
+        "extracted_characters": 63434,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\Q2\\The Supplemental Information_2Q25_ADA.pdf",
+        "page_count": 32,
+        "extracted_characters": 87641,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2025.txt"
+  }
+}

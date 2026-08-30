@@ -1,0 +1,58 @@
+{
+  "document_id": "MCD_FQ1_2026_QUANT",
+  "base_document_id": "MCD_FQ1_2026",
+  "issuer": "p2_mcdonalds",
+  "ticker": "MCD",
+  "sector": "Consumer/Retail",
+  "report_date": "2026-05-07",
+  "sentiment": {
+    "score": -0.150618
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.068066,
+      "window_start_date": "2026-04-07",
+      "window_end_date": "2026-05-06",
+      "score": -0.424997,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.192743,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 3.11,
+      "matched_earnings_date": "2026-05-07",
+      "score": 0.123762,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.08,
+      "vix_score": 0.127306,
+      "tnx_change": 0.101,
+      "tnx_score": -0.199297,
+      "score": -0.035996,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-05-06",
+      "curve_spread": 0.49,
+      "curve_score": 0.454216,
+      "curve_as_of": "2026-05-06",
+      "score": 0.227108,
+      "available": true
+    },
+    "quant_score": -0.150618,
+    "quant_score_with_macro": -0.093307,
+    "quant_score_with_fred": 0.038245,
+    "quant_score_with_macro_fred": 0.013498
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

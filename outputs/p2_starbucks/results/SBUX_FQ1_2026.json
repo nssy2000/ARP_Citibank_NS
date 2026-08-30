@@ -1,0 +1,192 @@
+{
+  "document_id": "SBUX_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company reports strong operational momentum with global comparable store sales accelerating to 4%, U.S. comparable transaction growth for the first time in eight quarters, and introduces fiscal 2026 guidance with global and U.S. comparable store sales growth of 3% or greater. However, the guidance is new and not compared to prior guidance, and management's language is confident but not highly aggressive, with noted headwinds from inflation, tariffs, and elevated coffee pricing. The score reflects genuine operational inflection and positive forward guidance, but not a material raise above prior expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q1 consolidated net revenues increased 6% to $9.9 billion, or a 5% increase on a constant currency basis.",
+    "eps": "GAAP EPS $0.26, declined 62% over prior year; Non-GAAP EPS $0.56, declined 19% over prior year.",
+    "guidance": "Fiscal year 2026 guidance: Global and U.S. comparable store sales growth of 3% or greater, consolidated net revenues growing at a similar rate; Non-GAAP consolidated operating margin to slightly improve year over year; Non-GAAP EPS in the range of $2.15 to $2.40; approximately 600 to 650 net new coffeehouses globally.",
+    "margin": "GAAP operating margin contracted 290 basis points year-over-year to 9.0%; Non-GAAP operating margin contracted 180 basis points to 10.1%.",
+    "key_risks": [
+      "Inflationary pressures, primarily driven by elevated coffee pricing and tariffs",
+      "Restructuring costs associated with the closure of coffeehouses",
+      "Income tax expense increase due to changes in indefinite reinvestment assertions",
+      "Potential negative effects of strategic changes, including the China joint venture",
+      "Higher costs, lower quality, or unavailability of coffee, dairy, cocoa, energy, water, raw materials, or product ingredients and related volatility"
+    ],
+    "key_opportunities": [
+      "U.S. comparable transaction growth for the first time in eight quarters",
+      "China comparable store sales increased 7%",
+      "International segment operating margin expanded 100 bps",
+      "Channel Development net revenues increased 20%",
+      "Joint venture with Boyu Capital to accelerate long-term growth in China"
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "CEO Brian Niccol stated, 'Our Q1 results demonstrate our 'Back to Starbucks' strategy is working and we believe we're ahead of schedule,' and CFO Cathy Smith said, 'we have clear line of sight to translating topline strength into sustainable earnings growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 consolidated net revenues increased 6% to $9.9 billion.",
+      "quote": "Q1 Consolidated Net Revenues Up 6% to $9.9 Billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS was $0.26, down 62% year-over-year.",
+      "quote": "GAAP earnings per share of $0.26 declined 62% over prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS was $0.56, down 19% year-over-year.",
+      "quote": "Non-GAAP earnings per share of $0.56 declined 19% over prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 guidance includes global and U.S. comparable store sales growth of 3% or greater.",
+      "quote": "Global and U.S. comparable store sales growth of 3% or greater, with consolidated net revenues growing at a similar rate",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 guidance includes Non-GAAP EPS in the range of $2.15 to $2.40.",
+      "quote": "Non-GAAP earnings per share in the range of $2.15 to $2.40",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin contracted 290 basis points to 9.0%.",
+      "quote": "GAAP operating margin contracted 290 basis points year-over-year to 9.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin contracted 180 basis points to 10.1%.",
+      "quote": "Non-GAAP operating margin contracted 180 basis points year-over-year to 10.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflationary pressures and elevated coffee pricing are key risks.",
+      "quote": "primarily driven by labor investments in support of 'Back to Starbucks' and inflationary pressures, primarily driven by tariffs and elevated coffee pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. comparable transaction growth was achieved for the first time in eight quarters.",
+      "quote": "Company Delivers U.S. Comparable Transaction Growth for the First Time in Eight Quarters",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China comparable store sales increased 7%.",
+      "quote": "China comparable store sales increased 7%, driven by a 5% increase in comparable transactions and a 2% increase in average ticket",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International segment operating margin expanded 100 basis points.",
+      "quote": "Operating margin of 13.7% expanded from 12.7% in the prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Channel Development net revenues increased 20%.",
+      "quote": "Net revenues for the Channel Development segment increased 20% over Q1 FY25 to $522.7 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Joint venture with Boyu Capital is a strategic opportunity for growth in China.",
+      "quote": "the company announced an agreement to form a joint venture with Boyu Capital to operate Starbucks retail in China ... underscoring its commitment to accelerating long-term growth in one of the company’s most important and fastest-growing global markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "Our Q1 results demonstrate our 'Back to Starbucks' strategy is working and we believe we're ahead of schedule",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance is newly introduced, not compared to prior guidance; score relies on operational momentum and confident language rather than a formal guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SBUX_Bundled Earnings Report_2026-01-27",
+  "report_metadata": {
+    "issuer": "p2_starbucks",
+    "company": "Starbucks",
+    "ticker": "SBUX",
+    "sector": "Consumer Cyclical/Restaurants",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-01-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2026-Q1\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SBUX_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T103643Z",
+    "timestamp": "2026-08-09T10:37:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_starbucks\\extracted\\SBUX_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 37642,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2026-Q1\\presentation.pdf",
+        "error": "Extracted text from presentation.pdf is too short (1240 characters)"
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_starbucks\\extracted\\SBUX_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Presentation: extraction_failed: Extracted text from presentation.pdf is too short (1240 characters)"
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "document_id": "UAL_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports Q3 adjusted EPS of $2.78, above the top end of guidance ($2.25-$2.75), and Q4 guidance of $3.00-$3.50 is above Q3's actual, implying sequential improvement. Management raised full-year EPS guidance toward the better half of the $9-$11 range and expects to be the only airline to grow earnings this year. The tone is confident, with explicit statements about margin expansion and a structural shift toward brand-loyal customers. However, the guidance raise is modest and the Q3 beat is partly attributed to timing benefits (maintenance and labor shifting to Q4), preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total operating revenue of $15.2 billion, up 2.6% year-over-year.",
+    "eps": "Q3 2025 adjusted diluted EPS of $2.78, above the top end of guidance of $2.25 to $2.75.",
+    "guidance": "Q4 2025 adjusted diluted EPS guidance of $3.00 to $3.50. Full-year 2025 EPS expected towards the better half of the $9 to $11 range. Management expects to be the only airline to grow earnings this year.",
+    "margin": "Q3 2025 adjusted pre-tax margin of 8.0%. Management targets double-digit pre-tax margins in the long term.",
+    "key_risks": [
+      "Latin America results were disappointing with elevated year-to-year capacity expected to persist for another two quarters.",
+      "Ongoing negotiations with the Association of Flight Attendants (AFA) for a new contract could impact labor costs.",
+      "Competitive disadvantage of not being able to fly over Russian airspace, affecting routes to China and Hong Kong.",
+      "Potential impact from a government shutdown, which is factored into Q4 guidance but not infinite.",
+      "Q3 2025 CASM-ex benefited by approximately 1 point from maintenance expense moving to Q4 and 1 point from timing of certain labor contracts, implying some cost pressure in Q4."
+    ],
+    "key_opportunities": [
+      "Winning brand-loyal customers through over $1 billion annual investment in customer product enhancements.",
+      "Potential to double EBITDA from the MileagePlus loyalty program in the years to come.",
+      "Large gauge increases from Boeing and Airbus deliveries expected to add at least a point or more of margin each year.",
+      "Starlink Wi-Fi rollout is a game-changing differentiator, with over half of regional fleet installed and first mainline aircraft equipped.",
+      "Q4 expected to have the highest total operating revenue for a single quarter in company history.",
+      "Premium cabin revenue up 6% year-over-year, with premium capacity planned to grow 2-3 points more than total capacity in 2026."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Scott Kirby stated the industry change is 'structural, permanent, and irreversible' and that the company is on a 'path to solid double-digit margins,' reflecting strong conviction in the strategy."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 adjusted diluted EPS of $2.78, above the top end of guidance.",
+      "quote": "We delivered 3 quarter earnings per share of $2.78 above the top end of our guidance range of $2.25 to $2.75 and ahead of Wall Street expectations of $2.68.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total operating revenue of $15.2 billion, up 2.6% year-over-year.",
+      "quote": "United's top-line revenues increased 2.6% to 15.2 billion in the quarter on a 7.2% increase in capacity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 adjusted diluted EPS guidance of $3.00 to $3.50.",
+      "quote": "We expect 4th quarter EPS to be $3 to $3.50.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 EPS expected towards the better half of the $9 to $11 range.",
+      "quote": "That brings our full year EPS towards the better half of our full year 2025 guidance range of $9 to $11 and should position us to be the only airline to grow earnings this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 adjusted pre-tax margin of 8.0%.",
+      "quote": "Our pre-tax margin was 8% and would have been a point higher absent of disruptions earlier this year at Newark.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management targets double-digit pre-tax margins in the long term.",
+      "quote": "We continue to target double-digit pretext margins in the long-term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America results were disappointing with elevated year-to-year capacity expected to persist for another two quarters.",
+      "quote": "Latin America results were disappointing, with elevated year-to-year capacity expected to persist for another two quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing negotiations with the Association of Flight Attendants (AFA) for a new contract could impact labor costs.",
+      "quote": "The company is facing ongoing negotiations with the Association of Flight Attendants (AFA) for a new contract, which could impact labor costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive disadvantage of not being able to fly over Russian airspace, affecting routes to China and Hong Kong.",
+      "quote": "United Airlines Holdings Inc (UAL) is still dealing with the competitive disadvantage of not being able to fly over Russian airspace, affecting routes to China and Hong Kong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential impact from a government shutdown is factored into Q4 guidance but not infinite.",
+      "quote": "I think we calibrated the range of earnings per share for Q4 with government shutdown in mind. It's one act of God, not two acts of God, but we've got reasonable room there for. For continued government shutdown, but it's not infinite.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 CASM-ex benefited by approximately 1 point from maintenance expense moving to Q4 and 1 point from timing of certain labor contracts.",
+      "quote": "Our cost in the quarter did benefit by approximately 1 point of expense, moving to the fourth quarter, primarily driven by maintenance and approximately 1 point from the timing of certain labor contracts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Winning brand-loyal customers through over $1 billion annual investment in customer product enhancements.",
+      "quote": "United is investing over a billion dollars in customer product enhancements annually, and that investment is in all cabins and classes of service.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential to double EBITDA from the MileagePlus loyalty program in the years to come.",
+      "quote": "We believe that winning brand loyal customers sets up our second revenue advantage, the potential to double the EIT off from our loyalty program in the years to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Large gauge increases from Boeing and Airbus deliveries expected to add at least a point or more of margin each year.",
+      "quote": "And secondly on costs, we have large gauge increases coming as both Boeing and Airbus get back to a better delivery cadence. This strategy is working and I expect us to add at least a point or more of margin each year normalized for any unusual macroeconomic activity up or down, which gets us to the low teen margins in this industry capacity environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Starlink Wi-Fi rollout is a game-changing differentiator, with over half of regional fleet installed and first mainline aircraft equipped.",
+      "quote": "More than half of our regional flight now has Starlink successfully installed. We believe this superior in-flight experience will be truly game changing as it expands across the remainder of our fleet by 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 expected to have the highest total operating revenue for a single quarter in company history.",
+      "quote": "We also expect that Q4 will have United's best revenue quarter ever, but also have the highest absolute rams of any quarter of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium cabin revenue up 6% year-over-year, with premium capacity planned to grow 2-3 points more than total capacity in 2026.",
+      "quote": "Premium revenues were up 6% year over year and Pram for premium cabins outperformed the main cabin by 5 points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered strong 3rd quarter results despite macro volatility in the 1st 9 months of the year, and we now expect to grow earnings for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.30, reflecting a guidance raise and confident tone but with some timing benefits.",
+      "quote": "We delivered 3 quarter earnings per share of $2.78 above the top end of our guidance range of $2.25 to $2.75... Our cost in the quarter did benefit by approximately 1 point of expense, moving to the fourth quarter, primarily driven by maintenance and approximately 1 point from the timing of certain labor contracts.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The Q3 beat is partly attributed to timing benefits (maintenance and labor shifting to Q4), which may not be fully organic. The score of 0.30 reflects a modest guidance raise and confident tone, but a reviewer should confirm the weighting of these timing benefits."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UAL_Bundled Earnings Report_2025-10-15",
+  "report_metadata": {
+    "issuer": "p2_united_airlines",
+    "company": "United Airlines",
+    "ticker": "UAL",
+    "sector": "Industrials/Airlines",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-15",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q3\\Q3 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q3\\UAL 3Q25 Earnings Release Final.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q3\\UAL 3Q25 Investor Update Final.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UAL_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T160152Z",
+    "timestamp": "2026-07-21T16:03:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q3\\Q3 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_united_airlines\\extracted\\UAL_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q3\\Q3 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+        "page_count": 25,
+        "extracted_characters": 77337,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q3\\UAL 3Q25 Earnings Release Final.pdf",
+        "page_count": 17,
+        "extracted_characters": 51618,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q3\\UAL 3Q25 Investor Update Final.pdf",
+        "page_count": 4,
+        "extracted_characters": 13773,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_united_airlines\\extracted\\UAL_FQ3_2025.txt"
+  }
+}

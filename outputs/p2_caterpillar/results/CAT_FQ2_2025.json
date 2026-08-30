@@ -1,0 +1,232 @@
+{
+  "document_id": "CAT_FQ2_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company raised its full-year 2025 sales and revenues outlook from 'about flat' to 'slightly higher' versus 2024, an improvement versus its own prior guidance, and management expressed increasing optimism about the top line with record backlog growth. However, this positive forward signal is significantly tempered by a major, explicitly quantified structural headwind: incremental tariffs expected to be around $1.3B to $1.5B for 2025, which management states will push full-year adjusted operating profit margin into the bottom half of the target range. The guidance raise is organic (driven by volume and backlog), but the margin outlook is explicitly hedged by the tariff impact, preventing a higher score.",
+    "guidance_movement": "raised"
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Sales and revenues for Q2 2025 were $16.6 billion, a 1% decrease compared with $16.7 billion in Q2 2024. The decrease was primarily due to unfavorable price realization of $414 million, partially offset by higher sales volume of $237 million.",
+    "eps": "Q2 2025 profit per share was $4.62, compared with $5.48 in Q2 2024. Adjusted profit per share was $4.72, compared with $5.99 in Q2 2024.",
+    "guidance": "Full-year 2025 sales and revenues are expected to be slightly higher as compared to 2024, an improvement versus previous expectations of about flat. Full-year adjusted operating profit margin is expected to be in the bottom half of the target range, including the net impact of incremental tariffs. ME&T free cash flow is expected to be around the middle of the $5B to $10B target range. Q3 2025 sales are expected to grow moderately versus prior year.",
+    "margin": "Q2 2025 operating profit margin was 17.3%, compared with 20.9% in Q2 2024. Adjusted operating profit margin was 17.6%, compared with 22.4% in Q2 2024.",
+    "key_risks": [
+      "Incremental tariffs announced in 2025 and expected to be in place on Aug. 7th are expected to be a significant headwind to profitability in the second half of 2025, with a net impact of around $1.3B to $1.5B for the full year.",
+      "The tariff and trade negotiation environment remains fluid and uncertain, making it difficult to implement longer-term mitigating actions.",
+      "Declining coal prices have caused an increase in the number of parked trucks, leading to expectations of slightly lower rebuild activity in Resource Industries.",
+      "Full-year services revenues are expected to be about flat versus 2024, slightly lower than previous expectations due to lower-than-anticipated machine rebuild activity.",
+      "Unfavorable price realization, particularly in Construction Industries, is expected to continue as a headwind in the second half, though at a diminishing level."
+    ],
+    "key_opportunities": [
+      "Backlog grew by $2.5 billion sequentially to a record level of $37.5 billion, with increases across all three primary segments.",
+      "Strong demand in Power Generation, driven by data center applications and growing energy needs, is expected to drive full-year growth.",
+      "Construction Industries sales to users are expected to grow for the full year, an improvement from the outlook provided in January, supported by infrastructure spending.",
+      "The company is investing to increase large engine capacity, which is expected to provide a step change in output heading into 2027.",
+      "Customer financial health remains strong, with Cat Financial past dues at their lowest second-quarter level in over 25 years."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed increasing optimism about the top line ('I'm increasingly optimistic about the top line expectations') and highlighted strong operational performance and record backlog, while acknowledging the significant tariff headwind."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 2025 revenue was $16.6 billion, a 1% decrease year-over-year.",
+      "quote": "Sales and revenues for the second quarter of 2025 were $16.6 billion, a 1% decrease compared with $16.7 billion in the second quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 GAAP EPS was $4.62, down from $5.48 in Q2 2024.",
+      "quote": "Second-quarter 2025 profit per share was $4.62, compared with second-quarter 2024 profit per share of $5.48.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 adjusted EPS was $4.72, down from $5.99 in Q2 2024.",
+      "quote": "Adjusted profit per share in the second quarter of 2025 was $4.72, compared with second-quarter 2024 adjusted profit per share of $5.99.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 sales guidance was raised to 'slightly higher' from 'about flat'.",
+      "quote": "Given the strength of our record backlog, we expect full year 2025 sales and revenues to increase slightly versus 2024. This represents an improvement since our outlook last quarter, and our full year outlook from the beginning of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted operating profit margin is expected to be in the bottom half of the target range due to tariffs.",
+      "quote": "Including the net impact from incremental tariffs we expect full year adjusted operating profit margin to be in the bottom half of the target margin range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 operating profit margin was 17.3%.",
+      "quote": "Operating profit margin was 17.3% for the second quarter of 2025, compared with 20.9% for the second quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 adjusted operating profit margin was 17.6%.",
+      "quote": "Adjusted operating profit margin was 17.6% for the second quarter of 2025, compared with 22.4% for the second quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Incremental tariffs are a major risk, expected to be around $1.3B to $1.5B for 2025.",
+      "quote": "Based on the incremental tariffs announced in 2025 and expected to be placed on August the 7th, we expect the net impact from incremental tariffs for 2025 will be around $1.3 to $1.5 billion, net of some mitigating actions and cost controls.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Backlog grew to a record level of $37.5 billion.",
+      "quote": "As I mentioned, backlog increased sequentially by $2.5 billion, driven by strong order rates in all three of our primary segments. Our backlog is at a record level of $37.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about the top line outlook.",
+      "quote": "Looking ahead to the second half of 2025, I'm increasingly optimistic about the top line expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The tariff environment is fluid and uncertain, hindering long-term mitigation actions.",
+      "quote": "However, as I mentioned, the incremental tariffs announced in 2025 and expected to be in place by August 7th will be a headwind to profitability during the remainder of the year. While we have taken initial mitigating actions to reduce the impact, tariff and trade negotiations continue to be fluid.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Declining coal prices are a risk to Resource Industries rebuild activity.",
+      "quote": "Although most key commodities remain above investment thresholds, declining coal prices have caused an increase in the number of parked trucks. As a result, we expect slightly lower rebuild activity throughout the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services revenue guidance was slightly lowered.",
+      "quote": "Full year services revenues are expected to be about flat versus 2024. This is slightly lower than our previous expectations due to lower-than-anticipated machine rebuild activity throughout the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Power Generation is a key growth driver.",
+      "quote": "We expect full year growth for Power Generation as demand remains strong for both prime and backup power applications driven by increasing energy demands to support data center growth, related to cloud computing and generative AI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Construction Industries sales to users outlook improved.",
+      "quote": "We now expect full year growth for sales to users, which is an improvement from the outlook we provided in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Customer financial health is strong.",
+      "quote": "Our customers' financial health remains strong. Past dues were 1.62% in the quarter, down 12 basis points versus the prior year. This is the lowest second quarter in over 25 years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is investing in capacity for future growth.",
+      "quote": "With our investment to increase large engine capacity in process, we're continuously improving manufacturing throughput to meet customer needs across a broad range of applications.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Unfavorable price realization is an ongoing headwind.",
+      "quote": "We expect some adverse price realization in the second half versus the prior year, although this will be at a lower level than in the first half.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of +0.25 reflects a genuine guidance raise on revenue, but the margin outlook is explicitly lowered by the tariff headwind. A reviewer should confirm the weighting of the positive revenue raise against the negative margin impact."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CAT_Bundled Earnings Report_2025-08-04",
+  "report_metadata": {
+    "issuer": "p2_caterpillar",
+    "company": "Caterpillar",
+    "ticker": "CAT",
+    "sector": "Industrials/Farm & Heavy Construction Machinery",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-04",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q2\\2Q-2025-Analyst-Slide-Deck-Final.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q2\\2Q-2025-Caterpillar-Earnings-Call-Transcript_8-5-2025.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CAT_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095259Z",
+    "timestamp": "2026-08-09T09:53:21Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_caterpillar\\extracted\\CAT_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 51839,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q2\\2Q-2025-Analyst-Slide-Deck-Final.pdf",
+        "page_count": 26,
+        "extracted_characters": 18629,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\caterpillar\\CY2025-Q2\\2Q-2025-Caterpillar-Earnings-Call-Transcript_8-5-2025.pdf",
+        "page_count": 19,
+        "extracted_characters": 55936,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_caterpillar\\extracted\\CAT_FQ2_2025.txt"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "document_id": "EXPE_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: full-year gross bookings and revenue guidance were revised down to 2-4% growth, and Q2 guidance implies a deceleration from Q1. Management explicitly cited softer-than-expected US demand, declining consumer sentiment, and a 7% decline in inbound travel to the US as headwinds. While the company beat on bottom-line metrics and raised EBITDA margin guidance, the top-line guidance cut and cautious language on the macro environment dominate the forward signal."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$2,988 million, up 3% year-over-year.",
+    "eps": "Diluted loss per share of ($1.56); Adjusted EPS of $0.40, up 90% year-over-year.",
+    "guidance": "Q2 2025: gross bookings growth of 2-4%, revenue growth of 3-5%, with approximately 75-100 bps of EBITDA margin expansion. Full Year 2025: gross bookings and revenue growth revised down to 2-4%, with EBITDA margin expansion raised to 75-100 bps.",
+    "margin": "Adjusted EBITDA margin of 9.9%, up 105 bps year-over-year. Adjusted EBIT margin of -0.7%, up 136 bps year-over-year.",
+    "key_risks": [
+      "Softer-than-expected travel demand in the US and into the US.",
+      "Declining consumer sentiment in the US.",
+      "Inbound travel to the US down 7%, with inbound bookings from Canada down nearly 30%.",
+      "Foreign exchange headwinds (1 point headwind to full-year revenue).",
+      "Easter timing shift (1 point headwind to Q1 revenue).",
+      "Hotels.com slipped back into negative territory due to softer US demand and FX headwinds."
+    ],
+    "key_opportunities": [
+      "B2B gross bookings grew 14%, with strong international performance, particularly APAC which grew 30%.",
+      "Advertising revenue grew 20%, with record number of $1M+ deals and 22% growth in active hotel partners and sponsored listings.",
+      "New supply partnerships (Southwest Airlines, Ryanair) driving new customer acquisition.",
+      "AI-driven product features and partnerships (OpenAI Operator, Microsoft Co-Pilot, Instagram Trip Matching).",
+      "Brand Expedia room nights up 7%, scaling multi-item trips with record-high insurance attach rates."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in strategic execution and bottom-line performance ('we beat on bottom-line with 16% EBITDA growth') but was cautious on the macro environment and top-line outlook ('we posted bookings and revenue within our guidance range... due to weaker-than-expected travel demand in the US')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $2,988 million, up 3% year-over-year.",
+      "quote": "Revenue $2,988 $2,889 3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted loss per share was ($1.56) and Adjusted EPS was $0.40, up 90% year-over-year.",
+      "quote": "Diluted loss per share was ($1.56) in the quarter while Adjusted EPS was $0.40 and grew 90% versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance for gross bookings and revenue was revised down to 2-4% growth.",
+      "quote": "As we consider the same factors for the full year, we are revising our guidance for gross bookings and revenue. Our updated guidance is 2% to 4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 guidance implies gross bookings growth of 2-4% and revenue growth of 3-5%.",
+      "quote": "Given our performance to date in the continued macroeconomic uncertainty in the US and into the US, we expect our second quarter to deliver gross bookings growth of 2% to 4% and revenue growth of 3% to 5% with approximately 75 basis points to 100 basis points of EBITDA margin expansion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin was 9.9%, up 105 bps year-over-year.",
+      "quote": "Adjusted EBITDA increased 16% with 105 basis points of margin expansion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Softer-than-expected US travel demand was a key risk.",
+      "quote": "This was at the lower end of our range due to weaker-than-expected travel demand in the US and into the US.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inbound travel to the US declined 7%.",
+      "quote": "We also noticed softness in demand for inbound travel into the US which was down 7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "B2B gross bookings grew 14%.",
+      "quote": "B2B gross bookings of $8.8 billion grew 14%, materially above the market",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue grew 20%.",
+      "quote": "our advertising revenue of $174 million grew 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone was mixed, balancing confidence in execution with caution on the macro environment.",
+      "quote": "We delivered results within our guidance range this quarter amidst softer US travel demand, thanks to our strong execution, disciplined cost management and the global reach of our platform. Against the backdrop of an uncertain macro environment, we're laser-focused on what's in our control and pushing forward our strategic priorities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects the top-line guidance cut, but the company simultaneously raised EBITDA margin guidance and beat on bottom-line metrics. The net effect on forward expectations is mixed; a human reviewer should confirm the weighting of the top-line cut versus the margin raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "EXPE_Bundled Earnings Report_2025-05-08",
+  "report_metadata": {
+    "issuer": "p2_expedia",
+    "company": "Expedia",
+    "ticker": "EXPE",
+    "sector": "Consumer Cyclical/Travel Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-08",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q1\\Q1-2025-Earnings-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q1\\Q1-2025-Earnings-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "EXPE_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100145Z",
+    "timestamp": "2026-08-09T10:02:01Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_expedia\\extracted\\EXPE_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 40053,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q1\\Q1-2025-Earnings-Presentation.pdf",
+        "page_count": 30,
+        "extracted_characters": 29105,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\expedia\\CY2025-Q1\\Q1-2025-Earnings-Transcript.pdf",
+        "page_count": 15,
+        "extracted_characters": 49543,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_expedia\\extracted\\EXPE_FQ1_2025.txt"
+  }
+}

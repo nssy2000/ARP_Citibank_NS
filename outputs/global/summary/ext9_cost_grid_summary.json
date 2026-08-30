@@ -1,0 +1,9 @@
+{
+  "n_predictions": 268,
+  "sanity_check_matches_known_n268_total_return": true,
+  "monotonic_decrease_within_round_trip_band": true,
+  "bisected_breakeven_cost_bps": 162.81,
+  "spec_claimed_breakeven_bps": 113,
+  "spec_breakeven_verified_in_repo": false,
+  "note": "Slippage modelled as additive to cost_bps (total_cost_bps = round_trip_bps + slippage_bps) since backtest.simulate() has a single cost_bps parameter, no separate slippage parameter."
+}

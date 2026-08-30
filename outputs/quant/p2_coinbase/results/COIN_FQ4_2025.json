@@ -1,0 +1,58 @@
+{
+  "document_id": "COIN_FQ4_2025_QUANT",
+  "base_document_id": "COIN_FQ4_2025",
+  "issuer": "p2_coinbase",
+  "ticker": "COIN",
+  "sector": "Financials/Crypto",
+  "report_date": "2026-02-12",
+  "sentiment": {
+    "score": -0.992801
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.369495,
+      "window_start_date": "2026-01-12",
+      "window_end_date": "2026-02-11",
+      "score": -0.985602,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.798236,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -364.89,
+      "matched_earnings_date": "2026-02-12",
+      "score": -1.0,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 20.82,
+      "vix_score": -0.120741,
+      "tnx_change": -0.067,
+      "tnx_score": 0.133204,
+      "score": 0.006231,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.25,
+      "ffr_score": 0.462117,
+      "ffr_as_of": "2026-02-11",
+      "curve_spread": 0.66,
+      "curve_score": 0.578363,
+      "curve_as_of": "2026-02-11",
+      "score": 0.52024,
+      "available": true
+    },
+    "quant_score": -0.992801,
+    "quant_score_with_macro": -0.493285,
+    "quant_score_with_fred": -0.236281,
+    "quant_score_with_macro_fred": -0.155443
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

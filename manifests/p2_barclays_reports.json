@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_barclays",
+  "reports": [
+    {
+      "document_id": "BCS_FQ2_2025",
+      "issuer": "p2_barclays",
+      "company": "Barclays",
+      "ticker": "BCS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-29",
+      "release_date": "2025-07-29",
+      "release_date_source": "Investegate RNS dateCreated for BARC.L",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/barclays/CY2025-Q2/Barclays Q225 sellside transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/barclays/CY2025-Q2/Barclays-H1-2025-Interim-Results-Announcement.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BCS_FQ3_2025",
+      "issuer": "p2_barclays",
+      "company": "Barclays",
+      "ticker": "BCS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-22",
+      "release_date": "2025-10-22",
+      "release_date_source": "Investegate RNS dateCreated for BARC.L",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/barclays/CY2025-Q3/Q325 Sellside Analyst Meeting transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/barclays/CY2025-Q3/Barclays-Q3-2025-Results-Announcement.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "BCS_FQ1_2026",
+      "issuer": "p2_barclays",
+      "company": "Barclays",
+      "ticker": "BCS",
+      "sector": "Financials",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-28",
+      "release_date": "2026-04-28",
+      "release_date_source": "Investegate RNS dateCreated for BARC.L",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/barclays/CY2026-Q1/Sellside-Analyst-Meeting-Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/barclays/CY2026-Q1/Barclays-Q1-2026-Results-Announcement.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "Investegate RNS dateCreated for BARC.L: 07:01:37 GMT on Q3 2025 (2025-10-22), 07:01:28 GMT on FY2025 (2026-02-10). Judged against NYSE: 07:01 GMT = 02:01 ET, before 09:30 open.",
+    "retrieval_date": "2026-08-12"
+  }
+}

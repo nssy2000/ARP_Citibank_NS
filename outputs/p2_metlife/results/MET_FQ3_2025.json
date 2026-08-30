@@ -1,0 +1,206 @@
+{
+  "document_id": "MET_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports strong operational momentum, with adjusted EPS up 21% year-over-year and broad-based volume growth across segments, but it does not contain a formal forward guidance raise. The CEO's language is confident, citing 'all-weather performance' and momentum building into year-end, but the report is backward-looking and does not explicitly raise full-year guidance. The score reflects genuine operational momentum without a formal guidance raise, tempered by the absence of explicit forward guidance and the presence of some headwinds like elevated expenses and a tax charge."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Premiums, fees and other revenues (PFOs) were $12.5 billion, flat compared with the prior year quarter. Adjusted PFOs, excluding pension risk transfers (PRT), were $12.5 billion, up 4%.",
+    "eps": "Net income per share was $1.22, down 33% from $1.81 in the prior year. Adjusted earnings per share were $2.37, up 22%. Adjusted EPS, excluding total notable items, was $2.34, up 21%.",
+    "guidance": "No formal forward guidance was provided. The CEO stated, 'Momentum continues to build as we head into year-end. We've secured $12 billion in PRT mandates in the fourth quarter to-date and launched strategic partnerships that will expand our reach and enhance access to our insurance and retirement solutions.'",
+    "margin": "The expense ratio was 21.7% in 3Q25, up from 19.9% in 3Q24. The adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT, improved to 19.8% from 20.7%.",
+    "key_risks": [
+      "Net derivative losses of $929 million due to stronger equity markets, higher long-term interest rates, and strengthening of the U.S. dollar.",
+      "Net investment losses of $325 million.",
+      "A $71 million after-tax charge related to the resolution of an industry-wide tax matter in Mexico regarding the Value-Added Tax deduction of certain health insurance claims expenses.",
+      "Elevated expenses in Corporate & Other, driven by market-related employee costs and higher interest payments on outstanding debt.",
+      "Less favorable life underwriting in Group Benefits."
+    ],
+    "key_opportunities": [
+      "Higher variable investment income, primarily reflecting higher private equity returns.",
+      "Volume growth across most segments, including Group Benefits, RIS, Asia, Latin America, and EMEA.",
+      "Secured $12 billion in PRT mandates in the fourth quarter to-date.",
+      "Asia sales grew 34% on a constant currency basis, with Japan up 31% and Other Asia up 39%.",
+      "Expanded MetLife Xcelerator in Latin America through a new partnership with Mercado Libre in Brazil and Mexico."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "The CEO stated, 'MetLife delivered an excellent third quarter that reinforces the strength of our diversified business model and disciplined execution of our New Frontier strategy,' and 'These results demonstrate MetLife's earnings power and our ability to deliver all-weather performance.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adjusted EPS, excluding total notable items, grew 21% year-over-year.",
+      "quote": "Adjusted earnings per share, excluding total notable items, up 21% to $2.34.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted PFOs, excluding PRT, grew 4%.",
+      "quote": "Adjusted premiums, fees and other revenues, excluding pension risk transfers (PRT), up 4% to $12.5 billion, with growth in all segments except MetLife Holdings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income per share decreased 33% to $1.22.",
+      "quote": "Net income (loss) per share $ 1.22 $ 1.81 (33)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted earnings per share increased 22% to $2.37.",
+      "quote": "Adjusted earnings per share $ 2.37 $ 1.95 22%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The expense ratio increased to 21.7% from 19.9%.",
+      "quote": "Expense ratio 21.7% 19.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The adjusted expense ratio, excluding notable items and PRT, improved to 19.8% from 20.7%.",
+      "quote": "Adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT 19.8% 20.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net derivative losses were $929 million due to market factors.",
+      "quote": "Net derivative losses amounted to $929 million, or $734 million after tax, due to stronger equity markets, higher long-term interest rates, and strengthening of the U.S. dollar.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A $71 million tax charge was recorded for a Mexican VAT matter.",
+      "quote": "The company recorded a $71 million after-tax charge in the third quarter related to the resolution of an industry-wide tax matter in Mexico regarding the Value-Added Tax deduction of certain health insurance claims expenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Corporate & Other adjusted loss widened due to elevated expenses.",
+      "quote": "Adjusted loss of $288 million, compared to an adjusted loss of $249 million, primarily due to elevated expenses, driven by market-related employee costs and higher interest payments on outstanding debt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group Benefits saw less favorable life underwriting.",
+      "quote": "Excluding notable items, adjusted earnings were $457 million, up 6 percent, reflecting favorable expense margins and volume growth, partially offset by less favorable life underwriting.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Variable investment income increased significantly, driven by private equity.",
+      "quote": "Variable investment income increased 198 percent to $483 million, primarily driven by higher returns on private equity assets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Volume growth was a key driver across segments.",
+      "quote": "Adjusted earnings increased 15% to $1.6 billion, primarily driven by higher variable investment income and volume growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company secured $12 billion in PRT mandates in Q4 to-date.",
+      "quote": "Secured $12 billion in PRT mandates in the fourth quarter to-date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia sales grew 34% on a constant currency basis.",
+      "quote": "Grew Asia sales 34% on a constant currency basis, with Japan up 31%, reflecting new retirement-oriented products. Other Asia sales grew 39% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MetLife expanded its partnership with Mercado Libre in Latin America.",
+      "quote": "Expanded MetLife Xcelerator in Latin America through a new partnership with Mercado Libre in Brazil and Mexico.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the company's performance and outlook.",
+      "quote": "MetLife delivered an excellent third quarter that reinforces the strength of our diversified business model and disciplined execution of our New Frontier strategy. ... These results demonstrate MetLife's earnings power and our ability to deliver all-weather performance – driving responsible growth and high returns for shareholders today and in the future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is based on strong operational momentum without a formal guidance raise. The document does not explicitly state forward guidance, so the score relies on the CEO's confident language and reported results. A reviewer should confirm this interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MET_Bundled Earnings Report_2025-11-05",
+  "report_metadata": {
+    "issuer": "p2_metlife",
+    "company": "Metlife",
+    "ticker": "MET",
+    "sector": "Financial Services/Insurance - Life",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q3\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MET_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T101102Z",
+    "timestamp": "2026-08-09T10:12:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 57449,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q3\\presentation.pdf",
+        "page_count": 45,
+        "extracted_characters": 65210,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ3_2025.txt"
+  }
+}

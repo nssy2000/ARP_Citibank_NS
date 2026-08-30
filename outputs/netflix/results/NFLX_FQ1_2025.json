@@ -1,0 +1,164 @@
+{
+  "document_id": "NFLX_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a solid Q1 with revenue and operating income beating guidance, but full-year 2025 guidance is reaffirmed unchanged at $43.5-$44.5B revenue and 29% operating margin. Management attributes the Q1 beat partly to 'slightly higher subscription and ad revenue and the timing of expenses,' not purely organic momentum. The forward outlook is stable but not raised, and management expresses confidence without raising guidance, resulting in a mildly positive score reflecting operational momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Q1 2025 revenue of $10,543 million, up 13% year over year (16% on an F/X neutral basis), ahead of guidance due to slightly higher subscription and ad revenue.",
+    "eps": "Q1 2025 diluted EPS of $6.61, up 25% year over year from $5.28.",
+    "guidance": "Full-year 2025 revenue forecast of $43.5-$44.5B and operating margin of 29% reaffirmed unchanged. Q2 2025 forecast: revenue of $11,035 million (15% growth, 17% F/X neutral), operating margin of 33%.",
+    "margin": "Q1 2025 operating margin of 31.7% (32% rounded), up from 28.1% in Q1 2024. Full-year 2025 operating margin target of 29% reaffirmed.",
+    "key_risks": [
+      "Foreign exchange fluctuations partially offset revenue growth (F/X net of hedging).",
+      "Intense competition: 'Consumers have so many amazing entertainment choices—our business remains intensely competitive.'",
+      "Macroeconomic conditions and content slate timing risks mentioned in forward-looking statements."
+    ],
+    "key_opportunities": [
+      "Ads business growth: 'rough doubling of our ad revenue' in 2025, ad tech platform rollout in US and other markets.",
+      "Live programming expansion: WWE RAW, NFL Christmas Day games, Taylor vs. Serrano boxing rematch.",
+      "International content investment driving share gains, e.g., UK TV time share grew to 9.0% in Q1 2025 from 8.0% in Q1 2024.",
+      "Pricing adjustments in large markets (US, UK, Argentina) performing in line with expectations."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'We are off to a good start in 2025' and 'Our revenue and profit growth outlook remains solid,' reflecting confidence in the business trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2025 revenue was $10,543 million, up 13% year over year, ahead of guidance.",
+      "quote": "Revenue in Q1 grew 13% year over year, or 16% on a foreign exchange (F/X) neutral basis... Revenue was modestly above our guidance due to slightly higher-than-forecasted subscription and ad revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2025 diluted EPS was $6.61, up 25% year over year.",
+      "quote": "EPS amounted to $6.61 vs. $5.28 last year (+25% year over year).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance is reaffirmed at $43.5-$44.5B.",
+      "quote": "We continue to forecast 2025 revenue of $43.5B-$44.5B, which assumes healthy member growth, higher subscription pricing and a rough doubling of our ad revenue, partially offset by F/X net of hedging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 operating margin target is 29%, reaffirmed unchanged.",
+      "quote": "We’re still targeting a 29% operating margin for 2025 based on F/X rates as of January 1, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 revenue forecast is $11,035 million, with 15% growth.",
+      "quote": "In Q2’25, we expect revenue growth of 15% (+17% F/X neutral) as we see the full quarter benefit from recent price changes and continued growth in membership and advertising revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2025 operating margin was 31.7% (32% rounded), up from 28.1% in Q1 2024.",
+      "quote": "Operating income totaled $3.3B, up 27% year over year, and operating margin was 32% vs 28% in Q1’24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are off to a good start in 2025. In Q1, revenue and operating income grew 13% and 27% year over year, respectively. Both were ahead of our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ads business is expected to roughly double ad revenue in 2025.",
+      "quote": "We continue to forecast 2025 revenue of $43.5B-$44.5B, which assumes healthy member growth, higher subscription pricing and a rough doubling of our ad revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "UK TV time share grew to 9.0% in Q1 2025 from 8.0% in Q1 2024.",
+      "quote": "Our improving content offering and product/market fit helped grow our share of TV time in the UK to 9.0% in Q1’25 (+1.0 pt versus 8.0% in Q1’24), according to data from Barb.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition remains intense.",
+      "quote": "Consumers have so many amazing entertainment choices—our business remains intensely competitive.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange fluctuations partially offset revenue growth.",
+      "quote": "Revenue in Q1 grew 13% year over year, or 16% on a foreign exchange (F/X) neutral basis, driven primarily by membership growth and higher pricing, partially offset by F/X, net of hedging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pricing adjustments in large markets performed in line with expectations.",
+      "quote": "The recent pricing adjustments we made in large markets (including US, UK and Argentina) have performed in line with our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is at the exact boundary of the BUY threshold. A reviewer may want to confirm whether the mild positive from operational momentum and confident tone justifies crossing the threshold, given that guidance was not raised."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2025-04-17",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2025-Q1\\nflx-1q25-press-release.html",
+        "pub_date": "2025-04-17"
+      }
+    ],
+    "document_id": "NFLX_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:55:22Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2025-Q1\\nflx-1q25-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2025-Q1\\nflx-1q25-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 33316,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ1_2025.txt"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "document_id": "MET_FQ2_2025",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "Forward guidance was not raised; management reaffirmed existing targets while acknowledging the quarter did not demonstrate full earnings power due to lower variable investment income and less favorable underwriting. The company's own prior guidance for VII was below its quarterly guidance of $425 million, and management's language, while confident in the long-term strategy, was hedged regarding near-term earnings. The negative score reflects the flat-to-cautious forward outlook despite some positive operational momentum in international segments."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Premiums, fees and other revenues (PFOs) were $12.7 billion, down 6% from the prior year. Adjusted PFOs excluding pension risk transfers (PRT) rose 5% to $12.4 billion.",
+    "eps": "Net income per share was $1.03, down 20% from $1.28 in the prior year. Adjusted earnings per share were $2.02, down 11% from $2.28.",
+    "guidance": "Management reaffirmed its 2025 targets, including a direct expense ratio target of 12.1% and an adjusted ROE target of 15-17%. It provided specific segment guidance, including expecting EMEA's quarterly run rate to remain above its $70-75 million guidance and expecting Group Life mortality ratio to be at or slightly below the bottom end of its annual target range in Q3.",
+    "margin": "The adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT, was 19.8% in Q2 2025, improving from 20.6% in the prior year. The direct expense ratio, excluding total notable items related to direct expenses and PRT, was 11.7%, beating the annual target of 12.1%.",
+    "key_risks": [
+      "Less favorable underwriting across life and non-medical health products in Group Benefits.",
+      "Lower investment margins, including lower variable investment income driven by lower private equity returns.",
+      "Less favorable recurring interest margins in Retirement and Income Solutions.",
+      "Less favorable investment and underwriting margins in Asia, partly due to a strengthening yen driving lower surrenders.",
+      "An uptick in commercial mortgage loan reserves of over $200 million, with anticipated charge-offs and losses emerging in 2025.",
+      "Potential short-term headwinds from the Chariot Re transaction, including a few pennies of impact on enterprise earnings and a $15-20 million headwind within RIS."
+    ],
+    "key_opportunities": [
+      "Strong sales growth in Asia, with sales up 9% on a constant currency basis, driven by Japan and Korea.",
+      "Strong volume growth in Latin America and EMEA, with adjusted earnings up 15% and 30% on a constant currency basis, respectively.",
+      "Growth in Retirement and Income Solutions, with total liability exposures up 6% and adjusted PFOs excluding PRT up 24%.",
+      "Strategic transactions, including the acquisition of PineBridge Investments, the formation of Chariot Re, and the risk transfer deal with Talcott Financial Group, are expected to accelerate growth.",
+      "Institutional client assets under management grew to more than $200 billion at MetLife Investment Management."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in the long-term New Frontier strategy ('we're confident in the resiliency and all-weather nature of our New Frontier strategy') but acknowledged the quarter's shortfall ('the quarter didn't demonstrate the full earnings power of MetLife') and cited specific headwinds like lower variable investment income."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adjusted earnings per share declined 11% year-over-year to $2.02.",
+      "quote": "Adjusted earnings per share were $2.02, down 11% and down 10% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premiums, fees and other revenues declined 6% year-over-year.",
+      "quote": "MetLife reported second quarter premiums, fees and other revenues of $12.7 billion, down 6 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted PFOs excluding PRT rose 5%.",
+      "quote": "Adjusted premiums, fees and other revenues, excluding pension risk transfers (PRT) were $12.4 billion, up 5 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income per share decreased 20% year-over-year.",
+      "quote": "Net income (loss) per share $ 1.03 $ 1.28 (20)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The direct expense ratio beat the annual target.",
+      "quote": "we achieved a quarterly direct expense ratio of 11.7%, beating our annual target of 12.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The adjusted expense ratio improved year-over-year.",
+      "quote": "Adjusted expense ratio, excluding total notable items related to adjusted other expenses and PRT 19.8% 20.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledged the quarter did not demonstrate full earnings power.",
+      "quote": "While the quarter didn’t demonstrate the full earnings power of MetLife, we saw clear momentum across several of our market-leading businesses, coupled with solid underlying fundamentals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Variable investment income was below the company's own quarterly guidance.",
+      "quote": "While VII in 2Q ’25 was below its quarterly guidance of $425 million, it was within the range of $175 million to $225 million that we disclosed in a Form 8-K at the end of June.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group Benefits adjusted earnings declined due to less favorable underwriting.",
+      "quote": "Adjusted earnings were $400 million, down 25 percent, primarily due to less favorable underwriting across life and non-medical health products.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RIS adjusted earnings declined due to less favorable recurring interest margins.",
+      "quote": "Adjusted earnings were $368 million, down 10 percent, largely due to less favorable recurring interest margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia adjusted earnings declined due to less favorable investment and underwriting margins.",
+      "quote": "Adjusted earnings were $350 million, down 22 percent on a reported and constant currency basis, driven by less favorable investment and underwriting margins, partially offset by volume growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America adjusted earnings grew on a constant currency basis.",
+      "quote": "Adjusted earnings were $233 million, up 3 percent on a reported basis, and up 15 percent on a constant currency basis, reflecting volume growth across the region and favorable Chilean encaje returns.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EMEA adjusted earnings grew significantly.",
+      "quote": "Adjusted earnings were $100 million, up 30 percent on a reported and constant currency basis, primarily due to strong volume growth across the region.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "There was an uptick in commercial mortgage loan reserves.",
+      "quote": "we did see an uptick in reserves, a little over $200 million in commercial mortgages and we’ve anticipated some charge-offs and some losses would emerge in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Chariot Re transaction will create short-term headwinds.",
+      "quote": "initially, enterprise earnings will have a few pennies of impact until that excess capital is redeployed... within RIS itself, we could think of like another $15 million to $20 million short-term headwind there, considering the loss of earnings from the reinsurance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the long-term strategy.",
+      "quote": "Looking ahead, we’re confident in the resiliency and all-weather nature of our New Frontier strategy and our ability to deliver on our commitments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia sales grew strongly, driven by Japan and Korea.",
+      "quote": "Asia sales increased 9% on a constant currency basis, driven by Japan and Korea.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "RIS total liability exposures grew.",
+      "quote": "Retirement and Income Solutions total liability exposures grew 6%, including 5% in general account liabilities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strategic transactions are expected to accelerate growth.",
+      "quote": "We continued to progress on our previously announced strategic transactions with Chariot Re, Talcott Financial Group and PineBridge Investments to accelerate our growth in asset management and capitalize on our retirement platform.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Institutional client assets under management grew.",
+      "quote": "Institutional client assets under management grew to more than $200 billion at MetLife Investment Management.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative (-0.20) based on flat guidance and acknowledged headwinds, but the document also contains strong positive operational momentum in several segments. A reviewer may want to weigh the positive segment momentum against the cautious overall tone."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance was not formally raised or lowered but was reaffirmed with specific segment-level expectations. The interpretation of this as a 'hold' rather than a 'raise' or 'cut' is a judgment call."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MET_Bundled Earnings Report_2025-08-06",
+  "report_metadata": {
+    "issuer": "p2_metlife",
+    "company": "Metlife",
+    "ticker": "MET",
+    "sector": "Financial Services/Insurance - Life",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q2\\earnings_call_transcript.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q2\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MET_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T101102Z",
+    "timestamp": "2026-08-09T10:11:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 54710,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q2\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 62985,
+        "extractor_used": "plain_text",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\metlife\\CY2025-Q2\\presentation.pdf",
+        "page_count": 39,
+        "extracted_characters": 60424,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_metlife\\extracted\\MET_FQ2_2025.txt"
+  }
+}

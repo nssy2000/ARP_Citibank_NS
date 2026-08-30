@@ -1,0 +1,183 @@
+{
+  "document_id": "DIS_FQ1_2021",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document shows a massive year-over-year decline in revenue (-22%), EPS (-98% GAAP, -79% adjusted), and segment operating income (-67%), all attributed to COVID-19. However, the forward-looking narrative is strongly positive: management highlights 'incredible strides' in the DTC business, reaching 146 million total paid subscriptions, and expresses confidence in 'achieving even greater success going forward' with a 'robust pipeline of exceptional, high-quality content' and the upcoming Star-branded international offering. The DTC segment's operating loss narrowed from $1.1 billion to $466 million, a genuine operational improvement. No formal guidance raise is provided, but the confident forward language and clear momentum in streaming justify a mildly positive score, not a neutral or negative one, despite the backward-looking weakness."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$16,249 million, down 22% from $20,877 million in the prior-year quarter.",
+    "eps": "Diluted EPS from continuing operations decreased 98% to $0.02 from $1.17. Excluding certain items, diluted EPS decreased 79% to $0.32 from $1.53.",
+    "guidance": "Not disclosed. No formal forward revenue or earnings guidance is provided. Management expresses confidence in future growth driven by DTC expansion and content pipeline, but no specific numeric guidance is given.",
+    "margin": "Not disclosed. No explicit gross, operating, or net margin commentary is provided.",
+    "key_risks": [
+      "COVID-19 continues to significantly impact operations, with parks closed or at reduced capacity, cruise sailings suspended, and theatrical releases delayed or canceled.",
+      "Additional costs to address government regulations and implement safety measures are estimated at approximately $1 billion in fiscal 2021.",
+      "The most significant impact on operating income was an estimated detriment of approximately $2.6 billion at the Disney Parks, Experiences and Products segment.",
+      "Disruption in film and television production continues depending on local circumstances.",
+      "Higher sports programming costs due to timing shifts of key events (e.g., NBA Finals, College Football Playoffs) could affect comparability."
+    ],
+    "key_opportunities": [
+      "Direct-to-Consumer (DTC) business reached more than 146 million total paid subscriptions across streaming services (Disney+ 94.9M, ESPN+ 12.1M, Hulu 39.4M).",
+      "Upcoming launch of Star-branded international general entertainment offering.",
+      "Robust pipeline of exceptional, high-quality content expected to drive further growth.",
+      "DTC operating loss narrowed significantly from $1.1 billion to $466 million, driven by improved results at Hulu, Disney+, and ESPN+.",
+      "Consumer Products segment saw operating income growth driven by games licensing revenue from Marvel's Spider-Man: Miles Morales."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Bob Chapek states: 'We believe the strategic actions we’re taking to transform our Company will fuel our growth and enhance shareholder value... We’re confident that... we are well-positioned to achieve even greater success going forward.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue decreased 22% year-over-year to $16,249 million.",
+      "quote": "Revenues $ 16,249 $ 20,877 (22) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS from continuing operations decreased 98% to $0.02.",
+      "quote": "Diluted EPS from continuing operations for the quarter decreased 98% to $0.02 from $1.17 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding certain items, diluted EPS decreased 79% to $0.32.",
+      "quote": "Excluding certain items, (1) diluted EPS for the quarter decreased 79% to $0.32 from $1.53 in the prior-year quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total segment operating income decreased 67% to $1,332 million.",
+      "quote": "Total Segment Operating Income $ 1,332 $ 3,996 (67) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC business reached more than 146 million total paid subscriptions.",
+      "quote": "reaching more than 146 million total paid subscriptions across our streaming services at the end of the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Disney+ had 94.9 million paid subscribers.",
+      "quote": "Disney+ (3) 94.9 26.5 >100 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN+ had 12.1 million paid subscribers.",
+      "quote": "ESPN+ 12.1 6.6 83 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Hulu had 39.4 million total paid subscribers.",
+      "quote": "Total Hulu 39.4 30.4 30 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC operating loss narrowed from $1.1 billion to $466 million.",
+      "quote": "Direct-to-Consumer (466) (1,110) 58 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "COVID-19 had an estimated detriment of approximately $2.6 billion at Parks, Experiences and Products.",
+      "quote": "The most significant impact on operating income in the current quarter from COVID-19 was an estimated detriment of approximately $2.6 billion at the Disney Parks, Experiences and Products segment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Additional COVID-19 safety costs estimated at approximately $1 billion in fiscal 2021.",
+      "quote": "We currently estimate these costs may total approximately $1 billion in fiscal 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in future growth driven by DTC and content pipeline.",
+      "quote": "We’re confident that, with our robust pipeline of exceptional, high-quality content and the upcoming launch of our new Star-branded international general entertainment offering, we are well-positioned to achieve even greater success going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer Products operating income grew driven by Marvel's Spider-Man: Miles Morales.",
+      "quote": "At our consumer products business, operating income growth was driven by an increase in games licensing revenue reflecting the release of Marvel’s Spider-Man: Miles Morales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We believe the strategic actions we’re taking to transform our Company will fuel our growth and enhance shareholder value, as demonstrated by the incredible strides we’ve made in our DTC business... We’re confident that... we are well-positioned to achieve even greater success going forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline between HOLD and BUY. The backward-looking results are extremely weak (revenue -22%, EPS -98%), but the forward narrative is strongly positive. A human reviewer should confirm whether the DTC momentum and confident language justify crossing the BUY threshold given the lack of formal guidance."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "No formal forward guidance is provided. The summary states 'Not disclosed' but the document contains qualitative forward-looking statements about growth and confidence. A reviewer may wish to confirm this interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 2
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2021-02-11",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2021",
+    "report_date": "2021-02-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q1\\dis-1q21-press-release.html",
+        "pub_date": "2021-02-11"
+      }
+    ],
+    "document_id": "DIS_FQ1_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144738Z",
+    "timestamp": "2026-07-09T14:47:54Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q1\\dis-1q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\CY2021-Q1\\dis-1q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 34724,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2021.txt"
+  }
+}

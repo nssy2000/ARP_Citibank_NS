@@ -1,0 +1,216 @@
+{
+  "document_id": "PINS_FQ4_2024",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "Pinterest delivered a strong Q4 with record revenue ($1.154B, +18% YoY) and record MAUs (553M, +11% YoY), and management expressed confidence in the sustainability of its growth trajectory. However, the company's Q1 2025 revenue guidance of 13-15% YoY growth (15-17% constant currency) represents a deceleration from Q4's 18% growth, and management explicitly noted FX headwinds and lapping effects. While the company expects continued margin expansion in 2025, the rate is expected to be lower than 2024's outsized expansion, and management flagged ongoing softness in the food and beverage category. The forward guidance was not raised above prior expectations; rather, it reflects a slowdown, tempering the positive backward-looking results."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2024 revenue was $1,154 million, up 18% year over year (also 18% on a constant currency basis). Full year 2024 revenue was $3,646 million, up 19% year over year.",
+    "eps": "Q4 2024 GAAP diluted net income per share was $2.68, compared to $0.29 in Q4 2023. Full year 2024 GAAP diluted net income per share was $2.67, compared to a loss of $0.05 in 2023. Non-GAAP net income per share was $0.56 for Q4 2024 and $1.29 for the full year.",
+    "guidance": "For Q1 2025, the company expects revenue in the range of $837 million to $852 million, representing 13-15% growth year over year, or 15-17% on a constant currency basis (assuming approximately 2 points of FX headwind). Q1 2025 Adjusted EBITDA is expected to be in the range of $155 million to $170 million.",
+    "margin": "Q4 2024 Adjusted EBITDA margin was 41%, an increase of 320 basis points year over year. Full year 2024 Adjusted EBITDA margin expanded by 510 basis points year over year. GAAP net income margin was significantly impacted by a $1.6 billion tax benefit from the release of a valuation allowance.",
+    "key_risks": [
+      "Q1 2025 revenue growth is expected to decelerate to 13-15% YoY from 18% in Q4 2024.",
+      "Foreign exchange is expected to be a headwind of approximately 2 points in Q1 2025.",
+      "Guidance reflects the effects of lapping leap day and earlier Easter timing in Q1 2024.",
+      "Softness within the food and beverage subsector of CPG partially offset growth in Q4, and while early green shoots are seen, it is too early to say the headwind is fully behind us.",
+      "The rate of margin expansion in 2025 is expected to be lower than the outsized expansion delivered in 2024.",
+      "The company does not accept political advertising and therefore did not see a benefit from election-related spend in Q4."
+    ],
+    "key_opportunities": [
+      "Lower funnel focus is driving results, with Q4 clicks to advertisers growing over 90% year over year.",
+      "Performance+ is at the beginning of a multiyear product cycle with new features like ROAS bidding and creative tools expected in 2025.",
+      "Third-party demand partnerships with Amazon Ads and Google, and resellers in 30 markets, are scaling and contributing to Rest of World revenue growth (44% YoY in Q4).",
+      "Emerging verticals like technology and financial services continue to be a source of strength.",
+      "AI investments are driving user engagement, with the highest-ever weekly active to monthly active user ratio of 62% in 2024.",
+      "The company sees room to further grow ad load in high-intent surfaces and verticals."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly positive and assured language, such as '2024 was a transformative year for Pinterest,' 'Our strategy is paying off,' and 'we feel good about the sustainability of the revenue growth that we've been driving,' indicating strong confidence in the business trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2024 revenue was $1,154 million, up 18% year over year.",
+      "quote": "Revenue was $1,154 million for Q4 and $3,646 million for 2024, growing 18% and 19%, respectively, year over year. On a constant currency basis, revenue would have grown 18% and 19%, respectively, year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 GAAP diluted EPS was $2.68, and non-GAAP EPS was $0.56.",
+      "quote": "Diluted $ 2.68 $ 0.29 $ 2.67 $ (0.05) ... Non-GAAP net income per share $ 0.56 $ 0.53 $ 1.29 $ 1.13",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2025 revenue guidance is $837 million to $852 million, representing 13-15% growth year over year.",
+      "quote": "We expect Q1 revenue to be in the range of $837 million to $852 million, representing 13% to 15% growth year over year or 15% to 17% growth on a constant-currency basis as our guidance assumes the impact of foreign exchange to be approximately two points of headwind based on current spot rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 Adjusted EBITDA margin was 41%, up 320 basis points year over year.",
+      "quote": "Our revenue strength and expense discipline led to another strong quarter of adjusted EBITDA coming in at $471 million with an adjusted EBITDA margin of 41%, an increase of 320 basis points versus Q4 last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces a risk of slowing revenue growth in Q1 2025 compared to Q4 2024.",
+      "quote": "We expect Q1 revenue to be in the range of $837 million to $852 million, representing 13% to 15% growth year over year... We just finished Q4 with revenue growth of 18% and guided Q1 to 15% to 17% on a constant-currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces a risk from foreign exchange headwinds in Q1 2025.",
+      "quote": "Our guidance assumes the impact of foreign exchange to be approximately two points of headwind based on current spot rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces a risk from continued softness in the food and beverage category.",
+      "quote": "As expected, growth was partially offset by softness within the food and beverage subsector of CPG... While we are seeing very early green shoots there in Q1, it's too early to say the headwind in food and beverage is fully behind us.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces a risk of lower margin expansion in 2025 compared to 2024.",
+      "quote": "We expect margin expansion again in 2025 and though we anticipate the rate of margin expansion to be lower than the outsized expansion we delivered in 2024 as we continue to invest behind our initiatives and drive profitable growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key opportunity is the growth in lower funnel clicks, with over 90% growth in Q4.",
+      "quote": "In fact, in Q4, we grew clicks to advertisers over 90%, even after lapping the initial launch of direct link that began in Q4 of last year, which is clear evidence that showing more relevant and shoppable content aligns with both the needs of our users and advertisers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key opportunity is the multiyear product cycle for Performance+.",
+      "quote": "Performance+ is one component of this. Stepping back, it's worth noting that Performance+ is at the beginning of a multiyear product cycle. We will continue to release new features and functionality while simultaneously continuing to drive adoption and increase the percent of revenue eligible to take advantage of key features within the automation suite.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key opportunity is the scaling of third-party demand partnerships and resellers, driving Rest of World growth.",
+      "quote": "2024 marked a year of scaling our first third-party demand partnerships with Amazon Ads and Google. We complemented these efforts by launching resellers in 30 markets in Q3. These efforts are paying off as Rest of World revenue growth accelerated throughout 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key opportunity is strength in emerging verticals like technology and financial services.",
+      "quote": "From a vertical perspective, we continue to see broad-based strength in retail. Additionally, emerging verticals like technology and financial services continue to be a source of strength.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key opportunity is the potential to grow ad load in high-intent surfaces.",
+      "quote": "As we stated many times, relevant ads can be great content for our users and additive to the user experience, particularly when they're in commercial context. And as such, we see room to further grow our ad load, particularly in high-intent surfaces and verticals on our platform and for those users that, again, are in a commercial mindset.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "2024 was a transformative year for Pinterest. We reached record-high global users surpassing 550 million MAUs globally and $100 million in UCAN while more than doubling our full-year revenue growth rate from 2023. At the same time, we delivered over $1 billion in adjusted EBITDA, a roughly 50% increase as we continue to drive profitable growth. Our 2024 results are a testament that our long-term strategy is working.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is positive but tempered by decelerating guidance.",
+      "quote": "We just finished Q4 with revenue growth of 18% and guided Q1 to 15% to 17% on a constant-currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects a balance between strong Q4 results and confident management language against a Q1 guidance that implies a deceleration in growth. A reviewer should verify this weighting is appropriate given the company's own prior guidance was not explicitly raised."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PINS_Bundled Earnings Report_2025-02-06",
+  "report_metadata": {
+    "issuer": "p2_pinterest",
+    "company": "Pinterest",
+    "ticker": "PINS",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-02-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2024-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2024-Q4\\PINS_Q4_2024_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2024-Q4\\PINS_Q4_2024_Earnings_Call_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PINS_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260809T102137Z",
+    "timestamp": "2026-08-09T10:21:54Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2024-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pinterest\\extracted\\PINS_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2024-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 29477,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2024-Q4\\PINS_Q4_2024_Earnings_Presentation.pdf",
+        "page_count": 14,
+        "extracted_characters": 10722,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pinterest\\CY2024-Q4\\PINS_Q4_2024_Earnings_Call_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 60927,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pinterest\\extracted\\PINS_FQ4_2024.txt"
+  }
+}

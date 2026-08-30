@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_coca_cola",
+  "reports": [
+    {
+      "document_id": "KO_FQ2_2025",
+      "issuer": "p2_coca_cola",
+      "company": "Coca-Cola",
+      "ticker": "KO",
+      "sector": "Consumer Staples",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-22",
+      "release_date": "2025-07-22",
+      "release_date_source": "EDGAR 8-K Item 2.02, ko-20250722.htm, acc 0000021344-25-000054",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/coca_cola/CY2025-Q2/Q2 2025 Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/coca_cola/CY2025-Q2/a2025q2earningsreleaseex-9.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "KO_FQ4_2025",
+      "issuer": "p2_coca_cola",
+      "company": "Coca-Cola",
+      "ticker": "KO",
+      "sector": "Consumer Staples",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-10",
+      "release_date": "2026-02-10",
+      "release_date_source": "EDGAR 8-K Item 2.02, ko-20260210.htm, acc 0001628280-26-006642",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/coca_cola/CY2025-Q4/Q4 2025 Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/coca_cola/CY2025-Q4/a2025q4earningsreleaseex-9.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "KO_FQ1_2026",
+      "issuer": "p2_coca_cola",
+      "company": "Coca-Cola",
+      "ticker": "KO",
+      "sector": "Consumer Staples",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-28",
+      "release_date": "2026-04-28",
+      "release_date_source": "EDGAR 8-K Item 2.02, ko-20260428.htm, acc 0001628280-26-027723",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/coca_cola/CY2026-Q1/Q1 2026 Earnings Transcript.pdf"
+        },
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/coca_cola/CY2026-Q1/a2026q1earningsreleaseex-9.txt"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

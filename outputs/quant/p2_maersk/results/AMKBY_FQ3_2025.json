@@ -1,0 +1,58 @@
+{
+  "document_id": "AMKBY_FQ3_2025_QUANT",
+  "base_document_id": "AMKBY_FQ3_2025",
+  "issuer": "p2_maersk",
+  "ticker": "AMKBY",
+  "sector": "Industrials/Shipping",
+  "report_date": "2025-11-06",
+  "sentiment": {
+    "score": -0.253016
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.060266,
+      "window_start_date": "2025-10-07",
+      "window_end_date": "2025-11-05",
+      "score": 0.381463,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.347149,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -35.25,
+      "matched_earnings_date": "2025-11-06",
+      "score": -0.887494,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 19.5,
+      "vix_score": -0.033321,
+      "tnx_change": -0.036,
+      "tnx_score": 0.071876,
+      "score": 0.019278,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.87,
+      "ffr_change": -0.46,
+      "ffr_score": 0.725897,
+      "ffr_as_of": "2025-11-05",
+      "curve_spread": 0.54,
+      "curve_score": 0.492988,
+      "curve_as_of": "2025-11-05",
+      "score": 0.609443,
+      "available": true
+    },
+    "quant_score": -0.253016,
+    "quant_score_with_macro": -0.116869,
+    "quant_score_with_fred": 0.178213,
+    "quant_score_with_macro_fred": 0.125235
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

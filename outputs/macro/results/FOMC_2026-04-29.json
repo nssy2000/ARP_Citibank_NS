@@ -1,0 +1,44 @@
+{
+  "document_id": "FOMC_2026-04-29",
+  "meeting_dates": "2026-04-28/29",
+  "minutes_release_date": "2026-05-20",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "The FOMC minutes reveal a hawkish tilt: inflation is elevated and moving higher (PCE inflation estimated at 3.5% in March), the conflict in the Middle East is contributing to high uncertainty, and a majority of participants highlighted that some policy firming would likely become appropriate if inflation persists above 2%. The Committee maintained the federal funds rate at 3.5-3.75%, but many members preferred removing the easing bias from the statement, signaling a less accommodative forward stance. This is restrictive/hawkish for equities, as it implies rates may stay higher for longer or even rise."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "cost_log": {
+    "run_id": "20260706T104222Z",
+    "timestamp": "2026-07-06T10:42:36Z",
+    "status": "success",
+    "document_id": "FOMC_2026-04-29",
+    "issuer": "macro",
+    "company": "Federal Open Market Committee",
+    "ticker": "FOMC",
+    "fiscal_period": "2026-04-28/29",
+    "report_date": "2026-05-20",
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\macro\\fomc_minutes\\2026-04-29.html",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "input_tokens": 13001,
+    "cache_hit_tokens": 256,
+    "output_tokens": 2043,
+    "total_tokens": 15044,
+    "cached_input": false,
+    "estimated_cost_usd": 0.005706,
+    "latency_seconds": 14.76,
+    "attempts": 1,
+    "signal": "SELL",
+    "signal_mismatch": false,
+    "sentiment_score": -0.3,
+    "hold_upper": 0.15,
+    "hold_lower": -0.15
+  }
+}

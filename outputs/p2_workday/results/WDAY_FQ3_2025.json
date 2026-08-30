@@ -1,0 +1,218 @@
+{
+  "document_id": "WDAY_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Workday delivered a strong quarter with subscription revenue growth of 15% and raised its full-year fiscal 2026 subscription revenue guidance to $8.828 billion (14.4% growth), while also increasing its operating cash flow outlook to $2.90 billion. Management expressed high confidence in the forward outlook, citing strong AI momentum, a robust pipeline, and a reiterated FY27 subscription revenue growth target of approximately 13%. While the guidance raise is modest and partly includes inorganic contributions from acquisitions like Paradox and Sana, the overall trajectory and confident management language support a positive but not strongly bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $2.432 billion, an increase of 12.6% from the third quarter of fiscal 2025. Subscription revenues were $2.244 billion, an increase of 14.6% from the same period last year.",
+    "eps": "Diluted net income per share was $0.94, compared to diluted net income per share of $0.72 in the third quarter of fiscal 2025. Non-GAAP diluted net income per share was $2.32, compared to non-GAAP diluted net income per share of $1.89 in the same period last year.",
+    "guidance": "For Q4 FY26, subscription revenues of $2.355 billion (15.5% growth) and non-GAAP operating margin of at least 28.5%. For FY26, subscription revenues of $8.828 billion (14.4% growth) and non-GAAP operating margin of approximately 29%. FY26 operating cash flow outlook increased to $2.90 billion, with free cash flow of $2.70 billion (23% growth). For FY27, subscription revenue growth of approximately 13% is expected.",
+    "margin": "GAAP operating income was $259 million, or 10.7% of revenues. Non-GAAP operating income was $692 million, or 28.5% of revenues, compared to 26.3% in the prior year period.",
+    "key_risks": [
+      "Impact from the weeks-long government shutdown on federal engagement, with some isolated impacts on institutions relying heavily on federal grants, primarily in higher ed.",
+      "Potential headcount reductions in customer base, though net headcount is growing modestly.",
+      "Competitive factors, including pricing pressures and entry of new competitors.",
+      "Risks related to new and evolving technologies such as AI and the ability to realize a return on development efforts.",
+      "Delays or reductions in information technology spending."
+    ],
+    "key_opportunities": [
+      "AI portfolio momentum: More than 75% of core customers using Workday Illuminate AI, with over 1 billion AI actions on the platform this year.",
+      "AI products added more than 1.5 points of ARR growth this quarter, with strong performance from Evisort and Extend Pro.",
+      "Healthcare became the sixth industry to exceed $1 billion in ARR.",
+      "Public sector momentum, including the Department of Energy go-live and the DIA contract, which opens up long-term opportunities.",
+      "International expansion across EMEA, APAC, and Japan, with new markets like the Middle East and India.",
+      "Strategic acquisitions (Paradox, Sana, Pipedream) expanding AI capabilities and market reach.",
+      "Workday Go expansion into the medium enterprise market."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management used confident and forward-looking language, such as 'We are confident in this growth rate based on the momentum we see across the business' and 'We enter Q4 well-positioned to close the year with strength,' reflecting an optimistic outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues were $2.432 billion, up 12.6% year-over-year.",
+      "quote": "Total revenues were $2.432 billion, an increase of 12.6% from the third quarter of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Subscription revenues were $2.244 billion, up 14.6% year-over-year.",
+      "quote": "Subscription revenues were $2.244 billion, an increase of 14.6% from the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS was $0.94, up from $0.72 in the prior year period.",
+      "quote": "Diluted net income per share was $0.94, compared to diluted net income per share of $0.72 in the third quarter of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP diluted EPS was $2.32, up from $1.89 in the prior year period.",
+      "quote": "Non-GAAP diluted net income per share was $2.32, compared to non-GAAP diluted net income per share of $1.89 in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year fiscal 2026 subscription revenue guidance was raised to $8.828 billion, representing 14.4% growth.",
+      "quote": "We now expect fiscal 2026 subscription revenue of $8.828 billion, growth of 14%, and non-GAAP operating margin of approximately 29%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 fiscal 2026 subscription revenue guidance is $2.355 billion, representing 15.5% growth.",
+      "quote": "Subscription revenues of $2.355 billion, representing growth of 15.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was 10.7% of revenues.",
+      "quote": "Operating income was $259 million, or 10.7% of revenues, compared to an operating income of $165 million, or 7.6% of revenues, in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin was 28.5% of revenues.",
+      "quote": "Non-GAAP operating income for the third quarter was $692 million, or 28.5% of revenues, compared to a non-GAAP operating income of $569 million, or 26.3% of revenues, in the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its full-year operating cash flow outlook to $2.90 billion.",
+      "quote": "We are increasing our FY26 operating cash flow outlook to $2.90 billion, and we continue to expect capital expenditures of approximately $200 million, resulting in free cash flow of $2.70 billion, growth of 23%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the FY27 subscription revenue growth target of approximately 13%.",
+      "quote": "For FY27 specifically, we continue to expect subscription revenue growth of approximately 13%, also consistent with the view we shared in September at our analyst day. We are confident in this growth rate based on the momentum we see across the business, as reflected in our Q3 performance as well as our Q4 cRPO guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI products added more than 1.5 points of ARR growth this quarter.",
+      "quote": "All together, our AI products added more than 1.5 points of ARR growth this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Healthcare became the sixth industry to exceed $1 billion in ARR.",
+      "quote": "Healthcare became Workday's sixth industry to cross $1 billion in annual recurring revenue, driven by notable wins and go-lives including Advocate Health and Ardent Health.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company saw some isolated impacts from the government shutdown, primarily in higher ed.",
+      "quote": "While we had a number of successes across our Fed, SLED and healthcare teams, we also saw some isolated impacts within institutions that rely heavily on federal grants, primarily in higher ed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management's tone is optimistic and confident about the future.",
+      "quote": "We enter Q4 well positioned to close the year with strength, and remain focused on our long-term opportunity of driving durable growth while expanding operating margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise includes inorganic contributions from acquisitions like Paradox and Sana.",
+      "quote": "We closed the Paradox acquisition in the quarter, which added over a point to cRPO growth, and was not included in our backlog guidance. ... For Q4, we expect subscription revenue of $2.355 billion, growth of 15%, which includes revenue from the Sana acquisition and the expected delivery on the first phase of the DIA contract.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is partly attributed to acquisitions (Paradox, Sana) and the DIA contract, which are inorganic or one-time in nature. The organic growth rate may be lower than the headline 14.4% guidance suggests. A human reviewer should verify the organic vs. inorganic split to confirm the score is not overstated."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "WDAY_Bundled Earnings Report_2025-11-25",
+  "report_metadata": {
+    "issuer": "p2_workday",
+    "company": "Workday",
+    "ticker": "WDAY",
+    "sector": "Technology/Software - Application",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-25",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q3\\Earnings_Presentation_Q3_2025.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q3\\Earnings_Call_Transcript_Q3_2025.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "WDAY_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T104202Z",
+    "timestamp": "2026-08-09T10:43:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_workday\\extracted\\WDAY_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 29672,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q3\\Earnings_Presentation_Q3_2025.pdf",
+        "page_count": 8,
+        "extracted_characters": 20247,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\workday\\CY2025-Q3\\Earnings_Call_Transcript_Q3_2025.txt",
+        "page_count": 1,
+        "extracted_characters": 54065,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_workday\\extracted\\WDAY_FQ3_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

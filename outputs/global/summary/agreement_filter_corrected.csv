@@ -1,0 +1,29 @@
+# Agreement-conditional accuracy (corrected release_date anchor)
+# Date: 2026-08-12
+#
+# Convention: pre-registered ±2% raw overnight band
+# Subset: data/human/human_decisions_export_2026-08-12.csv
+#   section == "All", first_rater_for_event == YES, in_llm_universe == YES
+#   39-event exclusion set applied (25 worksheet + 1 SPOT + 13 timing)
+# Accuracy: correct-direction rate among traded events where |ret_overnight| > 2%
+#   (BUY and ret > 2% = correct; SELL and ret < -2% = correct; else wrong)
+#   HOLD events and flat trades (|ret| <= 2%) excluded from accuracy
+# Returns: from outputs/global/summary/returns_matrix.csv (release_date anchor)
+#
+# NOTE: the previously documented 0.561 / 0.429 figures appear only as prose in
+# Model_Arm_Implementation_Spec.md, are not reproducible from any script or
+# output in this repository, and are superseded by this computation.
+#
+# The pre-rebuild figures of 32.7% (agree) vs 15.4% (disagree) at +17.3pp
+# (p=0.029) were computed on the stale report_date anchor and are also
+# superseded. The agreement filter does not survive the anchor correction.
+#
+repricing_basis_class,group,n_graded,n_correct,accuracy,diff_pp,ci_low,ci_high,p_value,note
+all_pooled,agree,29,20,0.690,,,,,"N=167 clean paired rows, 55 traded+graded"
+all_pooled,disagree,26,18,0.692,,,,,"same subset, arms disagree"
+all_pooled,difference,,,-0.003,-0.214,0.208,0.959,"agreement filter absent on corrected matrix"
+fact_based,agree,1,1,1.000,,,,,only 1 graded agree event — uninformative
+fact_based,disagree,7,6,0.857,,,,,only 7 graded disagree events — uninformative
+price_based,agree,20,13,0.650,,,,,"n=64 price_based clean rows"
+price_based,disagree,9,3,0.333,,,,,"same subset, arms disagree"
+price_based,difference,,,0.317,-0.006,0.639,0.113,marginal but confounded by repricing_basis_class

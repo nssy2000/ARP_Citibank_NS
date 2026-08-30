@@ -1,0 +1,58 @@
+{
+  "document_id": "PYPL_FQ1_2026_QUANT",
+  "base_document_id": "PYPL_FQ1_2026",
+  "issuer": "p2_paypal",
+  "ticker": "PYPL",
+  "sector": "Financial Services/Credit Services",
+  "report_date": "2026-05-05",
+  "sentiment": {
+    "score": 0.425312
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.111381,
+      "window_start_date": "2026-04-02",
+      "window_end_date": "2026-05-04",
+      "score": 0.630676,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.298311,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 5.59,
+      "matched_earnings_date": "2026-05-05",
+      "score": 0.219947,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.38,
+      "vix_score": 0.107582,
+      "tnx_change": 0.081,
+      "tnx_score": -0.160597,
+      "score": -0.026508,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-05-04",
+      "curve_spread": 0.5,
+      "curve_score": 0.462117,
+      "curve_as_of": "2026-05-04",
+      "score": 0.231059,
+      "available": true
+    },
+    "quant_score": 0.425312,
+    "quant_score_with_macro": 0.199402,
+    "quant_score_with_fred": 0.328186,
+    "quant_score_with_macro_fred": 0.209954
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,18 @@
+# Per-trade statistics for three event sets
+# Generated: 2026-08-15
+# Source nets: Set A from returns_matrix.csv (run_id 20260812_183842, release_date anchor) filtered to N=233 clean universe;
+#              Set B from backtest_equity_extension_2026_08_13.csv LLM rater;
+#              Set C = A+B combined nets pooled
+# pstdev uses population standard deviation (divide by n), consistent with backtest.py
+# t_statistic = mean_net / pstdev * sqrt(n_trades) — NOT a time-series Sharpe ratio; grows mechanically with sample size
+# info_ratio = mean_net / pstdev (unscaled per-trade information ratio)
+# 3.581 in ext4_conviction_sizing.csv is the N=268 pre-exclusion flat book (171 trades, mean_net 1.7193%); superseded by Set A figure here
+# backtest_equity.csv uses the old pre-anchor-correction pricing; do NOT use it for Set A — use returns_matrix.csv instead
+# Clean universe filter: exclude has_human_score=True (25 worksheet events) + SPOT_FQ1_2026 (1 misattributed) = 26 events;
+#   timing-excluded events (9 non-US) are already absent from returns_matrix.csv (timing_excluded=YES filtered out)
+# Decision source: blend_predicted_signal_default column from global_outcome_calibration_phase2.csv (268 rows)
+# Cost model: 10bps round-trip (COST_BPS=0.001); no short-borrow cost
+set,n_trades,mean_net,pstdev_net,info_ratio,t_statistic,notes
+Set A — N=233 clean phase2,146,0.018617,0.065542,0.2840,3.4322,Source: returns_matrix.csv (corrected release_date anchor 2026-08-12) x calibration decisions; 233 clean events (268 scored minus 26 excluded minus 9 timing); 146/233 model-traded; cross-verified against ext2_holding_curve.csv overnight row and item_e_walkforward.json in_sample_deployed mean_net_pct=1.8617
+Set B — N=93 extension,32,0.012159,0.050508,0.2407,1.3618,Source: backtest_equity_extension_2026_08_13.csv rater='LLM (DeepSeek)'; 93 extension events pure eval (thresholds frozen from Set A dev split); 32/93 model-traded; CI includes zero at 90% (underpowered at n=32 trades)
+Set C — N=326 combined,178,0.017456,0.063152,0.2764,3.6878,Source: Set A nets (146) + Set B nets (32) pooled; in-sample (deployed thresholds applied to all 326); cross-verified against item_e_combined_walkforward.json in-sample mean_net 1.7456% for 178 trades

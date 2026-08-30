@@ -1,0 +1,268 @@
+{
+  "document_id": "UNH_FQ3_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company raised its full-year 2025 earnings outlook to at least $14.90 per share (adjusted at least $16.25), up from prior guidance, and reported Q3 adjusted EPS of $2.92, slightly ahead of expectations. However, the raise is modest and management emphasizes 2026 as a transition year with significant headwinds (V28, Medicare cuts, Medicaid pressures), and expects membership contraction in Medicare Advantage and ACA. The forward tone is cautiously optimistic, with confidence in returning to growth in 2026 and acceleration in 2027, but not a strong bullish signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Third quarter 2025 revenues of $113.2 billion, up 12% year-over-year.",
+    "eps": "Third quarter earnings of $2.59 per share, adjusted earnings $2.92 per share. Adjusted EPS slightly ahead of expectations.",
+    "guidance": "Raises full year 2025 earnings outlook to at least $14.90 per share; adjusted earnings of at least $16.25 per share. For 2026, management is comfortable with current consensus, expects return to solid earnings growth, with acceleration in 2027.",
+    "margin": "Consolidated operating margin 3.8% for Q3 2025 (down from 8.6% in Q3 2024). Net margin 2.1% (down from 6.0%). Medical care ratio 89.9% (up 470 bps YoY). Operating cost ratio 13.5% (up from 13.2% YoY).",
+    "key_risks": [
+      "Elevated medical cost trends, with Medicare Advantage trend forecast at 7.5% for 2025 and 10% for 2026.",
+      "Medicare funding reductions (Biden-era) and Part D IRA impacts.",
+      "Medicaid funding inadequacy and expected margin decline in 2026.",
+      "V28 headwind of more than $6 billion in 2026.",
+      "Membership contraction in Medicare Advantage (~1 million) and ACA (~two-thirds reduction).",
+      "Optum Health underperformance and need for continued investment.",
+      "Potential non-GAAP, substantially non-cash, low single digit billion dollar charge related to restructuring.",
+      "DOJ legal actions concerning Medicare program participation.",
+      "Cyberattacks and data security incidents.",
+      "Competitive pressures and market dynamics."
+    ],
+    "key_opportunities": [
+      "Repricing efforts in UnitedHealthcare expected to drive margin improvement in 2026.",
+      "Strong Stars results and focus on quality.",
+      "Optum Rx growth with double-digit revenue growth and strong selling season.",
+      "AI and technology investments expected to structurally improve performance.",
+      "Value-based care model refocus expected to drive long-term margin targets of 6-8% for Optum Health.",
+      "Capital deployment resumption (buybacks, acquisitions) expected in second half of 2026.",
+      "Affordability initiatives to improve medical trend relative to pricing."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expresses confidence in returning to solid earnings growth in 2026 and acceleration in 2027, while acknowledging challenges and transition year."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Third quarter 2025 revenues were $113.2 billion, up 12% year-over-year.",
+      "quote": "Third Quarter 2025 Revenues of $113.2 Billion Grew 12% Year-Over-Year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third quarter adjusted EPS was $2.92, slightly ahead of expectations.",
+      "quote": "Today we reported adjusted earnings per share of two dollars and ninety-two cents, which was slightly ahead of our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 earnings outlook raised to at least $14.90 per share; adjusted at least $16.25.",
+      "quote": "Raises Full Year 2025 Earnings Outlook to at least $14.90 Per Share; Adjusted Earnings of at least $16.25 Per Share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consolidated operating margin for Q3 2025 was 3.8%, down from 8.6% in Q3 2024.",
+      "quote": "Consolidated operating margin 3.8 % 8.6 % 5.6 % 8.2 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medical care ratio was 89.9% in Q3 2025, up 470 basis points year-over-year.",
+      "quote": "The third quarter consolidated medical care ratio of 89.9% reflected utilization in line with expectations outlined in the second quarter 2025. The year-over-year increase of 470 basis points was primarily driven by the previously described significantly elevated cost trends...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating cost ratio was 13.5% in Q3 2025, up from 13.2% in the year-ago quarter.",
+      "quote": "The third quarter 2025 operating cost ratio of 13.5% compared to 13.2% in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicare Advantage medical cost trend forecast at 7.5% for 2025 and 10% for 2026.",
+      "quote": "We forecast a full-year 2025 trend of approximately 7.5% in Medicare Advantage, consistent with our previous expectations. ... In Individual Medicare Advantage, we continue to believe an expected 10% medical cost trend for 2026 has us positioned appropriately.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "V28 headwind of more than $6 billion in 2026.",
+      "quote": "We are entering the final year of V28, which represents a more than $6 billion headwind to the overall enterprise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicaid margins expected to decline further in 2026.",
+      "quote": "As we look to 2026, we expect margins to decline further if existing cost trends continue and the current rate environment does not change.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicare Advantage membership expected to contract by approximately 1 million members in 2026.",
+      "quote": "As a result of our plan actions, as well as competitive market dynamics, we expect membership contraction of approximately one million members in total Medicare Advantage, including individual and group markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ACA enrollment expected to reduce by approximately two-thirds.",
+      "quote": "We believe these actions will establish a sustainable premium base — while likely reducing our ACA enrollment by approximately two-thirds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Optum Health expects to end 2025 with margins just under 3%, with value-based care margins under 1%.",
+      "quote": "Within this, we expect to end 2025 with margins of just under 3%, which includes value-based care margins under 1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential non-GAAP, substantially non-cash, low single digit billion dollar charge related to restructuring.",
+      "quote": "At this stage, our preliminary work would imply a non-GAAP, substantially non-cash, low single digit billion dollar charge.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DOJ legal actions concerning Medicare program participation are a risk.",
+      "quote": "the DOJ’s legal actions concerning our participation in the Medicare program;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cyberattacks and data security incidents are a risk.",
+      "quote": "cyberattacks, other privacy/data security incidents, or our failure to comply with related regulations;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Repricing efforts expected to drive margin improvement in 2026.",
+      "quote": "Repricing within UnitedHealthcare is on track to drive solid operating earnings growth from margin improvement within that business in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong Stars results support competitiveness.",
+      "quote": "We are also keeping sharp focus on the continued competitiveness of UnitedHealthcare, as evidenced by our recent Medicare Stars scores showing improvement year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Optum Rx has double-digit revenue growth and strong selling season.",
+      "quote": "At Optum Rx…we continue to perform well, with double-digit revenue growth in our pharmacies and a strong selling season for our pharmacy offerings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI investments expected to structurally improve performance.",
+      "quote": "We are also accelerating our pace of AI applications to fundamentally advance a vast spectrum of processes and capabilities we expect will structurally improve our enterprise performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Optum Health long-term margin target of 6-8%.",
+      "quote": "We believe these efforts will drive further acceleration in 2027 towards our long-term margin targets of 6-8%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Capital deployment resumption expected in second half of 2026.",
+      "quote": "We expect our debt-to-capital ratio to trend closer to 40% in the second half of 2026. Accordingly, while we have not finalized plans for 2026, we anticipate we may be in a position to reinstate our historical capital deployment practices later in the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Affordability initiatives expected to improve medical trend relative to pricing.",
+      "quote": "Finally, we’re taking an aggressive step on affordability initiatives that should improve overall medical trend relative to our pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic.",
+      "quote": "Simply put, we will end 2025 well-positioned for a return to solid growth in 2026, acceleration in 2027, and a clear focus on our longstanding mission and strategy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 reflects a modest guidance raise but with significant forward headwinds and cautious language; reviewer may consider whether the raise is material enough to warrant a higher score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UNH_Bundled Earnings Report_2025-10-27",
+  "report_metadata": {
+    "issuer": "p2_unitedhealth",
+    "company": "UnitedHealth",
+    "ticker": "UNH",
+    "sector": "Healthcare/Healthcare Plans",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-27",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q3\\UNH_Q3_2025_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q3\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UNH_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103808Z",
+    "timestamp": "2026-08-09T10:38:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_unitedhealth\\extracted\\UNH_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 25094,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q3\\UNH_Q3_2025_Earnings_Presentation.pdf",
+        "page_count": 15,
+        "extracted_characters": 27242,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q3\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 70851,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_unitedhealth\\extracted\\UNH_FQ3_2025.txt"
+  }
+}

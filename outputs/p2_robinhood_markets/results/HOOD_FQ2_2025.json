@@ -1,0 +1,188 @@
+{
+  "document_id": "HOOD_FQ2_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company reported strong Q2 results with revenue up 45% YoY and EPS up 100% YoY, and management raised its full-year 2025 Adjusted Operating Expenses and SBC outlook to $2.15-$2.25 billion, up from the prior $2.085-$2.185 billion, primarily to include Bitstamp costs. While this is not a revenue guidance raise, the company's confident language about Q3 momentum (Net Deposits ~$6B in July, record trading volumes) and continued product innovation (tokenization, staking, banking) indicate genuine operational momentum. However, the guidance raise is largely attributed to the Bitstamp acquisition (a one-time event), not organic improvement, and the company remains disciplined on expenses, so the score is moderately positive but not higher."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total net revenues increased 45% year-over-year to $989 million. Transaction-based revenues increased 65% to $539 million, net interest revenues increased 25% to $357 million, and other revenues increased 33% to $93 million.",
+    "eps": "Diluted EPS increased 100% year-over-year to $0.42. Net income increased 105% year-over-year to $386 million.",
+    "guidance": "Updated 2025 outlook for Adjusted Operating Expenses and SBC to $2.15 billion to $2.25 billion, up from prior $2.085 billion to $2.185 billion, to include $65 million of anticipated costs related to Bitstamp. This outlook does not include provision for credit losses, costs related to WonderFi, or potential significant regulatory matters.",
+    "margin": "Adjusted EBITDA Margin was 56% in Q2 2025, up from 51% in Q1 2025 and 44% in Q2 2024. Net margin was 39% in Q2 2025.",
+    "key_risks": [
+      "Reliance on transaction-based revenue, including payment for order flow (PFOF), and risk of new regulation or bans on PFOF.",
+      "Exposure to fluctuations in interest rates and rapidly changing interest rate environments.",
+      "Operational and regulatory risks and expenditures prior to and following closing of acquisitions and investments.",
+      "Possibility of adverse developments in pending litigation and regulatory investigations.",
+      "Risk that changes in business, economic, or political conditions that impact global financial markets might harm the business.",
+      "Risk of cybersecurity incidents, theft, data breaches, and other online attacks.",
+      "Regulatory, litigation, contractual, operational, and reputational risks associated with new products such as Stock Tokens and staking services."
+    ],
+    "key_opportunities": [
+      "Tokenization of real-world assets, including Stock Tokens in Europe, which management believes is the biggest innovation in capital markets in over a decade.",
+      "Expansion into 30 European countries and the acquisition of Bitstamp to grow the institutional crypto business.",
+      "Robinhood Banking expected to launch in the fall, allowing customers to bring more assets to Robinhood.",
+      "Growth of Robinhood Gold subscribers to 3.5 million, with new customer adoption rate north of 35%.",
+      "Strong Q3 start with Net Deposits around $6 billion in July and record trading volumes.",
+      "Securities lending revenue growing, with June at a record $54 million and July equally strong.",
+      "Staking in the U.S. with over $750 million staked in the first month."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used confident language such as 'we feel great about Q2 product velocity and results' and 'our momentum is strong entering the second half of the year,' and highlighted record metrics and product innovation."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total net revenues increased 45% year-over-year to $989 million.",
+      "quote": "Total net revenues increased 45% year-over-year to $989 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS increased 100% year-over-year to $0.42.",
+      "quote": "Diluted EPS increased 100% year-over-year to $0.42.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 Adjusted Operating Expenses and SBC outlook raised to $2.15-$2.25 billion from $2.085-$2.185 billion.",
+      "quote": "Our prior outlook for combined Adjusted Operating Expenses and SBC for full-year 2025 provided at Q1 2025 Earnings (April 30, 2025) was $2.085 billion to $2.185 billion, which did not include expenses related to our acquisition of Bitstamp. As a result of the acquisition closing in the second quarter, we are updating our outlook to $2.15 billion to $2.25 billion to include $65 million of anticipated costs related to Bitstamp.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA Margin was 56% in Q2 2025.",
+      "quote": "Adjusted EBITDA Margin (Non-GAAP) 56%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident about Q3 momentum with Net Deposits around $6 billion in July.",
+      "quote": "As we enter Q3, we're off to a fast start in July. Net Deposits are around $6 billion. It's a really nice pickup from May and June. Equity and options trading volumes are setting new monthly records.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tokenization is seen as a major opportunity.",
+      "quote": "I think tokenization is the biggest innovation in capital markets in over a decade. Stock Tokens will do for stocks what stablecoin did for fiat currencies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robinhood Gold subscribers reached a record 3.5 million.",
+      "quote": "Robinhood Gold Subscribers increased by 1.5 million, or 76%, year-over-year to 3.5 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Securities lending revenue reached a record in June.",
+      "quote": "Total securities lending revenue increased by 72% year-over-year to a record $112 million in Q2, and fully paid securities lending was 41% of total securities lending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Staking in the U.S. has seen strong early adoption.",
+      "quote": "We've launched staking in the U.S. with over $750 million staked in just the first month.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel great about Q2 product velocity and results. ... our momentum is strong entering the second half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is primarily due to Bitstamp acquisition costs, not organic revenue growth. The score of 0.30 reflects operational momentum but may be considered high given the lack of a formal revenue guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HOOD_Bundled Earnings Report_2025-07-30",
+  "report_metadata": {
+    "issuer": "p2_robinhood_markets",
+    "company": "Robinhood Markets",
+    "ticker": "HOOD",
+    "sector": "Financial Services/Capital Markets",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q2\\HOOD_Q2_2025_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q2\\HOOD_Q2_2025_earnings_call_transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HOOD_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T102547Z",
+    "timestamp": "2026-08-09T10:26:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\extracted\\HOOD_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 39957,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q2\\HOOD_Q2_2025_earnings_presentation.pdf",
+        "page_count": 47,
+        "extracted_characters": 84240,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q2\\HOOD_Q2_2025_earnings_call_transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 59212,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\extracted\\HOOD_FQ2_2025.txt"
+  }
+}

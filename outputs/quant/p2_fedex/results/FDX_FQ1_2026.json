@@ -1,0 +1,58 @@
+{
+  "document_id": "FDX_FQ1_2026_QUANT",
+  "base_document_id": "FDX_FQ1_2026",
+  "issuer": "p2_fedex",
+  "ticker": "FDX",
+  "sector": "Industrials/Logistics",
+  "report_date": "2025-09-18",
+  "sentiment": {
+    "score": 0.110719
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.002166,
+      "window_start_date": "2025-08-18",
+      "window_end_date": "2025-09-17",
+      "score": -0.014436,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.274293,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 6.01,
+      "matched_earnings_date": "2025-09-18",
+      "score": 0.235874,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 15.7,
+      "vix_score": 0.216518,
+      "tnx_change": -0.198,
+      "tnx_score": 0.376521,
+      "score": 0.29652,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-09-17",
+      "curve_spread": 0.54,
+      "curve_score": 0.492988,
+      "curve_as_of": "2025-09-17",
+      "score": 0.246494,
+      "available": true
+    },
+    "quant_score": 0.110719,
+    "quant_score_with_macro": 0.20362,
+    "quant_score_with_fred": 0.178607,
+    "quant_score_with_macro_fred": 0.217911
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

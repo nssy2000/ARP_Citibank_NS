@@ -1,0 +1,58 @@
+{
+  "document_id": "GS_FQ1_2026_QUANT",
+  "base_document_id": "GS_FQ1_2026",
+  "issuer": "p2_goldman_sachs",
+  "ticker": "GS",
+  "sector": "Financials",
+  "report_date": "2026-04-13",
+  "sentiment": {
+    "score": 0.452182
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.10202,
+      "window_start_date": "2026-03-11",
+      "window_end_date": "2026-04-10",
+      "score": 0.591606,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.329942,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 8.09,
+      "matched_earnings_date": "2026-04-13",
+      "score": 0.312758,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 19.12,
+      "vix_score": -0.008,
+      "tnx_change": 0.024,
+      "tnx_score": -0.047964,
+      "score": -0.027982,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-04-12",
+      "curve_spread": 0.5,
+      "curve_score": 0.462117,
+      "curve_as_of": "2026-04-10",
+      "score": 0.231059,
+      "available": true
+    },
+    "quant_score": 0.452182,
+    "quant_score_with_macro": 0.2121,
+    "quant_score_with_fred": 0.34162,
+    "quant_score_with_macro_fred": 0.21842
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

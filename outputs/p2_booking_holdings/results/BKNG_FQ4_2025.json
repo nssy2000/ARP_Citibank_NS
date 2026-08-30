@@ -1,0 +1,271 @@
+{
+  "document_id": "BKNG_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The company delivered strong Q4 results with room nights, gross bookings, and revenue all exceeding the high end of prior guidance, and management raised its full-year 2026 outlook to grow approximately 100 basis points ahead of its long-term growth algorithm while expanding margins. However, a significant portion of the reported growth is attributed to favorable FX (approximately 500 basis points in Q4 and 200-300 basis points for the full year), and management's forward guidance is a target rather than a formal raised guidance range, tempering the score. The organic constant-currency growth still exceeds the long-term algorithm, and management expresses confident language about reinvestment and AI opportunities, supporting a moderately positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue was $6.3 billion, up 16% year-over-year (approximately 11% on a constant currency basis). Full year 2025 revenue was $26.9 billion, up 13% year-over-year (approximately 10% on a constant currency basis).",
+    "eps": "Q4 2025 GAAP EPS was $44.22, up 38% year-over-year. Adjusted EPS was $48.80, up 17% year-over-year. Full year 2025 GAAP EPS was $165.57, down 4% year-over-year. Adjusted EPS was $228.06, up 22% year-over-year.",
+    "guidance": "For Q1 2026, the company expects room night growth of 5%-7%, gross bookings growth of 14%-16%, revenue growth of 14%-16%, and Adjusted EBITDA growth of 10%-14%. For FY 2026, the company targets constant currency top-line growth approximately 100 basis points ahead of its long-term growth algorithm, with gross bookings and revenue up low-double-digits, Adjusted EBITDA growing faster than revenue, and Adjusted EPS up mid-teens.",
+    "margin": "Q4 2025 net income margin was 22.5% (19.5% in Q4 2024). Adjusted EBITDA margin was 34.6% (33.8% in Q4 2024). Full year 2025 net income margin was 20.1% (24.8% in 2024). Adjusted EBITDA margin was 36.9% (35.0% in 2024).",
+    "key_risks": [
+      "Adverse FX changes impacting adjusted fixed operating expenses",
+      "An indirect tax matter accrual of $44 million",
+      "Higher cloud computing costs",
+      "Potential impact of geopolitical and macroeconomic environment on consumer spending and travel patterns",
+      "Rapid technological changes and competition, including from large language models",
+      "Slightly lower ADRs and shorter length of stay in the US, indicating some consumer segments are being thoughtful on discretionary spending"
+    ],
+    "key_opportunities": [
+      "Advancing Generative AI capabilities to enhance traveler and partner value",
+      "Connected Trip strategy with transactions growing in the high-20% range",
+      "Growth in Asia and the US, with Asia delivering low double-digit room night growth",
+      "Flights business with 68 million airline tickets booked, up 37% year-over-year",
+      "Alternative accommodations with supply up approximately 8% to 8.6 million listings",
+      "Genius loyalty program with Level 2 and 3 travelers representing high 50% share of room nights",
+      "Transformation Program enabling approximately $550 million in annual run-rate savings"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses strong confidence in the business and future opportunities, with Glenn Fogel stating 'I remain as optimistic as ever about our opportunities ahead' and 'I am confident in our position and in the investments, we are making to support long-term value creation.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $6.3 billion, up 16% year-over-year.",
+      "quote": "Revenue grew 16% compared to 2024, or approximately 11% on a constant currency basis. ... Revenue $6.3B 16%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 revenue was $26.9 billion, up 13% year-over-year.",
+      "quote": "Revenue grew 13% compared to 2024, or approximately 10% on a constant currency basis. ... Revenue $26.9B 13%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP EPS was $44.22, up 38% year-over-year.",
+      "quote": "GAAP EPS $44.22 38%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted EPS was $48.80, up 17% year-over-year.",
+      "quote": "Adjusted EPS $48.80 17%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 GAAP EPS was $165.57, down 4% year-over-year.",
+      "quote": "GAAP EPS $165.57 (4%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 Adjusted EPS was $228.06, up 22% year-over-year.",
+      "quote": "Adjusted EPS $228.06 22%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 guidance includes room night growth of 5%-7%, gross bookings growth of 14%-16%, revenue growth of 14%-16%, and Adjusted EBITDA growth of 10%-14%.",
+      "quote": "Q1 2026 FY 2026 Room Nights Growth 5% - 7% Gross Bookings Growth 14% - 16% ... Revenue Growth (1) 14% - 16% ... Adjusted EBITDA Growth (2)(3)(4) 10% - 14%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY 2026 guidance targets constant currency top-line growth approximately 100 basis points ahead of the long-term growth algorithm.",
+      "quote": "Assuming travel industry growth in line with recent years, we are targeting full year constant currency top-line growth approximately 100 basis points ahead of our long-term growth algorithm, with bottom-line performance firmly in line with that framework.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 net income margin was 22.5%.",
+      "quote": "Net income margin of 22.5% (19.5% in Q4 2024)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted EBITDA margin was 34.6%.",
+      "quote": "Adjusted EBITDA margin of 34.6% (33.8% in Q4 2024)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 net income margin was 20.1%.",
+      "quote": "Net income margin was 20.1% (24.8% in 2024)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 Adjusted EBITDA margin was 36.9%.",
+      "quote": "Adjusted EBITDA margin was 36.9% (35.0% in 2024)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX benefited Q4 growth rates by approximately 500 basis points.",
+      "quote": "Consistent with our prior earnings guidance, I want to note that FX benefited our fourth quarter growth rates by approximately 500 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX benefited full year growth rates by approximately 200-300 basis points for gross bookings and revenue.",
+      "quote": "I would note that FX benefited our full year growth rates by approximately 200 basis points for gross bookings, 300 basis points for revenue, and 400 basis points for adjusted EBITDA and EPS.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 room nights exceeded the high end of guidance by 3 percentage points.",
+      "quote": "Our room nights in the fourth quarter grew 9%, exceeding the high-end of our guidance range by 3 percentage points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross bookings exceeded the high end of guidance by about 3 percentage points.",
+      "quote": "The increase in gross bookings exceeded the high-end of our guidance by about 3 percentage points driven primarily by the room night outperformance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 revenue exceeded the high end of guidance by about 4 percentage points.",
+      "quote": "Fourth quarter revenue grew 16% year-over-year, which exceeded the high-end of our guidance by about 4 percentage points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the business and future opportunities.",
+      "quote": "I remain as optimistic as ever about our opportunities ahead. ... I am confident in our position and in the investments, we are making to support long-term value creation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adverse FX changes, an indirect tax matter, and higher cloud computing costs drove adjusted fixed operating expenses up 10%.",
+      "quote": "Adjusted fixed operating expenses increased 10%, driven by adverse FX changes, an indirect tax matter, and higher cloud computing costs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Transformation Program enabled approximately $550 million in annual run-rate savings.",
+      "quote": "Enabled approximately $550 million in annual run-rate savings (high end of our prior target) through the Transformation Program",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Connected Trip transactions grew in the high-20% range for the full year.",
+      "quote": "For the full year, Connected Trip transactions grew in the high-20% range and represented a low double-digit percentage of Booking.com's total transactions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia delivered low double-digit room night growth for the full year.",
+      "quote": "For full year 2025, we saw low double-digit room night growth in Asia by staying focused on disciplined execution and balancing growth with profitability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Flights business booked 68 million airline tickets, up 37% year-over-year.",
+      "quote": "For the full year, travelers booked 68 million airline tickets across our platforms, up 37% year-over-year, and represented gross bookings of $16.8 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Alternative accommodation supply grew approximately 8% to 8.6 million listings.",
+      "quote": "So what we have seen is healthy growth of alternative accommodation supply. So this is year-over-year up approximately 8%. We're now at 8.6 million listings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Genius Level 2 and 3 travelers represented a high 50% share of room nights.",
+      "quote": "In 2025, Level 2 and 3 Genius travelers represented over 30% of our active base and accounted for a high 50% share of room nights, up from the previous year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US consumer segments are being thoughtful on discretionary spending, indicated by slightly lower ADRs and shorter length of stay.",
+      "quote": "though we continue to see slightly lower ADRs and a slightly shorter length of stay versus the prior year, which may indicate that some consumer segments are continuing to be thoughtful on their discretionary spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a target for 2026 growth that is 100 bps ahead of the long-term algorithm, but this is a target, not a formal raised guidance range. The company also explicitly attributes a significant portion of reported growth to FX tailwinds, which was discounted in the score. A reviewer should verify the balance between organic momentum and FX-attributed growth."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The FY 2026 guidance is expressed as a target ('we are targeting') rather than a formal range, which may differ from typical guidance language. A reviewer should confirm this interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 26,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BKNG_Bundled Earnings Report_2026-02-18",
+  "report_metadata": {
+    "issuer": "p2_booking_holdings",
+    "company": "Booking",
+    "ticker": "BKNG",
+    "sector": "Consumer Cyclical/Travel Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q4\\transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "BKNG_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095014Z",
+    "timestamp": "2026-08-09T09:51:05Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_booking_holdings\\extracted\\BKNG_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 32684,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\booking_holdings\\CY2025-Q4\\transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 69694,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_booking_holdings\\extracted\\BKNG_FQ4_2025.txt"
+  }
+}

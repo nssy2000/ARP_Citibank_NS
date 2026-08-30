@@ -1,0 +1,185 @@
+{
+  "document_id": "HLT_FQ2_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "Full-year 2025 guidance for system-wide RevPAR, net income, and Adjusted EBITDA was reaffirmed unchanged from the prior quarter's range (flat to 2% RevPAR growth, net income $1,640M-$1,682M, Adjusted EBITDA $3,650M-$3,710M). The Q2 beat on Adjusted EBITDA ($1,008M vs. guidance high end of ~$980M) was explicitly attributed to timing of non-RevPAR items, not an organic improvement in the underlying business. Management's tone is optimistic about intermediate-term tailwinds (regulatory environment, AI investment, low supply growth) but cautious on near-term RevPAR, with Q3 guidance of flat to modestly down. The score is slightly positive because the reaffirmed guidance is not a reduction, and the long-term optimism is notable, but the beat is attributed to timing and near-term RevPAR is soft."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Total revenues were $3,137 million for Q2 2025, up from $2,951 million in Q2 2024.",
+    "eps": "Diluted EPS was $1.84 for Q2 2025; diluted EPS adjusted for special items was $2.20, compared to $1.91 in Q2 2024.",
+    "guidance": "Full year 2025: system-wide comparable RevPAR flat to +2.0% (currency neutral); net income $1,640M-$1,682M; Adjusted EBITDA $3,650M-$3,710M; diluted EPS adjusted for special items $7.83-$8.00. Q3 2025: RevPAR flat to modestly down; Adjusted EBITDA $935M-$955M.",
+    "margin": "Adjusted EBITDA margin was 75.2% for Q2 2025, compared to 72.2% in Q2 2024.",
+    "key_risks": [
+      "System-wide comparable RevPAR declined 0.5% in Q2 2025, driven by softer trends in the US and China.",
+      "U.S. comparable RevPAR decreased 1.5% due to pressure across business transient and group segments, declines in government spend, and softer international inbound demand.",
+      "China RevPAR declined 3.4% due to continued weakness in corporate travel demand and changes in government travel policies.",
+      "Broader economic uncertainty and holiday/calendar shifts are expected to continue weighing on near-term RevPAR."
+    ],
+    "key_opportunities": [
+      "Record development pipeline of 510,600 rooms, up 4% year-over-year, with nearly half under construction.",
+      "Net unit growth of 7.5% in Q2, with full-year guidance of 6%-7%.",
+      "Strong conversion activity (33% of deals in Q2, expected 40% for the year) and upcoming new conversion brand launches.",
+      "Optimism about intermediate-term demand driven by favorable regulatory environment, tax reform, AI investment, and low industry supply growth.",
+      "Group position for 2026 and 2027 is up in the high single digits."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Chris Nassetta stated, 'I am very optimistic' about the intermediate term, citing a 'more favorable regulatory environment' and 'very limited industry supply growth' that should 'drive stronger RevPAR growth over the next several years.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues were $3,137 million for Q2 2025, up from $2,951 million in Q2 2024.",
+      "quote": "Total revenues 3,137 2,951 5,832 5,524 (from Condensed Consolidated Statements of Operations, three months ended June 30, 2025 vs 2024).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.84 for Q2 2025; diluted EPS adjusted for special items was $2.20.",
+      "quote": "Diluted EPS was $1.84 for the second quarter, and diluted EPS, adjusted for special items, was $2.20.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 guidance for RevPAR, net income, and Adjusted EBITDA was reaffirmed unchanged.",
+      "quote": "Full year 2025 system-wide RevPAR is projected to be flat to an increase of 2.0 percent on a comparable and currency neutral basis compared to 2024; full year net income is projected to be between $1,640 million and $1,682 million; full year Adjusted EBITDA is projected to be between $3,650 million and $3,710 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 Adjusted EBITDA beat the high end of guidance, but the beat was attributed to timing of non-RevPAR items.",
+      "quote": "Adjusted EBITDA was $1.08 billion in the second quarter, up 10% year over year and meaningfully exceeding the high end of our guidance range. Outperformance was predominantly driven by timing of non-RevPAR items.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "System-wide comparable RevPAR declined 0.5% in Q2 2025.",
+      "quote": "System-wide comparable RevPAR declined 0.5 percent, on a currency neutral basis, for the second quarter compared to the same period in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. comparable RevPAR decreased 1.5% due to pressure across business transient and group.",
+      "quote": "Second quarter comparable US RevPAR decreased 1.5%, largely driven by pressure across business transient and group.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China RevPAR declined 3.4% due to weakness in corporate travel and government policy changes.",
+      "quote": "RevPAR in China declined 3.4% in the quarter, largely driven by continued weakness in corporate travel demand, particularly in Tier two and Tier three cities, and changes in government travel policies.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record development pipeline of 510,600 rooms, up 4% year-over-year.",
+      "quote": "Approved 36,200 new rooms for development during the second quarter, bringing our development pipeline to a record 510,600 rooms as of June 30, 2025, up 4 percent compared to June 30, 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net unit growth was 7.5% in Q2, with full-year guidance of 6%-7%.",
+      "quote": "Added 26,100 rooms to our system, resulting in 22,600 net additional rooms for the second quarter, contributing to net unit growth of 7.5 percent from June 30, 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Conversions accounted for 33% of deals in Q2, expected to reach 40% for the full year.",
+      "quote": "Conversions accounted for 33% of deals, expected to reach 40% for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group position for 2026 and 2027 is up in the high single digits.",
+      "quote": "2026 and 2027 group position are up in the high single digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin was 75.2% for Q2 2025, compared to 72.2% in Q2 2024.",
+      "quote": "Adjusted EBITDA margin 75.2 % 72.2 % (from Net Income Margin and Adjusted EBITDA and Adjusted EBITDA Margin table, three months ended June 30, 2025 vs 2024).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic about the intermediate term.",
+      "quote": "As we think about our business over the intermediate term, I am very optimistic. In our largest market, a more favorable regulatory environment, certainty, tax reform, expected settling down on global trade policy, continuation of very healthy corporate profits, and significant investments across a multitude of industries, including AI, AI-related and core infrastructure investment should accelerate economic growth and unlock meaningful increases in travel demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is borderline between HOLD and BUY. The guidance was reaffirmed, not raised, and the Q2 beat was attributed to timing. A reviewer may wish to assess whether the long-term optimism warrants a slightly higher score or if the near-term caution should keep it at 0.0."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HLT_Bundled Earnings Report_2025-07-23",
+  "report_metadata": {
+    "issuer": "p2_hilton",
+    "company": "Hilton",
+    "ticker": "HLT",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q2\\HLT-Q2-2025-Earnings-Release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q2\\HLT-Q2-2025-earnings-call-transcript-MotleyFool.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HLT_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173436Z",
+    "timestamp": "2026-07-30T17:35:11Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q2\\HLT-Q2-2025-Earnings-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_hilton\\extracted\\HLT_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q2\\HLT-Q2-2025-Earnings-Release.pdf",
+        "page_count": 18,
+        "extracted_characters": 47133,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\hilton\\CY2025-Q2\\HLT-Q2-2025-earnings-call-transcript-MotleyFool.txt",
+        "page_count": 1,
+        "extracted_characters": 61046,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_hilton\\extracted\\HLT_FQ2_2025.txt"
+  }
+}

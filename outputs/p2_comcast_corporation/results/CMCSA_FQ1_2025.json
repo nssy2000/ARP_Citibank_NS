@@ -1,0 +1,253 @@
+{
+  "document_id": "CMCSA_FQ1_2025",
+  "sentiment": {
+    "score": -0.2,
+    "rationale": "Forward guidance was effectively held flat or hedged: management explicitly stated that new go-to-market initiatives 'will require some investment, which in turn will impact our ability to grow EBITDA in the near future,' and that it 'will take several quarters for a new approach to gain traction and impact the business in a meaningful way.' While the quarter showed some operational momentum (wireless net additions, Peacock loss improvement), management conceded a 'slight uptick in churn,' acknowledged 'we are not winning in the marketplace in a way that is commensurate with the strength of the network,' and flagged that 'the odds have increased that challenges may be approaching' in the macro environment. The combination of a flat/hedged forward outlook, explicit near-term EBITDA pressure, and cautious macro language outweighs the backward-looking beats, pulling the score negative."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Consolidated revenue was $29,887 million for Q1 2025, down 0.6% year-over-year (from $30,058 million).",
+    "eps": "Diluted EPS was $0.89, down 7.7% year-over-year; Adjusted EPS was $1.09, up 4.5% year-over-year.",
+    "guidance": "No formal quantitative guidance was provided. Management stated that new go-to-market initiatives 'will require some investment, which in turn will impact our ability to grow EBITDA in the near future,' and that it 'will take several quarters for a new approach to gain traction and impact the business in a meaningful way.' Management also noted 'the odds have increased that challenges may be approaching' in the macro environment.",
+    "margin": "Connectivity & Platforms Adjusted EBITDA margin increased 90 basis points to 41.4% (80 bps constant currency). Residential Connectivity & Platforms Adjusted EBITDA margin was 39.2% (up 90 bps). Business Services Connectivity Adjusted EBITDA margin was 57.0% (up 30 bps).",
+    "key_risks": [
+      "Intense competitive environment in broadband, including fixed wireless and fiber overbuilds.",
+      "Slight uptick in churn off record low levels, with a little more impact from mobile substitution.",
+      "New go-to-market initiatives will require investment, impacting ability to grow EBITDA in the near future.",
+      "Macroeconomic uncertainty: 'the odds have increased that challenges may be approaching.'",
+      "Softness at Universal Hollywood due to aftermath of wildfires, with recovery expected to be gradual.",
+      "Theme Parks revenue down 5.2% and Adjusted EBITDA down 32.1%, including ~$100M pre-opening costs for Epic Universe.",
+      "Advertising revenue down 7% due to volume/timing of sports and tough political comparisons.",
+      "Domestic broadband customer net losses of 199,000; total video customer net losses of 427,000."
+    ],
+    "key_opportunities": [
+      "Wireless momentum: 323,000 net line additions in Q1, highest in two years; penetration only 13% of residential broadband base.",
+      "Business Services growth: revenue +3.7%, EBITDA +4.1%, margins ~57%; Nitel acquisition closed April 1.",
+      "Epic Universe opening May 22, 2025; strong demand and positive early reviews.",
+      "Peacock: revenue +16%, EBITDA losses improved by $424M year-over-year; 41M paid subscribers.",
+      "New UK theme park announced (construction 2026, opening 2031).",
+      "NBA rights starting Q4 2025 as advertising and Peacock driver.",
+      "New broadband price guarantee (5-year lock) and premium wireless plans to improve competitiveness."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expressed confidence in the strategy and network position ('we feel great about our network position') but was candid about competitive challenges and near-term EBITDA pressure ('we are not winning in the marketplace in a way that is commensurate with the strength of the network'), and flagged macro uncertainty ('the odds have increased that challenges may be approaching')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Consolidated revenue was $29,887 million, down 0.6% year-over-year.",
+      "quote": "Revenue $29,887 $30,058 (0.6 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.89, down 7.7%; Adjusted EPS was $1.09, up 4.5%.",
+      "quote": "Earnings per Share $0.89 $0.97 (7.7 %) Adjusted Earnings per Share $1.09 $1.04 4.5 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New go-to-market initiatives will impact near-term EBITDA growth.",
+      "quote": "We think we can still drive healthy broadband ARPU growth, but these initiatives will require some investment, which in turn will impact our ability to grow EBITDA in the near future, but we view the impact as very manageable.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "It will take several quarters for the new go-to-market approach to gain traction.",
+      "quote": "And while we are glad to be underway with a refreshed approach to the market, we anticipate that it will take several quarters for a new approach to gain traction and impact the business in a meaningful way.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management flagged increased odds of macroeconomic challenges approaching.",
+      "quote": "While we don't see any noteworthy evidence of economic challenges for the year thus far, the odds have increased that challenges may be approaching, but we are well positioned to handle whatever lies ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledged the company is not winning in the marketplace commensurate with network strength.",
+      "quote": "However, and this is a big however, in this intensely competitive environment, we are not winning in the marketplace in a way that is commensurate with the strength of the network and connectivity products that I just described.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Broadband churn saw a slight uptick off record low levels.",
+      "quote": "While we continue to see muted connect activity, we also saw a slight uptick in churn off of record low levels. This contributed to the loss of 199,000 customers in the quarter, while broadband ARPU grew 3.3% leading to growth in broadband revenue of 1.7%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Connectivity & Platforms Adjusted EBITDA margin increased 90 basis points to 41.4%.",
+      "quote": "Connectivity & Platforms Adjusted EBITDA Margin 41.4 % 40.5 % 90 bps 80 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wireless net line additions were 323,000, the highest in two years.",
+      "quote": "We accelerated wireless net line additions to 323,000 in the quarter, both an improvement year-over-year and sequentially, bringing our total wireless lines to 8.1 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Peacock revenue grew 16% and EBITDA losses improved by $424 million.",
+      "quote": "Peacock Revenue Increased 16% to $1.2 Billion; Peacock Adjusted EBITDA Losses Improved by $424 Million Compared to the Prior Year Period",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Theme Parks revenue declined 5.2% and Adjusted EBITDA declined 32.1%.",
+      "quote": "Theme Parks $1,876 (5.2%) $429 (32.1%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Theme Parks results were impacted by LA wildfires and ~$100M of Epic Universe pre-opening costs.",
+      "quote": "Revenue for Theme Parks decreased primarily due to lower revenue at our domestic theme parks, driven by lower guest attendance including the impact of the Hollywood wildfires. Adjusted EBITDA for Theme Parks decreased, reflecting lower revenue and higher operating expenses, including around $100 million of pre-opening costs for Epic Universe ahead of the scheduled opening in May 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue declined 7% due to sports timing and political comparisons.",
+      "quote": "In Media, total advertising revenue was down 7%, mainly due to the volume and timing of sports content, along with tough political comparisons. Excluding this, advertising was relatively flat.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business Services revenue grew 3.7% and EBITDA grew 4.1%.",
+      "quote": "Business Services Connectivity $2,496 $2,407 3.7 % 3.7 % ... Business Services Connectivity 1,422 1,366 4.1 % 4.1 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Nitel acquisition closed April 1 and will add a few hundred basis points of revenue growth to business services.",
+      "quote": "Earlier this month, we closed on our acquisition of Nitel. ... Our results in the second quarter will include Nitel, which we expect will add a few hundred basis points of revenue growth to business services with a minimal impact on EBITDA growth in the near term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Epic Universe opens May 22, 2025 with strong demand and positive early reviews.",
+      "quote": "Universal Epic Universe Debuts on May 22, 2025, as Our Most Ambitious Parks Experience Ever Created ... We have seen strong demand since launching Epic ticket sales in the fourth quarter of 2024, and the most recent reaction to early previews has been nothing short of phenomenal.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A new UK theme park was announced with construction starting 2026 and opening 2031.",
+      "quote": "And earlier this month, we announced plans to build our first-ever Universal theme park and resort in Europe, with construction starting in 2026 and grand openings scheduled for 2031.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NBA rights will be a key driver for advertising and Peacock starting Q4 2025.",
+      "quote": "However, for the upfront and for the balance of the year, we feel well positioned in the market as we capitalize on the NBA launching in the fourth quarter, a healthy Peacock subscriber base, and a strong content offering across entertainment and news.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New broadband price guarantee and premium wireless plans were introduced.",
+      "quote": "Just last week, we introduced our first-ever nationwide price guarantee for broadband that includes Xfinity's best-in-class gateway and unlimited data for one simple monthly price that is locked in for five years with no annual contract required. ... And last week we introduced our first-ever Premium Unlimited wireless plan delivering gigabit speeds with 4K ultra high-definition streaming, more WiFi hotspot data, advanced spam call protection, and a guaranteed device upgrade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, balancing confidence with candid acknowledgment of challenges.",
+      "quote": "We feel great about our network position. Simply put, we compete really well against any technology out there. ... However, and this is a big however, in this intensely competitive environment, we are not winning in the marketplace in a way that is commensurate with the strength of the network and connectivity products that I just described.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative (-0.20) despite several positive operational metrics (wireless growth, Peacock improvement, Business Services growth). The negative score is driven by the explicit near-term EBITDA pressure guidance and cautious macro language. A reviewer should verify this weighting is appropriate given the absence of a formal guidance cut."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "No formal quantitative guidance was provided. The summary relies on qualitative statements about near-term EBITDA impact and macro uncertainty. A reviewer should confirm these are the most relevant forward-looking statements in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CMCSA_Bundled Earnings Report_2025-04-23",
+  "report_metadata": {
+    "issuer": "p2_comcast_corporation",
+    "company": "Comcast Corporation",
+    "ticker": "CMCSA",
+    "sector": "Communication Services/Telecom Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q1\\1q25_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q1\\CMCSA-USQ_Transcript_2025-04-24.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CMCSA_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095557Z",
+    "timestamp": "2026-08-09T09:56:19Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_comcast_corporation\\extracted\\CMCSA_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 33896,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q1\\1q25_earnings_presentation.pdf",
+        "page_count": 17,
+        "extracted_characters": 14237,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q1\\CMCSA-USQ_Transcript_2025-04-24.pdf",
+        "page_count": 15,
+        "extracted_characters": 55875,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_comcast_corporation\\extracted\\CMCSA_FQ1_2025.txt"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "document_id": "ALV.DE_FQ1_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports record operating profit and strong growth across all segments, but full-year guidance is reaffirmed unchanged at 16.0 billion euros, not raised. The improvement is partly organic (record operating profit, strong new business) but also affected by a one-off tax provision and FX headwinds, so the forward signal is positive but not a formal guidance raise. Management expresses confidence in the outlook, supporting a modestly positive score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total business volume advanced 11.7% to 54.0 billion euros (1Q 2024: 48.4 billion euros).",
+    "eps": "Core earnings per share grew 2.9% to 6.61 euros (1Q 2024: 6.42 euros).",
+    "guidance": "Allianz is fully on track to achieve full-year operating profit outlook of 16.0 billion euros, plus or minus 1 billion euros.",
+    "margin": "Combined ratio improved slightly to 91.8% (1Q 2024: 91.9%); new business margin was 5.5% (1Q 2024: 5.7%); cost-income ratio was 61.3% (1Q 2024: 61.1%).",
+    "key_risks": [
+      "Natural catastrophe claims increased compared to a benign first quarter last year.",
+      "Commercial momentum slowed down.",
+      "Adverse foreign currency translation effects, particularly USD depreciation.",
+      "Higher taxes impacted by a one-off tax provision related to the forthcoming sale of stake in Indian Joint Ventures.",
+      "Geopolitical uncertainty and capital market volatility."
+    ],
+    "key_opportunities": [
+      "Sustained growth momentum across all segments.",
+      "Strong new business growth in Life/Health, with 91% of new business premiums in preferred lines.",
+      "Strong third-party net inflows of 28.7 billion euros in Asset Management.",
+      "Attractive customer propositions and 'global flight to trust'.",
+      "Share buy-back program of up to 2 billion euros underway."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'Allianz is fully on track to achieve full-year operating profit outlook' and 'We confidently affirm our full-year operating profit outlook.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total business volume advanced 11.7% to 54.0 billion euros.",
+      "quote": "Total business volume advances 11.7 percent to 54.0 billion euros reflecting sustained momentum across all segments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core earnings per share grew 2.9% to 6.61 euros.",
+      "quote": "Core earnings per share grow 2.9 percent and reach 6.61 euros.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating profit outlook is reaffirmed at 16.0 billion euros.",
+      "quote": "Allianz is fully on track to achieve full-year operating profit outlook of 16.0 billion euros, plus or minus 1 billion euros",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Combined ratio improved slightly to 91.8%.",
+      "quote": "The combined ratio improved slightly to an excellent level of to 91.8 percent (91.9 percent) exceeding our full-year outlook of ~93 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New business margin was 5.5%.",
+      "quote": "The new business margin (NBM) was at an attractive level of 5.5 percent (5.7 percent)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost-income ratio was 61.3%.",
+      "quote": "The cost-income ratio (CIR) was broadly stable at 61.3 percent (61.1 percent), reflecting ongoing productivity management.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Natural catastrophe claims increased compared to a benign first quarter last year.",
+      "quote": "Natural catastrophe claims increased compared to a benign first quarter last year, but these were partly offset by a better run-off result.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial momentum slowed down.",
+      "quote": "Commercial momentum remained resilient but slowed down.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adverse foreign currency translation effects impacted results.",
+      "quote": "Strong net inflows of 28.7 billion euros and positive market effects were offset by foreign currency translation effects.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher taxes impacted by a one-off tax provision related to the forthcoming sale of stake in Indian Joint Ventures.",
+      "quote": "The latter were impacted by a one-off tax provision related to the forthcoming sale of our stake in our Indian Joint Ventures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical uncertainty and capital market volatility are risks.",
+      "quote": "A strong balance sheet, limited Solvency II sensitivities, and attractive customer propositions give Allianz a competitive advantage in successfully managing current capital market volatility and geopolitical uncertainty",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sustained growth momentum across all segments.",
+      "quote": "Total business volume advances 11.7 percent to 54.0 billion euros reflecting sustained momentum across all segments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong new business growth in Life/Health, with 91% of new business premiums in preferred lines.",
+      "quote": "91 percent of our new business premiums were generated in our preferred lines of business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong third-party net inflows of 28.7 billion euros in Asset Management.",
+      "quote": "Strong third-party net inflows of 28.7 billion euros. PIMCO and Allianz Global Investors contribute",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Attractive customer propositions and 'global flight to trust'.",
+      "quote": "As the world's leading insurance brand, we are well-positioned to benefit from the global flight to trust, with the ability to meet growing customer demand for protection and retirement solutions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share buy-back program of up to 2 billion euros underway.",
+      "quote": "Share buy-back program of up to 2 billion euros announced on February 27 underway; 0.1 billion euros completed in 1Q 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We confidently affirm our full-year operating profit outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance was reaffirmed, not raised, but record operating profit and strong momentum may justify a slightly positive score; verify that the score aligns with the guidance-change framework."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "ALV.DE_Bundled Earnings Report_2025-05-15",
+  "report_metadata": {
+    "issuer": "p2_allianz",
+    "company": "Allianz",
+    "ticker": "ALV.DE",
+    "sector": "Financial Services/Insurance - Diversified",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\allianz\\CY2025-Q1\\press_release_1q_2025.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\allianz\\CY2025-Q1\\en-allianz-analyst-presentation-1q-2025.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release (PDF duplicate)",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\allianz\\CY2025-Q1\\allianz-1q-2025-earnings-release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "ALV.DE_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T094447Z",
+    "timestamp": "2026-08-09T09:45:04Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\allianz\\CY2025-Q1\\press_release_1q_2025.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_allianz\\extracted\\ALV.DE_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\allianz\\CY2025-Q1\\press_release_1q_2025.html",
+        "page_count": 1,
+        "extracted_characters": 22076,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\allianz\\CY2025-Q1\\en-allianz-analyst-presentation-1q-2025.pdf",
+        "page_count": 56,
+        "extracted_characters": 61580,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release (PDF duplicate)",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\allianz\\CY2025-Q1\\allianz-1q-2025-earnings-release.pdf",
+        "page_count": 9,
+        "extracted_characters": 20261,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_allianz\\extracted\\ALV.DE_FQ1_2025.txt"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "issuer": "p2_united_airlines",
+  "reports": [
+    {
+      "document_id": "UAL_FQ1_2025",
+      "issuer": "p2_united_airlines",
+      "company": "United Airlines",
+      "ticker": "UAL",
+      "sector": "Industrials/Airlines",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-15",
+      "release_date": "2025-04-15",
+      "release_date_source": "EDGAR 8-K Item 2.02, ual-20250415.htm, acc 0000100517-25-000087",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q1/1Q25 Investor Update Final.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q1/Q1 2025 Financial Results Final.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/united_airlines/CY2025-Q1/Q1 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q1/UAL 1Q25 10Q.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "UAL_FQ2_2025",
+      "issuer": "p2_united_airlines",
+      "company": "United Airlines",
+      "ticker": "UAL",
+      "sector": "Industrials/Airlines",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-16",
+      "release_date": "2025-07-16",
+      "release_date_source": "EDGAR 8-K Item 2.02, ual-20250716.htm, acc 0000100517-25-000143",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q2/Q2 2025 Earnings Release Final.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q2/Q2 2025 Investor Update Final.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/united_airlines/CY2025-Q2/Q2 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q2/UAL 2Q25 10Q.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "UAL_FQ3_2025",
+      "issuer": "p2_united_airlines",
+      "company": "United Airlines",
+      "ticker": "UAL",
+      "sector": "Industrials/Airlines",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-15",
+      "release_date": "2025-10-15",
+      "release_date_source": "EDGAR 8-K Item 2.02, ual-20251015.htm, acc 0000100517-25-000190",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/united_airlines/CY2025-Q3/Q3 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q3/UAL 3Q25 Earnings Release Final.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q3/UAL 3Q25 Investor Update Final.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "UAL_FQ4_2025",
+      "issuer": "p2_united_airlines",
+      "company": "United Airlines",
+      "ticker": "UAL",
+      "sector": "Industrials/Airlines",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-20",
+      "release_date": "2026-01-20",
+      "release_date_source": "EDGAR 8-K Item 2.02, ual-20260120.htm, acc 0000100517-26-000014",
+      "documents": [
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/united_airlines/CY2025-Q4/Q4 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf"
+        },
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/united_airlines/CY2025-Q4/UAL 2025 10K.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "document_id": "F_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Ford's 2026 guidance of $8B-$10B adjusted EBIT is a meaningful raise from the $6.8B reported for 2025, and management explicitly attributes the improvement to organic factors like lower tariff costs, favorable mix, and cost reductions, not one-time items. The tone is confident, with Jim Farley stating 'the earnings power of our business is accelerating' and Sherry House detailing specific drivers. However, the Novelis supply disruption and temporary costs create some uncertainty, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full-year 2025 revenue was $187.3 billion, a 1% increase year-over-year and the fifth consecutive year of growth. Fourth-quarter revenue was $45.9 billion, down 5% year-over-year.",
+    "eps": "Full-year 2025 GAAP diluted EPS was a loss of $2.06; adjusted diluted EPS was $1.09. Fourth-quarter GAAP diluted EPS was a loss of $2.77; adjusted diluted EPS was $0.13.",
+    "guidance": "Full-year 2026 adjusted EBIT guidance of $8.0 billion to $10.0 billion, adjusted free cash flow of $5.0 billion to $6.0 billion, and capital expenditures of $9.5 billion to $10.5 billion. Segment guidance: Ford Pro EBIT $6.5B-$7.5B, Ford Blue EBIT $4.0B-$4.5B, Ford Model e loss $4.0B-$4.5B, Ford Credit EBT ~$2.5B.",
+    "margin": "Full-year 2025 company adjusted EBIT margin was 3.6%, down from 5.5% in 2024. Fourth-quarter adjusted EBIT margin was 2.3%, down from 4.4% a year ago. Ford Pro full-year EBIT margin was 10.3% (double-digit).",
+    "key_risks": [
+      "Novelis supply disruption: $1.5B-$2B in temporary costs in 2026 to ensure aluminum supply continuity, with the hot mill restart expected between May and September.",
+      "Tariff exposure: $2 billion net tariff impact in 2025, with a $1 billion higher-than-expected impact due to a late-year change in tariff credits for auto parts.",
+      "Higher commodity prices: ~$1 billion in higher commodity prices driven by inflation and pressure on DRAM.",
+      "Regulatory uncertainty in Europe: 'the real rub is going to be how the UK and European, the EU, handle the choice between CO2 reduction and jobs.'",
+      "Competitive pressure: 'some competitors out there that are trying to regain share in North American trucks and European LCVs.'",
+      "Model e losses: Expected loss of $4.0B-$4.5B in 2026, with breakeven targeted for 2029."
+    ],
+    "key_opportunities": [
+      "Ford Pro growth: 'durable commercial business our competitors cannot match' with $6.5B-$7.5B EBIT guidance for 2026.",
+      "Cost reductions: Targeting another $1 billion of industrial cost improvements in 2026, building on $1.5 billion in 2025.",
+      "Software and physical services growth: 'high margin software and physical services profit to grow by about 6.5%' in 2026.",
+      "Ford Energy: New business with 'short payback period' using LFP batteries, with $1.5 billion capital investment in 2026.",
+      "Favorable mix from sunset of low-margin nameplates and benefits from changes in U.S. regulatory environment.",
+      "Lower tariff costs: Expecting ~$1 billion lower tariff costs in 2026 reflecting a full year's worth of credit expansion."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jim Farley states 'the earnings power of our business is accelerating' and Sherry House says 'our underlying business is strong and we are relentlessly working to strengthen it further,' reflecting a confident forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year 2025 revenue was $187.3 billion, a 1% increase year-over-year.",
+      "quote": "Full-year revenue reached $45.9 billion and $187.3 billion, respectively; fifth consecutive year of full-year revenue growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 GAAP diluted EPS was a loss of $2.06; adjusted diluted EPS was $1.09.",
+      "quote": "EPS (Diluted) 2024: $1.46, 2025: ($2.06); Adjusted EPS (Diluted) 2024: $1.84, 2025: $1.09",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 adjusted EBIT guidance is $8.0 billion to $10.0 billion, a meaningful raise from the $6.8 billion reported for 2025.",
+      "quote": "For the full year, we expect company adjusted EBIT of $8 billion to $10 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 company adjusted EBIT margin was 3.6%.",
+      "quote": "Company Adj. EBIT Margin (%) 2024: 5.5%, 2025: 3.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Pro full-year EBIT margin was 10.3% (double-digit).",
+      "quote": "Ford Pro, once again, demonstrated its importance and persistence as a key profit pillar for Ford by delivering more than $66 billion of revenue and EBIT to $6.8 billion with a double-digit margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Novelis supply disruption will cause $1.5B-$2B in temporary costs in 2026.",
+      "quote": "This includes $1.5 billion to $2 billion of temporary costs, including tariffs, to ensure continuity in aluminum supply.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff impact in 2025 was $2 billion, $1 billion higher than previously communicated.",
+      "quote": "We generated $6.8 billion of adjusted EBIT for the full year. This includes $2 billion headwind for Novelis fires and the net tariff impact of $2 billion. That's a $1 billion higher tariff impact than we communicated just in October due to the unexpected and late year change in tariff credits for auto parts.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects lower tariff costs of about $1 billion in 2026.",
+      "quote": "We expect lower tariff costs of about $1 billion, reflecting a full year's worth of credit expansion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford is targeting another $1 billion of industrial cost improvements in 2026.",
+      "quote": "We are also targeting another $1 billion of industrial cost improvements.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Software and physical services profit is expected to grow by about 6.5% in 2026.",
+      "quote": "Additionally, we expect our high margin software and physical services profit to grow by about 6.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Energy will receive $1.5 billion in capital investment in 2026.",
+      "quote": "capital expenditures of $9.5 billion to $10.5 billion as we shift capital to higher return growth opportunities across our portfolio, including roughly $1.5 billion for Ford Energy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident, with Jim Farley stating 'the earnings power of our business is accelerating.'",
+      "quote": "Bottom line, the earnings power of our business is accelerating, and our Ford+ strategy distinguishes us from the competition in clear ways.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Model e losses are expected to be $4.0B-$4.5B in 2026.",
+      "quote": "We expect losses of $4 billion to $4.5 billion for Ford Model e.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Pro EBIT guidance for 2026 is $6.5B-$7.5B.",
+      "quote": "With EBIT of $6.5 billion to $7.5 billion, the fundamentals of Pro's business are strong.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Blue EBIT guidance for 2026 is $4.0B-$4.5B.",
+      "quote": "For Ford Blue, we expect EBIT of $4 to $4.5 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Credit EBT is expected to be about $2.5 billion in 2026.",
+      "quote": "Ford Credit's EBT will be about $2.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of 0.30 reflects a meaningful guidance raise and confident tone, tempered by Novelis uncertainty.",
+      "quote": "For the full year, we expect company adjusted EBIT of $8 billion to $10 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a clear guidance raise, but the Novelis temporary costs and Model e losses are significant headwinds. A reviewer may want to assess whether the guidance raise is fully organic or partially driven by one-time factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "F_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_ford",
+    "company": "Ford",
+    "ticker": "F",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q4\\Ford-Q4-2025-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q4\\Ford-Q4-2025-Earnings-Press-Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "F_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T173142Z",
+    "timestamp": "2026-07-30T17:32:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q4\\Ford-Q4-2025-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ford\\extracted\\F_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q4\\Ford-Q4-2025-Earnings-Call-Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 49763,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2025-Q4\\Ford-Q4-2025-Earnings-Press-Release.pdf",
+        "page_count": 22,
+        "extracted_characters": 61352,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ford\\extracted\\F_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "document_id": "LOW_FQ3_2025_QUANT",
+  "base_document_id": "LOW_FQ3_2025",
+  "issuer": "p2_lowes",
+  "ticker": "LOW",
+  "sector": "Consumer/Retail",
+  "report_date": "2025-11-19",
+  "sentiment": {
+    "score": -0.195018
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.089241,
+      "window_start_date": "2025-10-20",
+      "window_end_date": "2025-11-18",
+      "score": -0.53344,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.170238,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 3.61,
+      "matched_earnings_date": "2025-11-19",
+      "score": 0.143405,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 23.66,
+      "vix_score": -0.301043,
+      "tnx_change": 0.17,
+      "tnx_score": -0.327477,
+      "score": -0.31426,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.88,
+      "ffr_change": -0.45,
+      "ffr_score": 0.716298,
+      "ffr_as_of": "2025-11-18",
+      "curve_spread": 0.54,
+      "curve_score": 0.492988,
+      "curve_as_of": "2025-11-18",
+      "score": 0.604643,
+      "available": true
+    },
+    "quant_score": -0.195018,
+    "quant_score_with_macro": -0.254639,
+    "quant_score_with_fred": 0.204813,
+    "quant_score_with_macro_fred": 0.031788
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "document_id": "JPM_FQ2_2022",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "The document reports a 28% decline in net income year-over-year, driven by a net credit reserve build compared to a large release in the prior year. Forward guidance for FY2022 net interest income excluding Markets is set at $58B+, which is a specific target but not a raise relative to prior guidance (no prior guidance is referenced). The CEO's commentary highlights significant macroeconomic risks ('geopolitical tension, high inflation, waning consumer confidence... very likely to have negative consequences on the global economy sometime down the road'), and the firm has suspended share buybacks to build capital. The overall tone is cautious and defensive, with no upward guidance revision, leading to a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $30.7 billion; managed revenue of $31.6 billion, up 1% year-over-year.",
+    "eps": "Earnings per share of $2.76, down 27% year-over-year.",
+    "guidance": "Expect FY2022 net interest income excluding Markets to be $58B+, market dependent. Expect FY2022 adjusted expense of ~$77B, market dependent. Expect FY2022 Card NCO rate of <2%.",
+    "margin": "Reported overhead ratio of 61%; managed overhead ratio of 59%. Return on common equity (ROE) of 13%; return on tangible common equity (ROTCE) of 17%.",
+    "key_risks": [
+      "Geopolitical tension, high inflation, waning consumer confidence, uncertainty about how high rates have to go, quantitative tightening and its effects on global liquidity, and the war in Ukraine and its harmful effect on global energy and food prices are very likely to have negative consequences on the global economy sometime down the road.",
+      "Net credit reserve build of $428 million, primarily reflecting loan growth as well as a modest deterioration in the economic outlook.",
+      "Investment Banking fees down 54% compared to a record last year, in a challenging macro environment.",
+      "Temporary suspension of share buybacks to build capital and meet higher regulatory requirements."
+    ],
+    "key_opportunities": [
+      "Net interest income (NII) was $15.2 billion, up 19%, driven by higher rates and balance sheet growth.",
+      "Markets revenue of $7.8 billion, up 15%, as the firm helped clients navigate volatile market conditions.",
+      "Consumer & Business Banking net revenue up 9%, predominantly driven by growth in deposits.",
+      "Debit and credit card sales volume up 15% with travel and dining spend remaining robust."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO's commentary highlights significant macroeconomic headwinds and uncertainty, stating they 'are very likely to have negative consequences on the global economy sometime down the road,' and the firm has suspended buybacks to build capital, indicating a defensive posture."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $30.7 billion; managed revenue was $31.6 billion, up 1% year-over-year.",
+      "quote": "Net revenue - reported $30,715... Net revenue - managed $31,630... Net revenue was $31.6 billion, up 1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share was $2.76, down 27% year-over-year.",
+      "quote": "Earnings per share - diluted $2.76... $ (1.02) (27)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance: FY2022 NII excluding Markets expected to be $58B+, adjusted expense ~$77B, Card NCO rate <2%.",
+      "quote": "Expect FY2022 net interest income excluding Markets to be $58B+, market dependent. Expect FY2022 adjusted expense of ~$77B, market dependent. Expect FY2022 Card NCO rate of <2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 61%; managed overhead ratio of 59%.",
+      "quote": "2Q22 expense of $18.7 billion; reported overhead ratio of 61%; managed overhead ratio of 59%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE of 13%; ROTCE of 17%.",
+      "quote": "ROE 13% ROTCE 17%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Geopolitical tension, inflation, waning consumer confidence, quantitative tightening, and the war in Ukraine are very likely to have negative consequences on the global economy.",
+      "quote": "But geopolitical tension, high inflation, waning consumer confidence, the uncertainty about how high rates have to go and the never-before-seen quantitative tightening and their effects on global liquidity, combined with the war in Ukraine and its harmful effect on global energy and food prices are very likely to have negative consequences on the global economy sometime down the road.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Net credit reserve build of $428 million reflecting loan growth and modest deterioration in economic outlook.",
+      "quote": "Credit costs of $1.1 billion included a $428 million net reserve build... The provision for credit losses was $1.1 billion, including $657 million of net charge-offs and a net reserve build of $428 million, primarily reflecting loan growth as well as a modest deterioration in the economic outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Investment Banking fees down 54% compared to a record last year.",
+      "quote": "Global IB fees were down 54% compared to a record last year, in a challenging macro environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risk: Temporary suspension of share buybacks to build capital.",
+      "quote": "In order to quickly meet the higher requirements, we have temporarily suspended share buybacks which will allow us maximum flexibility to best serve our customers, clients and community through a broad range of economic environments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Net interest income up 19% driven by higher rates and balance sheet growth.",
+      "quote": "Net interest income (NII) was $15.2 billion, up 19%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Markets revenue up 15% as the firm helped clients navigate volatile markets.",
+      "quote": "Total Markets revenue of $7.8 billion, up 15%, with Fixed Income Markets up 15% and Equity Markets up 15%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Consumer & Business Banking net revenue up 9% driven by deposit growth.",
+      "quote": "Consumer & Business Banking net revenue was $6.6 billion, up 9%, predominantly driven by growth in deposits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunity: Debit and credit card sales volume up 15% with travel and dining spend robust.",
+      "quote": "In Consumer & Community Banking, combined debit and credit card spend was up 15% with travel and dining spend remaining robust.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious, highlighting significant macroeconomic headwinds and uncertainty.",
+      "quote": "But geopolitical tension, high inflation, waning consumer confidence, the uncertainty about how high rates have to go and the never-before-seen quantitative tightening and their effects on global liquidity, combined with the war in Ukraine and its harmful effect on global energy and food prices are very likely to have negative consequences on the global economy sometime down the road.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income declined 28% year-over-year.",
+      "quote": "Net income was $8.6 billion, down 28%, predominantly driven by a net credit reserve build of $428 million compared to a net release of $3.0 billion in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of the HOLD band (-0.15). The guidance is specific but not explicitly raised or lowered relative to prior guidance (no prior guidance referenced). The CEO's cautious language and suspension of buybacks suggest a slightly negative outlook, but the score could be debated."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2022-07-14",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2022",
+    "report_date": "2022-07-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q2\\jpm-2q22-press-release.html",
+        "pub_date": "2022-07-14"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q2\\jpm-2q22-presentation.html",
+        "pub_date": "2022-07-14"
+      }
+    ],
+    "document_id": "JPM_FQ2_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144020Z",
+    "timestamp": "2026-07-09T14:42:10Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q2\\jpm-2q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q2\\jpm-2q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 23686,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q2\\jpm-2q22-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 18546,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ2_2022.txt"
+  }
+}

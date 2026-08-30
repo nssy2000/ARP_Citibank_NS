@@ -1,0 +1,132 @@
+{
+  "F1": {
+    "caption": "Screening funnel. 268 events scored by the pipeline; 36 excluded (25 worksheet contamination, 2 misattributed events [SPOT_FQ1_2026 and DIS_FQ1_2025], 9 timing-unresolved) yielding N=232 clean events. Of these, 168 triggered a BUY or SELL signal and were traded (NAVY bars). The remaining 64 were HOLD (TEAL bar, shown extending from position 168). Of the 168 traded events, 109 had an absolute overnight return exceeding the pre-registered \u00b12% threshold (graded); 68 were correct.",
+    "denominators": [
+      "268 scored",
+      "232 clean",
+      "168 traded",
+      "109 graded",
+      "68 correct",
+      "64 held, of which 36 moved >2%"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "worksheet_leak_flags.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F2": {
+    "caption": "Decay of signal quality across holding horizons. Panel A: Spearman rank correlation between the blended score and the direction-signed return (raw: NAVY solid, market-adjusted: TEAL dashed), with Fisher-z 90% confidence intervals (N=232). Panel B: mean net return per trade (%) at each horizon, raw (NAVY solid) and market-adjusted (TEAL dashed), with 90% bootstrap intervals. Panel C: directional accuracy under two grading conventions \u2014 variable band (NAVY; bands: overnight 2.00%, 1d 2.25%, 3d 2.52%, 5d 2.72%, 10d 3.52%) and fixed \u00b12% band (TEAL dashed). Graded event counts \u2014 variable band: ON=109, 1d=113, 3d=114, 5d=106, 10d=114; fixed 2% band: ON=109, 1d=119, 3d=126, 5d=122, 10d=136. Horizontal dashed lines at 0 (panels A/B) and 50% (panel C).",
+    "denominators": [
+      "N=232 clean events",
+      "Fisher-z CI uses n=232",
+      "Variable band widths: ON=2.00%, 1d=2.25%, 3d=2.52%, 5d=2.72%, 10d=3.52%"
+    ],
+    "artefacts": [
+      "ext2_holding_curve.csv",
+      "returns_matrix.csv"
+    ]
+  },
+  "F3": {
+    "caption": "Accuracy and mean net return as a function of the grading threshold (absolute overnight return). Panel A: directional accuracy (NAVY, left axis) and graded event count (grey dashed, right axis). At threshold=0%: 61.1% accuracy on 167 events. At threshold=2% (pre-registered, red dotted line): 62.4% accuracy on 109 events. At threshold=5%: 70.0% accuracy on 60 events. Panel B: mean net per trade with 90% bootstrap interval. Vertical dotted line marks the pre-registered 2% band.",
+    "denominators": [
+      "168 traded events"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F14": {
+    "caption": "Cost sensitivity of mean net return per trade. NAVY line: mean net per trade as a function of round-trip cost; shaded band: 90% bootstrap interval (10,000 resamples, seed 20260709). Vertical markers: dotted NAVY at 10 bps (deployed cost); dashed red at 189.6 bps (mean break-even); dashed grey at 111 bps (cost at which the 90% lower bound first reaches zero). At the deployed cost of 10 bps, mean net = 1.796% (90% CI [0.994%, 2.633%]); the lower bound is positive at 10 bps. Based on 168 traded events.",
+    "denominators": [
+      "168 traded events, N=232 clean"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F15": {
+    "caption": "Mean overnight return (raw, not net of cost) by blended-score decile across 168 traded events, sorted from lowest score (D1) to highest (D10). Error bars: 90% bootstrap intervals. Decile sizes: [16, 16, 16, 16, 16, 16, 16, 16, 16, 24]. A positive slope from D1 (SELL predictions) through D10 (BUY predictions) would indicate score monotonicity; the observed pattern is non-monotonic, consistent with the Spearman rho of 0.257 (p<0.001) at the full-sample level.",
+    "denominators": [
+      "168 traded events",
+      "Decile sizes: [16, 16, 16, 16, 16, 16, 16, 16, 16, 24]"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F16": {
+    "caption": "Per-trade net returns sorted ascending (worst to best), 168 trades total. NAVY bars: profitable trades; red bars: loss-making trades. Mean net: +1.796%; median: +0.950%; best: +32.06%; worst: -14.62%. 66 of 168 trades are loss-making; 18 losses exceed 5%; 1 losses exceed 10%.",
+    "denominators": [
+      "168 traded events"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F17": {
+    "caption": "Comparison of model mean net return vs an always-BUY benchmark. Model (NAVY): mean net return per trade across 168 BUY/SELL trades = 1.796% (90% CI [1.001%, 2.628%]). Always-BUY (grey): mean net return of holding every one of the 232 clean events long, net of 10 bps cost = -0.272% (90% CI [-0.933%, 0.399%]). Error bars: 90% bootstrap intervals (10,000 resamples, seed 20260709).",
+    "denominators": [
+      "168 model trades, 232 always-BUY events"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F19": {
+    "caption": "Arithmetic running sum of per-trade net returns, 168 trades sorted by report date (earliest to latest). This is an arithmetic running sum, not an account balance; positions overlap when issuers report in the same week. NAVY: at deployed cost of 10 bps; AMBER dashed: at mean break-even cost of 189.63 bps (where cumulative sum ends at approximately zero). Final cumulative net at 10 bps: 301.8%. Note: this figure may differ from workbook-reported values (303.80%) due to date tie-breaking order within same-week reporters \u2014 arithmetic running sums are order-dependent within ties.",
+    "denominators": [
+      "168 traded events ordered by report_date"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F20": {
+    "caption": "Performance by magnitude of the underlying overnight move. Bucket 2%\u20135%: 49 graded events, 26 correct, mean net 0.09%. Bucket 5%\u201310%: 44 graded events, 27 correct, mean net 1.53%. Bucket >10%: 16 graded events, 15 correct, mean net 13.98%. Panel A: graded (grey) and correct (NAVY) event counts. Panel B: mean net per trade with 90% bootstrap intervals. Hatching indicates buckets with fewer than 20 events.",
+    "denominators": [
+      "2-5%: 49 graded, 26 correct",
+      "5-10%: 44 graded, 27 correct",
+      ">10%: 16 graded, 15 correct"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F23": {
+    "caption": "Conviction buckets: graded (TEAL hatched) and correct (NAVY) event counts by blended-score bucket, 168 traded events. S=SELL arm (score < \u22120.10), B=BUY arm (score > +0.20). SELL: below \u22120.30: 18 graded, 13 correct, 72%; SELL: \u22120.30 to \u22120.20: 6 graded, 4 correct, 67%; SELL: \u22120.20 to \u22120.10: 7 graded, 7 correct, 100%; BUY: +0.20 to +0.30: 25 graded, 12 correct, 48%; BUY: +0.30 to +0.40: 24 graded, 13 correct, 54%; BUY: above +0.40: 26 graded, 17 correct, 65%. 4 events at bucket boundaries excluded (MCD_FQ4_2024, PEP_FQ4_2024, HLT_FQ3_2024, MET_FQ3_2024 have calibration-CSV signals that fall in the HOLD zone under freshly recomputed blend score). The headline gate totals remain 109 graded / 68 correct across all 168 trades. Hatching: bars with n<20 events.",
+    "denominators": [
+      "168 traded events",
+      "Bucket totals: 106 graded, 66 correct",
+      "4 events excluded from buckets (MCD_FQ4_2024, PEP_FQ4_2024, HLT_FQ3_2024, MET_FQ3_2024)",
+      "Full traded universe: 109 graded, 68 correct"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv"
+    ]
+  },
+  "F24": {
+    "caption": "Precision and recall by direction on the overnight \u00b12% graded basis. Precision denominator: graded traded events (n=109, where |overnight return| > 2%). Recall denominator (Option A): all graded events in the clean universe including held events (n=145 graded of 232 clean). BUY precision 56.0% (42 correct of 75 graded BUY trades); BUY recall 63.6% (42 of 66 BUY-truth graded events). SELL precision 76.5% (26 correct of 34 graded SELL trades); SELL recall 32.9% (26 of 79 SELL-truth graded events). For comparison, the 5-day calibration recall (not shown) is BUY 51.4% (37/72) and SELL 28.6% (22/77). NAVY bars: precision. TEAL hatched bars: recall. Horizontal dashed line at 50%.",
+    "denominators": [
+      "Precision: graded traded events (109)",
+      "Recall: all graded clean events (145 of 232)",
+      "BUY-truth (overnight graded, positive): 66",
+      "SELL-truth (overnight graded, negative): 79",
+      "BUY trades graded: 75",
+      "SELL trades graded: 34"
+    ],
+    "artefacts": [
+      "returns_matrix.csv",
+      "global_outcome_calibration_phase2.csv",
+      "asymmetry_recall_gap_test.csv"
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "document_id": "GOOGL_FQ1_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "The company raised its full-year 2026 CapEx guidance from $175-185B to $180-190B, signaling increased investment to meet strong AI demand, and management expressed high confidence in the growth trajectory, including a 63% revenue increase in Google Cloud and a backlog nearly doubling to $462B. However, the guidance raise is primarily on CapEx, not revenue or earnings, and management explicitly noted FX tailwinds contributed to revenue growth, so the score is positive but not at the highest level."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$109.9 billion, up 22% year-over-year (19% in constant currency)",
+    "eps": "Diluted EPS of $5.11, up 82% year-over-year",
+    "guidance": "Full-year 2026 CapEx guidance raised to $180-190 billion, up from $175-185 billion; expects 2027 CapEx to significantly increase; expects FX tailwind of ~1 percentage point to Q2 consolidated revenue; expects TPU hardware revenue to begin later in 2026 with majority in 2027; expects Wiz to cause low single-digit percentage point headwind to Cloud operating margin for remainder of 2026",
+    "margin": "Operating margin expanded by 2 percentage points to 36.1%; Google Cloud operating margin increased from 17.8% to 32.9%; Google Services operating margin increased from 42.3% to 45.3%",
+    "key_risks": [
+      "Compute constraints limiting near-term cloud revenue growth",
+      "Higher depreciation and data center operations costs (e.g., energy) pressuring P&L",
+      "Wiz acquisition expected to cause low single-digit percentage point headwind to Cloud operating margin for remainder of 2026",
+      "TPU hardware revenue will fluctuate quarter to quarter depending on shipment timing",
+      "Significant increase in CapEx expected in 2027, which may pressure cash flow and margins"
+    ],
+    "key_opportunities": [
+      "Google Cloud revenue growth of 63% with backlog nearly doubling to $462 billion",
+      "AI-driven search growth with queries at all-time high and 19% Search & Other revenue growth",
+      "Gemini Enterprise paid MAUs up 40% quarter-over-quarter",
+      "TPU hardware sales to select customers expanding addressable market",
+      "YouTube subscriptions and Google One AI plans driving subscription growth",
+      "Waymo surpassing 500,000 fully autonomous rides per week and expanding to 11 cities",
+      "Universal Commerce Protocol (UCP) adoption with major partners like Amazon, Meta, Microsoft"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly positive language such as 'terrific quarter,' 'outstanding results,' and 'strong conviction to invest the capital required to continue to capture the AI opportunity.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Consolidated revenue was $109.9 billion, up 22% year-over-year.",
+      "quote": "Consolidated Alphabet revenues increased 22%, or 19% in constant currency, to $109.9 billion, reflecting strong performance across the business and our 11th consecutive quarter of double-digit growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $5.11, up 82% year-over-year.",
+      "quote": "Net income increased 81% and EPS increased 82% to $5.11.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 CapEx guidance was raised to $180-190 billion.",
+      "quote": "We are updating our full year 2026 CapEx guidance range to $180 billion to $190 billion, up from our previous estimate of $175 billion to $185 billion to now include investment related to the acquisition of Intersect, which closed in March.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin expanded to 36.1%.",
+      "quote": "Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 36.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Google Cloud operating margin increased to 32.9%.",
+      "quote": "Cloud operating income was $6.6 billion, tripling year-over-year and operating margin increased from 17.8% in the first quarter of last year to 32.9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Google Cloud revenue grew 63% to $20.0 billion.",
+      "quote": "Google Cloud saw a meaningful acceleration in growth as revenues increased 63% to $20.0 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Solutions and enterprise AI Infrastructure, as well as core GCP services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cloud backlog nearly doubled to $462 billion.",
+      "quote": "And Google Cloud's backlog nearly doubled sequentially, reaching $462 billion at the end of the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Compute constraints limited cloud revenue growth.",
+      "quote": "Obviously, we are compute constrained in the near term. And as an example, our cloud revenue would have been higher if you were able to meet the demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher depreciation and data center costs will pressure the P&L.",
+      "quote": "Anat Ashkenazi stated, \"the significant increase in our investment in technical infrastructure will continue to put pressure on the P&L in the form of higher depreciation expense and related data center operations costs such as energy.\"",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wiz acquisition will cause a low single-digit percentage point headwind to Cloud operating margin.",
+      "quote": "Google Cloud operating margin is expected to face a \"low single-digit percentage point headwind to cloud's operating margin for the remainder of 2026 related to the acquisition.\" of Wiz.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "TPU hardware revenue will fluctuate quarter to quarter.",
+      "quote": "It is important to keep in mind that revenues from TPU hardware sales will fluctuate from quarter to quarter depending on when TPUs are shipped to customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2027 CapEx is expected to significantly increase.",
+      "quote": "And as a result, we expect our 2027 CapEx to significantly increase compared to 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Search & Other revenue grew 19%.",
+      "quote": "Google Search & Other advertising revenues increased by 19% to $60.4 billion driven by growth in the retail and financial services verticals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gemini Enterprise paid MAUs grew 40% quarter-over-quarter.",
+      "quote": "In Q1, Gemini Enterprise paid monthly active users grew 40% quarter-over-quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Waymo surpassed 500,000 fully autonomous rides per week.",
+      "quote": "Waymo also surpassed 500,000 fully autonomous rights per week, doubling in less than a year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX tailwinds contributed to revenue growth.",
+      "quote": "Google Services revenues also benefited from a strong FX tailwind.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Sundar Pichai: \"it was a terrific quarter for Alphabet.\" and \"These outstanding results are built on our differentiated, full stack approach.\"",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 is based on a CapEx guidance raise and strong operational momentum, but the revenue guidance was not formally raised and FX tailwinds were noted. A reviewer may want to verify the weighting of these factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "GOOGL_Bundled Earnings Report_2026-04-29",
+  "report_metadata": {
+    "issuer": "p2_alphabet",
+    "company": "Alphabet",
+    "ticker": "GOOGL",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2026-Q1\\Alphabet_Q1_2026_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2026-Q1\\Alphabet_Q1_2026_earnings_transcript.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "GOOGL_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T094904Z",
+    "timestamp": "2026-08-09T09:49:44Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_alphabet\\extracted\\GOOGL_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 21850,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2026-Q1\\Alphabet_Q1_2026_earnings_presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 5481,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\alphabet\\CY2026-Q1\\Alphabet_Q1_2026_earnings_transcript.html",
+        "page_count": 1,
+        "extracted_characters": 63202,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_alphabet\\extracted\\GOOGL_FQ1_2026.txt"
+  }
+}

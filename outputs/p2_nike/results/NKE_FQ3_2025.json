@@ -1,0 +1,200 @@
+{
+  "document_id": "NKE_FQ3_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: Q4 revenues expected down mid-teens, gross margins down 400-500 bps, and management explicitly stated headwinds will continue into fiscal 2026. The CEO acknowledged 'we are not satisfied with our overall results' and the CFO described the operating environment as 'dynamic' with multiple external uncertainties including tariffs and geopolitical risks. The guidance reduction and cautious forward language drive a clearly bearish score."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$11.3 billion, down 9% reported and 7% currency-neutral year-over-year.",
+    "eps": "Diluted EPS $0.54, down 30% year-over-year.",
+    "guidance": "Q4 revenues expected down mid-teens (low end), gross margins down 400-500 bps, SG&A up low to mid-single digits. Headwinds expected to continue into fiscal 2026.",
+    "margin": "Gross margin decreased 330 bps to 41.5%.",
+    "key_risks": [
+      "Higher discounts and markdowns pressuring margins",
+      "Inventory obsolescence reserves increased",
+      "Classic footwear franchises (Air Force 1, Dunk, Air Jordan 1) declining faster than overall business",
+      "Greater China traffic declined double digits and retail sales underperformed plan",
+      "Geopolitical dynamics, new tariffs, volatile FX, and impact on consumer confidence",
+      "NIKE Digital traffic expected down double digits in fiscal 2026",
+      "Marketplace cleanup actions will continue through first half of fiscal 2026"
+    ],
+    "key_opportunities": [
+      "Performance business (running, training) growing, led by new product launches",
+      "Running grew mid-single digits; Pegasus Premium and Vomero 18 showing strong early sell-through",
+      "New innovation pipeline including 24/7 apparel, NIKE Skims, and Spring '26 product line",
+      "Wholesale order book in North America, EMEA, APLA shows growth in performance dimensions nearly offsetting classic declines",
+      "Reducing promotional days in NIKE Digital (from 30+ to zero in Jan/Feb in North America)"
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "CEO expressed confidence in strategic direction ('I'm even more convinced that these are the right actions') but also acknowledged dissatisfaction ('we are not satisfied with our overall results') and CFO highlighted significant near-term headwinds and external uncertainties."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $11.3 billion, down 9% reported and 7% currency-neutral.",
+      "quote": "Third quarter revenues were $11.3 billion, down 9 percent on a reported basis compared to the prior year and down 7 percent on a currency-neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.54, down 30%.",
+      "quote": "Diluted earnings per share was $0.54, a decrease of 30 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 revenue guidance is down mid-teens.",
+      "quote": "We expect Q4 revenues to be down in the mid-teens range, albeit at the low end.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 gross margin guidance is down 400-500 bps.",
+      "quote": "We expect Q4 gross margins to be down approximately 400 to 500 basis points, including restructuring charges during the same period last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin decreased 330 bps to 41.5%.",
+      "quote": "Gross margin decreased 330 basis points to 41.5 percent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Classic footwear franchises are declining faster than the overall business.",
+      "quote": "For Q3, this momentum was more than offset by declines in NIKE Sportswear and the Jordan brand led by a double-digit decline in our classic footwear franchises. These franchises again decelerated faster than the overall business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Greater China traffic declined double digits and retail sales underperformed.",
+      "quote": "In Greater China, Q3 revenue declined 15%. ... traffic declined double digits and retail sales underperformed our plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "External risks include tariffs, geopolitical dynamics, and FX volatility.",
+      "quote": "We are also navigating through several external factors that create uncertainty in the current operating environment, including geopolitical dynamics, new tariffs, volatile foreign exchange rates, and tax regulations, as well as the impact of this uncertainty and other macro factors on consumer confidence.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NIKE Digital traffic expected down double digits in fiscal 2026.",
+      "quote": "we expect digital traffic to be down double digits in fiscal '26.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Marketplace cleanup actions will continue through first half of fiscal 2026.",
+      "quote": "We expect these actions will continue through the first half of fiscal 2016.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Running grew mid-single digits.",
+      "quote": "Running was a standout field of play for the quarter, growing mid-single digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pegasus Premium and Vomero 18 showed strong early sell-through.",
+      "quote": "Early seed pairs nearly sold out across the North American marketplace and the Peg Premium will scale through fall '25. ... the results have been outstanding.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wholesale order book shows growth in performance nearly offsetting classic declines.",
+      "quote": "Within our fall order book in North America, EMEA, and APLA, we see the declines in classic footwear franchises almost being offset by growth in performance dimensions of our portfolio.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NIKE Digital promotional days reduced from 30+ to zero in Jan/Feb in North America.",
+      "quote": "comparing last year's January and February to this year's NIKE Digital in North America went from over 30 promotional days to zero.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: confident in strategy but dissatisfied with results.",
+      "quote": "CEO: 'I'm even more convinced that these are the right actions to move our brand and business forward.' ... 'we are not satisfied with our overall results.' CFO: 'The operating environment is dynamic.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance reduction is clear, but the score of -0.50 reflects a moderate cut; a human reviewer should confirm that the magnitude of the guidance reduction (mid-teens revenue decline, 400-500 bps margin decline) warrants this level versus a more severe -0.75 or -1.0."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NKE_Bundled Earnings Report_2025-09-30",
+  "report_metadata": {
+    "issuer": "p2_nike",
+    "company": "Nike",
+    "ticker": "NKE",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-03-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q3\\Q3 2025 - numbers.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q3\\Q3 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NKE_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214803Z",
+    "timestamp": "2026-07-18T21:49:00Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q3\\Q3 2025 - numbers.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\extracted\\NKE_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q3\\Q3 2025 - numbers.pdf",
+        "page_count": 1,
+        "extracted_characters": 15992,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q3\\Q3 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 60821,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\extracted\\NKE_FQ3_2025.txt"
+  }
+}

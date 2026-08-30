@@ -1,0 +1,58 @@
+{
+  "document_id": "SIE.DE_FQ2_2026_QUANT",
+  "base_document_id": "SIE.DE_FQ2_2026",
+  "issuer": "p2_siemens",
+  "ticker": "SIE.DE",
+  "sector": "Industrials/Specialty Industrial Machinery",
+  "report_date": "2026-05-13",
+  "sentiment": {
+    "score": 0.485227
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.153192,
+      "window_start_date": "2026-04-10",
+      "window_end_date": "2026-05-12",
+      "score": 0.770389,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.311916,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 5.07,
+      "matched_earnings_date": "2026-05-12",
+      "score": 0.200065,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.87,
+      "vix_score": 0.075191,
+      "tnx_change": 0.225,
+      "tnx_score": -0.421899,
+      "score": -0.173354,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.63,
+      "ffr_change": -0.01,
+      "ffr_score": 0.019997,
+      "ffr_as_of": "2026-05-12",
+      "curve_spread": 0.46,
+      "curve_score": 0.430084,
+      "curve_as_of": "2026-05-12",
+      "score": 0.225041,
+      "available": true
+    },
+    "quant_score": 0.485227,
+    "quant_score_with_macro": 0.155937,
+    "quant_score_with_fred": 0.355134,
+    "quant_score_with_macro_fred": 0.178971
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

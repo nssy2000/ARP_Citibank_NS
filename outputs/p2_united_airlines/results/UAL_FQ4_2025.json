@@ -1,0 +1,224 @@
+{
+  "document_id": "UAL_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports a 4.8% revenue increase to a record $15.4 billion in Q4 and full-year EPS of $10.62, which management states is slightly up versus 2024 despite significant headwinds. The key forward-looking signal is the raised full-year 2026 EPS guidance of $12-$14, representing over 20% growth at the midpoint, with management expressing confidence in continued margin expansion. However, the score is tempered by explicit risks including a $250 million impact from the government shutdown, ongoing weakness in main cabin revenues, active labor negotiations, and geopolitical impacts on Caribbean bookings, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue of $15.4 billion, up 4.8% year-over-year, marking the highest revenue quarter ever for the company. Full-year 2025 operating revenue was $59.07 billion, up 3.5% from 2024.",
+    "eps": "Q4 2025 EPS of $3.10 within guidance range of $3.00-$3.50. Full-year 2025 EPS of $10.62, slightly up versus 2024's $9.45.",
+    "guidance": "Q1 2026 EPS guidance of $1.01-$1.50, representing approximately 37% earnings improvement versus Q1 2025 at the midpoint. Full-year 2026 EPS guidance of $12-$14, representing over 20% growth at the midpoint with implied continued margin expansion towards double-digit margins.",
+    "margin": "Operating margin improved as operating expenses grew 4.6% versus revenue growth of 3.5%. Management targets continued margin expansion and achieving double-digit margins. Pre-tax margin is a key metric used in the profit sharing calculation.",
+    "key_risks": [
+      "$250 million impact on pre-tax earnings from the government shutdown",
+      "Main cabin revenues showing weakness with standard and basic economy revenues down approximately 5%",
+      "Active negotiations with four labor unions which could lead to potential disruptions or increased labor costs",
+      "FAA-directed capacity reductions at major airports due to staffing and system constraints",
+      "Underperformance in Latin America market in Q3 and Q4",
+      "Geopolitical events having a measurable negative impact on bookings in the Caribbean",
+      "Potential impact from changes in the credit card ecosystem on the MileagePlus co-brand program"
+    ],
+    "key_opportunities": [
+      "Premium cabin revenues up 12% year-over-year, outperforming main cabin by almost 10 points",
+      "Strong business travel demand with business revenue up high single-digits and nearly 20% year-over-two in early January",
+      "Expectation of favorable domestic capacity environment for first half of 2026 with unprofitable capacity leaving the market",
+      "Newark expected to provide a unique RASM tailwind later in spring when operations are running well",
+      "New aircraft deliveries including 100 narrow-body and approximately 20 wide-body aircraft in 2026",
+      "Five commercial focus areas for 2026 including capacity shaping, merchandizing, connectivity, MileagePlus growth, and premiumization",
+      "Progress towards investment grade ratings with net leverage at 2.2x and target below 2x in 2026"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'our plan has been working for the last decade,' 'the United team across the board is just better at executing than any other airline in the world,' and 'we remain bullish' on the outlook, expressing clear confidence in the strategy and forward trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $15.4 billion, up 4.8% year-over-year, a record quarter.",
+      "quote": "United's top-line revenues increased 4.8% to $15.4 billion in the quarter on a 6.5% increase in capacity year to year. ... Q4 was United's highest revenue quarter ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 EPS was $10.62, slightly up versus 2024.",
+      "quote": "Our full year 2025 EPS came in at $10.62 which was slightly up versus 2024 and despite an $0.85 headwind from our challenges at Newark.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 EPS guidance is $12-$14, representing over 20% growth at the midpoint.",
+      "quote": "Building off a strong quarter for the full year 2026, we expect earnings per share to be between $12.14 dollars. At the midpoint, this represents over 20% growth and implies continued margin expansion as we march towards double-digit margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 EPS guidance represents approximately 37% earnings improvement versus Q1 2025 at the midpoint.",
+      "quote": "Looking to the first quarter, we expect earnings per share to be between $1.01 dollar $0.50, an approximately 37% earnings improvement versus the first quarter of last year at the midpoint, and margin expansion year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The government shutdown had a $250 million impact on pre-tax earnings.",
+      "quote": "We closed out 2025 on a high note and delivered fourth quarter earnings per share of $3.10 within our guidance range of $3 to $3.50 and that's despite a $250 million impact to our pre-tax earnings from the government shutdown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Main cabin revenues showed weakness with standard and basic economy revenues down approximately 5%.",
+      "quote": "Main cabin revenues were up 1% on a 6% more capacity for the quarter. For the year, premium revenues increased approximately 11% while standard and basic economy revenues were down approximately 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is in active negotiations with four labor unions.",
+      "quote": "On labor, we are currently in active negotiations with 4 of our labor unions. We look forward to reaching industry leading contracts with these groups and we'll share more when able.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FAA-directed capacity reductions impacted operations.",
+      "quote": "Beginning in the early November, the FAA directed airlines to temporarily reduce departures at 40 major airports due to staffing and system constraints, prolonged US government shutdown.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Latin America had a challenging quarter.",
+      "quote": "Latin America, on the other hand, had yet another challenging quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical events are having a measurable negative impact on Caribbean bookings.",
+      "quote": "However, recent geopolitical events are having a measurable negative impact on bookings in the Caribbean.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium cabin revenues outperformed main cabin, up 12% year-over-year.",
+      "quote": "Premium cabins outperformed main cabin once again in the quarter. Premium cabin revenues were up 12% year over year on a 7% more capacity. Prasm for premium cabins outperformed the main cabin by almost 10 points in Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business travel demand is strong with high single-digit growth in early January.",
+      "quote": "This year for the same early January week, business revenue is up high single-digits and nearly 20% year over two.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the strategy and outlook.",
+      "quote": "Our plan has been working for the last decade, and while we make minor adjustments to it every year, the core of building a great revenue diverse, brand loyal airline remains the same. We've had the right strategy for a long time now, and the United team across the board is just better at executing than any other airline in the world.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to be the only US airline to grow EPS year-over-year.",
+      "quote": "I expect we will be the only US airline to grow EPS last year. This is an incredible proof point of United's ability to execute through times of elevated uncertainty when most of the industry cannot.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net leverage was 2.2x at year-end 2025, targeting below 2x in 2026.",
+      "quote": "Our net leverage at the end of the year was 2.2 times. ... In 2026, we plan to deliver further and target net leverage below 2 times.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects to take delivery of over 100 narrow-body and approximately 20 wide-body aircraft in 2026.",
+      "quote": "this year, we expect to take delivery of over 100 aircraft, 100 narrow-body aircraft, and approximately 20 wide-body aircraft.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident about the domestic capacity environment being favorable in the first half of 2026.",
+      "quote": "We also expect the domestic capacity environment to be quite favorable for the first half of 2026, with a small but meaningful amount of perennial unprofitable capacity by others leaving the market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is targeting double-digit margins.",
+      "quote": "Our relative margins remain strong and moving forward, our focus will be on continued margin expansion and achieving double-digit margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit and meaningful, but the score of 0.30 reflects a balance between strong forward guidance and multiple explicit risks. A reviewer may want to assess whether the risks (labor negotiations, main cabin weakness, geopolitical impacts) are adequately weighted relative to the positive guidance."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document mentions potential impacts from changes in the credit card ecosystem on the MileagePlus program. This is a forward-looking risk that may warrant closer review as it could materially impact a key revenue stream."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UAL_Bundled Earnings Report_2026-01-20",
+  "report_metadata": {
+    "issuer": "p2_united_airlines",
+    "company": "United Airlines",
+    "ticker": "UAL",
+    "sector": "Industrials/Airlines",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-20",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q4\\Q4 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q4\\UAL 2025 10K.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UAL_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260721T160152Z",
+    "timestamp": "2026-07-21T16:05:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q4\\Q4 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_united_airlines\\extracted\\UAL_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q4\\Q4 2025 United Airlines Holdings Inc Earnings Call Transcript.pdf",
+        "page_count": 28,
+        "extracted_characters": 90585,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\united_airlines\\CY2025-Q4\\UAL 2025 10K.pdf",
+        "page_count": 243,
+        "extracted_characters": 656117,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_united_airlines\\extracted\\UAL_FQ4_2025.txt"
+  }
+}

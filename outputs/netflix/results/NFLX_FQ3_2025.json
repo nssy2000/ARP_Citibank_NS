@@ -1,0 +1,165 @@
+{
+  "document_id": "NFLX_FQ3_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document shows genuine operational momentum: record ad sales quarter, more than doubling ad revenue in 2025, record TV share in the U.S. and U.K., and strong content hits. However, full-year 2026 guidance was explicitly deferred to the next call, and the Q3 EPS missed consensus by 15.78% due to a one-time Brazilian tax charge. Management language is confident but forward guidance is not raised, capping the score at the low end of the momentum band."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper"
+  },
+  "summary": {
+    "revenue": "Revenue in line with expectations at $11,510.31 million for FQ3 2025.",
+    "eps": "EPS normalized was $5.87, a 15.78% miss versus consensus of $6.97.",
+    "guidance": "Full-year 2026 guidance deferred to the next call in January; financial objectives unchanged: sustain healthy revenue growth, expand margins, increase free cash flow.",
+    "margin": "Operating income would have exceeded forecast absent the Brazilian tax matter; no specific margin percentage given.",
+    "key_risks": [
+      "Brazilian tax matter (CIDE) resulted in a one-time charge in cost of revenues covering 2022–2025, impacting Q3 operating income.",
+      "Potential industry consolidation could reshape competitive landscape, though management sees no fundamental shift.",
+      "Third-party content accessibility may ebb and flow as competitors are also suppliers."
+    ],
+    "key_opportunities": [
+      "Advertising business: more than doubling ad revenue in 2025, record ad sales quarter, doubling U.S. upfront commitments, strong programmatic growth.",
+      "Live events: Canelo-Crawford fight most viewed men's championship fight this century; upcoming NFL Christmas games, Jake Paul vs. Tank Davis, World Baseball Classic, FIFA Women's World Cup.",
+      "Games and interactivity: launching party games on TV, real-time voting, and building on a $140 billion consumer spend opportunity.",
+      "Content slate: strong Q4 and 2026 lineup including Stranger Things finale, Narnia, and many returning series.",
+      "AI and ML: leveraging generative AI for product experiences, content production, and advertising."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'we feel great about the business,' 'we are as energized as ever,' and 'we have enormous room for profitable growth,' conveying strong confidence in the company's trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was in line with expectations at $11,510.31 million for FQ3 2025.",
+      "quote": "We had revenue in line with expectations. Our operating income would have exceeded our forecast absent the Brazilian tax matter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS normalized was $5.87, a 15.78% miss versus consensus of $6.97.",
+      "quote": "EPS Normalized 6.97 5.87 (15.78 %)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance deferred to the next call in January; financial objectives unchanged.",
+      "quote": "We'll issue a full year 2026 guidance on our next call in January. But our financial objectives are unchanged. We look to sustain healthy revenue growth to expand margins and increase free cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income would have exceeded forecast absent the Brazilian tax matter.",
+      "quote": "Our operating income would have exceeded our forecast absent the Brazilian tax matter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brazilian tax matter (CIDE) resulted in a one-time charge in cost of revenues covering 2022–2025.",
+      "quote": "It's a gross tax on outbound payments and it's called the Contribution for Intervention and Economic Domain... we recorded the expense in Q3... it covers the periods from 2022 through Q3 of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising business: more than doubling ad revenue in 2025, record ad sales quarter.",
+      "quote": "We recorded our best ad sales quarter ever. We are now on track to more than double ad revenue this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live events: Canelo-Crawford fight most viewed men's championship fight this century.",
+      "quote": "CaneloCrawford. That was the most viewed men's championship fight this century.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games and interactivity: launching party games on TV, real-time voting, and building on a $140 billion consumer spend opportunity.",
+      "quote": "Games are clearly a form of entertainment that consumers care about... it's approximately $140 billion opportunity in consumer spend... we're rolling out this holiday season, a slate of party games on TV.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Content slate: strong Q4 and 2026 lineup including Stranger Things finale, Narnia, and many returning series.",
+      "quote": "We're really particularly excited about a few things coming up next year, like the return of some of our biggest and most loved shows... we've got an incredible slate of films with a big event film from Greta Gerwig with Narnia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI and ML: leveraging generative AI for product experiences, content production, and advertising.",
+      "quote": "We see huge number of places in the business where we can bring these technologies in... those targeted areas of investment are better product experiences, content production and advertising.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel great about the business. And as Greg said, we are as energized as ever.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential industry consolidation could reshape competitive landscape, though management sees no fundamental shift.",
+      "quote": "None of those mergers were a fundamental shift in the competitive landscape... watching some of our competitors potentially to bigger via M&A does not change in and of itself, at least our view on the competitive landscape.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Third-party content accessibility may ebb and flow as competitors are also suppliers.",
+      "quote": "Our competitors are also our suppliers. So they changed their mind sometimes about selling to competitors. So we've been dealing with that since the beginning of streaming.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the BUY threshold. A reviewer may wish to confirm that the operational momentum (record ad sales, record TV share) justifies crossing the threshold despite the EPS miss and deferred guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2025-10-21",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ3 25.pdf"
+      }
+    ],
+    "document_id": "NFLX_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T131755Z",
+    "timestamp": "2026-07-02T13:18:34Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ3 25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ3 25.pdf",
+        "page_count": 15,
+        "extracted_characters": 45719,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ3_2025.txt"
+  }
+}

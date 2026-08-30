@@ -1,0 +1,58 @@
+{
+  "document_id": "CRM_FQ3_2026_QUANT",
+  "base_document_id": "CRM_FQ3_2026",
+  "issuer": "p2_salesforce",
+  "ticker": "CRM",
+  "sector": "Technology/Software - Application",
+  "report_date": "2025-12-03",
+  "sentiment": {
+    "score": -0.041244
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.09869,
+      "window_start_date": "2025-10-31",
+      "window_end_date": "2025-12-02",
+      "score": -0.576989,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.311834,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 13.55,
+      "matched_earnings_date": "2025-12-03",
+      "score": 0.4945,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.08,
+      "vix_score": 0.192244,
+      "tnx_change": -0.049,
+      "tnx_score": 0.097687,
+      "score": 0.144966,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.89,
+      "ffr_change": -0.2,
+      "ffr_score": 0.379949,
+      "ffr_as_of": "2025-12-02",
+      "curve_spread": 0.58,
+      "curve_score": 0.522665,
+      "curve_as_of": "2025-12-02",
+      "score": 0.451307,
+      "available": true
+    },
+    "quant_score": -0.041244,
+    "quant_score_with_macro": 0.051861,
+    "quant_score_with_fred": 0.205032,
+    "quant_score_with_macro_fred": 0.18501
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

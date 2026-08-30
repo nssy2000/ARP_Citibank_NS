@@ -1,0 +1,270 @@
+{
+  "document_id": "KHC_FQ1_2025",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "Forward guidance was reduced: the company guided FY2026 Organic Net Sales down 1.5% to 3.5% and Constant Currency Adjusted Operating Income down 14% to 18%, with Adjusted EPS of $1.98-$2.10 versus $2.60 in 2025. While management announced a $600 million investment to return to profitable growth, the explicit guidance cut and acknowledgment of a 100 basis point SNAP headwind and 300 basis point variable compensation headwind indicate a lowered forward outlook. The pause of the separation adds strategic uncertainty, and the tone, while confident about the investment, is defensive about the current state of the business."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FY2025 net sales decreased 3.5% to $24.9 billion; Q4 2025 net sales decreased 3.4% to $6.4 billion.",
+    "eps": "FY2025 Diluted EPS was $(4.93), down 318.1%; Adjusted EPS was $2.60, down 15.0%. Q4 2025 Diluted EPS was $0.55, down 68.8%; Adjusted EPS was $0.67, down 20.2%.",
+    "guidance": "FY2026: Organic Net Sales down 1.5% to 3.5%; Constant Currency Adjusted Operating Income down 14% to 18%; Adjusted EPS in the range of $1.98 to $2.10; Adjusted Gross Profit Margin down 25 to 75 basis points; Free Cash Flow Conversion of approximately 100%.",
+    "margin": "FY2025 Gross profit margin decreased 140 basis points to 33.3%; Adjusted Gross Profit Margin decreased 120 basis points to 33.5%. Q4 2025 Gross profit margin decreased 150 basis points to 32.6%; Adjusted Gross Profit Margin decreased 130 basis points to 33.1%.",
+    "key_risks": [
+      "Incremental SNAP headwinds (approximately 100 basis point impact on Organic Net Sales in 2026).",
+      "Inflationary pressures in commodity and manufacturing costs outpacing efficiency initiatives.",
+      "Unfavorable volume/mix, with declines in cold cuts, coffee, frozen meals and snacks, certain condiments, bacon, spoonables, and Indonesia.",
+      "Lapping lower variable compensation in 2025 (approximately 300 basis point headwind to Constant Currency Adjusted Operating Income).",
+      "Uncertainty related to the paused separation of Kraft Heinz into two publicly traded companies.",
+      "Highly competitive industry and changes in consumer preferences.",
+      "Potential additional impairments of goodwill or other indefinite-lived intangible assets."
+    ],
+    "key_opportunities": [
+      "$600 million investment across Marketing, Sales, and R&D as well as product superiority and select pricing to return to profitable growth.",
+      "Taste Elevation portfolio momentum.",
+      "Emerging Markets volume/mix growth (4.6% Organic Net Sales growth in FY2025).",
+      "Strong balance sheet and Free Cash Flow capabilities ($3.7 billion Free Cash Flow in FY2025, up 15.9%).",
+      "70% of revenue in data elevation now gaining market share; U.S. market share returned to levels from three years ago as of January reads."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the investment plan ('We are confident in the opportunity ahead and believe this investment will accelerate our return to profitable growth') but acknowledges significant challenges and a reduced outlook ('My number one priority is returning the business to profitable growth... many of our challenges are fixable and within our control')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FY2025 net sales decreased 3.5% to $24.9 billion.",
+      "quote": "Net Sales decreased 3.5 percent versus the year-ago period to $24.9 billion, including an unfavorable 0.1 percentage point impact from foreign currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 net sales decreased 3.4% to $6.4 billion.",
+      "quote": "Net sales decreased 3.4 percent versus the year-ago period to $6.4 billion, including a favorable 0.8 percentage point impact from foreign currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Diluted EPS was $(4.93), down 318.1%.",
+      "quote": "Diluted EPS was $(4.93), down 318.1 percent versus the prior year period, primarily driven by higher non-cash impairment losses in the current year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Adjusted EPS was $2.60, down 15.0%.",
+      "quote": "Adjusted EPS (1) was $2.60, down 15.0 percent versus the prior year period, primarily driven by lower Adjusted Operating Income, higher taxes on adjusted earnings, and higher interest expense, which more than offset fewer shares outstanding and favorable changes in other expense/(income).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Diluted EPS was $0.55, down 68.8%.",
+      "quote": "Diluted EPS was $0.55, down 68.8 percent versus the prior year period, primarily driven by the recognition of a $3.0 billion non-U.S. deferred tax asset and associated valuation allowance of $0.6 billion related to the transfer of certain business operations to a wholly-owned subsidiary in the Netherlands in the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted EPS was $0.67, down 20.2%.",
+      "quote": "Adjusted EPS (1) was $0.67, down 20.2 percent versus the prior year period, primarily driven by lower Adjusted Operating Income, higher taxes on adjusted earnings, and higher interest expense, which more than offset favorable changes in other expense/(income) and fewer shares outstanding.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 guidance calls for Organic Net Sales down 1.5% to 3.5%.",
+      "quote": "For fiscal year 2026, the Company expects: Organic Net Sales (1)(2) down 1.5 percent to down 3.5 percent versus the prior year. This includes an approximate 100 basis point impact from incremental SNAP headwinds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 guidance calls for Constant Currency Adjusted Operating Income down 14% to 18%.",
+      "quote": "Constant Currency Adjusted Operating Income (1)(2) down 14 percent to down 18 percent versus the prior year. This includes incremental investments of approximately $600 million across marketing, sales, and R&D as well as product superiority and price. It also includes the impact of lapping lower variable compensation in 2025, which is an approximate 300 basis point headwind.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2026 Adjusted EPS guidance is $1.98 to $2.10.",
+      "quote": "Adjusted EPS (1)(2) in the range of $1.98 to $2.10.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Gross profit margin decreased 140 basis points to 33.3%.",
+      "quote": "Gross profit margin decreased 140 basis points to 33.3%; Adjusted Gross Profit Margin (1) decreased 120 basis points to 33.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Gross profit margin decreased 150 basis points to 32.6%.",
+      "quote": "Gross profit margin decreased 150 basis points to 32.6%; Adjusted Gross Profit Margin decreased 130 basis points to 33.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces a 100 basis point headwind from reduced SNAP funding in 2026.",
+      "quote": "This includes an approximate 100 basis point impact from incremental SNAP headwinds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces a 300 basis point headwind from lapping lower variable compensation.",
+      "quote": "It also includes the impact of lapping lower variable compensation in 2025, which is an approximate 300 basis point headwind.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is investing $600 million in commercial levers.",
+      "quote": "we are today announcing a $600 million investment across Marketing, Sales, and R&D as well as product superiority and select pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is pausing work related to the separation.",
+      "quote": "we believe it is prudent to pause work related to the separation and we will no longer incur related dis-synergies this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Emerging Markets delivered Organic Net Sales growth of 4.6% in FY2025.",
+      "quote": "Emerging Markets (a) 1.8 % 4.6 % 4.0 pp 0.6 pp",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free Cash Flow was $3.7 billion in FY2025, up 15.9%.",
+      "quote": "Free Cash Flow (1) was $3.7 billion, up 15.9 percent versus the prior year period, driven by the same net cash provided by/(used for) operating activities discussed above and a decrease in capital expenditures in the current year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "70% of revenue in data elevation is gaining market share.",
+      "quote": "Andre Maciel reported, \"70% of the revenue in data elevation is now gaining market share,\" and U.S. market share has returned to levels from three years ago as of January reads.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, with confidence in the plan but acknowledgment of challenges.",
+      "quote": "We are confident in the opportunity ahead and believe this investment will accelerate our return to profitable growth. ... My number one priority is returning the business to profitable growth, which will require ensuring all resources are fully focused on the execution of our operating plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces inflationary pressures in commodity and manufacturing costs.",
+      "quote": "Adjusted Operating Income (1) decreased 11.5 percent versus the year-ago period to $4.7 billion, primarily due to inflationary pressures in commodity and manufacturing costs that outpaced our efficiency initiatives, unfavorable volume/mix, increased advertising expenses, increased research and development costs, and the unfavorable impact of foreign currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces unfavorable volume/mix in key categories.",
+      "quote": "Unfavorable volume/mix was primarily driven by declines in cold cuts, coffee, frozen meals and snacks, certain condiments, bacon, spoonables, and Indonesia.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks related to the paused separation.",
+      "quote": "negative effects of the announcement pendency of the separation, including the current pause on work related to the separation, on the market price of the Company’s securities and/or on the Company’s financial performance; uncertainty of the financial performance of the separated companies following completion of the separation; the ability of the separated companies to each succeed as a standalone publicly traded company following the separation; the possibility that the separation will not achieve its intended benefits, if completed;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from a highly competitive industry.",
+      "quote": "Important factors that may affect the Company's business and operations and that may cause actual results to differ materially from those in the forward-looking statements include, but are not limited to, operating in a highly competitive industry;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks of additional impairments.",
+      "quote": "additional impairments of the carrying amounts of goodwill or other indefinite-lived intangible assets;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company has a strong balance sheet and Free Cash Flow capabilities.",
+      "quote": "Thanks to disciplined financial stewardship, our balance sheet is strong and our Free Cash Flow capabilities, robust – positioning us well to fund these investments and execute on the plan, while still generating excess cash.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Taste Elevation portfolio has momentum.",
+      "quote": "In order to accelerate the momentum we are already seeing in our Taste Elevation portfolio and to drive recovery in our U.S. business, we are today announcing a $600 million investment across Marketing, Sales, and R&D as well as product superiority and select pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative due to the explicit FY2026 guidance cut, but the $600 million investment and confident management language about returning to growth could be interpreted as a positive catalyst. The score reflects the guidance reduction as the dominant signal, but a reviewer may weigh the investment announcement differently."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The list includes both explicit FY2026 headwinds and broader forward-looking risk factors from the press release. A reviewer may want to distinguish between near-term quantified headwinds and general risk factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 25,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "KHC_Bundled Earnings Report_2026-02-11",
+  "report_metadata": {
+    "issuer": "p2_kraft_heinz",
+    "company": "Kraft Heinz",
+    "ticker": "KHC",
+    "sector": "Consumer Defensive/Packaged Foods",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2026-02-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2025-Q1\\KHC_Q4_2025_Earnings_Call_Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "KHC_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T100629Z",
+    "timestamp": "2026-08-09T10:07:04Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_kraft_heinz\\extracted\\KHC_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 45009,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\kraft_heinz\\CY2025-Q1\\KHC_Q4_2025_Earnings_Call_Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 6799,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_kraft_heinz\\extracted\\KHC_FQ1_2025.txt"
+  }
+}

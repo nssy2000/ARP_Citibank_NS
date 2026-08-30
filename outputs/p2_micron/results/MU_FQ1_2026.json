@@ -1,0 +1,212 @@
+{
+  "document_id": "MU_FQ1_2026",
+  "sentiment": {
+    "score": 0.85,
+    "rationale": "Guidance was raised materially above prior expectations: FQ2 revenue guided to $18.7B (vs. FQ1 actual $13.64B), gross margin to 68%, and EPS to $8.42, all described as records. Management language is highly confident, citing 'AI demand acceleration,' 'best competitive position in its history,' and expecting 'business performance to continue to strengthen through fiscal 2026.' No major risks were raised beyond supply constraints, which are framed as positive for pricing."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$13.64 billion for FQ1 2026, up 21% sequentially and 57% year-over-year. Guidance for FQ2 2026: $18.70 billion ± $400 million.",
+    "eps": "Non-GAAP diluted EPS of $4.78 for FQ1 2026, up 58% sequentially and 167% year-over-year. Guidance for FQ2 2026: $8.42 ± $0.20.",
+    "guidance": "FQ2 2026: revenue $18.70B ± $400M, gross margin 68% ± 1.0%, operating expenses $1.38B ± $20M, EPS $8.42 ± $0.20. Fiscal 2026 capex increased to ~$20B from prior ~$18B. Expects 'substantial new records' for full fiscal year.",
+    "margin": "FQ1 2026 gross margin 56.8% (non-GAAP), up 11 percentage points sequentially. Operating margin 47% (non-GAAP), up 12 points sequentially. FQ2 guidance gross margin 68% ± 1.0%.",
+    "key_risks": [
+      "Supply constraints may limit ability to meet customer demand; 'we are disappointed to be unable to meet demand from our customers, across all market segments.'",
+      "Potential new tariffs not included in guidance: 'Any impacts that may occur due to potential new tariffs are not included in our guidance.'",
+      "Memory price increases may impact consumer unit demand: 'some of the unit demand may get impacted... in smartphone and PCs.'",
+      "Cleanroom build-out lead times lengthening, constraining near-term supply."
+    ],
+    "key_opportunities": [
+      "AI-driven demand acceleration: 'AI-driven demand is here and it is accelerating.'",
+      "HBM TAM projected to reach ~$100B by 2028, two years earlier than prior outlook, with ~40% CAGR.",
+      "Completed agreements for entire calendar 2026 HBM supply, including HBM4.",
+      "Multiyear contracts with specific commitments in discussion with key customers.",
+      "Technology leadership: 1-gamma DRAM and G9 NAND ramps driving cost and supply growth.",
+      "Data center server unit growth expected high-teens in 2025, higher than prior 10% outlook."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses superlatives like 'best competitive position in its history,' 'outstanding start,' and 'we expect our business performance to continue to strengthen through fiscal 2026.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FQ1 revenue was $13.64 billion, up 21% sequentially and 57% year-over-year.",
+      "quote": "Total fiscal Q1 revenue was $13.6 billion, up 21% sequentially and up 57% year over year — setting a quarterly record for the third consecutive quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ1 non-GAAP EPS was $4.78, up 58% sequentially and 167% year-over-year.",
+      "quote": "Non-GAAP diluted earnings per share (EPS) in fiscal Q1 was $4.78, with 58% sequential growth and 167% versus the year-ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ2 guidance calls for record revenue of $18.7 billion.",
+      "quote": "We expect revenue to be a record $18.7 billion, plus or minus $400 million; gross margin to be in the range of 68%, plus or minus 100 basis points; and operating expenses to be approximately $1.38 billion, plus or minus $20 million. Based on a share count of approximately 1.15 billion shares, we expect EPS to be a record $8.42 per share, plus or minus $0.20.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ1 gross margin was 56.8% (non-GAAP), up 11 percentage points sequentially.",
+      "quote": "The consolidated gross margin for fiscal Q1 was 56.8%, up 11 percentage points sequentially. This improvement was driven by higher pricing with strong cost execution and favorable mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 capex increased to approximately $20 billion from prior estimate of $18 billion.",
+      "quote": "Micron plans to increase our fiscal 2026 capex to approximately $20 billion, versus our prior estimate of $18 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects business performance to strengthen through fiscal 2026.",
+      "quote": "We anticipate substantial new records in revenue, gross margin, EPS and free cash flow for both the second quarter and the full fiscal year 2026, and we expect our business performance to continue to strengthen through the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "HBM TAM projected to reach ~$100B by 2028, two years earlier than prior outlook.",
+      "quote": "We forecast an HBM TAM CAGR of approximately 40% through calendar 2028, from approximately $35 billion in 2025 to around $100 billion in 2028. This $100 billion HBM TAM milestone is now projected to arrive two years earlier than in our prior outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Micron has completed agreements for entire calendar 2026 HBM supply.",
+      "quote": "We have completed agreements on price and volume for our entire calendar 2026 HBM supply, including Micron's industry-leading HBM4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply constraints may limit ability to meet customer demand.",
+      "quote": "Despite significant efforts, we are disappointed to be unable to meet demand from our customers, across all market segments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential new tariffs are not included in guidance.",
+      "quote": "Any impacts that may occur due to potential new tariffs are not included in our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Memory price increases may impact consumer unit demand.",
+      "quote": "You know, we have highlighted in our prepared remarks that, you know, in some of the consumer markets, yeah. I mean, some of the unit demand may get impacted, you know, given, you know, semiconductor prices here, given memory prices here.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "With our technology leadership, differentiated product portfolio, strong operational execution and solid balance sheet, Micron is in the best competitive position in its history and is one of the semiconductor industry's biggest enablers of AI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Server unit growth expectation raised to high-teens for 2025.",
+      "quote": "Server unit demand has strengthened significantly, and we now expect calendar 2025 server unit growth in the high-teens percentage range, higher than our last earnings call outlook of 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Multiyear contracts with specific commitments are in discussion.",
+      "quote": "We are making progress with customers in our discussions for multiyear contracts with specific commitments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.85 is high; verify that the guidance raise and confident language justify a score above 0.7, given the strong absolute results and forward guidance."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "Risk about consumer demand impact is based on Q&A commentary; ensure it is appropriately weighted as a forward risk."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MU_Bundled Earnings Report_2025-12-17",
+  "report_metadata": {
+    "issuer": "p2_micron",
+    "company": "Micron",
+    "ticker": "MU",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-12-17",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q1\\MU_FY2026_Q1_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q1\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MU_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T101354Z",
+    "timestamp": "2026-08-09T10:14:24Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_micron\\extracted\\MU_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 15552,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q1\\MU_FY2026_Q1_Presentation.pdf",
+        "page_count": 9,
+        "extracted_characters": 22431,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2026-Q1\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 49645,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_micron\\extracted\\MU_FQ1_2026.txt"
+  }
+}

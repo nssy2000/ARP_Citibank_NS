@@ -1,0 +1,243 @@
+{
+  "document_id": "SBUX_FQ3_2025",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The document reports a decline in global comparable store sales and a significant drop in EPS, but management frames this as part of a turnaround strategy that is 'ahead of schedule' and expects growth in 2026. However, there is no formal guidance raise; instead, the company highlights one-time investments and a discrete tax item that negatively impacted EPS, and the forward language is confident but not backed by raised guidance. The mixed signals—declining current metrics but optimistic forward statements—lead to a slightly negative score, as the forward expectations are not clearly improved."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Consolidated net revenues increased 4% to $9.5 billion, or a 3% increase on a constant currency basis.",
+    "eps": "GAAP EPS of $0.49 declined 47% over prior year; Non-GAAP EPS of $0.50 declined 46% over prior year, or declined 45% on a constant currency basis.",
+    "guidance": "No explicit forward guidance provided; management states 'In 2026, we'll unleash a wave of innovation that fuels growth' and 'We are focused on growing back better and delivering durable, sustainable long-term growth.'",
+    "margin": "GAAP operating margin contracted 680 basis points year-over-year to 9.9%; Non-GAAP operating margin contracted 660 basis points to 10.1%.",
+    "key_risks": [
+      "Global comparable store sales declined 2%, driven by a 2% decline in comparable transactions.",
+      "North America comparable store sales declined 2%, driven by a 3% decline in comparable transactions.",
+      "Operating margin contracted significantly due to deleverage, investments in 'Back to Starbucks,' and inflation.",
+      "Effective tax rate increased to 31.8% from 24.8% due to discrete tax item.",
+      "International operating margin contracted due to increased promotional activity.",
+      "Channel Development operating margin contracted due to decline in North American Coffee Partnership joint venture income, mix shift, and higher global product costs."
+    ],
+    "key_opportunities": [
+      "China comparable store sales increased 2%, driven by a 6% increase in comparable transactions.",
+      "International comparable store sales were flat, with a 1% increase in comparable transactions.",
+      "Net new store growth: 308 net new stores opened in Q3, ending with 41,097 stores.",
+      "Leadership Experience 2025 and expansion of Assistant Store Manager role to grow talent internally.",
+      "Appointment of new board members and completion of $1.75 billion bond issuance for general corporate purposes."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expresses confidence in the turnaround, with CEO Brian Niccol stating 'we are ahead of schedule' and 'In 2026, we'll unleash a wave of innovation that fuels growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Consolidated net revenues increased 4% to $9.5 billion.",
+      "quote": "Q3 Consolidated Net Revenues Up 4% to $9.5 Billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS declined 47% to $0.49.",
+      "quote": "GAAP earnings per share of $0.49 declined 47% over prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP EPS declined 46% to $0.50.",
+      "quote": "Non-GAAP earnings per share of $0.50 declined 46% over prior year, or declined 45% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global comparable store sales declined 2%.",
+      "quote": "Global comparable store sales declined 2%, driven by a 2% decline in comparable transactions, partially offset by a 1% increase in average ticket",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin contracted 680 basis points to 9.9%.",
+      "quote": "GAAP operating margin contracted 680 basis points year-over-year to 9.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-GAAP operating margin contracted 660 basis points to 10.1%.",
+      "quote": "Non-GAAP operating margin contracted 660 basis points year-over-year to 10.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Effective tax rate increased to 31.8% from 24.8%.",
+      "quote": "Effective tax rate of 31.8% compared to 24.8% in the prior year, the increase was primarily driven by the discrete impact of changes in indefinite reinvestment assertions for certain foreign entities of approximately 850 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China comparable store sales increased 2%.",
+      "quote": "China comparable store sales increased 2%, driven by a 6% increase in comparable transactions, partially offset by a 4% decline in average ticket",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International comparable store sales were flat.",
+      "quote": "International comparable store sales were flat, driven by a 1% increase in comparable transactions, offset by a 1% decline in average ticket",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company opened 308 net new stores in Q3.",
+      "quote": "The company opened 308 net new stores in Q3, ending the period with 41,097 stores",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is optimistic about the turnaround.",
+      "quote": "We've fixed a lot and done the hard work on the hard things to build a strong operating foundation, and based on my experience of turnarounds, we are ahead of schedule.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects growth in 2026.",
+      "quote": "In 2026, we'll unleash a wave of innovation that fuels growth, elevates customer service, and ensures everyone experiences the very best of Starbucks.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was negatively impacted by one-time investments and a discrete tax item.",
+      "quote": "In the quarter, we made a significant non-recurring investment in our Leadership Experience 2025 and also incurred a discrete tax item, which in the aggregate, negatively impacted Q3 EPS by $0.11.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America operating margin contracted due to deleverage, investments, and inflation.",
+      "quote": "Operating margin of 13.3% contracted from 21.0% in the prior year, primarily driven by deleverage, investments in support of 'Back to Starbucks,' including additional labor and the Leadership Experience 2025, and inflation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International operating margin contracted due to increased promotional activity.",
+      "quote": "Operating margin of 13.6% contracted from 15.6% in the prior year, primarily driven by increased promotional activity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Channel Development operating margin contracted due to decline in joint venture income, mix shift, and higher costs.",
+      "quote": "Operating margin of 45.1% contracted from 53.7% in the prior year, primarily driven by a decline in our North American Coffee Partnership joint venture income, mix shift, and higher global product costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company completed a $1.75 billion bond issuance.",
+      "quote": "In May, the company completed a $1.75 billion bond issuance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company appointed a new COO.",
+      "quote": "In June, the company announced that Mike Grams had been appointed chief operating officer, as well as other organizational changes to accelerate getting 'Back to Starbucks.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company hosted Leadership Experience 2025.",
+      "quote": "In June, the company hosted over 14,000 coffeehouse leaders from across North America at its largest ever Leadership Experience 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expanded the Assistant Store Manager role.",
+      "quote": "During the event, the company announced the expansion of the Assistant Store Manager Role across U.S. company-operated stores, an important step toward our goal of growing talent internally and hiring 90% of retail leaders from within.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company elected two new board members.",
+      "quote": "In June, the company announced the election of two new members to its Board of Directors (the 'Board'): Marissa Mayer, Co-founder and Chief Executive Officer of Sunshine Products, Inc., and Dr. Dambisa Moyo, Co-principal of Versaca Investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company declared a dividend of $0.61 per share.",
+      "quote": "The Board declared a cash dividend of $0.61 per share, payable on August 29, 2025, to shareholders of record on August 15, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative despite management's optimistic tone; the lack of formal guidance raise and declining metrics justify the negative lean, but the optimism could warrant a more neutral score. Reviewer should verify the interpretation of forward guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SBUX_Bundled Earnings Report_2025-07-29",
+  "report_metadata": {
+    "issuer": "p2_starbucks",
+    "company": "Starbucks",
+    "ticker": "SBUX",
+    "sector": "Consumer Cyclical/Restaurants",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-07-29",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q3\\presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SBUX_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103643Z",
+    "timestamp": "2026-08-09T10:37:00Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_starbucks\\extracted\\SBUX_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 36361,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\starbucks\\CY2025-Q3\\presentation.pdf",
+        "page_count": 19,
+        "extracted_characters": 36239,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_starbucks\\extracted\\SBUX_FQ3_2025.txt"
+  }
+}

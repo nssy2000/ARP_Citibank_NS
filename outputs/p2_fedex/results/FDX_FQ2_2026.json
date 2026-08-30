@@ -1,0 +1,200 @@
+{
+  "document_id": "FDX_FQ2_2026",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "Guidance was raised: full-year adjusted EPS outlook increased to $17.80-$19.00 from $17.20-$19.00, and revenue growth forecast raised to 5%-6% from 4%-6%. The raise is organic, driven by strong US domestic package yield and volume, not attributed to one-time items. However, the raise is modest and accompanied by explicit headwinds (MD-11 grounding, higher incentive comp, LTL weakness) that cap the upside, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 revenue $23.5 billion, up 7% year-over-year (from $22.0 billion).",
+    "eps": "Q2 adjusted diluted EPS $4.82, up 19% year-over-year (from $4.05).",
+    "guidance": "FY2026 adjusted EPS raised to $17.80-$19.00 (from $17.20-$19.00); revenue growth raised to 5%-6% (from 4%-6%); pension contributions lowered to $275 million (from up to $400 million); reaffirmed $1B cost savings, ~25% ETR, $4.5B CapEx.",
+    "margin": "Q2 adjusted operating margin 6.9%, up 60 bps year-over-year (from 6.3%).",
+    "key_risks": [
+      "MD-11 fleet grounding: $25M impact in Q2, ~$150M-$175M expected in Q3, return to service not expected until Q4.",
+      "Global trade policy changes: $1B headwind to adjusted operating profit for FY2026.",
+      "FedEx Freight weakness: adjusted operating income expected to decline $300M (worsened from $100M prior), driven by lower shipments and $100M in separation costs.",
+      "Higher variable incentive compensation: ~$265M headwind in H2 vs. prior year.",
+      "Expiration of Postal Service contract: $30M headwind in Q2.",
+      "International export volume pressure, especially China-to-US lane."
+    ],
+    "key_opportunities": [
+      "US domestic package volume growth: average daily volume up 6% in Q2.",
+      "Yield improvement: US domestic package yield up >5%, international export package yield up 3%.",
+      "B2B growth: nearly half of revenue growth from B2B services; healthcare and data center verticals identified.",
+      "Network 2.0 transformation: 24% of volume through optimized facilities, targeting 65% by next peak, $2B cost savings by FY2027.",
+      "FedEx Freight spin-off on track for June 1, 2026, expected to unlock value.",
+      "Strategic collaboration with ServiceNow to monetize logistics data."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Raj Subramaniam stated 'FedEx delivered an outstanding second quarter as we successfully executed our growth strategy and advanced our network transformation, while navigating a highly challenging external environment,' and CFO John Dietrich said 'Our strong second quarter results and revised full-year outlook reflect the momentum that is building in our business.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 revenue was $23.5 billion, up 7% year-over-year.",
+      "quote": "Revenue $23.5 billion $23.5 billion $22.0 billion $22.0 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 adjusted diluted EPS was $4.82, up 19% year-over-year.",
+      "quote": "Diluted EPS $4.04 $4.82 $3.03 $4.05",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS guidance raised to $17.80-$19.00 from $17.20-$19.00.",
+      "quote": "Diluted earnings per share of $14.80 to $16.00 before the MTM retirement plans accounting adjustments compared to the prior forecast of $14.20 to $16.00, and $17.80 to $19.00 after also excluding costs related to the planned spin-off of FedEx Freight... compared to the prior forecast of $17.20 to $19.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue growth guidance raised to 5%-6% from 4%-6%.",
+      "quote": "A 5% to 6% revenue growth rate year over year, compared to the prior forecast of 4% to 6% revenue growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 adjusted operating margin was 6.9%, up 60 bps year-over-year.",
+      "quote": "Operating margin 5.9% 6.9% 4.8% 6.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MD-11 grounding had a $25M impact in Q2 and is expected to be a larger headwind in Q3.",
+      "quote": "we were able to mitigate the operational and financial impacts of the MD-11 groundings, which ultimately pressured our Q2 adjusted operating income by about $25 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global trade policy changes represent a $1B headwind to adjusted operating profit for FY2026.",
+      "quote": "embedded in our assumptions is the $1 billion in headwind to adjusted operating profit from the global trade environment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FedEx Freight adjusted operating income expected to decline $300M, worsened from prior $100M expectation.",
+      "quote": "We now expect a $300 million decline in adjusted operating income at FedEx Freight, compared to the $100 million expectation we shared in September.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher variable incentive compensation is a ~$265M headwind in H2.",
+      "quote": "the remainder, about $265 million, for increased variable compensation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US domestic package volume grew 6% in Q2.",
+      "quote": "We grew average daily domestic volume by 6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US domestic package yield grew over 5% in Q2.",
+      "quote": "US domestic package yield was up over 5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "B2B contributed nearly half of revenue growth in Q2.",
+      "quote": "nearly half of our revenue growth was driven by B2B services",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Network 2.0 has 24% of volume flowing through optimized facilities, targeting 65% by next peak.",
+      "quote": "We now have about 24% of our eligible average daily volume flowing through 355 Network 2.0 optimized facilities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FedEx Freight spin-off is on track for June 1, 2026.",
+      "quote": "The planned spin-off of FedEx Freight into a new publicly traded company continues to advance and is expected to be achieved in a tax-efficient manner for FedEx stockholders and executed on June 1, 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "FedEx delivered an outstanding second quarter as we successfully executed our growth strategy and advanced our network transformation, while navigating a highly challenging external environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is modest and accompanied by significant headwinds (MD-11, LTL, incentive comp). A human reviewer should confirm the score appropriately balances the positive guidance raise against the explicit risks."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "FDX_Bundled Earnings Report_2025-12-18",
+  "report_metadata": {
+    "issuer": "p2_fedex",
+    "company": "FedEx",
+    "ticker": "FDX",
+    "sector": "Industrials/Logistics",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2025-12-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q2\\FDX-8K-EX99.1-FQ2-2026-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q2\\FDX-FQ2-2026-earnings-call-transcript-IR.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "FDX_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T173029Z",
+    "timestamp": "2026-07-30T17:31:03Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q2\\FDX-8K-EX99.1-FQ2-2026-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_fedex\\extracted\\FDX_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q2\\FDX-8K-EX99.1-FQ2-2026-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 31549,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\fedex\\CY2026-Q2\\FDX-FQ2-2026-earnings-call-transcript-IR.pdf",
+        "page_count": 16,
+        "extracted_characters": 58481,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_fedex\\extracted\\FDX_FQ2_2026.txt"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "document_id": "LIN_FQ1_2026_QUANT",
+  "base_document_id": "LIN_FQ1_2026",
+  "issuer": "p2_linde",
+  "ticker": "LIN",
+  "sector": "Basic Materials/Specialty Chemicals",
+  "report_date": "2026-05-01",
+  "sentiment": {
+    "score": 0.064081
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.010852,
+      "window_start_date": "2026-03-31",
+      "window_end_date": "2026-04-30",
+      "score": 0.072221,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.174672,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 1.4,
+      "matched_earnings_date": "2026-05-01",
+      "score": 0.055942,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.99,
+      "vix_score": 0.133204,
+      "tnx_change": 0.059,
+      "tnx_score": -0.117455,
+      "score": 0.007874,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2026-04-30",
+      "curve_spread": 0.52,
+      "curve_score": 0.4777,
+      "curve_as_of": "2026-04-30",
+      "score": 0.23885,
+      "available": true
+    },
+    "quant_score": 0.064081,
+    "quant_score_with_macro": 0.035978,
+    "quant_score_with_fred": 0.151466,
+    "quant_score_with_macro_fred": 0.103602
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "document_id": "NFLX_FQ2_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The expectation baseline is Netflix's own prior full-year revenue guidance of $43.5B-$44.5B and operating margin guidance of 29%. The surprise is that management raised full-year revenue guidance to $44.8B-$45.2B and operating margin to 30%, citing strength in underlying business (member growth, ad sales momentum) beyond FX. However, the raise is partially attributed to FX, and engagement per owner household has been flat for 2.5 years, which tempers the positive signal."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FQ2 2025 revenue of $11,079.17 million (actual) vs consensus of $11,056.34 million, a 0.21% surprise. Full-year revenue guidance raised to $44.8B-$45.2B from prior $43.5B-$44.5B.",
+    "eps": "FQ2 2025 EPS normalized of $7.19 (actual) vs consensus of $7.09, a 1.41% surprise.",
+    "guidance": "Full-year 2025 revenue guidance raised to $44.8B-$45.2B (from $43.5B-$44.5B). Full-year operating margin guidance raised to 30% reported (from 29%). Q3 2025 operating margin forecast of 31.5%.",
+    "margin": "Full-year 2025 operating margin guidance raised to 30% reported (from 29%), with 29.5% FX neutral. Q3 2025 operating margin forecast of 31.5%.",
+    "key_risks": [
+      "Engagement per owner household has been relatively steady (flat) over the past 2.5 years, with no growth.",
+      "Content expenses will ramp in Q3 and Q4 due to heavy back-half slate, which could pressure margins.",
+      "Live events and sports strategy is still developing; management acknowledges they are not yet 'world class' at live production.",
+      "Competition from free services (e.g., YouTube) and other streamers is increasing.",
+      "The TF1 partnership is experimental; management says 'you never really know until you get out there and get the real reactions.'"
+    ],
+    "key_opportunities": [
+      "Strong member growth, especially at end of Q2, expected to carry through with back-half slate.",
+      "Ad sales momentum: on pace to roughly double ad revenue in 2025, ahead of beginning-of-year expectations.",
+      "U.S. upfront nearly complete, results in line or slightly better than targets.",
+      "New UI/UX rollout showing better-than-expected performance, expected to improve discovery and engagement.",
+      "Generative AI initiatives in production (e.g., 10x faster VFX) and member experience (conversational search) could enhance value.",
+      "Gaming investments (GTA, Roblox, Squid Game: Unleashed) showing positive proof points on acquisition and retention.",
+      "TF1 partnership in France to expand local content offering, with potential for similar partnerships in other countries.",
+      "Live events (NFL, WWE, boxing) driving outsized positive impacts on conversation, acquisition, and retention."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management raised guidance, described 'healthy member growth,' 'nice momentum in ad sales,' and expressed confidence in the back-half slate, saying 'we're incredibly excited about the back half of this year and confident that it keeps rolling in '26.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year revenue guidance was raised from $43.5B-$44.5B to $44.8B-$45.2B.",
+      "quote": "So as you saw on the letter, we increased our full year revenue guidance to $44.8 million to $45.2 billion. That's up from the prior guide of $43.5 million to $44.5 billion, so up about $1 billion at the midpoint of the range, and a tighter range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is primarily FX-driven but also reflects underlying business strength.",
+      "quote": "As you know, it primarily reflects the FX impact from the weakening dollar relative to most other currencies. But the good news is we're also seeing strength in our underlying business. We've got healthy member growth, and that even picked up nicely at the end of Q2, a bit more than we expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating margin guidance was raised to 30% reported from 29%.",
+      "quote": "So that's why our updated target full year reported margin is up 1 point from 29% to 30% and that 50 basis point increase in FX neutral margin is really just that revenue lift from stronger membership growth in ads relative to prior forecast flowing through the margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement per owner household has been flat for 2.5 years.",
+      "quote": "So that metric, per owner household engagement has been relatively steady over the past 2.5 years. Throughout the rollout of paid sharing and amidst increasing competition for TV time is more viewing moves to streaming and gets this on-demand benefit.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad sales are on pace to roughly double revenue in 2025, ahead of expectations.",
+      "quote": "And we're also seeing nice momentum in ad sales. Still off a pretty small base, but good growth, and it's on pace to roughly double our revenue in the year, and it's a bit ahead of beginning of year expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ2 2025 revenue actual was $11,079.17 million vs consensus $11,056.34 million.",
+      "quote": "Revenue (mm) 11056.34 11079.17 0.21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ2 2025 EPS normalized actual was $7.19 vs consensus $7.09.",
+      "quote": "EPS Normalized 7.09 7.19 1.41",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 2025 operating margin forecast is 31.5%.",
+      "quote": "Why is operating margin guidance for the full year only 30% after the upside in 2Q and a forecast of 31.5% for the third quarter?",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the back-half slate and 2026.",
+      "quote": "So we're really incredibly excited about the back half of this year and confident that it keeps rolling in '26.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The TF1 partnership is experimental; management says 'you never really know until you get out there.'",
+      "quote": "So we're looking forward to seeing what consumers think. You never really know until you get out there and get the real reactions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management acknowledges they are not yet 'world class' at live production.",
+      "quote": "When we start something new, we pretty much expect that we're not going to be brilliant at the beginning.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New UI/UX rollout showing better-than-expected performance.",
+      "quote": "But now that we've actually rolled out this new UI to the first large wave of TV devices, we're actually seeing performance that's better than what we saw in our prelaunch testing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Generative AI enabled a VFX sequence to be completed 10x faster.",
+      "quote": "Using AI powered tools, they were able to achieve an amazing result with remarkable speed and in fact, that VFX sequence was completed 10x faster than it could have been completed with visual -- traditional VFX tools and workflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gaming investments showing positive proof points on acquisition and retention.",
+      "quote": "We've seen those positive effects, albeit in a small way relative to the size of our overall business when it comes to members playing games on the service. We already have those positive proof points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live events drive outsized positive impacts on conversation, acquisition, and retention.",
+      "quote": "And what we've seen with live is it has its outsized positive impacts around conversation around acquisition, and we suspect around retention.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is partially attributed to FX, which is discounted in the score. The flat engagement metric is a structural concern. A human reviewer should confirm the balance between these factors."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2025-07-17",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ2 25.pdf"
+      }
+    ],
+    "document_id": "NFLX_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T194012Z",
+    "timestamp": "2026-07-02T19:40:29Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_reaction_prompt_v2_merged.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ2 25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix_v2prompt\\extracted\\NFLX_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\FQ2 25.pdf",
+        "page_count": 15,
+        "extracted_characters": 47451,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix_v2prompt\\extracted\\NFLX_FQ2_2025.txt"
+  }
+}

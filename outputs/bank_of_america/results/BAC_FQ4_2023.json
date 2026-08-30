@@ -1,0 +1,232 @@
+{
+  "document_id": "BAC_FQ4_2023",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document shows a mixed but slightly positive forward outlook. NII guidance was modestly better than prior expectations ('modestly better than we told you to expect last quarter'), and management expressed confidence in deposit and loan growth in the second half of 2024. However, the forward NII guidance is for a decline in Q1 and Q2 before growth resumes, and the expense guidance implies only modest year-over-year growth. The overall tone is cautiously optimistic, with no formal guidance raise, but with clear operational momentum in organic growth and expense discipline."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Q4 2023 total revenue, net of interest expense, was $22.0 billion, a decrease of $2.6 billion or 10% year-over-year. Adjusted revenue (excluding BSBY cessation impact) was $23.5 billion, down 4%.",
+    "eps": "Q4 2023 diluted EPS was $0.35. Adjusted diluted EPS (excluding FDIC special assessment and BSBY cessation impact) was $0.70.",
+    "guidance": "NII (FTE) is expected to be $100-200 million lower in Q1 2024 vs Q4 2023, potentially a touch lower in Q2, then begin to grow sequentially in the second half of 2024. Adjusted noninterest expense is expected to be around $16.4 billion in Q1 2024, with quarterly declines thereafter. Full-year 2024 expense expected to be in the low $64 billion range, up 1-2% year-over-year.",
+    "margin": "Q4 2023 reported efficiency ratio was 81%; adjusted efficiency ratio was 66%. Net interest yield (FTE) was 1.97%, down 25 bps year-over-year and down 14 bps from Q3 2023.",
+    "key_risks": [
+      "Higher deposit costs and lower deposit balances continue to pressure NII.",
+      "Net charge-offs are normalizing, with credit card loss rate at 3.07% and commercial real estate office losses increasing.",
+      "The forward curve implies six rate cuts in 2024, which could pressure NII if realized.",
+      "Regulatory capital rules (proposed Basel III endgame) remain uncertain and could require higher capital levels.",
+      "The BSBY cessation charge of $1.6 billion is an accounting impact, but it lowered CET1 by 8 bps."
+    ],
+    "key_opportunities": [
+      "Strong organic growth: added 600,000 net new checking accounts in 2023, 20th consecutive quarter of growth.",
+      "Record consumer investment assets of $424 billion, up 33% year-over-year, with $49 billion of client flows.",
+      "Record full-year sales and trading revenue of $17.4 billion, with zero trading loss days in 2023.",
+      "Investment banking fees up 7% year-over-year, with improved market share.",
+      "Expense discipline: headcount reduced from 218,000 to 212,900 during 2023, with sequential expense declines.",
+      "Strong capital and liquidity: CET1 ratio of 11.8%, 181 bps above regulatory minimum."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'We reported solid fourth quarter and full-year results as all our businesses achieved strong organic growth' and CFO Alastair Borthwick expressed confidence in the NII trajectory, saying 'we continue to feel good about these assumptions.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2023 total revenue was $22.0 billion, down 10% year-over-year.",
+      "quote": "Revenue, net of interest expense, of $22.0 billion, decreased $2.6 billion, or 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted revenue (excluding BSBY cessation impact) was $23.5 billion, down 4%.",
+      "quote": "excluding BSBY cessation impact, adjusted revenue decreased 4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 diluted EPS was $0.35; adjusted diluted EPS was $0.70.",
+      "quote": "Net income of $3.1 billion, or $0.35 per diluted share... Q4-23 adjusted net income of $5.9 billion, or adjusted diluted earnings per share of $0.70",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII guidance: Q1 2024 expected to be $100-200 million lower than Q4 2023, then grow in second half.",
+      "quote": "we believe the first quarter will be somewhere between 100 and 200 lower than the fourth quarter. It could move a touch lower in Q2, and then we believe it should begin to grow sequentially in the second half of 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense guidance: Q1 2024 around $16.4 billion, full year in low $64 billion range.",
+      "quote": "we expect to see the more typical Q1 seasonal elevation in expense of 700 million to 800 million compared to Q4. So, we believe expense will be around 16.4 billion in the first quarter... we feel comfortable that that sort of allows us the room... you get between 64 and 64.5",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2023 adjusted efficiency ratio was 66%.",
+      "quote": "Efficiency ratio 81 67 66 64 (showing adjusted efficiency ratio of 66% for Q4 2023)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 1.97%, down 25 bps year-over-year.",
+      "quote": "Net interest yield of 1.97% decreased 25 bps YoY",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net charge-offs are normalizing, with credit card loss rate at 3.07%.",
+      "quote": "Credit card loss rate of 3.07% in Q4-23 vs. 2.72% in Q3-23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong organic growth: 600,000 net new checking accounts added in 2023.",
+      "quote": "Added over 600,000 net new checking accounts; 20 consecutive quarters of growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record consumer investment assets of $424 billion, up 33% year-over-year.",
+      "quote": "Record consumer investment assets of $424 billion grew $105 billion, or 33%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record full-year sales and trading revenue of $17.4 billion.",
+      "quote": "Record full-year sales and trading revenue of $17.4 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment banking fees up 7% year-over-year.",
+      "quote": "Total investment banking fees (excl. self-led) of $1.1 billion, up 7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Headcount reduced from 218,000 to 212,900 during 2023.",
+      "quote": "we went from 218,000 people in January down to 212,900 at the end of the year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio of 11.8%, 181 bps above regulatory minimum.",
+      "quote": "CET1 ratio of 11.8% (Standardized)(F); 181 bps above regulatory minimum effective January 1, 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We reported solid fourth quarter and full-year results as all our businesses achieved strong organic growth",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII guidance was modestly better than prior expectations.",
+      "quote": "On an FTE basis, we reported 14.1 billion in NII, which was modestly better than we told you to expect last quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The forward curve implies six rate cuts in 2024.",
+      "quote": "The forward curve today has six cuts compared to last quarter when we had three cuts in the 2024 curve",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BSBY cessation charge lowered CET1 by 8 bps.",
+      "quote": "The accounting lowered CET1 by 8 basis points during the quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary of the BUY threshold. The guidance is not formally raised, but NII was modestly better than prior expectations. A reviewer may want to confirm this borderline signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2024-01-12",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2023",
+    "report_date": "2024-01-12",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q4\\bac-4q23-press-release.html",
+        "pub_date": "2024-01-12"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q4\\bac-4q23-presentation.html",
+        "pub_date": "2024-01-12"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q4\\bac-4q23-earnings-call-transcript.html",
+        "pub_date": "2024-01-12"
+      }
+    ],
+    "document_id": "BAC_FQ4_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T142324Z",
+    "timestamp": "2026-07-08T14:25:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q4\\bac-4q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q4\\bac-4q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 68151,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q4\\bac-4q23-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 77625,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q4\\bac-4q23-earnings-call-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 83592,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2023.txt"
+  }
+}

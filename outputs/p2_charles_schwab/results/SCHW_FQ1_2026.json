@@ -1,0 +1,191 @@
+{
+  "document_id": "SCHW_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports record financial results and strong client growth, but the key forward-looking signal is that management explicitly stated they are 'tracking higher than the $5.70 to $5.80 EPS range implied by the scenario we shared back at the winter business update in January.' This is a clear upward revision to the company's own prior guidance, driven by organic momentum (record NNA, record trading, strong lending). The score is tempered slightly because the guidance raise is described as 'tracking higher' rather than a formal new range, and management flags continued market volatility as a factor. Overall, the forward guidance was meaningfully raised relative to the prior scenario."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record $6.5 billion, up 16% year-over-year.",
+    "eps": "GAAP EPS of $1.37; adjusted EPS of $1.43, up 38% year-over-year.",
+    "guidance": "Management stated they are 'tracking higher than the $5.70 to $5.80 EPS range implied by the scenario we shared back at the winter business update in January' and will provide a more comprehensive update in July.",
+    "margin": "Adjusted pretax profit margin of 51.4%.",
+    "key_risks": [
+      "Continued market volatility could influence client cash allocations.",
+      "Typical drawdown in client cash due to tax payments in April.",
+      "Revenue per trade declined due to smaller trade sizes and less conviction in volatile markets."
+    ],
+    "key_opportunities": [
+      "Record client growth: 1.3 million new brokerage accounts, $158 billion core net new assets (excluding one-time outflow).",
+      "AI initiatives: launching AI assistants, portfolio insights, and generative search to drive scale, efficiency, and future monetization.",
+      "Spot crypto offering (bitcoin and ether) launching to clients in coming weeks.",
+      "ETF monetization strategy being negotiated with asset managers, expected to be live by year-end.",
+      "Managed investing net flows up 46% year-over-year to an all-time record.",
+      "Bank lending up 29% year-over-year with record balances."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used phrases like 'strong momentum,' 'record financial results,' 'uniquely capable,' and 'incredibly well positioned,' and explicitly raised forward EPS expectations above prior guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was a record $6.5 billion, up 16% year-over-year.",
+      "quote": "Revenue increased 16% year-over-year to a record $6.5 billion for 1Q",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $1.43, up 38% year-over-year.",
+      "quote": "first quarter adjusted earnings per share reached a record $1.43, a year-over-year increase of 38%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management raised forward EPS guidance above the prior scenario.",
+      "quote": "Given our strong performance in 1Q and based on what we see today in terms of the expected path of rates and strong client engagement, we are tracking higher than the $5.70 to $5.80 EPS range implied by the scenario we shared back at the winter business update in January, which excluded the impact of buybacks and Forge.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted pretax profit margin was 51.4%.",
+      "quote": "Record quarterly revenue combined with balanced expense management, resulted in an adjusted pretax profit margin of 51.4%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record client growth: 1.3 million new brokerage accounts and $158 billion core net new assets.",
+      "quote": "Clients opened 1.3 million brokerage accounts up 10% over last year. Excluding a onetime mutual fund clearing outflow, we attracted $158 billion in core net new assets, a first quarter record",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI initiatives are being launched to drive scale, efficiency, and future monetization.",
+      "quote": "We are confident that we are incredibly well positioned to continue unlocking the benefits AI can bring to our clients and our business, including, one, enhancing the client experience... two, increasing productivity and efficiency... three, create future monetization opportunities with AI-powered capabilities that clients value.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Spot crypto offering (bitcoin and ether) launching to clients in coming weeks.",
+      "quote": "I'm excited to share that the employee pilot is underway, and we expect the phased client rollout will begin in the coming weeks. We are starting with the two most popular coins, bitcoin and ether",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ETF monetization strategy expected to be live by year-end.",
+      "quote": "We've been in negotiation with the 400-plus asset managers or so that are on our platform, and those are going well. We've started with the big firms and knock those out. So we feel really good about by the end of the year, having an ETF monetization strategy in place and live.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Managed investing net flows up 46% year-over-year to an all-time record.",
+      "quote": "Managed investing net flows were up 46%, reaching an all-time record.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Bank lending up 29% year-over-year with record balances.",
+      "quote": "Bank lending was up 29% year-over-year with bank product balances and pledged asset line balances reaching all-time records.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue per trade declined due to smaller trade sizes and less conviction.",
+      "quote": "they are taking smaller positions, holding them for less duration because they have less conviction. And so they are trading more frequently as a result. But because they're smaller trades, they're generating less revenue per trade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we have strong momentum as we head into the second quarter, and we're well positioned to deliver earnings growth through the cycle.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued market volatility could influence client cash allocations.",
+      "quote": "Beyond seasonal considerations, continued market volatility could influence client cash allocations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Typical drawdown in client cash due to tax payments in April.",
+      "quote": "For the second quarter, we still anticipate the typical drawdown in client cash due to tax payments in April.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is described as 'tracking higher' rather than a formal new range; the exact magnitude of the raise is not quantified. A human reviewer may want to assess whether this qualifies as a material guidance raise or a softer indication."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SCHW_Bundled Earnings Report_2026-04-15",
+  "report_metadata": {
+    "issuer": "p2_charles_schwab",
+    "company": "Charles Schwab",
+    "ticker": "SCHW",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-15",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2026-Q1\\SCHW-Q1-2026-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2026-Q1\\SCHW-Q1-2026-Press-Release-SEC-EX991.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SCHW_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T172436Z",
+    "timestamp": "2026-07-30T17:25:49Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2026-Q1\\SCHW-Q1-2026-earnings-call-transcript-InsiderMonkey.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2026-Q1\\SCHW-Q1-2026-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 66059,
+        "extractor_used": "html.parser",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\charles_schwab\\CY2026-Q1\\SCHW-Q1-2026-Press-Release-SEC-EX991.htm",
+        "page_count": 1,
+        "extracted_characters": 35085,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_charles_schwab\\extracted\\SCHW_FQ1_2026.txt"
+  }
+}

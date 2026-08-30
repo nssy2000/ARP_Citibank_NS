@@ -1,0 +1,195 @@
+{
+  "document_id": "NFLX_FQ2_2024",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Netflix raised its full-year operating margin guidance from 25% to 26%, a meaningful upward revision, and management expressed confidence in sustaining healthy revenue growth and margin expansion for years to come. The guidance raise is organic, driven by strong content performance and operational improvements, not attributed to one-time items or FX. While advertising is not yet a primary revenue driver, the company is scaling its ads business and sees it as a multi-year opportunity, and engagement among owner households is up year-over-year, indicating genuine momentum."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "17% reported revenue growth in Q2 2024.",
+    "eps": "Not disclosed",
+    "guidance": "Full-year operating margin guidance raised from 25% to 26%. Free cash flow forecast unchanged at approximately $6 billion. Management expects to grow margins each year and sustain healthy revenue growth.",
+    "margin": "Operating margin up 5 percentage points year over year, targeting 26% full-year operating income margin.",
+    "key_risks": [
+      "Advertising is not yet a primary revenue driver and ads ARM is currently lower than non-ads ARM due to rapid scaling.",
+      "Engagement headwinds from paid sharing conversion, though owner household engagement is now up year-over-year.",
+      "Competition for entertainment is intense, and Netflix competes for every second of view time.",
+      "Uncertainty in timing of content spend and taxes could impact free cash flow."
+    ],
+    "key_opportunities": [
+      "Scaling advertising business: ads member base growing rapidly, on track to achieve critical scale goals in all ads countries by 2025.",
+      "New homepage redesign: biggest update in a decade, expected to improve discovery and engagement.",
+      "Live events and sports: NFL games, WWE, and other live events driving engagement and advertiser interest.",
+      "Gaming initiative: engagement tripled in 2023, with aggressive growth targets for 2025 and 2026.",
+      "International content: strong performance in India, UK, France, Spain, Korea, and other markets, with local content becoming global hits.",
+      "Generative AI: potential to improve recommendations and discovery."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly used phrases like 'pleased with our performance,' 'strong performance across the board,' 'we see a lot of room to continue to grow profit margin,' and 'we're excited' about upcoming content and initiatives, conveying a confident outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue grew 17% reported in Q2 2024.",
+      "quote": "17% reported revenue growth and margins that were up 5 percentage points year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating margin guidance raised from 25% to 26%.",
+      "quote": "As you see in the letter, we're now targeting 26% full year operating income margin. That's up from our prior guide of 25%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow forecast unchanged at approximately $6 billion.",
+      "quote": "We continue to expect approximately 6 billion of free cashflow for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin up 5 percentage points year over year.",
+      "quote": "17% reported revenue growth and margins that were up 5 percentage points year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects to grow margins each year.",
+      "quote": "We're committed to grow margins each year. And we see a lot of room to continue to grow profit margin, absolute profit dollars, and do that over an extended period of time for years to come.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising is not yet a primary revenue driver.",
+      "quote": "We won't have it be primary in '24 or '25, but it contributes. It's a meaningful contributor.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ads ARM is currently lower than non-ads ARM.",
+      "quote": "Currently our ads ARM is lower than our non ads ARM.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement headwinds from paid sharing, but owner household engagement is up year-over-year.",
+      "quote": "That segment's engagement is actually not just steady but up year on year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competition for entertainment is intense.",
+      "quote": "Competition for entertainment is super intense. And we compete for every second of view time we get.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertainty in timing of content spend and taxes could impact free cash flow.",
+      "quote": "There's always some uncertainty in terms of timing of things like content spend, sometimes timing of taxes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ads member base growing rapidly, on track to achieve critical scale goals in all ads countries by 2025.",
+      "quote": "We're on track to achieve our critical scale goals for all of our ads countries in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New homepage redesign is the biggest update in a decade.",
+      "quote": "This is the biggest update in a decade, which sounds meaningful.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live events and sports driving engagement and advertiser interest.",
+      "quote": "We're in live because our members love it, and it drives a ton of engagement and it drives a ton of excitement. And those two things are very valuable. So, the good thing is that advertisers like that, too.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gaming engagement tripled in 2023.",
+      "quote": "We tripled that engagement, we're looking good in our engagement growth in '24.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International content performing well in multiple markets.",
+      "quote": "India's growth is a story that we see around the world playing out very similarly.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Generative AI has potential to improve recommendations.",
+      "quote": "We think the generative AI has, you know, tremendous potential to improve our recommendations and discovery systems even further.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We're pleased with our performance in Q2. There were strong performance across the board, good momentum across the business, strong revenue growth, member growth, and profit growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.eps",
+      "reason": "EPS was not disclosed in the document; this is a notable omission for an earnings call transcript."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2024-07-18",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ2 2024",
+    "report_date": "2024-07-18",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2024-Q2\\nflx-2q24-transcript.html",
+        "pub_date": "2024-07-18"
+      }
+    ],
+    "document_id": "NFLX_FQ2_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T145602Z",
+    "timestamp": "2026-07-08T14:58:06Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2024-Q2\\nflx-2q24-transcript.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ2_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2024-Q2\\nflx-2q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 54064,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ2_2024.txt"
+  }
+}

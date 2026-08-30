@@ -1,0 +1,214 @@
+{
+  "document_id": "TGT_FQ3_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: full-year adjusted EPS guidance was narrowed to the bottom half of the prior range ($7.00-$8.00 vs. prior $7.00-$8.00 but described as 'bottom half of the prior range'), and Q4 comparable sales guidance is for a low-single-digit decline, unchanged from prior but still negative. Management explicitly states they are 'far from satisfied' and that the business 'has not been performing up to its potential.' The tone is cautious and defensive, with no positive inflection in forward expectations."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 net sales were $25.3 billion, 1.5% lower than 2024. Comparable sales decreased 2.7%.",
+    "eps": "Q3 GAAP EPS was $1.51 vs. $1.85 last year. Adjusted EPS was $1.78, about 4% lower than a year ago.",
+    "guidance": "Full-year adjusted EPS guidance narrowed to $7.00-$8.00 (bottom half of prior range). Q4 comparable sales expected to decline low-single digits. 2026 CapEx expected to increase by ~$1 billion to $5 billion.",
+    "margin": "Q3 gross margin rate was 28.2%, about 10 bps lower than last year. Operating income margin rate was 3.8% (GAAP) or 4.4% (adjusted).",
+    "key_risks": [
+      "Continued softness in discretionary categories like Home and Apparel",
+      "Consumer sentiment at a three-year low amid concerns about jobs, affordability, and tariffs",
+      "Volatility in weekly and monthly sales trends",
+      "Uncertainty in the external environment",
+      "September sales hampered by unusually warm weather",
+      "Higher markdowns pressuring gross margin"
+    ],
+    "key_opportunities": [
+      "Fun 101 (Hardlines) delivered growth, led by nearly 10% comp in toys",
+      "Food & Beverage delivered comp growth, with beverages up nearly 7%",
+      "Same-day delivery powered by Target Circle 360 grew more than 35%",
+      "Target Plus marketplace GMV grew nearly 50%",
+      "Roundel ad sales grew mid-teens",
+      "Planned $5 billion CapEx in 2026 for new stores, remodels, and technology",
+      "AI-enabled tools like Target Trend Brain and synthetic audiences to accelerate trend identification",
+      "Expansion of next-day shipping to more than half of US population"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly states they are 'far from satisfied' and 'not yet where we want to be,' and the CEO describes the business as 'not performing up to its potential,' reflecting a cautious and self-critical tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 net sales were $25.3 billion, 1.5% lower than 2024.",
+      "quote": "Third quarter net sales were $25.3 billion, 1.5 percent lower than 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales decreased 2.7% in Q3.",
+      "quote": "Comparable sales decreased 2.7 percent in the third quarter, reflecting a comparable store sales decline of 3.8 percent, partially offset by comparable digital sales growth of 2.4 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 GAAP EPS was $1.51 vs. $1.85 last year.",
+      "quote": "Third quarter GAAP EPS was $1.51 compared with $1.85 last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS was $1.78, about 4% lower than a year ago.",
+      "quote": "Adjusted EPS, which excluded business transformation costs, was $1.78 in the third quarter, about 4% lower than a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS guidance was narrowed to the bottom half of the prior range ($7.00-$8.00).",
+      "quote": "we've narrowed our full-year EPS ranges and moved our adjusted EPS range to the bottom half of the prior range. ... On the adjusted EPS line, our updated range is from $7 to $8 for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 comparable sales expected to decline low-single digits.",
+      "quote": "on the top line for the fourth quarter, we're continuing to expect a low-single-digit decline in our comparable sales, in line with our year-to-date performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 CapEx expected to increase by ~$1 billion to $5 billion.",
+      "quote": "we'll be increasing our CapEx plans for next fiscal year, spending about $5 billion, about $1 billion more than this year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 gross margin rate was 28.2%, about 10 bps lower than last year.",
+      "quote": "On the gross margin line, our Q3 rate of 28.2% was about 10 basis points lower than last year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income margin rate was 3.8% (GAAP) or 4.4% (adjusted).",
+      "quote": "Third quarter operating income margin rate, which includes the impact of non-recurring items, was 3.8 percent in 2025, compared with 4.6 percent in 2024. Excluding those non-recurring items, operating margin rate was 4.4 percent in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "we're far from satisfied with our current results, and we won't be satisfied until we're operating at our full potential.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance was reduced relative to prior guidance.",
+      "quote": "we've narrowed our full-year EPS ranges and moved our adjusted EPS range to the bottom half of the prior range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management explicitly states the business has not been performing up to its potential.",
+      "quote": "our business has not been performing up to its potential over the last few years",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer sentiment is at a three-year low.",
+      "quote": "Sentiment is at a three-year low amid concerns about jobs, affordability, and tariffs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fun 101 delivered growth, led by nearly 10% comp in toys.",
+      "quote": "Fun 101 delivered another quarter of growth, led by a nearly 10% comp in toys",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day delivery grew more than 35%.",
+      "quote": "same-day delivery powered by Target Circle 360, where sales grew more than 35% again this past quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Target Plus marketplace GMV grew nearly 50%.",
+      "quote": "we saw a significant step-up to nearly 50% growth in GMV of our Target Plus marketplace",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Roundel ad sales grew mid-teens.",
+      "quote": "mid-teens growth in Roundel ad sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance reduction is modest (narrowed to bottom half of range, not a full cut), and the score of -0.50 may be slightly aggressive. A human reviewer should confirm whether the tone and guidance reduction warrant this level of bearishness."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2025-11-19",
+  "report_metadata": {
+    "issuer": "p2_target",
+    "company": "Target",
+    "ticker": "TGT",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-11-19",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q3\\TGT-Transcript-2025-11-19-2.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q3\\TGT-Q3-2025-Press-Release-SEC-EX99.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "TGT_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T175026Z",
+    "timestamp": "2026-07-30T17:51:22Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q3\\TGT-Transcript-2025-11-19-2.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q3\\TGT-Transcript-2025-11-19-2.pdf",
+        "page_count": 18,
+        "extracted_characters": 71504,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\target\\phase2\\CY2025-Q3\\TGT-Q3-2025-Press-Release-SEC-EX99.htm",
+        "page_count": 1,
+        "extracted_characters": 23823,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_target\\extracted\\TGT_FQ3_2025.txt"
+  }
+}

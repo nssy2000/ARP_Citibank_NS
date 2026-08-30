@@ -1,0 +1,240 @@
+{
+  "document_id": "CMCSA_FQ2_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports solid but mixed results: Adjusted EPS grew 3.3%, but Adjusted Net Income declined 1.7%, and total domestic broadband customers declined by 226,000. Management did not raise formal guidance; instead, they provided a cautious forward outlook, explicitly stating that the new go-to-market strategy 'would impact our ability to grow EBITDA this year' and that ARPU growth is expected to 'moderate in the near term.' While there is genuine operational momentum in wireless (best quarter ever with 378,000 net additions) and Theme Parks (Epic Universe opening), the forward guidance is held flat with explicit near-term headwinds, which prevents a score above the +0.15 BUY threshold. The score reflects a mixed quarter with some positive operational inflections but a cautious, non-raised forward outlook."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Revenue increased 2.1% to $30,313 million for the second quarter of 2025, compared to $29,688 million in the prior year period.",
+    "eps": "Earnings per Share (EPS) increased to $2.98, compared to $1.00 in the prior year period. Adjusted EPS increased 3.3% to $1.25.",
+    "guidance": "Management did not provide formal quantitative guidance. However, they stated that the new go-to-market strategy 'would impact our ability to grow EBITDA this year' and that broadband ARPU growth is expected to 'moderate in the near term' as customers are transitioned to new pricing. They also expect continued acceleration in wireless net additions and a 'tough comparison' in Q3 2025 due to the Paris Olympics.",
+    "margin": "Consolidated Adjusted EBITDA margin was not explicitly stated, but Connectivity & Platforms Adjusted EBITDA margin was 41.8%, Residential Connectivity & Platforms was 39.8%, and Business Services Connectivity was 56.1%.",
+    "key_risks": [
+      "Intense competitive environment in broadband, including fixed wireless and fiber competitors.",
+      "Total domestic broadband customer net losses were 226,000 in the quarter.",
+      "The new go-to-market strategy is expected to impact the company's ability to grow EBITDA in 2025.",
+      "Broadband ARPU growth is expected to moderate in the near term due to the rollout of new everyday pricing.",
+      "Media advertising revenue decreased 7% due to the volume and timing of sports and tough political comparisons.",
+      "Theme Parks EBITDA growth was limited to 4% due to soft opening costs at Epic Universe.",
+      "Pressure in Hollywood theme parks is expected to continue for a couple more quarters.",
+      "Higher sports programming expenses are expected, particularly in the first year of the NBA contract."
+    ],
+    "key_opportunities": [
+      "Wireless business had its best quarter ever, adding 378,000 lines, reaching 14% penetration of domestic residential broadband customers.",
+      "Successful opening of Epic Universe, which is driving higher per-cap spending and attendance across Universal Orlando Resort.",
+      "Record-breaking Upfront results for NBCUniversal, with Peacock up more than 20% year-over-year.",
+      "New MVNO agreement with T-Mobile to expand mobile product offer to business customers.",
+      "Estimated roughly $1 billion in annual cash tax benefit for the next several years due to recent tax legislation.",
+      "Strong performance from theatrical releases like 'How to Train Your Dragon' and 'Jurassic World Rebirth'."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed confidence in the company's strategic direction and early progress, with Brian Roberts stating, 'we are well-positioned for the future and confident in our path forward,' while also acknowledging near-term headwinds like the competitive environment and the impact of the go-to-market pivot on EBITDA growth."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue increased 2.1% to $30,3 billion for the second quarter of 2025.",
+      "quote": "Revenue increased 2.1% compared to the prior year period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EPS increased 3.3% to $1.25.",
+      "quote": "Adjusted Earnings per Share $1.25 $1.21 3.3 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The new go-to-market strategy is expected to impact EBITDA growth in 2025.",
+      "quote": "EBITDA was flat in the quarter, consistent with comments we made last quarter that our new go-to-market strategy would impact our ability to grow EBITDA this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Broadband ARPU growth is expected to moderate in the near term.",
+      "quote": "Looking ahead, we continue to expect healthy broadband ARPU growth over the balance of the year, although the rollout of our new everyday pricing structure at the end of the second quarter is expected to moderate ARPU growth in the near term as we begin transitioning customers to more consistent and predictable pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company experienced total domestic broadband customer net losses of 226,000.",
+      "quote": "Total domestic broadband customer net losses were 226,000, total domestic wireless line net additions were 378,000 and total domestic video customer net losses were 325,000.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The wireless business had its best quarter ever, adding 378,000 lines.",
+      "quote": "Domestic Wireless Customer Line Net Additions Were 378,000, the Best Quarterly Result on Record; Reached 14% Penetration of Our Domestic Residential Broadband Customers with a Total of 8.5 Million Lines",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The opening of Epic Universe is driving higher per-cap spending and attendance across Universal Orlando Resort.",
+      "quote": "We're pleased with the early results as Epic is already driving higher per-cap spending and attendance across the entirety of Universal Orlando Resort, with strong food and merchandise sales and minimal impact on attendance at Universal Studios Florida and Islands of Adventure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company had record-breaking Upfront results.",
+      "quote": "We just closed our most successful Upfront ever, with record total sales and our largest sports commitments to date. Peacock was a standout, up more than 20% year over year and representing over a third of NBCUniversal's total volume.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects a roughly $1 billion annual cash tax benefit for the next several years.",
+      "quote": "As a result of all of that, there are several things in the legislation that benefit us. And we estimate on average roughly $1 billion in annual cash tax benefit for the next several years, with much of the benefit relating to infrastructure investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the company's path forward.",
+      "quote": "With our strategic focus, world-class assets, and disciplined capital allocation, we are well-positioned for the future and confident in our path forward.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The competitive environment in broadband remains intense.",
+      "quote": "Starting with the competitive landscape, it remains intense, as we've noted. Fixed wireless remains very active in the marketplace. Fiber competitors continue to build more passings.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Media advertising revenue decreased 7%.",
+      "quote": "In Media, total Advertising revenue was down 7% in part due to the volume and timing of sports content, as well as tough political comparisons.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Theme Parks EBITDA growth was limited to 4% due to soft opening costs.",
+      "quote": "At Parks, revenue increased 19% this quarter, driven by the successful opening of Epic Universe on May 22nd, while EBITDA growth was limited to 4% due to soft opening costs at the new park.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects a tough comparison in Q3 2025 due to the Paris Olympics.",
+      "quote": "Looking ahead to the third quarter, we will have a tough comparison to the very successful Paris Olympics, but feel well positioned over the next year given our strong line-up of content.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects higher sports programming expenses, particularly in the first year of the NBA contract.",
+      "quote": "The impact of this price increase, combined with the strong Upfront results I just discussed, help position us in the fourth quarter as we launch the NBA and take on higher sports program expenses particularly in the first year of the NBA contract when we absorb the full impact of adding these new rights.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Connectivity & Platforms Adjusted EBITDA margin was 41.8%.",
+      "quote": "Total Connectivity & Platforms Adjusted EBITDA Margin 41.8 % 41.9 % (10) bps 20 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Residential Connectivity & Platforms Adjusted EBITDA margin was 39.8%.",
+      "quote": "Residential Connectivity & Platforms Adjusted EBITDA Margin 39.8 % 39.9 % (10) bps 20 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business Services Connectivity Adjusted EBITDA margin was 56.1%.",
+      "quote": "Business Services Connectivity Adjusted EBITDA Margin 56.1 % 57.0 % (90) bps (80) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is a judgment call balancing positive operational momentum (wireless, parks) against a cautious, non-raised forward outlook and explicit near-term headwinds. A reviewer may weigh the 'best quarter ever' wireless performance and Epic Universe opening more heavily, potentially pushing the score above the +0.15 BUY threshold."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document does not provide formal quantitative guidance. The summary is based on qualitative statements about expected trends and headwinds. A reviewer should verify this interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CMCSA_Bundled Earnings Report_2025-07-30",
+  "report_metadata": {
+    "issuer": "p2_comcast_corporation",
+    "company": "Comcast Corporation",
+    "ticker": "CMCSA",
+    "sector": "Communication Services/Telecom Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q2\\2q25_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q2\\CMCSA-USQ_Transcript_2025-07-31.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CMCSA_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095557Z",
+    "timestamp": "2026-08-09T09:56:37Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_comcast_corporation\\extracted\\CMCSA_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 39144,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q2\\2q25_earnings_presentation.pdf",
+        "page_count": 16,
+        "extracted_characters": 14621,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\comcast_corporation\\CY2025-Q2\\CMCSA-USQ_Transcript_2025-07-31.pdf",
+        "page_count": 16,
+        "extracted_characters": 60379,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_comcast_corporation\\extracted\\CMCSA_FQ2_2025.txt"
+  }
+}

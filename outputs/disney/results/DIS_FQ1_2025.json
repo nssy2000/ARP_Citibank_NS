@@ -1,0 +1,176 @@
+{
+  "document_id": "DIS_FQ1_2025",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows strong Q1 results with streaming profitability growth and high confidence in Experiences guidance, but full-year guidance is reaffirmed unchanged. Management expresses optimism about streaming and ESPN flagship but remains cautious about changing guidance due to macro uncertainty. The score reflects genuine operational momentum without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed",
+    "eps": "Not disclosed",
+    "guidance": "Full-year guidance for Experiences is reaffirmed at 6-8% growth; DTC profitability expected to be a little over $1 billion for the full year; low single-digit OI growth for fiscal 2026 for ESPN; high single-digit earnings growth for the year.",
+    "margin": "Not disclosed",
+    "key_risks": [
+      "Rapidly evolving macro environment cited as reason for not changing guidance",
+      "Potential impact from cord-cutting and emergence of skinnier bundles",
+      "NBA contract step-up in rights costs next year"
+    ],
+    "key_opportunities": [
+      "Streaming profitability growth: DTC made $300 million in Q1, expected to exceed $1 billion for the year",
+      "ESPN flagship launch in fall 2025 expected to drive growth",
+      "Paid sharing and technology enhancements to drive subscriber growth",
+      "Strong film slate and content pipeline",
+      "Experiences business with strong Q1 and positive bookings for summer"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'we're very encouraged by our results this quarter' and 'level of confidence in the Experiences guide is high,' reflecting a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year guidance for Experiences is reaffirmed at 6-8% growth.",
+      "quote": "We had said Experiences would be up six to eight on the year. The strong Q1 increases our level of confidence in the guide, for sure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "DTC profitability expected to be a little over $1 billion for the full year.",
+      "quote": "We made $300 million in the quarter. For the full year, our expectation is to be a little over $1 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Low single-digit OI growth for fiscal 2026 for ESPN.",
+      "quote": "you've guided to low single-digit OI growth in fiscal '26 on top of 13% growth this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "High single-digit earnings growth for the year.",
+      "quote": "you have guidance for high single-digit earnings growth for the year, started out with earnings growth of over 40% in the first quarter here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rapidly evolving macro environment cited as reason for not changing guidance.",
+      "quote": "given the rapidly evolving macro environment, we think it would be premature at this point to change the guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential impact from cord-cutting and emergence of skinnier bundles.",
+      "quote": "I can't predict whether the emergence of these skinnier bundles is going to have a material impact on cord-cutting or not",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NBA contract step-up in rights costs next year.",
+      "quote": "you're obviously going to see a step-up in rights costs for the NBA next year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Streaming profitability growth: DTC made $300 million in Q1.",
+      "quote": "We made $300 million in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN flagship launch in fall 2025 expected to drive growth.",
+      "quote": "The plan will be to launch it sometime toward the -- in the fall of this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Paid sharing and technology enhancements to drive subscriber growth.",
+      "quote": "our expectation is, particularly as paid sharing starts to take hold, and as we add more of the movie slate that we produced in the back half of '24 into the streaming service in '25, we think that content will drive sub growth as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong film slate and content pipeline.",
+      "quote": "We had the top 3 movies of 2024 at the global box office, and I want to thank and congratulate our creative teams on such an incredible year. Looking at the rest of the calendar year, we have a lot more to come with an exciting slate of theatrical releases tied to some of our most popular IP.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences business with strong Q1 and positive bookings for summer.",
+      "quote": "Bookings are up in the summer right now. So certainly feeling positive.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we're very encouraged by our results this quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "Revenue figure not disclosed in the document; only qualitative commentary about performance."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS figure not disclosed in the document; only earnings growth commentary."
+    },
+    {
+      "field": "summary.margin",
+      "reason": "Margin commentary not disclosed in the document."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 3,
+    "not_disclosed_count": 3
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2025-02-05",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-02-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q1\\Transcript-Q1-FY25.pdf"
+      }
+    ],
+    "document_id": "DIS_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260706T101643Z",
+    "timestamp": "2026-07-06T10:16:58Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q1\\Transcript-Q1-FY25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q1\\Transcript-Q1-FY25.pdf",
+        "page_count": 2,
+        "extracted_characters": 36379,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ1_2025.txt"
+  }
+}

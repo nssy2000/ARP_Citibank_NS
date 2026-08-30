@@ -1,0 +1,156 @@
+{
+  "document_id": "NVO_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The company reduced its full-year sales and operating profit guidance compared to its own prior guidance issued in February 2025. Sales growth at CER was lowered from 16-24% to 13-21%, and operating profit growth at CER was lowered from 19-27% to 16-24%. The reduction is attributed to lower-than-planned branded GLP-1 penetration in the US impacted by compounding, a structural headwind. While management expressed confidence in second-half initiatives, the forward guidance cut is the dominant signal."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "DKK 78,087 million in Q1 2025, an increase of 19% as reported and 18% at constant exchange rates (CER).",
+    "eps": "Diluted earnings per share of DKK 6.53, an increase of 15%.",
+    "guidance": "Sales growth at CER now expected to be 13% to 21% (previously 16% to 24%). Operating profit growth at CER now expected to be 16% to 24% (previously 19% to 27%).",
+    "margin": "Gross margin decreased to 83.5% from 84.8% in Q1 2024. Operating margin was 49.7%.",
+    "key_risks": [
+      "Lower-than-planned penetration of branded GLP-1 treatments in the US, impacted by compounded GLP-1s.",
+      "Periodic supply constraints and related drug shortage notifications for certain products and geographies.",
+      "Potential implications from major healthcare reforms, legislative changes, taxation changes (including tariffs), and outcome of legal cases.",
+      "Currency exchange rate fluctuations, especially the USD/DKK rate.",
+      "Uncertainty regarding the estimation of gross-to-net developments in the US."
+    ],
+    "key_opportunities": [
+      "Completion of the REDEFINE 2 trial for CagriSema, with regulatory filing expected in Q1 2026.",
+      "Submission of oral semaglutide 25 mg for obesity to the US FDA, with potential to be the first oral GLP-1 treatment for obesity.",
+      "Submission of once-weekly semaglutide 2.4 mg for MASH, granted priority review in the US.",
+      "Continued global roll-out of Wegovy to more markets.",
+      "Initiatives to expand access to Wegovy in the US, including NovoCare Pharmacy, telehealth collaborations, and the CVS formulary decision."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "The CEO acknowledges a guidance cut due to compounding headwinds ('we have reduced our full-year outlook due to lower-than-planned branded GLP-1 penetration') but expresses confidence in the plan to counter it ('I feel honestly very confident that we... are the right moment for us to make a serious change in the market')."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was DKK 78,087 million in Q1 2025, up 19% as reported and 18% at CER.",
+      "quote": "Novo Nordisk's sales increased by 19% in Danish kroner and by 18% at constant exchange rates to DKK 78.1 billion in the first three months of 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was DKK 6.53, an increase of 15%.",
+      "quote": "Diluted earnings per share (in DKK) 6.53 5.68 15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year sales growth guidance at CER was reduced from 16-24% to 13-21%.",
+      "quote": "Sales growth is now expected to be 13% to 21% at CER. ... The updated sales outlook at CER reflects lower-than-planned penetration of branded GLP-1 treatments in the US, impacted by compounded GLP-1s.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating profit growth guidance at CER was reduced from 19-27% to 16-24%.",
+      "quote": "Operating profit growth is now expected to be 16% to 24% at CER. ... The updated expectation for operating profit growth primarily reflects the lower sales growth outlook, partially countered by reduced spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin decreased to 83.5% from 84.8%.",
+      "quote": "The cost of goods sold increased by 30% measured in Danish kroner and by 27% at CER to DKK 12,890 million, resulting in a gross margin of 83.5%, measured in Danish kroner, compared with 84.8% in the first quarter of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key risk is lower-than-planned branded GLP-1 penetration in the US due to compounding.",
+      "quote": "The updated sales outlook at CER reflects lower-than-planned penetration of branded GLP-1 treatments in the US, impacted by compounded GLP-1s.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key opportunity is the completion of the REDEFINE 2 trial for CagriSema.",
+      "quote": "Within R&D, Novo Nordisk completed the REDEFINE 2 trial, where CagriSema demonstrated superior weight loss of 15.7% in adults with obesity or overweight and type 2 diabetes. Novo Nordisk still expects to file for the first regulatory approval of CagriSema during the first quarter of 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed, acknowledging a guidance cut but expressing confidence in the plan.",
+      "quote": "CEO: 'we have reduced our full-year outlook due to lower-than-planned branded GLP-1 penetration, which is impacted by the rapid expansion of compounding in the US. ... I feel honestly very confident that we... are the right moment for us to make a serious change in the market.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on the guidance cut. However, the company also reported strong Q1 growth (18% sales, 20% OP) and has several positive catalysts (CagriSema, oral sema, MASH). A reviewer may consider whether the positive operational momentum and pipeline progress should moderate the negative score slightly, though the guidance cut is the dominant forward-looking signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 8,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NVO_Bundled Earnings Report_2025-05-07",
+  "report_metadata": {
+    "issuer": "p2_novo_nordisk",
+    "company": "Novo Nordisk",
+    "ticker": "NVO",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-05-07",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q1\\NVO-Q1-2025-FinancialReport.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q1\\NVO-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NVO_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174326Z",
+    "timestamp": "2026-07-30T17:43:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q1\\NVO-Q1-2025-FinancialReport.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_novo_nordisk\\extracted\\NVO_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q1\\NVO-Q1-2025-FinancialReport.pdf",
+        "page_count": 36,
+        "extracted_characters": 106224,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q1\\NVO-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 66960,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_novo_nordisk\\extracted\\NVO_FQ1_2025.txt"
+  }
+}

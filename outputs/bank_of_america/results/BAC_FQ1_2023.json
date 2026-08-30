@@ -1,0 +1,233 @@
+{
+  "document_id": "BAC_FQ1_2023",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong quarter with revenue up 13% YoY and EPS up 18% YoY, but forward guidance is cautious: NII is expected to decline ~2% in Q2, expenses are guided lower but with headwinds, and management explicitly flags a 'shallow recession' expected in Q3 2023. The CET1 ratio improved and capital return continued, but the forward outlook is tempered by expected deposit declines and credit normalization. The score is at the low end of the positive range because the backward-looking beat is strong but forward guidance is not raised and includes explicit caution."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Revenue, net of interest expense, increased 13% to $26.3 billion for Q1 2023, compared to $23.2 billion in Q1 2022.",
+    "eps": "Diluted earnings per share of $0.94, up 18% from $0.80 in Q1 2022.",
+    "guidance": "NII on an FTE basis expected to be around 2% lower in Q2 2023 compared to Q1 2023, approximately $14.3 billion. Expenses expected to be around $15.8 billion in Q2, with continued sequential declines in Q3 and Q4. Full-year expense target of ~$62.5 billion reaffirmed. Consensus NII estimate of ~$57 billion for full year 2023, implying 7-8% growth, management expressed comfort but did not formally guide.",
+    "margin": "Efficiency ratio of 62% for Q1 2023, improved from 66% in Q1 2022. Net interest yield (FTE) of 2.20%, up 51 bps YoY. Return on average common shareholders' equity of 12.5%; return on average tangible common shareholders' equity of 17.4%.",
+    "key_risks": [
+      "Expected shallow recession beginning in Q3 2023 as per company's research team.",
+      "Net charge-offs normalizing from historic lows, with credit card loss rate rising to 2.21% from 1.71% in Q4 2022.",
+      "Deposit balances expected to decline further due to Fed balance sheet reduction, seasonal tax payments, and rotation to interest-bearing accounts.",
+      "NII expected to decline ~2% in Q2 2023 due to deposit movements and lower Global Markets NII.",
+      "Commercial real estate office portfolio has $3.7B reservable criticized exposure and potential for further property value declines.",
+      "Higher FDIC expense and continued investment costs pressuring expenses."
+    ],
+    "key_opportunities": [
+      "Strong organic growth: record ~14,500 net new GWIM relationships, ~130,000 net new consumer checking accounts, 1.3 million credit card accounts.",
+      "Sales and trading revenue up 9% ex-DVA, with FICC up 29% — second highest quarterly sales and trading revenue in a decade.",
+      "Global Transaction Services revenue up 47% to $3.1 billion.",
+      "CET1 ratio improved to 11.4%, providing 100 bps buffer above current minimum, enabling continued capital return.",
+      "Digital engagement growth: record 45 million active digital banking users, 3.1 billion digital logins, up 13%.",
+      "Consumer investment accounts at record 3.6 million, with $37 billion net client flows since Q1 2022."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'Every business segment performed well as we grew client relationships and accounts organically and at a strong pace' and CFO Alastair Borthwick said 'The value of responsible growth is evidenced again in our first quarter financial performance with 15% net income growth compared to Q1-22', reflecting confidence in the company's performance and strategy despite acknowledging a challenging environment."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue increased 13% to $26.3 billion.",
+      "quote": "Revenue, net of interest expense, increased 13% to $26.3 billion – Net interest income (NII)(D) up $2.9 billion, or 25%, to $14.4 billion driven by benefits from higher interest rates and solid loan growth – Noninterest income of $11.8 billion increased $154 million, or 1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS of $0.94, up 18% YoY.",
+      "quote": "Net income rose 15% to $8.2 billion, or $0.94 per diluted share, compared to $7.1 billion, or $0.80 per diluted share for Q1-22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII expected to decline ~2% in Q2 2023.",
+      "quote": "Looking forward, based on everything we know about interest rates and customer behavior, we expect second quarter NII on an FTE basis to be around 2% lower compared to Q1. So, think about that NII as about $14.3 billion FTE, plus or minus",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expenses expected to be around $15.8 billion in Q2 2023.",
+      "quote": "So, we expect expense in Q2 to be around $400 million or $500 million lower than Q1, so think of that as around $15.8 billion, plus or minus, in Q2.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved to 62% from 66%.",
+      "quote": "efficiency ratio of 62%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) of 2.20%, up 51 bps YoY.",
+      "quote": "Net interest yield of 2.20% increased 51 bps YoY and decreased 2 bps from 4Q22",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROTCE of 17.4% and ROE of 12.5%.",
+      "quote": "Return on average common shareholders' equity ratio of 12.5%; return on average tangible common shareholders' equity ratio of 17.4%8",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shallow recession expected in Q3 2023.",
+      "quote": "And, remember, our research team continues to predict a shallow recession that will occur beginning in the quarter three of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net charge-offs normalizing, credit card loss rate 2.21%.",
+      "quote": "Net charge-offs of $807 million increased $118 million from the fourth quarter. That increase was driven by credit card losses as higher late-stage delinquencies flowed through to charge-offs. For context, the credit card net charge-off rate was 2.21% in this first quarter and that compares to 3.03% in the fourth quarter of ’19 pre-pandemic.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record organic growth in consumer and wealth management.",
+      "quote": "Added record ~14,500 net new relationships across Merrill and Private Bank, up 88% in Q1-23",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue up 9% ex-DVA, FICC up 29%.",
+      "quote": "Excluding net DVA(H), sales and trading revenue up 9% to $5.1 billion; FICC up 29% to $3.4 billion; Equities down 19% to $1.6 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Transaction Services revenue up 47%.",
+      "quote": "Global Transaction Services revenue of $3.1 billion, up $1.0 billion or 47%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio improved to 11.4%.",
+      "quote": "Common equity tier 1 (CET1) ratio of 11.4% (Standardized) increased 14 bps from Q4-22(G)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "From Chair and CEO Brian Moynihan: 'Every business segment performed well as we grew client relationships and accounts organically and at a strong pace. Led by 13% year-over-year revenue growth, we delivered our seventh straight quarter of operating leverage. We further strengthened our balance sheet and maintained strong liquidity.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit balances expected to decline further.",
+      "quote": "we just expect lower deposits and rotational shifts towards interest-bearing, really for three reasons. First, we expect further Fed balance sheet reductions to continue to reduce deposits for the industry. Second, we anticipate lower wealth management deposits in the second quarter. That’s pretty typical due to the seasonal impact of clients paying income taxes and, to a lesser degree now, a continuation of balance movement seeking better yields off-balance sheet. And, third, we just continue to expect some of the rotation of commercial deposits towards interest-bearing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial real estate office portfolio has $3.7B reservable criticized exposure.",
+      "quote": "$3.6 billion is classified as reservable criticized. And even on the most recent refreshes on our toughest loans, we still have 75% LTVs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital engagement growth: record 45 million active digital banking users.",
+      "quote": "Record 45 million active digital banking users, up 6% or ~2.7 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer investment accounts at record 3.6 million.",
+      "quote": "Record 3.6 million consumer investment accounts, up 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary between HOLD and BUY. The backward-looking results are strong, but forward guidance is cautious with explicit NII decline and recession expectations. A reviewer may consider whether the cautious forward outlook should pull the score to 0.0 (HOLD) despite the strong quarter."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2023-04-18",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-04-18",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q1\\bac-1q23-press-release.html",
+        "pub_date": "2023-04-18"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q1\\bac-1q23-presentation.html",
+        "pub_date": "2023-04-18"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q1\\bac-1q23-earnings-call-transcript.html",
+        "pub_date": "2023-04-18"
+      }
+    ],
+    "document_id": "BAC_FQ1_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T142324Z",
+    "timestamp": "2026-07-08T14:24:07Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q1\\bac-1q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q1\\bac-1q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 59599,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q1\\bac-1q23-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 67358,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2023-Q1\\bac-1q23-earnings-call-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 56417,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ1_2023.txt"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "document_id": "F_FQ1_2026",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Ford raised its full-year adjusted EBIT guidance from $8.0-$10.0 billion to $8.5-$10.5 billion, a meaningful increase driven by organic operational improvements including software and physical services growth, net pricing, and cost timing. The raise is not primarily attributed to one-time items (the $1.3B IEEPA benefit is offset by higher commodity headwinds), and management expressed confidence in the underlying business. However, the guidance raise is modest relative to the Q1 beat, and management flagged commodity headwinds and Middle East uncertainty, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$43.3 billion, up 6% year-over-year.",
+    "eps": "GAAP diluted EPS of $0.63; adjusted diluted EPS of $0.66.",
+    "guidance": "Full-year 2026 adjusted EBIT guidance raised to $8.5-$10.5 billion (from $8.0-$10.0 billion). Adjusted free cash flow guidance of $5.0-$6.0 billion. Segment guidance: Ford Pro EBIT $6.5-$7.5B, Ford Blue EBIT $4.5-$5.0B (raised from $4.0-$4.5B), Model e losses $4.0-$4.5B, Ford Credit EBT ~$2.5B.",
+    "margin": "Company adjusted EBIT margin of 8.1% in Q1 2026, up from 2.5% in Q1 2025.",
+    "key_risks": [
+      "Commodity headwinds of about $2 billion, $1 billion higher than previous estimate, largely due to higher aluminum pricing.",
+      "Potential impacts of a sustained conflict in the Middle East or a significant downturn in the US economy, which could have a material impact on industry demand.",
+      "Novelis-related temporary costs of $1.5-$2 billion to secure alternatively sourced aluminum until the facility is at full throughput.",
+      "Ongoing tariff impacts of about $1 billion (excludes IEEPA benefit and Novelis temporary costs)."
+    ],
+    "key_opportunities": [
+      "Growth in software and physical services revenue, expected to grow nearly 8% annually through the end of the decade from a base of over $15 billion.",
+      "Ford Pro paid software subscriptions grew 30% year-over-year to 879,000.",
+      "Novelis recovery expected to provide a net $1 billion improvement in EBIT year-over-year, weighted towards the second half.",
+      "Launch of Universal EV Platform in 2027 from Louisville Assembly plant, with significant volume expected.",
+      "Ford Energy business, with over 20 gigawatt hours of capacity starting Q4 2027.",
+      "Off-road performance trims now account for nearly a quarter of US sales, with higher profitability."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Jim Farley stated 'Our strong first-quarter results and raised full-year guidance reflect the momentum of the Ford+ plan' and described Ford as 'a fundamentally stronger, more modern company' with a 'foundation built on industrial fitness'."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $43.3 billion, up 6% year-over-year.",
+      "quote": "First-quarter revenue of $43.3 billion; ... Our global revenue grew by over 6% despite a nearly 4% decline in volume",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS was $0.63; adjusted diluted EPS was $0.66.",
+      "quote": "EPS (Diluted) $ 0.12 $ 0.63 ... Adjusted EPS (Diluted) $ 0.14 $ 0.66",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EBIT guidance raised to $8.5-$10.5 billion from $8.0-$10.0 billion.",
+      "quote": "we're raising our full year adjusted EBIT guidance to between $8.5 and $10.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company adjusted EBIT margin was 8.1% in Q1 2026, up from 2.5% in Q1 2025.",
+      "quote": "Company Adj. EBIT Margin (%) 2.5 % 8.1 % 5.6 ppts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commodity headwinds of about $2 billion, $1 billion higher than previous estimate.",
+      "quote": "we now expect commodity headwinds of just above $2 billion, about $1 billion higher than our previous estimate, largely due to higher aluminum pricing driven by global supply constraints.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential impacts of a sustained conflict in the Middle East or a significant downturn in the US economy are not included in guidance.",
+      "quote": "Our guidance does not include the potential impacts of a sustained conflict in the Middle East or a significant downturn in the US economy, which could have a material impact on industry demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Novelis-related temporary costs of $1.5-$2 billion.",
+      "quote": "This is net of $1.5 billion to $2 billion of one-time incremental costs to secure alternatively sourced aluminum until the Novelis facility is operating at full throughput later this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing tariff impacts of about $1 billion (excludes IEEPA benefit and Novelis temporary costs).",
+      "quote": "The impact of ongoing tariffs is unchanged at about $1 billion and is now a part of our run rate costs. This excludes the IEEPA benefit and Novelis temporary costs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Software and physical services revenue expected to grow nearly 8% annually through the end of the decade from a base of over $15 billion.",
+      "quote": "this alignment will support our high-margin software and physical services revenue, which was over $15 billion last year. And we expect to grow that $15 billion nearly 8% annually through the end of the decade.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Pro paid software subscriptions grew 30% year-over-year to 879,000.",
+      "quote": "paid software subscriptions grew to 879,000, a 30% year-over-year increase.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Novelis recovery expected to provide a net $1 billion improvement in EBIT year-over-year, weighted towards the second half.",
+      "quote": "We still expect a $1 billion improvement in EBIT year-over-year, weighted towards the second half.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Universal EV Platform launch in 2027 from Louisville Assembly plant.",
+      "quote": "It also includes the launch of our Universal EV Platform in 2027 from our Louisville Assembly plant in Kentucky.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ford Energy business with over 20 gigawatt hours of capacity starting Q4 2027.",
+      "quote": "we are committed to over 20 gigawatt hours of capacity starting in the fourth quarter of next year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Off-road performance trims now account for nearly a quarter of US sales.",
+      "quote": "our off-road performance trends now account for nearly a quarter of US sales",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our strong first-quarter results and raised full-year guidance reflect the momentum of the Ford+ plan",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is driven by organic operational improvements, not primarily one-time items.",
+      "quote": "The strength in the quarter versus our original guidance was primarily supported by a change in calendarization of cost improvements and timing of investments, growth in software and physical services and higher net pricing.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is modest relative to the Q1 beat, and the $1.3B IEEPA benefit is a one-time item that partially offsets commodity headwinds. A human reviewer should confirm the score appropriately reflects the organic nature of the improvement."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "F_Bundled Earnings Report_2026-04-29",
+  "report_metadata": {
+    "issuer": "p2_ford",
+    "company": "Ford",
+    "ticker": "F",
+    "sector": "Consumer/Auto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2026-Q1\\Ford-Q1-2026-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2026-Q1\\Ford-Q1-2026-Press-Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "F_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T173142Z",
+    "timestamp": "2026-07-30T17:32:45Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2026-Q1\\Ford-Q1-2026-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ford\\extracted\\F_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2026-Q1\\Ford-Q1-2026-Earnings-Call-Transcript.pdf",
+        "page_count": 22,
+        "extracted_characters": 52487,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ford\\CY2026-Q1\\Ford-Q1-2026-Press-Release.pdf",
+        "page_count": 21,
+        "extracted_characters": 41674,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ford\\extracted\\F_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

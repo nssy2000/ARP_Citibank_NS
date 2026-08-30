@@ -1,0 +1,167 @@
+{
+  "document_id": "TGT_FQ1_2021",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports outstanding backward-looking results (comparable sales +22.9%, GAAP EPS +643.2%), but forward guidance is only partially raised: Q2 comparable sales expected mid-to-high single digit growth (not quantified vs prior guidance), and full-year operating margin rate expected well above 2020's 7.0% with potential to reach 8% or higher. Management expresses confidence in continued comp growth and healthy operating margin, but does not provide a formal, quantified guidance raise for revenue or EPS. The score reflects genuine operational momentum (massive margin improvement, market share gains) combined with confident forward language, but no explicit upward revision to prior guidance, so it stays below +0.5."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue of $24.2 billion grew 23.4% compared with last year, driven by total sales growth of 23.3% and a 30.4% increase in other revenue.",
+    "eps": "First quarter GAAP EPS of $4.17 was 643.2% higher than last year. First quarter Adjusted EPS of $3.69 was 525.0% higher than last year.",
+    "guidance": "For Q2 2021, the Company expects mid-to-high single digit growth in comparable sales. The Company expects its second-quarter operating margin rate will be well above the second quarter 2019 rate of 7.2 percent, but likely not as high as last year’s 10.0 percent. The Company expects positive single-digit comparable sales growth in the last two quarters of the year, and expects its full-year operating margin rate will be well above the 2020 rate of 7.0 percent, with the potential to reach 8 percent or somewhat higher.",
+    "margin": "First quarter operating income margin rate was 9.8% in 2021 compared with 2.4% in 2020. First quarter gross margin rate was 30.0%, compared with 25.1% in 2020.",
+    "key_risks": [
+      "Forward-looking statements are subject to risks and uncertainties which could cause the Company’s actions to differ materially, as described in Item 1A of the Company’s Form 10-K for the fiscal year ended January 30, 2021."
+    ],
+    "key_opportunities": [
+      "The Company gained more than $1 billion in market share in the first quarter, on top of a $1 billion share gain in first quarter 2020.",
+      "Same-day services (Order Pickup, Drive Up and Shipt) grew more than 90 percent, led by growth in Drive Up of 123 percent.",
+      "More than 95 percent of Target’s first quarter sales were fulfilled by its stores."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'Our performance in the first quarter was outstanding on every measure' and expresses confidence in 'continued comp growth in the second quarter and through the remainder of the year, as well as a healthy full-year operating margin rate.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue of $24.2 billion grew 23.4% compared with last year.",
+      "quote": "Total revenue of $24.2 billion grew 23.4 percent compared with last year, driven by total sales growth of 23.3 percent and a 30.4 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter GAAP EPS of $4.17 was 643.2% higher than last year.",
+      "quote": "First quarter GAAP earnings per share (EPS) of $4.17, up 643.2 percent from $0.56 in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter Adjusted EPS of $3.69 was 525.0% higher than last year.",
+      "quote": "First quarter Adjusted EPS of $3.69, which excluded a $0.53 gain on the sale of Dermstore, grew 525.0 percent compared with $0.59 in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2021 comparable sales expected mid-to-high single digit growth.",
+      "quote": "For the second quarter of 2021, the Company expects mid-to-high single digit growth in comparable sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating margin rate expected well above 2020's 7.0% with potential to reach 8% or higher.",
+      "quote": "The Company expects positive single-digit comparable sales growth in the last two quarters of the year, and expects its full-year operating margin rate will be well above the 2020 rate of 7.0 percent, with the potential to reach 8 percent or somewhat higher.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter operating income margin rate was 9.8% in 2021 compared with 2.4% in 2020.",
+      "quote": "First quarter operating income margin rate was 9.8 percent in 2021 compared with 2.4 percent in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "First quarter gross margin rate was 30.0%, compared with 25.1% in 2020.",
+      "quote": "First quarter gross margin rate was 30.0 percent, compared with 25.1 percent in 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Company gained more than $1 billion in market share in the first quarter.",
+      "quote": "The Company gained more than $1 billion in market share in the first quarter, on top of a $1 billion share gain in first quarter 2020.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Same-day services grew more than 90 percent, led by Drive Up growth of 123 percent.",
+      "quote": "Same-day services (Order Pickup, Drive Up and Shipt) grew more than 90 percent, led by growth in Drive Up of 123 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "More than 95 percent of Target’s first quarter sales were fulfilled by its stores.",
+      "quote": "More than 95 percent of Target’s first quarter sales were fulfilled by its stores.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our performance in the first quarter was outstanding on every measure, and showcased the power of putting our stores at the center of our strategy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in continued comp growth and healthy full-year operating margin rate.",
+      "quote": "Given the trust we’ve built with our guests quarter after quarter and our commitment to adjusting along with them to the ongoing shifts in the macro environment, we're confident in continued comp growth in the second quarter and through the remainder of the year, as well as a healthy full-year operating margin rate.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward-looking statements are subject to risks and uncertainties.",
+      "quote": "Such statements are subject to risks and uncertainties which could cause the Company’s actions to differ materially. The most important risks and uncertainties are described in Item 1A of the Company’s Form 10-K for the fiscal year ended January 30, 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance is partially raised (operating margin rate potential to 8%+) but not fully quantified for revenue/EPS; score of 0.30 reflects momentum but may be conservative if the market interprets the margin guidance as a material raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2021-05-19",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2021",
+    "report_date": "2021-05-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q1\\tgt-1q21-press-release.html",
+        "pub_date": "2021-05-19"
+      }
+    ],
+    "document_id": "TGT_FQ1_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T145036Z",
+    "timestamp": "2026-07-09T14:51:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q1\\tgt-1q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2021-Q1\\tgt-1q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 19676,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2021.txt"
+  }
+}

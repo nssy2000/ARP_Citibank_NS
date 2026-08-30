@@ -1,0 +1,224 @@
+{
+  "document_id": "MU_FQ4_2025",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Micron delivered record fiscal Q4 revenue and EPS, and raised its forward guidance for FQ1-26 to record levels, with revenue expected at $12.5 billion and EPS at $3.75, up from the prior quarter's actuals. Management expressed strong confidence in continued growth, citing tight DRAM supply and robust AI-driven demand. The guidance raise is organic, driven by pricing, mix, and cost execution, not attributed to one-time items or FX."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "FQ4-25 revenue of $11.32 billion, up 22% sequentially and 46% year-over-year; FY-25 revenue of $37.38 billion, up 49% year-over-year.",
+    "eps": "FQ4-25 non-GAAP diluted EPS of $3.03, up 59% sequentially and 157% year-over-year; FY-25 non-GAAP EPS of $8.29, up 538% year-over-year.",
+    "guidance": "FQ1-26 guidance: revenue of $12.50 billion ± $300 million, non-GAAP gross margin of 51.5% ± 1.0%, non-GAAP EPS of $3.75 ± $0.15.",
+    "margin": "FQ4-25 non-GAAP gross margin of 45.7%, up 670 basis points sequentially; FY-25 non-GAAP gross margin of 40.9%, up 17 percentage points year-over-year.",
+    "key_risks": [
+      "Potential new tariffs not included in guidance.",
+      "Supply constraints in D4 and LP4, with continued supply tightness expected.",
+      "Higher costs globally for new wafer capacity limiting supply growth.",
+      "Fiscal 2026 capex expected to be higher than fiscal 2025 levels, potentially impacting cash flow."
+    ],
+    "key_opportunities": [
+      "AI-driven demand accelerating across data center, PC, and mobile.",
+      "HBM4 and HBM4E products with industry-leading performance and power efficiency.",
+      "Expansion of HBM customer base to six customers, with pricing agreements for 2026.",
+      "1γ DRAM node reaching mature yields in record time, enabling cost and performance advantages.",
+      "Data center business reaching record 56% of revenue with 52% gross margins."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly used phrases like 'outstanding finish,' 'positioned better than ever,' and 'strong momentum,' and provided record guidance, indicating high confidence in the forward outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FQ4-25 revenue was $11.32 billion, up 22% sequentially and 46% year-over-year.",
+      "quote": "Revenue of $11.32 billion versus $9.30 billion for the prior quarter and $7.75 billion for the same period last year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY-25 revenue was $37.38 billion, up 49% year-over-year.",
+      "quote": "Revenue of $37.38 billion versus $25.11 billion for the prior year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ4-25 non-GAAP diluted EPS was $3.03, up 59% sequentially and 157% year-over-year.",
+      "quote": "Non-GAAP diluted earnings per share in fiscal Q4 was $3.03, with 59% sequential growth and a 157% increase versus the year-ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY-25 non-GAAP EPS was $8.29, up 538% year-over-year.",
+      "quote": "EPS reached $8.29, reflecting a 538% increase compared to the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ1-26 guidance includes record revenue of $12.5 billion and EPS of $3.75.",
+      "quote": "We expect revenue to be a record $12.5 billion, plus or minus $300 million, gross margin to be in the range of 51.5%, plus or minus 100 basis points, and operating expenses to be approximately $1.34 billion, plus or minus $20 million. Based on a share count of approximately 1.15 billion shares, we expect EPS to be a record $3.75 per share, plus or minus 15¢.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FQ4-25 non-GAAP gross margin was 45.7%, up 670 basis points sequentially.",
+      "quote": "The consolidated gross margin for fiscal Q4 was 45.7%, up 670 basis points sequentially.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY-25 non-GAAP gross margin was 40.9%, up 17 percentage points year-over-year.",
+      "quote": "Gross margins expanded to 41%, a 17 percentage point improvement from fiscal 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential new tariffs are not included in guidance.",
+      "quote": "Any impacts that may occur due to potential new tariffs are not included in our guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply constraints in D4 and LP4 are a risk.",
+      "quote": "We continue to see supply constraints in D4 and LP4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher costs globally for new wafer capacity limit supply growth.",
+      "quote": "On the supply side, we expect low supplier inventories, constrained node migration, as industry supports extended D4 and LP4 end-of-life, longer lead times and higher costs globally for new wafer capacity, all to limit the pace of supply growth for DRAM in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 capex is expected to be higher than fiscal 2025.",
+      "quote": "As we continue to make 1γ DRAM and HBM-related investments, we expect fiscal 2026 capex to be higher than fiscal 2025 levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI-driven demand is accelerating across data center, PC, and mobile.",
+      "quote": "AI-driven demand is accelerating, and industry DRAM supply is tight.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "HBM4 and HBM4E products offer industry-leading performance and power efficiency.",
+      "quote": "We believe Micron's HBM4 outperforms all competing HBM4 products, delivering industry-leading performance as well as best-in-class power efficiency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "HBM customer base expanded to six customers.",
+      "quote": "Our HBM customer base has expanded and now includes six customers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "1γ DRAM node reached mature yields in record time.",
+      "quote": "We are proud to announce that our 1γ DRAM node reached mature yields in record time, 50% faster than in the prior generation.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data center business reached record 56% of revenue with 52% gross margins.",
+      "quote": "In fiscal 2025, Micron's data center business reached a record 56% of total company revenue, with gross margins of 52%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Micron had an outstanding finish to fiscal 2025, delivering fiscal Q4 revenue, gross margin and EPS all above the high end of our updated guidance ranges.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 is based on a clear guidance raise and strong forward language, but the magnitude of the raise relative to prior guidance is not explicitly quantified in the document; reviewer may want to verify the prior guidance figures."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MU_Bundled Earnings Report_2025-09-23",
+  "report_metadata": {
+    "issuer": "p2_micron",
+    "company": "Micron",
+    "ticker": "MU",
+    "sector": "Technology/Semiconductors",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-09-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2025-Q4\\MU_FY2025_Q4_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2025-Q4\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MU_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T101354Z",
+    "timestamp": "2026-08-09T10:14:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_micron\\extracted\\MU_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 17461,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2025-Q4\\MU_FY2025_Q4_Presentation.pdf",
+        "page_count": 51,
+        "extracted_characters": 32201,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\micron\\CY2025-Q4\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 44769,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_micron\\extracted\\MU_FQ4_2025.txt"
+  }
+}

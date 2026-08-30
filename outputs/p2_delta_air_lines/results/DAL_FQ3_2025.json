@@ -1,0 +1,219 @@
+{
+  "document_id": "DAL_FQ3_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "Delta delivered a strong September quarter with record revenue and raised its full-year EPS guidance to approximately $6, which is in the upper half of its July guidance range, indicating a meaningful upward revision. Management expressed high confidence in continued momentum, citing accelerating sales trends and an improving domestic environment, which supports a positive forward outlook. However, the score is tempered because the company did not provide specific 2026 guidance and acknowledged some headwinds, such as the US government shutdown and a disappointing Transatlantic performance in Q3."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Record September quarter revenue of $15.2 billion (adjusted), up 4.1% year-over-year. GAAP operating revenue was $16.7 billion, up 6%.",
+    "eps": "Adjusted diluted EPS of $1.71, up 14% year-over-year. GAAP diluted EPS of $2.17, up 10%.",
+    "guidance": "December quarter: total revenue growth of 2-4% YoY, operating margin of 10.5-12%, adjusted EPS of $1.60-$1.90. Full year 2025: adjusted EPS of approximately $6 (upper half of July guidance), free cash flow of $3.5-$4 billion.",
+    "margin": "Adjusted operating margin of 11.2% for the September quarter, up 1.7 points year-over-year. GAAP operating margin was 10.1%.",
+    "key_risks": [
+      "Potential impacts from the US government shutdown, though no material effect has been seen to date.",
+      "Disappointing Transatlantic unit revenue performance in Q3, down 7% year-over-year.",
+      "Cargo revenue growth of 19% in Q3 is not expected to be sustainable into Q4.",
+      "MRO revenue growth of over 60% is not expected to be sustained at that level in Q4.",
+      "Inflation in the maintenance and parts supply chain remains above normal levels."
+    ],
+    "key_opportunities": [
+      "Accelerating sales trends across all geographies and advance purchase windows over the last 6 weeks.",
+      "Improving Domestic revenue environment with positive unit revenue growth and a main cabin inflection.",
+      "Corporate sales rebounding, up 8% YoY, with 90% of surveyed companies expecting travel volumes to increase or remain steady in 2026.",
+      "Strong growth in premium and loyalty revenue, with American Express remuneration up 12% to $2 billion.",
+      "Continued fleet renewal and investment in premium products and customer experience."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management expressed strong confidence in the future, with CEO Ed Bastian stating, 'I'm more optimistic than ever about Delta's future,' and President Glen Hauenstein noting, 'I'm very optimistic as we enter the final quarter, building our momentum and positioning Delta for continued top line growth and margin expansion into 2026.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Delta reported record September quarter revenue of $15.2 billion, up 4.1% year-over-year.",
+      "quote": "Delta generated record September quarter revenue of $15.2 billion, up 4.1 percent year-over-year, reflecting the strength of our diverse, high margin revenue streams and improving Domestic fundamentals.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS for the September quarter was $1.71, up 14% year-over-year.",
+      "quote": "Diluted earnings per share 1.71 1.50 0.21 14 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 adjusted EPS guidance was raised to approximately $6, in the upper half of the July guidance range.",
+      "quote": "Expect full year adjusted EPS of approximately $6, in the upper half of July guidance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "December quarter guidance includes revenue growth of 2-4% year-over-year.",
+      "quote": "For the December quarter, we expect total revenue growth of 2 percent to 4 percent over last year’s record performance",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "December quarter guidance includes an operating margin of 10.5% to 12%.",
+      "quote": "Outlook for December quarter operating margin of 10.5 to 12 percent with adjusted EPS of $1.60 to $1.90",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin for the September quarter was 11.2%, up 1.7 points year-over-year.",
+      "quote": "Operating margin, adjusted 11.2 % 9.4 % 1.7 pts 19 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The US government shutdown is a potential risk, though no material impact has been seen to date.",
+      "quote": "While we are monitoring potential impacts from the US government shutdown, we have not seen a material effect to-date.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Transatlantic unit revenue was down 7% in the September quarter, which was a disappointment.",
+      "quote": "Atlantic 2,977 (2)% (7)% (5)% 5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cargo revenue growth of 19% is not expected to be sustainable into Q4.",
+      "quote": "I wouldn't expect that the 19% would be sustainable into 4Q, it's probably going to come down from there.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MRO revenue growth of over 60% is not expected to be sustained at that level in Q4.",
+      "quote": "You won't see it every quarter at 60% plus... fourth quarter, it's probably closer to flat year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflation in the maintenance and parts supply chain remains above normal levels.",
+      "quote": "both as it relates to material availability, to repair, the components, all those have had inflation above the normal. They're coming more in line as the industry continues to get better, but it's got a long ways to go.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales trends have accelerated across all geographies and advance purchase windows over the last six weeks.",
+      "quote": "Over the past six weeks, sales trends have accelerated across all geographies and in every advanced purchase window, positioning Delta to close the year from a position of strength.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic unit revenue turned positive, with a main cabin inflection.",
+      "quote": "domestic unit revenue turned positive, with sequential improvement as the quarter progressed. This was supported by a main cabin inflection as industry supply moderated and demand improved, materializing earlier than our initial expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Corporate sales are rebounding, up 8% year-over-year, with strong future expectations.",
+      "quote": "Corporate sales trended positively throughout the quarter, up 8% over prior year, with sequential improvement across all sectors... reinforced by 90% of our most recent corporate survey respondents anticipating that their 2026 travel volumes will increase or remain steady year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "American Express remuneration grew 12% to $2 billion in the quarter.",
+      "quote": "American Express remuneration of $2 billion grew 12 percent over prior year, driven by double-digit co-brand spend growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic, with strong confidence in the future.",
+      "quote": "I'm more optimistic than ever about Delta's future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.35 reflects a raised full-year EPS guidance, but the company did not provide specific 2026 guidance. The score is based on the interpretation that the raised guidance is a meaningful positive signal, but a reviewer may want to consider the lack of 2026 guidance as a tempering factor."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "DAL_Bundled Earnings Report_2025-10-09",
+  "report_metadata": {
+    "issuer": "p2_delta_air_lines",
+    "company": "Delta Air Lines",
+    "ticker": "DAL",
+    "sector": "Industrials/Airlines",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-09",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q3\\Q3_2025_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q3\\Q3_2025_earnings_call_transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "DAL_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T095933Z",
+    "timestamp": "2026-08-09T10:00:36Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_delta_air_lines\\extracted\\DAL_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 42375,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q3\\Q3_2025_earnings_presentation.pdf",
+        "page_count": 16,
+        "extracted_characters": 43244,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\delta_air_lines\\CY2025-Q3\\Q3_2025_earnings_call_transcript.pdf",
+        "page_count": 26,
+        "extracted_characters": 108912,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_delta_air_lines\\extracted\\DAL_FQ3_2025.txt"
+  }
+}

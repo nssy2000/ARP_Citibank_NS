@@ -1,0 +1,58 @@
+{
+  "document_id": "CVS_FQ3_2025_QUANT",
+  "base_document_id": "CVS_FQ3_2025",
+  "issuer": "p2_cvs_health",
+  "ticker": "CVS",
+  "sector": "Healthcare/Consumer",
+  "report_date": "2025-10-29",
+  "sentiment": {
+    "score": 0.591452
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.096626,
+      "window_start_date": "2025-09-29",
+      "window_end_date": "2025-10-28",
+      "score": 0.567732,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.135566,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 17.93,
+      "matched_earnings_date": "2025-10-29",
+      "score": 0.615172,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.92,
+      "vix_score": 0.137785,
+      "tnx_change": -0.09,
+      "tnx_score": 0.17808,
+      "score": 0.157932,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.12,
+      "ffr_change": -0.21,
+      "ffr_score": 0.39693,
+      "ffr_as_of": "2025-10-28",
+      "curve_spread": 0.52,
+      "curve_score": 0.4777,
+      "curve_as_of": "2025-10-28",
+      "score": 0.437315,
+      "available": true
+    },
+    "quant_score": 0.591452,
+    "quant_score_with_macro": 0.374692,
+    "quant_score_with_fred": 0.514383,
+    "quant_score_with_macro_fred": 0.395566
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

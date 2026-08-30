@@ -1,0 +1,197 @@
+{
+  "document_id": "NFLX_FQ4_2024",
+  "sentiment": {
+    "score": 0.8,
+    "rationale": "The document shows a clear upward shift in forward guidance: 2025 revenue growth guided to 12%-14% and operating margin guidance raised, with management expressing strong confidence. Advertising revenue is doubling year-over-year and expected to double again in 2025, and subscriber additions of 19 million far exceeded expectations. The only notable risk is Sarandos's admission that full-season big-league sports economics remain challenging, but this is peripheral to the core thesis."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2024 revenue of $10,246.51 million, a 1.37% surprise vs consensus of $10,108.41 million. Full-year 2024 revenue $39,000.97 million vs consensus $38,873.96 million.",
+    "eps": "Q4 2024 normalized EPS of $4.27, a 1.43% surprise vs consensus of $4.21. Full-year 2024 normalized EPS $19.83 vs consensus $19.82.",
+    "guidance": "2025 revenue growth guided to 12%-14% (implied revenue ~$43.6B-$44.5B). 2025 operating margin guidance raised. 2025 content cash spend guided to ~$18 billion.",
+    "margin": "2025 operating margin guidance raised; implied expense growth of high single digits (~9%) with content amortization growing high single digits, below revenue growth, driving margin expansion.",
+    "key_risks": [
+      "Full-season big-league sports economics remain extremely challenging (Sarandos: 'doesn't really change the underlying economics of full-season Big League sports being extremely challenging').",
+      "FX volatility: ~60% of revenue is non-USD, with hedging only covering ~50% on a rolling 12-month basis, and hedging is a short- to medium-term solution.",
+      "LA wildfires caused meaningful disruption to people's lives, though no meaningful impact on 2025 cash or deliverables."
+    ],
+    "key_opportunities": [
+      "Advertising: ads plan membership up 30% QoQ, over 55% of signups in ads countries, ads revenue doubled YoY and expected to double again in 2025.",
+      "Pricing power: recent price increases across multiple markets have gone smoothly; Netflix currently captures only ~6% of its revenue opportunity in served segments.",
+      "Content slate: strong upcoming slate including Wednesday, Stranger Things, Squid Game season 2, new films from Oscar-winning directors, and live events (SAG Awards, Christmas Day Football, WWE Raw).",
+      "Games: Squid Game: Unleashed reached #1 in action games in 107 countries; games drive ~$140 billion consumer spend ex-China/Russia; early positive impacts on acquisition and retention.",
+      "Engagement: average member watches ~2 hours per day; engagement improvements correlated with retention and acquisition; new twice-yearly engagement report starting Q2 2025."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses specific numbers and forward-looking statements throughout, e.g., 'we expect to double it again this year' (Peters on ads revenue) and 'we feel really good about our long-term monetization opportunity' (Peters on pricing)."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2024 revenue beat consensus by 1.37%.",
+      "quote": "Revenue (mm) 10108.41 10246.51 1.37",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2024 normalized EPS beat consensus by 1.43%.",
+      "quote": "EPS Normalized 4.21 4.27 1.43",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 revenue growth guided to 12%-14%.",
+      "quote": "You see we guided to 12% to 14% top line revenue growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 operating margin guidance was raised.",
+      "quote": "Can you please talk about the drivers of raising your 2025 operating margin guidance? ... So we're always kind of looking to balance our revenue growth with strategic investment into the business, and we think we've balanced that well this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue doubled year-over-year and is expected to double again in 2025.",
+      "quote": "We've doubled our ads revenue year-over-year last year. We expect to double it again this year so that should give you a sense of the slope of monetization growth that we're on.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ads plan membership increased 30% quarter-over-quarter and represents over 55% of signups in ads countries.",
+      "quote": "Q4, ads plan represented over 55% of sign-ups across our ads countries. We've seen membership on those ads plan increase about 30% quarter-over-quarter this last quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Netflix currently captures only about 6% of its revenue opportunity in served segments.",
+      "quote": "We earn, right now, only 6% of the revenue opportunity in the countries and segments that we currently serve.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-season big-league sports economics remain extremely challenging.",
+      "quote": "It doesn't really change the underlying economics of full-season Big League sports being extremely challenging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "LA wildfires had no meaningful impact on 2025 cash or deliverables.",
+      "quote": "No meaningful delays in the delivery of the projects and no meaningful impact to the cash in '25, but very meaningful disruption in people's lives.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We feel really good about our long-term monetization opportunity. ... we expect to double it again this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Subscriber additions of 19 million were broad-based, not driven by any single title.",
+      "quote": "No single title really drives the majority of our acquisition or engagement. ... The vast majority of our net adds were driven by our broad slate in our portfolio globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2025 content cash spend guided to ~$18 billion.",
+      "quote": "We're taking up our cash content spend this year estimated from $17 billion to $18 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FX exposure: ~60% of revenue is non-USD, with hedging covering ~50% on a rolling 12-month basis.",
+      "quote": "Roughly 60% of our revenue is in non-U.S. dollar currencies. And think of it as the way we look at it is of that amount, we try to hedge roughly 50% on a rolling forward 12-month basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games: Squid Game: Unleashed reached #1 in action games in 107 countries.",
+      "quote": "Squid Game: Unleashed reached #1 in action games in the app stores in 107 countries. It's on pace to become our most downloaded game.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement: average member watches about 2 hours per day.",
+      "quote": "Our average member is watching for about 2 hours a day.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.80 is based on strong forward guidance and advertising momentum, but the document also contains a clear risk disclosure about sports economics and FX exposure. A human reviewer should confirm that the positive signals outweigh these risks sufficiently to justify a score above 0.7."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2025-01-21",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2024",
+    "report_date": "2025-01-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2024-Q4\\netflix q4 2024 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2024-Q4\\Netflix-Inc-_Earnings-Call_2025-01-21_English-1.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ4_2024"
+  },
+  "run_meta": {
+    "run_id": "20260730T174141Z",
+    "timestamp": "2026-07-30T17:41:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2024-Q4\\netflix q4 2024 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ4_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2024-Q4\\netflix q4 2024 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 4460,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2024-Q4\\Netflix-Inc-_Earnings-Call_2025-01-21_English-1.pdf",
+        "page_count": 14,
+        "extracted_characters": 41075,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ4_2024.txt"
+  }
+}

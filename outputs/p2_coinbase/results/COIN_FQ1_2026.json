@@ -1,0 +1,190 @@
+{
+  "document_id": "COIN_FQ1_2026",
+  "sentiment": {
+    "score": -0.35,
+    "rationale": "Forward guidance was not raised; Q2 subscription and services revenue guidance of $565M to $645M is below the Q1 actual of $584M at the midpoint, implying a sequential decline. Management explicitly acknowledged a 'softer trading market' and 'genuinely tough' macro conditions with total crypto market cap and trading volumes down more than 20% quarter over quarter. The restructuring announcement and expense guidance reductions further signal a defensive posture, not an inflection."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$1.4 billion total revenue, down 21% quarter over quarter. Transaction revenue $756 million. Subscription and services revenue $584 million, down 16% quarter over quarter.",
+    "eps": "GAAP net loss of $394 million and EPS of -$1.49.",
+    "guidance": "Q2 subscription and services revenue guided to $565M to $645M. Tech, development and G&A expenses guided down 4% to 9% quarter over quarter, with $50M to $60M of restructuring charges. Full-year 2026 adjusted expenses $4.3B to $4.6B.",
+    "margin": "Not disclosed.",
+    "key_risks": [
+      "Total crypto market cap and trading volumes both fell more than 20% quarter over quarter.",
+      "Institutional transaction revenue dropped 27% as low volatility cut hedging demand at Deribit.",
+      "Long-term fee compression acknowledged as a risk."
+    ],
+    "key_opportunities": [
+      "Reached an all-time high in Coinbase crypto trading volume market share in Q1.",
+      "Derivatives trading now over $200 million in annualized revenue.",
+      "Prediction markets reached $100 million in annualized revenue in March, two months after launch.",
+      "Stablecoin revenue was $305 million with average USDC held in Coinbase products at an all-time high of $19 billion.",
+      "Coinbase One now has over 1 million paid subscribers."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasized controlling what they can control and described macro conditions as 'genuinely tough,' with Alesia Haas stating 'the headline figures alone don't tell the full story, we are controlling what we can control.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $1.4 billion, down 21% quarter over quarter.",
+      "quote": "Total revenue for Q1 was down 21% quarter over quarter reflecting the softer market backdrop.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP net loss of $394 million and EPS of -$1.49.",
+      "quote": "In Q1 2026, we generated $1.4 billion of total revenue, a quarterly net loss of $394 million, and $303 million of positive Adjusted EBITDA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 subscription and services revenue guided to $565M to $645M.",
+      "quote": "Turning to our outlook, we expect subscription and services revenue in the range of $565 to $645 million with an opportunity for quarter over quarter growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total crypto market cap and trading volumes both fell more than 20% quarter over quarter.",
+      "quote": "Total crypto market cap and total crypto trading volume were both down more than 20% quarter over quarter and volatility in the long tail assets were at historic lows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Institutional transaction revenue dropped 27%.",
+      "quote": "On the institutional side, revenue of $136 million declined 27% alongside volumes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term fee compression acknowledged as a risk.",
+      "quote": "But over the long term. We've always said that we believe that fees could come down as things become commoditized.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reached an all-time high in Coinbase crypto trading volume market share in Q1.",
+      "quote": "We reached an all time high in Coinbase crypto trading volume market share in Q1 and we gained share in both spot and derivatives globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Derivatives trading now over $200 million in annualized revenue.",
+      "quote": "Derivatives trading is now over $200 million in annualized revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Prediction markets reached $100 million in annualized revenue in March.",
+      "quote": "Prediction markets are scaling fast, reaching $100 million in annualized revenue in March. That's just two months after launch.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Stablecoin revenue was $305 million with average USDC held at an all-time high of $19 billion.",
+      "quote": "Stablecoin revenue was $305 million. Average USDC Held in Coinbase products reached a new all time high of $19 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Coinbase One now has over 1 million paid subscribers.",
+      "quote": "Coinbase One is now over million paid subscribers.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "Because the headline figures alone don't tell the full story, we are controlling what we can control and the underlying business performed well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance was not raised; Q2 subscription and services guidance midpoint implies a sequential decline from Q1.",
+      "quote": "Turning to our outlook, we expect subscription and services revenue in the range of $565 to $645 million with an opportunity for quarter over quarter growth.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The guidance range midpoint ($605M) is above Q1's $584M, but the lower end ($565M) is below Q1. The claim of a sequential decline is not fully unambiguous from the quote alone."
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance midpoint ($605M) is slightly above Q1 actual ($584M), but the lower end is below. The score of -0.35 may be too negative if the 'opportunity for quarter over quarter growth' is taken at face value. A human reviewer should assess whether the guidance is truly defensive or merely conservative."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 13,
+    "uncertain_count": 1,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "COIN_Bundled Earnings Report_2026-05-07",
+  "report_metadata": {
+    "issuer": "p2_coinbase",
+    "company": "Coinbase",
+    "ticker": "COIN",
+    "sector": "Financials/Crypto",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-07",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2026-Q1\\07 coinbase q1 2026 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2026-Q1\\COIN-Q1-2026-Earnings-Call-Transcript-official.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "COIN_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T172642Z",
+    "timestamp": "2026-07-30T17:27:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2026-Q1\\07 coinbase q1 2026 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2026-Q1\\07 coinbase q1 2026 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 6214,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\coinbase\\CY2026-Q1\\COIN-Q1-2026-Earnings-Call-Transcript-official.pdf",
+        "page_count": 9,
+        "extracted_characters": 48913,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_pattern:speaker_labels"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_coinbase\\extracted\\COIN_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_pattern:speaker_labels"
+  ]
+}

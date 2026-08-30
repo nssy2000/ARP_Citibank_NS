@@ -1,0 +1,219 @@
+{
+  "document_id": "PYPL_FQ1_2026",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "Forward guidance was held flat (reiterated) rather than raised, and management explicitly flagged a more demanding second-quarter comparison and a complex, dynamic operating environment. While the quarter showed some operational momentum (branded checkout TPV growth improved to 2% FXN, Venmo and PSP accelerated to mid-teens), the reiterated full-year guidance with cautious language on Europe and the macro environment, plus the explicit expectation of a high-single-digit EPS decline in Q2, keeps the forward signal slightly negative rather than positive."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Net revenues increased 7% to $8.4 billion; 5% currency-neutral (“FXN”).",
+    "eps": "GAAP EPS decreased 6% to $1.21; non-GAAP EPS increased 1% to $1.34.",
+    "guidance": "Reiterating full year 2026 guidance. For 2Q'26, expects low-single digit revenue growth on a currency-neutral basis, a low-single digit or approximately 3% decline in transaction margin dollars, and non-GAAP EPS to decline by high-single digits or approximately 9%. For FY'26, expects non-GAAP EPS growth ranging from down low-single digits to slightly positive.",
+    "margin": "GAAP operating margin contracted 182 basis points to 17.8%; non-GAAP operating margin contracted 229 basis points to 18.4%. Transaction margin dollars increased 3% to $3.8 billion; TM$ excluding interest on customer balances increased 3% to $3.5 billion.",
+    "key_risks": [
+      "Complex and dynamic operating environment, including macro and geopolitical factors.",
+      "Slower growth in the travel vertical and more muted growth in Europe.",
+      "Pressure from higher oil prices and gas prices impacting consumer spending.",
+      "Competitive intensity in Europe, particularly in the UK and Germany.",
+      "Second quarter has the most demanding year-over-year comparison this year, with a 1.5-point transaction margin dollar benefit from a key payment partner renewal in the prior year.",
+      "Targeted growth investments represent approximately a 3-point headwind to transaction margin dollars growth in 2026."
+    ],
+    "key_opportunities": [
+      "Three distinct market opportunities: Checkout, Consumer Financial Services, and Payment Processing & VAS.",
+      "At least $1.5B gross run-rate savings anticipated over the next 2-3 years from organizational simplification and AI adoption.",
+      "Venmo momentum continues with sixth consecutive quarter of double-digit growth.",
+      "Enterprise Payments and Venmo TPV accelerated to mid-teens growth.",
+      "PYUSD became the largest federally regulated stablecoin and expanded to 70 markets globally.",
+      "Strong free cash flow generation ($1.7B adjusted FCF in Q1) providing room to invest and return capital."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "The tone is confident about the long-term strategy and assets ('I am confident in our ability to put the company on a more durable path to long-term growth'), but cautious about the near-term outlook, explicitly noting 'the macro and geopolitical environment remain complex' and that Q2 will face 'the most demanding year-over-year comparison this year.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenues increased 7% to $8.4 billion; 5% currency-neutral.",
+      "quote": "Net revenues increased 7% to $8.4 billion; 5% currency-neutral (“FXN”).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS decreased 6% to $1.21; non-GAAP EPS increased 1% to $1.34.",
+      "quote": "GAAP EPS decreased 6% to $1.21 ; non-GAAP EPS increased 1% to $1.34.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance was reiterated, not raised.",
+      "quote": "Financial Guidance 2026 Guidance: PayPal is reiterating full year guidance, building on a solid start to the year while reflecting a complex and dynamic operating environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter guidance expects a high-single digit decline in non-GAAP EPS.",
+      "quote": "For the second quarter, we expect: ... non-GAAP earnings per share to decline by high-single digits or approximately 9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin contracted 182 basis points to 17.8%.",
+      "quote": "GAAP operating margin contracted 182 basis points to 17.8%; non-GAAP operating margin contracted 229 basis points to 18.4%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Transaction margin dollars increased 3% to $3.8 billion.",
+      "quote": "Transaction margin dollars (“TM$”) increased 3% to $3.8 billion; TM$ excluding interest on customer balances increased 3% to $3.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects a complex and dynamic operating environment.",
+      "quote": "While first quarter was a solid start to the year, it's early. The macro and geopolitical environment remain complex and we operate in a dynamic, highly competitive industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects slower growth in the travel vertical and more muted growth in Europe.",
+      "quote": "Compared to the first quarter, we have seen slower growth in the travel vertical, as well as more muted growth in Europe.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects at least $1.5 billion of gross run-rate savings over the next two to three years.",
+      "quote": "Combined, the savings will be significant. We expect to see at least $1.5 billion of gross run-rate savings over the next two to three years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Venmo delivered its sixth consecutive quarter of double-digit growth.",
+      "quote": "Venmo TPV continues to reach new highs, accelerating sequentially to 14% growth year-over-year and marking the sixth consecutive quarter of double-digit growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Enterprise Payments and Venmo TPV accelerated to mid-teens growth.",
+      "quote": "Enterprise Payments and Venmo both accelerated into the mid-teens.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PYUSD became the largest federally regulated stablecoin and expanded to 70 markets.",
+      "quote": "We have made good progress with PYUSD, which became the largest federally regulated stablecoin in December, and we recently expanded its availability to 70 markets globally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted free cash flow was $1.7 billion in Q1.",
+      "quote": "Adjusted free cash flow, which excludes the timing impact from the origination and sale of pay later receivables, was $1.7 billion, or nearly $6.8 billion on a trailing 12-month basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident about long-term strategy but cautious on near-term outlook.",
+      "quote": "I am confident in our ability to put the company on a more durable path to long-term growth and shareholder value creation... The macro and geopolitical environment remain complex and we operate in a dynamic, highly competitive industry.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Targeted growth investments represent a headwind to transaction margin dollars growth.",
+      "quote": "We continue to expect our targeted growth investments to represent approximately a 3-point headwind to transaction margin dollars growth in 2026 while driving durable long-term benefits in the years ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) despite a 'solid' quarter and reiterated guidance. The negative lean is driven by cautious Q2 guidance and macro commentary. A reviewer should confirm this is appropriately weighted versus the positive operational momentum (branded checkout improvement, Venmo/PSP acceleration)."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance is reiterated for FY26 but Q2 guidance is explicitly provided with expected declines. The summary should be checked to ensure it clearly distinguishes between the reiterated FY guidance and the softer Q2 expectations."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PYPL_Bundled Earnings Report_2026-05-05",
+  "report_metadata": {
+    "issuer": "p2_paypal",
+    "company": "PayPal",
+    "ticker": "PYPL",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-05",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\paypal\\CY2026-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\paypal\\CY2026-Q1\\PYPL_Q1_2026_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\paypal\\CY2026-Q1\\PYPL_Q1_2026_Earnings_Call_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PYPL_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T101829Z",
+    "timestamp": "2026-08-09T10:20:56Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\paypal\\CY2026-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_paypal\\extracted\\PYPL_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\paypal\\CY2026-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 37866,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\paypal\\CY2026-Q1\\PYPL_Q1_2026_Earnings_Presentation.pdf",
+        "page_count": 27,
+        "extracted_characters": 44959,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\paypal\\CY2026-Q1\\PYPL_Q1_2026_Earnings_Call_Transcript.pdf",
+        "page_count": 18,
+        "extracted_characters": 67536,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_paypal\\extracted\\PYPL_FQ1_2026.txt"
+  }
+}

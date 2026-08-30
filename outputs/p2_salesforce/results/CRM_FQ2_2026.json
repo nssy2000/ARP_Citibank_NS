@@ -1,0 +1,250 @@
+{
+  "document_id": "CRM_FQ2_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Salesforce delivered a strong quarter with revenue, cRPO, and margins exceeding guidance, and raised its full-year FY26 guidance for revenue (low end), non-GAAP operating margin, and operating cash flow growth. The guidance raise is organic, driven by strong execution in Data Cloud and Agentforce, not primarily attributed to FX or one-time items. Management language is highly confident, describing the quarter as 'outstanding' and positioning the company for a 'record year.'"
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q2 FY26 revenue of $10.2 billion, up 10% Y/Y and 9% in constant currency. Subscription & support revenue of $9.7 billion, up 11% Y/Y and 9% in CC.",
+    "eps": "Q2 FY26 GAAP diluted EPS of $1.96, up from $1.47 in the prior year. Non-GAAP diluted EPS of $2.91, up from $2.56 in the prior year.",
+    "guidance": "Q3 FY26 revenue guidance of $10.24B-$10.29B (8-9% Y/Y). Full-year FY26 revenue guidance raised to $41.1B-$41.3B (8.5-9% Y/Y). Non-GAAP operating margin guidance raised to 34.1%. Operating cash flow growth guidance raised to approximately 12-13% Y/Y.",
+    "margin": "Q2 FY26 GAAP operating margin of 22.8% (up 370 bps Y/Y) and non-GAAP operating margin of 34.3% (up 60 bps Y/Y). Full-year FY26 GAAP operating margin guidance of 21.2% and non-GAAP operating margin guidance of 34.1%.",
+    "key_risks": [
+      "Pending acquisition of Informatica may not close on a timely basis or at all, and may not achieve expected benefits.",
+      "Uncertainties regarding AI technologies and their integration into product offerings.",
+      "Macroeconomic volatility, including inflationary pressures, changes in monetary policy, and foreign currency exchange rate fluctuations.",
+      "Potential impact of evolving government regulations, including data privacy, cybersecurity, and AI-related regulations.",
+      "The company's ability to successfully execute its business strategy and predict operating results, including customer attrition and seasonal sales cycles."
+    ],
+    "key_opportunities": [
+      "Data Cloud and AI annual recurring revenue over $1.2 billion, up 120% Y/Y.",
+      "Agentforce adoption: over 12,500 deals closed since launch, with over 6,000 paid deals.",
+      "Expansion into new markets like ITSM and public sector with Agentforce for Public Sector and FedRAMP High certification.",
+      "Strong growth in SMB and mid-market segments, with AI enabling smaller companies to scale.",
+      "New product launches planned for Dreamforce, including Agentforce version 4 and an agentic IT service platform."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described the quarter as 'outstanding' and 'incredible,' expressed that they are 'on track for fiscal 2026 to be a record year,' and stated they are 'really excited' about the future, reflecting strong confidence in the company's trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 FY26 revenue was $10.2 billion, up 10% Y/Y and 9% in constant currency.",
+      "quote": "Second quarter revenue of $10.2 billion, up 10% year-over-year (\"Y/Y\") and 9% in constant currency (\"CC\")",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY26 GAAP diluted EPS was $1.96, up from $1.47 in the prior year.",
+      "quote": "Diluted net income per share (3) $ 1.96 $ 1.47",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY26 non-GAAP diluted EPS was $2.91, up from $2.56 in the prior year.",
+      "quote": "Non-GAAP diluted net income per share $ 2.91 $ 2.56",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 revenue guidance was raised to $41.1B-$41.3B.",
+      "quote": "Raises low end of full year FY26 revenue guidance to $41.1 billion to $41.3 billion, up 8.5% - 9% Y/Y and 8% in CC",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 non-GAAP operating margin guidance was raised to 34.1%.",
+      "quote": "Updates full year FY26 GAAP operating margin guidance to 21.2%, and raises non-GAAP operating margin guidance to 34.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 operating cash flow growth guidance was raised to approximately 12-13% Y/Y.",
+      "quote": "Raises full year FY26 operating cash flow growth guidance to approximately 12% to 13% Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY26 GAAP operating margin was 22.8% and non-GAAP operating margin was 34.3%.",
+      "quote": "Second quarter GAAP operating margin of 22.8% and non-GAAP operating margin of 34.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Data Cloud and AI ARR grew 120% Y/Y to over $1.2 billion.",
+      "quote": "Data Cloud and AI annual recurring revenue over $1.2 billion, up 120% Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentforce has closed over 12,500 deals since launch, with over 6,000 paid deals.",
+      "quote": "Salesforce has closed over 12,500 deals since launching Agentforce, of which over 6,000 are paid",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management is confident in the company's trajectory, describing the quarter as 'outstanding' and expecting a 'record year.'",
+      "quote": "We delivered an outstanding quarter to close out the first half of the year, with strong performance across revenue, margin, cash flow, and cRPO—and we remain on track for fiscal 2026 to be a record year with nearly $15 billion in operating cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is organic, driven by strong execution in Data Cloud and Agentforce, not primarily attributed to FX or one-time items.",
+      "quote": "This was better than expected, driven primarily by one-time license revenue and professional services recognition, as well as strong execution.",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote attributes the Q2 beat to one-time items and execution, but the guidance raise is described separately as driven by momentum in Data Cloud and Agentforce. The connection between the beat and the guidance raise is not explicitly stated."
+    },
+    {
+      "claim": "The company faces risks related to the pending Informatica acquisition.",
+      "quote": "our ability to consummate the pending acquisition of Informatica on a timely basis or at all, including our ability to obtain regulatory approvals and satisfy other conditions precedent to the completion of the transaction",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks related to AI technology integration.",
+      "quote": "uncertainties regarding AI technologies and their integration into our product offerings",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from macroeconomic volatility.",
+      "quote": "uncertainties regarding the effect of geopolitical events, inflationary pressures, market and macroeconomic volatility, financial institution instability, changes in monetary policy, foreign currency exchange rate and interest rate fluctuations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from evolving government regulations.",
+      "quote": "the effect of evolving government regulations, including those related to our industry and providing services on or accessing the Internet, and those addressing ESG matters, data privacy, cybersecurity, cross-border data transfers, government contracting and procurement, and import and export controls",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks related to its ability to execute its business strategy and predict operating results.",
+      "quote": "our ability to successfully execute our business strategy and our business plans, including efforts to expand internationally and related risks; our ability to predict and meet expectations regarding our operating results and cash flows, including revenue and remaining performance obligation",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees opportunities in the ITSM market with its new agentic IT service platform.",
+      "quote": "I'm very excited that next month, and you're going to see this at Dreamforce as well, that we're launching our own agentic IT service platform.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees opportunities in the public sector with Agentforce for Public Sector and FedRAMP High certification.",
+      "quote": "now with Agent Force for Public Sector and FedRAMP high certification, we're able to sell more to the government than ever before because we're bringing the power of the Agentic Enterprise directly to the government.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company sees strong growth in SMB and mid-market segments.",
+      "quote": "Small and medium business, which are like zero to 200 employee companies. We're extremely strong in, we always have been. ... the SMB zero to 200 business is way stronger right now than we've ever seen it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to launch new products at Dreamforce, including Agentforce version 4.",
+      "quote": "You're going to see Agentforce version four. Well, it's going to be amazing and you're not going to want to miss it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.55 reflects a meaningful guidance raise, but the Q2 beat was partially attributed to one-time license revenue and professional services recognition. A reviewer should confirm the organic nature of the forward guidance raise."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The key risks are drawn from the standard 'Safe Harbor' statement, which lists potential risks but does not indicate which are considered most likely or material. A reviewer should consider whether these are standard boilerplate or specific concerns."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 1,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CRM_Bundled Earnings Report_2025-09-03",
+  "report_metadata": {
+    "issuer": "p2_salesforce",
+    "company": "Salesforce",
+    "ticker": "CRM",
+    "sector": "Technology/Software - Application",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2026",
+    "report_date": "2025-09-03",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q2\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q2\\CRM_Q2_FY26_Investor_Deck.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q2\\CRM_Q2_FY26_Earnings_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CRM_FQ2_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T102832Z",
+    "timestamp": "2026-08-09T10:28:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q2\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_salesforce\\extracted\\CRM_FQ2_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q2\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 39631,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q2\\CRM_Q2_FY26_Investor_Deck.pdf",
+        "page_count": 22,
+        "extracted_characters": 16341,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q2\\CRM_Q2_FY26_Earnings_Transcript.pdf",
+        "page_count": 22,
+        "extracted_characters": 73060,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_salesforce\\extracted\\CRM_FQ2_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

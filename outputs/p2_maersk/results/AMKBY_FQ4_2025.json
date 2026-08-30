@@ -1,0 +1,214 @@
+{
+  "document_id": "AMKBY_FQ4_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced significantly: FY26 EBIT guidance is USD -1.5bn to +1.0bn, compared to FY25 EBIT of USD 3.5bn (which was at the upper end of prior guidance). Management explicitly cites industry overcapacity and Red Sea reopening scenarios as headwinds. The share buyback was reduced from USD 2.0bn to USD 1.0bn, reflecting a more cautious approach. The tone is defensive about the Ocean outlook, with management emphasizing cost discipline and uncertainty."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue USD 13.3bn, down 8.7% YoY (from USD 14.6bn). FY25 revenue USD 54.0bn, down 2.7% YoY (from USD 55.5bn).",
+    "eps": "Not disclosed. Underlying profit for FY25 was USD 6,095m (vs USD 2,774m in FY24). Earnings per share (USD) not provided in the document.",
+    "guidance": "FY26 underlying EBITDA USD 4.5bn to 7.0bn; underlying EBIT USD -1.5bn to +1.0bn; free cash flow \u2265 USD 3bn; global container volume growth 2-4%; Maersk to grow in line with market. Capex FY26-27 combined USD 10-11bn.",
+    "margin": "Q4 2025 EBIT margin 0.9% (down from 14.0% in Q4 2024). FY25 EBIT margin 6.5% (down from 11.7% in FY24). Logistics & Services EBIT margin 4.9% in Q4 (up 0.8pp YoY). Terminals EBIT margin 23.7% in Q4 (down from 28.3% in Q4 2024).",
+    "key_risks": [
+      "Industry overcapacity from new vessel deliveries",
+      "Potential full Red Sea reopening in 2026, which would add further capacity",
+      "Freight rate decline: Ocean rates down 23% YoY and 8.8% sequentially",
+      "Ocean EBIT turned negative in Q4 2025 at USD -153m",
+      "Logistics & Services still below 6% EBIT margin target",
+      "Trade tensions and tariff environment impacting US-China volumes",
+      "Labour inflation and FX impact on Terminals cost per move"
+    ],
+    "key_opportunities": [
+      "Gemini network delivering cost savings of USD 820-1,100m annually",
+      "Terminals record performance with 20% revenue growth and 31% EBIT growth in FY25",
+      "Logistics & Services seventh consecutive quarter of YoY EBIT margin improvement",
+      "Strong balance sheet with net cash of USD 2.9bn to weather downturn",
+      "Continued share buyback program of USD 1.0bn over 12 months",
+      "Organisational cost reductions of USD 180m annually from corporate overhead"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasizes uncertainty and headwinds: 'The lower level reflects the higher level of uncertainty and the lower rate environment that we are headed into in 2026' and 'we are, of course, prudent towards capital deployment and keeping as much of our powder dry as possible, given some of the unknowns in the outlook.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "FY26 EBIT guidance is USD -1.5bn to +1.0bn, a significant reduction from FY25 EBIT of USD 3.5bn.",
+      "quote": "Outlook for the full year 2026: Underlying EBITDA of USD 4.5bn to 7.0bn. Underlying EBIT (1) of USD 1.5bn to 1.0bn.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY25 EBIT was USD 3.5bn, at the upper end of prior guidance.",
+      "quote": "Full year EBITDA and EBIT of USD 9.5bn and USD 3.5bn (upper end of FY25 guidance).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Share buyback reduced from USD 2.0bn in 2025 to USD 1.0bn for the next 12 months.",
+      "quote": "Continue share buy back programme with c. USD 1.0bn buy back over next 12 months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ocean EBIT turned negative in Q4 2025 at USD -153m.",
+      "quote": "Continuing market rate decline leading EBIT into the negative territory at negative USD 153m (margin: 1.8%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Freight rates declined 23% YoY and 8.8% sequentially.",
+      "quote": "Average freight rates decreased by 23% YoY, and 8.8% QoQ due to the ongoing market pressure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gemini cost savings estimated at USD 820-1,100m annually.",
+      "quote": "we are now targeting $820 million to $1.1 billion in annual benefits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Terminals had a record year with 20% revenue growth and 31% EBIT growth in FY25.",
+      "quote": "Terminals: Record financial performance, strong revenue and EBIT growth (20% and 31%, respectively).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Logistics & Services EBIT margin improved for the seventh consecutive quarter YoY.",
+      "quote": "Seventh consecutive quarter of YoY EBIT margin improvement (+0.8pp), albeit sequential decline (0.6pp) to 4.9%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious due to uncertainty and headwinds.",
+      "quote": "The lower level reflects the higher level of uncertainty and the lower rate environment that we are headed into in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 revenue was USD 13.3bn, down 8.7% YoY.",
+      "quote": "Revenue .3 8.7% 4.0 2.7%",
+      "confidence": "MEDIUM",
+      "flag": "UNCERTAIN: The quote is fragmented from a table; the full context shows Q4 2025 revenue USD 13.3bn (down 8.7% YoY) and FY25 revenue USD 54.0bn (down 2.7% YoY)."
+    },
+    {
+      "claim": "FY25 underlying profit was USD 6,095m.",
+      "quote": "Underlying profit/loss 2,165 2,774 6,095",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global container volume growth expected 2-4% in 2026.",
+      "quote": "We expect global container volume growth of 4% and APMM to grow in line with the market.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organisational cost reductions of USD 180m annually.",
+      "quote": "Cost savings of c. USD 130m in 2026 with annualised impact of c. USD 180m, and restructuring costs in 2026 of USD 200m, reflecting ~15% reduction in corporate overheads.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net cash position of USD 2.9bn at end of Q4 2025.",
+      "quote": "Total cash and deposits stood at USD 21.4bn with net cash of USD 2.9bn, lower than previous year (USD 7.4bn).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "The revenue figure is extracted from a table with fragmented formatting; the exact Q4 2025 revenue of USD 13.3bn is confirmed in the income statement table."
+    },
+    {
+      "field": "summary.eps",
+      "reason": "EPS not explicitly stated in the document; underlying profit is provided but not per-share figure."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 1,
+    "review_flag_count": 2,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "AMKBY_Bundled Earnings Report_2026-02-05",
+  "report_metadata": {
+    "issuer": "p2_maersk",
+    "company": "Maersk",
+    "ticker": "AMKBY",
+    "sector": "Industrials/Shipping",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q4\\apmm_4q25_investor_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q4\\maersk_annual_report_2025_press_release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q4\\Q4 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMKBY_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214258Z",
+    "timestamp": "2026-07-18T21:44:26Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q4\\apmm_4q25_investor_presentation.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_maersk\\extracted\\AMKBY_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q4\\apmm_4q25_investor_presentation.pdf",
+        "page_count": 30,
+        "extracted_characters": 20329,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q4\\maersk_annual_report_2025_press_release.pdf",
+        "page_count": 3,
+        "extracted_characters": 7174,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\maersk\\CY2025-Q4\\Q4 2025 AP Moeller - Maersk A&#x3a;S Earnings Call Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 59586,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_maersk\\extracted\\AMKBY_FQ4_2025.txt"
+  }
+}

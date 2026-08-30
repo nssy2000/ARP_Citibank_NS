@@ -1,0 +1,209 @@
+{
+  "document_id": "UBER_FQ4_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports strong Q4 2025 results with revenue up 20% YoY and Adjusted EBITDA up 35% YoY, but the key driver for the score is the forward guidance: Q1 2026 Gross Bookings guidance of $52.0B-$53.5B implies 17%-21% YoY growth on a constant currency basis, which is a meaningful raise from the prior year's trajectory. Management expresses high confidence in accelerating momentum, particularly in the US business, citing insurance cost improvements and product-driven growth. The score is tempered slightly by the structural risk of AV competition, though management frames it as a net positive opportunity."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2025 revenue of $14.4 billion, up 20% YoY (19% constant currency). Full year 2025 revenue of $52.0 billion, up 18% YoY.",
+    "eps": "Q4 2025 GAAP diluted EPS of $0.14; Non-GAAP EPS of $0.71, up 27% YoY. Full year 2025 GAAP diluted EPS of $4.73; Non-GAAP EPS of $2.45, up 35% YoY.",
+    "guidance": "Q1 2026 Gross Bookings guidance of $52.0B-$53.5B, representing 17%-21% YoY growth on a constant currency basis. Non-GAAP EPS guidance of $0.65-$0.72, representing 37% YoY growth at the midpoint. Adjusted EBITDA guidance of $2.37B-$2.47B.",
+    "margin": "Q4 2025 Adjusted EBITDA margin as a percentage of Gross Bookings was 4.6%, up from 4.2% in Q4 2024. Non-GAAP Operating Income as a percentage of Gross Bookings was 3.5%, up from 3.0% in Q4 2024.",
+    "key_risks": [
+      "AV competition and the potential for winner-take-most dynamics in autonomous vehicle technology",
+      "Insurance cost headwinds in the US, though management notes improvement",
+      "Revaluation of equity investments caused a $1.6 billion net headwind (pre-tax) in Q4 2025"
+    ],
+    "key_opportunities": [
+      "Autonomous vehicles as a multi-trillion dollar opportunity, with AVs on Uber's platform showing 30% higher utilization",
+      "Expansion into less dense markets (1.5x-2x faster growth than dense markets)",
+      "New products (Moto, Reserve, Wait and Save) driving customer acquisition",
+      "Uber One membership program growing 55% YoY with 46 million members",
+      "Advertising business with penetration exceeding prior 2% target, with enterprise advertising catching up",
+      "Delivery growth driven by selection, grocery/retail expansion, and international launches"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Dara Khosrowshahi states 'We started 2026 with a ton of momentum, a scaled and profitable platform and a clear operating framework to generate durable growth,' and Balaji Krishnamurthy says 'we are entering 2026 with strong momentum, while remaining solidly on track to deliver on our three-year growth and profit outlook.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2025 revenue was $14.4 billion, up 20% YoY.",
+      "quote": "Revenue grew 20% YoY to $14.4 billion, or 19% on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 revenue was $52.0 billion, up 18% YoY.",
+      "quote": "Revenue $43,978 $52,017 18 % 18 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 GAAP diluted EPS was $0.14.",
+      "quote": "GAAP Diluted earnings per share ('EPS') was $0.14.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Non-GAAP EPS was $0.71, up 27% YoY.",
+      "quote": "Non-GAAP EPS grew 27% YoY to $0.71.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 Non-GAAP EPS was $2.45, up 35% YoY.",
+      "quote": "Non-GAAP EPS $1.82 $2.45 35 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 Gross Bookings guidance is $52.0B-$53.5B, representing 17%-21% YoY growth on a constant currency basis.",
+      "quote": "Gross Bookings of $52.0 billion to $53.5 billion, representing growth of 17% to 21% YoY on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 Non-GAAP EPS guidance is $0.65-$0.72, representing 37% YoY growth at the midpoint.",
+      "quote": "Non-GAAP EPS of $0.65 to $0.72, representing growth of 37% YoY at the midpoint.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 Adjusted EBITDA guidance is $2.37B-$2.47B.",
+      "quote": "Our outlook translates to Adjusted EBITDA of $2.37 billion to $2.47 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Adjusted EBITDA margin as a percentage of Gross Bookings was 4.6%, up from 4.2% in Q4 2024.",
+      "quote": "Adjusted EBITDA margin as a percentage of Gross Bookings was 4.6%, up from 4.2% in Q4 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2025 Non-GAAP Operating Income as a percentage of Gross Bookings was 3.5%, up from 3.0% in Q4 2024.",
+      "quote": "Non-GAAP Operating Income as a percentage of Gross Bookings was 3.5%, up from 3.0% in Q4 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AVs on Uber's platform show 30% higher utilization.",
+      "quote": "we're seeing AVs on our platform at significantly higher utilizations than kind of one-piece standalone platforms based on the publicly available data in that trips per vehicle per day are 30% higher, ETAs are better as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uber One membership program is growing 55% YoY with 46 million members.",
+      "quote": "our membership program which has been a key investment area and still is growing 55% year-on-year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expresses confidence in the forward outlook.",
+      "quote": "We started 2026 with a ton of momentum, a scaled and profitable platform and a clear operating framework to generate durable growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Insurance cost headwinds in the US are improving.",
+      "quote": "we are in a position where insurance is going from a deleveraging cost item to something that gives us leverage and that allows us to hold prices flat or better in certain markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revaluation of equity investments caused a $1.6 billion net headwind (pre-tax) in Q4 2025.",
+      "quote": "GAAP Net income attributable to Uber Technologies, Inc. was $296 million, which includes a $1.6 billion net headwind (pre tax) from revaluations of Uber's equity investments.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising business penetration exceeded prior 2% target.",
+      "quote": "the advertising business has continued to see impressive growth, with penetration in delivery now exceeding your prior target of 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expansion into less dense markets is growing 1.5x-2x faster than dense markets.",
+      "quote": "growth in less dense markets is about, 1.5 times to 2 times more than growth in the middle of the big cities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is explicit and management tone is confident, but the AV competitive risk is a structural overhang that could warrant a slightly lower score. A human reviewer should confirm the balance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UBER_Bundled Earnings Report_2026-02-03",
+  "report_metadata": {
+    "issuer": "p2_uber",
+    "company": "Uber",
+    "ticker": "UBER",
+    "sector": "Technology/Transportation",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-03",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q4\\Uber-Q4-25-Earnings-Call-Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q4\\Uber-Q4-25-Earnings-Press-Release.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UBER_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T175227Z",
+    "timestamp": "2026-07-30T17:53:29Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q4\\Uber-Q4-25-Earnings-Call-Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q4\\Uber-Q4-25-Earnings-Call-Transcript.pdf",
+        "page_count": 17,
+        "extracted_characters": 62819,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\uber\\CY2025-Q4\\Uber-Q4-25-Earnings-Press-Release.pdf",
+        "page_count": 14,
+        "extracted_characters": 37139,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_uber\\extracted\\UBER_FQ4_2025.txt"
+  }
+}

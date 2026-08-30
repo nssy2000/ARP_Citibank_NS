@@ -1,0 +1,267 @@
+{
+  "document_id": "JPM_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The document reports a strong backward-looking quarter (net income up 9% YoY, EPS up 14%), but the forward guidance is effectively held flat or hedged. The NII ex. Markets guidance of ~$90B is unchanged despite a lower rate curve headwind, and the adjusted expense guidance of ~$95B is also unchanged. Management explicitly flags 'considerable turbulence,' 'elevated risks and uncertainties,' and a 'wait-and-see attitude' from clients. The CEO states the economy faces 'potential negatives of tariffs and trade wars' and that the firm prepares for 'a wide range of scenarios.' The CFO notes 'unusually uncertain' outlook and that the reserve build reflects increased downside probability weightings. This combination of flat guidance, explicit caution, and elevated risk language constitutes a negative forward signal, warranting a score near -0.5."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Managed revenue of $46.0 billion, up 8% YoY. Reported revenue of $45.3 billion, up 8% YoY.",
+    "eps": "Diluted EPS of $5.07, up 14% YoY.",
+    "guidance": "FY2025 NII ex. Markets expected to be ~$90B (unchanged). FY2025 Firmwide NII expected to be ~$94.5B (increased from prior, attributed to Markets NII offset in NIR). FY2025 adjusted expense expected to be ~$95B (unchanged). FY2025 Card Services NCO rate expected to be ~3.6% (unchanged).",
+    "margin": "ROE 18%, ROTCE 21%. Managed overhead ratio 51%. CCB ROE 31%, CIB ROE 18%, AWM ROE 39%.",
+    "key_risks": [
+      "Geopolitical and trade-related tensions causing client caution and market volatility.",
+      "Potential negatives of tariffs and 'trade wars' on the economy.",
+      "Ongoing sticky inflation, high fiscal deficits, and still rather high asset prices and volatility.",
+      "Lower rate environment creating headwinds for NII ex. Markets (deposit margin compression, lower deposit balances).",
+      "Elevated uncertainty leading to a 'wait-and-see' attitude from corporate clients, impacting IB pipeline conversion and new activity.",
+      "Credit risk: reserve build of $973 million driven by changes in weighted-average macroeconomic outlook and increased downside probability weightings (weighted-average unemployment rate in allowance at 5.8%).",
+      "Potential for a recession (economist view ~50-50).",
+      "Higher expenses driven by compensation, technology, marketing, and legal costs."
+    ],
+    "key_opportunities": [
+      "Strong underlying business and financial results in Q1, with net income of $14.6B.",
+      "Record revenue in Equities Markets (up 48% YoY) amid elevated volatility.",
+      "Strong net inflows in AWM ($90B AUM net inflows, $54B long-term).",
+      "Continued customer acquisition in CCB (500k net new checking accounts, record first-time investors).",
+      "Potential for regulatory reform (SLR, G-SIFI, CCAR, Basel III) to free up capital and liquidity for lending and market-making.",
+      "Opportunity to gain market share from non-traditional lenders during volatile periods.",
+      "Fortress balance sheet with $1.5T cash and marketable securities and strong capital ratios (CET1 15.4%)."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly uses language like 'unusually uncertain,' 'considerable turbulence,' 'wait-and-see attitude,' and 'prepare for a wide range of scenarios,' while also noting the firm is 'pleased with another quarter of strong operating performance.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Managed revenue was $46.0 billion, up 8% YoY.",
+      "quote": "Net revenue - managed 46,014 43,738 42,548 2,276 5 3,466 8",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $5.07, up 14% YoY.",
+      "quote": "Earnings per share - diluted $ 5.07 $ 4.81 $ 4.44 $ 0.26 5 % $ 0.63 14 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 NII ex. Markets guidance is unchanged at ~$90B.",
+      "quote": "Expect FY2025 net interest income excluding Markets of ~$90B, market dependent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 adjusted expense guidance is unchanged at ~$95B.",
+      "quote": "Expect FY2025 adjusted expense of ~$95B, market dependent – Adjusted expense excludes Firmwide legal expense",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management explicitly flags 'considerable turbulence' and 'potential negatives of tariffs and trade wars.'",
+      "quote": "The economy is facing considerable turbulence (including geopolitics), with the potential positives of tax reform and deregulation and the potential negatives of tariffs and 'trade wars,' ongoing sticky inflation, high fiscal deficits and still rather high asset prices and volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The CFO describes the outlook as 'unusually uncertain.'",
+      "quote": "we're pleased with another quarter of strong operating performance – but of course, the focus right now is on the future, which is obviously unusually uncertain.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The reserve build of $973 million was driven by increased downside probability weightings, with a weighted-average unemployment rate of 5.8%.",
+      "quote": "in light of the significantly elevated risks and uncertainties at the time, we increased the probability weightings associated with the downside scenarios in our CECL framework. As a result, the weighted-average unemployment rate embedded in our allowance is 5.8%, up from 5.5% last quarter, driving the $973 million increase in the allowance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "we're pleased with another quarter of strong operating performance – but of course, the focus right now is on the future, which is obviously unusually uncertain.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ROE was 18%, ROTCE was 21%.",
+      "quote": "Return on common equity 18 % Return on tangible common equity 21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Equity Markets revenue was up 48% YoY, a record.",
+      "quote": "Equity Markets revenue was $3.8 billion, up 48%, driven by higher revenue across products, with particularly strong performance in Derivatives amid elevated levels of volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM had $90 billion in AUM net inflows.",
+      "quote": "AWM had healthy AUM net inflows of $90 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CCB opened 500,000 net new checking accounts.",
+      "quote": "opening 500,000 net new checking accounts and adding record first-time investors in wealth management.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The firm has $1.5 trillion in cash and marketable securities.",
+      "quote": "we have an extraordinary amount of liquidity, with $1.5 trillion of cash and marketable securities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CET1 ratio is 15.4%.",
+      "quote": "CET1 capital ratios Std. 15.4% | Adv. 15.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The firm repurchased $7.1 billion of common stock in Q1.",
+      "quote": "$7.1 billion of common stock net repurchases",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The CEO states the economy faces 'potential negatives of tariffs and trade wars.'",
+      "quote": "the potential negatives of tariffs and 'trade wars,' ongoing sticky inflation, high fiscal deficits and still rather high asset prices and volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The CFO notes a 'wait-and-see attitude' from corporate clients.",
+      "quote": "I think we would characterize what we're hearing from our corporate clients as a little bit of a wait-and-see attitude.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The economist view is ~50-50 for a recession.",
+      "quote": "our excellent economist, Michael Feroli, I called him this morning, specifically to ask him, how they're looking at their forecast today, they think it's about 50-50 for a recession.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Firmwide NII guidance increased to ~$94.5B, attributed to Markets NII offset in NIR.",
+      "quote": "The Firmwide NII outlook has increased to about $94.5 billion, reflecting an increase in Markets NII, which you should think of as being primarily offset in NIR.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 Card Services NCO rate guidance is unchanged at ~3.6%.",
+      "quote": "Expect FY2025 Card Services NCO rate of ~3.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on flat/hedged guidance and explicit caution, but the quarter itself was strong. A reviewer should confirm that the backward-looking strength does not outweigh the forward-looking caution in the scoring."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The Firmwide NII guidance was raised to ~$94.5B, but the CFO explicitly attributes this to Markets NII which is offset in NIR, so it is not an organic improvement. The NII ex. Markets guidance is unchanged. A reviewer should verify this interpretation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "ensemble": {
+    "n_runs": 3,
+    "scores": [
+      -0.5,
+      -0.5,
+      -0.5
+    ],
+    "signals": [
+      "SELL",
+      "SELL",
+      "SELL"
+    ],
+    "mean_score": -0.5,
+    "score_range": 0.0,
+    "signal_agreement": true
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2025-04-11",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-11",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\1q25-earnings-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T193128Z",
+    "timestamp": "2026-07-02T19:31:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm_ensemble3\\extracted\\JPM_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 24508,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\jpm-1q25-presentation.pdf",
+        "page_count": 14,
+        "extracted_characters": 21865,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q1\\1q25-earnings-transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 96629,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm_ensemble3\\extracted\\JPM_FQ1_2025.txt"
+  }
+}

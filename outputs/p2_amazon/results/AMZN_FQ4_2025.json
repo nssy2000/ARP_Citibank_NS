@@ -1,0 +1,225 @@
+{
+  "document_id": "AMZN_FQ4_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "The document reports a net income miss (EPS $1.95 vs expected $1.97) and a massive capex surprise: 2026 capex projected at about $200B versus the Street's $147B estimate. While AWS growth is strong (24% YoY, $142B run rate), the forward guidance on capex is a major negative signal that overshadows the operational positives. The sentiment is bearish because the capex shock directly hits investor fears about free cash flow erosion, and the net income miss adds to the negative tone."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$213.4 billion, up 12% year over year excluding currency.",
+    "eps": "$1.95 EPS, missed expectations of $1.97.",
+    "guidance": "Q1 2026 net sales guided to $173.5B to $178.5B, operating income $16.5B to $21.5B. 2026 capex projected at about $200B.",
+    "margin": "AWS operating margin 35% through Q4, up 40 basis points year over year. North America segment operating margin 9%, up from 8% in 2024. International segment operating margin 2.1%.",
+    "key_risks": [
+      "Results may be materially affected by geopolitics, tariffs and supply volatility.",
+      "AWS margins expected to fluctuate as AI investments depreciate.",
+      "Possible revenue compression if shoppers adopt third-party agents over Amazon’s own.",
+      "Net income missed expectations.",
+      "2026 capex of ~$200B far above the ~$146.6B analysts expected.",
+      "Roughly $1B of incremental North America cost from Amazon LEO satellite launches."
+    ],
+    "key_opportunities": [
+      "AWS growth accelerated to 24% YoY, fastest in thirteen quarters, $142B annualized run rate.",
+      "Advertising revenue grew 22% to $21.3B.",
+      "Trainium is a multibillion-dollar annualized run rate business, fully subscribed.",
+      "Strong growth in everyday essentials and grocery.",
+      "Rufus AI shopping assistant used by 300 million customers.",
+      "Amazon LEO satellite internet expected to launch commercially in 2026."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expresses strong confidence in AWS and AI investments, stating 'we are investing to do so' and 'we are confident this will be the case here as well' regarding return on invested capital, despite the capex shock."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $213.4 billion, up 12% year over year excluding currency.",
+      "quote": "We are reporting $213.4 billion in revenue, up 12% year over year excluding the impact from foreign exchange rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $1.95, missing expectations of $1.97.",
+      "quote": "Amazon.com, Inc. misses on earnings expectations. Reported EPS is $1.95 EPS, expectations were $1.97.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2026 net sales guided to $173.5B to $178.5B, operating income $16.5B to $21.5B.",
+      "quote": "Q1 net sales are expected to be between $173.5 billion and $178.5 billion. ... Q1 operating income is expected to be between $616.5 billion and $21.5 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 capex projected at about $200B, far above the roughly $146.6B analysts expected.",
+      "quote": "We expect to invest about $200 billion in capital expenditures across Amazon.com, Inc., but predominantly in AWS, because we have very high demand.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS operating margin 35% through Q4, up 40 basis points year over year.",
+      "quote": "AWS is 35% operating margin through Q4, up 40 basis points year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "North America segment operating margin 9%, up from 8% in 2024.",
+      "quote": "North America segment operating income was $11.5 billion with an operating margin of 9%. Up from an 8% margin in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International segment operating margin 2.1%.",
+      "quote": "International segment operating income was $1 billion with an operating margin of 2.1%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Results may be materially affected by geopolitics, tariffs and supply volatility.",
+      "quote": "Our results are inherently unpredictable and may be materially affected by many factors, including fluctuations in foreign exchange rates and energy prices, changes in global economic and geopolitical conditions, tariff and trade policies, resource and supply volatility, including for memory chips, and customer demand and spending, including the impact of recessionary fears, inflation, interest rates, regional labor market constraints, world events, the rate of growth of the Internet, online commerce, cloud services, and new and emerging technologies, and the various factors detailed in our filings with the SEC.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS margins expected to fluctuate as AI investments depreciate.",
+      "quote": "As we’ve long said, we expect AWS operating margins to fluctuate over time, driven in part by the level of investments we are making at any point in time.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Possible revenue compression if shoppers adopt third-party agents over Amazon’s own.",
+      "quote": "Possible revenue compression if shoppers adopt third-party agents over Amazon’s own.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net income missed expectations.",
+      "quote": "Amazon.com, Inc. misses on earnings expectations. Reported EPS is $1.95 EPS, expectations were $1.97.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Roughly $1B of incremental North America cost from Amazon LEO satellite launches.",
+      "quote": "Within the North America segment, we do expect a year over year cost increase of approximately $1 billion related to Amazon LEO.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWS growth accelerated to 24% YoY, fastest in thirteen quarters, $142B annualized run rate.",
+      "quote": "AWS growth continued to accelerate to 24%, the fastest we’ve seen in thirteen quarters. ... AWS is now a $142 billion annualized run rate business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising revenue grew 22% to $21.3B.",
+      "quote": "Advertising revenue grew 22% in the fourth quarter ... generating $21.3 billion of revenue in the quarter and growing 22% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Trainium is a multibillion-dollar annualized run rate business, fully subscribed.",
+      "quote": "Trainium is a multibillion-dollar annualized run rate business and it’s fully subscribed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong growth in everyday essentials and grocery.",
+      "quote": "In 2025, everyday essentials grew nearly twice as fast as all other categories in The US, representing one out of three units sold in our store.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rufus AI shopping assistant used by 300 million customers.",
+      "quote": "Last year, more than 300 million customers used Rufus.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Amazon LEO satellite internet expected to launch commercially in 2026.",
+      "quote": "We’ve launched 180 satellites have more than 20 launches planned in 2026, more than 30 in 2027, and expect to launch commercially in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are confident this will be the case here as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The sentiment score is based on the analyst's pre-sealed worksheet which assigned +0.30 and SELL, but the document itself shows a net income miss and a massive capex surprise. The score of -0.30 reflects the negative forward signal from the capex shock, which is a judgment call that a human reviewer should verify against the document's content."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 19,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AMZN_Bundled Earnings Report_2026-02-05",
+  "report_metadata": {
+    "issuer": "p2_amazon",
+    "company": "Amazon",
+    "ticker": "AMZN",
+    "sector": "Consumer/Retail-Tech",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-05",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q4\\03 amazon q4 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q4\\AMZN-Q4-2025-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AMZN_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T172044Z",
+    "timestamp": "2026-07-30T17:21:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q4\\03 amazon q4 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q4\\03 amazon q4 2025 david.pdf",
+        "page_count": 3,
+        "extracted_characters": 5314,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\amazon\\CY2025-Q4\\AMZN-Q4-2025-Earnings-Call-Transcript-InsiderMonkey.txt",
+        "page_count": 1,
+        "extracted_characters": 56050,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_amazon\\extracted\\AMZN_FQ4_2025.txt"
+  }
+}

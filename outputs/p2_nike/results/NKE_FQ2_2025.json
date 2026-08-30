@@ -1,0 +1,198 @@
+{
+  "document_id": "NKE_FQ2_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was explicitly reduced: Q3 revenues expected down low double digits, gross margins down 300-350 bps, and greater headwinds in Q4. Management acknowledged the need for near-term pain to reset the business, with no timeline for return to growth. The score reflects the clear downward revision in guidance and the cautious, restructuring-oriented tone."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$12.4 billion, down 8% reported, down 9% currency-neutral",
+    "eps": "$0.78 diluted, down 24% year-over-year",
+    "guidance": "Q3 revenues expected down low double digits; Q3 gross margins down 300-350 bps; greater headwinds in Q4 vs Q3; summer '25 order books down vs prior year",
+    "margin": "Gross margin 43.6%, down 100 bps; EBIT margin 11.3%",
+    "key_risks": [
+      "Higher markdowns and promotional activity pressuring margins",
+      "Classic footwear franchise deceleration expected to continue for several quarters",
+      "Greater China macro headwinds and competitive environment",
+      "Inventory levels higher than desired, requiring aggressive liquidation",
+      "Near-term revenue and margin headwinds from marketplace reset actions"
+    ],
+    "key_opportunities": [
+      "New product innovation pipeline (Pegasus Premium, Vomero 18, Kobe, Sabrina) gaining traction",
+      "Sport-led 'fields of play' organizational structure expected to drive innovation",
+      "Rebuilding wholesale partner relationships and integrated marketplace",
+      "Long-term sport partnership extensions (NFL, NBA, WNBA, Brazil Football Confederation)",
+      "Shift to premium full-price model on NIKE Digital expected to improve channel profitability over time"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "CEO Elliott Hill stated 'some of these actions will have a negative impact on our near-term results' and CFO Matt Friend guided down revenue and margins, emphasizing 'we are taking the long-term view' and 'we expect the impact to be bigger for the balance of this year.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q2 revenue was $12.4 billion, down 8% reported and 9% currency-neutral",
+      "quote": "Second quarter revenues were $12.4 billion, down 8 percent on a reported basis compared to the prior year and down 9 percent on a currency-neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.78, down 24% year-over-year",
+      "quote": "Diluted earnings per share was $0.78, a decrease of 24 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 revenue guidance is down low double digits",
+      "quote": "we expect Q3 revenues to be down low double digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 gross margin guidance is down 300-350 basis points",
+      "quote": "We expect Q3 gross margins to be down approximately 300 to 350 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Greater headwinds expected in Q4 vs Q3",
+      "quote": "I said that we expect a greater headwind in the fourth quarter as compared to the third.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Summer '25 order books are down versus prior year",
+      "quote": "summer order books will be down versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin decreased 100 basis points to 43.6%",
+      "quote": "Gross margin decreased 100 basis points to 43.6 percent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Classic footwear franchise deceleration expected to continue for several quarters",
+      "quote": "As I said last call, we expect the impact of these shifts to continue for the next few quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory levels are higher than desired",
+      "quote": "inventory levels are higher than we would like, especially given recent sales trends on NIKE Direct.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious",
+      "quote": "some of these actions will have a negative impact on our near-term results. But we're taking the long-term view here.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Greater China macro headwinds and competitive environment",
+      "quote": "In Q2, we experienced another quarter of retail traffic declines in a difficult macro environment. This quarter also required higher markdown activity to drive sell-through and inventory velocity, which negatively affected gross margins. In a competitive environment",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New product innovation pipeline is gaining traction",
+      "quote": "In the quarter, some of our most sought-after products are franchises that are distinctly NIKE, the Pegasus 41, NIKE Shox, and the Kobe lineup. And we're building anticipation for what's ahead, unveiling the Vomero 18 and Pegasus Premium to passionate runners",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rebuilding wholesale partner relationships",
+      "quote": "The final action we prioritize is building back and earning the trust of our key wholesale partners.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term sport partnership extensions",
+      "quote": "In just the last 60 days, we've announced the resigning of the NBA and the WNBA, the Brazil Football Confederation, FC Barcelona, and last week, the NFL.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shift to premium full-price model on NIKE Digital",
+      "quote": "We will return NIKE Direct, digital and physical, to premium destinations that lead the sports industry. ... Being premium also means full price.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on explicit guidance reduction and cautious tone. A human reviewer should confirm that the magnitude of the guidance cut (low double-digit revenue decline, 300-350 bps margin compression) warrants this score relative to the anchor points."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NKE_Bundled Earnings Report_2025-06-26",
+  "report_metadata": {
+    "issuer": "p2_nike",
+    "company": "Nike",
+    "ticker": "NKE",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2024-12-19",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NKE_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214803Z",
+    "timestamp": "2026-07-18T21:48:39Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\extracted\\NKE_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+        "page_count": 1,
+        "extracted_characters": 14438,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "page_count": 3,
+        "extracted_characters": 65218,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\extracted\\NKE_FQ2_2025.txt"
+  }
+}

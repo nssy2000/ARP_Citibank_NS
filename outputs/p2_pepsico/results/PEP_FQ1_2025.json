@@ -1,0 +1,198 @@
+{
+  "document_id": "PEP_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: core constant currency EPS is now expected to be approximately even with the prior year, down from previously expected mid-single-digit growth. Management explicitly cited higher supply chain costs related to tariffs, elevated macroeconomic volatility, and a subdued consumer backdrop as reasons for the downgrade. The tone is cautious and defensive, with multiple references to uncertainty and headwinds."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported net revenue of $17,919 million, a decrease of 1.8% year-over-year. Organic revenue grew 1.2%.",
+    "eps": "Reported GAAP EPS of $1.33, a decrease of 10% year-over-year. Core EPS was $1.48, a decrease of 4% on a constant currency basis.",
+    "guidance": "For 2025, the company expects low-single-digit organic revenue growth, a core annual effective tax rate of approximately 20%, and total cash returns to shareholders of approximately $8.6 billion. Core constant currency EPS is now expected to be approximately even with the prior year (previously mid-single-digit growth). This implies a 3% decline in core EPS in 2025 compared to 2024 core EPS of $8.16.",
+    "margin": "Reported gross margin was 55.8% (core 55.7%), reported operating margin was 14.4% (core 15.6%). Core operating profit decreased 5% on a reported basis and 1% on a constant currency basis.",
+    "key_risks": [
+      "Higher supply chain costs related to tariffs",
+      "Elevated macroeconomic volatility",
+      "Subdued consumer backdrop",
+      "Foreign exchange translation headwind of approximately 3 percentage points",
+      "Uncertainty related to global trade developments",
+      "Subdued consumer conditions in many markets",
+      "Frito-Lay North America volume weakness"
+    ],
+    "key_opportunities": [
+      "International business continues to be the largest growth engine, with mid-single-digit growth expected",
+      "Multi-year productivity initiatives to fund disciplined commercial investments",
+      "Portfolio transformation in Frito-Lay (new price points, dual size strategy, innovation)",
+      "Beverage business in North America showing margin improvement and share gains in Pepsi and Gatorade",
+      "Acquisitions like Poppi (subject to regulatory approval) to expand in new segments"
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO stated 'we expect more volatility and uncertainty, particularly related to global trade developments' and the CFO cited 'heightened macro and consumer uncertainty' as a reason for the guidance reduction."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Forward guidance was reduced: core constant currency EPS now expected to be approximately even with the prior year, down from mid-single-digit growth.",
+      "quote": "Given expected higher supply chain costs related to tariffs, elevated macroeconomic volatility, and a subdued consumer backdrop, we now expect our core constant currency EPS to be approximately even with the prior year (previously mid-single-digit growth).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported net revenue decreased 1.8% year-over-year.",
+      "quote": "First-Quarter Net revenue performance (1.8)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue grew 1.2%.",
+      "quote": "First-Quarter Organic revenue performance 1.2%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported GAAP EPS was $1.33, a decrease of 10%.",
+      "quote": "Earnings per share (EPS) $1.33 EPS change (10)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core EPS was $1.48, a decrease of 4% on a constant currency basis.",
+      "quote": "Core EPS $1.48 Core constant currency EPS change (4)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management cited tariffs, macroeconomic volatility, and subdued consumer backdrop as reasons for the guidance reduction.",
+      "quote": "Given expected higher supply chain costs related to tariffs, elevated macroeconomic volatility, and a subdued consumer backdrop, we now expect our core constant currency EPS to be approximately even with the prior year (previously mid-single-digit growth).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "As we look ahead, we expect more volatility and uncertainty, particularly related to global trade developments, which we expect will increase our supply chain costs. At the same time, consumer conditions in many markets remain subdued and similarly have an uncertain outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business is expected to be a key growth driver.",
+      "quote": "We will continue building upon the successful long-term expansion of our international business, while also taking actions to improve performance in North America.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Frito-Lay North America is experiencing volume weakness.",
+      "quote": "The third is also related to the consumer picture is Frito's subdued performance and we've got clear plans to continue to turn the business around, but that'll take a little while too.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange is a headwind.",
+      "quote": "The Company also continues to expect a foreign exchange translation headwind of approximately 3-percentage-points to negatively impact reported net revenue and core EPS growth, based on current market consensus rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported gross margin was 55.8%.",
+      "quote": "Gross Margin Reported Gross Profit, GAAP measure $ 3,865 $ 3,217 $ $ $ $ $ $ 9,993 55.8 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating profit decreased 5% on a reported basis.",
+      "quote": "Core Operating Profit % Change, non-GAAP measure (a) (7) (18) (8) (5) ... Total (5)",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects low-single-digit organic revenue growth for 2025.",
+      "quote": "For 2025, the Company continues to expect: • A low-single-digit increase in organic revenue;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core constant currency EPS guidance implies a 3% decline in core EPS for 2025.",
+      "quote": "This assumption and the guidance above implies a 3 percent decline in core EPS in 2025 (previously a low-single-digit core EPS increase) compared to 2024 core EPS of $8.16.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.margin",
+      "reason": "The margin figures are extracted from detailed reconciliation tables; a human reviewer should verify the exact percentages and ensure they are correctly interpreted as GAAP or core."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The list of risks is compiled from multiple statements across the press release and transcript; a human reviewer should confirm that no material risk was omitted."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2025-04-24",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-24",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q1\\PEP-8K-EX99.1-2025-Q1-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q1\\PEP-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:47:14Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q1\\PEP-8K-EX99.1-2025-Q1-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q1\\PEP-8K-EX99.1-2025-Q1-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 53838,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2025-Q1\\PEP-Q1-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 52860,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ1_2025.txt"
+  }
+}

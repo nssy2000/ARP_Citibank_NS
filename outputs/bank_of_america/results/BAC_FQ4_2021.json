@@ -1,0 +1,288 @@
+{
+  "document_id": "BAC_FQ4_2021",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports strong backward-looking results (record full-year net income of $32.0B, EPS of $3.57, revenue up 10% YoY in Q4) and management expresses confidence in organic growth and an improving economy. However, forward guidance is limited: management expects full-year 2022 noninterest expense to approximate 2021 levels, but does not raise revenue or earnings guidance. The tone is optimistic but the lack of a formal forward guidance raise keeps the score moderately positive, reflecting genuine operational momentum without a clear upward revision to expectations."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 2021 total revenue, net of interest expense, was $22.1 billion, an increase of 10% compared to $20.1 billion in Q4 2020. Full-year 2021 revenue was $89.1 billion, up from $85.5 billion in 2020.",
+    "eps": "Q4 2021 diluted earnings per share were $0.82, up from $0.59 in Q4 2020. Full-year 2021 diluted EPS was $3.57, up from $1.87 in 2020.",
+    "guidance": "Management expects full-year 2022 noninterest expense to approximate that of 2021, with 1Q22 expenses expected to include seasonally elevated personnel costs of approximately $400 million. No formal revenue or earnings guidance was provided.",
+    "margin": "Q4 2021 efficiency ratio was 67%, compared to 69% in Q4 2020. Net interest yield (FTE) was 1.67% in Q4 2021, down from 1.71% in Q4 2020. Pretax margin for Global Wealth & Investment Management was 30% in Q4 2021, up from 24% in Q4 2020.",
+    "key_risks": [
+      "Potential impact of U.S. and global interest rates, inflation, currency exchange rates, economic conditions, trade policies and tensions, including tariffs, and potential geopolitical instability.",
+      "Possibility that future credit losses may be higher than currently expected due to changes in economic assumptions, customer behavior, adverse developments with respect to U.S. or global economic conditions and other uncertainties, including the impact of supply chain disruptions, inflationary pressures and labor shortages on the economic recovery and our business.",
+      "The Company's ability to achieve its expense targets and expectations regarding revenue, net interest income, provision for credit losses, net charge-offs, effective tax rate, loan growth or other projections.",
+      "Adverse changes to the Company's credit ratings from the major credit rating agencies.",
+      "A failure or disruption in or breach of the Company's operational or security systems or infrastructure, or those of third parties, including as a result of cyber-attacks or campaigns.",
+      "The impact of climate change and the ability to achieve environmental, social and governance goals and commitments.",
+      "The emergence of widespread health emergencies or pandemics, including the magnitude and duration of the COVID-19 pandemic and its impact on the U.S. and/or global, financial market conditions and our business, results of operations, financial condition and prospects."
+    ],
+    "key_opportunities": [
+      "Strong organic growth: added ~901,000 net new consumer checking accounts and ~525,000 new consumer investment accounts in 2021.",
+      "Record full-year net income of $32.0 billion, with every business line contributing.",
+      "Record investment banking revenue and record asset management fees.",
+      "Strong loan growth: ending loan balances up $51 billion to $979 billion, led by strong commercial loan growth and higher card balances.",
+      "Record client balances in Global Wealth & Investment Management of $3.8 trillion, up 15%.",
+      "Digital engagement growth: 70% of households actively using digital platforms, 41.4 million active digital banking users, up 5%.",
+      "Interest rate sensitivity: a +100 bps parallel shift in the interest rate yield curve is estimated to benefit net interest income by $6.5 billion over the next 12 months."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated: 'Our fourth-quarter results were driven by strong organic growth, record levels of digital engagement, and an improving economy.' CFO Alastair Borthwick added: 'We ended the year on a strong note.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 2021 total revenue was $22.1 billion, up 10% YoY.",
+      "quote": "Revenue, net of interest expense, increased 10% to $22.1 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2021 diluted EPS was $0.82, up from $0.59 in Q4 2020.",
+      "quote": "Net income of $7.0 billion, or $0.82 per diluted share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2021 revenue was $89.1 billion, up from $85.5 billion in 2020.",
+      "quote": "Total revenue, net of interest expense $89.1 $85.5",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2021 diluted EPS was $3.57, up from $1.87 in 2020.",
+      "quote": "Diluted earnings per share $3.57 $1.87",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects full-year 2022 noninterest expense to approximate 2021 levels.",
+      "quote": "Absent unusual items and assuming various other factors, we expect full year noninterest expense for 2022 to approximate that of 2021",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "1Q22 expenses expected to include seasonally elevated personnel costs of approximately $400 million.",
+      "quote": "1Q22 expenses are expected to include seasonally elevated personnel costs of approximately $400MM",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2021 efficiency ratio was 67%, compared to 69% in Q4 2020.",
+      "quote": "Efficiency ratio 67 63 69",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 1.67% in Q4 2021, down from 1.71% in Q4 2020.",
+      "quote": "Net interest yield 1.67 % 1.68 % 1.71 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pretax margin for Global Wealth & Investment Management was 30% in Q4 2021, up from 24% in Q4 2020.",
+      "quote": "Pretax margin 30 % 31 % 24 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record full-year net income of $32.0 billion.",
+      "quote": "Record Full-Year 2021 Net Income of $32.0 Billion; EPS of $3.57",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Added ~901,000 net new consumer checking accounts in 2021.",
+      "quote": "Added ~901,000 net new Consumer checking accounts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ending loan balances up $51 billion to $979 billion.",
+      "quote": "Ending Loan Balances up $51 Billion to $979 Billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record client balances in Global Wealth & Investment Management of $3.8 trillion.",
+      "quote": "Record client balances of $3.8 trillion, up $491 billion, or 15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "70% of households actively using digital platforms.",
+      "quote": "70% of overall households actively using digital platforms",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Interest rate sensitivity: +100 bps shift estimated to benefit NII by $6.5B over 12 months.",
+      "quote": "+100 bps parallel shift in the interest rate yield curve is estimated to benefit net interest income by $6.5B over the next 12 months",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Our fourth-quarter results were driven by strong organic growth, record levels of digital engagement, and an improving economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include interest rate, inflation, and economic conditions.",
+      "quote": "the impact of U.S. and global interest rates, inflation, currency exchange rates, economic conditions, trade policies and tensions, including tariffs, and potential geopolitical instability",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include higher than expected credit losses.",
+      "quote": "the possibility that future credit losses may be higher than currently expected due to changes in economic assumptions, customer behavior, adverse developments with respect to U.S. or global economic conditions and other uncertainties, including the impact of supply chain disruptions, inflationary pressures and labor shortages on the economic recovery and our business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include ability to achieve expense targets.",
+      "quote": "the Company's ability to achieve its expense targets and expectations regarding revenue, net interest income, provision for credit losses, net charge-offs, effective tax rate, loan growth or other projections",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include adverse credit rating changes.",
+      "quote": "adverse changes to the Company's credit ratings from the major credit rating agencies",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include operational or security system failures.",
+      "quote": "a failure or disruption in or breach of the Company's operational or security systems or infrastructure, or those of third parties, including as a result of cyber-attacks or campaigns",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include climate change and ESG goal achievement.",
+      "quote": "the impact of climate change; the ability to achieve environmental, social and governance goals and commitments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include health emergencies or pandemics.",
+      "quote": "the emergence of widespread health emergencies or pandemics, including the magnitude and duration of the COVID-19 pandemic and its impact on the U.S. and/or global, financial market conditions and our business, results of operations, financial condition and prospects",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include strong organic growth in checking and investment accounts.",
+      "quote": "Added ~901,000 net new Consumer checking accounts and ~525,000 new Consumer investment accounts in 2021, up 64% and 24%, respectively, compared to 2019",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include record investment banking revenue.",
+      "quote": "record investment banking revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include strong loan growth.",
+      "quote": "ending balances up $51 billion to $979 billion, led by strong commercial loan growth as well as higher card balances",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include record client balances in wealth management.",
+      "quote": "Record client balances of $3.8 trillion, up $491 billion, or 15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include digital engagement growth.",
+      "quote": "70% of overall households actively using digital platforms",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include interest rate sensitivity benefit.",
+      "quote": "+100 bps parallel shift in the interest rate yield curve is estimated to benefit net interest income by $6.5B over the next 12 months",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Guidance is limited to expense expectations; no formal revenue or earnings guidance was raised. The score reflects operational momentum but may be considered generous given the lack of a forward guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 28,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2022-01-19",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2021",
+    "report_date": "2022-01-19",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q4\\bac-4q21-press-release.html",
+        "pub_date": "2022-01-19"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q4\\bac-4q21-presentation.html",
+        "pub_date": "2022-01-19"
+      }
+    ],
+    "document_id": "BAC_FQ4_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144506Z",
+    "timestamp": "2026-07-09T14:46:34Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q4\\bac-4q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q4\\bac-4q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 61960,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q4\\bac-4q21-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 63191,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ4_2021.txt"
+  }
+}

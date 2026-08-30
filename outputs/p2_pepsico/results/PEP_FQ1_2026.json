@@ -1,0 +1,208 @@
+{
+  "document_id": "PEP_FQ1_2026",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The company reported a solid quarter with revenue and EPS growth, and management affirmed fiscal 2026 guidance without raising it. The forward outlook remains unchanged, with organic revenue growth expected between 2% and 4% and core constant currency EPS growth of 4% to 6%. While there is genuine operational momentum in PFNA (volume growth, share gains) and international acceleration, the lack of a formal guidance raise and the explicit mention of inflation as a material uncertainty keep the score at the lower end of the positive range."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Net revenue increased 8.5% to $19,443 million; organic revenue increased 2.6%.",
+    "eps": "GAAP EPS increased 27% to $1.70; core EPS increased 9% to $1.61.",
+    "guidance": "Fiscal 2026 guidance affirmed: organic revenue growth of 2% to 4%; core constant currency EPS growth of 4% to 6%; core annual effective tax rate of approximately 22%; capital spending below 5% of net revenue; free cash flow conversion ratio of at least 80%; total cash returns to shareholders of approximately $8.9 billion.",
+    "margin": "Operating margin expanded 210 basis points to 16.5%; core operating margin expanded 10 basis points to 15.7%.",
+    "key_risks": [
+      "Inflation: CFO Stephen Schmitt stated 'our assumption is that inflation will come. The order of magnitude, we're still working through, and I think a lot of that is still to be determined.'",
+      "Geopolitical uncertainty: The Iran conflict is noted as a potential risk, though no impact on demand has been observed yet.",
+      "SNAP revisions: 8 states began restrictions in Q1, mainly affecting beverages and candy; impact is too early to determine."
+    ],
+    "key_opportunities": [
+      "PFNA volume growth: 2% volume increase, 4% unit growth, and 300 million new consumption occasions year over year.",
+      "International acceleration: 'The international business is very solid, continues to accelerate.'",
+      "Productivity initiatives: Ongoing cost savings from automation, AI, SKU reduction, plant closures, and supply chain optimization.",
+      "World Cup activation: 'The World Cup is a big driver of execution and innovation during the summer.'",
+      "Innovation and distribution gains: New products (protein, fiber) and planogram resets expected to accelerate through summer."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed confidence in the execution of their strategy, stating 'we are pleased with our first-quarter results' and 'we are affirming fiscal 2026 financial guidance,' while acknowledging external uncertainties."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Net revenue increased 8.5% to $19,443 million.",
+      "quote": "Net revenue $19,443 $17,919 8.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue increased 2.6%.",
+      "quote": "Organic revenue performance 2.6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP EPS increased 27% to $1.70.",
+      "quote": "EPS $1.70 $1.33 27%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core EPS increased 9% to $1.61.",
+      "quote": "Core EPS $1.61 $1.48 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 guidance affirmed: organic revenue growth of 2% to 4%.",
+      "quote": "For 2026, the Company continues to expect: • Organic revenue to increase between 2 and 4 percent;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core constant currency EPS growth of 4% to 6%.",
+      "quote": "Core constant currency EPS to increase between 4 and 6 percent;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin expanded 210 basis points to 16.5%.",
+      "quote": "Operating margin 16.5% 14.4% 210 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core operating margin expanded 10 basis points to 15.7%.",
+      "quote": "Core operating margin 15.7% 15.6% 10 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inflation is a material uncertainty.",
+      "quote": "CFO Stephen Schmitt stated, 'our assumption is that inflation will come. The order of magnitude, we're still working through, and I think a lot of that is still to be determined.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No impact from Iran conflict on international demand observed.",
+      "quote": "Ramon Laguarta: 'we haven't seen an impact on demand in the last -- since the war started.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "PFNA volume growth of 2% and 300 million new consumption occasions.",
+      "quote": "Ramon Laguarta: 'we grew volume 2%. We grew occasions units 4%, and we grew 300 million occasions in the quarter versus Q1 last year.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business continues to accelerate.",
+      "quote": "Ramon Laguarta: 'The international business is very solid, continues to accelerate.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity initiatives are ongoing and include automation, AI, SKU reduction.",
+      "quote": "Stephen Schmitt: 'We are benefiting from some of the moves from last year, the reduced headcount, plant closures, reduction in SKU count.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "World Cup activation is a key growth driver.",
+      "quote": "Ramon Laguarta: 'The World Cup is a big driver of execution and innovation during the summer.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Innovation and distribution gains expected to accelerate through summer.",
+      "quote": "Ramon Laguarta: 'the majority of our innovation is, let's say, 40%, 50% ACV at this point. So we should expect that we accelerate that in the balance of the quarter and into the summer.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SNAP revisions began in 8 states, impact too early to determine.",
+      "quote": "Stephen Schmitt: 'We did have 8 states. They were 8 states that began restriction in the first quarter. It's mainly beverages and candy. I think it's too early to come to any definitive conclusions right now in terms of impact.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Ramon Laguarta: 'We are pleased with our first-quarter results' and 'we are affirming fiscal 2026 financial guidance.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the BUY threshold. A reviewer may wish to confirm whether the operational momentum justifies a slightly positive score or if the unchanged guidance and inflation risk warrant a neutral 0.0."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2026-04-16",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-16",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q1\\PEP-8K-EX99.1-2026-Q1-PressRelease.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q1\\PEP-Q1-2026-earnings-call-transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:48:30Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q1\\PEP-8K-EX99.1-2026-Q1-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q1\\PEP-8K-EX99.1-2026-Q1-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 34043,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2026-Q1\\PEP-Q1-2026-earnings-call-transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 46020,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ1_2026.txt"
+  }
+}

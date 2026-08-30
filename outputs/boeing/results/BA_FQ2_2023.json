@@ -1,0 +1,213 @@
+{
+  "document_id": "BA_FQ2_2023",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document shows genuine operational momentum: BCA margins improved sequentially from -9% to -4.3%, free cash flow swung from -$0.2B to +$2.6B, and management reaffirmed full-year free cash flow guidance of $3-5B and $10B for 2025-2026. However, guidance was not raised, and structural risks remain in BDS (fixed-price development losses) and supply chain constraints, preventing a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$19.8 billion, up 18% year-over-year (from $16.7B in Q2 2022), primarily reflecting 136 commercial deliveries.",
+    "eps": "GAAP loss per share of ($0.25); core loss per share (non-GAAP) of ($0.82).",
+    "guidance": "Reaffirmed 2023 free cash flow guidance of $3.0-$5.0 billion (non-GAAP) and operating cash flow of $4.5-$6.5 billion. Also reaffirmed $10 billion free cash flow in 2025-2026.",
+    "margin": "GAAP operating margin of (0.5)%; core operating margin (non-GAAP) of (2.0)%. BCA operating margin (4.3)%; BDS (8.5)%; BGS 18.0%.",
+    "key_risks": [
+      "Supply chain constraints: 'we still find ourselves in a supply-constrained environment' (Brian West).",
+      "BDS fixed-price development program losses: $257M on Commercial Crew, $189M on T-7A, $68M on MQ-25.",
+      "Spirit quality escapes and work stoppage: 'will cost us a few deliveries in the quarter itself' (Dave Calhoun).",
+      "China delivery uncertainty: 85 MAX airplanes in inventory for China; guidance not dependent on it.",
+      "Labor instability and supply chain disruption on other BDS programs."
+    ],
+    "key_opportunities": [
+      "Strong commercial demand: 'Demand remains high' (Dave Calhoun); 460 net orders in Q2.",
+      "Production rate increases: 737 transitioning to 38/month, 787 to 4/month, with plans to reach 50 and 10/month respectively by 2025-2026.",
+      "BGS strong performance: 18.0% operating margin, expansion of 110 bps year-over-year.",
+      "Debt reduction: repaid $5.1B year-to-date; debt down to $52.3B from $55.4B.",
+      "Liquidity: $13.8B cash and marketable securities; $12B undrawn credit facilities."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Dave Calhoun stated 'We had a solid second quarter with improved deliveries and strong free cash flow generation. We are well positioned to meet the operational and financial goals we set for this year and for the long term.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $19.8 billion, up 18% year-over-year.",
+      "quote": "Second quarter revenue of $19.8 billion, GAAP loss per share of ($0.25) and core loss per share (non-GAAP)* of ($0.82) (Table 1). Second quarter results reflect higher commercial volume and lower defense margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share of ($0.25); core loss per share of ($0.82).",
+      "quote": "Second quarter revenue of $19.8 billion, GAAP loss per share of ($0.25) and core loss per share (non-GAAP)* of ($0.82) (Table 1).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year free cash flow guidance reaffirmed at $3.0-$5.0 billion.",
+      "quote": "Reaffirm guidance: $4.5-$6.5 billion of operating cash flow and $3.0-$5.0 billion of free cash flow (non-GAAP).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BCA operating margin improved sequentially from -9% to -4.3%.",
+      "quote": "Operating margin was minus 4.3%, a sequential improvement versus the first quarter as anticipated, but remains negative as we continue to be impacted by expected abnormal costs and period expenses including higher R&D spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow swung from -$0.2B to +$2.6B year-over-year.",
+      "quote": "Free cash flow, as Dave mentioned, was positive $2.6 billion in the quarter, significantly better versus last year and last quarter, driven by higher commercial deliveries and favorable receipt timing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS operating margin was (8.5)% driven by losses on three fixed-price development programs.",
+      "quote": "Operating margin was minus 8.5%, primarily driven by three fixed-price development programs. The first was related to Commercial Crew, tied to scheduled delays that we previously shared and had a $257 million impact. The second on MQ-25 related to a schedule shift that drove a $68-million impact. And lastly on the T-7A production contract, we revised the long-term production cost estimates that will occur over several years, starting in the 2025 timeframe, which drove an impact of $189 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BGS operating margin was 18.0%, up 110 bps year-over-year.",
+      "quote": "Operating margin was 18%, an expansion of 110 basis points versus last year, with both our Commercial and Government businesses delivering double-digit margins.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain remains a key risk: 'we still find ourselves in a supply-constrained environment'.",
+      "quote": "With demand strong, we still find ourselves in a supply-constrained environment and our focus continues to be on execution, both within our factories and the supply chain as we steadily increase production.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Spirit quality escapes and work stoppage will cost a few deliveries in Q3.",
+      "quote": "With respect to the Spirit quality escapes, the work stoppage and the bridge impairment, all have been contained and will be remedied as we exit the third quarter. So it will cost us a few deliveries in the quarter itself.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China delivery uncertainty: 85 MAX airplanes in inventory for China; guidance not dependent on it.",
+      "quote": "We ended the quarter with approximately 220 MAX airplanes in inventory. This includes 85 for customers in China, and 55 that have now been remarketed as part of the plan we previously discussed. We still expect most MAX inventory airplanes to be delivered by the end of 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We had a solid second quarter with improved deliveries and strong free cash flow generation. We are well positioned to meet the operational and financial goals we set for this year and for the long term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Debt reduced to $52.3 billion from $55.4 billion.",
+      "quote": "Debt was $52.3 billion, down from $55.4 billion at the beginning of the quarter due to the pay down of maturing debt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Liquidity: $13.8B cash and marketable securities; $12B undrawn credit facilities.",
+      "quote": "Cash and investments in marketable securities totaled $13.8 billion, compared to $14.8 billion at the beginning of the quarter (Table 3). Debt was $52.3 billion, down from $55.4 billion at the beginning of the quarter due to the pay down of maturing debt. The company maintains access to credit facilities of $12.0 billion, which remain undrawn.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "460 net orders booked in Q2, including 220 for Air India and 39 for Riyadh Air.",
+      "quote": "During the quarter, Commercial Airplanes booked 460 net orders, including 220 for Air India and 39 for Riyadh Air, and secured a commitment from Ryanair for up to 300 737 MAX airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Production rate increases: 737 to 38/month, 787 to 4/month.",
+      "quote": "Transitioning 737 production to 38 per month; increased 787 production to four per month.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.20 is near the BUY/HOLD boundary; a human reviewer should confirm that the operational momentum (BCA margin improvement, cash flow swing) justifies crossing the threshold despite no formal guidance raise and ongoing BDS risks."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2023-07-26",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2023",
+    "report_date": "2023-07-26",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q2\\ba-2q23-press-release.html",
+        "pub_date": "2023-07-26"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q2\\ba-2q23-presentation.pdf",
+        "pub_date": "2023-07-26"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q2\\ba-2q23-transcript.pdf",
+        "pub_date": "2023-07-26"
+      }
+    ],
+    "document_id": "BA_FQ2_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:35:48Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q2\\ba-2q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q2\\ba-2q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 26367,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q2\\ba-2q23-presentation.pdf",
+        "page_count": 12,
+        "extracted_characters": 7195,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q2\\ba-2q23-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 75606,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ2_2023.txt"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "issuer": "p2_delta_air_lines",
+  "reports": [
+    {
+      "document_id": "DAL_FQ1_2025",
+      "issuer": "p2_delta_air_lines",
+      "company": "Delta Air Lines",
+      "ticker": "DAL",
+      "sector": "Industrials/Airlines",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2025",
+      "report_date": "2025-04-09",
+      "release_date": "2025-04-09",
+      "release_date_source": "EDGAR 8-K Item 2.02, delta_8k.htm, acc 0001683168-25-002353",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q1/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q1/Q1_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q1/Q1_2025_earnings_call_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "DAL_FQ2_2025",
+      "issuer": "p2_delta_air_lines",
+      "company": "Delta Air Lines",
+      "ticker": "DAL",
+      "sector": "Industrials/Airlines",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-07-10",
+      "release_date": "2025-07-10",
+      "release_date_source": "EDGAR 8-K Item 2.02, delta_8k.htm, acc 0001683168-25-005002",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q2/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q2/Q2_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q2/Q2_2025_earnings_call_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "DAL_FQ3_2025",
+      "issuer": "p2_delta_air_lines",
+      "company": "Delta Air Lines",
+      "ticker": "DAL",
+      "sector": "Industrials/Airlines",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-09",
+      "release_date": "2025-10-09",
+      "release_date_source": "EDGAR 8-K Item 2.02, dal-20251009.htm, acc 0000027904-25-000018",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q3/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q3/Q3_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q3/Q3_2025_earnings_call_transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "DAL_FQ4_2025",
+      "issuer": "p2_delta_air_lines",
+      "company": "Delta Air Lines",
+      "ticker": "DAL",
+      "sector": "Industrials/Airlines",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-13",
+      "release_date": "2026-01-13",
+      "release_date_source": "EDGAR 8-K Item 2.02, dal-20260112.htm, acc 0000027904-26-000008",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q4/press_release.htm"
+        },
+        {
+          "doc_type": "Earnings Presentation",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q4/Q4_2025_earnings_presentation.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/delta_air_lines/CY2025-Q4/Q4_2025_earnings_call_transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

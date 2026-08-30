@@ -1,0 +1,9 @@
+bin_low,bin_high,truth_direction,n,hit_rate
+0.0,0.01,BUY,0,n/a
+0.0,0.01,SELL,0,n/a
+0.01,0.03,BUY,0,n/a
+0.01,0.03,SELL,0,n/a
+0.03,0.05,BUY,29,0.4138
+0.03,0.05,SELL,24,0.2917
+0.05,inf,BUY,43,0.5814
+0.05,inf,SELL,53,0.283

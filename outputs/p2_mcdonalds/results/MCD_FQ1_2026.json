@@ -1,0 +1,215 @@
+{
+  "document_id": "MCD_FQ1_2026",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The document reports a solid quarter with global comparable sales growth of 3.8% and adjusted EPS of $2.83, but forward guidance is explicitly lowered: management expects a 'meaningful deceleration' in Q2 comparable sales from 3.9% to a lower level, citing a difficult April comparison and a macro environment that 'may be getting a little bit worse.' Full-year financial targets are reaffirmed, not raised, and management flags multiple structural risks including franchisee profitability pressure, U.S. company-operated margins described as 'not acceptable,' and ongoing commodity inflation. The net effect is a mildly negative forward signal, as the guidance deceleration and cautious language outweigh the backward-looking beat."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Consolidated revenues increased 9% (4% in constant currencies) to $6,517 million for the quarter.",
+    "eps": "Adjusted diluted earnings per share was $2.83, a 6% increase (1% in constant currencies) versus the prior year.",
+    "guidance": "Full-year 2026 financial targets reaffirmed. Management expects a 'meaningful deceleration' in Q2 comparable sales from the 3.9% in Q1, primarily due to a difficult April comparison. Foreign currency expected to be a full-year tailwind to EPS of $0.20 to $0.30. Long-term target of 50,000 restaurants by end of 2027 reaffirmed.",
+    "margin": "Adjusted operating margin was 46%, highlighting the business model's resiliency. However, U.S. company-operated margins in the quarter were described as 'not acceptable.'",
+    "key_risks": [
+      "U.S. company-operated restaurant margins described as 'not acceptable,' prompting management to consider refranchising options and operational improvements.",
+      "Franchisee profitability under pressure in both the U.S. and IOM segments due to persistent commodity and beef inflation.",
+      "Management expects continued macroeconomic and consumer sentiment headwinds, stating 'it's certainly not improving, and it may be getting a little bit worse.'",
+      "Comparable sales in both U.S. and IOM segments were 'slightly negative' in April due to a challenging prior-year comparison, contributing to an anticipated fiscal Q2 deceleration.",
+      "Ongoing global supply chain disruptions and increased risk of higher cost inflation due to the war in the Middle East."
+    ],
+    "key_opportunities": [
+      "Global system-wide sales growth of 6% in constant currency, reflecting broad-based gains across all operating segments.",
+      "Market share gains in nearly all top 10 markets, demonstrating effective execution of value, marketing, and menu innovation strategies.",
+      "New beverage platform launches in the U.S., Germany, and Canada, with encouraging early results.",
+      "FIFA World Cup partnership in June 2026, expected to drive performance in North American markets.",
+      "Long-term development target of 50,000 restaurants globally by end of 2027 reaffirmed, with strong financial firepower in the system."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses confidence in the business's underlying momentum and strategic positioning ('we feel very good about where McDonald's is headed'), but simultaneously acknowledges significant headwinds and explicitly lowers near-term guidance, creating a balanced but cautious overall tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Consolidated revenues increased 9% (4% in constant currencies) to $6,517 million.",
+      "quote": "Consolidated revenues increased 9% (4% in constant currencies). ... TOTAL REVENUES 6,517 5,956 561 9 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $2.83, a 6% increase (1% in constant currencies).",
+      "quote": "Adjusted earnings per share -- $2.83, including a $0.13 benefit from foreign currency translation; a 1% increase on a constant currency basis.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 financial targets reaffirmed.",
+      "quote": "In regards to the remainder of the year, we are reaffirming our full year 2026 financial targets as we outlined in February.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects a 'meaningful deceleration' in Q2 comparable sales.",
+      "quote": "we expect in Q2 that we're going to see a meaningful deceleration from the 3.9% that we put up in both segments in fiscal Q1 ended March 31, 2026 from a comp perspective",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin was 46%.",
+      "quote": "our adjusted operating margin was 46%, highlighting the resiliency of our business model.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. company-operated margins were 'not acceptable.'",
+      "quote": "our U.S. company-operated margins in the quarter were not acceptable.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Franchisee profitability under pressure in both U.S. and IOM.",
+      "quote": "U.S. cash flow last year, we've talked about that previously, but it was stable. But as we head into this year, there's certainly concern around franchisee profitability, not just in the U.S., but in IOM as well.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macro environment 'may be getting a little bit worse.'",
+      "quote": "it's certainly not improving, and it may be getting a little bit worse.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales in April were 'slightly negative' in U.S. and IOM.",
+      "quote": "sales in both -- comp sales in both the IOM and the U.S. segment were slightly negative in April.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global comparable sales increased 3.8% for the quarter.",
+      "quote": "Global comparable sales increased 3.8% for the quarter, with consistently solid comparable sales growth across all segments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Market share gains in nearly all top 10 markets.",
+      "quote": "we gained market share in the quarter in nearly all of our top 10 markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New beverage platform launches in U.S., Germany, and Canada.",
+      "quote": "yesterday, all U.S. restaurants nationwide began offering 3 different refreshers and 3 crafted sodas as part of our new U.S. beverage platform under the McCafe brand. ... Germany and Canada launching new beverage platforms a few days ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FIFA World Cup partnership in June 2026.",
+      "quote": "our FIFA partnership in June.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term target of 50,000 restaurants by end of 2027 reaffirmed.",
+      "quote": "we still feel confident in our ability to kind of get to about 50,000 restaurants by the end of 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed.",
+      "quote": "I feel very good about where McDonald's is headed. ... we expect in Q2 that we're going to see a meaningful deceleration ... it's certainly not improving, and it may be getting a little bit worse.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign currency expected to be a full-year tailwind to EPS of $0.20 to $0.30.",
+      "quote": "Based on current exchange rates, we expect foreign currency to be a full year tailwind to 2026 EPS, totaling in the range of $0.20 to $0.30.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ongoing global supply chain disruptions and increased risk of higher cost inflation.",
+      "quote": "Longer term, we believe there is an increased risk of higher cost inflation due to ongoing global supply chain disruptions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) despite a solid backward-looking quarter, because forward guidance is explicitly lowered. A human reviewer should confirm this weighting is appropriate given the reaffirmation of full-year targets."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MCD_Bundled Earnings Report_2026-05-07",
+  "report_metadata": {
+    "issuer": "p2_mcdonalds",
+    "company": "McDonald's",
+    "ticker": "MCD",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-07",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2026-Q1\\Q1 2026- numbers.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MCD_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T214427Z",
+    "timestamp": "2026-07-18T21:45:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_mcdonalds\\extracted\\MCD_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2026-Q1\\Q1 2026 Earnings Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 61438,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\mcdonalds\\CY2026-Q1\\Q1 2026- numbers.pdf",
+        "page_count": 4,
+        "extracted_characters": 10316,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_mcdonalds\\extracted\\MCD_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

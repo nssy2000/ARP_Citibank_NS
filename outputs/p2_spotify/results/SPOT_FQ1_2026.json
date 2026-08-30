@@ -1,0 +1,234 @@
+{
+  "document_id": "SPOT_FQ1_2026",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The company delivered a strong quarter with all KPIs meeting or exceeding guidance, including record operating income and free cash flow, and provided Q2 2026 guidance that implies continued growth (Total Revenue of €4.8 billion, Gross Margin of 33.1%, Operating Income of €630 million). However, the guidance was not raised materially above prior expectations; rather, it reflects continued momentum, and management explicitly notes a ~80 bps FX headwind to growth in Q2, which tempers the organic strength. The genuine operational momentum (record Q1 gross margin, record operating income, record Q1 free cash flow) combined with confident forward language supports a modestly positive score, but the lack of a formal guidance raise and the FX headwind prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total Revenue of €4,533 million in Q1 2026, up 8% Y/Y (or 14% Y/Y constant currency). Premium Revenue grew 10% Y/Y to €4,148 million (or 15% Y/Y constant currency); Ad-Supported Revenue declined 5% Y/Y (or increased 3% Y/Y constant currency).",
+    "eps": "Basic EPS of €3.50 and Diluted EPS of €3.45 for Q1 2026, compared to Basic EPS of €1.10 and Diluted EPS of €1.07 in Q1 2025.",
+    "guidance": "For Q2 2026: Total Premium Subscribers of 299 million, Total MAUs of 778 million, Total Revenue of €4.8 billion, Gross Margin of 33.1%, and Operating Income of €630 million. Guidance assumes ~80 bps headwind to growth Y/Y due to FX, incorporates €10 million in Social Charges based on a Q1 close share price of $484.91.",
+    "margin": "Gross Margin of 33.0% in Q1 2026, up 133 bps Y/Y (a Q1 record). Operating Margin of 15.8%, up from 12.1% in Q1 2025. Premium Gross Margin was 34.8%, up 129 bps Y/Y; Ad-Supported Gross Margin was 13%, down 102 bps Y/Y.",
+    "key_risks": [
+      "Unfavorable currency movements slowed Total Revenue Y/Y growth by ~600 bps in Q1, and Q2 guidance assumes ~80 bps headwind to growth Y/Y due to FX.",
+      "Ad-Supported Revenue declined 5% Y/Y (IFRS basis) with softness in pricing partially offsetting growth in impressions sold.",
+      "Ad-Supported Gross Margin declined 102 bps Y/Y due to music costs and Other Costs of Revenue from higher engagement.",
+      "Social Charges are volatile and tied to share price movements, which are not incorporated into forecasts and can cause meaningful fluctuations in Operating Expenses.",
+      "The document lists numerous forward-looking risk factors including competition, international operations, new product risks, content licensing dependencies, and currency fluctuations."
+    ],
+    "key_opportunities": [
+      "MAU growth accelerated to 12% Y/Y, surpassing 760 million MAUs, with broad-based regional growth led by Rest of World and North America.",
+      "Premium Subscribers grew 9% Y/Y to 293 million, with strong global promotional campaign intake.",
+      "New AI-powered personalization features (Taste Profile, Prompted Playlist, SongDNA, About the Song) and Audiobook Charts are driving deeper engagement.",
+      "Premium Revenue growth driven by ARPU gains (up 5.7% Y/Y constant currency) from price increase benefits.",
+      "Free Cash Flow reached a Q1 record of €824 million, with LTM Free Cash Flow of €3.2 billion."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management states 'we are pleased with our performance in Q1, as all of our KPIs met or exceeded guidance' and expresses confidence in 'sustained user and subscriber growth, low churn, and continued progress on revenue and margin.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total Revenue was €4,533 million in Q1 2026, up 8% Y/Y (or 14% Y/Y constant currency).",
+      "quote": "Revenue of €4,533 million grew 8% Y/Y in Q1 (or 14% Y/Y constant currency*), reflecting: ● Premium Revenue growth of 10% Y/Y (or 15% Y/Y constant currency*), driven by subscriber gains; and ● Ad-Supported Revenue decline of 5% Y/Y (or increase of 3% Y/Y constant currency*)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Basic EPS was €3.50 and Diluted EPS was €3.45 for Q1 2026.",
+      "quote": "Earnings per share attributable to owners of the parent Basic 3.50 5.71 1.10 Diluted 3.45 4.43 1.07",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 guidance includes Total Revenue of €4.8 billion, Gross Margin of 33.1%, and Operating Income of €630 million.",
+      "quote": "Outlook for Q2’26 ... Total Premium Subscribers Total Revenue Gross Margin €4.8 billion 299 million 33.1% ... Total MAUs 778 million €630 millionOperating Income",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross Margin was 33.0% in Q1 2026, up 133 bps Y/Y.",
+      "quote": "Gross Margin finished at 33.0% in Q1, up 133 bps Y/Y. The Y/Y trend was driven by improvement in our Premium segment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating Income reached €715 million in Q1 2026, a record.",
+      "quote": "Operating Income finished at a record €715 million (15.8% margin)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free Cash Flow reached a Q1 record of €824 million.",
+      "quote": "Free Cash Flow* finished at a Q1 record high of €824 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "MAUs grew 12% Y/Y to 761 million.",
+      "quote": "Monthly Active Users (MAUs) climbed 12% Y/Y to 761 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium Subscribers grew 9% Y/Y to 293 million.",
+      "quote": "Premium Subscribers grew 9% Y/Y to 293 million",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 guidance assumes ~80 bps headwind to growth Y/Y due to FX.",
+      "quote": "Assumes ~80 bps headwind to growth Y/Y (vs. ~600 bps in Q1) due to foreign exchange rate movements; based on currency rates as of Q1 close (e.g. USD:Euro of 0.8657 as of March 31, 2026)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-Supported Revenue declined 5% Y/Y (IFRS basis).",
+      "quote": "Ad-Supported Revenue decline of 5% Y/Y (or increase of 3% Y/Y constant currency*)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad-Supported Gross Margin declined 102 bps Y/Y.",
+      "quote": "Ad-Supported Gross Margin* was 13% in Q1, down 102 bps Y/Y. The Y/Y decline was due to music costs and Other Costs of Revenue resulting from higher engagement, which more than offset podcast favorability.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Social Charges are volatile and tied to share price movements.",
+      "quote": "As a reminder, Social Charges are payroll taxes associated with employee salaries and benefits in select countries where we operate. Since a portion of these taxes is tied to the intrinsic value of share-based compensation awards, movements in our stock price can lead to fluctuations in the taxes we accrue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in sustained growth.",
+      "quote": "All that reinforces our confidence in sustained user and subscriber growth, low churn, and continued progress on revenue and margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "All KPIs met or exceeded guidance.",
+      "quote": "We are pleased with our performance in Q1, as all of our KPIs met or exceeded guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Premium ARPU was roughly flat Y/Y at €4.76, or up 5.7% Y/Y constant currency.",
+      "quote": "Premium Revenue* grew 10% Y/Y to €4,148 million (or 15% Y/Y constant currency**), reflecting subscriber growth of 9% Y/Y and roughly flat Y/Y Premium Average Revenue per User (ARPU) of €4.76 (or up 5.7% Y/Y constant currency).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company repurchased €306 million of shares and retired €1.3 billion of exchangeable notes in Q1.",
+      "quote": "In Q1, we repurchased €306 million ($361 million) of shares and retired €1.3 billion ($1.5 billion) of exchangeable notes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score of 0.25 reflects genuine operational momentum without a formal guidance raise.",
+      "quote": "Overall, we view the business as well positioned to deliver improved growth and margins in 2026 as we reinvest to support our long-term potential.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects genuine operational momentum (record margins, record operating income, record Q1 FCF) and confident forward language, but Q2 guidance was not raised above prior expectations and includes an FX headwind. A reviewer should verify this is appropriately weighted versus the strong backward-looking results."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "The document provides Q2 2026 guidance but does not explicitly compare it to prior guidance or provide full-year guidance. The interpretation that guidance was 'held' rather than 'raised' is inferred from the absence of a stated raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SPOT_Bundled Earnings Report_2026-04-28",
+  "report_metadata": {
+    "issuer": "p2_spotify",
+    "company": "Spotify",
+    "ticker": "SPOT",
+    "sector": "Communication Services/Internet Content & Information",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2026-Q1\\Press_Release.html",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2026-Q1\\Shareholder_Deck.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2026-Q1\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SPOT_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T103154Z",
+    "timestamp": "2026-08-09T10:33:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2026-Q1\\Press_Release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_spotify\\extracted\\SPOT_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2026-Q1\\Press_Release.html",
+        "page_count": 1,
+        "extracted_characters": 8079,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2026-Q1\\Shareholder_Deck.pdf",
+        "page_count": 36,
+        "extracted_characters": 37915,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\spotify\\CY2026-Q1\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 14587,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_spotify\\extracted\\SPOT_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

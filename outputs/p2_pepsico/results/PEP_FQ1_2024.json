@@ -1,0 +1,182 @@
+{
+  "document_id": "PEP_FQ1_2024",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document reports a 2.3% GAAP net revenue increase and 2.7% organic revenue growth, with core EPS up 7% on a constant currency basis. However, full-year 2024 guidance is reaffirmed unchanged: 'at least 4 percent increase in organic revenue' and 'at least 8 percent increase in core constant currency EPS' — the same as previously stated. Management's tone is confident but hedged, noting 'a difficult net revenue growth comparison from the prior year' and the impact of product recalls at Quaker Foods North America. Since guidance was neither raised nor lowered, and the quarter's results are backward-looking, the score is neutral."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported net revenue of $18,250 million for the 12 weeks ended March 23, 2024, up 2.3% year-over-year. Organic revenue growth was 2.7%.",
+    "eps": "Reported diluted EPS of $1.48, up 6% year-over-year. Core diluted EPS was $1.61, up 7% on a constant currency basis.",
+    "guidance": "Full-year 2024 guidance reaffirmed: at least 4% organic revenue growth, at least 8% core constant currency EPS growth, core annual effective tax rate of 20%, total cash returns to shareholders of approximately $8.2 billion, and an approximate 1-percentage-point foreign exchange translation headwind. Implies 2024 core EPS of at least $8.15.",
+    "margin": "Reported gross margin decreased 43 bps; core gross margin increased 20 bps. Reported operating margin increased 5 bps; core operating margin increased 79 bps.",
+    "key_risks": [
+      "Product recall at Quaker Foods North America (voluntary recall of certain bars and cereals) impacting net revenue and operating profit.",
+      "Foreign exchange translation headwind of approximately 1 percentage point on reported net revenue and core EPS growth.",
+      "Risks associated with the deadly conflict in Ukraine, water scarcity, climate change, cyber incidents, and other factors listed in the Cautionary Statement."
+    ],
+    "key_opportunities": [
+      "Strong performance from International business.",
+      "Sequential improvement in volume trends.",
+      "Continued productivity initiatives to support investments in brands, capabilities, and pep+ initiatives.",
+      "52nd consecutive annual dividend increase (7% annualized increase) beginning June 2024."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Ramon Laguarta stated 'our businesses remained agile and performed well' and 'we continue to expect to deliver at least 4 percent organic revenue growth and at least 8 percent core constant currency EPS growth in 2024,' indicating confidence in the outlook despite acknowledged headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported net revenue was $18,250 million, up 2.3% year-over-year.",
+      "quote": "Net Revenue $ 18,250 $ 17,846 ... First-Quarter Net revenue growth 2.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Organic revenue growth was 2.7%.",
+      "quote": "First-Quarter Organic revenue growth 2.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was $1.48, up 6% year-over-year.",
+      "quote": "Earnings per share (EPS) $1.48 ... EPS change 6%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Core diluted EPS was $1.61, up 7% on a constant currency basis.",
+      "quote": "Core EPS $1.61 ... Core constant currency EPS change 7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2024 guidance is reaffirmed unchanged: at least 4% organic revenue growth and at least 8% core constant currency EPS growth.",
+      "quote": "Consistent with its previous guidance for 2024, the Company continues to expect: • At least 4 percent increase in organic revenue; • At least 8 percent increase in core constant currency EPS;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Implied 2024 core EPS of at least $8.15.",
+      "quote": "This assumption and the guidance above imply 2024 core EPS of at least $8.15, a 7 percent increase compared to 2023 core EPS of $7.62.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported gross margin decreased 43 bps; core gross margin increased 20 bps.",
+      "quote": "Reported gross margin performance, GAAP measure (43) bps ... Core gross margin growth, non-GAAP measure 20 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported operating margin increased 5 bps; core operating margin increased 79 bps.",
+      "quote": "Reported operating margin growth, GAAP measure 5 bps ... Core operating margin growth, non-GAAP measure 79 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Product recall at Quaker Foods North America impacted results.",
+      "quote": "Net revenue decline was impacted by a previously announced voluntary recall of certain bars and cereals in our Quaker Foods North America division (Quaker Recall).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foreign exchange translation headwind of approximately 1 percentage point expected.",
+      "quote": "the Company continues to expect an approximate 1-percentage-point foreign exchange translation headwind to impact reported net revenue and core EPS growth based on current market consensus rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International business performed strongly.",
+      "quote": "our businesses remained agile and performed well, with a strong performance from our International business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sequential improvement in volume trends.",
+      "quote": "We delivered a sequential improvement in our volume trends",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dividend increase of 7% annualized, 52nd consecutive annual increase.",
+      "quote": "our previously announced 7 percent annualized dividend increase is expected to begin with our June 2024 payment and will represent our 52nd consecutive annual increase.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "our businesses remained agile and performed well ... we continue to expect to deliver at least 4 percent organic revenue growth and at least 8 percent core constant currency EPS growth in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance was reaffirmed unchanged, not raised or lowered.",
+      "quote": "Consistent with its previous guidance for 2024, the Company continues to expect: • At least 4 percent increase in organic revenue; • At least 8 percent increase in core constant currency EPS;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is 0.0 because guidance was reaffirmed unchanged. However, the document includes a product recall at Quaker Foods North America that caused a 24% net revenue decline in that division and a $49 million operating loss. A human reviewer should assess whether this structural risk should pull the score slightly negative, even though overall guidance was held."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PEP_Bundled Earnings Report_2024-04-23",
+  "report_metadata": {
+    "issuer": "p2_pepsico",
+    "company": "PepsiCo",
+    "ticker": "PEP",
+    "sector": "Consumer Staples",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2024",
+    "report_date": "2024-04-23",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q1\\PEP-8K-EX99.1-2024-Q1-PressRelease.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PEP_FQ1_2024"
+  },
+  "run_meta": {
+    "run_id": "20260730T174454Z",
+    "timestamp": "2026-07-30T17:46:14Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q1\\PEP-8K-EX99.1-2024-Q1-PressRelease.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ1_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pepsico\\CY2024-Q1\\PEP-8K-EX99.1-2024-Q1-PressRelease.htm",
+        "page_count": 1,
+        "extracted_characters": 32125,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pepsico\\extracted\\PEP_FQ1_2024.txt"
+  }
+}

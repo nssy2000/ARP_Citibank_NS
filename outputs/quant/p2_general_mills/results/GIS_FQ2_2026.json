@@ -1,0 +1,58 @@
+{
+  "document_id": "GIS_FQ2_2026_QUANT",
+  "base_document_id": "GIS_FQ2_2026",
+  "issuer": "p2_general_mills",
+  "ticker": "GIS",
+  "sector": "Consumer Defensive/Packaged Foods",
+  "report_date": "2025-12-17",
+  "sentiment": {
+    "score": 0.110724
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.008226,
+      "window_start_date": "2025-11-14",
+      "window_end_date": "2025-12-16",
+      "score": -0.054786,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.171263,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 7.09,
+      "matched_earnings_date": "2025-12-17",
+      "score": 0.276234,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.62,
+      "vix_score": 0.091741,
+      "tnx_change": 0.018,
+      "tnx_score": -0.035985,
+      "score": 0.027878,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.64,
+      "ffr_change": -0.46,
+      "ffr_score": 0.725897,
+      "ffr_as_of": "2025-12-16",
+      "curve_spread": 0.67,
+      "curve_score": 0.58498,
+      "curve_as_of": "2025-12-16",
+      "score": 0.655439,
+      "available": true
+    },
+    "quant_score": 0.110724,
+    "quant_score_with_macro": 0.069301,
+    "quant_score_with_fred": 0.383082,
+    "quant_score_with_macro_fred": 0.26468
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

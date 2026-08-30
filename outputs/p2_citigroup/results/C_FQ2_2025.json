@@ -1,0 +1,229 @@
+{
+  "document_id": "C_FQ2_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a strong quarter with revenue up 8% YoY and EPS up 29% YoY, but forward guidance is largely reaffirmed rather than raised. Full-year 2025 expense guidance was raised to ~$84 billion 'at the high end of the previous range,' and NII ex-Markets is expected up ~4%, which is a modest upward revision. However, management's tone is confident but not exuberant, and the 2026 RoTCE target of 10-11% is described as a 'waypoint, not a destination,' indicating a longer-term view rather than an immediate upgrade. The score is mildly positive due to the expense guidance raise and confident forward language, but not higher because the revenue and EPS beats are backward-looking and the core guidance changes are incremental."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Total revenues, net of interest expense for 2Q25 were $21,668 million, up 8% from $20,032 million in 2Q24. Excluding divestiture-related impacts, revenues were up 9%.",
+    "eps": "Diluted EPS for 2Q25 was $1.96, up 29% from $1.52 in 2Q24.",
+    "guidance": "Full year 2025 expense guidance raised to ~$84 billion, 'at the high end of the previous range.' NII ex-Markets expected up ~4%. 2026 RoTCE target of 10-11% reaffirmed as a 'waypoint, not a destination.'",
+    "margin": "Efficiency ratio for 2Q25 was 62.7%, improved by 340 bps YoY from 66.1% in 2Q24. Net interest margin (NIM) was 2.51% in 2Q25, up 10 bps from 2.41% in 2Q24.",
+    "key_risks": [
+      "Higher cost of credit: 'Citigroup cost of credit of $2.9 billion increased 16%, driven by a higher net build in the allowance for credit losses (ACL) related to deterioration in the macroeconomic outlook in the current quarter relative to the prior-year period and a net ACL build related to transfer risk associated with client activity in Russia.'",
+      "Non-accrual loans increased 49% YoY to $3.4 billion, driven by idiosyncratic downgrades in Markets and California wildfires impact on Wealth mortgage loans.",
+      "Higher severance costs: 'higher severance of approximately $400 million, primarily related to the realignment of the technology workforce.'",
+      "Macroeconomic uncertainty: 'deterioration in the macroeconomic outlook' cited as a driver of higher credit costs."
+    ],
+    "key_opportunities": [
+      "Services revenue up 8% YoY, described as 'crown jewel' with continued market share gains.",
+      "Markets had its best second quarter since 2020 with record second quarter for Equities.",
+      "Wealth revenues up 20% YoY with solid growth across all three lines of business.",
+      "Investment Banking fees up 13% YoY, with Advisory up 52% and ECM up 25%.",
+      "Transformation progress: 'streamline processes, drive automation and deploy AI.'",
+      "Capital return: 'Returned ~$3.1 billion in the form of common dividends and share repurchases.'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Jane Fraser said, 'We reported another very good quarter and continue to demonstrate that our strong results are sustainable through different environments.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenues for 2Q25 were $21,668 million, up 8% from 2Q24.",
+      "quote": "Citigroup revenues of $21.7 billion in the second quarter 2025 increased 8%, on a reported basis, driven by growth in each of Citi’s five interconnected businesses, partially offset by a decline in All Other.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS for 2Q25 was $1.96, up 29% from $1.52 in 2Q24.",
+      "quote": "Earnings per share of $1.96 increased from $1.52 per diluted share in the prior-year period, reflecting the higher net income and lower shares outstanding.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 expense guidance raised to ~$84 billion, at the high end of the previous range.",
+      "quote": "Expenses • ~$84 billion, at the high end of the previous range",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "NII ex-Markets expected up ~4% for full year 2025.",
+      "quote": "NII ex-Markets up ~4%(1) Revenues Full year 2025 guidance, subject to macro and market conditions",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 RoTCE target of 10-11% reaffirmed as a waypoint, not a destination.",
+      "quote": "As I’ve said, next year’s 10-11% ROTCE target is a waypoint, not a destination. The actions we’ve taken have set up Citi to succeed long term, drive returns above that level and continue to create value for shareholders",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved by 340 bps YoY to 62.7%.",
+      "quote": "Efficiency ratio (total operating expenses/total revenues, net) 66.1% 65.0% 67.1% 62.2% 62.7% 50 bps (340) bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest margin (NIM) was 2.51% in 2Q25, up 10 bps from 2.41% in 2Q24.",
+      "quote": "Net interest income as a % of average interest-earning assets (NIM) 13,515$ 14,038$ 15,203$ 2.41% 2.47% 2.51% 2Q25 increase (decrease) from: 10 bps 4 bps",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cost of credit increased 16% to $2.9 billion, driven by ACL build related to macroeconomic deterioration and Russia transfer risk.",
+      "quote": "Citigroup cost of credit of $2.9 billion increased 16%, driven by a higher net build in the allowance for credit losses (ACL) related to deterioration in the macroeconomic outlook in the current quarter relative to the prior-year period and a net ACL build related to transfer risk associated with client activity in Russia",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-accrual loans increased 49% YoY to $3.4 billion.",
+      "quote": "Total non-accrual loans increased 49% from the prior-year period to $3.4 billion. Corporate non-accrual loans increased 73% from the prior-year period to $1.7 billion, primarily driven by idiosyncratic downgrades, primarily in Markets. Consumer non-accrual loans increased 30% from the prior-year period to $1.6 billion, primarily driven by Wealth, primarily due to residential mortgage loans impacted by the California wildfires.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher severance of approximately $400 million related to technology workforce realignment.",
+      "quote": "The higher compensation and benefits expenses were driven by higher severance of approximately $400 million, primarily related to the realignment of the technology workforce",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services revenue up 8% YoY, described as 'crown jewel'.",
+      "quote": "With revenue up 8%, Services continues to show why this high-return business is our crown jewel.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets had its best second quarter since 2020 with record second quarter for Equities.",
+      "quote": "Markets had its best second quarter performance since 2020 with a record second quarter for Equities.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wealth revenues up 20% YoY with solid growth across all three lines of business.",
+      "quote": "Wealth revenues were up 20% with solid growth across all three lines of business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Investment Banking fees up 13% YoY, with Advisory up 52% and ECM up 25%.",
+      "quote": "Investment Banking fees of $981 million increased 15%, driven by an increase in Investment Banking fees of 13%, reflecting growth in Advisory and Equity Capital Markets (ECM), partially offset by a decline in Debt Capital Markets (DCM). Advisory fees increased 52%...ECM fees were up 25%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Transformation progress includes streamlining processes, driving automation and deploying AI.",
+      "quote": "I’m particularly pleased that the momentum across our franchise includes the Transformation, as we streamline processes, drive automation and deploy AI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Returned ~$3.1 billion to common shareholders in 2Q25.",
+      "quote": "During the quarter, Citigroup returned approximately $3.1 billion to common shareholders in the form of dividends and share repurchases.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "CEO Jane Fraser said, 'We reported another very good quarter and continue to demonstrate that our strong results are sustainable through different environments.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the exact boundary of the BUY threshold. The guidance raise is modest (expenses at high end of range, NII ex-Markets up ~4%), and the strong backward-looking results could be seen as already priced in. A reviewer may consider whether the score should be slightly lower (e.g., 0.10) given the reaffirmed rather than raised revenue guidance and the explicit risks (higher credit costs, macroeconomic deterioration)."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "C_Bundled Earnings Report_2025-07-15",
+  "report_metadata": {
+    "issuer": "p2_citigroup",
+    "company": "Citigroup",
+    "ticker": "C",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-15",
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q2\\2025fsqtr2rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q2\\2025prqtr2rslt.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q2\\2025psqtr2rslt.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "C_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213110Z",
+    "timestamp": "2026-07-18T21:32:41Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q2\\2025fsqtr2rslt.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Supplemental Information",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q2\\2025fsqtr2rslt.pdf",
+        "page_count": 23,
+        "extracted_characters": 77417,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q2\\2025prqtr2rslt.pdf",
+        "page_count": 14,
+        "extracted_characters": 46692,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\citigroup\\CY2025-Q2\\2025psqtr2rslt.pdf",
+        "page_count": 39,
+        "extracted_characters": 79739,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_citigroup\\extracted\\C_FQ2_2025.txt"
+  }
+}

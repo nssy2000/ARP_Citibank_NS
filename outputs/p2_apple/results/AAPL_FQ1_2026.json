@@ -1,0 +1,199 @@
+{
+  "document_id": "AAPL_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports a record quarter with revenue up 16% and EPS up 19%, but the key forward-looking signal is the March quarter revenue guidance of 13%-16% growth, which is a meaningful raise from the prior year's growth rate (implied by the strong December quarter). Management explicitly states they are in a 'supply chase mode' due to constraints, which is a positive demand signal, but also flags rising memory costs and supply constraints on advanced nodes as headwinds. The overall tone is confident, with no guidance reduction, but the constraints and cost pressures prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$143.8 billion, up 16% year over year, an all-time quarterly high.",
+    "eps": "$2.84, up 19% year over year, an all-time record.",
+    "guidance": "March quarter total company revenue to grow 13% to 16% year over year; gross margin between 48-49%; services revenue growth rate similar to December quarter; operating expenses between $18.4 billion and $18.7 billion.",
+    "margin": "Company gross margin 48.2%, up 100 basis points sequentially; products gross margin 40.7%, up 450 basis points sequentially; services gross margin 76.5%, up 120 basis points sequentially.",
+    "key_risks": [
+      "Supply constraints on advanced nodes (3nm) for SoCs, limiting iPhone supply in Q2.",
+      "Growing memory component costs impacting gross margin, expected to be more significant in Q2.",
+      "Wearables, home, and accessories revenue decline due to AirPods Pro 3 supply constraints.",
+      "Operating expenses up 19% year over year, driven by higher R&D investment.",
+      "Tariffs had a $1.4 billion impact in December quarter."
+    ],
+    "key_opportunities": [
+      "Strong iPhone 17 cycle with 23% revenue growth and all-time records across all geographic segments.",
+      "Services revenue all-time high of $30 billion, up 14%, with broad-based double-digit growth.",
+      "Installed base over 2.5 billion active devices, an all-time high, providing a foundation for services growth.",
+      "Emerging market momentum, particularly India, with all-time revenue records in iPhone, Mac, iPad, and services.",
+      "Apple Intelligence and collaboration with Google for next-generation foundation models, powering a more personalized Siri.",
+      "Shareholder return of $32 billion through dividends and repurchases."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses phrases like 'a quarter for the record books,' 'staggering demand,' and 'I have every confidence that our best work is yet to come,' reflecting strong confidence in the business trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $143.8 billion, up 16% year over year, an all-time quarterly high.",
+      "quote": "Total revenue -- $143.8 billion, up 16% year over year, representing an all-time quarterly high for Apple (AAPL+0.74%).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $2.84, up 19% year over year, an all-time record.",
+      "quote": "EPS (Earnings Per Share) -- $2.84, up 19% year over year, achieving an all-time record.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "March quarter revenue guidance is 13%-16% year-over-year growth.",
+      "quote": "We expect our March total company revenue to grow by 13% to 16% year over year, which comprehends our best estimates of constrained iPhone supply during the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company gross margin was 48.2%, up 100 basis points sequentially.",
+      "quote": "Company gross margin was at 48.2%, above the high end of our guidance range and up 100 basis points sequentially, driven by favorable mix and leverage.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply constraints on advanced nodes are limiting iPhone supply in Q2.",
+      "quote": "We are currently constrained, and at this point, it is difficult to predict when supply and demand will balance. The constraints that we have are driven by the availability of the advanced nodes that our SoCs are produced on.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Growing memory component costs are impacting gross margin, expected to be more significant in Q2.",
+      "quote": "Memory had a minimal impact on Q1. So the December gross margin. We do expect it to be a bit more of an impact on the Q2 gross margin, and that was comprehended in the outlook of 48 to 49% that Kevin gave earlier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Wearables, home, and accessories revenue declined due to AirPods Pro 3 supply constraints.",
+      "quote": "Wearables, home, and accessories revenue was $11.5 billion, down 2% year over year. During the quarter, we experienced constraints on the AirPods Pro 3, and we believe the overall category would have grown had it not been for these constraints.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating expenses rose 19% year over year, driven by higher R&D investment.",
+      "quote": "Operating expenses landed at $18.4 billion, up 19% year over year. This was within the range we provided and driven by increased investment in R&D.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariffs had a $1.4 billion impact in the December quarter.",
+      "quote": "On the tariff piece, we had outlined a versus historical, you know, sequential changes from Q4 to Q1. The amount of $1.4 billion for December. And we landed roughly in that range, you know, at that level.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Services revenue reached an all-time high of $30 billion, up 14% year over year.",
+      "quote": "Services revenue was $30 billion, up 14% year over year, reaching an all-time high with broad-based double-digit growth and records in advertising, cloud services, music, and payment services.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Installed base surpassed 2.5 billion active devices, an all-time high.",
+      "quote": "Installed base -- Over 2.5 billion active devices, an all-time high across all product categories and regions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "India saw all-time revenue records in iPhone, Mac, iPad, and services.",
+      "quote": "We did set a quarterly revenue record during December. And to go a little further down, we set quarterly revenue records on iPhone and Mac and iPad. And an all-time revenue record on services. So it was a terrific quarter in India.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Apple is collaborating with Google to develop next-generation foundation models for a more personalized Siri.",
+      "quote": "Building on our efforts in the AI space, we are also collaborating with Google to develop the next generation of Apple foundation models. This will help power future Apple intelligence features, including a more personalized Siri coming this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Shareholder return was $32 billion through dividends and repurchases.",
+      "quote": "Shareholder return -- $32 billion returned through $3.9 billion in dividends and $25 billion in open market repurchases of 93 million shares during the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "I am proud to say that we just had a quarter for the record books. We are reporting our best-ever quarter with $143.8 billion in revenue, up 16% from a year ago and exceeding our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a guidance raise (13-16% growth) and strong demand, but the supply constraints and memory cost headwinds are significant risks that could affect the forward outlook. A human reviewer should assess whether these risks warrant a lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "AAPL_Bundled Earnings Report_2026-01-29",
+  "report_metadata": {
+    "issuer": "p2_apple",
+    "company": "Apple",
+    "ticker": "AAPL",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-01-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2026-Q1\\Q1 2026 Earnings Call Transcript.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2026-Q1\\Apple-Q1-FY2026-Press-Release.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "AAPL_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T172214Z",
+    "timestamp": "2026-07-30T17:23:05Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2026-Q1\\Q1 2026 Earnings Call Transcript.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_apple\\extracted\\AAPL_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2026-Q1\\Q1 2026 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 57568,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\apple\\CY2026-Q1\\Apple-Q1-FY2026-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 7353,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_apple\\extracted\\AAPL_FQ1_2026.txt"
+  }
+}

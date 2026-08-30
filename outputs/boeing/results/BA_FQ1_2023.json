@@ -1,0 +1,189 @@
+{
+  "document_id": "BA_FQ1_2023",
+  "sentiment": {
+    "score": -0.15,
+    "rationale": "Guidance for 2023 operating cash flow ($4.5-$6.5B) and free cash flow ($3.0-$5.0B) was reaffirmed unchanged, not raised. A structural quality issue on the 737 program (fuselage fittings) was disclosed, which will impact near-term deliveries and production, and management explicitly stated that supply chain instability will likely continue through 2024. While revenue improved year-over-year and management expressed confidence in long-term goals, the forward outlook is flat with a new structural risk, warranting a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "$17.9 billion, up 28% year-over-year, primarily reflecting higher commercial deliveries.",
+    "eps": "GAAP loss per share of ($0.69); core loss per share (non-GAAP) of ($1.27). Both improved versus prior year.",
+    "guidance": "Reaffirmed 2023 guidance: operating cash flow $4.5-$6.5 billion, free cash flow $3.0-$5.0 billion. Still expect 400-450 737 deliveries in 2023. Long-term target of $10 billion annual free cash flow in 2025/2026 timeframe unchanged.",
+    "margin": "GAAP operating margin (0.8)%; core operating margin (non-GAAP) (2.5)%. Both improved versus prior year.",
+    "key_risks": [
+      "737 fuselage supplier non-standard manufacturing process impacting near-term deliveries and production.",
+      "Supply chain disruptions and instability expected to continue through 2024.",
+      "KC-46A Tanker program charge of $245 million due to supplier quality issue.",
+      "Labor instability and supply chain disruption on defense programs.",
+      "Abnormal costs and period expenses on commercial airplane programs (737, 787, 777X)."
+    ],
+    "key_opportunities": [
+      "Strong demand across commercial markets; backlog of over 4,500 airplanes valued at $334 billion.",
+      "Major customer commitments from Air India, Riyadh Air, and Saudi Arabian Airlines.",
+      "Defense orders valued at $10B in the quarter, including KC-46A Tankers, Apaches, and E-7 development contract.",
+      "Global Services returned to pre-pandemic levels with strong margins.",
+      "China market progress: CAAC released 737 aircraft evaluation report, an important step toward deliveries."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Dave Calhoun stated 'We delivered a solid first quarter and are focused on driving stability... we remain confident in the goals we set for this year, as well as for the longer term.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $17.9 billion, up 28% year-over-year.",
+      "quote": "First-quarter revenue of $17.9 billion, GAAP loss per share of ($0.69), and core loss per share (non-GAAP)* of ($1.27) (Table 1). Results improved on commercial volume and performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share was ($0.69); core loss per share was ($1.27).",
+      "quote": "First-quarter revenue of $17.9 billion, GAAP loss per share of ($0.69), and core loss per share (non-GAAP)* of ($1.27) (Table 1).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance for 2023 operating cash flow and free cash flow was reaffirmed unchanged.",
+      "quote": "Reaffirm guidance: $4.5-$6.5 billion of operating cash flow and $3.0-$5.0 billion of free cash flow (non-GAAP).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A structural quality issue on the 737 program was disclosed, impacting near-term deliveries.",
+      "quote": "On the 737 program, earlier this month the program's fuselage supplier notified Boeing that a non-standard manufacturing process was used on two fittings in the aft fuselage section of certain 737 airplanes. ... While near-term deliveries and production will be impacted as the program performs necessary inspections and rework, the program still expects to deliver 400-450 airplanes this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Supply chain instability is expected to continue through 2024.",
+      "quote": "In our November guidance, we did not predict significant supply chain improvement until well into 2024. We remain in the same place today and share that same view.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (0.8)%; core operating margin was (2.5)%.",
+      "quote": "Operating Margin (0.8) % ... Core Operating Margin (2.5) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered a solid first quarter and are focused on driving stability for our customers. ... We are progressing through recent supply chain disruptions but remain confident in the goals we set for this year, as well as for the longer term.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "KC-46A Tanker program had a $245 million charge.",
+      "quote": "First-quarter operating margin of (3.2) percent primarily reflects a $245 million pre-tax charge on the KC-46A Tanker program largely driven by the previously shared supplier quality issue resulting in factory disruption and rework.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong demand and major customer commitments were announced.",
+      "quote": "During the quarter, Commercial Airplanes secured net orders of 107. Also during the quarter the company secured commitments from Air India for 190 737 MAX, 20 787, and 10 777X airplanes and from Riyadh Air and Saudi Arabian Airlines for up to 121 787 airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services returned to pre-pandemic levels.",
+      "quote": "The services business is now fully returned to pre-pandemic levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "China market progress: CAAC released 737 evaluation report.",
+      "quote": "In addition, the CAAC released their 737 aircraft evaluation report. It's an important step toward the delivery of aircraft that are currently in Boeing's possession.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is at the boundary of the HOLD/SELL threshold (-0.15). A human reviewer should confirm whether the structural risk of the 737 issue and flat guidance outweigh the positive revenue and delivery improvements enough to warrant a SELL signal."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2023-04-26",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2023",
+    "report_date": "2023-04-26",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q1\\ba-1q23-press-release.html",
+        "pub_date": "2023-04-26"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q1\\ba-1q23-presentation.pdf",
+        "pub_date": "2023-04-26"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q1\\ba-1q23-transcript.pdf",
+        "pub_date": "2023-04-26"
+      }
+    ],
+    "document_id": "BA_FQ1_2023"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:35:29Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q1\\ba-1q23-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2023.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q1\\ba-1q23-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25370,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q1\\ba-1q23-presentation.pdf",
+        "page_count": 12,
+        "extracted_characters": 7052,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2023-Q1\\ba-1q23-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 72526,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2023.txt"
+  }
+}

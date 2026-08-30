@@ -1,0 +1,199 @@
+{
+  "document_id": "DIS_FQ2_2025",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Guidance was raised: adjusted EPS guidance increased from $5.30 to $5.75, and advertising growth expectations were raised from 3% to 'in excess' of that. Management expressed strong confidence in forward bookings (Walt Disney World Q3 bookings up 4%, Q4 up 7%) and the long-term growth trajectory remains intact. The positive sentiment is driven by organic operational momentum and a formal guidance raise, not one-time items or FX."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Not disclosed (no specific revenue figure reported in the transcript).",
+    "eps": "Adjusted EPS up 20% from the prior year. Full-year adjusted EPS guidance raised from $5.30 to $5.75.",
+    "guidance": "Full-year adjusted EPS guidance raised from $5.30 to $5.75. Long-term double-digit percentage growth guidance for FY26 and FY27 remains intact. Experiences segment full-year growth expected at the higher end of 6% to 8%.",
+    "margin": "Domestic park margins up 110 basis points in the quarter. Returns on invested capital in Experiences at all-time highs.",
+    "key_risks": [
+      "Softness in per-cap spending in China due to a challenged Chinese consumer.",
+      "International attendance at domestic parks has not returned to pre-COVID levels, with a 1% to 1.5% mix impact.",
+      "Advertising on the DTC side is challenged by new entrants increasing supply."
+    ],
+    "key_opportunities": [
+      "New Disney theme park in Abu Dhabi (royalty-based, no capital outlay) expanding reach to hundreds of millions of income-qualified consumers.",
+      "Streaming business growth driven by bundling Disney+, Hulu, and ESPN DTC, technology improvements, and local content investment outside the U.S.",
+      "Strong upcoming theatrical slate (Lilo & Stitch, Fantastic Four, Avatar: Fire and Ash, etc.) expected to drive long-term value.",
+      "ESPN flagship DTC launch with integrated bundling and new features (betting, fantasy).",
+      "Cruise ship expansion (Disney Adventure, Disney Destiny) as a growth driver for Experiences.",
+      "$30 billion investment in domestic theme parks (Florida and California) to add capacity and enhance guest experience."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Bob Iger stated 'We remain confident about the direction of the company and optimistic about our outlook for the rest of the fiscal year,' and Hugh Johnston noted 'the outlook is actually still quite strong for the Experiences business.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Adjusted EPS up 20% from the prior year.",
+      "quote": "We had a very strong Q2, with adjusted EPS up 20% from the prior year, rounding out a solid first half of fiscal 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EPS guidance raised from $5.30 to $5.75.",
+      "quote": "Obviously, the guide that we announced for this year, which was $5.30, we've now taken to $5.75.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Long-term double-digit percentage growth guidance for FY26 and FY27 remains intact.",
+      "quote": "The long-term guide remains intact. What we announced before, no change to that.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Domestic park margins up 110 basis points in the quarter.",
+      "quote": "I think domestic park margins were up 110 basis points in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Returns on invested capital in Experiences at all-time highs.",
+      "quote": "Investments in this segment have delivered impressive returns on invested capital, with returns from our Experiences businesses at all-time highs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Softness in per-cap spending in China due to a challenged Chinese consumer.",
+      "quote": "In China, correct. Because the Chinese consumer, as we know, is a bit challenged. So, from that perspective, certainly feel good about the fact that we still have the engagement. Consumers are tightening their belts a little bit in that particular market, and that's what you're seeing flow through there.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International attendance at domestic parks has not returned to pre-COVID levels, with a 1% to 1.5% mix impact.",
+      "quote": "We've indicated in the past that that number has not gotten back to pre-COVID levels, but it is still in the double digits. We've seen a bit of an impact, but it's literally like, in terms of the mix, 1% to 1.5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising on the DTC side is challenged by new entrants increasing supply.",
+      "quote": "The one place that obviously is – continues to be a bit more challenged is on the DTC side, not driven by demand, but driven by supply as we have new entrants into that marketplace.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New Disney theme park in Abu Dhabi (royalty-based, no capital outlay).",
+      "quote": "It is all their capital, and we will get a royalty. So, there isn't ownership. We own our IP and license it to them is essentially the arrangement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Streaming business growth driven by bundling, technology, and local content.",
+      "quote": "Three pillars of growth for that business will be technology... and of course, the third pillar of growth will be investment in content, particularly outside the United States...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong upcoming theatrical slate.",
+      "quote": "We have Lilo & Stitch coming out on Memorial Day weekend... Pixar's Elio in June, then we have Fantastic Four in July, and then Tron, Zootopia and Avatar to finish out the calendar year. That's quite a lineup.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "ESPN flagship DTC launch with integrated bundling.",
+      "quote": "if you are a subscriber of Disney+ and Hulu and ESPN DTC... you'll have a seamless experience there. They'll be completely ultimately integrated or embedded into the service.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cruise ship expansion as a growth driver.",
+      "quote": "We see that business becoming a growth driver for the segment over the next three to four years as more ships are deployed.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "$30 billion investment in domestic theme parks.",
+      "quote": "we're planning to invest approximately $30 billion to expand Florida and California, which obviously is a vote of confidence in those locations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We remain confident about the direction of the company and optimistic about our outlook for the rest of the fiscal year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising growth expectations raised from 3% to 'in excess' of that.",
+      "quote": "We indicated that our advertising growth would be up consistent with what we saw last year, which was 3%. We now expect it to be in excess of what we indicated back at the beginning of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Walt Disney World Q3 bookings up 4%, Q4 up 7%.",
+      "quote": "Bookings right now for Walt Disney World for the third quarter are up 4%, and that's with about what we would say is about 80% in. And then for the fourth quarter, bookings are up 7%, that's probably somewhere between 50% and 60% in at this point.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Experiences segment full-year growth expected at the higher end of 6% to 8%.",
+      "quote": "We guided to 6% to 8% – given the numbers that we're seeing, we're probably going to be at the higher end of that for the for the Experiences business for this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "summary.revenue",
+      "reason": "No specific revenue figure was reported in the transcript; only qualitative commentary on growth. The field is set to 'Not disclosed' as per instructions."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "DIS_Bundled Earnings Report_2025-05-07",
+  "report_metadata": {
+    "issuer": "disney",
+    "company": "The Walt Disney Company",
+    "ticker": "DIS",
+    "sector": "Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-05-07",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q2\\Transcript-Q2-FY25.pdf"
+      }
+    ],
+    "document_id": "DIS_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260706T101643Z",
+    "timestamp": "2026-07-06T10:17:17Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q2\\Transcript-Q2-FY25.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\disney\\Q2\\Transcript-Q2-FY25.pdf",
+        "page_count": 25,
+        "extracted_characters": 42763,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\disney\\extracted\\DIS_FQ2_2025.txt"
+  }
+}

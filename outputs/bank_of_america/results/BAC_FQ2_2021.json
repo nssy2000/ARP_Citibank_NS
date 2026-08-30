@@ -1,0 +1,212 @@
+{
+  "document_id": "BAC_FQ2_2021",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document shows genuine operational momentum: total loan balances grew for the first time since Q1 2020, consumer spending significantly surpassed pre-pandemic levels, and asset quality improved with the lowest credit loss rates in 25 years. Management expressed confidence in the faster economic recovery and announced a 17% increase in the quarterly dividend. However, no formal guidance raise is provided; the forward language is confident but not quantified, and net interest income continues to be pressured by low interest rates. The score reflects the clear inflection in underlying business trends without a formal guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenue, net of interest expense, decreased 4% to $21.5 billion for Q2 2021 compared to Q2 2020.",
+    "eps": "Diluted earnings per share of $1.03, up from $0.37 in Q2 2020.",
+    "guidance": "Not disclosed. No formal forward guidance on revenue, earnings, or growth is provided. The document states an expectation for a 17% increase in the quarterly dividend to begin in Q3 2021 and that the company expects to return a higher amount in common dividends and share repurchases in coming quarters.",
+    "margin": "Net interest yield (FTE) was 1.61% for Q2 2021, down 7 bps from Q1 2021. Pretax margin for Global Wealth and Investment Management was 26% in Q2 2021, up from 19% in Q2 2020. Efficiency ratio for the corporation was 70% in Q2 2021, compared to 60% in Q2 2020.",
+    "key_risks": [
+      "Continued challenge of low interest rates pressuring net interest income.",
+      "Noninterest expense rose 12% to $15.0 billion, including a $500 million contribution to the Bank of America Foundation and $300 million associated with processing transactional card claims related to state unemployment benefits.",
+      "Sales and trading revenue (excl. net DVA) decreased 19% from a strong year-ago period, with FICC down 38%.",
+      "Average loan and lease balances in business segments declined 11% YoY."
+    ],
+    "key_opportunities": [
+      "Total loan balances grew for the first time since Q1 2020, with consumer and commercial loans in aggregate growing $16 billion from Q1 2021.",
+      "Consumer spending has significantly surpassed pre-pandemic levels; year-to-date, Bank of America consumers spent at a 22% higher rate than 1H19.",
+      "Deposit growth is strong, with average deposits up $231 billion, or 14%, to $1.9 trillion.",
+      "Asset quality continued to improve with lower net charge-offs, lower consumer delinquencies, and lower nonperforming loans.",
+      "Record client balances in Global Wealth and Investment Management of $3.7 trillion, up 25%.",
+      "Announced expectation for a 17% increase in the quarterly dividend to begin in Q3 2021."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'We delivered solid earnings and returned more capital to shareholders during the quarter as we moved to a more open economy' and CFO Paul Donofrio said 'We believe our continued focus on client selection and responsible growth has positioned us well.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue, net of interest expense, decreased 4% to $21.5 billion for Q2 2021 compared to Q2 2020.",
+      "quote": "Revenue, net of interest expense, decreased 4% to $21.5 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted earnings per share of $1.03, up from $0.37 in Q2 2020.",
+      "quote": "Diluted earnings per share $1.03 ... $0.37",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No formal forward guidance on revenue, earnings, or growth is provided.",
+      "quote": "Forward-looking statements represent the Company's current expectations, plans or forecasts of its future results, revenues, provision for credit losses, expenses, efficiency ratio, capital measures, strategy, and future business and economic conditions more generally, and other future matters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Net interest yield (FTE) was 1.61% for Q2 2021, down 7 bps from Q1 2021.",
+      "quote": "Net interest yield of 1.61% decreased 7 bps from 1Q21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Pretax margin for Global Wealth and Investment Management was 26% in Q2 2021, up from 19% in Q2 2020.",
+      "quote": "Pretax margin 26 % ... 19 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio for the corporation was 70% in Q2 2021, compared to 60% in Q2 2020.",
+      "quote": "Efficiency ratio 70 ... 60",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued challenge of low interest rates pressuring net interest income.",
+      "quote": "Despite the continued challenge of low interest rates, the diversity and leadership positions of our eight lines of business enabled us to benefit from a faster economic recovery this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Noninterest expense rose 12% to $15.0 billion, including a $500 million contribution to the Bank of America Foundation and $300 million associated with processing transactional card claims related to state unemployment benefits.",
+      "quote": "Noninterest expense rose $1.6 billion, or 12%, to $15.0 billion, including higher compensation and benefits costs, a $500 million contribution to the Bank of America Foundation to support ESG initiatives, and $300 million associated with processing transactional card claims related to state unemployment benefits",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sales and trading revenue (excl. net DVA) decreased 19% from a strong year-ago period, with FICC down 38%.",
+      "quote": "Excluding net DVA, sales and trading revenue down 19% to $3.6 billion; FICC down 38% to $2.0 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Average loan and lease balances in business segments declined 11% YoY.",
+      "quote": "Average loan and lease balances in business segments declined 11% YoY to $889 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total loan balances grew for the first time since Q1 2020, with consumer and commercial loans in aggregate growing $16 billion from Q1 2021.",
+      "quote": "Total loan balances grew for the first time since the first quarter of 2020",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer spending has significantly surpassed pre-pandemic levels; year-to-date, Bank of America consumers spent at a 22% higher rate than 1H19.",
+      "quote": "Year-to-date, Bank of America consumers spent at a 22% higher rate than 1H19",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit growth is strong, with average deposits up $231 billion, or 14%, to $1.9 trillion.",
+      "quote": "Deposits rose $231 billion, or 14%, to $1.9 trillion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asset quality continued to improve with lower net charge-offs, lower consumer delinquencies, and lower nonperforming loans.",
+      "quote": "Asset quality continued to improve from 1Q21 – Lower net charge-offs – Lower consumer delinquencies – Lower nonperforming loans – Lower reservable criticized commercial loans",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record client balances in Global Wealth and Investment Management of $3.7 trillion, up 25%.",
+      "quote": "Record client balances of $3.7 trillion, up $725 billion, or 25%, driven by higher market valuations and positive client flows",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Announced expectation for a 17% increase in the quarterly dividend to begin in Q3 2021.",
+      "quote": "Announced expectation for 17% increase in quarterly dividend to begin in 3Q21",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We delivered solid earnings and returned more capital to shareholders during the quarter as we moved to a more open economy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.25 reflects genuine operational momentum (loan growth inflection, strong consumer spending, dividend increase) but no formal guidance raise. A reviewer may want to assess whether the lack of quantified forward guidance warrants a lower score closer to 0.15."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2021-07-14",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2021",
+    "report_date": "2021-07-14",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q2\\bac-2q21-press-release.html",
+        "pub_date": "2021-07-14"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q2\\bac-2q21-presentation.html",
+        "pub_date": "2021-07-14"
+      }
+    ],
+    "document_id": "BAC_FQ2_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T144506Z",
+    "timestamp": "2026-07-09T14:45:59Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q2\\bac-2q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q2\\bac-2q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 59057,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2021-Q2\\bac-2q21-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 56626,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ2_2021.txt"
+  }
+}

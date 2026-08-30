@@ -1,0 +1,58 @@
+{
+  "document_id": "HOOD_FQ1_2025_QUANT",
+  "base_document_id": "HOOD_FQ1_2025",
+  "issuer": "p2_robinhood_markets",
+  "ticker": "HOOD",
+  "sector": "Financial Services/Capital Markets",
+  "report_date": "2025-04-30",
+  "sentiment": {
+    "score": 0.744023
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": 0.177719,
+      "window_start_date": "2025-03-28",
+      "window_end_date": "2025-04-29",
+      "score": 0.828958,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 1.149091,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 19.78,
+      "matched_earnings_date": "2025-04-30",
+      "score": 0.659088,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 24.7,
+      "vix_score": -0.362708,
+      "tnx_change": -0.069,
+      "tnx_score": 0.13713,
+      "score": -0.112789,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-04-29",
+      "curve_spread": 0.54,
+      "curve_score": 0.492988,
+      "curve_as_of": "2025-04-29",
+      "score": 0.246494,
+      "available": true
+    },
+    "quant_score": 0.744023,
+    "quant_score_with_macro": 0.315617,
+    "quant_score_with_fred": 0.495258,
+    "quant_score_with_macro_fred": 0.292576
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

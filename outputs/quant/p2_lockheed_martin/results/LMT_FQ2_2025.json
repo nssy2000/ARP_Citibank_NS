@@ -1,0 +1,58 @@
+{
+  "document_id": "LMT_FQ2_2025_QUANT",
+  "base_document_id": "LMT_FQ2_2025",
+  "issuer": "p2_lockheed_martin",
+  "ticker": "LMT",
+  "sector": "Industrials/Aerospace-Defense",
+  "report_date": "2025-07-22",
+  "sentiment": {
+    "score": -0.555092
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.017222,
+      "window_start_date": "2025-06-18",
+      "window_end_date": "2025-07-21",
+      "score": -0.114309,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.148663,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": -77.27,
+      "matched_earnings_date": "2025-07-22",
+      "score": -0.995874,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 16.5,
+      "vix_score": 0.16514,
+      "tnx_change": -0.039,
+      "tnx_score": 0.077842,
+      "score": 0.121491,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-07-21",
+      "curve_spread": 0.53,
+      "curve_score": 0.485381,
+      "curve_as_of": "2025-07-21",
+      "score": 0.242691,
+      "available": true
+    },
+    "quant_score": -0.555092,
+    "quant_score_with_macro": -0.216801,
+    "quant_score_with_fred": -0.156201,
+    "quant_score_with_macro_fred": -0.063637
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "document_id": "MAR_FQ1_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Forward guidance was meaningfully raised: full-year global RevPAR guidance was increased to 2%-3% growth, adjusted EBITDA guidance was raised to $5.88-$5.97 billion (9%-11% growth), and adjusted diluted EPS guidance was raised to $11.38-$11.63 (14%-16% growth). The raise is organic, driven by broad-based strength in the U.S. & Canada and Greater China, not attributed to FX or one-time items, though the Middle East conflict remains a stated headwind (100-125 bps drag on global RevPAR)."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total revenues were $6,654 million for Q1 2026, up from $6,263 million in Q1 2025. Gross fee revenues were $1,433 million, up 12% year-over-year.",
+    "eps": "Reported diluted EPS was $2.43 for Q1 2026, up from $2.39 in Q1 2025. Adjusted diluted EPS was $2.72, up 17% from $2.32 in Q1 2025.",
+    "guidance": "Full-year 2026 guidance raised: global RevPAR growth of 2%-3%, adjusted EBITDA of $5.88-$5.97 billion (9%-11% growth), adjusted diluted EPS of $11.38-$11.63 (14%-16% growth), gross fee revenues of $5.925-$5.985 billion (up 9%-10%), net rooms growth of 4.5%-5%, and capital return of over $4.4 billion. Q2 2026 guidance: global RevPAR growth of 1.5%-2.5%, adjusted EBITDA of $1.525-$1.550 billion (8%-10% growth).",
+    "margin": "Adjusted operating income margin was 64% for Q1 2026, up from 63% in Q1 2025. Reported operating income margin was 16%, up from 15%.",
+    "key_risks": [
+      "Middle East conflict causing significant RevPAR declines (over 30% decline in March, ~50% decline expected in Q2) and a 100-125 bps negative impact on full-year global RevPAR growth.",
+      "APAC near-term RevPAR outlook lowered due to softer long-haul demand and connectivity challenges linked to Middle East travel corridor disruptions.",
+      "CALA region outlook reduced, primarily attributable to Mexico's underperformance.",
+      "Short transient booking windows (plus or minus 3 weeks) limiting visibility for the summer travel season.",
+      "Q4 2026 expected to be impacted by midterm elections.",
+      "Renovations at certain large hotels (W Barcelona, Frankfurt Marriott) impacting owned/leased results.",
+      "Planned sale of a U.S. & Canada hotel with an expected impairment charge of approximately $65-$70 million."
+    ],
+    "key_opportunities": [
+      "Record development pipeline of nearly 618,000 rooms, up over 5% year-over-year, with 43% under construction.",
+      "Conversions driving growth, representing over 35% of signings and over 40% of openings.",
+      "Marriott Bonvoy loyalty program growth to nearly 283 million members with 37 co-branded credit cards in 13 countries.",
+      "Co-branded credit card fees up 37% in Q1, expected to increase around 35% for the full year, with new U.S. deals expected later this year.",
+      "Residential branding fees up over 70% in Q1, expected to increase 45%-50% for the full year.",
+      "World Cup expected to add 30-35 basis points to global RevPAR growth in 2026.",
+      "AI and technology transformation, including natural language search rollout and new tech ecosystem (1,000th hotel transitioned).",
+      "Mid-scale segment growth, having reached 500 hotels between open and pipeline.",
+      "Group booking pace up about 5% for the year."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management described 'excellent first quarter results' and expressed confidence in raising full-year guidance, with the CEO stating the company is 'confident that our leading global scale and strong brand portfolio... continue to position us very well for sustainable, long-term growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full-year global RevPAR guidance was raised to 2%-3% growth.",
+      "quote": "For the full year, we now expect 2% to 3% global RevPAR growth. This outlook incorporates our outperformance in the first quarter as well as higher than previously anticipated RevPAR growth in the U.S. and Canada, with the strength seen across chain scales in the first quarter continuing into April.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted EBITDA guidance was raised to $5.88-$5.97 billion, representing 9%-11% growth.",
+      "quote": "Full year adjusted EBITDA could increase 9% to 11% to roughly $5.88 billion to $5.97 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year adjusted diluted EPS guidance was raised to $11.38-$11.63, representing 14%-16% growth.",
+      "quote": "Strong adjusted EBITDA growth, together with meaningful reduction in share count is expected to result in full year adjusted diluted EPS of $11.38 to $11.63, representing growth of 14% to 16%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is organic, driven by broad-based strength in the U.S. & Canada and Greater China, not attributed to FX or one-time items.",
+      "quote": "This outlook incorporates our outperformance in the first quarter as well as higher than previously anticipated RevPAR growth in the U.S. and Canada, with the strength seen across chain scales in the first quarter continuing into April. We are also raising our outlook in Greater China, where we now expect full year RevPAR growth in the low single-digit range, primarily reflecting strong first quarter performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Middle East conflict is a stated headwind, expected to impact full-year global RevPAR growth by 100-125 basis points.",
+      "quote": "Our guidance assumes the conflict in the Middle East could impact full year global RevPAR growth by 100 to 125 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total revenues were $6,654 million for Q1 2026, up from $6,263 million in Q1 2025.",
+      "quote": "Total revenues, as reported $ 6,654 $ 6,263",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross fee revenues were $1,433 million, up 12% year-over-year.",
+      "quote": "First quarter total gross fee revenues increased 12% year-over-year to $1.43 billion, reflecting higher RevPAR, rooms growth, a 37% increase in co-branded credit card fees and an over 70% increase in residential branding fees.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported diluted EPS was $2.43 for Q1 2026, up from $2.39 in Q1 2025.",
+      "quote": "Reported diluted earnings per share (EPS) totaled $2.43 in the quarter, compared to reported diluted EPS of $2.39 in the year-ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $2.72, up 17% from $2.32 in Q1 2025.",
+      "quote": "Adjusted diluted EPS in the 2026 first quarter totaled $2.72, compared to Adjusted diluted EPS of $2.32 in the year-ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating income margin was 64% for Q1 2026, up from 63% in Q1 2025.",
+      "quote": "Adjusted operating income margin † 64 % 63 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported operating income margin was 16%, up from 15%.",
+      "quote": "Operating income margin 16 % 15 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2026 guidance includes global RevPAR growth of 1.5%-2.5% and adjusted EBITDA of $1.525-$1.550 billion (8%-10% growth).",
+      "quote": "In the second quarter, global RevPAR is expected to increase 1.5% to 2.5% and gross fees are expected to rise 10% to 11%... Second quarter adjusted EBITDA is expected to increase 8% to 10%, driven by higher fees with a decline in owned leased and other net and a mid- to high single-digit increase in G&A due to timing of certain compensation expenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Middle East conflict caused a RevPAR decline of over 30% in March, with a ~50% decline expected in Q2.",
+      "quote": "In March, RevPAR in the Middle East declined over 30%... The hardest hit quarter we are looking at or we're anticipating about a 50% reduction in RevPAR in Q2, but that it will continue to impact Q3 and Q4, but it will get better consecutively across the quarters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "APAC near-term RevPAR outlook was lowered due to softer long-haul demand and connectivity challenges.",
+      "quote": "We expect lower than previously anticipated RevPAR growth in the near term in APAC, driven by softer long-haul demand into certain markets that rely on golf hub connectivity.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "CALA region outlook was reduced, primarily due to Mexico.",
+      "quote": "Additionally, we are slightly reducing our outlook versus prior expectations in CALA for the rest of the year, primarily due to Mexico.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Short transient booking windows limit visibility for the summer travel season.",
+      "quote": "You heard in the prepared remarks some commentary about the pretty modest booking window of plus or minus 3 weeks for transient business. So anecdotally, are we feeling good about the summer travel season? We are. We're hoping that the benefit of tax refunds and the like will ripple through to that. But in terms of hard advanced booking data, that short transient window is really making it a little blurry right now.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 2026 is expected to be impacted by midterm elections.",
+      "quote": "In Q4, we do expect a bit of an impact from the midterm elections.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Renovations at certain large hotels (W Barcelona, Frankfurt Marriott) will impact owned/leased results.",
+      "quote": "Results are expected to be impacted by renovations at certain large hotels in the portfolio, including W Barcelona and the Frankfurt Marriott as well as the expected sale later this quarter of a long-held hotel in the United States that will stay in the portfolio under a new long-term management agreement.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A planned sale of a U.S. & Canada hotel includes an expected impairment charge of approximately $65-$70 million.",
+      "quote": "Our outlook includes the impact of our planned sale of a U.S. & Canada hotel (but adjusted for the related expected impairment charge of approximately $65 million to $70 million), which we assume will occur later in the 2026 second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The development pipeline reached a record of nearly 618,000 rooms, up over 5% year-over-year, with 43% under construction.",
+      "quote": "Our global pipeline rose over 5% year-over-year to a new record of nearly 618,000 rooms at the end of the quarter, with 43% of pipeline rooms under construction, including rooms that are pending conversion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Conversions are a significant growth driver, representing over 35% of signings and over 40% of openings.",
+      "quote": "Conversions, including multiunit deals, remain a significant driver of growth, representing over 35% of signings and over 40% of openings in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Marriott Bonvoy membership grew to nearly 283 million members with 37 co-branded credit cards in 13 countries.",
+      "quote": "Our powerful industry-leading Marriott Bonvoy loyalty program had nearly 283 million members at the end of March. As we focus on enhancing engagement with our members, we've continued to roll out new co-branded credit cards around the world. Today, we have 37 cards in 13 countries after recently launching cards in Indonesia and Brazil.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Co-branded credit card fees are expected to increase around 35% for the full year, with new U.S. deals expected later this year.",
+      "quote": "Co-branded credit card fees are still expected to increase around 35%. As you know, this does not include any impact from new deals in the United States. Our discussions with Visa, Chase and American Express are going well, and we still expect to have new deals in place later this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Residential branding fees are expected to increase 45%-50% for the full year.",
+      "quote": "Full year residential branding fees are now expected to increase around 45% to 50%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The World Cup is expected to add 30-35 basis points to global RevPAR growth in 2026.",
+      "quote": "Finally, I'll note that the World Cup is still expected to add 30 to 35 basis points to global RevPAR growth this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI and technology transformation is advancing, including natural language search rollout and new tech ecosystem (1,000th hotel transitioned).",
+      "quote": "And our multiyear technology transformation is well underway. Just yesterday, we transitioned our 1,000th hotel over to our new tech ecosystem... We're also very excited about beginning a phased rollout of robust natural language search experience on marriott.com, and our app planned by the end of the second quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mid-scale segment has reached 500 hotels between open and pipeline.",
+      "quote": "Mid-scale is an area that, as you know, we just entered a couple of years ago. And we already between open and pipeline have hit the 500 hotel mark.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Group booking pace is up about 5% for the year.",
+      "quote": "Our pace for the year is up about 5%. And while pace is not indicative of where group RevPAR will actualize, we certainly are encouraged by the base of business on the books and continue to be -- expect that to be a growth driver.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the company's positioning for sustainable long-term growth.",
+      "quote": "As we look ahead to the rest of this year and beyond, we are confident that our leading global scale and strong brand portfolio, our powerful Marriott Bonvoy travel platform and loyalty program, our dedicated associates, and our asset-light business model continue to position us very well for sustainable, long-term growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.55 reflects a meaningful guidance raise, but the Middle East conflict is a significant ongoing headwind (100-125 bps drag) that could warrant a slightly lower score if weighted more heavily."
+    },
+    {
+      "field": "summary.guidance",
+      "reason": "Guidance figures are drawn from both the press release outlook table and the earnings call transcript; verify consistency between the two sources."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 29,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MAR_Bundled Earnings Report_2026-05-06",
+  "report_metadata": {
+    "issuer": "p2_marriott",
+    "company": "Marriott",
+    "ticker": "MAR",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2026-Q1\\MAR-Q1-2026-Press-Release.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2026-Q1\\MAR-Q1-2026-Earnings-Call-Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MAR_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260804T100738Z",
+    "timestamp": "2026-08-04T10:08:53Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2026-Q1\\MAR-Q1-2026-Press-Release.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_marriott\\extracted\\MAR_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2026-Q1\\MAR-Q1-2026-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 53313,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2026-Q1\\MAR-Q1-2026-Earnings-Call-Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 46690,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_marriott\\extracted\\MAR_FQ1_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

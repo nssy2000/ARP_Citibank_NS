@@ -1,0 +1,203 @@
+{
+  "document_id": "TGT_FQ1_2024",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports Q1 results in line with expectations and full-year guidance is reaffirmed unchanged. There is genuine operational momentum: gross margin improved 140 bps, digital sales returned to growth, and management expresses confidence in returning to growth in Q2. However, the cautious tone on the consumer and unchanged guidance prevent a higher score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Total revenue of $24.5 billion was 3.1 percent lower than last year, reflecting a total sales decline of 3.2 percent and a 3.9 percent increase in other revenue.",
+    "eps": "GAAP and Adjusted EPS of $2.03, compared with $2.05 in 2023, a decline of 1.0 percent.",
+    "guidance": "For the second quarter, the Company expects a 0 to 2 percent increase in its comparable sales, and GAAP and Adjusted EPS of $1.95 to $2.35. For the full year, the Company continues to expect a 0 to 2 percent increase in its comparable sales, and GAAP and Adjusted EPS of $8.60 to $9.60.",
+    "margin": "First quarter operating income margin rate was 5.3 percent in 2024, compared with 5.2 percent in 2023. First quarter gross margin rate was 27.7 percent, compared with 26.3 percent in 2023.",
+    "key_risks": [
+      "Comparable sales declined 3.7 percent, driven by continued softness in discretionary categories.",
+      "Consumers remain cautious due to elevated prices, higher interest rates, and economic uncertainty.",
+      "SG&A expense rate increased 130 bps due to lower sales and higher costs, including investments in pay, benefits, and marketing."
+    ],
+    "key_opportunities": [
+      "Digital comparable sales grew 1.4 percent, driven by same-day services (Drive Up grew >13%).",
+      "Beauty category continues to grow, led by Ulta Beauty at Target.",
+      "Apparel comp improved nearly 4 percentage points vs. Q4 2023.",
+      "Relaunch of Target Circle loyalty program added >1 million new members in Q1.",
+      "Roundel ad business grew more than 20% and is the fastest-growing part of the business.",
+      "Price cuts on 1,500 items announced, with plans for thousands more this summer."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Brian Cornell stated: 'our first quarter financial performance was in line with our expectations on both the top and bottom line, tracking the trajectory we outlined for this year and setting up a return to growth in the second quarter.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total revenue was $24.5 billion, down 3.1% year-over-year.",
+      "quote": "Total revenue of $24.5 billion was 3.1 percent lower than last year, reflecting a total sales decline of 3.2 percent and a 3.9 percent increase in other revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP and Adjusted EPS was $2.03, down from $2.05 in 2023.",
+      "quote": "The Company reported first quarter GAAP and Adjusted earnings per share (EPS) of $2.03, compared with $2.05 in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance is reaffirmed: comparable sales 0-2% increase, EPS $8.60-$9.60.",
+      "quote": "For the full year, the Company continues to expect a 0 to 2 percent increase in its comparable sales, and GAAP and Adjusted EPS of $8.60 to $9.60.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 guidance: comparable sales 0-2% increase, EPS $1.95-$2.35.",
+      "quote": "For the second quarter, the Company expects a 0 to 2 percent increase in its comparable sales, and GAAP and Adjusted EPS of $1.95 to $2.35.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin rate improved 140 bps to 27.7%.",
+      "quote": "First quarter gross margin rate was 27.7 percent, compared with 26.3 percent in 2023, reflecting the net impact of merchandising activities...",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating income margin rate was 5.3%, up from 5.2%.",
+      "quote": "First quarter operating income margin rate was 5.3 percent in 2024, compared with 5.2 percent in 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comparable sales declined 3.7%, in line with expectations.",
+      "quote": "First quarter comparable sales declined 3.7 percent, in line with expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital comparable sales grew 1.4%, driven by same-day services.",
+      "quote": "Digital comparable sales grew 1.4 percent. Same-day services grew nearly 9 percent, led by more than 13 percent growth in Drive Up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Beauty category continues to grow.",
+      "quote": "Sales declines, primarily in discretionary categories, were partially offset by continued growth in Beauty.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Apparel comp improved nearly 4 percentage points vs. Q4 2023.",
+      "quote": "Discretionary sales trends continued to improve vs. prior quarters, led by an improvement of nearly 4 percentage points in apparel as compared to Q4 of 2023.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Target Circle relaunch added >1 million new members in Q1.",
+      "quote": "The Company successfully relaunched its free-to-join Target Circle loyalty program in April, and welcomed more than 1 million new members to the platform in the first quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Roundel ad business grew more than 20%.",
+      "quote": "a decline in credit card profit sharing was offset primarily by the benefit of more than 20% growth in our Roundel ad business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Price cuts on 1,500 items announced, with plans for thousands more.",
+      "quote": "this week, we announced that we've made price cuts on 1,500 frequently shopped items in many markets, and we're planning additional price cuts on thousand more items this summer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Brian Cornell: 'our first quarter financial performance was in line with our expectations on both the top and bottom line, tracking the trajectory we outlined for this year and setting up a return to growth in the second quarter.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "SG&A expense rate increased 130 bps due to lower sales and higher costs.",
+      "quote": "First quarter SG&A expense rate was 21.1 percent in 2024, compared with 19.8 percent in 2023, reflecting the combined impact of lower sales and higher costs, including continued investments in pay and benefits and marketing, partially offset by disciplined cost management.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumers remain cautious due to elevated prices and economic uncertainty.",
+      "quote": "consumers remain surprisingly resilient despite a challenging backdrop of significantly elevated prices compared to just a few years ago. And even as inflation moderates and we see sequential improvement in discretionary category trends, higher interest rates, uncertainty around the future of the economy, continued social and political divisiveness, and the upcoming election cycles have consumers concerned about what lies ahead.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.15 is at the exact boundary between HOLD and BUY. The rationale relies on operational momentum and confident language, but guidance is unchanged and consumer caution is noted. A reviewer may wish to confirm the boundary crossing is appropriate."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2024-05-22",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2024",
+    "report_date": "2024-05-22",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q1\\tgt-1q24-press-release.html",
+        "pub_date": "2024-05-22"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q1\\tgt-1q24-transcript.html",
+        "pub_date": "2024-05-22"
+      }
+    ],
+    "document_id": "TGT_FQ1_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T144915Z",
+    "timestamp": "2026-07-08T14:51:16Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q1\\tgt-1q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q1\\tgt-1q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 19234,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\CY2024-Q1\\tgt-1q24-transcript.html",
+        "page_count": 1,
+        "extracted_characters": 67996,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ1_2024.txt"
+  }
+}

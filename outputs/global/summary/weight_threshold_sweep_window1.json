@@ -1,0 +1,143 @@
+{
+  "n_documents": 131,
+  "window_trading_days": 1,
+  "outcome_thresholds": {
+    "outcome_upper": 0.014,
+    "outcome_lower": -0.014
+  },
+  "optimize_metric": "accuracy",
+  "weight_step": 0.05,
+  "threshold_grid": {
+    "upper": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ],
+    "lower": [
+      -0.05,
+      -0.1,
+      -0.15,
+      -0.2,
+      -0.25,
+      -0.3,
+      -0.35,
+      -0.4
+    ],
+    "asymmetric": true
+  },
+  "combos_per_variant": 113344,
+  "default_config": {
+    "weights": [
+      0.8,
+      0.0,
+      0.2,
+      0.0
+    ],
+    "hold_upper": 0.25,
+    "hold_lower": -0.25
+  },
+  "majority_balanced_accuracy_baseline": 0.3333,
+  "variants": {
+    "quant_score": {
+      "global_best": {
+        "accuracy": 0.458,
+        "balanced_accuracy": 0.4382,
+        "weights": [
+          0.05,
+          0.15,
+          0.8,
+          0.0
+        ],
+        "hold_upper": 0.25,
+        "hold_lower": -0.15,
+        "n_tied": 2
+      },
+      "loocv_tuned_accuracy": 0.4351,
+      "loocv_tuned_balanced_accuracy": 0.4132,
+      "loocv_default_accuracy": 0.4427,
+      "loocv_default_balanced_accuracy": 0.4194,
+      "n": 131
+    },
+    "quant_score_with_macro": {
+      "global_best": {
+        "accuracy": 0.458,
+        "balanced_accuracy": 0.4382,
+        "weights": [
+          0.05,
+          0.15,
+          0.8,
+          0.0
+        ],
+        "hold_upper": 0.25,
+        "hold_lower": -0.15,
+        "n_tied": 2
+      },
+      "loocv_tuned_accuracy": 0.4351,
+      "loocv_tuned_balanced_accuracy": 0.4132,
+      "loocv_default_accuracy": 0.4427,
+      "loocv_default_balanced_accuracy": 0.4194,
+      "n": 131
+    },
+    "quant_score_with_fred": {
+      "global_best": {
+        "accuracy": 0.458,
+        "balanced_accuracy": 0.4382,
+        "weights": [
+          0.05,
+          0.15,
+          0.8,
+          0.0
+        ],
+        "hold_upper": 0.25,
+        "hold_lower": -0.15,
+        "n_tied": 2
+      },
+      "loocv_tuned_accuracy": 0.4351,
+      "loocv_tuned_balanced_accuracy": 0.4132,
+      "loocv_default_accuracy": 0.4427,
+      "loocv_default_balanced_accuracy": 0.4194,
+      "n": 131
+    },
+    "quant_score_with_macro_fred": {
+      "global_best": {
+        "accuracy": 0.458,
+        "balanced_accuracy": 0.4382,
+        "weights": [
+          0.05,
+          0.15,
+          0.8,
+          0.0
+        ],
+        "hold_upper": 0.25,
+        "hold_lower": -0.15,
+        "n_tied": 2
+      },
+      "loocv_tuned_accuracy": 0.4351,
+      "loocv_tuned_balanced_accuracy": 0.4132,
+      "loocv_default_accuracy": 0.4427,
+      "loocv_default_balanced_accuracy": 0.4194,
+      "n": 131
+    }
+  },
+  "fed_ablation_note": "Compare quant_score (plain) vs quant_score_with_fred / _with_macro / _with_macro_fred. If none lifts global_best or LOOCV accuracy over plain, the Fed/macro-numeric sub-components do not earn weight - a stable negative, consistent with macro/news at earlier N.",
+  "significance": {
+    "accuracy": 0.4427,
+    "n": 131,
+    "majority_label": "HOLD",
+    "majority_rate": 0.3817,
+    "binomial_p_vs_majority": 0.08948,
+    "permutation_p_vs_shuffled_labels": 0.014,
+    "verdict": "blend 0.4427 vs majority 0.3817 - NOT distinguishable from noise (binomial p=0.08948, permutation p=0.014) at N=131"
+  },
+  "significance_balanced": {
+    "balanced_accuracy": 0.4194,
+    "majority_balanced_accuracy_baseline": 0.3333,
+    "permutation_p_balanced_vs_shuffled_labels": 0.0094,
+    "verdict": "balanced_accuracy 0.4194 vs majority-only floor 0.3333 - beats the skew-proof baseline (permutation p=0.0094) at N=131"
+  }
+}

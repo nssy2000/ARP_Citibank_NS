@@ -1,0 +1,58 @@
+{
+  "document_id": "TGT_FQ1_2026_QUANT",
+  "base_document_id": "TGT_FQ1_2026",
+  "issuer": "p2_target",
+  "ticker": "TGT",
+  "sector": "Consumer/Retail",
+  "report_date": "2026-05-20",
+  "sentiment": {
+    "score": 0.25538
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.013349,
+      "window_start_date": "2026-04-20",
+      "window_end_date": "2026-05-19",
+      "score": -0.088762,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.313955,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 17.31,
+      "matched_earnings_date": "2026-05-20",
+      "score": 0.599522,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 17.44,
+      "vix_score": 0.103627,
+      "tnx_change": 0.28,
+      "tnx_score": -0.507978,
+      "score": -0.202176,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 3.62,
+      "ffr_change": -0.02,
+      "ffr_score": 0.039979,
+      "ffr_as_of": "2026-05-19",
+      "curve_spread": 0.54,
+      "curve_score": 0.492988,
+      "curve_as_of": "2026-05-19",
+      "score": 0.266483,
+      "available": true
+    },
+    "quant_score": 0.25538,
+    "quant_score_with_macro": 0.026602,
+    "quant_score_with_fred": 0.260931,
+    "quant_score_with_macro_fred": 0.106562
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

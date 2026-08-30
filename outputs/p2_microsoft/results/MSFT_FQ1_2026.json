@@ -1,0 +1,216 @@
+{
+  "document_id": "MSFT_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "The document reports a strong quarter with revenue and EPS beating expectations, but the key driver for a positive score is the raised forward guidance: Azure Q2 revenue growth is guided at ~37% in constant currency, and FY26 capex growth is expected to be higher than FY25, reflecting accelerating demand. Management explicitly states demand signals are accelerating faster than expected, and the RPO grew 51% to nearly $400 billion with a short duration, indicating strong booked business. However, the score is tempered by the explicit risk of Azure capacity constraints through at least the end of the fiscal year, which limits the upside from the guidance raise."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$77.7 billion, up 18% (17% in constant currency).",
+    "eps": "$4.13, up 23% (21% in constant currency when adjusted for OpenAI investment impacts).",
+    "guidance": "Q2 FY26 revenue guidance of $79.5 to $80.6 billion (14%-16% growth). Azure Q2 revenue growth guided at approximately 37% in constant currency. FY26 capex growth rate expected to be higher than FY25.",
+    "margin": "Company gross margin percentage was 69%, down slightly year-over-year. Operating margins increased year-over-year to 49%. Microsoft Cloud gross margin percentage was 68%, down year-over-year. Q2 cloud gross margin percentage expected to be roughly 66%, down year-over-year.",
+    "key_risks": [
+      "Azure capacity constraints through at least the end of the fiscal year, with demand exceeding supply.",
+      "Cloud gross margin compression due to AI investments and mix shift to Azure.",
+      "Increased volatility in other income and expense due to OpenAI partnership.",
+      "Gaming revenue decline expected in Q2 due to strong prior year comparable.",
+      "Concentration risk from large AI-native contracts."
+    ],
+    "key_opportunities": [
+      "Accelerating demand for AI platform and Copilots, with Microsoft Cloud revenue surpassing $49 billion, up 26% year-over-year.",
+      "Commercial RPO grew over 50% to nearly $400 billion, indicating strong future revenue.",
+      "New definitive agreement with OpenAI, with $250 billion incremental Azure services contracted.",
+      "Azure taking share and capacity expansion underway, with AI capacity increasing by over 80% this year.",
+      "Strong adoption of Microsoft 365 Copilot, with over 90% of Fortune 500 using it."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language like 'very strong start to our fiscal year,' 'exceeding expectations,' and 'demand signals across bookings, RPO, and product usage are accelerating faster than we expected,' conveying strong confidence in the business trajectory."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $77.7 billion, up 18% (17% in constant currency).",
+      "quote": "This quarter, revenue was $77.7 billion, up 18% and 17% in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "EPS was $4.13, up 23% (21% in constant currency when adjusted for OpenAI investment impacts).",
+      "quote": "And earnings per share was $4.13, an increase of 23% and 21% in constant currency, when adjusted for the impact of our investments in OpenAI.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 FY26 revenue guidance of $79.5 to $80.6 billion (14%-16% growth).",
+      "quote": "We expect revenue of $79.5 to $80.6 billion or growth of 14% to 16%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Azure Q2 revenue growth guided at approximately 37% in constant currency.",
+      "quote": "In Azure, we expect Q2 revenue growth of approximately 37% in constant currency as demand remains significantly ahead of the capacity we have available.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY26 capex growth rate expected to be higher than FY25.",
+      "quote": "Therefore, total spend will increase sequentially, and we now expect the FY26 growth rate to be higher than FY25.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Company gross margin percentage was 69%, down slightly year-over-year.",
+      "quote": "Company gross margin percentage was 69%, down slightly year-over-year driven by investments in AI, including the impact of scaling our AI infrastructure and the growing usage of our AI product features.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margins increased year-over-year to 49%.",
+      "quote": "Operating margins increased year-over-year to 49% and were ahead of expectations with stronger than anticipated results in high margin businesses this quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Microsoft Cloud gross margin percentage was 68%, down year-over-year.",
+      "quote": "Microsoft Cloud gross margin percentage was slightly better than expected at 68%, and down year-over-year due to the investments in AI that were partially offset by ongoing efficiency gains as noted earlier.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 cloud gross margin percentage expected to be roughly 66%, down year-over-year.",
+      "quote": "Microsoft Cloud gross margin percentage should be roughly 66%, down year-over-year driven by the continued investments in AI as well as the mix shift to Azure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Azure capacity constraints through at least the end of the fiscal year.",
+      "quote": "Therefore, we now expect to be capacity constrained through at least the end of our fiscal year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increased volatility in other income and expense due to OpenAI partnership.",
+      "quote": "The combination of OpenAI's conversion to a public benefit corp and the ongoing nature of our partnership will result in increased volatility.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gaming revenue decline expected in Q2 due to strong prior year comparable.",
+      "quote": "In Xbox content and services, we expect revenue to decline in the low to mid-single digits against a prior year comparable that benefited from strong first-party performance, partially offset by growth in subscriptions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Accelerating demand for AI platform and Copilots, with Microsoft Cloud revenue surpassing $49 billion, up 26% year-over-year.",
+      "quote": "Microsoft Cloud revenue surpassed $49 billion, up 26% year over year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial RPO grew over 50% to nearly $400 billion.",
+      "quote": "And our commercial RPO increased over 50% to nearly $400 billion, with a weighted average duration of only two years.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New definitive agreement with OpenAI, with $250 billion incremental Azure services contracted.",
+      "quote": "OpenAI has contracted an incremental $250 billion of Azure services;",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Azure taking share and capacity expansion underway, with AI capacity increasing by over 80% this year.",
+      "quote": "We will increase our total AI capacity by over 80% this year, and roughly double our total datacenter footprint over the next two years, reflecting the demand signals we see.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong adoption of Microsoft 365 Copilot, with over 90% of Fortune 500 using it.",
+      "quote": "All up, more than 90% of the Fortune 500 now use Microsoft 365 Copilot.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "It was a very strong start to our fiscal year. ... demand signals across bookings, RPO, and product usage are accelerating faster than we expected.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 is based on a guidance raise and strong demand signals, but the explicit capacity constraint risk could be seen as a more significant headwind by some analysts. A reviewer may want to assess if the positive forward outlook sufficiently outweighs the near-term capacity limitation."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MSFT_Bundled Earnings Report_2025-10-29",
+  "report_metadata": {
+    "issuer": "p2_microsoft",
+    "company": "Microsoft",
+    "ticker": "MSFT",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2025-10-29",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2026-Q1\\cdn-dynmedia-1.microsoft.com.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2026-Q1\\Microsoft-Q1-2026-Earnings-Call-Transcript-MotleyFool.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MSFT_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T174033Z",
+    "timestamp": "2026-07-30T17:41:40Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2026-Q1\\cdn-dynmedia-1.microsoft.com.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_microsoft\\extracted\\MSFT_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2026-Q1\\cdn-dynmedia-1.microsoft.com.pdf",
+        "page_count": 37,
+        "extracted_characters": 52789,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\microsoft\\CY2026-Q1\\Microsoft-Q1-2026-Earnings-Call-Transcript-MotleyFool.html",
+        "page_count": 1,
+        "extracted_characters": 65526,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_microsoft\\extracted\\MSFT_FQ1_2026.txt"
+  }
+}

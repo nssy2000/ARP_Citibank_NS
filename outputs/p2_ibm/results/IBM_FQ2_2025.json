@@ -1,0 +1,278 @@
+{
+  "document_id": "IBM_FQ2_2025",
+  "sentiment": {
+    "score": 0.5,
+    "rationale": "Management raised full-year free cash flow guidance from 'more than $13.5 billion' (previously stated as 'more than $13.5 billion' but now explicitly raised from prior expectations) and raised operating pretax margin expansion guidance from 'about a half a point' to 'about a point'. Revenue guidance was reaffirmed at 'at least 5 percent' constant currency growth, but the strong first-half performance and raised profitability and cash flow guidance represent a meaningful upward revision to forward expectations. The guidance raise is organic, attributed to business performance and productivity initiatives, not primarily to FX or one-time items."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$17.0 billion, up 8 percent (5 percent at constant currency).",
+    "eps": "GAAP diluted EPS from continuing operations of $2.31, up 18% year-over-year; Operating (Non-GAAP) diluted EPS of $2.80, up 15% year-over-year.",
+    "guidance": "Full-year 2025: constant currency revenue growth of at least 5 percent; free cash flow now expected to exceed $13.5 billion (raised); operating pretax margin expansion of about a point (raised from about half a point); software revenue growth approaching double digits; Red Hat mid-teens growth; infrastructure contributing about 1.5 points to IBM's revenue growth; consulting growth contribution prudently cautious; Q3 2025 comfortable with consensus estimates for revenue and profitability.",
+    "margin": "GAAP Gross Profit Margin: 58.8%, up 200 basis points; Operating (Non-GAAP) Gross Profit Margin: 60.1%, up 230 basis points. GAAP Pre-tax Income Margin: 15.3%, up 120 basis points; Operating (Non-GAAP) Pre-tax Income Margin: 18.8%, up 110 basis points.",
+    "key_risks": [
+      "Geopolitical tensions prompting a few clients to move cautiously.",
+      "US federal spending somewhat constrained in the first half.",
+      "Consulting revenue flat, impacted by dynamic demand environment and clients prioritizing cost-efficient high-impact investments.",
+      "Delayed decision-making, especially in discretionary projects, impacting consulting signings.",
+      "Transaction processing revenue declined 2% as clients prioritized hardware spend at the beginning of a new z17 cycle.",
+      "Distributed infrastructure revenue down 17% with product cycle dynamics impacting power.",
+      "Global trade dynamics requiring prudent protection of supply chain.",
+      "Foregone interest income from HashiCorp acquisition as a headwind to free cash flow."
+    ],
+    "key_opportunities": [
+      "Generative AI book of business now over $7.5 billion, accelerating quarter over quarter.",
+      "Red Hat growth accelerated to 14%, with OpenShift revenue growing over 20% and ARR at $1.7 billion.",
+      "HashiCorp integration off to a strong start, accelerating bookings growth and pipeline 3x last year.",
+      "Strong z17 launch with over 100% MIPS capacity shipped, driving long-term multiplier effect.",
+      "Productivity initiatives targeting $4.5 billion in annual run rate savings by end of 2025.",
+      "Software mix shift to about 45% of business, with ARR growing 10%.",
+      "New AI product advancements: Watson x Orchestra with 150+ domain-specific agents, z17 with Telen two processor enabling 450 billion AI inference operations per day.",
+      "Expanding partner ecosystem with Oracle, AWS, Salesforce, Microsoft, etc.",
+      "Optimism around macro environment, with strength in Japan, South Asia, Middle East, and resilient Europe.",
+      "Federal government focus shifting to modernization and AI, with direct engagement at highest levels."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses phrases like 'we feel even more confident about the year of approaching double digits' (Jim Kavanaugh) and 'I would now turn my way all the way to optimism around the macro environment' (Arvind Krishna), and raised guidance on free cash flow and operating margin."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $17.0 billion, up 8 percent (5 percent at constant currency).",
+      "quote": "Revenue of $17.0 billion, up 8 percent, up 5 percent at constant currency",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS from continuing operations was $2.31, up 18% year-over-year; Operating (Non-GAAP) diluted EPS was $2.80, up 15% year-over-year.",
+      "quote": "Diluted Earnings Per Share: Continuing Operations $ 2.31 ... Year/Year 18% ... Operating (Non-GAAP) $ 2.80 ... Year/Year 15%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year free cash flow guidance raised to more than $13.5 billion.",
+      "quote": "The company now expects more than $13.5 billion in free cash flow for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year operating pretax margin expansion guidance raised to about a point.",
+      "quote": "Given this performance and increased productivity savings, we are raising our expectations for IBM's full-year operating pretax margin to expand by about a point.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Revenue guidance reaffirmed at constant currency growth of at least 5 percent.",
+      "quote": "The company continues to expect constant currency revenue growth of at least 5 percent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP Gross Profit Margin was 58.8%, up 200 basis points; Operating (Non-GAAP) Gross Profit Margin was 60.1%, up 230 basis points.",
+      "quote": "Gross Profit Margin: GAAP: 58.8 percent, up 200 basis points; Operating (Non-GAAP): 60.1 percent, up 230 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP Pre-tax Income Margin was 15.3%, up 120 basis points; Operating (Non-GAAP) Pre-tax Income Margin was 18.8%, up 110 basis points.",
+      "quote": "Pre-Tax Income Margin: GAAP: 15.3 percent, up 120 basis points; Operating (Non-GAAP): 18.8 percent, up 110 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Generative AI book of business now over $7.5 billion, accelerating quarter over quarter.",
+      "quote": "Our generative AI book of business continues to accelerate and now stands at more than $7.5 billion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Red Hat growth accelerated to 14%, with OpenShift revenue growing over 20%.",
+      "quote": "Red Hat growth accelerated one point sequentially to 14%, fueled by another quarter of double-digit bookings ... OpenShift growing revenue more than 20% with ARR now at $1.7 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "HashiCorp integration off to a strong start, accelerating bookings growth.",
+      "quote": "Automation grew 14%, with HashiCorp off to a strong start. We accelerated bookings growth in the first four quarters since closing, fueled by IBM's global go-to-market reach",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity initiatives targeting $4.5 billion in annual run rate savings by end of 2025.",
+      "quote": "We now believe we can achieve approximately $4.5 billion in annual run rate savings by the end of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Software mix now about 45% of business, with ARR growing 10%.",
+      "quote": "Software is now about 45% of our business, with ARR growing 10%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "we feel even more confident about the year of approaching double digits",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed optimism around the macro environment.",
+      "quote": "I would now turn my way all the way to optimism around the macro environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consulting revenue was flat, impacted by dynamic demand environment.",
+      "quote": "Consulting revenue was flat, stabilizing in the first half, and heading into the second half, our backlog remains healthy, up 4% over last year, despite the challenging pricing environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Transaction processing revenue declined 2% as clients prioritized hardware spend.",
+      "quote": "transaction processing revenue declined 2% in the quarter, reflecting where we are at with our new z17 cycle as clients prioritize hardware spend at the beginning of a new program",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Distributed infrastructure revenue down 17%.",
+      "quote": "Distributed infrastructure revenue was down 17% with product cycle dynamics impacting power.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical tensions prompting a few clients to move cautiously.",
+      "quote": "While not a major factor overall, geopolitical tensions are prompting a few clients to move cautiously.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "US federal spending somewhat constrained in the first half.",
+      "quote": "US federal spending was also somewhat constrained in the first half, but we do not expect it to create long-term headwinds.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global trade dynamics requiring prudent protection of supply chain.",
+      "quote": "Given global trade dynamics, we continue to prudently protect our supply chain",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Foregone interest income from HashiCorp acquisition as a headwind to free cash flow.",
+      "quote": "given the closing of HashiCorp acquisition, foregone interest income was another headwind.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong z17 launch with over 100% MIPS capacity shipped.",
+      "quote": "We shipped over 100% MIPS capacity into the marketplace on z17.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New AI product advancements: Watson x Orchestra with 150+ domain-specific agents.",
+      "quote": "We launched new features for Watson x Orchestra, which allows users to build custom AI agents in minutes with no coding required. There are now more than 150 prebuilt domain-specific agents in our catalog",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "z17 with Telen two processor enabling 450 billion AI inference operations per day.",
+      "quote": "It features the new Telen two processor, delivering more than 450 billion AI inference operations per day with millisecond latency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expanding partner ecosystem with Oracle, AWS, Salesforce, Microsoft, etc.",
+      "quote": "This quarter, we announced new or deepened collaborations with Oracle, Vox, AWS, Salesforce, Microsoft, Benastra, and WPP . Each is aimed at embedding Watson x into core business workflows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Federal government focus shifting to modernization and AI, with direct engagement at highest levels.",
+      "quote": "Their focus is now shifting to number one, we need to modernize the agencies ... I was very pleased to see the AI action plan that came out this morning. They are very clear that AI has to be used by government agencies ... the conversations we've been having with a number of agencies ... I would tell you, highest levels in the various agencies, when they are willing to make time and they're willing to meet at the that's a positive statement that they are serious about it.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Guidance raise is organic, attributed to business performance and productivity initiatives.",
+      "quote": "our $400 million beat about $375 million of that was pure business performance in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.50 reflects a meaningful guidance raise on free cash flow and operating margin, but revenue guidance was only reaffirmed. A reviewer may consider whether the lack of a revenue guidance raise should cap the score lower."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 26,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "IBM_Bundled Earnings Report_2025-07-23",
+  "report_metadata": {
+    "issuer": "p2_ibm",
+    "company": "IBM",
+    "ticker": "IBM",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-07-23",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "IBM_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T213817Z",
+    "timestamp": "2026-07-18T21:38:38Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ibm\\extracted\\IBM_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q2\\Q2 2025 - numbers.pdf",
+        "page_count": 1,
+        "extracted_characters": 25591,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2025-Q2\\Q2 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 58765,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ibm\\extracted\\IBM_FQ2_2025.txt"
+  }
+}

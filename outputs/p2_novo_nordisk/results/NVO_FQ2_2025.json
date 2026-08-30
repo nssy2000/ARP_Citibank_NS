@@ -1,0 +1,185 @@
+{
+  "document_id": "NVO_FQ2_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "The company explicitly lowered its full-year 2025 sales growth guidance from 13-21% at CER to 8-14% at CER, and operating profit growth guidance from 16-24% at CER to 10-16% at CER. This is a material downward revision driven by lower growth expectations for Wegovy and Ozempic in the US and select IO markets, persistent compounding, and slower market expansion. The guidance cut is the dominant forward-looking signal, outweighing the solid H1 2025 results."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "H1 2025 net sales were DKK 154,944 million, an increase of 16% as reported and 18% at constant exchange rates (CER).",
+    "eps": "H1 2025 diluted earnings per share were DKK 12.49, an increase of 23%.",
+    "guidance": "For 2025, sales growth is now expected to be 8-14% at CER (lowered from 13-21%), and operating profit growth is now expected to be 10-16% at CER (lowered from 16-24%).",
+    "margin": "H1 2025 gross margin was 83.4% (down from 84.9% in H1 2024). Operating margin was 46.6% (up from 43.3% in H1 2024).",
+    "key_risks": [
+      "Persistent use of compounded GLP-1s in the US impacting Wegovy uptake.",
+      "Slower-than-expected market expansion and competition.",
+      "Lower growth expectations for Wegovy in the US obesity market and select IO markets.",
+      "Lower growth expectations for Ozempic in the US GLP-1 diabetes market.",
+      "Unsafe and unlawful mass compounding of semaglutide continuing despite FDA grace period expiry.",
+      "Periodic supply constraints for certain products and geographies.",
+      "Potential implications from major healthcare reforms, legislative changes, and legal cases including 340B litigation."
+    ],
+    "key_opportunities": [
+      "Obesity care sales grew 58% (CER) to DKK 38.8 billion, driven by Wegovy.",
+      "Advancing subcutaneous and oral amycretin into Phase 3 development for weight management.",
+      "Initiation of REDEFINE 11 Phase 3b trial for CagriSema.",
+      "Semaglutide 7.2 mg submitted for EU regulatory approval.",
+      "Wegovy is now the only GLP-1 medicine covered for obesity in CVS national template formulary (effective July 1, 2025).",
+      "Expecting a regulatory decision around the Wegovy MASH indication during Q3 2025.",
+      "Continued global rollout of Wegovy to more markets (now in ~35 countries).",
+      "Ozempic received positive CHMP opinion for peripheral arterial disease treatment."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "The CEO stated, 'we have lowered our full-year outlook due to lower growth expectations for our GLP-1 treatments in the second half of 2025,' and the document details specific headwinds, indicating a cautious and realistic tone about near-term challenges."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "H1 2025 revenue was DKK 154,944 million, up 18% at CER.",
+      "quote": "Novo Nordisk's sales increased by 16% in Danish kroner and by 18% at constant exchange rates to DKK 154.9 billion in the first six months of 2025",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "H1 2025 diluted EPS was DKK 12.49, up 23%.",
+      "quote": "Diluted earnings per share (in DKK) 12.49 10.17 23% N/A",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 sales growth guidance was lowered to 8-14% at CER from 13-21%.",
+      "quote": "Sales growth is now expected to be 8-14% at CER, and operating profit growth is now expected to be 10-16% at CER. ... The lowered sales outlook for 2025 is driven by lower growth expectations for the second half of 2025, reflecting the persistent use of compounded GLP-1s, slower-than-expected market expansion and competition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 operating profit growth guidance was lowered to 10-16% at CER from 16-24%.",
+      "quote": "Sales growth is now expected to be 8-14% at CER, and operating profit growth is now expected to be 10-16% at CER. ... The updated expectation for operating profit growth mainly reflects the lower sales growth outlook, partially countered by reduced spending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "H1 2025 gross margin was 83.4%, down from 84.9%.",
+      "quote": "Gross margin 83.4% 84.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "H1 2025 operating margin was 46.6%, up from 43.3%.",
+      "quote": "Operating margin 46.6% 43.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key risk is the persistent use of compounded GLP-1s.",
+      "quote": "The lowered sales outlook for 2025 is driven by lower growth expectations for the second half of 2025, reflecting the persistent use of compounded GLP-1s, slower-than-expected market expansion and competition.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key risk is lower growth expectations for Wegovy in the US and Ozempic in the US.",
+      "quote": "The outlook is related to lower growth expectations for Wegovy ® in the US obesity market, for Ozempic ® in the US GLP-1 diabetes market as well as for Wegovy ® in select IO markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key opportunity is the advancement of amycretin into Phase 3.",
+      "quote": "Novo Nordisk to advance subcutaneous and oral amycretin for weight management into phase 3 clinical development",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "A key opportunity is the CVS formulary decision for Wegovy.",
+      "quote": "Effective 1 July 2025, Wegovy ® is now the only GLP-1 medicine covered for obesity care in CVS national template formulary.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "Lars Fruergaard Jørgensen, president and CEO: 'While delivering 18% sales growth in the first half of 2025, we have lowered our full-year outlook due to lower growth expectations for our GLP-1 treatments in the second half of 2025.'",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is -0.50 due to the material downward guidance revision.",
+      "quote": "Sales growth is now expected to be 8-14% at CER, and operating profit growth is now expected to be 10-16% at CER. ... The lowered sales outlook for 2025 is driven by lower growth expectations for the second half of 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is heavily driven by the guidance cut. A reviewer should confirm that the magnitude of the cut (from 13-21% to 8-14% for sales) and the explicit attribution to structural issues (compounding, competition) justify a -0.50 score rather than a more moderate negative score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NVO_Bundled Earnings Report_2025-08-06",
+  "report_metadata": {
+    "issuer": "p2_novo_nordisk",
+    "company": "Novo Nordisk",
+    "ticker": "NVO",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-06",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q2\\NVO-Q2-2025-FinancialReport.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q2\\NVO-Q2-2025-earnings-call-transcript-InsiderMonkey.html",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NVO_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174326Z",
+    "timestamp": "2026-07-30T17:44:05Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q2\\NVO-Q2-2025-FinancialReport.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_novo_nordisk\\extracted\\NVO_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q2\\NVO-Q2-2025-FinancialReport.pdf",
+        "page_count": 39,
+        "extracted_characters": 125574,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\novo_nordisk\\CY2025-Q2\\NVO-Q2-2025-earnings-call-transcript-InsiderMonkey.html",
+        "page_count": 1,
+        "extracted_characters": 67723,
+        "extractor_used": "html.parser",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_novo_nordisk\\extracted\\NVO_FQ2_2025.txt"
+  }
+}

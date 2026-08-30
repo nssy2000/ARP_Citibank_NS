@@ -1,0 +1,254 @@
+{
+  "document_id": "MAR_FQ4_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "Forward guidance was meaningfully raised: full-year 2026 adjusted EBITDA is guided to grow 8-10% (to $5.8-$5.9 billion) versus 8% growth in 2025, adjusted EPS is guided to grow 13-15%, and net rooms growth is expected to accelerate to 4.5-5%. The company also guided to a ~35% increase in co-branded credit card fees driven by an amended royalty rate, a structural improvement. While the U.S. & Canada RevPAR was flat in Q4 and the government shutdown was a headwind, the overall forward outlook is positive and management expressed confidence, supporting a moderately bullish score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Fourth quarter total gross fee revenues grew 7% to $1.4 billion. Full year 2025 gross fee revenues rose 5% to $5.4 billion. Total revenues for Q4 2025 were $6,690 million, up from $6,429 million in Q4 2024.",
+    "eps": "Fourth quarter reported diluted EPS totaled $1.65 and adjusted diluted EPS totaled $2.58. For the full year, reported diluted EPS totaled $9.51 and adjusted diluted EPS totaled $10.02.",
+    "guidance": "For full year 2026, the company expects worldwide RevPAR to rise 1.5% to 2.5%, net rooms growth of 4.5% to 5%, adjusted EBITDA growth of 8% to 10% (to $5.8-$5.9 billion), adjusted diluted EPS growth of 13% to 15%, and more than $4.3 billion of capital returns to shareholders. Fee revenues are expected to rise 8% to 10% to $5.9-$5.96 billion.",
+    "margin": "Adjusted operating income margin for Q4 2025 was 63%, compared to 62% in Q4 2024. For the full year 2025, adjusted operating income margin was 64%, compared to 63% in 2024.",
+    "key_risks": [
+      "U.S. & Canada RevPAR declined 0.1% in Q4 2025, impacted by the extended government shutdown, particularly on the business transient segment.",
+      "Government RevPAR was down over 30% during the 43-day U.S. Government shutdown, moderating to down around 15%.",
+      "The operating environment in Greater China remains challenged by weak macro conditions and soft consumer sentiment.",
+      "Business transient RevPAR declined 3% in Q4 2025.",
+      "The company's guidance does not include any impact from the renegotiation of U.S. co-branded cards, as discussions are still ongoing.",
+      "Owned, leased, and other revenue net is expected to be impacted by renovations at certain large hotels, including W Barcelona and the Ritz Carlton Tokyo."
+    ],
+    "key_opportunities": [
+      "International RevPAR increased 6.1% in Q4 2025 and over 5% for the full year, led by EMEA and APEC.",
+      "Luxury RevPAR increased over 6% in Q4 and for the full year, with luxury comprising 10% of both open and pipeline rooms.",
+      "The development pipeline reached a record ~610,000 rooms, up 6% year-over-year, with net rooms growth expected to accelerate to 4.5%-5% in 2026.",
+      "Co-branded credit card fees are projected to increase ~35% in 2026, driven by spending growth and an increased royalty rate.",
+      "The 2026 FIFA World Cup is expected to contribute 30-35 basis points to global RevPAR growth.",
+      "Residential branding fees are expected to increase roughly 40% in 2026.",
+      "The company is investing in AI and technology, partnering with Google and OpenAI, to enhance guest acquisition and booking."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "The CEO stated, 'I am proud of the results we delivered this year and am incredibly optimistic about the future,' and the CFO described the company's 'strong financial performance' and 'strong cash-generating asset-light business model.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Fourth quarter total gross fee revenues grew 7% to $1.4 billion.",
+      "quote": "Fourth quarter total gross fee revenues grew 7% to $1.4 billion ahead of expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 gross fee revenues rose 5% to $5.4 billion.",
+      "quote": "For full year 2025, gross fee revenues rose 5% to $5.4 billion with IMFs up 3%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fourth quarter reported diluted EPS totaled $1.65 and adjusted diluted EPS totaled $2.58.",
+      "quote": "Fourth quarter reported diluted EPS totaled $1.65 and adjusted diluted EPS totaled $2.58.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For the full year, reported diluted EPS totaled $9.51 and adjusted diluted EPS totaled $10.02.",
+      "quote": "For the full year, reported diluted EPS totaled $9.51 and adjusted diluted EPS totaled $10.02.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For full year 2026, the company expects worldwide RevPAR to rise 1.5% to 2.5%, net rooms growth of 4.5% to 5%, adjusted EBITDA growth of 8% to 10%, and more than $4.3 billion of capital returns to shareholders.",
+      "quote": "For full year 2026, we expect worldwide RevPAR to rise 1.5 to 2.5 percent, net rooms growth of 4.5 to 5 percent, adjusted EBITDA growth of 8 to 10 percent and more than $4.3 billion of capital returns to shareholders.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS is expected to grow 13% to 15% for the full year 2026.",
+      "quote": "Strong adjusted EBITDA growth combined with a meaningful reduction in share count leads to expected full year adjusted diluted EPS growth between 13% to 15%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fee revenues are expected to rise 8% to 10% to $5.9-$5.96 billion for 2026.",
+      "quote": "For the full year, fee revenues could rise 8% to 10% to $5.9 billion to $5.96 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating income margin for Q4 2025 was 63%, compared to 62% in Q4 2024.",
+      "quote": "Adjusted operating income margin † 63 % 62 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For the full year 2025, adjusted operating income margin was 64%, compared to 63% in 2024.",
+      "quote": "Adjusted operating income margin † 64 % 63 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "U.S. & Canada RevPAR declined 0.1% in Q4 2025, impacted by the extended government shutdown.",
+      "quote": "In the U.S. & Canada, RevPAR was roughly flat, reflecting the impact of the extended government shutdown primarily on the business transient segment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Government RevPAR was down over 30% during the 43-day U.S. Government shutdown, moderating to down around 15%.",
+      "quote": "Government RevPAR was down over 30% during the forty-three-day U.S. Government shutdown though it has since moderated to down around 15%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The operating environment in Greater China remains challenged by weak macro conditions and soft consumer sentiment.",
+      "quote": "While the operating environment in Greater China remains challenged by weak macro conditions and soft consumer sentiment, robust leisure trends and continued inbound travel recovery helped RevPAR return to growth in the fourth quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Business transient RevPAR declined 3% in Q4 2025.",
+      "quote": "These gains were offset by a 3% decline in business transient RevPAR largely due to a meaningful decline in government RevPAR in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company's guidance does not include any impact from the renegotiation of U.S. co-branded cards.",
+      "quote": "The outlook does not include any impact from the renegotiation of our U.S. co-branded cards, as those discussions are still ongoing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Owned, leased, and other revenue net is expected to be impacted by renovations at certain large hotels.",
+      "quote": "Results are expected to be impacted by renovations at certain large hotels in the portfolio, including W Barcelona and the Ritz Carlton Tokyo.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International RevPAR increased 6.1% in Q4 2025 and over 5% for the full year.",
+      "quote": "Fourth quarter 2025 RevPAR increased 1.9 percent worldwide, with 6.1 percent growth in international markets... For full year 2025, RevPAR increased 2.0 percent worldwide, with 5.1 percent growth in international markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Luxury RevPAR increased over 6% in Q4 and for the full year.",
+      "quote": "Globally, our luxury hotels continued to outperform during the quarter, with RevPAR rising over 6 percent... Full year luxury RevPAR increased over 6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The development pipeline reached a record ~610,000 rooms, up 6% year-over-year.",
+      "quote": "At the end of December, our pipeline had grown to a record 610,000 rooms, up 2% from the prior quarter and up 6% from the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Co-branded credit card fees are projected to increase ~35% in 2026.",
+      "quote": "However, our guidance does include a meaningful expected year-over-year increase of around 35% in co-branded credit card fees going into our franchise fees line.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 2026 FIFA World Cup is expected to contribute 30-35 basis points to global RevPAR growth.",
+      "quote": "The World Cup is expected to contribute around 30 to 35 basis points of global RevPAR growth for the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Residential branding fees are expected to increase roughly 40% in 2026.",
+      "quote": "Moving on to full year residential branding fees. These fees could increase around 40% in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company is investing in AI and technology, partnering with Google and OpenAI.",
+      "quote": "Furthermore, we are actively collaborating with numerous tech companies across the space. For example, we are one of the initial companies working with Google on their forthcoming Google AI mode travel product, and with OpenAI on their Ad Pilot program.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed an optimistic tone about the future.",
+      "quote": "I am proud of the results we delivered this year and am incredibly optimistic about the future, given our unmatched global distribution, compelling brand portfolio and Marriott Bonvoy loyalty platform, combined with our powerful cash generating, asset-light business model.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.35 reflects a guidance raise (EBITDA growth accelerating to 8-10%, EPS growth of 13-15%), but the U.S. & Canada RevPAR was flat and the government shutdown was a headwind. A reviewer may want to weigh the mixed regional performance against the strong forward guidance."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 23,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "MAR_Bundled Earnings Report_2026-02-10",
+  "report_metadata": {
+    "issuer": "p2_marriott",
+    "company": "Marriott",
+    "ticker": "MAR",
+    "sector": "Consumer/Travel",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-02-10",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q4\\MAR-Q4-2025-Press-Release.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q4\\MAR-Q4-2025-Earnings-Call-Transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "MAR_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260804T100738Z",
+    "timestamp": "2026-08-04T10:08:31Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q4\\MAR-Q4-2025-Press-Release.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_marriott\\extracted\\MAR_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q4\\MAR-Q4-2025-Press-Release.txt",
+        "page_count": 1,
+        "extracted_characters": 66179,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\marriott\\CY2025-Q4\\MAR-Q4-2025-Earnings-Call-Transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 59161,
+        "extractor_used": "plain_text",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_marriott\\extracted\\MAR_FQ4_2025.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

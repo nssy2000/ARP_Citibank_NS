@@ -1,0 +1,198 @@
+{
+  "document_id": "NKE_FQ1_2025",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was materially reduced: full-year guidance was withdrawn, Q2 revenue is expected to decline 8-10%, and Q2 gross margins are expected to decline ~150 bps. Management explicitly stated 'a comeback at this scale takes time' and 'we have yet to turn the corner,' indicating a cautious and defensive outlook. The structural headwinds from franchise management actions and elevated promotional activity further support a bearish forward view."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$11.6 billion, down 10% on a reported basis and down 9% on a currency-neutral basis.",
+    "eps": "Diluted EPS was $0.70, down 26% from the prior year.",
+    "guidance": "Full-year guidance withdrawn; Q2 revenue expected to decline 8-10%; Q2 gross margins expected to decline approximately 150 bps; SG&A expected to be roughly flat; franchise management actions expected to continue with similar impact as Q1.",
+    "margin": "Gross margin increased 120 bps to 45.4% in Q1; Q2 gross margin expected to decline approximately 150 bps.",
+    "key_risks": [
+      "Elevated inventory requiring higher promotional activity and creating gross margin pressure.",
+      "Traffic declines across NIKE Direct and partner stores in Greater China were more significant than anticipated.",
+      "Classic footwear franchises (Air Force 1, Air Jordan 1, Dunk) declined nearly 50% on NIKE Digital.",
+      "Spring '25 order books came in roughly flat versus prior year, a little lighter than planned.",
+      "Full-year guidance withdrawn and Investor Day postponed, increasing near-term business and strategy visibility uncertainty."
+    ],
+    "key_opportunities": [
+      "New footwear products revenue up strong double-digits year over year.",
+      "Men's and women's running footwear delivered positive growth in Q1, with spring order books projecting double-digit growth.",
+      "Strong momentum with running specialty partners in North America (up double-digits in Q1).",
+      "Positive partner feedback on future product pipeline and accelerated pace of innovation.",
+      "New CEO Elliott Hill brings experience and energy to lead next stage of growth."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management stated 'a comeback at this scale takes time' and 'we have yet to turn the corner,' reflecting a cautious and realistic tone about the recovery timeline."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $11.6 billion, down 10% on a reported basis and down 9% on a currency-neutral basis.",
+      "quote": "First quarter revenues were $11.6 billion, down 10 percent on a reported basis compared to the prior year and down 9 percent on a currency-neutral basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $0.70, down 26% from the prior year.",
+      "quote": "Diluted earnings per share was $0.70 for the first quarter, down 26 percent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance was withdrawn.",
+      "quote": "Given our CEO transition and with three quarters left in the fiscal year, we are withdrawing our full year guidance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 revenue expected to decline 8-10%.",
+      "quote": "We expect Q2 revenues to be down in the 8% to 10% range.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 gross margins expected to decline approximately 150 bps.",
+      "quote": "We expect Q2 gross margins to be down approximately 150 basis points, with higher promotions, channel mix headwinds, and supply chain deleverage more than offsetting lower product costs",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Gross margin increased 120 bps to 45.4% in Q1.",
+      "quote": "Gross margin increased 120 basis points to 45.4 percent",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Elevated inventory requiring higher promotional activity.",
+      "quote": "we are seeing slightly elevated inventory as a result of the retail sales plans falling behind, requiring higher promotional activity and creating gross margin pressure.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Traffic declines across NIKE Direct and partner stores in Greater China were more significant than anticipated.",
+      "quote": "Traffic declines across NIKE Direct and in partner stores in Greater China were 'more significant than we anticipated,' contributing to underperformance versus the company’s plan.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Classic footwear franchises declined nearly 50% on NIKE Digital.",
+      "quote": "In Q1, these franchises were down nearly 50% versus the prior year on NIKE Digital",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Spring '25 order books came in roughly flat versus prior year, a little lighter than planned.",
+      "quote": "This was reflected in our spring '25 order books, which came in roughly flat versus the prior year, a little lighter than we had planned.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New footwear products revenue up strong double-digits year over year.",
+      "quote": "Q1 revenue from new footwear products was up strong double-digits versus the prior year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Men's and women's running footwear delivered positive growth in Q1.",
+      "quote": "men's and women's running footwear delivered positive growth in Q1, a meaningful improvement versus the prior quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Running specialty partners in North America up double-digits in Q1.",
+      "quote": "In North America, we were up double-digits this quarter with running specialty partners",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "That said, a comeback at this scale takes time. And while there are some early wins, we have yet to turn the corner.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Franchise management actions will continue with similar impact as Q1.",
+      "quote": "Franchise management actions will continue throughout the year, and we expect a similar impact in scale to what we experienced in Q1.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on withdrawn full-year guidance and cautious forward language. A human reviewer should confirm that the magnitude of the guidance reduction and the cautious tone justify this score relative to the anchor points."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NKE_Bundled Earnings Report_2025-03-20",
+  "report_metadata": {
+    "issuer": "p2_nike",
+    "company": "Nike",
+    "ticker": "NKE",
+    "sector": "Consumer/Retail",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2024-10-01",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q1\\Q1 2025 - numbers.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q1\\Q1 2025 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NKE_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260718T214803Z",
+    "timestamp": "2026-07-18T21:48:21Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q1\\Q1 2025 - numbers.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\extracted\\NKE_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q1\\Q1 2025 - numbers.pdf",
+        "page_count": 1,
+        "extracted_characters": 13543,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\nike\\CY2025-Q1\\Q1 2025 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 54957,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_nike\\extracted\\NKE_FQ1_2025.txt"
+  }
+}

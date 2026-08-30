@@ -1,0 +1,229 @@
+{
+  "document_id": "BA_FQ1_2024",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was effectively reduced: the 2024 free cash flow outlook was lowered to 'low-single digit billions' from prior expectations, and the $10 billion free cash flow goal was pushed out to 'later in the 2025/2026 window.' The company explicitly slowed 737 production below 38 per month and expects it to remain there for the first half, with deliveries under pressure. Management language is cautious and focused on quality and safety actions, not growth. The structural risk from the Alaska Airlines accident and ongoing FAA oversight is significant and unresolved."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$16.6 billion, down 8% versus the prior year, primarily reflecting lower 737 delivery volume.",
+    "eps": "GAAP loss per share of ($0.56) and core (non-GAAP) loss per share of ($1.13).",
+    "guidance": "2024 free cash flow expected to be generation in the low-single digit billions, backend loaded. Second quarter free cash flow expected to be another sizable use of cash. $10 billion free cash flow goal pushed to later in the 2025/2026 window. 737 production will remain below 38 per month for the first half of the year, higher in the second half. 787 production will be below five per month for most of the year.",
+    "margin": "GAAP operating margin of (0.5)%, core (non-GAAP) operating margin of (2.3)%. Commercial Airplanes operating margin of (24.6)%. Defense, Space & Security operating margin of 2.2%. Global Services operating margin of 18.2%.",
+    "key_risks": [
+      "Lower 737 deliveries and 737-9 grounding customer considerations impacting financial results.",
+      "Production slowdown below 38 per month on 737, with deliveries under pressure in the first half.",
+      "Ongoing FAA oversight and 90-day quality control plan, with no immediate rate increases.",
+      "Losses on fixed-price development programs in BDS ($222 million in the quarter).",
+      "Supply chain constraints on 787 (heat exchangers, seats).",
+      "Potential labor disruption from IAM negotiations over the summer.",
+      "Spirit AeroSystems acquisition discussions are complex and uncertain.",
+      "Cash balance declined significantly to $7.5 billion from $16.0 billion at the start of the quarter."
+    ],
+    "key_opportunities": [
+      "Total company backlog grew to $529 billion, including over 5,600 commercial airplanes.",
+      "Strong demand across the portfolio, with 125 net orders for Commercial Airplanes in the quarter.",
+      "Defense, Space & Security backlog of $61 billion with $9 billion in orders in the quarter.",
+      "Global Services continues strong performance with 18.2% operating margin and 7% revenue growth.",
+      "Expectation to deliver most inventoried 737 and 787 airplanes by year-end, shutting down shadow factories.",
+      "BDS expected to return to high-single digit margins by 2025/2026 timeframe."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management repeatedly emphasizes the need to 'slow down,' 'take the time necessary,' and focus on 'stability' and 'quality' over growth, with explicit statements like 'we will take the time necessary to strengthen our quality and safety management systems' and 'we are not going to rush it.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $16.6 billion, down 8% versus the prior year.",
+      "quote": "Revenue of $16.6 billion, GAAP loss per share of ($0.56) and core (non-GAAP)* loss per share of ($1.13) ... Revenues $16,569 $17,921 (8)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP loss per share of ($0.56) and core loss per share of ($1.13).",
+      "quote": "GAAP loss per share of ($0.56) and core (non-GAAP)* loss per share of ($1.13) ... Core loss per share (non-GAAP) ($1.13)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2024 free cash flow guidance was lowered to low-single digit billions.",
+      "quote": "The 2024 free cash flow outlook I shared last month is still expected to be a generation in the low-single digit billions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The $10 billion free cash flow goal was pushed to later in the 2025/2026 window.",
+      "quote": "Longer term, we remain confident in our ability to achieve $10 billion of free cash flow. However, given our continued focus on safety, quality and stability, we continue to expect that this goal will take us longer than we originally planned and later in the 2025/2026 window.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "737 production will remain below 38 per month for the first half of the year.",
+      "quote": "Production will remain below 38 per month for the first half of the year and will be higher in the second half, as we move back to 38 per month where the timing of rates beyond 38 predicated on the work we're doing with the FAA.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter free cash flow is expected to be another sizable use of cash.",
+      "quote": "Second quarter free cash flow is expected to improve sequentially, but be another sizable use of cash.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP operating margin was (0.5)% and core operating margin was (2.3)%.",
+      "quote": "Operating margins (0.5) % ... Core operating margins (2.3) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial Airplanes operating margin was (24.6)%.",
+      "quote": "Operating margins (24.6) %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Defense, Space & Security operating margin was 2.2%.",
+      "quote": "Operating margins 2.2 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services operating margin was 18.2%.",
+      "quote": "Operating margins 18.2 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Total company backlog grew to $529 billion.",
+      "quote": "Total company backlog grew to $529 billion, including over 5,600 commercial airplanes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS had $222 million in losses on fixed-price development programs.",
+      "quote": "Results also reflect $222 million of losses on certain fixed-price development programs.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Cash balance declined to $7.5 billion from $16.0 billion at the start of the quarter.",
+      "quote": "Cash and investments in marketable securities totaled $7.5 billion, compared to $16.0 billion at the beginning of the quarter reflecting debt repayment and free cash flow usage in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "We will take the time necessary to strengthen our quality and safety management systems and this work will position us for a stronger and more stable future.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The Alaska Airlines accident is a key structural risk.",
+      "quote": "Although we report first quarter financial results today, I will direct my comments toward the dramatic actions we've taken since the Alaska Airlines' accident in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "BDS expects to return to high-single digit margins by 2025/2026.",
+      "quote": "Our game plan to get BDS back to high-single digit margins by the 2025/2026 timeframe remains intact.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Global Services revenue was up 7% with strong margins.",
+      "quote": "Global Services first quarter revenue of $5.0 billion and operating margin of 18.2 percent reflect higher commercial volume and favorable mix.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 reflects the lowered guidance and structural risks, but a reviewer may consider whether the strong backlog and services performance warrant a slightly less negative score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 17,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "BA_Bundled Earnings Report_2024-04-24",
+  "report_metadata": {
+    "issuer": "boeing",
+    "company": "The Boeing Company",
+    "ticker": "BA",
+    "sector": "Industrials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2024",
+    "report_date": "2024-04-24",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q1\\ba-1q24-press-release.html",
+        "pub_date": "2024-04-24"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q1\\ba-1q24-presentation.pdf",
+        "pub_date": "2024-04-24"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q1\\ba-1q24-transcript.pdf",
+        "pub_date": "2024-04-24"
+      }
+    ],
+    "document_id": "BA_FQ1_2024"
+  },
+  "run_meta": {
+    "run_id": "20260708T143450Z",
+    "timestamp": "2026-07-08T14:36:46Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q1\\ba-1q24-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2024.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q1\\ba-1q24-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 22297,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q1\\ba-1q24-presentation.pdf",
+        "page_count": 11,
+        "extracted_characters": 7659,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\boeing\\CY2024-Q1\\ba-1q24-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 74808,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\boeing\\extracted\\BA_FQ1_2024.txt"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "document_id": "JPM_FQ1_2022",
+  "sentiment": {
+    "score": -0.1,
+    "rationale": "The document reports a 42% decline in net income year-over-year, driven by a $902 million net credit reserve build due to heightened downside risks from inflation and the war in Ukraine. While management expresses optimism on the economy for the short term, they also highlight significant geopolitical and economic challenges ahead. Forward guidance for FY2022 NII excluding Markets is set at $53B+, which is a specific target but not a raise relative to prior guidance, and adjusted expense guidance of ~$77B is provided with a market-dependent caveat. The overall tone is cautiously optimistic but with notable headwinds, resulting in a slightly negative score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Reported revenue of $30.7 billion; managed revenue of $31.6 billion, down 5% year-over-year.",
+    "eps": "Earnings per share of $2.63, down 42% year-over-year.",
+    "guidance": "Expect FY2022 net interest income excluding Markets to be $53B+, market dependent. Expect FY2022 adjusted expense of ~$77B, market dependent.",
+    "margin": "Reported overhead ratio of 62%; managed overhead ratio of 61%. Return on tangible common equity (ROTCE) of 16%.",
+    "key_risks": [
+      "High inflation and supply chain issues.",
+      "The war in Ukraine and its geopolitical and economic challenges.",
+      "Credit reserve build of $902 million due to higher probabilities of downside risks.",
+      "Losses in Credit Adjustments & Other in CIB driven by funding spread widening and credit valuation adjustments related to Russia-associated counterparties.",
+      "Lower Investment Banking fees due to lower equity and debt underwriting activity.",
+      "Rising rate environment affecting Home Lending originations."
+    ],
+    "key_opportunities": [
+      "Lending strength with average firmwide loans up 5%.",
+      "Consumer and business balance sheets and consumer spending remain at healthy levels.",
+      "Deposit growth: average deposits up 13% firmwide, up 18% in CCB.",
+      "Client investment assets up 9% in CCB.",
+      "Positive net inflows into long-term products in AWM of $19 billion.",
+      "Continued strong loan growth in AWM, up 14%.",
+      "Higher net interest income driven by balance sheet growth and higher rates."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Jamie Dimon states 'We remain optimistic on the economy, at least for the short term' but also notes 'significant geopolitical and economic challenges ahead due to high inflation, supply chain issues and the war in Ukraine.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue of $30.7 billion; managed revenue of $31.6 billion, down 5% year-over-year.",
+      "quote": "Net revenue - reported $30,717; Net revenue - managed $31,590; Net revenue - managed $31.6B, down 5%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Earnings per share of $2.63, down 42% year-over-year.",
+      "quote": "Earnings per share - diluted $2.63; Net income $8,282; Net income was $8.3 billion, down 42%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for FY2022 NII excluding Markets is $53B+.",
+      "quote": "Expect FY2022 net interest income excluding Markets to be $53B+, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for FY2022 adjusted expense is ~$77B.",
+      "quote": "Expect FY2022 adjusted expense of ~$77B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 62%; managed overhead ratio of 61%.",
+      "quote": "1Q22 expense of $19.2 billion; reported overhead ratio of 62%; managed overhead ratio of 61%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on tangible common equity (ROTCE) of 16%.",
+      "quote": "ROTCE 16%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit reserve build of $902 million due to higher probabilities of downside risks.",
+      "quote": "1Q22 results included: $902 million net credit reserve build Firmwide ($0.23 decrease in earnings per share (EPS)); The provision for credit losses was $1.5 billion, reflecting a net reserve build of $902 million driven by increasing the probability of downside risks due to high inflation and the war in Ukraine.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Losses in Credit Adjustments & Other in CIB driven by funding spread widening and credit valuation adjustments related to Russia-associated counterparties.",
+      "quote": "$524 million of losses within Credit Adjustments & Other in CIB driven by funding spread widening as well as credit valuation adjustments relating to both increases in commodities exposures and markdowns of derivatives receivables from Russia-associated counterparties ($0.13 decrease in EPS).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lower Investment Banking fees due to lower equity and debt underwriting activity.",
+      "quote": "Investment Banking revenue was $2.1 billion, down 28%, driven by lower Investment Banking fees, down 31%, reflecting lower equity and debt underwriting fees.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Rising rate environment affecting Home Lending originations.",
+      "quote": "In Home Lending, originations of $25 billion were down 37%, primarily due to the rising rate environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Lending strength with average firmwide loans up 5%.",
+      "quote": "Lending strength continued with average firmwide loans up 5% while credit losses are still at historically low levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consumer and business balance sheets and consumer spending remain at healthy levels.",
+      "quote": "We remain optimistic on the economy, at least for the short term – consumer and business balance sheets as well as consumer spending remain at healthy levels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deposit growth: average deposits up 13% firmwide, up 18% in CCB.",
+      "quote": "Average deposits up 13%; In Consumer & Community Banking, deposits were up 18%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Client investment assets up 9% in CCB.",
+      "quote": "client investment assets up 9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Positive net inflows into long-term products in AWM of $19 billion.",
+      "quote": "Asset & Wealth Management delivered strong results as we saw positive inflows into long-term products of $19 billion across all channels.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Continued strong loan growth in AWM, up 14%.",
+      "quote": "continued strong loan growth, up 14%, primarily driven by securities-based lending.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher net interest income driven by balance sheet growth and higher rates.",
+      "quote": "Net interest income (NII) was $14.0 billion, up 7%. NII excluding Markets was $11.8 billion, up 9%, predominantly driven by balance sheet growth and higher rates.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: optimistic on short-term economy but cautious on challenges ahead.",
+      "quote": "We remain optimistic on the economy, at least for the short term – consumer and business balance sheets as well as consumer spending remain at healthy levels – but see significant geopolitical and economic challenges ahead due to high inflation, supply chain issues and the war in Ukraine.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is slightly negative (-0.10) but could be argued as neutral given the mixed tone and specific forward guidance. A human reviewer should confirm the weighting of risks vs. opportunities."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2022-04-13",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2022",
+    "report_date": "2022-04-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q1\\jpm-1q22-press-release.html",
+        "pub_date": "2022-04-13"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q1\\jpm-1q22-presentation.html",
+        "pub_date": "2022-04-13"
+      }
+    ],
+    "document_id": "JPM_FQ1_2022"
+  },
+  "run_meta": {
+    "run_id": "20260709T144020Z",
+    "timestamp": "2026-07-09T14:41:55Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q1\\jpm-1q22-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2022.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q1\\jpm-1q22-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 25730,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\CY2022-Q1\\jpm-1q22-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 19971,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ1_2022.txt"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "document_id": "UNH_FQ4_2025",
+  "sentiment": {
+    "score": -0.3,
+    "rationale": "The document reports a significant decline in forward expectations. While 2025 adjusted EPS of $16.35 was 'slightly ahead of expectations,' the 2026 revenue outlook of 'greater than $439.0 billion' represents a 2% year-over-year decline, and management explicitly guides to membership contraction across Medicare Advantage (1.3-1.4 million) and Medicaid (565,000-715,000). The 2027 Medicare Advance Notice is described as 'disappointing' and not reflecting 'the reality of medical utilization and cost trends,' indicating a structural headwind. The forward guidance is effectively lowered (revenue decline) and management language is cautious, particularly regarding the 2027 outlook, which pulls the score into negative territory."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Full Year 2025 Revenues of $447.6 Billion Grew 12% Year-Over-Year. 2026 revenue outlook is 'greater than $439.0 billion,' a 2% year-over-year decline.",
+    "eps": "Full Year 2025 Earnings of $13.23 Per Share; Adjusted Earnings of $16.35 Per Share. 2026 earnings outlook is 'greater than $17.10 per share' and adjusted earnings 'greater than $17.75 per share.'",
+    "guidance": "2026 Revenue Outlook Greater Than $439.0 Billion; Earnings Outlook Greater Than $17.10 Per Share; Adjusted Earnings Greater Than $17.75 Per Share. This reflects a 2% revenue decline and at least 8.6% adjusted EPS growth.",
+    "margin": "Full year 2025 net margin was 2.7%. 2026 operating margin is expected to be ~5.5%, improving from 2025. The adjusted medical care ratio was 88.9% in 2025, with 2026 expected at 88.8% +/- 50 bps. The adjusted operating cost ratio was 12.9% in 2025, with 2026 expected at 12.8% +/- 50 bps.",
+    "key_risks": [
+      "Medicare Advantage membership contraction of 1.3 million to 1.4 million in 2026, which are 'greater losses than originally anticipated.'",
+      "Medicaid membership contraction of 565,000 to 715,000 in 2026 due to eligibility changes and state exit.",
+      "Ongoing Medicaid state funding shortfalls are projected to pressure performance in 2026, with rate increases of 6%-7% expected to 'continue to be below' rising medical trends.",
+      "The 2027 Medicare Advance Notice was described as 'disappointing' and not reflecting 'the reality of medical utilization and cost trends,' potentially causing 'very meaningful benefit reductions.'",
+      "OptumHealth operating earnings in Q4 2025 underperformed prior guidance, attributed to restructuring actions and 'onetime items.'"
+    ],
+    "key_opportunities": [
+      "OptumRx secured over 800 new customer relationships, with 95% electing full drug rebate pass-through for 2026.",
+      "OptumHealth expects operating earnings growth of approximately 9% in 2026 with margin expansion of about 30 basis points.",
+      "OptumInsight expects margin expansion of approximately 90 basis points in 2026.",
+      "UnitedHealthcare expects approximately 13% adjusted operating earnings growth in 2026.",
+      "The company plans to invest nearly $1.5 billion in technology and AI initiatives in 2026."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management language is cautious, acknowledging significant headwinds and membership contraction, while expressing confidence in long-term strategy. For example, Tim Noel states, 'These are greater losses than originally anticipated as competitive market dynamics drove higher than expected plan shopping,' and regarding 2027, 'the advance notice published yesterday simply doesn't reflect the reality of medical utilization and cost trends.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Full Year 2025 Revenues were $447.6 billion, growing 12% year-over-year.",
+      "quote": "Full Year 2025 Revenues of $447.6 Billion Grew 12% Year-Over-Year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full Year 2025 Earnings were $13.23 per share and Adjusted Earnings were $16.35 per share.",
+      "quote": "Full Year 2025 Revenues of $447.6 Billion Grew 12% Year-Over-Year; Earnings of $13.23 Per Share; Adjusted Earnings of $16.35 Per Share",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 revenue guidance is greater than $439.0 billion, representing a 2% year-over-year decline.",
+      "quote": "2026 revenues are projected to exceed $439.0 billion, a 2% year-over-year decline reflecting planned right-sizing across the enterprise.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 adjusted earnings guidance is greater than $17.75 per share, representing at least 8.6% growth.",
+      "quote": "Looking to 2026, we expect adjusted earnings per share of greater than $17.75 for growth of at least 8.6%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2025 net margin was 2.7%.",
+      "quote": "Earnings from operations were $19.0 billion and net margin was 2.7%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "2026 operating margin is expected to be ~5.5%.",
+      "quote": "Earnings from Operations Greater Than $24.0 Billion; Operating Margin of 5.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 2025 adjusted medical care ratio was 88.9%.",
+      "quote": "The full year 2025 adjusted medical care ratio was 88.9% compared to 85.5% in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 2026 medical care ratio is expected to be 88.8% +/- 50 basis points.",
+      "quote": "Consolidated medical care ratio is expected to be 88.8% +/- 50 basis points, improving 30 basis points from the 2025 medical care ratio of 89.1%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 2025 adjusted operating cost ratio was 12.9%.",
+      "quote": "The full year 2025 adjusted operating cost ratio of 12.9% compared to 12.9% in 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 2026 operating cost ratio is expected to be 12.8% +/- 50 basis points.",
+      "quote": "Operating cost ratio is expected to be 12.8% +/- 50 basis points, reflecting a 10 basis point improvement from the 2025 adjusted operating cost ratio",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicare Advantage membership is expected to contract by 1.3 million to 1.4 million in 2026.",
+      "quote": "We now expect UHC Medicare Advantage contraction will be in the range of 1.3 million to 1.4 million members for the full year, including group, individual and Dual Special Needs Programs. These are greater losses than originally anticipated",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicaid membership is expected to contract by 565,000 to 715,000 in 2026.",
+      "quote": "We expect Medicaid membership contraction of approximately 565,000 to 715,000 people, which includes D-SNP members, due to reduced Medicaid eligibility combined with the exit from one state.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Medicaid rate increases are expected to be 6%-7% in 2026, below medical trends.",
+      "quote": "We are projecting rate increases in the range of six to 7% in aggregate for the year, but that will continue to be below our medical trend.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The 2027 Medicare Advance Notice was described as disappointing and not reflecting reality.",
+      "quote": "Looking briefly to 2027, the Advance Notice published yesterday simply doesn't reflect the reality of medical utilization and cost trends.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OptumHealth Q4 2025 operating earnings underperformed prior guidance.",
+      "quote": "You guided to just under $3 billion of OI. With the third quarter results. And if I'm doing the adjusted math correctly, came in closer to $2.3 billion. So underperformed by $607.1 billion dollars of OI in the fourth quarter.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OptumRx secured over 800 new customer relationships.",
+      "quote": "This growth is driven by a strong external selling season that will impact 2026 and 2027 as we implement and expand over 800 new customer relationships.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OptumHealth expects operating earnings growth of approximately 9% in 2026.",
+      "quote": "We expect operating earnings growth of approximately 9% while expanding margins by approximately 30 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "OptumInsight expects margin expansion of approximately 90 basis points in 2026.",
+      "quote": "Turning to Optum Insight, we expect earnings growth of greater than 4% while expanding margins by approximately 90 basis points.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "UnitedHealthcare expects approximately 13% adjusted operating earnings growth in 2026.",
+      "quote": "For 2026 overall, our strategic focus on margin recovery through product repositioning and repricing efforts enables us to estimate approximately 13% adjusted operating earnings growth across all of UHC",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company plans to invest nearly $1.5 billion in technology and AI initiatives in 2026.",
+      "quote": "We are hoping to invest nearly $1.5 billion in 2026 and expect at least as much to follow in 2027.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious due to significant headwinds and membership contraction.",
+      "quote": "These are greater losses than originally anticipated as competitive market dynamics drove higher than expected plan shopping during the intensely competitive Annual Enrollment Period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is negative due to the 2026 revenue decline and membership contraction, but the company is guiding to 8.6% adjusted EPS growth. The mixed signals (revenue decline vs. EPS growth) warrant a review of the score's magnitude."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The risk regarding the 2027 Medicare Advance Notice is a forward-looking concern that may be considered a structural risk, but its full impact is not yet quantified."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "UNH_Bundled Earnings Report_2026-01-26",
+  "report_metadata": {
+    "issuer": "p2_unitedhealth",
+    "company": "UnitedHealth",
+    "ticker": "UNH",
+    "sector": "Healthcare/Healthcare Plans",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-26",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q4\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q4\\UNH_Q4_2025_Earnings_Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q4\\earnings_call_transcript.txt",
+        "pub_date": null
+      }
+    ],
+    "document_id": "UNH_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103808Z",
+    "timestamp": "2026-08-09T10:39:04Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q4\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_unitedhealth\\extracted\\UNH_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q4\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 60762,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q4\\UNH_Q4_2025_Earnings_Presentation.pdf",
+        "page_count": 13,
+        "extracted_characters": 24602,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\unitedhealth\\CY2025-Q4\\earnings_call_transcript.txt",
+        "page_count": 1,
+        "extracted_characters": 65351,
+        "extractor_used": "plain_text",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_unitedhealth\\extracted\\UNH_FQ4_2025.txt"
+  }
+}

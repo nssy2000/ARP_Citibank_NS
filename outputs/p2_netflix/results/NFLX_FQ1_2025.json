@@ -1,0 +1,216 @@
+{
+  "document_id": "NFLX_FQ1_2025",
+  "sentiment": {
+    "score": 0.15,
+    "rationale": "The document reports a Q1 beat (EPS $6.61 vs. expectations $5.67, revenue $10.543B vs. guidance) but full-year 2025 guidance is reaffirmed unchanged: revenue $43.5-$44.5B and operating margin 29%. Management attributes the Q1 beat partly to timing of expenses ('most of that was timing of spend, but still spend that we would expect to hit in the full year'), and explicitly states 'no change to our 2025 guidance forecast.' The forward outlook is therefore flat, not raised. The score is slightly positive (0.15) because the beat is genuine and management expresses confidence in the business trajectory (e.g., 'we continue to expect that we will roughly double our advertising revenue in 2025'), but the lack of a formal guidance raise and the attribution of the beat to timing prevent a higher score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": true
+  },
+  "summary": {
+    "revenue": "Q1 2025 revenue $10,543 million, up 13% year-over-year (16% on an F/X neutral basis). Full-year 2025 revenue guidance $43.5-$44.5B, unchanged.",
+    "eps": "Q1 2025 diluted EPS $6.61, up 25% year-over-year from $5.28. Beat expectations of $5.67.",
+    "guidance": "Full-year 2025 revenue guidance $43.5-$44.5B, operating margin 29%, free cash flow ~$8B. Q2 2025 forecast: revenue $11,035M, operating margin 33.3%, diluted EPS $7.03. All guidance unchanged from prior.",
+    "margin": "Q1 2025 operating margin 31.7% (up from 28.1% in Q1 2024). Full-year 2025 operating margin target 29%.",
+    "key_risks": [
+      "Macroeconomic uncertainty and consumer sentiment: 'We’re paying close attention, clearly, to the consumer sentiment and where the broader economy is moving.'",
+      "Foreign exchange headwinds: Revenue growth partially offset by F/X, net of hedging.",
+      "Timing of content spend: Q1 beat partly due to timing of expenses that will hit later in the year ('most of that was timing of spend, but still spend that we would expect to hit in the full year').",
+      "Competitive landscape: 'Our business remains intensely competitive.'"
+    ],
+    "key_opportunities": [
+      "Advertising revenue growth: 'We continue to expect that we will roughly double our advertising revenue in 2025.'",
+      "Ad tech platform rollout: 'We successfully rolled out the Netflix Ads Suite... in the US on April 1st. In the coming months we will launch the Netflix Ads Suite in our remaining ads markets.'",
+      "Live events and sports: WWE RAW, NFL Christmas Day games, Taylor vs. Serrano boxing rematch.",
+      "International content investment: $1B commitment to Mexico, $2.5B to Korea, $6B+ in UK.",
+      "Games: Long-term opportunity of ~$140 billion consumer spend (ex-China, ex-Russia).",
+      "Engagement growth: 'We’re less than 10% of TV hours... we still got hundreds of millions of folks to sign-up.'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management repeatedly uses confident language such as 'we’re off to a good start,' 'we continue to expect that we will roughly double our advertising revenue in 2025,' and 'we’re executing on our 2025 priorities,' while reaffirming guidance without raising it."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2025 revenue was $10,543 million, up 13% year-over-year.",
+      "quote": "Revenue in Q1 grew 13% year over year, or 16% on a foreign exchange (F/X) neutral basis, driven primarily by membership growth and higher pricing, partially offset by F/X, net of hedging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 2025 diluted EPS was $6.61, beating expectations of $5.67.",
+      "quote": "Netflix, Inc. beats earnings expectations. Reported EPS is $6.61, expectations were $5.67.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 revenue guidance is $43.5-$44.5B, unchanged.",
+      "quote": "We continue to forecast 2025 revenue of $43.5B-$44.5B, which assumes healthy member growth, higher subscription pricing and a rough doubling of our ad revenue, partially offset by F/X net of hedging.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 operating margin target is 29%, unchanged.",
+      "quote": "We’re still targeting a 29% operating margin for 2025 based on F/X rates as of January 1, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1 beat was partly attributed to timing of expenses.",
+      "quote": "We obviously beat a bit in operating income in Q1. But at this point, most of that was — there’s a little bit on the revenue side, mostly on the expense side, and it looks to us that most of that was timing of spend, but still spend that we would expect to hit in the full year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expects advertising revenue to roughly double in 2025.",
+      "quote": "We continue to expect that we will roughly double our advertising revenue in 2025 through a combination of both upfronts, programmatic expansion, and scatter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We’re off to a good start in 2025. In Q1, revenue and operating income grew 13% and 27% year over year, respectively. Both were ahead of our guidance due to slightly higher subscription and ad revenue and the timing of expenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Macroeconomic uncertainty is a noted risk.",
+      "quote": "We’re paying close attention, clearly, to the consumer sentiment and where the broader economy is moving. But based on what we are seeing by actually operating the business right now, there’s nothing really significant to note.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Ad tech platform rollout is a key opportunity.",
+      "quote": "We successfully rolled out the Netflix Ads Suite, our in-house first party ad tech platform, in the US on April 1st. In the coming months we will launch the Netflix Ads Suite in our remaining ads markets.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Live events and sports are a growth driver.",
+      "quote": "We’re building out our live offering with our Q1 launch of WWE RAW, which has been on our global Top 10 list every week. We also announced Taylor vs. Serrano, a historic women’s boxing rematch that will stream on July 11, and opted into a second NFL game for Christmas Day 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "International content investment is a growth driver.",
+      "quote": "We also recently announced $1 billion commitment to production in Mexico. In 2023, we announced we’re $2.5 billion and committed to Korean content in Korea.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Games represent a large long-term opportunity.",
+      "quote": "The long-term opportunity is large. It’s about $140 billion in consumer spend, ex-China, ex-Russia, not including ad revenue.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Engagement growth potential is significant.",
+      "quote": "We’re less than 10% of TV hours from an audience or a connected households perspective. We still got hundreds of millions of folks to sign-up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Competitive landscape is intense.",
+      "quote": "Consumers have so many amazing entertainment choices—our business remains intensely competitive.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 revenue forecast is $11,035 million.",
+      "quote": "Q2'25 Forecast Revenue $11,035",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 operating margin forecast is 33.3%.",
+      "quote": "Q2'25 Forecast Operating Margin 33.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q2 2025 diluted EPS forecast is $7.03.",
+      "quote": "Q2'25 Forecast Diluted EPS $7.03",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2025 free cash flow forecast is ~$8B.",
+      "quote": "We’re still forecasting full year 2025 free cash flow of about $8B.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.15 is at the boundary between HOLD and BUY. The Q1 beat is genuine but guidance is unchanged and the beat is partly attributed to timing. A reviewer may wish to assess whether the beat's organic portion justifies a slightly higher or lower score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 18,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2025-04-17",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-17",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Q1-2025-Earnings-Call-Transcript-InsiderMonkey-CORRECTED.txt",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\NFLX-Q1-2025-Shareholder-Letter-SEC-EX991.htm",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174141Z",
+    "timestamp": "2026-07-30T17:42:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Q1-2025-Earnings-Call-Transcript-InsiderMonkey-CORRECTED.txt",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\Netflix-Q1-2025-Earnings-Call-Transcript-InsiderMonkey-CORRECTED.txt",
+        "page_count": 1,
+        "extracted_characters": 39699,
+        "extractor_used": "plain_text",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q1\\NFLX-Q1-2025-Shareholder-Letter-SEC-EX991.htm",
+        "page_count": 1,
+        "extracted_characters": 33347,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ1_2025.txt"
+  }
+}

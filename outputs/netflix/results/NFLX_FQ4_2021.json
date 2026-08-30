@@ -1,0 +1,166 @@
+{
+  "document_id": "NFLX_FQ4_2021",
+  "sentiment": {
+    "score": -0.5,
+    "rationale": "Forward guidance was reduced: Q1'22 paid net adds forecast of 2.5m is well below the 4.0m in the year-ago quarter, and full-year 2022 operating margin guidance of 19%-20% is below the 21% achieved in 2021. Management explicitly attributes the margin headwind to a stronger US dollar, which is a structural FX risk given ~60% of revenue is outside the US and they do not hedge. Additionally, management notes that acquisition growth has not yet re-accelerated to pre-Covid levels, citing ongoing Covid overhang and macro-economic hardship in several parts of the world like LATAM. These factors collectively indicate a lowered forward outlook."
+  },
+  "signal": {
+    "direction": "SELL",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "lower",
+    "model_stated_direction": "SELL",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4'21 revenue of $7,709 million grew 16% year over year. Full year 2021 revenue of $29,698 million grew 19% year over year.",
+    "eps": "Q4'21 diluted EPS of $1.33 vs. $1.19 a year ago, including a $104m non-cash unrealized gain from FX remeasurement on Euro denominated debt.",
+    "guidance": "Q1'22 forecast: revenue $7,903 million, operating margin 22.3%, diluted EPS $2.86, paid net adds 2.5m. Full year 2022: targeting operating margin of 19%-20% (assuming no material swings in foreign currency from current levels).",
+    "margin": "Q4'21 operating margin of 8% vs. 14.4% in Q4'20. Full year 2021 operating margin of 21% vs. 18% in 2020. Q1'22 forecast operating margin of 22.3%.",
+    "key_risks": [
+      "Stronger US dollar: with ~60% of revenue outside the US, the dollar's appreciation over the past six months is estimated to cost roughly $1 billion in expected 2022 revenue, translating into an estimated two percentage point negative impact on 2022 operating margin.",
+      "Acquisition growth has not yet re-accelerated to pre-Covid levels, possibly due to ongoing Covid overhang and macro-economic hardship in several parts of the world like LATAM.",
+      "Increased competition from streaming alternatives may be affecting marginal growth.",
+      "Quarterly guidance volatility: as membership base grows, there will naturally be more volatility in absolute paid net adds performance vs. forecast."
+    ],
+    "key_opportunities": [
+      "Streaming supplants linear entertainment around the world, providing long-term growth prospects.",
+      "Under 10% of total TV screen time in the US, Netflix's biggest market, indicates tremendous room for growth if service continues to improve.",
+      "Expansion of mobile games portfolio across casual and core gaming genres to learn what members enjoy most.",
+      "Price reductions in India to make Netflix more accessible and strengthen value perception.",
+      "Anticipated positive free cash flow for full year 2022 and beyond, enabling shareholder returns via stock repurchases."
+    ],
+    "management_tone": {
+      "label": "cautious",
+      "justification": "Management uses hedging language such as 'acquisition growth has not yet re-accelerated to pre-Covid levels' and 'we think this may be due to several factors including the ongoing Covid overhang and macro-economic hardship,' and explicitly warns of FX headwinds, indicating a cautious outlook."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4'21 revenue was $7,709 million, growing 16% year over year.",
+      "quote": "Revenue in Q4’21 grew 16% year over year with a 9% increase in average paid memberships.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2021 revenue was $29,698 million, growing 19% year over year.",
+      "quote": "Full year revenue of $30 billion grew 19% year over year",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4'21 diluted EPS was $1.33, including a $104m non-cash unrealized gain from FX remeasurement.",
+      "quote": "EPS in Q4 of $1.33 vs. $1.19 a year ago included a $104m non-cash unrealized gain from FX remeasurement on our Euro denominated debt.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1'22 forecast includes revenue of $7,903 million, operating margin 22.3%, diluted EPS $2.86, paid net adds 2.5m.",
+      "quote": "For Q1’22, we forecast paid net adds of 2.5m vs. 4.0m in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2022 operating margin target is 19%-20%.",
+      "quote": "For 2022, we are currently targeting an operating margin of 19%-20% (assuming no material swings in foreign currency from current levels).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4'21 operating margin was 8%, down from 14.4% in Q4'20.",
+      "quote": "Operating margin for Q4 amounted to 8%, a six percentage point decrease vs. the year ago period.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full year 2021 operating margin was 21%, up from 18% in 2020.",
+      "quote": "our full year operating margin was 21% vs. 18% in 2020, above our 20% guidance forecast.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Stronger US dollar is expected to cost roughly $1 billion in 2022 revenue and negatively impact operating margin by two percentage points.",
+      "quote": "With ~60% of our revenue outside of the US due to our international success, we estimate that the US dollar’s appreciation over the past six months has cost us roughly $1 billion in expected 2022 revenue (as a reminder, we don’t hedge). With the vast majority of our expenses in US dollars, this translates into an estimated two percentage point negative impact on our 2022 operating margin.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Acquisition growth has not yet re-accelerated to pre-Covid levels.",
+      "quote": "while retention and engagement remain healthy, acquisition growth has not yet re-accelerated to pre-Covid levels. We think this may be due to several factors including the ongoing Covid overhang and macro-economic hardship in several parts of the world like LATAM.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Increased competition may be affecting marginal growth.",
+      "quote": "While this added competition may be affecting our marginal growth some, we continue to grow in every country and region in which these new streaming alternatives have launched.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is cautious.",
+      "quote": "acquisition growth has not yet re-accelerated to pre-Covid levels. We think this may be due to several factors including the ongoing Covid overhang and macro-economic hardship in several parts of the world like LATAM.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q1'22 paid net adds forecast of 2.5m is below the 4.0m in the year-ago quarter.",
+      "quote": "For Q1’22, we forecast paid net adds of 2.5m vs. 4.0m in the year ago quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of -0.50 is based on lowered forward guidance (Q1 paid net adds forecast down, FY2022 margin target below FY2021 actual) and explicit FX headwinds. However, the document also contains positive elements (record content hits, positive FCF outlook) that could moderate the bearishness. A reviewer should confirm the weighting of these positives against the negatives."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 12,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Earnings Call Transcript_2022-01-20",
+  "report_metadata": {
+    "issuer": "netflix",
+    "company": "Netflix, Inc.",
+    "ticker": "NFLX",
+    "sector": "Communication Services",
+    "report_type": "Earnings Call Transcript",
+    "fiscal_period": "FQ4 2021",
+    "report_date": "2022-01-20",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q4\\nflx-4q21-press-release.html",
+        "pub_date": "2022-01-20"
+      }
+    ],
+    "document_id": "NFLX_FQ4_2021"
+  },
+  "run_meta": {
+    "run_id": "20260709T145250Z",
+    "timestamp": "2026-07-09T14:54:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q4\\nflx-4q21-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ4_2021.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\netflix\\CY2021-Q4\\nflx-4q21-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 26750,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\netflix\\extracted\\NFLX_FQ4_2021.txt"
+  }
+}

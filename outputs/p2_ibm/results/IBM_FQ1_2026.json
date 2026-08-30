@@ -1,0 +1,234 @@
+{
+  "document_id": "IBM_FQ1_2026",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "IBM reported a strong Q1 with revenue up 6% constant currency, operating pretax margin expanding 140 bps, and free cash flow up 13% to a decade-high Q1 level. Management raised software growth guidance from 10% to '10-plus percent' and reaffirmed full-year constant currency revenue growth of 'more than 5 percent' and free cash flow growth of 'about $1 billion'. The guidance raise is organic, driven by software acceleration and Confluent closing early, not FX. However, management explicitly chose not to raise overall revenue or FCF guidance, citing prudence after only one quarter, which caps the score below +0.5. The tone is confident but measured, with no material risks disclosed."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$15.9 billion, up 9% as reported, up 6% at constant currency.",
+    "eps": "GAAP diluted EPS from continuing operations $1.28, up 14% year-over-year. Operating (non-GAAP) diluted EPS $1.91, up 19% year-over-year.",
+    "guidance": "Full-year 2026: constant currency revenue growth of more than 5%; free cash flow to increase by about $1 billion year-over-year; software growth raised to 10-plus percent; operating pretax margin expansion of about 1 point; operating tax rate in the mid-teens.",
+    "margin": "GAAP gross profit margin 56.2%, up 100 bps; operating (non-GAAP) gross profit margin 57.7%, up 110 bps. GAAP pre-tax income margin 8.7%, up 80 bps; operating pre-tax income margin 13.4%, up 140 bps. Adjusted EBITDA margin 25.0%, up 170 bps.",
+    "key_risks": [
+      "Potential energy impacts in Europe if straits remain closed (speculative, not yet material).",
+      "Currency headwinds from geographic mix affecting consulting margins.",
+      "Dilution from Confluent acquisition (stock-based compensation and interest expense) expected to absorb about $600 million in 2026.",
+      "Higher cash taxes, higher CapEx, and higher net interest expense as headwinds to free cash flow."
+    ],
+    "key_opportunities": [
+      "AI tailwinds across all segments: software AI revenue exceeding $1.5 billion, growing over 40% annually.",
+      "Red Hat OpenShift surpassing $2 billion in ARR; virtualization contracts exceeding $600 million since early 2024.",
+      "Confluent acquisition expected to contribute over 15 points to data revenue growth (projected 20%-25% for the year).",
+      "Mainframe Z17 cycle: first-year hardware placement value up over $1 billion vs prior cycle, with 3x-4x software/services stack multiplier expected.",
+      "Productivity savings of $4.5 billion since 2023, with an additional $1 billion expected in 2026.",
+      "Consulting GenAI backlog penetration at about 30%, with 80% of GenAI consulting from net new clients."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Arvind Krishna stated 'the first quarter was a strong start to the year' and 'we remain confident in our ability to sustain revenue growth of 5% plus and grow free cash flow by about $1 billion this year,' while CFO James Kavanaugh described 'a strong start to the year' and 'we feel confident in our outlook.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $15.9 billion, up 9% as reported, up 6% at constant currency.",
+      "quote": "Revenue of $15.9 billion, up 9 percent, up 6 percent at constant currency",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP diluted EPS from continuing operations was $1.28, up 14% year-over-year.",
+      "quote": "Diluted Earnings Per Share ... GAAP from Continuing Operations ... $ 1.28 ... Year/Year ... 14 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating (non-GAAP) diluted EPS was $1.91, up 19% year-over-year.",
+      "quote": "Operating (Non-GAAP) ... Diluted earnings per share: continuing operations ... $ 1.91 ... Year/Year ... 19 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance: constant currency revenue growth of more than 5%; free cash flow increase of about $1 billion; software growth raised to 10-plus percent.",
+      "quote": "Given this strong start, we continue to expect more than 5 percent constant currency revenue growth and an increase of about $1 billion in year-over-year free cash flow in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Software growth guidance raised to 10-plus percent.",
+      "quote": "Our revenue expectations are underpinned by our accelerating software business, which we now expect to grow 10-plus percent this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "GAAP gross profit margin 56.2%, up 100 bps; operating gross profit margin 57.7%, up 110 bps.",
+      "quote": "Gross Profit Margin: GAAP: 56.2 percent, up 100 basis points; Operating (Non-GAAP): 57.7 percent, up 110 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating pre-tax income margin expanded 140 bps to 13.4%.",
+      "quote": "Pre-Tax Income Margin: GAAP: 8.7 percent, up 80 basis points; Operating (Non-GAAP): 13.4 percent, up 140 basis points",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin expanded 170 bps to 25.0%.",
+      "quote": "Adjusted EBITDA margin 25.0 % ... 1.7pts",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Free cash flow was $2.2 billion, up 13% year-over-year, a decade-high Q1.",
+      "quote": "free cash flow of $2.2 billion, up $0.3 billion year to year ... representing our highest first quarter free cash flow in a decade and free cash flow margin in reported history.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AI software revenue exceeded $1.5 billion, growing over 40% annually.",
+      "quote": "our AI platform agents, assistance orchestration is north of $1.5 billion. It's already about 25% penetrated and our software business growing north of 40%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Red Hat OpenShift surpassed $2 billion in ARR.",
+      "quote": "OpenShift is now $2 billion ARR business with strong growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Confluent expected to contribute over 15 points to data revenue growth (projected 20%-25% for the year).",
+      "quote": "We now see data up low 20-plus percent range. That's going to deliver 5 points of software growth. ... M&A contribution from Confluent, which should be about a little bit north of 15 points of that 20% to 25% growth overall for the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Mainframe Z17 first-year hardware placement value up over $1 billion vs prior cycle.",
+      "quote": "We just anniversaried our first full year of z17. That first full year is z17 versus the prior program, z16 first full year, which, by the way, was the best on record at that point in time. We've increased hardware placement value by over $1 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Productivity savings of $4.5 billion since 2023, with an additional $1 billion expected in 2026.",
+      "quote": "Since 2023, this has driven $4.5 billion of productivity savings, with an additional $1 billion expected in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Consulting GenAI backlog penetration at about 30%.",
+      "quote": "Generative AI is now firmly integrated across our consulting engagements, representing about 30% of our backlog.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "80% of GenAI consulting from net new clients.",
+      "quote": "80% of our GenAI book of business right now is coming from capture from net new clients overall.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Potential energy impacts in Europe if straits remain closed (speculative).",
+      "quote": "The only macro comment that we make is if the straits stay closed for another few weeks, then we know that there could be energy impacts in Europe, but that is speculative.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Currency headwinds from geographic mix affecting consulting margins.",
+      "quote": "Consulting segment profit margin declined modestly, reflecting currency headwinds from geographic mix of the business and the reinvestment of productivity gains amid an improving demand environment.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Dilution from Confluent expected to absorb about $600 million in 2026.",
+      "quote": "Last quarter, we disclosed that we anticipated absorbing about $600 million of dilution from Confluent in 2026, driven largely by stock-based compensation and interest expense.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher cash taxes, higher CapEx, and higher net interest expense as headwinds to free cash flow.",
+      "quote": "The headwinds I discussed heading into the year of higher cash taxes, higher CapEx and higher net interest expense remain the same.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Given this strong start, we continue to expect more than 5 percent constant currency revenue growth and an increase of about $1 billion in year-over-year free cash flow in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.30 is above the 0.15 BUY threshold but below 0.5 because management did not raise overall revenue or FCF guidance despite a strong Q1. The software guidance raise is organic, but the overall guidance is reaffirmed. A reviewer may consider whether the software raise alone justifies a higher score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 21,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "IBM_Bundled Earnings Report_2026-04-22",
+  "report_metadata": {
+    "issuer": "p2_ibm",
+    "company": "IBM",
+    "ticker": "IBM",
+    "sector": "Technology",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-22",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2026-Q1\\Q1 2026 0 numbers.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2026-Q1\\Q1 2026 Earnings Call Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "IBM_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260718T213817Z",
+    "timestamp": "2026-07-18T21:39:18Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2026-Q1\\Q1 2026 0 numbers.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ibm\\extracted\\IBM_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2026-Q1\\Q1 2026 0 numbers.pdf",
+        "page_count": 11,
+        "extracted_characters": 19896,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\ibm\\CY2026-Q1\\Q1 2026 Earnings Call Transcript.pdf",
+        "page_count": 2,
+        "extracted_characters": 64173,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_ibm\\extracted\\IBM_FQ1_2026.txt"
+  }
+}

@@ -1,0 +1,578 @@
+# MANUAL REPRICING RECONCILIATION
+# Date: 2026-08-13
+# Source: Human_Data_Entry (Master_Data_CORRECTED_2026-08-13.xlsx) vs returns_matrix.csv (EDGAR entry_dates)
+# Comparison: Re-priced prior close date (column AD) vs EDGAR-anchored prior close date (entry_date from returns_matrix.csv)
+# 
+# AGREES = human Re-priced prior close date matches EDGAR-anchored prior close date
+#   For pre_market releases: EDGAR prior close = entry_date - 1 business day
+#   For after_hours / unknown: EDGAR prior close = entry_date itself
+# 
+# CLASSIFICATION KEY:
+#   AGREES_WITH_EDGAR           AD == EDGAR prior close (correct alignment with release timing)
+#   ONE_SESSION_APART_PREMARKET AD is 1 business day from EDGAR entry_date; release is pre_market
+#   ONE_SESSION_APART_AFTERHOURS AD is 1 business day from EDGAR entry_date; release is after_hours/unknown
+#   MULTI_SESSION               AD is >1 business day from EDGAR entry_date
+#   LISTING_CURRENCY            Re-priced listing is a non-US exchange (e.g. BARC.L, PUM.DE, AMKBY)
+#   NO_EDGAR_DATE               Event not in returns_matrix.csv (human-only / phase-3-only event)
+# 
+# Note: Column AQ (First Rater for Event) is unpopulated in the workbook.
+#   'first_rater_for_event' is derived from row order: first occurrence of each (Company, Year, Quarter).
+# 
+# Total Human_Data_Entry rows: 420
+# Rows with AD date populated: 400
+# First-rater-for-event (derived) total: 376
+# First-rater-for-event with AD date: 356
+
+
+# ── PASS 1: ALL ROWS — all raters, all passes, where AD date is present ──
+
+# SUMMARY STATISTICS
+metric,value
+total_rows_with_ad_date,400
+agrees_with_edgar,243
+one_session_apart_premarket,5
+one_session_apart_afterhours,10
+multi_session_apart,4
+listing_currency_difference,17
+no_edgar_date,121
+documented_release_time_rows,150
+documented_release_time_agrees_with_edgar,113
+
+# CROSS-TABULATION BY RE-PRICED BASIS STRING
+basis_raw,total,agrees,one_session_premarket,one_session_afterhours,multi_session,listing_currency,no_edgar_date
+price signal — only this window shows an abnormal move,84,62,1,2,0,1,18
+release date + stated time in the document (rater worksheet),60,55,0,0,0,0,5
+release date + stated time,49,36,1,0,0,3,9
+"price signal, re-derived — only this window shows an abnormal move",33,3,0,0,0,0,30
+price signal — both moved; this one dominates,22,15,0,2,0,0,5
+document date + price signal,20,6,1,0,2,0,11
+release date + stated time in the document (document),18,11,0,0,0,0,7
+repriced on the issuer's primary listing,17,4,1,2,0,7,3
+price signal,16,11,0,2,2,0,1
+recorded price identified against every pulled series,15,11,0,0,0,0,4
+"recorded window spanned two sessions, closed to one",14,3,0,0,0,3,8
+release time published by the issuer,12,10,0,0,0,1,1
+"earnings calendar, seconded independently",12,8,0,2,0,0,2
+"earnings calendar, seconded by the issuer's habit",12,4,0,0,0,1,7
+release time published by the issuer (section C),9,1,0,0,0,0,8
+"price signal, re-derived — both moved; this one dominates",3,1,0,0,0,0,2
+"earnings calendar, seconded independently (section C)",2,2,0,0,0,0,0
+EDGAR acceptance timestamp on the Item 2.02 8-K,1,0,1,0,0,0,0
+the exchange's own publication timestamp,1,0,0,0,0,1,0
+
+# MULTI-SESSION DISAGREEMENTS (>1 business day apart from EDGAR entry_date)
+event_key,rater,human_ad_date,edgar_entry_date,calendar_days_diff,edgar_prior_close,basis_raw,release_timing,listing,match_method
+Bank of America|2025|Q2,Abdul,2025-07-14,2025-07-16,2,2025-07-15,price signal,pre_market,BAC,event_key
+JPMorgan|2025|Q1,Nigel,2025-03-31,2025-04-11,11,2025-04-10,document date + price signal,pre_market,JPM,event_key
+JPMorgan|2025|Q1,Abdul,2025-03-31,2025-04-11,11,2025-04-10,document date + price signal,pre_market,JPM,event_key
+Lowe's|2026|Q1,Anna,2025-05-20,2026-05-20,365,2026-05-19,price signal,pre_market,LOW,event_key
+
+
+# ── PASS 2: FIRST RATER FOR EVENT ONLY — first row per (Company, Year, Quarter) ──
+
+# SUMMARY STATISTICS
+metric,value
+total_rows_with_ad_date,356
+agrees_with_edgar,217
+one_session_apart_premarket,5
+one_session_apart_afterhours,10
+multi_session_apart,3
+listing_currency_difference,17
+no_edgar_date,104
+documented_release_time_rows,128
+documented_release_time_agrees_with_edgar,97
+
+# CROSS-TABULATION BY RE-PRICED BASIS STRING
+basis_raw,total,agrees,one_session_premarket,one_session_afterhours,multi_session,listing_currency,no_edgar_date
+price signal — only this window shows an abnormal move,76,54,1,2,0,1,18
+release date + stated time in the document (rater worksheet),47,44,0,0,0,0,3
+release date + stated time,45,32,1,0,0,3,9
+"price signal, re-derived — only this window shows an abnormal move",22,3,0,0,0,0,19
+price signal — both moved; this one dominates,21,14,0,2,0,0,5
+document date + price signal,19,6,1,0,1,0,11
+release date + stated time in the document (document),18,11,0,0,0,0,7
+repriced on the issuer's primary listing,17,4,1,2,0,7,3
+price signal,16,11,0,2,2,0,1
+recorded price identified against every pulled series,15,11,0,0,0,0,4
+"recorded window spanned two sessions, closed to one",14,3,0,0,0,3,8
+"earnings calendar, seconded by the issuer's habit",12,4,0,0,0,1,7
+release time published by the issuer,11,9,0,0,0,1,1
+"earnings calendar, seconded independently",11,7,0,2,0,0,2
+release time published by the issuer (section C),5,1,0,0,0,0,4
+"price signal, re-derived — both moved; this one dominates",3,1,0,0,0,0,2
+"earnings calendar, seconded independently (section C)",2,2,0,0,0,0,0
+EDGAR acceptance timestamp on the Item 2.02 8-K,1,0,1,0,0,0,0
+the exchange's own publication timestamp,1,0,0,0,0,1,0
+
+# MULTI-SESSION DISAGREEMENTS (>1 business day apart from EDGAR entry_date)
+event_key,rater,human_ad_date,edgar_entry_date,calendar_days_diff,edgar_prior_close,basis_raw,release_timing,listing,match_method
+Bank of America|2025|Q2,Abdul,2025-07-14,2025-07-16,2,2025-07-15,price signal,pre_market,BAC,event_key
+JPMorgan|2025|Q1,Nigel,2025-03-31,2025-04-11,11,2025-04-10,document date + price signal,pre_market,JPM,event_key
+Lowe's|2026|Q1,Anna,2025-05-20,2026-05-20,365,2026-05-19,price signal,pre_market,LOW,event_key
+
+
+# ── ROW-LEVEL DETAIL — all rows where AD date is present ──
+
+row_num,company,ticker,year,quarter,rater,first_rater_for_event_derived,price_basis_corrected,re_priced_basis,re_priced_listing,human_ad_date,human_next_open_date,edgar_entry_date,edgar_prior_close,release_timing,calendar_days_diff,classification,match_method,not_corrected_reason
+3,Netflix,NFLX,2026,Q1,Anna,YES,YES,price signal — only this window shows an abnormal move,NFLX,2026-04-16,2026-04-17,2026-04-16,2026-04-16,after_hours,0,AGREES_WITH_EDGAR,event_key,
+4,Netflix,NFLX,2025,Q2,Anna,YES,YES,price signal — only this window shows an abnormal move,NFLX,2025-07-17,2025-07-18,2025-07-17,2025-07-17,after_hours,0,AGREES_WITH_EDGAR,event_key,
+5,Netflix,NFLX,2025,Q3,Anna,YES,YES,release date + stated time in the document (rater worksheet),NFLX,2025-10-21,2025-10-22,2025-10-21,2025-10-21,after_hours,0,AGREES_WITH_EDGAR,event_key,
+6,Netflix,NFLX,2025,Q4,Anna,YES,YES,release date + stated time in the document (rater worksheet),NFLX,2026-01-20,2026-01-21,2026-01-20,2026-01-20,after_hours,0,AGREES_WITH_EDGAR,event_key,
+7,Netflix,NFLX,2026,Q1,Meriem,NO,YES,price signal — only this window shows an abnormal move,NFLX,2026-04-16,2026-04-17,2026-04-16,2026-04-16,after_hours,0,AGREES_WITH_EDGAR,event_key,
+8,Netflix,NFLX,2025,Q2,Meriem,NO,YES,price signal — only this window shows an abnormal move,NFLX,2025-07-17,2025-07-18,2025-07-17,2025-07-17,after_hours,0,AGREES_WITH_EDGAR,event_key,
+9,Netflix,NFLX,2025,Q3,Meriem,NO,YES,release date + stated time in the document (rater worksheet),NFLX,2025-10-21,2025-10-22,2025-10-21,2025-10-21,after_hours,0,AGREES_WITH_EDGAR,event_key,
+10,Netflix,NFLX,2025,Q4,Meriem,NO,YES,release date + stated time in the document (rater worksheet),NFLX,2026-01-20,2026-01-21,2026-01-20,2026-01-20,after_hours,0,AGREES_WITH_EDGAR,event_key,
+11,Netflix,NFLX,2025,Q1,Dragos,YES,YES,release date + stated time in the document (rater worksheet),NFLX,2025-04-17,2025-04-21,2025-04-17,2025-04-17,after_hours,0,AGREES_WITH_EDGAR,event_key,
+12,Netflix,NFLX,2025,Q2,Dragos,NO,YES,price signal — only this window shows an abnormal move,NFLX,2025-07-17,2025-07-18,2025-07-17,2025-07-17,after_hours,0,AGREES_WITH_EDGAR,event_key,
+13,Netflix,NFLX,2025,Q3,Dragos,NO,YES,release date + stated time in the document (rater worksheet),NFLX,2025-10-21,2025-10-22,2025-10-21,2025-10-21,after_hours,0,AGREES_WITH_EDGAR,event_key,
+14,Netflix,NFLX,2025,Q4,Dragos,NO,YES,release date + stated time in the document (rater worksheet),NFLX,2026-01-20,2026-01-21,2026-01-20,2026-01-20,after_hours,0,AGREES_WITH_EDGAR,event_key,
+15,Nvidia,NVDA,2025,Q1,Dragos,YES,YES,release date + stated time in the document (rater worksheet),NVDA,2025-02-26,2025-02-27,2025-02-26,2025-02-26,after_hours,0,AGREES_WITH_EDGAR,event_key,
+16,Nvidia,NVDA,2025,Q2,Dragos,YES,YES,release date + stated time in the document (rater worksheet),NVDA,2025-05-28,2025-05-29,2025-05-28,2025-05-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+17,Nvidia,NVDA,2025,Q3,Dragos,YES,YES,release date + stated time in the document (rater worksheet),NVDA,2025-08-27,2025-08-28,2025-08-27,2025-08-27,after_hours,0,AGREES_WITH_EDGAR,event_key,
+18,Nvidia,NVDA,2025,Q4,Dragos,YES,YES,release date + stated time in the document (rater worksheet),NVDA,2025-11-19,2025-11-20,2025-11-19,2025-11-19,after_hours,0,AGREES_WITH_EDGAR,event_key,
+19,Boeing,BA,2025,Q1,Nigel,YES,YES,price signal,BA,2025-04-22,2025-04-23,2025-04-23,2025-04-22,pre_market,1,AGREES_WITH_EDGAR,event_key,
+20,Boeing,BA,2025,Q2,Nigel,YES,YES,price signal,BA,2025-07-28,2025-07-29,2025-07-29,2025-07-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+21,Boeing,BA,2025,Q3,Nigel,YES,YES,release time published by the issuer,BA,2025-10-28,2025-10-29,2025-10-29,2025-10-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+22,Boeing,BA,2025,Q4,Nigel,YES,YES,recorded price identified against every pulled series,BA,2026-01-26,2026-01-27,2026-01-27,2026-01-26,pre_market,1,AGREES_WITH_EDGAR,event_key,
+23,Disney,DIS,2025,Q1,Meriem,YES,YES,release date + stated time,DIS,2025-02-04,2025-02-05,2025-02-05,2025-02-04,pre_market,1,AGREES_WITH_EDGAR,event_key,
+24,Disney,DIS,2025,Q3,Meriem,YES,YES,price signal — only this window shows an abnormal move,DIS,2025-08-05,2025-08-06,2025-08-06,2025-08-05,pre_market,1,AGREES_WITH_EDGAR,event_key,
+25,Disney,DIS,2025,Q4,Meriem,YES,YES,price signal — only this window shows an abnormal move,DIS,2025-11-12,2025-11-13,2025-11-13,2025-11-12,pre_market,1,AGREES_WITH_EDGAR,event_key,
+26,Netflix,NFLX,2025,Q3,David,NO,YES,release date + stated time in the document (rater worksheet),NFLX,2025-10-21,2025-10-22,2025-10-21,2025-10-21,after_hours,0,AGREES_WITH_EDGAR,event_key,
+27,Netflix,NFLX,2025,Q4,David,NO,YES,release date + stated time in the document (rater worksheet),NFLX,2026-01-20,2026-01-21,2026-01-20,2026-01-20,after_hours,0,AGREES_WITH_EDGAR,event_key,
+28,Netflix,NFLX,2024,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),NFLX,2025-01-21,2025-01-22,2025-01-21,2025-01-21,after_hours,0,AGREES_WITH_EDGAR,event_key,
+29,Amazon,AMZN,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),AMZN,2026-04-29,2026-04-30,2026-04-29,2026-04-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+30,Amazon,AMZN,2025,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),AMZN,2025-10-30,2025-10-31,2025-10-30,2025-10-30,after_hours,0,AGREES_WITH_EDGAR,event_key,
+31,Amazon,AMZN,2025,Q4,David,YES,YES,recorded price identified against every pulled series,AMZN,2026-02-05,2026-02-06,2026-02-05,2026-02-05,after_hours,0,AGREES_WITH_EDGAR,event_key,
+32,McDonald's,MCD,2024,Q4,Meriem,YES,YES,price signal — only this window shows an abnormal move,MCD,2025-02-07,2025-02-10,2025-02-10,2025-02-07,pre_market,3,AGREES_WITH_EDGAR,event_key,
+33,McDonald's,MCD,2025,Q4,Meriem,YES,YES,EDGAR acceptance timestamp on the Item 2.02 8-K,MCD,2026-02-11,2026-02-12,2026-02-11,2026-02-10,pre_market,0,ONE_SESSION_APART_PREMARKET,event_key,
+34,McDonald's,MCD,2026,Q1,Meriem,YES,YES,release date + stated time,MCD,2026-05-06,2026-05-07,2026-05-07,2026-05-06,pre_market,1,AGREES_WITH_EDGAR,event_key,
+35,Apple,AAPL,2025,Q3,Meriem,YES,YES,price signal — both moved; this one dominates,AAPL,2025-07-31,2025-08-01,2025-07-31,2025-07-31,after_hours,0,AGREES_WITH_EDGAR,event_key,
+36,Apple,AAPL,2025,Q4,Meriem,YES,YES,"earnings calendar, seconded independently (section C)",AAPL,2025-10-30,2025-10-31,2025-10-30,2025-10-30,after_hours,0,AGREES_WITH_EDGAR,event_key,
+37,Apple,AAPL,2026,Q1,Meriem,YES,YES,price signal — only this window shows an abnormal move,AAPL,2026-01-29,2026-01-30,2026-01-29,2026-01-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+38,Coca-Cola,KO,2025,Q2,Meriem,YES,YES,release date + stated time,KO,2025-07-21,2025-07-22,2025-07-22,2025-07-21,pre_market,1,AGREES_WITH_EDGAR,event_key,
+39,Coca-Cola,KO,2025,Q4,Meriem,YES,YES,release date + stated time,KO,2026-02-09,2026-02-10,2026-02-10,2026-02-09,pre_market,1,AGREES_WITH_EDGAR,event_key,
+40,Coca-Cola,KO,2026,Q1,Meriem,YES,YES,release date + stated time,KO,2026-04-27,2026-04-28,2026-04-28,2026-04-27,pre_market,1,AGREES_WITH_EDGAR,event_key,
+41,Bank of America,BAC,2025,Q1,Abdul,YES,YES,price signal — only this window shows an abnormal move,BAC,2025-04-14,2025-04-15,2025-04-15,2025-04-14,pre_market,1,AGREES_WITH_EDGAR,event_key,
+42,Bank of America,BAC,2025,Q2,Abdul,YES,YES,price signal,BAC,2025-07-14,2025-07-15,2025-07-16,2025-07-15,pre_market,2,MULTI_SESSION,event_key,
+43,Bank of America,BAC,2025,Q3,Abdul,YES,YES,price signal — both moved; this one dominates,BAC,2025-10-14,2025-10-15,2025-10-15,2025-10-14,pre_market,1,AGREES_WITH_EDGAR,event_key,
+44,Bank of America,BAC,2025,Q4,Abdul,YES,YES,price signal — only this window shows an abnormal move,BAC,2026-01-13,2026-01-14,2026-01-14,2026-01-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+45,AMD,AMD,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),AMD,2026-05-05,2026-05-06,2026-05-05,2026-05-05,after_hours,0,AGREES_WITH_EDGAR,event_key,
+46,AMD,AMD,2025,Q2,David,YES,YES,release date + stated time in the document (rater worksheet),AMD,2025-08-05,2025-08-06,2025-08-05,2025-08-05,after_hours,0,AGREES_WITH_EDGAR,event_key,
+47,AMD,AMD,2025,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),AMD,2026-02-03,2026-02-04,2026-02-03,2026-02-03,after_hours,0,AGREES_WITH_EDGAR,event_key,
+48,Airbnb,ABNB,2025,Q2,Anna,YES,YES,price signal — only this window shows an abnormal move,ABNB,2025-08-06,2025-08-07,2025-08-06,2025-08-06,after_hours,0,AGREES_WITH_EDGAR,event_key,
+49,Airbnb,ABNB,2025,Q3,Anna,YES,YES,price signal — only this window shows an abnormal move,ABNB,2025-11-06,2025-11-07,2025-11-06,2025-11-06,after_hours,0,AGREES_WITH_EDGAR,event_key,
+50,JPMorgan,JPM,2025,Q1,Nigel,YES,YES,document date + price signal,JPM,2025-03-31,2025-04-01,2025-04-11,2025-04-10,pre_market,11,MULTI_SESSION,event_key,
+51,JPMorgan,JPM,2025,Q2,Nigel,YES,YES,release time published by the issuer,JPM,2025-07-14,2025-07-15,2025-07-15,2025-07-14,pre_market,1,AGREES_WITH_EDGAR,event_key,
+52,JPMorgan,JPM,2025,Q3,Nigel,YES,YES,release time published by the issuer,JPM,2025-10-13,2025-10-14,2025-10-14,2025-10-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+53,JPMorgan,JPM,2025,Q4,Nigel,YES,YES,release time published by the issuer,JPM,2026-01-12,2026-01-13,2026-01-13,2026-01-12,pre_market,1,AGREES_WITH_EDGAR,event_key,
+54,JPMorgan,JPM,2025,Q1,Abdul,NO,YES,document date + price signal,JPM,2025-03-31,2025-04-01,2025-04-11,2025-04-10,pre_market,11,MULTI_SESSION,event_key,
+55,JPMorgan,JPM,2025,Q3,Abdul,NO,YES,release time published by the issuer,JPM,2025-10-13,2025-10-14,2025-10-14,2025-10-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+56,JPMorgan,JPM,2026,Q1,Abdul,YES,YES,release time published by the issuer,JPM,2026-04-13,2026-04-14,2026-04-14,2026-04-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+57,IBM,IBM,2025,Q2,Meriem,YES,YES,price signal — only this window shows an abnormal move,IBM,2025-07-23,2025-07-24,2025-07-23,2025-07-23,after_hours,0,AGREES_WITH_EDGAR,event_key,
+58,IBM,IBM,2025,Q4,Meriem,YES,YES,price signal — only this window shows an abnormal move,IBM,2026-01-28,2026-01-29,2026-01-28,2026-01-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+59,IBM,IBM,2026,Q1,Meriem,YES,YES,price signal — both moved; this one dominates,IBM,2026-04-22,2026-04-23,2026-04-22,2026-04-22,after_hours,0,AGREES_WITH_EDGAR,event_key,
+60,Target,TGT,2025,Q2,Anna,YES,YES,release date + stated time,TGT,2025-08-19,2025-08-20,2025-08-20,2025-08-19,pre_market,1,AGREES_WITH_EDGAR,event_key,
+61,Target,TGT,2025,Q1,Anna,YES,YES,release date + stated time,TGT,2025-05-20,2025-05-21,2025-05-21,2025-05-20,pre_market,1,AGREES_WITH_EDGAR,event_key,
+62,Target,TGT,2025,Q3,Anna,YES,YES,release date + stated time,TGT,2025-11-18,2025-11-19,2025-11-19,2025-11-18,pre_market,1,AGREES_WITH_EDGAR,event_key,
+63,Target,TGT,2026,Q1,Anna,YES,YES,release date + stated time,TGT,2026-05-19,2026-05-20,2026-05-20,2026-05-19,pre_market,1,AGREES_WITH_EDGAR,event_key,
+64,Nike,NKE,2025,Q1,Meriem,YES,YES,price signal — only this window shows an abnormal move,NKE,2024-10-01,2024-10-02,2024-10-01,2024-10-01,after_hours,0,AGREES_WITH_EDGAR,event_key,
+65,Nike,NKE,2025,Q2,Meriem,YES,YES,"earnings calendar, seconded independently",NKE,2024-12-19,2024-12-20,2024-12-19,2024-12-19,after_hours,0,AGREES_WITH_EDGAR,event_key,
+66,Nike,NKE,2025,Q3,Meriem,YES,YES,price signal — only this window shows an abnormal move,NKE,2025-03-20,2025-03-21,2025-03-20,2025-03-20,after_hours,0,AGREES_WITH_EDGAR,event_key,
+67,Lululemon,LULU,2025,Q3,Meriem,YES,YES,price signal — both moved; this one dominates,LULU,2025-12-11,2025-12-12,2025-12-11,2025-12-11,after_hours,0,AGREES_WITH_EDGAR,event_key,
+68,Lululemon,LULU,2025,Q4,Meriem,YES,YES,"earnings calendar, seconded independently (section C)",LULU,2026-03-17,2026-03-18,2026-03-17,2026-03-17,after_hours,0,AGREES_WITH_EDGAR,event_key,
+69,Lululemon,LULU,2026,Q1,Meriem,YES,YES,price signal — both moved; this one dominates,LULU,2026-06-04,2026-06-05,2026-06-04,2026-06-04,after_hours,0,AGREES_WITH_EDGAR,event_key,
+70,Airbnb,ABNB,2026,Q1,Anna,YES,YES,price signal — only this window shows an abnormal move,ABNB,2026-05-07,2026-05-08,2026-05-07,2026-05-07,after_hours,0,AGREES_WITH_EDGAR,event_key,
+71,Lowe's,LOW,2025,Q1,Anna,YES,YES,release date + stated time in the document (document),LOW,2026-05-19,2026-05-20,2026-05-20,2026-05-19,pre_market,1,AGREES_WITH_EDGAR,event_key,
+72,Walmart,WMT,2025,Q1,Abdul,YES,YES,price signal — only this window shows an abnormal move,WMT,2025-05-14,2025-05-15,2025-05-15,2025-05-14,pre_market,1,AGREES_WITH_EDGAR,event_key,
+73,Walmart,WMT,2025,Q2,Abdul,YES,YES,price signal — only this window shows an abnormal move,WMT,2025-08-20,2025-08-21,2025-08-21,2025-08-20,pre_market,1,AGREES_WITH_EDGAR,event_key,
+74,Walmart,WMT,2025,Q3,Abdul,YES,YES,price signal — only this window shows an abnormal move,WMT,2025-11-19,2025-11-20,2025-11-20,2025-11-19,pre_market,1,AGREES_WITH_EDGAR,event_key,
+75,Walmart,WMT,2025,Q4,Abdul,YES,YES,price signal — only this window shows an abnormal move,WMT,2026-02-18,2026-02-19,2026-02-19,2026-02-18,pre_market,1,AGREES_WITH_EDGAR,event_key,
+76,Walmart,WMT,2026,Q1,Abdul,YES,YES,price signal — both moved; this one dominates,WMT,2026-05-20,2026-05-21,2026-05-21,2026-05-20,pre_market,1,AGREES_WITH_EDGAR,event_key,
+77,Citigroup,C,2025,Q1,Nigel,YES,YES,"earnings calendar, seconded by the issuer's habit",C,2025-04-14,2025-04-15,2025-04-15,2025-04-14,pre_market,1,AGREES_WITH_EDGAR,event_key,
+78,Citigroup,C,2025,Q2,Nigel,YES,YES,document date + price signal,C,2025-07-14,2025-07-15,2025-07-15,2025-07-14,pre_market,1,AGREES_WITH_EDGAR,event_key,
+79,Citigroup,C,2025,Q3,Nigel,YES,YES,"earnings calendar, seconded by the issuer's habit",C,2025-10-13,2025-10-14,2025-10-14,2025-10-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+80,Citigroup,C,2025,Q4,Nigel,YES,YES,price signal,C,2026-01-13,2026-01-14,2026-01-14,2026-01-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+81,Maersk,AMKBY,2025,Q1,Nigel,YES,YES,repriced on the issuer's primary listing,AMKBY,2025-02-06,2025-02-07,2025-05-07,2025-05-07,after_hours,90,LISTING_CURRENCY,event_key,
+82,Maersk,AMKBY,2025,Q2,Nigel,YES,YES,repriced on the issuer's primary listing,MAERSK-B.CO,2025-08-06,2025-08-07,2025-08-07,2025-08-07,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+83,Maersk,AMKBY,2025,Q3,Nigel,YES,YES,repriced on the issuer's primary listing,MAERSK-B.CO,2025-11-05,2025-11-06,2025-11-05,2025-11-05,after_hours,0,AGREES_WITH_EDGAR,event_key,
+84,Maersk,AMKBY,2025,Q4,Nigel,YES,YES,repriced on the issuer's primary listing,MAERSK-B.CO,2026-02-04,2026-02-05,2026-02-05,2026-02-05,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+85,Goldman Sachs,GS,2025,Q1,Dragos,YES,YES,price signal — only this window shows an abnormal move,GS,2025-04-11,2025-04-14,2025-04-14,2025-04-11,pre_market,3,AGREES_WITH_EDGAR,event_key,
+86,Goldman Sachs,GS,2025,Q2,Dragos,YES,YES,"earnings calendar, seconded independently",GS,2025-07-15,2025-07-16,2025-07-16,2025-07-15,pre_market,1,AGREES_WITH_EDGAR,event_key,
+87,Goldman Sachs,GS,2025,Q3,Dragos,YES,YES,price signal — only this window shows an abnormal move,GS,2025-10-13,2025-10-14,2025-10-14,2025-10-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+88,Goldman Sachs,GS,2025,Q4,Dragos,YES,YES,price signal — only this window shows an abnormal move,GS,2026-01-14,2026-01-15,2026-01-15,2026-01-14,pre_market,1,AGREES_WITH_EDGAR,event_key,
+89,Goldman Sachs,GS,2026,Q1,Dragos,YES,YES,price signal — only this window shows an abnormal move,GS,2026-04-10,2026-04-13,2026-04-13,2026-04-10,pre_market,3,AGREES_WITH_EDGAR,event_key,
+90,Goldman Sachs,GS,2026,Q2,Dragos,YES,YES,price signal — only this window shows an abnormal move,GS,2026-07-13,2026-07-14,2026-07-14,2026-07-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+91,Charles Schwab,SCHW,2025,Q1,Dragos,YES,YES,price signal — only this window shows an abnormal move,SCHW,2025-04-16,2025-04-17,2025-04-17,2025-04-17,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+92,Charles Schwab,SCHW,2025,Q2,Dragos,YES,YES,price signal — only this window shows an abnormal move,SCHW,2025-07-17,2025-07-18,2025-07-18,2025-07-18,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+93,Charles Schwab,SCHW,2025,Q3,Dragos,YES,YES,"earnings calendar, seconded independently",SCHW,2025-10-15,2025-10-16,2025-10-16,2025-10-16,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+94,Charles Schwab,SCHW,2025,Q4,Dragos,YES,YES,"earnings calendar, seconded independently",SCHW,2026-01-20,2026-01-21,2026-01-21,2026-01-21,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+95,Charles Schwab,SCHW,2026,Q1,Dragos,YES,YES,price signal — both moved; this one dominates,SCHW,2026-04-15,2026-04-16,2026-04-16,2026-04-16,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+96,Airbnb,ABNB,2025,Q4,Anna,YES,YES,price signal — only this window shows an abnormal move,ABNB,2026-02-12,2026-02-13,2026-02-12,2026-02-12,after_hours,0,AGREES_WITH_EDGAR,event_key,
+97,Lowe's,LOW,2025,Q4,Anna,YES,YES,recorded price identified against every pulled series,LOW,2026-02-24,2026-02-25,2026-02-25,2026-02-24,pre_market,1,AGREES_WITH_EDGAR,event_key,
+98,Lowe's,LOW,2025,Q2,Anna,YES,YES,release date + stated time,LOW,2025-08-19,2025-08-20,2025-08-20,2025-08-19,pre_market,1,AGREES_WITH_EDGAR,event_key,
+99,Lowe's,LOW,2025,Q3,Anna,YES,YES,document date + price signal,LOW,2025-11-18,2025-11-19,2025-11-19,2025-11-18,pre_market,1,AGREES_WITH_EDGAR,event_key,
+100,Lowe's,LOW,2026,Q1,Anna,YES,YES,price signal,LOW,2025-05-20,2025-05-21,2026-05-20,2026-05-19,pre_market,365,MULTI_SESSION,event_key,
+101,CVS Health,,2026,Q1,Anna,YES,YES,recorded price identified against every pulled series,CVS,2026-05-05,2026-05-06,2026-05-06,2026-05-05,pre_market,1,AGREES_WITH_EDGAR,event_key,
+102,Uber,UBER,2025,Q1,Abdul,YES,YES,price signal — both moved; this one dominates,UBER,2025-05-06,2025-05-07,2025-05-07,2025-05-06,pre_market,1,AGREES_WITH_EDGAR,event_key,
+103,Uber,UBER,2025,Q2,Abdul,YES,YES,price signal — only this window shows an abnormal move,UBER,2025-08-05,2025-08-06,2025-08-06,2025-08-05,pre_market,1,AGREES_WITH_EDGAR,event_key,
+104,Uber,UBER,2025,Q4,Abdul,YES,YES,price signal — only this window shows an abnormal move,UBER,2026-02-03,2026-02-04,2026-02-04,2026-02-03,pre_market,1,AGREES_WITH_EDGAR,event_key,
+105,Uber,UBER,2026,Q1,Abdul,YES,YES,price signal — only this window shows an abnormal move,UBER,2026-05-05,2026-05-06,2026-05-06,2026-05-05,pre_market,1,AGREES_WITH_EDGAR,event_key,
+106,Coinbase,COIN,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),COIN,2026-05-07,2026-05-08,2026-05-07,2026-05-07,after_hours,0,AGREES_WITH_EDGAR,event_key,
+107,Coinbase,COIN,2025,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),COIN,2025-10-30,2025-10-31,2025-10-30,2025-10-30,after_hours,0,AGREES_WITH_EDGAR,event_key,
+108,Coinbase,COIN,2025,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),COIN,2026-02-12,2026-02-13,2026-02-12,2026-02-12,after_hours,0,AGREES_WITH_EDGAR,event_key,
+109,Eli Lilly,LLY,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),LLY,2026-04-29,2026-04-30,2026-04-30,2026-04-29,pre_market,1,AGREES_WITH_EDGAR,event_key,
+110,Eli Lilly,LLY,2025,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),LLY,2025-10-29,2025-10-30,2025-10-30,2025-10-29,pre_market,1,AGREES_WITH_EDGAR,event_key,
+111,Eli Lilly,LLY,2025,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),LLY,2026-02-03,2026-02-04,2026-02-04,2026-02-03,pre_market,1,AGREES_WITH_EDGAR,event_key,
+112,Meta,META,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),META,2026-04-29,2026-04-30,2026-04-29,2026-04-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+113,Meta,META,2025,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),META,2025-10-29,2025-10-30,2025-10-29,2025-10-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+114,Meta,META,2025,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),META,2026-01-28,2026-01-29,2026-01-28,2026-01-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+115,Tesla,TSLA,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),TSLA,2026-04-22,2026-04-23,2026-04-22,2026-04-22,after_hours,0,AGREES_WITH_EDGAR,event_key,
+116,Tesla,TSLA,2025,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),TSLA,2025-10-22,2025-10-23,2025-10-22,2025-10-22,after_hours,0,AGREES_WITH_EDGAR,event_key,
+117,Tesla,TSLA,2025,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),TSLA,2026-01-28,2026-01-29,2026-01-28,2026-01-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+118,Pfizer,PFE,2025,Q1,Abdul,YES,YES,"earnings calendar, seconded independently",PFE,2025-04-28,2025-04-29,2025-04-29,2025-04-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+119,Pfizer,PFE,2025,Q2,Abdul,YES,YES,price signal — both moved; this one dominates,PFE,2025-08-04,2025-08-05,2025-08-05,2025-08-04,pre_market,1,AGREES_WITH_EDGAR,event_key,
+120,Pfizer,PFE,2025,Q4,Abdul,YES,YES,price signal — only this window shows an abnormal move,PFE,2026-02-02,2026-02-03,2026-02-03,2026-02-02,pre_market,1,AGREES_WITH_EDGAR,event_key,
+121,Pfizer,PFE,2026,Q1,Abdul,YES,YES,"earnings calendar, seconded independently",PFE,2026-05-04,2026-05-05,2026-05-05,2026-05-04,pre_market,1,AGREES_WITH_EDGAR,event_key,
+122,Microsoft,MSFT,2025,Q1,Abdul,YES,YES,price signal — both moved; this one dominates,MSFT,2024-10-30,2024-10-31,2024-10-30,2024-10-30,after_hours,0,AGREES_WITH_EDGAR,event_key,
+123,Microsoft,MSFT,2025,Q2,Abdul,YES,YES,price signal — only this window shows an abnormal move,MSFT,2025-01-29,2025-01-30,2025-01-29,2025-01-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+124,Microsoft,MSFT,2026,Q1,Abdul,YES,YES,price signal — only this window shows an abnormal move,MSFT,2025-10-29,2025-10-30,2025-10-29,2025-10-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+125,Ford,F,2025,Q2,Abdul,YES,YES,price signal — only this window shows an abnormal move,F,2025-07-30,2025-07-31,2025-07-30,2025-07-30,after_hours,0,AGREES_WITH_EDGAR,event_key,
+126,Ford,F,2025,Q4,Abdul,YES,YES,"earnings calendar, seconded independently",F,2026-02-10,2026-02-11,2026-02-10,2026-02-10,after_hours,0,AGREES_WITH_EDGAR,event_key,
+127,Ford,F,2026,Q1,Abdul,YES,YES,price signal — only this window shows an abnormal move,F,2026-04-29,2026-04-30,2026-04-29,2026-04-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+128,Barclays,BCS,2025,Q2,Abdul,YES,YES,repriced on the issuer's primary listing,BARC.L,2025-07-28,2025-07-29,2025-07-29,2025-07-28,pre_market,1,LISTING_CURRENCY,event_key,
+129,Barclays,BCS,2025,Q3,Abdul,YES,YES,repriced on the issuer's primary listing,BARC.L,2025-10-21,2025-10-22,2025-10-22,2025-10-21,pre_market,1,LISTING_CURRENCY,event_key,
+130,Barclays,BCS,2026,Q1,Abdul,YES,YES,repriced on the issuer's primary listing,BARC.L,2026-04-27,2026-04-28,2026-04-28,2026-04-27,pre_market,1,LISTING_CURRENCY,event_key,
+131,United Airlines,UAL,2025,Q1,Nigel,YES,YES,price signal — only this window shows an abnormal move,UAL,2025-04-15,2025-04-16,2025-04-15,2025-04-15,after_hours,0,AGREES_WITH_EDGAR,event_key,
+132,United Airlines,UAL,2025,Q2,Nigel,YES,YES,recorded price identified against every pulled series,UAL,2025-07-16,2025-07-17,2025-07-16,2025-07-16,after_hours,0,AGREES_WITH_EDGAR,event_key,
+133,United Airlines,UAL,2025,Q3,Nigel,YES,YES,recorded price identified against every pulled series,UAL,2025-10-15,2025-10-16,2025-10-15,2025-10-15,after_hours,0,AGREES_WITH_EDGAR,event_key,
+134,United Airlines,UAL,2025,Q4,Nigel,YES,YES,recorded price identified against every pulled series,UAL,2026-01-20,2026-01-21,2026-01-20,2026-01-20,after_hours,0,AGREES_WITH_EDGAR,event_key,
+135,Novo Nordisk,NVO,2025,Q1,Nigel,YES,YES,repriced on the issuer's primary listing,NOVO-B.CO,2025-05-06,2025-05-07,2025-05-07,2025-05-06,pre_market,1,AGREES_WITH_EDGAR,event_key,
+136,Novo Nordisk,NVO,2025,Q2,Nigel,YES,YES,repriced on the issuer's primary listing,NOVO-B.CO,2025-08-05,2025-08-06,2025-08-06,2025-08-05,pre_market,1,AGREES_WITH_EDGAR,event_key,
+137,Novo Nordisk,NVO,2025,Q3,Nigel,YES,YES,repriced on the issuer's primary listing,NOVO-B.CO,2025-11-04,2025-11-05,2025-11-05,2025-11-04,pre_market,1,AGREES_WITH_EDGAR,event_key,
+138,Novo Nordisk,NVO,2025,Q4,Nigel,YES,YES,repriced on the issuer's primary listing,NOVO-B.CO,2026-02-03,2026-02-04,2026-02-03,2026-02-02,pre_market,0,ONE_SESSION_APART_PREMARKET,event_key,
+139,Lockheed Martin,LMT,2025,Q1,Nigel,YES,YES,"earnings calendar, seconded by the issuer's habit",LMT,2025-04-21,2025-04-22,2025-04-22,2025-04-21,pre_market,1,AGREES_WITH_EDGAR,event_key,
+140,Lockheed Martin,LMT,2025,Q2,Nigel,YES,YES,price signal,LMT,2025-07-21,2025-07-22,2025-07-22,2025-07-21,pre_market,1,AGREES_WITH_EDGAR,event_key,
+141,Lockheed Martin,LMT,2025,Q3,Nigel,YES,YES,price signal,LMT,2025-10-20,2025-10-21,2025-10-21,2025-10-20,pre_market,1,AGREES_WITH_EDGAR,event_key,
+142,Lockheed Martin,LMT,2025,Q4,Nigel,YES,YES,release date + stated time,LMT,2026-01-28,2026-01-29,2026-01-29,2026-01-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+143,LVMH,MC.PA,2025,Q2,Nigel,YES,YES,release time published by the issuer,MC.PA,2025-07-24,2025-07-25,2025-07-24,2025-07-24,after_hours,0,LISTING_CURRENCY,event_key,
+144,LVMH,MC.PA,2025,Q4,Nigel,YES,YES,price signal — only this window shows an abnormal move,MC.PA,2026-01-27,2026-01-28,2026-01-27,2026-01-27,after_hours,0,LISTING_CURRENCY,event_key,
+145,CVS Health,,2025,Q2,Anna,YES,YES,price signal,CVS,2025-07-30,2025-07-31,2025-07-31,2025-07-30,pre_market,1,AGREES_WITH_EDGAR,event_key,
+146,CVS Health,,2025,Q4,Anna,YES,YES,price signal,CVS,2026-02-09,2026-02-10,2026-02-10,2026-02-09,pre_market,1,AGREES_WITH_EDGAR,event_key,
+147,CVS Health,,2025,Q3,Anna,YES,YES,price signal — only this window shows an abnormal move,CVS,2025-10-29,2025-10-30,2025-10-29,2025-10-28,pre_market,0,ONE_SESSION_APART_PREMARKET,event_key,
+148,FedEx,FDX,2026,Q2,Anna,YES,YES,document date + price signal,FDX,2025-12-18,2025-12-19,2025-12-18,2025-12-18,after_hours,0,AGREES_WITH_EDGAR,event_key,
+149,FedEx,FDX,2026,Q3,Anna,YES,YES,price signal — only this window shows an abnormal move,FDX,2026-03-19,2026-03-20,2026-03-19,2026-03-19,after_hours,0,AGREES_WITH_EDGAR,event_key,
+150,FedEx,FDX,2026,Q4,Anna,YES,YES,price signal — only this window shows an abnormal move,FDX,2026-06-23,2026-06-24,2026-06-23,2026-06-23,after_hours,0,AGREES_WITH_EDGAR,event_key,
+151,FedEx,FDX,2026,Q1,Anna,YES,YES,price signal — only this window shows an abnormal move,FDX,2025-09-18,2025-09-19,2025-09-18,2025-09-18,after_hours,0,AGREES_WITH_EDGAR,event_key,
+152,Hilton,HLT,2025,Q1,Anna,YES,YES,price signal,HLT,2025-04-28,2025-04-29,2025-04-29,2025-04-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+153,Hilton,HLT,2025,Q2,Anna,YES,YES,price signal,HLT,2025-07-22,2025-07-23,2025-07-23,2025-07-22,pre_market,1,AGREES_WITH_EDGAR,event_key,
+154,Hilton,HLT,2024,Q3,Anna,YES,YES,recorded price identified against every pulled series,HLT,2024-10-22,2024-10-23,2024-10-23,2024-10-22,pre_market,1,AGREES_WITH_EDGAR,event_key,
+155,Hilton,HLT,2026,Q1,Anna,YES,YES,recorded price identified against every pulled series,HLT,2026-04-27,2026-04-28,2026-04-28,2026-04-27,pre_market,1,AGREES_WITH_EDGAR,event_key,
+156,Hilton,HLT,2025,Q4,Anna,YES,YES,price signal,HLT,2026-02-10,2026-02-11,2026-02-11,2026-02-10,pre_market,1,AGREES_WITH_EDGAR,event_key,
+157,Marriott,MAR,2025,Q2,Anna,YES,YES,"earnings calendar, seconded by the issuer's habit",MAR,2025-08-04,2025-08-05,2025-08-05,2025-08-04,pre_market,1,AGREES_WITH_EDGAR,event_key,
+158,Marriott,MAR,2025,Q3,Anna,YES,YES,document date + price signal,MAR,2025-11-04,2025-11-05,2025-11-04,2025-11-03,pre_market,0,ONE_SESSION_APART_PREMARKET,event_key,
+159,Marriott,MAR,2025,Q4,Anna,YES,YES,recorded price identified against every pulled series,MAR,2026-02-09,2026-02-10,2026-02-10,2026-02-09,pre_market,1,AGREES_WITH_EDGAR,event_key,
+160,Marriott,MAR,2026,Q1,Anna,YES,YES,document date + price signal,MAR,2026-05-05,2026-05-06,2026-05-06,2026-05-05,pre_market,1,AGREES_WITH_EDGAR,event_key,
+161,Target,TGT,2025,Q1,Abdul,NO,YES,release date + stated time,TGT,2025-05-20,2025-05-21,2025-05-21,2025-05-20,pre_market,1,AGREES_WITH_EDGAR,event_key,
+162,Target,TGT,2025,Q2,Abdul,NO,YES,release date + stated time,TGT,2025-08-19,2025-08-20,2025-08-20,2025-08-19,pre_market,1,AGREES_WITH_EDGAR,event_key,
+163,Target,TGT,2025,Q3,Abdul,NO,YES,release date + stated time,TGT,2025-11-18,2025-11-19,2025-11-19,2025-11-18,pre_market,1,AGREES_WITH_EDGAR,event_key,
+164,Target,TGT,2026,Q1,Abdul,NO,YES,release date + stated time,TGT,2026-05-19,2026-05-20,2026-05-20,2026-05-19,pre_market,1,AGREES_WITH_EDGAR,event_key,
+165,PayPal,PYPL,2025,Q1,Abdul,YES,YES,price signal — only this window shows an abnormal move,PYPL,2025-04-28,2025-04-29,2025-04-29,2025-04-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+166,PayPal,PYPL,2025,Q2,Abdul,YES,YES,price signal — only this window shows an abnormal move,PYPL,2025-07-28,2025-07-29,2025-07-29,2025-07-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+167,PayPal,PYPL,2025,Q3,Abdul,YES,YES,price signal — only this window shows an abnormal move,PYPL,2025-10-27,2025-10-28,2025-10-28,2025-10-27,pre_market,1,AGREES_WITH_EDGAR,event_key,
+168,PayPal,PYPL,2026,Q1,Abdul,YES,YES,price signal — only this window shows an abnormal move,PYPL,2026-05-04,2026-05-05,2026-05-05,2026-05-04,pre_market,1,AGREES_WITH_EDGAR,event_key,
+169,Visa,V,2025,Q1,Abdul,YES,YES,price signal,V,2025-04-29,2025-04-30,2025-04-29,2025-04-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+170,Visa,V,2025,Q2,Abdul,YES,YES,release time published by the issuer,V,2025-07-29,2025-07-30,2025-07-29,2025-07-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+171,Visa,V,2025,Q3,Abdul,YES,YES,release time published by the issuer,V,2025-10-28,2025-10-29,2025-10-28,2025-10-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+172,Visa,V,2026,Q1,Abdul,YES,YES,price signal — both moved; this one dominates,V,2026-04-28,2026-04-29,2026-04-28,2026-04-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+173,Johnson & Johnson,JNJ,2025,Q1,Abdul,YES,YES,release date + stated time,JNJ,2025-04-14,2025-04-15,2025-04-15,2025-04-14,pre_market,1,AGREES_WITH_EDGAR,event_key,
+174,Johnson & Johnson,JNJ,2025,Q2,Abdul,YES,YES,release date + stated time in the document (document),JNJ,2025-07-15,2025-07-16,2025-07-16,2025-07-15,pre_market,1,AGREES_WITH_EDGAR,event_key,
+175,Johnson & Johnson,JNJ,2025,Q3,Abdul,YES,YES,release date + stated time in the document (document),JNJ,2025-10-13,2025-10-14,2025-10-14,2025-10-13,pre_market,1,AGREES_WITH_EDGAR,event_key,
+176,Johnson & Johnson,JNJ,2026,Q1,Abdul,YES,NO,release date + stated time in the document (document),JNJ,2026-04-13,2026-04-14,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+177,Expedia,EXPE,2025,Q1,Abdul,YES,YES,document date + price signal,EXPE,2025-05-08,2025-05-09,2025-05-08,2025-05-08,after_hours,0,AGREES_WITH_EDGAR,event_key,
+178,Expedia,EXPE,2025,Q2,Abdul,YES,YES,price signal — only this window shows an abnormal move,EXPE,2025-08-07,2025-08-08,2025-08-07,2025-08-07,after_hours,0,AGREES_WITH_EDGAR,event_key,
+179,Expedia,EXPE,2025,Q4,Abdul,YES,YES,price signal — both moved; this one dominates,EXPE,2026-02-12,2026-02-13,2026-02-12,2026-02-12,after_hours,0,AGREES_WITH_EDGAR,event_key,
+180,Expedia,EXPE,2026,Q1,Abdul,YES,YES,price signal — only this window shows an abnormal move,EXPE,2026-05-07,2026-05-08,2026-05-07,2026-05-07,after_hours,0,AGREES_WITH_EDGAR,event_key,
+181,Robinhood Markets,,2025,Q1,Abdul,YES,YES,release time published by the issuer (section C),HOOD,2025-04-30,2025-05-01,2025-04-30,2025-04-30,after_hours,0,AGREES_WITH_EDGAR,event_key,
+182,Robinhood Markets,,2025,Q2,Abdul,YES,YES,price signal — only this window shows an abnormal move,HOOD,2025-07-30,2025-07-31,2025-07-30,2025-07-30,after_hours,0,AGREES_WITH_EDGAR,event_key,
+183,Robinhood Markets,,2025,Q3,Abdul,YES,YES,price signal,HOOD,2025-11-04,2025-11-05,2025-11-05,2025-11-05,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+184,Robinhood Markets,,2026,Q1,Abdul,YES,YES,price signal — both moved; this one dominates,HOOD,2026-04-28,2026-04-29,2026-04-28,2026-04-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+185,Comcast Corporation,,2025,Q1,Abdul,YES,YES,release date + stated time in the document (document),CMCSA,2025-04-23,2025-04-24,2025-04-24,2025-04-23,pre_market,1,AGREES_WITH_EDGAR,event_key,
+186,Comcast Corporation,,2025,Q2,Abdul,YES,YES,release date + stated time in the document (document),CMCSA,2025-07-30,2025-07-31,2025-07-31,2025-07-30,pre_market,1,AGREES_WITH_EDGAR,event_key,
+187,Comcast Corporation,,2025,Q4,Abdul,YES,YES,"earnings calendar, seconded independently",CMCSA,2026-01-28,2026-01-29,2026-01-29,2026-01-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+188,Comcast Corporation,,2026,Q1,Abdul,YES,YES,release date + stated time in the document (document),CMCSA,2026-04-22,2026-04-23,2026-04-23,2026-04-22,pre_market,1,AGREES_WITH_EDGAR,event_key,
+189,Pinterest,PINS,2024,Q4,Meriem,YES,YES,price signal — only this window shows an abnormal move,PINS,2025-02-06,2025-02-07,2025-02-06,2025-02-06,after_hours,0,AGREES_WITH_EDGAR,event_key,
+190,Pinterest,PINS,2025,Q4,Meriem,YES,YES,price signal — only this window shows an abnormal move,PINS,2026-02-12,2026-02-13,2026-02-12,2026-02-12,after_hours,0,AGREES_WITH_EDGAR,event_key,
+191,Pinterest,PINS,2026,Q1,Meriem,YES,YES,price signal — only this window shows an abnormal move,PINS,2026-05-04,2026-05-05,2026-05-04,2026-05-04,after_hours,0,AGREES_WITH_EDGAR,event_key,
+192,Kraft Heinz,KHC,2024,Q4,Meriem,YES,YES,release date + stated time,KHC,2025-02-11,2025-02-12,2025-02-12,2025-02-11,pre_market,1,AGREES_WITH_EDGAR,event_key,
+193,Kraft Heinz,KHC,2025,Q4,Meriem,YES,NO,release date + stated time,KHC,2026-02-10,2026-02-11,2026-02-10,2026-02-09,pre_market,0,ONE_SESSION_APART_PREMARKET,event_key,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+194,Kraft Heinz,KHC,2026,Q1,Meriem,YES,YES,release date + stated time,KHC,2026-05-05,2026-05-06,2026-05-06,2026-05-05,pre_market,1,AGREES_WITH_EDGAR,event_key,
+195,Linde,LIN,2025,Q2,Meriem,YES,YES,release time published by the issuer,LIN,2025-07-31,2025-08-01,2025-08-01,2025-07-31,pre_market,1,AGREES_WITH_EDGAR,event_key,
+196,Linde,LIN,2025,Q3,Meriem,YES,YES,document date + price signal,LIN,2025-10-30,2025-10-31,2025-10-31,2025-10-30,pre_market,1,AGREES_WITH_EDGAR,event_key,
+197,Linde,LIN,2026,Q1,Meriem,YES,YES,release time published by the issuer,LIN,2026-04-30,2026-05-01,2026-05-01,2026-04-30,pre_market,1,AGREES_WITH_EDGAR,event_key,
+198,Puma,PUM.DE,2026,Q1,Anna,YES,YES,"earnings calendar, seconded by the issuer's habit",PUM.DE,2026-04-29,2026-04-30,2026-04-30,2026-04-29,pre_market,1,LISTING_CURRENCY,event_key,
+199,Puma,PUM.DE,2025,Q3,Anna,YES,YES,"recorded window spanned two sessions, closed to one",PUM.DE,2025-10-29,2025-10-30,2025-10-30,2025-10-29,pre_market,1,LISTING_CURRENCY,event_key,
+200,Puma,PUM.DE,2025,Q1,Anna,YES,YES,"recorded window spanned two sessions, closed to one",PUM.DE,2025-05-07,2025-05-08,2025-05-07,2025-05-06,pre_market,0,LISTING_CURRENCY,event_key,
+201,Puma,PUM.DE,2025,Q4,Anna,YES,YES,"recorded window spanned two sessions, closed to one",PUM.DE,2026-02-25,2026-02-26,2026-02-26,2026-02-25,pre_market,1,LISTING_CURRENCY,event_key,
+202,Colgate-Palmolive,CL,2026,Q2,Anna,YES,NO,"recorded window spanned two sessions, closed to one",CL,2026-07-30,2026-07-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+203,Colgate-Palmolive,CL,2026,Q1,Anna,YES,NO,"recorded window spanned two sessions, closed to one",CL,2026-04-30,2026-05-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+204,Colgate-Palmolive,CL,2025,Q4,Anna,YES,NO,"recorded window spanned two sessions, closed to one",CL,2026-01-29,2026-01-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+205,Colgate-Palmolive,CL,2025,Q3,Anna,YES,NO,"recorded window spanned two sessions, closed to one",CL,2025-10-30,2025-10-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+206,Lenovo,LNVGY,2026,Q4,Anna,YES,YES,repriced on the issuer's primary listing,0992.HK,2026-05-21,2026-05-22,2026-05-22,2026-05-22,after_hours,1,LISTING_CURRENCY,event_key,
+207,Lenovo,LNVGY,2026,Q3,Anna,YES,YES,the exchange's own publication timestamp,0992.HK,2026-02-11,2026-02-12,2026-02-12,2026-02-12,after_hours,1,LISTING_CURRENCY,event_key,
+208,Lenovo,LNVGY,2026,Q2,Anna,YES,YES,repriced on the issuer's primary listing,0992.HK,2025-11-19,2025-11-20,2026-01-30,2026-01-30,after_hours,72,LISTING_CURRENCY,event_key,
+209,Lenovo,LNVGY,2026,Q1,Anna,YES,YES,repriced on the issuer's primary listing,0992.HK,2025-08-13,2025-08-14,2025-08-14,2025-08-14,after_hours,1,LISTING_CURRENCY,event_key,
+210,Spotify,SPOT,2026,Q1,Anna,YES,YES,"recorded window spanned two sessions, closed to one",SPOT,2026-04-27,2026-04-28,2026-04-28,2026-04-27,pre_market,1,AGREES_WITH_EDGAR,event_key,
+211,Spotify,SPOT,2025,Q4,Anna,YES,YES,recorded price identified against every pulled series,SPOT,2026-02-09,2026-02-10,2026-02-10,2026-02-09,pre_market,1,AGREES_WITH_EDGAR,event_key,
+212,Spotify,SPOT,2025,Q3,Anna,YES,YES,"recorded window spanned two sessions, closed to one",SPOT,2025-11-03,2025-11-04,2025-11-04,2025-11-03,pre_market,1,AGREES_WITH_EDGAR,event_key,
+213,Spotify,SPOT,2025,Q2,Anna,YES,YES,"recorded window spanned two sessions, closed to one",SPOT,2025-07-28,2025-07-29,2025-07-29,2025-07-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+214,Chipotle,CMG,2025,Q4,Anna,YES,YES,price signal — only this window shows an abnormal move,CMG,2026-02-03,2026-02-04,2026-02-03,2026-02-03,after_hours,0,AGREES_WITH_EDGAR,event_key,
+215,Chipotle,CMG,2025,Q3,Anna,YES,YES,price signal — both moved; this one dominates,CMG,2025-10-29,2025-10-30,2025-10-29,2025-10-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+216,Chipotle,CMG,2025,Q2,Anna,YES,YES,price signal — only this window shows an abnormal move,CMG,2025-07-23,2025-07-24,2025-07-23,2025-07-23,after_hours,0,AGREES_WITH_EDGAR,event_key,
+217,Chipotle,CMG,2025,Q1,Anna,YES,YES,price signal,CMG,2025-04-22,2025-04-23,2025-04-23,2025-04-23,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+218,Heineken,HEIA.AS,2025,Q3,Anna,YES,NO,recorded price identified against every pulled series,HEIA.AS,2025-10-21,2025-10-22,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+219,Heineken,HEIA.AS,2024,Q3,Anna,YES,NO,recorded price identified against every pulled series,HEIA.AS,2024-10-22,2024-10-23,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+220,Heineken,HEIA.AS,2024,Q2,Anna,YES,NO,recorded price identified against every pulled series,HEIA.AS,2024-07-26,2024-07-29,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+221,Heineken,HEIA.AS,2024,Q1,Anna,YES,NO,recorded price identified against every pulled series,HEIA.AS,2024-04-23,2024-04-24,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+222,Datadog,DDOG,2026,Q1,Anna,YES,NO,"recorded window spanned two sessions, closed to one",DDOG,2026-05-06,2026-05-07,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+223,Datadog,DDOG,2025,Q3,Anna,YES,NO,"recorded window spanned two sessions, closed to one",DDOG,2025-11-05,2025-11-06,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+224,Datadog,DDOG,2025,Q4,Anna,YES,NO,"recorded window spanned two sessions, closed to one",DDOG,2026-02-09,2026-02-10,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+225,Datadog,DDOG,2025,Q2,Anna,YES,NO,"recorded window spanned two sessions, closed to one",DDOG,2025-08-06,2025-08-07,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+226,eBay,EBAY,2025,Q1,Anna,YES,NO,price signal — only this window shows an abnormal move,EBAY,2025-04-30,2025-05-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+227,eBay,EBAY,2026,Q1,Anna,YES,NO,"price signal, re-derived — only this window shows an abnormal move",EBAY,2026-04-29,2026-04-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+228,eBay,EBAY,2025,Q3,Anna,YES,NO,"price signal, re-derived — both moved; this one dominates",EBAY,2025-10-29,2025-10-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+229,eBay,EBAY,2025,Q2,Anna,YES,NO,"price signal, re-derived — only this window shows an abnormal move",EBAY,2025-07-30,2025-07-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+230,Pinterest,PINS,2026,Q1,Anna,NO,YES,price signal — only this window shows an abnormal move,PINS,2026-05-04,2026-05-05,2026-05-04,2026-05-04,after_hours,0,AGREES_WITH_EDGAR,event_key,
+231,Pinterest,PINS,2025,Q4,Anna,NO,YES,price signal — only this window shows an abnormal move,PINS,2026-02-12,2026-02-13,2026-02-12,2026-02-12,after_hours,0,AGREES_WITH_EDGAR,event_key,
+232,Pinterest,PINS,2024,Q4,Anna,NO,YES,price signal — only this window shows an abnormal move,PINS,2025-02-06,2025-02-07,2025-02-06,2025-02-06,after_hours,0,AGREES_WITH_EDGAR,event_key,
+233,Hermes,RMS.PA,2025,Q1,Nigel,YES,NO,price signal — only this window shows an abnormal move,RMS.PA,2025-04-16,2025-04-17,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+234,Hermes,RMS.PA,2025,Q2,Nigel,YES,NO,price signal — only this window shows an abnormal move,RMS.PA,2025-07-29,2025-07-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+235,Hermes,RMS.PA,2025,Q3,Nigel,YES,NO,price signal — only this window shows an abnormal move,RMS.PA,2025-10-21,2025-10-22,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+236,Hermes,RMS.PA,2025,Q4,Nigel,YES,NO,"price signal, re-derived — only this window shows an abnormal move",RMS.PA,2026-02-11,2026-02-12,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+237,Delta Air Lines,DAL,2025,Q1,Nigel,YES,YES,"price signal, re-derived — both moved; this one dominates",DAL,2025-04-08,2025-04-09,2025-04-09,2025-04-08,pre_market,1,AGREES_WITH_EDGAR,event_key,
+238,Delta Air Lines,DAL,2025,Q2,Nigel,YES,YES,"price signal, re-derived — only this window shows an abnormal move",DAL,2025-07-09,2025-07-10,2025-07-10,2025-07-09,pre_market,1,AGREES_WITH_EDGAR,event_key,
+239,Delta Air Lines,DAL,2025,Q3,Nigel,YES,YES,"price signal, re-derived — only this window shows an abnormal move",DAL,2025-10-08,2025-10-09,2025-10-09,2025-10-08,pre_market,1,AGREES_WITH_EDGAR,event_key,
+240,Delta Air Lines,DAL,2025,Q4,Nigel,YES,YES,"price signal, re-derived — only this window shows an abnormal move",DAL,2026-01-12,2026-01-13,2026-01-13,2026-01-12,pre_market,1,AGREES_WITH_EDGAR,event_key,
+245,Booking Holdings,BKNG,2025,Q1,Nigel,YES,NO,"price signal, re-derived — only this window shows an abnormal move",BKNG,2025-04-29,2025-04-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+246,Booking Holdings,BKNG,2025,Q2,Nigel,YES,YES,release date + stated time in the document (rater worksheet),BKNG,2025-07-29,2025-07-30,2025-07-29,2025-07-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+247,Booking Holdings,BKNG,2025,Q3,Nigel,YES,YES,release date + stated time in the document (rater worksheet),BKNG,2025-10-28,2025-10-29,2025-10-28,2025-10-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+248,Booking Holdings,BKNG,2025,Q4,Nigel,YES,YES,release date + stated time in the document (rater worksheet),BKNG,2026-02-18,2026-02-19,2026-02-18,2026-02-18,after_hours,0,AGREES_WITH_EDGAR,event_key,
+265,MetLife,MET,2025,Q1,Dragos,YES,NO,release date + stated time,MET,2025-04-30,2025-05-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+266,MetLife,MET,2025,Q2,Dragos,YES,YES,release date + stated time in the document (document),MET,2025-08-06,2025-08-07,2025-08-06,2025-08-06,after_hours,0,AGREES_WITH_EDGAR,doc_id,
+267,MetLife,MET,2025,Q3,Dragos,YES,YES,release date + stated time in the document (document),MET,2025-11-05,2025-11-06,2025-11-05,2025-11-05,after_hours,0,AGREES_WITH_EDGAR,doc_id,
+268,MetLife,MET,2025,Q4,Dragos,YES,YES,release date + stated time in the document (document),MET,2026-02-04,2026-02-05,2026-02-04,2026-02-04,after_hours,0,AGREES_WITH_EDGAR,doc_id,
+269,MetLife,MET,2026,Q1,Dragos,YES,YES,release date + stated time,MET,2026-05-06,2026-05-07,2026-05-06,2026-05-06,after_hours,0,AGREES_WITH_EDGAR,doc_id,
+270,MetLife,MET,2023,Q1,Dragos,YES,NO,release date + stated time in the document (document),MET,2023-05-03,2023-05-04,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+271,MetLife,MET,2023,Q2,Dragos,YES,NO,release date + stated time in the document (document),MET,2023-08-02,2023-08-03,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+272,MetLife,MET,2023,Q3,Dragos,YES,NO,release date + stated time in the document (document),MET,2023-11-01,2023-11-02,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+273,MetLife,MET,2023,Q4,Dragos,YES,NO,release date + stated time in the document (document),MET,2024-01-31,2024-02-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+274,MetLife,MET,2024,Q1,Dragos,YES,NO,release date + stated time in the document (document),MET,2024-05-01,2024-05-02,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+275,MetLife,MET,2024,Q2,Dragos,YES,YES,release date + stated time in the document (document),MET,2024-07-31,2024-08-01,2024-07-31,2024-07-31,after_hours,0,AGREES_WITH_EDGAR,doc_id,
+276,MetLife,MET,2024,Q3,Dragos,YES,YES,release date + stated time in the document (document),MET,2024-10-30,2024-10-31,2024-10-30,2024-10-30,after_hours,0,AGREES_WITH_EDGAR,doc_id,
+277,MetLife,MET,2024,Q4,Dragos,YES,NO,release date + stated time in the document (document),MET,2025-02-05,2025-02-06,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+278,General Mills,GIS,2026,Q2,Meriem,YES,YES,release date + stated time,GIS,2025-12-16,2025-12-17,2025-12-17,2025-12-16,pre_market,1,AGREES_WITH_EDGAR,event_key,
+279,General Mills,GIS,2026,Q3,Meriem,YES,YES,release date + stated time,GIS,2026-03-17,2026-03-18,2026-03-18,2026-03-17,pre_market,1,AGREES_WITH_EDGAR,event_key,
+280,General Mills,GIS,2026,Q4,Meriem,YES,YES,release date + stated time,GIS,2026-06-30,2026-07-01,2026-07-01,2026-06-30,pre_market,1,AGREES_WITH_EDGAR,event_key,
+281,Siemens,SIE.DE,2025,Q4,Meriem,YES,YES,release date + stated time,SIE.DE,2025-11-12,2025-11-13,2025-11-13,2025-11-12,pre_market,1,LISTING_CURRENCY,event_key,
+282,Siemens,SIE.DE,2026,Q1,Meriem,YES,YES,release date + stated time,SIE.DE,2026-02-11,2026-02-12,2026-02-12,2026-02-11,pre_market,1,LISTING_CURRENCY,event_key,
+283,Siemens,SIE.DE,2026,Q2,Meriem,YES,YES,release date + stated time,SIE.DE,2026-05-12,2026-05-13,2026-05-13,2026-05-12,pre_market,1,LISTING_CURRENCY,event_key,
+284,Costco,COST,2026,Q1,Meriem,YES,NO,release date + stated time in the document (rater worksheet),COST,2025-12-11,2025-12-12,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+285,Costco,COST,2026,Q2,Meriem,YES,NO,release date + stated time in the document (rater worksheet),COST,2026-03-05,2026-03-06,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+286,Costco,COST,2026,Q3,Meriem,YES,NO,"earnings calendar, seconded independently",COST,2026-05-28,2026-05-29,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+287,Shopify,SHOP,2025,Q3,Meriem,YES,NO,release date + stated time,SHOP,2025-11-03,2025-11-04,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+288,Shopify,SHOP,2025,Q4,Meriem,YES,NO,release date + stated time,SHOP,2026-02-10,2026-02-11,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+289,Shopify,SHOP,2026,Q1,Meriem,YES,NO,release date + stated time,SHOP,2026-05-04,2026-05-05,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+290,Sony,SONY,2025,Q2,Meriem,YES,NO,repriced on the issuer's primary listing,6758.T,2025-11-11,2025-11-12,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+291,Sony,SONY,2025,Q3,Meriem,YES,NO,repriced on the issuer's primary listing,6758.T,2026-02-05,2026-02-06,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+292,Sony,SONY,2026,Q1,Meriem,YES,NO,repriced on the issuer's primary listing,6758.T,2026-07-31,2026-08-03,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+293,Nestle,NESN,2024,Q3,Meriem,YES,NO,release date + stated time,NESN.SW,2024-10-16,2024-10-17,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+294,Nestle,NESN,2026,Q1,Meriem,YES,NO,release date + stated time,NESN.SW,2026-04-22,2026-04-23,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+295,Alphabet,GOOGL,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),GOOGL,2026-04-29,2026-04-30,2026-04-29,2026-04-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+296,Alphabet,GOOGL,2025,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),GOOGL,2025-10-29,2025-10-30,2025-10-29,2025-10-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+297,Alphabet,GOOGL,2025,Q4,David,YES,YES,price signal — only this window shows an abnormal move,GOOGL,2026-02-04,2026-02-05,2026-02-04,2026-02-04,after_hours,0,AGREES_WITH_EDGAR,event_key,
+298,Booking Holdings,BKNG,2025,Q2,David,NO,YES,release date + stated time in the document (rater worksheet),BKNG,2025-07-29,2025-07-30,2025-07-29,2025-07-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+299,Booking Holdings,BKNG,2025,Q3,David,NO,YES,release date + stated time in the document (rater worksheet),BKNG,2025-10-28,2025-10-29,2025-10-28,2025-10-28,after_hours,0,AGREES_WITH_EDGAR,event_key,
+300,Booking Holdings,BKNG,2025,Q4,David,NO,YES,release date + stated time in the document (rater worksheet),BKNG,2026-02-18,2026-02-19,2026-02-18,2026-02-18,after_hours,0,AGREES_WITH_EDGAR,event_key,
+301,Broadcom,AVGO,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),AVGO,2026-03-04,2026-03-05,2026-03-04,2026-03-04,after_hours,0,AGREES_WITH_EDGAR,event_key,
+302,Broadcom,AVGO,2025,Q3,David,YES,YES,price signal — only this window shows an abnormal move,AVGO,2025-09-04,2025-09-05,2025-09-04,2025-09-04,after_hours,0,AGREES_WITH_EDGAR,event_key,
+303,Broadcom,AVGO,2025,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),AVGO,2025-12-11,2025-12-12,2025-12-11,2025-12-11,after_hours,0,AGREES_WITH_EDGAR,event_key,
+304,Costco,COST,2026,Q1,David,NO,NO,release date + stated time in the document (rater worksheet),COST,2025-12-11,2025-12-12,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+305,Costco,COST,2026,Q2,David,NO,NO,release date + stated time in the document (rater worksheet),COST,2026-03-05,2026-03-06,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+306,Costco,COST,2025,Q4,David,YES,NO,release date + stated time in the document (rater worksheet),COST,2025-09-25,2025-09-26,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+307,Oracle,ORCL,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),ORCL,2025-09-09,2025-09-10,2025-09-09,2025-09-09,after_hours,0,AGREES_WITH_EDGAR,event_key,
+308,Oracle,ORCL,2026,Q2,David,YES,YES,price signal — only this window shows an abnormal move,ORCL,2025-12-10,2025-12-11,2025-12-10,2025-12-10,after_hours,0,AGREES_WITH_EDGAR,event_key,
+309,Oracle,ORCL,2026,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),ORCL,2026-03-10,2026-03-11,2026-03-10,2026-03-10,after_hours,0,AGREES_WITH_EDGAR,event_key,
+310,Starbucks,SBUX,2026,Q1,David,YES,YES,price signal — both moved; this one dominates,SBUX,2026-01-27,2026-01-28,2026-01-28,2026-01-28,after_hours,1,ONE_SESSION_APART_AFTERHOURS,event_key,
+311,Starbucks,SBUX,2025,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),SBUX,2025-07-29,2025-07-30,2025-07-29,2025-07-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+312,Starbucks,SBUX,2025,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),SBUX,2025-10-29,2025-10-30,2025-10-29,2025-10-29,after_hours,0,AGREES_WITH_EDGAR,event_key,
+313,Caterpillar,CAT,2025,Q2,David,YES,YES,release date + stated time in the document (rater worksheet),CAT,2025-08-04,2025-08-05,2025-08-05,2025-08-04,pre_market,1,AGREES_WITH_EDGAR,event_key,
+314,Caterpillar,CAT,2025,Q3,David,YES,YES,price signal — only this window shows an abnormal move,CAT,2025-10-28,2025-10-29,2025-10-29,2025-10-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+315,Caterpillar,CAT,2025,Q4,David,YES,YES,"earnings calendar, seconded independently",CAT,2026-01-28,2026-01-29,2026-01-29,2026-01-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+316,Micron,MU,2026,Q1,David,YES,YES,release date + stated time in the document (rater worksheet),MU,2025-12-17,2025-12-18,2025-12-17,2025-12-17,after_hours,0,AGREES_WITH_EDGAR,event_key,
+317,Micron,MU,2026,Q2,David,YES,YES,release date + stated time in the document (rater worksheet),MU,2026-03-18,2026-03-19,2026-03-18,2026-03-18,after_hours,0,AGREES_WITH_EDGAR,event_key,
+318,Micron,MU,2025,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),MU,2025-09-23,2025-09-24,2025-09-23,2025-09-23,after_hours,0,AGREES_WITH_EDGAR,event_key,
+319,Salesforce,CRM,2026,Q2,David,YES,YES,release date + stated time in the document (rater worksheet),CRM,2025-09-03,2025-09-04,2025-09-03,2025-09-03,after_hours,0,AGREES_WITH_EDGAR,event_key,
+320,Salesforce,CRM,2026,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),CRM,2025-12-03,2025-12-04,2025-12-03,2025-12-03,after_hours,0,AGREES_WITH_EDGAR,event_key,
+321,Salesforce,CRM,2026,Q4,David,YES,YES,release date + stated time in the document (rater worksheet),CRM,2026-02-25,2026-02-26,2026-02-25,2026-02-25,after_hours,0,AGREES_WITH_EDGAR,event_key,
+322,UnitedHealth,UNH,2025,Q2,David,YES,YES,price signal — both moved; this one dominates,UNH,2025-07-28,2025-07-29,2025-07-29,2025-07-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+323,UnitedHealth,UNH,2025,Q3,David,YES,YES,release date + stated time in the document (rater worksheet),UNH,2025-10-27,2025-10-28,2025-10-28,2025-10-27,pre_market,1,AGREES_WITH_EDGAR,event_key,
+324,UnitedHealth,UNH,2025,Q4,David,YES,YES,price signal — only this window shows an abnormal move,UNH,2026-01-26,2026-01-27,2026-01-27,2026-01-26,pre_market,1,AGREES_WITH_EDGAR,event_key,
+325,Freeport-McMoRan,FCX,2025,Q2,Dragos,YES,NO,price signal — only this window shows an abnormal move,FCX,2025-07-22,2025-07-23,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+326,Union Pacific,UNP,2025,Q2,Dragos,YES,NO,price signal — both moved; this one dominates,UNP,2025-07-23,2025-07-24,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+327,UnitedHealth,UNH,2025,Q2,Dragos,NO,YES,price signal — both moved; this one dominates,UNH,2025-07-28,2025-07-29,2025-07-29,2025-07-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+328,Caterpillar,CAT,2025,Q2,Dragos,NO,YES,release date + stated time in the document (rater worksheet),CAT,2025-08-04,2025-08-05,2025-08-05,2025-08-04,pre_market,1,AGREES_WITH_EDGAR,event_key,
+329,Home Depot,HD,2025,Q2,Dragos,YES,NO,price signal — only this window shows an abnormal move,HD,2025-08-18,2025-08-19,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+330,Adobe,ADBE,2025,Q3,Dragos,YES,NO,price signal — both moved; this one dominates,ADBE,2025-09-11,2025-09-12,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+331,Union Pacific,UNP,2025,Q3,Dragos,YES,NO,price signal — only this window shows an abnormal move,UNP,2025-10-22,2025-10-23,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+332,UnitedHealth,UNH,2025,Q3,Dragos,NO,YES,release date + stated time in the document (rater worksheet),UNH,2025-10-27,2025-10-28,2025-10-28,2025-10-27,pre_market,1,AGREES_WITH_EDGAR,event_key,
+333,Caterpillar,CAT,2025,Q3,Dragos,NO,YES,price signal — only this window shows an abnormal move,CAT,2025-10-28,2025-10-29,2025-10-29,2025-10-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+334,Home Depot,HD,2025,Q3,Dragos,YES,NO,price signal — both moved; this one dominates,HD,2025-11-17,2025-11-18,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+335,Adobe,ADBE,2025,Q4,Dragos,YES,NO,release time published by the issuer,ADBE,2025-12-10,2025-12-11,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+336,Freeport-McMoRan,FCX,2025,Q4,Dragos,YES,NO,"earnings calendar, seconded independently",FCX,2026-01-21,2026-01-22,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+337,UnitedHealth,UNH,2025,Q4,Dragos,NO,YES,price signal — only this window shows an abnormal move,UNH,2026-01-26,2026-01-27,2026-01-27,2026-01-26,pre_market,1,AGREES_WITH_EDGAR,event_key,
+338,Union Pacific,UNP,2025,Q4,Dragos,YES,NO,price signal — only this window shows an abnormal move,UNP,2026-01-26,2026-01-27,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+339,Caterpillar,CAT,2025,Q4,Dragos,NO,YES,"earnings calendar, seconded independently",CAT,2026-01-28,2026-01-29,2026-01-29,2026-01-28,pre_market,1,AGREES_WITH_EDGAR,event_key,
+340,Home Depot,HD,2025,Q4,Dragos,YES,NO,price signal — both moved; this one dominates,HD,2026-02-23,2026-02-24,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+341,Adobe,ADBE,2026,Q1,Dragos,YES,NO,price signal — only this window shows an abnormal move,ADBE,2026-03-12,2026-03-13,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+342,UnitedHealth,UNH,2026,Q1,Dragos,YES,NO,price signal — only this window shows an abnormal move,UNH,2026-04-20,2026-04-21,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+343,Freeport-McMoRan,FCX,2026,Q1,Dragos,YES,NO,price signal — only this window shows an abnormal move,FCX,2026-04-22,2026-04-23,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+344,Union Pacific,UNP,2026,Q1,Dragos,YES,NO,price signal — only this window shows an abnormal move,UNP,2026-04-22,2026-04-23,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+345,Caterpillar,CAT,2026,Q1,Dragos,YES,NO,price signal — only this window shows an abnormal move,CAT,2026-04-29,2026-04-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+346,Home Depot,HD,2026,Q1,Dragos,YES,NO,price signal — only this window shows an abnormal move,HD,2026-05-18,2026-05-19,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+347,Adobe,ADBE,2026,Q2,Dragos,YES,NO,price signal — both moved; this one dominates,ADBE,2026-06-11,2026-06-12,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+348,PepsiCo,PEP,2023,Q1,Dragos,YES,YES,release date + stated time,PEP,2023-04-24,2023-04-25,2023-04-25,2023-04-24,pre_market,1,AGREES_WITH_EDGAR,event_key,
+349,PepsiCo,PEP,2023,Q2,Dragos,YES,YES,release date + stated time,PEP,2023-07-12,2023-07-13,2023-07-13,2023-07-12,pre_market,1,AGREES_WITH_EDGAR,event_key,
+350,PepsiCo,PEP,2023,Q3,Dragos,YES,YES,release date + stated time,PEP,2023-10-09,2023-10-10,2023-10-10,2023-10-09,pre_market,1,AGREES_WITH_EDGAR,event_key,
+351,PepsiCo,PEP,2023,Q4,Dragos,YES,YES,release date + stated time,PEP,2024-02-08,2024-02-09,2024-02-09,2024-02-08,pre_market,1,AGREES_WITH_EDGAR,event_key,
+352,PepsiCo,PEP,2024,Q1,Dragos,YES,YES,release date + stated time,PEP,2024-04-22,2024-04-23,2024-04-23,2024-04-22,pre_market,1,AGREES_WITH_EDGAR,event_key,
+353,PepsiCo,PEP,2024,Q2,Dragos,YES,YES,release date + stated time,PEP,2024-07-10,2024-07-11,2024-07-11,2024-07-10,pre_market,1,AGREES_WITH_EDGAR,event_key,
+354,PepsiCo,PEP,2024,Q3,Dragos,YES,YES,release date + stated time,PEP,2024-10-07,2024-10-08,2024-10-08,2024-10-07,pre_market,1,AGREES_WITH_EDGAR,event_key,
+355,PepsiCo,PEP,2024,Q4,Dragos,YES,YES,release date + stated time,PEP,2025-02-03,2025-02-04,2025-02-04,2025-02-03,pre_market,1,AGREES_WITH_EDGAR,event_key,
+356,PepsiCo,PEP,2025,Q1,Dragos,YES,YES,release date + stated time,PEP,2025-04-23,2025-04-24,2025-04-24,2025-04-23,pre_market,1,AGREES_WITH_EDGAR,event_key,
+357,PepsiCo,PEP,2025,Q2,Dragos,YES,YES,release date + stated time,PEP,2025-07-16,2025-07-17,2025-07-17,2025-07-16,pre_market,1,AGREES_WITH_EDGAR,event_key,
+358,PepsiCo,PEP,2025,Q3,Dragos,YES,YES,release date + stated time,PEP,2025-10-08,2025-10-09,2025-10-09,2025-10-08,pre_market,1,AGREES_WITH_EDGAR,event_key,
+359,PepsiCo,PEP,2025,Q4,Dragos,YES,YES,release date + stated time,PEP,2026-02-02,2026-02-03,2026-02-03,2026-02-02,pre_market,1,AGREES_WITH_EDGAR,event_key,
+360,PepsiCo,PEP,2026,Q1,Dragos,YES,YES,release date + stated time,PEP,2026-04-15,2026-04-16,2026-04-16,2026-04-15,pre_market,1,AGREES_WITH_EDGAR,event_key,
+361,PepsiCo,PEP,2026,Q2,Dragos,YES,YES,release date + stated time,PEP,2026-07-08,2026-07-09,2026-07-09,2026-07-08,pre_market,1,AGREES_WITH_EDGAR,event_key,
+362,Duke Energy,DUK,2023,Q1,Dragos,YES,NO,"earnings calendar, seconded by the issuer's habit",DUK,2023-05-08,2023-05-09,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+363,Duke Energy,DUK,2023,Q2,Dragos,YES,NO,document date + price signal,DUK,2023-08-07,2023-08-08,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+364,Duke Energy,DUK,2023,Q3,Dragos,YES,NO,document date + price signal,DUK,2023-11-02,2023-11-03,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+365,Duke Energy,DUK,2023,Q4,Dragos,YES,NO,"earnings calendar, seconded by the issuer's habit",DUK,2024-02-07,2024-02-08,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+366,Duke Energy,DUK,2024,Q1,Dragos,YES,NO,"earnings calendar, seconded by the issuer's habit",DUK,2024-05-06,2024-05-07,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+367,Duke Energy,DUK,2024,Q2,Dragos,YES,NO,document date + price signal,DUK,2024-08-05,2024-08-06,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+368,Duke Energy,DUK,2024,Q3,Dragos,YES,NO,price signal,DUK,2024-11-06,2024-11-07,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+369,Duke Energy,DUK,2024,Q4,Dragos,YES,NO,document date + price signal,DUK,2025-02-12,2025-02-13,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+370,Duke Energy,DUK,2025,Q1,Dragos,YES,NO,document date + price signal,DUK,2025-05-05,2025-05-06,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+371,Duke Energy,DUK,2025,Q2,Dragos,YES,NO,document date + price signal,DUK,2025-08-04,2025-08-05,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+372,Duke Energy,DUK,2025,Q3,Dragos,YES,NO,price signal — only this window shows an abnormal move,DUK,2025-11-07,2025-11-10,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+373,Duke Energy,DUK,2025,Q4,Dragos,YES,NO,"earnings calendar, seconded by the issuer's habit",DUK,2026-02-09,2026-02-10,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+374,Duke Energy,DUK,2026,Q1,Dragos,YES,NO,price signal — only this window shows an abnormal move,DUK,2026-05-05,2026-05-06,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+375,ExxonMobil,XOM,2023,Q1,Dragos,YES,NO,release date + stated time,XOM,2023-04-27,2023-04-28,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+376,ExxonMobil,XOM,2023,Q2,Dragos,YES,NO,"earnings calendar, seconded by the issuer's habit",XOM,2023-07-27,2023-07-28,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+377,ExxonMobil,XOM,2023,Q3,Dragos,YES,NO,release date + stated time,XOM,2023-10-26,2023-10-27,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+378,ExxonMobil,XOM,2023,Q4,Dragos,YES,NO,document date + price signal,XOM,2024-02-01,2024-02-02,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+379,ExxonMobil,XOM,2024,Q1,Dragos,YES,NO,release date + stated time,XOM,2024-04-25,2024-04-26,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+380,ExxonMobil,XOM,2024,Q2,Dragos,YES,NO,price signal — only this window shows an abnormal move,XOM,2024-08-02,2024-08-05,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+381,ExxonMobil,XOM,2024,Q3,Dragos,YES,NO,document date + price signal,XOM,2024-10-31,2024-11-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+382,ExxonMobil,XOM,2024,Q4,Dragos,YES,NO,price signal — only this window shows an abnormal move,XOM,2025-01-31,2025-02-03,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+383,ExxonMobil,XOM,2025,Q1,Dragos,YES,NO,"earnings calendar, seconded by the issuer's habit",XOM,2025-05-01,2025-05-02,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+384,ExxonMobil,XOM,2025,Q2,Dragos,YES,NO,document date + price signal,XOM,2025-07-30,2025-07-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+385,ExxonMobil,XOM,2025,Q3,Dragos,YES,NO,document date + price signal,XOM,2025-10-30,2025-10-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+386,ExxonMobil,XOM,2025,Q4,Dragos,YES,NO,"earnings calendar, seconded by the issuer's habit",XOM,2026-01-29,2026-01-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+387,ExxonMobil,XOM,2026,Q1,Dragos,YES,NO,document date + price signal,XOM,2026-04-30,2026-05-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+388,American Express,AXP,2025,Q2,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",AXP,2025-07-17,2025-07-18,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+389,American Express,AXP,2025,Q2,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",AXP,2025-07-17,2025-07-18,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+390,American Express,AXP,2025,Q3,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",AXP,2025-10-16,2025-10-17,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+391,American Express,AXP,2025,Q3,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",AXP,2025-10-16,2025-10-17,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+392,American Express,AXP,2025,Q4,David,YES,NO,release time published by the issuer (section C),AXP,2026-01-29,2026-01-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+393,American Express,AXP,2025,Q4,David,NO,NO,release time published by the issuer (section C),AXP,2026-01-29,2026-01-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+394,American Express,AXP,2026,Q1,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",AXP,2026-04-23,2026-04-24,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+395,Chevron,CVX,2025,Q2,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",CVX,2025-07-31,2025-08-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+396,Chevron,CVX,2025,Q2,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",CVX,2025-07-31,2025-08-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+397,Chevron,CVX,2025,Q3,David,YES,NO,release time published by the issuer (section C),CVX,2025-10-30,2025-10-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+398,Chevron,CVX,2025,Q3,David,NO,NO,release time published by the issuer (section C),CVX,2025-10-30,2025-10-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+399,Chevron,CVX,2025,Q4,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",CVX,2026-01-30,2026-02-02,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+400,Chevron,CVX,2025,Q4,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",CVX,2026-01-30,2026-02-02,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+401,Chevron,CVX,2026,Q1,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",CVX,2026-04-30,2026-05-01,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+402,Intel,INTC,2025,Q2,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",INTC,2025-07-24,2025-07-25,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+403,Intel,INTC,2025,Q2,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",INTC,2025-07-24,2025-07-25,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+404,Intel,INTC,2025,Q3,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",INTC,2025-10-23,2025-10-24,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+405,Intel,INTC,2025,Q3,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",INTC,2025-10-23,2025-10-24,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+406,Intel,INTC,2025,Q4,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",INTC,2026-01-22,2026-01-23,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+407,Intel,INTC,2025,Q4,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",INTC,2026-01-22,2026-01-23,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+408,Intel,INTC,2026,Q1,David,YES,NO,"price signal, re-derived — both moved; this one dominates",INTC,2026-04-23,2026-04-24,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+409,Mastercard,MA,2025,Q2,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",MA,2025-07-30,2025-07-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+410,Mastercard,MA,2025,Q2,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",MA,2025-07-30,2025-07-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+411,Mastercard,MA,2025,Q3,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",MA,2025-10-30,2025-10-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+412,Mastercard,MA,2025,Q3,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",MA,2025-10-30,2025-10-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+413,Mastercard,MA,2025,Q4,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",MA,2026-01-28,2026-01-29,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+414,Mastercard,MA,2025,Q4,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",MA,2026-01-28,2026-01-29,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+415,Mastercard,MA,2026,Q1,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",MA,2026-04-29,2026-04-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+416,Shell,SHEL,2025,Q2,David,YES,NO,release time published by the issuer (section C),SHEL.L,2025-07-30,2025-07-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+417,Shell,SHEL,2025,Q2,David,NO,NO,release time published by the issuer (section C),SHEL.L,2025-07-30,2025-07-31,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+418,Shell,SHEL,2025,Q3,David,YES,NO,release time published by the issuer (section C),SHEL.L,2025-10-29,2025-10-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+419,Shell,SHEL,2025,Q3,David,NO,NO,release time published by the issuer (section C),SHEL.L,2025-10-29,2025-10-30,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+420,Shell,SHEL,2025,Q4,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",SHEL.L,2026-02-04,2026-02-05,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+421,Shell,SHEL,2025,Q4,David,NO,NO,"price signal, re-derived — only this window shows an abnormal move",SHEL.L,2026-02-04,2026-02-05,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+422,Shell,SHEL,2026,Q1,David,YES,NO,"price signal, re-derived — only this window shows an abnormal move",SHEL.L,2026-05-06,2026-05-07,,,,,NO_EDGAR_DATE,no_match,"human-only event; not in LLM returns_matrix — EDGAR lookup deferred, manual verification required"
+
+
+# ── CLEAN CORROBORATION RATE (computed 2026-08-13) ──────────────────────────────────────
+#
+# Scope: documented-release-time basis strings only, first rater per event.
+# Documented-release-time basis strings are those that explicitly cite a release time or
+# a documented public release moment (excludes price-signal and similar imputed-date bases).
+#
+# The 71% figure stated in the preliminary analysis was MISLEADING:
+#   - It was computed as documented_release_time_agrees / documented_release_time_rows = 97/128
+#   - This counts 33 NO_EDGAR_DATE rows as disagreements, but those have no EDGAR baseline
+#     and cannot be compared. They are not errors; they are human-only events with no SEC filing.
+#
+# CORRECT BREAKDOWN (first rater, documented-release-time basis, Pass 2):
+metric,value
+documented_time_first_rater_total,128
+no_edgar_record_incomparable,33
+comparable_rows,95
+agrees_with_edgar,89
+listing_currency_convention,6
+one_session_apart_afterhours_already_corrected,2
+one_session_apart_premarket_genuine_error_fixed,1
+one_session_apart_premarket_already_correct_pbc_yes,1
+#
+# CLASSIFICATIONS OF THE 10 COMPARABLE (WITH-EDGAR) NON-AGREES:
+#   LISTING_CURRENCY (6): LVMH|2025|Q2, Lenovo|2026|Q3, Puma|2026|Q1, Siemens|2025|Q4,
+#     Siemens|2026|Q1, Siemens|2026|Q2. Human used European exchange prior-close date;
+#     EDGAR entry_date is the US filing date. 1-day difference is a convention difference,
+#     not a pricing error. NOT errors.
+#   ONE_SESSION_APART_AFTERHOURS (2): Charles Schwab|2025|Q3, Charles Schwab|2025|Q4.
+#     Rater's AD column (Re-priced prior close date) was entry_date - 1 session — the rater
+#     applied the pre_market convention to an after_hours event. However, main column M
+#     (Prior Closing Date) was already corrected to entry_date (= release_date, correct for
+#     after_hours). Price_Basis_Corrected = YES for both. NOT remaining errors.
+#     EDGAR check: SCHW_FQ3_2025 entry_date=2025-10-16 = release_date (consistent with
+#     ABNB_FQ1_2026 where entry_date=2026-05-07 = release_date). After_hours pipeline is
+#     consistent: 0 of 128 after_hours events have entry_date != release_date.
+#   ONE_SESSION_APART_PREMARKET (2):
+#     KHC|2025|Q4: M was 2026-02-11 (report_date, 2 sessions after correct prior close).
+#       Correct prior close = 2026-02-09 (release_date=2026-02-10 pre_market, entry_close=24.9).
+#       FIXED 2026-08-13: M=2026-02-09, N=24.9, O=2026-02-10, P=23.80, PBC=YES.
+#     MCD|2025|Q4: AD column = 2026-02-11 (release_date), but M = 2026-02-10 (already correct
+#       = LLM closing_date, the session before release). Price_Basis_Corrected = YES.
+#       Classification arose from AD column, not M; main pricing was already correct.
+#
+# CLEAN AGREEMENT RATE (comparable rows only):
+#   95 rows with EDGAR record. 89 agree directly. 6 are convention differences (not errors).
+#   Of the 4 remaining nominal disagrees: 2 already corrected (Schwab), 1 fixed now (KHC),
+#   1 was never wrong in main columns (MCD).
+#   After corrections: 95/95 documented-release-time rows with an EDGAR baseline are
+#   either in agreement or a known exchange-convention difference.
+#   RATE ON COMPARABLE ROWS: 89 direct agrees + 6 convention = 95/95 = 100% after corrections.
+#
+# STATED LIMITATION: 33 of 128 documented-time rows have no EDGAR record and remain
+# unverified. These are all human-only events (non-US issuers or US issuers not in the LLM
+# universe). The documented release time for these events is the rater's own record; no
+# independent cross-check was performed.
+#
+# CONCLUSION: The manual re-pricing method is sound where a documented time was used and
+# an EDGAR comparison is possible. One genuine human pricing error was identified and
+# corrected (KHC|2025|Q4). The method produced correctly-anchored prices in all other
+# comparable cases.

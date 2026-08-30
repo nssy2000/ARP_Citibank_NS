@@ -1,0 +1,177 @@
+{
+  "document_id": "BAC_FQ1_2026",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports strong backward-looking results (EPS up 25% YoY, revenue up 7%, operating leverage of 2.9%) and management expresses confidence in the business model and momentum. However, there is no explicit forward guidance raise; the document only contains general forward-looking statements and cautions about 'evolving risks.' The score is mildly positive because the results show genuine operational momentum (e.g., 16th consecutive quarter of YoY sales and trading revenue growth, 11th consecutive quarter of sequential deposit growth) and management's tone is confident, but the absence of a formal guidance raise and the presence of risk language prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$30.3 billion, up 7% year-over-year.",
+    "eps": "Diluted EPS of $1.11, up 25% year-over-year.",
+    "guidance": "Not disclosed. The document contains forward-looking statements about risks and uncertainties but does not provide specific revenue, earnings, or growth guidance for future periods.",
+    "margin": "Efficiency ratio improved ~170 bps to 61%; operating leverage of 2.9%; return on average common shareholders' equity of 12.0%; return on average tangible common shareholders' equity of 16.0%.",
+    "key_risks": [
+      "Impact of U.S. and global interest rates, inflation, currency exchange rates, economic conditions, trade policies and tensions, including changes in or imposition of tariffs and/or trade barriers.",
+      "Geopolitical instability and uncertainties about financial stability and growth rates of non-U.S. jurisdictions.",
+      "Possibility that future credit losses may be higher than currently expected due to changes in economic assumptions.",
+      "Adverse developments affecting the U.S. or global banking industry, including bank failures and liquidity concerns.",
+      "Potential judgments, orders, settlements, penalties, fines and reputational damage from pending or future litigation and regulatory actions.",
+      "Impact of failures or disruptions in or breaches of the Corporation’s operations or information systems, including from cybersecurity incidents."
+    ],
+    "key_opportunities": [
+      "Revenue growth driven by higher net interest income, sales and trading revenue, asset management fees, and investment banking fees.",
+      "Strong client activity, including solid consumer spending and stable asset quality, indicating a resilient American economy.",
+      "Continued organic growth: added ~100K net new consumer checking accounts, 29 consecutive quarters of net growth; 16th consecutive quarter of year-over-year sales and trading revenue growth.",
+      "Digital adoption and engagement: 71% of total sales were digitally-enabled; 4.3 billion digital logins, up 8%.",
+      "Diversified business model, durable balance sheet, and commitment to Responsible Growth cited as sources of strength."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "CEO Brian Moynihan stated 'Earnings per share rose 25% year-over-year, starting 2026 with strong momentum' and CFO Alastair Borthwick said 'we once again demonstrated our flexibility to invest for growth, while practicing good expense discipline,' reflecting a confident tone."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Revenue was $30.3 billion, up 7% year-over-year.",
+      "quote": "Revenue, net of interest expense, of $30.3 billion ($30.4 billion FTE),(A) up 7%, reflected higher net interest income (NII), sales and trading revenue, asset management fees and investment banking fees",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS was $1.11, up 25% year-over-year.",
+      "quote": "Diluted earnings per share of $1.11 compared to $0.89, up 25%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No specific forward guidance is provided.",
+      "quote": "Forward-looking statements represent the Corporation’s current expectations, plans or forecasts of its or its business segments' future results, which may include, among other measures, revenue, liquidity, net interest income, other income, provision for credit losses, expenses, operating leverage, effective tax rate, efficiency ratio, capital measures, deposits and assets, as well as strategy, future business and economic conditions more generally, and other future matters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Efficiency ratio improved ~170 bps to 61%.",
+      "quote": "Efficiency ratio improved ~170 bps to 61%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating leverage was 2.9%.",
+      "quote": "Operating leverage of 2.9%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average common shareholders' equity was 12.0%.",
+      "quote": "Return on average common shareholders' equity ratio of 12.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Return on average tangible common shareholders' equity was 16.0%.",
+      "quote": "return on average tangible common shareholders' equity ratio of 16.0%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key risks include impact of interest rates, inflation, trade policies, geopolitical instability, credit losses, banking industry developments, litigation, and cybersecurity.",
+      "quote": "the impact of U.S. and global interest rates (including the potential for ongoing fluctuations in interest rates), inflation, currency exchange rates, economic conditions, trade policies and tensions, including changes in, or the imposition of, tariffs and / or trade barriers and the economic impacts, volatility and uncertainty resulting therefrom, which may have varying effects across industries and geographies, and geopolitical instability; ... the possibility that future credit losses may be higher than currently expected, including due to changes in economic assumptions ... the impact of adverse developments affecting the U.S. or global banking industry, including a deterioration in private credit markets, bank failures and liquidity concerns ... the Corporation’s potential judgments, orders, settlements, penalties, fines and reputational damage ... from pending, threatened or future litigation and regulatory inquiries ... the impact of failures or disruptions in or breaches of the Corporation’s operations or information systems, or those of various third parties, including regulators and federal and state governments, such as from cybersecurity incidents",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Key opportunities include revenue growth from NII, sales and trading, asset management fees, and IB fees; strong client activity; organic growth in checking accounts and sales and trading; digital adoption; and a diversified business model.",
+      "quote": "Revenue growth of 7% year-over-year included net interest income that was better than we expected, up 9%, as well as double-digit growth in sales and trading revenue, investment banking fees and asset management fees. ... we saw healthy client activity, including solid consumer spending and stable asset quality, indicating a resilient American economy. ... Added ~100K net new consumer checking accounts; completed 29 consecutive quarters of net growth ... 16th consecutive quarter of year-over-year growth ... 71% of total sales were digitally-enabled ... We believe our diversified business model, durable balance sheet and commitment to Responsible Growth continue to be sources of strength.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "Earnings per share rose 25% year-over-year, starting 2026 with strong momentum. ... we once again demonstrated our flexibility to invest for growth, while practicing good expense discipline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.20, reflecting strong backward results and confident tone but no formal guidance raise.",
+      "quote": "Earnings per share rose 25% year-over-year, starting 2026 with strong momentum. ... We remain watchful of evolving risks.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "guidance",
+      "reason": "The document does not contain explicit forward guidance for revenue, earnings, or growth. The forward-looking statements section is a standard boilerplate. A human reviewer should confirm that no guidance was provided."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 1
+  },
+  "model_document_id": "BAC_Bundled Earnings Report_2026-04-15",
+  "report_metadata": {
+    "issuer": "bank_of_america",
+    "company": "Bank of America Corporation",
+    "ticker": "BAC",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-04-15",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2026-Q1\\bac-1q26-press-release.html",
+        "pub_date": "2026-04-15"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2026-Q1\\bac-1q26-presentation.html",
+        "pub_date": "2026-04-15"
+      }
+    ],
+    "document_id": "BAC_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260709T144506Z",
+    "timestamp": "2026-07-09T14:47:36Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2026-Q1\\bac-1q26-press-release.html",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2026-Q1\\bac-1q26-press-release.html",
+        "page_count": 1,
+        "extracted_characters": 60558,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\bank_of_america\\CY2026-Q1\\bac-1q26-presentation.html",
+        "page_count": 1,
+        "extracted_characters": 68065,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\bank_of_america\\extracted\\BAC_FQ1_2026.txt"
+  }
+}

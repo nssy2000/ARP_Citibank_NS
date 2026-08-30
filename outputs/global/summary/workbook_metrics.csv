@@ -1,0 +1,106 @@
+metric_name,value,unit,n,denominator_definition,event_set,convention,ci_low,ci_high,ci_level,p_value,mde,test_used,threshold_dependent,source_file,notes
+total_events_scored,268,events,268,,N=268 phase2 scored events,,,,,,,,FALSE,effective_sample_funnel.md,
+excluded_worksheet,25,events,268,,N=268,,,,,,,,FALSE,worksheet_leak_flags.csv,LLM input included human rater worksheet
+excluded_spot,1,events,,,,,,,,,,,FALSE,effective_sample_funnel.md,SPOT_FQ1_2026 misattribution
+excluded_timing,9,events,,,,,,,,,,,FALSE,effective_sample_funnel.md,"9 non-US issuers, timing unresolved"
+clean_universe,233,events,,,N=233 clean universe,,,,,,,,FALSE,effective_sample_funnel.md,
+traded_events,146,events,,Model called BUY or SELL,N=233 clean universe,,,,,,,,TRUE,ext2_holding_curve.csv,
+graded_events,95,events,,|ret_overnight| > 2% AND traded,N=233 clean universe,pre-registered ±2% overnight band,,,,,,,TRUE,ext2_holding_curve.csv,
+selectivity_accuracy,65.3%,percent,95,model traded AND |ret_overnight|>2%,N=233 clean universe,"HOLD-excluded, pre-registered ±2% band",,,,0.024,±10.8pp,binomial vs always-DOWN floor 54.7%,TRUE,ext2_holding_curve.csv,62/95; margin +10.5pp vs floor 54.7% (52/95 always-DOWN)
+selectivity_accuracy_numerator,62/95,,95,,N=233 clean universe,,,,,,,,TRUE,ext2_holding_curve.csv,
+selectivity_floor_always_down,54.7%,percent,95,always-DOWN (predict SELL every event) on graded set,N=233 clean universe,52/95 graded events have negative return,,,,,,,FALSE,ext2_holding_curve.csv,
+selectivity_margin_vs_floor,+10.5pp,pp,95,,,,,,,0.024,±10.8pp,binomial one-sided greater vs always-DOWN 52/95,TRUE,ext2_holding_curve.csv,
+coverage_accuracy,42.2%,percent,147,all events with |ret_overnight|>2% (model traded or not),N=233 clean universe,"HOLD=wrong, pre-registered ±2% band",,,,,,,FALSE,ext2_holding_curve.csv,62/147; floor=54.4% (80/147 always-DOWN); margin -12.2pp. Model missed 52 events that moved.
+coverage_floor_always_down,54.4%,percent,147,all events with |ret_overnight|>2%,N=233 clean universe,,,,,,,,FALSE,,80/147 events have negative return
+mean_net_per_trade_overnight,1.8617%,percent,146,traded events,N=233 clean universe,"overnight, 10bps round-trip cost, 0bps short borrow",0.98%,2.76%,90%,,,,TRUE,ext2_holding_curve.csv,+1.862% per trade
+summed_total_return,+271.81%,percent (order-dependent),146,,N=233 clean universe — N=268 OLD ANCHOR,,,,,,,,TRUE,item_e_handoff.md,"Order-dependent compounded equity curve, not an achievable balance. Mean net per trade is the primary P&L metric. Value from item_e_handoff.md (+271.81% on N=233)."
+t_statistic_per_trade,3.43,,146,traded events,N=233 clean universe,mean_net/pstdev(nets)*sqrt(N_traded) — NOT a time-series Sharpe,,,,,,,TRUE,item_e_handoff.md,Grows mechanically with sample size. Do not label as Sharpe.
+info_ratio_per_trade,0.284,,146,,,,,,,,,,TRUE,item_e_handoff.md,"mean_net / pstdev(nets), unscaled by sqrt(N)"
+spearman_rho_overnight,0.2360,,233,,N=233 clean universe,"overnight return, 0.02 band (pre-registered)",,,,0.0003,,"Spearman rank correlation, blended score vs ret_overnight",FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_overnight,1.8617%,percent,146,,N=233 clean universe,,0.9832%,2.7558%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_overnight,65.3%,percent,95,|ret_overnight|>band,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_1d,0.1587,,233,,N=233 clean universe,"1d return, 0.022462 band (recalibrated)",,,,0.0153,,"Spearman rank correlation, blended score vs ret_overnight",FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_1d,1.2505%,percent,146,,N=233 clean universe,,0.3257%,2.2098%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_1d,60.2%,percent,98,|ret_1d|>band,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_3d,0.1115,,233,,N=233 clean universe,"3d return, 0.023096 band (recalibrated)",,,,0.0895,,"Spearman rank correlation, blended score vs ret_overnight",FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_3d,1.0264%,percent,146,,N=233 clean universe,,0.0293%,2.0508%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_3d,56.2%,percent,96,|ret_3d|>band,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_5d,0.0717,,233,,N=233 clean universe,"5d return, 0.026177 band (recalibrated)",,,,0.2760,,"Spearman rank correlation, blended score vs ret_overnight",FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_5d,0.8458%,percent,146,,N=233 clean universe,,-0.2701%,1.9507%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_5d,52.1%,percent,94,|ret_5d|>band,,,,,,,,,TRUE,ext2_holding_curve.csv,
+spearman_rho_10d,0.0578,,233,,N=233 clean universe,"10d return, 0.035159 band (recalibrated)",,,,0.3799,,"Spearman rank correlation, blended score vs ret_overnight",FALSE,ext2_holding_curve.csv,
+mean_net_per_trade_10d,0.6860%,percent,146,,N=233 clean universe,,-0.6347%,2.0263%,90%,,,,FALSE,ext2_holding_curve.csv,
+accuracy_10d,53.4%,percent,103,|ret_10d|>band,,,,,,,,,TRUE,ext2_holding_curve.csv,
+majority_direction_floor_full_sample,54.7%,percent,95,"always-DOWN on graded events (|ret_overnight|>2%, traded)","N=233 clean universe, graded events only",52/95 graded events have negative return,,,,,,,FALSE,ext2_holding_curve.csv,
+cohens_kappa_human_vs_llm,0.1092,,171,paired events with both human and LLM BUY/HOLD/SELL call,"N=171 paired events (section=All, first_rater=YES, in_llm=YES, exclusions applied)","3x3 BUY/HOLD/SELL vs BUY/HOLD/SELL, no return grading",0.030,0.190,90%,,,"bootstrap 10000 resamples, seed 20260709",FALSE,kappa_near_independence.csv,
+call_count_human_buy,96,count,171,,N=171 paired events,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_frac_human_buy,0.5614,fraction,171,,,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_human_hold,40,count,171,,N=171 paired events,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_frac_human_hold,0.2339,fraction,171,,,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_human_sell,35,count,171,,N=171 paired events,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_frac_human_sell,0.2047,fraction,171,,,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_llm_buy,42,count,171,,N=171 paired events,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_frac_llm_buy,0.2456,fraction,171,,,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_llm_hold,69,count,171,,N=171 paired events,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_frac_llm_hold,0.4035,fraction,171,,,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_count_llm_sell,60,count,171,,N=171 paired events,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+call_frac_llm_sell,0.3509,fraction,171,,,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+direction_only_n,76,events,,,N=76 events where both arms called BUY or SELL,,,,,,,,FALSE,human_vs_llm_statistics.csv,
+direction_human_sign_accuracy,0.5789,fraction,76,,N=76 direction-only,"sign accuracy, no band filter",,,,,,,FALSE,human_vs_llm_statistics.csv,44/76
+direction_llm_sign_accuracy,0.6053,fraction,76,,,,,,,,,,FALSE,human_vs_llm_statistics.csv,46/76
+direction_llm_minus_human_pp,2.6,pp,76,,,,-7.9,13.2,90%,0.750,,bootstrap paired 10000 resamples seed 20260709,FALSE,human_vs_llm_statistics.csv,
+direction_floor_always_down_strict,55.3%,percent,76,42/76 events with ret_overnight < 0 (strict negative),N=76 direction-only,ret < 0 strictly; excludes PUM.DE_FQ4_2025 (ret=0),,,,,,,FALSE,human_vs_llm_statistics.csv,
+direction_floor_always_down_incl_zero,56.6%,percent,76,43/76 events with ret_overnight <= 0 (includes zero-return PUM.DE_FQ4_2025),N=76 direction-only,ret <= 0; used for per-direction base-rate in finding #7,,,,,,,FALSE,human_vs_llm_statistics.csv,PUM.DE_FQ4_2025 has ret_overnight=0.0 exactly
+direction_human_vs_always_down_p,0.366,,76,,,,,,,0.366,,binomial one-sided greater vs 42/76=55.3%,FALSE,human_vs_llm_statistics.csv,
+direction_llm_vs_always_down_p,0.210,,76,,,,,,,0.210,,binomial one-sided greater vs 42/76=55.3%,FALSE,human_vs_llm_statistics.csv,
+direction_human_buy_accuracy,50.9%,percent,53,human BUY calls among N=76 direction-only events,N=76 direction-only,"sign accuracy, no band",,,,0.5000,,binomial one-sided greater vs 50%; vs base-rate p=0.1669 (base_rate=0.4342),FALSE,human_vs_llm_direction_decomposition.csv,"27/53, vs_50pct_margin=0.9pp"
+direction_human_sell_accuracy,73.9%,percent,23,human SELL calls among N=76 direction-only events,N=76 direction-only,"sign accuracy, no band",,,,0.0173,,binomial one-sided greater vs 50%; vs base-rate p=0.0688 (base_rate=0.5658),FALSE,human_vs_llm_direction_decomposition.csv,"17/23, vs_50pct_margin=23.9pp"
+direction_llm_buy_accuracy,55.6%,percent,36,llm BUY calls among N=76 direction-only events,N=76 direction-only,"sign accuracy, no band",,,,0.3089,,binomial one-sided greater vs 50%; vs base-rate p=0.0972 (base_rate=0.4342),FALSE,human_vs_llm_direction_decomposition.csv,"20/36, vs_50pct_margin=5.6pp"
+direction_llm_sell_accuracy,65.0%,percent,40,llm SELL calls among N=76 direction-only events,N=76 direction-only,"sign accuracy, no band",,,,0.0403,,binomial one-sided greater vs 50%; vs base-rate p=0.1805 (base_rate=0.5658),FALSE,human_vs_llm_direction_decomposition.csv,"26/40, vs_50pct_margin=15.0pp"
+item_c_four_arm_n119_full_bundle_accuracy,68.1%,percent,47,graded events (|ret|>2%) in four_arm_n119,four_arm_n119,"HOLD-excluded, ±2% overnight band",,,,,,,TRUE,section_ablation_cost_per_correct.csv,32/47; calls=119; mean_tokens=30096
+item_c_four_arm_n119_full_bundle_cost_per_correct,$0.0358,USD per correct call,32,,four_arm_n119,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,total_cost=$1.1441; total_tokens=3581446
+item_c_four_arm_n119_full_bundle_mean_tokens,30096,tokens per call,,,four_arm_n119,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+item_c_four_arm_n119_press_release_accuracy,64.9%,percent,37,graded events (|ret|>2%) in four_arm_n119,four_arm_n119,"HOLD-excluded, ±2% overnight band",,,,,,,TRUE,section_ablation_cost_per_correct.csv,24/37; calls=119; mean_tokens=13030
+item_c_four_arm_n119_press_release_cost_per_correct,$0.0225,USD per correct call,24,,four_arm_n119,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,total_cost=$0.5394; total_tokens=1550583
+item_c_four_arm_n119_press_release_mean_tokens,13030,tokens per call,,,four_arm_n119,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+item_c_four_arm_n119_prepared_remarks_accuracy,63.4%,percent,41,graded events (|ret|>2%) in four_arm_n119,four_arm_n119,"HOLD-excluded, ±2% overnight band",,,,,,,TRUE,section_ablation_cost_per_correct.csv,26/41; calls=119; mean_tokens=10287
+item_c_four_arm_n119_prepared_remarks_cost_per_correct,$0.0208,USD per correct call,26,,four_arm_n119,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,total_cost=$0.5412; total_tokens=1224173
+item_c_four_arm_n119_prepared_remarks_mean_tokens,10287,tokens per call,,,four_arm_n119,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+item_c_four_arm_n119_qa_only_accuracy,68.4%,percent,38,graded events (|ret|>2%) in four_arm_n119,four_arm_n119,"HOLD-excluded, ±2% overnight band",,,,,,,TRUE,section_ablation_cost_per_correct.csv,26/38; calls=119; mean_tokens=13163
+item_c_four_arm_n119_qa_only_cost_per_correct,$0.0229,USD per correct call,26,,four_arm_n119,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,total_cost=$0.5952; total_tokens=1566442
+item_c_four_arm_n119_qa_only_mean_tokens,13163,tokens per call,,,four_arm_n119,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+item_c_all_n200_full_bundle_accuracy,65.7%,percent,70,graded events (|ret|>2%) in all_n200,all_n200,"HOLD-excluded, ±2% overnight band",,,,,,,TRUE,section_ablation_cost_per_correct.csv,46/70; calls=200; mean_tokens=33130
+item_c_all_n200_full_bundle_cost_per_correct,$0.0460,USD per correct call,46,,all_n200,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,total_cost=$2.1166; total_tokens=6626021
+item_c_all_n200_full_bundle_mean_tokens,33130,tokens per call,,,all_n200,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+item_c_all_n200_press_release_accuracy,62.5%,percent,56,graded events (|ret|>2%) in all_n200,all_n200,"HOLD-excluded, ±2% overnight band",,,,,,,TRUE,section_ablation_cost_per_correct.csv,35/56; calls=200; mean_tokens=15298
+item_c_all_n200_press_release_cost_per_correct,$0.0290,USD per correct call,35,,all_n200,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,total_cost=$1.0149; total_tokens=3059630
+item_c_all_n200_press_release_mean_tokens,15298,tokens per call,,,all_n200,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+item_c_all_n200_prepared_remarks_accuracy,63.4%,percent,41,graded events (|ret|>2%) in all_n200,all_n200,"HOLD-excluded, ±2% overnight band",,,,,,,TRUE,section_ablation_cost_per_correct.csv,26/41; calls=119; mean_tokens=10287
+item_c_all_n200_prepared_remarks_cost_per_correct,$0.0208,USD per correct call,26,,all_n200,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,total_cost=$0.5412; total_tokens=1224173
+item_c_all_n200_prepared_remarks_mean_tokens,10287,tokens per call,,,all_n200,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+item_c_all_n200_qa_only_accuracy,68.4%,percent,38,graded events (|ret|>2%) in all_n200,all_n200,"HOLD-excluded, ±2% overnight band",,,,,,,TRUE,section_ablation_cost_per_correct.csv,26/38; calls=119; mean_tokens=13163
+item_c_all_n200_qa_only_cost_per_correct,$0.0229,USD per correct call,26,,all_n200,,,,,,,,TRUE,section_ablation_cost_per_correct.csv,total_cost=$0.5952; total_tokens=1566442
+item_c_all_n200_qa_only_mean_tokens,13163,tokens per call,,,all_n200,,,,,,,,FALSE,section_ablation_cost_per_correct.csv,
+item_c_paired_press_release_vs_full_bundle_strict_(both_graded),0.0,fraction diff,45,,four_arm,strict (both graded),0.0,0.0,,1.0,,,TRUE,section_ablation_paired_diffs.csv,All 45 events where both arms breach ±2% have identical signals — zero information
+item_c_paired_press_release_vs_full_bundle_inclusive_(either_graded_ungraded=0.5),-0.0682,fraction diff,66,,four_arm,"inclusive (either graded, ungraded=0.5)",-0.1212,-0.0152,,0.0548,,,TRUE,section_ablation_paired_diffs.csv,Full bundle outperforms by 6.8pp when ungraded events scored at 0.5
+item_c_paired_prepared_remarks_vs_full_bundle_strict_(both_graded),-0.0189,fraction diff,53,,four_arm,strict (both graded),-0.0566,0.0,,0.7284,,,TRUE,section_ablation_paired_diffs.csv,
+item_c_paired_prepared_remarks_vs_full_bundle_inclusive_(either_graded_ungraded=0.5),-0.0403,fraction diff,62,,four_arm,"inclusive (either graded, ungraded=0.5)",-0.0887,0.0081,,0.201,,,TRUE,section_ablation_paired_diffs.csv,
+item_c_paired_qa_only_vs_full_bundle_strict_(both_graded),-0.0233,fraction diff,43,,four_arm,strict (both graded),-0.093,0.0465,,0.7934,,,TRUE,section_ablation_paired_diffs.csv,
+item_c_paired_qa_only_vs_full_bundle_inclusive_(either_graded_ungraded=0.5),-0.053,fraction diff,66,,four_arm,"inclusive (either graded, ungraded=0.5)",-0.1288,0.0227,,0.2686,,,TRUE,section_ablation_paired_diffs.csv,
+frontier_Majority-class_HOLD_accuracy_flat_excluded,54.6%,percent,119,"graded events, FLAT-excluded","eval split (186 events, 119 graded)",,0.471, 0.622,90%,,,,FALSE,frontier_table.csv,Always predicts HOLD; 0 trades. FLAT-excluded: always-DOWN = 65/119.
+frontier_Majority-class_HOLD_accuracy_flat_wrong,36.0%,percent,186,"all eval events, HOLD=wrong",eval split (186 events),,,,,,,,FALSE,frontier_table.csv,
+frontier_Loughran-McDonald_(LM)_accuracy_flat_excluded,15.1%,percent,119,"graded events, FLAT-excluded","eval split (186 events, 119 graded)",,0.101, 0.210,90%,,,,FALSE,frontier_table.csv,"pysentiment2 word-count score, no API cost. FLAT-excluded: 18/119."
+frontier_Loughran-McDonald_(LM)_accuracy_flat_wrong,34.9%,percent,186,"all eval events, HOLD=wrong",eval split (186 events),,,,,,,,FALSE,frontier_table.csv,
+frontier_FinBERT_(ProsusAI_finbert)_accuracy_flat_excluded,34.4%,percent,119,"graded events, FLAT-excluded","eval split (186 events, 119 graded)",,0.277, 0.420,90%,,,,FALSE,frontier_table.csv,"512-token chunks, token-weighted avg; local compute only. FLAT-excluded: 41/119."
+frontier_FinBERT_(ProsusAI_finbert)_accuracy_flat_wrong,32.3%,percent,186,"all eval events, HOLD=wrong",eval split (186 events),,,,,,,,FALSE,frontier_table.csv,
+frontier_Deployed_model_(DeepSeek_0.55_0.45_micro_macro)_accuracy_flat_excluded,42.9%,percent,119,"graded events, FLAT-excluded","eval split (186 events, 119 graded)",,0.353, 0.504,90%,,,,FALSE,frontier_table.csv,Structured output with evidence quotes; API cost per document. FLAT-excluded: 51/119.
+frontier_Deployed_model_(DeepSeek_0.55_0.45_micro_macro)_accuracy_flat_wrong,44.1%,percent,186,"all eval events, HOLD=wrong",eval split (186 events),,,,,,,,FALSE,frontier_table.csv,
+walkforward_n_windows,4,,,,,,,,,,,,FALSE,item_e_walkforward.json,
+walkforward_degeneracy_finding,"{'mean_net_degenerate': 3, 'accuracy_degenerate': 2, 'total_windows': 4, 'both_degenerate': True}",,,,,,,,,,,,FALSE,item_e_walkforward.json,Both mean-net and accuracy objectives tried; both degenerate
+walkforward_mean_net_objective_degenerate_windows,,,,,walk-forward mean_net_objective,,,,,,,,FALSE,item_e_walkforward.json,
+walkforward_accuracy_objective_degenerate_windows,,,,,walk-forward accuracy_objective,,,,,,,,FALSE,item_e_walkforward.json,
+in_sample_deployed_accuracy,65.3%,percent,95,"graded events, deployed thresholds, full N=233",N=233 clean universe,,,,,,,,TRUE,item_e_walkforward.json,62/95; trades=146
+eval_split_always_down_floor,54.6%,percent,119,65/119 graded eval events have negative return,"eval split (latest 80% by release_date, 186 events, 119 graded)",,,,,,,,FALSE,frontier_table.csv,
+eval_split_accuracy,68.0%,percent,75,traded+graded events in eval split,"eval split, N=186",,,,,0.013,±14.4pp,binomial vs always-DOWN floor 54.6%,TRUE,surviving_findings.md,"51/75; margin +13.4pp; sorted by release_date, latest 80%"
+dev_split_accuracy,55.0%,percent,20,traded+graded events in dev split,"dev split, N=47 (earliest 20% by release_date)",,,,,,±27.8pp,,TRUE,surviving_findings.md,"11/20; margin +1.4pp vs floor 53.6% — not significant, underpowered"
+cross_issuer_accuracy,63.5%,percent,52,graded events in 29 post-sweep issuers,"N=101 post-sweep events, 29 issuers (2 further timing-excluded)",,,,,0.0627,±20.8pp,binomial vs always-DOWN floor,TRUE,item_e_walkforward.json,"33/52; floor=51.9%; RECONSTRUCTED subset — sweep membership inferred from issuer order; cross-issuer test only, NOT temporal generalisation; dates overlap with in-sweep events (both span 2023-2026)"

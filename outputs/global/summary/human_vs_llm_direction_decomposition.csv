@@ -1,0 +1,7 @@
+arm,call,n_correct,n_total,accuracy,vs_50pct_margin_pp,vs_50pct_p,vs_base_rate_margin_pp,vs_base_rate_p,base_rate
+human,BUY,33,63,0.5238,2.4,0.4007,6.5,0.1816,0.4588
+human,SELL,16,22,0.7273,22.7,0.0262,18.6,0.0600,0.5412
+human,Overall,49,85,0.5765,7.6,0.0964,,,
+llm,BUY,32,59,0.5424,4.2,0.3015,8.4,0.1237,0.4588
+llm,SELL,18,26,0.6923,19.2,0.0378,15.1,0.0873,0.5412
+llm,Overall,50,85,0.5882,8.8,0.0642,,,

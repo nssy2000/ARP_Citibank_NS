@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_amd",
+  "reports": [
+    {
+      "document_id": "AMD_FQ2_2025",
+      "issuer": "p2_amd",
+      "company": "AMD",
+      "ticker": "AMD",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-05",
+      "release_date": "2025-08-05",
+      "release_date_source": "EDGAR 8-K Item 2.02, amd-20250805.htm, acc 0000002488-25-000106",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amd/CY2025-Q2/05 amd q2 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amd/CY2025-Q2/AMD-Q2-2025-Earnings-Call-Transcript-InsiderMonkey.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "AMD_FQ4_2025",
+      "issuer": "p2_amd",
+      "company": "AMD",
+      "ticker": "AMD",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-03",
+      "release_date": "2026-02-03",
+      "release_date_source": "EDGAR 8-K Item 2.02, amd-20260203.htm, acc 0000002488-26-000014",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amd/CY2025-Q4/06 amd q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amd/CY2025-Q4/AMD-Q4-2025-Earnings-Call-Transcript-InsiderMonkey.txt"
+        }
+      ]
+    },
+    {
+      "document_id": "AMD_FQ1_2026",
+      "issuer": "p2_amd",
+      "company": "AMD",
+      "ticker": "AMD",
+      "sector": "Technology/Semiconductors",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-05",
+      "release_date": "2026-05-05",
+      "release_date_source": "EDGAR 8-K Item 2.02, amd-20260505.htm, acc 0000002488-26-000072",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/amd/CY2026-Q1/04 amd q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/amd/CY2026-Q1/AMD-Q1-2026-Earnings-Call-Transcript-MotleyFool.txt"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

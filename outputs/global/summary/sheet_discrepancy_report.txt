@@ -1,0 +1,55 @@
+PRICE DISCREPANCY REPORT
+Compares yfinance-fetched prices against human-entered prices from screenshot.
+Flag threshold: |diff| > $0.50
+========================================================================
+
+Checked: 16 quarters  |  OK: 4  |  FLAGGED: 12
+
+--- FLAGGED (diff > $0.50) ---
+  BA_FQ1_2025             Prior Close : ours=$ 172.37  human=$ 162.52  diff=$9.85  |  Next Open : ours=$ 171.20  human=$ 172.37  diff=$1.17
+  BA_FQ2_2025             Prior Close : ours=$ 226.08  human=$ 236.41  diff=$10.33  |  Next Open : ours=$ 227.84  human=$ 226.08  diff=$1.76
+  BA_FQ3_2025             Prior Close : ours=$ 213.58  human=$ 223.33  diff=$9.75  |  Next Open : ours=$ 210.01  human=$ 213.58  diff=$3.57
+  BA_FQ4_2025             Prior Close : ours=$ 244.56  human=$ 248.43  diff=$3.87  |  Next Open : ours=$ 244.09  human=$ 244.56  diff=$0.47
+  NFLX_FQ2_2025           Prior Close : ours=$ 127.42  human=$ 127.42  diff=$0.00  |  Next Open : ours=$ 124.20  human=$ 129.92  diff=$5.72
+  DIS_FQ1_2025            Prior Close : ours=$ 108.50  human=$ 110.54  diff=$2.04  |  Next Open : ours=$ 109.81  human=$ 115.70  diff=$5.89
+  DIS_FQ3_2025            Prior Close : ours=$ 113.53  human=$ 118.32  diff=$4.79  |  Next Open : ours=$ 114.10  human=$ 115.78  diff=$1.68
+  DIS_FQ4_2025            Prior Close : ours=$ 106.07  human=$ 116.65  diff=$10.58  |  Next Open : ours=$ 105.99  human=$ 108.89  diff=$2.90
+  TGT_FQ1_2025            Prior Close : ours=$  89.11  human=$  93.01  diff=$3.90  |  Next Open : ours=$  88.31  human=$  92.17  diff=$3.86
+  TGT_FQ1_2026            Prior Close : ours=$ 122.33  human=$  98.12  diff=$24.21  |  Next Open : ours=$ 120.83  human=$  91.50  diff=$29.33
+  TGT_FQ2_2025            Prior Close : ours=$  95.58  human=$  98.69  diff=$3.11  |  Next Open : ours=$  95.38  human=$  98.49  diff=$3.11
+  TGT_FQ3_2025            Prior Close : ours=$  84.42  human=$  86.08  diff=$1.66  |  Next Open : ours=$  84.49  human=$  86.16  diff=$1.67
+
+--- OK (diff <= $0.50) ---
+  NFLX_FQ1_2026           Prior Close : ours=$ 107.79  human=$ 107.79  |  Next Open : ours=$  96.37  human=$  96.37
+  NFLX_FQ3_2025           Prior Close : ours=$ 124.14  human=$ 124.14  |  Next Open : ours=$ 114.29  human=$ 114.29
+  NFLX_FQ4_2024           Prior Close : ours=$  86.97  human=$  86.97  |  Next Open : ours=$  99.80  human=$  99.80
+  NFLX_FQ4_2025           Prior Close : ours=$  87.26  human=$  87.26  |  Next Open : ours=$  82.52  human=$  82.52
+
+========================================================================
+KNOWN DATA-ENTRY ISSUES IN HUMAN ROWS (from screenshot analysis)
+========================================================================
+
+  BA 2025 Q3 (Nigel, row 17):
+    Shown: Prior Close $223.33, Next Day Open $213.58 => -4.4%, Direction=FLAT, Correct=YES
+    The sheet's direction formula auto-computes from J/K, so -4.4% should
+    register as DOWN (not FLAT) unless Settings!$B$3 >= 4.4. With HOLD prediction
+    and DOWN direction the formula would give Correct=NO, not YES.
+    Likely cause: Nigel entered wrong prices or direction was typed manually.
+
+  NFLX 2025 Q2 (Meriem, row 8):
+    Shown: Prior Close $127.42, Next Day Open $129.92 => +2.0%, Direction=FLAT, Correct=NO
+    BUY prediction vs FLAT direction => NO is internally consistent if the
+    Settings threshold is >= 2.0% (strict >). But BA Q4 2025 at -1.6% shows
+    DOWN, implying threshold < 1.6% -- contradiction. Likely a data-entry error.
+
+========================================================================
+PRE-MARKET REPORTERS (methodology note)
+========================================================================
+
+  JPM, BAC, TGT report earnings ~7am ET before the market opens.
+  This script uses history(start=report_date), so:
+    prior_close   = Close on report_date (already reflects intraday post-open reaction)
+    next_day_open = Open on report_date + 1 trading day
+  True pre-announcement close = Close on (report_date - 1 trading day).
+  Consistent with eval/outcomes.py's entry_price; note when comparing to human rows
+  who may have used the previous day's close for these issuers.

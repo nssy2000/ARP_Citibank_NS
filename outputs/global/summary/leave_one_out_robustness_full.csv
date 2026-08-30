@@ -1,0 +1,259 @@
+scope,dropped_key,n_dropped,n_remaining_trades,total_return_pct,delta_total_return_pct,avg_net_per_trade_pct,hit_rate,hit_rate_delta
+FULL,(none),0,171,1265.55,0.0,1.7289,0.6257,0.0
+TICKER,CMG,4,168,912.4,-353.15,1.5656,0.625,-0.0007
+TICKER,META,3,168,941.39,-324.16,1.5908,0.619,-0.0067
+TICKER,UNH,3,168,968.77,-296.78,1.6054,0.619,-0.0067
+TICKER,ORCL,3,168,988.45,-277.1,1.5889,0.625,-0.0007
+TICKER,DELL,3,168,1029.9,-235.65,1.6413,0.619,-0.0067
+TICKER,NFLX,6,167,1055.73,-209.82,1.6605,0.6287,0.003
+TICKER,MET,6,167,1073.79,-191.76,1.6771,0.6168,-0.0089
+TICKER,NKE,3,168,1074.94,-190.61,1.6674,0.619,-0.0067
+TICKER,LLY,3,168,1075.89,-189.66,1.6683,0.619,-0.0067
+TICKER,EXPE,4,168,1086.37,-179.18,1.6676,0.625,-0.0007
+TICKER,ABNB,4,169,1104.84,-160.71,1.6726,0.6213,-0.0044
+TICKER,AVGO,3,168,1111.88,-153.67,1.6799,0.625,-0.0007
+TICKER,WMT,5,168,1131.27,-134.28,1.697,0.619,-0.0067
+TICKER,PLTR,4,168,1136.69,-128.86,1.694,0.625,-0.0007
+TICKER,CMCSA,4,169,1142.13,-123.42,1.6917,0.6213,-0.0044
+TICKER,MSFT,3,169,1375.53,109.98,1.7942,0.6331,0.0074
+TICKER,CAT,3,169,1162.22,-103.33,1.7016,0.6213,-0.0044
+TICKER,DIS,3,170,1364.44,98.89,1.7788,0.6294,0.0037
+TICKER,WDAY,4,170,1354.57,89.02,1.7751,0.6294,0.0037
+TICKER,CVS,4,170,1348.28,82.73,1.7727,0.6294,0.0037
+TICKER,FDX,4,169,1189.72,-75.83,1.7142,0.6272,0.0015
+TICKER,COIN,3,169,1191.46,-74.09,1.7159,0.6213,-0.0044
+TICKER,PUM.DE,4,167,1336.01,70.46,1.7998,0.6347,0.009
+TICKER,CRM,3,169,1331.93,66.38,1.776,0.6272,0.0015
+TICKER,DAL,4,168,1199.96,-65.59,1.7299,0.625,-0.0007
+TICKER,TSLA,3,169,1207.16,-58.39,1.7232,0.6213,-0.0044
+TICKER,C,4,168,1208.37,-57.18,1.7341,0.619,-0.0067
+TICKER,AMKBY,4,167,1322.24,56.69,1.7933,0.6287,0.003
+TICKER,JNJ,3,169,1210.58,-54.97,1.7247,0.6213,-0.0044
+TICKER,GS,6,167,1318.81,53.26,1.7923,0.6347,0.009
+TICKER,MU,3,168,1218.69,-46.86,1.7318,0.631,0.0053
+TICKER,UBER,4,170,1308.72,43.17,1.7571,0.6294,0.0037
+TICKER,KHC,3,168,1224.06,-41.49,1.7413,0.619,-0.0067
+TICKER,BAC,4,169,1224.58,-40.97,1.7311,0.6213,-0.0044
+TICKER,SBUX,3,170,1299.33,33.78,1.7533,0.6294,0.0037
+TICKER,LNVGY,4,170,1232.78,-32.77,1.7246,0.6235,-0.0022
+TICKER,UAL,4,168,1297.73,32.18,1.7728,0.631,0.0053
+TICKER,AMD,3,169,1236.75,-28.8,1.7265,0.6272,0.0015
+TICKER,LMT,4,167,1293.83,28.28,1.7825,0.6347,0.009
+TICKER,SPOT,4,169,1237.6,-27.95,1.7369,0.6272,0.0015
+TICKER,HOOD,4,170,1291.16,25.61,1.7499,0.6294,0.0037
+TICKER,LULU,3,168,1244.17,-21.38,1.7439,0.625,-0.0007
+TICKER,BA,4,170,1244.42,-21.13,1.7298,0.6235,-0.0022
+TICKER,PYPL,4,167,1244.94,-20.61,1.7611,0.6287,0.003
+TICKER,BKNG,3,170,1245.99,-19.56,1.7305,0.6235,-0.0022
+TICKER,HLT,5,169,1246.63,-18.92,1.7411,0.6213,-0.0044
+TICKER,NVDA,4,168,1247.58,-17.97,1.7509,0.631,0.0053
+TICKER,BCS,3,169,1248.1,-17.45,1.7417,0.6272,0.0015
+TICKER,LOW,5,167,1249.4,-16.15,1.7631,0.6287,0.003
+TICKER,F,3,169,1250.1,-15.45,1.7426,0.6213,-0.0044
+TICKER,STAN.L,4,169,1279.38,13.83,1.7553,0.6272,0.0015
+TICKER,NVO,4,167,1251.99,-13.56,1.762,0.6228,-0.0029
+TICKER,AMZN,3,168,1278.78,13.23,1.758,0.625,-0.0007
+TICKER,PFE,4,170,1254.09,-11.46,1.7341,0.6235,-0.0022
+TICKER,JPM,5,169,1276.03,10.48,1.7539,0.6272,0.0015
+TICKER,V,4,169,1275.91,10.36,1.7538,0.6331,0.0074
+TICKER,GIS,3,169,1274.56,9.01,1.7532,0.6272,0.0015
+TICKER,GOOGL,3,169,1274.36,8.81,1.7509,0.6272,0.0015
+TICKER,AAPL,3,169,1256.95,-8.6,1.7455,0.6272,0.0015
+TICKER,TGT,4,169,1257.23,-8.32,1.7457,0.6272,0.0015
+TICKER,SCHW,5,169,1257.26,-8.29,1.7458,0.6213,-0.0044
+TICKER,LIN,3,169,1257.99,-7.56,1.7461,0.6272,0.0015
+TICKER,MCD,3,169,1269.89,4.34,1.7512,0.6272,0.0015
+TICKER,SIE.DE,3,169,1262.15,-3.4,1.7479,0.6213,-0.0044
+TICKER,MAR,4,169,1268.81,3.26,1.7508,0.6272,0.0015
+TICKER,PEP,14,161,1262.31,-3.24,1.8347,0.6398,0.0141
+TICKER,PINS,3,169,1268.47,2.92,1.7257,0.6272,0.0015
+TICKER,IBM,3,169,1266.95,1.4,1.7465,0.6272,0.0015
+TICKER,ALV.DE,1,171,1265.55,0.0,1.7289,0.6257,0.0
+TICKER,KO,3,171,1265.55,0.0,1.7289,0.6257,0.0
+TICKER,MC.PA,2,171,1265.55,0.0,1.7289,0.6257,0.0
+QUARTER,2026-Q1,59,130,401.84,-863.71,1.4309,0.6,-0.0257
+QUARTER,2025-Q3,54,150,665.56,-599.99,1.5291,0.6333,0.0076
+QUARTER,2026-Q2,42,150,776.77,-488.78,1.6427,0.6267,0.001
+QUARTER,2024-Q4,6,167,1062.38,-203.17,1.6707,0.6168,-0.0089
+QUARTER,2025-Q2,32,148,1069.89,-195.66,1.8852,0.6284,0.0027
+QUARTER,2025-Q1,9,164,1095.72,-169.83,1.713,0.628,0.0023
+QUARTER,2025-Q4,55,125,1109.02,-156.53,2.2023,0.64,0.0143
+QUARTER,2014-Q1,1,170,1228.0,-37.55,1.7224,0.6235,-0.0022
+QUARTER,2023-Q2,1,170,1275.85,10.3,1.7435,0.6294,0.0037
+QUARTER,2024-Q3,2,170,1275.42,9.87,1.7433,0.6294,0.0037
+QUARTER,2026-Q3,3,169,1256.75,-8.8,1.7455,0.6272,0.0015
+QUARTER,2023-Q4,1,170,1261.8,-3.75,1.7375,0.6235,-0.0022
+QUARTER,2024-Q1,1,170,1268.44,2.89,1.7403,0.6294,0.0037
+QUARTER,2023-Q3,1,170,1264.49,-1.06,1.7386,0.6235,-0.0022
+QUARTER,2024-Q2,1,171,1265.55,0.0,1.7289,0.6257,0.0
+EVENT,ORCL 2025-09-09,1,170,934.04,-331.51,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PINS 2026-05-04,1,170,1577.79,312.24,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PINS 2026-02-12,1,170,1013.73,-251.82,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CMG 2025-10-29,1,170,1026.23,-239.32,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,ORCL 2025-12-10,1,170,1499.38,233.83,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMZN 2025-10-30,1,170,1457.42,191.87,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,UNH 2026-01-26,1,170,1074.16,-191.39,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AVGO 2025-09-04,1,170,1075.88,-189.67,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMD 2026-05-05,1,170,1085.78,-179.77,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NFLX 2025-01-21,1,170,1091.06,-174.49,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMD 2026-02-03,1,170,1439.52,173.97,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MU 2025-12-17,1,170,1101.54,-164.01,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,DELL 2026-02-26,1,170,1108.45,-157.1,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,EXPE 2025-08-07,1,170,1111.78,-153.77,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CMG 2025-07-23,1,170,1115.23,-150.32,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LULU 2025-12-11,1,170,1408.9,143.35,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PLTR 2026-02-02,1,170,1123.61,-141.94,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LULU 2026-06-04,1,170,1124.71,-140.84,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,ORCL 2026-03-10,1,170,1127.24,-138.31,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,META 2025-10-29,1,170,1131.56,-133.99,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NFLX 2026-04-16,1,170,1135.9,-129.65,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,META 2026-01-28,1,170,1139.49,-126.06,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MU 2026-03-18,1,170,1385.26,119.71,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,EXPE 2025-05-08,1,170,1145.94,-119.61,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,ABNB 2026-02-12,1,170,1153.37,-112.18,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMZN 2026-02-05,1,170,1154.18,-111.37,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,IBM 2025-07-23,1,170,1375.63,110.08,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PLTR 2025-11-03,1,170,1374.52,108.97,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NVO 2025-08-06,1,170,1366.6,101.05,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,IBM 2026-01-28,1,170,1164.87,-100.68,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,EXPE 2026-02-12,1,170,1365.34,99.79,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MET 2024-10-30,1,170,1166.16,-99.39,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,DIS 2025-11-12,1,170,1364.4,98.85,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AVGO 2025-12-11,1,170,1362.04,96.49,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CRM 2025-09-03,1,170,1360.33,94.78,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,META 2026-04-29,1,170,1172.17,-93.38,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,GOOGL 2026-02-04,1,170,1358.14,92.59,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NKE 2025-03-20,1,170,1173.36,-92.19,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CMCSA 2025-04-23,1,170,1174.9,-90.65,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LLY 2026-02-03,1,170,1175.74,-89.81,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,WDAY 2025-08-21,1,170,1354.57,89.02,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NKE 2024-10-01,1,170,1177.41,-88.14,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PLTR 2025-08-04,1,170,1178.13,-87.42,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,FDX 2026-03-19,1,170,1178.13,-87.42,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CVS 2025-10-29,1,170,1348.24,82.69,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMKBY 2025-11-05,1,170,1347.48,81.93,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CAT 2025-10-28,1,170,1184.26,-81.29,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NFLX 2026-01-20,1,170,1345.49,79.94,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,GOOGL 2025-10-29,1,170,1187.04,-78.51,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MSFT 2025-01-29,1,170,1343.96,78.41,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,DELL 2025-11-25,1,170,1188.5,-77.05,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,UNH 2025-07-28,1,170,1191.67,-73.88,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LLY 2026-04-29,1,170,1194.48,-71.07,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PUM.DE 2025-05-07,1,170,1331.09,65.54,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MET 2025-08-06,1,170,1200.9,-64.65,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NVDA 2025-11-19,1,170,1201.02,-64.53,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,WMT 2026-05-20,1,170,1202.76,-62.79,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NVO 2026-02-03,1,170,1205.75,-59.8,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,DAL 2025-04-09,1,170,1206.25,-59.3,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,UAL 2025-04-15,1,170,1323.04,57.49,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,ABNB 2025-11-06,1,170,1212.78,-52.77,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,UNH 2025-10-27,1,170,1214.04,-51.51,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AVGO 2026-03-04,1,170,1214.42,-51.13,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMZN 2026-04-29,1,170,1216.19,-49.36,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,COIN 2026-05-07,1,170,1219.63,-45.92,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,GS 2025-04-11,1,170,1311.42,45.87,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,GS 2026-04-10,1,170,1220.01,-45.54,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,UBER 2026-02-03,1,170,1308.65,43.1,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,WMT 2025-11-19,1,170,1223.08,-42.47,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,JNJ 2025-07-15,1,170,1223.21,-42.34,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NVDA 2025-02-26,1,170,1306.91,41.36,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,GS 2025-10-13,1,170,1306.91,41.36,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,TSLA 2026-04-22,1,170,1225.0,-40.55,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,UAL 2026-01-20,1,170,1225.65,-39.9,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,BAC 2025-10-14,1,170,1227.58,-37.97,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LLY 2025-10-29,1,170,1227.71,-37.84,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMKBY 2014-02-28,1,170,1227.97,-37.58,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,SPOT 2026-02-10,1,170,1228.61,-36.94,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CMCSA 2026-01-28,1,170,1230.43,-35.12,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,SBUX 2025-10-29,1,170,1299.27,33.72,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,WMT 2025-05-14,1,170,1232.11,-33.44,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LNVGY 2026-02-12,1,170,1232.76,-32.79,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NVO 2025-05-07,1,170,1234.59,-30.96,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MSFT 2025-10-29,1,170,1295.41,29.86,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,COIN 2025-10-30,1,170,1236.42,-29.13,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CRM 2025-12-03,1,170,1239.04,-26.51,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,KHC 2026-02-11,1,170,1239.17,-26.38,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AAPL 2025-10-30,1,170,1239.3,-26.25,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,HOOD 2025-11-05,1,170,1291.15,25.6,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,C 2025-04-15,1,170,1240.48,-25.07,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMKBY 2025-05-07,1,170,1290.3,24.75,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,BCS 2025-10-22,1,170,1240.88,-24.67,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MET 2026-02-04,1,170,1241.27,-24.28,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CAT 2026-01-28,1,170,1242.06,-23.49,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PYPL 2025-04-29,1,170,1243.38,-22.17,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,BA 2025-10-29,1,170,1244.44,-21.11,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,BKNG 2025-10-28,1,170,1246.03,-19.52,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,HLT 2025-04-29,1,170,1246.83,-18.72,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LOW 2026-05-20,1,170,1246.83,-18.72,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NKE 2024-12-19,1,170,1246.96,-18.59,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NVO 2025-11-05,1,170,1246.96,-18.59,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,TSLA 2026-01-28,1,170,1247.09,-18.46,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2026-07-09,1,170,1247.36,-18.19,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,STAN.L 2025-10-30,1,170,1283.68,18.13,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AAPL 2026-01-29,1,170,1283.54,17.99,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NFLX 2025-04-17,1,170,1283.12,17.57,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,C 2025-10-14,1,170,1248.69,-16.86,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,UAL 2025-10-15,1,170,1281.72,16.17,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LMT 2025-04-22,1,170,1281.58,16.03,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,C 2026-01-14,1,170,1249.62,-15.93,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,JPM 2026-04-14,1,170,1279.48,13.93,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,CMG 2025-04-23,1,170,1279.34,13.79,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,KHC 2025-02-12,1,170,1252.43,-13.12,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,JNJ 2025-10-13,1,170,1252.57,-12.98,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,GS 2026-01-14,1,170,1278.37,12.82,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MET 2025-11-05,1,170,1252.83,-12.72,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PYPL 2025-07-29,1,170,1252.97,-12.58,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,FDX 2025-09-18,1,170,1277.95,12.4,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,DELL 2025-05-29,1,170,1253.24,-12.31,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MU 2025-09-23,1,170,1277.81,12.26,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,F 2025-07-30,1,170,1253.77,-11.78,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LMT 2025-07-22,1,170,1277.12,11.57,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PFE 2025-04-28,1,170,1254.04,-11.51,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,TGT 2025-05-21,1,170,1254.71,-10.84,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,AMKBY 2025-08-07,1,170,1255.12,-10.43,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2023-04-25,1,170,1275.87,10.32,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LIN 2026-05-01,1,170,1255.25,-10.3,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2024-07-11,1,170,1275.45,9.9,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,GIS 2026-07-01,1,170,1275.04,9.49,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,SPOT 2025-11-04,1,170,1274.76,9.21,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LULU 2026-03-17,1,170,1256.46,-9.09,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MCD 2026-05-07,1,170,1273.24,7.69,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,NVDA 2025-08-27,1,170,1272.83,7.28,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PYPL 2025-10-28,1,170,1272.83,7.28,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,BCS 2026-04-28,1,170,1272.83,7.28,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PYPL 2026-05-05,1,170,1272.55,7.0,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2024-10-08,1,170,1258.62,-6.93,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PUM.DE 2026-02-26,1,170,1258.76,-6.79,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,DAL 2025-10-09,1,170,1258.89,-6.66,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PUM.DE 2025-10-30,1,170,1272.0,6.45,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,V 2025-04-28,1,170,1270.9,5.35,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PUM.DE 2026-04-30,1,170,1270.62,5.07,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,SCHW 2025-10-15,1,170,1260.52,-5.03,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,V 2025-10-28,1,170,1270.48,4.93,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LMT 2026-01-29,1,170,1270.21,4.66,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,STAN.L 2025-05-02,1,170,1261.33,-4.22,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MAR 2026-02-10,1,170,1269.66,4.11,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LMT 2025-10-21,1,170,1261.47,-4.08,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2023-10-10,1,170,1261.74,-3.81,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,F 2026-02-10,1,170,1261.74,-3.81,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,JPM 2025-04-10,1,170,1262.14,-3.41,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MCD 2025-02-10,1,170,1262.28,-3.27,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,SCHW 2026-01-20,1,170,1262.28,-3.27,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2025-04-24,1,170,1268.56,3.01,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LOW 2026-02-25,1,170,1268.56,3.01,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,BAC 2025-04-15,1,170,1262.55,-3.0,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2024-02-09,1,170,1268.42,2.87,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,SIE.DE 2025-11-13,1,170,1262.69,-2.86,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LIN 2025-08-01,1,170,1268.29,2.74,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,TGT 2025-11-19,1,170,1268.01,2.46,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,KHC 2026-05-06,1,170,1263.37,-2.18,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2023-07-13,1,170,1264.46,-1.09,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,MAR 2025-08-05,1,170,1264.73,-0.82,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LOW 2025-11-19,1,170,1265.0,-0.55,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,SIE.DE 2026-02-12,1,170,1265.0,-0.55,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,GIS 2026-03-18,1,170,1265.0,-0.55,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2025-02-04,1,170,1265.96,0.41,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,HLT 2026-02-11,1,170,1265.28,-0.27,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,PEP 2026-04-16,1,170,1265.82,0.27,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,DAL 2026-01-13,1,170,1265.69,0.14,n/a (fast-path),n/a (fast-path),n/a (fast-path)
+EVENT,LOW 2026-05-21,1,170,1265.69,0.14,n/a (fast-path),n/a (fast-path),n/a (fast-path)

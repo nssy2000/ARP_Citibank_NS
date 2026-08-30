@@ -1,0 +1,205 @@
+{
+  "document_id": "JPM_FQ4_2025",
+  "sentiment": {
+    "score": 0.1,
+    "rationale": "The document reports a solid quarter with revenue up 7% YoY and EPS of $4.63 ($5.23 excluding a significant item). However, forward guidance for 2026 NII ex. Markets is reaffirmed at ~$95B, unchanged from prior guidance, and adjusted expense guidance of ~$105B represents meaningful growth. Management expresses optimism about the franchise and investment opportunities but also flags significant risks including geopolitical conditions, sticky inflation, and elevated asset prices. The overall tone is confident but cautious, with no material upward revision to forward earnings guidance, resulting in a mildly positive score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band"
+  },
+  "summary": {
+    "revenue": "Reported revenue of $45.8 billion; managed revenue of $46.8 billion, up 7% YoY.",
+    "eps": "Reported EPS of $4.63; excluding a significant item, EPS of $5.23.",
+    "guidance": "Expect FY2026 NII ex. Markets of ~$95B, total NII of ~$103B, adjusted expense of ~$105B, and Card Services NCO rate of ~3.4%.",
+    "margin": "Reported overhead ratio of 52%; managed overhead ratio of 51%. ROTCE of 18% (20% excluding significant item).",
+    "key_risks": [
+      "Geopolitical conditions: 'complex geopolitical conditions'",
+      "Sticky inflation: 'the risk of sticky inflation'",
+      "Elevated asset prices: 'elevated asset prices'",
+      "Credit card rate cap proposal: 'if it happened the way it was described, it would be dramatic'",
+      "Yield-seeking flows: 'the persistence, albeit at a much lower level, of yield-seeking flows'",
+      "Expense growth: '2026 in isolation clearly represents meaningful expense growth in both dollar and percentage terms'"
+    ],
+    "key_opportunities": [
+      "Apple Card partnership: 'we are excited to become the new issuer of the Apple Card'",
+      "Investment Banking pipeline: 'we expect strong client engagement and deal activity in 2026'",
+      "Markets revenue growth: 'Markets revenue up 17% YoY'",
+      "AWM net inflows: 'client asset net inflows totaled $553 billion for the year'",
+      "Deregulation: 'the benefits of deregulation'",
+      "Fiscal stimulus: 'ongoing fiscal stimulus'"
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management describes the quarter as 'strong' and expresses optimism about the franchise and investment opportunities, while also acknowledging risks and uncertainties, e.g., 'The Firm concluded the year with a strong fourth quarter' and 'we remain committed to investing our capital to drive future growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Reported revenue was $45.8 billion; managed revenue was $46.8 billion, up 7% YoY.",
+      "quote": "Net revenue - reported $ 45,798 ... Net revenue - managed 46,767 ... $ 3,029 7 %",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS of $4.63; excluding a significant item, EPS of $5.23.",
+      "quote": "Earnings per share - diluted $ 4.63 ... Excluding this item resulted in an increase of $1.7 billion (after tax) to reported net income from $13.0 billion to $14.7 billion and an increase of $0.60 per share to reported EPS from $4.63 to $5.23.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Forward guidance for 2026 NII ex. Markets is ~$95B, total NII ~$103B, adjusted expense ~$105B, Card NCO rate ~3.4%.",
+      "quote": "Expect FY2026 net interest income of ~$103B, market dependent. Expect FY2026 net interest income excluding Markets of ~$95B, market dependent. Expect FY2026 Card Services NCO rate of ~3.4%. Expect FY2026 adjusted expense of ~$105B, market dependent.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported overhead ratio of 52%; managed overhead ratio of 51%. ROTCE of 18% (20% excluding significant item).",
+      "quote": "Expense of $24.0 billion; reported overhead ratio of 52% and managed overhead ratio of 51% ... ROTCE2 18% ... Excluding this item resulted in an increase of ... 2ppts to reported ROTCE from 18% to 20%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Geopolitical conditions, sticky inflation, and elevated asset prices are key risks.",
+      "quote": "markets seem to underappreciate the potential hazards—including from complex geopolitical conditions, the risk of sticky inflation and elevated asset prices.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Credit card rate cap proposal would be dramatic.",
+      "quote": "If it happened the way it was described, it would be dramatic. If it happens in a way where it was modified quite a bit, it would be less.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Yield-seeking flows persist at a lower level.",
+      "quote": "the persistence, albeit at a much lower level, of yield-seeking flows.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Expense growth in 2026 is meaningful.",
+      "quote": "2026 in isolation clearly represents meaningful expense growth in both dollar and percentage terms.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Apple Card partnership is a key opportunity.",
+      "quote": "we are excited to become the new issuer of the Apple Card.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong client engagement and deal activity expected in 2026 for IB.",
+      "quote": "we expect strong client engagement and deal activity in 2026, supported by constructive market dynamics, which is reflected in our pipeline.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Markets revenue up 17% YoY.",
+      "quote": "Markets revenue up 17% YoY, with Fixed Income Markets up 7% and Equity Markets up 40%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "AWM client asset net inflows totaled $553 billion for the year.",
+      "quote": "client asset net inflows totaled $553 billion for the year, helping drive client assets to over $7 trillion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Deregulation and fiscal stimulus are tailwinds.",
+      "quote": "particularly with ongoing fiscal stimulus, the benefits of deregulation and the Fed’s recent monetary policy.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "The Firm concluded the year with a strong fourth quarter, generating net income of $14.7 billion excluding a significant item.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score is mildly positive (0.10) despite reaffirmed guidance and meaningful expense growth. A human reviewer should confirm that the balance of risks and opportunities supports this score."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 14,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "JPM_Bundled Earnings Report_2026-01-13",
+  "report_metadata": {
+    "issuer": "jpm",
+    "company": "JPMorgan Chase & Co.",
+    "ticker": "JPM",
+    "sector": "Financials",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2026-01-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf"
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-presentation.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-earnings-call-transcript.pdf"
+      }
+    ],
+    "document_id": "JPM_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260702T132113Z",
+    "timestamp": "2026-07-02T13:22:58Z",
+    "model": "deepseek-v4-flash",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-press-release.pdf",
+        "page_count": 8,
+        "extracted_characters": 24355,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-presentation.pdf",
+        "page_count": 21,
+        "extracted_characters": 30870,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\jpm\\Q4\\jpm-4q25-earnings-call-transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 98903,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\jpm\\extracted\\JPM_FQ4_2025.txt"
+  }
+}

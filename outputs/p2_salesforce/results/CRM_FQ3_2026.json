@@ -1,0 +1,252 @@
+{
+  "document_id": "CRM_FQ3_2026",
+  "sentiment": {
+    "score": 0.55,
+    "rationale": "Salesforce raised its full-year FY26 revenue guidance to $41.45-$41.55 billion from a prior range of $41.1-$41.3 billion, and raised operating cash flow growth guidance to approximately 13%-14% from 12%-13%. The guidance raise is partially attributed to the Informatica acquisition (approximately 80bps contribution), but the organic cRPO growth of 11% Y/Y and strong bookings momentum, described as 'exceptional' and the 'best quarter in three years,' indicate genuine operational strength. Management expressed high confidence in the forward outlook, citing a 'powerful pipeline of future revenue' and reacceleration of revenue in 12-18 months."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 FY26 revenue of $10.3 billion, up 9% Y/Y and 8% in constant currency. Subscription & support revenue of $9.7 billion, up 10% Y/Y and 9% in CC.",
+    "eps": "Q3 FY26 GAAP diluted EPS of $2.19, up from $1.58 in the prior year. Non-GAAP diluted EPS of $3.25, up from $2.41 in the prior year.",
+    "guidance": "Raised full-year FY26 revenue guidance to $41.45-$41.55 billion (up 9%-10% Y/Y, ~9% CC), including ~80bps Informatica contribution. Maintained non-GAAP operating margin guidance at 34.1%. Raised full-year FY26 operating cash flow growth guidance to ~13%-14% Y/Y. Q4 FY26 revenue guidance of $11.13-$11.23 billion (up 11%-12% Y/Y).",
+    "margin": "Q3 FY26 GAAP operating margin of 21.3% (up 130bps Y/Y) and non-GAAP operating margin of 35.5% (up 240bps Y/Y). Full-year FY26 GAAP operating margin guidance of 20.3% and non-GAAP operating margin guidance of 34.1%.",
+    "key_risks": [
+      "Faster than anticipated mix shift to cloud for Tableau and on-prem revenue timing in Tableau and MuleSoft, creating less predictable revenue quarter over quarter.",
+      "Weakness in marketing and commerce segments.",
+      "Asia Pacific growth constrained, particularly in Australia and India.",
+      "Comms and media, and manufacturing, automotive, and energy industries were more measured.",
+      "Uncertainties regarding AI technologies and their integration into product offerings.",
+      "Risks associated with the Informatica acquisition, including integration and retention of key personnel."
+    ],
+    "key_opportunities": [
+      "Agentforce and Data 360 ARR reached nearly $1.4 billion, up 114% Y/Y, with Agentforce ARR surpassing half a billion, up 330% Y/Y.",
+      "Over 9,500 paid Agentforce deals, up 50% Q/Q, and 3.2 trillion tokens processed.",
+      "50% of Agentforce and Data 360 Q3 bookings came from existing customer expansion.",
+      "Salesforce capacity increased ~23% Y/Y, with pipeline generation at record levels.",
+      "Informatica acquisition completed, expected to be accretive within 12 months and contribute ~80bps to FY26 revenue growth.",
+      "New products like Agentforce ITSM and Life Sciences Cloud gaining traction, with Life Sciences Cloud new bookings tripling Y/Y."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used highly confident language throughout, describing Q3 cRPO as 'exceptional,' the quarter as the 'best quarter in three years,' and expressing excitement about the future, with Marc Benioff stating 'we are uniquely positioned for this new area.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 FY26 revenue was $10.3 billion, up 9% Y/Y and 8% in constant currency.",
+      "quote": "Third quarter revenue of $10.3 billion, up 9% Y/Y and 8% in CC",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY26 GAAP diluted EPS was $2.19, up from $1.58 in the prior year.",
+      "quote": "Diluted net income per share (3) $ 2.19 $ 1.58",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY26 non-GAAP diluted EPS was $3.25, up from $2.41 in the prior year.",
+      "quote": "Non-GAAP diluted net income per share $ 3.25 $ 2.41",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 revenue guidance was raised to $41.45-$41.55 billion from a prior range of $41.1-$41.3 billion.",
+      "quote": "Raises full year FY26 revenue guidance to $41.45 billion to $41.55 billion, up 9% - 10% Y/Y and approximately 9% in CC, including approximately 80bps Informatica contribution",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY26 operating cash flow growth guidance was raised to approximately 13%-14% from 12%-13%.",
+      "quote": "Raises full year FY26 operating cash flow growth guidance to approximately 13% to 14% Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q3 FY26 GAAP operating margin was 21.3% and non-GAAP operating margin was 35.5%.",
+      "quote": "Third quarter GAAP operating margin of 21.3% and non-GAAP operating margin of 35.5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance raise is partially attributed to the Informatica acquisition.",
+      "quote": "Informatica will contribute approximately 80 basis points of additional growth, resulting in total subscription and support growth of slightly under 10% year over year in constant currency.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management described Q3 cRPO as exceptional and signaling a powerful pipeline of future revenue.",
+      "quote": "Q3 cRPO was exceptional, up 11% year-over-year at $29.4 billion, signaling a powerful pipeline of future revenue",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentforce and Data 360 ARR reached nearly $1.4 billion, up 114% Y/Y.",
+      "quote": "Agentforce and Data 360 annual recurring revenue (\"ARR\") reached nearly $1.4 billion, up 114% Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Agentforce ARR surpassed half a billion, up 330% Y/Y.",
+      "quote": "Agentforce ARR surpassed half a billion in Q3, up 330% Y/Y",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Over 9,500 paid Agentforce deals, up 50% Q/Q.",
+      "quote": "Salesforce has closed over 18,500 Agentforce deals since launch; over 9,500 paid deals, up 50% quarter-over-quarter",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "50% of Agentforce and Data 360 Q3 bookings came from existing customer expansion.",
+      "quote": "50% of Agentforce and Data 360 Q3 bookings came from existing customer expansion",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Salesforce capacity increased ~23% Y/Y.",
+      "quote": "Miguel Milano (01:06:58): As of today, 23%?",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Informatica acquisition is expected to be accretive within 12 months.",
+      "quote": "Informatica enhances our trusted data foundation and it will be accretive within 12 months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Faster than anticipated mix shift to cloud for Tableau and on-prem revenue timing in Tableau and MuleSoft is a headwind.",
+      "quote": "This was partially offset by a faster than anticipated mix shift to cloud for Tableau and on prem revenue timing in Tableau and MuleSoft.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Weakness in marketing and commerce segments is a headwind.",
+      "quote": "This is fueled by continued momentum in Agentforce and Data 360, partially offset by weaknesses in marketing and commerce and the on prem dynamic for MuleSoft and Tableau.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Asia Pacific growth was constrained, particularly in Australia and India.",
+      "quote": "While Asia Pacific was more constrained, particularly in Australia and India.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Comms and media, and manufacturing, automotive, and energy industries were more measured.",
+      "quote": "From an industry perspective, business services and consultancy, healthcare and life sciences, and retail and consumer goods performed well, while comms and media, and manufacturing, automotive, and energy were more measured.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the forward outlook, citing reacceleration of revenue in 12-18 months.",
+      "quote": "Consistent with our investor day outlook, we remain on track to reaccelerate revenue in 12 to 18 months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We are uniquely positioned for this new area. We have the strategy, the platform, the global scale.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is partially attributed to the Informatica acquisition (~80bps), which is not organic. The score of 0.55 reflects the organic cRPO strength and raised cash flow guidance, but a reviewer may want to weigh the acquisition contribution differently."
+    },
+    {
+      "field": "summary.key_risks",
+      "reason": "The document contains extensive forward-looking risk factors in the safe harbor statement. Only the most operationally relevant risks were selected; a reviewer may want to verify completeness."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 20,
+    "uncertain_count": 0,
+    "review_flag_count": 2,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "CRM_Bundled Earnings Report_2025-12-03",
+  "report_metadata": {
+    "issuer": "p2_salesforce",
+    "company": "Salesforce",
+    "ticker": "CRM",
+    "sector": "Technology/Software - Application",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2026",
+    "report_date": "2025-12-03",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q3\\CRM_Q3_FY26_Investor_Deck.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q3\\CRM_Q3_FY26_Earnings_Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "CRM_FQ3_2026"
+  },
+  "run_meta": {
+    "run_id": "20260809T102832Z",
+    "timestamp": "2026-08-09T10:29:15Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_salesforce\\extracted\\CRM_FQ3_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 40578,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q3\\CRM_Q3_FY26_Investor_Deck.pdf",
+        "page_count": 22,
+        "extracted_characters": 16883,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\salesforce\\CY2026-Q3\\CRM_Q3_FY26_Earnings_Transcript.pdf",
+        "page_count": 20,
+        "extracted_characters": 66352,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_salesforce\\extracted\\CRM_FQ3_2026.txt"
+  },
+  "extraction_warnings": [
+    "Earnings Call Transcript: missing_keyword:Earnings Call"
+  ]
+}

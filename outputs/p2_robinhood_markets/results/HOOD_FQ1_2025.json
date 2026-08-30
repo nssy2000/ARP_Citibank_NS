@@ -1,0 +1,221 @@
+{
+  "document_id": "HOOD_FQ1_2025",
+  "sentiment": {
+    "score": 0.35,
+    "rationale": "The company reported strong Q1 2025 results with revenue up 50% YoY and EPS up 106% YoY, and management raised its full-year 2025 outlook for Adjusted Operating Expenses and SBC to include the TradePMR acquisition, indicating a positive forward trajectory. Management expressed high confidence in continued momentum, citing record net deposits, strong April engagement, and a robust product roadmap. While the guidance raise is partly due to the TradePMR acquisition, the underlying operational momentum and confident forward language support a positive score, though not at the highest level."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Total net revenues increased 50% year-over-year to $927 million.",
+    "eps": "Diluted EPS increased 106% year-over-year to $0.37.",
+    "guidance": "Updated 2025 outlook for Adjusted Operating Expenses and SBC to $2.085 billion to $2.185 billion, up from $2.0 billion to $2.1 billion, to include $85 million of anticipated costs related to TradePMR.",
+    "margin": "Adjusted EBITDA margin was 51% in Q1 2025, up 11 points from a year ago.",
+    "key_risks": [
+      "Reliance on transaction-based revenue, including payment for order flow (PFOF), and the risk of new regulation or bans on PFOF.",
+      "Exposure to fluctuations in interest rates and rapidly changing interest rate environments.",
+      "The volatility of cryptocurrency prices and trading volumes.",
+      "The possibility of adverse developments in pending litigation and regulatory investigations.",
+      "The risk that changes in business, economic, or political conditions that impact the global financial markets, or a systemic market event, might harm the business."
+    ],
+    "key_opportunities": [
+      "Record Net Deposits of $18.0 billion in Q1 2025, indicating strong customer engagement and asset growth.",
+      "Robinhood Gold Subscribers reached a record 3.2 million, up 90% year-over-year, with a 12% adoption rate.",
+      "New product launches including Robinhood Strategies, Banking, and Cortex, with Strategies already managing over $100 million in customer assets.",
+      "The acquisition of TradePMR, adding approximately $41 billion in assets managed by RIAs.",
+      "The pending acquisition of Bitstamp, expected to close mid-year, to expand global crypto presence.",
+      "Strong growth in trading volumes across all asset classes, including record options volume."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management expressed strong confidence in the business, with statements like 'We feel great about our business and financial results, and remain focused on driving another year of profitable growth in 2025.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Total net revenues increased 50% year-over-year to $927 million.",
+      "quote": "Total net revenues increased 50% year-over-year to $927 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Diluted EPS increased 106% year-over-year to $0.37.",
+      "quote": "Diluted EPS increased 106% year-over-year to $0.37.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company raised its full-year 2025 outlook for Adjusted Operating Expenses and SBC to $2.085 billion to $2.185 billion.",
+      "quote": "As a result of the acquisition closing in the first quarter, we are updating our outlook to $2.085 billion to $2.185 billion to include $85 million of anticipated costs related to TradePMR.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted EBITDA margin was 51% in Q1 2025, up 11 points from a year ago.",
+      "quote": "Our focus on profitable growth drove 72% incremental margins as adjusted EBITDA margin expanded by 11 points from a year ago.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed strong confidence in the business and its future prospects.",
+      "quote": "We feel great about our business and financial results, and remain focused on driving another year of profitable growth in 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record Net Deposits of $18.0 billion in Q1 2025 indicate strong customer engagement.",
+      "quote": "Record Net Deposits as well - $18 billion of Net Deposits in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Robinhood Gold Subscribers reached a record 3.2 million, up 90% year-over-year.",
+      "quote": "Robinhood Gold Subscribers increased by 1.5 million, or 90%, year-over-year to 3.2 million.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New product launches, including Robinhood Strategies, are driving growth.",
+      "quote": "Robinhood Strategies is already serving more than 40 thousand customers and managing more than $100 million in customer assets as of April 25, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The acquisition of TradePMR added approximately $41 billion in assets managed by RIAs.",
+      "quote": "In February, Robinhood also closed its acquisition of TradePMR, an RIA custodial platform, with approximately $41 billion in assets managed by RIAs as of March 31, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The pending acquisition of Bitstamp is expected to close mid-year.",
+      "quote": "The acquisition of globally-scaled cryptocurrency exchange Bitstamp Ltd. is on track to close in the middle of this year, subject to customary closing conditions.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from reliance on transaction-based revenue, including PFOF.",
+      "quote": "our reliance on transaction-based revenue, including payment for order flow (“PFOF”), the risk of new regulation or bans on PFOF and similar practices",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from fluctuations in interest rates.",
+      "quote": "our exposure to fluctuations in interest rates and rapidly changing interest rate environments",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from the volatility of cryptocurrency prices and trading volumes.",
+      "quote": "the volatility of cryptocurrency prices and trading volumes",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from adverse developments in pending litigation and regulatory investigations.",
+      "quote": "the possibility of adverse developments in pending litigation and regulatory investigations",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company faces risks from changes in business, economic, or political conditions that impact the global financial markets.",
+      "quote": "the risk that changes in business, economic, or political conditions that impact the global financial markets, or a systemic market event, might harm our business",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Strong growth in trading volumes across all asset classes, including record options volume.",
+      "quote": "Trading volumes all up double digits year-over-year including a record quarter for options trading.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The guidance raise is partly attributed to the TradePMR acquisition, which is a one-time event. The score reflects strong operational momentum but the organic vs. acquisition-driven nature of the guidance change should be reviewed."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "HOOD_Bundled Earnings Report_2025-04-30",
+  "report_metadata": {
+    "issuer": "p2_robinhood_markets",
+    "company": "Robinhood Markets",
+    "ticker": "HOOD",
+    "sector": "Financial Services/Capital Markets",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2025",
+    "report_date": "2025-04-30",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q1\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q1\\HOOD_Q1_2025_earnings_presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q1\\HOOD_Q1_2025_earnings_call_transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "HOOD_FQ1_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T102547Z",
+    "timestamp": "2026-08-09T10:26:09Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q1\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\extracted\\HOOD_FQ1_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q1\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 38688,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q1\\HOOD_Q1_2025_earnings_presentation.pdf",
+        "page_count": 47,
+        "extracted_characters": 81794,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\robinhood_markets\\CY2025-Q1\\HOOD_Q1_2025_earnings_call_transcript.pdf",
+        "page_count": 21,
+        "extracted_characters": 52733,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_robinhood_markets\\extracted\\HOOD_FQ1_2025.txt"
+  }
+}

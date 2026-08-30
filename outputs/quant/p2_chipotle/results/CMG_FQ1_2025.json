@@ -1,0 +1,58 @@
+{
+  "document_id": "CMG_FQ1_2025_QUANT",
+  "base_document_id": "CMG_FQ1_2025",
+  "issuer": "p2_chipotle",
+  "ticker": "CMG",
+  "sector": "Consumer Cyclical/Restaurants",
+  "report_date": "2025-04-23",
+  "sentiment": {
+    "score": -0.003683
+  },
+  "quant_metrics": {
+    "momentum": {
+      "raw_return": -0.029466,
+      "window_start_date": "2025-03-21",
+      "window_end_date": "2025-04-22",
+      "score": -0.193954,
+      "available": true
+    },
+    "volatility": {
+      "annualized_vol": 0.510682,
+      "available": true
+    },
+    "eps_surprise": {
+      "surprise_pct": 4.72,
+      "matched_earnings_date": "2025-04-23",
+      "score": 0.186588,
+      "available": true
+    },
+    "macro_numeric": {
+      "vix_level": 28.45,
+      "vix_score": -0.558052,
+      "tnx_change": 0.056,
+      "tnx_score": -0.111534,
+      "score": -0.334793,
+      "available": true
+    },
+    "fred_macro": {
+      "ffr_level": 4.33,
+      "ffr_change": 0.0,
+      "ffr_score": -0.0,
+      "ffr_as_of": "2025-04-22",
+      "curve_spread": 0.65,
+      "curve_score": 0.57167,
+      "curve_as_of": "2025-04-22",
+      "score": 0.285835,
+      "available": true
+    },
+    "quant_score": -0.003683,
+    "quant_score_with_macro": -0.169238,
+    "quant_score_with_fred": 0.141076,
+    "quant_score_with_macro_fred": -0.017547
+  },
+  "cost_log": {
+    "estimated_cost_usd": 0.0,
+    "source": "yfinance",
+    "model": "deterministic"
+  }
+}

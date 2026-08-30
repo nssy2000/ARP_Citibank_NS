@@ -1,0 +1,167 @@
+{
+  "document_id": "NFLX_FQ3_2025",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document shows a mixed quarter: revenue and engagement were strong, but the headline EPS miss and the absence of formal 2026 guidance offset the positives. Management did not raise forward guidance; instead, they deferred full-year 2026 guidance to the next call, which is a neutral-to-cautious signal. The Brazil tax charge is a one-time item, but the lack of a guidance raise and the cautious deferral keep the score at 0.0."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q3 2025 revenue $11.51B, up 17% year-over-year.",
+    "eps": "Reported EPS $5.87 versus roughly $6.96 consensus, an optical miss attributable to the Brazil charge.",
+    "guidance": "No full-year 2026 guidance given; deferred to the January call. Management stated: 'We will issue a full year 2026 guidance on our next call in January.'",
+    "margin": "Operating margin 28%, down from 30% a year earlier and below the 31.5% guidance, driven by a $619M Brazil tax expense.",
+    "key_risks": [
+      "Brazil tax dispute: a $619M expense covering 2022–2025, with ongoing quarterly cost of doing business in Brazil.",
+      "Intensifying live-sports competition (Apple F1, Paramount UFC).",
+      "No 2026 numbers provided yet, with the market asked to wait until January.",
+      "WBD / Warner Bros. acquisition rumors in the background (regulatory and execution overhang)."
+    ],
+    "key_opportunities": [
+      "Advertising: best ad-sales quarter ever, on track to more than double ad revenue in 2025.",
+      "Record share of TV time in Q3 in both the US (8.6%) and UK (9.4%).",
+      "Strong content slate for Q4 2025 and 2026, including Stranger Things finale and many returning hits.",
+      "Live events: Canelo-Crawford fight drew 41M+ live viewers; upcoming NFL Christmas Day games and FIFA Women's World Cup in 2027/2031."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management used phrases like 'feeling good about our growth trajectory' and 'a pretty great 2026 coming up after this phenomenal Q4,' indicating confidence despite the one-time charge."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q3 2025 revenue was $11.51B, up 17% year-over-year.",
+      "quote": "Q3 2025 revenue $11.51B, up 17% year-over-year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Reported EPS was $5.87 versus roughly $6.96 consensus, an optical miss attributable to the Brazil charge.",
+      "quote": "Reported EPS $5.87 versus a roughly $6.96 consensus, an optical miss attributable to the Brazil charge.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "No full-year 2026 guidance given; deferred to the January call.",
+      "quote": "We will issue a full year 2026 guidance on our next call in January.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Operating margin was 28%, down from 30% a year earlier and below the 31.5% guidance, driven by a $619M Brazil tax expense.",
+      "quote": "Operating margin 28%, down from 30% a year earlier and below the 31.5% guidance. The margin shortfall is driven by a $619M expense tied to an ongoing Brazil tax dispute.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Brazil tax dispute is a key risk: a $619M expense covering 2022–2025, with ongoing quarterly cost of doing business in Brazil.",
+      "quote": "The Brazil Supreme Court reached a 7-4 decision against an unrelated company ruling that the tax applies to a wider range of transactions than we thought was legally permissible... we now deem the loss to be probable... It is a cost of doing business in Brazil.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Intensifying live-sports competition is a risk.",
+      "quote": "We've seen several sports rights deals, including Apple F1, Paramount UFC, et cetera.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Advertising is a key opportunity: best ad-sales quarter ever, on track to more than double ad revenue in 2025.",
+      "quote": "We recorded our best ad sales quarter ever. We are now on track to more than double ad revenue this year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Record share of TV time in Q3 in both the US (8.6%) and UK (9.4%).",
+      "quote": "We achieved record share of TV time in Q3 in both the US and the UK.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We have a pretty great 2026 coming up after this phenomenal Q4.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The sentiment score is 0.00 because forward guidance was not raised and the quarter was mixed.",
+      "quote": "No full-year 2026 guidance given, deferred to the January call.",
+      "confidence": "MEDIUM",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.00 is based on the lack of a guidance raise and the mixed nature of the quarter. However, the strong operational metrics (ad revenue doubling, record TV share) could justify a slightly positive score. A human reviewer should assess whether the operational momentum outweighs the guidance deferral."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 10,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "NFLX_Bundled Earnings Report_2025-10-21",
+  "report_metadata": {
+    "issuer": "p2_netflix",
+    "company": "Netflix",
+    "ticker": "NFLX",
+    "sector": "Media/Communication Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-21",
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q3\\netflix q3 2025 david.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q3\\Netflix-Inc-_Earnings-Call_2025-10-21_English-verified.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "NFLX_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260730T174141Z",
+    "timestamp": "2026-07-30T17:42:50Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q3\\netflix q3 2025 david.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Document",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q3\\netflix q3 2025 david.pdf",
+        "page_count": 4,
+        "extracted_characters": 10042,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\netflix\\phase2\\CY2025-Q3\\Netflix-Inc-_Earnings-Call_2025-10-21_English-verified.pdf",
+        "page_count": 15,
+        "extracted_characters": 45719,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_netflix\\extracted\\NFLX_FQ3_2025.txt"
+  }
+}

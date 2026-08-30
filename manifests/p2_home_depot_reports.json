@@ -1,0 +1,98 @@
+{
+  "issuer": "p2_home_depot",
+  "reports": [
+    {
+      "document_id": "HD_FQ2_2025",
+      "issuer": "p2_home_depot",
+      "company": "Home Depot",
+      "ticker": "HD",
+      "sector": "Consumer Cyclical/Home Improvement Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ2 2025",
+      "report_date": "2025-08-19",
+      "release_date": "2025-08-19",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 354950, filed 2025-08-19 10:06:02 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/home_depot/CY2025-Q2/HD_Q2_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/home_depot/CY2025-Q2/HD_Q2_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HD_FQ3_2025",
+      "issuer": "p2_home_depot",
+      "company": "Home Depot",
+      "ticker": "HD",
+      "sector": "Consumer Cyclical/Home Improvement Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-11-18",
+      "release_date": "2025-11-18",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 354950, filed 2025-11-18 11:05:10 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/home_depot/CY2025-Q3/HD_Q3_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/home_depot/CY2025-Q3/HD_Q3_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HD_FQ4_2025",
+      "issuer": "p2_home_depot",
+      "company": "Home Depot",
+      "ticker": "HD",
+      "sector": "Consumer Cyclical/Home Improvement Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-02-24",
+      "release_date": "2026-02-24",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 354950, filed 2026-02-24 11:07:18 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/home_depot/CY2025-Q4/HD_Q4_2025_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/home_depot/CY2025-Q4/HD_Q4_2025_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "document_id": "HD_FQ1_2026",
+      "issuer": "p2_home_depot",
+      "company": "Home Depot",
+      "ticker": "HD",
+      "sector": "Consumer Cyclical/Home Improvement Retail",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-05-19",
+      "release_date": "2026-05-19",
+      "release_date_source": "EDGAR 8-K 2.02, CIK 354950, filed 2026-05-19 10:06:14 ET",
+      "documents": [
+        {
+          "doc_type": "Press Release",
+          "source_pdf": "docs/home_depot/CY2026-Q1/HD_Q1_2026_Press_Release.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/home_depot/CY2026-Q1/HD_Q1_2026_Earnings_Call_Transcript.pdf"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "pre_market",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, retrieved 2026-08-13",
+    "retrieval_date": "2026-08-13"
+  }
+}

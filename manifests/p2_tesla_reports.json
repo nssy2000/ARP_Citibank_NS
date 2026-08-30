@@ -1,0 +1,76 @@
+{
+  "issuer": "p2_tesla",
+  "reports": [
+    {
+      "document_id": "TSLA_FQ3_2025",
+      "issuer": "p2_tesla",
+      "company": "Tesla",
+      "ticker": "TSLA",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ3 2025",
+      "report_date": "2025-10-22",
+      "release_date": "2025-10-22",
+      "release_date_source": "EDGAR 8-K Item 2.02, tsla-20251022.htm, acc 0001628280-25-045861",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/tesla/CY2025-Q3/20 tesla q3 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/tesla/CY2025-Q3/Tesla-Q3-2025-Earnings-Call-Transcript-MotleyFool.html"
+        }
+      ]
+    },
+    {
+      "document_id": "TSLA_FQ4_2025",
+      "issuer": "p2_tesla",
+      "company": "Tesla",
+      "ticker": "TSLA",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ4 2025",
+      "report_date": "2026-01-28",
+      "release_date": "2026-01-28",
+      "release_date_source": "EDGAR 8-K Item 2.02, tsla-20260128.htm, acc 0001628280-26-003837",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/tesla/CY2025-Q4/21 tesla q4 2025 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/tesla/CY2025-Q4/Tesla-Q4-2025-Earnings-Call-Transcript-MotleyFool.html"
+        }
+      ]
+    },
+    {
+      "document_id": "TSLA_FQ1_2026",
+      "issuer": "p2_tesla",
+      "company": "Tesla",
+      "ticker": "TSLA",
+      "sector": "Consumer/Auto",
+      "report_type": "Bundled Earnings Report",
+      "fiscal_period": "FQ1 2026",
+      "report_date": "2026-04-22",
+      "release_date": "2026-04-22",
+      "release_date_source": "EDGAR 8-K Item 2.02, tsla-20260422.htm, acc 0001628280-26-026551",
+      "documents": [
+        {
+          "doc_type": "Earnings Document",
+          "source_pdf": "docs/tesla/CY2026-Q1/19 tesla q1 2026 david.pdf"
+        },
+        {
+          "doc_type": "Earnings Call Transcript",
+          "source_pdf": "docs/tesla/CY2026-Q1/Tesla-Q1-2026-Earnings-Call-Transcript-StockAnalysis.html"
+        }
+      ]
+    }
+  ],
+  "release_timing": {
+    "value": "after_hours",
+    "source": "EDGAR 8-K Item 2.02 acceptance timestamp, cross-verified against public earnings calendars (TipRanks, MarketBeat, company IR)",
+    "retrieval_date": "2026-08-11"
+  }
+}

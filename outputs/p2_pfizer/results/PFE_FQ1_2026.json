@@ -1,0 +1,202 @@
+{
+  "document_id": "PFE_FQ1_2026",
+  "sentiment": {
+    "score": 0.2,
+    "rationale": "The document reports a strong Q1 with revenue of $14.5B (2% operational growth) and adjusted EPS of $0.75, both exceeding expectations. However, full-year 2026 guidance is reaffirmed, not raised, which caps the upside. The positive sentiment is driven by a genuine operational inflection: launched and acquired products grew 22% operationally, and the Vyndamax patent settlement extends exclusivity to mid-2031, providing clear line-of-sight to a high single-digit five-year revenue CAGR post-2028. Management expresses confidence in navigating LOE headwinds and building for durable growth. The score is above 0.0 but below 0.5 because guidance was held, not raised, and the Q1 beat is backward-looking."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "$14.5 billion in Q1 2026, representing 2% operational growth year-over-year. Excluding COVID products, the underlying business grew 7% operationally. Launched and acquired products grew 22% operationally.",
+    "eps": "Reported diluted EPS of $0.47; adjusted diluted EPS of $0.75, exceeding expectations.",
+    "guidance": "Full-year 2026 guidance reaffirmed: revenues in the range of $59.5 to $62.5 billion and adjusted diluted EPS in the range of $2.80 to $3.00. Management also provided a forward-looking growth target: high single-digit five-year revenue CAGR starting in 2029.",
+    "margin": "Adjusted gross margin for Q1 was approximately 76%. Adjusted operating margin was 38%, above pre-pandemic levels.",
+    "key_risks": [
+      "Near-term LOE headwinds from 2026 through 2028, with approximately $14-15 billion in revenue at risk (down from $17 billion after Vyndamax settlement).",
+      "Sustained low disease levels of COVID likely to continue weighing on Paxlovid utilization.",
+      "Majority of Comirnaty sales expected towards the end of the year, consistent with vaccination season.",
+      "Leverage expected to remain around current levels (2.8x) or slightly higher through the transition period.",
+      "Currency fluctuations could impact results."
+    ],
+    "key_opportunities": [
+      "Vyndamax patent settlements extend effective U.S. patent expiry to June 1, 2031, providing revenue stability through mid-2031.",
+      "Belgian court ruling regarding COMIRNATY contracts with EU member countries is a positive for future EPS and cash flow.",
+      "Launched and acquired products growing 22% operationally, expected to partially offset LOE headwinds.",
+      "Robust pipeline with ~20 pivotal study starts, 8 key data readouts, and 4 regulatory decisions planned for 2026.",
+      "Metsera acquisition positions Pfizer as a leader in next-generation obesity therapies, targeting first approval in 2028.",
+      "Oncology portfolio advancing with positive Phase 3 readouts for PADCEV, ELREXFIO, and Talzenna.",
+      "Next-generation pneumococcal vaccine candidates advancing (25-valent pediatric and 35-valent adult).",
+      "AI integration across R&D, commercial, manufacturing, and core functions to compress timelines and improve decision-making.",
+      "Approximately $7 billion in BD capacity (including ViiV proceeds) for potential value-enhancing transactions."
+    ],
+    "management_tone": {
+      "label": "confident",
+      "justification": "Management uses language such as 'strong start to the year,' 'exceeding expectations,' 'we are making strategic progress,' and 'we are delivering on our financial commitments,' and expresses confidence in a 'high single-digit five-year revenue CAGR post-2028.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q1 2026 revenue was $14.5 billion, representing 2% operational growth.",
+      "quote": "In the first quarter of 2026, revenues were $14.5 billion, exceeding our expectations and representing an operational increase of 2%.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted diluted EPS was $0.75, exceeding expectations.",
+      "quote": "First-quarter reported diluted EPS was $0.47, and adjusted diluted EPS was $0.75, also exceeding our expectations.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year 2026 guidance is reaffirmed, not raised.",
+      "quote": "Based on our performance to date and continued execution, we are reaffirming our full-year 2026 guidance today. We continue to expect total company revenues in the range of $59.5 to $62.5 billion and adjusted diluted EPS in the range of $2.80 to $3.00 a share.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Launched and acquired products grew 22% operationally.",
+      "quote": "Our launched and acquired products delivered $3.1 billion in first-quarter revenues and grew approximately 22% operationally.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Vyndamax patent settlements extend exclusivity to June 1, 2031, providing line-of-sight to high single-digit CAGR post-2028.",
+      "quote": "These settlements extend the effective U.S. patent expiry date for Vyndamax to June 1, 2031... This gives us greater confidence that starting in 2029 and we will enter a five-year period of high single-digit revenue CAGR.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted gross margin was approximately 76%.",
+      "quote": "Adjusted gross margin for the first quarter was approximately 76%, primarily the result of product mix during the quarter and on-going cost control measures.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Adjusted operating margin was 38%, above pre-pandemic levels.",
+      "quote": "First quarter 2026 adjusted operating margin was strong at 38% and above pre-pandemic levels demonstrating effective cost management as well as revenue performance.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is confident.",
+      "quote": "We're off to a strong start in 2026, and it reinforces our confidence that we will successfully navigate this defining period for Pfizer.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Near-term LOE headwinds from 2026 through 2028 are a key risk.",
+      "quote": "over the next several years, our focus remains on investing in key assets while managing upcoming LOE events, primarily from this year through 2028.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Sustained low COVID disease levels will weigh on Paxlovid utilization.",
+      "quote": "sustained low disease levels of COVID will likely continue to weigh on Paxlovid utilization over the next several months.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Belgian court ruling on COMIRNATY contracts is positive for future EPS and cash flow.",
+      "quote": "we view the recent Belgian court ruling regarding COMIRNATY contracts with EU member countries as a positive for future EPS and cash flow.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Metsera acquisition targets first approval in 2028 for obesity therapies.",
+      "quote": "We intend to advance 10 Phase 3 studies this year, and we are targeting a first approval in 2028 from a portfolio that includes ultra-long acting peptides.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Approximately $7 billion in BD capacity is available.",
+      "quote": "Our BD capacity, when including the ViiV proceeds, is approximately $7 billion.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Leverage ended the quarter at 2.8x.",
+      "quote": "First quarter 2026 operating cash flow was $2.6 billion and leverage ended the quarter at 2.8x.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Excluding COVID products, the underlying business grew 7% operationally.",
+      "quote": "Excluding our COVID products, the underlying business delivered approximately 7% operational revenue growth, reflecting solid demand across key brands and continued strong commercial execution.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.20 is above the BUY threshold of 0.15 but below 0.5. A reviewer should confirm that the reaffirmed guidance (not raised) and the backward-looking nature of the Q1 beat are appropriately weighted against the positive operational inflection and Vyndamax settlement. The score could reasonably be argued as 0.15 (just above BUY threshold) or 0.25 depending on how much weight is given to the forward-looking CAGR guidance versus the lack of a formal guidance raise."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 15,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "PFE_Bundled Earnings Report_2026-05-04",
+  "report_metadata": {
+    "issuer": "p2_pfizer",
+    "company": "Pfizer",
+    "ticker": "PFE",
+    "sector": "Healthcare",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ1 2026",
+    "report_date": "2026-05-04",
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2026-Q1\\PFE-USQ_Transcript_2026-05-05.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2026-Q1\\Q1-2026-PFE-Earnings-Release-FINAL.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "PFE_FQ1_2026"
+  },
+  "run_meta": {
+    "run_id": "20260730T174847Z",
+    "timestamp": "2026-07-30T17:50:25Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2026-Q1\\PFE-USQ_Transcript_2026-05-05.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ1_2026.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2026-Q1\\PFE-USQ_Transcript_2026-05-05.pdf",
+        "page_count": 15,
+        "extracted_characters": 52083,
+        "extractor_used": "pypdf",
+        "warnings": []
+      },
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\pfizer\\CY2026-Q1\\Q1-2026-PFE-Earnings-Release-FINAL.pdf",
+        "page_count": 23,
+        "extracted_characters": 69476,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_pfizer\\extracted\\PFE_FQ1_2026.txt"
+  }
+}

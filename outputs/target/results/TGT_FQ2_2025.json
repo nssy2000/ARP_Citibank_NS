@@ -1,0 +1,203 @@
+{
+  "document_id": "TGT_FQ2_2025",
+  "sentiment": {
+    "score": 0.0,
+    "rationale": "The document shows sequential improvement in Q2 vs Q1 (comparable sales -1.9% vs -3.8% in Q1), but full-year guidance is maintained, not raised. Management explicitly states 'we are far from satisfied' and 'we need to do better,' with cautious language on tariffs and consumer uncertainty. The backward-looking beat is offset by flat forward guidance and cautious tone, resulting in a neutral score."
+  },
+  "signal": {
+    "direction": "HOLD",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "none — HOLD band",
+    "model_stated_direction": "HOLD",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Second quarter net sales were $25.2 billion, (0.9) percent lower than 2024.",
+    "eps": "Second quarter GAAP and Adjusted EPS was $2.05, compared with $2.57 in 2024, a decline of 20.2%.",
+    "guidance": "For fiscal 2025, the Company is maintaining its expectation of a low-single digit decline in sales, and GAAP EPS of $8.00 to $10.00. Adjusted EPS, which excludes the gains from litigation settlements in the first quarter, is expected to be approximately $7.00 to $9.00.",
+    "margin": "Second quarter operating income margin rate was 5.2 percent in 2025, compared with 6.4 percent in 2024. Second quarter gross margin rate was 29.0 percent, compared with 30.0 percent in 2024.",
+    "key_risks": [
+      "Tariff-related cost pressures throughout the business.",
+      "Higher markdown rates, purchase order cancellation costs, and pressure from category mix.",
+      "Uncertainty in the tariff environment and consumer spending.",
+      "Higher average debt levels leading to increased net interest expense.",
+      "Higher global minimum taxes impacting the effective income tax rate."
+    ],
+    "key_opportunities": [
+      "Digital comparable sales grew 4.3 percent, with same-day delivery powered by Target Circle 360 growing more than 25%.",
+      "Non-merchandise sales grew 14.2% with Roundel, membership and marketplace revenues all growing double digits.",
+      "Improvements in inventory shrink, providing 130 basis points of benefit in Q2.",
+      "Fun 101 transformation in hardlines showing positive comps and traffic growth.",
+      "New CEO Michael Fiddelke's focus on reestablishing merchandising authority, elevating guest experience, and leveraging technology."
+    ],
+    "management_tone": {
+      "label": "mixed",
+      "justification": "Management expresses encouragement at sequential improvement ('encouraging signs of recovery') but repeatedly states dissatisfaction ('we are far from satisfied with where our business is performing today') and maintains cautious forward guidance."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Second quarter net sales were $25.2 billion, down 0.9% from 2024.",
+      "quote": "Second quarter net sales were $25.2 billion, (0.9) percent lower than 2024",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter GAAP and Adjusted EPS was $2.05, down from $2.57 in 2024.",
+      "quote": "The Company reported second quarter GAAP and Adjusted earnings per share1 (EPS) of $2.05 compared with GAAP and Adjusted EPS of $2.57 in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year guidance is maintained: low-single digit sales decline, GAAP EPS $8.00-$10.00, Adjusted EPS ~$7.00-$9.00.",
+      "quote": "For fiscal 2025, the Company is maintaining its expectation of a low-single digit decline in sales, and GAAP EPS of $8.00 to $10.00. Adjusted EPS, which excludes the gains from litigation settlements in the first quarter, is expected to be approximately $7.00 to $9.00.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter operating income margin rate was 5.2%, down from 6.4% in 2024.",
+      "quote": "Second quarter operating income margin rate was 5.2 percent in 2025, compared with 6.4 percent in 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Second quarter gross margin rate was 29.0%, down from 30.0% in 2024.",
+      "quote": "Second quarter gross margin rate was 29.0 percent, compared with 30.0 percent in 2024, reflecting the net impact of merchandising activities, including higher markdown rates, purchase order cancellation costs, and pressure from category mix, partially offset by lower inventory shrink and growth in advertising and non-merchandise sales.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Tariff-related cost pressures are a key risk.",
+      "quote": "Second quarter GAAP and Adjusted EPS1 was $2.05, reflecting strong expense management and efficiency gains, helping to offset continued tariff-related and other cost pressures throughout the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Digital comparable sales grew 4.3%, with same-day delivery growing more than 25%.",
+      "quote": "Digital comparable sales grew 4.3 percent, reflecting more than 25% growth in same-day delivery powered by Target Circle 360 and continued growth in Drive Up.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Non-merchandise sales grew 14.2% with Roundel, membership and marketplace revenues all growing double digits.",
+      "quote": "Non-merchandise sales grew 14.2% with Roundel, membership and marketplace revenues all growing double digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is mixed: encouraged by improvement but dissatisfied with current performance.",
+      "quote": "While we were happy to see improvement in Q2, we are far from satisfied with where our business is performing today. We need to do better, and our entire team is focused on consistent execution, building further momentum, and getting back to profitable long-term growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Inventory shrink improved, providing 130 basis points of benefit in Q2.",
+      "quote": "These pressures were partially offset by improvements in inventory shrink worth about 130 basis points of benefit in the quarter.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fun 101 transformation in hardlines showed positive comps and traffic growth.",
+      "quote": "In Q2, performance was led by Fun 101, our updated approach to bringing greater style and cultural relevance to our hardlines assortment. With this new approach, we saw growth of more than 5% in Q2, our strongest quarterly comp in this category since 2021.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "New CEO Michael Fiddelke is focused on reestablishing merchandising authority, elevating guest experience, and leveraging technology.",
+      "quote": "First, we must reestablish our merchandising authority in a way that is distinctly target. Second, we're a retailer that believes that an elevated experience is every bit as important as product. ... And third, we must more fully use technology to improve our speed, guest experience and efficiency throughout the business.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher markdown rates, purchase order cancellation costs, and category mix pressure are risks.",
+      "quote": "Second quarter gross margin rate was 29.0 percent, compared with 30.0 percent in 2024, reflecting the net impact of merchandising activities, including higher markdown rates, purchase order cancellation costs, and pressure from category mix",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Uncertainty in tariff environment and consumer spending is a risk.",
+      "quote": "While our Q2 performance reinforced our confidence that we can deliver on that guidance, we're still facing a highly volatile and uncertain environment and believe it's prudent to maintain a cautious approach in the back half of the year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher average debt levels increased net interest expense.",
+      "quote": "The Company's second quarter 2025 net interest expense was $116 million, compared with $110 million last year, reflecting higher average debt levels in the current year.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Higher global minimum taxes impacted the effective income tax rate.",
+      "quote": "Second quarter 2025 effective income tax rate was 23.2 percent, compared with the prior year rate of 22.9 percent, reflecting the impact of higher global minimum taxes.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score is 0.00 despite sequential improvement in Q2 vs Q1. A reviewer may consider whether the improvement warrants a slightly positive score given the inflection in underlying trends, even though guidance was not raised."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 16,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "TGT_Bundled Earnings Report_2025-08-20",
+  "report_metadata": {
+    "issuer": "target",
+    "company": "Target Corporation",
+    "ticker": "TGT",
+    "sector": "Consumer Discretionary",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ2 2025",
+    "report_date": "2025-08-20",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q2\\2025-08-20-TGT-FQ2-2025-Press-Release.pdf"
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q2\\2025-08-20-TGT-FQ2-2025-Transcript.pdf"
+      }
+    ],
+    "document_id": "TGT_FQ2_2025"
+  },
+  "run_meta": {
+    "run_id": "20260706T101815Z",
+    "timestamp": "2026-07-06T10:19:00Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q2\\2025-08-20-TGT-FQ2-2025-Press-Release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q2\\2025-08-20-TGT-FQ2-2025-Press-Release.pdf",
+        "page_count": 12,
+        "extracted_characters": 22526,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\docs\\target\\Q2\\2025-08-20-TGT-FQ2-2025-Transcript.pdf",
+        "page_count": 19,
+        "extracted_characters": 71223,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\OneDrive\\Personal\\Computing\\Business Analytics\\Citibank APR\\outputs\\target\\extracted\\TGT_FQ2_2025.txt"
+  }
+}

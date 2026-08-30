@@ -1,0 +1,178 @@
+{
+  "document_id": "SIE.DE_FQ4_2025",
+  "sentiment": {
+    "score": 0.25,
+    "rationale": "The document reports record full-year results with net income up 16% and free cash flow at a record high, but the forward guidance for fiscal 2026 is mixed: revenue growth is expected to be 6-8% comparable, EPS pre PPA guidance of €10.40-€11.00 is below the fiscal 2025 actual of €12.95 (excluding one-time effects), and management explicitly flags strong negative currency effects and a challenging macro environment. The positive operational momentum in Digital Industries and Smart Infrastructure, along with confident language about the ONE Tech Company program and acquisitions, supports a mildly positive score, but the cautious outlook and currency headwinds prevent a higher score."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 FY2025 revenue €21.4 billion, +3% actual, +6% comparable; FY2025 revenue €78.9 billion, +4% actual, +5% comparable.",
+    "eps": "Q4 FY2025 basic EPS €2.07, -14% vs prior year; EPS pre PPA €2.30, -11%. FY2025 basic EPS €12.25, +16%; EPS pre PPA €12.95, +16%.",
+    "guidance": "For fiscal 2026, Siemens expects comparable revenue growth of 6% to 8% for the Group, book-to-bill ratio above 1, and EPS pre PPA in a range of €10.40 to €11.00, excluding burdens from legal and regulatory matters. Digital Industries expects comparable revenue growth of 5% to 10% and profit margin of 15% to 19%; Smart Infrastructure expects 6% to 9% revenue growth and 18% to 19% margin; Mobility expects 8% to 10% revenue growth and 8% to 10% margin.",
+    "margin": "Q4 FY2025 Industrial Business profit margin 15.3% (15.5% prior year); excluding severance 16.8% (15.9% prior year). FY2025 Industrial Business profit margin 15.4% (15.5% prior year).",
+    "key_risks": [
+      "Negative currency translation effects expected to strongly burden nominal growth rates and profit in fiscal 2026.",
+      "Global economic environment remains challenging with muted investment activities in key end markets.",
+      "Severance charges in Q4 FY2025 (€298 million in Industrial Business) related to capacity adjustments, particularly in automation.",
+      "Higher amortization of intangible assets from Altair and Dotmatics acquisitions burdening EPS.",
+      "Potential burdens from legal and regulatory matters excluded from fiscal 2026 outlook.",
+      "Decline in Mobility orders due to lower large order volume compared to prior year."
+    ],
+    "key_opportunities": [
+      "Acquisition of Altair and Dotmatics expanding leadership in software and artificial intelligence.",
+      "ONE Tech Company program aimed at stronger customer focus, faster innovations, and higher profitable growth.",
+      "Strong demand in data center and power utilities verticals, driving growth in Smart Infrastructure.",
+      "Digital Business revenue growing to €9.4 billion in FY2025, with strong SaaS transition and ARR growth.",
+      "Record order backlog of €117 billion providing revenue visibility.",
+      "Planned deconsolidation of Siemens Healthineers to elevate a highly synergistic core portfolio."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Management describes fiscal 2025 as a 'milestone' and 'record results,' expresses pleasure at record free cash flow, and states 'We enter fiscal 2026 strengthened with an ambitious outlook,' reflecting an optimistic tone despite acknowledged headwinds."
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 FY2025 revenue was €21.4 billion, up 3% actual and 6% comparable.",
+      "quote": "On a nominal basis, revenue rose 3% to €21.4 billion, and orders declined 4% to €21.9 billion; the book-to-bill ratio was 1.02",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 revenue was €78.9 billion, up 4% actual and 5% comparable.",
+      "quote": "on a nominal basis, orders were up 5% to €88.4 billion and revenue increased 4% to €78.9 billion for a strong book-to-bill ratio of 1.12",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY2025 basic EPS was €2.07, down 14% year-over-year.",
+      "quote": "Basic EPS (in €) 2.07 2.42 (14)%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "FY2025 basic EPS was €12.25, up 16% year-over-year.",
+      "quote": "Net income climbed 16% to a historic high of €10.4 billion; corresponding basic EPS increased to €12.25, and EPS pre PPA reached €12.95",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Fiscal 2026 guidance includes comparable revenue growth of 6% to 8% for the Group and EPS pre PPA of €10.40 to €11.00.",
+      "quote": "For the Siemens Group, we expect comparable revenue growth in the range of 6% to 8% and a book-to-bill ratio above 1 for fiscal 2026. Based on the expected profitable growth of our industrial businesses and substantial burdens from currency effects, we anticipate basic EPS from net income before purchase price allocation accounting (EPS pre PPA) in a range of €10.40 to €11.00 in fiscal 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY2025 Industrial Business profit margin was 15.3%.",
+      "quote": "Profit Industrial Business increased 2% to €3.2 billion, with a profit margin of 15.3%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Negative currency effects are expected to burden fiscal 2026 growth and profit.",
+      "quote": "We also anticipate that in fiscal 2026 negative currency effects will strongly burden nominal growth rates in volume as well as profit for our industrial businesses and earnings per share (EPS).",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The macro environment remains challenging with muted investment activities.",
+      "quote": "Macro environment remains challenging, indicators point to muted investment activities",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Altair and Dotmatics acquisitions are expected to expand software and AI leadership.",
+      "quote": "Through our acquisition of Altair and Dotmatics, we are expanding our leadership in software and artificial intelligence.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Order backlog is a source of strength and resilience at €117 billion.",
+      "quote": "Order backlog a source of strength and resilience ... Order backlog Sept. 2025 117",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management tone is optimistic, describing record results and an ambitious outlook.",
+      "quote": "We enter fiscal 2026 strengthened with an ambitious outlook.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "Score of 0.25 is based on a mix of record FY25 results and cautious FY26 guidance with currency headwinds; a reviewer may weigh the guidance miss versus operational momentum differently."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 11,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "SIE.DE_Bundled Earnings Report_2025-11-13",
+  "report_metadata": {
+    "issuer": "p2_siemens",
+    "company": "Siemens",
+    "ticker": "SIE.DE",
+    "sector": "Industrials/Specialty Industrial Machinery",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ4 2025",
+    "report_date": "2025-11-13",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2025-Q4\\siemens_q4_fy2025_earnings_release.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2025-Q4\\siemens_q4_fy2025_presentation.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "SIE.DE_FQ4_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103013Z",
+    "timestamp": "2026-08-09T10:30:32Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": false,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2025-Q4\\siemens_q4_fy2025_earnings_release.pdf",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_siemens\\extracted\\SIE.DE_FQ4_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2025-Q4\\siemens_q4_fy2025_earnings_release.pdf",
+        "page_count": 14,
+        "extracted_characters": 32018,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\siemens\\CY2025-Q4\\siemens_q4_fy2025_presentation.pdf",
+        "page_count": 31,
+        "extracted_characters": 23927,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_siemens\\extracted\\SIE.DE_FQ4_2025.txt"
+  }
+}

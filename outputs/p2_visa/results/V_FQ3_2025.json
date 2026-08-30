@@ -1,0 +1,260 @@
+{
+  "document_id": "V_FQ3_2025",
+  "sentiment": {
+    "score": 0.3,
+    "rationale": "Visa delivered strong Q4 and full-year results with net revenue up 12% and non-GAAP EPS up 10% in Q4, and provided fiscal 2026 guidance for low-double-digit adjusted net revenue and EPS growth, which is consistent with the strong momentum exiting FY2025. While the guidance is not a formal raise above a previously stated number, the company's confident forward language and expectation of continued strong growth, including a strong Q1 holiday quarter, indicate genuine operational momentum. The score is tempered by the fact that the guidance is described as an assumption of no material change from Q4 levels rather than an explicit raise, and by the ongoing litigation provision and related legal risks."
+  },
+  "signal": {
+    "direction": "BUY",
+    "hold_upper_threshold": 0.15,
+    "hold_lower_threshold": -0.15,
+    "boundary_crossed": "upper",
+    "model_stated_direction": "BUY",
+    "signal_mismatch": false
+  },
+  "summary": {
+    "revenue": "Q4 FY2025 net revenue was $10.7 billion, an increase of 12% (11% on a constant-dollar basis). Full-year FY2025 net revenue was $40.0 billion, an increase of 11% (12% on a constant-dollar basis).",
+    "eps": "Q4 FY2025 GAAP EPS was $2.62, a decrease of 1% year-over-year. Non-GAAP EPS was $2.98, an increase of 10%. Full-year FY2025 GAAP EPS was $10.20, an increase of 5%. Non-GAAP EPS was $11.47, an increase of 14%.",
+    "guidance": "For fiscal 2026, Visa expects adjusted net revenue growth in the low-double digits, adjusted operating expense growth in the low-double digits, and adjusted EPS growth in the low-double digits. For Q1 2026, the company expects adjusted net revenue growth in the high end of low-double digits, adjusted operating expense growth in the low-double digits, and adjusted EPS growth in the low-teens.",
+    "margin": "GAAP operating expenses were $4.6 billion in Q4 FY2025, a 40% increase year-over-year. Non-GAAP operating expenses increased 13%. GAAP effective income tax rate was 18.2% for Q4 and 17.1% for the full year. Non-GAAP effective income tax rate was 18.8% for Q4 and 17.7% for the full year.",
+    "key_risks": [
+      "Litigation provision associated with the interchange multidistrict litigation (MDL) case and other legal matters, which was a $899 million special item in Q4 and $2.5 billion for the full year.",
+      "Potential impact of complex and evolving global regulations, increased scrutiny and regulation of the global payments industry.",
+      "Outcome of litigation or investigations.",
+      "Intense competition in the industry.",
+      "Dependence on client and seller base, which may be costly to win, retain and develop.",
+      "Exposure to significant risk of loss or reduction of liquidity due to indemnification obligation to fund settlement losses of clients.",
+      "Failure to anticipate, adapt to, or keep pace with new technologies in the payments industry.",
+      "A disruption, failure or breach of the networks or systems, including as a result of cyber incidents or attacks."
+    ],
+    "key_opportunities": [
+      "Continued strong growth in payments volume, cross-border volume and processed transactions.",
+      "Expansion of Visa as a Service stack, including new products like Visa Intelligent Commerce, Visa Trusted Agent Protocol, and Visa Flex Credential.",
+      "Growth in value-added services revenue, which grew 25% in constant dollars in Q4.",
+      "Growth in commercial and money movement solutions revenue, which grew 14% in constant dollars in Q4.",
+      "Expansion of stablecoin capabilities, including stablecoin-linked card programs and Visa Direct prefunding pilot.",
+      "Upcoming marketing events including the FIFA World Cup 2026 and the Olympic and Paralympic Winter Games in Milano Cortina."
+    ],
+    "management_tone": {
+      "label": "optimistic",
+      "justification": "Ryan McInerney stated, 'I don't ever recall being so excited about the opportunities ahead of this company,' and Chris Suh noted, 'Visa's underlying business continues to be healthy and the growth opportunities are significant, together giving us conviction as we make investment decisions to build the future of payments to drive compelling net revenue and earnings per share growth.'"
+    }
+  },
+  "evidence": [
+    {
+      "claim": "Q4 FY2025 net revenue was $10.7 billion, up 12% year-over-year.",
+      "quote": "Net revenue of $10.7B, an increase of 12%, or 11% on a constant-dollar basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY2025 net revenue was $40.0 billion, up 11% year-over-year.",
+      "quote": "Net revenue of $40.0B, an increase of 11%, or 12% on a constant-dollar basis",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY2025 GAAP EPS was $2.62, a decrease of 1% year-over-year.",
+      "quote": "GAAP Earnings Per Share $2.62 (1%)",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 FY2025 non-GAAP EPS was $2.98, an increase of 10% year-over-year.",
+      "quote": "Non-GAAP Earnings Per Share (1) $2.98 10%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY2025 GAAP EPS was $10.20, an increase of 5% year-over-year.",
+      "quote": "GAAP Earnings Per Share $10.20 5%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Full-year FY2025 non-GAAP EPS was $11.47, an increase of 14% year-over-year.",
+      "quote": "Non-GAAP Earnings Per Share (1) $11.47 14%",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For fiscal 2026, Visa expects adjusted net revenue growth in the low-double digits.",
+      "quote": "In 2026, we expect full year adjusted net revenue growth to be in the low-double digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For fiscal 2026, Visa expects adjusted EPS growth in the low-double digits.",
+      "quote": "All of this results in our adjusted EPS growth to be in the low double-digits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For Q1 2026, Visa expects adjusted net revenue growth in the high end of low-double digits.",
+      "quote": "We expect Q1 adjusted net revenue growth in the high end of low doubledigits.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "For Q1 2026, Visa expects adjusted EPS growth in the low-teens.",
+      "quote": "As a result, we expect adjusted first quarter EPS growth to be in the low-teens.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP operating expenses increased 40% year-over-year.",
+      "quote": "GAAP operating expenses were $4.6 billion for the fiscal fourth quarter, a 40% increase over the prior year's results, primarily driven by increases in the litigation provision and personnel expenses.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 non-GAAP operating expenses increased 13% year-over-year.",
+      "quote": "Excluding these items, non-GAAP operating expenses increased 13% over the prior year, primarily driven by increases in personnel, general and administrative and professional fees.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 GAAP effective income tax rate was 18.2%.",
+      "quote": "GAAP effective income tax rate was 18.2% for the quarter ended September 30, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Q4 non-GAAP effective income tax rate was 18.8%.",
+      "quote": "Excluding the related tax impacts from the non-GAAP items noted above, the non-GAAP effective income tax rate was 18.8% for the quarter ended September 30, 2025.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The litigation provision was a significant special item in Q4 and full-year results.",
+      "quote": "Current year's results included a special item of $899 million for a litigation provision associated with the interchange multidistrict litigation (\"MDL\") case and other legal matters.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The litigation provision was a significant special item in full-year results.",
+      "quote": "Current year's results included special items of $2.5 billion for a litigation provision associated with the interchange multidistrict litigation (\"MDL\") case and other legal matters",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Value-added services revenue grew 25% in constant dollars in Q4.",
+      "quote": "Value-added services revenue grew 25% in constant dollars to $3 billion driven by issuing solutions, advisory and other services and pricing.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Commercial and money movement solutions revenue grew 14% in constant dollars in Q4.",
+      "quote": "Commercial and money movement solutions revenue grew 14% year-over-year in constant dollars as we lap the one-time adjustment we saw in Q4 FY 2024.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed an optimistic tone about the company's future.",
+      "quote": "I don't ever recall being so excited about the opportunities ahead of this company.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "Management expressed confidence in the underlying business health and growth opportunities.",
+      "quote": "Visa's underlying business continues to be healthy and the growth opportunities are significant, together giving us conviction as we make investment decisions to build the future of payments to drive compelling net revenue and earnings per share growth.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The guidance assumes no material change from Q4 2025 growth levels.",
+      "quote": "On key business drivers, we are assuming no material change from the Q4 2025 growth levels in 2026.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    },
+    {
+      "claim": "The company expects a strong Q1 holiday quarter.",
+      "quote": "And so, we are anticipating a strong quarter going into the holiday – our fiscal Q1, the holiday quarter that we see.",
+      "confidence": "HIGH",
+      "flag": "SUPPORTED"
+    }
+  ],
+  "review_flags": [
+    {
+      "field": "sentiment.score",
+      "reason": "The score of 0.30 reflects a judgment that the strong results and confident guidance constitute genuine momentum, but the guidance is framed as an assumption of stability rather than an explicit raise. A reviewer may consider whether the score should be lower (closer to 0.0) given the lack of a formal guidance raise, or higher given the strength of the results and forward language."
+    }
+  ],
+  "output_meta": {
+    "evidence_count": 22,
+    "uncertain_count": 0,
+    "review_flag_count": 1,
+    "not_disclosed_count": 0
+  },
+  "model_document_id": "V_Bundled Earnings Report_2025-10-28",
+  "report_metadata": {
+    "issuer": "p2_visa",
+    "company": "Visa",
+    "ticker": "V",
+    "sector": "Financial Services/Credit Services",
+    "report_type": "Bundled Earnings Report",
+    "fiscal_period": "FQ3 2025",
+    "report_date": "2025-10-28",
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q3\\press_release.htm",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q3\\Visa-Q3-2025-Presentation.pdf",
+        "pub_date": null
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q3\\Visa-Q3-2025-Transcript.pdf",
+        "pub_date": null
+      }
+    ],
+    "document_id": "V_FQ3_2025"
+  },
+  "run_meta": {
+    "run_id": "20260809T103938Z",
+    "timestamp": "2026-08-09T10:41:00Z",
+    "model": "deepseek-v4-flash",
+    "prompt": "llm_analysis_prompt_template.md",
+    "cached_input": true,
+    "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q3\\press_release.htm",
+    "extracted_text_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_visa\\extracted\\V_FQ3_2025.txt"
+  },
+  "extraction_meta": {
+    "documents": [
+      {
+        "doc_type": "Press Release",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q3\\press_release.htm",
+        "page_count": 1,
+        "extracted_characters": 33428,
+        "extractor_used": "html.parser",
+        "warnings": [
+          "missing_keyword:Earnings Call"
+        ]
+      },
+      {
+        "doc_type": "Earnings Presentation",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q3\\Visa-Q3-2025-Presentation.pdf",
+        "page_count": 24,
+        "extracted_characters": 24314,
+        "extractor_used": "pypdf",
+        "warnings": [
+          "missing_keyword:Earnings Call",
+          "missing_pattern:speaker_labels"
+        ]
+      },
+      {
+        "doc_type": "Earnings Call Transcript",
+        "source_pdf": "C:\\Users\\bencr\\Documents\\Citibank APR\\docs\\visa\\CY2025-Q3\\Visa-Q3-2025-Transcript.pdf",
+        "page_count": 22,
+        "extracted_characters": 79828,
+        "extractor_used": "pypdf",
+        "warnings": []
+      }
+    ],
+    "target_path": "C:\\Users\\bencr\\Documents\\Citibank APR\\outputs\\p2_visa\\extracted\\V_FQ3_2025.txt"
+  }
+}
