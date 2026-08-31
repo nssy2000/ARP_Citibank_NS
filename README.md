@@ -92,8 +92,8 @@ report date, and the price pair used to compute the overnight gap.
 │
 ├── data/
 │   ├── workbook/           Master data workbook
-│   │   ├── Master_Data_Phase_34_corrected.xlsx   Current version
-│   │   └── archive/        Six superseded workbook versions with provenance README
+│   │   ├── Master_Data_Final.xlsx                Current version
+│   │   └── archive/        Seven superseded workbook versions with provenance README
 │   ├── human/
 │   │   ├── human_decisions_export_2026-08-12.csv Human rater decisions (all events)
 │   │   └── notes/          Rater reading notes (PDFs, one per rater/event)
@@ -127,6 +127,9 @@ report date, and the price pair used to compute the overnight gap.
 ├── figures/                Generated figures F1–F22 (PNG and PDF, all dissertation figures)
 │
 ├── report_figures/         Final polished versions submitted with the dissertation
+│
+├── prototype/              Static single-file replay UI (no API key, no server required)
+│   └── ARP_Prototype.html  Open with any browser from a local file: File → Open
 │
 └── tests/                  Unit tests (phase2/test_gap_report.py)
 ```
@@ -206,3 +209,5 @@ python llm_macro.py                           # score FOMC minutes (cached, idem
 | `verify_all.txt` | Manual verification log: cross-checks between computed figures and workbook entries, run during the 2026-08-13 corrections pass |
 | `outputs/global/summary/FILE_STATUS.md` | Manifest of the global summary folder: identifies which files are cited in the dissertation, which are pre-exclusion (N=268/N=233), and which are from the superseded 0.55/0.45 regime |
 | `docs/TRANSCRIPT_SOURCES.md` | Full list of excluded earnings call transcripts with company, fiscal quarter, and source provider, sufficient to reconstruct the corpus |
+| `data/workbook/Master_Data_Final.xlsx` | Current master data workbook. Open directly in Excel. Supersedes `Master_Data_Phase_34_corrected.xlsx` (now in `data/workbook/archive/`). |
+| `prototype/ARP_Prototype.html` | Static single-file replay UI. Open with any browser from disk (File → Open, or `open prototype/ARP_Prototype.html`). Requires no API key, no server, and fetches nothing at runtime. Contains 20 stored events with embedded scores, summaries, and evidence; no rater names are exposed. Note: figures are from the 2026-08-15 snapshot (N=233, 0.55/0.45 weights); the deployed headline figures are in `item_e_walkforward.json`. |

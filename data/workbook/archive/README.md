@@ -1,7 +1,7 @@
 # Workbook Archive
 
 This folder contains superseded versions of the Master Data workbook.
-The current version lives one level up at `data/workbook/Master_Data_Phase_34_corrected.xlsx`.
+The current version lives one level up at `data/workbook/Master_Data_Final.xlsx`.
 
 ## File history
 
@@ -13,10 +13,17 @@ The current version lives one level up at `data/workbook/Master_Data_Phase_34_co
 | Master_Data_CORRECTED_2026-08-14.xlsx | 2026-08-14 | 712 KB | One-day follow-up correction fixing `PUM.DE_FQ1_2026` `outcome_label`/`is_correct` fields that were found wrong after the 2026-08-13 lock. Also adds `evidence_quotes`, `summary`, and `price` fields to prototype_events entries. Largest file in the archive due to additional data columns added during this session. |
 | Master_Data_Phase_3_2026-08-20.xlsx | 2026-08-20 | 1.1 MB | Phase 3 schema migration — expanded to cover the full 73-issuer phase2 universe and added the `Efficiency` tab tracking LLM wall-clock time and token cost per document. Blend weights promoted to `DEFAULT_WEIGHTS = (0.80, 0.20, 0.0, 0.0)` (micro/macro/news/quant), thresholds `hold_upper=0.20`/`hold_lower=-0.10`. This version was superseded within hours by `_synced` below after a final sync pass. |
 | Master_Data_Phase_3_2026-08-20_synced.xlsx | 2026-08-20 | 1.1 MB | Final synced state after the 2026-08-19 weight promotion was gated artifact-by-artifact: each derived output was reproduced at the old constants before regeneration at the new ones. All summary CSVs, backtest outputs, and workbook metrics reflect `(0.80, 0.20, 0.0, 0.0)` weights with `+0.20/-0.10` thresholds. Superseded by `Master_Data_Phase_34_corrected.xlsx`. |
-| **Master_Data_Phase_34_corrected.xlsx** | **2026-08-30** | **855 KB** | **Current version — in `data/workbook/`** (not this archive). Phase 3/4 corrected workbook. |
+| Master_Data_Phase_34_corrected.xlsx | 2026-08-30 | 856 KB | Phase 3/4 corrected workbook. Superseded by `Master_Data_Final.xlsx`. Moved to archive 2026-08-31. |
 
 ## Notes
 
 - The `.ods` originals (`Master_Data_NEW.ods` etc.) were the live SharePoint workbook exports and are not committed to this repository — only the `.xlsx` derivatives are present here.
 - All versions from CORRECTED_2026-08-13 onward use `release_date` as the entry anchor. Versions before that date used `report_date` and are fully superseded.
-- Do not use any archived version for analysis — use the current `Master_Data_Phase_34_corrected.xlsx`.
+- Do not use any archived version for analysis — use the current `Master_Data_Final.xlsx`.
+
+## Master_Data_Final.xlsx
+
+Current version as of 2026-08-31. Supersedes `Master_Data_Phase_34_corrected.xlsx`. Changes from that version:
+- Six earlier working tabs hidden (retained but not visible by default)
+- Extension rank correlation updated to 0.2515
+- Deployed constants block added to `Start_Here` tab
