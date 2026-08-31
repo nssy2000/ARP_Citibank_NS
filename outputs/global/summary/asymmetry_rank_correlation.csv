@@ -1,2 +1,10 @@
-n,spearman_rho,p_value
-268,0.2288,0.0002
+# Spearman rank correlations between blended score and overnight return — N=232 clean events
+# Generated: 2026-08-31
+# Weights: (0.80, 0.20, 0.0, 0.0) micro/macro/news/quant; thresholds hold_upper=0.20, hold_lower=-0.10
+# Exclusions: 25 worksheet contamination + 2 misattributed (SPOT_FQ1_2026, DIS_FQ1_2025) + 9 timing = 36 excluded; 268 - 36 = 232 clean
+# SUPERSEDES: the previously committed version reported spearman_rho=0.2288, n=268, p=0.0002.
+#   That figure was computed on the pre-exclusion universe (N=268) and did not reproduce
+#   from any tested population or sign combination at N=232. It is superseded by this file.
+quantity,n,spearman_rho,p_value,note
+signed,232,0.2565,0.000078,Spearman(blended_score, ret_overnight) — signed; cited in dissertation as primary rank-correlation figure
+absolute,232,0.1903,0.003612,Spearman(|blended_score|, |ret_overnight|) — unsigned magnitude correlation; cited in dissertation Appendix F
