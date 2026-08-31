@@ -93,7 +93,7 @@ report date, and the price pair used to compute the overnight gap.
 ├── data/
 │   ├── workbook/           Master data workbook
 │   │   ├── Master_Data_Phase_34_corrected.xlsx   Current version
-│   │   └── archive/        Five superseded workbook versions with provenance README
+│   │   └── archive/        Six superseded workbook versions with provenance README
 │   ├── human/
 │   │   ├── human_decisions_export_2026-08-12.csv Human rater decisions (all events)
 │   │   └── notes/          Rater reading notes (PDFs, one per rater/event)
@@ -151,7 +151,9 @@ specification (see `Model_Arm_Gap_Spec.md`). `ext2` is the holding-period curve,
 
 **Timestamped variants** — files named `*_extension_2026_08_22.csv` or `*_2026_08_13*`
 are snapshots from earlier weight/threshold regimes. The unsuffixed files (e.g.
-`backtest_equity.csv`, `global_outcome_calibration_phase2.csv`) are current.
+`backtest_equity.csv`, `global_outcome_calibration_phase2.csv`) are the most recent
+versions, but several predate the 36-event exclusion and carry N=268 rather than N=232.
+See `outputs/global/summary/FILE_STATUS.md` for the authoritative list.
 
 ---
 
@@ -200,10 +202,7 @@ python llm_macro.py                           # score FOMC minutes (cached, idem
 | File | What it is |
 |---|---|
 | `README.md` | This file |
-| `handoff.md` | Session-to-session development state notes; describes pipeline decisions and the phase-2 build history |
-| `NEW_VS_OLD_report.md` | Figure-by-figure reconciliation of results across the two weight/threshold regimes (0.55/0.45 → 0.80/0.20); identifies which claims changed and which broke |
-| `Model_Arm_Gap_Spec.md` | Working specification for the five remaining model-arm robustness items (multi-horizon return matrix, holding-period curve, section ablation, FinBERT baseline, walk-forward build) |
-| `repo_inventory.md` | Directory and file audit generated at the time of publication: file counts, sizes, Python file status (live / standalone / dead), output file provenance |
-| `PUSH_CHECKLIST.md` | Preparation log documenting what was excluded from this repository before publication and why (transcripts, internal debug scripts, macOS artifacts) |
+| `Model_Arm_Gap_Spec.md` | Working specification for the model-arm robustness items (multi-horizon return matrix, holding-period curve, section ablation, FinBERT baseline, walk-forward build) |
 | `verify_all.txt` | Manual verification log: cross-checks between computed figures and workbook entries, run during the 2026-08-13 corrections pass |
-| `Methodology_Deck.pptx` | Presentation slides describing the pipeline methodology |
+| `outputs/global/summary/FILE_STATUS.md` | Manifest of the global summary folder: identifies which files are cited in the dissertation, which are pre-exclusion (N=268/N=233), and which are from the superseded 0.55/0.45 regime |
+| `docs/TRANSCRIPT_SOURCES.md` | Full list of excluded earnings call transcripts with company, fiscal quarter, and source provider, sufficient to reconstruct the corpus |
