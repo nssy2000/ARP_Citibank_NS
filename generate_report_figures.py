@@ -24,7 +24,7 @@ FIG_WIDTH = 6
 DPI = 300
 RNG_SEED = 20260709
 
-BASE = '/Users/nigelsim/Desktop/arp-master-5'
+BASE = os.path.dirname(os.path.abspath(__file__))
 OUT  = os.path.join(BASE, 'report_figures')
 os.makedirs(OUT, exist_ok=True)
 

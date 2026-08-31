@@ -524,6 +524,14 @@ def build_bundle_text(report: ReportSpec) -> tuple[str, list[dict[str, Any]], li
         header = BUNDLE_SECTION_HEADERS.get(doc.doc_type, doc.doc_type.upper())
         try:
             extraction = extract_doc_text(doc.source_pdf)
+        except FileNotFoundError as exc:
+            msg = (
+                f"{doc.doc_type}: file_not_found: {exc} — "
+                "document excluded for copyright; score will differ from the committed result"
+            )
+            combined_warnings.append(msg)
+            per_doc_meta.append({"doc_type": doc.doc_type, "source_pdf": str(doc.source_pdf), "error": str(exc)})
+            continue
         except ValueError as exc:
             combined_warnings.append(f"{doc.doc_type}: extraction_failed: {exc}")
             per_doc_meta.append({"doc_type": doc.doc_type, "source_pdf": str(doc.source_pdf), "error": str(exc)})

@@ -177,8 +177,15 @@ python experiments/asymmetry_conviction_analysis.py
 python experiments/holding_period_curve.py
 ```
 
+**Note on rescoring:** running `run_reports.py` will produce scores that differ from
+the committed outputs, because the earnings call transcripts are not in this repository
+(see `docs/TRANSCRIPT_SOURCES.md`) and each original bundle contained one. The
+pipeline will skip any missing document with a warning and continue, but the resulting
+blended scores will not match the committed `outputs/p2_*/results/*.json` files. Those
+committed outputs are the record of what was scored and published in the dissertation.
+
 To rescore events from source documents (requires a DeepSeek API key in `.env` as
-`DEEPSEEK_API_KEY=...`):
+`DEEPSEEK_API_KEY=...`; copy `.env.example` to `.env` and fill in the key):
 
 ```bash
 python run_reports.py --issuer p2_nvidia      # score one issuer's micro layer
