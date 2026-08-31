@@ -120,7 +120,7 @@ report date, and the price pair used to compute the overnight gap.
 │   ├── export_rows.py      Export LLM decisions to group workbook TSV format
 │   └── audit/              Eight consistency-check scripts (dates, leakage, coverage)
 │
-├── manifests/              Per-issuer document lists (98 JSON files, p2_<slug>_reports.json)
+├── manifests/              Per-issuer document lists (91 JSON files, p2_<slug>_reports.json)
 │
 ├── prompts/                LLM prompt template (llm_analysis_prompt_template.md)
 │
@@ -210,4 +210,4 @@ python llm_macro.py                           # score FOMC minutes (cached, idem
 | `outputs/global/summary/FILE_STATUS.md` | Manifest of the global summary folder: identifies which files are cited in the dissertation, which are pre-exclusion (N=268/N=233), and which are from the superseded 0.55/0.45 regime |
 | `docs/TRANSCRIPT_SOURCES.md` | Full list of excluded earnings call transcripts with company, fiscal quarter, and source provider, sufficient to reconstruct the corpus |
 | `data/workbook/Master_Data_Final.xlsx` | Current master data workbook. Open directly in Excel. Supersedes `Master_Data_Phase_34_corrected.xlsx` (now in `data/workbook/archive/`). |
-| `prototype/ARP_Prototype.html` | Static single-file replay UI. Open with any browser from disk (File → Open, or `open prototype/ARP_Prototype.html`). Requires no API key, no server, and fetches nothing at runtime. Contains 20 stored events with embedded scores, summaries, and evidence; no rater names are exposed. Note: figures are from the 2026-08-15 snapshot (N=233, 0.55/0.45 weights); the deployed headline figures are in `item_e_walkforward.json`. |
+| `prototype/ARP_Prototype.html` | Static single-file replay UI. Open with any browser from disk (File → Open, or `open prototype/ARP_Prototype.html`). Requires no API key, no server, and fetches nothing at runtime. Contains 20 stored events with embedded scores, summaries, and evidence; no rater names are exposed. Reflects the deployed configuration: weights 0.80/0.20, N=232, selectivity 62.4% (68/109), Spearman ρ = 0.2565 — the same headline figures as the dissertation. |
