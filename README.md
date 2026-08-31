@@ -80,7 +80,9 @@ report date, and the price pair used to compute the overnight gap.
 │   ├── global/summary/     Canonical headline files: item_e_walkforward.json,
 │   │                       global_outcome_calibration_phase2.csv, backtest_equity.csv,
 │   │                       ext2_holding_curve.csv, asymmetry_rank_correlation.csv,
-│   │                       asymmetry_recall_gap_test.csv, api_cost_ledger.csv
+│   │                       asymmetry_recall_gap_test.csv, api_cost_ledger.csv.
+│   │                       See FILE_STATUS.md in this folder for a full manifest
+│   │                       distinguishing current, pre-exclusion, and old-regime files.
 │   ├── p2_<issuer>/        Per-issuer micro-layer outputs
 │   │   ├── results/        Canonical scored JSONs (one per event)
 │   │   ├── extracted/      Cached plain-text extracts (speeds rescoring)
