@@ -56,8 +56,7 @@ purposes but should not be cited.
 |---|---|---|
 | Selectivity 62.4% (68/109) | `outputs/global/summary/item_e_walkforward.json` | `in_sample_deployed.accuracy` |
 | Mean net per trade +1.796% | `outputs/global/summary/item_e_walkforward.json` | `in_sample_deployed.mean_net_pct` |
-| Spearman ρ = 0.2288 (\|score\| vs \|return\|) | `outputs/global/summary/asymmetry_rank_correlation.csv` | `spearman_rho` |
-| BUY/SELL recall gap p = 0.004 | `outputs/global/summary/asymmetry_recall_gap_test.csv` | `p_value_ztest` |
+| Signed Spearman ρ = 0.2565 (score vs return, N=232) | `outputs/global/summary/asymmetry_rank_correlation.csv` | `spearman_rho` where `quantity=signed` |
 | Rank correlation by horizon | `outputs/global/summary/ext2_holding_curve.csv` | `rank_correlation` column |
 | Per-event scoring records | `outputs/p2_<issuer>/results/<TICKER>_FQ<N>_<YEAR>.json` | one file per event |
 
