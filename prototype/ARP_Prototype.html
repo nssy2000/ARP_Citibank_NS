@@ -358,7 +358,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 24px 46px;font-size:11.5px;color
 <section id="p-ed" class="page">
   <div class="hd">
     <h1>Edge</h1>
-    <p class="sub">What the signal is worth on 233 clean events, and the four questions a desk asks before
+    <p class="sub">What the signal is worth on 232 clean events, and the four questions a desk asks before
     putting size behind it: does it survive my costs, how long does it live, how often does it stay
     silent, and what did you try that did not work.</p>
   </div>
@@ -368,18 +368,18 @@ footer{max-width:1240px;margin:0 auto;padding:0 24px 46px;font-size:11.5px;color
       <div class="h">
         <div class="lbl">When it commits</div>
         <div class="fig" id="f-sel"></div>
-        <div class="note" style="margin-top:6px">62 of 95 graded events, against a 54.7% always-down floor.
-        Margin +10.5pp, p = 0.024. This is the number that says it picks its battles well.</div>
+        <div class="note" style="margin-top:6px">68 of 109 graded events, against a 54.1% always-down floor.
+        Margin +8.3pp, p = 0.050. This is the number that says it picks its battles well.</div>
       </div>
       <div class="sp"></div>
       <div class="h">
         <div class="lbl">Counting silence as a miss</div>
         <div class="fig" id="f-cov"></div>
-        <div class="note" style="margin-top:6px">62 of 147 events that moved, against a 54.4% floor.
-        Margin −12.2pp. The model held on 52 events the market moved.</div>
+        <div class="note" style="margin-top:6px">68 of 145 events that moved, against a 54.5% floor.
+        Margin −7.6pp. The model held on 36 events the market moved.</div>
       </div>
     </div>
-    <p class="note"><strong>Same 62 correct calls, two denominators.</strong> A desk that uses the signal as a
+    <p class="note"><strong>Same 68 correct calls, two denominators.</strong> A desk that uses the signal as a
     filter reads the left figure. A desk that expects coverage of its whole reporting calendar reads the
     right one. Quoting either alone is the single easiest way to misread this study.</p>
     <div class="basis">accuracy_reconciliation_42_vs_65.md · effective_sample_funnel.md · item_e_walkforward.json</div>
@@ -388,7 +388,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 24px 46px;font-size:11.5px;color
   <div class="sec"><h2>Where the events go</h2>
     <div class="grid g-53">
       <figure><div id="c-funnel"></div>
-        <figcaption>268 scored documents reduce to 95 that can carry a directional claim. The two large
+        <figcaption>268 scored documents reduce to 109 that can carry a directional claim. The two large
         cuts are the model choosing not to speak, and moves too small to grade.</figcaption></figure>
       <div>
         <table class="led" id="l-funnel"></table>
@@ -413,7 +413,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 24px 46px;font-size:11.5px;color
         <table class="led" id="l-cost" style="margin-top:14px"></table>
         <p class="note" id="cost-note"></p>
         <div class="basis">ext9_cost_grid.csv · 171 trades on the extension basis, which is wider than the
-        146-trade clean basis behind the +1.86% headline. The gap between 1.72% and 1.86% at 10 bps is
+        168-trade clean basis behind the +1.80% headline. The gap between 1.72% and 1.80% at 10 bps is
         the basis, not the costs.</div>
       </div>
     </div>
@@ -428,10 +428,10 @@ footer{max-width:1240px;margin:0 auto;padding:0 24px 46px;font-size:11.5px;color
         <table class="led" id="l-decay"></table>
         <p class="note"><strong>Exit at the open.</strong> The overnight window is pre-registered and fixed.
         Every longer horizon is recalibrated and secondary, and by day five the interval on the mean
-        includes zero. Rank correlation decays from 0.236 (p = 0.0003) to 0.058 (p = 0.380) over the same
+        includes zero. Rank correlation decays from 0.2565 to 0.0951 (p = 0.149) over the same
         span, which rules out post-earnings drift as the mechanism. There is no version of this signal
         you hold for a week.</p>
-        <div class="basis">ext2_holding_curve.csv · run 20260812_183842 · 233 clean, 146 traded</div>
+        <div class="basis">ext2_holding_curve.csv · run 20260820_020202 · 232 clean, 168 traded</div>
       </div>
     </div>
   </div>
@@ -441,13 +441,13 @@ footer{max-width:1240px;margin:0 auto;padding:0 24px 46px;font-size:11.5px;color
       <div>
         <table class="led" id="l-conf"></table>
         <div class="basis">asymmetry_direction_confusion.csv · 268 scored documents, the diagnostic set,
-        wider than the 233-event clean corpus. Do not read these rows against the 65.3% figure.</div>
+        wider than the 232-event clean corpus. Do not read these rows against the 62.4% figure.</div>
       </div>
       <div>
         <p class="note" style="margin-top:0">The failure mode is abstention, not error. On events that
         actually rose, the model returned HOLD 34.7% of the time. On events that fell it returned HOLD
         32.5% of the time. Those are the trades a desk never sees, and they do not appear anywhere in
-        the 65.3% figure.</p>
+        the 62.4% figure.</p>
         <p class="note">Read alongside the size of the move: accuracy is 88% on moves above 10% and 57%
         on moves of 2% to 5%. The size of the move is not knowable at decision time, so that split
         cannot be traded on directly. It is a reason to weight a call, not to place one.</p>
@@ -544,8 +544,8 @@ footer{max-width:1240px;margin:0 auto;padding:0 24px 46px;font-size:11.5px;color
 
   <div class="sec"><h2>The honest summary</h2>
     <p style="font-size:14.5px;line-height:1.6">The system reads an earnings document in seconds and
-    produces a score that ranks returns at rho 0.236, p = 0.0003, with no threshold applied. The decision
-    layer built on top of it cannot be calibrated at 233 events. So the defensible product is a reading
+    produces a score that ranks returns at rho 0.2565, p < 0.001, with no threshold applied. The decision
+    layer built on top of it cannot be calibrated at 232 events. So the defensible product is a reading
     aid that gets a person to a judgement faster, with the evidence attached so the judgement can be
     checked. Not a system that makes the judgement.</p>
     <div class="basis" id="prov"></div>
@@ -737,7 +737,7 @@ function flagsFor(e){
   if(s==='Technology')
     o.push(['md','Readers traded 93% of technology events and the model held on 60%. A HOLD here may be the model, not the document.']);
   if(e.model_decision==='HOLD')
-    o.push(['lo','This is a HOLD, and HOLD is the weak point. The model stayed silent on 52 events that moved more than 2%, and none of them appear in its headline accuracy.']);
+    o.push(['lo','This is a HOLD, and HOLD is the weak point. The model stayed silent on 36 events that moved more than 2%, and none of them appear in its headline accuracy.']);
   else
     o.push(['hi','Accuracy is 88% on moves above 10% and 57% on moves of 2% to 5%. The size of the move is not knowable now.']);
   if(e.human_decision&&e.human_decision!==e.model_decision)
@@ -963,9 +963,9 @@ function chartDecay(){
     font-family="var(--mono)" fill="var(--ink3)">${p.label}</text>`).join('');
   const first=d[0],last=d[n-1];
   const anno=`<text x="${x(0)+9}" y="${y(first.mean_net)-9}" font-size="11" font-weight="700"
-      font-family="var(--mono)" fill="var(--accent-deep)">+1.86%</text>
+      font-family="var(--mono)" fill="var(--accent-deep)">+1.80%</text>
     <text x="${x(n-1)}" y="${y(last.mean_net)-11}" text-anchor="end" font-size="11" font-weight="700"
-      font-family="var(--mono)" fill="var(--ink2)">+0.69%</text>`;
+      font-family="var(--mono)" fill="var(--ink2)">+1.45%</text>`;
   return `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img"
     aria-label="Mean net per trade decaying from overnight to ten days, with confidence interval">
     ${grid}${band}${line}${dots}${anno}${labs}
@@ -994,7 +994,7 @@ function drawEdge(){
   $('l-conf').innerHTML=D.confusion.map(c=>
     `<tr><td>Market went ${c.truth_class==='HOLD'?'nowhere':c.truth_class==='BUY'?'up':'down'},
        model returned HOLD</td><td>${fmtP(c.hold_rate)}</td></tr>`).join('')+
-    `<tr class="em"><td>Events where the model gave no direction at all</td><td>87 of 233</td></tr>`;
+    `<tr class="em"><td>Events where the model gave no direction at all</td><td>64 of 232</td></tr>`;
 
   $('l-arms').innerHTML=D.arms.map(a=>
     `<tr><td>${esc(a.name)}</td><td class="r n">${a.acc}</td><td class="r n">$${a.cpc}</td>
@@ -1063,9 +1063,9 @@ function download(){
     if((q.flag||'').startsWith('UNCERTAIN'))L.push('      [flagged uncertain]');
     L.push('');});
   L.push('HOW MUCH TO TRUST IT',thin);
-  L.push('  65.3% of the calls it commits to are right (62 of 95 graded), against a 54.7%');
-  L.push('  always-down floor. Counting every HOLD on a moving event as a miss it is 42.2%,');
-  L.push('  which is below the floor. Both are the same 62 correct calls on two denominators.');
+  L.push('  62.4% of the calls it commits to are right (68 of 109 graded), against a 54.1%');
+  L.push('  always-down floor. Counting every HOLD on a moving event as a miss it is 46.9%,');
+  L.push('  which is below the floor. Both are the same 68 correct calls on two denominators.');
   L.push('  Overnight only: the interval on the mean includes zero by day five.');
   L.push('  Thresholds were fitted in sample. No equity curve and no Sharpe are quoted,');
   L.push('  because positions overlap and the figure once called a Sharpe was a t-statistic.','');
