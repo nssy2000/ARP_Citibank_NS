@@ -18,14 +18,15 @@ that appear in the submitted dissertation.
 | File | Dissertation use |
 |---|---|
 | `item_e_walkforward.json` | Primary headline figures: selectivity 62.4% (68/109), mean net per trade +1.796%, N=232. Fields `in_sample_deployed.accuracy` and `in_sample_deployed.mean_net_pct`. |
-| `ext2_holding_curve.csv` | Holding-period rank-correlation curve (overnight 0.2565, 1d 0.1952, 3d 0.1353, 5d 0.0972, 10d 0.0951 — monotonically decreasing). Also the source of the signed overnight Spearman ρ = 0.2565 cited as the primary rank-correlation figure. N=232, clean_n confirmed in file header. |
+| `ext2_holding_curve.csv` | Holding-period curve. Rank correlation monotonically decreasing: overnight 0.2565, 1d 0.1952, 3d 0.1353, 5d 0.0972, 10d 0.0951. Also the source of the signed overnight Spearman ρ = 0.2565 cited as the primary rank-correlation figure. Mean net per trade is not monotonic; Section 3.3 of the dissertation explains why. N=232, clean_n confirmed in file header. |
 | `asymmetry_rank_correlation.csv` | Two rank-correlation figures: signed Spearman(score, ret) = 0.2565 p=0.000078 (dissertation primary); Spearman(\|score\|, \|ret\|) = 0.1903 p=0.0036 (Appendix F). N=232. Regenerated 2026-08-31; see file header for supersession note on the prior 0.2288/N=268 value. |
 | `frontier_table.csv` | Comparison table: deployed model vs Loughran-McDonald, FinBERT, and majority-class baselines under two grading conventions (FLAT-excluded / FLAT-as-wrong). N=186 (eval split, 80% of N=233 by date). |
 | `finbert_eval_results.csv` | FinBERT per-event predictions for the phase-2 dev/eval split. N=186 eval events. Inputs to `frontier_table.csv`. |
 | `lm_baseline_eval_results.csv` | Loughran-McDonald per-event predictions, same split. N=186. Inputs to `frontier_table.csv`. |
 | `finbert_extension_results.csv` | FinBERT on the 93-event extension corpus (energy/utilities issuers). |
 | `lm_baseline_extension_results.csv` | Loughran-McDonald on the same 93-event extension corpus. |
-| `section_ablation_summary.csv` | Section ablation accuracy table: full bundle vs press-release-only vs transcript-only vs presentation-only. N=200 events for which all section arms were available. Re-thresholded at 0.20/−0.10 on 2026-08-19 (gate passed); underlying LLM scores are from run 20260812T131110Z. |
+| `section_ablation_summary.csv` | Section ablation accuracy table: full bundle vs press-release-only vs transcript-only vs presentation-only. N=200 events for which all section arms were available. Re-thresholded at 0.20/−0.10 on 2026-08-19 (gate passed); underlying LLM scores are from run 20260812T131110Z. The dissertation's HOLD-excluded four-arm accuracy figures (31/48=64.6%, 24/37=64.9%, 29/45=64.4%, 27/39=69.2%) are derived from this file's `correct_overnight` and `trades_overnight` columns by computing correct/(correct+wrong), i.e. excluding flat trades from the denominator. |
+| `section_ablation_cost_per_correct.csv` | Cost-per-correct-call breakdown by arm. The `accuracy_hold_excluded` column was computed at the superseded 0.25/−0.05 thresholds (using the pre-computed `signal` column in `section_ablation_results.csv`) and does not match the dissertation's figures; use `section_ablation_summary.csv` for cited accuracy figures. The token and cost columns remain valid regardless of threshold. |
 | `section_ablation_extension_summary.csv` | Section ablation on the 93-event extension corpus. |
 | `human_vs_llm_statistics.csv` | Human-arm vs LLM-arm comparison statistics. N=170 paired events (first-rater-per-event, in-LLM-universe, exclusions applied). |
 | `human_vs_llm_direction_decomposition.csv` | BUY/SELL/HOLD accuracy decomposition by call direction for both arms. Same N=170 paired population. |
@@ -66,16 +67,25 @@ in the dissertation is drawn from any of these files.
 | `ext9_cost_grid_summary.json` | n_predictions: 268 | Breakeven analysis on pre-exclusion universe (162.81bps). Superseded for the N=232 figure. |
 | `kappa_near_independence.csv` | n_paired_events: 171 (pre-DIS exclusion, N=233) | Cohen's kappa computation on the N=233 universe (DIS_FQ1_2025 not yet excluded). |
 | `per_trade_stats.csv` | Header says "N=233 clean universe" | Pre-dates the DIS_FQ1_2025 exclusion that reduced N from 233 to 232. |
+| `workbook_metrics.csv` | N=233 pre-exclusion | Contains labelled headline figures for the N=233 universe (selectivity 65.3%, traded 146/233, graded 95). These are the pre-DIS-exclusion figures. The deployed N=232 headline is selectivity 62.4% (68/109), mean net +1.796%, as stated in the README and sourced from `item_e_walkforward.json`. Do not cite `workbook_metrics.csv` figures without noting the N=233 population. |
 
 ---
 
-## 3. Old-regime — 0.55/0.45 weights or ±0.25/−0.05 thresholds
+## 3. Informational — not cited in the dissertation
+
+| File | Note |
+|---|---|
+| `item_e_combined_walkforward.json` | Walk-forward results for the combined N=325 universe (N=232 phase-2 + N=93 extension). Not cited in the dissertation; the phase-2-only `item_e_walkforward.json` (Section 1) is the cited source. |
+
+---
+
+## 4. Old-regime — 0.55/0.45 weights or ±0.25/−0.05 thresholds
 
 These files were produced under the weight/threshold configuration that was
 superseded on 2026-08-19 (promoted from 0.55/0.45, ±0.25/−0.05 to
 0.80/0.20, +0.20/−0.10). They are retained as a record of the intermediate
 state and as gate references. No figure in the dissertation is drawn from
-either file.
+any of these files.
 
 | File | Regime | Note |
 |---|---|---|
